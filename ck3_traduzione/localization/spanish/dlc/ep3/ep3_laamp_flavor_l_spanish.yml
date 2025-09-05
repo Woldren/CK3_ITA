@@ -127,6 +127,7 @@
  ep3_camp_temperament.0040.b: ""Porterò a termine il lavoro #EMP personalmente#!.""
  ep3_camp_temperament.0040.c: ""Che grande dimostrazione di lealtà!.""
  ep3_camp_temperament.0040.d: ""Come desiderate.""
+ ep3_camp_temperament.0040.d.tt: "[follower.GetShortUIName|U] occupa un nuovo slot $game_concept_success_chance_max_i$ come [agent|E] di tipo [GetAgentSlotType( 'agent_devotee' ).GetName] nello [scheme|E] [my_scheme.GetName] contro [my_scheme.GetTargetCharacter.GetTitledFirstName]"  
  ep3_camp_temperament.0040.e: ""Fate sapere a #EMP tutti#! quanto sono straordinari[ROOT.Char.Custom('DE_END_PRO_S_N')].""
  devotee_agent_desc: "[recipient.GetShortUIName] è [recipient.Custom('DE_ART_DEF_P_A')] tu[recipient.Custom('DE_END_PRO_S_N')] $agent_devotee$"
  ep3_arrogant_schemer_modifier: "Cospiratore rinomato"

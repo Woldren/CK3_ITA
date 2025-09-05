@@ -391,7 +391,7 @@
 
  agent_theologian: "Teologo"
  agent_theologian_i: "[scheme_speed_i]"
- agent_theologian_desc.flavour: "#WEAK There's more to religion than mere passion: rhetoric, resolve, and innovative thinking are the heart and breath of scholarship.#!"
+ agent_theologian_desc.flavour: "#WEAK La religione non è fatta solo di fervore: retorica, fermezza e pensiero innovativo sono il cuore e il respiro della sapienza.#!"
  agent_theologian_desc.requirements: "$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] & [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('just').GetName( GetNullCharacter )] e [GetTrait('stubborn').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('arbitrary').GetName( GetNullCharacter )] e [GetTrait('fickle').GetName( GetNullCharacter )]"
  agent_theologian_desc: "$agent_theologian_desc.flavour$\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$agent_theologian_desc.requirements$"
  agent_theologian_success: "$agent_theologian$"
@@ -400,25 +400,25 @@
 
  agent_herald: "Araldo"
  agent_herald_i: "[scheme_speed_i]"
- agent_herald_desc: "#WEAK A good herald is loud, emphatic, and bold to a fault.#!\n$EFFECT_LIST_BULLET$ Reduces [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Requires [diplomacy_i] [diplomacy|E] & [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ #P Benefits#! from [traits|E] like [GetTrait('arrogant').GetName( GetNullCharacter )] and [GetTrait('diligent').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ #N Suffers#! from [traits|E] like [GetTrait('humble').GetName( GetNullCharacter )] and [GetTrait('lazy').GetName( GetNullCharacter )]"
+ agent_herald_desc: "#WEAK Un buon araldo dev’essere forte di voce, enfatico e spavaldo fino all’eccesso.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] & [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('arrogant').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('humble').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
 
  agent_drillmaster: "Istruttore"
  agent_drillmaster_i: "[scheme_speed_i]"
- agent_drillmaster_desc: "#WEAK Remember: we drill at our best so we can fight at our worst.#!\n$EFFECT_LIST_BULLET$ Reduces [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Requires [martial_i] [martial|E]\n$EFFECT_LIST_BULLET$ #P Benefits#! from [traits|E] like [GetTrait('diligent').GetName( GetNullCharacter )] and [GetTrait('patient').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ #N Suffers#! from [traits|E] like [GetTrait('content').GetName( GetNullCharacter )] and [GetTrait('lazy').GetName( GetNullCharacter )]"
+ agent_drillmaster_desc: "#WEAK Ricorda: ci addestriamo al meglio per poter combattere al peggio.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [martial_i] [martial|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('diligent').GetName( GetNullCharacter )] e [GetTrait('patient').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('content').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
 
  agent_tracker: "Segugio"
  agent_tracker_i: "[scheme_speed_i]"
- agent_tracker_desc: "#WEAK Mud's still damp where the fool trod in it; come on, we can't be more than an hour behind!#!\n$EFFECT_LIST_BULLET$ Fornisce [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [martial_i] [martial|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] e [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('impatient').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
+ agent_tracker_desc: "#WEAK Il fango è ancora umido dove lo stolto ha messo piede; avanti, non può avere più di un’ora di vantaggio!#!\n$EFFECT_LIST_BULLET$ Fornisce [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [martial_i] [martial|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] e [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('impatient').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
 
- agent_planner: "Panificatore"
+ agent_planner: "Stratega"
  agent_planner_i: "[scheme_speed_i]"
- agent_tracker_desc: "#WEAK Mud's still damp where the fool trod in it; come on, we can't be more than an hour behind!#!\n$EFFECT_LIST_BULLET$ Reduces [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Requires [martial_i] [martial|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ #P Benefits#! from [traits|E] like [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] and [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ #N Suffers#! from [traits|E] like [GetTrait('impatient').GetName( GetNullCharacter )] and [GetTrait('lazy').GetName( GetNullCharacter )]"
+ agent_planner_desc: "#WEAK Non è la forza cieca che decide le sorti, ma il calcolo e l’astuzia.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [martial_i] [martial|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] e [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('impatient').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
 
  agent_supplier: "Rifornitore"
  agent_supplier_i: "[scheme_speed_i]"
- agent_supplier_desc: "#WEAK Connections, timing, and cunning are needed to excel at merchantry. Logistics combines all three.#!\n$EFFECT_LIST_BULLET$ Reduces [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Requires [stewardship_i] [stewardship|E] & [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ #P Benefits#! from [traits|E] like [GetTrait('avaricious').GetName( GetNullCharacter )] and [GetTrait('overseer').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ #N Suffers#! from [traits|E] like [GetTrait('shy').GetName( GetNullCharacter )] and [GetTrait('stubborn').GetName( GetNullCharacter )]"
+ agent_supplier_desc: "#WEAK Servono legami, tempismo e astuzia per eccellere nel commercio. La logistica le racchiude tutte.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [stewardship_i] [stewardship|E] & [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('avaricious').GetName( GetNullCharacter )] e [GetTrait('overseer').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('stubborn').GetName( GetNullCharacter )]"
 
-# Political Scheme Agents
+ # Political Scheme Agents
  scheme_agent_aptitude.scaled_house_power_score: "Scaled [powerful_family_rating|E]"
 
  agent_intermediary: "Intermediario"

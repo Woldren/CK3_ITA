@@ -208,7 +208,7 @@
  message_filter_raid_lost: "@raid_icon! Razzia Ostile"
  message_filter_raid_lost_desc: "Uno dei tuoi [holdings|E] viene [Concept( 'raided', 'saccheggiato' )|E]"
  # SIEGE
- mmessage_filter_siege_won: "@onager_icon! Assedio Completato"
+ message_filter_siege_won: "@onager_icon! Assedio Completato"
  message_filter_siege_won_desc: "Il tuo [army|E] conquista un [holding|E]"
  message_filter_siege_won_loot: "@onager_icon! Bottino dell'Assedio"
  message_filter_siege_won_loot_desc: "Ottieni [raid_loot|E] da un [siege|E] riuscito"

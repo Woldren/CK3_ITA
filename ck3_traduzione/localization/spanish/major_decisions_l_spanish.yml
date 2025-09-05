@@ -1,10 +1,15 @@
 ﻿l_spanish:
  major_decisions.1001.t:0 "Carne divina"
-major_decisions.1001.desc:0 ""Siamo stati messi su questa terra per servire i nostri simili" la voce del [court_chaplain.GetCouncilTitle] [court_chaplain.GetName] risuona nella sala da pranzo. "Accettando il dono della carne accetti anche il suo amore."\n\nI servi - quelli che sono ancora con noi - hanno fatto un lavoro meraviglioso; banchettiamo fino a tarda notte, ubriacandoci di [ROOT.Char.Custom('RegionalDrink')] e del gusto della divinità umana."
+ major_decisions.1001.desc:0 ""Siamo stati messi su questa terra per servire i nostri simili" la voce del [court_chaplain.GetCouncilTitle] [court_chaplain.GetName] risuona nella sala da pranzo. "Accettando il dono della carne accetti anche il suo amore."\n\nI servi - quelli che sono ancora con noi - hanno fatto un lavoro meraviglioso; banchettiamo fino a tarda notte, ubriacandoci di [ROOT.Char.Custom('RegionalDrink')] e del gusto della divinità umana."
+ major_decisions.1001.desc_landless: "\"Servire i nostri simili; cosa significa davvero?\" domando retoricamente, mentre il mio sguardo tagliente scorre sui volti dei miei seguaci attorno alla tavola colma. \"Non è forse amare e prendersi cura di ogni aspetto dell’essere umano?\""
+ major_decisions.1001.desc_outro: "\n\n\"Accettando il dono della carne, accettate anche l’amore di [ROOT.Char.GetFaith.HighGodHerHis|U].\"\n\nI servi — quelli che sono ancora con noi — hanno fatto un lavoro meraviglioso; banchettiamo fino a notte fonda, ubriachi di [ROOT.Char.Custom('RegionalDrink')] e del sapore della divinità umana."  
  major_decisions.1001.a:0 "Dammi una mano e passami ancora [ROOT.Char.Custom('RegionalDrink')]!"
-
+ 
+ 
+ major_decisions.1002.desc_cannibal_landless: "[cannibal.GetName] e il suo [cannibal.Custom('GetCourt')|l] hanno abbracciato pubblicamente le meraviglie del cannibalismo.\n\nNon ignoriamolo — sono estasiato nel sapere che il gusto per la carne si sta diffondendo più che mai!"
  major_decisions.1002.t:0 "Festino macrabo"
  major_decisions.1002.desc:0 "Non posso credere a quello che sento: tutta la corte di [cannibal.GetName], persino il [court_chaplain.GetCouncilTitle], si è data al cannibalismo! Il sangue scorre per le strade mentre il gruppo infernale banchetta."
+ major_decisions.1002.desc_landless: "Fatico a credere a ciò che sento: l’intero [cannibal.Custom('GetCourt')|l] di [cannibal.GetName] ha abbracciato il cannibalismo!\n\nLe campagne si tingeranno di rosso mentre il suo gruppo infernale banchetterà nel sangue."
  major_decisions.1002.desc_cannibal:0 "[cannibal.GetName] ha convinto il suo [court_chaplain.GetCouncilTitle] ad adottare pubblicamente il cannibalismo. Sono lieto di sapere che il gusto per la carne si sta diffondendo più che mai!"
  major_decisions.1002.a:0 "Non vedo l'ora di cenare con [ROOT.Char.GetHerHim]!"
  major_decisions.1002.b:0 "Che [ROOT.Char.GetFaith.HighGodName] abbia pietà delle loro anime malvagie!"

@@ -133,5 +133,6 @@
  request_contract_assistance_interaction_desc:0 "Offri [gold|E] a [recipient.GetShortUINameNoTooltip] affinché si unisca a te in una delle tue [wars|E], giacché siete entrambi [struggle_involved|E] nella stessa [struggle|E]."
  request_contract_assistance_interaction_notification:0 "Le vostre truppe potrebbero essere molto utili per il mio conflitto; dobbiamo solo concordare un prezzo."
  request_contract_assistance_interaction_condition_tt:1 "Se il [war_contribution|E] di [recipient.GetShortUINamePossessive] è pari ad almeno [SCOPE.ScriptValue('saved_contribution_value')|Z0] al termine della [war|E]:"
-
+ 
+ share_known_secrets_interaction_extra_icon:0 "$hook_extra_icon$"
  no_activity_available:0 "Non ci sono [activity|E] disponibili"

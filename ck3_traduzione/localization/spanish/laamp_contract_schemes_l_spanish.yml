@@ -282,13 +282,13 @@
  #laamp_base_5021_desc_title: "Upstanding sword-hands,"
  #laamp_base_5021_desc: "You are called on for personal guard duty at short notice. You would stand at the shoulder of the [TaskContract.GetEmployer.GetTitleAsNameNoTooltip] of [TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier]."
 
- laamp_base_5031_contract_scheme: "Rustle Animals"
- laamp_base_5031_contract_scheme_action: "Rustle from"
- laamp_base_5031_contract_scheme_desc: "Herds of horses, cattle, even goats or sheep: stolen animals are incredibly profitable for those daring enough to take them, and when some [contractors|E] make it so easy...$laamp_contract_scheme_desc_general_boilerplate$"
+ laamp_base_5031_contract_scheme: "Ruba Animali"
+ laamp_base_5031_contract_scheme_action: "Ruba da"
+ laamp_base_5031_contract_scheme_desc: "Mandrie di cavalli, bovini, persino capre o pecore: gli animali rubati sono incredibilmente redditizi per chi ha l’audacia di prenderli, e quando certi [contractors|E] lo rendono così facile...$laamp_contract_scheme_desc_general_boilerplate$"
  laamp_base_5031_contract_scheme_desc_general: "$laamp_base_5031_contract_scheme_desc$"
  laamp_base_5031_contract_scheme_desc_success: "$laamp_contract_scheme_desc_success_boilerplate$"
- laamp_base_5031_desc_title: "People of [TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier],"
- laamp_base_5031_desc: "Your [TaskContract.GetEmployer.GetTitleAsNameNoTooltip] reminds you, once more, that the theft of livestock #EMP will#! be punished harshly, no matter the tally or the reason. You have been warned."
+ laamp_base_5031_desc_title: "Popolo di [TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier],"
+ laamp_base_5031_desc: "Il vostro [TaskContract.GetEmployer.GetTitleAsNameNoTooltip] vi ricorda, ancora una volta, che il furto di bestiame #EMP sarà#! punito severamente, qualunque sia il numero o il motivo. Siete stati avvertiti."
 
  #laamp_base_5041_contract_scheme: "Poach Lands"
  #laamp_base_5041_contract_scheme_action: "Poach from"
@@ -298,13 +298,14 @@
  #laamp_base_5041_desc_title: "Reprobates, bandits, and thieves,"
  #laamp_base_5041_desc: "The just [TaskContract.GetEmployer.GetTitleAsNameNoTooltip] of [TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier] reminds all vagabonds that poaching [TaskContract.GetEmployer.GetCapitalLocation.GetTitle.GetTierAsNameNoTooltip|l] land is strictly forbidden — and punishable by death."
 
- laamp_base_5031_contract_scheme: "Ruba Animali"
- laamp_base_5031_contract_scheme_action: "Ruba da"
- laamp_base_5031_contract_scheme_desc: "Mandrie di cavalli, bovini, persino capre o pecore: gli animali rubati sono incredibilmente redditizi per chi ha l’audacia di prenderli, e quando certi [contractors|E] lo rendono così facile...$laamp_contract_scheme_desc_general_boilerplate$"
- laamp_base_5031_contract_scheme_desc_general: "$laamp_base_5031_contract_scheme_desc$"
- laamp_base_5031_contract_scheme_desc_success: "$laamp_contract_scheme_desc_success_boilerplate$"
- laamp_base_5031_desc_title: "Popolo di [TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier],"
- laamp_base_5031_desc: "Il vostro [TaskContract.GetEmployer.GetTitleAsNameNoTooltip] vi ricorda, ancora una volta, che il furto di bestiame #EMP sarà#! punito severamente, qualunque sia il numero o il motivo. Siete stati avvertiti."
+ laamp_base_5051_contract_scheme: "Spremi la Popolazione Benestante"
+ laamp_base_5051_contract_scheme_action: "Sfrutta la Popolazione di"
+ laamp_base_5051_contract_scheme_desc: "[contractors|E] con capitali particolarmente ricche generano [courtiers|E] benestanti. Una bella lezione in un vicolo oscuro permette agli [adventurers|E] di trasferire quelle ricchezze altrove.$laamp_contract_scheme_desc_general_boilerplate$"
+ laamp_base_5051_contract_scheme_desc_general: "$laamp_base_5051_contract_scheme_desc$"
+ laamp_base_5051_contract_scheme_desc_success: "$laamp_contract_scheme_desc_success_boilerplate$"
+ laamp_base_5051_desc_title: "Buoni cittadini di [TaskContract.GetEmployer.GetCapitalLocation.GetTitle.GetBaseNameNoTier],"
+ laamp_base_5051_desc: "Sappiate che stiamo affrontando una #EMP piaga#! di piccoli furti. Portate con voi una buona mazza quando camminate per le strade, e restate al chiuso dopo il calar del sole — il [TaskContract.GetEmployer.GetTitleAsName] si occuperà di questi reietti."
+
 
 #################################################
  # Base Justicar Scheme Loc

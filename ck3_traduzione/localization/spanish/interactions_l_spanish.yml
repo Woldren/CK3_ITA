@@ -734,6 +734,8 @@
  ask_for_conversion_courtier_interaction_extra_icon:0 "$hook_extra_icon$"
  ask_for_conversion_courtier_interaction.tt:0 "Il [recipient.Custom('GetCourtier')|U] accetta la Conversione"
  ask_for_conversion_decline_notification:0 "[recipient.GetShortUINameNoTooltip] rifiuta la Conversione"
+ 
+ ASK_FOR_CONVERSION_RECIPIENT_INTRIGUE: "Differenza tra l’[intrigue_skill|E] di [recipient.GetShortUINamePossessive] e la tua: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_LEARNING:0 "Differenza tra l'[learning_skill|E] di [recipient.GetShortUIName] e la tua: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_DIPLOMACY:0 "Differenza tra la [diplomacy_skill|E] di [recipient.GetShortUIName] e la tua: $VALUE|=+0$"
  ASK_FOR_CONVERSION_CAN_NOT_CREATE_CADET_BRANCH:0 "[recipient.GetShortUIName] non è in grado di creare un [cadet_branch|E]: $VALUE|=+0$"
@@ -1408,6 +1410,7 @@
  SCHEME_PREDICTION_AGENTS_TT:0 "#T [agents|E] previsti che aderiranno:\n#![InteractionSchemeInfo.BuildPotentialAgents]"
  SCHEME_PREDICTION_NO_AGENTS:0 "#weak Nessuno#!"
  SCHEME_PREDICTION_AGENT:0 "[CHARACTER.GetShortUIName|U]\n"
+ SCHEME_PREDICTION_NO_CHANCE:0 "#X @warning_icon! Nessuna possibilità di successo!#!\n"
  SCHEME_PREDICTION_SUCCESS_TT: "#T [success_chance|E] Iniziale: [InteractionSchemeInfo.GetSuccessChance|%/V]\n#![SelectLocalization( LessThanOrEqualTo_CFixedPoint( InteractionSchemeInfo.GetSuccessChance, '(CFixedPoint)0' ), 'SCHEME_PREDICTION_NO_CHANCE', '' )][InteractionSchemeInfo.GetSuccessBreakdown]"
  SCHEME_PREDICTION_SECRECY_TT:1 "#T [secrecy|E] Prevista: [InteractionSchemeInfo.GetSecrecy|%/V]\n#! [InteractionSchemeInfo.GetSecrecyBreakdown]"
  SCHEME_PREDICTION_ON_DISCOVERY:1 "Quando il [scheme|E] viene eseguito e la [secrecy|E] è mantenuta:"

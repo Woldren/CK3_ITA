@@ -123,7 +123,11 @@
  loathsome_article:0 "un disgustoso"
  abhorrent_article:0 "un ripugnante"
  vile_article:0 "un vile"
-
+ telmatobios_article: "un $telmatobios$"
+ borborophagos_article: "un $borborophagos$"
+ hellenothreskos_article: "un $hellenothreskos$"
+ spondophthoros_article: "un $spondophthoros$"
+ 
  #InsultBehavior
  cold_hearted_behavior:0 "la crudeltà"
  evil_behavior:0 "la malvagità"

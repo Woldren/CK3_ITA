@@ -53,7 +53,7 @@
 
  fp3_persian_struggle_previously_swayed_tt: "Influenzat[recipient.Custom('DE_END_PRO_S_N')] precedentemente durante l'[persian_struggle|E]: $VALUE|=+0$"
  fp3_demand_submission_interaction: "Richiedere la Sottomissione"
- fp3_DEMAND_submission_interaction_desc: "Richiedi la fedeltà [recipient.Custom('IT_NAM_COL2')][recipient.GetShortUINameNoTooltip] attraverso pietà, astuzia o intimidazione."
+ fp3_demand_submission_interaction_desc: "Richiedi la fedeltà [recipient.Custom('IT_NAM_COL2')][recipient.GetShortUINameNoTooltip] attraverso pietà, astuzia o intimidazione."
  DEMAND_SUBMISSION_NOT_SAME_HEAD_OF_FAITH: "Non hai lo stesso [head_of_faith|E]"
  DEMAND_SUBMISSION_I_AM_HEAD_OF_FAITH: "Sono [recipient.GetFaith.ReligiousHeadName|U] [recipient.Custom('IT_NAM_COL2')][recipient.GetShortUIName]: $VALUE|=+0$"
  DEMAND_SUBMISSION_SHORT_REIGN: "[short_reign|E]: $VALUE|+0=-+$"
