@@ -9,12 +9,12 @@
  test_friend_desc:0 "[CHARACTER.GetTitledFirstName|U] e [TARGET_CHARACTER.GetTitledFirstName] hanno legato grazie alle mappe."
  test_rival_desc:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha giurato vendetta su [CHARACTER.GetTitledFirstName] dopo che [CHARACTER.GetTitledFirstNameNoTooltip] ha ucciso il suo cane."
  test_rival_desc_corresponding:0 "[CHARACTER.GetTitledFirstName|U] ha giurato vendetta su [TARGET_CHARACTER.GetTitledFirstName] dopo che [TARGET_CHARACTER.GetSheHe] ha ucciso il cane di [CHARACTER.GetTitledFirstNamePossessiveNoTooltip]."
- test_nemesis_desc:1 "[TARGET_CHARACTER.GetTitledFirstName|U] ha giurato eterna vendetta su [CHARACTER.GetTitledFirstName] dopo che [CHARACTER.GetTitledFirstNameNoTooltip] ha ucciso, cucinato e mangiato il cane preferito di [TARGET_CHARACTER.GetTitledFirstNamePossessiveNoTooltip]."
- test_nemesis_desc_corresponding:1 "[CHARACTER.GetTitledFirstName|U] ha giurato eterna vendetta su [TARGET_CHARACTER.GetTitledFirstName] dopo che [TARGET_CHARACTER.GetTitledFirstNameNoTooltip] ha ucciso, cucinato e mangiato il cane preferito di [CHARACTER.GetTitledFirstNamePossessiveNoTooltip]."
+ test_ nemesis_desc:1 "[TARGET_CHARACTER.GetTitledFirstName|U] ha giurato eterna vendetta su [CHARACTER.GetTitledFirstName] dopo che [CHARACTER.GetTitledFirstNameNoTooltip] ha ucciso, cucinato e mangiato il cane preferito di [TARGET_CHARACTER.GetTitledFirstNamePossessiveNoTooltip]."
+ test_ nemesis_desc_corresponding:1 "[CHARACTER.GetTitledFirstName|U] ha giurato eterna vendetta su [TARGET_CHARACTER.GetTitledFirstName] dopo che [TARGET_CHARACTER.GetTitledFirstNameNoTooltip] ha ucciso, cucinato e mangiato il cane preferito di [CHARACTER.GetTitledFirstNamePossessiveNoTooltip]."
  test_lover_desc:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha sedotto [CHARACTER.GetTitledFirstName] mostrando le sue gambe tornite."
  test_lover_desc_corresponding:0 "[CHARACTER.GetTitledFirstName|U] ha sedotto [TARGET_CHARACTER.GetTitledFirstName] mostrando le sue gambe tornite."
- test_soulmate_desc:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha professato eterna devozione a [CHARACTER.GetTitledFirstName] scalando una montagna e raccogliendo un fiore raro."
- test_soulmate_desc_corresponding:0 "[CHARACTER.GetTitledFirstName|U] ha professato eterna devozione a [TARGET_CHARACTER.GetTitledFirstName] dopo che [TARGET_CHARACTER.GetSheHe] ha scalato una montagna e raccolto un fiore raro."
+ test_ soulmate_desc:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha professato eterna devozione a [CHARACTER.GetTitledFirstName] scalando una montagna e raccogliendo un fiore raro."
+ test_ soulmate_desc_corresponding:0 "[CHARACTER.GetTitledFirstName|U] ha professato eterna devozione a [TARGET_CHARACTER.GetTitledFirstName] dopo che [TARGET_CHARACTER.GetSheHe] ha scalato una montagna e raccolto un fiore raro."
  lover_seduced:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha sedotto [CHARACTER.GetTitledFirstName]."
  lover_seduced_corresponding:0 "[CHARACTER.GetTitledFirstName|U] ha sedotto [TARGET_CHARACTER.GetTitledFirstName]."
  
@@ -762,7 +762,7 @@
  rival_bad_chemistry:0 "[CHARACTER.GetTitledFirstName|U] e [TARGET_CHARACTER.GetTitledFirstName] non sono mai riusciti ad andare d'accordo."
 
  rival_no_longer_nemesis:0 "[CHARACTER.GetTitledFirstName|U] era [Select_CString(CHARACTER.IsFemale,'la Nemica giurata','il Nemico giurato')] di [TARGET_CHARACTER.GetTitledFirstName]."
- rival_no_longer_nemesis_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] era [Select_CString(TARGET_CHARACTER.IsFemale,'la Nemica giurata','il Nemico giurato')] di [CHARACTER.GetTitledFirstName]."
+ rival_no_longer_ nemesis_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] era [Select_CString(TARGET_CHARACTER.IsFemale,'la Nemica giurata','il Nemico giurato')] di [CHARACTER.GetTitledFirstName]."
 
  rival_left_out_of_chronicle:0 "[CHARACTER.GetTitledFirstName|U] ha trascurato di menzionare i successi di [TARGET_CHARACTER.GetTitledFirstName] in una cronaca familiare."
  rival_left_out_of_chronicle_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha trascurato di menzionare i successi di [CHARACTER.GetTitledFirstName] in una cronaca familiare."
@@ -1025,7 +1025,7 @@
  rival_house_feud_feud_lives_on_corresponding:1 "[TARGET_CHARACTER.GetTitledFirstName|U] ha odiato [CHARACTER.GetTitledFirstName] fin da quando [CHARACTER.GetTitledFirstName] è diventato capo della Casa [CHARACTER.GetDynastyHouseName].\nQuesto è stato conseguenza di una faida tra Casa [CHARACTER.GetDynastyHouseName] e [TARGET_CHARACTER.GetDynastyHouseName]."
 
  rival_house_feud_no_longer_nemesis:1 "[CHARACTER.GetTitledFirstName|U] ha smesso di considerare [TARGET_CHARACTER.GetTitledFirstName] un nemico giurato dopo la fine della faida tra Casa [CHARACTER.GetDynastyHouseName] e Casa [TARGET_CHARACTER.GetDynastyHouseName]."
- rival_house_feud_no_longer_nemesis_corresponding:1 "[TARGET_CHARACTER.GetTitledFirstName|U] ha smesso di considerare [CHARACTER.GetTitledFirstName] un nemico giurato dopo la fine della faida tra Casa [CHARACTER.GetDynastyHouseName] e Casa [TARGET_CHARACTER.GetDynastyHouseName]."
+ rival_house_feud_no_longer_ nemesis_corresponding:1 "[TARGET_CHARACTER.GetTitledFirstName|U] ha smesso di considerare [CHARACTER.GetTitledFirstName] un nemico giurato dopo la fine della faida tra Casa [CHARACTER.GetDynastyHouseName] e Casa [TARGET_CHARACTER.GetDynastyHouseName]."
 
  rival_house_feud_start_of_feud:1 "[CHARACTER.GetTitledFirstName|U] e [TARGET_CHARACTER.GetTitledFirstName] sono diventati rivali quando è scoppiata una faida tra Casa [CHARACTER.GetDynastyHouseName] e Casa [TARGET_CHARACTER.GetDynastyHouseName]."
  rival_house_feud_start_of_feud_corresponding:1 "[TARGET_CHARACTER.GetTitledFirstName|U] e [CHARACTER.GetTitledFirstName] sono diventati rivali quando è scoppiata una faida tra Casa [TARGET_CHARACTER.GetDynastyHouseName] e Casa [CHARACTER.GetDynastyHouseName]."
@@ -1154,7 +1154,7 @@
  nemesis_rival_bedded_child_corresponding:0 "In un atto di vendetta, [CHARACTER.GetTitledFirstName|U] si è unito carnalmente al figlio di [TARGET_CHARACTER.GetTitledFirstNamePossessive]."
 
  nemesis_rival_gains_nemesis:0 "[CHARACTER.GetTitledFirstName|U] ha ricevuto una lettera insultante da [TARGET_CHARACTER.GetTitledFirstName], sebbene fosse originariamente destinata a [TARGET_CHARACTER_2.GetTitledFirstName]."
- nemesis_rival_gains_nemesis_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha ricevuto una lettera insultante da [CHARACTER.GetTitledFirstName], sebbene fosse originariamente destinata a [TARGET_CHARACTER_2.GetTitledFirstName]."
+ nemesis_rival_gains_ nemesis_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha ricevuto una lettera insultante da [CHARACTER.GetTitledFirstName], sebbene fosse originariamente destinata a [TARGET_CHARACTER_2.GetTitledFirstName]."
 
  nemesis_monarch_of_grim_and_grievance:0 "[CHARACTER.GetTitledFirstName|U] è [Select_CString(CHARACTER.IsFemale,'stata incoronata','stato incoronato')] da [TARGET_CHARACTER.GetTitledFirstName] come la persona meno attraente del reame."
  nemesis_monarch_of_grim_and_grievance_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha incoronato [CHARACTER.GetTitledFirstName] come la persona meno attraente del reame."

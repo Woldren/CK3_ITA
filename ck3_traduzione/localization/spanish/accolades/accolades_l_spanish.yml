@@ -5,11 +5,11 @@
  CREATE_ACCOLADE:0 "Crea un Encomio"
  CREATE_ACCOLADE_CONFIRM:0 "Il conferimento di questa onorificenza aumenterà l'[opinion|e] che il [acclaimed_knight|E] ha nei #high tuoi#! confronti.\n\nCosto: #high $COST$#!"
  CREATE_ACCOLADE_CONFIRM_ACCEPT:0 "$CREATE_ACCOLADE$"
- CREATE_ACCOLADE_COST:0 "#T $CREATE_ACCOLADE$#!\nI [accolade_types|e] del tuo $knight_culture_player_no_tooltip$ ti forniranno effetti positivi, che aumenteranno man mano che il [acclaimed_knight|e] incrementerà la propria [glory|E].\n\nCosto: #high $COST$#!"
+ CREATE_ACCOLADE_COST:0 "#T $CREATE_ACCOLADE$#!\nI [accolade_types|e] del tuo $knight_culture_player_no_tooltip$ ti forniranno effetti positivi, che aumenteranno man mano che il [acclaimed_knight|e] incrementerà la sua [glory|E].\n\nCosto: #high $COST$#!"
  CREATE_ACCOLADE_EMPTY_TYPE:0 "Attributo dell'Encomio Vuoto"
  CREATE_ACCOLADE_SELECT_KNIGHT:1 "Seleziona il nuovo [accolade|e] per il tuo [acclaimed_knight|e]. Le [skills|e] e i [traits|e] del [knight|e] determinano quali [accolade_types|e] sono disponibili."
  CREATE_ACCOLADE_ASSIGN:0 "Nomina $knight_culture_player_no_tooltip$"
- CREATE_ACCOLADE_ASSIGN_TT:0 "#help Premi per nominare questo personaggio quale [acclaimed_knight|E] di questo [accolade|E]"
+ CREATE_ACCOLADE_ASSIGN_TT:0 "#help Clicca per nominare questo personaggio [acclaimed_knight|E] di questo [accolade|E]"
  ACCOLADE_GLORY_VALUE:0 "[glory|E]: $VALUE|0$"
  ACCOLADE_GLORY_DATA:0 "[glory|E]: [Accolade.GetGlory|0]"
  ACCOLADE_LEVEL_VALUE:0 "[accolade_rank_short|e] $VALUE|0$"
@@ -198,9 +198,10 @@
  accolade_influences_regency:2 "$EFFECT_LIST_BULLET$Punto di Bilanciamento degli [scales_of_power|E] della [entrenched_regency|E]: [EmptyScope.ScriptValue('accolade_scales_of_power_value')|-0]"
  accolade_influences_regency_high:2 "$EFFECT_LIST_BULLET$Punto di Bilanciamento degli [scales_of_power|E] della [entrenched_regency|E]: [EmptyScope.ScriptValue('accolade_scales_of_power_value_high')|-0]"
 
+
  accolade_tour_end_bonus:0 "$EFFECT_LIST_BULLET$I [grand_tours|E], dopo essere stati completati, accrescono il [modifier_base_contribution|E] delle [levies|E] fornite dai [vassals|E] e il [siege_progress|E] contro le [revolts|E]"
 
- dutiful_realm_knights_modifier:0 "Cavalieri Devoti al Reame"
+ dutiful_realm_knights_modifier:0 "Cavalieri Devoti al Regno"
  dutiful_realm_knights_modifier_desc:0 "La piccola nobiltà di tutto il Paese ha obblighi marziali, diretti e indiretti, al servizio della causa di questo personaggio."
 
 
@@ -328,7 +329,6 @@
 #ACCOLADE NAMES
  #accolade_name_test: "The $OPTION_1$ $OPTION_2$ of $OPTION_3$"
  #Always use CHARACTER in name loc and ROOT for option loc
-
 
  accolade_the_knight_of_the_animal:0 "[TARGET_CHARACTER.Custom('KnightCultureNoTooltip')] del $OPTION_1$"
  accolade_the_animal_of_capital:0 "$OPTION_1$ di $OPTION_2$"

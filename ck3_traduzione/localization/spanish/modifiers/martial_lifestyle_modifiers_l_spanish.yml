@@ -37,7 +37,7 @@
  warfare_ferocious_reputation_modifier:0 "Reputazione Feroce"
  warfare_ferocious_reputation_modifier_desc:1 "Questo personaggio ha la reputazione di non interrompere il suo attacco finché i suoi nemici non sono stati schiacciati sotto i suoi stivali."
  warfare_unshakable_reputation_modifier:0 "Reputazione Incrollabile"
- warfare_unshakable_reputation_modifier_desc:1 "Questo personaggio ha la reputazione di rimanere saldo anche quando è in inferiorità numerica e quasi sopraffatto."
+ warfare_unshakable_reputation_modifierdesc:1 "Questo personaggio ha la reputazione di rimanere saldo anche quando è in inferiorità numerica e quasi sopraffatto."
  warfare_cunning_gambit_succeeded_modifier:0 "Esperto nelle Tattiche di Manipolazione"
  warfare_cunning_gambit_succeeded_modifier_desc:1 "Questo personaggio ha sperimentato delle tattiche che inducono i suoi nemici a rendere vulnerabili i loro eserciti."
  warfare_hit_and_run_tactics_modifier:0 "Tattiche Mordi e Fuggi"

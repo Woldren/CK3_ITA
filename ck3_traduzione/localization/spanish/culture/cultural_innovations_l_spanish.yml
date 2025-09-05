@@ -39,6 +39,7 @@
  nomad_innovation_gavelkind_bonus: "[SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_nomadic' ), 'nomad_innovation_gavelkind_bonus_desc', 'blank_line' )]"
  nomad_innovation_gavelkind_bonus_desc: "Punteggio di [obedience|E] di [courtiers|E], [vassals|E], e [tributaries|E]: #P +10#!" 
 
+
  unlock_march_contract:0 "Sblocca il [vassal_contract|E] #high [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_march' )]#!"
  unlock_castellan_contract: "Sblocca il [vassal_contract|E] #high [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_castellan' )]#!"
  unlock_scutage_contract:0 "Sblocca il [vassal_contract|E] #high [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_scutage' )]#!"

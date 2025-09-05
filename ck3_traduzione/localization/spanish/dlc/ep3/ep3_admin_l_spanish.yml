@@ -94,12 +94,7 @@
  de_jure_governor_desc: "[counties|E] non [de_jure|E] del [primary_title|E] [top_liege|E]"
  
  adopt_admin_government_tt: "Puoi scegliere di adottare la forma di [government|E] [GetGovernment('administrative_government').GetName]"
- 
- has_admin_government: "Hai il [government|E] [GetGovernment('administrative_government').GetName]"
- admin_renounce_throne_desc: "[secondary_recipient.GetShortUIName|U], o il [house_head|E] della [house|E] [secondary_recipient.GetHouse.GetName], ha rinunciato a ogni pretesa sul trono e non può essere sostenuto"
- 
- 
- 
+
  ep3_admin_events.0001.t: "Un Cambio di Direzione"
  ep3_admin_events.0001.intro: "Un messaggio da [liege.GetTitledFirstName] è arrivato tramite uno dei suoi scribi — è tempo di un cambiamento.\n\nL[scribe.Custom('DE_PRO_PER_S_3P_N')] [scribe.GetWomanMan] [scribe.Custom('quirk_pos_present')] prima di leggere l’editto:\n\n"
  ep3_admin_events.0001.tribal: ""Dobbiamo abbracciare le vie tribali. Il prestigio è lo strumento più importante che un sovrano possiede. Saccheggiare, combattere, duellare. [liege.GetTitleAsNameNoTooltip|U] esorta tutti i suoi sudditi a sforzarsi di diventare uomini e donne di onore ammirevole.""
@@ -128,19 +123,3 @@
  ep3_admin_events.0002.desc: "\n\nDopo aver ricevuto i miei paramenti e prestato i giuramenti d’ufficio, posso finalmente trasferirmi alla mia sede provinciale a [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitly] e iniziare ufficialmente il mio mandato."
  ep3_admin_events.0002.a: "Non c’è tempo da perdere."
  ep3_admin_events.0002.tt: "Ora sei il [governor|E] del [governor_title.GetName]"
-
- ep3_admin_events.0004.t: "Fine dell'Amministrazione"
- ep3_admin_events.0004.desc: "Per un colpo crudele del destino, mi ritrovo senza incarico né dimora. #EMP Tutto#! ciò per cui ho lottato è svanito in un attimo.\n\nAfferro ciò che posso portare con me, e osservo la mia tenuta un’ultima volta."
- ep3_admin_events.0004.desc_spouse_upset: "\n\n[reacting_spouse.Custom('DE_ART_DEF_P_D')] mi[reacting_spouse.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('reacting_spouse'))] [reacting_spouse.GetFirstName] mi lancia uno sguardo preoccupato. \"Ho preso le mie cose. Tanto vale non prolungare oltre questa agonia...\""
- ep3_admin_events.0004.desc_spouse_very_upset: "\n\n\"Come... Come siamo finiti così?!\" [reacting_spouse.GetShortUIName] singhiozza forte alle mie spalle. \"Abbiamo perso tutto... Cosa farò ora...\""
- ep3_admin_events.0004.a: "Su, [reacting_spouse.GetFirstName]. Andrà tutto bene."
- ep3_admin_events.0004.b: "Sì, andiamo."
- ep3_admin_events.0004.c: "Non ha senso voltarsi indietro..."
-  
- ep3_admin_events.0005.t: "Un Reame tutto Mio"
- ep3_admin_events.0005.intro: "[messenger.Custom('DE_ART_DEF_P_D')] mi[messenger.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('messenger'))], [messenger.GetShortUIName], porta notizie funeste dalla capitale.\n\n"
- ep3_admin_events.0005.desc_still_admin: "Il nostro un tempo glorioso reame non esiste più, e io mi trovo ormai fuori dall’influenza di [gov_liege.GetFirstName]. Questo però mi lascia il comando di [ROOT.Char.GetPrimaryTitle.GetNameNoTier]. A parte la mia indipendenza e il potere assoluto, poco cambierà. La burocrazia è radicata nel nostro modo di vivere, e tale rimarrà."
- ep3_admin_events.0005.desc_lost_admin: "Per volontà del destino, il nostro grande reame è andato perduto. E con esso, la burocrazia che regolava la nostra esistenza è stata ridotta in cenere. Non mi resta che adattare il mio governo a questa nuova realtà."
- ep3_admin_events.0005.a: "Lasciamo il passato alle spalle, e guardiamo al futuro!"
-  
- demand_admin_tribal: "[recipient.GetShortUIName|U] [CharAreIs(recipient)] [tribal|E] – Solo i [governments|E] consolidati possono diventare [administrative|E]"

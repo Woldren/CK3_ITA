@@ -78,7 +78,7 @@
  game_concept_bargain_fealty_desc:3 "Questa speciale [interaction|E] è disponibile per i [rulers|E] [struggle_involved|E] che sono in una [war|E] difensiva.\n\nIl [war_leader|E] chiede ad un [ruler|E] confinante di [rank|E] più alto di unirsi alla sua guerra diventando in cambio suo [vassal|E]."
 
  game_concept_contract_assistance:0 "Assistenza Militare"
- game_concept_contract_assisting:0 "Assistendo Militarmente"
+ game_concept_contracting_assistance:0 "Assistendo Militarmente"
  game_concept_contract_assistance_desc:2 "Questa è una speciale tipologia di [interaction|E] disponibile per i [rulers|E] [struggle_involved|E] nella [struggle|E] Iberica, che gli permette di unirsi alle [wars|E] di altri [rulerpossessive|E] [struggle_involved|E] in cambio di [gold|E].\n\nIl pagamento viene effettuato alla conclusione della [war|E], qualunque sia l'esito, purché il contraente abbia realizzato un [war_contribution|E] di almeno 100."
  
  game_concept_iberian_reclamation:0 "Rivendicazione Iberica"

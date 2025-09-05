@@ -1681,8 +1681,8 @@
 
  GAINS_THE_BUILDING_NAME:0 "Ottiene l'[building|E] [BUILDING.GetName]"
  GAINED_THE_BUILDING_NAME:0 "Ha ottenuto l'[building|E] [BUILDING.GetName]"
- PROVINCE_GAINS_THE_BUILDING_NAME:0 "L'insediamento di [PROVINCE.GetName] ottiene l'[building|E] [BUILDING.GetName]"
- PROVINCE_GAINED_THE_BUILDING_NAME:0 "L'insediamento di [PROVINCE.GetName] ha ottenuto l'[building|E] [BUILDING.GetName]"
+ PROVINCE_GAINS_THE_BUILDING_NAME:0 "Il possedimento di [PROVINCE.GetName] ottiene l'[building|E] [BUILDING.GetName]"
+ PROVINCE_GAINED_THE_BUILDING_NAME:0 "Il possedimento di [PROVINCE.GetName] ha ottenuto l'[building|E] [BUILDING.GetName]"
  
  LOSES_THE_BUILDING_NAME:0 "Loses the [BUILDING.GetName] [building|E]"
  LOST_THE_BUILDING_NAME:0 "Lost the [BUILDING.GetName] [building|E]"
@@ -1721,7 +1721,7 @@
  CUSTOM_SEIZE_TITLE_EFFECT_THIRD_PAST:0 "[CHARACTER.GetShortUIName|U] si è appropriato del [TARGET_TITLE.GetName]"
  
  CLEAR_TITLE_LAWS:0 "Tutte le leggi sul titolo di [TITLE.GetName] saranno resettate"
- CLEARED_TITLE_LAWS:0 "Tutte le leggi sul titolo di [TITLE.GetName] sono state resettate"
+ CLEARED_TITLE_LAWS_THIRD:0 "Tutte le leggi sul titolo di [TITLE.GetName] sono state resettate"
  ADD_TITLE_LAW:2 "Ottiene la legge di successione [LAW.GetName|V]"
  ADD_TITLE_LAW_THIRD:1 "[TITLE.GetName|U] ottiene la legge di successione [LAW.GetName|V]"
  ADDED_TITLE_LAW:0 "[TITLE.GetName|U] ha ottenuto la legge di successione [LAW.GetName|V]"
@@ -2243,7 +2243,7 @@
  REMOVE_PROVINCE_MODIFIER_EFFECT:0 "Perde $MODIFIER$"
  REMOVE_PROVINCE_MODIFIER_PAST_EFFECT:0 "Ha perso $MODIFIER$"
  REMOVE_PROVINCE_MODIFIER_FROM_PROVINCE_EFFECT: "Insediamento di [PROVINCE.GetName] perde $MODIFIER$"
- REMOVE_PROVINCE_MODIFIER_FROM_PROVINCE_PAST_EFFECT: "L'insediamento di [PROVINCE.GetName] ha perso $MODIFIER$" 
+ REMOVE_PROVINCE_MODIFIER_FROM_PROVINCE_PAST_EFFECT: "Il possedimento di [PROVINCE.GetName] ha perso $MODIFIER$" 
  REMOVE_REALM_LAW_EFFECT:1 "Rimuove la [law|E] [LAW.GetName|V]"
  REMOVE_REALM_LAW_PAST_EFFECT:1 "Ha rimosso la [law|E] [LAW.GetName|V]"
  REMOVE_ALL_CHARACTER_MODIFIER_INSTANCES_EFFECT:0 "Perde tutti i Modificatori $MODIFIER$"
@@ -2997,9 +2997,9 @@ force_step_down_landed_titles_first: "Ti dimetti e perdi tutti i titoli con terr
  realm_charts_perk_effect: "Segretezza del Complotto nello Stesso Regno @scheme_secrecy_icon!#P +[EmptyScope.ScriptValue('realm_charts_perk_value')|+0%/]#!"
  realm_charts_perk_2_effect: "Sblocca la [decision|E] [draw_up_new_charts|E]"
 
- random_economic_building_tt: "L'insediamento di [building_scope.GetName] ottiene un [economic_building|E] casuale"
- random_fortification_building_tt: "L'insediamento di [building_scope.GetName] ottiene un [fortification_building|E] casuale"
- random_military_building_tt: "L'insediamento di [building_scope.GetName] ottiene un [military_building|E] casuale"
+ random_economic_building_tt: "Il possedimento di [building_scope.GetName] ottiene un [economic_building|E] casuale"
+ random_fortification_building_tt: "Il possedimento di [building_scope.GetName] ottiene un [fortification_building|E] casuale"
+ random_military_building_tt: "Il possedimento di [building_scope.GetName] ottiene un [military_building|E] casuale"
 
  change_county_fertility_global: "[county_fertility|E] in [TITLE.GetName] cambia di [county_fertility_i]$VALUE|=0+$"
  change_county_fertility_global_past: "[county_fertility|E] in [TITLE.GetName] cambia di [county_fertility_i]$VALUE|=0+$"

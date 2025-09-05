@@ -149,7 +149,7 @@
  SCHEME_PREPARED_FOR_ANYTHING_LIEGE_PERK_MODIFIER:0 "Il Signore è [GetPerk( 'prepared_for_anything_perk' ).GetName( GetPlayer )]: $VALUE|0=+%/$"
  SCHEME_A_JOB_DONE_RIGHT_PERK_MODIFIER:0 "[GetPerk( 'a_job_done_right_perk' ).GetName( GetPlayer )]: $VALUE|0=+%/$"
  SCHEME_WINDOW_CLICK_FOR_SETUP: "#I Clicca per aprire la finestra di preparazione#!"
- SCHEME_GROWTH_PER_SKILL_POINT: "[scheme_growth_growth|E] basata sulle $SKILL$ di [CHARACTER.GetShortUIName|U]: $MOD_SUCCESS_GROWTH_PREFIX$$VALUE|+%/1=$$MOD_PER_SCHEME_PHASE_POSTFIX$" #controllare
+ SCHEME_GROWTH_PER_SKILL_POINT: "[scheme_growth_growth|E] in base alle $SKILL$ di [CHARACTER.GetShortUIName|U]: $MOD_SUCCESS_GROWTH_PREFIX$$VALUE|+%/1=$$MOD_PER_SCHEME_PHASE_POSTFIX$" #controllare
 
  SCHEME_AGENT_IS_SPYMASTER:1 "[spymaster|E] di [target.GetShortUINameNoTooltip]"
  SCHEME_AGENT_IS_SPYMASTER_IN_MY_COURT:1 "[spymaster|E] della [court|E] di [target.GetShortUINameNoTooltip]"

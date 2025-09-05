@@ -10,7 +10,5 @@
  RP_CANNOT_RAISE_HOSTILE:0 "#X @warning_icon! Ci sono [armies|E] ostili nella posizione del [rally_point|E] #!"
  RP_CANNOT_RAISE_ENEMY_TERRITORY:0 "#X @warning_icon! La posizione del [rally_point|E] è in territorio nemico#!"
  RP_CANNOT_RAISE_MULTIPLE_BANNERS:1 "#X @warning_icon! Non puoi chiamare a raccolta in qualsiasi [rally_point|E], a causa dell'[occupation|E] o degli [armies|E] nemici presenti in quelle località#!"
- RP_NOTHING_TO_RAISE: "#X @warning_icon! Nessun [armies|E] da radunare#!"
- RP_NOTHING_TO_RAISE_MAA: "#X @warning_icon! Nessun [men_at_arms|E] da radunare#!"
  RP_ARMY_AUTOMATION_RAISES_INSTEAD: "#X @warning_icon! Impossibile chiamare a raccolta mentre $ARMY_AUTOMATION_FEATURE_NAME$ è abilitato#!"
  RAISE_TROOPS_EXTRA_INFO: "#I Clicca Ctrl per #bold non#! dividere gli [armies|E] in base al [Concept( 'supply_limit', 'Limite dei Rifornimenti')|E]#!\n#I Usa il Tasto Destro per radunare gli [armies|E] in una specifica località selezionata#!"

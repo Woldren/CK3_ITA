@@ -393,10 +393,5 @@
  doctrine_parameter_death_is_glory: "Probabilità di morte o lesioni in [battle|E]: #N +10%#!"
  doctrine_parameter_sanctioned_assassinations: "Nessuna perdita della [piety|e] per aver ucciso personaggi di un'altra [faith|E] per mezzo dei [schemes|E] [GetScheme('murder').GetTypeName]"
 
- # EP3 Tenets
- tenet_household_gods_name: "Dei della Casata"
- tenet_household_gods_desc: "Veneriamo i nostri #EMP Lari#! e i #EMP Genii#! — gli spiriti protettori che vegliano sulle nostre dimore. Sopra ogni cosa, onoriamo il nostro glorioso imperatore, la cui anima è investita della protezione dell’intero reame."
-
-
  # BP3 Parameter
  doctrine_parameter_allows_brewery: "$allows_brewery$ per le [temple_holdings|E]"

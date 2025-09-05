@@ -954,26 +954,34 @@
  # [CHARACTER.Custom('IT_NAM_COL3')]  il conte        [CHARACTER.Custom('IT_NAM_COL3')|U]   all'inizio delle frasi per far comparire "Il" in maiuscolo anziché "il"
  # [CHARACTER.Custom('IT_NAM_COL4')]  al conte
  # [CHARACTER.Custom('IT_NAM_COL5')]  dal conte
+ 
+ # Codici da mettere davanti ai titoli
+ # [titolo.Custom('IT_COU_COL4')]     il titolo                 #      esempio: "Conquista [TITLE.Custom('IT_COU_COL4')|U][TITLE.GetBaseName]" ossia   " Conquista il Regno di Scozia" 
+ # [titolo.Custom('IT_COU_COL')]       del titolo
+ # [titolo.Custom('IT_COU_COL2')]     nel titolo
+ # [titolo.Custom('IT_COU_COL3')]     sul titolo
+ # [titolo.Custom('IT_COU_COL5')]     dal titolo
+ # [titolo.Custom('IT_COU_COL7')]     al titolo 
 
-# ---------------------- ELENCO DEI CODICI ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Essendoci questo nuovo condice per il maschile e femminile, i vecchi codici astrusi come DE_ART_DEF_P_D sono ormai inutili. Li lasciamo in questo file in caso di necessità.
+ # ---------------------- ELENCO DEI CODICI ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ # --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ # Essendoci questo nuovo condice per il maschile e femminile, i vecchi codici astrusi come DE_ART_DEF_P_D sono ormai inutili. Li lasciamo in questo file in caso di necessità.
 
  # ARTICOLI DETERMINATIVI - Frase dell'esempio "Il mio/La mia"          [ROOT.Char.Custom('DE_ART_DEF_P_A')]
- #Il/La    Maiuscolo         [personaggio.Custom('DE_ART_DEF_P_D')] mi[personaggio.Custom('DE_END_PRO_S_N')] ---> Il mio       
- #il/la                               [personaggio.Custom('DE_ART_DEF_P_A')] mi[personaggio.Custom('DE_END_PRO_S_N')]  il mio
+ # Il/La    Maiuscolo         [personaggio.Custom('DE_ART_DEF_P_D')] mi[personaggio.Custom('DE_END_PRO_S_N')] ---> Il mio       
+ # il/la                               [personaggio.Custom('DE_ART_DEF_P_A')] mi[personaggio.Custom('DE_END_PRO_S_N')]  il mio
  # NUOVO CODICE         [Select_CString(personaggio.IsFemale,'La','Il')]
 
  ###################################################################################################################
- # MASCHILE / FEMMINILE o/a                                                                                        [Select_CString(CHARACTER.IsFemale,'a','o')]                  [Select_CString(TARGET_CHARACTER.IsFemale,'a','o')] 
- # Il codice per noi è ROOT.Char quindi sarà:                        [ROOT.Char.Custom('DE_END_PRO_S_N')] o/a            [Select_CString(ROOT.Char.IsFemale,'a','o')]
- # Il codice per un personaggio qualsiasi -->         [CHARACTER.Custom('DE_END_PRO_S_N')] o/a                           [Select_CString(personaggio.IsFemale,'a','o')]
- #                                                                                                                                                                                                           [Select_CString(personaggio.IsFemale,'mia','mio')]
+ # MASCHILE / FEMMINILE o/a                                                 [Select_CString(CHARACTER.IsFemale,'a','o')]                [Select_CString(TARGET_CHARACTER.IsFemale,'a','o')] 
+ # Il codice per noi è ROOT.Char quindi sarà:                        [ROOT.Char.Custom('DE_END_PRO_S_N')] o/a             [Select_CString(ROOT.Char.IsFemale,'a','o')]
+ # Il codice per un personaggio qualsiasi -->                           [CHARACTER.Custom('DE_END_PRO_S_N')] o/a           [Select_CString(personaggio.IsFemale,'a','o')]
+ #                                                                                                                                                                                                        [Select_CString(personaggio.IsFemale,'mia','mio')]
  ####################################################################################################################
 
- # Lei/lui          [personaggio.GetSheHe]
- # egli/lei         [personaggio.Custom('DE_ART_IND_A')]
- # oppure Egli  [personaggio.Custom('DE_ART_IND_A')|U]
+ # Lei/lui                   [personaggio.GetSheHe]
+ # egli/lei                  [personaggio.Custom('DE_ART_IND_A')]
+ # oppure Egli          [personaggio.Custom('DE_ART_IND_A')|U]
  
  # SIGNORE / SIGNORA
  # [Select_CString(ROOT.Char.IsFemale,'mia Signora','mio Signore')]
@@ -994,16 +1002,25 @@
  # la |E] indica che la prima lettera apparirà in maiuscolo, quindi in gioco vedrete scritto "Italiano", se invece c'è la |e] vuol dire che gli sviluppatori vogliono che appaia in minuscolo.
  
  #Vi presento il conte Jon -> "[CHARACTER.Custom('IT_NAM_COL3')]Conte" non c'è spazio tra ] e Conte, va scritto tutto attaccato
- #[CHARACTER.Custom('IT_NAM_COL')]    sul conte
- #[CHARACTER.Custom('IT_NAM_COL2')]  del conte
- #[CHARACTER.Custom('IT_NAM_COL3')]  il conte        [CHARACTER.Custom('IT_NAM_COL3')|U]   all'inizio delle frasi per far comparire "Il" in maiuscolo anziché "il"
- #[CHARACTER.Custom('IT_NAM_COL4')]  al conte
- #[CHARACTER.Custom('IT_NAM_COL5')]  dal conte
+ #          [CHARACTER.Custom('IT_NAM_COL')]    sul conte
+ #          [CHARACTER.Custom('IT_NAM_COL2')]  del conte
+ #          [CHARACTER.Custom('IT_NAM_COL3')]  il conte        [CHARACTER.Custom('IT_NAM_COL3')|U]   all'inizio delle frasi per far comparire "Il" in maiuscolo anziché "il"
+ #          [CHARACTER.Custom('IT_NAM_COL4')]  al conte
+ #          [CHARACTER.Custom('IT_NAM_COL5')]  dal conte
  
- # PREPOSIZIONI (Ricorda di mettere )|U] alla fine del codice se la preposizione è all'inizio del rigo. Esempio [ROOT.Char.Custom('DE_END_ADJ_DEF_P_A')|U]
- # al   / alla        [personaggio.Custom('DE_END_ADJ_DEF_P_A')]       questo codice è già al/alla, non c'è bisogno di scrivere al[  
- # all' / alla     all[personaggio.Custom('DE_PRO_PER_S_3P_N')]  ['/a ]
+ # Codici da mettere davanti ai titoli
+ #          [TITLE.Custom('IT_COU_COL4')]     il titolo                 #      esempio: "Conquista [TITLE.Custom('IT_COU_COL4')|U][TITLE.GetBaseName]" ossia   " Conquista il Regno di Scozia" 
+ #          [TITLE.Custom('IT_COU_COL')]       del titolo
+ #          [TITLE.Custom('IT_COU_COL2')]     nel titolo
+ #          [TITLE.Custom('IT_COU_COL3')]     sul titolo
+ #          [TITLE.Custom('IT_COU_COL5')]     dal titolo
+ #          [TITLE.Custom('IT_COU_COL7')]     al titolo
  
+
+  # PREPOSIZIONI (Ricorda di mettere )|U] alla fine del codice se la preposizione è all'inizio del rigo. Esempio [ROOT.Char.Custom('DE_END_ADJ_DEF_P_A')|U]
+  # al   / alla        [personaggio.Custom('DE_END_ADJ_DEF_P_A')]       questo codice è già al/alla, non c'è bisogno di scrivere al[  
+  # all' / alla     all[personaggio.Custom('DE_PRO_PER_S_3P_N')]  ['/a ]
+  
  # dal  / dalla (oppure sul/sulla o quel/quella)  dal[personaggio.Custom('DE_END_ADJ_NUL_S_N')]
  # del  / della       [personaggio.Custom('DE_PRO_PER_P_3P_A')] con questo codice non va scritto del[ perché il codice dice direttamente [del] o [della]
  # dell'/ della   dell[personaggio.Custom('DE_PRO_PER_S_3P_N')]  ['/a ]
@@ -1063,7 +1080,7 @@
  # "Un matrimonio con la [Select_CString( CHARACTER.IsLocalPlayer, 'tua', 'famiglia di' )][Select_CString( CHARACTER.IsLocalPlayer, 'famiglia',CHARACTER.GetShortUIName)]."
  # "Un tempio nel [Select_CString( CHARACTER.IsLocalPlayer, 'tuo', 'villaggio di' )][Select_CString( CHARACTER.IsLocalPlayer, 'villaggio',CHARACTER.GetShortUIName)]".
 
-#"Vuole sposare uno dei [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tuoi ', '' )]figli di umili natali [Select_CString( CHARACTER.IsLocalPlayer, '',TARGET_CHARACTER.GetShortUIName)]".
+ #"Vuole sposare uno dei [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tuoi ', '' )]figli di umili natali [Select_CString( CHARACTER.IsLocalPlayer, '',TARGET_CHARACTER.GetShortUIName)]".
  # ------------------------------------------------------------------ 
  
  # questo è un altro modo di usare questo codice [personaggio.LocalPlayerString( 'sei', 'è' )] 
@@ -1079,9 +1096,5 @@
 
 #              [Select_CString(Or(first.IsLocalPlayer, second.IsLocalPlayer),'avete', 'hanno')] mangiato bene
 
-# il nome del titolo di un personaggio [personaggio.GetPrimaryTitle.GetName]
-
-
 # Codice Nome e Cognome = [ROOT.Char.GetFirstNameNoTooltip] [ROOT.Char.GetHouse.GetNameNoTooltip] (ossia nome e casata)
 
-# stringa 345 i codici per le contee

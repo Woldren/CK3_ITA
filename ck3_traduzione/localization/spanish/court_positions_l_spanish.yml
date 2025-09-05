@@ -193,10 +193,10 @@
  COURT_POSITION_aptitude_character_possessive:0 "[aptitude|e] [Character.Custom('IT_NAM_COL2')][Character.GetShortUINameNoTooltip]:"
 
  court_position_skill_learning:0 "Abilità in [learning|E]"
- court_position_skill_martial:0 "Abilità [Concept( 'martial', 'marziale' )|E]"
+ court_position_skill_martial:0 "Abilità [Concept( 'martial', 'Marziale' )|E]"
  court_position_skill_prowess:0 "Abilità in [prowess|E]"
- court_position_skill_diplomacy:0 "Abilità [Concept( 'diplomacy', 'diplomatica' )|E]"
- court_position_skill_stewardship:0 "Abilità [Concept( 'stewardship', 'amministrativa' )|E]"
+ court_position_skill_diplomacy:0 "Abilità [Concept( 'diplomacy', 'Diplomatica' )|E]"
+ court_position_skill_stewardship:0 "Abilità [Concept( 'stewardship', 'Amministrativa' )|E]"
  court_position_skill_intrigue:0 "Abilità in [intrigue|E]"
  court_position_skill_all: "Somma di tutte le [skills|E]"
  court_position_languages:0 "Conosce le [languages|E]"

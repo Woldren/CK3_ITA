@@ -91,7 +91,7 @@
  CANCEL_TRAVEL_PLAN:0 "Torna a casa"
  CANCEL_TRAVEL_PLAN_STAY_WITH_DOMICILE: "Annulla viaggio"
  START_TRAVEL_PLAN:0 "Inizia a Viaggiare"
- START_TRAVEL_TO_CONTRACT: "Viaggio per Accettare il Contratto"
+ START_TRAVEL_TO_CONTRACT: "Viaggia per Accettare il Contratto"
  START_TRAVEL_MOVE_TO_CONTRACT: "Spostati a [Domicile.GetType.GetNameNoTooltip] per Accettare il Contratto"
  START_TRAVEL_MOVE_DOMICILE: "Inizia a spostare [Domicile.GetType.GetNameNoTooltip]" #controllare il/la?
 

@@ -11,7 +11,7 @@
  situation_parameter_the_great_steppe_casus_belli_conquer_prestige_gain: "Il [casus_belli|E] #EMP Conquista#! procura [prestige|e]"
  situation_parameter_the_great_steppe_desperate_stance_decision: "La [decision|e] #EMP $mpo_desperate_stance_decision$#! diventa disponibile"
  situation_parameter_the_great_steppe_easier_tributaries: "L'[character_interaction|E] @tributary_icon! #EMP $demand_tributary_interaction$#! ha una maggiore probabilità di accettazione"
- situation_parameter_the_great_steppe_more_likely_ill: "Probabilità leggermente maggiore di ottenere il [trait|e] [GetTrait('ill').GetName( GetNullCharacter )]"
+ situation_parameter_the_great_steppe_more_likely_ill: "Probabilità leggermente più elevata di ottenere il [trait|e] [GetTrait('ill').GetName( GetNullCharacter )]"
  situation_parameter_the_great_steppe_free_humiliation: "Il [casus_belli|E] #EMP $humiliation_cb$#! è gratuito"
  situation_parameter_the_great_steppe_free_retaliation: "Il [casus_belli|E] #EMP $retaliation_cb$#! è gratuito"
  situation_parameter_the_great_steppe_cheaper_hunts: "L'organizzazione di una [GetActivityType('activity_hunt').GetTextIcon][GetActivityType( 'activity_hunt').GetName] è il #V 50%#! meno cara"

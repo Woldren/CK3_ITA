@@ -9,8 +9,8 @@
  ANY_OF_CHARACTERS_VASSALS:1 "Qualsiasi [vassals|E] di [CHARACTER.GetShortUIName]"
  ANY_OF_CHARACTERS_VASSALS_OR_BELOW: "Qualsiasi [vassal|E] di [CHARACTER.GetShortUINamePossessive] o personaggio [landed|E] sotto di [CHARACTER.GetSheHe]:"
  ALL_OF_CHARACTERS_VASSALS:1 "Tutti i [vassals|E] di [CHARACTER.GetShortUIName]"
- ANY_OF_CHARACTERS_VASSALS_PERCENT:0 "$PARAMETERS$ di [vassals|E] di [CHARACTER.GetShortUIName]:"
- ANY_OF_CHARACTERS_VASSALS_COUNT:0 "$PARAMETERS$ di [vassals|E] di [CHARACTER.GetShortUIName]:"
+ ANY_OF_CHARACTERS_PERCENT:0 "$PARAMETERS$ di [vassals|E] di [CHARACTER.GetShortUIName]:"
+ ANY_OF_CHARACTERS_COUNT:0 "$PARAMETERS$ di [vassals|E] di [CHARACTER.GetShortUIName]:"
 
  ANY_DYNASTY_MEMBER_COUNT:0 "$PARAMETERS$ membri della [dynasty|E] [DYNASTY.GetBaseName]:"
  

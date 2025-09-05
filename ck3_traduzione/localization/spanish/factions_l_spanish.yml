@@ -211,7 +211,6 @@
  FACTION_REASON_POWERFUL_VASSAL:0 "[powerful_vassal|E]: $FACTOR|0%+=$"
  FACTION_REASON_NEIGHBORS:0 "Vicini nella stessa [faction|E]: $FACTOR|^%+=$"
  FACTION_REASON_CULTURAL_REASONS:0 "Ragioni culturali: $VALUE|0+=$"
- FACTION_REASON_LEGITIMACY_LEGACY_4: "[GetDynastyPerk('ce1_legitimacy_legacy_4').GetName]: $VALUE|0+=$"
 
 #common_faction_modifiers
  FACTION_REASON_GAME_START_DUCHY:0 "1 anno dall'Inizio della Partita: $VALUE|0+=$"

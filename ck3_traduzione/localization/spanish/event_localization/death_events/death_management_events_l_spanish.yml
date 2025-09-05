@@ -311,7 +311,6 @@
  death_management.killer:0 "\n[dead_character.Custom('DE_ART_IND_A')|U] è stat[dead_character.Custom('DE_END_PRO_S_N')] uccis[dead_character.Custom('DE_END_PRO_S_N')] da [battle_death_killer.GetTitledFirstName], [battle_death_killer.GetLiege.Custom2('RelationToMe', SCOPE.sC('battle_death_killer'))] di [battle_death_killer.GetLiege.GetTitledFirstName], durante un feroce scontro.'#!"
  death_management.no_killer:0 "\n[dead_character.Custom('DE_ART_IND_A')|U] è stat[dead_character.Custom('DE_END_PRO_S_N')] colpit[dead_character.Custom('DE_END_PRO_S_N')] da una freccia vagante durante una feroce schermaglia.'#!"
  # Spouse
-  death_management.1200.t:0 "Consorte decedut[dead_character.Custom('DE_END_PRO_S_N')]"
  death_management.1200.desc_sad: "\n\nNon avrei dovuto lasciarl[dead_character.Custom('DE_END_PRO_S_N')] andare... non così..."
  death_management.1200.desc_happy: "\n\nFinalmente, quel[dead_character.Custom('DE_END_ADJ_NUL_S_N')] [dead_character.Custom('InsultNoun')]è mort[dead_character.Custom('DE_END_PRO_S_N')]!"
  death_management.1200.a:0 "[battle_death_killer.GetFirstNameNoTooltip] è un[dead_character.Custom('DE_PRO_POS_P_2P')] [dead_character.GetWomanMan] mort[dead_character.Custom('DE_END_PRO_S_N')]! Mort[dead_character.Custom('DE_END_PRO_S_N')]!"
