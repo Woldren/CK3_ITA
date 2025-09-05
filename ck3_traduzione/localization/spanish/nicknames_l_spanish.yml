@@ -586,7 +586,8 @@
  nick_the_heretic:0 "l'Eretic[CHARACTER.Custom('DE_END_PRO_S_N')]"
  nick_the_heretic_desc:1 "La conversione in [CHARACTER.GetFaith.GetName] [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] è stata così drammatica che è una delle cose che la gente ricorda di più di [CharYouSheHe(CHARACTER)]."
                                
- nick_the_savage:0 "[CHARNon c'è niente e nessuno che [CharYouSheHe(CHARACTER)] esiterebbe a fare a pezzi. Uomo, donna, bambino, cane - [CharYouSheHe(CHARACTER)] li ucciderà tutti, e lascerà che [CHARACTER.GetFaith.HighGodName] li sistemi."
+ nick_the_savage:0 "[CHARACTER.Custom('DE_ART_DEF_P_A')] Selvaggi[CHARACTER.Custom('DE_END_PRO_S_N')]"
+ nick_the_savage_desc:1 "Non c’è nulla, né alcuno, che [CharYouSheHe(CHARACTER)] esiterebbe a fare a pezzi. Uomo, donna, bambino, cane — [CharYouSheHe(CHARACTER)] li ucciderà tutti, e che sia [CHARACTER.GetFaith.HighGodName] a giudicarli."
  nick_the_defiant:0 "[CHARACTER.Custom('DE_ART_DEF_P_A')] Ribelle"
  nick_the_defiant_desc:1 "Che vengano, che vengano tutti! La via [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] è quella giusta, e [CharYouSheHe(CHARACTER)] ucciderà tutte le persone che [CharYouSheHe(CHARACTER)] deve per dimostrarlo!!"
  nick_the_sea_king:1 "[CHARACTER.Custom('DE_ART_DEF_P_A')] [CHARACTER.Custom('GetQueenKing')|U] del Mare"

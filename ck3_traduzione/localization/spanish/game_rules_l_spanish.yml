@@ -262,7 +262,9 @@
  setting_extreme_conquerors_bonuses_desc: "I [conqueror_i][ai_conquerors_personality|E] ottengono il [trait|E] #V [GetTrait('conqueror').GetName( GetNullCharacter )]#! e il [modifier|E] [GetModifier('ai_extreme_conqueror_modifier').GetNameWithTooltip]."
  setting_random_conquerors_bonuses: "#high Casuale#!"
  setting_random_conquerors_bonuses_desc: "I [conqueror_i] [ai_conquerors_personality|E] ottengono il [trait|E] #V [GetTrait('conqueror').GetName( GetNullCharacter )]#! e hanno una probabilità del #V 5%#! di ottenere il [modifier|E] [GetModifier('ai_extreme_conqueror_modifier').GetNameWithTooltip]."
- 
+ setting_reduced_random_conquerors_bonuses: "#high Bassa Casualità#!"
+ setting_reduced_random_conquerors_bonuses_desc: "I [conqueror_i] [ai_conquerors_personality|E] ottengono il tratto #V [GetTrait('conqueror').GetName( GetNullCharacter )]#! e hanno una probabilità del #V 0,5%#! di ottenere il [modifier|E] [GetModifier('ai_extreme_conqueror_modifier').GetNameWithTooltip]."
+
  rule_conquerors_inheritance: "[conqueror_i] Conquistatori: Eredità"
  setting_default_conquerors_inheritance: "#high Tutti gli Eredi#!"
  setting_default_conquerors_inheritance_desc: "La personalità [conqueror_i] [ai_conqueror_personality|E] e i bonus verranno ereditati da tutti gli [heirs|E] che finiscono per diventare [rulers|E] [Concept( 'independent', 'indipendenti' )|E] alla [succession|E]."

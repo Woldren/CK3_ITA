@@ -18,6 +18,9 @@
  realm_maintenance.1001.lease_revoked:0 "[new_liege.GetTitledFirstName] è diventat[new_liege.Custom('DE_END_PRO_S_N')] il tuo nuovo [liege|E] a causa della revoca dell'affito dei suoi [titles|E] a [old_liege.GetTitledFirstNamePossessive]"
  realm_maintenance.1001.faction_demand:0 "[new_liege.GetTitledFirstName] ha sostituito [old_liege.GetTitledFirstName] come tuo Signore dopo essere stat[new_liege.Custom('DE_END_PRO_S_N')] insediat[new_liege.Custom('DE_END_PRO_S_N')] da una [faction|E]"
  realm_maintenance.1001.swear_fealty:0 "Hai giurato fedeltà a [new_liege.GetTitledFirstName] e sei diventato suo [vassal|E]"
+ realm_maintenance.1001.appointment: "[new_liege.GetTitledFirstName] ha sostituito [old_liege.GetTitledFirstName] come tuo [liege|E] in quanto successore designato"
+ realm_maintenance.1001.appointment_succession: "$realm_maintenance.1001.appointment$"
+ realm_maintenance.1001.stepped_down: "[new_liege.GetTitledFirstName] è diventat[new_liege.Custom('DE_END_PRO_S_N')] il tuo nuovo [liege|E] dopo che [old_liege.GetTitledFirstName] si è ritirat[old_liege.Custom('DE_END_PRO_S_N')]"
  realm_maintenance.1001.error:1 "[new_liege.GetTitledFirstName] è diventat[new_liege.Custom('DE_END_PRO_S_N')] il tuo nuovo [liege|E], ma non sai perché!"
 
  realm_maintenance.2001.t:0 "[ROOT.Char.Custom('DE_ART_DEF_P_D')] Nuov[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip|U]"

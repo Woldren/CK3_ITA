@@ -1239,3 +1239,5 @@
  feudal_castellan_title_german_group: "Burgraviato" 
 
  ### Herders
+ count_herder_male: "Pastore"
+ count_herder_female: "Pastora"

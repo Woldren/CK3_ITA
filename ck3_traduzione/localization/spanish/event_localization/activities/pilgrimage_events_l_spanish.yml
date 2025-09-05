@@ -248,7 +248,7 @@
  pilgrimage.1100.c:0 "[ROOT.Char.GetFaith.WaterGodName] richiede un sacrificio!"
  pilgrimage.1100.c.flavor:0 "Dobbiamo aspettare questa tempesta cessi!"
  pilgrimage.1100.d:0 "Tornate indietro, sciocchi!"
- pilgrimage.1100.d.sapore:0 "$pilgrimage.1100.c.flavor$"
+ pilgrimage.1100.d.flavor:0 "$pilgrimage.1100.c.flavor$"
  every_family_member_tt:0 "Ogni membro della famiglia"
  pilgrimage.1100.success:0 "Sei guidat[ROOT.Char.Custom('DE_END_PRO_S_N')] in piena sicurezza"
  pilgrimage.1100.failure:0 "La tempesta ti porta fuori rotta"

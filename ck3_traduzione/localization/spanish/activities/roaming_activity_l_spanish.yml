@@ -153,6 +153,7 @@
  bp3_roaming.0070.desc.intro: "Abbiamo seguito per ore un vecchio sentiero attraverso la foresta, che lentamente si affievolisce e poi scompare del tutto. Guardandomi intorno, mi ritrovo in una piccola radura, ma non c'è nulla. Solo... la quiete della natura selvaggia.\n\n"
  bp3_roaming.0070.desc.landless: "Non sono abituat[ROOT.Char.Custom('DE_END_PRO_S_N')] alla vita nelle terre selvagge, ma in qualche modo ora mi sembra di aver attraversato il confine tra il regno umano e l'ignoto. È ora di lasciarci alle spalle questa piccola radura e di tornare all'accampamento. Mi chiedo se mai la rivedrò."
  bp3_roaming.0070.desc.landed: "Stare qui fuori mi faceva già sentire distante dalla mia vita a [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier], ma in qualche modo mi sembra di aver varcato il confine tra il regno umano e l'ignoto. È ora di lasciarci alle spalle questa piccola radura e di iniziare il cammino verso casa. Mi chiedo se mai la rivedrò."
+ bp3_roaming.0070.a: "Che posto curioso."
 
  paths_end_key_title: "$bp3_roaming.0070.t$"
  paths_end_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'ti sei', 'si è' )] imbattut[host.Custom('DE_END_PRO_S_N')] in una curiosa piccola radura nella foresta selvaggia di [province.GetName], dove [host.GetSheHe] ha trascorso un momento di riposo prima di iniziare a cercare la strada di casa."
