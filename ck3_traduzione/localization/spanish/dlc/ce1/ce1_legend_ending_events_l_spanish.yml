@@ -1,0 +1,27 @@
+﻿l_spanish:
+
+story_event_legends.0001.t: "Alla Fine della Leggenda"
+story_event_legends.0001.desc.intro: "Questa è la fine del libro [legend_protagonist.Custom('IT_NAM_COL2')][legend_protagonist.GetTitledFirstName] e delle sue nobili imprese, senza precedenti al mondo. Ed ecco la fine della leggenda [promoted_legend.GetName].\n\n"
+story_event_legends.0001.desc.famous_deed: "#EMP [promoted_legend.GetChapterDescriptionByName('famous_deed')]#!"
+story_event_legends.0001.desc.battle: "#EMP [promoted_legend.GetChapterDescriptionByName('battle')]#!"
+story_event_legends.0001.desc.hunt: "#EMP [promoted_legend.GetChapterDescriptionByName('hunt')]#!"
+story_event_legends.0001.desc.fallback: "#EMP La leggenda [legend_protagonist.Custom('IT_NAM_COL2')][legend_protagonist.GetTitledFirstNameNoTooltip] culmina in una meravigliosa avventura: le sue grandi imprese militari furono tali che tutti i re ne ebbero meraviglia e molti nobili e popolani vennero a incontrarl[legend_protagonist.Custom('DE_END_PRO_S_N')], perché volevano vedere la leggenda in carne e ossa.#!"
+story_event_legends.0001.desc.outro: "\n\nE la sua storia è stata scritta qui, [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], [GetCurrentDate.GetStringLong]."
+story_event_legends.0001.a: "Raccontiamo la sua leggenda."
+
+story_event_legends.0002.t: "Il Libro della Casata [legend_protagonist.GetHouse.GetBaseNameNoTooltip]"
+story_event_legends.0002.desc.intro: "Questa è la fine del libro [legend_protagonist.Custom('IT_NAM_COL2')][legend_protagonist.GetTitledFirstName] e della sua nobile famiglia, [legend_protagonist.GetHouse.GetBaseName], la cui reputazione e legittimità sono ben note in tutto il mondo. Ed ecco la fine della leggenda [promoted_legend.GetName].\n\n"
+story_event_legends.0002.desc.famous_deed: "#EMP [promoted_legend.GetChapterDescriptionByName('famous_deed')]#!"
+story_event_legends.0002.desc.battle: "#EMP [promoted_legend.GetChapterDescriptionByName('battle')]#!"
+story_event_legends.0002.desc.fallback: "$story_event_legends.0001.desc.fallback$"
+story_event_legends.0002.desc.outro: "\n\nE la storia è stata scritta qui, [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], [GetCurrentDate.GetStringLong]."
+story_event_legends.0002.a: "#EMP [legend_protagonist.GetHouse.GetMotto].#!"
+
+story_event_legends.0003.t: "I Miracoli [legend_protagonist.Custom('IT_NAM_COL2')][legend_protagonist.GetTitledFirstNameNoTooltip]"
+story_event_legends.0003.desc.intro: "Questa è la fine del libro [legend_protagonist.Custom('IT_NAM_COL2')][legend_protagonist.GetTitledFirstName] e dei suoi miracoli, noti a tutti i [legend_protagonist.GetFaith.GetAdherentNamePluralNoTooltip]. Oh, onnipotente [legend_protagonist.GetFaith.HighGodName], benedici questo libro che racconta la leggenda [promoted_legend.GetName].\n\n"
+story_event_legends.0003.desc.famous_deed: "#EMP [promoted_legend.GetChapterDescriptionByName('famous_deed')]#!"
+story_event_legends.0003.desc.fallback: "#EMP La leggenda [legend_protagonist.Custom('IT_NAM_COL2')][legend_protagonist.GetTitledFirstNameNoTooltip] è una meraviglia tra le tante. [legend_protagonist.GetSheHe|U] ha compiuto innumerevoli miracoli, distinguendosi per la sua virtù. Alla sua presenza, i malati sono stati guariti e la terra arida è rifiorita.#!"
+story_event_legends.0003.desc.outro: "\n\nE la sua storia è stata scritta qui, [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], [GetCurrentDate.GetStringLong]."
+story_event_legends.0003.a: "Così sia."
+can_select_legendary_culture_pillars_tt: "Puoi scegliere il [heritage|e] e la [language|e] della tua cultura leggendaria quando [diverge|e] dalla tua [culture|e]"
+legend_title_does_not_exist_sub_realm_claims_given_tt: "Ottieni una [claim|E] per ogni [title|e] de jure in seno alla rivendicazione sul titolo [title_claim.GetName]"

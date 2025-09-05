@@ -1,0 +1,58 @@
+﻿l_spanish:
+
+ abduct_event_title:0 "Rapire:"
+ do_not_execute_abduct_tooltip:0 "Non tenterò il Rapimento"
+
+ abduct_outcome.1001.t:0 "$abduct_event_title$ Attacco sulla Strada"
+ abduct_outcome.1001.opening:1 "I miei agenti mi dicono che [target.GetTitledFirstName] è in viaggio"
+ abduct_outcome.1001.arrival:1 "da [departure.GetNameNoTooltip] a [arrival.GetNameNoTooltip]."
+ abduct_outcome.1001.no_arrival:1 "passando per [departure.GetNameNoTooltip]."
+ abduct_outcome.1001.ending:0 "Ho fatto in modo che alcuni briganti intterropessero il suo piccolo viaggio e si assicurassero che [target.GetSheHe] arrivi qui."
+ abduct_outcome.1001.a:0 "Presto [target.GetSheHe] sarà alla mia mercé!"
+ abduct_outcome.1001.b:0 "No, il rischio è troppo alto."
+
+ abduct_outcome.1002.t:0 "$abduct_event_title$ In corso"
+ abduct_outcome.1002.desc:2 "Si è presentata un'opportunità perfetta! [target.GetTitledFirstName] è in viaggio da [departure.GetNameNoTooltip] a [arrival.GetNameNoTooltip], senza neanche una guardia.\n\n[target.GetSheHe|U] probabilmente pensa di essere al sicuro..."
+ abduct_outcome.1002.a:0 "Il momento perfetto per colpire!"
+
+ abduct_outcome.1003.t:0 "$abduct_event_title$ Ospiti Sgraditi"
+ abduct_outcome.1003.desc:0 "Con i miei agenti che vanno e vengono liberamente dalla corte a [court_location.GetNameNoTierNoTooltip], [target.GetTitledFirstName] è a portata di mano!\n\nGli agenti sono in grado di far entrare un piccolo gruppo di persone nel cuore della notte e di coprirli mentre se ne vanno inosservati. Idealmente mentre attutiscono le urla di uno scalciante sacco di iuta."
+ abduct_outcome.1003.a:0 "Mi piace come suona questo piano!"
+
+ abduct_outcome.2001.desc:0 "Successo! I briganti hanno fatto il loro lavoro in modo ammirevole e [target.GetTitledFirstName] è nelle mie mani."
+ abduct_outcome.2001.a:0 "Spero che a [target.GetSheHe] piaccia la sua nuova dimora..."
+
+ abduct_outcome.2002.desc:0 "Prima ancora che [target.GetTitledFirstName] potesse accorgersi di cosa stava accadendo, fu pres[target.Custom('DE_END_PRO_S_N')] dai miei agenti! [target.GetSheHe|U] è finalemnte nelle mie mani."
+
+ abduct_outcome.2003.desc:1 "Non posso credere che abbia funzionato! È stato semplice fa entrare alcuni miei alleati nel [target.Custom('ResidenceBuilding')] nel cuore della notte. \n\n[target.GetTitledFirstName] si sta rodendo sicuramente il fegato per la scarsa sicurezza. Per fortuna è molto più sicuro dove si trova adesso."
+
+ abduct_outcome.4001.opening:0 "Dannazione! [target.GetTitledFirstName] è sfuggit[target.Custom('DE_END_PRO_S_N')] ai banditi che ho assoldato e ha fatto ritorno in sucurezza a [departure.GetNameNoTier]."
+ abduct_outcome.4001.owner_discovered:0 "\n\nChe disfatta, uno dei briganti è stato catturato e ha confessato tutto, compreso il mio coinvolgimento!"
+ abduct_outcome.4001.owner_secret:0 "\n\nAlmeno nessuno saprà che quei briganti lavoravano per me."
+ abduct_outcome.4001.a:1 "Troverò un altro modo per vedermela con [target.GetHerHim]."
+ abduct_outcome.4001.b:0 "La sua fortuna non durerà. È ora di riprovare!"
+
+ abduct_outcome.4002.opening:0 "Come è potuto succedere?! I miei agenti hanno atteso invano nel momento e nel luogo corretto ma [target.GetTitledFirstName] non si è fatt[target.Custom('DE_END_PRO_S_N')] viv[target.Custom('DE_END_PRO_S_N')]!"
+ abduct_outcome.4002.owner_discovered:0 "\n\n[target.GetSheHe|U] sembra aver capito che stavo escogitando qualcosa!"
+ abduct_outcome.4002.owner_secret:0 "\n\n[target.GetSheHe|U] deve aver capito che stava per succedere qualcosa, ma almeno non saprà mai che sono coinvolto."
+
+ abduct_outcome.4003.opening:0 "No! I miei alleati sono stati scoperti mentre cercavano di entrare negli alloggi di [target.GetTitledFirstNamePossessive]. Avrei dovuto sapere che non sarebbe stato così facile."
+ abduct_outcome.4003.owner_discovered:0 "\n\nQuel che è peggio, hanno confessato e hanno svelato pubblicamente il mio coinvolgimento nel complotto!"
+ abduct_outcome.4003.owner_secret:0 "\n\nPer qualche miracolo i miei alleati sono riusciti ad uscirne, il mio coinvolgimento rimane sconosciuto."
+
+ abduct_outcome.5001.t:0 "Rapito!"
+ abduct_outcome.5001.opening:0 "Sono stato rapito da [owner.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
+ abduct_outcome.5001.seized_roadside:0 "\n\nStavo viaggiando con il mio seguito quando siamo stati avvicinati da dei briganti. Non so cosa sia successo agli altri perchè la mia testa è stata infilata in un sacco. Quando è stato finalmente rimosso, mi sono ritrovato prigioniero in [prison_location.GetNameNoTier]."
+ abduct_outcome.5001.on_the_way:0 "\n\nStavo andando in città con solo una manciata delle mie guardie e [owner.GetSheHe] sapeva che colpendo in questo momento sarei stato più vulnerabile!"
+ abduct_outcome.5001.unwelcome_guests:1 "\n\nUn gruppo di sconosciuti ha fatto irruzione nelle mie stanza nel cuore della notte. Dei traditori devono averli fatti entrare nel [ROOT.Char.Custom('ResidenceBuilding')], pensavo che la mia vita fosse finita. Invece, mi hanno infilato in un sacco e mi hanno trascinato fuori. Legato, sono stato portato in questa prigione sotterranea."
+ abduct_outcome.5001.a:0 "Aspetta solo che esca di qui!"
+
+ abduct_outcome.5002.t:0 "Rapimento Scongiurato!"
+ abduct_outcome.5002.seized_roadside:0 "Stavo entrando in [departure.GetNameNoTier] quando ci ha raggiunto un gruppo di banditi.\n\nSono riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] a mettermi al sicuro, perche era chiaro che quei briganti non volevano farmi solo del male. Stavano cercando di catturarmi viv[ROOT.Char.Custom('DE_END_PRO_S_N')]!"
+ abduct_outcome.5002.on_the_way:1 "Stavo andando in città con solo una manciata di guardie quando hanno colpito. Per fortuna, quelli che avevo con me hanno agito in fretta e coraggiosamente, ed in poco tempo sono tornat[ROOT.Char.Custom('DE_END_PRO_S_N')] san[ROOT.Char.Custom('DE_END_PRO_S_N')] e salv[ROOT.Char.Custom('DE_END_PRO_S_N')] al [target.Custom('ResidenceBuilding')]."
+ abduct_outcome.5002.unwelcome_guests:1 "Un trambusto mi ha svegliat[ROOT.Char.Custom('DE_END_PRO_S_N')] nel cuore della notte. Un gruppo di briganti è stato fatto entrare nel [ROOT.Char.Custom('ResidenceBuilding')], solo quando sono arrivati alla porta delle mie stanze sono stati scoperti!"
+ abduct_outcome.5002.fallback:0 "Sono fuggito ad un tentativo di rapimento!"
+ abduct_outcome.5002.owner_known:0 "\n\nQuesto è senza dubbio il lavoro di nientemeno che [owner.Custom('DE_ART_DEF_P_A')] mi[owner.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], [owner.GetTitledFirstName]!"
+ abduct_outcome.5002.owner_not_known:0 "\n\nNon so chi ci sia dietro questo tentativo di rapimento, ma sono ancora la fuori..."
+ abduct_outcome.5002.a:0 "Oh, [owner.GetSheHe] me la pagerà!"
+ abduct_outcome.5002.b:0 "Devo stare attento."

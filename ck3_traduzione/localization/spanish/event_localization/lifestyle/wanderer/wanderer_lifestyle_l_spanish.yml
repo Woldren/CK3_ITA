@@ -1,0 +1,337 @@
+﻿l_spanish:
+ wanderer_lifestyle_events.10.t: "Sogni di un Viaggio"
+ wanderer_lifestyle_events.10.desc: "Questa stanza, queste pareti, questa maledetta sedia... Ne ho abbastanza di tutto questo.\n\nHo #emp bisogno#! di andarmene da qui. Di andare da qualche altra parte. Da #emp qualsiasi#! altra parte.\n\nOgni giorno che trascorro qui, in questa orribile stanza, è come se mi venisse portato via un pezzo della mia vita."
+ wanderer_lifestyle_events.10.a: "Ho bisogno di una pausa da tutto questo..."
+ wanderer_lifestyle_events.10.a.tt: "[traveling|E] rimuoverà il [modifier|e] e concederà una [stress_loss|E] e una [lifestyle_experience|E]"
+
+ wanderer_restlessness_modifier: "Irrequietezza"
+ wanderer_restlessness_modifier_desc: "#emp Questo [modifier|e] scomparirà la prossima volta che [Concept('travel','viaggerai')|e] da qualche parte#!\nOgni orribile giorno viene trascorso sognando di essere altrove."
+
+ wanderer_restlessness_removal_title: "Pazienza"
+
+ wanderer_lifestyle_events.20.t: "Il Mio Soggiorno a [reminiscing_location.GetNameNoTooltip]"
+ wanderer_lifestyle_events.20.desc: "Mentre rovistavo tra le mie cose, ho trovato una vecchia statuetta di [SCOPE.Custom('mythical_map_creatures')], ricordo della mia visita a [reminiscing_location.GetName]. Mentre la guardo, mi torna alla mente "
+ wanderer_lifestyle_events.20.desc.special_building: "un luogo a cui non pensavo più ormai da tanto tempo: [reminiscing_location.GetHolding.GetSpecialBuildingType.GetName]."
+ wanderer_lifestyle_events.20.desc.coastal: "il grande porto e la vista mozzafiato sull'oceano."
+ wanderer_lifestyle_events.20.desc.river: "il fiume che attraversa la città e i suoi numerosi ponti."
+ wanderer_lifestyle_events.20.desc.castle: "l'imponente castello che domina la città."
+ wanderer_lifestyle_events.20.desc.city: "la maestosa città, i suoi numerosi quartieri, i suoi luoghi più caratteristici e tutti i suoi segreti."
+ wanderer_lifestyle_events.20.desc.people: "la cordialità delle persone che vi abitavano."
+ wanderer_lifestyle_events.20.desc.outro_child: "\n\nMentre sono pers[ROOT.Char.Custom('DE_END_PRO_S_N')] nei miei pensieri, [listening_child.GetFirstName] irrompe improvvisamente nella stanza. "Cos'è quella?" mi chiede, lanciando un'occhiata curiosa alla statuetta."
+ wanderer_lifestyle_events.20.desc.outro: "\n\nMentre mi perdo nei miei pensieri, sento la nostalgia che mi assale. Forse... Forse dovrei tornare di nuovo a [reminiscing_location.GetNameNoTooltip]."
+ wanderer_lifestyle_events.20.a: "Lascia che ti racconti delle [SCOPE.Custom('mythical_map_creatures')] di [reminiscing_location.GetNameNoTooltip]!"
+ wanderer_lifestyle_events.20.b: "Un giorno rivedrò [reminiscing_location.GetNameNoTooltip] ancora una volta..."
+ wanderer_lifestyle_events.20.b.child: "Questa statuetta  viene da [reminiscing_location.GetNameNoTooltip], forse un giorno ti porterò lì."
+
+ wanderer_lifestyle_events.20.a.win: "[listening_child.GetSheHe|U] è affascinat[listening_child.Custom('DE_END_PRO_S_N')] dalla tua storia"
+ wanderer_lifestyle_events.20.a.lose: "[listening_child.GetSheHe|U] non crede a una parola della storia che [listening_child.Custom('DE_PRO_DEM')] racconti, ma si diverte ugualmente"
+
+ wanderer_lifestyle_events.20.b.tt: "Puoi ottenere esperienza aggiuntiva nello [wanderer_lifestyle|E] o [stress_loss|E] se [Concept('travel','viaggi')|e] in [reminiscing_location.GetName]"
+
+ wanderer_lifestyle_events.25.t: "Un'Altra Visita"
+ wanderer_lifestyle_events.25.desc: "Cammino per le stesse strade che ho percorso l'ultima volta che sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] a [province_location.GetName]. Vedo le stesse bancarelle, sento gli stessi odori e gli stessi suoni.\n\nÈ confortante sapere che alcune cose non sono cambiate."
+ wanderer_lifestyle_events.25.a: "Questo... è esattamente ciò che speravo."
+
+ wanderer_lifestyle_events.30.t: "Sogni di Terre Lontane"
+ wanderer_lifestyle_events.30.desc: "Mentre do una scorsa ai miei libri, trovo il diario di viaggio di un mercante che ha attraversato [ROOT.Char.Custom('DistantLandsRegionLoc')].\n\n"#emp Mentre attraversavamo [ROOT.Char.Custom('DistantLandsTerrainTypeLoc')], improvvisamente vidi [ROOT.Char.Custom('DistantLandsGroupTypeLoc')] [ROOT.Char.Custom('DistantLandsPluralTypeLoc')] [ROOT.Char.Custom('DistantLandsActivityTypeLoc')].#!"
+ wanderer_lifestyle_events.30.desc.singular: "#emp Questo animale aveva [ROOT.Char.Custom('DistantLandsDescriptionTypeLoc')]. Lo osservai da lontano per un minuto, era diverso da qualsiasi altro animale che avessi mai visto prima. Solo più tardi ho appreso il suo nome.#!"
+ wanderer_lifestyle_events.30.desc.plural: "#emp Questi animali avevano [ROOT.Char.Custom('DistantLandsDescriptionTypeLoc')]. Li osservai da lontano per un minuto, erano diversi da qualsiasi altro animale che avessi mai visto prima. Solo più tardi ho appreso il loro nome.#!"
+ wanderer_lifestyle_events.30.a.singular: "Un giorno lo vedrò coi miei occhi."
+ wanderer_lifestyle_events.30.a.plural: "Un giorno li vedrò coi miei occhi."
+
+ wanderer_lifestyle_events.30.a.europe: "Puoi ottenere esperienza aggiuntiva nello [wanderer_lifestyle|E] o [stress_loss|E] se [Concept('travel','viaggi')|e] in [GetGeographicalRegion('world_europe').GetName]"
+ wanderer_lifestyle_events.30.a.africa: "Puoi ottenere esperienza aggiuntiva nello [wanderer_lifestyle|E] o [stress_loss|E] se [Concept('travel','viaggi')|e] in [GetGeographicalRegion('world_africa').GetName]"
+ wanderer_lifestyle_events.30.a.asia: "Puoi ottenere esperienza aggiuntiva nello [wanderer_lifestyle|E] o [stress_loss|E] se [Concept('travel','viaggi')|e] in [GetGeographicalRegion('world_middle_east').GetName]"
+ wanderer_lifestyle_events.30.a.india: "Puoi ottenere esperienza aggiuntiva nello [wanderer_lifestyle|E] o [stress_loss|E] se [Concept('travel','viaggi')|e] in [GetGeographicalRegion('world_india').GetName]"
+ wanderer_lifestyle_events.30.a.tibet: "Puoi ottenere esperienza aggiuntiva nello [wanderer_lifestyle|E] o [stress_loss|E] se [Concept('travel','viaggi')|e] in [GetGeographicalRegion('world_tibet').GetName]"
+ wanderer_lifestyle_events.30.a.steppe: "Puoi ottenere esperienza aggiuntiva nello [wanderer_lifestyle|E] o [stress_loss|E] se [Concept('travel','viaggi')|e] nella [GetGeographicalRegion('world_steppe').GetName]"
+
+ wanderer_lifestyle_events.35.t: "Il Sogno È Reale"
+ wanderer_lifestyle_events.35.desc.singular: "Mentre viaggiamo attraverso [province_location.Custom('HoldingNoHoldingTerrainRoaming')], improvvisamente vedo un animale [ROOT.Char.Custom('DistantLandsActivityTypeLoc')]. All'inizio mi chiedo che tipo di animale sia, poi mi ricordo di una descrizione letta molti anni fa: devono essere [ROOT.Char.Custom('DistantLandsPluralTypeLoc')]!\n\n[ROOT.Char.Custom('DistantLandsDescriptionTypeLoc')|U], è quasi esattamente come veniva descritto in quel vecchio diario di viaggio, "
+ wanderer_lifestyle_events.35.desc.singular.adorable: "ed è molto più adorabile di quanto potessi immaginare. C'è qualcosa di particolare in questo animale che mi attrae."
+ wanderer_lifestyle_events.35.desc.singular.neutral: "e tuttavia è un po' diverso da come me l'aspettavo. Ma non in senso negativo."
+ wanderer_lifestyle_events.35.desc.singular.taken_aback: "eppure sono un po' sorpreso dall'aspetto di questo animale... In ogni caso, sono molto felice di averlo finalmente trovato!"
+ wanderer_lifestyle_events.35.desc.plural: "Mentre viaggiamo attraverso [province_location.Custom('HoldingNoHoldingTerrainRoaming')], improvvisamente vedo degli animali [ROOT.Char.Custom('DistantLandsActivityTypeLoc')]. All'inizio mi chiedo che tipo di animali siano, poi mi ricordo di una descrizione letta molti anni fa: devono essere [ROOT.Char.Custom('DistantLandsPluralTypeLoc')]!\n\n[ROOT.Char.Custom('DistantLandsDescriptionTypeLoc')|U], sono quasi esattamente come venivano descritti in quel vecchio diario di viaggio, "
+ wanderer_lifestyle_events.35.desc.plural.adorable: "e sono molto più adorabili di quanto potessi immaginare. C'è qualcosa di particolare in questi animali che mi attrae."
+ wanderer_lifestyle_events.35.desc.plural.neutral: "e tuttavia sono un po' diversi da come me li aspettavo. Ma non in senso negativo."
+ wanderer_lifestyle_events.35.desc.plural.taken_aback: "eppure sono un po' sorpreso dall'aspetto di questi animali... In ogni caso, sono molto felice di averli finalmente trovati!"
+ wanderer_lifestyle_events.35.a: "Lo catturerò!"
+ wanderer_lifestyle_events.35.a.win: "Riesci a catturare questo animale: [ROOT.Char.Custom('DistantLandsLoc')]"
+ wanderer_lifestyle_events.35.a.lose: "Ti rendi ridicol[ROOT.Char.Custom('DE_END_PRO_S_N')]"
+ wanderer_lifestyle_events.35.b.singular: "Mi accontento di essere finalmente riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] a vedere uno di questi animali."
+ wanderer_lifestyle_events.35.b.plural: "Mi accontento di essere finalmente riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] a vedere questi animali."
+
+ wanderer_lifestyle_events.40.t: "Market Blunder"
+ wanderer_lifestyle_events.40.desc: "My journey [ROOT.Char.GetLocationDesc|l] has been fine, but, tough times are upon us as our food stores are nearly depleted! The smell of freshly prepared [ROOT.Char.Custom('GetExpensiveMeal')] entices me, and following it, I reach peculiar stall. An array of [ROOT.Char.Custom('GetLocalStreetFoodPlural')] and cuts of [ROOT.Char.Custom('GetRegionalFish')] are displayed, with meals being served with... sweet [ROOT.Char.Custom('FavoriteTreat')]?\n\nDisregarding that, the price is quite the bargain! The merchant mutters something incomprehensible to me, and gestures for me to give [provisions_merchant.GetHerHim] more money than the locals, and while I'll still save some coin, I should contest. But I hardly know any [provisions_merchant.GetCulture.GetLanguage.GetNameNoTooltip]..."
+ wanderer_lifestyle_events.40.fold: "Might as well give [provisions_merchant.GetHerHim] what [provisions_merchant.GetSheHe]'s asking, just to get this over with."
+ wanderer_lifestyle_events.40.barter: "I have my own plans, even if I can't speak gibberish."
+ wanderer_lifestyle_events.40.language: "Perhaps [provisions_merchant.GetCulture.GetLanguage.GetNameNoTooltip] isn't completely alien to me..."
+ wanderer_lifestyle_events.40.meh: "Actually, we have food at home."
+ wanderer_lifestyle_events.40.language_tt: "You attempt to communicate with [provisions_merchant.GetName] in [provisions_merchant.GetHerHis] native tongue" 
+ wanderer_lifestyle_events.40.language_tt.success: "You actually get through to [provisions_merchant.GetHerHim], and thus receive the #EMP local#! price"
+ wanderer_lifestyle_events.40.language_learned: "Your linguistic inquisition proves to be fruitful"
+ wanderer_lifestyle_events.40.language_nothing: "You don't learn the language, but you still get the local price"
+ wanderer_lifestyle_events.40.language_tt.fail: "The situation becomes more confusing, and you still end up paying a bit more"
+ wanderer_lifestyle_events.40.barter_tt: "You attempt to #EMP convince#! [provisions_merchant.GetName] into giving you the local discount"
+ wanderer_lifestyle_events.40.barter_tt.success: "[provisions_merchant.GetSheHe|U] is impressed by your efforts, offering you the lower price"
+
+
+ wanderer_exotic_animal_modifier: "Animale Esotico"
+ wanderer_exotic_animal_modifier_desc: "Non c'è niente di più impressionante di un animale esotico che nessun altro ha mai visto prima!"
+
+ wanderer_lifestyle_events.40.success_title: "You successfully barter with [provisions_merchant.GetHerHim]"
+ wanderer_lifestyle_events.40.fail_title: "[provisions_merchant.GetFirstNameNoTooltip] isn't impressed"
+
+ DistantLandsEurope1: "bisonte"
+ DistantLandsEurope2: "lonza"
+ DistantLandsAfrica1: "elefante africano"
+ DistantLandsAfrica2: "antilope"
+ DistantLandsAfrica3: "fennec"
+ DistantLandsAsia1: "orice"
+ DistantLandsAsia2: "leopardo d'Arabia"
+ DistantLandsAsia3: "caracal"
+ DistantLandsIndia1: "tigre del Bengala"
+ DistantLandsIndia2: "elefante indiano"
+ DistantLandsIndia3: "gaur"
+ DistantLandsTibet1: "leopardo delle nevi"
+ DistantLandsTibet2: "pika"
+ DistantLandsTibet3: "yak"
+ DistantLandsSteppe1: "aquila delle steppe"
+ DistantLandsSteppe2: "cavallo selvaggio"
+ DistantLandsSteppe3: "saiga"
+
+ # If they are using "solitary" in the group section, then just use the singular for them
+ DistantLandsEurope1_plural: "bisonti" # Bison
+ DistantLandsEurope2_plural: "lonze" # linx
+ DistantLandsAfrica1_plural: "elefanti africani" # Elephant
+ DistantLandsAfrica2_plural: "antilopi" # Antelope
+ DistantLandsAfrica3_plural: "$DistantLandsAfrica3$" # Fennec Fox
+ DistantLandsAsia1_plural: "orici" # Oryx
+ DistantLandsAsia2_plural: "leopardi d'Arabia" # Leopard
+ DistantLandsAsia3_plural: "$DistantLandsAsia3$" # Caracal
+ DistantLandsIndia1_plural: "tigri del Bengala" # Tiger
+ DistantLandsIndia2_plural: "elefanti indiani" # Elephant
+ DistantLandsIndia3_plural: "gaur" # Gaur
+ DistantLandsTibet1_plural: "leopardi delle nevi" # Leopard
+ DistantLandsTibet2_plural: "pika" # Pika
+ DistantLandsTibet3_plural: "yak" # Yak
+ DistantLandsSteppe1_plural: "aquile delle steppe" # Steppe Eagle
+ DistantLandsSteppe2_plural: "cavalli selvaggi" # Wild Horses
+ DistantLandsSteppe3_plural: "saiga" # Saiga 
+
+ DistantLandsEurope1_group: "una piccola mandria di" # Bison
+ DistantLandsEurope2_group: "un esemplare di" # linx
+ DistantLandsAfrica1_group: "una grande mandria di" # Elephant
+ DistantLandsAfrica2_group: "una grande mandria di" # Antelope
+ DistantLandsAfrica3_group: "un esemplare di" # Fennec Fox
+ DistantLandsAsia1_group: "un branco di" # Oryx
+ DistantLandsAsia2_group: "un esemplare di" # Leopard
+ DistantLandsAsia3_group: "un esemplare di" # Caracal
+ DistantLandsIndia1_group: "un esemplare di" # Tiger
+ DistantLandsIndia2_group: "una grande mandria di" # Elephant
+ DistantLandsIndia3_group: "una piccola mandria di" # Gaur
+ DistantLandsTibet1_group: "un esemplare di" # Leopard
+ DistantLandsTibet2_group: "una colonia di" # Pika
+ DistantLandsTibet3_group: "una piccola mandria di" # Yak
+ DistantLandsSteppe1_group: "un esemplare di" # Steppe Eagle
+ DistantLandsSteppe2_group: "una grande mandria di" # Wild Horses
+ DistantLandsSteppe3_group: "un branco di" # Saiga
+
+ DistantLandsHerdAnimalActivity: "pascolare tranquillamente in lontananza"
+ DistantLandsEurope1_activity: "$DistantLandsHerdAnimalActivity$" # Bison
+ DistantLandsEurope2_activity: "agirarsi nel sottobosco" # linx
+ DistantLandsAfrica1_activity: "$DistantLandsHerdAnimalActivity$" # Elephant
+ DistantLandsAfrica2_activity: "$DistantLandsHerdAnimalActivity$" # Antelope
+ DistantLandsAfrica3_activity: "dormire al sole senza prestare la minima attenzione al mio gruppo" # Fennec Fox
+ DistantLandsAsia1_activity: "$DistantLandsHerdAnimalActivity$" # Oryx
+ DistantLandsAsia2_activity: "guardare il mio gruppo da lontano" # Leopard
+ DistantLandsAsia3_activity: "guardare il mio gruppo da lontano" # Caracal
+ DistantLandsIndia1_activity: "cacciare una preda" # Tiger
+ DistantLandsIndia2_activity: "$DistantLandsHerdAnimalActivity$" # Elephant
+ DistantLandsIndia3_activity: "$DistantLandsHerdAnimalActivity$" # Gaur
+ DistantLandsTibet1_activity: "guardare il mio gruppo da lontano" # Leopard
+ DistantLandsTibet2_activity: "allontanarsi e cercare di nascondersi sottoterra quando ci siamo avvicinati" # Pika
+ DistantLandsTibet3_activity: "$DistantLandsHerdAnimalActivity$" # Yak
+ DistantLandsSteppe1_activity: "volare sulle nostre teste" # Steppe Eagle
+ DistantLandsSteppe2_activity: "correre in lontananza" # Wild Horses
+ DistantLandsSteppe3_activity: "$DistantLandsHerdAnimalActivity$" # Saiga
+
+ DistantLandsEurope1_description: "pelliccia folta e scura, corpo robusto e testa massiccia" # Bison
+ DistantLandsEurope2_description: "un corpo elegante, pelo corto e ciuffi di peli neri sulle orecchie" # linx
+ DistantLandsAfrica1_description: "un corpo massiccio, una lunga proboscide e grandi zanne" # Elephant
+ DistantLandsAfrica2_description: "un corpo slanciato, zampe lunghe e corna a spirale" # Antelope
+ DistantLandsAfrica3_description: "una bella pelliccia chiara e grandi orecchie" # Fennec Fox
+ DistantLandsAsia1_description: "un corpo snello, corna dritte e pelliccia chiara" # Oryx
+ DistantLandsAsia2_description: "un corpo agile e un mantello maculato" # Leopard
+ DistantLandsAsia3_description: "lunghe orecchie a ciuffo e mantello rossiccio" # Caracal
+ DistantLandsIndia1_description: "un aspetto appariscente, una corporatura possente e uno sguardo feroce" # Tiger
+ DistantLandsIndia2_description: "struttura fisica imponente, possente e con una pelle spessa" # Elephant
+ DistantLandsIndia3_description: "una corporatura robusta, grandi corna e un mantello scuro" # Gaur
+ DistantLandsTibet1_description: "una struttura fisica slanciata, pelliccia dorata e una indole sfuggente" # Leopard
+ DistantLandsTibet2_description: "un corpo piccolo, orecchie arrotondate e pelo folto" # Pika
+ DistantLandsTibet3_description: "una corporatura robusta, criniera ispida e grandi corna" # Yak
+ DistantLandsSteppe1_description: "un'ampia apertura alare e un portamento regale" # Steppe Eagle
+ DistantLandsSteppe2_description: "una criniera fluente e zampe potenti" # Wild Horses
+ DistantLandsSteppe3_description: "un muso caratteristico, mantello chiaro e corna che sembrano formate da tanti anelli" # Saiga
+
+ DistantLandsEurope1_terrain: "le pianure" # Bison
+ DistantLandsEurope2_terrain: "una foresta" # linx
+ DistantLandsAfrica1_terrain: "le pianure" # Elephant
+ DistantLandsAfrica2_terrain: "le pianure" # Antelope
+ DistantLandsAfrica3_terrain: "un deserto" # Fennec Fox
+ DistantLandsAsia1_terrain: "un deserto" # Oryx
+ DistantLandsAsia2_terrain: "una foresta" # Leopard
+ DistantLandsAsia3_terrain: "le colline" # Caracal
+ DistantLandsIndia1_terrain: "una giungla" # Tiger
+ DistantLandsIndia2_terrain: "una giungla" # Elephant
+ DistantLandsIndia3_terrain: "una foresta" # Gaur
+ DistantLandsTibet1_terrain: "le montagne" # Leopard
+ DistantLandsTibet2_terrain: "le montagne" # Pika
+ DistantLandsTibet3_terrain: "le montagne" # Yak
+ DistantLandsSteppe1_terrain: "la steppa" # Steppe Eagle
+ DistantLandsSteppe2_terrain: "la steppa" # Wild Horses
+ DistantLandsSteppe3_terrain: "la steppa" # Saiga
+
+ DistantLandsRegionEurope: "l'Europa"
+ DistantLandsRegionAfrica: "l'Africa"
+ DistantLandsRegionAsia: "l'Asia"
+ DistantLandsRegionIndia: "l'India"
+ DistantLandsRegionTibet: "il Tibet"
+ DistantLandsRegionSteppe: "la steppa"
+
+ ### Designated Terrain Decision
+ choose_designated_terrain_decision: "Terreno Designato"
+ CHOOSE_DESIGNATED_TERRAIN_DECISION_NEXT_STEP_BUTTON: "Scegli il Gruppo di Terreni"
+ choose_designated_terrain_decision_tooltip: "Scegli un gruppo di [terrains|e] nel quale migliorarti e guagagna bonus man mano che ti addentri nell'albero dello [lifestyle|E] di ispettore."
+ choose_designated_terrain_decision_desc: "È giunto il momento di decidere dove concentrare i miei sforzi e guidare i miei uomini: nelle polverose terre aride, nei torreggianti altipiani, nelle vaste pianure o nelle profondità delle foreste?\n\n@alert_icon!#color_yellow #emp Questa è una scelta permanente#!#!"
+ choose_designated_terrain_decision_confirm: "Conferma il Gruppo di Terreni"
+
+ designated_terrain_forest_decision: "Le foreste"
+ designated_terrain_mountain_decision: "Gli altipiani"
+ designated_terrain_plains_decision: "Le pianure"
+ designated_terrain_drylands_decision: "Le terre aride"
+
+ forest_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@forest! Le foreste\n$EFFECT_LIST_BULLET$@jungle! Le giungle\n$EFFECT_LIST_BULLET$@taiga! La taiga\n$EFFECT_LIST_BULLET$@wetlands! Le paludi"
+ mountain_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@mountains! Le montagne\n$EFFECT_LIST_BULLET$@hills! Le colline\n$EFFECT_LIST_BULLET$@desert_mountains! Le montagne del deserto"
+ plains_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@plains! Le pianure\n$EFFECT_LIST_BULLET$@steppe! Le steppe\n$EFFECT_LIST_BULLET$@farmlands! I terreni agricoli\n$EFFECT_LIST_BULLET$@floodplains! Le pianure alluvionali"
+ drylands_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@desert! I deserti\n$EFFECT_LIST_BULLET$@drylands! Le terre aride\n$EFFECT_LIST_BULLET$@oasis! Le Oasi"
+
+ terrain_tooltip_desc: "Terreni su cui focalizzarsi:"
+ master_forest_terrain_tooltip: "$terrain_tooltip_desc$$forest_terrain_bullet_list$"
+ master_mountain_terrain_tooltip: "$terrain_tooltip_desc$$mountain_terrain_bullet_list$"
+ master_plains_terrain_tooltip: "$terrain_tooltip_desc$$plains_terrain_bullet_list$"
+ master_drylands_terrain_tooltip: "$terrain_tooltip_desc$$drylands_terrain_bullet_list$"
+
+ designated_terrain_effect_desc: "I seguenti [terrains|e] fungeranno da [designated_terrain|E] per i [perks|e] dello [lifestyle|E] di ispettore:"
+ master_forest_terrain_effect_tooltip: "$designated_terrain_effect_desc$$forest_terrain_bullet_list$"
+ master_mountain_terrain_effect_tooltip: "$designated_terrain_effect_desc$$mountain_terrain_bullet_list$"
+ master_plains_terrain_effect_tooltip: "$designated_terrain_effect_desc$$plains_terrain_bullet_list$"
+ master_drylands_terrain_effect_tooltip: "$designated_terrain_effect_desc$$drylands_terrain_bullet_list$"
+
+ landless_inspector_woodlands_tier_1_modifier: "Terreno Designato #weak (Foreste)#!"
+ landless_inspector_woodlands_tier_2_modifier: "$landless_inspector_woodlands_tier_1_modifier$"
+ landless_inspector_woodlands_tier_3_modifier: "$landless_inspector_woodlands_tier_1_modifier$"
+ nomadic_inspector_woodlands_tier_2_modifier: "$landless_inspector_woodlands_tier_1_modifier$"
+ nomadic_inspector_woodlands_tier_3_modifier: "$landless_inspector_woodlands_tier_1_modifier$" 
+ landless_inspector_highlands_tier_1_modifier: "Terreno Designato #weak (Altipiani)#!"
+ landless_inspector_highlands_tier_2_modifier: "$landless_inspector_highlands_tier_1_modifier$"
+ landless_inspector_highlands_tier_3_modifier: "$landless_inspector_highlands_tier_1_modifier$"
+ nomadic_inspector_highlands_tier_2_modifier: "$landless_inspector_highlands_tier_1_modifier$"
+ nomadic_inspector_highlands_tier_3_modifier: "$landless_inspector_highlands_tier_1_modifier$" 
+ landless_inspector_lowlands_tier_1_modifier: "Terreno Designato #weak (Pianure)#!"
+ landless_inspector_lowlands_tier_2_modifier: "$landless_inspector_lowlands_tier_1_modifier$"
+ landless_inspector_lowlands_tier_3_modifier: "$landless_inspector_lowlands_tier_1_modifier$"
+ nomadic_inspector_lowlands_tier_2_modifier: "$landless_inspector_lowlands_tier_1_modifier$"
+ nomadic_inspector_lowlands_tier_3_modifier: "$landless_inspector_lowlands_tier_1_modifier$" 
+ landless_inspector_drylands_tier_1_modifier: "Terreno Designato #weak (Terre Aride)#!"
+ landless_inspector_drylands_tier_2_modifier: "$landless_inspector_drylands_tier_1_modifier$"
+ landless_inspector_drylands_tier_3_modifier: "$landless_inspector_drylands_tier_1_modifier$"
+ nomadic_inspector_drylands_tier_2_modifier: "$landless_inspector_drylands_tier_1_modifier$"
+ nomadic_inspector_drylands_tier_3_modifier: "$landless_inspector_drylands_tier_1_modifier$" 
+
+ landless_local_arbitration_wanderers_modifier: "$local_arbitration_perk_adventurer_name$ #weak (Viandanti)#!"
+ landless_local_arbitration_mercenaries_modifier: "$local_arbitration_perk_adventurer_name$ #weak (Mercenari)#!"
+ landless_local_arbitration_scholars_modifier: "$local_arbitration_perk_adventurer_name$ #weak (Studiosi)#!"
+ landless_local_arbitration_explorers_modifier: "$local_arbitration_perk_adventurer_name$ #weak (Esploratori)#!"
+ landless_local_arbitration_brigands_modifier: "$local_arbitration_perk_adventurer_name$ #weak (Briganti)#!"
+ landless_local_arbitration_legitimists_modifier: "$local_arbitration_perk_adventurer_name$ #weak (Legittimisti)#!"
+
+
+ ### Master Terrain Decision
+ choose_master_terrain_decision: "Terreno Principale"
+ choose_master_terrain_decision_tooltip: "Scegli un [terrain|E] nel quale specializzarti, nel quale otterrai potenti vantaggi riguardo le [provisions|e], gli [armies|e] e nelle [battles|e]."
+ choose_master_terrain_decision_desc: "Qual è la mia passione più grande? Sono le profonde foreste, le nuvolose cime delle montagne o le vaste pianure sotto un cielo azzurro?\n\n@alert_icon!#color_yellow #emp Questa è una scelta permanente#!#!"
+ choose_master_terrain_decision_confirm: "Conferma il Terreno"
+ CHOOSE_MASTER_TERRAIN_DECISION_NEXT_STEP_BUTTON: "Scegli il Terreno"
+
+ master_terrain_forest_decision: "Le foreste"
+ master_terrain_forest_terrain_tooltip: "" # This and following tooltips intentionally empty
+ master_terrain_jungle_decision: "Le giungle"
+ master_terrain_jungle_terrain_tooltip: ""
+ master_terrain_taiga_decision: "La taiga"
+ master_terrain_taiga_terrain_tooltip: ""
+ master_terrain_wetlands_decision: "Le paludi"
+ master_terrain_wetlands_terrain_tooltip: ""
+
+ master_terrain_mountains_decision: "Le montagne"
+ master_terrain_mountains_terrain_tooltip: ""
+ master_terrain_hills_decision: "Le colline"
+ master_terrain_hills_terrain_tooltip: ""
+ master_terrain_desert_mountains_decision: "Le montagne desertiche"
+ master_terrain_desert_mountains_terrain_tooltip: ""
+
+ master_terrain_plains_decision: "Le pianure"
+ master_terrain_plains_terrain_tooltip: ""
+ master_terrain_steppe_decision: "Le steppe"
+ master_terrain_steppe_terrain_tooltip: ""
+ master_terrain_farmlands_decision: "I terreni agricoli"
+ master_terrain_farmlands_terrain_tooltip: ""
+ master_terrain_floodplains_decision: "Le pianure alluvionali"
+ master_terrain_floodplains_terrain_tooltip: ""
+
+ master_terrain_drylands_decision: "Le terre aride"
+ master_terrain_drylands_terrain_tooltip: ""
+ master_terrain_desert_decision: "I deserti"
+ master_terrain_desert_terrain_tooltip: ""
+ master_terrain_oasis_decision: "Le oasi"
+ master_terrain_oasis_terrain_tooltip: ""
+
+ master_of_terrain_modifier: "Specialista di Terreno"
+ master_terrain_forest_modifier: "$master_of_terrain_modifier$ #weak (Foresta)#!"
+ master_terrain_jungle_modifier: "$master_of_terrain_modifier$ #weak (Giungla)#!"
+ master_terrain_taiga_modifier: "$master_of_terrain_modifier$ #weak (Taiga)#!"
+ master_terrain_wetlands_modifier: "$master_of_terrain_modifier$ #weak (Paludi)#!"
+
+ master_terrain_mountains_modifier: "$master_of_terrain_modifier$ #weak (Montagne)#!"
+ master_terrain_hills_modifier: "$master_of_terrain_modifier$ #weak (Colline)#!"
+ master_terrain_desert_mountains_modifier: "$master_of_terrain_modifier$ #weak (Montagne Desertiche)#!"
+
+ master_terrain_plains_modifier: "$master_of_terrain_modifier$ #weak (Pianure)#!"
+ master_terrain_steppe_modifier: "$master_of_terrain_modifier$ #weak (Steppe)#!"
+ master_terrain_farmlands_modifier: "$master_of_terrain_modifier$ #weak (Terreni Agricoli)#!"
+ master_terrain_floodplains_modifier: "$master_of_terrain_modifier$ #weak (Pianure Alluvionali)#!"
+
+ master_terrain_drylands_modifier: "$master_of_terrain_modifier$ #weak (Terre Aride)#!"
+ master_terrain_desert_modifier: "$master_of_terrain_modifier$ #weak (Deserto)#!"
+ master_terrain_oasis_modifier: "$master_of_terrain_modifier$ #weak (Oasi)#!"
+
+ master_terrain_custom_tooltip_short_are: "saranno ora il tuo [master_terrain|E]"
+ master_terrain_custom_tooltip_short_is: "sarà ora il tuo [master_terrain|E]"
+ master_terrain_custom_tooltip_forest: "@forest! La foresta $master_terrain_custom_tooltip_short_is$"
+ master_terrain_custom_tooltip_jungle: "@jungle! La giungla $master_terrain_custom_tooltip_short_is$"
+ master_terrain_custom_tooltip_taiga: "@taiga! La taiga $master_terrain_custom_tooltip_short_is$"
+ master_terrain_custom_tooltip_wetlands: "@wetlands! Le paludi $master_terrain_custom_tooltip_short_are$"
+
+ master_terrain_custom_tooltip_mountains: "@mountains! Le montagne $master_terrain_custom_tooltip_short_are$"
+ master_terrain_custom_tooltip_hills: "@hills! Le colline $master_terrain_custom_tooltip_short_are$"
+ master_terrain_custom_tooltip_desert_mountains: "@desert_mountains! Le montagne desertiche $master_terrain_custom_tooltip_short_are$"
+
+ master_terrain_custom_tooltip_plains: "@plains! Le pianure $master_terrain_custom_tooltip_short_are$"
+ master_terrain_custom_tooltip_steppe: "@steppe! La steppa $master_terrain_custom_tooltip_short_is$"
+ master_terrain_custom_tooltip_farmlands: "@farmlands! I terreni agricoli $master_terrain_custom_tooltip_short_are$"
+ master_terrain_custom_tooltip_floodplains: "@floodplains! Le pianure alluvionali $master_terrain_custom_tooltip_short_are$"
+
+ master_terrain_custom_tooltip_drylands: "@drylands! Le terre aride $master_terrain_custom_tooltip_short_are$"
+ master_terrain_custom_tooltip_desert: "@desert! Il deserto $master_terrain_custom_tooltip_short_is$"
+ master_terrain_custom_tooltip_oasis: "@oasis! L'oasi $master_terrain_custom_tooltip_short_is$"
+

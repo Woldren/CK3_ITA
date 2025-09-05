@@ -1,0 +1,15 @@
+﻿l_spanish:
+ ##################################################
+ # #Hold Court Opinions
+
+ ep1_took_advantage_of_kindness_opinion:0 "Ha Approfittato della mia Gentilezza"
+ ep1_rejected_sponsoring_a_feast_opinion:0 "Ha Rifiutato la mia Offerta di Patrocinare una Festa"
+ ep1_accepted_sponsoring_a_feast_opinion:0 "Ha Accettato la mia Offerta di Patrocinare una Festa"
+ ep1_disagreed_with_decision_opinion:0 "In Disaccordo con la Decisione durante una Supplica"
+ ep1_agreed_with_decision_opinion:0 "In Accordo con la Decisione durante una Supplica"
+ ep1_disagreed_with_lowborn_adoption_opinion:0 "In Disaccordo con la Decisione di Adottare una persona di Umili Natali"
+ sumptuary_debate_victor_opinion:0 "Ha violato la Legge Suntuaria"
+ sumptuary_debate_loser_opinion:0 "Mi ha punito per aver Violato la Legge Suntuaria"
+
+ ##################################################
+

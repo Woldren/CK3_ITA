@@ -1,0 +1,17 @@
+﻿l_spanish:
+ seduce_bad_time_opinion:0 "Tempo spiacevole"
+ seduce_refused_to_end_seduction_spouse_opinion:0 "Ha rifiutato di porre fine alla seduzione"
+ seduce_loss_of_trust_opinion:0 "Perdita di fiducia"
+ seduce_continued_seduction_opinion:0 "Ha mentito sulla seduzione"
+ seduce_suspicion_target_spouse_opinion:0 "Sospettoso"
+ seduce_refused_target_spouse_opinion:0 "Ha rifiutato di porre fine alla seduzione"
+ seduce_continued_seduction_of_my_spouse_opinion:0 "Ha mentito sulla seduzione"
+
+ #used for romance and seduce schemes
+ seduce_regular_cooldown_opinion:0 "Avances rifiutate"
+ seduce_permanent_blocker_opinion:0 "Respinto dalle avances"
+
+ adulterer_advances_on_relevant_character:0 "Ha fatto avances adultere"
+ fornicator_advances_on_relevant_character:0 "Ha fatto avances peccaminose"
+ incestuous_advances_on_relevant_character:0 "Ha fatto avances incestuose"
+ sodomite_advances_on_relevant_character:0 "Ha fatto avances sodomite"

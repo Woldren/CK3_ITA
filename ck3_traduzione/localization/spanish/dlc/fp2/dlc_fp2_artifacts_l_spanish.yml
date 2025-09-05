@@ -1,0 +1,36 @@
+﻿l_spanish:
+
+##################################################
+# Uniques
+
+ fp2_chalice_dona_urraca:0 "Calice di Dona Urraca"
+ fp2_chalice_dona_urraca_desc:0 "Un calice rituale scolpito nell'onice più profondo e tempestato di gioielli e reticoli d'oro. Commissionato da [owner.GetTitledFirstName] per onorare la Chiesa."
+
+ fp2_santiago_aquamanile:0 "(Ex) $fp2_santiago_bells$"
+ # We have to use |U here so that al-Mansur is presented correctly.
+ fp2_santiago_aquamanile_desc:0 "[reforger.GetTitledFirstName|U] ha forgiato queste brocche dai resti fusi delle $fp2_santiago_bells$. Sebbene ora vengano utilizzate per la pulizia rituale delle mani dei loro proprietari, la loro semplice esistenza conferma il primato dell'Islam sul Cristianesimo."
+ fp2_santiago_aquamanile_melted_desc:0 "Sciolte #EMP nuovamente#!, più di recente da [reforger.GetTitledFirstName], le vecchie $fp2_santiago_bells$ sono tra le brocche d'acqua più contestate che esistano. La loro forma attuale ribadisce il primato dell'Islam in Iberia."
+ fp2_santiago_aquamanile_melted_tally_desc:0 "$fp2_santiago_aquamanile_melted_desc$\n\nQuesto metallo frequentemente forgiato è passato di mano [ROOT.Var('artefact_santiago_bells').GetValue] volte."
+
+ fp2_santiago_bells:0 "Campane di Santiago"
+ fp2_santiago_bells_desc:0 "Le illustri Campane di Santiago de Compostela ricordano in modo forte, semplice e soprattutto #EMP rumoroso#! l'immutabile autorità spirituale di San Giacomo."
+ fp2_santiago_bells_melted_desc:0 "Recuperate dalle mani degli infedeli, fuse e riportate a qualcosa di simile alla loro forma originale da [reforger.GetTitledFirstName], le illustri Campane di Santiago de Compostela suonano a conforto di tutta la cristianità."
+ fp2_santiago_bells_melted_tally_desc:0 "$fp2_santiago_bells_melted_desc$\n\nQuesto metallo frequentemente forgiato è passato di mano [ROOT.Var('artefact_santiago_bells').GetValue] volte."
+
+##################################################
+# Multiples
+
+ fp2_armillary_sphere:0 "Sfera Armillare"
+ fp2_armillary_sphere_desc:0 "Un intricato dispositivo astrologico di [SCOPE.Custom('ArtifactQuality')] fattura. Gli anelli sono ricavati dal [newly_created_artifact.GetFeatureText( 'generic_material_wood' )], intarsiati con [newly_created_artifact.GetFeatureText( 'decoration_material_inlay' )] e modellano i sentieri tortuosi dell'empireo con mirabili dettagli."
+
+ fp2_2p_chess_board:0 "Scacchiera Fortunata"
+ fp2_2p_chess_board_desc:0 "Fondamentale in una partita clamorosamente vinta contro [bg_loser.GetTitledFirstName], questo strumento di svago ha portato per la prima volta la sua fortuna brevettata a [bg_victor.GetTitledFirstName]."
+
+ fp2_4p_chess_board:0 "Scacchiera Per Quattro Giocatori"
+ fp2_4p_chess_board_desc:0 "Quando [bg_victor.GetTitledFirstName] batté [bg_loser.GetTitledFirstName] a scacchi, il suo primo pensiero fu quello di commemorare la sua maestria nel giocare, ideando una variante migliorata e così specifica che [bg_victor.GetSheHe] non sarebbe stato in grado di farci giocare nessuno."
+
+ fp2_votive_crowns:0 "Corona Votiva Visigota"
+ fp2_votive_crowns_desc:0 "Progettata per essere appesa sopra o intorno agli altari delle chiese e, occasionalmente, sulle statue, offrire una corona votiva a Dio significa esprimere la sottomissione a un'autorità superiore a quella reale."
+
+ fp2_andalusian_aquamanile:0 "Acquamanile Rituale"
+ fp2_andalusian_aquamanile_desc:0 "Una bellissima brocca di [newly_created_artifact.GetFeatureText( 'goblet_material' )], con decorazioni in [newly_created_artifact.GetFeatureText( 'decoration_material_inlay' )] dorato, destinato a contenere l'acqua con cui ci si lava ritualmente le mani."

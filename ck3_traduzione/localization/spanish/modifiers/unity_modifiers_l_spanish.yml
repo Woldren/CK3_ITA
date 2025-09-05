@@ -1,0 +1,30 @@
+﻿l_spanish:
+ unity_antagonistic_maa_modifier:0 "Ufficiali dell'Esercito Fedeli"
+ unity_antagonistic_maa_modifier_desc:0 "I membri di questa Casata hanno unito le loro risorse per rafforzare le truppe all'interno dei loro eserciti."
+
+ unity_competitive_spies_modifier:0 "Rete di Intrigo"
+ unity_competitive_spies_modifier_desc:0 "I membri di questa Casata condividono gli intrighi tra loro, creando una rete di spionaggio esclusiva della loro Casata."
+ 
+ unity_impassive_tax_modifier:0 "Amministrazione Migliorata"
+ unity_impassive_tax_modifier_desc:0 "I membri di questa Casata godono di una maggiore efficienza nella loro amministrazione."
+
+ unity_friendly_bailiff_modifier:0 "Ufficiali Giudiziari Esecutivi"
+ unity_friendly_bailiff_modifier_desc:0 "I membri di questa Casata collaborano con il loro signore per ridurre la corruzione in tutto il regno."
+ 
+ unity_harmonious_placation_modifier:0 "Placato"
+ unity_harmonious_placation_modifier_desc:0 "I membri di questa Casata hanno riaffermato il diritto del loro signore a governare in armonia."
+ 
+ unity_house_organized_for_war_modifier:0 "Organizzati per la guerra"
+ unity_house_organized_for_war_modifier_desc:0 "I membri di questa Casata si sono impegnati a condurre una guerra.\nI [rulers|E] adotteranno l'[economical_archetype|E] [warlike_i|E][ai_warlike_personality|L]"
+ 
+ unity_house_focused_on_economy_modifier:0 "Economia Incoraggiata"
+ unity_house_focused_on_economy_modifier_desc:0 "I membri di questa Casata stanno migliorando attivamente la loro economia con grande entusiasmo.\nI [rulers|E] adotteranno l'[economical_archetype|E] [builder_i][ai_economical_boom_personality|L]"
+
+ unity_house_focused_on_diplomacy_modifier:0 "Sforzi Diplomatici"
+ unity_house_focused_on_diplomacy_modifier_desc:0 "I membri di questa Casata lavorano insieme per esercitare efficacemente la loro influenza."
+ 
+ fp3_unity_promoted_development_modifier:0 "Promozione dello Sviluppo"
+ fp3_unity_promoted_development_modifier_desc:0 "I membri di questa Casata stanno collaborando per sviluppare le loro terre."
+ 
+ fp3_unity_improved_logistics_modifier:0 "Logistica dell'Esercito Condivisa"
+ fp3_unity_improved_logistics_modifier_desc:0 "I membri di questa Casata condividono la logistica e i rifornimenti dell'esercito."

@@ -1,0 +1,8 @@
+﻿l_spanish:
+ KILL_LIST:1 "Uccisioni"
+ OPEN_KILL_LIST_TOOLTIP:4 "#T Visualizza Uccisioni\n#!Visualizza tutti i Personaggi uccisi da [Character.GetFirstNameNoTooltip], [Character.LocalPlayerString( 'se vuoi abbandonarti ai ricordi...', 'di cui sei a conoscenza...' )]"
+ ARTIFACT_KILL_LIST:0 "Uccisioni [ArtifactKillListWindow.GetArtifact.GetName|U]"
+ OPEN_ARTIFACT_KILL_LIST_TOOLTIP:0 "#T Visualizza le Uccisioni\n#!Visualizza tutti i Personaggi che il [Artifact.GetName] ha ucciso"
+ ARTIFACT_FORGOTTEN_SOLDIER_KILLS:0 "#S Soldati Dimenticati#!: [Artifact.GetForgottenSoldiersCount|V]"
+ DEATH_DATE:0 "Data di Morte"
+ DEATH_REASON:0 "Ragione della Morte"

@@ -1,0 +1,30 @@
+﻿l_spanish:
+ prison_notification.0001.t:0 "Imprigionat[ROOT.Char.Custom('DE_END_PRO_S_N')]!"
+ prison_notification.0001.desc:0 "Sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] catturat[ROOT.Char.Custom('DE_END_PRO_S_N')] e detenut[ROOT.Char.Custom('DE_END_PRO_S_N')] contro la mia volontà da [imprisoner.GetTitledFirstName]!\n\nNon sono più liber[ROOT.Char.Custom('DE_END_PRO_S_N')] di tornare nella mia [ROOT.Char.Custom('GetCourt')] o di viaggiare come desidero."
+ prison_notification.0001.a:0 "Spero che questa situazione non duri troppo."
+
+ prison_notification.0002.t:0 "Imprigionat[prisoner.Custom('DE_END_PRO_S_N')]!"
+ prison_notification.0002.desc:0 "[prisoner.GetTitledFirstName], [prisoner.Custom('DE_ART_DEF_P_A')] mi[prisoner.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))], è ora in prigione per volere di [imprisoner.GetTitledFirstName]."
+ prison_notification.0002.a:0 "Cosa si puo fare per [prisoner.GetHerHim]?"
+
+ prison_notification.0003.message:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] Imprigionat[prisoner.Custom('DE_END_PRO_S_N')]!"
+ 
+ prison_notification.1001.t:0 "Fuori alla Luce"
+ prison_notification.1001.desc:0 "[actor.GetTitledFirstName] mi ha fatto sbattere nelle segrete! Marcirò qui, nelle stanze infernali del suo [actor.Custom('FortifiedBuilding')]?"
+ prison_notification.1001.a:0 "[actor.GetSheHe|U] è peggio dei ratti che corrono quaggiù!"
+ prison_notification.1001.a.tt:0 "Mentre sono nelle segrete aumentero lo [stress|E] fino ad un livello pericoloso!"
+
+ prison_notification.1002.t:0 "Aria Fresca"
+ prison_notification.1002.desc:0 "[actor.GetTitledFirstName] a ritenuto opportuno liberarmi dalla mia prigionia, ma solo per tenermi agli arresti domiciliari."
+ prison_notification.1002.a:0 "Mi prendo tutta la misericordia che posso trovare."
+ prison_notification.1002.a.tt:1 "Gli arresti domiciliari non aumentano il livello di [stress|E]."
+
+ prison_notification.2001.t:0 "Sono di Nuovo Libero"
+ prison_notification.2001.desc:0 "Non sono più detenuto da [imprisoner.GetTitledFirstName] e sono libero di tornare a casa, o dovunque voglia."
+ prison_notification.2001.a:0 "Pensavo che non avrei mai più rivisto le mie terre."
+
+ prison_notification.2002.t:0 "Sono di Nuovo Libero"
+ prison_notification.2002.desc:0 "[prisoner.Custom('DE_ART_DEF_P_D')] mi[prisoner.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))], [prisoner.GetTitledFirstName], è stat[prisoner.Custom('DE_END_PRO_S_N')] rilasciat[prisoner.Custom('DE_END_PRO_S_N')] dalla sua prigionia per mano del[imprisoner.Custom('DE_END_ADJ_NUL_S_N')] [imprisoner.GetTitledFirstName], ed è di nuovo liber[prisoner.Custom('DE_END_PRO_S_N')]!"
+ prison_notification.2002.a:0 "La prigionia è una crudeltà."
+
+ prison_notification.2003.message:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] Rilasciat[prisoner.Custom('DE_END_PRO_S_N')]!"

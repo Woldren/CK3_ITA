@@ -1,0 +1,67 @@
+﻿l_spanish:
+ # Tell the player that Hybridising is a thing they SHOULD do, whether or not they can currently
+ reactive_advice_should_form_hybrid_culture:0 "Culture Ibride"
+ action_reactive_advice_should_form_hybrid_culture:0 "$open_tutorial_lesson$$reactive_advice_should_form_hybrid_culture$"
+ action_reactive_advice_should_form_hybrid_culture_desc:0 "Lavora per la formazione di una [hybrid_culture|E] con il [culture.GetCollectiveNoun]."
+ action_reactive_advice_should_form_hybrid_culture_click:0 "$click_to_open_lesson$"
+ lessons_ep1_should_form_hybrid_culture: "$reactive_advice_should_form_hybrid_culture$"
+ lessons_ep1_should_form_hybrid_culture_desc: "Potresti formare una [hybrid_culture|E] con questa [culture|E], se l'[cultural_acceptance|E] è alta abbastanza e la tua cultura ha più di 50 anni!\n\nCiò significa che creerai una nuova Cultura prendendo elementi da entrambe le Culture.\n\nPuoi guadagnare Accettazione Culturale in questi modi:\n$EFFECT_LIST_BULLET$Concedendo [counties|E] di questa Cultura a [characters|E] di questa Cultura\n$EFFECT_LIST_BULLET$Usando l'[councillor_task|E] [accept_culture|E]\n$EFFECT_LIST_BULLET$Incrementando la [culture_intermingling|E]\n$EFFECT_LIST_BULLET$Avendo [vassals|E] di questa Cultura\n\nSe hai un'alta Accettazione Culturale e almeno una contea di quella Cultura è all'interno del tuo [realm|E], puoi formare una Cultura Ibrida!"
+ lessons_ep1_hybrid_culture_benefits: "Vantaggi delle Culture Ibride"
+ lessons_ep1_hybrid_culture_benefits_desc: "Formare una Cultura Ibrida ha diversi benefici:\n\n$EFFECT_LIST_BULLET$Sarai in grado di scegliere i [culture_pillars|E] e le [culture_traditions|E] da entrambe le Culture\n$EFFECT_LIST_BULLET$La tua nuova cultura erediterà le [innovations|E] da entrambe le Culture\n$EFFECT_LIST_BULLET$La tua nuova cultura avrà un'alta Accettazione Culturale con entrambe le Culture\n$EFFECT_LIST_BULLET$Una Cultura Ibrida può convertire le terre di entrambe le culture più velocemente per alcuni anni, dopo la sua formazione"
+#Royal Court Feature
+ 
+ action_reactive_advice_royal_court:0 "$open_tutorial_lesson$$ra_rc_intro$"
+ action_reactive_advice_royal_court_desc:0 "Clicca qui per un'introduzione sulla tua Corte Reale"
+ action_reactive_advice_royal_court_click:0 "$click_to_open_lesson$"
+ reactive_advice_royal_court: "$ra_rc_intro$"
+
+ ra_rc_intro:0 "Corte Reale"
+ ra_rc_intro_desc:2 "Adesso hai accesso alla tua [royal_court|E]!\n\nLa Corte Reale è una speciale tipologia di corte che rappresenta il tuo grandioso ingresso nella scena mondiale, e che ti dà accesso a molte nuove opzioni e benefici.\n\nÈ disponibile per [kings|E] e [emperors|E] del [government|E] [GetGovernment( 'feudal_government' ).GetName], [GetGovernment( 'clan_government' ).GetName], [GetGovernment( 'tribal_government' ).GetName] e [GetGovernment( 'administrative_government' ).GetName]."
+
+ ra_rc_open:0 "$ra_rc_intro$"
+ ra_rc_open_desc:0 "Puoi fare molte cose nella tua [royal_court|E], perciò sentiti libero di esplorare queste opzioni per conto tuo!\n\nPer ora, facciamo un rapido tour attraverso tutte le nuove azioni che hai a disposizione."
+ ra_rc_open_prompt:0 "Apri la Corte Reale (in evidenza)"
+
+ ra_rc_throne_room_open:0 "$ra_rc_intro$"
+ ra_rc_throne_room_open_desc:0 "Per continuare, torniamo alla Sala del Trono"
+ ra_rc_throne_room_open_prompt:0 "Apri la Scheda della Sala del trono (in evidenza)"
+
+ ra_rc_throne_room:0 "$ra_rc_intro$"
+ ra_rc_throne_room_desc:1 "Questa è la tua Sala del Trono. Diverse situazioni e [court_events|E] potrebbero svolgersi qui di tanto in tanto, e tu potrai scegliere di intervenire in qualunque cosa stia accadendo."
+
+ ra_rc_hold_court:0 "Indici un'Udienza"
+ ra_rc_hold_court_desc:1 "Se ritieni che la tua Sala del Trono non sia abbastanza vivace, puoi [hold_court|E]. In questo modo inviterai postulanti da tutto il tuo [realm|E], i quali esporranno i loro problemi al tuo saggio giudizio."
+
+ ra_rc_grandeur_open:0 "$ra_rc_grandeur$"
+ ra_rc_grandeur_open_desc:0 "Tuttavia, nessuno potrebbe voler venire alla tua [royal_court|E] se non è molto conosciuto! Adesso, diamo un'occhiata alla Magnificenza della Corte!"
+ ra_rc_grandeur_open_prompt:0 "Apri la Schermata della Magnificenza della Corte (in evidenza)"
+
+ ra_rc_grandeur:0 "Magnificenza della Corte"
+ ra_rc_grandeur_desc:0 "Il tuo [grandeur_level|E] è una misura di quanto sia famosa la tua [royal_court|E].\n\nVari fattori contribuiscono alla tua [grandeur|E], ma le fonti primarie sono le [amenities|E] e i [court_artifacts|E].\n\nCon l'espandersi del tuo [realm|E], ci si aspetta che tu abbia raggiunto il livello di Magnificenza più alto: questa cosa è conosciuta come [grandeur_expectations|E]."
+
+ ra_rc_amenities:0 "Comodità della Corte"
+ ra_rc_amenities_desc:0 "Le [amenities|E] rappresentano vari tipi di servizi e comfort che tu fornisci a tutti coloro che frequentano la tua [royal_court|E]. Ognuna fornisce i propri benefici e tutte contribuiscono alla [grandeur|E].\n\nTutte hanno un costo mensile in [gold|E] perciò stai attento a non spendere troppo!"
+
+ ra_rc_court_types_and_language:0 "Tipi di Corte e Lingua della Corte"
+ ra_rc_court_types_and_language_desc:0 "Se vuoi approfondire il concetto di [grandeur|E], puoi esaminare i [court_types|E] e la [court_language|E].\n\nLe Tipologie di Corte influenzano ciò che ti forniscono certi [grandeur_levels|E], mentre cambiare la Lingua della tua Corte potrebbe incrementare la tua [grandeur|E] totale."
+
+ ra_rc_artifacts_open:0 "$ra_rc_artifacts$"
+ ra_rc_artifacts_open_desc:0 "Infine, diamo un'occhiata ai Manufatti di Corte, un'altra fonte di [grandeur|E], così come di altri vantaggi."
+ ra_rc_artifacts_open_prompt:0 "Apri la Schermata dei Manufatti di Corte (in evidenza)"
+
+ ra_rc_artifacts:0 "Manufatti di Corte"
+ ra_rc_artifacts_desc:0 "Qui, puoi scegliere quali [court_artifacts|E] vengono esposti nella tua [royal_court|E].\n\nI Manufatti di Corte sono [artifacts|E] speciali, come statue e arazzi, che puoi mettere in mostra. Forniscono bonus vari e molti ti danno anche [grandeur|E].\n\nAdesso, torniamo alla Sala del Trono."
+
+ ra_rc_conclusion:0 "$ra_rc_intro$"
+ ra_rc_conclusion_desc:0 "Siamo alla fine del nostro tour della tua [royal_court|E].\n\nPer ora, sentiti libero di provare tutto ciò che potrebbe piacerti. Ti suggeriamo di [hold_court|E] per celebrare il tuo nuovo status!"
+
+ #Fund Inspiration
+ lessons_ep1_fund_inspiration:0 "Finanziare le Ispirazioni"
+ ra_inspiration_open_desc:0 "Ora puoi finanziare la tua prima [inspiration|E]. Un'ispirazione è il desiderio di un personaggio di realizzare un [artifact|E].\n\nI [characters|E] [inspired|E] vanno e vengono dalle più prestigiose [royal_courts|E] del mondo; quando uno di loro si ferma alla tua corte, sarai avvisato e invitato a [sponsor|E] il [project|E] di questo personaggio.\n\nPagando una somma variabile di [gold|E], puoi assicurarti i servigi di questo personaggio e, dopo un po' di tempo, un nuovo Manufatto!"
+ ra_inspiration_open:0 "Ispirazioni"
+ ra_inspiration_court_view:0 "Trovare le Ispirazioni"
+ ra_inspiration_court_view_desc:0 "All'interno della tua [royal_court|E], puoi vedere tutte le [inspirations|E] attualmente presenti nella tua corte, alla tua sinistra.\n\nPuoi controllare il loro status cliccando sulla loro icona (in evidenza)."
+ ra_inspiration_court_view_prompt:0 "Clicca su un'icona di ispirazione (in evidenza)"
+ ra_inspiration_funding:0 "Finanziare le Ispirazioni"
+ ra_inspiration_funding_desc:0 "Qui, puoi vedere il Personaggio Ispirato, cosa intende fare, quanto è abile, se puoi permetterti di finanziare l'Ispirazione e quanto ti costerà.\n\nSe l'Ispirazione è già in corso, puoi vedere quanto tempo ci vorrà per completarla; se non lo è, puoi iniziarla."
+ reactive_advice_fund_inspiration: "$lessons_ep1_fund_inspiration$"

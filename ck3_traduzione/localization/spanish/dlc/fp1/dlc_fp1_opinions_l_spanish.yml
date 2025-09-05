@@ -1,0 +1,32 @@
+﻿l_spanish:
+ ##################################################
+ # #Decision Opinions
+ king_of_the_north_sea_opinion:0 "Re del Mare del Nord"
+ queen_of_the_north_sea_opinion:0 "Regina del Mare del Nord"
+ fp1_held_grand_sacrifice_opinion:0 "Ha Tenuto un Gran Sacrificio"
+ fp1_held_human_sacrifice_opinion:0 "Ha Tenuto un Sacrificio Umano"
+
+ ##################################################
+ # #Event Opinions
+ fp1_rejected_my_sword_opinion:0 "Ha Rifiutato la mia Spada"
+ fp1_accepted_my_sword_opinion:0 "Ha Accettato la mia Spada"
+ fp1_defied_religious_traditions_opinion:0 "Ha Sfidato le tradizioni religiose"
+ fp1_usurped_my_authority_opinion:0 "Ha usurpato la mia autorità"
+ fp1_saved_me_from_the_mob_opinion:0 "Mi ha salvato dalla Folla"
+ fp1_abandoned_me_to_the_mob_opinion:0 "Mi ha abbandonato alla Folla"
+ fp1_honoured_heathen_opinion:0 "Ha Onorato i Pagani"
+ fp1_desecrated_corpse_of_loved_one:0 "Ha Profanato il Corpo di una Persona Amata"
+ liege_won_duel: "Il Signore Ha Vinto un Duello"
+ liege_lost_duel: "Il Signore Ha Perso un Duello" 
+
+ ##################################################
+ # #Culture Opinions
+ norse_opinion:0 "Opinione Nordica"
+ danish_opinion:0 "Opinione Danese"
+ norwegian_opinion:0 "Opinione Norvegese"
+ swedish_opinion:0 "Opinione Svedese"
+ lombard_opinion:0 "Opinione Lombarda"
+ italian_opinion:0 "Opinione Italiana"
+ gaelic_opinion:0 "Opinione Gaelica"
+ scottish_opinion:0 "Opinione Scozzese"
+ persian_opinion:0 "Opinione Persiana"

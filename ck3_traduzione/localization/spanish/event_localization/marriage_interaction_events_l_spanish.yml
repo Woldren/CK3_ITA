@@ -1,0 +1,34 @@
+﻿l_spanish:
+ marriage_interaction.0001.desc.start:0 "A [ROOT.Char.GetFullName],\n\nDopo un'attenta considerazione, ho deciso di rompere "
+ marriage_interaction.0001.desc.liegetoliege:0 "il fidanzamento tra [rejecting_betrothed.GetTitledFirstName], e [rejected_betrothed.GetTitledFirstName]."
+ marriage_interaction.0001.desc.betrothedtobetrothed:0 "il nostro fidanzamento."
+ marriage_interaction.0001.desc.betrothedtoliege:0 "il mio fidanzamento con [rejected_betrothed.GetTitledFirstName]."
+ marriage_interaction.0001.desc.liegetobetrothed:0 "il mio fidanzamento con [rejecting_betrothed.GetTitledFirstName]."
+ marriage_interaction.0001.desc.end:0 "Mi scuso per gli eventuali inconvenienti che la mia decisione causerà e spero sinceramente che ciò non danneggi i rapporti tra le nostre famiglie."
+ marriage_interaction.0001.a:0 "Un terribile insulto..."
+
+ marriage_interaction.0002.desc:0 "A [rejecting_betrothed.GetFullName],\n\nSono giunto alla conclusione che il tuo futuro matrimonio con [rejected_betrothed.GetTitledFirstName] non è nel migliore interesse tuo o della nostra famiglia. Pertanto, ho deciso di rompere il fidanzamento." #<TO_REMOVE>
+ marriage_interaction.0002.a:0 "Ahimè." #<TO_REMOVE>
+
+#Timeout notification when you are in charge of the betrothal of someone else
+ marriage_interaction.0004.t:0 "Un Fidanzamento Lasciato ad Appassire"
+ marriage_interaction.0004.desc:0 "Gli accordi erano stati presi e tutto era in ordine, fino a quando non è arrivato il momento di concludere il matrimonio. Con entrambe le parti che sembrano contente di fingere che l'accordo non sia mai stato preso, sembra improbabile che [betrothed_1.GetTitledFirstName] e [betrothed_2.GetTitledFirstName] si sposino mai."
+ marriage_interaction.0004.a:0 "Meglio così."
+
+#Timeout notification for a betrothed when someone else is in charge of marrying them
+ marriage_interaction.0005.t:0 "Un Fidanzamento Lasciato ad Appassire"
+ marriage_interaction.0005.desc:0 "Nonostante la negoziazione e l'attenta pianificazione, sembra che non sposerò mai [other_betrothed.GetTitledFirstName]. Nonostante sia giunto il momento di adempiere alle promesse fatte, nessuna delle due parti ha fatto il passo finale per concludere l'accordo."
+ marriage_interaction.0005.a:0 "Chissà chi sposerò adesso"
+
+#Timeout notification for someone in charge of their own betrothal
+ marriage_interaction.0006.t:0 "Un Fidanzamento Lasciato ad Appassire"
+ marriage_interaction.0006.desc:0 "Nonostante la negoziazione e l'attenta pianificazione, sembra che non sposerò mai [other_betrothed.GetTitledFirstName]. Nonostante sia giunto il momento di adempiere alle promesse fatte, nessuna delle due parti ha fatto il passo finale per concludere l'accordo."
+ marriage_interaction.0006.a:0 "Chi sposerò, alla fine?"
+
+ marriage_interaction.0008.t:0 "Fidanzamento Rotto dalla Fede"
+ marriage_interaction.0008.desc:0 "[betrothed_clergy.GetTitledFirstName] ha dedicato la vita a [betrothed_clergy.GetFaith.HighGodName] – Nonostante la negoziazione e l'attenta pianificazione, sembra che non sposerà mai [betrothed_2.GetTitledFirstName]. "
+ marriage_interaction.0008.a:0 "Ahimè."
+
+ marriage_interaction.0009.desc_clergy:0 "Ora che ho dedicato la mia vita a [betrothed_clergy.GetFaith.HighGodName] mi è stato proibito di sposarmi e devo abbandonare [betrothed_2.GetTitledFirstName]. Spero che mi perdoni."
+ marriage_interaction.0009.desc:0 "[betrothed_clergy.GetTitledFirstName] ha dedicato la vita a [betrothed_clergy.GetFaith.HighGodName] – Nonostante la negoziazione e l'attenta pianificazione, sembra che alla fine non mi sposerò."
+ marriage_interaction.0009.a:0 "Ahimè."

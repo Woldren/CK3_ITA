@@ -1,0 +1,11 @@
+﻿l_spanish:
+ I_CAN_PUNISH_DESCRIPTION:0 "#T Noto Criminale#!\n\n[CHARACTER.GetShortUINameNoTooltip] è un noto [criminal|E], e ciò mi permette di punirlo senza essere visto come un [tyrant|E]"
+ POSSIBLE_PUNISHMENTS:0 "Possibili Punizioni:"
+ I_CAN_PUNISH_CRIME_HEADER:0 "\n\n#S $NAME$#!\n$POSSIBLE_PUNISHMENTS$"
+ I_CAN_PUNISH_PUNISHMENT_ITEM_ACTIVE:0 "\n$BULLET_WITH_TAB$$PUNISHMENT$"
+ I_CAN_PUNISH_PUNISHMENT_ITEM_INACTIVE:0 "\n$BULLET_WITH_TAB$#weak $PUNISHMENT$ (già punito)#!"
+ I_CAN_PUNISH_PUNISHMENT_IMPRISON:0 "[Concept( 'imprison', 'Imprigiona' )|E]"
+ I_CAN_PUNISH_PUNISHMENT_BANISH:0 "Esilia"
+ I_CAN_PUNISH_PUNISHMENT_EXECUTE:0 "Giustizia"
+ I_CAN_PUNISH_PUNISHMENT_REVOKE_TITLE:0 "Revoca il Titolo"
+ I_CAN_PUNISH_PUNISHMENT_DIVORCE:0 "Divorzia"

@@ -1,0 +1,6 @@
+﻿l_spanish:
+ jewish_events.0001.t:0 "La Fine Della Poligamia [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|U]"
+ jewish_events.0001.desc:0 "Per secoli non è stato chiaro se sia lecito o meno avere più coniugi, ma in seguito alla decisione presa ad un piccolo concilio dei più influenti rabbini della fede [ROOT.Char.GetFaith.GetName] la poligamia non è più una pratica permessa dalla fede [ROOT.Char.GetFaith.GetAdjectiveNoTooltip].\n\nTale decisione è motivata per lo più dalla preoccupazione che una sola persona non sia in grado di provvedere adeguatamente a più coniugi e che la pratica della poligamia possa portare i coniugi a commettere atti peccaminosi di gelosia reciproca."
+ jewish_events.0001.a:0 "Così sia."
+ jewish_events.0001.b:0 "Noi [ROOT.Char.GetCulture.GetCollectiveNoun] non abbandoneremo le nostre usanze!"
+ jewish_events.0001.c:0 "Credo che i rabbini scordino quale sia il loro posto."

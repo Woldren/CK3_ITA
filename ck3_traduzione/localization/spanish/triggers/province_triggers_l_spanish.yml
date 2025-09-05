@@ -1,0 +1,46 @@
+﻿l_spanish:
+
+ DEVELOPMENT_LEVEL_TRIGGER:0 "Il livello di [development|E] a [TITLE.GetName] è $COMPARATOR$ $NUM|V$"
+ NOT_DEVELOPMENT_LEVEL_TRIGGER:0 "Il livello di [development|E] a [TITLE.GetName] non è $COMPARATOR$ $NUM|V$"
+ ITS_DEVELOPMENT_LEVEL_TRIGGER:0 "Il livello di [development|E] a [TITLE.GetName] è $COMPARATOR$ $NUM|V$"
+ NOT_ITS_DEVELOPMENT_LEVEL_TRIGGER:0 "Il livello di [development|E] a [TITLE.GetName] #bold non#! è $COMPARATOR$ $NUM|V$"
+
+ IS_COUNTY_CAPITAL_TRIGGER:0 "Questa è la [county_capital|E]"
+ NOT_IS_COUNTY_CAPITAL_TRIGGER:0 "Questa #bold non#! è la [county_capital|E]"
+
+ NOT_POTENTIAL_COUNTY_CONTROL_TASK_TRIGGER:1 "[TITLE.GetName] è già a 100 di [control|E] e non ha [county_corruption|E]"
+
+ DEVELOPMENT_RATE_TRIGGER:0 "Tasso di Sviluppo: $NUM|V0$"
+ HAS_COUNTY_MODIFIER_TRIGGER:0 "Ha il modificatore di contea: $MODIFIER$"
+ NOT_HAS_COUNTY_MODIFIER_TRIGGER: "Non ha il modificatore di contea: $MODIFIER$" 
+ IS_COASTAL_TRIGGER:0 "È costiera"
+ IS_COASTAL_COUNTY_TRIGGER:1 "È una [county|E] costiera"
+ is_lakeside_province_global: "La [province|E] confina con un lago"
+ is_lakeside_county_global: "[county|E] borders a lake"
+
+ HAS_STATIONED_REGIMENT_TRIGGER:0 "Ha un reggimento di stanza"
+ HAS_STATIONED_REGIMENT_OF_BASE_TYPE:0 "Ha un reggimento di stanza di tipo $MEN_AT_ARMS_TYPE$"
+
+ HAS_REALM_LAW_FLAG_TRIGGER:0 "$FLAG|V$ è consentito dalla Legge del Reame in vigore"
+ IS_CAPITAL_BARONY_TRIGGER:0 "La Baronia è la capitale"
+
+ IS_HOLY_SITE_TRIGGER:0 "È un [holy_site|E]"
+ NOT_IS_HOLY_SITE_TRIGGER:0 "#bold Non#! è un [holy_site|E]"
+ HAS_CONTRUCTION_WITH_FLAG_TRIGGER:0 "Ha un $FLAG|V$ costruzione"
+ NUM_LEASED_TITLES_TRIGGER:0 "Numero di titoli affittati: $NUM|V0$"
+
+ IS_RAIDED_TRIGGER:0 "Sta subendo una [Concept( 'raided', 'razzia' )|E]"
+
+ TERRAIN_TRAVEL_DANGER_TRIGGER:1 "[travel_danger|E] a causa del [terrain|E]: $NUM|=-0$"
+
+ has_province_owner_third:0 "Esiste un [holding|E] in [PROVINCE.GetBaronyNameExplicitly]"
+ NOT_has_province_owner_third:0 "#bold Non#! esite un [holding|E] in [PROVINCE.GetBaronyNameExplicitly]"
+ has_province_owner_global:0 "Esiste un [holding|E]"
+ NOT_has_province_owner_global:0 "#bold Non#! esiste un [holding|E]"
+ any_neighboring_top_liege_realm_owner: "Qualsiasi [independent_ruler|E] confinante:" 
+
+ is_leased_out_GLOBAL: "[TITLE.GetName] è affittato/a"
+ is_leased_out_GLOBAL_NOT: "[TITLE.GetName] #bold non#! è affittato/a"
+ any_county_province_GLOBAL: "Ogni [barony|E] in [TITLE.GetName]:"
+ is_holy_site_of_GLOBAL: "[TITLE.GetName] è un [holy_site|E] di [FAITH.GetName]"
+ is_holy_site_of_GLOBAL_NOT: "[TITLE.GetName] #bold non#! è un [holy_site|E] di [FAITH.GetName]"

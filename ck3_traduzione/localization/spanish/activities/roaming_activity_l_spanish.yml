@@ -1,0 +1,549 @@
+﻿l_spanish:
+ activity_roaming: "Escursione"
+ activity_roaming_desc: "Parti per una spedizione solitaria negli angoli nascosti del regno. Questa avventura offre una pausa dalle pressioni della vita di corte, offrendoti l'opportunità di riposare un po' tra le foreste secolari e le dolci colline."
+ activity_roaming_host_desc: "$BULLET_WITH_TAB$[opinion_i|E][opinion|E]\n$BULLET_WITH_TAB$[stress_loss_i|E][stress_loss|E]\n$BULLET_WITH_TAB$[prestige_experience_i|E][prestige_experience|E]\n$BULLET_WITH_TAB$Possibilità di guadagnare il [trait|E] [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] oppure [trait_level_track_xp|E]"
+ activity_roaming_guest_desc: ""
+ activity_roaming_conclusion_desc: "Il viaggio ha rappresentato una meravigliosa opportunità per mettere momentaneamente da parte i fardelli del governo e abbracciare una tregua dalle pressioni che esso comporta."
+ activity_roaming_selection_tooltip: "Parti per un viaggio, mettendo da parte per un momento i fardelli del governo.\n\nRicompense Previste:\n$activity_roaming_host_desc$"
+ activity_roaming_destination_selection: "Scegliere un [terrain|E] più distante aumenterà l'[prestige_experience|E] e la [stress_loss|E] ottenute dall'[activity|E]."
+ honorary_guest_traveling_companion_for_host: "$honorary_guest_traveling_companion$"
+ honorary_guest_traveling_companion_desc_for_host: ""
+ honorary_guest_traveling_companion: "Compagno di viaggio"
+ activity_roaming_guest_help_text: "L'[activity_guest|E] avrà l'opportunità di ridurre il suo [stress|E] e di ottenere dell'[prestige_experience|E]."
+ phase_roaming: "Vagabondaggio"
+ phase_roaming_desc: ""
+ activity_roaming_predicted_cost: "Il costo di una [hike|E] è influenzato principalmente dalla sua lunghezza. Un'Escursione più lunga offre maggiori opportunità, ma costa anche di più."
+ hike_province_requirement_landless: "Gli [adventurers|E] e i [characters|E] senza un [domain|E] possono fare un'[hike_i][hike|E] solo nella [barony|E] in cui si trovano o in una baronia vicina"
+ hike_province_requirement_landed: "Puoi fare un'[hike_i][hike|E] solo all'interno del tuo [realm|E]"
+
+ roaming_option_travel_length: "Lunghezza del Viaggio"
+ roaming_short_length: "Escursione Breve"
+ roaming_short_length_desc: "$EFFECT_LIST_BULLET$ L'[activity|E] sarà più breve e offrirà minori opportunità\n\n#weak Un breve viaggio lontano dalle corti e dai nobili mi libererà la mente da ogni dubbio.#!"
+ roaming_long_length: "Escursione Lunga"
+ roaming_long_length_desc: "$EFFECT_LIST_BULLET$ L'[activity|E] sarà più lunga e offrirà maggiori opportunità\n\n#weak Ho bisogno di un lungo viaggio lontano da tutto, un momento per stare sol[ROOT.Char.Custom('DE_END_PRO_S_N')] con me stess[ROOT.Char.Custom('DE_END_PRO_S_N')].#!"
+
+ roaming_befriend_intent: "Fare Amicizia"
+ roaming_befriend_intent_desc: "Cerchi delle opportunità per guadagnare dell'[opinion|E] con il tuo Compagno di Viaggio. Dovresti ricordarti di portare qualcuno con te!"
+
+ roaming_mystic_intent: "Mistico"
+ roaming_mystic_intent_desc: "Desideri un momento per essere lasciat[ROOT.Char.Custom('DE_END_PRO_S_N')] da sol[ROOT.Char.Custom('DE_END_PRO_S_N')] con i tuoi pensieri. Maggiori possibilità di ottenere [trait_level_track_xp|E]."
+
+ roaming_storyteller_intent: "Cantastorie"
+ roaming_storyteller_intent_desc: "Cerchi dei momenti che possano rendere una storia bella e memorabile! Aumenterà l'[prestige_experience|E] acquisita dall'attività."
+
+ activity_roaming_province_desc: "Viaggi verso [ROOT.Province.GetName]"
+ activity_roaming_astronomical_phenomenon: "\n#P ++ Fenomeno Astronomico#!"
+ activity_roaming_good_terrain: "\n#P ++ [ROOT.Province.GetTerrain.GetNameNoTooltip]#! ([terrain|E])"
+ activity_roaming_ok_terrain: "\n#P + [ROOT.Province.GetTerrain.GetNameNoTooltip]#! ([terrain|E])"
+ activity_roaming_empty_holding: "\n#P + Nessun Possedimento#! "
+
+ no_holding_roaming: "[ThisLocation.GetTerrain.GetNameNoTooltip] di [ThisLocation.GetNameNoTooltip]"
+ no_holding_roaming_tooltip: "[ThisLocation.GetTerrain.GetNameNoTooltip] di [ThisLocation.GetName]"
+ holding_roaming: "[ThisLocation.Custom('GetTerrainTypePlural')] intorno a [ThisLocation.GetNameNoTooltip]"
+ holding_roaming_tooltip: "[ThisLocation.Custom('GetTerrainTypePlural')] intorno a [ThisLocation.GetName]"
+
+ roaming_fame_reward_tt: "[perk|E] [GetPerk('roaming_perk').GetName( GetNullCharacter )]: Ottieni #P [fame_value|0]#! di [prestige_experience|E]"
+
+ ### Events
+ # Arrival Event
+ roaming_intro_terrain_snippet_forest: "Alberi imponenti, la luce del sole che gioca sul terreno muschiato, il profumo fresco della natura che aleggia nell'aria."
+ roaming_intro_terrain_snippet_forest_2: "Uccelli che cantano dalle cime degli alberi e animali che si muovono nel sottobosco."
+ roaming_intro_terrain_snippet_forest_winter: "Un paesaggio tranquillo dove gli alberi si ergono come stoiche sentinelle, interrotti solo occasionalmente dal morbido scricchiolio della neve."
+ roaming_intro_terrain_snippet_forest_winter_2: "Una distesa silenziosa dove l'inverno ricopre delicatamente il terreno e gli alberi sono adornati dalla neve."
+ roaming_intro_terrain_snippet_forest_monsoon: "Intorno a noi si sente il ritmico ticchettio della pioggia e delle grandi gocce che cadono dalle cime degli alberi."
+
+ roaming_intro_terrain_snippet_mountain: "Guardo le montagne imponenti che ci circondano, con le loro cime alte che sembrano raggiungere il cielo."
+ roaming_intro_terrain_snippet_mountain_2: "Davanti a noi si apre un panorama mozzafiato, con animali e persone quasi troppo piccoli per essere visti in lontananza."
+ roaming_intro_terrain_snippet_mountain_winter: "Le cime delle montagne sono ammantate da una coltre di neve, e l'atmosfera è tagliente e fredda come l'inverno."
+ roaming_intro_terrain_snippet_mountain_monsoon: "dei Fiumi e delle piccole cascate scendono lungo il fianco della montagna, trasformando le valli sottostanti in lussureggianti paradisi per ogni essere vivente."
+
+ roaming_intro_terrain_snippet_hills: "Le colline si estendono davanti a noi come un mare di verde e marrone."
+ roaming_intro_terrain_snippet_hills_2: "Vedo le piccole cime delle colline, una dopo l'altra, ognuna delle quali sarà un piccolo traguardo da conquistare nei prossimi giorni."
+ roaming_intro_terrain_snippet_hills_winter: "Le colline sono ornate da una delicata brina e dalla neve, che si estende in lontananza."
+ roaming_intro_terrain_snippet_hills_winter_2: "Il freddo avvolge le colline in una pacifica tonalità di bianco. Queste valli sono immerse in un silenzio interrotto solo dal morbido scricchiolio della neve sotto i miei piedi."
+ roaming_intro_terrain_snippet_hills_monsoon: "Le piogge scendono lungo i fianchi delle colline formando piccoli ruscelli d'acqua, di breve durata, ma che sono uno spettacolo da vedere."
+
+ roaming_intro_terrain_snippet_plains: "Un orizzonte sconfinato sotto il cielo immenso, con l'erba ondeggiante che forma un dolce mare di verde."
+ roaming_intro_terrain_snippet_plains_2: "Pianure sconfinate, con qualche animale che pascola dolcemente in lontananza."
+ roaming_intro_terrain_snippet_plains_winter: "Venti frizzanti e neve che ricopre il territorio a perdita d'occhio."
+ roaming_intro_terrain_snippet_plains_winter_2: "La quiete dell'inverno ha avvolto la terra, interrotta solo occasionalmente da animali che vagano alla ricerca di cibo."
+ roaming_intro_terrain_snippet_plains_monsoon: "Pianure fangose bagnate da piogge intense a perdita d'occhio."
+
+ roaming_intro_terrain_snippet_farmlands: "File interminabili di coltivazioni si estendono a perdita d'occhio, con contadini o servi della gleba che faticano al sole."
+ roaming_intro_terrain_snippet_farmlands_2: "I contadini si occupano dei loro campi, mentre gli animali pascolano tranquillamente nei prati verdi."
+ roaming_intro_terrain_snippet_farmlands_winter: "I terreni vuoti e coltivabili sembrano congelati dal freddo e dall'inverno, non si vedono in giro né contadini né animali."
+ roaming_intro_terrain_snippet_farmlands_winter_2: "I campi vuoti coperti di brina e il freddo ricordano questo periodo dell'anno."
+ roaming_intro_terrain_snippet_farmlands_monsoon: "I campi si riempiono di vita durante le intense piogge e gli agricoltori locali sfruttano al meglio la situazione."
+
+ roaming_intro_terrain_snippet_desert: "Una vasta distesa di sabbia dorata si estende all'infinito davanti a me, con il sole basso nel cielo."
+ roaming_intro_terrain_snippet_desert_2: "La distesa dorata si dispiega in ogni direzione a perdita d'occhio, silenziosa e ruvida."
+ roaming_intro_terrain_snippet_desert_monsoon: "Le sabbie si sono momentaneamente arrese alle intense piogge e per un attimo si vede la vita in questo ambiente solitamente brullo."
+
+ roaming_intro_terrain_snippet_desert_mountains: "Cime impervie si stagliano contro il cielo, come sentinelle silenziose di questa terra arida."
+ roaming_intro_terrain_snippet_desert_mountains_2: "Valli nascoste tra le montagne giganti, con piccole oasi che offrono un momento di riposo ai viaggiatori stanchi."
+ roaming_intro_terrain_snippet_desert_mountains_monsoon: "I ruscelli d'acqua scavano nuovi percorsi attraverso i fianchi delle montagne durante le piogge, ammorbidendo il paesaggio per un breve momento."
+
+ roaming_intro_terrain_snippet_oasis: "Le palme ondeggiano dolcemente intorno a una piccola oasi, mentre un gruppo di animali si abbevera tranquillamente."
+ roaming_intro_terrain_snippet_oasis_2: "Il verde circonda l'acqua limpida di una piccola oasi che offre ristoro a un gruppo di viaggiatori."
+ roaming_intro_terrain_snippet_oasis_monsoon: "L'oasi e i suoi dintorni stanno fiorendo grazie alle intense piogge e la vegetazione si estende ben oltre i limiti abituali dell'oasi stessa."
+
+ roaming_intro_terrain_snippet_wetlands: "Zone umide a perdita d'occhio, con un piccolo gruppo di persone che utilizza con attenzione i piccoli corsi d'acqua per spostarsi."
+ roaming_intro_terrain_snippet_wetlands_2: "L'acqua riflette il cielo e le canne ondeggiano lentamente nella brezza. C'è un costante ronzio di insetti e belati di animali."
+ roaming_intro_terrain_snippet_wetlands_monsoon: "La zona umida si è trasformata, con l'aumento del livello dell'acqua è quasi del tutto impossibile muoversi nell'area. Mentre rifletto su come attraversare il paesaggio, vedo un uomo che avanza lentamente nell'acqua, il cui livello raggiunge l'altezza del petto."
+
+ roaming_intro_second_half_generic: "Finalmente posso lasciarmi alle spalle tutti i problemi del passato e concentrarmi sulla ricerca di un momento di distensione, un'occasione per mettere da parte tutto e rilassarmi davvero."
+ roaming_intro_second_half_winter: "Speravo che questo fosse un momento in cui rilassarmi dallo stress della corte, ma... fa più freddo di quanto pensassi."
+ roaming_intro_second_half_monsoon: "Con la stagione dei monsoni in pieno svolgimento, non era forse il momento ideale per lasciarsi alle spalle le prove della nobiltà. In questo momento, mi piacerebbe riuscire a trovare un luogo al coperto."
+
+ bp3_roaming.0005.t: "Arrivo"
+ bp3_roaming.0005.desc: "Io e il mio seguito siamo finalmente arrivati a [province.GetName]. E, solo per un attimo, mi lascio trasportare dal panorama. [province.Custom('RoamingIntroTerrainSnippet')]\n\n[province.Custom('RoamingIntroSecondHalf')]"
+ bp3_roaming.0005.a: "Ah, finalmente la pace."
+ bp3_roaming.0005.b: "Che vista!"
+ bp3_roaming.0005.c: "Spero di aver portato abbastanza vestiti..."
+ bp3_roaming.0005.d: "Che tempismo..."
+
+ roaming_start_of_the_journey_key_title: "Inizio del Viaggio"
+ roaming_start_of_the_journey_key: "[root_scope.Custom('DE_ART_DEF_P_D')] [root_scope.GetShortUIName|U] inizia il suo viaggio attraverso il terreno di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]."
+
+ # Outro Event
+ roaming_outro_snippet_stress_loss_weak: "Queste terre hanno calmato la mia mente stanca, anche se in modo delicato. Una dolce tregua dal tumulto della vita."
+ roaming_outro_snippet_stress_loss_weak_2: "In questo rifugio ho trovato alcuni momenti di conforto, alleggerendo leggermente il mio spirito."
+ roaming_outro_snippet_stress_loss_weak_3: "Questo posto offriva una breve fuga dai miei doveri. È stata una comodità modesta, ma pur sempre una comodità."
+
+ roaming_outro_snippet_stress_loss_medium: "Mi sento come se mi fossi tolt[ROOT.Char.Custom('DE_END_PRO_S_N')] un peso dalle spalle."
+ roaming_outro_snippet_stress_loss_medium_2: "Qui, circondat[ROOT.Char.Custom('DE_END_PRO_S_N')] dalla natura e lontano dalla gente, i miei problemi mi sembravano meno spaventosi."
+ roaming_outro_snippet_stress_loss_medium_3: "Mi sento come se un senso di calma si fosse impossessato di me, e i miei problemi abituali sembrano l'ombra di quelli di prima. Almeno per ora."
+
+ roaming_outro_snippet_stress_loss_strong: "Mi sento ringiovanit[ROOT.Char.Custom('DE_END_PRO_S_N')], come se mi fossi liberat[ROOT.Char.Custom('DE_END_PRO_S_N')] di un pesante mantello di preoccupazioni e inquietudini."
+ roaming_outro_snippet_stress_loss_strong_2: "Lascio queste terre sentendomi profondamente rinfrancat[ROOT.Char.Custom('DE_END_PRO_S_N')], con la mente sgombra e il cuore più leggero."
+ roaming_outro_snippet_stress_loss_strong_3: "Lo stress che prima sembrava opprimente ora sembra lontano, come le nuvole scure squarciate dal sole."
+
+ roaming_outro_snippet_stress_loss_very_strong: "Lasciat[ROOT.Char.Custom('DE_END_PRO_S_N')] da sol[ROOT.Char.Custom('DE_END_PRO_S_N')] nella natura selvaggia, ho trovato una chiarezza e una comprensione più profonda del mio cammino."
+ roaming_outro_snippet_stress_loss_very_strong_2: "Lo stress si è dissolto e sento di aver trovato un nuovo significato nella vita."
+ roaming_outro_snippet_stress_loss_very_strong_3: "In questo luogo tranquillo sono riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] a mettere da parte tutte le mie preoccupazioni e a tornare [Select_CString(ROOT.Char.IsFemale,'una donna ringiovanita e cambiata','un uomo ringiovanito e cambiato')]."
+
+ roaming_outro_snippet_returning_home: "Voltandomi, con un piccolo sospiro, inizio il mio viaggio di ritorno."
+ roaming_outro_snippet_returning_home_2: "A malincuore, mi volto, metto da parte i ricordi e mi avvio verso casa, verso i doveri che sicuramente mi aspettano."
+ roaming_outro_snippet_returning_home_3: "Respiro profondamente, assaporando gli ultimi momenti in questo rifugio, prima di intraprendere il viaggio di ritorno."
+ roaming_outro_snippet_returning_home_4: "Con il cuore più calmo di quanto non fosse da tempo, finalmente saluto questo posto, è ora di fare ritorno a casa."
+
+ bp3_roaming.0010.t: "Ritorno a Casa"
+ bp3_roaming.0010.desc: "Con un ultimo passo, lascio finalmente il territorio di [province.Custom('HoldingNoHoldingTerrainRoaming')]. Mi guardo indietro, per l'ultima volta, ricordando il mio viaggio attraverso il terreno di [province.GetTerrain.GetNameNoTooltip|l]. [ROOT.Char.Custom('RoamingOutroStressLoss')]\n\n[ROOT.Char.Custom('RoamingOutroReturningHome')]"
+ bp3_roaming.0010.a: "Ahimè, così è la vita..."
+
+ roaming_end_of_the_journey_key_title: "Fine del Viaggio"
+ roaming_end_of_the_journey_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'termini', 'termina' )] il [Select_CString( host.IsLocalPlayer, 'tuo', 'suo' )] viaggio attraverso il territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]."
+
+ ### Mid-Activity Events
+ bp3_roaming.0050.t: "La Vista Mozzafiato"
+ bp3_roaming.0050.desc: "Continuiamo a salire il pendio, lentamente, un passo alla volta. È stata una lunga giornata e sento le mie gambe bruciare. A questo punto cerco di concentrarmi solo sul mettere un piede davanti all'altro, quando una delle mie guardie mi aiuta a fare gli ultimi passi.\n\nImprovvisamente ci troviamo su una sporgenza e vedo la valle che si estende sotto di noi, un arazzo di verde e marrone. Mi era completamente sfuggito quanto fossimo arrivati in alto a causa della stanchezza e della fatica del viaggio, ma ora... Ora mi rendo conto che ne è valsa la pena."
+ bp3_roaming.0050.a: "È una festa per gli occhi e un sollievo per le gambe."
+
+ breathtaking_view_key_title: "$bp3_roaming.0050.t$"
+ breathtaking_view_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'sei', 'è' )] arrivat[host.Custom('DE_END_PRO_S_N')] nel punto più alto di [province.GetName], che offre la vista di un bellissimo panorama, e ha deciso che era ora di ritornare a casa."
+
+ bp3_roaming.0060.t: "La Piccola Oasi"
+ bp3_roaming.0060.desc: "Dopo aver camminato per ore nel deserto dorato, iniziamo a vedere i segni di un'oasi in lontananza. All'inizio temo che si tratti di un miraggio, ma quando ci avviciniamo riusciamo a vedere alcuni animali che pascolano intorno ad essa.\n\nTrovo un posticino all'ombra, dove io e le mie guardie possiamo finalmente riposare i piedi. Un posto dove riposare, per ora. È il punto di sosta perfetto prima di iniziare a cercare la strada di casa."
+ bp3_roaming.0060.a: "Che bel posticino qui nella natura selvaggia."
+
+ the_oasis_key_title: "$bp3_roaming.0060.t$"
+ the_oasis_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'ti sei', 'si è' )] imbattut[host.Custom('DE_END_PRO_S_N')] in una piccola oasi silenziosa a [province.GetName], dove [host.GetSheHe] si è riposat[host.Custom('DE_END_PRO_S_N')] prima di iniziare a cercare la strada di casa."
+
+ bp3_roaming.0070.t: "La Fine del Sentiero"
+ bp3_roaming.0070.desc.intro: "Abbiamo seguito per ore un vecchio sentiero attraverso la foresta, che lentamente si affievolisce e poi scompare del tutto. Guardandomi intorno, mi ritrovo in una piccola radura, ma non c'è nulla. Solo... la quiete della natura selvaggia.\n\n"
+ bp3_roaming.0070.desc.landless: "Non sono abituat[ROOT.Char.Custom('DE_END_PRO_S_N')] alla vita nelle terre selvagge, ma in qualche modo ora mi sembra di aver attraversato il confine tra il regno umano e l'ignoto. È ora di lasciarci alle spalle questa piccola radura e di tornare all'accampamento. Mi chiedo se mai la rivedrò."
+ bp3_roaming.0070.desc.landed: "Stare qui fuori mi faceva già sentire distante dalla mia vita a [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier], ma in qualche modo mi sembra di aver varcato il confine tra il regno umano e l'ignoto. È ora di lasciarci alle spalle questa piccola radura e di iniziare il cammino verso casa. Mi chiedo se mai la rivedrò."
+
+ paths_end_key_title: "$bp3_roaming.0070.t$"
+ paths_end_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'ti sei', 'si è' )] imbattut[host.Custom('DE_END_PRO_S_N')] in una curiosa piccola radura nella foresta selvaggia di [province.GetName], dove [host.GetSheHe] ha trascorso un momento di riposo prima di iniziare a cercare la strada di casa."
+
+ bp3_roaming.0080.t: "Il Profumo dell'Oceano"
+ bp3_roaming.0080.desc: "Molto prima di vederli, sentiamo le grida dei gabbiani che volano sopra di noi e notiamo l'odore di salsedine che aleggia nell'aria. Poi si apre davanti a noi un immenso mare blu che si estende a perdita d'occhio. Ci sediamo in riva al mare e osserviamo le onde che si avvicinano dolcemente.\n\nPer un momento, mi sembra che tutte le mie preoccupazioni possano essere messe da parte. Un momento in cui posso semplicemente godermi questa esperienza. So che presto dovrò tornare a casa, ma per ora sono qui."
+ bp3_roaming.0080.a: "Che vita tranquilla."
+
+ ocean_scent_key_title: "$bp3_roaming.0080.t$"
+ ocean_scent_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'hai', 'ha' )] guidato il suo gruppo verso la costa di [province.GetName], dove si sono riposati prima di iniziare il lungo viaggio di ritorno verso casa."
+
+ bp3_roaming.0090.t: "Il Fiume alla Fine del Viaggio"
+ bp3_roaming.0090.desc: "Si sta facendo tardi, quando finalmente arriviamo a un piccolo fiume, senza alcun ponte in vista. Guardo meglio che posso, ma dall'altra parte non si vede nulla. Per certi versi, sembra il confine tra le ultime vestigia della civiltà e la natura selvaggia e sconosciuta dell'altra sponda.\n\nMi siedo un attimo e riposo i piedi. Di tanto in tanto mi sembra di vedere qualcosa che si muove dall'altra parte dell'acqua, o come se qualcuno mi stesse guardando, ma non riesco a distinguere nulla."
+ bp3_roaming.0090.a: "Un buon punto dove fermarsi, credo."
+
+ river_journeys_end_key_title: "$bp3_roaming.0090.t$"
+ river_journeys_end_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'ti sei', 'si è' )] imbattut[host.Custom('DE_END_PRO_S_N')] in un fiume impraticabile nell'entroterra di [province.GetName], dove [host.GetSheHe] si è fermat[host.Custom('DE_END_PRO_S_N')] a riposare prima di iniziare il viaggio di ritorno verso casa."
+
+ ### Random Events
+ bp3_roaming.0100.t: "Incontro con un[ancient_traveler.Custom('DE_END_PRO_S_N')] Sconosciut[ancient_traveler.Custom('DE_END_PRO_S_N')]"
+ bp3_roaming.0100.desc: "Mentre mi aggiro per il territorio di [activity.GetCurrentPhase.GetLocation.Custom('GetTerrainType')], mi imbatto in [Select_CString(ancient_traveler.IsFemale,'una donna anziana appollaiata','un uomo anziano appollaiato')] su una roccia battuta dalle intemperie ai margini del sentiero. Trascorono alcuni istanti di silenzio, nei quali l[ancient_traveler.Custom('DE_PRO_PER_S_3P_N')][ancient_traveler.GetWomanMan] appare profondamente assort[ancient_traveler.Custom('DE_END_PRO_S_N')] nei suoi pensieri prima che si accorga della mia presenza.\n\nFacendomi un piccolo cenno di saluto, [ancient_traveler.GetSheHe] si alza lentamente, ogni movimento seguito dal suono di ossa scricchiolanti, e poi si avvia verso l'ignoto."
+ bp3_roaming.0100.desc.companion: "\n\n[special_guest.GetFirstName] si siede sull'antica roccia, tirando un piccolo sospiro di sollievo, più interessat[special_guest.Custom('DE_END_PRO_S_N')] a fare una pausa che a confrontarsi con l'anzian[ancient_traveler.Custom('DE_END_PRO_S_N')] [ancient_traveler.GetWomanMan]."
+ bp3_roaming.0100.a: "A cosa stava pensando, qui fuori, nel bel mezzo del nulla?"
+ bp3_roaming.0100.a.flavor: "Sembra proprio un luogo fantastico per riflettere."
+ bp3_roaming.0100.b: "Finalmente un'opportunità per sedersi e riposare."
+ bp3_roaming.0100.c: "Aspettate, anzian[ancient_traveler.Custom('DE_END_PRO_S_N')]!"
+ bp3_roaming.0100.c.flavor: "Forse [ancient_traveler.GetSheHe] avrà un po' di saggezza da condividere?"
+ bp3_roaming.0100.c.win: "Ho una conversazione fruttuosa con [ancient_traveler.GetNameNoTooltip]"
+ bp3_roaming.0100.c.neutral: "Convinco [ancient_traveler.GetNameNoTooltip] ad unirsi alla mia corte"
+ bp3_roaming.0100.c.loss: "[ancient_traveler.GetNameNoTooltip|U] non è interessat[ancient_traveler.Custom('DE_END_PRO_S_N')] a parlare"
+ bp3_roaming.0100.d: ""E non appena ho distolto lo sguardo per un secondo, [ancient_traveler.GetSheHe] è semplicemente scompars[ancient_traveler.Custom('DE_END_PRO_S_N')]..."
+
+ roaming_pondering_stone_mystic_key_title: "Rivelazioni"
+ roaming_pondering_stone_mystic_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'hai', 'ha' )] avuto diverse rivelazioni mentre [Select_CString( host.IsLocalPlayer, 'eri', 'era' )] sedut[host.Custom('DE_END_PRO_S_N')] nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]."
+
+ roaming_pondering_stone_key_title: "La Pietra della Riflessione"
+ roaming_pondering_stone_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'hai', 'ha' )] scoperto una roccia tranquilla, battuta dalle intemperie dove [Select_CString( host.IsLocalPlayer, 'ti sei', 'si è' )] sedut[host.Custom('DE_END_PRO_S_N')] per riflettere sulla sua vita nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]."
+
+ roaming_resting_stone_key_title: "La Pietra del Riposo"
+ roaming_resting_stone_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] scoperto una roccia tranquilla, battuta dalle intemperie dove riposare nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]."
+
+ roaming_old_man_key_title: "Viaggia[ancient_traveler.Custom('DE_END_NOU_S_GS_N')] Anzian[ancient_traveler.Custom('DE_END_PRO_S_N')]"
+ roaming_old_man_key: "Nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(host.IsLocalPlayer,'tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] incontrato un[ancient_traveler.Custom('DE_PRO_PER_S_3P_N')] [ancient_traveler.GetWomanMan] vecchi[ancient_traveler.Custom('DE_END_PRO_S_N')] e rugos[ancient_traveler.Custom('DE_END_PRO_S_N')]."
+
+ roaming_ancient_traveler_poet_key_title: "Viaggia[ancient_traveler.Custom('DE_END_NOU_S_GS_N')] Mistic[ancient_traveler.Custom('DE_END_PRO_S_N')]"
+ roaming_ancient_traveler_poet_key: "Nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(host.IsLocalPlayer,'tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] incontrato un[ancient_traveler.Custom('DE_PRO_PER_S_3P_N')] [ancient_traveler.GetWomanMan] mistic[ancient_traveler.Custom('DE_END_PRO_S_N')]."
+
+ pondering_rulership_modifier: "Riflessioni sul Potere"
+ pondering_rulership_modifier_desc: "Questo personaggio ha trascorso molto tempo a riflettere sul peso del potere."
+ pondering_religion_modifier: "Riflessioni sulla Religione"
+ pondering_religion_modifier_desc: "Questo personaggio ha trascorso molto tempo a riflettere sull'impatto che la religione ha sulla sua vita."
+ pondering_war_modifier: "Riflessioni sulla Guerra"
+ pondering_war_modifier_desc: "Questo personaggio ha trascorso molto tempo a riflettere sulla guerra e sulla strategia."
+ pondering_schemes_modifier: "Riflessione sui Complotti"
+ pondering_schemes_modifier_desc: "Questo personaggio ha trascorso molto tempo a riflettere sui completti e su coloro che potrebbero tramare contro di lui."
+ pondering_management_modifier: "Riflessioni sulla Gestione"
+ pondering_management_modifier_desc: "Questo personaggio ha trascorso molto tempo a riflettere su come migliorare il proprio regno."
+ pondering_travel_modifier: "Riflessioni sul Viaggio"
+ pondering_travel_modifier_desc: "Questo personaggio ha trascorso molto tempo a riflettere sui propri viaggi."
+
+ bp3_roaming.0110.t: "[sighting_province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')|U] a [sighting_province.GetNameNoTooltip]"
+ bp3_roaming.0110.desc: "Mentre il tempo peggiora gradualmente, improvvisamente scorgo qualcosa che emerge dal sottobosco davanti a me. Un esemplare sorprendentemente grande di [sighting_province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')] si ferma a pochi passi da me, il suo sguardo incontra il mio quando si accorge della mia presenza.\n\nUn attimo dopo l'animale ritorna bruscamente nella natura selvaggia."
+ bp3_roaming.0110.desc.companion: " Al mio fianco, sento [special_guest.GetFirstName] che tira un sospiro di sollievo."
+ bp3_roaming.0110.a: "Forse è il momento di preparare una battuta di caccia."
+ bp3_roaming.0110.b.weakling: "Fiuuu! Per un attimo mi sono preoccupat[ROOT.Char.Custom('DE_END_PRO_S_N')]."
+ bp3_roaming.0110.b.hunter: "Che cosa curiosa!"
+ bp3_roaming.0110.c: ""Dopo una lotta feroce, l'enorme bestia si è data alla fuga....""
+
+ roaming_animal_sighting_key_title: "Avvistamento di un Animale"
+ roaming_animal_sighting_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'ti sei', 'si è' )] imbattut[host.Custom('DE_END_PRO_S_N')] in un animale selvatico mentre viaggiava per il territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]."
+
+ roaming_animal_sighting_poet_key_title: "$roaming_animal_sighting_key_title$"
+ roaming_animal_sighting_poet_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'hai', 'ha' )] combattuto contro un animale selvatico nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]."
+
+ bp3_roaming.0120.t: "[sighting_province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')|U] delle Leggende"
+ bp3_roaming.0120.desc: "Mentre mi faccio strada tra le intemperie, all'improvviso scorgo qualcosa che si muove ai margini della mia visuale. Per un attimo la visione si schiarisce e vedo un esemplare di [sighting_province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')] completamente [sighting_province.GetTitle.GetDeJureLiege.Custom('GetLegendaryColor')] che guarda nella mia direzione.\n\nI miei pensieri si affannano a ricordare le poche storie che ho sentito sull'enigmatico animale mitico, mentre è lì davanti a me. Ma con la stessa rapidità con cui è apparso, scompare di nuovo nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('RoamingLegendaryBeastProvinceWeather')]."
+ bp3_roaming.0120.desc.companion: "$bp3_roaming.0110.desc.companion$"
+ bp3_roaming.0120.a: "Deve essere mio!"
+ bp3_roaming.0120.b: "Che spettacolo!"
+ bp3_roaming.0120.c: ""Poi l'enorme bestia è venuta verso di me...""
+
+ roaming_legendary_sighting_key_title: "Avvistamento Leggendario"
+ roaming_legendary_sighting_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'ti sei', 'si è' )] imbattut[host.Custom('DE_END_PRO_S_N')] in un animale leggendario mentre viaggiava per il territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]."
+
+ roaming_legendary_sighting_poet_key_title: "$roaming_legendary_sighting_key_title$"
+ roaming_legendary_sighting_poet_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'sei', 'è' )] stat[host.Custom('DE_END_PRO_S_N')] attaccat[host.Custom('DE_END_PRO_S_N')] da un animale leggendario nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]."
+
+ LegendaryBeastProvinceWeatherSnow: "neve"
+ LegendaryBeastProvinceWeatherRain: "pioggia"
+ LegendaryBeastProvinceWeatherFog: "nebbia"
+
+ bp3_roaming.0130.t: "Un Campo di Battaglia Dimenticato"
+ bp3_roaming.0130.desc: "Sento gli uccelli spazzini in lontananza molto prima di vederli con i miei occhi. Un piccolo campo di battaglia pieno di cadaveri, chiaramente lasciati a marcire da tempo.\n\nGli uccelli, con il becco insanguinato, di tanto in tanto alzano lo sguardo dal loro pasto al mio passaggio."
+ bp3_roaming.0130.desc.companion: " [special_guest.GetFirstName] si sente nauseat[special_guest.Custom('DE_END_PRO_S_N')] dalla vista di tutto ciò e si allontana dalla zona."
+ bp3_roaming.0130.a: "Dovrei dire una piccola preghiera per i morti."
+ bp3_roaming.0130.b: "Vediamo se riesco a trovare qualcosa di prezioso."
+ bp3_roaming.0130.c: ""Poi ho visto i morti che giacevano a terra tornare in vita...""
+
+ roaming_battlefield_prayer_key_title: "Campo di Battaglia Dimenticato"
+ roaming_battlefield_prayer_key: "a [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip], [Select_CString(host.IsLocalPlayer,'tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'hai', 'ha' )] trovato un campo di battaglia dimenticato, dove [Select_CString( host.IsLocalPlayer, 'hai', 'ha' )] recitato una piccola preghiera per i morti."
+
+ roaming_battlefield_scavenging_key_title: "$roaming_battlefield_prayer_key_title$"
+ roaming_battlefield_scavenging_key: "A [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip], [Select_CString(host.IsLocalPlayer,'tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'hai', 'ha' )] trovato un campo di battaglia dimenticato, dove [Select_CString( host.IsLocalPlayer, 'ti sei', 'si è' )] fermat[host.Custom('DE_END_PRO_S_N')] alla ricerca di eventuali oggetti di valore."
+
+ roaming_battlefield_poet_key_title: "$roaming_battlefield_prayer_key_title$"
+ roaming_battlefield_poet_key: "A [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip], [Select_CString(host.IsLocalPlayer,'tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'hai', 'ha' )] trovato un campo di battaglia dimenticato, dove [Select_CString( host.IsLocalPlayer, 'affermi', 'afferma' )] di aver visto i morti risorgere."
+
+ bp3_roaming.0140.t: "Una Notte nella Natura Selvaggia"
+ bp3_roaming.0140.desc: "Il buio silenzioso avvolge l'accampamento mentre andiamo a dormire per la notte. Una guardia vigila, ma non si riesce a trovare riposo. I suoni di creature che cinguettano, strisciano e si agitano nell'oscurità riempiono il silenzio.\n\nIn alto, il cielo notturno è un arazzo infinito di piccole luci. Per un attimo cerco di allontanare il rumore di fondo e mi concentro su questo spettacolo."
+ bp3_roaming.0140.desc.companion: "\n\nNel farlo, sento [special_guest.GetFirstName] russare leggermente nelle vicinanze. Non sembra che tutti abbiano gli stessi problemi a riposare...."
+ bp3_roaming.0140.a: "Non pensarci, chiudi gli occhi e prega."
+ bp3_roaming.0140.b: ""Guardie! Perlustrate le foreste alla ricerca di bestie, comuni o mitologiche che siano!""
+ bp3_roaming.0140.b.1: "Passi tutta la notte a cercare minacce"
+ bp3_roaming.0140.b.2: "Hai spaventato qualsiasi cosa ci fosse là fuori"
+ bp3_roaming.0140.b.3: "Ti addormenti aspettando che le guardie facciano il loro lavoro"
+ bp3_roaming.0140.c: ""Riuscivo a vedere piccole bestie non umane danzare ai margini della luce...""
+ bp3_roaming.0140.d: "Un momento e un luogo perfetti per pensare."
+
+ roaming_night_scare_key_title: "Notte nella Natura Selvaggia"
+ roaming_night_scare_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] trascorso un'intera notte a [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] terrorizzat[host.Custom('DE_END_PRO_S_N')] dai rumori notturni."
+
+ roaming_night_threat_key_title: "$roaming_night_scare_key_title$"
+ roaming_night_threat_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] trascorso un'intera notte a [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] alla ricerca di minacce immaginarie."
+
+ roaming_night_sleep_key_title: "$roaming_night_scare_key_title$"
+ roaming_night_sleep_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'sei','è')] riuscit[host.Custom('DE_END_PRO_S_N')] a riposare bene la notte dopo aver spaventato le creature che l[host.Custom('DE_END_PRO_S_N')] infastidivano a [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip]."
+
+ roaming_night_poet_key_title: "$roaming_night_scare_key_title$"
+ roaming_night_poet_key: "Si suppone che [Select_CString(host.IsLocalPlayer,'tu',host.GetShortUIName)] abbia trascorso l'intera notte a guardare le bestie inumane che danzavano intorno al [Select_CString(host.IsLocalPlayer,'tuo','suo')] accampamento."
+
+ roaming_night_mystic_key_title: "The Night Sky"
+ roaming_night_mystic_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] trascorso un'intera notte a guardare il cielo notturno e riflettere sulla vita."
+
+ bp3_roaming.0150.t: "Uno Stagno Silenzioso"
+ bp3_roaming.0150.desc: "Dopo una lunga giornata di camminate attraverso il territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], all'improvviso trovo uno stagno silenzioso in mezzo alla natura selvaggia. Oltre a qualche uccello placido che si abbevera vicino all'acqua, non c'è un essere umano o un animale in vista.\n\n"
+ bp3_roaming.0150.desc.no_companion: "Mi siedo vicino all'acqua per riposare i piedi e fare un respiro profondo."
+ bp3_roaming.0150.desc.companion: "Ci sediamo in riva all'acqua, riposiamo i piedi e sento [special_guest.GetFirstName] emettere un profondo sospiro."
+ bp3_roaming.0150.a: "Ah, un momento di riposo."
+ bp3_roaming.0150.b: ""Me ne sono andat[ROOT.Char.Custom('DE_END_PRO_S_N')] ascoltando un'incantevole melodia riecheggiare sull'acqua...""
+
+ roaming_quiet_pond_key_title: "Lo Stagno Silenzioso"
+ roaming_quiet_pond_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'ti sei', 'si è' )] imbattut[host.Custom('DE_END_PRO_S_N')] in uno stagno silenzioso nella natura selvaggia di [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] dove [Select_CString( host.IsLocalPlayer, 'ti sei', 'si è' )] riposat[host.Custom('DE_END_PRO_S_N')]."
+
+ roaming_quiet_pond_poet_key_title: "$roaming_quiet_pond_key_title$"
+ roaming_quiet_pond_poet_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'ti sei', 'si è' )] imbattut[host.Custom('DE_END_PRO_S_N')] in uno stagno tranquillo, ma si suppone che [Select_CString( host.IsLocalPlayer, 'tu sia', 'sia' )] fuggit[host.Custom('DE_END_PRO_S_N')] quando [Select_CString( host.IsLocalPlayer, 'sei', 'è' )] stat[host.Custom('DE_END_PRO_S_N')] spint[host.Custom('DE_END_PRO_S_N')] da una melodia ammaliante a [Select_CString( host.IsLocalPlayer, 'tuffarsi', 'tuffarti' )] nelle profondità dell'acqua..."
+
+ bp3_roaming.0160.t: "La Fattoria in Fiamme"
+ bp3_roaming.0160.desc: "Molto prima che si veda, sento l'odore della legna e della carne che brucia. Al nostro arrivo, tutto ciò che riesco a vedere è la carcassa fumante di quella che un tempo doveva essere un'enorme fattoria.\n\n"
+ bp3_roaming.0160.desc.no_companion: "Le mie guardie ci mettono solo un attimo a notare che qui non c'è più qualcuno o qualcosa da salvare."
+ bp3_roaming.0160.desc.companion: "Sento [special_guest.GetFirstName] parlare con le mie guardie, non c'è più qualcuno o qualcosa da salvare qui."
+ bp3_roaming.0160.desc.outro: "Tutto ciò che rimane sono le ceneri di una casa e di coloro che l'hanno abitata."
+ bp3_roaming.0160.a: "Trovate i resti e date loro una degna sepoltura."
+ bp3_roaming.0160.b: "Guardie, ripulite il posto."
+ bp3_roaming.0160.c: ""Abbiamo tentato più volte di entrare nell'edificio in fiamme, ma non ci siamo riusciti...""
+
+ roaming_burning_farm_piety_key_title: "La Fattoria in Fiamme"
+ roaming_burning_farm_piety_key: "Durante i [Select_CString( host.IsLocalPlayer, 'tuoi', 'suoi' )] viaggi, [Select_CString(host.IsLocalPlayer,'tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'ti sei', 'si è' )] imbattut[host.Custom('DE_END_PRO_S_N')] in una fattoria in fiamme. Prima di [Select_CString( host.IsLocalPlayer, 'andartene', 'andarsene' )] [Select_CString(host.IsLocalPlayer,'tu',host.GetShortUIName)] e le [Select_CString( host.IsLocalPlayer, 'tue', 'sue' )] guardie hanno sepolto i resti."
+
+ roaming_burning_farm_greedy_key_title: "$roaming_burning_farm_piety_key_title$"
+ roaming_burning_farm_greedy_key: "Durante i [Select_CString( host.IsLocalPlayer, 'tuoi', 'suoi' )] viaggi, [Select_CString(host.IsLocalPlayer,'tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'ti sei', 'si è' )] imbattut[host.Custom('DE_END_PRO_S_N')] in una fattoria in fiamme. Prima di [Select_CString( host.IsLocalPlayer, 'andartene', 'andarsene' )] [Select_CString(host.IsLocalPlayer,'tu',host.GetShortUIName)] e le [Select_CString( host.IsLocalPlayer, 'tue', 'sue' )] guardie hanno hanno ripulito il posto."
+
+ roaming_burning_farm_poet_key_title: "$roaming_burning_farm_piety_key_title$"
+ roaming_burning_farm_poet_key: "Durante i [Select_CString( host.IsLocalPlayer, 'tuoi', 'suoi' )] viaggi, [Select_CString(host.IsLocalPlayer,'tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'ti sei', 'si è' )] imbattut[host.Custom('DE_END_PRO_S_N')] in una fattoria in fiamme. Si suppone che [Select_CString( host.IsLocalPlayer, 'tu abbia', 'abbia' )] fatto del [Select_CString( host.IsLocalPlayer, 'tuo', 'suo' )] meglio per aiutare coloro che vivevano lì, ma senza riuscirci."
+
+ bp3_roaming.0170.t: "Una Giornata Tranquilla"
+ bp3_roaming.0170.desc: "Nonostante le mie aspettative, la giornata si è svolta in modo estremamente pittoresco e tranquillo. All'inizio, mi sono ritrovat[ROOT.Char.Custom('DE_END_PRO_S_N')] a stupirmi di fronte a ogni vista e a ogni suono. Tuttavia, con il passare del tempo, nulla si è distinto come particolarmente memorabile e la mia attenzione ha cominciato a calare.\n\n"
+ bp3_roaming.0170.desc.no_companion: "A poco a poco, però, comincio a godere della semplicità della passeggiata stessa. Diventa un momento solo per me e per i miei pensieri."
+ bp3_roaming.0170.desc.companion: "A poco a poco, però, mi ritrovo ad apprezzare il tempo che trascorro con [special_guest.GetFirstName]. Non viene fuori nulla di importante, ma è comunque piacevole."
+ bp3_roaming.0170.a: "Forse è proprio quello di cui avevo bisogno."
+
+ roaming_quiet_day_key_title: "Una Giornata Tranquilla"
+ roaming_quiet_day_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha') trascorso una giornata stranamente tranquilla attraversando il territorio di [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip]."
+
+ bp3_roaming.0180.t: "Borbottii per la Stanchezza"
+ bp3_roaming.0180.desc: "Mi stavo godendo la nostra passeggiata a [ROOT.Char.GetCurrentLocation.GetName], tuttavia con mio grande disappunto non posso dire lo stesso per il mio compagno di viaggio. [special_guest.GetFirstName] ha iniziato a rimanere un po' indietro e ogni tanto sento delle imprecazioni da parte sua, a volte anche condite con il mio nome. Con voce frustrata, [special_guest.GetSheHe] finalmente dice "Arriveremo presto?"\n\nSono abbastanza sicur[ROOT.Char.Custom('DE_END_PRO_S_N')] che siamo ancora lontani dal nostro obiettivo e che ci sia ancora un bel po' di strada da fare per raggiungerlo. [special_guest.GetSheHe|U] mi fissa in attesa di una mia risposta."
+ bp3_roaming.0180.a: "Non preoccupatevi, è dietro l'angolo!"
+ bp3_roaming.0180.a_short: "Continuate ad andare avanti!"
+ bp3_roaming.0180.b: "Forse è arrivato il momento di fare una pausa..."
+
+ roaming_tired_mutterings_lies_key_title: "Borbottii per la Stanchezza"
+ roaming_tired_mutterings_lies_key: "Nonostante le lamentele per la stanchezza di [special_guest.GetShortUIName|U], [Select_CString(host.IsLocalPlayer,'tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'ti sei','si è')] rifiutat[host.Custom('DE_END_PRO_S_N')] di ascoltarle."
+
+ roaming_tired_mutterings_break_key_title: "Borbottii per la Stanchezza"
+ roaming_tired_mutterings_break_key: "Dopo i borbottii e le lamentele per la stanchezza di [special_guest.GetShortUIName|U], [Select_CString(host.IsLocalPlayer,'tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'ti sei','si è')] decis[host.Custom('DE_END_PRO_S_N')] a fare una pausa."
+
+ roaming_tired_mutterings_athletic_key_title: "Una Lunga Passeggiata"
+ roaming_tired_mutterings_athletic_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] trascorso molto tempo attraversando il territorio di [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip], aumentando la resistenza e trovando piacere in questa attività."
+
+ bp3_roaming.0190.t: "Un'Occasione per Parlare"
+ bp3_roaming.0190.desc: "Mentre attraversiamo la natura selvaggia intorno a [ROOT.Char.GetCurrentLocation.GetName], [special_guest.GetFirstName] ed io abbiamo molto tempo per parlare. Speravo che ci saremmo divertiti insieme, ma non mi sarei mai aspettat[ROOT.Char.Custom('DE_END_PRO_S_N')] che sarebbe andata così bene.\n\n[special_guest.GetFirstNameNoTooltip] ha un'ampia varietà di argomenti interessanti di cui parlare, sia riguardo a certe persone che vivono a [ROOT.Char.GetCapitalLocation.GetName], che di pettegolezzi o di storie memorabili. Le ore trascorrono senza che me ne renda conto e mi sembra che sia passato solo un attimo."
+ bp3_roaming.0190.a: "Non posso credere che l'abbia detto [random_courtier.GetFirstNameNoTooltip]! È esilarante!"
+
+ roaming_chance_to_talk_key_title: "Un'Occasione per Parlare"
+ roaming_chance_to_talk_key: "[special_guest.GetShortUIName|U] e [host.GetShortUIName|U] [Select_CString(host.IsLocalPlayer,'avete','hanno')] apprezzato il tempo trascorso a conversare durante l'attraversamento di [activity.GetCurrentPhase.GetLocation.GetName]."
+
+ bp3_roaming.0200.t: "La Tela nel Cielo"
+ bp3_roaming.0200.desc: "Sono passate diverse ore dal tramonto quando il cielo assume improvvisamente splendide tonalità di viola, blu e arancione. È come se [ROOT.Char.GetFaith.HighGodName] [ROOT.Char.GetFaith.HighGodHerselfHimself] stesse usando il cielo come una tela.\n\nTra stupore e spavento, abbiamo ammirato lo spettacolo in silenzio. Solo quando è finito abbiamo iniziato a parlarne, con timore e riverenza."
+ bp3_roaming.0200.a: "Che spettacolo!"
+
+ roaming_nightsky_canvas_key_title: "La Tela nel Cielo"
+ roaming_nightsky_canvas_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] assistito a un impressionante fenomeno astronomico che si è verificato nei cieli di [activity.GetCurrentPhase.GetLocation.GetName]."
+
+ bp3_roaming.0210.t: "Gli Uccelli In Volo"
+ bp3_roaming.0210.desc: "Mentre attraversiamo [province.GetName], due uccelli ci seguono da ore. Si limitano a volare lentamente in cerchio sopra di noi, atterrando troppo lontano per essere un pericolo e cinguettando nella nostra direzione. Quando si avvicinano per un attimo, vedo il loro piumaggio bianco e nero.\n\nDopo un po', formano un ultimo cerchio prima di volare via un po' più lontano. Nonostante se ne siano andati, riusciamo ancora a sentirli cantare in lontananza."
+ bp3_roaming.0210.a: "Uno porta sfortuna, due fortuna."
+
+ the_birds_overhead_key_title: "$bp3_roaming.0210.t$"
+ the_birds_overhead_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] e il [Select_CString(host.IsLocalPlayer,'tuo','suo')] gruppo [Select_CString(host.IsLocalPlayer,'siete','sono')] stati seguiti da una coppia di uccelli e dai loro lontani cinguetii mentre [Select_CString(host.IsLocalPlayer,'attraversavate','attraversavano')] [province.GetName]."
+
+ bp3_roaming.0220.t: "Il Villaggio Dimenticato"
+ bp3_roaming.0220.desc: ""#emp C'è un villaggio qui?!#!" esclamo, profondamente confus[ROOT.Char.Custom('DE_END_PRO_S_N')].\n\nNon è stato indicato su nessuna mappa e nessuno ne ha parlato. Eppure, eccolo qui. Quando chiedo in giro come si chiama il villaggio, la gente si limita a dire: "Il villaggio? È il villaggio." con uno strano accento che non ho mai sentito prima.\n\nChi sono queste persone? Perché non ne ho mai sentito parlare prima?"
+ bp3_roaming.0220.a: "Aspetta, ma non sono quelli che mi devono un mucchio di tasse?"
+ bp3_roaming.0220.a.landless: "Vediamo cosa hanno qui intorno..."
+ bp3_roaming.0220.b: "Devo imparare tutto su queste persone!"
+ bp3_roaming.0220.b.mystic: "Apprendiamento dal Mistico del Villaggio"
+ bp3_roaming.0220.c: "Che cosa curiosa! Saranno una bella storia da raccontare."
+
+ roaming_forgotten_village_modifier: "$bp3_roaming.0220.t$"
+ roaming_forgotten_village_modifier_desc: "Un villaggio dimenticato della zona ha recentemente riallacciato i contatti con molti dei suoi vicini, condividendo le sue conoscenze e le sue tradizioni."
+
+ the_forgotten_village_key_title: "$bp3_roaming.0220.t$"
+ the_forgotten_village_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'ti sei','si è')] imbattut[host.Custom('DE_END_PRO_S_N')] in un vecchio villaggio dimenticato attraversando l'entroterra di [province.GetName]."
+
+ the_forgotten_village_mystic_key_title: "Il Villaggio Mistico"
+ the_forgotten_village_mystic_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] appreso le tradizioni di un mistico del villaggio di [province.GetName]."
+
+ bp3_roaming.0230.t: "L'Eremita"
+ bp3_roaming.0230.desc: "Mentre viaggiamo attraverso l'entroterra di [province.GetName], le mie guardie ed io ci imbattiamo improvvisamente in un[hermit_character.Custom('DE_PRO_PER_S_3P_N')] [hermit_character.GetWomanMan] vestit[hermit_character.Custom('DE_END_PRO_S_N')] di abiti sporchi, sedut[hermit_character.Custom('DE_END_PRO_S_N')] da sol[hermit_character.Custom('DE_END_PRO_S_N')]. Non appena si accorge di noi, esclama ad alta voce: "Siete l'ultima prova inviatami da [hermit_character.GetFaith.HighGodName]?!"\n\n"Come, scusate?" balbetto, confus[ROOT.Char.Custom('DE_END_PRO_S_N')] e sentendomi un po' offes[ROOT.Char.Custom('DE_END_PRO_S_N')].\n\n"Venite, vi racconterò tutto delle prove e dei lamenti di [hermit_character.GetName] [Select_CString(hermit_character.IsFemale,'la Saggia','il Saggio')]...""
+ bp3_roaming.0230.a: "Avete delle idee curiose, [hermit_character.GetNameNoTooltip]."
+ bp3_roaming.0230.a.hermit: "Ha Parlato con l'Eremita"
+ bp3_roaming.0230.b: "#emp Ditemi di più...#!"
+ bp3_roaming.0230.b.tooltip: "Ti converti segretamente alla fede [hermit_faith.GetName]"
+ bp3_roaming.0230.c: "Cosa avete detto a proposito di [ROOT.Char.GetFaith.HighGodName]? È inaccettabile, è un eresia!"
+
+ the_hermit_key_title: "L'Eremita"
+ the_hermit_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] incontato [Select_CString(hermit_character.IsFemale,'una curiosa','un curioso')] eremita nella natura selvaggia."
+
+ the_hermit_learning_key_title: "Insegnamenti dell'Eremita"
+ the_hermit_learning_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] una lunga discussione con [Select_CString(hermit_character.IsFemale,'una','un')] eremita nell'entroterra di [province.GetName]."
+
+ roaming_the_hermit_modifier: "Idee Non Convenzionali"
+ roaming_the_hermit_modifier_desc: "Questo personaggio condivide regolarmente delle idee e dei pensieri non convenzionali sulla religione."
+
+ bp3_roaming.0240.t: "Una Notte da Ricordare"
+ bp3_roaming.0240.desc: "Mentre ci sistemiamo per la notte, vediamo il cielo illuminarsi di stelle. È una delle notti più limpide che abbiamo visto da quando siamo partiti da [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier].\n\nC'è silenzio, non si sente alcun rumore, né di persone né di animali. È come se il terreno di [province.GetTerrain.GetNameNoTooltip|l] stesse trattenendo il respiro, mentre tutti noi stiamo ammirando il cielo notturno. Dovrei andare a letto e riposarmi per domattina, ma... Forse posso rimanere svegli[ROOT.Char.Custom('DE_END_PRO_S_N')] per un'altra ora o due."
+ bp3_roaming.0240.a: "Me la ricorderò per tutta la vita."
+
+ a_night_to_remember_key_title: "Una Notte da Ricordare"
+ a_night_to_remember_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'sei','è')] rimast[host.Custom('DE_END_PRO_S_N')] svegli[host.Custom('DE_END_PRO_S_N')] quasi tutta la notte a guardare il cielo stellato e limpido."
+
+ bp3_roaming.0250.t: "Una Piccola Tomba"
+ bp3_roaming.0250.desc: "Mentre viaggiamo attraverso il territorio di [province.Custom('HoldingNoHoldingTerrainRoaming')], ci imbattiamo in quella che sembra una tomba. È composta da [province.Custom('RoamingGraveVariants')]. Non c'è nulla che possa giustificare la presenza di questa tomba qui, così lontano dalla civiltà.\n\nNonostante la posizione remota, sono stati fatti molti sforzi per rendere l'area accogliente. Considerando la situazione, dovrei..."
+ bp3_roaming.0250.a: "Recitare qualche preghiera."
+ bp3_roaming.0250.b: "Riportare alla luce qualunque oggetto di valore sia stato nascosto nella tomba."
+
+ roaming_grave_variant_cross: "una piccola ma bellissima croce che spunta dal terreno"
+ roaming_grave_variant_burial_mound: "un piccolo tumulo funerario con diverse pietre accuratamente posizionate sulla sommità"
+ roaming_grave_variant_stone: "una piccola pietra, con un nome inciso sopra"
+
+ no_treasure: "Nessun tesoro"
+ small_treasure: "Tesoro Piccolo"
+ medium_treasure: "Tesoro Medio"
+ large_treasure: "Tesoro Grande"
+ bp3_roaming.0250.artifact: "Scopri un [artifact|E]"
+
+ a_small_grave_key_title: "Una Piccola Tomba"
+ a_small_grave_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] trovato una piccola tomba nella natura selvaggia di [province.GetName]."
+
+ # APAs
+ roaming_fame_very_small_tt: "[perk|E] [GetPerk('roaming_perk').GetName( GetNullCharacter )]: "#EMP Sarà una storia da raccontare.#!""
+ roaming_fame_small_tt: "[perk|E] [GetPerk('roaming_perk').GetName( GetNullCharacter )]: "#EMP Sarà una bella storia da raccontare!"#!""
+ roaming_fame_medium_tt: "[perk|E] [GetPerk('roaming_perk').GetName( GetNullCharacter )]: "#EMP Sarà una storia memorabile da raccontare!#!""
+ roaming_fame_high_tt: "[perk|E] [GetPerk('roaming_perk').GetName( GetNullCharacter )]: "#EMP Sarà una grande storia da raccontare!#!""
+ roaming_fame_very_high_tt: "[perk|E] [GetPerk('roaming_perk').GetName( GetNullCharacter )]: "#EMP Sarà una storia fantastica da raccontare!#!""
+
+ apa_roaming_feather_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Scoperto una Piuma Colorata"
+ apa_roaming_feather_key_title: "Una Piuma Colorata"
+ apa_roaming_feather_key: "Mentre [Select_CString(first.IsLocalPlayer,'stava','stavi')] viaggiando attraverso [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'ti sei','si è')] imbattut[first.Custom('DE_END_PRO_S_N')] in una piuma dalla vivacità mozzafiato."
+
+ apa_roaming_ancient_runestone_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Ti Sei','Si È')] Imbattut[first.Custom('DE_END_PRO_S_N')] in una Vecchia Pietra Runica"
+ apa_roaming_ancient_runestone_key_title: "Vecchia Pietra Runica"
+ apa_roaming_ancient_runestone_key: "Nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'ti sei','si è')] imbattut[first.Custom('DE_END_PRO_S_N')] in una Vecchia Pietra Runica con rune sbiadite."
+
+ apa_roaming_ancient_megalith_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Scoperto un Antico Megalite"
+ apa_roaming_ancient_megalith_key_title: "Antico Megalite"
+ apa_roaming_ancient_megalith_key: "A [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto un silenzioso testimone delle epoche passate - un antico monumento megalitico."
+
+ apa_roaming_natural_arch_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Scoperto un Arco Naturale nelle terre selvagge"
+ apa_roaming_natural_arch_key_title: "Arco Naturale"
+ apa_roaming_natural_arch_key: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'sei','è')] rimast[first.Custom('DE_END_PRO_S_N')] a bocca aperta quando [Select_CString(first.IsLocalPlayer,'ti sei','si è')] imbattut[first.Custom('DE_END_PRO_S_N')] in un imponente arco naturale nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]."
+
+ apa_roaming_coast_seashells_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Scoperto delle Conchiglie di Valore"
+ apa_roaming_coast_seashells_key_title: "Conchiglie di Valore"
+ apa_roaming_coast_seashells_key: "Esplorando una grotta costiera, [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto una collezione di conchiglie e perle rare, nascoste dal flusso e riflusso delle maree."
+
+ apa_roaming_forest_gnarled_oak_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Scoperto degli Uccelli in Nidificazione"
+ apa_roaming_forest_gnarled_oak_key_title: "Gli Uccelli in Nidificazione"
+ apa_roaming_forest_gnarled_oak_key: "Girogavando per il territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto una quercia massiccia e nodosa con il tronco cavo, che è un rifugio ideale per gli uccelli che nidificano." 
+
+ apa_roaming_rabbit_family_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Scoperto una Piccola Famiglia di Conigli"
+ apa_roaming_rabbit_family_key_title: "Conigli locali"
+ apa_roaming_rabbit_family_key: "Nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto una radura soleggiata con una famiglia di conigli che saltellano giocosamente tra l'erba."
+
+ apa_roaming_desert_lilies_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Scoperto degli Gigli del Deserto"
+ apa_roaming_desert_lilies_key_title: "Gigli del Deserto"
+ apa_roaming_desert_lilies_key: "Nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto un campo di delicati gigli del deserto, i cui petali pallidi si dispiegano come tesori effimeri nella natura selvaggia."
+
+ apa_roaming_desert_lilies_oasis_title: "$apa_roaming_desert_lilies_title$"
+ apa_roaming_desert_lilies_oasis_key_title: "$apa_roaming_desert_lilies_key_title$"
+ apa_roaming_desert_lilies_oasis_key: "In mezzo al verde dell'oasi, [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] notato un gruppo di gigli del deserto, le cui delicate fioriture aggiungono un tocco di eleganza al paesaggio sabbioso."
+
+ apa_roaming_desert_fox_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Visto una Volpe del Deserto"
+ apa_roaming_desert_fox_key_title: "Volpe del Deserto"
+ apa_roaming_desert_fox_key: "Tra le dune silenziose, [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] notato una volpe del deserto solitaria, la cui pelliccia dorata si mimetizzava perfettamente con la sabbia mentre si muoveva con grazia sul terreno."
+
+ apa_roaming_mountain_river_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Ti sei','Si è')] Riposat[first.Custom('DE_END_PRO_S_N')] Presso Un Fiume Tranquillo"
+ apa_roaming_mountain_river_key_title: "Il Fiume dell'Altopiano"
+ apa_roaming_mountain_river_key: "Girogavando attraverso il territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto un limpido ruscello di montagna, che offre una pausa rinfrescante."
+
+ apa_roaming_lonely_yurt_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Ti Sei','Si È')] Imbattut[first.Custom('DE_END_PRO_S_N')] in una Iurta Vuota"
+ apa_roaming_lonely_yurt_key_title: "La Iurta Solitaria"
+ apa_roaming_lonely_yurt_key: "Attraversando le Steppe aperte, [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto una iurta solitaria, un semplice riparo contro l'aspra natura selvaggia."
+
+ apa_roaming_standing_stone_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Visto un Menhir"
+ apa_roaming_standing_stone_key_title: "il Menhir"
+ apa_roaming_standing_stone_key: "Nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto un antico menhir, un simbolo solitario nel suo ambiente."
+
+ apa_roaming_wildflowers_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Scoperto dei Fiori Selvatici"
+ apa_roaming_wildflowers_key_title: "I Fiori Selvatici"
+ apa_roaming_wildflowers_key: "Nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'sei','è')] rimast[first.Custom('DE_END_PRO_S_N')] meravigliat[first.Custom('DE_END_PRO_S_N')] da un'esplosione di fiori selvatici, che aggiungevano colore ai vasti campi erbosi."
+
+ apa_roaming_lost_sheep_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Visto una Pecora Smarrita"
+ apa_roaming_lost_sheep_key_title: "La Pecora Smarrita"
+ apa_roaming_lost_sheep_key: "Vagando per i campi coltivati, [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] avvistato una pecora smarrita che pascolava da sola su di un prato verde."
+
+ apa_roaming_friendly_dog_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Incontrato un Cane Amichevole"
+ apa_roaming_friendly_dog_key_title: "Il Cane Amichevole"
+ apa_roaming_friendly_dog_key: "Vagando per i campi coltivati, [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'ti sei','si è')] imbattut[first.Custom('DE_END_PRO_S_N')] in un simpatico cane pastore che scodinzolava felicemente."
+
+ apa_roaming_grazing_cattle_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Visto un Gruppo di Mucche"
+ apa_roaming_grazing_cattle_key_title: "Le Mucche Soddisfatte"
+ apa_roaming_grazing_cattle_key: "Nei campi, [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] osservato un gruppo di mucche che pascolavano felici."
+
+ apa_roaming_lonely_tree_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Scoperto un Albero Imponente nelle Pianure"
+ apa_roaming_lonely_tree_key_title: "L'Albero Solitario"
+ apa_roaming_lonely_tree_key: "In mezzo alle pianure, [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto un imponente albero solitario, i cui rami si protendono verso il cielo."
+
+ apa_roaming_rock_outcrop_plains_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Ti Sei','Si È')] Imbattut[first.Custom('DE_END_PRO_S_N')] in Una Vista Fantastica"
+ apa_roaming_rock_outcrop_plains_key_title: "La Vista Fantastica"
+ apa_roaming_rock_outcrop_plains_key: "Tra le pianure aperte, [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto un affioramento roccioso naturale, che offre una vista panoramica sulle pianure circostanti."
+
+ apa_roaming_rock_outcrop_hills_title: "$apa_roaming_rock_outcrop_plains_title$"
+ apa_roaming_rock_outcrop_hills_key_title: "$apa_roaming_rock_outcrop_plains_key_title$"
+ apa_roaming_rock_outcrop_hills_key: "Facendo un'escursione tra le colline, [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto un affioramento roccioso, che offre un punto di vista panoramico sul terreno ondulato."
+
+ apa_roaming_waterfall_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Ti Sei','Si È')] Riposat[first.Custom('DE_END_PRO_S_N')] Presso Una Tranquilla Cascata"
+ apa_roaming_waterfall_key_title: "La Cascata"
+ apa_roaming_waterfall_key: "In mezzo al territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto una piccola cascata, il cui dolce scroscio offre un momento di tranquillità."
+
+ apa_roaming_heron_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Visto Un Airone Impressionante"
+ apa_roaming_heron_key_title: "L'Airone Immobile"
+ apa_roaming_heron_key: "In mezzo al territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scorto un airone immobile, in attesa di un'opportunità per catturare la sua preda."
+
+ apa_roaming_dragonfly_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Visto una Libellula Colorata"
+ apa_roaming_dragonfly_key_title: "La Libellula"
+ apa_roaming_dragonfly_key: "Nel camminare per il territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'ti sei','si è')] imbattut[first.Custom('DE_END_PRO_S_N')] in una libellula che si libra sopra l'acqua, con le sue ali iridescenti che catturano la luce del sole."
+
+ apa_roaming_ducklings_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Incontato una Coppia di Anatroccoli"
+ apa_roaming_ducklings_key_title: "Gli Anatroccoli"
+ apa_roaming_ducklings_key: "Durante il viaggio attraverso le zone umide, [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] osservato una coppia di anatrocoli che scivolava sulle acque immobili, lasciando delle increspature nella loro scia."
+
+ apa_roaming_dates_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Ti Sei','Si È')] Imbattut[first.Custom('DE_END_PRO_S_N')] in delle Palme da Dattero"
+ apa_roaming_dates_key_title: "Le Palme da Dattero"
+ apa_roaming_dates_key: "Vagando per le oasi, [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto un piccolo boschetto di palme da dattero, i cui dolci frutti sono una vero sollievo contro il caldo del deserto."
+
+ apa_roaming_oasis_shelter_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Scoperto un Riparo nell'Oasi"
+ apa_roaming_oasis_shelter_key_title: "Un Riparo nell'Oasi"
+ apa_roaming_oasis_shelter_key: "Esplorando le oasi, [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto un riparo di fortuna fatto di fronde di palma intrecciate, che offre ombra nel caldo del deserto."
+
+ apa_roaming_oasis_traders_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Incontato Una Carovana di Commercianti"
+ apa_roaming_oasis_traders_key_title: "La Carovana nell'Oasi"
+ apa_roaming_oasis_traders_key: "Vagando per le oasi, [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] incontato una carovana di commercianti, con i loro cammelli carichi di merci."
+
+ apa_roaming_traders_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Incontato un Gruppo di Commercianti"
+ apa_roaming_traders_key_title: "I Commercianti di [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip]"
+ apa_roaming_traders_key: "Viaggiando attraverso il territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] incontato un gruppo di commercianti e i loro animali da soma."
+
+ apa_roaming_luminescent_mushrooms_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Scoperto Una Macchia di Funghi Luminescenti" 
+ apa_roaming_luminescent_mushrooms_key_title: "I Funghi Luminescenti"
+ apa_roaming_luminescent_mushrooms_key: "Attraversando il territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'sei','è')] rimast[first.Custom('DE_END_PRO_S_N')] stupit[first.Custom('DE_END_PRO_S_N')] da una macchia di funghi luminescenti, che proiettano un bagliore etereo nel sottobosco ombroso."
+
+ apa_roaming_wild_berries_title: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'Hai','Ha')] Scoperto Una Macchia di Bacche Selvatiche"
+ apa_roaming_wild_berries_key_title: "Le Bacche Selvatiche"
+ apa_roaming_wild_berries_key: "Attraversando il territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto un grappolo di bacche selvatiche, una delizia inaspettata in mezzo al bosco."

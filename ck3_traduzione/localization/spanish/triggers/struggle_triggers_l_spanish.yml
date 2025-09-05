@@ -1,0 +1,15 @@
+﻿l_spanish:
+
+ IS_CULTURE_INVOLVED_IN_STRUGGLE_TRIGGER:0 "La cultura [CULTURE.GetName] è coinvolta nella [STRUGGLE.GetName]"
+ IS_FAITH_INVOLVED_IN_STRUGGLE_TRIGGER:0 "La [faith|E] [FAITH.GetName] è coinvolta in una [STRUGGLE.GetName]"
+ 
+ STRUGGLE_PHASE_IS_TRIGGER:1 "La fase attuale della [STRUGGLE.GetName] è $PHASE$"
+ NOT_STRUGGLE_PHASE_IS_TRIGGER:1 "La fase attuale della [STRUGGLE.GetName] non è $PHASE$"
+ 
+ STRUGGLE_TYPE_TRIGGER:0 "Il tipo di [STRUGGLE.GetName] è [STRUGGLE_TYPE.GetName]"
+ NOT_STRUGGLE_TYPE_TRIGGER:0 "Il tipo di [STRUGGLE.GetName] non è [STRUGGLE_TYPE.GetName]"
+ 
+ IS_STRUGGLE_PHASE_TRIGGER:1 "La fase attuale della [STRUGGLE.GetName] è [PHASE.GetName]"
+ NOT_IS_STRUGGLE_PHASE_TRIGGER:1 "La fase attuale della [STRUGGLE.GetName] non è [PHASE.GetName]"
+
+ involved_in_iberian_struggle_trigger_first: "Sei coinvolto nella [GetStruggle('iberian_struggle').GetName]"

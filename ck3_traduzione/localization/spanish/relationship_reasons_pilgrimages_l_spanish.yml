@@ -1,0 +1,27 @@
+﻿l_spanish:
+ pilgrimage_corrective_lecture:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] [Select_CString(CHARACTER.IsLocalPlayer,'hai','ha')] rifilato una severa ramanzina [TARGET_CHARACTER.Custom('IT_NAM_COL4')][TARGET_CHARACTER.GetShortUIName] durante un pellegrinaggio."
+ pilgrimage_corrective_lecture_corresponding:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'hai','ha')] ricevuto una severa ramanzina da parte [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetShortUIName] durante un pellegrinaggio."
+
+ friend_religious_understanding:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] [Select_CString(CHARACTER.IsLocalPlayer,'hai','ha')] mostrato comprensione per la fede [TARGET_CHARACTER.Custom('IT_NAM_COL2')][TARGET_CHARACTER.GetShortUIName]."
+ friend_religious_understanding_corresponding:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'hai','ha')] mostrato comprensione per la fede [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetShortUIName]."
+
+ friend_religious_revalation:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] [Select_CString(CHARACTER.IsLocalPlayer,'hai','ha')] aiutato [TARGET_CHARACTER.Custom('IT_NAM_COL3')][TARGET_CHARACTER.GetShortUIName] ad avere una rivelazione religiosa."
+ friend_religious_revalation_corresponding:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'hai','ha')] aiutato [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetShortUIName] ad avere una rivelazione religiosa."
+
+ rival_attempted_to_convert_my_child:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] [Select_CString(CHARACTER.IsLocalPlayer,'hai','ha')] tentato di convertire il bambino [TARGET_CHARACTER.Custom('IT_NAM_COL2')][TARGET_CHARACTER.GetShortUIName]."
+ rival_attempted_to_convert_my_child_corresponding:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'hai','ha')] tentato di convertire il figlio [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetShortUIName]."
+
+ rival_stole_my_courtier:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] [Select_CString(CHARACTER.IsLocalPlayer,'hai','ha')] reclutato uno dei cortigiani [TARGET_CHARACTER.Custom('IT_NAM_COL2')][TARGET_CHARACTER.GetShortUIName]."
+ rival_stole_my_courtier_corresponding:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'hai','ha')] reclutato uno dei cortigiani [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetShortUIName]."
+ 
+ friend_consoled_me:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] [Select_CString(CHARACTER.IsLocalPlayer,'hai','ha')] consolato [TARGET_CHARACTER.Custom('IT_NAM_COL3')][TARGET_CHARACTER.GetShortUIName] durante una crisi di fede."
+ friend_consoled_me_corresponding:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'hai','ha')] consolato [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetShortUIName] durante una crisi di fede."
+
+ rival_tried_to_convert_me:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] [Select_CString(CHARACTER.IsLocalPlayer,'hai','ha')] tentato di convertire [TARGET_CHARACTER.Custom('IT_NAM_COL3')][TARGET_CHARACTER.GetShortUIName] durante un momento di bisogno."
+ rival_tried_to_convert_me_corresponding:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'hai','ha')] tentato di convertire [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetShortUIName] durante un momento di bisogno."
+
+ rival_forced_to_marry_heathen:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'hai','ha')] costretto [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetShortUIName] a sposare una persona di fede pagana."
+ rival_forced_to_marry_heathen_corresponding:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] [Select_CString(CHARACTER.IsLocalPlayer,'hai','ha')] costretto [TARGET_CHARACTER.Custom('IT_NAM_COL3')][TARGET_CHARACTER.GetShortUIName] a sposare una persona di fede pagana."
+
+ pilgrimage_poached_courtier:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] [Select_CString(CHARACTER.IsLocalPlayer,'hai','ha')] soffiato un abile cortigiano alla corte [TARGET_CHARACTER.Custom('IT_NAM_COL2')][TARGET_CHARACTER.GetShortUIName]."
+ pilgrimage_poached_courtier_corresponding:0 "Un abile cortigiano della corte [TARGET_CHARACTER.Custom('IT_NAM_COL2')][TARGET_CHARACTER.GetShortUIName] è stato ingaggiato [CHARACTER.Custom('IT_NAM_COL5')][CHARACTER.GetShortUIName|U]."

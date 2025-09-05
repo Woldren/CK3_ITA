@@ -1,0 +1,15 @@
+﻿l_spanish:
+ hold_court.5010.t:0 "[county.GetNameNoTierNoTooltip|U] Fuori controllo"
+ hold_court.5010.desc_marshal:0 "[marshal.GetCouncilTitle] [marshal.GetTitledFirstName] si avvicina al trono.\n\n"
+ hold_court.5010.desc:0 "A peasant [peasant.GetWomanMan] si avvicina timidamente al mio trono, stringendo il suo cappello.\n\n"
+ hold_court.5010.desc.outro: ""A [county.GetName|U] dilagano i disordini e il banditismo, [Select_CString(ROOT.Char.IsFemale,'mia Signora','mio Signore')]. Spendendo un po' di denaro il controllo sarebbe possibile riprendere il controllo della regione.""
+ hold_court.5010.a:0 "Che idea curiosa, proviamola."
+ hold_court.5010.b:0 "Hai ragione, quello di cui abbiamo bisogno è un #EMP grande#! spargimento di sangue!"
+ hold_court.5010.c:1 "Non ho tempo da dedicare a questa cosa."
+
+ hold_court.5030.t:0 "Linguaggio Scritto"
+ hold_court.5030.desc:1 "[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] mi mostra una pagina piena di simboli sconosciuti, insistendo sulla sua comprensibilità.\n\n"Ho ideato un linguaggio scritto specifico per [courtier.Custom('DE_PRO_DEM')] [courtier.GetWomenMen] della corte, poiché le parole sono per lo più insegnate [Select_CString(courtier.IsFemale,'alle','agli')] [courtier.Custom('WomenMenOpp')]. Se me lo permetterete, inizierò a insegnarle anche [Select_CString(courtier.IsFemale,'alle nobildonne','ai Signori')]!"\n\nNon posso fare a meno di immaginare la libertà che una lingua del genere potrebbe dare!"
+ hold_court.5030.a:0 "Che grande idea!"
+ hold_court.5030.courtiers:0 "Tutti i Cortigiani di genere [courtier.Custom('FemaleMale')|U]"
+ hold_court.5030.b:0 "Il Tutore di Corte ti aiuterà ad insegnare a [court_tutor.GetFirstNameNoTooltip]."
+ hold_court.5030.c:0 "Possiamo fare un uso migliore dei tuoi talenti!"

@@ -1,0 +1,99 @@
+﻿l_spanish:
+ #Common Taoism Localization
+ taoism_religion:0 "Taoismo"
+ taoism_religion_adj:0 "Taoista"
+ taoism_religion_adherent:0 "Taoista"
+ taoism_religion_adherent_plural:0 "Taoisti"
+ taoism_religion_desc:0 "Il Tao è la fonte, il modello e la sostanza di cui sono fatte tutte le cose. Vivere in armonia con il Tao porta alla pace, alla contentezza e, dopo la morte, all'ascensione per vivere nel Tao come spirito immortale."
+
+ taoism_high_god_name:0 "Tao"
+ taoism_high_god_name_2:0 "$taoism_high_god_name$" # Optional translation alt
+ taoism_high_god_name_possessive:0 "del Tao"
+ taoism_high_god_name_alternate:0 "la Via"
+ taoism_high_god_name_alternate_possessive:0 "della Via"
+ taoism_good_god_name_three_pure_ones:0 "I Tre Puri"
+ taoism_devil_name:0 "disarmonia"
+ taoism_devil_name_possessive:0 "della disarmonia"
+ taoism_house_of_worship:0 "$paganism_house_of_worship$"
+ taoism_house_of_worship_2:0 "la $paganism_house_of_worship_2$" # Optional translation alt
+ taoism_house_of_worship_3:0 "$paganism_house_of_worship_3$" # Optional translation alt
+ taoism_house_of_worship_plural:0 "$paganism_house_of_worship_plural$"
+ taoism_religious_symbol:0 "Taijitu"
+ taoism_religious_symbol_2:0 "$taoism_religious_symbol$" # Optional translation alt
+ taoism_religious_symbol_3:0 "$taoism_religious_symbol$" # Optional translation alt
+ taoism_religious_text:0 "Daozang"
+ taoism_religious_text_2:0 "$taoism_religious_text$" # Optional translation alt
+ taoism_religious_text_3:0 "$taoism_religious_text$" # Optional translation alt
+ taoism_religious_head_title:0 "Maestro Celeste"
+ taoism_religious_head_title_name:0 "Trono celeste"
+ taoism_devotee_male:0 "$taoism_devotee_neuter$"
+ taoism_devotee_male_plural:0 "$taoism_devotee_neuter_plural$"
+ taoism_devotee_female:0 "$taoism_devotee_neuter$"
+ taoism_devotee_female_plural:0 "$taoism_devotee_neuter_plural$"
+ taoism_devotee_neuter:0 "daoshi"
+ taoism_devotee_neuter_plural:0 "daoshi"
+ taoism_priest_male:0 "$taoism_devotee_neuter$"
+ taoism_priest_male_plural:0 "$taoism_devotee_neuter_plural$"
+ taoism_priest_female:0 "$taoism_devotee_neuter$"
+ taoism_priest_female_plural:0 "$taoism_devotee_neuter_plural$"
+ taoism_priest_neuter:0 "$taoism_devotee_neuter$"
+ taoism_priest_neuter_plural:0 "$taoism_devotee_neuter_plural$"
+ taoism_alternate_priest_term_plural:0 "maestri"
+ taoism_divine_realm:0 "il Tao"
+ taoism_divine_realm_2:0 "$taoism_divine_realm$" # Optional translation alt
+ taoism_divine_realm_3:0 "$taoism_divine_realm$" # Optional translation alt
+ taoism_positive_afterlife:0 "$taoism_divine_realm$"
+ taoism_positive_afterlife_2:0 "$taoism_divine_realm$" # Optional translation alt
+ taoism_positive_afterlife_3:0 "$taoism_divine_realm$" # Optional translation alt
+ taoism_negative_afterlife:0 "$taoism_divine_realm$"
+ taoism_negative_afterlife_2:0 "$taoism_divine_realm$" # Optional translation alt
+ taoism_negative_afterlife_3:0 "$taoism_divine_realm$" # Optional translation alt
+
+ taoism_creator_god_name:0 "Yuanshi Tianzun il Celestiale Venerabile dell'Inizio Primordiale"
+ taoism_creator_god_name_possessive:0 " di Yuanshi Tianzun il Celestiale Venerabile degli Inizi Primordiali"
+ taoism_health_god_name:0 "Li T'ieh-kuai"
+ taoism_health_god_name_possessive:0 "di Li T'ieh-kuai"
+ taoism_fertility_god_name:0 "$taoism_health_god_name$"
+ taoism_fertility_god_name_possessive:0 "$taoism_health_god_name_possessive$"
+ taoism_wealth_god_name:0 "Lu Tung-pin"
+ taoism_wealth_god_name_possessive:0 "di Lu Tung-pin"
+ taoism_household_god_name:0 "$taoism_knowledge_god_name$"
+ taoism_household_god_name_possessive:0 "$taoism_knowledge_god_name_possessive$"
+ taoism_fate_god_name:0 "$taoism_high_god_name$"
+ taoism_fate_god_name_possessive:0 "$taoism_high_god_name_possessive$"
+ taoism_knowledge_god_name:0 "Lao-Tze"
+ taoism_knowledge_god_name_possessive:0 "di Lao-Tze"
+ taoism_war_god_name:0 "Han Chung-li"
+ taoism_war_god_name_possessive:0 "di Han Chung-li"
+ taoism_trickster_god_name:0 "$christianity_trickster_god_name$"
+ taoism_trickster_god_name_possessive:0 "$christianity_trickster_god_name_possessive$"
+ taoism_night_god_name:0 "Ho Hsien-ku"
+ taoism_night_god_name_possessive:0 "di Ho Hsien-ku"
+ taoism_water_god_name:0 "Shui-kuan"
+ taoism_water_god_name_possessive:0 "di Shui-kuan"
+ witchgodname_taoism_daode_tianzun:0 "Daode Tianzun"
+ witchgodname_taoism_daode_tianzun_possessive:0 "di Daode Tianzun"
+
+ #Zhengyi
+ zhengyi:0 "Zhengyi"
+ zhengyi_adj:0 "Zhengyi"
+ zhengyi_adherent:0 "Zhengyi"
+ zhengyi_adherent_plural:0 "Zhengyi"
+ zhengyi_desc:0 "A differenza delle altre scuole taoiste, Zhengyis osserva una rigida gerarchia teocratica sotto il Maestro Celeste. I praticanti creano e vendono talismani protettivi per prevenire la perdita di qi, l'energia vitale che sostiene tutti gli esseri viventi."
+ 
+ zhengyi_positive_afterlife:0 "Palazzo delle Grandi Tenebre"
+ zhengyi_negative_afterlife:0 "prigione terrestre"
+
+ #Shangqing
+ shangqing:0 "Shangqing"
+ shangqing_adj:0 "Shangqing"
+ shangqing_adherent:0 "Shangqing"
+ shangqing_adherent_plural:0 "Shangqing"
+ shangqing_desc:0 "Il taoismo Shangqing era la forma dominante di taoismo durante la dinastia Tang. I suoi seguaci cercano di armonizzarsi con l'universo attraverso la mediazione e gli esercizi fisici, contrari a talismani e all'alchimia usati da altri rami del taoismo."
+
+ #Quanzhen
+ quanzhen:0 "Quanzhen"
+ quanzhen_adj:0 "Quanzhen"
+ quanzhen_adherent:0 "Quanzhen"
+ quanzhen_adherent_plural:0 "Quanzhen"
+ quanzhen_desc:0 "I seguaci del Taoismo Quanzhen praticano l'alchimia interna per perfezionare i loro corpi e armonizzarsi con il Tao. Attraverso questo processo i praticanti raggiungono la longevità fisica e l'immortalità spirituale."

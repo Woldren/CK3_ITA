@@ -1,0 +1,40 @@
+﻿l_spanish:
+
+ #court.4500 Fake artifacts and trinkets
+ blood_brooch_name:0 "Spilla di Sangue"
+ blood_brooch_description:0 "Questa spilla ha una sfera di vetro riempita con il sangue di [ROOT.GetCharacter.GetTitledFirstName]."
+ cuckoldry_psalter_name:0 "Il Salterio dell'infedeltà"
+ cuckoldry_psalter_description:0 "Si dice che questo grande volume sia il miglior regalo che si possa fare ad un coniuge. Per lo meno, le figure d'avorio sulla copertina sembrano felicemente sposate."
+ chastity_belt_name:0 "Cintura di Castità"
+ chastity_belt_description:0 "Questa cintura di castità ha punte sia all'interno che all'esterno, per la protezione tua e degli altri."
+ holy_needle_name:0 "Il Santo Ago di Antiochia"
+ holy_needle_description:0 "Beh, si potrebbe fare un bel ricamo della Crocifissione."
+ finger_bones_name:0 "Ossa delle Dita di un Santo"
+ finger_bones_description:0 "Tutti e undici!"
+ dead_chicken_name:0 "La Targa del Codardo"
+ dead_chicken_description:0 "Nessuno vorrà starvi vicino se brandite questo pollo morto, non ultimi i vostri nemici."
+ worm_on_a_string_name:0 "Verme su un Filo"
+ worm_on_a_string_description:0 "Un giocattolo che probabilmente impressionerebbe un bambino piccolo."
+
+
+ #court.4750 Book commissions
+ pope_joan_book_name:0 "Racconti di Papessa Giovanna"
+ pope_joan_book_desc:0 "Un libro in cui [ROOT.Char.GetTitledFirstNameNoTooltip] è raffigurato come la Papessa Giovanna. Devoto, blasfemo o seducente?"
+ lady_godiva_book_name:0 "Racconti di Lady Godiva"
+ lady_godiva_book_desc:0 "Almeno le rappresentazioni di [ROOT.Char.GetTitledFirstNameNoTooltip] che cavalca nudo sono lusinghiere."
+ caligula_book_name:0 "Cinquecento Frustate"
+ caligula_book_desc:0 "Cinquecento pagine di Caligola che frusta [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ nasreddin_book_name:0 "Racconti di Nasreddin"
+ nasreddin_book_desc:0 "In cui [ROOT.Char.GetTitledFirstNameNoTooltip] riceve l'onore di essere deriso da Nasreddin"
+ valmiki_book_name:0 "Epigrammi di Valmiki"
+ valmiki_book_desc:0 "Una serie di battute del più antico poeta, Valmiki, pronunciate dalla bocca improbabile di [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ ruler_hero_book_name:0 "Racconti di [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ ruler_hero_book_desc:0 "Nella linea di apertura c'è [ROOT.Char.GetTitledFirstNameNoTooltip] che dichiara alla sua corte: 'Devo sedermi, perché non posso sopportarvi.'"
+ sinbad_book_name:0 "I Viaggi di Sinbad"
+ sinbad_book_desc:0 "Un libro in cui le varie bestie che Sinbad affronta portano il volto di [ROOT.Char.GetTitledFirstNameNoTooltip]"
+
+ #court.4806 fan relics
+ purple_underwear_name:0 "Intimo Viola Imperiale"
+ purple_underwear_description:0 "Adatto solo ad un imperatore.\n\nSic itur ad astra...?"
+ fake_reichskrone_name:0 "Falsa Reichskrone"
+ fake_reichskrone_description:0 "Indossala per essere davvero un #EMP pretendente#! al trono"

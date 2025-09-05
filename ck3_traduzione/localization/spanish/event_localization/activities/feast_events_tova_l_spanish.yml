@@ -1,0 +1,8 @@
+﻿l_spanish:
+ feast_events_tova.0001.t: "Una Vera Meraviglia"
+ feast_events_tova.0001.desc: "I miei ospiti si muovono come in un sogno a occhi aperti, completamente incantati dalla cupola inondata di sole e dalla spettacolare fontana del mio palazzo. La ricca fragranza dell'incenso che si diffonde nell'aria dal mio giardino ha un effetto molto piacevole sui cuori e sulle anime di tutti coloro che la sentono.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], avete superato voi stess[ROOT.Char.Custom('DE_END_PRO_S_N')] con questo posto!  La competenza dei vostri architetti traspare in ogni dettaglio," afferma [honorary_guest.Custom('IT_NAM_COL3')][honorary_guest.GetTitledFirstName] e un mormorio di approvazione si leva dalla moltitudine di persone intorno a [honorary_guest.GetSheHe].\n\nTutti gli ospiti presenti volgono lo sguardo verso di me, come se aspettassero che io dica qualche parola riguardo il palazzo."
+ feast_events_tova.0001.a: "Questo è un luogo degno di accoglierci, noi potenti guerrieri!"
+ feast_events_tova.0001.b: "Lasciate che vi mostri tutto il palazzo, [honorary_guest.GetTitledFirstNameNoTooltip]."
+ feast_events_tova.0001.b.success: "Il tuo sfoggio di opulenza impressiona grandemente [honorary_guest.Custom('IT_NAM_COL3')][honorary_guest.GetTitledFirstNameNoTooltip]"
+ feast_events_tova.0001.b.failure: "Il tuo palazzo impressiona [honorary_guest.Custom('IT_NAM_COL3')][honorary_guest.GetTitledFirstNameNoTooltip], ma le tue vanterie cadono nel vuoto"
+ feast_events_tova.0001.c: "Davvero, questo è una grande testimonianza del mio regno."

@@ -1,0 +1,100 @@
+﻿l_spanish:
+ dungeon_ongoing.0001.t:0 "Chiacchiere incessanti"
+ dungeon_ongoing.0001.desc:0 "Non riesco a vedere chi è, o dove si trovano esattamente, ma l'unico momento in cui i loro sussurri non riecheggiano attraverso il dungeon è quando stanno urlando."
+ dungeon_ongoing.0001.a:0 "Se tu potessi fermarti, solo per un momento!"
+ dungeon_ongoing.0001.b:0 ""Stai parlando con me, amico?""
+
+ dungeon_ongoing.0002.t:0 "L'attesa"
+ dungeon_ongoing.0002.desc:0 "È il passare del tempo che mi colpisce davvero. Chi può sapere quanto tempo è passato, o quanto ancora durerà la mia permanenza? Potrebbe trattarsi di ore... o di mesi."
+ dungeon_ongoing.0002.a:0 "Devo andarmene da qui"
+ dungeon_ongoing.0002.b:0 "Posso aspettare tutto il tempo che mi serve."
+
+ dungeon_ongoing.0003.t:0 ""Abbassa la Voce!""
+ dungeon_ongoing.0003.desc:0 " dungeon_ongoing.0003.desc:0 "Ho arringato le guardie attraverso le sbarre, dicendo loro che dovevano lasciarmi uscire. La loro unica risposta è uno sguardo minaccioso, un pugno alzato e un ringhio per farmi capire di 'fare silenzio'.""
+ dungeon_ongoing.0003.a:0 "Gli appelli all'onore non sono chiaramente la via d'uscita."
+ dungeon_ongoing.0003.b:0 "Pensi di potermi zittire con le minacce?!"
+
+ dungeon_ongoing.0004.t:0 "Infezione"
+ dungeon_ongoing.0004.desc:0 "Pensavo che la ferita fosse quasi guarita, ma ora ha iniziato a bruciare. Non riesco a guardarla bene al buio, ma al tatto sembra bulbosa.\n\n Non riesco a capire se il liquido che sento oltre al dolore bruciante sia sangue, pus o condensa dell'aria umida."
+ dungeon_ongoing.0004.a:0 "Perfavore, ho bisogno di aiuto..."
+ dungeon_no_response_tooltip:0 "#F Nessuno sembra sentire le tue suppliche.#!"
+
+ dungeon_ongoing.0005.t:0 "Il Fuoco Finisce"
+ dungeon_ongoing.0005.desc:0 "La pelle intorno alla mia ferita sembra dura, come il legno bagnato, ma la sensazione di bruciore è passata. Sembra che l'infezione sia passata."
+ dungeon_ongoing.0005.a:0 "Grazie [ROOT.Char.GetFaith.HealthGodName]."
+
+ dungeon_ongoing.0006.t:0 "Vedo Tutto Nero"
+ dungeon_ongoing.0006.desc:0 "Un freddo costante, umidità perpetua e una fame eterna data da pasti troppo poveri."
+ dungeon_ongoing.0006.a:0 "[ROOT.Char.GetFaith.HighGodName], come potrei mai meritarmi tutto questo?!?!"
+ dungeon_ongoing.0006.b:0 "Eh, poteva andare peggio, poteva piovere."
+
+ dungeon_ongoing.0007.t:0 "il Desiderio di Qualcosa in Più"
+ dungeon_ongoing.0007.desc:0 "Bloccati quaggiù nell'oscurità mentre il mondo esterno va avanti. Dovrei essere là fuori, alla luce del sole, non sepolto sottoterra."
+ dungeon_ongoing.0007.a:0 "mi merito molto più di questo!"
+ dungeon_ongoing.0007.b:0 "Devo concentrarmi sulla sopravvivenza e basta."
+
+ dungeon_ongoing.0008.t:0 "Il Passare dei Giorni"
+ dungeon_ongoing.0008.desc:0 "Sono qui da sempre. Sono passati mesi? Anni? Decenni? Il mio esilio nell'oscurità non finisce mai!"
+ dungeon_ongoing.0008.a:0 "È passato così tanto tempo!"
+
+ dungeon_ongoing.0009.t:0 "Il Conforto di un Amico"
+ dungeon_ongoing.0009.desc:0 "Non so come avrei fatto a sopravvivere quaggiù senza il conforto che mi fornisce il mio caro [ROOT.Char.Custom('prison_pet')].\n\nOgni volta che mi sento triste è lì a confortarmi, ogni volta che ho voglia di rinunciare mi spinge a continuare. Non ho mai incontrato un altro [ROOT.Char.Custom('prison_pet')] cosi!!"
+ dungeon_ongoing.0009.a:0 "Sei un adorabile piccolo [ROOT.Char.Custom('prison_pet')], vero?"
+
+ dungeon_ongoing.0010.t:0 "La Mia Ancora di Salvezza"
+ dungeon_ongoing.0010.desc:0 "Forse la mia fine non è ancora decisa. Potrei scrivere a [letter_recipient.Custom2('MyCharacterIntroduction', ROOT.Char)], implorandol[letter_recipient.Custom('DE_END_PRO_S_N')] di salvarmi dal finire in una bara. Ma come riuscirò a inviare una lettera a [letter_recipient.GetCurrentLocation.GetNameNoTooltip] senza che qualcuno mi scopra?"
+ dungeon_ongoing.0010.a:0 "Saranno le stesse guardie ad aiutarmi."
+ dungeon_ongoing.0010.a.tt:0 "Devo convincere le guardie [imprisoner.Custom('IT_NAM_COL2')][imprisoner.GetShortUINameNoTooltip] a consegnare la mia lettera."
+ dungeon_ongoing.0010.a.success.t:0 "La mia lettera è stata inviata"
+ dungeon_ongoing.0010.a.success.desc:0 "[letter_recipient.Custom('IT_NAM_COL3')|U][letter_recipient.GetTitledFirstNameNoTooltip] può trattare il mio rilascio dalla prigione"
+ dungeon_ongoing.0010.a.failure.t:0 "Le guardie non si sono lasciate corrompere"
+ dungeon_ongoing.0010.b:0 "È così facile nascondere una lettera..."
+ dungeon_ongoing.0010.b.tt:0 "Devo riuscire a far passare la mia lettera in barba alle guardie [imprisoner.Custom('IT_NAM_COL2')][imprisoner.GetShortUINamePossessiveNoTooltip]."
+ dungeon_ongoing.0010.b.failure.t:0 "Le guardie trovano e si impadroniscono della mia lettera"
+ dungeon_ongoing.0010.c:0 "No, devo rimanere caut[ROOT.Char.Custom('DE_END_PRO_S_N')]."
+
+ dungeon_ongoing.0011.t:0 "[prisoner.Custom2('RelationToMeShort', ROOT.Char)|U] Imprigionat[prisoner.Custom('DE_END_PRO_S_N')]"
+ dungeon_ongoing.0011.desc:0 "Ho ricevuto una lettera da un mittente inaspettato, [prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)]. Nella missiva, [prisoner.GetSheHe] racconta, nei minimi dettagli, la sua prigionia nelle segrete [imprisoner.Custom('IT_NAM_COL2')][imprisoner.GetTitledFirstName] e m'implora di farl[prisoner.Custom('DE_END_PRO_S_N')] liberare al più presto. Teme fortemente per la propria vita."
+ dungeon_ongoing.0011.a:0 "[prisoner.GetSheHe|U] non può rimanere un minuto di più in quel luogo!"
+ dungeon_ongoing.0011.a.tt:0 "Supplicherò [imprisoner.Custom('IT_NAM_COL3')][imprisoner.GetTitledFirstNameNoTooltip] di liberare [prisoner.Custom('IT_NAM_COL3')][prisoner.GetTitledFirstNameNoTooltip]"
+ dungeon_ongoing.0011.a.success.t:0 "[imprisoner.Custom('IT_NAM_COL3')|U][imprisoner.GetTitledFirstNameNoTooltip] esaudisce la mia richiesta"
+ dungeon_ongoing.0011.a.failure.t:0 "[imprisoner.Custom('IT_NAM_COL3')|U][imprisoner.GetTitledFirstNameNoTooltip] non rilascia [prisoner.Custom('IT_NAM_COL3')][prisoner.GetTitledFirstNameNoTooltip]"
+ dungeon_ongoing.0011.a_not_ai:0 "[imprisoner.Custom('IT_NAM_COL3')|U][imprisoner.GetTitledFirstNameNoTooltip] valuterà se rilasciare o meno [prisoner.Custom('IT_NAM_COL3')][prisoner.GetTitledFirstNameNoTooltip]"
+ dungeon_ongoing.0011.b:0 "Bah, [prisoner.GetFirstNameNoTooltip] sta certamente esagerando."
+
+ dungeon_ongoing.0012.t:0 "Lettere Bruciate"
+ dungeon_ongoing.0012.desc:0 "Passano i giorni senza alcuna risposta da parte di [letter_recipient.Custom2('MyCharacterIntroduction', ROOT.Char)]. Che cosa sta succedendo? Perché non ha ancora risposto? Se solo fossi liber[ROOT.Char.Custom('DE_END_PRO_S_N')] da questa gabbia di pietra!"
+ dungeon_ongoing.0012.a:0 "Forse la lettera è andata persa?"
+ dungeon_ongoing.0012.b:0 "Ho sempre saputo che [letter_recipient.Custom('IT_NAM_COL3')][letter_recipient.GetTitledFirstNameNoTooltip] è un[letter_recipient.Custom('DE_PRO_POS_P_2P')] [letter_recipient.Custom('InsultNoun').]"
+
+ dungeon_ongoing.0013.t:0 "Per la Casata?"
+ dungeon_ongoing.0013.desc_intro:0 "Sebbene abbia ottime ragioni per mantenere [prisoner.Custom('DE_ART_DEF_P_A')] [prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] in prigione, è chiaro che [letter_recipient.Custom('IT_NAM_COL3')][letter_recipient.GetTitledFirstName] non sia dello stesso avviso.\n\n"
+ dungeon_ongoing.0013.desc_reasoning_compassionate:0 ""La prigionia di un[prisoner.Custom('DE_ART_DEF_P_A')] [prisoner.GetWomanMan] della vostra stessa [ROOT.Char.GetHouse.GetBaseName] vi lascia dunque indifferente?" chiede [letter_recipient.GetSheHe]. "Perdonate le sue trasgressioni e pensate al bene della Casata, vi imploro.""
+ dungeon_ongoing.0013.desc_reasoning_other:0 ""Rinchiudere uno dei nostri all'interno delle nostre mura ci rende solo più vulnerabili alle minacce esterne," protesta [letter_recipient.GetSheHe]. "Liberate, dunque, [prisoner.Custom('IT_NAM_COL3')][prisoner.GetTitledFirstNameNoTooltip], per il bene del [realm_title.GetNameNoTier]?""
+ dungeon_ongoing.0013.a:0 "[prisoner.Custom('IT_NAM_COL3')|U][prisoner.GetTitledFirstNameNoTooltip] verrà liberat[prisoner.Custom('DE_END_PRO_S_N')] oggi stesso."
+ dungeon_ongoing.0013.b:0 "[prisoner.GetSheHe|U] è un[prisoner.Custom('DE_PRO_POS_P_2P')] mi[prisoner.Custom('DE_END_PRO_S_N')] legittim[prisoner.Custom('DE_END_PRO_S_N')] prigionier[prisoner.Custom('DE_END_PRO_S_N')], al diavolo la famiglia."
+
+ dungeon_ongoing.0014.t:0 "Echi Solitari"
+ dungeon_ongoing.0014.desc:0 "Ho sentito le guardie sussurrare. [letter_recipient.Custom('DE_ART_DEF_P_D')] [letter_recipient.Custom2('MyCharacterIntroduction', ROOT.Char)] ha evidentemente ricevuto le mie lettere e provato a intercedere a mio favore presso [imprisoner.Custom('IT_NAM_COL3')][imprisoner.GetTitledFirstName]. Purtroppo, quel[imprisoner.Custom('DE_END_ADJ_NUL_S_N')] [imprisoner.Custom('InsultNoun')] ha un cuore di pietra e ha respinto le richieste [letter_recipient.Custom('IT_NAM_COL2')][letter_recipient.GetTitledFirstNameNoTooltip]. E io mi ritrovo ancora dentro questa cella."
+ dungeon_ongoing.0014.a:0 "Quanto meno, [Select_CString(letter_recipient.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', letter_recipient )], [letter_recipient.Custom('IT_NAM_COL3')][letter_recipient.GetTitledFirstNameNoTooltip], è stat[letter_recipient.Custom('DE_END_PRO_S_N')] buon[letter_recipient.Custom('DE_END_PRO_S_N')] con me."
+ dungeon_ongoing.0014.b:0 "Non c'è nessuno che possa aiutarmi?" 
+
+ dungeon_ongoing.9001.t:0 "Dentro"
+ dungeon_ongoing.9001.desc:0 ""Non ricordo l'ultima volta che ho visto il sole. Non ricordo l'ultima volta che ho mangiato cibo solido, o qualsiasi altra cosa solida.\n\nÈ come se l'umidità dell'aria si fosse fissata nei miei polmoni. Se un dente mi fa male, lo estraggo semplicemente dalle mie gengive in decomposizione."
+ dungeon_ongoing.9001.a:0 "è cosi difficile muoversi."
+
+ dungeon_ongoing.9002.t:0 "Vuoto"
+ dungeon_ongoing.9002.desc:0 "La tosse non finisce mai. Sono passati giorni, e non ho dormito un'ora senza svegliarmi con l'inferno nella gola.\n\nLeccare l'acqua che gocciola dal muro non serve più a nulla."
+ dungeon_ongoing.9002.a:0 "Voglio solo che finisca."
+
+ dungeon_ongoing.9003.t:0 "Ricordo"
+ dungeon_ongoing.9003.desc:0 "Mi lascerete mai uscire da qui? Sarò semplicemente rinchiuso, abbandonato e dimenticato? Qualcuno, a parte il carceriere, sa che sono qui?\n\nC'è ancora qualcuno che conosce il mio nome? Chi sa chi ero?"
+ dungeon_ongoing.9003.a:0 "Riesco a malapena a ricordare i loro volti..."
+
+ dungeon_ongoing.9004.t:0 "Abbandono"
+ dungeon_ongoing.9004.desc:0 "Morirò qui. Lo so per certo. Non sentirò mai più il sole sul mio viso, né sentirò più risate che non si tingono di un filo di disperazione."
+ dungeon_ongoing.9004.a:0 "Questo è tutto il mio mondo."
+
+ dungeon_ongoing.9005.t:0 "Perdita insondabile"
+ dungeon_ongoing.9005.desc:0 "Il mio fedele compagno, il mio amico più caro, la mia ancora di salvezza in questo luogo tetro...\n\nMentre cullo il mio morente [ROOT.Char.Custom('prison_pet')] nelle mie braccia, vengo sopraffatto dalla disperazione della situazione in cui mi trovo. Se persino una creatura così bura deve morire in questo posto, che possibilità ho io?"
+ dungeon_ongoing.9005.a:0 "Non puoi lasciarmi qui da sol[ROOT.Char.Custom('DE_END_PRO_S_N')]!"

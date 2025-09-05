@@ -1,0 +1,432 @@
+﻿l_spanish:
+
+ # The Diplomatic craft — Mediating between disagreeing subjects, by Mathilda Bjarnehed 
+ stewardship_duty.0001.t:0 "Esercizio di Mediazione"
+ stewardship_duty.0001.start.desc:0 "Quando le loro urla mi raggiungono ancora una volta, placo il mio istinto di andarmene. Il costante battibecco tra il"
+ stewardship_duty.0001.vassals.desc:0 "mio vassallo [arguer_1.GetTitledFirstName] e [arguer_2.GetTitledFirstName]"
+ stewardship_duty.0001.vassalandcourtier.desc:0 "mio vassallo [arguer_1.GetTitledFirstName] e [arguer_2.Custom('REL_TO_ME')][arguer_2.Custom2('MyCharacterIntroduction', ROOT.Char)]"
+ stewardship_duty.0001.end.desc:0 "è sufficiente a far impazzire chiunque — bisogna fare qualcosa!\n\nPotrei trattare questa situazione come un esercizio di mediazione, oppure, origliare e in seguito avvicinarmi ad uno di loro mostrandomi comprensivo..."
+ stewardship_duty.0001.a:0 "Prova a farli ragionare."
+ stewardship_duty.0001.b:0 ""Ugh, [arguer_2.GetFirstNameNoTooltip] è proprio un [arguer_2.Custom('InsultNoun')]!""
+ stewardship_duty.0001.c:0 ""Riesci a credere a [arguer_1.GetFirstNameNoTooltip]? Certo che ha una bella faccia tosta!""
+ stewardship_duty.0001.a.success.tt:0 "La mia mediazione ha successo"
+ stewardship_duty.0001.a.failure.tt:0 "Dò l'impressione di essere un indelicato ficcanaso"
+ stewardship_duty_0001_mediation_success.tt:0 "[arguer_1.GetShortUIName|U] e [arguer_2.GetShortUIName] ottengono [opinion|e] l'un[arguer_1.Custom('DE_END_PRO_S_N')] dell'altr[arguer_2.Custom('DE_END_PRO_S_N')]"
+
+ # Conflict at the Council, by Mathilda Bjarnehed
+ stewardship_duty.0017.t:0 "La Voce della Ragione"
+ stewardship_duty.0017.start.desc:0 "Un'altra riunione del consiglio di corte, un altro conflitto. I miei consiglieri, [councillor_1.GetCouncilTitle] [councillor_1.GetFirstName] e [councillor_2.GetCouncilTitle] [councillor_2.GetFirstName], stanno litigando violentemente circa"
+ stewardship_duty.0017.war.desc:0 "la guerra in corso."
+ stewardship_duty.0017.election.desc:0 "l'elezione del mio successore."
+ stewardship_duty.0017.building_projects.desc:0 "i prossimi progetti di costruzione."
+ stewardship_duty.0017.troop_training.desc:0 "il regime di addestramento delle truppe."
+ stewardship_duty.0017.charity_projects.desc:0 "il mio prossimo progetto di beneficenza."
+ stewardship_duty.0017.religious_minorities.desc:0 "la questione delle minoranze religiose."
+ stewardship_duty.0017.health_issues.desc:0 "la diffusione del contagio."
+ stewardship_duty.0017.end.desc:0 "\n\nIn quanto [ROOT.GetCharacter.GetTitleAsNameNoTooltip], potrei zittirli con una sola parola, ma ho un'idea migliore. Le mie attività diplomatiche mi hanno fatt[ROOT.Char.Custom('DE_END_PRO_S_N')] acquisire metodi per gestire situazioni come queste e accontentare tutti."
+ stewardship_duty.0017.a:0 "Schierati con [councillor_1.GetFirstNameNoTooltip] senza deludere [councillor_2.GetFirstNameNoTooltip]."
+ stewardship_duty.0017.b:0 "Schierati con [councillor_2.GetFirstNamePossessiveNoTooltip] senza deludere [councillor_1.GetFirstNameNoTooltip]."
+ stewardship_duty.0017.c:0 "Trova un compromesso che renda tutti felici."
+ stewardship_duty.0017.c.criticial_success.tt:0 "Trovo un ottimo compromesso"
+ stewardship_duty.0017.c.criticial_success.desc:0 "Ho trovato un ottimo compromesso, accontentando sia [councillor_1.GetFirstName] che [councillor_2.GetFirstName]."
+ stewardship_duty.0017.c.success.tt:0 "Trovo un buon compromesso"
+ stewardship_duty.0017.c.success.desc:0 "Ho trovato un buon compromesso, placando sia [councillor_1.GetFirstName] che [councillor_2.GetFirstName]."
+ stewardship_duty.0017.c.failure.tt:0 "Non riesco a trovare un compromesso"
+ stewardship_duty.0017.c.failure.desc:0 "Nonostante i miei sforzi non riesco a trovare un compromesso, deludendo sia [councillor_1.GetFirstName] che [councillor_2.GetFirstName]."
+
+ # Unwanted Pregnancy, by Sean Hughes
+ stewardship_duty.1055.t:0 "Una Gravidanza Indesiderata"
+ stewardship_duty.1055.desc:0 "Una scena drammatica si sta svolgendo nella mia sala delle udienze poiché [new_mothers_parent.Custom('REL_TO_ME')][new_mothers_parent.Custom2('MyCharacterIntroduction', ROOT.Char)] accusa [new_father.Custom('REL_TO_ME')][new_father.Custom2('MyCharacterIntroduction', ROOT.Char)] di aver messo incinta sua [new_mothers_parent.Custom2('RelationToMeShort', new_mother)][new_mother.Custom('Governance_1055_OutOfWedlock')].\n\n[new_fathers_parent.Custom('DE_ART_DEF_P_D')] [new_fathers_parent.GetTitledFirstName] afferma con indignazione che non ci sono prove della colpevolezza di suo figlio. "E anche se fosse stato lui, sarebbe comunque più colpevole l'atteggiamento dissoluto di [new_mother.GetFirstName]!"\n\nLa discussione si sta scaldando e devo fare qualcosa prima che le cose sfuggano di mano. "
+ stewardship_duty.1055.a:0 "Avrai la giustizia che desideri, [new_mothers_parent.GetFirstNameNoTooltip]."
+ stewardship_duty.1055.b:0 "[new_father.GetFirstNameNoTooltip] può essere incolpato, pertanto non deve niente a [new_mothers_parent.GetFirstNameNoTooltip]!"
+ stewardship_duty.1055.e:0 "Perché voi due mi state infastidendo con questo insignificante battibecco!?"
+
+ # Wealth Aplenty, by Sean Hughes
+ stewardship_duty.1062.t:0 "Ricchezza in Abbondanza"
+ stewardship_duty.1062.desc:0 "La mia tesoreria trabocca d'oro e d'argento e tutte le spese sono coperte. Visto che sono un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] ricc[ROOT.Char.Custom('DE_END_PRO_S_N')] signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] [SelectLocalization(IsLandlessAdventurer(ROOT.Char),'io potrei offrire','ci si aspetta che io offra')] il patrocinio a qualche tipo di artista o studioso.\n\nPer fortuna, tre potenziali candidati sono appena arrivati a [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]... ma c'è qualcuno di loro che mi impressiona?"
+ stewardship_duty.1062.a:0 "[client_1.GetTitledFirstNameNoTooltip] è noto per la coltivazione di splendidi giardini."
+ stewardship_duty.1062.b:0 " La poesia religiosa di [client_2.GetTitledFirstNameNoTooltip] ha commosso molte anime."
+ stewardship_duty.1062.c:0 "Le scoperte fatte da [client_3.GetTitledFirstNameNoTooltip] sembrano promettenti."
+ stewardship_duty.1062.d:0 "No, ho altri piani per quei soldi..."
+ stewardship_duty.1062.e:0 "Aspettative? Bah! Andrò a crogiolarmi nel mio glorioso tesoro!"
+
+ stewardship_duty.1063.t:0 "Rinnovo del Patrocinio"
+ stewardship_duty.1063.desc:0 "Dopo 5 anni i fondi che ho messo da parte per il patrocinio del mio [client.Custom('Governance_1062_Client')] [client.GetTitledFirstName] sono esauriti. Ora posso scegliere se rinnovare o meno il mio patrocinio per altri 5 anni o lasciarl[client.Custom('DE_END_PRO_S_N')] andare."
+ stewardship_duty.1063.a:0 "Estendi il mio patrocinio per un altro po' di tempo."
+ stewardship_duty.1063.b:0 "[client.GetSheHe|U] ha fatto un buon lavoro, ricompensiamol[client.Custom('DE_END_PRO_S_N')] con un premio!"
+ stewardship_duty.1063.c:0 "I suoi servizi non sono più richiesti."
+
+ stewardship_duty.1064.desc:0 "Il mio [client.Custom('Governance_1062_Client_U')] ha lasciato la corte"
+ stewardship_duty.1065.desc:0 "Il mio [client.Custom('Governance_1062_Client_U')|U] è morto"
+ stewardship_duty.1065.guilty.desc:0 "Ho ucciso il mio [client.Custom('Governance_1062_Client_U')]"
+ stewardship_duty.1066.desc:0 "Ho imprigionato il mio [client.Custom('Governance_1062_Client_U')]"
+
+ stewardship_duty.1068.desc.a:0 "Un Vassallo è Colpito dai Miei Giardini"
+ stewardship_duty.1068.desc.b:0 "I [ROOT.Char.GetFaith.AltPriestTermPlural|U] sono impressionati dal mio [client.Custom('Governance_1062_Client_U')]"
+ stewardship_duty.1068.desc.c:0 "Il Mio [client.Custom('Governance_1062_Client_U')] ha Fatto una Nuova Scoperta"
+
+ # Serf Refugees, by Sean Hughes
+ stewardship_duty.1071.t:0 "Servi Profughi"
+ stewardship_duty.1071.desc:0 "Un grande flusso di servi è arrivato [target_county.Custom('IT_COU_COL2')][target_county.GetName] [target_county.Custom('IT_COU_COL5')][origin_county.GetName] con cui confina. Affermano di essere in fuga dal violento governo di [origin_county_owner.Custom('REL_TO_ME')][origin_county_owner.Custom2('MyCharacterIntroduction', ROOT.Char)], e che desiderano vivere nel mio dominio invece che nel suo.\n\nLegalmente parlando sono ancora servi di [origin_county_owner.GetFirstName], ma se li lasciassi insediare nelle mie terre sarebbe quasi impossibile per [origin_county_owner.GetHerHim] dimostrare che in realtà sono i suoi servi."
+ stewardship_duty.1071.a:0 "Restituisci educatamente i servi a [origin_county_owner.GetFirstNameNoTooltip]."
+ stewardship_duty.1071.b:0 "Restituisci i servi, ma rimprovera severamente [origin_county_owner.GetFirstNameNoTooltip]."
+ stewardship_duty.1071.c:0 "Mostra ai #EMP miei#! servi le loro nuove fattorie..."
+ stewardship_duty.1071.c.compassionate:0 "Darò loro rifugio da [origin_county_owner.GetFirstNameNoTooltip]..."
+ stewardship_duty.1071.c.flavor:0 "...e spero che [origin_county_owner.GetFirstName] non venga a sapere del mio coinvolgimento in tutto questo!"
+
+ stewardship_duty.1072.opening:0 "[origin_county_owner.Custom2('AppropriateGreeting', ROOT.Char)]"
+ stewardship_duty.1072.desc.rival:0 "So che mi hai rubato i miei servi. Potrei non avere alcun modo per recuperarli, ma non credo che dimenticherò questa offesa. Ti sei guadagnato la mia inimicizia, spero ne sia valsa la pena."
+ stewardship_duty.1072.desc.relationship:0 "Perché mi hai rubato i servi!? Sono scioccato e profondamente ferito dal fatto che tu mi abbia tradito quindi... non so se potrò mai vederti allo stesso modo dopo questo."
+ stewardship_duty.1072.desc.vassal:0 "So che hai reinsediato i miei servi nelle tue terre. Perché fare questo al tuo vassallo? Non sono stato rispettoso nel pagarti le tasse che ti sono dovute?\n\nSenza servi che lavorino i miei campi, non posso coltivare alcun raccolto. È come se avvessi rubato la terra stessa! Questa è un'offesa che non dimenticherò presto."
+ stewardship_duty.1072.desc.subvassal:0 "So che hai reinsediato i miei servi nelle tue terre. Un simile atto sovverte il tessuto stesso della nostra società!\n\nAnche se ora non posso farci niente, stai tranquillo [origin_county_owner_liege.GetTitledFirstName] saprà perché quest'anno ho meno tasse per [origin_county_owner_liege.GetHerHim]."
+ stewardship_duty.1072.a:0 "Quelli erano i tuoi servi? Le mie scuse, li restituirò."
+ stewardship_duty.1072.b:0 "Lamentati quanto vuoi, non cambia niente."
+ stewardship_duty.1072.b.compassionate:0 "È colpa tua. Non avresti dovuto abusarne."
+
+ # Vassal Factionalism — Persuade a vassal to leave a faction for 10 years, by Sean Hughes
+ stewardship_duty.4010.t:0 "Faziosità del Vassallo"
+ stewardship_duty.4010.desc.start:0 "[faction_member.GetTitledFirstName] ha usato la sua influenza per favorire la crescita della"
+ stewardship_duty.4010.desc.independence:1 "[targeting_faction.GetName]. Stanno cercando di liberarsi dal mio governo, sostenendo che non sono il loro legittimo signore."
+ stewardship_duty.4010.desc.liberty:0 "[targeting_faction.GetName]. Stanno cercando di abolire diverse leggi nel [ROOT.Char.GetPrimaryTitle.GetName] che credono interferiscano con i diritti tradizionali di [faction_member.Custom('StatecraftGetVassalType')]."
+ stewardship_duty.4010.desc.claimant:2 "[targeting_faction.GetName]. Loro credono che il loro fantoccio sarebbe in definitiva un sovrano migliore di me."
+ stewardship_duty.4010.desc.peasant:0 "[targeting_faction.GetName]. Sono stanchi di essere assoggettati ad uno che considerano un [Root.Char.Custom2('GetUnbelieverAndForeignerTerm', faction_member)] e desiderano invece avere un sovrano come [faction_leader.GetTitledFirstName], che condivide la loro cultura e fede."
+
+ stewardship_duty.4010.desc.end:0 "\n\nNon dubito delle convinzioni di [faction_member.GetFirstNameNoTooltip], è solo uman[faction_member.Custom('DE_END_PRO_S_N')]. Se riuscissi a convincer[faction_member.Custom('DE_PRO_POS_P_3P')] a frenare queste attività, mi sarebbe più facile consolidare il potere che ho sui miei vassalli."
+ stewardship_duty.4010.bribe:0 "Un dono generoso [faction_member.Custom('DE_PRO_DEM')] farà cambaire idea."
+ stewardship_duty.4010.bribe.flavor:0 "I personaggi egoisti saranno più inclini ad accettare una tangente."
+ stewardship_duty.4010.favor:0 "Se [faction_member.GetSheHe] mi aiuta ora, [faction_member.Custom('DE_PRO_DEM')] restituirò il favore."
+ stewardship_duty.4010.favor.flavor:0 "I personaggi egoisti o compassionevoli ([faction_member.GetWomenMen]) saranno più inclini ad accettare questa offerta."
+ stewardship_duty.4010.prestige:0 "L'adulazione vecchio stile è utile per ispirare lealtà."
+ stewardship_duty.4010.prestige.flavor:0 "I personaggi arroganti o onesti hanno maggiori probabilità di essere influenzati dall'adulazione."
+ stewardship_duty.4010.piety:0 "Devo rammentar[faction_member.Custom('DE_PRO_DEM')] che i miei interessi sono gli interessi di [faction_member.GetFaith.HighGodName]."
+ stewardship_duty.4010.piety.flavor:0 "I personaggi zelanti sono più propensi ad agire secondo la loro fede."
+ stewardship_duty.4010.attempt.tt:0 "La decisione di [faction_member.GetTitledFirstNameNoTooltip] sarà basata sulla sua personalità"
+ stewardship_duty.4010.success:0 "[faction_member.GetTitledFirstNameNoTooltip] accetta la mia offerta"
+ stewardship_duty.4010.failure:0 "[faction_member.GetTitledFirstNameNoTooltip] rifiuta la mia offerta"
+ stewardship_duty.4010.decline:0 "[faction_member.GetTitledFirstNameNoTooltip] sta solo esercitando i suoi diritti."
+ stewardship_duty.4010.decline.tt:0 "Tutti [faction_member.Custom('DE_PRO_DEM')] [faction_member.GetWomenMen] apprezzano che [faction_member.Custom('DE_PRO_DEM')] sia permesso di fare come vogliono."
+
+ stewardship_duty.4011-4.desc.start:0 "[my:liege.Custom('DE_ART_DEF_P_D')] [my_liege.GetTitledFirstName] mi ha avvicinat[ROOT.Char.Custom('DE_END_PRO_S_N')], sostenendo che la mia associazione con la [targeting_faction.GetName] [my_liege.Custom('DE_PRO_DEM')] ha causato eccessive difficoltà, e perciò deve finire."
+
+ stewardship_duty.4011-4.b:0 "Non mi lascerò sviare dal mio percorso!"
+ stewardship_duty.4011-4.b.tt:0 "Rimango nella [targeting_faction.GetName]"
+ 
+ stewardship_duty.4011.t:0 "Un Appello all'Avidità"
+ stewardship_duty.4011.desc:0 "\n\nA questo scopo [my_liege.GetSheHe] mi ha offerto una borsa piena d'oro come incentivo a lasciare la fazione e a spostare la mia attenzione su altre questioni."
+ stewardship_duty.4011.a:0 "Una trattativa equa."
+
+ stewardship_duty.4012.t:0 "Un Appello all'Ambizione"
+ stewardship_duty.4012.desc:0 "\n\n[my_liege.GetSheHe|U] mi supplica di vedere le cose dal suo punto di vista e mi offre un favore in cambio della fine del mio sostegno alla fazione."
+ stewardship_duty.4012.a:0 "Ti gratterò la schiena se tu gratterai la mia!"
+
+ stewardship_duty.4013.t:0 "Un Appello all'Orgoglio"
+ stewardship_duty.4013.desc:0 "\n\nA questo scopo [my_liege.GetSheHe] si offre di lodarmi pubblicamente per il mio lavoro in altri ambiti, rafforzando la mia reputazione in [my_liege.GetPrimaryTitle.GetName]."
+ stewardship_duty.4013.a:0 "Fin tanto che [my_liege.GetSheHe] esaltarà il/la mio/a [faction_member.Custom('quirk_pos_noun')], sarò felice."
+
+ stewardship_duty.4014.t:0 "Un Appello alla Pietà"
+ stewardship_duty.4014.desc:0 "\n\n[my_liege.GetSheHe|U] allora mi ricorda che siede sul trono per volontà di [faction_member.GetFaith.HighGodName], ed opporsi a [my_liege.GetHerHim] è opporsi a [faction_member.GetFaith.HighGodName]."
+ stewardship_duty.4014.a:0 "Servo [faction_member.GetFaith.HighGodName] servendo [my_liege.Custom('DE_ART_DEF_P_A')] [my_liege.GetTitledFirstNameNoTooltip]."
+
+ stewardship_duty.4015.t:0 "Il Vassallo Rinuncia alla Fazione"
+ stewardship_duty.4015.desc:0 "Rendendo molto chiaro ciò che [faction_member.GetSheHe] ha da guadagnare rimanendomi leale, sono riuscito a convincere [faction_member.GetTitledFirstName] a ritirare il suo sostegno alla [targeting_faction.GetName].\n\nLe sue rimostranze erano semplicemente troppo insignificanti rispetto a quello che avevo da offrire!"
+ stewardship_duty.4015.a:0 "Sapevo che avrei potuto farl[faction_member.Custom('DE_END_PRO_S_N')] ragionare!"
+
+ stewardship_duty.4019.t:0 "Il Vassallo rimane Fedele alla Fazione"
+ stewardship_duty.4019.desc:0 "Nonostante tutti i miei sforzi per convincer[faction_member.Custom('DE_PRO_POS_P_3P')], [faction_member.Custom('DE_ART_DEF_P_A')] [faction_member.GetTitledFirstName] ha rifiutato di abbandonare la [targeting_faction.GetName] e continua a difendere i propri interessi al di sopra dei miei."
+ stewardship_duty.4019.a:0 "Perché non vede i vantaggi di schierarsi con me?"
+
+ stewardship_duty.4020.t:0 "Offerta Non Valida"
+ stewardship_duty.4020.desc:0 "[faction_member.Custom('DE_ART_DEF_P_A')] [faction_member.GetTitledFirstName] non è più in una fazione."
+ stewardship_duty.4020.desc.switch:0 "[faction_member.Custom('DE_ART_DEF_P_A')] [faction_member.GetTitledFirstName] ha cambiato fazione."
+
+ # Altering the Deal -  Persuade a vassal to accept a contract change, by Sean Hughes
+ stewardship_duty.4040.t:0 "Cambiare l'Accordo"
+ stewardship_duty.4040.desc:0 "([my_vassal.Custom('DE_ART_DEF_P_D')]) mi[my_vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', my_vassal)] [my_vassal.GetTitledFirstName] ha un contratto con me che è abbastanza permissivo, e l[my_vassal.Custom('DE_END_PRO_S_N')] esenta da molti degli obblighi che normalmente mi aspetterei da uno dei miei vassalli.\n\nSe potessi convincerl[my_vassal.Custom('DE_END_PRO_S_N')] ad acconsentire ad aumentare le sue tasse, il regno ne trarrebbe grandi benefici a lungo termine..."
+ stewardship_duty.4040.a:0 "Un incentivo sufficiente comprerà il suo consenso."
+ stewardship_duty.4040.b:0 "Scommetto che posso convincerlo ad accettare i cambiamenti."
+ stewardship_duty.4040.b.success:0 "[my_vassal.GetFirstNameNoTooltip] è persuas[my_vassal.Custom('DE_END_PRO_S_N')] ad accettare una modifica del contratto"
+ stewardship_duty.4040.b.failure:0 "[my_vassal.GetFirstNameNoTooltip] rimane riluttante ad accettare una modifica del contratto"
+ stewardship_duty.4040.c:0 "[my_vassal.GetSheHe|U] accetterà le mie modifiche, oppure...!"
+ stewardship_duty.4040.c.success:0 "[my_vassal.GetFirstNameNoTooltip] è costrett[my_vassal.Custom('DE_END_PRO_S_N')] ad accettare una modifica del contratto"
+ stewardship_duty.4040.c.failure:0 "[my_vassal.GetFirstNameNoTooltip] rifiuta di accettare una modifica del contratto"
+ stewardship_duty.4040.d:0 "La lealtà vale più dei tributi."
+ stewardship_duty.4040.d.tt:0 "#F [my_vassal.GetFirstNameNoTooltip] mantiene il suo attuale contratto con la mia benedizione:#!"
+
+ stewardship_duty.4040.contractchange:0 "Modifico il contratto di [my_vassal.GetTitledFirstName] a mio favore."
+
+ stewardship_duty.4041.desc:0 "Nel tentativo di convincere [my_vassal.Custom('DE_ART_DEF_P_A')] [my_vassal.GetTitledFirstName] ad accettare un contratto più restrittivo, mi sono seduto con [my_vassal.GetHerHim] e [my_vassal.Custom('DE_PRO_DEM')] ho spiegato tutti i motivi per cui dovevamo aggiornarlo. \n\n[my_vassal.GetSheHe|U] all'inizio era riluttante, ma dopo molte discussioni ha accettato il fatto che sarebbe stato ragionevole apportare una modifica al suo contratto."
+ stewardship_duty.4041.a:0 "So esattamente come convincerl[my_vassal.Custom('DE_END_PRO_S_N')]!"
+
+ stewardship_duty.4042.desc:0 "Fin dall'inizio della nostra conversazione posso dire di aver avuto difficoltà a convincere [my_vassal.Custom('DE_ART_DEF_P_A')] [my_vassal.GetTitledFirstName] a rinunciare ai privilegi a cui ha diritto in base al suo contratto.\n\nNonostante tutti i miei sforzi e le mie suppliche, [my_vassal.GetSheHe] è rimast[my_vassal.Custom('DE_END_PRO_S_N')] irremovibile, affermando che se non posso accontentarmi di ciò che attualmente mi dà, è colpa mia, non sua."
+ stewardship_duty.4042.a:0 "Avrò bisogno di provare con un approccio diverso..."
+
+ stewardship_duty.4043.desc:0 "Non era una trattativa, era una richiesta. Ho chiarito [my_vassal.Custom('DE_END_ADJ_DEF_P_A')] mi[my_vassal.Custom('DE_END_PRO_S_N')] [my_vassal.GetTitledFirstName] che [my_vassal.GetSheHe] continua a detenere i suoi titoli solo perché lo voglio, e che se desidera che le cose rimangano tali, dovrà fare delle concessioni.\n\n[my_vassal.GetSheHe|U] acconsentì frettolosamente, felice che me ne andassi senza ulteriori incidenti."
+ stewardship_duty.4043.a:0 "$stewardship_duty.4041.a$"
+
+ stewardship_duty.4044.desc:0 "[my_vassal.Custom('DE_ART_DEF_P_A')] [my_vassal.GetTitledFirstName] era titubante di fronte alla mia richiesta di stipula di un contratto più restrittivo.\n\nMi ha detto che anche se sono [ROOT.Char.Custom('DE_ART_DEF_P_A')] [ROOT.Char.GetTitleAsNameNoTooltip] e Sovrano di queste terre, il suo attuale contratto gli dà diritto a certi privilegi che non posso semplicemente togliere, almeno non legittimamente."
+ stewardship_duty.4044.a:0 "$stewardship_duty.4042.a$"
+
+ # Faction Organizing — Lower a faction's discontent during wartime, by Sean Hughes
+ stewardship_duty.4060.t:0 "Organizzazione della Fazione"
+ stewardship_duty.4060.desc.default:0 "Anche nel mezzo di una guerra, [faction_leader.Custom('DE_ART_DEF_P_A')] [faction_leader.GetTitledFirstName] e i suoi sostenitori [targeting_faction.GetName] sono disposti a usare qualsiasi mezzo per promuovere i loro programmi!"
+ stewardship_duty.4060.desc.self_claim:0 "Anche nel mezzo di una guerra, [faction_leader.Custom('DE_ART_DEF_P_A')] [faction_leader.GetTitledFirstName] è disposto ad usare qualsiasi mezzo per far valere la sua rivendicazione su [targeting_faction.GetSpecialTitle.GetName]!"
+ stewardship_duty.4060.desc.other_claim:0 "Anche nel mezzo di una guerra, [faction_leader.Custom('DE_ART_DEF_P_A')] [faction_leader.GetTitledFirstName] è disposto a usare qualsiasi mezzo per far valere la rivendicazione di [targeting_faction.GetSpecialCharacter.GetTitledFirstNamePossessive] su [targeting_faction.GetSpecialTitle.GetName]!"
+ stewardship_duty.4060.desc.end:0 "\n\nCon le mie truppe e le finanze dissanguate a causa della guerra, ho bisogno di esaminare attentamente le opzioni a mia disposizione per mitigare questa minaccia..."
+ stewardship_duty.4060.a:0 "#EMP Devo#! convincere il reame a restare unito."
+ stewardship_duty.4060.a.success:0 "Convinco la fazione a mostrare unità"
+ stewardship_duty.4060.a.success.every_faction_member:0 "Ogni Membro della [targeting_faction.GetName|V]"
+ stewardship_duty.4060.a.failure:0 "La fazione non è influenzata dalle mie parole"
+ stewardship_duty.4060.b:0 "Una bella somma lo convincerà a desistere..."
+ stewardship_duty.4060.c:0 "Non [faction_leader.Custom('DE_PRO_DEM')] deve essere permesso di agire secondo i suoi piani!"
+ stewardship_duty.4060.d:0 "Non posso preoccuparmi di questo adesso."
+ stewardship_duty.4060.attempt.tt:0 "[faction_leader.GetTitledFirstNameNoTooltip] prenderà una decisione basata sulla sua personalità"
+ stewardship_duty.4060.decline.tt:1 "Ignori la fazione per il momento"
+ stewardship_duty.4060.failure.tt:0 "[targeting_faction.GetName] non perde malcontento"
+
+ # A Vassal cheats their contract, by Linnéa Thimrén
+ stewardship_duty.5021.t:0 "Vassallo Infedele"
+ stewardship_duty.5021.desc:0 "Sto studiando attentamente i libri contabili che riportano le mie entrate dai vassalli. Questi numeri non tornano... Quell[cheater_vassal.Custom('DE_END_PRO_S_N')] sfrontat[cheater_vassal.Custom('DE_END_PRO_S_N')] di [cheater_vassal.GetTitledFirstName] mi ha preso per un[ROOT.Char.Custom('DE_END_PRO_S_N')] stolt[ROOT.Char.Custom('DE_END_PRO_S_N')] e ha pagato troppo poco!"
+ stewardship_duty.5021.a:0 "[cheater_vassal.GetTitleAsNameNoTooltip] deve pagare il suo debito."
+ stewardship_duty.5021.a.message_1:0 "[cheater_vassal.GetFirstNameNoTooltip] paga quello che mi deve"
+ stewardship_duty.5021.a.message_2:0 "Sospetto che [cheater_vassal.GetFirstNameNoTooltip] stia ancora tenendo per sé del denaro"
+ stewardship_duty.5021.b:0 "D'ora in poi l[cheater_vassal.Custom('DE_END_PRO_S_N')] terrò al guinzaglio corto!"
+ stewardship_duty.5021.c:0 "Chi non ha mai provato a riempirsi le tasche?"
+
+ # Resolve a war between two ai vassals, by Linnéa Thimrén
+ stewardship_duty.7001.t:0 "Vassalli in Guerra"
+ stewardship_duty.7001.desc:0 "I miei due vassalli [war_vassal.Custom('DE_ART_DEF_P_A')] [war_vassal.GetTitledFirstName] e [war_vassal.Custom('DE_ART_DEF_P_A')] [war_vassal_2.GetTitledFirstName] sono bloccati in battaglia l'uno contro l'altro. Questa '[war_scope.GetName]' rischia di destabilizzare il mio reame e devo agire rapidamente se voglio intervenire."
+ stewardship_duty.7001.a:0 "Convincili a mettere da parte la loro disputa."
+ stewardship_duty.7001.a.desc_1:0 "[war_vassal.Custom('DE_ART_DEF_P_A')] [war_vassal.GetFirstNameNoTooltip] comprende le ragioni della pace"
+ stewardship_duty.7001.a.desc_2:0 "[war_vassal.Custom('DE_ART_DEF_P_A')] [war_vassal.GetFirstNameNoTooltip] non ascolta le mie argomentazioni"
+ stewardship_duty.7001.b:0 "Devono vedersela tra loro - non interverrò."
+ stewardship_duty.7001.c:0 ""Porrai fine a questa assurdità. #EMP Adesso!#!""
+
+ stewardship_duty.7002.toast.peace:0 "[war_vassal.GetFirstName] e [war_vassal_2.GetFirstName] acconsentono ad una pace bianca"
+ stewardship_duty.7002.toast.invalid:0 "La [war_scope.GetName] è terminata prima che potessi intervenire"
+
+ # About that Favor, by Stephen Arthur and Sean Hughes
+ stewardship_duty.7023.t:0 "Riguardo quel Favore..."
+ stewardship_duty.7023.desc:0 "Mi pesa il fatto di dovere un grande favore [hook_holder.Custom('DE_END_ADJ_DEF_P_A')] [hook_holder.GetTitledFirstName].\n\nSarebbe un grande sollievo se potessi saldarlo ora, alle mie condizioni. Aspettare che mi chieda qualcosa potrebbe mettermi in una situazione difficile in un secondo momento."
+ stewardship_duty.7023.success:0 "Convinco [hook_holder.GetFirstNameNoTooltip] a rinunciare al favore che [hook_holder.Custom('DE_PRO_DEM')] devo."
+ stewardship_duty.7023.failure:0 "[hook_holder.GetFirstNameNoTooltip] insiste affinché ripaghi il favore che [hook_holder.Custom('DE_PRO_DEM')] devo."
+ stewardship_duty.7023.a:0 "Offril[hook_holder.Custom('DE_END_NOU_S_G')] molti soldi per sistemare le cose."
+ stewardship_duty.7023.a.success:0 "[hook_holder.Custom('DE_ART_DEF_P_D')] [hook_holder.GetTitledFirstNameNoTooltip] accetta il mio oro al posto del favore che [hook_holder.Custom('DE_PRO_DEM')] devo."
+ stewardship_duty.7023.b:0 "Convincil[hook_holder.Custom('DE_END_PRO_S_N')] a lasciarci il passato alle spalle."
+ stewardship_duty.7023.c:0 "[hook_holder.Custom('DE_ART_IND_A')] lascerà perdere la cosa, o ci saranno delle conseguenze!"
+ stewardship_duty.7023.d:0 "Un [ROOT.Char.GetHouse.GetBaseNameNoTooltip] paga sempre i suoi debiti!"
+ stewardship_duty.7023.d.tt:0 "Devo ancora un favore a [hook_holder.GetTitledFirstName]."
+ stewardship_duty.7023.player:0 "#weak Un altro giocatore ha sempre la possibilità di rifiutare, sebbene possa ricevere [stress|e] facendo così.#!"
+
+ stewardship_duty.7023.invalidated.hooked_ruler:0 "Dato che non devo più un favore [hook_holder.Custom('DE_END_ADJ_DEF_P_A')] [hook_holder.GetTitledFirstName], la mia richiesta di rinunciarvi non è più valida."
+ stewardship_duty.7023.invalidated.hook_holder:0 "Dato che [hook_holder.Custom('DE_ART_DEF_P_A')] [hooked_ruler.GetTitledFirstName] non mi deve più un favore, la sua richiesta di rinuncia non è più valida."
+
+ stewardship_duty.7025.opening:0 "[hooked_ruler.Custom2('AppropriateGreeting', ROOT.Char)]"
+ stewardship_duty.7025.desc.gold:0 "L'altra volta mi hai reso un ottimo servizio e te ne sono grat[ROOT.Char.Custom('DE_END_PRO_S_')]. Per ricambiare il favore, vorrei offrirti una parte della mia tesoreria.\n\nTrovi accettabile un'offerta del genere?"
+ stewardship_duty.7025.desc.diplomacy.success:0 "Ti scrivo per discutere di quel favore che ti dovevo. La maggior parte delle persone ragionevoli concorderà sul fatto che le mie azioni passate mi abbiano assolt[ROOT.Char.Custom('DE_END_PRO_S_')].\n\nDetto ciò, sento di non doverti più alcun favore."
+ stewardship_duty.7025.desc.diplomacy.failure:0 "Ti devo un favore, è vero, ma preferirei di no. Voglio dire, chi è che vuol essere in debito di un favore?\n\nE se invece ti dimenticassi di questo favore? Mi piacerebbe come cosa. Sarebbe grandioso."
+ statectaft_ongoing.7025.desc.intimidation.success:0 "Potresti avermi reso un servizio una volta, ma non credo di doverti nulla in cambio. Poter restare nelle mie grazie è un pagamento sufficiente. Credimi, non vuoi che io faccia parte dei nemici..."
+ stewardship_duty.7025.desc.intimidation.failure:0 "Sembra che tu abbia l'illusione che io ti debba un favore. Non devo niente a un [hook_holder.Custom('InsultAdjective')] [hook_holder.Custom('InsultNoun')] come te! Dimentica tutto, o ci saranno conseguenze."
+ stewardship_duty.7025.gold.a:0 "Prenderò l'oro."
+ stewardship_duty.7025.gold.b:0 "I favori valgono più delle monete."
+ stewardship_duty.7025.diplomacy.a:0 "Un argomento convincente."
+ stewardship_duty.7025.diplomacy.b:0 "È seri[hooked_ruler.Custom('DE_END_PRO_S_N')]?! Neanche per sogno!"
+ stewardship_duty.7025.intimidation.a:0 "Non voglio farl[hooked_ruler.Custom('DE_END_PRO_S_N')] arrabbiare..."
+ stewardship_duty.7025.intimidation.b:0 "Delle vuote minaccie non l[hooked_ruler.Custom('DE_END_PRO_S_N')] porteranno da nessuna parte!"
+ stewardship_duty.7025.refuse.tt:0 "[hooked_ruler.Custom('DE_ART_DEF_P_D')] [hooked_ruler.GetTitledFirstName] mi deve ancora un favore"
+ stewardship_duty.7025.stress.tt:0 "Sono incline a rinunciare al favore, quindi rifiutare sarebbe stressante"
+
+ stewardship_duty.7027.opening:0 "[hook_holder.Custom2('AppropriateGreeting', ROOT.Char)]"
+ stewardship_duty.7027.desc.accepted.gold:0 "Grazie per il tuo regalo. Considera il tuo debito saldato per intero."
+ stewardship_duty.7027.desc.refused.gold:0 "Il tuo impegno vale più dell'oro. Sei ancora in debito con me."
+ stewardship_duty.7027.desc.accepted.diplomacy:0 "Ho capito che le tue parole sono sensate. Non pensare più a quel vecchio favore."
+ stewardship_duty.7027.desc.refused.diplomacy:0 "Le tue elaborate parole sono vuote come le tue apparenti promesse. Ti considero ancora in debito."
+ stewardship_duty.7027.desc.accepted.intimidation:0 "Ovviamente dimenticherò il tuo debito nei miei confronti. Questo non è stato mai in discussione! Mi rimetto alla tua indulgenza."
+ stewardship_duty.7027.desc.refused.intimidation:0 "Non mi spaventi. Soddisferai i tuoi obblighi nei miei confronti, in un modo o nell'altro."
+ stewardship_duty.7027.a:0 "Finalmente, questa cosa è risolta."
+ stewardship_duty.7027.b:0 "Poteva andare meglio."
+
+ ##################
+ # Special Events #
+ ##################
+
+ #  Map Painting Journey, by Petter Vilberg
+ stewardship_duty_special.1201.t:0 "Mappare le Terre"
+ stewardship_duty_special.1201.desc:0 "[steward.Custom('DE_ART_DEF_P_D')] mi[steward.Custom('DE_END_PRO_S_N')] [steward.GetCouncilTitle], [steward.GetTitledFirstName], mi sta proponendo un'impresa che secondo [steward.GetSheHe] sarà di beneficio a [ROOT.Char.Custom('RealmType')].\n\nCrede che dovrei viaggiare con il mio seguito per mappare i territori [painting_land_owner.Custom('DE_PRO_PER_P_3P_A')] [painting_land_owner.GetTitledFirstName]. Conoscerei meglio il mio reame, inoltre [steward.GetFirstNameNoTooltip] crede che trarrei una comprensione più profonda del mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('painting_land_owner'))]."
+ stewardship_duty_special.1201.a:0 "Un'impresa che vale la pena tentare."
+ stewardship_duty_special.1201.a.tt:0 "Iniziate subito i preparativi!"
+ stewardship_duty_special.1201.b:0 "Non è il momento per un viaggio del genere."
+ stewardship_duty_special.1201.b.tt:0 "Tu non vai in viaggio"
+ stewardship_duty_special.1201.continue_tooltip:0 "La mia indagine continua."
+
+ stewardship_duty_special.1202.desc:0 "Mentre passiamo nelle terre [painting_land_owner.Custom('DE_PRO_PER_P_3P_A')] [painting_land_owner.GetTitledFirstNamePossessive], veniamo accolti da un [painting_land_owner.Custom('MountedWarriorTerm')] e dal suo seguito.\n\n"[painting_land_owner.GetTitledFirstName] vi da il benvenuto, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('my_title')]. Siete più che il benvenuto in queste terre per tutto il tempo che vorrete.""
+ stewardship_duty_special.1202.a:0 "Spero di imparare molto."
+ stewardship_duty_special.1202.a.tt:0 "Inizio a tracciare la mappa della zona."
+
+ stewardship_duty_special.1203.desc:0 "Sembrava una strada così tranquilla, ma è questo che la rende così adatta a un'imboscata, non è vero?\n\nI banditi sono arrivati di corsa da dietro una collina, le frecce e gli ordini hanno riempito improvvisamente l'aria."
+ stewardship_duty_special.1203.a:0 "Non lasciate vivo nessun criminale!"
+ stewardship_duty_special.1203.b:0 "Fermi! Pagheremo per un passaggio sicuro!"
+
+ stewardship_duty_special.1204.desc:0 "Ci accampiamo per una notte accanto a [painting_land_owner.Custom('IndefiniteBodyOfWater')]. I miei sudditi si svegliano rinfrescati dal canto degli uccelli e dal dolce velo di nebbia sullo specchio d'acqua."
+ stewardship_duty_special.1204.a:0 "Questo è un buon posto per accamparsi per un po'."
+ stewardship_duty_special.1204.a.tt:0 "Il mio viaggio è leggermente in ritardo."
+ stewardship_duty_special.1204.b:0 "Andiamo avanti velocemente."
+
+ stewardship_duty_special.1205.desc:0 "I contadini che curavano il campo a bordo strada probabilmente non avevano mai visto un seguito tanto regale quanto quello di cui ero alla guida.\n\n"Chi è costui?" ho sentito uno di loro chiedere ad un altro."
+ stewardship_duty_special.1205.a:0 ""Io sono il vostro signore e sovrano, padrone di questa terra!""
+ stewardship_duty_special.1205.b:0 "Dovrei imparare a conoscere la vita da contadino qui fuori."
+
+ stewardship_duty_special.1206.desc:0 "Ho visto numerosi forti nella regione, posizionati in varie postazioni difensive su diversi tipi di terreno. Una mattina, mentre ci avviciniamo ad uno di questi, vedo [local_baron.Custom('DE_END_PRO_S_N')] [local_baron.GetTitleAsNameNoTooltip] locale guidare i cavalli fuori dai suoi cancelli."
+ stewardship_duty_special.1206.a:0 "Chiedi di poter visitare il [local_baron.Custom('FortifiedBuilding')]."
+ stewardship_duty_special.1206.b:0 "Invito [local_baron.Custom('DE_ART_DEF_P_A')] [local_baron.GetTitledFirstName] a cenare con me stanotte."
+
+ stewardship_duty_special.1207.desc:0 "Settimane sulla strada possono stremare chiunque. Comunque, l'aver finalmente incrociato una locanda che sembra possa ospitare lussi come un vero letto, è una benedizione. Potrebbe anche avere una sistemazione per animali più grandi dei ratti."
+ stewardship_duty_special.1207.a:0 "Insisto per pagare vitto e alloggio."
+ stewardship_duty_special.1207.b:0 "Il locandiere sarà onorato di ospitare [ROOT.Char.Custom('DE_ART_DEF_P_A')] [ROOT.Char.GetTitleAsNameNoTooltip]!"
+
+ stewardship_duty_special.1208.desc:0 "Le terre [painting_land_owner.Custom('DE_PRO_PER_P_3P_A')] [painting_land_owner.GetTitledFirstNamePossessive] sono attraversate da torrenti e da fiumi, ponti di fortuna e guadi che costituiscono la maggior parte dei percorsi. Possibile che tali gentil acque possano avere un'utilità diversa rispetto a questa?"
+ stewardship_duty_special.1208.a:0 "Manderò messaggi al mio cartografo in piccoli contenitori!"
+ stewardship_duty_special.1208.b:0 "Se questi banchi di fango fossero rastrellati, potrebbero rendere il terreno coltivabile..."
+
+ stewardship_duty_special.1281.opening:0 "Colline e valli, pianure e laghi, strade principali e sentieri nelle foreste. Ho visto tutto questo nel reame [painting_land_owner.Custom('DE_PRO_PER_P_3P_A')] [painting_land_owner.GetTitledFirstNamePossessive], e i miei cartografi hanno avidamente preso appunti e creato schizzi con il carbone di ogni cosa nuova che vedevano."
+ stewardship_duty_special.1281.end:0 "\n\nÈ stato anche un interessante studio delle città e dei villaggi, così come delle persone queste parti del [ROOT.Char.Custom('RealmType')]."
+ stewardship_duty_special.1281.a:0 "Queste sono informazioni utili da tenere per me."
+ stewardship_duty_special.1281.b:0 "[painting_land_owner.Custom('DE_ART_DEF_P_D')] [painting_land_owner.GetTitledFirstName] dovrebbe venire a conoscenza delle mie scoperte."
+
+ stewardship_duty_special.1282.end:0 "\n\nHo anche fatto prendere loro nota di fortificazioni decadenti e di formazioni naturali eccezionalmente difendibili."
+ stewardship_duty_special.1282.a:0 "Non si sa mai quando potrebbe tornare utile."
+ stewardship_duty_special.1282.b:0 "[painting_land_owner.GetFirstName] dovrebbe rinnovare le sue difese... Così come dovrei farlo io!"
+
+ stewardship_duty_special.1283.end:0 "\n\nIl livello di dettaglio che i miei cartografi hanno raggiunto con queste mappe è stupefacente. Non un solo percorso sembra essere passato inosservato, e sono piene di note dettagliate sul terreno."
+ stewardship_duty_special.1283.a:0 "Nessuno conosce la conformazione di questa terra meglio di me, ora."
+ stewardship_duty_special.1283.b:0 "I miei generali sapranno farne buon uso."
+
+ stewardship_duty_special.1284.end:0 "\n\nMi ha particolarmente incuriosito il gran numero di fiumi e torrenti che attraversano le terre [painting_land_owner.Custom('DE_PRO_PER_P_3P_A')] [painting_land_owner.Custom('my_title')]."
+ stewardship_duty_special.1284.a:0 "Forse potrebbero essere utili per i messaggeri?"
+ stewardship_duty_special.1284.b:0 "Considererò le implicazioni militari di tutto ciò."
+
+ stewardship_duty_special.1285.end:0 "\n\nÈ ormai chiaro che ci siano molti luoghi in queste terre che raramente, se non mai, sono stati calpestati da impronta umana."
+ stewardship_duty_special.1285.a:0 "C'è ancora così tanto da imparare dal suolo stesso sul quale camminiamo."
+ stewardship_duty_special.1285.b:0 "Se incoraggiassimo i coloni laggiù, e drenassimo il terreno qua..."
+
+ stewardship_duty_special.1286.end:0 "\n\nNutro un nuovo apprezzamento per le sfumature del mio regno. Chi avrebbe mai detto che le cose sarebbero state così diverse da [capital.GetNameNoTier]?"
+ stewardship_duty_special.1286.a:0 "Questa è una conoscenza che sarà di grande utilità."
+ stewardship_duty_special.1286.b:0 "Io sono altresì [ROOT.Char.Custom('DE_ART_DEF_P_A')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] di queste terre!"
+
+ # Vassal Mediation, by Petter Vilberg
+ statecraft_mediation_unfair:0 "Ciò sarà considerato come ingiusto"
+ statecraft_mediation_fair:0 "Ciò verrà considerato in qualche modo giusto"
+ statecraft_mediation_very_fair:0 "Ciò sarà considerato del tutto giusto"
+ statecraft_mediation_favor_vassal_1:0 "Ciò verrà considerato come un favoritismo nei confronti [vassal_1.Custom('DE_PRO_PER_P_3P_A')] [vassal_1.GetTitledFirstName]"
+ statecraft_mediation_favor_vassal_2:0 "Ciò sarà considerato come un favoritismo nei confronti [vassal_2.Custom('DE_PRO_PER_P_3P_A')] [vassal_2.GetTitledFirstName]"
+
+ stewardship_duty_special.2001.t:0 "Insediamento"
+ stewardship_duty_special.2001.desc:0 "L'inimicizia tra i miei vassalli, [vassal_1.Custom('DE_ART_DEF_P_A')] [vassal_1.GetTitledFirstName] e [vassal_2.Custom('DE_ART_DEF_P_A')] [vassal_2.GetTitledFirstName] è leggendaria, ed è andata così oltre che gli altri nobili del reame mi hanno chiesto di intervenire.\n\nControversie di confine, diritti sulle tasse, storia familiare... Hanno una litania di controversie, e anche qui alla mia corte riescono a malapena ad essere civili."
+ stewardship_duty_special.2001.a:0 "Mediare tra questi due sarà certamente una sfida!"
+ stewardship_duty_special.2001.b:0 "Questa è una questione che riguarda il mio cancelliere."
+ stewardship_duty_special.2001.c:0 ""Come osi infastidirmi con queste sciocchezze?!""
+
+ stewardship_duty_special.2011.t:0 "Insediamento: Controversia Fondiaria"
+ stewardship_duty_special.2011.desc:0 "Pensavo che la discussione fosse feroce già #EMP prima#! che le mappe venissero esposte.\n\n[vassal_1.Custom('DE_ART_DEF_P_D')] [vassal_1.GetTitledFirstName] e [vassal_2.Custom('DE_ART_DEF_P_A')] [vassal_2.GetTitledFirstName] hanno entrambi delle illustrazioni dei loro reami, e ognuna di esse mostra lo stesso punto di guado come di loro appartenenza. Nessuno dei due sembra disposto a cedere una zolla di terra.\n\nNon ho mai visto una pergamena causare così tanta rabbia, ed è chiaro che un nuovo confine deve essere stabilito."
+ stewardship_duty_special.2011.a:0 "Medierò queste discussioni personalmente."
+ stewardship_duty_special.2011.b:0 "[vassal_1.GetFirstNameNoTooltip] sarà compensat[vassal_1.Custom('DE_END_PRO_S_N')] per qualsiasi perdita."
+ stewardship_duty_special.2011.c:0 "[vassal_2.GetFirstNameNoTooltip] è #EMP molto#! desideros[vassal_2.Custom('DE_END_PRO_S_N')] che io prenda la giusta decisione..."
+ statecraft_mediation_debug_improve_contract:0 "#D Migliora il Contratto del Vassallo con [vassal_2.GetTitledFirstName]#!"
+
+ stewardship_duty_special.2012.t:0 "Insediamento: Dispute Familiari"
+ stewardship_duty_special.2012.desc:0 "Le discussioni giornaliere tra [vassal_1.Custom('DE_ART_DEF_P_A')] [vassal_1.GetTitledFirstName] e [vassal_2.Custom('DE_ART_DEF_P_A')] [vassal_2.GetTitledFirstName] non sono iniziate bene.\n\n"Sin da quando ti è stato consegnato lo scudo del nonno—"\n"Di nuovo lo scudo del nonno, davvero? Qui, alla corte [ROOT.Char.Custom('DE_PRO_PER_P_3P_A')] [ROOT.Char.GetTitlePossessive]?!""
+ stewardship_duty_special.2012.a:0 "La famiglia dovrebbe unirci, non dividerci."
+ stewardship_duty_special.2012.a.success:0 "Parole sagge"
+ stewardship_duty_special.2012.a.failure:0 "Luoghi comuni"
+ stewardship_duty_special.2012.b:0 "Sembra che ci sia grandezza nella tua famiglia."
+ stewardship_duty_special.2012.c:0 "So come risolvere i litigi familiari!"
+ statecraft_sc_mediation_debug_add_dynasty_prestige:0 "#D Aggiunge Notorietà#!"
+ stewardship_duty_special.2012.c.major_progress:0 "Avvicino i litiganti, aumentando significativamente le possibilità di un esito positivo"
+
+ stewardship_duty_special.2013.t:0 "Insediamento: Diritti sulle Tasse"
+ stewardship_duty_special.2013.desc:0 "[vassal_1.Custom('DE_ART_DEF_P_D')] [vassal_1.GetTitledFirstName] afferma che [vassal_2.Custom('DE_ART_DEF_P_A')] [vassal_2.GetTitledFirstName] stia negando i suoi diritti sulla tassazione.\n\n"Niente affatto!" protesta [vassal_1.GetFirstName]. "la famiglia in questione è stata dal mio lato del confine per generazioni. Un solo campo sull'altro lato non ti fa guadagnare una decima intera!""
+ stewardship_duty_special.2013.a:0 "Se non riuscirà a decidersi, la decima ritornerà a [ROOT.Char.GetTitleAsNameNoTooltip]."
+ stewardship_duty_special.2013.b:0 "La tradizione ha la precedenza qui."
+ stewardship_duty_special.2013.c:0 "Il proprietario del terreno prende la tassa, non importa chi la paghi."
+
+ stewardship_duty_special.2014.t:0 "Insediamento: Fidanzamento"
+ stewardship_duty_special.2014.desc:0 ""[betrothal_candidate_lord.Custom2('RelationToMe', SCOPE.sC('betrothal_candidate'))] di [betrothal_candidate_lord.GetTitledFirstNamePossessive] è stat[betrothal_candidate_lord.Custom('DE_END_PRO_S_N')] promess[betrothal_candidate_lord.Custom('DE_END_PRO_S_N')] al[betrothal_candidate_lord.Custom('DE_END_ADJ_NUL_S_N')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [vassal_1.Custom2('RelationToMe', SCOPE.sC('vassal_1_betrothal_candidate'))] sin da quando—" [vassal_1.GetTitledFirstName] inizia, prima di essere prevedibilmente interrott[ROOT.Char.Custom('DE_END_PRO_S_N')] da [vassal_2.GetTitledFirstName].\n\n"[betrothal_candidate.GetTitledFirstName] è sempre stat[betrothal_candidate.Custom('DE_END_PRO_S_N')] destinat[betrothal_candidate.Custom('DE_END_PRO_S_N')] a sposare [vassal_2_betrothal_candidate.Custom('DE_ART_DEF_P_A')] mi[vassal_2_betrothal_candidate.Custom('DE_END_PRO_S_N')] [vassal_2.Custom2('RelationToMe', SCOPE.sC('vassal_2_betrothal_candidate'))]!""
+ stewardship_duty_special.2014.a:0 "[betrothal_candidate.Custom('DE_ART_DEF_P_A')] [betrothal_candidate.GetTitledFirstNameNoTooltip] sposerà [vassal_1.GetFirstNamePossessiveNoTooltip] di [vassal_1.Custom2('RelationToMe', SCOPE.sC('vassal_1_betrothal_candidate'))]."
+ stewardship_duty_special.2014.b:0 "Si fidanzerà con [vassal_2.GetFirstNamePossessiveNoTooltip] di [vassal_2.Custom2('RelationToMe', SCOPE.sC('vassal_2_betrothal_candidate'))]."
+ stewardship_duty_special.2014.c:0 "A causa di questo battibecco, entrambi ne avete perso il diritto!"
+
+ stewardship_duty_special.2015.t:0 "Insediamento: Giudizio"
+ stewardship_duty_special.2015.desc:0 ""C'è stato un tempo in cui [vassal_1.Custom('DE_ART_DEF_P_A')] [vassal_2.GetTitledFirstName] ha dato rifugio ad un noto ladro!" accusa [vassal_1.Custom('DE_ART_DEF_P_A')] [vassal_1.GetTitledFirstName].\n\n"Per [vassal_2.GetFaith.HighGodName]!" [vassal_2.GetFirstName] ovviamente questa cosa non ti è nuova. "Non avete il diritto di giudicare i miei sudditi, nel mio reame!"\n\n"Semplicemente perché è riuscito a fuggire prima—"\n\nSi zittiscono rapidamente nel momento in cui alzo la mano e gli ricordo della mia presenza."
+ stewardship_duty_special.2015.a:0 "Il ladro sarà giustiziato, e la questione non si porrà più."
+ stewardship_duty_special.2015.b:0 "Se [vassal_2.GetFirstNameNoTooltip] ha il diritto di giudicare, questo è tutto ciò che conta."
+ stewardship_duty_special.2015.c:0 "Sarà mio Cancelliere a tenere un processo per questo ladruncolo."
+
+ stewardship_duty_special.2018.t:0 "Insediamento: Cavalli"
+ stewardship_duty_special.2018.desc:0 "[vassal_1.Custom('DE_ART_DEF_P_D')] [vassal_1.GetTitledFirstName] ha l'ennesima lamentela oggi, ovviamente. "I cavalli allevati a [barony_1.GetNameNoTier] sono stati per lungo tempo famosi, ma ora i mercanti di [barony_2.GetNameNoTier] li stanno vendendo come se li avessero allevati loro stessi! In [barony_2.GetNameNoTier]!"\n\n[vassal_2.Custom('DE_ART_DEF_P_D')] [vassal_2.GetTitledFirstName] ha da obiettare. "Essi #EMP sono stati#! allevati lì! I mercanti dovrebbero mentire sulla loro merce?""
+ stewardship_duty_special.2018.a:0 "Le origini devono essere rispettate, non è così?"
+ stewardship_duty_special.2018.b:0 "Essi non provengono né da [barony_1.GetNameNoTier] né da [barony_2.GetNameNoTier], ma da [new_name.GetNameNoTier]!"
+ stewardship_duty_special.2018.c:0 "Sembra che potremmo aver bisogno di una tassa per l'ispezione dei cavalli reali."
+
+ stewardship_duty_special.2019.t:0 "Insediamento: La Cava"
+ stewardship_duty_special.2019.desc:0 "[vassal_1.Custom('DE_ART_DEF_P_D')] [vassal_1.GetTitledFirstName] e [vassal_2.Custom('DE_ART_DEF_P_A')] [vassal_2.GetTitledFirstName] hanno elencato lamentele per quelle che sono sembrate ore.\n\n"... e poi c'è il capo cavatore al confine che si è rifiutato di pagare le tasse a causa dell'atto di clemenza che #EMP tu#! gli hai offerto!"\n"Cosa?! Tu eri quello che aveva già preso tutto quello che avevano quando i miei riscossori—"\n\nFinalmente si fermano non appena realizzano che sono stati entrambi presi in giro."
+ stewardship_duty_special.2019.a:0 "L'imposta mancante sarà riscossa e divisa in modo uniforme."
+ stewardship_duty_special.2019.b:0 "Entrambi meritate di essere presi in giro!"
+ stewardship_duty_special.2019.c:0 "Giustiziare il capo cavatore e bruciate la cava."
+ stewardship_duty_special.2019.d:0 "Questo è un crimine contro [ROOT.Char.Custom('DE_ART_DEF_P_A')] [ROOT.Char.GetTitleAsNameNoTooltip], e [ROOT.Char.Custom('DE_ART_DEF_P_A')] [ROOT.Char.GetTitleAsNameNoTooltip] se ne occuperà!"
+ 
+ stewardship_duty_special.2021.t:0 "Insediamento: La Festa"
+ stewardship_duty_special.2021.desc:0 "[vassal_1.Custom('DE_ART_DEF_P_D')] [vassal_1.GetTitledFirstName] e [vassal_2.Custom('DE_ART_DEF_P_A')] [vassal_2.GetTitledFirstName] hanno ogni sorta di lamentela l'uno verso l'altro, dalle grandi alle piccole.\n\n"[uninvited.GetFirstName] ha negato ai suoi proprietari terrieri di partecipare alla mia festa d'autunno!" si lamenta [host.GetFirstName].\n\n"Certamente, non voglio che i miei vassalli portino a casa altre pulci.""
+ stewardship_duty_special.2021.a:0 "Sono i vassalli di [uninvited.GetFirstNamePossessiveNoTooltip]. Devono fare come [uninvited.GetSheHe] comanda."
+ stewardship_duty_special.2021.b:0 "A nessuno dovrebbe mai essere negata una festa!"
+ stewardship_duty_special.2021.c:0 "Adesso siete entrambi #EMP obbligati#! a partecipare l'uno alla festa dell'altro!"
+
+ stewardship_duty_special.2022.t:0 "Insediamento: L'Insulto"
+ stewardship_duty_special.2022.desc:0 ""[insulter.Custom('DE_ART_DEF_P_D')] [insulter.GetTitledFirstName] ha insultato [spouse.Custom('DE_ART_DEF_P_A')] mi[spouse.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] molto gravemente!" sbotta [insultee.GetTitledFirstName]. "Insinuando che [spouse.GetSheHe] condivide il letto con i maiali!"\n\n[insulter.GetFirstName] rimane calm[insulter.Custom('DE_END_PRO_S_N')]. "A volte la verità è tutt'altro che lusinghiera, [insultee.GetFirstName].""
+ stewardship_duty_special.2022.a:0 "Ciò richiede delle scuse pubbliche!"
+ stewardship_duty_special.2022.b:0 "Questi miseri battibecchi sono più insulsi di voi due."
+ stewardship_duty_special.2022.c:0 "Ma di certo si trattava di un complimento, se ci pensate bene."
+
+ stewardship_duty_special.2025.t:0 "Insediamento: Opportunità"
+ stewardship_duty_special.2025.desc:0 "Dato il potere che ho sul[hooked_vassal.Custom('DE_END_ADJ_NUL_S_N')] [hooked_vassal.GetTitledFirstName], potrei chiedere che qualunque fosse l'esito del litigio con [other_vassal.Custom('DE_ART_DEF_P_A')] [other_vassal.GetTitledFirstName], [hooked_vassal.GetSheHe] dica a tutti di quali giudizi giusti ed equi io sia capace.."
+ stewardship_duty_special.2025.a:0 "[hooked_vassal.GetFirstNameNoTooltip], #EMP c'è#! qualcosa che puoi fare per me..."
+ stewardship_duty_special.2025.b:0 "Non è questo il modo di risolvere le questioni."
+ statecraft_mediation_progress_fairness:0 "[hooked_vassal.GetFirstNameNoTooltip] enfatizza quanto io sia giusto, migliorando significativamente le mie possibilità di un risultato positivo"
+
+ stewardship_duty_special.2026.t:0 "Insediamento: Una Fine"
+ stewardship_duty_special.2026.desc:0 "Urla e mani insanguinate mi accolgono. Il vaso è finalmente traboccato, e [killer.Custom('DE_ART_DEF_P_A')] [killer.GetTitledFirstName] si erge sul corpo [victim.Custom('DE_PRO_PER_P_3P_A')] [victim.GetTitledFirstName], con [killer.Custom('signature_weapon')] ancora in mano.\n\n"Questo è l'unico accordo equo possibile.""
+ stewardship_duty_special.2026.a:0 "Che cosa hai fatto... sarà occhio per occhio allora."
+ stewardship_duty_special.2026.b:0 "Ti sei consegnato ad una vita nell'oscurità."
+ stewardship_duty_special.2026.c:0 "Beh, vedo che la controversia è stata risolta!"
+
+ stewardship_duty_special.2027.t:0 "Insediamento: Famiglia"
+ stewardship_duty_special.2027.desc:0 "[vassal_1.Custom('DE_ART_DEF_P_D')] [vassal_1.GetTitledFirstName] e [vassal_2.Custom('DE_ART_DEF_P_A')] [vassal_2.GetTitledFirstNamePossessive] vanno avanti all'infinito, e a quanto pare sono già durate per generazioni.\n\nGenitori, nonni, antenati lontani, tutti hanno litigato per una questione o per l'altra. Esiste un modo per spezzare questa catena?"
+ stewardship_duty_special.2027.a:0 "Una dinastia più prestigiosa è una dinastia più importante."
+ stewardship_duty_special.2027.b:0 "Un nome importante non indica di che pasta siano fatte le grandi persone."
+ stewardship_duty_special.2027.c:0 "Il nostro regno è stato costruito da ogni sorta di grande dinastia."
+ statecraft_mediation_favor_higher_prestige:0 "Ciò verrà visto come un favoritismo nei confronti [higher_prestige.Custom('DE_PRO_PER_P_3P_A')] [higher_prestige.GetTitledFirstName]"
+ statecraft_mediation_favor_lower_prestige:0 "Ciò verrà visto come un favoritismo nei confronti [lower_prestige.Custom('DE_PRO_PER_P_3P_A')] [lower_prestige.GetTitledFirstName]"
+
+ stewardship_duty_special.2071.t:0 "Insediamento: Nuovi Inizi"
+ stewardship_duty_special.2071.desc:0 "È stato un processo estenuante, ma [vassal_1.Custom('DE_ART_DEF_P_A')] [vassal_1.GetTitledFirstName] ed [vassal_1.Custom('DE_ART_DEF_P_A')] [vassal_2.GetTitledFirstName] non sono più, costantemente, l'uno alla gola dell'altro.\n\nInfatti, non solo lasciano la mia corte con le loro rimostranze risolte, ma lo fanno come amici ritrovati"
+ stewardship_duty_special.2071.a:0 "Un miracolo se ne ho mai visto uno."
+
+ stewardship_duty_special.2072.desc:0 "Quando [vassal_1.GetTitledFirstName] e [vassal_2.GetTitledFirstName] lasciano la mia — almeno — lo fanno senza l'odio nelle vene che aveva caratterizzato il loro arrivo. Vedremo se durerà, ma per ora hanno un ritrovato rispetto l'uno per l'altro, grazie ai miei sforzi."
+ stewardship_duty_special.2072.a:0 "Non una cosa da poco, se posso dirlo io stesso!"
+
+ stewardship_duty_special.2073.t:0 "Insediamento: Favoritismo"
+ stewardship_duty_special.2073.desc:0 ""Questa non sarà mai una mediazione equa, vero!?" [accuser.Custom('DE_ART_DEF_P_A')] [accuser.GetTitledFirstName] è profondamente turbato mentre esce fuori dalla sala delle udienze. "Il favoritismo in mostra qui è nauseante!"\n\n[favorite.Custom('DE_ART_DEF_P_D')] [favorite.GetTitledFirstName] rimane calmo. "Io non sono d'accordo, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')].""
+ stewardship_duty_special.2073.a:0 "Ah, lasciate che quel cane ingrato se ne vada."
+
+ stewardship_duty_special.2074.t:0 "Insediamento: Sempre poco amichevole"
+ stewardship_duty_special.2074.desc:0 "Quando [vassal_1.Custom('DE_ART_DEF_P_A')] [vassal_1.GetTitledFirstName] e [vassal_2.Custom('DE_ART_DEF_P_A')] [vassal_2.GetTitledFirstName] sono arrivati, non credevo potessero sputare altro odio e amarezza l'uno nei confronti dell'altro. La loro partenza mi ha dato prova di quanto mi sbagliassi."
+ stewardship_duty_special.2074.a:0 "La mia mediazione sarebbe potuta andare meglio."
+
+ stewardship_duty_special.2081.t:0 "Insediamento: Una Fine"
+ stewardship_duty_special.2081.both_dead:0 "Con la morte [vassal_1.Custom('DE_PRO_PER_P_3P_A')] [vassal_1.GetTitledFirstName] e [vassal_2.Custom('DE_PRO_PER_P_3P_A')] [vassal_2.GetTitledFirstName], i loro miseri scontri sembrano lontani, piccoli e insignificanti."
+ stewardship_duty_special.2081.vassal_1:0 "Con la morte [vassal_1.Custom('DE_PRO_PER_P_3P_A')] [vassal_1.GetTitledFirstName], gli scontri e le dispute che [vassal_1.GetSheHe] ha avuto con [vassal_2.Custom('DE_ART_DEF_P_A')] [vassal_2.GetTitledFirstName] sembrano piccoli, miseri e insignificanti."
+ stewardship_duty_special.2081.vassal_2:0 "Con la morte [vassal_2.Custom('DE_PRO_PER_P_3P_A')] [vassal_2.GetTitledFirstName], gli scontri e le dispute che [vassal_2.GetSheHe] ha avuto con [vassal_1.Custom('DE_ART_DEF_P_A')] [vassal_1.GetTitledFirstName] sembrano piccoli, miseri e insignificanti."
+ stewardship_duty_special.2081.a:0 "Col tempo, andremo avanti."
+ stewardship_duty_special.2081.tt:0 "I miei sforzi di mediazione terminano."
+ 
+ stewardship_duty_special.2082.t:0 "Insediamento: Una Fine"
+ stewardship_duty_special.2082.desc:0 "Con [prisoner.Custom('DE_ART_DEF_P_A')] [prisoner.GetTitledFirstName] rinchius[prisoner.Custom('DE_END_PRO_S_N')], la disputa tra [prisoner.GetSheHe] e [other.Custom('DE_ART_DEF_P_A')] [other.GetTitledFirstName] sembra molto meno importante."
+ stewardship_duty_special.2082.a:0 "Troviamo tutti dei modi per risolvere i nostri conflitti."

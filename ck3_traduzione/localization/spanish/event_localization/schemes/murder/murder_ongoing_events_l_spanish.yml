@@ -1,0 +1,18 @@
+﻿l_spanish:
+ murder_event_title:0 "Assassinio:"
+ murder_ongoing.3010.t:0 "$murder_event_title$ Agente ubriacone"
+ murder_ongoing.3010.desc_opening:0 "[agent_in_question.GetTitledFirstName] è ogni giorno ubriaco."
+ murder_ongoing.3010.desc_hero:0 "Sebbene ciò ci abbia fornito un mezzo per saperne di più su [scheme.GetTargetCharacter.GetTitledFirstName], [agent_hero_of_the_moment.GetTitledFirstName] – il [scheme.GetTargetCharacter.GetTitleAsNamePossessiveNoTooltip] [target.Custom2('RelationToMe', SCOPE.sC('agent_hero_of_the_moment'))] ed il mio agente — ha espresso preoccupazione per il fatto che l'ubriaco metta in pericolo la sua posizione alla corte di [scheme.GetTargetCharacter.GetTitleAsNamePossessiveNoTooltip] .\n\n"È solo questione di tempo prima che il suo temperamento abbia la meglio su di [agent_in_question.GetSheHe]!""
+ murder_ongoing.3010.desc:0 "Sebbene ciò ci abbia fornito un mezzo per saperne di più su [scheme.GetTargetCharacter.GetTitledFirstName], [agent_in_question.GetSheHe] è di scarsa utilità per qualsiasi altra cosa..."
+ murder_ongoing.3010.a:0 "Bevi ancora [agent_in_question.GetFirstNameNoTooltip]!"
+ murder_ongoing.3010.a.success:0 "Le sue scappatelle da ubriaco sono utili"
+ murder_ongoing.3010.a.failure:0 "[agent_in_question.GetSheHe|U] espone [agent_in_question.Custom('DE_END_PRO_S_N')]"
+ murder_ongoing.3010.b:0 "[agent_in_question.GetTitledFirstNameNoTooltip] deve stare lontano da ogni genere di bevanda."
+ murder_ongoing.3010.c:0 "Mi assicurerò che abbia la meglio su di [agent_in_question.GetSheHe]! Sii pronto."
+ murder_ongoing.3301.t:0 "$murder_event_title$ Non il più acuto"
+ murder_ongoing.3301.desc:0 "Dov'è il mio coltello cerimoniale?! Il coltello che avevo intenzione di infilzare nel petto di [target.GetTitledFirstNamePossessive]! Il coltello che sto affilando da giorni!\n\nSto mettendo sotto sopra le mie stanze per cercarlo, ma non si trova da nessuna parte."
+ murder_ongoing.3301.a:0 "Avrei giurato di averlo lasciato quì!"
+ #Apply poisonous herbs to the scheme that you found while travelling
+ murder_ongoing.3302.t:0 "$murder_event_title$ Un Pizzico di Questo, un Rametto di Quello..."
+ murder_ongoing.3302.desc:0 "All'improvviso mi ricordo delle erbe che mi ero procurat[ROOT.Char.Custom('DE_END_PRO_S_N')] quando stavamo attraversando il [herb_location.GetTerrain.GetNameNoTooltip|l] di [herb_location.GetNameNoTooltip].\n\nDovrebbero senza dubbio aiutare a #EMP sistemare#! la situazione nel mio tentativo di liberare [target.Custom('DE_ART_DEF_P_A')] [target.GetTitledFirstName] dalle sue spoglie mortali."
+ murder_ongoing.3302.a:0 "Questo mi sarà molto utile."

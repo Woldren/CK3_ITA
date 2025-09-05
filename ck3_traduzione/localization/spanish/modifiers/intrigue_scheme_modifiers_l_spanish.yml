@@ -1,0 +1,42 @@
+﻿l_spanish:
+ lifestyle_soldier_source_modifier:0 "Soldato Informatore"
+ lifestyle_soldier_source_modifier_desc:0 "Un soldato della capitale è disposto a condividere informazioni."
+
+ lifestyle_studied_habits_modifier:0 "Abitudini studiate"
+ lifestyle_studied_habits_modifier_desc:0 "Le abitudini dell'obiettivo sono state studiate."
+
+ lifestyle_converted_informants_modifier:0 "Informatori"
+ lifestyle_converted_informants_modifier_desc:0 "Gli informatori di quel tribunale stanno trapelando informazioni."
+
+ lifestyle_intercepting_communication_modifier:0 "Intercettazione delle Comunicazioni"
+ lifestyle_intercepting_communication_modifier_desc:0 "Le comunicazioni del bersaglio vengono lette."
+
+ lifestyle_intercepted_communication_modifier:0 "Comunicazione Intercettata"
+ lifestyle_intercepted_communication_modifier_desc:0 "Le comunicazioni del bersaglio sono state intercettate in passato."
+
+ lifestyle_close_to_courtier_modifier:0 "Vicino a un Cortigiano"
+ lifestyle_close_to_courtier_modifier_desc:1 "Avvicinandomi a uno dei cortigiani dell'obiettivo, posso accedere più facilmente ad esso"
+
+ intrigue_scheme_mapped_surroundings_modifier:0 "Dintorni Mappati"
+ intrigue_scheme_mapped_surroundings_modifier_desc:0 "Le vie di accesso e di uscita sono state accuratamente mappate."
+
+ intrigue_scheme_tattletale_modifier:0 "Informatore"
+ intrigue_scheme_tattletale_modifier_desc:0 "Qualcuno non ha tenuto la bocca chiusa."
+
+ intrigue_scheme_in_a_hurry_modifier:0 "Di Fretta"
+ intrigue_scheme_in_a_hurry_modifier_desc:0 "Non c'è tempo, dobbiamo muoverci #EMP now#!."
+
+ intrigue_scheme_no_contact_modifier:0 "Contatto Minimo"
+ intrigue_scheme_no_contact_modifier_desc:0 "I contatti è stati ridotti al minimo per evitare di essere scoperti."
+
+ intrigue_scheme_involved_modifier:0 "Coinvolgimento in una Cospirazione"
+ intrigue_scheme_involved_modifier_desc:0 "L'interesse di questo cospiratore per l'obiettivo è ampiamente noto."
+
+ intrigue_scheme_messenger_pigeon_modifier:0 "Piccione Viaggiatore"
+ intrigue_scheme_messenger_pigeon_modifier_desc:0 "Il piccione viaggiatore addestrato è pronto a consegnare messaggi segreti."
+ 
+ intrigue_scheme_secret_code_modifier:0 "Codice Segreto Multi-Lingua"
+ intrigue_scheme_secret_code_modifier_desc: "Un codice complesso composto da molti linguaggi è stato creato appositamente per questo piano."
+
+ intrigue_scheme_personally_translating_letters_modifier:0 "Tradurre Personalmente le Lettere"
+ intrigue_scheme_personally_translating_letters_modifier_desc:0 "Le lettere intercettate vengono tradotte personalmente dal cospiratore."

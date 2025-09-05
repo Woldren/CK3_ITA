@@ -1,0 +1,7 @@
+﻿l_spanish:
+ personal_scheme_ongoing.1000.t:0 "[scheme_to_apply_gift_to.GetSchemeType.GetTypeNameNoTooltip]: Un regalo esotico"
+ personal_scheme_ongoing.1000.desc:0 "Ora che sono in un complotto avviato per [scheme_to_apply_gift_to.GetSchemeType.GetTypeNameNoTooltip] contro [scheme_to_apply_gift_to.GetTarget.GetTitledFirstName], dovrei considerare di regalar[scheme_to_apply_gift_to.GetTarget.GetHerHim] le merci esotiche che ho acquistato durante il mio pellegrinaggio a"
+ personal_scheme_ongoing.1000.desc_gift:0 "[ROOT.Var('6540_exotic_wares_gift').GetProvince.GetName]."
+ personal_scheme_ongoing.1000.desc_super_gift:0 "[ROOT.Var('6540_exotic_wares_super_gift').GetProvince.GetName]."
+ personal_scheme_ongoing.1000.a:0 "Sì, desidero utilizzare il mio regalo esotico."
+ personal_scheme_ongoing.1000.b:0 "È meglio che me lo tenga."

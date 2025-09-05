@@ -1,0 +1,295 @@
+﻿l_spanish:
+ learning_zealous_path_tt:0 "#F Questa scelta può portare a diventare zeloti#!"
+ learning_cynical_path_tt:0 "#F Questa scelta può portare a diventare cinici#!"
+ learning_scholarship_focus_point_clear_gain:1 "La mia conoscenza del [learning_lifestyle|E] aumenta"
+
+ learning_lifestyle_rank_up_indication:0 "Potrei ottenere un [perk|E] per lo [learning_lifestyle|E]"
+ learning_lifestyle_experience_gain_indication:0 "Potrei ottenere [Concept( 'lifestyle_experience', 'esperienza' )|E] per lo [learning_lifestyle|E]"
+
+# Learn to read, by Linnéa Thimrén
+ learning_scholarship.1101.t:0 "Mancanza di Alfabetizzazione"
+ learning_scholarship.1101.desc:1 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], è giunta alla mia attenzione la notizia che potreste necessitare di una guida nell'arte di... decifrare la comunicazione scritta," dice [bishop.Custom('REL_TO_ME')][bishop.Custom2('MyCharacterIntroduction', ROOT.Char)], presentandosi con una pergamena.\n\n"Se questo vi compiace, vostra Grazia, sarei disposto ad istruirvi, ho il testo perfetto proprio quì.""
+ learning_scholarship.1101.a:0 "Il... r-re ha-aveva una grande corona..."
+ learning_scholarship.1101.b:0 "Sono un abile lettore!"
+
+# Automaton, by Linnéa Thimrén & Mathilda Bjarnehed
+ learning_scholarship.1201.t:0 "Usignolo"
+ learning_scholarship.1201.desc:0 "Piume dal lucente metallo, occhi di pietre preziose, una voce che canta con i rintocchi delle campane... L'uccello mecccanico che mi è stato regalato da [bird_sender.Custom('REL_TO_ME')|U][bird_sender.Custom2('MyCharacterIntroduction', ROOT.Char)] è un vero capolavoro!\n\n"Questo uccello è stato creato dai più pregiati artigiani di [bird_sender.GetPrimaryTitle.GetNameNoTierNoTooltip],"Recita la lettera di [bird_sender.GetTitledFirstNamePossessiveNoTooltip]. "Penso che lo troverai alquanto interessante.""
+ learning_scholarship.1201.a:0 "Vendilo."
+ learning_scholarship.1201.b:0 "Mettilo in mostra."
+ learning_scholarship.1201.c:0 "Mettilo da parte e studia i suoi meccanismi."
+ learning_scholarship.1201.c.success:0 "[bird_sender.Custom('DE_ART_DEF_P_D')] [bird_sender.GetTitledFirstNameNoTooltip] è un[bird_sender.Custom('DE_PRO_POS_P_2P')] [bird_sender.GetWomanMan] dott[bird_sender.ustom('DE_END_PRO_S_N']"
+ learning_scholarship.1201.c.failure:0 "[bird_sender.Custom('DE_ART_DEF_P_D')] [bird_sender.GetTitledFirstNameNoTooltip] si sente offeso"
+
+# Acquire a reading stone, by Linnéa Thimrén
+ learning_scholarship.1401.t:0 "Pietra di vetro"
+ learning_scholarship.1401.desc:0 "Mentre faccio fatica a distinguere le minuscole lettere sulla pergamena davanti a me, sento di nuovo crescere il mal di testa. Perché mai gli scribi insistono nello scrivere lettere cosi piccole?!\n\nStrizzo gli occhi e ci riprovo.\n\n"...nessun tipo di miracolo. Con l'aiuto di una pietra di vetro, anche un vecchio con una pessima vista riuscirebbe a leggerele facilmente.""
+ learning_scholarship.1401.a:1 "Ho bisogno di una di queste pietre!"
+ learning_scholarship.1401.b:0 "Vendi tutto ciò che è impossibile da leggere."
+ learning_scholarship.1401.c:0 "[bishop.GetTitledFirstNameNoTooltip], richiedo la tua assistenza!"
+ 
+ # Scientific Experiments, by Petter Vilberg
+ learning_scholarship.3001.t:0 "Visioni del Divino"
+ learning_scholarship.3001.desc:0 "Faccio cenno al mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('chaplain'))], [chaplain.GetTitledFirstName], di unirsi a me nel cerchio di sfere d'ottone e candele disposte sui bastoni in tutta la stanza buia. L'incenso impregna l'aria per allontanare i vapori cattivi facendoci ben presto lacrimare gli occhi. "È così che, con la coda dell'occhio, scruteremo la forma imperscrutabile degli angeli."\n\nTuttavia, [chaplain.GetFirstNameNoTooltip] si ferma. "Tutto ciò sembra sbagliato. Essi sono creature divine, non sono fatti per essere visti da occhi mortali.""
+ learning_scholarship.3001.a:0 "Puoi andare, ma in un modo o nell'altro io saprò."
+ learning_scholarship.3001.b:0 "Si, questa è una cosa da stupidi, se non un peccato di per sé."
+ learning_scholarship.3001.c:0 "Le mie intenzioni sono pure, ve lo assicuro!"
+ learning_scholarship.3001.c.tt1:0 "Convinco [chaplain.GetFirstName] ad assistermi"
+ learning_scholarship.3001.c.toast.tt1:0 "[chaplain.GetFirstName] è stato persuaso dalla mia richiesta."
+ learning_scholarship.3001.c.tt2:0 "Ho fallito nel persuadere [chaplain.GetFirstName]"
+ learning_scholarship.3001.c.toast.tt2:0 "[chaplain.GetFirstName] ha respinto le mie ragioni"
+
+# Translate a Great Work, by Petter Vilberg
+ learning_scholarship_special.2001.t:0 "Una nuova traduzione"
+ learning_scholarship_special.2001.desc:0 "Più di ogni altra cosa, questo mio voler essere un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetWomanMan] istruit[ROOT.Char.Custom('DE_END_PRO_S_N')] mi sta insegnando quanto ancora non so. In più, deve esserci cosi tanta conoscenza che è stata persa nei secoli, visto che i libri cadono a pezzi o le lingue vengono dimenticate...\n\nForse potrei contribuire facendo una nuova traduzione di una delle opere classiche?\n\nPensandoci, cosa potrei mai tradurre...?"
+ learning_scholarship_special.2001.regula_pastoralis:0 "La Regula Pastoralis, su come condurre una buona vita."
+ learning_scholarship_special.2001.physica_elementa:0 "Un classico della scienza — la fisica di Aristotele!"
+ learning_scholarship_special.2001.almagest:0 "Studiare i cieli tramite l'Almagesto di Tolomeo."
+ learning_scholarship_special.2001.elements:0 "Elementi, Il trattato matematico di Euclide!"
+ learning_scholarship_special.2001.corpus_hermeticus:0 "La conoscenza mistica del Corpus Hermeticus!"
+ learning_scholarship_special.2001.treatises_of_hippocrates:0 "Le conoscenze mediche dei trattati di Ippocrate."
+ learning_scholarship_special.2001.peri_psyches:0 "Il famoso "De Anima" di Aristotele!"
+ learning_scholarship_special.2001.kategoriai:0 "Le Categorie, definendo tutti i soggetti e i predicati."
+ learning_scholarship_special.2001.avesta:0 "Gli antichi testi sacri Persiani, l'Avesta."
+ learning_scholarship_special.2001.de_oratore:0 "Lezioni di retoria di Cicerone dal De Oratore!"
+ learning_scholarship_special.2001.book_of_arda_viraf:0 "Il viaggio dei sogni dal Libro di Arda Viraf."
+ learning_scholarship_special.2001.upanishads:0 "Il più famoso dei Veda, le Upanishad!"
+ learning_scholarship_special.2001.rigveda:0 "Gli inni religiosi del Rigveda."
+ learning_scholarship_special.2001.book_of_balances:0 "Il Liber algebrae et almucabola sui calcoli."
+ learning_scholarship_special.2001.secret_of_secrets:0 "Il segreto dei segreti concesso ad Alessandro."
+ learning_scholarship_special.2001.court_of_agriculture:0 "La Corte dell'Agricoltura."
+ learning_scholarship_special.2001.lanterns_of_wisdom:0 "Istruzioni sull'alchimia ne "Le lanterne della Saggezza"."
+ learning_scholarship_special.2001.shahnameh:0 "Il poema sulla storia della Persia, il Shahnameh."
+ learning_scholarship_special.2001.arithmetica:0 "L'Arithmetica e i commenti di Diofanto."
+ learning_scholarship_special.2001.pali_canon:0 "Un testo dal Canone pāli."
+ learning_scholarship_special.2001.the_norse_sagas:0 "Una delle saghe nordiche!"
+ learning_scholarship_special.2001.family_history:0 "Qualcosa di personale — la storia della mia famiglia."
+ learning_scholarship_special.2001.ancient_myths:0 "Qualcosa di maestoso — uno degli antichi miti!"
+ learning_scholarship_special.2001.decline:0 "Sembra troppo difficile."
+
+ book_translation_tooltip.unchanged:0 "La #V Qualità della traduzione#! rimane inalterata"
+ book_translation_tooltip.more_good:0 "La #V Qualità della traduzione#! migliorerà significativamente"
+ book_translation_tooltip.less_good:0 "La #V Qualità della traduzione#! migliorerà"
+ book_translation_tooltip.finish_faster:0 "La traduzione avverrà più velocemente"
+
+ book_translation_toast.unchanged:0 "La #V Qualità della traduzione#! rimane inalterata"
+ book_translation_toast.more_good:0 "La #V Qualità della traduzione#! migliorerà significativamente"
+ book_translation_toast.less_good:0 "La #V Qualità della traduzione#! migliorerà"
+ book_translation_toast.finish_faster:0 "La traduzione avverrà più velocemente"
+
+ learning_scholarship_special.2011.desc:0 "La mia traduzione del libro [ROOT.Char.Custom('TranslationBook')] sta andando avanti, ma una sezione, nella versione dalla quale sto traducendo, mi blocca.\n\nI miei scriba insistono sul fatto che le parole sulla pagina significhino "come noi abbiamo due piedi, così lo spirito del cacciatore sale verso la cima"\n\nNon può essere così, giusto?"
+ learning_scholarship_special.2011.a:0 "Posso modificarlo con qualcosa di più appropiato."
+ learning_scholarship_special.2011.a.success:0 "Miglioro il testo"
+ learning_scholarship_special.2011.a.failure:0 "Perdo il significato"
+ learning_scholarship_special.2011.b:0 "Traduciamo il testo letteralemente!"
+ learning_scholarship_special.2011.c:0 "Oh, il significato è ovvio , ci penso io."
+
+ learning_scholarship_special.2012.desc:0 "Una frase specifica dal libro [ROOT.Char.Custom('TranslationBook')] mi sta frustrando, rendendo vani i miei sforzi di tradurre l'opera. Ho persino iniziato a borbottare tra me e me qualche volta.\n\n"Vi state ancora arrovellando, eh?" Il mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('realm_priest'))] solleva un vecchio e pesante tomo. "Bisogna semplicemente sapere dove guardare.""
+ learning_scholarship_special.2012.a:0 "Aiutami a scoprirlo, [realm_priest.GetFirstNameNoTooltip]!"
+ learning_scholarship_special.2012.a.success:0 "[realm_priest.GetShortUINameNoTooltip] trova la risposta"
+ learning_scholarship_special.2012.a.failure:0 "[realm_priest.GetShortUINameNoTooltip] trova una sorta di risposta"
+ learning_scholarship_special.2012.b:0 "Niente giochetti. Dimmi solo cosa sto guardando."
+ learning_scholarship_special.2012.c:0 "Ti andrebbe di mostrarmelo, vecchio amico?"
+ learning_scholarship_special.2012.c.friendship_tooltip:0 "Questa opzione è disponibile grazie all'amicizia con [realm_priest.GetFirstNameNoTooltip]"
+
+ learning_scholarship_special.2013.desc:0 "Mi faccio rileggere le note per la mia traduzione del manoscritto [ROOT.Char.Custom('TranslationBook')], quando improvvisamente capisco. "Scriba! Aggiungi il seguente commento...""
+ learning_scholarship_special.2013.a:0 ""Diversamente da [ROOT.Char.GetFaith.ReligiousText], questo libro lo postula...""
+ learning_scholarship_special.2013.b:0 ""Come evidente dalla volontà di [ROOT.Char.GetFaith.HighGodName]...""
+
+ learning_scholarship_special.2014.desc:0 "Mi faccio rileggere le note per la mia traduzione del manoscritto [ROOT.Char.Custom('TranslationBook')], quando...\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]? Ti prego di perdonarmi, ma... ti sei addormentat[ROOT.Char.Custom('DE_END_PRO_S_N')]?!"\n\nCielo, questo "classico" è di una banalità assoluta!"
+ learning_scholarship_special.2014.a:0 "Ciononostante, mi sforzerò di continuare!"
+ learning_scholarship_special.2014.b:0 "I miei scriba possono assumersi maggiori responsabilità."
+ learning_scholarship_special.2014.c:0 "Ho bisogno di una pausa da tutto questo."
+
+ learning_scholarship_special.2015.desc:0 "Mi ritrovo a lavorare alla traduzione di [ROOT.Char.Custom('TranslationBook')] per ore sotto la luce tremolante di una candela. Spesso mi accorgo a malapena del tempo che passa. I miei scriba però me lo ricordano.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], Ormai sarà passata la mezzanotte. Non sarà ora di riposare?""
+ learning_scholarship_special.2015.a:0 ""No, dobbiamo andare avanti fin quando non mi sentirò soddisfatt[ROOT.Char.Custom('DE_END_PRO_S_N')]!""
+ learning_scholarship_special.2015.b:0 ""Si, dormire un po' ci farà bene.""
+ learning_scholarship_special.2015.c:0 ""Potete continuare a lavorare mentre io riposo.""
+
+ learning_scholarship_special.2016.desc:0 "Uno dei miei scriba ha modificato a mia insaputa la traduzione di [ROOT.Char.Custom('TranslationBook')]!\n\n"Volevo semplicemente renderla migliore! Ti piaceva tutte le volte che credevi fosse il tuo lavoro!""
+ learning_scholarship_special.2016.a:0 "Non copierai mai più il testo per nessuno!"
+ learning_scholarship_special.2016.b:0 "Te la farò pagare!"
+ learning_scholarship_special.2016.b.flavor:0 ""E al resto di voi ,scriba, che questo vi sia di lezione!""
+ learning_scholarship_special.2016.c:0 "Questo...sembra essere giusto."
+
+ learning_scholarship_special.2017.desc:0 "Lo sforzo costante di tradurre il manoscritto [ROOT.Char.Custom('TranslationBook')] mi stanca. L'incessante attenzione, la comprensione e la creatività richieste, mi prosciugano, mentre mi avvicino sempre più al suo completamento."
+ learning_scholarship_special.2017.a:0 "Solo poche altre pagine stanotte, poi qualcuna in più domattina..."
+ learning_scholarship_special.2017.b:0 "Devo isolare me stesso da tutte le altre distrazioni fino a quando non sarà finita."
+ learning_scholarship_special.2017.c:0 "Il libro può aspettare per un po'."
+
+ learning_scholarship_special.2097.t:0 "Una Traduzione Eccellente"
+ learning_scholarship_special.2097.opening:0 "La mia traduzione del libro [ROOT.Char.Custom('TranslationBook')] è finalmente completata. Le parole poggiano su pagine splendidamente illustrate, protette da una ricca copertina, come si addice all'importanza dell'opera."
+ learning_scholarship_special.2097.conclusion:0 "\n\nIl tomo ha preso il posto d'onore nella mia collezione, e ogni [ROOT.Char.GetFaith.PriestNeuter] che lo legge rimane molto impressionato dai miei sforzi. Alcuni parlano già di fare delle copie per sé."
+ learning_scholarship_special.2097.a:0 "Questa fatica mi ha insegnato tantissimo."
+
+ learning_scholarship_special.2098.t:0 "La Mia Traduzione è Completa"
+ learning_scholarship_special.2098.opening:0 "Finalmente la mia traduzione di [ROOT.Char.Custom('TranslationBook')] è terminata. Le parole sono circondate da bellissime illustrazioni, le più sontuose hanno lo scopo di distogliere l'attenzione dalle parti su cui mi sentivo incert[ROOT.Char.Custom('DE_END_PRO_S_N')]."
+ learning_scholarship_special.2098.conclusion:0 "\n\nAnche se può essere un po' difficile da capire in alcuni punti, non c'è dubbio che questa traduzione sia estremamente necessaria. Dato che si trova nella mia collezione, dove [ROOT.Char.GetFaith.DevoteeNeuterPlural] spesso legge, attendo con ansia i primi tentativi di copiarla."
+ learning_scholarship_special.2098.a:0 "Ho imparato tanto da questo!"
+
+# Lead to Gold, by Sean Hughes
+ learning_scholarship_special.3001.t:0 "Dal Piombo all'Oro"
+ learning_scholarship_special.3001.desc_opening:0 "La trasmutazione del piombo in oro è stata a lungo il sogno degli alchimisti di tutto il mondo. Anche se molti hanno tentato una tale impresa, non si conosce nessuno che ci sia riuscito.\n\n"
+ learning_scholarship_special.3001.desc_alchemist:0 "Tuttavia, [alchemist.Custom2('MyCharacterIntroduction', ROOT.Char)] si è imbattut[alchemist.Custom('DE_END_PRO_S_N')]in alcune note scritte a margine di un libro sulle piante. Esse affermano che è possibile creare una "pioggia dorata" facendo bollire lo zucchero di piombo in una soluzione filtrata di cenere di alghe."
+ learning_scholarship_special.3001.desc:1 "Nonostante ciò, mi sono imbattut[ROOT.Char.Custom('DE_END_PRO_S_N')] in alcune note scritte ai margini di un libro sulle piante. Esse affermano che è possibile creare una "pioggia dorata" facendo bollire lo zucchero di piombo in una soluzione filtrata di cenere di alghe."
+ learning_scholarship_special.3001.desc_ending:0 "\n\nUna cosa del genere sarebbe possibile?"
+ learning_scholarship_special.3001.a:0 "Se non altro, vale la pena indagare..."
+ learning_scholarship_special.3001.b:0 "Questi scarabocchi sono chiaramente uno scherzo senza senso."
+ learning_scholarship_special.3001.c:0 "Una simile ricerca per la ricchezza è senza dubbio empia!"
+ learning_scholarship_special.3001.d:0 "Non sarò tentato dalle promesse della stregoneria!"
+
+ learning_scholarship_special.3002.desc_alchemist:0 "Il primo reagente che dobbiamo ottenere è lo zucchero di piombo, un ingrediente usato per addolcire i vini.\n\nPotremmo trovare un fornitore che importi ciò di cui abbiamo bisogno, anche se risulterebbe costoso. In alternativa, potremmo produrre il nostro in modo economico fondendo piombo metallico e sciogliendo le ceneri nell'aceto..."
+ learning_scholarship_special.3002.desc:0 "Il primo reagente che mi serve per ottenere il composto è lo zucchero di piombo, un ingrediente usato nello zucchero di Saturno, per dolcificare i vini.\n\n Potrei trovare un fornitore per importare quello che mi serve, anche se sarebbe costoso. In alternativa, posso produrre il mio in modo economico fondendo il piombo metallico e sciogliendo le ceneri nell'aceto..."
+ learning_scholarship_special.3002.a:0 "Il denaro porta altro denaro!"
+ learning_scholarship_special.3002.b:0 "Come potrò mai imparare se altra gente fa tutto il lavoro!?"
+ learning_scholarship_special.3002.b_alchemist:0 "Come potremo mai imparare se altra gente fa tutto il lavoro!?"
+ learning_scholarship_special.3002.a.success:0 "Creo il sale di piombo senza incidenti"
+ learning_scholarship_special.3002.a.failure:0 "I fumi del piombo mi fanno venire il mal di testa"
+ learning_scholarship_special.3002.tt:0 "Ottengo il sale di piombo"
+ learning_scholarship_special.3002.c:0 "A pensarci, questa non è una buona idea..."
+
+ learning_scholarship_special.3003.desc_alchemist:0 "Il secondo reagente che dobbiamo ottenere è l'alga... un sacco di alghe. Un centinaio di dracme, triturate e poi essiccate. Dove possiamo trovarne una quantità così considerevole?"
+ learning_scholarship_special.3003.desc:0 "Il secondo reagente che devo ottenere è l'alga... un sacco di alghe. Un centinaio di foglie, triturate e poi essiccate. Dove potrei ottenere una quantità così consistente?"
+ learning_scholarship_special.3003.a:0 "Le importerò da varia città costiere."
+ learning_scholarship_special.3003.b:0 "Chiedo ai miei sudditi delle alghe marine!"
+ learning_scholarship_special.3003.c:0 "Potrei semplicemente usare il mio piombo per addolcire il vino..."
+ learning_scholarship_special.3003.tt:1 "Ottengo le alghe marine"
+
+ learning_scholarship_special.3004.desc_alchemist:0 "Finalmente abbiamo tutti i reagenti necessari per produrre la pioggia dorata!\n\nLo zucchero di piombo è conservato al sicuro in botti impermeabili. I nastri di alghe secche sono impilati nella fornace, pronti a bruciare.\n\nSarà questa la nostra magnum opus?"
+ learning_scholarship_special.3004.desc:0 "Finalmente ho tutti i reagenti necessari per produrre la pioggia dorata!\n\nLo zucchero di piombo è conservato in modo sicuro in botti impermeabili. I nastri di alghe secche sono impilati nella fornace, pronti a bruciare.\n\nSarà questa la mia magnus opus?"
+ learning_scholarship_special.3004.a:0 "Inizio l'esperimento!"
+ learning_scholarship_special.3004.a.success:1 "Riesco a creare la pioggia dorata"
+ learning_scholarship_special.3004.a.success.tt:1 "Richezza e gloria sono mie!"
+ learning_scholarship_special.3004.a.failure:0 "La formula non funziona come mi aspettavo"
+ learning_scholarship_special.3004.a.failure.tt:1 "Cosa ho creato invece?"
+ learning_scholarship_special.3004.b:0 "...cosa sto facendo? Tutto questo è stupido."
+
+ learning_scholarship_special.3005.desc_alchemist:0 "Dopo aver mescolato lo zucchero di piombo nella soluzione, questa è diventata improvvisamente di un giallo vibrante! Abbiamo avuto un momento di preoccupazione quando la mistura è diventata chiara dopo l'ebollizione, ma una volta raffreddatasi, abbiamo visto dei piccoli cristalli dorati formarsi nella beuta.\n\nAll'esame, ci è stato facile capire che questi cristalli non sono oro vero, in quanto sono traslucidi. Tuttavia, è possibile che questa reazione sia uno dei mitici '12 processi vitali' necessari per creare l'oro!"
+ learning_scholarship_special.3005.desc:0 "Dopo aver mescolato lo zucchero di piombo nella soluzione, questa è diventata improvvisamente di un giallo vibrante! Ho avuto un momento di preoccupazione quando la miscela è diventata chiara dopo l'ebollizione, ma una volta raffreddatasi, ho visto piccoli cristalli color oro formarsi nella mia beuta.\n\nAll'esame, è stato facile capire che questi cristalli non sono oro vero, in quanto sono traslucidi. Tuttavia, è possibile che questa reazione sia uno dei mitici "12 processi vitali" necessari per creare l'oro!"
+ learning_scholarship_special.3005.a:0 "Sono un passo più vicin[ROOT.Char.Custom('DE_END_PRO_S_N')] alla vera transmutazione?"
+ learning_scholarship_special.3005.a_alchemist:0 "Siamo un passo più vicini alla vera transmutazione?"
+
+ learning_scholarship_special.3006.desc_alchemist:0 "Dopo aver mescolato lo zucchero di piombo alla cenere d'alga bollita, la miscela è diventata improvvisamente di un giallo vibrante.\n\nSebbene non siamo riusciti a produrre dell'oro vero, abbiamo scoperto che la nostra soluzione può essere usata come un colorante capace di rivaleggiare in brillantezza con lo zafferano. La vendita di questa tintura mi permetterà di recuperare una parte dei costi."
+ learning_scholarship_special.3006.desc:0 "Dopo aver mescolato lo zucchero di piombo alla cenere d'alga bollita, la miscela è diventata improvvisamente di un giallo vibrante.\n\nAnche se non sono riuscito a produrre dell'oro vero, ho scoperto che la mia soluzione può essere utilizzata come un colorante capace di rivaleggiare in brillantezza con lo zafferano. La vendita di questa tintura mi permetterà di recuperare una parte dei miei costi."
+ learning_scholarship_special.3006.a:0 "Graziosa, anche se costosa da produrre."
+ 
+ learning_scholarship_special.3007.desc_alchemist:0 "Dopo aver bruciato le alghe e averle mescolate con l'acqua, ci siamo ritrovati con una quantità allarmante di disgustosa melma marrone. Incerti su cosa fare a questo punto, abbiamo mescolato lo zucchero di piombo nella soluzione, ma non si è verificato nessun cambiamento osservabile.\n\nPurtroppo l'unico uso a cui posso pensare per l'esperimento è quello di fertilizzante."
+ learning_scholarship_special.3007.desc:0 "Dopo aver bruciato le alghe e averle mescolate con l'acqua, mi sono ritrovato con una quantità allarmante di disgustosa melma marrone. Incerto su cosa fare a questo punto, ho mescolato lo zucchero al piombo nella soluzione, ma non si è verificato nessun cambiamento osservabile.\n\nPurtroppo l'unico uso a cui posso pensare per il mio esperimento è quello di fertilizzante."
+ learning_scholarship_special.3007.a:0 "Suppongo che le coltivazioni cresceranno sane quest'anno?"
+
+ learning_scholarship_special.3099.termination.toast:0 "Transmutazione ostacolata"
+ learning_scholarship_special.3099.termination.desc.prison:0 "Non posso continuare i miei esperimenti con la trasmutazione dalla prigione."
+ learning_scholarship_special.3099.termination.desc.incapable:0 "Non posso continuare i miei esperimenti con la trasmutazione mentre sono incapace."
+ 
+ #Dear god, go outside by Isabella Welch
+ learning_scholarship.4000.t:1 "Per [ROOT.GetCharacter.GetFaith.HighGodName], Fuori!"
+ learning_scholarship.4000.desc:0 "È tardi, e mi sto gustando un avvincente trattato di grammatica classica. Proprio mentre sto iniziando a ridacchiare per alcune note deliziosamente sprezzanti scritte sul margine, lasciate dal lettore precedente, mi[spouse_uninterested_in_study.Custom('DE_END_PRO_S_N')] [spouse_uninterested_in_study.GetWifeHusband] entra nella [ROOT.Char.Custom('GetRoom')].\n\n"Sei un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetWomanMan] senza spina dorsale! Non ti importa di nulla a parte i tuoi studi, leggi da sol[ROOT.Char.Custom('DE_END_PRO_S_N')] in casa dal tramonto all'alba. Stacca le tue mani da quelle pergamene polverose, o non ti azzardare a venire nel mio letto stanotte.""
+ learning_scholarship.4000.a:0 "Come desideri."
+ learning_scholarship.4000.b:0 "Forse potremmo leggere degli estratti insieme d'ora in avanti."
+ learning_scholarship.4000.c:0 "Devo lavorare fino a tardi per preparare le lezioni per il car[child_educated.Custom('DE_END_PRO_S_N')] [child_educated.GetFirstNameNoTooltip]."
+ learning_scholarship.4000.c.tt:0 "[spouse_uninterested_in_study.GetFirstName] non è [spouse_uninterested_in_study.Custom('DE_ART_DEF_P_A')] [spouse_uninterested_in_study.GetMotherFather] di [child_educated.GetFirstNameNoTooltip]."
+ learning_scholarship.4000.d:0 "Non ho bisogno di giacere con te, possiedo già il caldo abbraccio della conoscenza!"
+ 
+ # Bibliomancy by Chad Uhl
+ bibliomancy_chain_header:0 "Un Testo Sacro:"
+
+ learning_scholarship.5000.t:0 "Un Testo Sacro"
+ learning_scholarship.5000.desc:0 "Mentre sono fuori a passeggiare per il mercato, un mercante mi chiama insistendo di avere qualcosa che stuzzicherà il mio interesse.\n\nIl profumo di erbe secche e di tinture straniere travolge i miei sensi quando mi avvicino alla bancarella. [merchant_mystic.Custom('DE_ART_IND_D')] sta frugando tra la sua collezione di tomi polverosi e altri tesori.\n\nDopo aver fatto qualche ricerca, il mercante estrae un vecchio libro e insiste dicendo che ne avrò bisogno per "ciò che verrà"."
+ learning_scholarship.5000.a:0 "Va bene, abbocco."
+ learning_scholarship.5000.b:0 "Forse possiamo trovare un accordo."
+ learning_scholarship.5000.c:0 "Prendo ciò di cui ho bisogno."
+ learning_scholarship.5000.d:0 "Che bisogno ho dei tuoi libri?"
+
+ learning_scholarship.5000.b.success:0 "Contratti un prezzo migliore"
+ learning_scholarship.5000.b.failure:0 "Non riesci a contrattare un prezzo migliore"
+
+ bibliomancy_book_purchased:0 "Riceverai un libro [artifact|E]"
+ learning_scholarship_sacred_artifact_obtained:0 "Ottieni il testo sacro"
+
+ learning_scholarship.5001.t:0 "$bibliomancy_chain_header$ Bibliomanzia"
+ learning_scholarship.5001.desc:0 "Mentre sto mettendo via il mio nuovo acquisto, il/la [sacred_text.GetName], cade un foglio di pergamena. Su di esso ci sono le istruzioni per una practica chiamata bibliomanzia, grazie alla quale si può divinare la propria fortuna da un passaggio in un libro.\n\nTutto ciò di cui ho bisogno è aprire questo testo in un punto a caso e leggere il primo fatidico verso sul quale i miei occhi si poseranno."
+ learning_scholarship.5001.a:0 "La tentazione è travolgente."
+ learning_scholarship.5001.b:0 "Non avrò niente a che fare con questa pratica empia."
+
+ learning_scholarship.5002.t:0 "$bibliomancy_chain_header$ Lettura Disastrosa"
+ learning_scholarship.5002.desc:0 "Seguo alla lettera le istruzioni e seleziono un passaggio a caso dal testo di fronte a me. Tremando per l'attesa, apro gli occhi e leggo:\n\n#EMP La paura è l'assassino della mente. Un codardo muore un migliaio di volte, un uomo valoroso una volta sola.#!\n\nCosa dovrei farne?"
+ learning_scholarship.5002.a:0 "La paura è la piccola morte che porta all'obliterazione totale."
+ learning_scholarship.5002.b:0 "Affascinante. Questa cosa richiede ulteriori ricerche."
+ learning_scholarship.5002.b.success:0 "Scopro il vero significato di questo passaggio"
+ learning_scholarship.5002.b.failure:0 "Il passaggio continua a sfuggirmi"
+ learning_scholarship.5002.c:0 "Che sciocchezza totale!"
+ learning_scholarship.5002.c.tt:0 "Ignori il passaggio"
+ learning_scholarship.5002.d:0 "Il mio $antiquarian_court_position$, [antiquarian.GetTitledFirstNameNoTooltip], dovrebbe darci un'occhiata."
+
+ learning_scholarship.5003.t:0 "$bibliomancy_chain_header$ Bibliomanzia"
+ learning_scholarship.5003.desc:0 "[bibliomancy_antagonist.Custom('DE_ART_DEF_P_D')] mi[bibliomancy_antagonist.Custom('DE_END_PRO_S_N')] vassall[bibliomancy_antagonist.Custom('DE_END_PRO_S_N')], [bibliomancy_antagonist.GetName], è stato silenziosamente scettico sulle mie capacità per anni. Recentemente, però, il mio amministratore riferisce che [bibliomancy_antagonist.GetSheHe] abbia iniziato a criticare il mio diritto a governare più apertamente. [bibliomancy_antagonist.GetSheHe|U] ha influenza sugli altri vassalli e potrebbe facilmente rendermi la vita difficile.\n\nIl passaggio nel testo sacro potrebbe averlo predetto? La paura è l'assassino della mente..."
+ learning_scholarship.5003.a:0 "Affronto la mia paura."
+ learning_scholarship.5003.a.tt:0 "Dibatto con [bibliomancy_antagonist.GetName] in un dibattito pubblico"
+ learning_scholarship.5003.b:0 "Un approccio discreto è il migliore."
+ learning_scholarship.5003.b.tt:0 "Faccio delle offerte formali a [bibliomancy_antagonist.GetName]"
+ learning_scholarship.5003.c:0 "Parliamone più tardi."
+ learning_scholarship.5003.vassal.tt:0 "Ogni vassallo"
+
+ learning_scholarship.5003.a.success:0 "Vinci il dibattito contro [bibliomancy_antagonist.Custom('DE_ART_DEF_P_A')] tu[bibliomancy_antagonist.Custom('DE_END_PRO_S_N')] vassall[bibliomancy_antagonist.Custom('DE_END_PRO_S_N')]"
+ learning_scholarship.5003.a.failure:0 "Perdi il dibattito contro [bibliomancy_antagonist.Custom('DE_ART_DEF_P_A')] tu[bibliomancy_antagonist.Custom('DE_END_PRO_S_N')] vassall[bibliomancy_antagonist.Custom('DE_END_PRO_S_N')]"
+ learning_scholarship.5003.b.success:0 "Riesci a placare [bibliomancy_antagonist.Custom('DE_ART_DEF_P_A')] tu[bibliomancy_antagonist.Custom('DE_END_PRO_S_N')] vassall[bibliomancy_antagonist.Custom('DE_END_PRO_S_N')]"
+ learning_scholarship.5003.b.failure:0 "Non riesci a placare [bibliomancy_antagonist.Custom('DE_ART_DEF_P_A')] tu[bibliomancy_antagonist.Custom('DE_END_PRO_S_N')] vassall[bibliomancy_antagonist.Custom('DE_END_PRO_S_N')]"
+
+ learning_scholarship.5004.t:0 "$bibliomancy_chain_header$ Passaggio Problematico"
+ learning_scholarship.5004.desc:0 "Per quanto mi riguarda, non riesco a capire questo passaggio del/della [sacred_text.GetName] e questa cosa mi sta logorando!\n\nLa paura è l'assassino della mente... Cosa potrà mai significare? Di cosa dovrei aver paura? #EMP Cosa sto tralasciando#!?\n\nForse qualcun altro potrebbe essere in grado di far luce su questa cosa."
+ learning_scholarship.5004.a:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstNameNoTooltip] conoscerà la risposta."
+ learning_scholarship.5004.b:0 "[target_courtier.Custom('DE_ART_DEF_P_D')] mi[target_courtier.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('GetCourtier')] [target_courtier.GetTitledFirstNameNoTooltip] mi aiuterà."
+ learning_scholarship.5004.c:0 "Mi arrendo."
+ learning_scholarship.5004.a.success:0 "Il [court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] mi chiarisce il passaggio"
+ learning_scholarship.5004.a.failure:0 "Il [court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] non riesce a capire il passaggio"
+ learning_scholarship.5004.b.success:0 "[target_courtier.GetFirstNameNoTooltip] mi chiarisce il passaggio"
+ learning_scholarship.5004.b.failure:0 "[target_courtier.GetFirstNameNoTooltip] non riesce a capire il passaggio"
+
+ learning_scholarship.5005.t:0 "$bibliomancy_chain_header$ Niente da temere"
+ learning_scholarship.5005.desc:0 "Ho finalmente decifrato il misterioso passaggio del testo sacro, e mi sento molto più saggio per questo. Grazie a quel mercante, i fili del destino mi appaiono improvvisamente più chiari.\n\nLa paura può anche essere l'assassino della mente, ma io ho affrontato la mia paura."
+ learning_scholarship.5005.a:0 "Senza paura, muoio solo una volta."
+
+ learning_scholarship.5006.t:0 "$bibliomancy_chain_header$ Paranoia Crescente"
+ learning_scholarship.5006.desc:0 "Dopo aver trascorso giorni su questo passaggio indecifrabile e ottuso, alla fine mi sono arres[ROOT.Char.Custom('DE_END_PRO_S_N')]. Non ho la minima idea di cosa possa significare e tutta questa faccenda mi ha raggelato fino al midollo.\n\nCosa succederà? Adesso dovrò vivere nella paura #EMP per sempre#!?"
+ learning_scholarship.5006.a:0 "La paura è la piccola morte che porta all'obliterazione totale."
+
+ learning_scholarship_paranoid_trait.tt:0 "Hai ottenuto questo tratto perché non sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] in grado di dare un senso al passaggio nel/nella [sacred_text.GetName]"
+ learning_scholarship_paranoid_trait_possible:0 "Potresti guadagnare il [trait|E] [GetTrait('paranoid').GetName( GetNullCharacter )]"
+
+# The Man of Few Letters by Jason Cantalini
+ learning_scholarship.6000.t:0 "L[illiterate.Custom('DE_PRO_PER_S_3P_N')][illiterate.GetWomanMan|U] di Poche Parole"
+
+ learning_scholarship.6000.desc:0 "Sembra che, nonostante tutti gli sforzi di [teacher.Custom2('HerHisCharacterIntroduction',illiterate)], [illiterate.GetName] rimanga alfabetizzato quanto lo scemo medio del villaggio.\n\n"Saggissim[ROOT.Char.Custom('DE_END_PRO_S_N')] ed illuminat[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleTierName]," adula [teacher.GetFirstNameNoTooltip]. "Come posso ispirare [illiterate.Custom('DE_ART_DEF_P_A')] mi[illiterate.Custom('DE_END_PRO_S_N')] Signor[illiterate.Custom('DE_END_ADJ_IND_S_A')] ad imparare a leggere?""
+ learning_scholarship.6000.willing_pupil:0 "\n\n[teacher.GetSheHe|U] sospira, esasperat[teacher.Custom('DE_END_PRO_S_N')].\n\n"[illiterate.Custom('DE_ART_DEF_P_D')] [illiterate.GetTitleAsNameNoTooltip] non si dedicherà a ore di studio solo per il piacere di leggere...""
+ learning_scholarship.6000.holy_book_insult:0 "\n\n[teacher.GetSheHe|U] esita, poi borbotta:\n\n"Ciò che [illiterate.Custom('DE_ART_DEF_P_D')] [illiterate.GetTitleAsNameNoTooltip] ha detto dopo aver faticato sulle prime sacre righe del/della [illiterate.GetFaith.ReligiousText]... non è stato né sacro #EMP né#! illuminato...""
+ learning_scholarship.6000.poetry_insult:0 "\n\nL'insegnante fa una smorfia.\n\n"Quello che [illiterate.GetTitledFirstNameNoTooltip] ha detto dopo aver faticato sulla più elegante poesia [illiterate.GetCulture.GetNameNoTooltip]... non è stato né elegante #EMP né#! illuminato...""
+ learning_scholarship.6000.very_willing_pupil:0 "\n\n[teacher.GetSheHe|U] indica la conoscenza che ho accumulato.\n\n"[illiterate.Custom('DE_ART_DEF_P_D')] [illiterate.GetTitleTierName] teme di dover continuare a faticare su migliaia di righe e non raggiungere mai una saggezza pari alla la vostra.""
+
+ learning_scholarship.6000.a:0 "[illiterate.Custom('DE_ART_DEF_P_D')] mi[illiterate.Custom('DE_END_PRO_S_N')] [illiterate.GetCouncilTitle] ha bisogno di un racconto di popoli lontani."
+ learning_scholarship.6000.b:0 "[illiterate.Custom('DE_ART_DEF_P_D')] mi[illiterate.Custom('DE_END_PRO_S_N')] [illiterate.GetCouncilTitle] ha bisogno di una cronaca ricca di pettegolezzi di corte."
+ learning_scholarship.6000.c:0 "[illiterate.Custom('DE_ART_DEF_P_D')] mi[illiterate.Custom('DE_END_PRO_S_N')] [illiterate.GetCouncilTitle] ha bisogno di racconti di gesta belliche."
+ learning_scholarship.6000.d:0 "[illiterate.Custom('DE_ART_DEF_P_D')] mi[illiterate.Custom('DE_END_PRO_S_N')] [illiterate.GetCouncilTitle] ha bisogno di un trattato sulla giustizia."
+ learning_scholarship.6000.e:0 "[illiterate.Custom('DE_ART_DEF_P_D')] mi[illiterate.Custom('DE_END_PRO_S_N')] [illiterate.GetCouncilTitle] ha bisogno di un'irresistibile ode alla spiritualità."
+
+ learning_scholarship.6000.f:0 "[illiterate.Custom('DE_ART_IND_A')|U] leggerà le parole di su[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleTierName]."
+ learning_scholarship.6000.f.tt:0 "Una scusa per scrivere, piuttosto che per governare!"
+ learning_scholarship.6000.f.success:0 "Il tuo trattato è molto istruttivo"
+ learning_scholarship.6000.f.failure:0 "[illiterate.Custom('DE_ART_DEF_P_D')] tu[illiterate.Custom('DE_END_PRO_S_N')] vassall[illiterate.Custom('DE_END_PRO_S_N')] si fa beffe del tuo testo noioso e inutile"
+
+
+ learning_scholarship.6000.g:0 "Il tempo di [illiterate.GetTitleAsNamePossessiveNoTooltip] è troppo prezioso per questo."
+ learning_scholarship.6000.g.tt:0 "È un[illiterate.Custom('DE_PRO_POS_P_2P')] [illiterate.GetWomanMan] d'azione — altri posso leggere per [illiterate.GetSheHe]!"
+
+ learning_scholarship.6000.h:0 "Blasfemia? Parlamene ancora un po'..."
+ learning_scholarship.6000.h.tt:0 "Puoi far credere che le parole di [illiterate.GetTitleAsNamePossessiveNoTooltip] sembrino #EMP davvero#! empie"
+ learning_scholarship.6000.non_believer:0 "Otteni la prova che [illiterate.GetTitledFirstName] sia un[illiterate.Custom('DE_PRO_POS_P_2P')] Non Credente"
+
+ learning_scholarship.6000.i:0 "Onorerò la poesia [illiterate.GetCulture.GetNameNoTooltip], per ispirarl[illiterate.Custom('DE_END_PRO_S_N')]."
+ learning_scholarship.6000.i.tt:0 "Nella tua corte, la poesia [illiterate.GetCulture.GetNameNoTooltip] verrà recitata più frequentemente"
+
+ learning_scholarship.6000.j:1 "La saggezza consiste nel vedere la meraviglia in ogni parola..."
+ learning_scholarship.6000.j.tt:1 "...piuttosto che desiderare di averle lette tutte."
+
+ learning_scholarship.6000.k:0 "L'alfabetizzazione è al di là delle capacità di quel[illiterate.Custom('DE_END_ADJ_NUL_S_N')] babbe[illiterate.Custom('DE_END_PRO_S_N')]!"
+ learning_scholarship.6000.k.tt:0 "Tanto vale insegnare l'astronomia ad una capra!"
+ high_learning_custom:1 "Ogni vassallo non-[GetTrait('compassionate').GetName( GetNullCharacter )] con un'alta [learning|E]"

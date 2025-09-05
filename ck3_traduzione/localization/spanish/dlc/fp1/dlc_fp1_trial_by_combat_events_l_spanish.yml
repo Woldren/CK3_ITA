@@ -1,0 +1,78 @@
+﻿l_spanish:
+ # TbC Misc Loc Keys
+ fp1_tbc.0000.t:0 "Processo per Combattimento"
+
+ # TbC about to begin.
+ fp1_tbc.0001.t:0 "$fp1_tbc.0000.t$: [duel_location.GetBaseNameNoTierNoTooltip]"
+ fp1_tbc.0001.desc.intro:0 "Arrivo nel punto designato vicino a [duel_location.GetBaseNameNoTier] in tempo utile e trovo che [champion.GetTitledFirstName] mi sta già aspettando, insieme a un piccolo seguito di testimoni."
+ fp1_tbc.0001.desc.recipient_fighting:0 "\n\n[champion.GetFirstNameNoTooltip] potrebbe essere definit[champion.Custom('DE_END_PRO_S_N')] in molti modi, ma è in grado di combattere, ed è dispost[champion.Custom('DE_END_PRO_S_N')] a correre il rischio affrontandomi da [champion.GetWomanMan] a [actor.GetWomanMan]."
+ fp1_tbc.0001.desc.recipient_has_champion:0 "Non essendo [recipient.GetTitledFirstName] in grado di combattere, [champion.GetFirstNameNoTooltip] ha accettato di fare da campione per [recipient.GetSheHe]."
+ fp1_tbc.0001.desc.outro:0 "\n\nLe formalità sono brevi. Sappiamo tutti perché siamo qui, e abbiamo superato da tempo la parte delle chiacchiere. Le armi vengono distribuite e i nostri accompagnatori si ritirano per osservare da una distanza di sicurezza."
+ fp1_tbc.0001.trigger_failure.actor:0 "Il mio [trial_by_combat_trial|E] contro [recipient.GetFirstNameNoTooltip] è stato invalidato"
+ fp1_tbc.0001.trigger_failure.recipient:0 "Il mio [trial_by_combat_trial|E] contro [actor.GetFirstNameNoTooltip] è stato invalidato"
+ fp1_tbc.0001.a:0 "Che vinca il migliore."
+ fp1_tbc.0001.a.tt:0 "Il [trial_by_combat|E] ha inizio!"
+
+ # TbC has invalidated.
+ fp1_tbc.0021.trigger_failure.actor:0 "$fp1_tbc.0001.trigger_failure.actor$"
+ fp1_tbc.0021.trigger_failure.recipient:0 "$fp1_tbc.0001.trigger_failure.recipient$"
+
+ fp1_tbc.0031.opening:0 "[recipient.Custom2('AppropriateGreeting',actor)]"
+ fp1_tbc.0031.desc:0 "Combattere contro di #EMP te#!? Forse dovresti prendere in considerazione l'idea di ritirarti per diventare un giullare. Non accadrà mai.\n\nTi prego, sentiti libero di continuare ad inviare altri scherzi scritti a [recipient.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]."
+ fp1_tbc.0031.a:0 "Quel[recipient.Custom('DE_END_ADJ_NUL_S_N')] [recipient.Custom('InsultAdjective')] [recipient.Custom('InsultNoun')]!"
+
+ # Scope:actor won a TbC.
+ fp1_tbc.0041.t:0 "$fp1_tbc.0000.t$: Vittoria!"
+ fp1_tbc.0041.desc.intro:0 "Mentre riposo tranquillamente a [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], esulto per il mio trionfo, con [actor.Custom('signature_weapon')] posata sulle ginocchia.\n\n"
+ fp1_tbc.0041.desc.opponent_died:0 "Il sangue di [champion.GetTitledFirstNamePossessive] scorre ancora nelle scalanature dell'arma, facendomi ricordare i suoi ultimi momenti."
+ fp1_tbc.0041.desc.opponent_lives.recipient_fighting:0 "I dolori soddisfacenti che attraversano il mio corpo mi ricordano brevi istanti del combattimento, i miei piccoli successi, così come i miei piccoli fallimenti pagati a caro prezzo dal mio avversario, ognuno dei quali sempre più vicino alla sconfitta di [recipient.GetTitledFirstNamePossessive]."
+ fp1_tbc.0041.desc.opponent_lives.recipient_has_champion:0 "In un mondo ideale, sarei stato in grado di assestare all'istante il colpo vincente su [recipient.GetTitledFirstName]. Purtroppo, non è così che doveva andare; è stato necessario ridurre [champion.GetTitledFirstName] ad una poltiglia."
+ fp1_tbc.0041.desc.reward.gold:0 "\n\nUn borsello d'argento è appoggiato sul mio stinco, il suo peso soddisfacente testimonia una giustizia ben servita. Ho fatto contare ogni moneta, una per una, davanti a #EMP tutti#! prima di tornare a casa."
+ fp1_tbc.0041.desc.reward.weak_hook:0 "\n\nCi volle un'ora o più perché l'ultimo dei giuramenti fosse prestato davanti ai testimoni presenti. Un giorno, invocherò quei giuramenti e riscuoterò il mio pagamento per intero."
+ fp1_tbc.0041.desc.reward.humiliation:0 "\n\nLe lunghe, estenuanti scuse, l'umiliazione, il tutto testimoniato da un gruppo di poeti ingaggiati... semplicemente #EMP glorioso#!. Potrebbero passare anni prima che [recipient.GetFirstNameNoTooltip] si riprenda da questa umiliazione."
+ fp1_tbc.0041.desc.outro:0 "\n\nIeri, abbiamo posto la nostra disputa davanti agli Dei, e gli Dei hanno risposto saggiamente."
+ fp1_tbc.0041.a:0 "La giustizia è servita."
+
+ # Scope:actor lost a TbC.
+ fp1_tbc.0051.t:0 "$fp1_tbc.0000.t$: Sconfitta!"
+ fp1_tbc.0051.desc.intro:0 "Come si è arrivati a questo? Ho cercato #EMP giustizia#! davanti a [actor.GetFaith.PantheonTerm], e sono stato ricompensato con la sofferenza e l'umiliazione. Non ho detto una parola durante tutto il viaggio di ritorno a [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].\n\n"
+ fp1_tbc.0051.desc.opponent_lives.recipient_fighting:0 "Non capisco come [recipient.GetTitledFirstName] mi abbia battuto. Ero nel #EMP giusto#!. Avrei dovuto essere #EMP io#! a vincere, è quello lo scopo di un $game_concept_trial_by_combat$."
+ fp1_tbc.0051.desc.opponent_lives.recipient_has_champion:0 "In un combattimento equo sarei stato #EMP ovviamente#! io a battere [recipient.GetFirstName]! Che [champion.GetTitledFirstName] sia maledetto, lui e queste tradizioni intralcianti!"
+ fp1_tbc.0051.desc.outro:0 "\n\nOra tutto il mondo considera le nostre questioni risolte e che sia stata fatta giustizia."
+ fp1_tbc.0051.a:0 "Pah, non v'è stata giustizia qui."
+
+ # Scope:recipient must designate a champion to fight for them.
+ fp1_tbc.0101.t:0 "$fp1_tbc.0000.t$: Scegliere un Campione"
+ fp1_tbc.0101.desc:0 "Ho accettato la richiesta di [actor.GetTitledFirstNamePossessive] di un $game_concept_trial_by_combat$, ma sarebbe inapproiato per me combatterere con [actor.GetSheHe] personalmente.\n\nLa tradizione vuole che io scelga un campione che combatta in mia vece, ma chi scegliere?"
+ fp1_tbc.0101.bout_moves_forward:0 "L'incontro va avanti..."
+ fp1_tbc.0101.a:0 "[knight_best.GetTitledFirstNameNoTooltip] è tra i più grandi della mia $knight_culture_player_plural_no_tooltip_lowercase$!"
+ fp1_tbc.0101.a.tt:0 "[knight_best.GetTitledFirstName] combatterà per te"
+ fp1_tbc.0101.b:0 "[knight_alternative.GetTitledFirstNameNoTooltip] è una buona alternativa..."
+ fp1_tbc.0101.b.tt:0 "[knight_alternative.GetTitledFirstName] combatterà per te"
+ fp1_tbc.0101.c:0 "Dicono che [knight_exotic.GetTitledFirstNameNoTooltip] sia addestrato nel combattimento"
+ fp1_tbc.0101.c.tt:0 "[knight_exotic.GetTitledFirstName] combatterà per te"
+ fp1_tbc.0101.d:0 "L'amore di [knight_opinion.GetTitledFirstNameNoTooltip] mi proteggerà."
+ fp1_tbc.0101.d.tt:0 "[knight_opinion.GetTitledFirstName] combatterà per te"
+
+ fp1_ep1_tbc.0101.e:0 "[knight_alternative.Custom('DE_ART_DEF_P_D')] mi[knight_alternative.Custom('DE_END_PRO_S_N')] già designat[knight_alternative.Custom('DE_END_PRO_S_N')] $champion_court_position$, [knight_alternative.GetTitledFirstNameNoTooltip], mi rappresenterà."
+ fp1_ep1_tbc.0101.e.tt:0 "[knight_alternative.GetTitledFirstName] combatterà per te"
+
+ # Scope:recipient won a TbC.
+ fp1_tbc.0111.t:0 "$fp1_tbc.0000.t$: Vittoria!"
+ fp1_tbc.0111.desc.intro:0 "[recipient.GetFaith.PantheonTerm|U] mi ha sorriso di cuore ieri!"
+ fp1_tbc.0111.desc.opponent_died.recipient_fighting:0 "\n\nChiudendo gli occhi, posso ancora sentire l'adrenalina che scorre nel mio sistema, i muscoli che si contraggono con il fantasma della lotta, congelati nell'istante in cui la vita di [actor.GetTitledFirstNamePossessive] si è interrotta e la mia vittoria è stata assicurata."
+ fp1_tbc.0111.desc.opponent_lives.recipient_fighting:0 "\n\nNon solo ho potuto picchiare [actor.GetFirstName] a sangue per la sua temerarietà, ma ho dimostrato in modo definitivo che le sue affermazioni calunniose sono del tutto infondate."
+ fp1_tbc.0111.desc.opponent_lives.recipient_has_champion:0 "\n\nGuardare [champion.GetFirstName] picchiare a sangue [actor.GetFirstName] è stato ancora più dolce sapendo che la sua vittoria mi assolve da ogni colpa."
+ fp1_tbc.0111.desc.outro:0 "\n\nForse il prossimo sciocco ci penserà due volte prima di sfidare [recipient.GetTitledFirstNameNicknamedNoTooltip] ad un combattimento!"
+ fp1_tbc.0111.a:0 "$fp1_tbc.0041.a$"
+
+ # Scope:recipient lost a TbC.
+ fp1_tbc.0121.t:0 "$fp1_tbc.0000.t$: Sconfitta!"
+ fp1_tbc.0121.desc.intro:0 "[recipient.GetFaith.PantheonTerm|U] non mi ha sorriso ieri."
+ fp1_tbc.0121.desc.champion_lives.recipient_fighting:0 "I dolori e i tagli che costellano il mio corpo ne sono la prova; ognuno di essi è un regalo dell'arma di [actor.GetFirstNamePossessive]. Sono fortunato ad essere viv[ROOT.Char.Custom('DE_END_PRO_S_N')]."
+ fp1_tbc.0121.desc.champion_lives.recipient_has_champion:0 "Quando ho scelto [champion.GetTitledFirstName], mi sono sentit[ROOT.Char.Custom('DE_END_PRO_S_N')] così sicuro che [champion.GetSheHe] avrebbe battuto [actor.GetTitledFirstName], ma è solo fortunat[champion.Custom('DE_END_PRO_S_N')] ad essere viv[champion.Custom('DE_END_PRO_S_N')]."
+ fp1_tbc.0121.desc.reward.gold:0 "\n\nQuando [actor.GetFirstNameNoTooltip] ha preso il suo argento, [actor.Custom('DE_ART_IND_A')] ha insistito a fermarsi a contarli, moneta per moneta, costringendoci a guardare mentre si dilettava del dispiacere di quelli che erano con me."
+ fp1_tbc.0121.desc.reward.weak_hook:0 "\n\nÈ sembrato come se ci fosse voluta un'ora, prima che l'ultimo dei giuramenti di debito venisse prestato e suggellato davanti ai nostri testimoni presenti. Un giorno, [actor.GetFirstNameNoTooltip] tornerà a riscuotere il debito."
+ fp1_tbc.0121.desc.reward.humiliation:0 "\n\nLeggere le sconclusionate "scuse" di [actor.GetFirstNamePossessiveNoTooltip] richiese un'eternità,i miei denti digrignarono per tutto il tempo mentre soffocavo le parole. I poeti assunti da [actor.GetSheHe|U] semplicemente si limitavano a ridacchiare in sottofondo, memorizzando ogni mia espressione."
+ fp1_tbc.0121.desc.outro:0 "\n\nLa vittoria è andata a uno sciocco e a un mendicante."
+ fp1_tbc.0121.a:0 "$fp1_tbc.0051.a$"

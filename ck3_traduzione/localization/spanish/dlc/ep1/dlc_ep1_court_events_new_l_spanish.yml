@@ -1,0 +1,10 @@
+﻿l_spanish:
+ court_new.0001.t: "La Spada di Damocle"
+ court_new.0001.desc.intro: "Sento un'improvvisa frattura quando una sezione dell'impalcatura si rompe e cade a terra, mancando per un soffio un servitore, ma per il rapido istinto di [bodyguard_candidate.GetFirstName]."
+ court_new.0001.desc.murdered: "Mi viene in mente il macabro assassinio di [murdered_person.GetName], realizzato prima del suo tempo."
+ court_new.0001.desc.murderer: "Mi tornano in mente i piani omicidi di [murder_dude.GetName], una canaglia della peggior specie."
+ court_new.0001.desc.paranoid: "Ultimamente vedo ombre con la coda dell'occhio, spettri diabolici con intenti senza dubbio omicidi. Quest'ultimo episodio non fa che rafforzare la mia sensazione di pericolo imminente."
+ court_new.0001.desc.outro: "\n\nPotrebbe trattarsi di un'altra macchinazione scellerata? La vita di [Select_CString(ROOT.Char.IsFemale,'una','un')] [ROOT.Char.GetTitleAsNameNoTooltip] può essere così piena di pericoli, come se una spada mal posizionata fosse costantemente sospesa sopra la mia testa, in attesa di cadere da un momento all'altro.\n\nSe solo avessi qualcuno che si prendesse cura di me, una sorta di guardiano per il mio corpo mortale. [Select_CString(bodyguard_candidate.IsFemale,'Quella tizia','Quel tipo')], [bodyguard_candidate.GetFirstName]; [Select_CString(bodyguard_candidate.IsFemale,'una donna','un individuo')] diligente e [Select_CString(bodyguard_candidate.IsFemale,'robusta','robusto')], come mai prima d'ora. Forse dovrei [Select_CString(bodyguard_candidate.IsFemale,'nominarla','nominarlo')] per quel ruolo."
+ court_new.0001.a: "[bodyguard_candidate.GetFirstNameNoTooltip] sarà un'ottima guardia del corpo."
+ court_new.0001.a.murderer: "Non sono l'unic[ROOT.Char.Custom('DE_END_PRO_S_N')] assassin[ROOT.Char.Custom('DE_END_PRO_S_N')] in questo posto..."
+ court_new.0001.b: "Sono cert[ROOT.Char.Custom('DE_END_PRO_S_N')] che starò bene anche senza di [bodyguard_candidate.GetSheHe]."

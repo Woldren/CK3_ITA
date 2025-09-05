@@ -1,0 +1,28 @@
+﻿l_spanish:
+
+ HAS_DYNASTY_PRESTIGE_TRIGGER:1 "La [dynasty|E] [DYNASTY.GetBaseName] ha [dynasty_prestige_i]$NUM|V0$ [dynasty_prestige|E]"
+ NOT_HAS_DYNASTY_PRESTIGE_TRIGGER:1 "La [dynasty|E] [DYNASTY.GetBaseName] non ha [dynasty_prestige_i]$NUM|V0$ [dynasty_prestige|E]"
+
+ HAS_DYNASTY_PRESTIGE_LEVEL_TRIGGER:1 "La [dynasty|E] [DYNASTY.GetBaseName] ha un [dynasty_prestige_level|E] $COMPARATOR$ [GetDynastyPrestigeLevelName( '(int32)$NUM|q$' )] ($NUM|V0$)"
+ NOT_HAS_DYNASTY_PRESTIGE_LEVEL_TRIGGER:1 "La [dynasty|E] [DYNASTY.GetBaseName] #bold non#! ha un [dynasty_prestige_level|E] $COMPARATOR$ [GetDynastyPrestigeLevelName( '(int32)$NUM|q$' )] ($NUM|V0$)"
+
+ HAS_DYNASTY_MODIFIER:1 "La [dynasty|E] [DYNASTY.GetBaseName] ha il modificatore $MODIFIER|V$"
+
+ HAS_HOUSE_MODIFIER:0 "La [house|E] [DYNASTY_HOUSE.GetName] ha il modificatore $MODIFIER|V$"
+ NOT_HAS_HOUSE_MODIFIER: "La [house|E] [DYNASTY_HOUSE.GetName] #bold non#! ha il modificatore $MODIFIER|V$"
+ ADULT_HOUSE_MEMBERS_AT_LEAST:0 "Sono adulti almeno il $PERCENT|%$ dei membri della [house|E]:"
+ ADULT_HOUSE_MEMBERS_COUNT_AT_LEAST:0 "Almeno $COUNT$ membri adulti della [house|E]:"
+ 
+ DYNASTY_PRESTIGE_LEVEL_TRIGGER:0 "[dynasty_prestige_level|E]: $NUM|V0$"
+ HAS_DYNASTY_TRIGGER:0 "È un membro di una [dynasty|E]"
+ DYNASTY_NUM_UNLOCKED_PERKS:0 "Numero di vantaggi sbloccati: $NUM|V0$"
+ HAS_DYNASTY_PERK_NONE:0 "La [dynasty|E] ha il Lignaggio [DYNASTY_PERK.GetName]"
+ NOT_HAS_DYNASTY_PERK:0 "La [dynasty|E] [DYNASTY.GetBaseName]  non ha il Lignaggio [DYNASTY_PERK.GetName]"
+ HAS_DYNASTY_PERK:0 "The [dynasty|E] [DYNASTY.GetBaseName] ha il Lignaggio [DYNASTY_PERK.GetName]"
+
+ is_powerful_family: "[DYNASTY_HOUSE.GetName] è una famiglia potente"
+ NOT_is_powerful_family: "[DYNASTY_HOUSE.GetName] #bold non#! è una famiglia potente"
+ is_dominant_family: "[DYNASTY_HOUSE.GetName] è una famiglia dominante"
+ NOT_is_dominant_family: "[DYNASTY_HOUSE.GetName] #bold non#! è una famiglia dominante"
+ house_power: "Il potere della [DYNASTY_HOUSE.GetName] è $COMPARATOR$ $NUM|0V$"
+ house_land_share_in_realm_greater_than: "[DYNASTY_HOUSE.GetName] controlla almeno $NUM|%0V$ contee in [TARGET_CHARACTER.GetPrimaryTitle.GetName]"

@@ -1,0 +1,16 @@
+﻿l_spanish:
+ #Descs
+ fled_riot_at_races_memory_desc:0 "Sono fuggit[ROOT.Char.Custom('DE_END_PRO_S_N')] per mettermi al sicuro, mentre la pista da corsa del mio torneo scoppiava in una rivolta e molti ospiti rimanevano feriti."
+ fled_riot_at_races_memory_desc_second_perspective:0 "Sei fuggit[ROOT.Char.Custom('DE_END_PRO_S_N')] per metterti al sicuro, mentre la pista da corsa del tuo torneo scoppiava in una rivolta e molti ospiti rimanevano feriti."
+ fled_riot_at_races_memory_desc_third_perspective:0 "[owner.GetName] è fuggit[owner.Custom('DE_END_PRO_S_N')] per mettersi in salvo, mentre la pista da corsa del suo torneo è stata teatro di disordini e molti ospiti sono rimasti feriti."
+ failed_riot_at_races_memory_desc:0 "Non sono riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] a impedire la violenza della folla che ha rovinato le mie gare e ferito molti ospiti."
+ failed_riot_at_races_memory_desc_second_perspective:0 "Non sei riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] a impedire la violenza della folla che ha rovinato le tue gare e ferito molti ospiti."
+ failed_riot_at_races_memory_desc_third_perspective:0 "[owner.GetName] non è riuscit[owner.Custom('DE_END_PRO_S_N')] a impedire la violenza della folla che ha rovinato le sue gare e ferito molti ospiti. "
+ calmed_the_crowd_memory_desc:0 "Mediante il solo uso di parole gravi ed eloquenti, ho calmato una folla vasta e tumultuosa"
+ calmed_the_crowd_memory_desc_second_perspective:0 "Mediante il solo uso di parole gravi ed eloquenti, hai calmato una folla vasta e tumultuosa"
+ calmed_the_crowd_memory_desc_third_perspective:0 "Con un grande discorso e vari doni, [owner.GetName] calmato una folla vasta e tumultuosa"
+
+ #Titles
+ fled_riot_at_races_memory:0 "fuggito/a mentre scoppiava una rivolta alle corse"
+ failed_riot_at_races_memory:0 "non è riuscito/a a impedire che una folla in corsa si scatenasse in una violenta rivolta"
+ calmed_the_crowd_memory:0 "ha sedato una folla tumultuosa con un bel discorso"

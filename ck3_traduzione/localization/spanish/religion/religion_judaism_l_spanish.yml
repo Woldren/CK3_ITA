@@ -1,0 +1,149 @@
+﻿l_spanish:
+ judaism_religion:0 "Giudaismo"
+ judaism_religion_adj:0 "Ebraica"
+ judaism_religion_adherent:0 "Ebreo"
+ judaism_religion_adherent_plural:0 "Ebrei"
+ judaism_religion_desc:0 "Una buona vita è quella vissuta in conformità con il patto stipulato tra il popolo ebraico e l'unico e assoluto Dio ."
+ judaism_high_god_name:0 "Il Signore"
+ judaism_high_god_name_2:0 "$judaism_high_god_name$" # Optional translation alt
+ judaism_high_god_name_3:0 "$judaism_high_god_name$" # Optional translation alt
+ judaism_high_god_name_possessive:0 "del Signore"
+ judaism_high_god_alternate:0 "Il Santo"
+ judaism_high_god_alternate_possessive:0 "del Santo"
+ judaism_good_god_hashem:0 "HaShem"
+ judaism_good_god_el_shaddai:0 "Adonai"
+ judaism_devil_name:0 "Ba'al"
+ judaism_devil_name_possessive:0 "di Ba'al"
+ judaism_evil_god_the_adversary:0 "l'Avversario"
+ judaism_house_of_worship:0 "sinagoga"
+ judaism_house_of_worship_2:0 "la $judaism_house_of_worship$" # Optional translation alt
+ judaism_house_of_worship_3:0 "$judaism_house_of_worship$" # Optional translation alt
+ judaism_house_of_worship_plural:0 "sinagoghe"
+ judaism_religious_symbol:0 "menorah"
+ judaism_religious_symbol_2:0 "$judaism_religious_symbol$" # Optional translation alt
+ judaism_religious_symbol_3:0 "$judaism_religious_symbol$" # Optional translation alt
+ judaism_religious_text:1 "Torah"
+ judaism_religious_text_2:0 "$judaism_religious_text$" # Optional translation alt
+ judaism_religious_text_3:0 "$judaism_religious_text$" # Optional translation alt
+ judaism_religious_head_title:1 "Nasi"
+ judaism_religious_head_title_name:0 "Kohen Gadol"
+ judaism_devotee:0 "nazir"
+ judaism_devotee_plural:0 "nazir"
+ judaism_priest:0 "rabbino"
+ judaism_priest_plural:0 "rabbini"
+ judaism_bishop:0 "semuchim"
+ judaism_bishop_plural:0 "semuchim"
+ judaism_divine_realm:0 "Araboth"
+ judaism_divine_realm_2:0 "$judaism_divine_realm$" # Optional translation alt
+ judaism_divine_realm_3:0 "$judaism_divine_realm$" # Optional translation alt
+ judaism_positive_afterlife:0 "Olam Haba"
+ judaism_positive_afterlife_2:0 "$judaism_positive_afterlife$" # Optional translation alt
+ judaism_positive_afterlife_3:0 "$judaism_positive_afterlife$" # Optional translation alt
+ judaism_negative_afterlife:0 "Sheol"
+ judaism_negative_afterlife_2:0 "$judaism_negative_afterlife$" # Optional translation alt
+ judaism_negative_afterlife_3:0 "$judaism_negative_afterlife$" # Optional translation alt
+ judaism_death_deity_name:0 "L'Angelo della Morte"
+ judaism_death_deity_name_possessive:0 "dell'Angelo della Morte"
+ judaism_witchgodname_raziel:0 "Raziel"
+ judaism_witchgodname_raziel_possessive:0 "di Raziel"
+
+ judaism_creator_god_name:0 "$judaism_high_god_name$"
+ judaism_creator_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_health_god_name:0 "$judaism_high_god_name$"
+ judaism_health_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_fertility_god_name:0 "$judaism_high_god_name$"
+ judaism_fertility_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_wealth_god_name:0 "$judaism_high_god_name$"
+ judaism_wealth_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_household_god_name:0 "$judaism_high_god_name$"
+ judaism_household_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_fate_god_name:0 "$judaism_high_god_name$"
+ judaism_fate_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_knowledge_god_name:0 "$judaism_high_god_name$"
+ judaism_knowledge_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_war_god_name:0 "$judaism_high_god_name$"
+ judaism_war_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_trickster_god_name:0 "$christianity_trickster_god_name$"
+ judaism_trickster_god_name_possessive:0 "$christianity_trickster_god_name_possessive$"
+ judaism_night_god_name:0 "$judaism_high_god_name$"
+ judaism_night_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_water_god_name:0 "$judaism_high_god_name$"
+ judaism_water_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+
+ #Rabbinism
+ rabbinism:0 "Rabbinismo"
+ rabbinism_adj:0 "Rabbinica"
+ rabbinism_adherent:0 "Rabbinista"
+ rabbinism_adherent_plural:0 "Rabbinisti"
+ rabbinism_desc:0 "Il rabbinismo rimarca come lo scopo dei rabbini sia quello di essere interpreti della legge religiosa dell'Halakha. Leggi e tradizioni sono ciò che assicura che l'alleanza con il Signore sia mantenuta, e i rabbini proteggono quelle leggi."
+
+ #Karaite
+ karaism:0 "Caraismo"
+ karaism_adj:0 "Caraita"
+ karaism_adherent:0 "Caraita"
+ karaism_adherent_plural:0 "Caraiti"
+ karaism_desc:0 "In materia di diritto religioso, solo il Tanakh è l'autorità più alta e assoluta. Il ruolo dei rabbini non è quello di riesaminare e adattare le regole del patto, ma di interpretare il loro significato letterale."
+
+ #Haymanot
+ haymanot:0 "Haymanot"
+ haymanot_adj:0 "Haymanot"
+ haymanot_adherent:0 "Haymanot"
+ haymanot_adherent_plural:0 "Haymanot"
+ haymanot_desc:0 "I rabbini, o kahen, giudicano in materia di diritto religioso, ma lavorano insieme a una cerchia di anziani che giudicano in materia di tradizione e vita."
+ haymanot_religious_text:0 "Orit"
+ haymanot_religious_text_2:0 "$haymanot_religious_text$" # Optional translation alt
+ haymanot_religious_text_3:0 "$haymanot_religious_text$" # Optional translation alt
+ haymanot_religious_head_title:0 "Liqa Kahnet"
+ haymanot_devotee:0 "Monkosa"
+ haymanot_devotee_plural:0 "di Monkosa"
+ haymanot_priest:0 "Kahen"
+ haymanot_priest_plural:0 "di Kahen"
+ haymanot_bishop:0 "Shmagle"
+ haymanot_bishop_plural:0 "di Shmagle"
+
+ #Malabar
+ malabarism:0 "Malabarismo"
+ malabarism_adj:0 "Malabara"
+ malabarism_adherent:0 "Malabaro"
+ malabarism_adherent_plural:0 "Malabari"
+ malabarism_desc:1 "Man mano che i discendenti delle tribù di Israele si diffusero in tutto il mondo, costruirono comunità più piccole da Ovest a Est, agendo come tribù proprie. Chiamati anche Ebrei di Cochin, questi hanno stabilito la loro nuova casa nel regno di Cochin dell'India meridionale. Lì, si sono mescolati con la popolazione locale e iniziato uno scambi culturali."
+
+ #Samaritan
+ samaritan:0 "Samaritanesimo"
+ samaritan_adj:0 "Samaritana"
+ samaritan_adherent:0 "Samaritano"
+ samaritan_adherent_plural:0 "Samaritani"
+ samaritan_desc:0 "Discendenti dalle tribù che si stabilirono in Samaria, i Samaritani seguono una versione originale e invariata della Torah. In questo modo praticano la vera religione di Mosè, eseguendo i compiti assegnati direttamente da Dio."
+
+ #Kabarism
+ kabarism:1 "Kuzarismo"
+ kabarism_adj:1 "Kuzarita"
+ kabarism_adherent:1 "Kuzari"
+ kabarism_adherent_plural:1 "Kuzari"
+ kabarism_desc:0 "I Kuzari enfatizzano l'interpretazione comune e corretta della Halakha, insieme alle tradizioni Khazare e al folklore locale."
+
+ #Merkabah
+ merkabah:0 "Merkavah"
+ merkabah_adj:0 "Merkavah"
+ merkabah_adherent:0 "Merkavista"
+ merkabah_adherent_plural:0 "Merkavisti"
+ merkabah_desc:0 "Il misticismo della Merkavah è una corrente del misticismo ebraico tra le più antiche, che condivide una certa influenza con gli insegnamenti gnostici. La fede è incentrata sulle visioni e sull'adozione di uno stile di vita ascetico per raggiungere il Trono di Dio."
+
+ doctrine_temple_authority_name:0 "Autorità della Halakha"
+ doctrine_temple_authority_desc:0 "La Halakha si riferisce a un insieme di leggi e regole in base alle quali un ebreo deve vivere la propria vita. Dopo secoli di diaspora, i gruppi ebraici si sono divisi in numerose scuole di pensiero su come interpretare correttamente la Halakha."
+ temple_authority_rabbinic_doctrine_name:0 "Rabbinica"
+ temple_authority_rabbinic_doctrine_desc:0 "Gli ebrei rabbinici credono che la Halakha possa essere interpretata solo dai rabbini. Credono nella Torah scritta e nella Torah orale, trasmessa attraverso i rabbini. Tutte le credenze rabbiniche sono codificate nel Talmud babilonese, che è considerato la fonte primaria da cui viene interpretata e diffusa la Halakha."
+ temple_authority_toric_doctrine_name:0 "Toraica"
+ temple_authority_toric_doctrine_desc:0 "L'ebraismo toraico rifiuta il Talmud e la Torah orale, attribuendo l'autorità alla sola Torah scritta. I rabbini non possono cambiare o adattare la Halakha, il loro compito è solo quello di interpretare il significato letterale della Torah."
+ temple_authority_kohanim_doctrine_name:0 "Kohenimica"
+ temple_authority_kohanim_doctrine_desc:0 "Il giudaismo kohenimico afferma che i Kohen sono l'autorità suprema su tutte le questioni religiose, compresa la Halakha. I Kohen devono discendere patrilinearmente da Aronne, fratello di Mosè."
+ temple_authority_samaritan_torah_doctrine_name:0 "Samaritana"
+ temple_authority_samaritan_torah_doctrine_desc:0 "I samaritani rifiutano del tutto l'autorità della Torah, attribuendo invece la suprema autorità al Pentateuco Samaritano, una loro versione della Torah che si è fissata a partire dal IV secolo a.C. I samaritani ritengono che solo i "libri scritti da Mosè" (il Pentateuco) siano ispirati, rigettando Profeti e Scritti. Il loro rifiuto della Torah li fa considerare universalmente come eretici."
+ doctrine_parameter_hostility_override_temple_authority_samaritan_torah_doctrine:0 "Considera le [faiths|E] [GetFaithDoctrine('temple_authority_samaritan_torah_doctrine').GetBaseName] come [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_rabbinic_doctrine:0 "Considera le [faiths|E] [GetFaithDoctrine('temple_authority_rabbinic_doctrine').GetBaseName] come [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_toric_doctrine:0 "Considera le [faiths|E] [GetFaithDoctrine('temple_authority_toric_doctrine').GetBaseName] come [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_kohanim_doctrine:0 "Considera le [faiths|E] [GetFaithDoctrine('temple_authority_kohanim_doctrine').GetBaseName] come [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_enables_temporal_head_parameter:0 "Permette di selezionare la [doctrine|e] religiosa del Capo Temporale."
+
+ tenet_communal_identity_chosen_people_name:0 "Popolo Eletto"
+ tenet_communal_identity_chosen_people_desc:0 "Siamo stati scelti da [ROOT.Faith.HighGodName] in una santa alleanza. Se da un lato questo unisce il nostro popolo per un unico scopo, dall'altro può fungere da deterrente per la conversione."

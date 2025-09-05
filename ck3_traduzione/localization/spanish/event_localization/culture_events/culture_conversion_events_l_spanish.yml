@@ -1,0 +1,6 @@
+﻿l_spanish:
+ culture_conversion.0001.t:1 "Essere [new_culture.GetName]"
+ culture_conversion.0001.desc:1 "Con abiti ed abitudini [new_culture.GetName], e la capitale piena di [new_culture.GetCollectiveNoun], non soprende il fatto che [converting_character.Custom('REL_TO_ME')][converting_character.Custom2('MyCharacterIntroduction', ROOT.Char)] non si consideri più di cultura [old_culture.GetName], bensì [new_culture.GetName]!"
+ culture_conversion.0001.a:0 "Le cose cambiano, così come le persone."
+ culture_conversion.0001.b:0 "È una cattiva idea abbandonare le nostre antiche tradizioni."
+ culture_conversion.0001.c:0 "Tutti dovremmo essere al passo con i tempi!"

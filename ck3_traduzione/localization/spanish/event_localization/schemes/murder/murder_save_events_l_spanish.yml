@@ -1,0 +1,161 @@
+﻿l_spanish:
+ murder_save_header:0 "Intercettatore di Omicidi:"
+ murder_save.failure_known_owner_tt:0 "[owner.Custom('DE_ART_DEF_P_D')] [owner.GetTitledFirstNameNoTooltip] non è riuscit[owner.Custom('DE_END_PRO_S_N')] ad uccidermi"
+ murder_save.failure_unknown_owner_tt:0 "Qualcuno non è riuscito ad uccidermi"
+ murder_save.used_up_guile_legacy_5_save:0 "Ha beneficiato della protezione di [GetDynastyPerk('guile_legacy_5').GetName]"
+ murder_save.dynasty_member_used_guile_legacy_5_save:0 "Tentativo di Omicidio"
+ murder_save.dynasty_member_used_guile_legacy_5_save_desc:0 "[target.Custom('DE_ART_DEF_P_D')] [target.GetTitledFirstName] è sopravvissut[target.Custom('DE_END_PRO_S_N')] ad un attentato alla sua vita grazie alla protezione da parte di [GetDynastyPerk('guile_legacy_5').GetName]!"
+
+ murder_save.0001.t:1 "$murder_save_header$ Sventato dall' Amore"
+ murder_save.0001.opening:1 "Il mio tentativo di uccidere [target.Custom('DE_ART_DEF_P_A')] [target.GetTitledFirstName] è stato vanificato!\n\nL'assassino si è fatto strada verso gli alloggi [target.Custom('DE_PRO_PER_P_3P_A')] [target.GetTitleTierName], ma l[target.Custom('DE_END_PRO_S_N')] ha trovat[target.Custom('DE_END_PRO_S_N')] in compagnia"
+ murder_save.0001.rel_to_me:0 "—[spouse.Custom('DE_ART_DEF_P_D')] mi[spouse.Custom('DE_END_PRO_S_N')] spos[spouse.Custom('DE_END_PRO_S_N')]—"
+ murder_save.0001.end:0 "[lover.Custom('DE_ART_DEF_P_D')] [lover.GetTitledFirstName], l'amante!\n\n[lover.GetFirstName] si precipita in aiuto di [target.GetFirstName], lo scontro finisce e sia [lover.GetHerHim]] che l'assassino giacciono a terra senza vita."
+ murder_save.0001.a:0 "Non [target.Custom('DE_PRO_POS_S_3P')] prenderò mai adesso."
+ murder_save.0001.b:0 "Ho bisogno di un nuovo piano..."
+
+ murder_save.1001.desc:0 ""Non [target.Custom('DE_END_PRO_P_A')] farai del male!"[lover.Custom('DE_END_PRO_S_N')] [lover.GetTitledFirstName] ha gridato, per poi balzare a pugnale sguainato contro la figura oscura che si era introdotta nelle mie stanze.\n\nChe dono e che maledizione che [lover.GetSheHe] fosse con me stasera. Senza di [lover.GetSheHe] avrei perso la vita, ma in questo modo sta morendo dissanguat[lover.Custom('DE_END_PRO_S_N')] tra le mie braccia, accanto al corpo dell'assassino."
+ murder_save.1001.a:0 "Quale crudele degenerato si cela dietro tutto questo?"
+ murder_save.1001.b:0 "[owner.Custom('DE_ART_DEF_P_D')][owner.GetTitledFirstNameNoTooltip] la pagherà per questo!"
+ murder_save.1001.c:0 "Meglio a [lover.GetFirstNameNoTooltip] che a me!"
+
+ murder_save.0002.t:2 "$murder_save_header$ Amore [SCOPE.Custom('VenomousCreatureAttackPlural')|U]"
+ murder_save.0002.opening:0 "[target.Custom('DE_ART_DEF_P_D')] [target.GetTitledFirstName] è ancora in vita!\n\nIl [SCOPE.Custom('VenomousCreature')] è stato messo nel letto [target.Custom('DE_PRO_PER_P_3P_A')] [target.GetTitleTierName], ma ha colpito il bersaglio sbagliato! Invece è"
+ murder_save.0002.rel_to_me:0 "—[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] mi[lover.Custom('DE_END_PRO_S_N')]—"
+ murder_save.0002.end:0 "[lover.GetTitledFirstName], [lover.Custom('DE_ART_DEF_P_D')] [target.GetHerHis] amante, giace a terra morto!"
+ murder_save.1002.desc:1 ""Torna a letto, [lover.Custom('LoverPetName')] mi[lover.Custom('DE_END_PRO_S_N')]..."\n\nSto per giacere con [lover.Custom('DE_ART_DEF_P_A')] mi[lover.Custom('DE_END_PRO_S_N')] amante quando [lover.GetSheHe] inizia ad urlare."Cosa c'è?!". La mia domanda trova risposta non appena [lover.GetSheHe] si contorce e si agita abbastanza da rivelare una creatura velenosa che striscia tra le lenzuola. All' arrivo di un medico, [lover.GetFirstName] è già diventat[lover.Custom('DE_END_PRO_S_N')] rigid[lover.Custom('DE_END_PRO_S_N')] e congelat[lover.Custom('DE_END_PRO_S_N')], anche a me si gela il sangue nelle vene. Ero io l'obbiettivo di quella bestia."
+
+ murder_save.0003.t:1 "$murder_save_header$ Assassino"
+ murder_save.0003.desc:0 "[target.Custom('DE_ART_DEF_P_D')] [target.GetTitledFirstName] vive ancora!\n\nIl mio assassino è arrivato alle camere [target.Custom('DE_PRO_PER_P_3P_A')] [target.GetTitleTierName], ma tra tutti quanti è intervenut[broken_person.Custom('DE_END_PRO_S_N')] proprio [broken_person.Custom('DE_ART_DEF_P_A')] [broken_person.GetTitledFirstName]! [target.GetFirstName] non ha fatto altro che tormentar[broken_person.GetHerHim], eppure [broken_person.GetSheHe] ha dato la vita a [broken_person.GetHerHerHim] per proteggere [target.GetHerHim]. Il mio assassino è morto, e [target.GetFirstName] può andarsene."
+ murder_save.0003.a:0 "In che mondo ingiusto viviamo."
+ murder_save.0003.b:0 "Devo provare con un nuovo piano!"
+
+ murder_save.1003.desc:0 "[broken_person.Custom('DE_ART_DEF_P_D')] [broken_person.GetTitledFirstName] cerca di rimanere impassibile mentre l'assassino avanza verso di me.\n\n"Condurre un assassino nelle mie stanze, [broken_person.GetFirstNameNoTooltip], anche dopo che la tua voce ha professato eterna lealtà?" Il suo sguardo rimbalza tra me e l'arma in mano all'assassino. "Che terribile delusione. Non vorrai mica essere una delusione, vero?".\n\nQualcosa è cambiato nei suoi occhi. Urlando, [broken_person.GetFirstNameNoTooltip] si getta contro il potenziale assassino. Alla fine della lotta, entrambi giacciono morti sul pavimento."
+ murder_save.1003.a:0 "Consideratela una punizione appropriata, [broken_person.GetFirstNameNoTooltip]."
+
+ murder_save.0004.t:1 "$murder_save_header$ Avvicinato"
+ murder_save.0004.desc:0 "[target.Custom('DE_ART_DEF_P_D')] [target.GetTitledFirstName] è ancora in vita!\n\nI miei scagnozzi [(target.Custom('DE_END_PRO_P_A')] hanno teso un'imboscata come previsto, ma hanno fallito nel sopraffarli! Si sarebbero potuti occupare [target.Custom('DE_PRO_PER_P_3P_A')] [target.GetTitleTierName] se non fosse stato per quel feroce e tre volte maledetto cavallo da guerra del quale [target.GetSheHe] va così orgoglioso!."
+ murder_save_failure_warhorse_tt:0 "[target.Custom('DE_ART_DEF_P_D')] [target.GetFirstNamePossessiveNoTooltip] il cavallo da guerra è morto a causa delle ferite"
+ 
+ murder_save.1004.opening:0 "Sto viaggiando con il mio seguito quando un grido si leva da una boscaglia. "Attaccate! Trovate [ROOT.Char.Custom('DE_ART_DEF_P_A')] [ROOT.Char.GetTitleTierName]!"Un'imboscata!\n\nQuesti non sono semplici ladri in cerca del mio oro, ma criminali in cerca della mia vita! Tuttavia, il mio fidato [ROOT.Char.Custom('HorseStoryMareStallion')] sa cosa fare! [ROOT.Char.Custom('HorseStorySheHe')|U] si alza e scalcia per tenermi lontano dai loro fendenti mentre le mie guardie si radunano per respingerli."
+ murder_save.1004.warhorse_dies:0 "\n\nNon appena finita la battaglia, [ROOT.Char.Custom('WarhorseStoryName')] si blocca lasciando trasparire le sue profonde ferite. [ROOT.Char.Custom('HorseStorySheHe')|U] mi ha veramente protett[ROOT.Char('DE_END_PRO_S_N')] fino all'ultimo..."
+ murder_save.1004.a:0 "Questi delinquenti lavoravano per qualcuno, ma per chi?"
+ murder_save.1004.b:0 "È ovvio chi ci sia dietro a tutto questo!"
+ murder_save.1004.c:0 "Troverò chi ha fatto questo!"
+ murder_save.1004.d:0 "Mi sei costato un bel cavallo, [owner.GetFirstNameNoTooltip]!"
+ murder_save_warhorse_dies_to_thugs:0 "#F [THIS.Char.Custom('WarhorseStoryName')] muore a causa delle sue ferite#!"
+
+ murder_save.0005.t:1 "$murder_save_header$ Dato l'allarme "
+ murder_save.0005.desc:0 "Il gruppo di cospiratori si è diretto verso la cella [target.Custom('DE_PRO_PER_P_3P_A')] [target.GetTitledFirstNamePossessive], ma il prigioniero ha iniziato a fare un baccano insostenibile. Pagare il carceriere è una cosa, altra cosa è invece fingere che non stia succedendo nulla quando l'intero castello è sveglio!\n\nI miei assassini hanno battuto una frettolosa ritirata, e [target.GetFirstName] resta al sicuro..."
+
+ murder_save.1005.desc:0 "Non so chi siano le figure mascherate che sono apparse all'improvviso nella mia cella, ma so che sono qui per farmi del male. Non si aspettano però il mio fedele aiutante.\n\n"Prendili!" grido, e il mio [ROOT.Char.Custom('prison_pet')] vola verso di loro, pronto a combattere per la mia vita! So che non possono competere con il mio amico, e quando comincio a gridare e far rumore, scappano nel terrore più assoluto!\n\nIl carceriere accorre per zittirmi con un pestaggio, ma almeno respiro ancora."
+ murder_save.1005.a:0 "Ti devo la mia vita, [ROOT.Char.Custom('prison_pet')]."
+ murder_save.1005.b:0 "Il tuo sacrificio non è stato vano, mio [ROOT.Char.Custom('prison_pet')]!"
+
+ murder_save.0006.t:1 "$murder_save_header$ Guardiani"
+ murder_save.0006.opening:0 "Il mio "assistente prezzolato" si è avvicinato [target.Custom('DE_END_ADJ_DEF_P_A')] [target.GetTitledFirstName] come previsto, ma quello che non avevo pianificato era la guardia personale che"
+ murder_save.0006.spouse:0 "[spouse.Custom('DE_END_PRO_S_N')] [spouse.GetTitledFirstName] aveva cresciuto al suo posto."
+ murder_save.0006.no_spouse:0 "era stata cresciuta dal[spouse.Custom('DE_END_ADJ_NUL_S_N')] su[spouse.Custom('DE_END_PRO_S_N')] spos[spouse.Custom('DE_END_PRO_S_N')]."
+ murder_save.0006.end:0 "\n\nHanno combattuto molto coraggiosamente e con straordinaria abilità, talmente allo stesso livello che [target.GetFirstName] vive ancora per vedere un altro giorno"
+
+ murder_save.1006.opening:0 "Ero in viaggio quando il mio seguito è stato avvicinato da una banda di criminali! Per fortuna, la guardia ha combattuto per difendermi"
+ murder_save.1006.spouse:0 "[spouse.Custom('DE_ART_DEF_P_D')] [spouse.GetTitledFirstName]"
+ murder_save.1006.no_spouse:0 "mi[spouse.Custom('DE_END_PRO_S_N')] spos[spouse.Custom('DE_END_PRO_S_N')]"
+ murder_save.1006.end:0 "hanno combattuto valorosamente e mi hanno protetto dall'attacco.\n\nPoiché hanno lottato fino all'ultimo, è chiaro che questi banditi non cercavano l'oro, ma la mia vita! Alla fine sono stati ricacciati, ma le mie guardie personali sono state quasi completamente annientate"
+
+ murder_save.0007.t:1 "$murder_save_header$ Guardiano Peloso"
+ murder_save.0007.desc:0 "[target.Custom('DE_ART_DEF_P_D')] [target.GetTitledFirstName] è ancora in vita!\n\nL'animale velenoso è stato piazzato nel letto [target.Custom('DE_PRO_PER_P_3P_A')] [target.GetTitleTierName], ma prima che potesse colpire, [target.Custom('DE_ART_DEF_P_A')] gatt[target.Custom('DE_END_PRO_S_N')] [target.GetTitleTierName] ha fatto un putiferio ed ha iniziato a combattere la creatura!"
+ murder_save_failure_cat_tt:0 "Il gatto [target.GetFirstNameNoTooltip] muore a causa delle sue ferite."
+
+ murder_save.1007.opening:1 "Quando entro nella mia camera, noto immediatamente che [THIS.Char.Custom('DE_ART_DEF_P_A')] mi[THIS.Char.Custom('DE_END_PRO_S_N')] car[THIS.Char.Custom('DE_END_PRO_S_N')] gatt[THIS.Char.Custom('DE_END_PRO_S_N')] [THIS.Char.Custom('CatStoryName')] è nervos[THIS.Char.Custom('DE_END_PRO_S_N')] - [THIS.Char.Custom('CatStorySheHe')] cammina davanti al mio letto in stato di evidente agitazione. Come un fulmine [THIS.Char.Custom('CatFurColor')], [THIS.Char.Custom('CatStoryName')] balza improvvisamente rivelando la bestia velenosa tra le mie lenzuola!"
+ murder_save.1007.cat_dies:0 "\n\nL'orribile creatura non si risparmia, e quando [THIS.Char.Custom('CatStoryName')] viene colpito alla gola, la speranza che possa sopravvivere scompare."
+ murder_save.1007.a:0 "Ti devo la vita, [THIS.Char.Custom('CatStoryName')]!"
+ murder_save.1007.b:0 "Chi si celava dietro a tutto questo, è ovvio.!"
+ murder_save.1007.c:0 "Troverò chi ha fatto questo!"
+ murder_save.1007.d:0 "Pagherai per questo, [owner.GetFirstNameNoTooltip]!"
+ murder_save_creepy_crawlies_cat_dies:0 "[THIS.Char.Custom('CatStoryName')] muore per le sue ferite"
+
+ murder_save.0008.t:1 "$murder_save_header$ Guardiano Peloso"
+ murder_save.0008.desc:1 "Il mio tentativo di uccidere [target.Custom('DE_ART_DEF_P_A')] [target.GetTitledFirstName] è stato sventato! L'assassino si è fatto strada fino agli alloggi [target.Custom('DE_PRO_PER_P_3P_A')] [target.GetTitleTierName], ma prima che [dummy_assassassin_gender.GetSheHe] potesse colpire, un cane ha iniziato ad abbaiare! Il cane [target.Custom('DE_PRO_PER_P_3P_A')] [target.GetTitleTierNamePossessive], di cui [target.GetSheHe] è così dannatamente orgoglios[target.Custom('DE_END_PRO_S_N')], ha rapidamente spaventato l'assassino"
+
+ murder_save.1008.desc:0 "Appena entro nelle mie stanze [ROOT.Char.Custom('DE_ART_DEF_P_A')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] car[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('DogStoryName')] inizia ad abbaiare, improvvisamente [ROOT.Char.Custom('DogStorySheHe')]si scaglia contro un'ombra scura... Un'ombra che inciampa! [ROOT.Char.Custom('DogStoryName')] insegue l'assassino finché non [ROOT.Char.Custom('DE_PRO_POS_S_3P')] richiamo al mio fianco"
+ murder_save.1008.a:0 "Ti devo la vita, [ROOT.Char.Custom('DogStoryName')]!"
+
+ murder_save.0009.t:1 "$murder_save_header$ Collegamenti in Famiglia"
+ murder_save.0009.desc:0 "Negli ultimi istanti del mio piano per uccidere [target.Custom('DE_ART_DEF_P_A')] [target.GetTitledFirstName], tutto è andato in pezzi! Sembra che i miei sforzi siano stati completamente vanificati dai sostenitori della dinastia [target.GetDynasty.GetBaseName], nella fatidica notte, sono stati fermati tutti quanti prima ancora che il piano fosse messo in moto!"
+ murder_save.0009.a:0 "Devo ritirarmi, prima che cerchino vendetta!"
+ murder_save.0009.b:0 "Quello che è andato perduto, lo posso ricostruire"
+ murder_save.targets_guile_legacy_save_used_up:0 "[target.GetShortUIName|U] non può essere salvato da [GetDynastyPerk( 'guile_legacy_5' ).GetName] di nuovo"
+
+ murder_save.1009.opening:0 "Un attentato alla mia vita è stato sventato!"
+ murder_save.1009.owner_discovered:0 "\n\n[owner.Custom('DE_ART_DEF_P_D')] [owner.GetTitledFirstName] aveva messo in atto piani accurati, ma questi non hanno tenuto conto del fatto che il suo complotto sia stato infiltrato dai sostenitori del Casato [target.GetHouse.GetNameNoTooltip]!"
+ murder_save.1009.owner_not_discovered:0 "\n\nPer fortuna, chiunque abbia messo in piedi questo piano vizioso non si è accorto delle infiltrazioni degli agenti fedeli al Casato [target.GetHouse.GetNameNoTooltip]!"
+ murder_save.1009.end:0 "\n\nIl piano è fallito nonostante sia stato messo in moto, la mia vita è ancora al sicuro."
+ murder_save.1009.a:0 "Salvat[ROOT.Char.Custom('DE_END_PRO_S_N')] dal mio stesso nome!"
+
+ # Saved by a Varangian
+ murder_save.0010.t:0 "$murder_save_header$ Variaghi"
+ murder_save.0010.desc:0 "Il mio attentato alla vita [target.Custom('DE_PRO_PER_P_3P_A')][target.GetTitledFirstNamePossessive] è stato sventato! L'assassino è stato fermato da uno di quegli insulsi Varaghi! Suppongo che [target.GetTitleAsNameNoTooltip] avesse la sua guardia dopotutto..."
+ murder_save.0010.varangian_dies:0 "\n\nAlla fine l'assassino ha avuto la meglio sulla guardia. [varangian.GetTitledFirstName] non mi intralcerà più."
+ murder_save.0010.a:0 "Non riuscirò a prender[target.Custom('DE_PRO_POS_S_3P')] adesso!"
+ murder_save.0010.b:0 "Ho bisogno di un nuovo piano..."
+
+ murder_save.1010.desc:0 "Un assassino ha attentato alla mia vita! Per fortuna, [varangian.GetFirstName], un membro della mia guardia variaga era proprio fuori dalle mie stanze ed è intervenuto rapidamente. [varangian.GetSheHeHe|U] si è occupato in fretta dell'assassino, prima che io mi facessi male"
+ murder_save.1010.varangian_dies:0 "Tragicamente, [varangian.GetFirstNameNoTooltip] ha subito ferite mortali nella lotta."
+ murder_save.1010.owner_discovered:0 "\n\nNon v'è dubbio che questo sia stato tutto merito di [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
+ murder_save.1010.a:0 "Chi potrebbe esserci dietro questo tentativo malvagio?"
+ murder_save.1010.b:0 "[owner.GetSheHe|U] pagherà per questo!"
+
+ murder_save.0011.t:0 "$murder_save_header$ Il Gatto Affamato"
+ murder_save.0011.desc:1 "Il mio tentativo di uccidere [target.Custom('DE_ART_DEF_P_A')] [target.GetTitledFirstNamePossessive] è stato sventato! Tutto stava andando secondo i piani fino a quando il suo gatto ha preso di nascosto un pezzo di cibo dal piatto, prima che [target.GetSheHe] avesse il tempo di mangiare! Vedere il gatto contorcersi di dolore fino alla morte ha dissuaso [target.Custom('DE_ART_DEF_P_A')] [target.GetTitledFirstNameNoTooltip] dal consumare il suo pasto"
+ murder_save_poison_cat_tt:0 "Il gatto [target.GetFirstNamePossessiveNoTooltip] muore per avvelenamento"
+
+ murder_save.1011.desc:0 "Mentre mi siedo per mangiare, il mio gatto [ROOT.Char.Custom('CatStoryName')] mi salta in grembo colpendomi il piatto, lascio che rubi un boccone prima che [ROOT.Char.Custom('CatStorySheHe')] salti di nuovo giù.\n\n Proprio mentre sto per iniziare a mangiare, vengo spaventat[ROOT.Char.Custom('DE_END_PRO_S_N')] dai lamenti dell'animale, forti e continui. [ROOT.Char.Custom('CatStoryName')] si contorce sul pavimento mentre i versi di dolore diventano sempre più deboli fino a quando [ROOT.Char.Custom('CatStorySheHe')] non crolla esanime. Il cibo è stato avvelenato?!"
+ murder_save_poison_cat_dies:0 "[THIS.Char.Custom('CatStoryName')] ti ha salvato ed è morto per il veleno"
+
+ murder_save.0012.t:0 "$murder_save_header$ Il Cane Affamato"
+ murder_save.0012.desc:1 "[target.Custom('DE_ART_DEF_P_D')] [target.GetTitledFirstName] vive!\n\nIl veleno, l'anatra, la cena... Tutto stava andando secondo i piani fino a quando il suo cane ha implorato per un boccone dal piatto prima che [target.GetSheHe] avesse il tempo di mangiare! Vedere il cane contorcersi nel dolore fino alla morte ha dissuaso [target.Custom('DE_ART_DEF_P_A')] [target.GetTitledFirstNameNoTooltip] dal consumare il pasto"."
+ murder_save_poison_dog_tt:0 "Il cane di [target.GetFirstNameNoTooltip] muore avvelenato"
+
+ murder_save.1012.desc:0 "Mentre mi siedo per mangiare, il mio cane [ROOT.Char.Custom('DogStoryName')] mi fissa con occhi imploranti, faccio cadere un boccone dal piatto per [ROOT.Char.Custom('DogStorySheHe')].\n\n Proprio mentre sto per iniziare a mangiare vengo allertat[target.Custom('DE_END_PRO_S_N')] da un forte guaito, dolorante e lamentoso. [ROOT.Char.Custom('DogStoryName')] si contorce sul pavimento, Il lamento si fa sempre più debole man man che [ROOT.Char.Custom('CatStorySheHe')] crolla esanime. Il cibo è stato avvelenato?!"
+ murder_save_poison_dog_dies:0 "[THIS.Char.Custom('DogStoryName')] ti ha salvat[ROOT.Char.Custom('DE_END_PRO_S_N')]!"
+
+ murder_save.0013.t:0 "$murder_save_header$ Il Naso da Gourmet"
+ murder_save.0013.desc:0 "[target.GetTitledFirstName] vive ancora!\n\nIl veleno, [target.Custom('GetExpensiveMeal')]... Tutto stava andando secondo i piani finché [target.GetSheHe] non ha notato che qualcosa non andava. Abbiamo provato ad avvelenare il suo piatto preferito, ed [target.Custom('DE_ART_IND_A')] si è accorto subito che aveva un odore differente e l'ha gettato via."
+
+ murder_save.1013.desc:0 "Mentre mangio la mia cena preferita, un odore curioso colpisce il mio naso. Accenni di acidità indugiano sotto il suo solito aroma, l'equilibrio delle spezie sembra spento... Dopo aver interrogato il cuoco, che ha detto che tutto è stato preparato normalmente, un solo pensiero mi passa per la mia mente: qualcuno ha cercato di avvelenarmi!"
+ 
+ murder_save.0014.t:0 "$murder_save_header$ Comprensione della tomba"
+ murder_save.0014.desc:0 "Il mio attentato alla vita di [target.GetTitledFirstNamePossessive] è stato scoperto!\n\nA quanto pare gli sciocchi assassini non si erano resi conto che [target.GetSheHe] sapesse parlare [owner.GetCulture.GetLanguage.GetNameNoTooltip], e stavano parlando del piano proprio davanti al suo naso."
+ #tradotto da akirak e revisionato da Woldren da qui in poi
+ murder_save.1014.desc:0 "Una sera, mentre mi preparo per andare a letto, sento due dei miei servitori parlare a bassa voce. Mi ci vuole solo un momento per realizzare che stanno parlando in [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] invece che in [owner.GetCulture.GetLanguage.GetNameNoTooltip]. Loro, chiaramente, non si rendono conto che posso capirli.\n\n"Aspetta che si addormenti, poi vedi come [ROOT.Char.Custom('DE_PRO_DEM')] taglio la gola".\n\nRapidamente esco dalle mie stanze per informare le guardie che ci sono degli assassini nella mia camera da letto. Grazie a [ROOT.Char.GetFaith.HighGodName] parlo [owner.GetCulture.GetLanguage.GetNameNoTooltip]!"
+
+ murder_save.1014.a:0 "Ora chi manderebbe degli assassini che parlano [owner.GetCulture.GetLanguage.GetNameNoTooltip]?"
+ murder_save.0015.t:0 "$murder_save_header$ Il Manufatto Tempestivo"
+ murder_save.0015.desc:0 "[target.GetTitledFirstName] è sopravvissut[attempted_assassin.Custom('DE_END_PRO_S_N')] al mio tentativo di assassinarl[attempted_assassin.Custom('DE_END_PRO_S_N')], a quanto pare utilizzando il suo [this_artifact.GetName] per uccidere brutalmente l'assassino che avevamo inviato."
+
+ murder_save.1015.start_desc:0 "[attempted_assassin.GetFirstName|U] esce dall'ombra, lama in mano. Mi guardo intorno disperatamente alla ricerca di qualcosa da usare come arma quando il mio sguardo si posa sul vicino"
+
+ murder_save.1015.blunt_artifact.desc:0 "$murder_save.1015.start_desc$ [this_artifact.GetName]. Afferrandolo, prima lo uso per bloccare l'affondo del pugnale, poi per colpire la testa di [attempted_assassin.GetFirstNamePossessiveNoTooltip] più e più volte.\n\nAlla fine indietreggio esausto, lasciando cadere a terra il [SCOPE.Custom('ThisArtifactType')], dove ora si trova ricoperto di sangue."
+
+ murder_save.1015.sculpture_artifact.desc:1 "$murder_save.1015.start_desc$ [this_artifact.GetName]. Allontanandomi da [attempted_assassin.GetFirstNameNoTooltip], attendo il momento perfetto prima di abbattere il/la [SCOPE.Custom('ThisArtifactType')] su di [attempted_assassin.GetSheHe].\n\nIl/La [this_artifact.GetNameNoTooltip] emette un ripugnante scricchiolio mentre l[attempted_assassin.Custom('DE_END_PRO_S_N')] schiaccia."
+
+ murder_save.1015.chest_artifact.desc:0 "$murder_save.1015.start_desc$ [this_artifact.GetName]. Lentamente mi allontano, attirandol[attempted_assassin.Custom('DE_END_PRO_S_N')] verso il/la [SCOPE.Custom('ThisArtifactType')] aperto/a. Al momento giusto afferro la sua testa e la spingo sotto il bordo del coperchio della cassapanca, prima di farlo ricadere sul suo fragile cranio producendo un rabbrividente crack.\n\nLo abbasso sulla sua testa tre o quattro volte per sicurezza, prima di fare un passo indietro e lasciare che il corpo crolli sul pavimento."
+
+ murder_save.1015.actual_weapon_artifact.desc:1 "$murder_save.1015.start_desc$ [this_artifact.GetName]. Il suo viso sbianca quando realizza che sono armat[ROOT.Char.Custom('DE_END_PRO_S_N')]. Mi ci vuole poco sforzo per farl[attempted_assassin.Custom('DE_END_PRO_S_N')] fuori con il/la [SCOPE.Custom('ThisArtifactType')]."
+
+ murder_save.1015.strangling_artifact.desc:0 "$murder_save.1015.start_desc$ [SCOPE.Custom('ThisArtifactType')]. Afferrando il/la [this_artifact.GetName], devo schivare una pugnalata prima di avvolgere la stoffa intorno alla gola del mio aggressore.\n\nOccorrono solo pochi brevi istanti di lotta prima che il corpo dell'assassino si afflosci a terra."
+
+ murder_save.1015.small_artifact.desc:0 "$murder_save.1015.start_desc$ [this_artifact.GetName]. Afferrandolo, salto sul mio aggressore spingendo il ninnolo giù nella sua gola.\n\nMentre soffoca, [attempted_assassin.Custom('DE_ART_IND_A')] lascia cadere a terra il pugnale e cade sulle ginocchia, tenendosi la gola mentre cerca disperatamente di respirare. Quando finalmente le guardie si precipitano in mio aiuto, prendo mentalmente nota che più tardi dovrò chiedere a qualcuno di estrarre il/la mio/a [this_artifact.GetName] dal suo corpo."
+
+ murder_save.1015.throne_start.desc:0 "Una sera, sto camminando nella mia sala del trono vuota quando, uscendo dall'ombra, [attempted_assassin.GetFirstName] mi salta addosso con in mano un pugnale. Schivando a fatica il mio assalitore, riesco ad afferrarlo per la nuca e a schiacciare ripetutamente la sua faccia sul"
+
+ murder_save.1015.throne_artifact.desc:0 "$murder_save.1015.throne_start.desc$ duro legno di [this_artifact.GetFeatureText('generic_material_wood')] del mio [this_artifact.GetName], facendo schizzare il suo sangue e i suoi denti su tutto il [this_artifact.GetFeatureText('generic_material_cloth')] che prima era immacolato."
+
+ murder_save.1015.throne_special_artifact.desc:0 "$murder_save.1015.throne_start.desc$ [this_artifact.GetName] leggendario.\n\nMentre il sangue schizza sul trono, mi ritrovo a sperare che i servitori riescano a togliere tutte le macchie."
+
+ new_artifact_loc:0 "[this_artifact.GetDesc]\n\nÈ stato usato per fermare un tentativo di assassinare [target.GetTitledFirstName]."
+
+ new_artifact_loc_banner:0 "[this_artifact.GetDesc]\n\nC'è una macchia di sangue sullo spigolo da quando è stat[this_artifact.Custom('DE_END_PRO_S_N')] usat[this_artifact.Custom('DE_END_PRO_S_N')] per fermare un tentativo di assassinare [target.GetTitledFirstName]."
+
+ death_by_artifact:0 "è stat[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] uccis[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] con un manufatto"
+ death_by_artifact_killer:0 "[TARGET_CHARACTER.GetUIName] è stat[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] uccis[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] con un manufatto"

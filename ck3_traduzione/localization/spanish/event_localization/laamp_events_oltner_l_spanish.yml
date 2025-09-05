@@ -1,0 +1,9 @@
+﻿l_spanish: 
+ ep3_laamp_flavor_oltner.3001.t: "Il Cuore di un Seguace"
+ ep3_laamp_flavor_oltner.3001.desc: ""[ROOT.Char.GetTitledFirstNameNoTooltip], [Select_CString(ROOT.Char.IsFemale,'mia','mio')] [entourage_to_marry_2.Custom2('RelationToMeShort', SCOPE.sC('root_char'))], ho incontrato [Select_CString(marriage_material.IsFemale,'la','il')] più [marriage_material.Custom('RandomPositiveShallowAdjective')] [marriage_material.GetWomanMan] di sempre, qui a [ROOT.Char.GetCurrentLocation.GetName]..." [Select_CString(entourage_to_marry_2.IsFemale,'Mia','Mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('entourage_to_marry_2'))] [entourage_to_marry_2.GetFirstNameNicknamed] inciampa mentre si rivolge a me.\n\n"La sua famiglia non ci lascerà sposare senza che io paghi una dote consistente!" balbetta [entourage_to_marry_2.GetSheHe] tristemente. "La prego, mi aiuti.""
+ ep3_laamp_flavor_oltner.0001.a: "...per [ROOT.Char.GetFaith.HighGodName] [entourage_to_marry_2.GetWomanMan], tu sei [Select_CString(entourage_to_marry_2.IsFemale,'ricca','ricco')], pagatela da [Select_CString(entourage_to_marry_2.IsFemale,'sola','solo')]!"
+ ep3_laamp_flavor_oltner.0001.b: "Ma è ovvio che ti aiuterò!"
+ ep3_laamp_flavor_oltner.0001.c: "Vediamo se [marriage_material.GetSheHe] è [Select_CString(marriage_material.IsFemale,'disposta','disposto')] a scappare con te..."
+ ep3_laamp_flavor_oltner.0001.c.success: "[marriage_material.GetFirstName] si unice a te"
+ ep3_laamp_flavor_oltner.0001.c.failure: "[marriage_material.GetFirstName] non è colpito"
+ ep3_laamp_flavor_oltner.0001.d: "Non è un mio problema."

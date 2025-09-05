@@ -1,0 +1,44 @@
+﻿l_spanish:
+ # Extort a Powerful Vassal, by Petter Vilberg
+ subject_extortion.0001.t:0 "Estorsione ai Sudditi: Vassallo Potente"
+ subject_extortion.0001.desc:0 "[extortion_target.Custom('DE_ART_DEF_P_D')] mi[extortion_target.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extortion_target'))] [extortion_target.GetTitledFirstName] — adesso tocca ad un[extortion_target.Custom('DE_PRO_POS_P_2P')] [extortion_target.GetWomanMan] benestante. A giudicare dalla sua espressione, [extortion_target.Custom('DE_ART_IND_A')] sa già a quale scopo mi sto approcciando a [extortion_target.GetSheHe].\n\n"Io sono leale, pago i miei debiti", insiste [extortion_target.GetSheHe]. "Come potete chiedermi di più?""
+ subject_extortion.0001.a:0 "Consideralo come un altro piccolo test della tua lealtà!"
+ subject_extortion.0001.b:0 "Non preoccuparti, farò in modo che paghino #EMP tutti#!."
+ subject_extortion.0001.c:0 "Oh, ma mi devi ancora qualcosa, ricordi?"
+ subject_extortion.0001.d:0 "Sto solo scherzando, [extortion_target.GetFirstNameNoTooltip]!"
+ subject_extortion.0001.d.flavor:0 "[extortion_target.Custom('DE_ART_IND_A')] sembra più turbato di quanto mi aspettassi."
+
+ # Extort a County, by Petter Vilberg
+ subject_extortion.0002.t:0 "Estorsione ai Sudditi: Contadini"
+ subject_extortion.0002.desc:0 "Sembra che i contadini di [extortion_target.GetName] stiano facendo meglio ti quanto ci si potesse aspettare rispetto alle tasse che ho riscosso lì. Un contributo extra per la mia tesoreria non dovrebbe arrecare alcun danno.\n\nOh, si lamenteranno, ma questo non è forse ciò che fanno sempre i contadini? Sopravviveranno, ne sono sicur[ROOT.Char.Custom('DE_END_PRO_S_N')]."
+ subject_extortion.0002.a:0 "Possono fare come vogliono purché io ottenga il mio oro!"
+ subject_extortion.0002.b:0 "Perché non sono mai grati per quello che #EMP hanno#!?"
+ subject_extortion.0002.c:0 "Non vale la pena farli arrabbiare in questo momento."
+
+ # Extort Theocratic Vassals, by Petter Vilberg
+ subject_extortion.0003.t:0 "Estorsione ai Sudditi: [ROOT.Char.GetFaith.AltPriestTermPlural|U]"
+ subject_extortion.0003.desc:0 "Non vorrebbe [ROOT.Char.GetFaith.WealthGodName] che io prosperi? E non sarebbe un tesoreria ben rifornita il mezzo migliore per farlo?\n\nPer qualche ragione i [ROOT.Char.GetFaith.AltPriestTermPlural] sono rilutanti ad accettare. Sembrano pensare che l'influenza che detengono nei conronti delle loro congregazioni li proteggerà."
+ subject_extortion.0003.a:0 "I [ROOT.Char.GetFaith.PriestNeuterPlural|U] devono contribuire come tutti!"
+ subject_extortion.0003.b:0 "In nome di [ROOT.Char.GetFaith.HighGodName], non me lo sono forse guadagnato?"
+ subject_extortion.0003.c:0 "È una cattiva idea far arrabbiare i servitori di [ROOT.Char.GetFaith.HighGodNameAlternate]..."
+
+ # Extort all Vassals, by Petter Vilberg
+ subject_extortion.0004.t:0 "Estorsione ai Sudditi: Vassalli"
+ subject_extortion.0004.desc:0 "Lo scopo stesso dei miei vassalli è sostenere i miei sforzi. Anche se pagano già le tasse per il privilegio, non posso fare a meno di pensare a quanto altro potrei guadagnare se tutti contribuissero un po' di più...\n\nGrande ricchezza per me, praticamente a nessun costo per loro!"
+ subject_extortion.0004.a:0 "Una soluzione perfetta!"
+ subject_extortion.0004.b:0 "Perché prenderne un po', quando posso prendere #EMP tanto#!?"
+ subject_extortion.0004.c:0 "No, i loro obblighi sono già adempiuti."
+
+ # Extort Courtiers, by Petter Vilberg
+ subject_extortion.0005.t:0 "Estorsione ai Sudditi: Cortigiani"
+ subject_extortion.0005.desc:0 "I miei cortigiani vivono praticamente della mia generosità. Non è forse ora che dimostrino la loro gratitudine?\n\nAnche un nobile minore deve capire molto dell'onore e del dovere."
+ subject_extortion.0005.a:0 "#EMP Vivono#! della mia misericordia!"
+ subject_extortion.0005.b:0 "Questa non è una richiesta, però mi aspetto dei doni."
+ subject_extortion.0005.c:0 "Oh, hanno già così poco in questo mondo..."
+
+ # Failed to find an extortion target, by Petter Vilberg
+ subject_extortion.9998.t:0 "Estorsione ai Sudditi"
+ subject_extortion.9998.desc.steward:0 "Il mio [steward.GetCouncilTitle] sembra aver fallito nel trovare altre fonti di denaro nel reame.\n\n"Chiedo scusa, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], ma non è rimasto nient'altro da prendere.""
+ subject_extortion.9998.desc:0 "Nonostante la mia grazia e il mio carattere onorevole, non riesco a trovare nessuno che sia disposto a sostenermi più di quanto la mia legge li obblighi a fare. Inoltre, nessuno di loro sembra entusiasta di sostenere le mie idee per nuove leggi.\n\nSono costretto a soffrire la miseria per mano dei miei servi avidi ed egoisti?!"
+ subject_extortion.9998.a:0 "Aspetta un attimo! Cos'è quel tintinnio nella tua tasca?"
+ subject_extortion.9998.b:0 "Aspetta, cos'è questo sotto la mia sedia?"

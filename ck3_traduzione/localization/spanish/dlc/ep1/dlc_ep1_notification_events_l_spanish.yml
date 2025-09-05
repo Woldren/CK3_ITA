@@ -1,0 +1,9 @@
+﻿l_spanish:
+ ep1_notifications.0011.t:0 "Hai cambiato la Lingua della tua Corte"
+ ep1_notifications.0011.desc:0 "Possa la nostra Corte diventare ancora più grande!"
+
+ ep1_notifications.0012.t:0 "[target_character.GetShortUINameNoTooltip] ha cambiato la propria Lingua di Corte"
+ ep1_notifications.0012.desc:0 "La corte di [target_character.GetShortUINameNoTooltip] adesso parla la lingua [target_character.GetCourtLanguage.GetName]. Possa la loro decisione rivelarsi una follia!"
+
+ ep1_notifications.0013.t:0 "[target_character.GetShortUINameNoTooltip] ha cambiato la propria Lingua di Corte"
+ ep1_notifications.0013.desc:0 "La corte di [target_character.GetShortUINameNoTooltip] adesso parla la lingua [target_character.GetCourtLanguage.GetName]. Una decisione molto saggia!"

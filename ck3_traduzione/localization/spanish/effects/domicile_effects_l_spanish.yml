@@ -1,0 +1,9 @@
+﻿l_spanish:
+ add_domicile_building_global: "Aggiungi [DomicileBuilding.GetName] a [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]"
+ add_domicile_building_global_past: "Aggiunto [DomicileBuilding.GetName] a [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]"
+ add_domicile_building_third: "Aggiunge [DomicileBuilding.GetName] a [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]"
+
+ remove_domicile_building_global: "[DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] [DomicileBuilding.GetName] è distrutto"
+ remove_domicile_building_global_past: "[DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] [DomicileBuilding.GetName] è stato distrutto"
+ remove_domicile_building_third: "$remove_domicile_building_global$"
+ remove_domicile_building_third_past: "$remove_domicile_building_global_past$"

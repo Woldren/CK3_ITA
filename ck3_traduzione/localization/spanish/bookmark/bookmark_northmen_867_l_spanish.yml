@@ -1,0 +1,58 @@
+﻿l_spanish:
+ bm_867_northmen:0 "L'Ira degli Uomini del Nord"
+ bm_867_northmen_desc:1 "Due anni fa, Re Ælla di Northumbria ha gettato il grande eroe Vichingo Ragnarr Loðbrók in una fossa di serpenti a morire. Non appena appresa la notizia, i figli di Ragnarr hanno levato le ancore per l'Inghilterra per vendicare il padre.\n\nDa allora i fratelli hanno stabilito una solida base a York e nelle Isole. I re Anglo-Sassoni hanno perso una battaglia dopo l'altra e il loro futuro sembra davvero cupo.\n\nMa non tutte le speranze sono perdute, e un grande eroe potrebbe ancora cambiare le sorti della storia.\n\n#bold Porrai tutta l'Inghilterra sotto il dominio Norreno o farai svanire il Grande Esercito Pagano dal suolo Anglosassone?#!"
+
+ #Halfdan Whiteshirt
+ bookmark_northmen_halfdan_whiteshirt:0 "Halfdan Tunica bianca"
+ bookmark_northmen_halfdan_whiteshirt_desc:0 "La prima ondata dell'invasione è andata molto bene per Halfdan Tunica bianca. Con l'aiuto di suo fratello Ivar, ha strappato il controllo di York dalle mani di Re Ælla. E prenderà tanto altro ancora.\n\n#bold Seguirai i suoi passi storici ed avrai la tua vendetta sanguinaria, oppure traccerai un nuovo percorso per Halfdan?#!"
+
+ bookmark_northmen_halfdan_whiteshirt_alt_gudfrid:0 "$GuT_friT_$"
+ bookmark_northmen_halfdan_whiteshirt_alt_saga:0 "$Saga$ $nick_the_truthspeaker$"
+
+ #Ivar the Boneless
+ bookmark_northmen_ivar_the_boneless:0 "Ivar il Senz'ossa"
+ bookmark_northmen_ivar_the_boneless_desc:0 "Si dice che Ivar sia debole di corpo, ma nessuno può affermare che sia debole di mente. Grazie all'astuzia e alla fiducia in se stesso, ha riunito un gran numero di bande di guerrieri Norreni sotto il suo stendardo, ed ha ottenuto grandi vittorie su queste coste straniere. Ma nemmeno il più grande vichingo può ingannare la morte. Nell'870, Ivar scomparirà per sempre dalla storia...\n\n#bold Sei in grado di vincere le guerre di Ivar e tenerlo in vita affinché regni per molti anni a venire?#!"
+
+ bookmark_northmen_ivar_the_boneless_alt_barid:0 "$Barid$"
+ bookmark_northmen_ivar_the_boneless_alt_barid_desc:0 "alt desc"
+ bookmark_northmen_ivar_the_boneless_alt_sigfroth:0 "$SigfroT_$"
+ bookmark_northmen_ivar_the_boneless_alt_sigfroth_desc:0 "alt desc"
+
+
+ #Sigurdr Snake-in-the-eye
+ bookmark_northmen_sigurdr_snake_in_the_eye:0 "Sigurdr Serpente nell'Occhio"
+ bookmark_northmen_sigurdr_snake_in_the_eye_desc:1 "Mentre i suoi fratelli partivano per l'Inghilterra per ottenere la loro vendetta, Sigurd Serpente nell'occhio è rimasto indietro a regnare sulle terre del suo defunto padre. Ragnarr Loðbrók gli ha lasciato degli stivali davvero grandi da riempire.\n\n#bold I discendenti di Sigurd saranno Re di Danimarca, Norvegia ed Inghilterra per ben oltre un secolo. Puoi far si che si compia il destino della sua dinastia?#!"
+
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_knud:0 "$Knud$"
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_knud_desc:0 "alt desc"
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_alof:0 "$Alof$"
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_alof_desc:0 "alt desc"
+
+ # Björn Ironside
+ bookmark_northmen_bjorn_ironside:0 "Björn Fianco di Ferro"
+ bookmark_northmen_bjorn_ironside_desc:0 "Björn ha vissuto una vita avventurosa da vero Norreno. Un vero razziatore, ha compiuto saccheggi tra Francia, Iberia, e Italia, insieme al suo amico Hæsteinn da Nantes. Ora, le forze della Scandinavia si riuniscono per assaltare le coste britanniche ancora una volta.\n\n#bold Sebbene Björn abbia promesso di vendicare la morte di suo padre in Inghilterra, i suoi discendenti regneranno la Svezia per i successivi due secoli. Da quale lato del Mare del Nord si trova il tuo destino?#!"
+
+ bookmark_northmen_bjorn_ironside_alt_ingrid:0 "$Ingrid$"
+ bookmark_northmen_bjorn_ironside_alt_ingrid_desc:0 "alt desc"
+ bookmark_northmen_bjorn_ironside_alt_eirikr:0 "$Eirikr$"
+ bookmark_northmen_bjorn_ironside_alt_eirikr_desc:0 "alt desc"
+
+ #Earl Alfred (the great)
+ bookmark_northmen_earl_alfred:0 "Conte Alfredo"
+ bookmark_northmen_earl_alfred_desc:0 "Mentre i Vichinghi spingono verso sud, il Conte Alfredo di Dorset sta preparando le sue truppe.\n\nNegli anni a venire, Alfredo combatterà numerose battaglie contro i Norreni e porrà fine all'invasione. Ereditato il trono di suo fratello, egli diverrà uno dei più grandi re Inglesi della storia.\n\n#bold Adempirai al grande destino di Alfredo, o verrai schiacciato dalla Grande Armata Pagana?#!"
+
+ bookmark_northmen_earl_alfred_alt_aethelred:0 "$E_thelred$"
+ bookmark_northmen_earl_alfred_alt_aethelred_desc:0 "alt desc"
+
+ ##EVENTS##
+ bookmark.0002.t:0 "Il Grande"
+ bookmark.0002.desc:0 "La prima volta che un vassallo mi salutò con un "Lunga vita ad [ROOT.Char.GetFirstNameNoTooltip] il Grande!", ne fui profondamente onorato. Non ci diedi molto peso, ma da quel giorno, l'epiteto è cresciuto in popolarità.\n\nDovunque vada, da [capital.GetNameNoTooltip] a [province.GetNameNoTooltip], i miei sudditi mi chiamano [ROOT.Char.GetFirstNameNoTooltip] il Grande."
+ bookmark.0002.a:0 "Prego di non deluderli mai"
+
+ bookmark.0004.t:1 "Vendetta"
+ bookmark.0004.desc_unknown:0 "Quando [prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] viene condott[prisoner.Custom('DE_END_PRO_S_N')] al mio cospetto, si prostra immediatamente e implora il mio perdono per aver #EMP ucciso [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))]#!?!\n\n"Pe... Pensavo lo sapeste! Scordatevi di qualsiasi cosa io abbia detto", ride nervosamente. "Ovviamente devo aver battuto la testa quando sono stat[prisoner.Custom('DE_END_PRO_S_N')] catturat[prisoner.Custom('DE_END_PRO_S_N')]... o qualcosa del genere. Non so di cosa sto parlando!"\n\nQuando ho saputo della morte di [dead.GetName], ho giurato che avrei avuto la mia vendetta. E io sono di parola."
+ bookmark.0004.desc:1 "Finalmente, dopo tutto questo tempo, Io ho [prisoner.Custom('DE_ART_DEF_P_A')] [prisoner.Custom('InsultAdjective')] [prisoner.GetName] alla mia mercé! Quando ho saputo della morte di mi[dead.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] per mano sua, ho giurato che avrei avuto la mia vendetta. E io sono di parola."
+ bookmark.0004.a.custom:0 "Ogni [close_family_member|E] di [dead.GetShortUIName]"
+ bookmark.0004.a:0 "Spezzerò le sue costole in ali di sangue!"
+ bookmark.0004.b:0 "Quest[prisoner.Custom('DE_PRO_PER_S_3P_N')][prisoner.GetWomanMan] è tu[prisoner.Custom('DE_END_PRO_S_N')], grande [ROOT.Char.GetFaith.HighGodName]!"
+ bookmark.0004.c:0 "Io ho altri piani per [prisoner.GetSheHe]..."

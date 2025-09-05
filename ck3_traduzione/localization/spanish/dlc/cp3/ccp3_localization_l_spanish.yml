@@ -1,0 +1,132 @@
+﻿l_spanish:
+  #Drassanes
+  building_type_drassanes_01: "$building_drassanes_01$"
+  building_type_drassanes_01_desc: "$building_drassanes_01_desc$"
+  building_drassanes_01: "Cantieri Navali"
+  building_drassanes_01_desc: "Fuori delle mura di Barcellona, ai piedi del colle di #italic Montjuich#!, questo grande arsenale di carenaggio, arma e protegge una flotta di galee da guerra.\nSotto volte di pietra appuntite gli operai lavorano instancabilmente. Alte torri e lunghe mura proteggono i segreti del loro lavoro dagli estranei."
+  
+  #Great Kyz Kala
+  building_type_kyz_kala_01: "$building_kyz_kala_01$"
+  building_type_kyz_kala_01_desc: "$building_kyz_kala_01_desc$"
+  building_kyz_kala_01: "Grande Kyz Kala"
+  building_kyz_kala_01_desc: "Quest'imponente palazzo s'innalza sull'oasi lussureggiante di Merv. Le mura scanalate inglobano laboratori, armerie e sale interminabili dove emissari e burocrati svolgono i loro affari.\nMMetà residenza, metà roccaforte, questo edificio maestoso è in grado di ospitare il più magnifico dei banchetti come di respingere la più barbara delle incursioni."
+  
+  #Cluny Abbey
+  building_type_cluny_abbey_01: "Monastero di Cluny"
+  building_type_cluny_abbey_01_desc: "$building_cluny_abbey_01_desc$"
+  building_cluny_abbey_01: "Abbazia di Cluny"
+  building_cluny_abbey_01_desc: "Un dono di terre e diritti, in cambio della salvezza eterna. Questo è il patto che è stato stretto tra la comunità monastica di Cluny e il signore locale. Nel tempo, è cresciuta fino a diventare una comunità vivace e influente, libera da interferenze secolari, che applica la disciplina benedettina in lungo e in largo. Sotto i suoi numerosi tetti rossi, i monaci pregano, lavorano e illuminano manoscritti: un modello da emulare in tutto il continente."
+  building_cluny_abbey_02: "Maior Ecclesia"
+  building_cluny_abbey_02_desc: "Quelle che una volta erano poche case monacali sono state sostituite da un vasto complesso religioso.\nPer suggellare quest'eredità, gli abati han dato avvio a un progetto colossale: la #italic Maior Ecclesia#!. Destinata a essere la più grande chiesa in tutta la Cristianità, le sue cinque navate superano in lunghezza quelle del Vaticano, e le poderose volte di pietra, zeppe di torri e cuspidi, costituiscono un'impresa architettonica senza pari."
+  
+  #Walls of York
+  building_type_york_walls_01: "$building_york_walls_01$"
+  building_type_york_walls_01_desc: "$building_york_walls_01_desc$"
+  building_york_walls_01: "Mura di York"
+  building_york_walls_01_desc: "Estese per molti miglia, queste mura imponenti vegliano sulla città sin dall'epoca dei Cesari. Esse sfruttano abilmente i due fiumi che serpeggiano nella pianura, proteggendola dai nemici a oriente e occidente. Tutti i traffici vengono incanalati attraverso precisi restringimenti, dove si riscuotono tributi o si far piovere frecce e fuoco."
+  
+  #Great Mosque of Damascus
+  building_type_damascus_mosque_01: "$building_damascus_mosque_01$"
+  building_type_damascus_mosque_01_desc: "$building_damascus_mosque_01_desc$"
+  building_damascus_mosque_01: "Grande Moschea di Damasco"
+  building_damascus_mosque_01_desc: "Questa moschea vanta una storia veneranda. Secoli di pietà e straordinaria ingegnosità si sovrappongono l'un l'altro, poiché s'è eretta sulle vestigia di un tempio romano e di una basilica cristiana primigenia.\nL'edificio è celebre per i suoi marmi sfarzosi e policromi, nonché per i mosaici aurei, in parte composti da tessere giunte fin da Costantinopoli."
+  
+  #Jokhang Temple
+  building_type_jokhang_01: "$building_jokhang_01$"
+  building_type_jokhang_01_desc: "$building_jokhang_01_desc$"
+  building_jokhang_01: "Tempio di Jokhang"
+  building_jokhang_01_desc: "Le leggende narrano che il Jokhang s'innalzò sopra un antico lago sacro, sede dello spirito di una demonessa dalle forme del Tibet. Tre volte sorse, e tre volte fu inghiottito dalla furia delle acque, finché le preghiere e i sacrifici offerti dalla moglie del primo imperatore non lo placarono definitivamente.\nIl tempio è il più sacro del regno, un dedalo di cortili e abitazioni monastiche attraversato da corridoi e sale scavate nella roccia, le cui pareti sono unte con burro di yak."
+  
+  #Wartburg
+  building_type_wartburg_01: "$building_wartburg_01$"
+  building_type_wartburg_01_desc: "$building_wartburg_01_desc$"
+  building_wartburg_01: "Wartburg"
+  building_wartburg_01_desc: "Nella selva di Turingia, arroccata su un'imponente rupe rocciosa, questa fortezza domina ogni via di merci e viandanti nella regione.\nUn possente barbicano difende l'unico varco al castello, e bianche mura serpeggiano fra le fenditure del monte. Il #italic Palas#! è l'edificio più rilevante del complesso: una vasta aula di fredda pietra riscaldata dai numerosi focolari."
+  
+  #Beta Giyorgis
+  building_type_beta_giyorgis_01: "$building_beta_giyorgis_01$"
+  building_type_beta_giyorgis_01_desc: "$building_beta_giyorgis_01_desc$"
+  building_beta_giyorgis_01: "San Giorgio di Lalibela"
+  building_beta_giyorgis_01_desc: "Il #italic Beta Giyorgis#! è scolpito interamente in caldo e rosso vulcanico. Attorno a esso, una dozzina di templi e costruzioni sorelle simboleggiano la Gerusalemme Terrena e quella Celeste. Questa meraviglia è prova vivente del legame tra il Sacro Regno e queste terre.\nNelle viscere della roccia, la navata principale è sontuosamente affrescata, e le sacre icone ornano le pareti."
+  
+  #Holy Wisdom of Novgorod 
+  building_type_holy_wisdom_01: "$building_holy_wisdom_01$"
+  building_type_holy_wisdom_01_desc: "$building_holy_wisdom_01_desc$"
+  building_holy_wisdom_01: "Santa Sapienza di Dio"
+  building_holy_wisdom_01_desc: "Questa magnifica chiesa è stata modellata sulla Hagia Sophia, per infondere la medesima luce, ricchezza e potenza in una gelida terra settentrionale. L'austera pietra bianca cela i colori sontuosi degli affreschi interni. Luminosa di candele, le ombre danzano attorno ai mosaici dorati delle numerose cupole."
+  
+  #Kano Earthworks
+  building_type_kano_walls_01: "$building_kano_walls_01$"
+  building_type_kano_walls_01_desc: "$building_kano_walls_01_desc$"
+  building_kano_walls_01: "Opere di terra di Kano"
+  building_kano_walls_01_desc: "Imponenti muraglie di terra e fango, alte a diverse braccia, circondano l'antica città di Kano.\nLe opere di terra abbracciano distese ben più vaste degli agglomerati cittadini, inglobando i campi di grano per nutrire la popolazione in tempi assedi."
+  
+  #Somapura University
+  building_type_somapura_university_01: "$building_somapura_university_01$"
+  building_type_somapura_university_01_desc: "$building_somapura_university_01_desc$"
+  building_somapura_university_01: "Università di Somapura"
+  building_somapura_university_01_desc: "Per secoli Somapura è stato uno dei più rinomati centri di sapere in India, attirando dotti da terre lontane grazie ai suoi molteplici legami con monasteri buddisti, giainisti e induisti.\nIl progetto quadrangolare simboleggia l'armonia e la purezza del cosmo, luogo propizio per il fiorire della mente."
+  
+  #Duomo of Florence
+  building_type_duomo_florence_01: "Duomo di Firenze"
+  building_type_duomo_florence_01_desc: "Sede dell'arcivescovo locale e grande motivo di orgoglio civico per tutti i cittadini di Firenze, il Duomo è una delle più grandi opere di architettura mai concepite."
+  building_duomo_florence_01: "Santa Reparata"
+  building_duomo_florence_01_desc: "Sorta lungo le antiche mura romane presso la porta settentrionale, questa basilica paleocristiana accoglie i fedeli di Firenze fin da prima dei tempi di Costantino. Ha conosciuto incendi, saccheggi, rifacimenti e benedizioni, conservando però le sue tre navate originali e i graziosi archi a tutto sesto.\nTuttavia, con l'ingrandir della città, la vecchia basilica potrebbe dover ampliarsi a sua volta."
+  building_duomo_florence_02: "Battistero di San Giovanni"
+  building_duomo_florence_02_desc: "Si tratta di un enorme battistero ottagonale al centro della città, dedicato a San Giovanni, patrono di Firenze.\nL'edificio è rivestito di marmi preziosi e ornato da sculture magistrali e mosaici dorati, autentica prova della ricchezza cittadina. La leggenda narra che un tempo fosse un tempio di Marte e che la sua forma ricordi assai il Pantheon di Roma."
+  building_duomo_florence_03: "Santa Maria del Fiore"
+  building_duomo_florence_03_desc: "Una grande cattedrale – un #italic Duomo#! – degna della opulenta Firenze, ora s'erge a dominare la città.\nLe lunghe navate e l'enorme abside ottagonale son rivestite di marmi dai colori vividi, giocando effetti prospettici l'uno sull'altro. La facciata è ornata di statue di profeti, santi e benefattori. Il suo alto campanile scandisce le ore di lavoro e di preghiera per la cittadinanza."
+  building_duomo_florence_04: "La Cupola"
+  building_duomo_florence_04_desc: "La #italic Cupola#! s'innalza maestosa sul complesso. Snella e leggiadra contro l'azzurro del cielo, è il supremo ingegno dei costruttori fiorentini.\nLa cupola è più alta e ampia di quanto fosse mai stato immaginato, priva di contrafforti esterni, sorretta da un geniale doppio guscio di mattoni e muratura."
+  
+  #Konarak Sun Temple
+  building_type_konark_temple_01: "$building_konark_temple_01$"
+  building_type_konark_temple_01_desc: "$building_konark_temple_01_desc$"
+  building_konark_temple_01: "Tempio del Sole di Konarak"
+  building_konark_temple_01_desc: "Opera di migliaia di artigiani, il Tempio del Sole di Konarak è un maestoso edificio consacrato al dio Surya. L'intero complesso s'ispira al possente cocchio del dio, trasportando la luce dal mare verso oriente.\nMeraviglioso esempio di architettura Kalinga, il tempio è rivestito di rilievi e sculture raffiguranti divinità, guerrieri, musici e creature leggendarie che narrano le sacre scritture induiste."
+  
+  #University of al-Qarawiyyin
+  building_type_al_qarawiyyin_university_01: "$building_al_qarawiyyin_university_01$"
+  building_type_al_qarawiyyin_university_01_desc: "$building_al_qarawiyyin_university_01_desc$"
+  building_al_qarawiyyin_university_01: "Università di al-Qarawiyyin"
+  building_al_qarawiyyin_university_01_desc: "Fondata da mercanti e pellegrini giunti da Kairouan, l'ampio complesso è divenuto uno dei più prestigiosi centri di studi nella parte occidentale del mondo islamico. Attira dotti da regioni lontane e istruisce le élite locali nelle scienze più raffinate.\nLa #italic madrasa#! si articola in diverse sale e stanze – offrendo riparo e ristoro agli stranieri, con lo #italic Sahn#! quale cortile centrale di libero dibattito."
+  
+  #Kairouan Basins
+  building_type_kairouan_basins_01: "$building_kairouan_basins_01$"
+  building_type_kairouan_basins_01_desc: "$building_kairouan_basins_01_desc$"
+  building_kairouan_basins_01: "Bacini di Kairouan"
+  building_kairouan_basins_01_desc: "Ideati per fornire acqua pura alla città nei momenti di necessità, questi enormi serbatoi purificano l'acqua piovana fungendo da decantatori e filtrando i sedimenti.\nIl sistema si compone di più sezioni collegate, dal bacino minore a quello maggiore, fino a una cisterna in muratura ornata."
+  
+  #Ghana Palace
+  building_type_ghana_palace_01: "$building_ghana_palace_01$"
+  building_type_ghana_palace_01_desc: "$building_ghana_palace_01_desc$"
+  building_ghana_palace_01: "Palazzo dei Ghanas"
+  building_ghana_palace_01_desc: "Cinto da un boschetto sacro, sorge il palazzo degli #italic Ghanas#!, i capi regnanti della città.\nIl complesso, edificato in arenaria e mattoni crudi, è protetto da un recinto fortificato. Le sue mura sono adornate da splendidi bassorilievi e incisioni scolpite. Pressoché imponente, questo palazzo domina la cittadella circostante."
+  
+  #Visegrad Citadel
+  building_type_visegrad_castle_01: "$building_visegrad_castle_01$"
+  building_type_visegrad_castle_01_desc: "$building_visegrad_castle_01_desc$"
+  building_visegrad_castle_01: "Cittadella di Visegrád"
+  building_visegrad_castle_01_desc: "Questa cittadella è un sontuoso e impenetrabile complesso di mura e torri. Veglia sulla curva del Danubio e regola il prezioso commercio fluviale.\nLa cittadella di Visegrád consta di una parte inferiore, dotata di un robusto mastio esagonale rivolto al fiume, e di un'acropoli che corona l'alto colle. La vasta fortificazione triangolare serve sia da dimora signorile sia da sontuosa riserva di caccia."
+  
+  #Archcollegiate Church of St. Mary and St. Alexius in Tum
+  building_type_wawel_cathedral_01: "$building_wawel_cathedral_01$"
+  building_type_wawel_cathedral_01_desc: "$building_wawel_cathedral_01_desc$"
+  building_wawel_cathedral_01: "Collegiata di Santa Maria e Sant'Alessio"
+  building_wawel_cathedral_01_desc: "Edificata in gneiss e calcare con l'opera di maestri germanici, questa grande chiesa in pietra è tra le prime del genere nelle terre polacche e testimonia la potenza della Chiesa.\nLe mura imponenti offrono ai fedeli la promessa di salvezza e una vitale protezione terrena. La torre occidentale sarebbe segnata dagli artigli del Diavolo, prova del suo valore difensivo."
+  building_wawel_cathedral_02: "Chiesa Arcicollegiata di Santa Maria e Sant'Alessio"
+  building_wawel_cathedral_02_desc: "$building_wawel_cathedral_01_desc$\nDopo l'ascesa al rango di chiesa arcicollegiata, è ora amministrata da un collegio di canonici, corpo ordinato composto esclusivamente da ecclesiastici. La sua mole e il suo splendore son grandiosi, ma, non essendo sede episcopale, non può vantare il titolo di cattedrale."
+  building_wawel_cathedral_03: "Cattedrale di Santa Maria e Sant'Alessio"
+  building_wawel_cathedral_03_desc: "$building_wawel_cathedral_01_desc$\nDopo aver speso ingenti risorse, il Papa ha finalmente eretto qui una nuova diocesi, con tanto di sede vescovile. Oramai, questo orgoglioso edificio può chiamarsi cattedrale."
+  
+  #Vatapi Caves
+  building_type_vatapi_caves_01: "$building_vatapi_caves_01$"
+  building_type_vatapi_caves_01_desc: "$building_vatapi_caves_01_desc$"
+  building_vatapi_caves_01: "Grotte di Vatapi"
+  building_vatapi_caves_01_desc: "Scavate dai primi Chalukya in un'imponente massa di arenaria, queste sacre grotte si addentrano nel cuore della montagna. All'interno si cela un mondo sacro e silenzioso.\nUn'arcata trionfale guida i pellegrini verso la monolitica facciata rocciosa. Le grotte son ornate d'idoli di tutte le principali fedi dell'India."
+  
+  #Golden fort of Jaisalmer
+  building_type_jaisalmer_fort_01: "$building_jaisalmer_fort_01$"
+  building_type_jaisalmer_fort_01_desc: "$building_jaisalmer_fort_01_desc$"
+  building_jaisalmer_fort_01: "Forte d'Oro"
+  building_jaisalmer_fort_01_desc: "Le mura dorate di Jaisalmer non custodiscono solo un presidio, ma un'intera città nel bel mezzo del deserto del Thar.\nAl calar del sole, si narra che le mura assumano il caldo color del miele, mentre di giorno confondono la città con il paesaggio circostante."

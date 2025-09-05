@@ -1,0 +1,49 @@
+﻿l_spanish:
+
+ I_HAS_ANY_CB_ON_TRIGGER:1 "Hai un [casus_belli|E] [TARGET_CHARACTER.Custom('IT_NAM_COL')][TARGET_CHARACTER.GetShortUIName|V]"
+ I_HAS_NOT_ANY_CB_ON_TRIGGER:1 "#bold Non#! hai un [casus_belli|E] [TARGET_CHARACTER.Custom('IT_NAM_COL')][TARGET_CHARACTER.GetShortUIName|V]"
+ THEY_HAS_ANY_CB_ON_TRIGGER:0 "[CHARACTER.GetShortUIName|V] ha un [casus_belli|E] su [TARGET_CHARACTER.GetShortUIName|V]"
+ THEY_HAS_NOT_ANY_CB_ON_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold non#! ha un [casus_belli|E] su [TARGET_CHARACTER.GetShortUIName|V]"
+ HAS_ANY_CB_ON_TRIGGER:0 "Ha un [casus_belli|E] su [TARGET_CHARACTER.GetShortUIName|V]"
+ HAS_NOT_ANY_CB_ON_TRIGGER:0 "#bold Non#! ha un [casus_belli|E] su [TARGET_CHARACTER.GetShortUIName|V]"
+
+ I_HAS_RAISED_ARMIES:1 "I tuoi [armies|E] sono stati radunati"
+ I_HAS_NOT_RAISED_ARMIES:1 "I tuoi [armies|E] #bold non#! sono stati radunati"
+ THEY_HAS_RAISED_ARMIES:0 "Gli [armies|E] di [CHARACTER.GetShortUINamePossessive|V] sono stati radunati"
+ THEY_HAS_NOT_RAISED_ARMIES:0 "Gli [armies|E] di [CHARACTER.GetShortUINamePossessive|V] #bold non#! sono stati radunati"
+ HAS_RAISED_ARMIES:0 "Gli [armies|E] sono stati radunati"
+ HAS_NOT_RAISED_ARMIES:0 "Gli [armies|E] #bold non#! sono stati radunati"
+
+ IS_ATTACKER_TRIGGER:0 "È un Attaccante nella [WAR.GetName|V]"
+ NOT_IS_ATTACKER_TRIGGER:0 "#bold Non#! è un Attaccante nella [WAR.GetName|V]"
+ IS_ATTACKER_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] È un Attaccante[WAR.GetName|V]"
+ NOT_IS_ATTACKER_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] #bold non#! è un Attaccante nella [WAR.GetName|V]"
+
+ IS_DEFENDER_TRIGGER:0 "È un Difensore nella [WAR.GetName|V]"
+ NOT_IS_DEFENDER_TRIGGER:0 "#bold Non#! è un Difensore nella [WAR.GetName|V]"
+ IS_DEFENDER_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] è un Difensore nella [WAR.GetName|V]"
+ NOT_IS_DEFENDER_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] #bold non#! è un Difensore nella [WAR.GetName|V]"
+
+ IS_PARTICIPANT_TRIGGER:0 "Partecipa nella [WAR.GetName|V]"
+ NOT_IS_PARTICIPANT_TRIGGER:0 "#bold Non#! partecipa nella [WAR.GetName|V]"
+ IS_PARTICIPANT_TRIGGER_FIRST:1 "Sei un partecipante nella [WAR.GetName|V]"
+ NOT_IS_PARTICIPANT_TRIGGER_FIRST:1 "#bold Non#! sei un partecipante nella [WAR.GetName|V]"
+ IS_PARTICIPANT_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] è un partecipante nella [WAR.GetName|V]"
+ NOT_IS_PARTICIPANT_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] #bold non#! è un partecipante nella [WAR.GetName|V]"
+
+ IS_WAR_LEADER_TRIGGER:2 "È un [war_leader|E] nella [WAR.GetName|V]"
+ NOT_IS_WAR_LEADER_TRIGGER:1 "#bold Non#! è un [war_leader|E] nella [WAR.GetName|V]"
+ IS_WAR_LEADER_TRIGGER_FIRST:2 "Sei un [war_leader|E] nella [WAR.GetName|V]"
+ NOT_IS_WAR_LEADER_TRIGGER_FIRST:2 "#bold Non#! sei un [war_leader|E] nella [WAR.GetName|V]"
+ IS_WAR_LEADER_TRIGGER_THIRD:1 "[CHARACTER.GetShortUIName|U] è un [war_leader|E] nella [WAR.GetName|V]"
+ NOT_IS_WAR_LEADER_TRIGGER_THIRD:1 "[CHARACTER.GetShortUIName|U] #bold non#! è un [war_leader|E] nella [WAR.GetName|V]"
+
+ WAS_CALLED_TRIGGER:0 "È stato chiamato nella[WAR.GetName|V]"
+ NOT_WAS_CALLED_TRIGGER:0 "#bold Non#! è stato chiamato nella [WAR.GetName|V]"
+ WAS_CALLED_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] è stato chiamato nella [WAR.GetName|V]"
+ NOT_WAS_CALLED_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] #bold non#! è stato chiamato nella [WAR.GetName|V]"
+
+ HAS_VALID_CASUS_BELLI_TRIGGER:0 "Ha un valido [casus_belli|E]"
+ NOT_HAS_VALID_CASUS_BELLI_TRIGGER:0 "#bold Non#! ha un valido [casus_belli|E]"
+
+ NOT_has_used_lifetime_subjugation:0 "Hai già condotto una guerra di sottomissione nella tua vita"

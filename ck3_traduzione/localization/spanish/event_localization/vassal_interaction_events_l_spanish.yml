@@ -1,0 +1,75 @@
+﻿l_spanish:
+ vassal_interaction.0001.opening:0 "[actor.Custom2('GreetingToVassal', ROOT.Char)]"
+ vassal_interaction.0001.desc:0 "Ti chiedo di cessare immediatamente la tua guerra contro [defender.GetTitledFirstName] di [defender.GetPrimaryTitle.GetName]!\n\nIl regno perdura quando siamo uniti, non divisi."
+ vassal_interaction.0001.a:0 "Ogni tuo desiderio è un ordine."
+ vassal_interaction.0001.b:0 "Questa è una questione d'onore, non rinuncerò facilmente."
+ vassal_interaction.0001.request_favor_tt:0 "Richiedo un [favor|E] in cambio"
+ vassal_interaction.0001.request_gold_tt:0 "Chiedo dell'oro in cambio"
+ vassal_interaction.0001.accept:0 "[actor.GetFirstNameNoTooltip] accetta la mia richiesta"
+ vassal_interaction.0001.decline:0 "[actor.GetFirstNameNoTooltip] rifiuta"
+ vassal_interaction.0001.c:0 "Ho già investito così tanto in questa guerra..."
+ vassal_interaction.0001.d:0 "No, andrò fino in fondo!"
+ vassal_interaction.0001.e:0 "No. E non puoi fermarmi!"
+
+ vassal_interaction.0002.opening:0 "[recipient.Custom2('GreetingToLiege', ROOT.Char)]"
+ vassal_interaction.0002.desc:0 "Ovviamente obbedirò alla tua saggezza e al tuo desiderio. Anche se la mia causa è giusta, per il momento mi arrenderò, per il bene del regno."
+ vassal_interaction.0002.a:0 "Un suddito obbediente è un buon servitore."
+
+ vassal_interaction.0003.desc:0 "Sono arrivato troppo vicino ai miei obiettivi per rinunciarvi per niente. Mi arrenderò se mi prometti un risarcimento futuro."
+ vassal_interaction.0003.a:0 "Hai la mia parola."
+ vassal_interaction.0003.b:0 "Dovresti fare come dico, senza condizioni!"
+ vassal_interaction.0003.b.tt:0 "La guerra continua"
+
+ vassal_interaction.0004.desc:0 "Questa guerra è costata troppo per poterla abbandonare adesso. Tuttavia, un piccolo contributo per risanare il mio tesoro potrebbe convincermi del contrario."
+ vassal_interaction.0004.a:0 "La compensazione è giusta."
+ vassal_interaction.0004.b:0 "Questa è una somma oltraggiosa!"
+
+ vassal_interaction.0005.opening:0 "[recipient.Custom2('GreetingToLiege', ROOT.Char)]"
+ vassal_interaction.0005.desc:0 "Ho il massimo rispetto per i tuoi desideri, ma il dado è già tratto. Porterò questa guerra fino alla fine"
+ vassal_interaction.0005.a:0 "Come osi sfidarmi!"
+ vassal_interaction.0005.b:0 "Dovrò accettarlo. Questa volta."
+
+ vassal_interaction.0006.desc:0 "La tua causa è giusta, e sarebbe ingiusto chiederti questo senza nessuna ricompensa."
+ vassal_interaction.0006.favor:0 "Sarò in debito con te per questo."
+ vassal_interaction.0006.gold:0 "Ripagherò l'oro che hai perso, purché i combattimenti finiscano ora."
+ vassal_interaction.0006.a:0 "Grazie per la tua gentilezza."
+ vassal_interaction.0006.b:0 "Grazie per la tua generosità."
+
+ vassal_interaction.0007.desc:0 "Sono indignato che tu richieda una tangente per eseguire gli ordini del tuo signore! Non mi hai inviato niente di meno che un disonorevole rifiuto alla mia richiesta!"
+ vassal_interaction.0007.a:0 "Molto bene. Ho una guerra a cui tornare."
+
+
+ vassal_interaction.0011.desc:0 "La rivendicazione di [attacker.GetTitledFirstNamePossessive] è giusta. Chiedo che ti arrendi immediatamente a [attacker.GetHerHim], per riportare l'ordine nel regno."
+ vassal_interaction.0011.a:0 "Se è così che deve essere, obbedirò."
+ vassal_interaction.0011.b:0 "Per favore, non chiedermi di rinunciare al mio onore per niente."
+ vassal_interaction.0011.c:0 "Quello che mi chiedi è un sacrificio costoso..."
+ vassal_interaction.0011.d:0 "No, continuerò a combatterlo!"
+
+ vassal_interaction.0012.desc:0 "Ti prego di considerare quanto mi hai chiesto, ma se è il tuo desiderio, mi arrenderò a [attacker.GetTitledFirstName]. Per il bene del regno."
+ vassal_interaction.0012.a:0 "Le ricompense per la fedeltà arrivano sempre in tempo."
+
+ vassal_interaction.0013.desc:0 "Perderò molto se rinuncio alla guerra con [attacker.GetTitledFirstName]. Posso cedere solo se prometti una compensazione futura."
+
+ vassal_interaction.0014.desc:0 "Arrendersi sarebbe un costo troppo alto. Tuttavia, se tu dovessi compensarmi per la perdita, potrei fare come richiesto."
+
+ vassal_interaction.0015.desc:0 "Perderei troppo se mi arrendessi. Non desidero disobbedire, ma [attacker.GetTitledFirstName] mi ha forzato la mano."
+
+ vassal_interaction.0016.gold:0 "Pagherò per la tua perdita, a patto che il combattimento finisca adesso."
+ vassal_interaction.0016.a:0 ""Almeno non ho ancora perso tutto."
+ vassal_interaction.0016.b:0 "Lo userò per riprendermi."
+
+ vassal_interaction.you_owe_me:0 "Farai come dico!"
+
+ vassal_interaction.war_ender_gives_up:1 "[recipient.GetShortUIName|U] ha rinunciato alla guerra, su ordine di [actor.GetShortUINamePossessive]"
+
+ vassal_interaction.0022.desc:0 "Ti scrivo per informarti che ho concesso l'indipendenza al tuo vassallo, [recipient.GetName]"
+ vassal_interaction.0022.a:0 "Molto bene."
+
+ vassal_interaction.0023.desc:0 "Ti scrivo per informarti che ho concesso l'indipendenza al mio vassallo, [recipient.GetName]"
+ vassal_interaction.0023.a:0 "Molto bene."
+
+ vassal_interaction.0030.desc:0 "La tua richiesta è giusta, e mi ritrovo convinto dai tuoi argomenti\n\nCon la presente ti perdono tutti i crimini commessi agli occhi di [recipient.GetPrimaryTitle.GetNameNoTooltip], in perpetuo. Sei libero!"
+ vassal_interaction.0030.a:0 "Tranquillità finalmente!"
+ 
+ vassal_interaction.0040.desc:0 "Sebbene sia tu a detenere [target.GetBaseName], è chiaro a tutti che sono #EMP Io#! a governare. Le sue tante [county_in_title.Custom('TerrainTypeProvince')] e villaggi sono supervisionati dai #EMP miei#! balivi e dai #EMP miei#! magistrati.\n\nPertanto, pongo la mia rivendicazione. Siete liber[ROOT.Char.Custom('DE_END_PRO_S_N')] di concedermi il titolo quando lo desiderate, altrimenti sono cert[actor.Custom('DE_END_PRO_S_N')] che lo otterrò a tempo debito.\n\nIn un modo o nell'altro."
+ vassal_interaction.0040.a:0 "Ho lasciato che [actor.GetFirstNameNoTooltip] diventasse troppo forte..."

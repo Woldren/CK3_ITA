@@ -1,0 +1,79 @@
+﻿l_spanish:
+ ### OUTCOME EVENTS ###
+
+ ##I am a player, do I want to take the risk?
+ elope_event_title:0 "Fuga:"
+ elope.0001.t:0 "$elope_event_title$ Protetto dalle Ombre"
+ elope.0001.positive.desc:0 "I preparativi finali sono stati fatti. La via di fuga è stata tracciata, le guardie sono state corrotto e [target.GetFirstName] è pront[target.Custom('DE_END_PRO_S_N')]. Stanotte, quando le tenebre caleranno su [location.GetNameNoTooltip], io libererò [target.Custom('DE_ART_DEF_P_A')] mi[target.Custom('DE_END_PRO_S_N')] [target.Custom('LoverPetName')] e farò di [target.GetSheHe] mi[target.Custom('DE_END_PRO_S_N')] [target.GetWifeHusband]."
+ elope.0001.negative.desc:0 "Ripasso la lista nella mia testa. La via di fuga è stata tracciata, le guardie hanno ricevuto le loro mazzette e la nota che ho mandato a [target.GetTitledFirstName] potrebbe averl[target.Custom('DE_END_PRO_S_N')] raggiunt[target.Custom('DE_END_PRO_S_N')] in tempo. E se non fosse accaduto? Forse [target.GetSheHe] non l'ha ricevuta affatto! E ci sono così tante altre cose che potrebbero essere andate storte...\n\nNon c'è tempo per il dubbio. Questa è la mia unica possibilità. Devo andare da [target.GetSheHe], vada come vada, o abbandonare l'impresa."
+ elope.0001.a:0 "Sto arrivando, [target.GetFirstNameNoTooltip]!"
+ elope.0001.b:0 "Che cosa sto facendo? Questa è una follia!"
+ elope.0001.a.tt:0 "Cerco di Fuggire con [target.GetShortUIName]"
+ elope.0001.a.success:0 "Ho #P successo#!"
+ elope.0001.a.failure_discover:0 "Io #N fallisco e vengo scopert[ROOT.Char.Custom('DE_END_PRO_S_N')]#!"
+ elope.0001.a.failure_hidden:0 "Io #N fallisco#! ma non vengo scoperto"
+
+#Success event owner
+ elope.1001.t:0 "$elope_event_title$ L'Amore Finisce"
+ elope.1001.start.desc:0 "Mentre aspettiamo, non posso fare a meno di immaginare ogni cosa che potrebbe andare storta. Mi sento completamente impotente — una sensazione che #EMP non#! tengo a conoscere meglio.\n\nIndividuo una torcia davanti a me, che si muove nella nostra direzione, e faccio segno alle mie guardie affinché si nascondano."
+ elope.1001.start.desc_brave:0 "Mentre aspettiamo, non posso fare a meno di domandarmi dove sia [target.GetFirstName] adesso. Ce l'ha fatta? Ci saranno inseguitori?\n\nIndividuo una torcia davanti a me, che si muove nella nostra direzione, e faccio segno alle mie guardie affinché si nascondano."
+ elope.1001.end.desc:0 "La luce si avvicina e possiamo distinguere due sagome. Una porta una spada, quello è chiaro. L'altra... deve essere #EMP [target.GetSheHe]#!!\n\nCorro incontro al[target.Custom('DE_END_ADJ_NUL_S_N')] [target.Custom('LoverPetName')], e [target.GetSheHe] si getta tra le mie braccia. L'abbraccio è breve, ma dolce come il miele. Con la sua mano nella mia, inizio a correre."
+ elope.1001.a:0 "Presto, amore mio! Il [ROOT.Char.Custom('DefaultPriestTitle')] sta aspettando!"
+ 
+ #Success for target liege
+ elope.1002.t:0 "Spariti Nella Notte"
+ elope.1002.start.desc:1 "Vengo svegliato da un duro colpo alla porta. "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip]! Una guardia è stata trovata morta e [target.Custom('DE_ART_DEF_P_A')] tu[target.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] è sparit[target.Custom('DE_END_PRO_S_N')]!""
+ elope.1002.desc_naked:0 "Mi precipito fuori dal letto, urlando ordini ancora prima di uscire dalla porta."
+ elope.1002.desc_not_naked:0 "Mi precipito fuori dal letto, urlando ordini mentre mi infilo i vestiti."
+ elope.1002.desc:0 "\n\nle ricerche proseguono per ore. E' solo a mezzogiorno che viene scoperta una lettera firmata da [target.GetTitledFirstName]. La scrittura è indubbiamente la sua.\n\n"
+ elope.1002.apologetic_relationship.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] carissim[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetFirstNameNoTooltip], mi dispiace davvero tanto, ma devo seguire il mio cuore. Ti ho lasciat[ROOT.Char.Custom('DE_END_PRO_S_N')] per sposare l'amore della mia vita — [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)].""
+ elope.1002.unapologetic_relationship.desc:0 ""Me ne sono andat[target.Custom('DE_END_PRO_S_N')] per sposare [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]. Non cercarmi — preferirei morire che essere tu[ROOT.Char.Custom('DE_END_PRO_S_N')] di nuovo!""
+ elope.1002.apologetic_family.desc:0 ""[ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))|U], ti ho lasciat[ROOT.Char.Custom('DE_END_PRO_S_N')] per sposare l'amore della mia vita — [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]. Tutto iò che voglio è essere felice. Spero troveraiin cuor tuo il modo di perdonarmi.""
+ elope.1002.unapologetic_family.desc:0 ""Se davvero hai amato [ROOT.Char.Custom('DE_ART_DEF_P_A')] tu[ROOT.Char.Custom('DE_END_PRO_S_N')] stess[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort' , target)], avresti voluto vedermi felice. Ma poiché tieni così poco a me, me ne sono andat[target.Custom('DE_END_PRO_S_N')] per seguire il mio cuore. Sposerò [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] e non c'è nulla che tu possa fare per fermarmi!""
+ elope.1002.a.fallback:0 "Come ha potuto?"
+ elope.1002.a.vengeful:0 "Quel[target.Custom('DE_END_ADJ_NUL_S_N')] tradi[target.Custom('DE_END_NOU_S_GS_N')] [target.Custom('InsultNounSexual')] avrà ciò che si merita!"
+ elope.1002.a.compassionate:0 "Spero che [target.GetSheHe] sarà felice, qualsiasi cosa accada."
+ 
+ #Success event for relatives of target and owner
+ elope.1003.opening:0 "[target_keeper.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ elope.1003.start.desc:0 "Ti scrivo per informarti che"
+ elope.1003.target_root_family.desc:0 "tu[target.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] [target.GetFirstName]"
+ elope.1003.target_keeper_relation.desc:0 "mi[target.Custom('DE_END_PRO_S_N')] [target_keeper.Custom2('RelationToMeShort' , SCOPE.sC('target'))] [target.GetFirstName]"
+ elope.1003.target_liege_subject.desc:0 "[target.Custom('DE_ART_DEF_P_A')] mi[target.Custom('DE_END_PRO_S_N')] suddit[target.Custom('DE_END_PRO_S_N')] [target.GetFirstName]"
+ elope.1003.middle.desc:0 "è fuggit[target.Custom('DE_END_PRO_S_N')] con"
+ elope.1003.owner_root_family.desc:0 "tu[target.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('owner'))] [owner.GetFirstName]!"
+ elope.1003.your_character_introduction.desc:0 "[owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]!"
+ elope.1003.end.desc:0 "Lasciami essere franc[ROOT.Char.Custom('DE_END_PRO_S_N')]: questo è un grave insulto, e un onta sull'onore della tua famiglia. Se la #EMP coppietta felice#! dovesse rifugiarsi in [capital.GetNameNoTooltip], confido che gli impartirai una lezione!"
+ elope.1003.a:0 "Che catastrofe!"
+
+#Failure discovered event owner
+ elope.1011.t:0 "$elope_event_title$ Torce Nell'Oscurità"
+ elope.1011.middle.desc:0 "Intravedo due sagome, tre, quattro... [ROOT.Char.GetFaith.HighGodName], non promette bene!"
+ elope.1011.end.desc:0 "Al mio ordine, ci ritiriamo attraverso la boscaglia. I nostri inseguitori, d'altro canto, non la tirano per le lunghe.\n\n"Non potete nascondervi per sempre, [ROOT.Char.GetTitledFirstNameNoTooltip]! Abbiamo catturato un[dummy_soldier.Custom('DE_END_PRO_S_N')] dei tuoi [dummy_soldier.GetWomenMen], e voi sarete [ROOT.Char.Custom('DE_ART_DEF_P_A')] prossimo!""
+ elope.1011.a:0 "#EMP Corri!#!"
+
+ elope.1012.t:0 "Una Fuga Fallita"
+ elope.1012.desc:0 "Un tentativo di fuga con [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] è stato sventato! Il capitano della guardia mi informa che [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] stava pianificando di rapir[target.Custom('DE_PRO_POS_P_3P')] per sposar[target.Custom('DE_PRO_POS_P_3P')] in segreto.\n\nCome se non fosse abbastanza, delle lettere trovate nelle stanze di [target.GetFirstNamePossessiveNoTooltip] indicano che [target.GetSheHe] fosse implicata nell'intera faccenda!"
+ elope.1012.a:0 "Quel[owner.Custom('DE_END_ADJ_NUL_S_N')] [owner.Custom('InsultAdjective')] [owner.Custom('InsultNounSexual')] non avrà mai [target.Custom('DE_ART_DEF_P_A')] mi[target.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))]!"
+ elope.1012.b:0 "Tradimento! Imprigiona [target.GetFirstNameNoTooltip], #EMP all'istante!#!"
+ elope.1012.c:0 "Li farò soffrire, ricorda queste mie parole!"
+ elope.1012.d:0 "Questa cosa mi sta facendo venire il mal di testa..."
+
+#Failure undiscovered for owner
+ elope.1021.end.desc:0 "\n\nAl mio ordine, ci ritiriamo attraverso la boscaglia. Per pura fortuna, torniamo alla carrozza e fuggiamo nella notte."
+ elope.1021.a:0 "[target.GetFirstNameNoTooltip], amore mio... Prego che tu stia bene."
+
+
+### ONGOING EVENTS ###
+
+# Lover is doubting
+ elope.2000.t:0 "Mio amore,"
+ elope.2000.start.desc:0 "Mi hai detto di essere coraggios[ROOT.Char.Custom('DE_END_PRO_S_N')], ma non riesco a contenere i miei timori più a lungo. E se"
+ elope.2000.target_relation.desc:0 "[target.Custom('DE_ART_DEF_P_A')] mi[target.Custom('DE_END_PRO_S_N')] [target.Custom2('RelationToMeShort' , SCOPE.sC('discoverer'))] avesse scoperto i nostri piani? Riesco a malapena a dormire e faccio fatica a mandare giù il cibo. [discoverer.GetSheHe|U] sta iniziando a preoccuparsi — forse persino ad insospettirsi!"
+ elope.2000.titledname.desc:0 "[discoverer.GetTitledFirstName] avesse scoperto i nostri piani? Whenever [discoverer.GetSheHe] appears, I go stiff and speechless. It is only a matter of time until [discoverer.GetSheHe] notices!"
+ elope.2000.end.desc:0 "\n\nNon abbiamo molto tempo. Ti prego, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] carissim[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetFirstNameNoTooltip], fai in fretta!"
+ elope.2000.a:0 "Affretteremo i piani, mi[target.Custom('DE_END_PRO_S_N')] [target.Custom('LoverPetName')]."
+ elope.2000.c:0 "Fidati di me — è tutto sotto controllo."
+ elope.2000.c.success:0 "[target.GetShortUIName|U] è convint[target.Custom('DE_END_PRO_S_N')]"
+ elope.2000.c.failure:0 "[target.GetShortUIName|U] si sente respint[target.Custom('DE_END_PRO_S_N')]"
+ elope.2000.b:0 "Non dovresti inviare lettere, allora!"

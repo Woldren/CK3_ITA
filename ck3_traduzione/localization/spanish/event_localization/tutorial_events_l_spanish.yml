@@ -1,0 +1,30 @@
+﻿l_spanish:
+ tutorial.0001.t: "Avvenimenti Inquietanti a Ennis"
+ tutorial.0001.desc: "A notte fonda, [potential_ally.Custom('DE_ART_DEF_P_A')] mi[potential_ally.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_ally'))] [potential_ally.GetFirstName] bussa alla porta della mia camera. L[potential_ally.Custom('DE_END_PRO_S_N')] e [potential_ally.GetSheHe] borbotta qualcosa di molto preoccupante, con un'espressione terribilmente seria sul viso.\n\n"[GetPlayer.GetFirstNameNoTooltip], avete sentito la notizia? [bad_guy.Custom('IT_NAM_COL3')|U][bad_guy.GetTitledFirstName] sta cercando di creare una falsa rivendicazione sulle vostre terre. Temo che [bad_guy.GetSheHe] si stia preparando alla guerra.""
+ tutorial.0001.a: "Parlerò con [bad_guy.Custom('IT_NAM_COL3')][bad_guy.GetTitledFirstNameNoTooltip]."
+ tutorial.0001.a_flavor: "#TUT Scegliendo questa opzione cercherai di fare amicizia con [bad_guy.Custom('IT_NAM_COL3')][bad_guy.GetTitledFirstName], il che potrebbe renderl[bad_guy.Custom('DE_END_PRO_S_N')] [Select_CString(bad_guy.IsFemale,'tua amica','tuo amico')] ed evitare una [war|e].#!"
+
+ tutorial.0001.b: "Non ho paura degli ubriachi."
+ tutorial.0001.b_flavor: "#TUT Scegliendo questa opzione dichiari di non temere una potenziale [war|e] contro [bad_guy.Custom('IT_NAM_COL3')][bad_guy.GetTitledFirstName]. Questo ti permette di ottenere un po' di [prestige|e]."
+
+ tutorial.0001.c: "Una piccola donazione ai fondi per la guerra è d'obbligo."
+ tutorial.0001.c.tt.success: "Riesci a convincere [potential_ally.Custom('IT_NAM_COL3')][potential_ally.GetTitledFirstNameNoTooltip]"
+ tutorial.0001.c.tt.failure: "Offendi [potential_ally.Custom('IT_NAM_COL3')][potential_ally.GetTitledFirstNameNoTooltip]"
+ tutorial.0001.c_flavor: "#TUT Questa opzione consente di provare a convincere [potential_ally.Custom('IT_NAM_COL3')][potential_ally.GetTitledFirstName] ad aiutarti finanziariamente. Se riesce a persuaderl[potential_ally.Custom('DE_END_PRO_S_N')], la sua donazione in oro potrà aiutarti a evitare o vincere la [war|e].#!"
+
+
+ tutorial.0002.t: "[bad_guy.Custom('IT_NAM_COL3')|U][bad_guy.GetTitledFirstNameNoTooltip] Si Prepara Alla Guerra"
+ tutorial.0002.desc: "[potential_ally.Custom('DE_ART_DEF_P_D')] mi[potential_ally.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_ally'))], [potential_ally.GetFirstName], torna da me con un sorriso imbarazzato sul volto. [potential_ally.GetSheHe|U] si schiarisce la gola, evidenziando un certo disagio. \n\n"[GetPlayer.GetFirstNameNoTooltip], amic[ROOT.Char.Custom('DE_END_PRO_S_N')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')]! c'è stato un piccolo sviluppo della situazione per quanto riguarda [bad_guy.Custom('IT_NAM_COL3')][bad_guy.GetTitledFirstName]. La scorsa settimana, durante una bevuta in compagnia, l'ho sorpres[bad_guy.Custom('DE_END_PRO_S_N')] a vantarsi dei suoi piani d'invasione."\n\n"Temo che non abbiate ormai molto tempo prima che [bad_guy.GetSheHe] faccia la sua mossa.""
+ 
+ tutorial.0002.a: "Ci deve pur essere un altro modo..."
+ tutorial.0002.a_flavor: "#TUT Questa opzione consente di provare a parlare con [bad_guy.Custom('IT_NAM_COL3')][bad_guy.GetTitledFirstName]. C'è la possibilità che [bad_guy.GetSheHe] sia ricettiv[bad_guy.Custom('DE_END_PRO_S_N')] alla tua [diplomacy|e], ma c'è anche il rischio che si offenda.#!"
+ tutorial.0002.a.tt: "Formi un'[alliance|e] con [bad_guy.Custom('IT_NAM_COL3')][bad_guy.GetTitledFirstName]"
+ tutorial.0002.a.tt.crit_success: "Le tue argomentazioni sono state #EMP molto#! convincenti"
+ tutorial.0002.a.tt.success: "Le tue argomentazioni sono state soddisfacenti"
+ tutorial.0002.a.tt.failure: "Offendi [bad_guy.Custom('IT_NAM_COL3')][bad_guy.GetTitledFirstNameNoTooltip]"
+
+ tutorial.0002.b: "Ahahah! Che burlon[bad_guy.Custom('DE_END_PRO_S_N')] quel[bad_guy.Custom('DE_END_ADJ_NUL_S_N')] [bad_guy.GetFirstNameNoTooltip]."
+ tutorial.0002.b_flavor: "#TUT Considerata la tua [Concept('friends','amicizia')|E] con [bad_guy.Custom('IT_NAM_COL3')][bad_guy.GetTitledFirstName], sai che anche se [bad_guy.GetSheHe] parla tanto, in realtà non sta tramando nulla contro di te.#!"
+
+ tutorial.0002.c: "Mi sto stancando di questi giochetti. [bad_guy.GetFirstNameNoTooltip] si sottometterà a #EMP me.#!"
+ tutorial.0002.c_flavor: "#TUT Questa opzione potrebbe permetterti di rendere [bad_guy.Custom('IT_NAM_COL3')][bad_guy.GetTitledFirstNameNoTooltip] un tuo [vassal|e]. Perché ciò avvenga, dovrai prima vincere una [war|e] contro di [bad_guy.GetSheHe]!#!"

@@ -1,0 +1,10 @@
+﻿l_spanish:
+ CHANGE_GHW_TARGET_TIMEOUT:0 "@warning_icon! #X L'obiettivo non puo essere cambiato perché la guerra inizia tra meno di $VALUE$ giorni#!"
+ CHANGE_GHW_TARGET_WRONG_HOSTILITY:0 "@warning_icon! #X noi non consideriamo la religione di [TARGET_CHARACTER.GetNamePossessive] ostile #!"
+ CHANGE_GHW_TARGET_SAME_CHARACTER:0 "@warning_icon! #X La persona selezionata è gia un obiettivo di questa grande guerra santa#!"
+ CHANGE_GHW_TARGET_HEADER:1 "scegli nuovo obiettivo"
+ CHANGE_GHW_TARGET:0 "@warning_icon! #X seleziona nuovo obiettivo#!"
+ CHANGE_GHW_TARGET_CONFIRM:1 "scegli nuovo obiettivo"
+ CHANGE_GHW_TARGET_COST_TOOLTIP:1 "#T Costo di reindirizzamento\n#!Il costo incrementa ogni volta che un nuovo obiettivo viene scelto\n[ChangeGHWTargetWindow.GetCostTooltip]"
+ CHANGE_GHW_TARGET_DEFENDERS:0 "Difensori"
+ CHANGE_GHW_TARGET_COST:0 "Costo:[ChangeGHWTargetWindow.GetCost]"

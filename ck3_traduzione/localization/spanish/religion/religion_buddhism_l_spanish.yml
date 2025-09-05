@@ -1,0 +1,168 @@
+﻿l_spanish:
+ buddhism_religion:0 "Buddhismo"
+ buddhism_religion_adj:0 "Buddhista"
+ buddhism_religion_adherent:0 "Buddhista"
+ buddhism_religion_adherent_plural:0 "Buddhisti"
+ buddhism_religion_desc:0 "Il Buddhismo segue gli insegnamenti di Gautama Buddha e dei successivi "illuminati", affinché si possa superare la sofferenza dell'esistenza, che viene inflitta dal costante ciclo del cambiamento attraverso la morte e la rinascita. Raggiungere l'illuminazione è il cammino per liberarsi dal Samsara, nell'inesistenza del Nirvana."
+ buddhism_high_god_name:0 "Siddhartha"
+ buddhism_high_god_name_2:0 "$buddhism_high_god_name$" # Optional translation alt
+ buddhism_high_god_name_possessive:0 "di Siddhartha"
+ buddhism_high_god_alternate:0 "L'Illuminato"
+ buddhism_high_god_alternate_possessive:0 "L'Illuminato"
+ buddhism_samsara:0 "il Samsara"
+ buddhism_samsara_2:0 "$buddhism_samsara$" # Optional translation alt
+ buddhism_samsara_3:0 "$buddhism_samsara$" # Optional translation alt
+ buddhism_good_god_buddha:0 "Buddha"
+ buddhism_good_god_arhat:0 "L'Arhat"
+ buddhism_good_god_perfected_ones:0 "I Perfetti"
+
+ buddhism_creator_god_name:0 "Tathagatagarbha"
+ buddhism_creator_god_name_possessive:0 "Tathagatagarbha"
+ buddhism_health_god_name:0 "Virūḍhaka"
+ buddhism_health_god_name_possessive:0 "Virūḍhaka"
+ buddhism_fertility_god_name:0 "$buddhism_health_god_name$"
+ buddhism_fertility_god_name_possessive:0 "$buddhism_health_god_name_possessive$"
+ buddhism_wealth_god_name:0 "Vaiśravaṇa"
+ buddhism_wealth_god_name_possessive:0 "Vaiśravaṇa"
+ buddhism_household_god_name:0 "Dhṛtarāṣtra"
+ buddhism_household_god_name_possessive:0 "Dhṛtarāṣtra"
+ buddhism_fate_god_name:0 "kamma"
+ buddhism_fate_god_name_possessive:0 "kamma"
+ buddhism_knowledge_god_name:0 "Virūpākṣa"
+ buddhism_knowledge_god_name_possessive:0 "Virūpākṣa"
+ buddhism_war_god_name:0 "$buddhism_household_god_name$"
+ buddhism_war_god_name_possessive:0 "$buddhism_household_god_name_possessive$"
+ buddhism_trickster_god_name:0 "$buddhism_devil_name$"
+ buddhism_trickster_god_name_possessive:0 "$buddhism_devil_name_possessive$"
+ buddhism_night_god_name:0 "$buddhism_knowledge_god_name$"
+ buddhism_night_god_name_possessive:0 "$buddhism_knowledge_god_name_possessive$"
+ buddhism_water_god_name:0 "$buddhism_wealth_god_name$"
+ buddhism_water_god_name_possessive:0 "$buddhism_wealth_god_name_possessive$"
+ 
+ buddhism_devil_name:0 "Mara"
+ buddhism_devil_name_possessive:0 "Mara"
+ buddhism_evil_god_tanha:0 "Tanha"
+ buddhism_evil_god_arati:0 "Arati"
+ buddhism_evil_god_raga:0 "Raga"
+ buddhism_house_of_worship:0 "tempio"
+ buddhism_house_of_worship_2:0 "il $buddhism_house_of_worship$" # Optional translation alt
+ buddhism_house_of_worship_3:0 "$buddhism_house_of_worship$" # Optional translation alt
+ buddhism_house_of_worship_plural:0 "templi"
+ buddhism_religious_symbol:0 "dharmachakra"
+ buddhism_religious_symbol_2:0 "$buddhism_religious_symbol$" # Optional translation alt
+ buddhism_religious_symbol_3:0 "$buddhism_religious_symbol$" # Optional translation alt
+ buddhism_religious_text:0 "Buddhavacana"
+ buddhism_religious_text_2:0 "$buddhism_religious_text$" # Optional translation alt
+ buddhism_religious_text_3:0 "$buddhism_religious_text$" # Optional translation alt
+ buddhism_religious_head_title:0 "lama"
+ buddhism_religious_head_title_name:0 "Lama Incarnato"
+ buddhism_devotee_male:0 "monaco"
+ buddhism_devotee_male_plural:0 "monaci"
+ buddhism_devotee_female:0 "monaca"
+ buddhism_devotee_female_plural:0 "monache"
+ buddhism_alt_priest_term:0 "sangha"
+ buddhism_divine_realm:0 "Nirvana"
+ buddhism_divine_realm_2:0 "$buddhism_divine_realm$" # Optional translation alt
+ buddhism_divine_realm_3:0 "$buddhism_divine_realm$" # Optional translation alt
+ buddhism_negative_afterlife:0 "Naraka"
+ buddhism_negative_afterlife_2:0 "$buddhism_negative_afterlife$" # Optional translation alt
+ buddhism_negative_afterlife_3:0 "$buddhism_negative_afterlife$" # Optional translation alt
+ buddhism_death_god_name:0 "Yama"
+ buddhism_death_god_name_possessive:0 "Yama"
+ buddhism_witchgod_mara:0 "$buddhism_trickster_god_name$"
+ buddhism_witchgod_mara_possessive:0 "$buddhism_trickster_god_name_possessive$"
+ 
+ #Ari
+ ari:0 "Ari"
+ ari_adj:0 "Ari"
+ ari_adherent:0 "Ari"
+ ari_adherent_plural:0 "Ari"
+ ari_desc:0 "La fede Ari combina elementi dal Buddhismo tantrico, venerazione dell'anima e la tradizionale adorazione dei Nāga come per gli Induisti. I devoti Ari sono considerati Buddhisti, nonostante alcune loro pratiche siano percepite alquanto non ortodosse."
+ 
+ #Theravada
+ theravada:0 "Theravada"
+ theravada_adj:0 "Theravada"
+ theravada_adherent:0 "Theravada"
+ theravada_adherent_plural:0 "Theravada"
+ theravada_desc:0 "Il cammino per l'illuminazione passa attraverso le proprie esperienze, riflessioni e ragionamenti. Gautama Buddha ha trovato il proprio sentiero al Nirvana, e l'unica via possibile per seguirlo è conoscere, imparare e studiare la propria esistenza."
+ 
+ #Mahayana
+ mahayana:0 "Mahayana"
+ mahayana_adj:0 "Mahayana"
+ mahayana_adherent:0 "Mahayana"
+ mahayana_adherent_plural:0 "Mahayana"
+ mahayana_desc:0 "Liberarsi dal Samsara non è soltanto qualcosa d'individuale, ma una esperienza condivisa tra esseri senzienti. Raggiungere lo stato di Buddha è solo un passo sul lungo cammino di tutti gli esseri senzienti per giungere al Nirvana, è questo l'obbiettivo virtuoso del Samsara."
+ 
+ #Vajrayana
+ vajrayana:0 "Vajrayana"
+ vajrayana_adj:0 "Vajrayana"
+ vajrayana_adherent:0 "Vajrayana"
+ vajrayana_adherent_plural:0 "Vajrayana"
+ vajrayana_desc:0 "La motivazione verso lo stato di Buddha è essenziale, e la vera illuminazione può solo essere raggiunta quando viene desiderata a beneficio di tutti gli esseri senzienti. Tutti nasciamo con una mente illuminata, ma è oscurata dall'esistenza. Esercitarsi nel vedere la verità del mondo e dell'universo permette di liberare l'innata illuminazione."
+ vajrayana_religious_text:0 "Tantra Buddhisti"
+ vajrayana_religious_text_2:0 "$vajrayana_religious_text$" # Optional translation alt
+ vajrayana_religious_text_3:0 "$vajrayana_religious_text$" # Optional translation alt
+ 
+ vajrayana_creator_god_name:0 "Adi-Buddha"
+ vajrayana_creator_god_name_possessive:0 "Adi-Buddha"
+ vajrayana_health_god_name:0 "Hayagrīva"
+ vajrayana_health_god_name_possessive:0 "Hayagrīva"
+ vajrayana_fertility_god_name:0 "Yamantaka"
+ vajrayana_fertility_god_name_possessive:0 "Yamantaka"
+ vajrayana_wealth_god_name:0 "Vessavaṇa"
+ vajrayana_wealth_god_name_possessive:0 "Vessavaṇa"
+ vajrayana_household_god_name:1 "Śrīdēvī"
+ vajrayana_household_god_name_possessive:1 "Śrīdēvī"
+ vajrayana_knowledge_god_name:0 "Brahmā"
+ vajrayana_knowledge_god_name_possessive:0 "Brahmā"
+ vajrayana_war_god_name:1 "Prana Atma"
+ vajrayana_war_god_name_possessive:1 "Prana Atma"
+ vajrayana_night_god_name:0 "Mahakala"
+ vajrayana_night_god_name_possessive:0 "Mahakala"
+ vajrayana_water_god_name:1 "Vasudhārā"
+ vajrayana_water_god_name_possessive:1 "Vasudhārā"
+ 
+ #Tibetan Buddhism
+ lamaism:0 "Nangchos"
+ lamaism_adj:0 "Nangchos"
+ lamaism_adherent:0 "Nangchospo"
+ lamaism_adherent_plural:0 "Nangchospa"
+ lamaism_desc:1 "Il Buddhismo in Tibet è conosciuto come Nangchos, o il Dharma degli Interni. Nell'Impero Tibetano, le fedi Vajrayana e Mahayana sono praticate in unione con le credenze, pratiche e divinità tradizionali Tibetane, con varie scuole in competizione fra loro per il controllo temporaneo."
+ lamaism_house_of_worship:0 "gompa"
+ lamaism_house_of_worship_2:0 "$lamaism_house_of_worship$" # Optional translation alt
+ lamaism_house_of_worship_3:0 "$lamaism_house_of_worship$" # Optional translation alt 
+ lamaism_house_of_worship_plural:0 "gompa"
+ lamaism_religious_text:0 "Nangchos Gyubum"
+ lamaism_religious_text_2:0 "$lamaism_religious_text$" # Optional translation alt
+ lamaism_religious_text_3:0 "$lamaism_religious_text$" # Optional translation alt 
+ lamaism_religious_head_title:0 "Trizin"
+ lamaism_devotee_male:0 "ngagpa"
+ lamaism_devotee_male_plural:0 "ngagpa"
+ lamaism_devotee_female:0 "ngagpa"
+ lamaism_devotee_female_plural:0 "ngagpa"
+ lamaism_devotee_neuter:0 "ngagpa"
+ lamaism_devotee_neuter_plural:0 "ngagpa"
+ lamaism_priest:0 "gelong"
+ lamaism_priest_plural:0 "gelong"
+ lamaism_priest_term_plural:0 "Gelong"
+ lamaism_bishop:0 "lama"
+ lamaism_bishop_plural:0 "lama"
+ 
+ lamaism_creator_god_name:0 "Dangpö Sanggyé"
+ lamaism_creator_god_name_possessive:0 "Dangpö Sanggyé"
+ lamaism_health_god_name:0 "Hayagrīva"
+ lamaism_health_god_name_possessive:0 "Hayagrīva"
+ lamaism_fertility_god_name:0 "Dorje 'Jigsbyed"
+ lamaism_fertility_god_name_possessive:0 "Dorje 'Jigsbyed"
+ lamaism_wealth_god_name:0 "Namthöse"
+ lamaism_wealth_god_name_possessive:0 "Namthöse"
+ lamaism_household_god_name:0 "Palden Lhamo"
+ lamaism_household_god_name_possessive:0 "Palden Lhamo"
+ lamaism_knowledge_god_name:0 "Brahmā"
+ lamaism_knowledge_god_name_possessive:0 "Brahmā"
+ lamaism_war_god_name:0 "Begtse"
+ lamaism_war_god_name_possessive:0 "Begtse"
+ lamaism_night_god_name:0 "Nagpo Chenpo"
+ lamaism_night_god_name_possessive:0 "Nagpo Chenpo"
+ lamaism_water_god_name:0 "Norgyunma"
+ lamaism_water_god_name_possessive:0 "Norgyunma"

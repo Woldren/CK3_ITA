@@ -1,0 +1,92 @@
+﻿l_spanish:
+
+ ##### TOUR #####
+
+ ### ACTIVITY
+ activity_tour:0 "Grande Viaggio"
+ activity_tour_desc:0 "Organizza un magnifico [tour|E] e visita i tuoi [vassals|E] e le loro terre. Ogni [stop|E] avrà una durata di #bold 2 mesi#!."
+ activity_tour_selection_tooltip:1 "Viaggia attraverso il tuo regno e visita i tuoi vassalli in un magnifico viaggio.\n\nRicompense previste:\n$BULLET_WITH_TAB$ [control_i][county_control|E]\n$BULLET_WITH_TAB$ @domain_icon![county_opinion|E]\n$BULLET_WITH_TAB$Guadagna [legitimacy_i][legitimacy|E]\n$BULLET_WITH_TAB$ Perdita dello [stress_loss_i][stress|E]"
+ activity_tour_host_desc:1 "$BULLET_WITH_TAB$ @control_icon! [county_control|E]\n$BULLET_WITH_TAB$ @domain_icon! [county_opinion|E]\n$BULLET_WITH_TAB$Guadagna [legitimacy_i][legitimacy|E]\n$BULLET_WITH_TAB$ Perdita dello [stress_loss_i][stress|E]\n\nRicompense per il [tour_success|E] :\n$BULLET_WITH_TAB$ Livello #V 1#!: [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ Livello #V 2#!: [opinion|E] del [vassal|E] [GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName]\n$BULLET_WITH_TAB$ Livello #V 3#!: [opinion|E] del [vassal|E] visitato\n$BULLET_WITH_TAB$ Livello #V 4#!: #weak ([character|E])#! [GetModifier( 'itinerant_liege_modifier' ).GetNameWithTooltip|L]\n$BULLET_WITH_TAB$ Livello #V 5#!: #weak ([character|E])#! [GetModifier( 'mega_itinerant_liege_modifier' ).GetNameWithTooltip|L]"
+ activity_tour_conclusion_characters_header:0 "Vassalli visitati"
+
+ itinerant_liege_modifier:0 "Sovrano Itinerante"
+ itinerant_liege_modifier_desc:0 "Questo personaggio ha organizzato un [tour|E] con successo."
+ mega_itinerant_liege_modifier:0 "Sovrano Magnifico"
+ mega_itinerant_liege_modifier_desc:0 "Questo personaggio ha organizzato un [tour|E] magnifico."
+ activity_window_character_stop_host:1 "Fermata ospite\n[Character.GetShortUINameNoTooltip|U]"
+ activity_tour_conclusion_desc:0 "Il tuo [GetActivityType( 'activity_tour' ).GetName] è giunto al termine."
+
+ ### PHASES
+ tour_phase_tour_grounds:2 "Visita dei Terreni"
+ tour_phase_tour_grounds_desc:0 "La [tour_the_grounds|E] dei possedimenti dei tuoi [vassal|E], aumenta il [control|E]."
+ tour_phase_dinner:1 "Cena Organizzata"
+ tour_phase_dinner_desc:0 "Divertiti ad una [hosted_dinner|E] da un tuo vassallo, aumentnado l'[opinion|E] dei tuoi [vassal|E]."
+ tour_phase_cultural_festival:1 "Festa Culturale"
+ tour_phase_cultural_festival_desc:0 "Divertiti ad una [cultural_festival|E], acquisendo la cultura locale e aumentando l'[county_opinion|E] e l'[cultural_acceptance|E]."
+ tour_phase_journey_home:0 "Ritorno a Casa"
+ tour_phase_journey_home_desc:0 "Ritorna nella tua capitale, concludendo il tuo viaggio."
+ tour_phase_tour_grounds_cost_desc:0 "[tour_grounds|E] a [province.GetBaronyNameExplicitly]"
+ tour_phase_dinner_cost_desc:0 "[hosted_dinner|E] a [province.GetBaronyNameExplicitly]"
+ tour_phase_cultural_festival_cost_desc:0 "[cultural_festival|E] a [province.GetBaronyNameExplicitly]"
+
+ ### OPTIONS
+ tour_option_speed:0 "Cavalli"
+ tour_speed_bad:0 "Asini"
+ tour_speed_normal:0 "Levrieri"
+ tour_speed_good:0 "Segreteria"
+ tour_type_majesty:1 "Viaggio regale"
+ tour_type_majesty_desc:1 "$EFFECT_LIST_BULLET$ Alcuni eventi permetteranno azioni particolarmente maestose\n$EFFECT_LIST_BULLET$ L'assunzione di queste azioni fa guadagnare [prestige|E] e [opinion|E] del [vassal|E], sia quando lascia una [stop|E] sia alla fine del [GetActivityType('activity_tour').GetName]\n\n#weak Questo grande viaggio è un'opportunità per dimostrare ai miei sudditi che sono un signore giusto, benevolo e maestoso.#!"
+ tour_type_intimidation:1 "Viaggio intimidatorio"
+ tour_type_intimidation_desc:1 "$EFFECT_LIST_BULLET$ Alcuni eventi permetteranno azioni particolarmente terribili\n$EFFECT_LIST_BULLET$ L'assunzione di queste azioni fa guadagnare [dread|E]\n$EFFECT_LIST_BULLET$ Quando lasci una [stop|E], puoi tentare di forzare i [vassals|E] ad abbandonare le [factions|E] ostili\n\n#weak Questo grande viaggio è un'opportunità per rimettere i miei sudditi al loro posto e mostrargli quanto posso essere davvero terrificante.#!"
+ tour_type_taxation:1 "Viaggio della tassazione"
+ tour_type_taxation_desc:1 "$EFFECT_LIST_BULLET$ Alcuni eventi consentono azioni d'avarizia\n$EFFECT_LIST_BULLET$ L'assunzione di queste azioni fa guadagnare [gold|E] sia quando lasci una [stop|E] che alla fine del tuo [GetActivityType('activity_tour').GetName]\n\n#weak Questo grande viaggio è un'opportunità per ricordare ai miei vassalli che mi sono dovute tasse e obblighi, e per estirpare qualsiasi elusione fiscale all'interno del mio regno.#!"
+ tour_entourage:0 "Seguito"
+ tour_entourage_small:0 "Seguito Piccolo"
+ tour_entourage_small_desc:1 "$EFFECT_LIST_BULLET$ Cinque [courtiers|E] stretti ti accompagneranno durante il tuo [tour|E]\n\n#weak Il mio viaggio è un'opportunità per allontanarmi dalla vita di corte e per vedere i miei sudditi lontani. Non ho bisogno che le chiacchiere della corte mi seguano durante i miei viaggi.#!"
+ tour_entourage_normal:0 "Seguito Modesto"
+ tour_entourage_normal_desc:1 "$EFFECT_LIST_BULLET$ Dieci [courtiers|E] stretti ti accompagneranno durante il tuo [tour|E]\n$EFFECT_LIST_BULLET$ $tour_increase_prestige$\n\n#weak Il mio viaggio non è solo per me, ma anche per la mia corte. Devo portare con me un piccolo entourage per far conoscere meglio ai miei vassalli i miei cortigiani.#!"
+ tour_entourage_grand:0 "Seguito Grande"
+ tour_entourage_grand_desc:1 "$EFFECT_LIST_BULLET$ Ogni [courtier|E] disponibile ti accompagnerà durante il tuo [tour|E]\n$EFFECT_LIST_BULLET$ $tour_increase_prestige$\n\n#weak Il mio viaggio è un'opportunità per mostrare quanto sono grande e magnifico, e quale modo migliore per farlo se non quello di mostrarlo a tutti i membri della mia invidiabile corte?#!"
+ tour_luxuries:0 "Oggetti di Lusso"
+ tour_luxuries_bad:1 "Nessun oggetto di lusso"
+ tour_luxuries_bad_desc:1 "$EFFECT_LIST_BULLET$ Nessun aumento del successo del tuo [tour|E]\n\n#weak Non porti con te alcun oggetto di lusso da casa.#!"
+ tour_luxuries_normal:1 "Oggetti di lusso essenziali"
+ tour_luxuries_normal_desc:1 "$EFFECT_LIST_BULLET$ $tour_increase_success$\n\n#weak Porti con te solo l'essenziale in cibo e servizi di lusso.#!"
+ tour_luxuries_good:1 "Oggetti di lusso stravaganti"
+ tour_luxuries_good_desc:1 "$EFFECT_LIST_BULLET$ $tour_increase_success$\n\n#weak Nessuna spesa è eccessiva per il tuo viaggio: ogni tipo di leccornia e comodità sarà portata con te per tutta la durata del tuo viaggio.#!"
+ tour_furniture_normal:1 "Arredo di lusso"
+ tour_furniture_normal_desc:1 "$EFFECT_LIST_BULLET$ $tour_increase_success$\n$EFFECT_LIST_BULLET$ $tour_increase_prestige$\n\n#weak Armadi, sedie e tavoli saranno portati con te durante il tuo viaggio.#!"
+ tour_furniture_good:1 "Arredi eccessivi"
+ tour_furniture_good_desc:1 "$EFFECT_LIST_BULLET$ $tour_increase_success$\n$EFFECT_LIST_BULLET$ $tour_increase_prestige$\n\n#weak Praticamente tutti i manufatti e gli arredi che possiedi saranno portati con te in questo viaggio per dimostrare la tua enorme ricchezza.#!"
+ tour_increase_success:1 "Aumenta il successo iniziale del tuo [tour|E]"
+ tour_increase_prestige:1 "[prestige|E] ottenuto"
+
+ ### INTENTS
+
+ ### RANDOM CHARACTER LOG
+
+
+ tour_start_majesty_log_title:0 "Il Viaggio Inizia"
+ tour_start_majesty_log:0 "[CHARACTER.GetTitledFirstName] è partit[CHARACTER.Custom('DE_END_PRO_S_N')] da [CHARACTER.GetCapitalLocation.GetName] per un [grand_tour|E] regale"
+ tour_start_intimidation_log_title:0 "$tour_start_majesty_log_title$"
+ tour_start_intimidation_log:0 "[CHARACTER.GetTitledFirstName] è partit[CHARACTER.Custom('DE_END_PRO_S_N')] da [CHARACTER.GetCapitalLocation.GetName] per un [grand_tour|E] intimidatorio"
+ tour_start_taxation_log_title:0 "$tour_start_majesty_log_title$"
+ tour_start_taxation_log:0 "[CHARACTER.GetTitledFirstName] è partit[CHARACTER.Custom('DE_END_PRO_S_N')] da [CHARACTER.GetCapitalLocation.GetName] per un [grand_tour|E] della tassazione"
+ tour_stop_tour_grounds_log_title:0 "Fermate del viaggio"
+ tour_stop_tour_grounds_log:0 "[CHARACTER.GetTitledFirstName] ha visitato [TARGET_CHARACTER.GetTitledFirstName] per visitare i terreni di [PROVINCE.GetName]"
+ tour_stop_dinner_log_title:0 "$tour_stop_tour_grounds_log_title$"
+ tour_stop_dinner_log:0 "[CHARACTER.GetTitledFirstName] ha visitato [TARGET_CHARACTER.GetTitledFirstName] per partecipare ad un banchetto a [PROVINCE.GetName]"
+ tour_stop_cultural_festival_log_title:0 "$tour_stop_tour_grounds_log_title$"
+ tour_stop_cultural_festival_log:0 "[CHARACTER.GetTitledFirstName] ha visitato [TARGET_CHARACTER.GetTitledFirstName] per partecipare ad un festa culturale a [PROVINCE.GetName]"
+
+ tour_base_cost:0 "Base"
+ activity_tour_guest_desc:0 "I tuoi ospiti ti accompagneranno mentre visiti i tuoi [vassals|E] durante il viaggio"
+ activity_tour_province_desc:2 "Visita [ROOT.Province.GetTitle.GetHolder.GetName] a [ROOT.Province.GetName]\nL'[opinion|E] che il/la tuo/a [GetPlayer.Custom2('RelationToMe', ROOT.Province.GetTitle.GetHolder)]\nha di te: [ROOT.Province.GetTitle.GetHolder.GetOpinionOf( GetPlayer )|+=]"
+ 5_courtiers_or_more:0 "Devi avere almeno 5 [courtiers|E]"
+ more_than_5_courtiers:0 "Devi avere più di 5 [courtiers|E]"
+ more_than_10_courtiers:0 "Devi avere più di 10 [courtiers|E]"
+ 3_vassals_or_more:0 "Devi avere almeno 3 [vassals|E]"
+
+ activity_tour_destination_selection:0 "Quanto più la tua prossima fermata è lontana dalla [stop|E] precedente, tanto più [gold|E] spenderai per il tuo viaggio. Pianifica il viaggio con saggezza per ridurre i costi e visitare il maggior numero di [vassals|E] possibili."
+
+ activity_window_character_visited_vassal:1 "la tua [stop|E] e il [vassal|E] ospitante\n[Character.GetShortUINameNoTooltip|U]"

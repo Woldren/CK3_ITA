@@ -1,0 +1,136 @@
+﻿l_spanish:
+ encountered_delicious_ducklings_memory:0 "trovato dei deliziosi anatroccoli"
+ encountered_delicious_ducklings_memory_desc:0 "ho incontrato un'infinità di deliziosi anatroccoli che ho cucinato e mangiato a [ROOT.Var('duck_location').GetProvince.GetName] [ROOT.Var('duck_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ encountered_delicious_ducklings_memory_desc_second_perspective:0 "hai incontrato un'infinità di deliziosi anatroccoli che hai cucinato e mangiato a [ROOT.Var('duck_location').GetProvince.GetName] [ROOT.Var('duck_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ encountered_delicious_ducklings_memory_desc_third_perspective:0 "[ROOT.GetName] ha incontrato un'infinità di deliziosi anatroccoli che ha cucinato e mangiato a [ROOT.Var('duck_location').GetProvince.GetName] [ROOT.Var('duck_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+
+ encountered_fluffy_ducklings_memory:0 "Incontrato dei soffici anatroccoli"
+ encountered_fluffy_ducklings_memory_desc:0 "ho incontrato un'infinità di soffici anatroccoli mentre esploravo la natura selvaggia di [ROOT.Var('duck_location').GetProvince.GetName] [ROOT.Var('duck_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ encountered_fluffy_ducklings_memory_desc_second_perspective:0 "hai incontrato un'infinità di soffici anatroccoli mentre esploravi la natura selvaggia di [ROOT.Var('duck_location').GetProvince.GetName] [ROOT.Var('duck_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ encountered_fluffy_ducklings_memory_desc_third_perspective:0 "[owner.GetName] ha incontrato un'infinità di soffici anatroccoli mentre esplorava la natura selvaggia di [ROOT.Var('duck_location').GetProvince.GetName] [ROOT.Var('duck_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+
+ attacked_by_wild_beast_memory:0 "attaccat[owner.Custom('DE_END_PRO_S_N')] da una bestia selvaggia"
+ attacked_by_wild_beast_memory_desc:0 "sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] aggredit[ROOT.Char.Custom('DE_END_PRO_S_N')] senza pietà da una bestia selvatica mentre stavo seguendo un'anatra nella natura selvaggia di [ROOT.Var('duck_location').GetProvince.GetName] [ROOT.Var('duck_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ attacked_by_wild_beast_memory_desc_second_perspective:0 "sei stato aggredito senza pietà da una bestia selvatica mentre stavi seguendo un'anatra nella natura selvaggia di [ROOT.Var('duck_location').GetProvince.GetName] [ROOT.Var('duck_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ attacked_by_wild_beast_memory_desc_third_perspective:0 "[owner.GetName] è stato aggredit[owner.Custom('DE_END_PRO_S_N')] senza pietà da una bestia selvatica mentre stava seguendo un'anatra nella natura selvaggia di [ROOT.Var('duck_location').GetProvince.GetName] [ROOT.Var('duck_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+
+ fooled_by_duck_memory:0 "ingannat[owner.Custom('DE_END_PRO_S_N')] da un'anatra"
+ fooled_by_duck_memory_desc:0 "ho avuto un momento di imbarazzo con un'anatra che stavo seguendo nella natura selvaggia di [ROOT.Var('duck_location').GetProvince.GetName] [ROOT.Var('duck_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ fooled_by_duck_memory_desc_second_perspective:0 "hai avuto un momento di imbarazzo con un'anatra che stavi seguendo nella natura selvaggia di [ROOT.Var('duck_location').GetProvince.GetName] [ROOT.Var('duck_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ fooled_by_duck_memory_desc_third_perspective:0 "[owner.GetName] ha avuto un momento di imbarazzo con un'anatra che stava seguendo nella natura selvaggia di [ROOT.Var('duck_location').GetProvince.GetName] [ROOT.Var('duck_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+
+ almost_crushed_by_elephant_rival_memory:0 "quasi schiacciat[owner.Custom('DE_END_PRO_S_N')] da un elefante"
+ almost_crushed_by_elephant_rival_memory_desc:0 "il mio rivale [rival.GetTitledFirstName] mi ha quasi fatto schiacciare da un elefante al recinto degli elefanti di [ROOT.Var('elephant_location').GetProvince.GetName] [ROOT.Var('elephant_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ almost_crushed_by_elephant_rival_memory_desc_second_perspective:0 "il tuo rivale [rival.GetTitledFirstName] ti ha quasi fatto schiacciare da un elefante al recinto degli elefanti di [ROOT.Var('elephant_location').GetProvince.GetName] [ROOT.Var('elephant_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ almost_crushed_by_elephant_rival_memory_desc_third_perspective:0 "il rivale di [owner.GetNamePossessive] [rival.GetTitledFirstName] l'ha quasi fatt[owner.Custom('DE_END_PRO_S_N')] schiacciare da un elefante al recinto degli elefanti di [ROOT.Var('elephant_location').GetProvince.GetName] [ROOT.Var('elephant_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+
+ almost_crushed_by_elephant_nemesis_memory:0 "quasi schiacciat[owner.Custom('DE_END_PRO_S_N')] da un elefante"
+ almost_crushed_by_elephant_nemesis_memory_desc:0 "la mia nemesi [nemesis.GetTitledFirstName] mi ha quasi fatto schiacciare da un elefante al recinto degli elefanti di [ROOT.Var('elephant_location').GetProvince.GetName] [ROOT.Var('elephant_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ almost_crushed_by_elephant_nemesis_memory_desc_second_perspective:0 "la tua nemesi [nemesis.GetTitledFirstName] ti ha quasi fatto schiacciare da un elefante al recinto degli elefanti di [ROOT.Var('elephant_location').GetProvince.GetName] [ROOT.Var('elephant_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ almost_crushed_by_elephant_nemesis_memory_desc_third_perspective:0 "la nemesi di [owner.GetNamePossessive] [nemesis.GetTitledFirstName] l'ha quasi fatt[owner.Custom('DE_END_PRO_S_N')] schiacciare da un elefante al recinto degli elefanti di [ROOT.Var('elephant_location').GetProvince.GetName] [ROOT.Var('elephant_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+
+ was_hero_in_the_fire_memory:0 "dimostrato eroismo nel fronteggiare il fuoco"
+ was_hero_in_the_fire_memory_desc:0 "ho salvato innumerevoli vite nell'incendio delle piantagioni a [ROOT.Var('fire_location').GetProvince.GetName]"
+ was_hero_in_the_fire_memory_desc_second_perspective:0 "hai salvato innumerevoli vite nell'incendio delle piantagioni a [ROOT.Var('fire_location').GetProvince.GetName]"
+ was_hero_in_the_fire_memory_desc_third_perspective:0 "[owner.GetName] ha salvato innumerevoli vite nell'incendio delle piantagioni a [ROOT.Var('fire_location').GetProvince.GetName]"
+
+ was_disfigured_in_the_fire_memory:0 "[Select_CString(owner.IsFemale,'diventata','diventato')] un[owner.Custom('DE_PRO_PER_P_3P_G')] [Select_CString(owner.IsFemale,'eroina sfigurata','eroe sfigurato')] fronteggiando il fuoco"
+ was_disfigured_in_the_fire_memory_desc:0 "sono rimast[ROOT.Char.Custom('DE_END_PRO_S_N')] gravemente ustionat[ROOT.Char.Custom('DE_END_PRO_S_N')] e sfigurat[ROOT.Char.Custom('DE_END_PRO_S_N')] mentre salvavo eroicamente innumerevoli vite umane nell'incendio delle piantagioni a [ROOT.Var('fire_location').GetProvince.GetName]"
+ was_disfigured_in_the_fire_memory_desc_second_perspective:0 "sei rimast[ROOT.Char.Custom('DE_END_PRO_S_N')] gravemente ustionat[ROOT.Char.Custom('DE_END_PRO_S_N')] e sfigurat[ROOT.Char.Custom('DE_END_PRO_S_N')] mentre salvavi eroicamente innumerevoli vite umane nell'incendio delle piantagioni a [ROOT.Var('fire_location').GetProvince.GetName]"
+ was_disfigured_in_the_fire_memory_desc_third_perspective:0 "[owner.GetName] è rimasto gravemente ustionat[owner.Custom('DE_END_PRO_S_N')] e sfigurat[owner.Custom('DE_END_PRO_S_N')] mentre salvava eroicamente innumerevoli vite umane nell'incendio delle piantagioni a [ROOT.Var('fire_location').GetProvince.GetName]"
+
+ was_wounded_in_the_fire_memory:0 "Rimast[owner.Custom('DE_END_PRO_S_N')] Ferit[owner.Custom('DE_END_PRO_S_N')] nel fronteggiare il fuoco"
+ was_wounded_in_the_fire_memory_desc:0 "sono rimast[ROOT.Char.Custom('DE_END_PRO_S_N')] gravemente ustionat[ROOT.Char.Custom('DE_END_PRO_S_N')] mentre cercavo di salvare delle vite nell'incendio delle piantagioni a [ROOT.Var('fire_location').GetProvince.GetName]"
+ was_wounded_in_the_fire_memory_desc_second_perspective:0 "sei rimast[ROOT.Char.Custom('DE_END_PRO_S_N')] gravemente ustionat[ROOT.Char.Custom('DE_END_PRO_S_N')] mentre cercavi di salvare delle vite nell'incendio delle piantagioni a [ROOT.Var('fire_location').GetProvince.GetName]"
+ was_wounded_in_the_fire_memory_desc_third_perspective:0 "[owner.GetName] è rimast[owner.Custom('DE_END_PRO_S_N')] gravemente ustionat[owner.Custom('DE_END_PRO_S_N')] mentre cercav[owner.Custom('DE_END_PRO_S_N')] di salvare delle vite nell'incendio delle piantagioni a [ROOT.Var('fire_location').GetProvince.GetName]"
+
+ saved_someone_from_a_bull_memory:0 "Salvat[victim.Custom('DE_END_PRO_S_N')] [victim.GetName] da un toro infuriato"
+ saved_someone_from_a_bull_memory_desc:0 "ho eroicamente salvato [victim.GetName] da un feroce toro infuriato utilizzando il mio ingegno e la mia abilità sulle colline di [ROOT.Var('bull_location').GetProvince.GetName]"
+ saved_someone_from_a_bull_memory_desc_second_perspective:0 "hai eroicamente salvato [victim.GetName] da un feroce toro infuriato utilizzando il tuo ingegno e la tua abilità sulle colline di [ROOT.Var('bull_location').GetProvince.GetName]"
+ saved_someone_from_a_bull_memory_desc_third_perspective:0 "[owner.GetName] ha eroicamente salvato [victim.GetName] da un feroce toro infuriato utilizzando il suo ingegno e la sua abilità sulle colline di [ROOT.Var('bull_location').GetProvince.GetName]"
+ 
+ haunted_manor_survived_assassination_attempt_memory:0 "Sopravvissut[owner.Custom('DE_END_PRO_S_N')] a un tentativo di assassinio in un maniero infestato"
+ haunted_manor_survived_assassination_attempt_memory_desc:0 "sono sopravvissut[ROOT.Char.Custom('DE_END_PRO_S_N')] a un sinistro complotto contro la mia vita e ho sconfitto un aspirante assassino nella dimora presumibilmente 'stregata' nelle tenute agricole di [ROOT.Var('manor_location').GetProvince.GetName]"
+ haunted_manor_survived_assassination_attempt_memory_desc_second_perspective:0 "sei sopravvissut[ROOT.Char.Custom('DE_END_PRO_S_N')] a un sinistro complotto contro la tua vita e hai sconfitto un aspirante assassino nella dimora presumibilmente 'stregata' nelle tenute agricole di [ROOT.Var('manor_location').GetProvince.GetName]"
+ haunted_manor_survived_assassination_attempt_memory_desc_third_perspective:0 "[owner.GetName] è sopravvissut[ROOT.Char.Custom('DE_END_PRO_S_N')] a un sinistro complotto contro la sua vita e ha sconfitto un aspirante assassino nella dimora presumibilmente 'stregata' nelle tenute agricole di [ROOT.Var('manor_location').GetProvince.GetName]"
+
+ friend_ignored_assassination_memory:0 "[friend.GetName] ha ignorato il tentativo di assassinio alla mia vita"
+ friend_ignored_assassination_memory_desc:0 "[friend.GetName] mi ha tradit[ROOT.Char.Custom('DE_END_PRO_S_N')] ignorando un tentativo di assassinio alla mia vita nel/nella [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('assassination_location').GetProvince.GetName]"
+ friend_ignored_assassination_memory_desc_second_perspective:0 "[friend.GetName] ti ha tradit[ROOT.Char.Custom('DE_END_PRO_S_N')] ignorando un tentativo di assassinio alla tua vita nel/nella [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('assassination_location').GetProvince.GetName]"
+ friend_ignored_assassination_memory_desc_third_perspective:0 "[friend.GetName] ha tradito [owner.GetName] ignorando un tentativo di assassinio alla sua vita nel/nella [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('assassination_location').GetProvince.GetName]"
+
+ rival_ignored_assassination_memory:0 "[rival.GetName] ha ignorato tentativo di assassinio alla mia vita"
+ rival_ignored_assassination_memory_desc:0 "[rival.Custom('DE_ART_DEF_P_A')] mi[rival.Custom('DE_END_PRO_S_N')] [rival.Custom('InsultAdjectiveGeneric')] rivale [rival.GetName] ha spudoratamente ignorato un attentato alla mia vita nelle terre selvagge di [ROOT.Var('assassination_location').GetProvince.GetName] [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ rival_ignored_assassination_memory_desc_second_perspective:0 "il tuo [rival.Custom('InsultAdjectiveGeneric')] rivale [rival.GetName] ha spudoratamente ignorato un attentato alla tua vita nelle terre selvagge di [ROOT.Var('assassination_location').GetProvince.GetName] [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ rival_ignored_assassination_memory_desc_third_perspective:0 "[rival.Custom('DE_ART_DEF_P_A')] [rival.Custom('InsultAdjectiveGeneric')] rivale di [owner.GetNamePossessive] [rival.GetName] ha spudoratamente ignorato un attentato alla sua vita nelle terre selvagge di [ROOT.Var('assassination_location').GetProvince.GetName] [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+
+ nemesis_ignored_assassination_memory:0 "[nemesis.GetName] ha ignorato un tentativo di assassinio alla mia vita"
+ nemesis_ignored_assassination_memory_desc:0 "la mia [nemesis.Custom('InsultAdjectiveGeneric')] nemesi [nemesis.GetName] ha ignorato spudoratamente un attentato alla mia vita nelle terre selvagge di [ROOT.Var('assassination_location').GetProvince.GetName] [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ nemesis_ignored_assassination_memory_desc_second_perspective:0 "la tua [nemesis.Custom('InsultAdjectiveGeneric')] nemesi [nemesis.GetName] ha ignorato spudoratamente un attentato alla tua vita nelle terre selvagge di [ROOT.Var('assassination_location').GetProvince.GetName] [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+ nemesis_ignored_assassination_memory_desc_third_perspective:0 "la [nemesis.Custom('InsultAdjectiveGeneric')] nemesi di [owner.GetNamePossessive] [nemesis.GetName] ha ignorato spudoratamente un attentato alla sua vita nelle terre selvagge di [ROOT.Var('assassination_location').GetProvince.GetName] [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l]"
+
+ stood_idly_by_assassination_memory:0 "[bystander.GetName] ha ignorato un tentativo di assassinio alla mia vita"
+ stood_idly_by_assassination_memory_desc:0 "[bystander.GetName] è rimast[bystander.Custom('DE_END_PRO_S_N')] in disparte mentre combattevo contro un attentato alla mia vita nel/nella [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('assassination_location').GetProvince.GetName]"
+ stood_idly_by_assassination_memory_desc_second_perspective:0 "[bystander.GetName] è rimast[bystander.Custom('DE_END_PRO_S_N')] in disparte mentre combattevi contro un attentato alla tua vita nel/nella [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('assassination_location').GetProvince.GetName]"
+ stood_idly_by_assassination_memory_desc_third_perspective:0 "[bystander.GetName] è rimast[bystander.Custom('DE_END_PRO_S_N')] in disparte mentre [owner.GetName] combatteva contro un attentato sua vita nel/nella [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('assassination_location').GetProvince.GetName]"
+
+ saved_from_assassination_memory:0 "[rescuer.GetName] mi ha salvat[ROOT.Char.Custom('DE_END_PRO_S_N')] da un tentativo di assassinio"
+ saved_from_assassination_memory_desc:0 "[rescuer.GetName] mi ha salvato la vita durante un vile tentativo di assassinio nel/nella [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('assassination_location').GetProvince.GetName]"
+ saved_from_assassination_memory_desc_second_perspective:0 "[rescuer.GetName] ti ha salvato la vita durante un vile tentativo di assassinio nel/nella [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('assassination_location').GetProvince.GetName]"
+ saved_from_assassination_memory_desc_third_perspective:0 "[rescuer.GetName] ha salvato la vita di [owner.GetName] durante un vile tentativo di assassinio nel/nella [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('assassination_location').GetProvince.GetName]"
+
+ ignored_assault_memory:0 "[bystander.GetName] ha ignorato un assalto al mio seguito di viaggio"
+ ignored_assault_memory_desc:0 "[bystander.GetName] non ha mosso un dito in nostro soccorso mentre io e il mio seguito di viaggio venivamo assaltati all'esterno del suo insediamento a [ROOT.Var('attack_location').GetProvince.GetName]"
+ ignored_assault_memory_desc_second_perspective:0 "[bystander.GetName] non ha mosso un dito in vostro soccorso mentre tu e il tuo seguito di viaggio venivate assaltati all'esterno del suo insediamento a [ROOT.Var('attack_location').GetProvince.GetName]"
+ ignored_assault_memory_desc_third_perspective:0 "[bystander.GetName] non ha mosso un dito per assistere [owner.GetName] e il suo seguito di viaggio mentre venivano assaltati all'esterno del suo insediamento a [ROOT.Var('attack_location').GetProvince.GetName]"
+
+ knight_sacrificed_memory:0 "Morte eroica di [knight.GetName]"
+ knight_sacrificed_memory_desc:0 "[knight.GetName] ha salvato me e il mio seguito di viaggio quando ha sacrificato eroicamente se stess[knight.Custom('DE_END_PRO_S_N')] rimanendo indietro per distrarre una folla di razziatori fuori da [ROOT.Var('sacrifice_location').GetProvince.GetName]"
+ knight_sacrificed_memory_desc_second_perspective:0 "[knight.GetName] ha salvato te e il tuo seguito di viaggio quando ha sacrificato eroicamente se stess[knight.Custom('DE_END_PRO_S_N')] rimanendo indietro per distrarre una folla di razziatori fuori daf [ROOT.Var('sacrifice_location').GetProvince.GetName]"
+ knight_sacrificed_memory_desc_third_perspective:0 "[knight.GetName] ha salvato [owner.GetName] e il suo seguito di viaggio quando ha sacrificato eroicamente se stess[knight.Custom('DE_END_PRO_S_N')] rimanendo indietro per distrarre una folla di razziatori fuori da [ROOT.Var('sacrifice_location').GetProvince.GetName]"
+
+ saved_from_assault_memory:0 "[rescuer.GetName] ha salvato il mio seguito di viaggiatori"
+ saved_from_assault_memory_desc:0 "[rescuer.GetName] è venuto in nostro aiuto quando io e il mio seguito di viaggiatori siamo stati attaccati senza pietà fuori dal suo possedimento di [ROOT.Var('attack_location').GetProvince.GetName]"
+ saved_from_assault_memory_desc_second_perspective:0 "[rescuer.GetName] è venut[rescuer.Custom('DE_END_PRO_S_N')] in tuo aiuto quando tu e il tuo seguito di viaggiatori siete stati attaccati senza pietà fuori dal suo possedimento di [ROOT.Var('attack_location').GetProvince.GetName]"
+ saved_from_assault_memory_desc_third_perspective:0 "[rescuer.GetName] è venut[rescuer.Custom('DE_END_PRO_S_N')] in aiuto di [owner.GetName] e del suo seguito di viaggiatori quando sono stati attaccati senza pietà fuori dal suo possedimento di [ROOT.Var('attack_location').GetProvince.GetName]"
+
+ forgave_and_released_prisoner_memory:0 "ha perdonato e liberato [Select_CString(prisoner.IsFemale,'la mia prigioniera','il mio prigioniero')] [prisoner.GetName]"
+ forgave_and_released_prisoner_memory_desc:0 "ho perdonato e liberato [prisoner.Custom('DE_ART_DEF_P_A')] mi[prisoner.Custom('DE_END_PRO_S_N')] prigionier[prisoner.Custom('DE_END_PRO_S_N')] [prisoner.GetName] dopo che [prisoner.Custom('DE_ART_IND_A')] ha tentato di vendicarsi di me quando è sopravvissut[prisoner.Custom('DE_END_PRO_S_N')] alla mia fallimentare caccia all'uomo nei suoi confronti"
+ forgave_and_released_prisoner_memory_desc_second_perspective:0 "hai perdonato e liberato [Select_CString(prisoner.IsFemale,'la tua prigioniera','il tuo prigioniero')] [prisoner.GetName] dopo che [prisoner.Custom('DE_ART_IND_A')] ha tentato di vendicarsi di te quando è sopravvissut[prisoner.Custom('DE_END_PRO_S_N')] alla mia fallimentare caccia all'uomo nei suoi confronti"
+ forgave_and_released_prisoner_memory_desc_third_perspective:0 "[owner.GetName] ha perdonato e liberato [Select_CString(prisoner.IsFemale,'la sua prigioniera','il suo prigioniero')] [prisoner.GetName] dopo che [prisoner.Custom('DE_ART_IND_A')] ha tentato di vendicarsi di[owner.GetName] quando è sopravvissut[prisoner.Custom('DE_END_PRO_S_N')] alla sua fallimentare caccia all'uomo nei suoi confronti"
+
+ sacrificed_my_cat_memory:0 "ho sacrificato il mio gatto per il mio signore"
+ sacrificed_my_cat_memory_desc:0 "ho offerto il mio meraviglioso gatto [owner.Custom('CatStoryName')] al mio signore che odia i gatti [liege.GetName] in cambio della salvezza di tutti gli altri gatti del mio insediamento"
+ sacrificed_my_cat_memory_desc_second_perspective:0 "hai offerto il tuo meraviglioso gatto [owner.Custom('CatStoryName')] al tuo signore che odia i gatti [liege.GetName] in cambio della salvezza di tutti gli altri gatti del tuo insediamento"
+ sacrificed_my_cat_memory_desc_third_perspective:0 "[owner.GetName] ha offerto il suo meraviglioso gatto [owner.Custom('CatStoryName')] al suo signore che odia i gatti [liege.GetName] in cambio della salvezza di tutti gli altri gatti del suo insediamento"
+
+ sacrificed_my_dog_memory:0 "ho sacrificato il mio cane per il mio signore"
+ sacrificed_my_dog_memory_desc:0 "ho offerto il mio meraviglioso cane [owner.Custom('DogStoryName')] al mio signore che odia i cani [liege.GetName] in cambio della salvezza di tutti gli altri cani del mio insediamento"
+ sacrificed_my_dog_memory_desc_second_perspective:0 "hai offerto il tuo meraviglioso cane [owner.Custom('DogStoryName')] al tuo signore che odia i cani [liege.GetName] in cambio della salvezza di tutti gli altri cani del tuo insediamento"
+ sacrificed_my_dog_memory_desc_third_perspective:0 "[owner.GetName] ha offerto il suo meraviglioso cane [owner.Custom('DogStoryName')] al suo signore che odia i cani [liege.GetName] in cambio della salvezza di tutti gli altri cani del suo insediamento"
+
+ abandoned_crypto_faith_memory:0 "abbandono la mia fede [ROOT.Var('old_faith_to_reminisce').Faith.GetAdjective] segreta"
+ abandoned_crypto_faith_memory_desc:0 "ho abbandonato definitivamente la mia fede [ROOT.Var('old_faith_to_reminisce').Faith.GetAdjective]"
+ abandoned_crypto_faith_memory_desc_second_perspective:0 "hai definitivamente abbandonato la tua fede [ROOT.Var('old_faith_to_reminisce').Faith.GetAdjective]"
+ abandoned_crypto_faith_memory_desc_third_perspective:0 "[owner.Custom('IT_NAM_COL3')][owner.GetName] ha definitivamente abbandonato la sua fede [ROOT.Var('old_faith_to_reminisce').Faith.GetAdjective]"
+ 
+ treasure_map_memory: "seguito una mappa del tesoro e scoperto un magnifico tesoro"
+ treasure_map_historical_artifact_memory_desc: "scoperto lo storico e magnifico manufatto [ROOT.Var('treasure_map_historical_artifact').Artifact.GetName] nel/nella [ROOT.Var('treasure_map_historical_artifact_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('treasure_map_historical_artifact_location').GetProvince.GetName]"
+ treasure_map_historical_artifact_memory_desc_second_perspective: "hai scoperto lo storico e magnifico manufatto [ROOT.Var('treasure_map_historical_artifact').GetName] nel/nella [ROOT.Var('treasure_map_historical_artifact_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('treasure_map_historical_artifact_location').GetProvince.GetName]"
+ treasure_map_historical_artifact_memory_desc_third_perspective: "[owner.GetName] ha scoperto lo storico e magnifico manufatto [ROOT.Var('treasure_map_historical_artifact').GetName] nel/nella [ROOT.Var('treasure_map_historical_artifact_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('treasure_map_historical_artifact_location').GetProvince.GetName]"
+ treasure_map_divine_scenery_memory_desc: "sperimentato una visione trascendente presso le sorgenti divine situate a [ROOT.Var('treasure_map_divine_scenery').GetProvince.GetName]"
+ treasure_map_divine_scenery_memory_desc_second_perspective: "hai sperimentato una visione trascendente presso le sorgenti divine situate a [ROOT.Var('treasure_map_divine_scenery').GetProvince.GetName]"
+ treasure_map_divine_scenery_memory_desc_third_perspective: "[owner.GetName] ha sperimentato una visione trascendente presso le sorgenti divine situate a [ROOT.Var('treasure_map_divine_scenery').GetProvince.GetName]"
+
+ foggy_hill_memory: "fatto un sogno agitato su un cumulo di nebbia"
+ foggy_hill_repented_memory_desc: "ho fatto un sogno agitato in cui ho fatto i conti con le vite che ho preso in passato e mi sono pentito/a"
+ foggy_hill_repented_memory_desc_second_perspective: "hai fatto un sogno agitato in cui hai fatto i conti con le vite che hai preso in passato e ti sei pentito/a"
+ foggy_hill_repented_memory_desc_third_perspective: "[owner.GetName] ha fatto un sogno agitato in cui ha fatto i conti con le vite che ha preso in passato e si è pentito/a"
+ foggy_hill_denial_memory_desc: "ho fatto un sogno agitato in cui ho sostenuto che tutte le vite che ho preso le ho prese per necessità"
+ foggy_hill_denial_memory_desc_second_perspective: "hai fatto un sogno agitato in cui hai sostenuto che tutte le vite che ho preso le hai prese per necessità"
+ foggy_hill_denial_memory_desc_third_perspective: "[owner.GetName] ha fatto un sogno agitato in cui ha sostenuto che tutte le vite che ha preso le ha prese per necessità"
+
+ wall_hole_memory: "infilato inspiegabilmente la mano in un buco del muro grande come un braccio"
+ wall_hole_memory_desc: "ho infilato inspiegabilmente la mano in un misterioso buco delle dimensioni di un braccio apparso nella parete della mia proprietà"
+ wall_hole_memory_desc_second_perspective: "hai infilato inspiegabilmente la mano in un misterioso buco delle dimensioni di un braccio apparso nella parete della tua proprietà"
+ wall_hole_memory_desc_third_perspective: "[owner.GetName] ha infilato inspiegabilmente la mano in un misterioso buco delle dimensioni di un braccio apparso nella parete della sua proprietà"

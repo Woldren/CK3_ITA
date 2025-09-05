@@ -1,0 +1,21 @@
+﻿l_spanish:
+ playdate_minor_trinket_modifier:0 "Bellissimo [SCOPE.Custom('child_object_of_interest_random')|U]" 
+ playdate_minor_trinket_modifier_desc:1 "Un piccolo giocattolo splendidamente realizzato, che porterà sicuramente un sorriso sul volto di qualsiasi bambino."
+
+ playdate_showing_weakness_modifier:0 "Indifeso"
+ playdate_showing_weakness_modifier_desc:0 "Questo personaggio si è mostrato indifeso."
+
+ playdate_shown_bravery_modifier:0 "Dimostrazione di Coraggio"
+ playdate_shown_bravery_modifier_desc:0 "Coraggioso e feroce, questo personaggio ha dimostrato il suo coraggio."
+
+ playdate_fumbling_merchant_modifier:0 "Cliente Goffo"
+ playdate_fumbling_merchant_modifier_desc:0 "Questo personaggio ha molto da imparare nell'arte del commercio."
+
+ playdate_practicing_trade_modifier:0 "Pratica il Commercio"
+ playdate_practicing_trade_modifier_desc:0 "Questo personaggio sta praticando intensamente l'arte del commercio."
+
+ playdate_boring_playmate_modifier:0 "Interesse Specifico"
+ playdate_boring_playmate_modifier_desc:0 "Questo personaggio si sta concentrando sull'apprendimento della conoscenza a scapito di tutto il resto."
+
+ playdate_struggling_with_writing_modifier:0 "Difficoltà con la Scrittura"
+ playdate_struggling_with_writing_modifier_desc:0 "Le lettere e le frasi sfuggono a questo personaggio."

@@ -1,0 +1,9 @@
+﻿l_spanish:
+
+ep3_akolouthos_events.1000: "Akolouthos Tempra i Variaghi"
+ep3_akolouthos_events.1000_varangian_notification_tooltip: "[akolouthos.GetName] onora un valoroso Variago con l'orecchino di rubino e l'armatura con il drago."
+ep3_akolouthos_events.1000_loyal_notification_tooltip: "[akolouthos.GetName] rinnova i giuramenti Variaghi di fedeltà fino alla morte."
+akolouthos_effect_tooltip: "Dalla [court_position|E] [GetCourtPositionType('akolouthos_court_position').GetName()]"
+
+ep3_akolouthos_events.1001: "L'Akolouthos recluta il Variago"
+ep3_akolouthos_events.1001_notification_tooltip: "[akolouthos.GetName] presenta un degno guerriero, uno che ha viaggiato lontano per servire [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip]."

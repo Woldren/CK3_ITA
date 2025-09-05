@@ -1,0 +1,20 @@
+﻿l_spanish:
+ declared_war:0 "Guerra dichiarata"
+ declared_war_in_admin: "Guerra Dichiarata al mio Vassallo Amministrativo"
+ declared_war_on_son_daughter:0 "Ha dichiarato Guerra al proprio Figlio"
+ vassal_lost_faction_revolt_war:0 "Si è ribellato/a contro di me"
+ vassal_wp_faction_revolt_war:0 "Si è ribellato/a contro di me"
+ liege_lost_declared_religious_war:0 "Ha perso la nostra Guerra Religiosa"
+ liege_lost_mongol_invasion_war:0 "Invasione Fallita"
+ rejected_call_to_defensive_war:0 "Ha rifiutato la Chiamata in una Guerra Difensiva"
+ rejected_call_to_offensive_war:0 "Ha rifiutato la Chiamata in una Guerra Offensiva"
+ contributed_in_war:0 "Ha contribuito in una delle mie Guerre"
+ peasant_revolt_opinion:0 "$vassal_lost_or_wp_faction_revolt_war$"
+ warmonger_opinion:0 "Guerrafondaio"  
+
+ #Restored the key to fix TIT-27735
+ vassal_lost_or_wp_faction_revolt_war:0 "Si è ribellato contro di me"
+ rejected_hiring_as_mercenaries: "Ha Rifiutato il Contratto Mercenario"
+ switched_sides_in_war: "Si è Messo Contro di Me in una Guerra"
+ switched_to_my_side: "È Passato dalla Mia Parte in Guerra"
+ left_war_early: "Ha Abbandonato la Mia Guerra In Corso" 

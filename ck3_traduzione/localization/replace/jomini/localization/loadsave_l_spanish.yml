@@ -1,0 +1,3 @@
+﻿l_spanish:
+ JOMINI_LOAD_GAME_FAILED_TITLE:0 "Caricamento del Salvataggio Fallito"
+ JOMINI_LOAD_GAME_FAILED_DESC:0 "Il salvataggio non può essere caricato, ciò potrebbe essere dovuto a:\n#indent_newline:2 • Il salvataggio è stato fatto con una versione non comptibile del gioco\n• Il Salvataggio usa un differente set di DLCs\n• Il Salvataggio è corrotto#!"

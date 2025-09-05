@@ -1,0 +1,10 @@
+﻿l_spanish:
+ MEMORIES_WINDOW_HEADING:0 "[Select_CString( MemoriesWindow.GetCharacter.IsValid, 'Ricordi di ', '')][Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetFirstNameNoTooltip, 'Nessun ricordo')]"
+ MEMORIES_WINDOW_ENTRY:0 "[CharacterMemory.GetDescription|U]."
+ MEMORIES_WINDOW_COPY_ENTRY:0 "[CharacterMemory.GetCreationDate.GetString]\n[CharacterMemory.GetDescription|U].\n\n"
+ MEMORIES_WINDOW_COPY_TO_CLIPBOARD:0 "$COA_DESIGNER_COPY_TO_CLIPBOARD_BUTTON$"
+ CHARACTER_HAS_NO_MEMORIES:0 "[Select_CString( Character.IsAlive, 'Nulla di importante è ancora accaduto...', 'Questi ricordi sono persi nel tempo...')]"
+ MEMORY_INFO:0 "Questi sono ricordi importanti [Select_CString( MemoriesWindow.GetCharacter.IsValid, 'di ', '')][Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetFirstNameNoTooltip, 'perduti')]. La memoria è mutevole e fragile, eppure così preziosa e insostituibile. Con il tempo, tutti i ricordi svaniscono nell'oblio." 
+ OPEN_MEMORIES_TOOLTIP:0 "#I Osserva i Ricordi di questo personaggio#!"
+ MEMORIES_WINDOW_PIN_IT:0 "Blocca questa finestra per evitare che passi ad altri personaggi"
+ MEMORY_SORT_ORDER_TOOLTIP:0 "#T Modifica ordine dei ricordi#!"

@@ -1,0 +1,132 @@
+﻿l_spanish:
+
+ RECENT_HISTORY_TRIGGER:1 "È stato recentemente $HISTORY|V$ (entro $DURATION$)"
+ NOT_RECENT_HISTORY_TRIGGER:1 "#bold Non#! è stato recentemente $HISTORY|V$ (entro $DURATION$)"
+ RECENT_HISTORY_TRIGGER_THIRD:1 "#V [TITLE.GetName]#! è stato recentemente $HISTORY|V$ (entro $DURATION$)"
+ NOT_RECENT_HISTORY_TRIGGER_THIRD:1 "#V [TITLE.GetName]#! #bold non#! è stato recentemente $HISTORY|V$ (entro $DURATION$)"
+
+ IS_CONTESTED_TRIGGER:0 "È contestato in una [war|E]."
+ NOT_IS_CONTESTED_TRIGGER:0 "#bold non#! è contestato in una [war|E]."
+ IS_CONTESTED_TRIGGER_THIRD:0 "#V [TITLE.GetName]#! è contestato in una [war|E]."
+ NOT_IS_CONTESTED_TRIGGER_THIRD:0 "#V [TITLE.GetName]#! #bold non#! è contestato in una [war|E]."
+
+ PLACE_IN_LINE_OF_SUCCESSION_TRIGGER:0 "La posizione nella linea di successione per [TARGET_TITLE.GetName] è $COMPARATOR$ $NUM|V0$"
+ NOT_PLACE_IN_LINE_OF_SUCCESSION_TRIGGER:0 "La posizione nella linea di successione per [TARGET_TITLE.GetName] #bold non#! è $COMPARATOR$ $NUM|V0$"
+ PLACE_IN_LINE_OF_SUCCESSION_TRIGGER_THIRD:0 "La posizione di [CHARACTER.GetShortUIName|V] nella linea di successione per [TARGET_TITLE.GetName] è $COMPARATOR$ $NUM|V0$"
+ NOT_PLACE_IN_LINE_OF_SUCCESSION_TRIGGER_THIRD:0 "La posizione di [CHARACTER.GetShortUIName|V] nella linea di successione per [TARGET_TITLE.GetName] #bold non#! è $COMPARATOR$ $NUM|V0$"
+
+ HAS_SUCCESSION_APPOINTMENT_INVESTORS_TRIGGER: "Ha investitori da nominare per [TARGET_TITLE.GetName]"
+ NOT_HAS_SUCCESSION_APPOINTMENT_INVESTORS_TRIGGER: "#bold Non#! ha investitori da nominare per [TARGET_TITLE.GetName]"
+ THIRD_HAS_SUCCESSION_APPOINTMENT_INVESTORS_TRIGGER: "[CHARACTER.GetShortUIName|V] ha investitori da nominare per [TARGET_TITLE.GetName]"
+ NOT_THIRD_HAS_SUCCESSION_APPOINTMENT_INVESTORS_TRIGGER: "[CHARACTER.GetShortUIName|V] #bold non#! ha investitori da nominare per [TARGET_TITLE.GetName]"
+
+ SUCCESSION_APPOINTMENT_SCORE_INVESTED_TRIGGER: "L'investimento per la nomina di [TARGET_CHARACTER.GetShortUIName] a [TARGET_TITLE.GetName] è $COMPARATOR$ $NUM|V0$"
+ NOT_SUCCESSION_APPOINTMENT_SCORE_INVESTED_TRIGGER: "L'investimento per la nomina di [TARGET_CHARACTER.GetShortUIName] a [TARGET_TITLE.GetName] #bold non#! è $COMPARATOR$ $NUM|V0$"
+ SUCCESSION_APPOINTMENT_SCORE_INVESTED_TRIGGER_THIRD: "L'investimento di [CHARACTER.GetShortUIName|U] per la nomina di [TARGET_CHARACTER.GetShortUIName] a [TARGET_TITLE.GetName] è $COMPARATOR$ $NUM|V0$"
+ NOT_SUCCESSION_APPOINTMENT_SCORE_INVESTED_TRIGGER_THIRD: "L'investimento di [CHARACTER.GetShortUIName|U] per la nomina di [TARGET_CHARACTER.GetShortUIName] a [TARGET_TITLE.GetName] #bold non#! è $COMPARATOR$ $NUM|V0$"
+
+
+ PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER:0 "La posizione nella linea di successione è in mezzo a $MINVALUE|V0$ e $MAXVALUE|V0$"
+ NOT_PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER:0 "La posizione nella linea di successione #bold non#! è in mezzo a $MINVALUE|V0$ e $MAXVALUE|V0$"
+ PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER_THIRD:0 "[CHARACTER.GetShortUINamePossessive|V] posizione nella linea di successione è in mezzo a $MINVALUE|V0$ e $MAXVALUE|V0$"
+ NOT_PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER_THIRD:0 "[CHARACTER.GetShortUINamePossessive|V] posizione nella linea di successione #bold non#! è in mezzo a $MINVALUE|V0$ e $MAXVALUE|V0$"
+
+ tier_equal_global: "[title_tier|E] è un $TIER|E$" #controllare se un o una
+ tier_equal_global_not: "[title_tier|E] #bold non#! è un $TIER|E$"
+ tier_equal_third: "[title_tier|E] di [TITLE.GetName] è un $TIER|E$"
+ tier_equal_third_not: "[title_tier|E] di [TITLE.GetName] #bold non#! è un $TIER|E$"
+ tier_less_than_global: "[title_tier|E] è inferiore a $TIER|E$"
+ tier_less_than_third: "[title_tier|E] [TITLE.GetName] è inferiore di $TIER|E$"
+ tier_less_or_equal_global: "[title_tier|E] è un $TIER|E$ o inferiore"
+ tier_less_or_equal_third: "[title_tier|E] [TITLE.GetName] è un $TIER|E$ o inferiore"
+ tier_greater_than_global: "[title_tier|E] è più alto di $TIER|E$"
+ tier_greater_than_third: "[title_tier|E] di [TITLE.GetName] è più alto di $TIER|E$"
+ tier_greater_or_equal_global: "[title_tier|E] è un $TIER|E$ o più alto"
+ tier_greater_or_equal_third: "[title_tier|E] di [TITLE.GetName] è un $TIER|E$ o più alto"
+
+ ROME_HOLDER_IS_CORRECT_FAITH:0 "Roma è sotto il dominio della fede [CHARACTER.GetFaith.GetAdjective]"
+ ROME_HOLDER_IS_NOT_CORRECT_FAITH:0 "Roma non è sotto il dominio della fede [CHARACTER.GetFaith.GetAdjective]"
+
+ ALEXANDRIA_HOLDER_IS_CORRECT_FAITH:0 "Alexandria è sotto il dominio della fede [CHARACTER.GetFaith.GetAdjective]"
+ ALEXANDRIA_HOLDER_IS_NOT_CORRECT_FAITH:0 "Alexandria non è sotto il dominio della fede [CHARACTER.GetFaith.GetAdjective]"
+
+ JERUSALEM_HOLDER_IS_CORRECT_FAITH:0 "Gerusalemme è sotto il dominio della fede [CHARACTER.GetFaith.GetAdjective]"
+ JERUSALEM_HOLDER_IS_NOT_CORRECT_FAITH:0 "Gerusalemme non è sotto il dominio della fede [CHARACTER.GetFaith.GetAdjective]"
+
+ ANTIOCHEIA_HOLDER_IS_CORRECT_FAITH:0 "Antiochia è sotto il dominio della fede [CHARACTER.GetFaith.GetAdjective]"
+ ANTIOCHEIA_HOLDER_IS_NOT_CORRECT_FAITH:0 "Antiochia non è sotto il dominio della fede [CHARACTER.GetFaith.GetAdjective]"
+
+ BYZANTION_HOLDER_IS_CORRECT_FAITH:0 "Costantinopoli è sotto un controllo [CHARACTER.GetFaith.GetAdjective]"
+ BYZANTION_HOLDER_IS_NOT_CORRECT_FAITH:0 "Costantinopoli non è sotto un controllo [CHARACTER.GetFaith.GetAdjective]"
+
+ FAITH_NOT_HAVE_RITE: "[CHARACTER.GetFaith.GetName|U] ha il principio fondamentale [GetFaithDoctrine('tenet_rite').GetBaseName]"
+ FAITH_HAS_RITE: "[CHARACTER.GetFaith.GetName|U] non ha il principio fondamentale [GetFaithDoctrine('tenet_rite').GetBaseName]"
+    
+ HRE_HOLDER_IS_OF_MY_DYNASTY:0 "Il sovrano del Sacro Romano Impero appartiene alla dinastia [CHARACTER.GetDynastyName]"
+ HRE_HOLDER_IS_NOT_OF_MY_DYNASTY:0 "Il sovrano del Sacro Romano Impero non appartiene alla dinastia [CHARACTER.GetDynastyName]"
+
+ I_HAVE_THE_TITLE:1 "Hai il [title|E] [TARGET_TITLE.GetNameNoTier]"
+ I_DO_NOT_HAVE_THE_TITLE:1 "#bold non#! hai il [title|E] [TARGET_TITLE.GetNameNoTier]"
+ HAS_THE_TITLE:0 "Ha il [title|E] [TARGET_TITLE.GetNameNoTier]"
+ DOES_NOT_HAVE_THE_TITLE:0 "#bold non#! ha il [title|E] [TARGET_TITLE.GetNameNoTier]"
+ CHARACTER_HAS_THE_TITLE:0 "[CHARACTER.GetShortUIName|U] ha il [title|E] [TARGET_TITLE.GetNameNoTier]"
+ CHARACTER_DOES_NOT_HAVE_THE_TITLE:0 "[CHARACTER.GetShortUIName|U] #bold non#! ha il [title|E] [TARGET_TITLE.GetNameNoTier]"
+
+ 
+
+ MY_PRIMARY_TITLE_IS:1 "Il tuo [primary_title|E] è [TARGET_TITLE.GetNameNoTier]"
+ MY_PRIMARY_TITLE_IS_NOT:1 "Il tuo [primary_title|E] #bold non#! è [TARGET_TITLE.GetNameNoTier]"
+ HAS_PRIMARY_TITLE:0 "Ha il [primary_title|E] [TARGET_TITLE.GetNameNoTier]"
+ DOES_NOT_HAVE_PRIMARY_TITLE:0 "Non ha il [primary_title|E] [TARGET_TITLE.GetNameNoTier]"
+ THEIR_PRIMARY_TITLE_IS:0 "Il [primary_title|E] di [CHARACTER.GetShortUIName] è [TARGET_TITLE.GetNameNoTier]"
+ THEIR_PRIMARY_TITLE_IS_NOT:0 "Il [primary_title|E] di [CHARACTER.GetShortUIName] #bold non#! è [TARGET_TITLE.GetNameNoTier]"
+
+ TITLE_IS_IN_REGION:0 "[PROVINCE.GetName] è nella regione [GEOGRAPHICAL_REGION.GetName]"
+ TITLE_IS_NOT_IN_REGION:0 "[PROVINCE.GetName] #bold non#! è nella regione [GEOGRAPHICAL_REGION.GetName]"
+
+ JERUSALEM_IS_SAME_FAITH:0 "Gerusalemme è [CHARACTER.GetFaith.GetAdjective]"
+ JERUSALEM_IS_NOT_SAME_FAITH:0 "Gerusalemme #bold non#! è [CHARACTER.GetFaith.GetAdjective]"
+
+ HIGH_PRIESTHOOD_ENOUGH_HOLY_SITES:1 "Controlli 3 o più [holy_sites|E] di fede [CHARACTER.GetFaith.GetAdjective]"
+ HIGH_PRIESTHOOD_NOT_ENOUGH_HOLY_SITES:1 "Controlli meno di 3 [holy_sites|E] di fede [CHARACTER.GetFaith.GetAdjective]"
+
+ CONSECRATE_BLOODLINE_HIGH_RELIGIOUS_HEAD_OPINION:1 "L'[opinion|E] di [CHARACTER.GetFaith.GetReligiousHead.GetShortUIName] nei tuoi confronti è 75 o maggiore"
+ NOT_CONSECRATE_BLOODLINE_HIGH_RELIGIOUS_HEAD_OPINION:0 ""
+ CONSECRATE_BLOODLINE_TEMPORAL_RELIGIOUS_HEAD_OPINION:0 ""
+ NOT_CONSECRATE_BLOODLINE_TEMPORAL_RELIGIOUS_HEAD_OPINION:0 ""
+
+ CONSECRATE_BLOODLINE_ENOUGH_HOLY_SITES:1 "Controlli uno o più [holy_sites|E] della fede [CHARACTER.GetFaith.GetAdjective]"
+ CONSECRATE_BLOODLINE_NOT_ENOUGH_HOLY_SITES:1 "#bold Non#! controlli nessuno dei [holy_sites|E] della fede [CHARACTER.GetFaith.GetAdjective]"
+ 
+ HAS_REVOCABLE_LEASE_TRIGGER:0 "Ha un contratto di locazione revocabile"
+ HAS_ORDER_OF_SUCCESSION_TRIGGER:0 "Ha ordine di successione"
+ HAS_TITLE_LAW_FLAG_TRIGGER:0 "Ha la legge del titolo: $LAW$"
+ IS_TITULAR_TRIGGER:0 "È [titular_title|E]"
+ FORM_GERMANIA_CHRISTIAN_TRIGGER:0 "In quanto sovrano di Fede [CHARACTER.GetFaith.GetAdjective] puoi invece ricreare il $e_hre$"
+ FORM_HISPANIA_MUST_END_STRUGGLE_TRIGGER:0 "La $e_spain$ non può essere formata finché la [iberian_struggle|E] non è stata risolta"
+ TITLE_HELD_YEARS:0 "$TITLE$ posseduto per $VALUE|V0$ anni"
+ TITLE_NOT_HELD_YEARS:0 "$TITLE$ #bold NON#! è stato posseduto per $VALUE|V0$ anni"
+ LANDED_TITLE_THIS_EQUAL:0 "È $TITLE$" 
+ 
+ appointment_candidate_score_greater_or_equal: "Nomina di [CHARACTER.GetShortUIName|U] per [TARGET_TITLE.GetName] è almeno $NUM|V0$"
+ appointment_candidate_score_less_than: "Nomina di [CHARACTER.GetShortUIName|U] per [TARGET_TITLE.GetName] è meno di $NUM|V0$"
+ appointment_candidate_accumulated_score_greater_or_equal: "L'investimento accumulato da [CHARACTER.GetShortUIName|U] per la nomina a [TARGET_TITLE.GetName] è almeno $NUM|V0$"
+ appointment_candidate_accumulated_score_less_than: "L'investimento accumulato da [CHARACTER.GetShortUIName|U] per la nomina a [TARGET_TITLE.GetName] è meno di $NUM|V0$"
+
+ is_title_created_first: "[title|E] già creato"
+ is_title_created_third: "[title|E] già creato"
+ is_title_created_global: "[title|E] già creato"
+
+ uses_county_fertility_global: "Usa la [county_fertility|E]"
+ not_uses_county_fertility_global: "Non usa la [county_fertility|E]"
+ uses_county_fertility_third: "[TITLE.GetName] usa [county_fertility|E]"
+ not_uses_county_fertility_third: "[TITLE.GetName] #bold non#! usa la [county_fertility|E]"
+
+ county_fertility_global: "La [county_fertility|E] è $COMPARATOR$ $NUM|V1$"
+ not_county_fertility_global: "La [county_fertility|E] #bold non#! è $COMPARATOR$ $NUM|V1$"
+ county_fertility_third: "La [county_fertility|E] in [TITLE.GetName] è $COMPARATOR$ $NUM|V1$"
+ not_county_fertility_third: "[county_fertility|E] in [TITLE.GetName] #bold non#! è $COMPARATOR$ $NUM|V1$"
+ 
+ capital_county_equal_first: "[TARGET_TITLE.GetNameNoTier] è la tua [capital|E]"
+ capital_county_equal_third: "[TARGET_TITLE.GetNameNoTier] è la [capital|E] di [CHARACTER.GetShortUIName]"
+ capital_county_equal_global: "[TARGET_TITLE.GetNameNoTier] è la [capital|E]"

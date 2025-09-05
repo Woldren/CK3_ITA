@@ -1,0 +1,6 @@
+﻿l_spanish:
+ 
+ became_ill_while_traveling_memory:0 "Malattia di Viaggio"
+ became_ill_while_traveling_memory_desc:0 "Mi sono ammalato durante il viaggio"
+ became_ill_while_traveling_memory_desc_second_perspective:0 "Ti sei ammalato durante il viaggio"
+ became_ill_while_traveling_memory_desc_third_perspective:0 "[owner.GetName] si è ammalat[owner.Custom('DE_END_PRO_S_N')] durante il viaggio"

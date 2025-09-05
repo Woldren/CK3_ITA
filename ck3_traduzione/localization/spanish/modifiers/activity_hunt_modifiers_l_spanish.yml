@@ -1,0 +1,192 @@
+﻿l_spanish:
+ held_hunt_modifier:0 "A Caccia di Recente"
+ held_hunt_modifier_desc:0 "Questo personaggio ha recentemente organizzato una caccia, e non può farlo di nuovo fino alla data specificata."
+ 
+ hunt_punished_locals_modifier:0 "Bracconieri Puniti"
+ hunt_punished_locals_modifier_desc:1 "Le persone in questa contea hanno l'onere di compensare i bracconieri nelle foreste.\n#weak $hunt_modifier_success_slightly_improved_location_tt$#!\n"
+ 
+ hunt_poacher_training_modifier:0 "Formazione dai Braconieri"
+ hunt_poacher_training_modifier_desc:0 "Questo personaggio è stato addestrato dai bracconieri a cacciare."
+ 
+ hunt_upset_hunting_county_modifier:0 "Oltraggio per il Bracconaggio"
+ hunt_upset_hunting_county_modifier_desc:0 "Questa contea è sconvolta per il modo in cui è stata trattata solo per le azioni di una manciata di bracconieri"
+
+ modifier_hunt_hunting_trophy:0 "Trofeo di Caccia"
+ modifier_hunt_hunting_trophy_desc:0 "Un impressionante trofeo di caccia è stato appeso nella grande sala di questo personaggio, per mostrare i suoi successi."
+ 
+ modifier_hunt_friend_of_animal:0 "Amico degli Animali"
+ modifier_hunt_friend_of_animal_desc:0 "Questo personaggio ha una straordinaria capacità di gestire gli animali."
+ 
+ hunt_guide_local_madman_modifier:0 "Guida Locale"
+ hunt_guide_local_madman_modifier_desc:2 "Questo personaggio è stato guidato alla scoperta di una palude durante la caccia.\n#weak $hunt_modifier_success_slightly_improved_location_tt$#!\n"
+ hunt_guide_local_madman_modifier_custom_desc:0 "Questo personaggio è stato guidato a visitare una palude dal suo proprietario durante la caccia.\n#weak Mentre questo modificatore è attivo, la tua [hunt_success_chance|E] sarà #positive_value leggermente migliore#! in [SCOPE.sTitle('activity_place').GetNameNoTier]#!\n"
+
+ hunt_killed_local_madman_modifier:1 "Ucciso una Persona del Posto"
+ hunt_killed_local_madman_modifier_desc:0 "Un noto abitante delle paludi di questa contea è stato ucciso da un cacciatore troppo zelante."
+
+ hunt_talked_to_madman_modifier:1 "Ha Ascoltato le Preoccupazioni Locali"
+ hunt_talked_to_madman_modifier_desc:0 "Gli abitanti di questa contea sono felici che i loro problemi siano stati ascoltati dalla nobiltà venatoria."
+
+ hunt_peasants_denied_forest_modifier:0 "Contadini Scacciati dalla Foresta"
+ hunt_peasants_denied_forest_modifier_desc:0 "Ai contadini di questa contea è stato negato il diritto di foraggiare nelle foreste."
+
+ hunt_peasants_hunted_modifier:0 "Contadini Cacciati"
+ hunt_peasants_hunted_modifier_desc:0 "I contadini hanno paura di stabilirsi in questa contea, a causa delle cose indescrivibili che sono successe qui"
+
+ hunt_aided_peasants_modifier:0 "Contadini Aiutati"
+ hunt_aided_peasants_modifier_desc:0 "Le persone più povere di questa contea hanno ricevuto importanti aiuti di beneficenza."
+
+ hunt_fresh_air_and_exercise_modifier:0 "Aria Fresca ed Esercizio Fisico"
+ hunt_fresh_air_and_exercise_modifier_desc:0 "Questo personaggio ha goduto di un esercizio rigoroso durante le sue cacce."
+
+ hunt_focused_attention_modifier:0 "Focalizzare l'Attenzione"
+ hunt_focused_attention_modifier_desc:0 "Questo personaggio sa come concentrarsi sulle cose che richiedono un'attenzione immediata."
+
+ modifier_hunt_dog_trophy_modifier:0 "Trofeo di Caccia"
+ modifier_hunt_dog_trophy_modifier_desc:0 "Un impressionante trofeo di caccia è appeso nella grande sala di questo personaggio, per mostrare i suoi risultati."
+
+ modifier_hunt_dog_fighting_modifier:0 "Prodezza Migliorata"
+ modifier_hunt_dog_fighting_modifier_desc:0 "Questo personaggio ha eseguito un'impressionante prodezza durante le sue cacce."
+
+ modifier_hunt_resisted_advances:0 "Resistere alla Tentazione"
+ modifier_hunt_resisted_advances_desc:0 "Questo personaggio ha resistito al canto della tentazione delle sirene."
+
+ hunt_mediated_fight_modifier:0 "Mediatore"
+ hunt_mediated_fight_modifier_desc:0 "Questo personaggio ha negoziato con successo tra due persone in conflitto, una lezione preziosa."
+
+ hunt_protected_peasants_modifier:0 "Contadini Protetti"
+ hunt_protected_peasants_modifier_desc:1 "I contadini di questa contea si sentono al sicuro."
+
+ hunt_disturbed_locals_modifier:0 "Abitanti Disturbati"
+ hunt_disturbed_locals_modifier_desc:1 "La gente del posto in questa contea vuole solo essere lasciata in pace."
+
+ hunt_focused_effort_modifier:0 "Concentrato sulla Caccia"
+ hunt_focused_effort_modifier_desc:1 "Questo personaggio è molto concentrato sulla caccia."
+
+ hunt_treated_injury_modifier:0 "Praticata Chirurgia sul Campo"
+ hunt_treated_injury_modifier_desc:1 "Questo personaggio ha una recente esperienza con trattamenti medici molto importanti"
+
+ hunt_tasted_the_belt_modifier:0 "Assaggiata La Cintura"
+ hunt_tasted_the_belt_modifier_desc:1 "Questo personaggio ha una ferita sulla schiena."
+
+ hunt_treated_wound_modifier:0 "Ferite Bendate"
+ hunt_treated_wound_modifier_desc:1 "Le ferite di questo personaggio sono state abilmente curate."
+
+ hunt_chose_truth_modifier:0 "Umile Onestà"
+ hunt_chose_truth_modifier_desc:1 "Questo personaggio ha detto la verità a discapito di se stesso."
+
+ hunt_mystical_animal_modifier:0 "Uccisione di un Animale Mistico"
+ hunt_mystical_animal_modifier_desc:0 "Questo personaggio ha cacciato e ucciso una bestia mistica."
+ 
+ hunt_protected_their_secret_modifier:0 "Protettore di Segreti"
+ hunt_protected_their_secret_modifier_desc:0 "Questo personaggio mantiene le sue carte vicino al petto."
+
+ hunt_sighting_standard_modifier:0 "Avvistamento della selvaggina"
+ hunt_sighting_standard_modifier_desc:1 "In questa contea è stata avvistata una promettente quantità di selvaggina.\n#weak La [hunt_success_chance|E] è aumentata in questa [county|E]#!"
+ hunt_sighting_standard_modifier_custom_desc:1 "Molti/e [SCOPE.sTitle('sighting_county').Custom('GetAnimalPlural')] sono stati/e avvistati/e in questa contea.\n#weak Aumenta la [hunt_success_chance_no_prefix|E] di [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')|U] caccie#!"
+ 
+ hunt_sighting_dangerous_modifier:0 "Avvistamento di una bestia"
+ hunt_sighting_dangerous_modifier_desc:1 "Secondo quanto riferito, una bestia feroce sta terrorizzando questa contea.\n#weak La [hunt_success_chance|E] è aumentata in questa [county|E]#!"
+ hunt_sighting_dangerous_modifier_custom_desc:1 "Un/Una feroce [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')] si dice che abbia terrorizzato questa contea.\n#weak Aumenta la [hunt_success_chance_no_prefix|E] di [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')|U] caccie#!"
+
+ hunt_sighting_legendary_modifier:0 "Avvistamento leggendario"
+ hunt_sighting_legendary_modifier_desc:2 "Un animale mitico sarebbe stato avvistato in questa contea.\n#weak Un/Una $hunt_type_legendary$ [GetActivityType('activity_hunt').GetTextIcon][GetActivityType('activity_hunt').GetName] potrebbe trovarsi in questa [county|E]#!"
+ hunt_sighting_legendary_modifier_custom_desc:1 "Un/Una mitico/a [SCOPE.sTitle('sighting_county').Custom('GetLegendaryColor')] [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')] sarebbe stato avvistato in questa contea.\n#weak Un/Una leggendario/a [SCOPE.sTitle('sighting_county').Custom('GetLegendaryColor')|UV] [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')|UV] potrebbe essere cacciato/a in questa [county|E]#!"
+ 
+ hunt_sighting_falconry_modifier:0 "Avvistamento di uccelli"
+ hunt_sighting_falconry_modifier_desc:0 "Recenti avvistamenti di uccelli nidificanti o in migrazione rendono questa contea ideale per praticare la falconeria.\n#weak $hunt_type_falconry$ La [hunt_success_chance|E] è aumentata in questa [county|E]#!"
+ hunt_sighting_falconry_modifier_custom_desc:1 "Avvistamenti di [SCOPE.sTitle('sighting_county').Custom('GetAnimalPlural')] nidificanti o in migrazione rendono questa contea ideale per praticare la falconeria.\n#weak Aumenta la [hunt_success_chance_no_prefix|E] di [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')|U] caccie#!"
+ 
+ hunt_heir_murder_exposed_modifier:0 "Giustizia contadina"
+ hunt_heir_murder_exposed_modifier_desc:1 "Questo personaggio antepone la giustizia alla reputazione di cortigiano."
+ 
+ hunt_disrespected_locals_modifier:0 "Locali Non Rispettati"
+ hunt_disrespected_locals_modifier_desc:0 "I sentimenti dei cittadini di questa contea sono stati calpestati dai cacciatori."
+ 
+ hunt_happy_hounds_modifier:0 "Segugi felici"
+ hunt_happy_hounds_modifier_desc:1 "I cani da caccia di questo personaggio sono ben ricompensati.\n#weak $hunt_modifier_success_slightly_improved_tt$#!\n\n"
+ 
+ hunt_savage_hounds_modifier:0 "Segugi potenti"
+ hunt_savage_hounds_modifier_desc:1 "I segugi di questo personaggio hanno la reputazione di abbattere la selvaggina più potente.\n#weak $hunt_modifier_success_slightly_improved_tt$#!\n\n"
+ 
+ hunt_savaged_hounds_modifier:0 "Segugi selvatici"
+ hunt_savaged_hounds_modifier_desc:1 "Le cucce di questo personaggio sono state svuotate dai segugi che si cibano di bestie..\n#weak $hunt_modifier_success_slightly_worse_tt$#!\n\n"
+ 
+ crushed_by_boulder_modifier:0 "Schiacciato/a da un masso"
+ crushed_by_boulder_modifier_desc:0 "La dimostrazione di spavalderia di questo personaggio si è ritorta contro di lui quando è stato schiacciato dal masso rotolante che stava cercando di superare.."
+ 
+ hunt_blooming_garden_modifier:0 "Giardino in fiore"
+ hunt_blooming_garden_modifier_desc:0 "Il giardino di questo personaggio è stato ben allestito con fiori selvatici trovati durante una recente battuta di caccia."
+ 
+ hunt_stocked_medicus_modifier:0 "Medicinali immagazzinati"
+ hunt_stocked_medicus_modifier_desc:0 "Il medico di questo personaggio ha molte scorte di erbe medicinali, sia rare che comuni."
+ 
+ hunt_witch_protector_modifier:0 "Pastore preoccupato"
+ hunt_witch_protector_modifier_desc:0 "Questo personaggio ha dimostrato un interesse accorto nel proteggere i fratelli e le sorelle."
+ 
+ hunt_left_in_trap_modifier:0 "Lasciato/a in una trappola"
+ hunt_left_in_trap_modifier_desc:0 "Questo personaggio è stato lasciato in una trappola di caccia molto più a lungo di quanto fosse utile per il suo benessere."
+ 
+ hunt_punished_trappers_modifier:0 "Cacciatori puniti"
+ hunt_punished_trappers_modifier_desc:0 "Le trappole da caccia dei contadini di questa contea hanno scatenato l'ira del suo proprietario."
+ 
+ hunt_witch_suspicion_modifier:0 "Calunnie di stregoneria"
+ hunt_witch_suspicion_modifier_desc:0 "L'interesse di questo personaggio per la natura ha sollevato dubbi sulla sua fedeltà al vero dio."
+ 
+ hunt_mismanaged_game_modifier:0 "Selavaggina mal gestita"
+ hunt_mismanaged_game_modifier_desc:0 "La caccia alla cerva ha ridotto le riserve di selvaggina di questa contea.\n#weak La [hunt_success_chance|E] future contro questo animale sarà #negative_value leggermente peggiore#! in questa [county|E]#!"
+ hunt_mismanaged_game_modifier_custom_desc:0 "Questo personaggio ha catturato un cerbiatto e lo ha addomesticato per ingannare i suoi cugini selvatici.\n#weak La [hunt_success_chance|E] futura di [ROOT.Char.Custom('GetAnimalTypeMismanaged')|UV] sarà #negative_value leggermente peggiore#! in questa [county|E]#!"
+
+ hunt_tame_deer_modifier:0 "Cerbiatto domato"
+ hunt_tame_deer_modifier_desc:0 "Questo personaggio ha catturato un cerbiatto e lo ha addomesticato per ingannare i suoi cugini selvatici.\n#weak In futuro, la [hunt_success_chance|E] a questo tipo di animali sarà #positive_value leggermente migliore#!#!\n"
+ hunt_tame_deer_modifier_custom_desc:0 "Questo personaggio ha catturato un cerbiatto e lo ha addomesticato per ingannare i suoi cugini selvatici.\n#weak [ROOT.Char.Custom('GetAnimalTypeTame')|UV] La [hunt_success_chance|E] sarà #P leggermente migliore#!#!"
+
+ hunt_captive_beast_modifier:0 "Bestia prigioniera"
+ hunt_captive_beast_modifier_desc:0 "Questo personaggio ha catturato una bestia pericolosa viva per esibizione e divertimento.\n#weak Potrebbe essere utilizzato/a per [GetActivityType('activity_hunt').GetName] questo animale con un'#P alta#! [hunt_success_chance_no_prefix|E]\n"
+ hunt_captive_beast_modifier_custom_desc:0 "Questo personaggio mantiene un/una [ROOT.Char.Custom('GetAnimalAdjectiveCaptive')] [ROOT.Char.Custom('GetAnimalTypeCaptive')] per esibizione e divertimento.\n#weak Potrebbe essere utilizzato/a per [GetActivityType('activity_hunt').GetName] un/una [ROOT.Char.Custom('GetAnimalTypeCaptive')|UV] con un'#P alta#! [hunt_success_chance_no_prefix|E]"
+
+ dog_story_scenthound_modifier:0 "Segugio da caccia"
+ dog_story_scenthound_modifier_desc:1 "Un cane fedele, addestrato a seguire la selvaggina, segue questo personaggio ovunque vada.\n#weak Aumenta leggermente la [hunt_success_chance|E]#!"
+ dog_story_beasthound_modifier:0 "Mastino"
+ dog_story_beasthound_modifier_desc:1 "Un cane fedele, addestrato a combattere bestie pericolose, segue questo personaggio ovunque vada.\n#weak Aumenta leggermente la [hunt_success_chance|E]#! contro le bestie [hunt_dangerous|E]"
+
+ hunt_success_chance.trait:0 "[trait_level_track_xp|E] [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]"
+ hunt_success_chance.terrain:0 "[ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly] possiede un [terrain|E] [ROOT.Activity.GetCurrentPhase.GetLocation.GetTerrain.GetName]"
+ hunt_success_chance.development:0 "[development|E] elevato in [ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"
+ hunt_success_chance.no_holding:0 "Nessun [holding|E] in [ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"
+ hunt_success_chance.master_of_hunt:0 "[aptitude|E] di [ROOT.Activity.GetHost.Custom('GetHuntMasterTooltipDesc')]"
+ hunt_success_chance.master_of_hunt_holder: "Detiene la [court_position|E] [ROOT.Activity.GetHost.Custom('GetHuntMasterTooltipDesc')]" 
+ hunt_success_chance.hunt_option_attendants:0 "[activity_option|E] $hunt_option_attendants$"
+ hunt_success_chance.nomadic: "È [GetGovernment( 'nomad_government' ).GetName]" 
+ hunt_success_chance.forced_type:0 "Caccia forzata a [ROOT.Activity.MakeScope.Var('animal_type').GetFlagName|U]"
+ hunt_success_chance.captive_release:0 "Caccia selvatica a [ROOT.Activity.MakeScope.Var('animal_type').GetFlagName|U]"
+ hunt_success_chance.attending_hunters:0 "[activity_guests_short|E] [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]"
+ hunt_success_chance.hunt_guide_local_madman_modifier:0 "[GetModifier( 'hunt_guide_local_madman_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hunt_tame_deer_modifier:0 "[GetModifier( 'hunt_tame_deer_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.ep2_beastmaster_modifier:0 "[GetModifier( 'ep2_beastmaster_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.dog_story_scenthound_modifier:0 "[GetModifier( 'dog_story_scenthound_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.dog_story_beasthound_modifier:0 "[GetModifier( 'dog_story_beasthound_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hunt_mismanaged_game_modifier:0 "[GetModifier( 'hunt_mismanaged_game_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hunt_abundant_game_modifier: "[GetModifier( 'ep3_abundant_game_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hunt_wild_predators_modifier: "[GetModifier( 'ep3_wild_predators_modifier' ).GetNameWithTooltip]" 
+ hunt_success_chance.hunt_punished_locals_modifier:0 "[GetModifier( 'hunt_punished_locals_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hidden_hinterlands_recruit_modifier: "[GetModifier( 'inspection_hidden_hinterlands_recruit_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hidden_hinterlands_huntsmen_modifier: "[GetModifier( 'inspection_hidden_hinterlands_hunters_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.recent_hunt_held:0 "Cacce recenti in [ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"
+ hunt_success_chance.hunting_grounds:0 "[building|E] $building_type_hunting_grounds_01$"
+ hunt_success_chance.rainbow_mountains_01:0 "[building|E] $building_type_rainbow_mountains_01$"
+ hunt_success_chance.visegrad_castle_01: "[building|E] $building_type_visegrad_castle_01$" 
+ hunt_success_chance.logging_camps:0 "[building|E] $building_type_logging_camps_01$"
+ hunt_success_chance.royal_forest:0 "[building|E] $building_type_royal_forest_01$"
+ hunt_success_chance.culture:0 "[culture_traditions|E] [ROOT.Activity.GetHost.GetCulture.GetName]"
+ hunt_success_chance.events:0 "Eventi"
+ hunt_success_chance.sighting:0 "[hunt_sighting_no_prefix|E] [ROOT.Activity.Custom('GetAnimalType')|U]"
+ hunt_success_chance.hunting_eagle: "[GetModifier( 'eagle_story_modifier' ).GetNameWithTooltip]"
+
+ hunt_dangerous_beast_slain_modifier:0 "Bestia pericolosa uccisa"
+ hunt_dangerous_beast_slain_modifier_desc:0 "Le menti della popolazione locale sono alleggerite dalla consapevolezza che ci sia un bestia pericolosa in meno che si aggira per le terre selvagge."
+ 
+ hunt_medicinal_herbs_modifier:0 "$useful_herbs$"
+ hunt_medicinal_herbs_modifier_desc:0 "$useful_herbs_desc$"
+ hunt_poisonous_herbs_modifier:0 "$poisonous_plants$"
+ hunt_poisonous_herbs_modifier_desc:0 "$poisonous_plants_desc$"

@@ -1,0 +1,100 @@
+﻿l_spanish:
+ LEGENDS_TITLE: "Leggende"
+  
+ CREATE_LEGEND_TOOLTIP: "[LegendSeed.GetDescription( Character.Self )][AddLine( Character.GetCanCreateLegendDesc( LegendSeed.Self ) )][AddParagraph( GetLongCostString( LegendSeed.GetCreationCost( Character.Self ) ) )]"
+ CREATE_TRIGGERED_LEGEND_TOOLTIP: "[TriggeredLegendSeed.GetDescription( Character.Self )][AddParagraph( GetLongCostString( TriggeredLegendSeed.GetSeed.GetCreationCost( Character.Self ) ) )][AddLine( Character.GetCanCreateTriggeredLegendDesc( TriggeredLegendSeed.Self ) )]"
+  
+ LEGEND_HEADER_TT: "#T [Legend.GetName]#![AddLine( Legend.GetDescription )]\n\n#i Clicca per selezionare e aprire la Cronaca\nClicca con il destro per selezionare e scorrere la leggenda sulla mappa#!"
+ SEED_LEGEND_HEADER_TT: "#T [LegendSeed.GetName( Character.Self )]#![AddLine( LegendSeed.GetDescription( Character.Self ) )]"
+ TRIGGERED_LEGEND_SEED_HEADER_TT: "#T [TriggeredLegendSeed.GetName( Character.Self )]#![AddLine( TriggeredLegendSeed.GetDescription( Character.Self ) )]"
+
+ PROMOTE_LEGEND_BUTTON_TT: "#T Dai inizio alla Leggenda#![AddLine( SelectLocalization( IsValidCommand( GetPlayer.StartPromotingLegend( Legend.Self ) ), 'PROMOTE_LEGEND_BUTTON_NOT_BLOCKED_TT', 'PROMOTE_LEGEND_BUTTON_BLOCKED_TT' ) )]"
+ PROMOTE_LEGEND_BUTTON_NOT_BLOCKED_TT: "Dai inizio alla leggenda di [Legend.GetOwner.GetName].[AddLine( '#D cosa possiamo metterci ancora?#!' )]"
+ PROMOTE_LEGEND_BUTTON_BLOCKED_TT: "Dai inizio alla leggenda di [Legend.GetOwner.GetName].[AddLine( AddLine( '#X Non puoi dare inizio a questa leggenda:#!' ) )][AddLine( GetCommandDesc( GetPlayer.StartPromotingLegend( Legend.Self ) ) )]"
+
+ OPEN_CHRONICLE_BUTTON_TT: "#T Apri Cronoca#!"
+ PAN_TO_LEGEND_TT: "#T Vai alla leggenda sulla mappa#!"
+ 
+ LEGEND_HEADER_SUBTITLE: "[Legend.GetType.GetName] su [Legend.GetProtagonist.GetName]"
+
+ PROMOTED_LEGEND: "Promozione di una Leggenda"
+ PROMOTED_OWNED_LEGEND: "Promozione della Propria Leggenda"
+ PROMOTED_LEGEND_EMPTY: "Non stai [Concept( 'promoting_legend', 'promuovendo' )|El] una [legend|E]"
+ PROMOTED_LEGEND_EMPTY_INSTRUCTION: "Inizia a creare una leggenda dal seguente elenco di [legend_seeds|E],\noppure trova una [legend|E] esistente in corso di creazione, che vuoi promuovere.\n\nPromuovere una [legend|E] né aiuterà la diffusione e ti offrirà dei benefici."
+ RETURN_TO_PROMOTED_LEGEND_TT: "Torna alla [promoted_legend|E]"
+
+ FOCUSED_LEGEND: "Leggenda Selezionata"
+ COMPLETED_LEGEND: "Leggenda Completata"
+ LEGEND_LIBRARY_INSTRUCTION: "$game_concept_legend_library_desc$"
+
+
+ LEGEND_SEEDS: "[legend_seeds|E] #weak ([Add_int32( GetDataModelSize( Character.GetLegendSeeds ), GetDataModelSize( LocalPlayerCachedData.GetTriggeredLegendSeeds ) )])#!"
+ LEGEND_SEEDS_EMPTY: "Non hai [legend_seeds|E]"
+ LEGENDS_REALM_ACTIVE_LEGENDS_SECTION: "Creazione delle Leggende #weak ([GetDataModelSize( LegendsWindow.GetRealmActiveLegends )])#!"
+ LEGENDS_REALM_ACTIVE_LEGENDS_EMPTY: "Attualmente non ci sono [legends|E] in fase di creazione nel tuo regno."
+ LEGENDS_DISTANT_ACTIVE_LEGENDS_SECTION: "Creazione delle Leggende #weak ([GetDataModelSize( LegendsWindow.GetDistantActiveLegends )])#!"
+ LEGENDS_DISTANT_ACTIVE_LEGENDS_EMPTY: "Attualmente non ci sono [legends|E] in fase di creazione in regni lontani"
+ LEGEND_PROMOTERS: "[legend_promoters|E]: #L [GetDataModelSize( Legend.GetPromoters )|V]#!"
+ LEGEND_PROMOTERS_LABEL: "[legend_promoters|E]"
+ LEGEND_PROTAGONIST_LABEL: "[legend_protagonist|E]:"
+ LEGEND_PROTAGONIST: "[Legend.GetProtagonist.GetName]"
+
+ LEGEND_PROVINCE_AND_COUNTY_MODIFIERS_TOOLTIP: "#T $PROVINCE_AND_COUNTY_MODIFIERS$#!\n[JoinText( '\n\n', AddLocalizationIf( Legend.HasImpactModifiers( 'province' ), 'LEGEND_PROVINCE_MODIFIERS_SUBTEXT' ), AddLocalizationIf( Legend.HasImpactModifiers( 'county' ), 'LEGEND_COUNTY_MODIFIERS_SUBTEXT' ) )]"
+ LEGEND_OWNER_MODIFIERS_TOOLTIP: "#T $OWNER_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'owner' )]"
+ LEGEND_PROMOTER_MODIFIERS_TOOLTIP: "#T $LEGEND_PROMOTER_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'promoter' )]"
+ 
+ LEGEND_SEED_OWNER_MODIFIERS_TOOLTIP: "#T $OWNER_MODIFIERS$#!\n[LegendSeed.GetImpactModifiers( 'owner' )]"
+ LEGEND_SEED_PROMOTER_MODIFIERS_TOOLTIP: "#T $LEGEND_PROMOTER_MODIFIERS$#!\n[LegendSeed.GetImpactModifiers( 'promoter' )]"
+ LEGEND_SEED_PROVINCE_MODIFIERS_SUBTEXT: "#S $PROVINCE_MODIFIERS$#!\n[LegendSeed.GetImpactModifiers( 'province' )]"
+ LEGEND_SEED_COUNTY_MODIFIERS_SUBTEXT: "#S $COUNTY_MODIFIERS$#!\n[LegendSeed.GetImpactModifiers( 'county' )]"
+ LEGEND_SEED_PROVINCE_AND_COUNTY_MODIFIERS_TOOLTIP: "#T $PROVINCE_AND_COUNTY_MODIFIERS$#!\n[JoinText( '\n\n', AddLocalizationIf( LegendSeed.HasImpactModifiers( 'province' ), 'LEGEND_SEED_PROVINCE_MODIFIERS_SUBTEXT' ), AddLocalizationIf( LegendSeed.HasImpactModifiers( 'county' ), 'LEGEND_SEED_COUNTY_MODIFIERS_SUBTEXT' ) )]"
+
+ LEGENDS_CREATE_LEGEND: "Crea Leggenda"
+
+ LEGEND_UPGRADE_LABEL: "Migliora:"
+ LEGEND_UPGRADE_COST: "[GetCostString( Legend.GetUpgradeCostDescription( Character.Self ) )]"
+ LEGEND_CREATION_LABEL: "Creazione:"
+ LEGEND_CREATION_COST: "[GetCostString( LegendSeed.GetCreationCost( Character.Self ) )]"
+ LEGEND_MAINTENANCE_LABEL: "Promozione:"
+ LEGEND_SEED_MAINTENANCE_COST: "[GetIntervalCostString( LegendSeed.GetMaintenanceCost( Character.Self ), 'monthly' )]"
+ LEGEND_MAINTENANCE_COST: "[GetIntervalCostString( Legend.GetMaintenanceCost( Character.Self ), 'monthly' )]"
+
+ HUD_LEGEND_SEEDS: "Hai [Add_int32( GetDataModelSize( Character.GetLegendSeeds ), GetDataModelSize( LocalPlayerCachedData.GetTriggeredLegendSeeds ) )|V] Semi disponibili"
+
+ COMPLETE_LEGEND_TITLE: "Completa [Legend.GetNameNoTooltip]"
+ COMPLETE_LEGEND_TEXT: "$LEGEND_COMPLETE_LEGEND$"
+ COMPLETE_LEGEND_ACCEPT: "Completa"
+
+ START_PROMOTING_LEGEND_TITLE: "Promuovi [Legend.GetNameNoTooltip]"
+ START_PROMOTING_LEGEND_TEXT: "Inizia a [Concept( 'promoted_legend', 'Promuovere' )|E] la diffusione della leggenda [Legend.GetName] posseduta da [Legend.GetOwner.GetShortUIName] all'interno del tuo [realm|E].\n\nMantenimento: [GetIntervalCostString( Legend.GetMaintenanceCost( GetPlayer ), 'monthly' )]"
+ START_PROMOTING_LEGEND_ACCEPT: "Promuovi"
+
+ legend_tab_realm: "Leggende del Regno"
+ legend_tab_distant: "Leggende Distanti"
+ legend_tab_library: "Libreria delle Leggende"
+ legend_tab_seeds: "Semi delle Leggende"
+
+ REALM_COMPLETED_LEGENDS: "Leggende Completate #weak ([GetDataModelSize( LegendsWindow.GetRealmCompletedLegends )])#!"
+ REALM_COMPLETED_LEGENDS_TT: "Leggende Completate"
+ NO_REALM_ACTIVE_LEGENDS: "Non ci sono [legends|e] che si stanno formando nel tuo [realm|e] in questo momento"
+ NO_REALM_COMPLETED_LEGENDS: "Non sei a conoscenza di alcuna [legend|e] completata nel tuo [realm|e]"
+ DISTANT_COMPLETED_LEGENDS: "Leggende Completate #weak ([GetDataModelSize( LegendsWindow.GetDistantCompletedLegends )])#!"
+ NO_DISTANT_ACTIVE_LEGENDS: "Non ci sono [legends|e] che si stanno formando al di fuori del tuo [realm|e], per ora"
+ NO_DISTANT_COMPLETED_LEGENDS: "Non sei a conoscenza di alcuna [legend|e] completata al di fuori del tuo [realm|e]"
+
+
+ LEGEND_SPREAD_UPGRADE_: "#weak (Upgrade [Concept( 'legend_quality', 'Qualità' )|E] a [Legend.GetMaxNumProvinces|V])#!"
+ LEGEND_SPREAD_UPGRADE: ""
+ LEGEND_SPREAD: "Diffondi nelle [baronies|E]: [Legend.GetCurrentNumProvinces|V] [AddLocalizationIf( Not( Legend.HasQuality( 'mythical' ) ), 'LEGEND_SPREAD_UPGRADE' )]"
+
+ SUMMARY_LEGEND_IS_COMPLETED: "#weak Questa leggenda è stata completata e non viene più promossa attivamente.#!"
+ LEGEND_DURATION_ACTIVE: "[Legend.GetCreationDate.GetYear] - ..."
+ LEGEND_DURATION_COMPLETED: "[Legend.GetCreationDate.GetYear] - [Legend.GetCompletionDate.GetYear]"
+
+ CREATE_LEGEND_TITLE: "Crea [LegendSeed.GetNameWithProtagonist( Character.Self, LegendCreationWindow.GetProtagonist.Self )]"
+ CREATE_LEGEND_DESC: "Questo [legend_seed|E] è per un [Concept( 'legend_type', LegendSeed.GetType.GetName )|E] di qualità [LegendSeed.GetQualityLevel].\n#I Seleziona il [legend_protagonist|E] e crea la tua [legend|E].#!\n#weak In base al Protagonista che hai scelto riceverai ricompense differenti al completamento della tua Leggenda.#!\n@alert_icon!#alert_trial Non puoi completare la leggenda per [GetTimeDifferenceWithDays( GetDefine( 'NLegend', 'DAYS_UNTIL_CAN_COMPLETE' ) )|V]#!"
+ CREATE_LEGEND_WARNING_DESC: "@warning_icon!#X Non puoi completare o abbandonare la leggenda per [GetTimeDifferenceWithDays( GetDefine( 'NLegend', 'DAYS_UNTIL_CAN_COMPLETE' ) )|V]#!"
+
+
+ LEGEND_REWARDS: "Ricompense al completamento"
+ RELATIONSHIP: "Relazione"

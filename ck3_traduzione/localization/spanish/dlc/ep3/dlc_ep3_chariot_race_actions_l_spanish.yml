@@ -1,0 +1,8 @@
+﻿l_spanish: 
+ 
+ apa_cheering_on_competitors_title: "[first.GetShortUIName|U] e [second.GetShortUIName|U] hanno legato grazie ai loro aurighi preferiti"
+ apa_thunderous_applause_title: "[first.GetShortUIName|U], ispirat[first.Custom('DE_END_PRO_S_N')] dall'applauso scrosciante della folla, supera [second.GetShortUIName|U]"
+ apa_celebrating_unexpected_overtake_title: "[first.GetShortUIName|U] supera [second.GetShortUIName|U]"
+ apa_exchanging_race_commentary_title: "[first.GetShortUIName|U] e [second.GetShortUIName|U], fanno l'amore, dopo essere stati ispirati dal calore delle gare"
+ apa_forging_alliances_title: "[apa_target.GetShortUIName|U] estende la sua influenza politica"
+ apa_donates_to_the_poor_title: "[first.GetShortUIName|U] dona agli [Glossary( 'hoi polloi', 'HOI_POLLOI_GLOSS' )]"

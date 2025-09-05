@@ -1,0 +1,67 @@
+﻿l_spanish:
+ intrigue_ongoing_under_contract_modifier:0 "Sotto Contratto di Protezione"
+
+ intrigue_insulted_abilities_as_lover:0 "Capacità Sessuali in Dubbio"
+
+ more_vigilant_recistance_modifier:0 "Maggiore Vigilanza"
+ read_people_power_modifier:0 "Imparare a Capire le Persone"
+ better_understanding_of_people:0 "Capisce le Persone"
+ invented_code_resistance_modifier:0 "Codice Inventato"
+ invented_code_slight_resistance_modifier:0 "Codice Inventato"
+
+ ate_good_meal:0 "Fatto un Buon Pasto"
+
+ manipulate_people_modifier:0 "Manipola le Persone"
+ observant_of_details:0 "Attento ai Dettagli"
+ very_observant_of_details:0 "Molto Attento ai Dettagli"
+ 
+ intrigue_emphasizing_personal_schemes_modifier:0 "Rafforza le Cospirazioni"
+
+ intrigue_poison_experimentation_modifier:0 "Veleni Sperimentali"
+ intrigue_poison_experimentation_modifier_desc:0 "Questo personaggio sta tentando di creare nuove pozioni mortali."
+
+ intrigue_risky_poison_experimentation_modifier:0 "Veleni Sperimentali Rischiosi"
+ intrigue_risky_poison_experimentation_modifier_desc:0 "Questo personaggio sta eseguendo gli esperimenti più vili nella ricerca di escogitare nuovi veleni mortali."
+
+ intrigue_fond_memories_modifier:0 "Ricordi Affettuosi"
+ intrigue_fond_memories_modifier_desc:0 "Questo personaggio ha bei ricordi di alcuni eventi recenti che lo rilassa."
+ intrigue_starved_and_deprived_modifier:0 "Affamato ed Esausto"
+ intrigue_starved_and_deprived_modifier_desc:0 "A questo personaggio è stato negato cibo, acqua e sonno, privandolo di energia."
+ intrigue_suffered_degredation_modifier:0 "Ha Sofferto il Degrado"
+ intrigue_suffered_degredation_modifier_desc:0 "Questo personaggio è stato sottoposto alle esperienze più disumani, danneggiando il suo ego."
+ intrigue_broken_modifier:0 "Ridotto a Pezzi"
+ intrigue_broken_modifier_desc:0 "Questo personaggio ha subito un trauma così grave che è difficile per lui far fronte alle esigenze della vita quotidiana."
+
+ intrigue_court_spies_modifier:0 "Spie a Corte"
+ intrigue_court_spies_modifier_desc:0 "Questo personaggio ha diffuso spie tra la sua corte per riferire su qualsiasi intrigo o complotto."
+
+ intrigue_hoarding_secrets_modifier:0 "Accumulando Segreti"
+ intrigue_hoarding_secrets_modifier_desc:0 "Questo personaggio sta raccogliendo segreti per uno scopo sconosciuto..."
+
+ intrigue_threatened_merchant_modifier:0 "Mercante Minacciato"
+ intrigue_theatre_troupe_modifier:0 "Animatori Esotici"
+ intrigue_theatre_troupe_modifier_desc:0 "Una strana troupe di artisti erranti sta intrattenendo la gente del posto."
+ intrigue_theatre_troupe_loss_modifier:0 "Spettacolo Divertente"
+
+ intrigue_studying_people_modifier:0 "Studiare le Persone"
+ intrigue_studying_people_modifier_desc:0 "Questo personaggio cerca di comprendere meglio le sottili interazioni sociali."
+ intrigue_flirtatious_modifier:0 "Seduttore"
+ intrigue_flirtatious_modifier_desc:0 "Questo personaggio sta affinando le sue abilità seduttive."
+
+ intrigue_understands_desires_modifier:0 "Comprende i Desideri"
+ intrigue_understands_desires_modifier_desc:0 "Questo personaggio ha acquisito una profonda comprensione del comportamento e dei desideri delle persone.."
+ intrigue_understands_people_modifier:0 "Comprende la Gente"
+ intrigue_understands_people_modifier_desc:0 "Questo personaggio ha acquisito una profonda comprensione delle complessa vita di corte."
+
+ intrigue_picky_about_partners:0 "Esigente in Amore"
+ intrigue_picky_about_partners_desc:0 "Questo personaggio è notoriamente schizzinoso riguardo alle persone con cui avere una relazione."
+
+ dark_insights_prowess_modifier:0 "Idee Oscure: Prodezza"
+ dark_insights_prowess_modifier_desc:0 "Attraverso la tortura, questo personaggio ha imparato molto su come provocare dolore e ottenere ciò che desidera."
+ dark_insights_intrigue_modifier:0 "Idee Oscure: Intrighi"
+ dark_insights_intrigue_modifier_desc:0 "$dark_insights_prowess_modifier_desc$"
+ 
+ intrigue_clandestine_informant_modifier:0 "Informatore Anonimo"
+ intrigue_clandestine_informant_modifier_desc:0 "Utilizzando informazioni ottenute clandestinamente, questo personaggio va dritto al centro della strategia difensiva del nemico."
+ intrigue_fooled_by_enemy_modifier:0 "Ingannato dal Nemico"
+ intrigue_fooled_by_enemy_modifier_desc:0 "Questo personaggio ha tentato di ottenere un vantaggio rispetto alla strategia difensiva del suo nemico, ma alla fine è stato ingannato acquisendo informazioni false."

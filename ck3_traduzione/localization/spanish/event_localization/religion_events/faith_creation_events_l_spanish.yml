@@ -1,0 +1,55 @@
+﻿l_spanish:
+ faith_creation.1001.t.schism:0 "Lo Scisma della Fede [reformed_faith.GetAdjectiveNoTooltip]"
+ faith_creation.1001.t.reformation:0 "La riforma del [reformed_faith.GetAdjectiveNoTooltip]"
+ faith_creation.1001.desc.schism:0 "Un nuovo scisma all'interno della fede [reformed_faith.GetReligion.GetName] si è verificato quando [reformer.GetTitledFirstName] e i suoi seguaci si sono separati dalla fede [old_faith.GetAdjective] per formare un nuovo movimento religioso."
+ faith_creation.1001.desc.reformation:0 "[reformer.GetTitledFirstName], una figura di spicco tra i [reformed_faith.GetAdherentNamePlural], ha riunito tutti i [reformer.Custom('DefaultPriestTitle')] del paese per discutere le loro credenze e stabilire una dottrina ufficiale per la fede pagana."
+ faith_creation.1001.desc.schism.personal:0 "I sacerdoti della fede [old_faith.GetAdjective] si sono smarriti e non ci si può più fidare della loro guida. Per rimediare ho riunito un gruppo selezionato di [reformer.Custom('DefaultPriestTitlePlural')] per discutere il futuro della nostra fede."
+ faith_creation.1001.desc.reformation.personal:0 "Alla fine sono riuscito a riunire tutti i [reformer.Custom('DefaultPriestTitle')] più importanti del mondo in modo che possano discutere delle nostre convinzioni e stabilire una dottrina ufficiale per guidare la nostra fede nel futuro."
+
+#Pick one line from this set (Outlook):
+ faith_creation.1001.desc.outlook.ghw:0 "\n\nQuesti [reformer.Custom('DefaultPriestTitlePlural')] appassionati, stanno già parlando di dare vita a [reformed_faith.GHWNamePlural] per diffondere la loro nuova fede in tutto il mondo e"
+ faith_creation.1001.desc.outlook.pacifism:0 "\n\nQuesti [reformer.Custom('DefaultPriestTitlePlural')] di fede [reformed_faith.GetAdjectiveNoTooltip] hanno condannato la violenza e lo spargimento di sangue, dicendo che la guerra porta solo alla sofferenza e all'odio, e"
+ faith_creation.1001.desc.outlook.dogmatic:0 "\n\nQuesti [reformer.Custom('DefaultPriestTitlePlural')] hanno dichiarato che la fede [reformed_faith.GetNameNoTooltip] è l'unica vera fede, e"
+ faith_creation.1001.desc.outlook.accepting:0 "\n\nQuesti [reformer.Custom('DefaultPriestTitlePlural')] di fede [reformed_faith.GetAdjectiveNoTooltip] incoraggiano la cooperazione e la tolleranza, anche nei confronti dei non credenti, e"
+ faith_creation.1001.desc.outlook.fallback:0 "\n\nQuesti [reformer.Custom('DefaultPriestTitlePlural')] di fede [reformed_faith.GetAdjectiveNoTooltip] hanno adottato una pragmatica e bilanciata visione delle altre fedi e"
+
+#And one line from this second set (Beliefs):
+ faith_creation.1001.desc.belief.sacrifice:0 "affermarmano che l'unico modo per mostrare la giusta devozione è onorare [reformed_faith.HighGodName] con sacrifici umani!"
+ faith_creation.1001.desc.belief.indulgent:0 "incoraggiano gli aderenti a soddisfare i desideri della carne e a vivere la loro vita al massimo"
+ faith_creation.1001.desc.belief.incest:0 "approvano i matrimoni tra parenti stretti, sostenendo che i legami della famiglia sono sacri e che tali matrimoni sono benedetti."
+ faith_creation.1001.desc.belief.aniconism:0 "rifiutano l'uso di qualsiasi simbolismo religioso, sostenendo che semplici effigi non possono catturare la grandezza di [reformed_faith.HighGodName]."
+ faith_creation.1001.desc.belief.ascetic:0 "stanno promuovendo l'ascetismo tra i loro seguaci, sostenendo che i materialisti bloccano il percorso verso la realizzazione spirituale."
+ faith_creation.1001.desc.belief.spirits:0 "hanno chiesto l'aiuto degli spiriti per guidare i fedeli in questi tempi turbolenti."
+ faith_creation.1001.desc.belief.superstition:0 "molte antiche superstizioni e storie mitiche sono state canonizzate nella dottrina ufficiale."
+ faith_creation.1001.desc.belief.nature:0 "hanno un grande rispetto per la natura stessa, cercando di preservarla e proteggerla da coloro che la sfrutterebbero per il proprio guadagno."
+ faith_creation.1001.desc.belief.community:0 "la nuova fede si è fusa con le tradizioni culturali dei suoi aderenti per formare comunità solidali di [reformed_faith.GetAdherentNamePluralNoTooltip] che esitano ad accettare forestieri."
+ faith_creation.1001.desc.belief.fallback:0 "chiedono a tutti gli aderenti di mettere da parte le vecchie controversie e di riunirsi per il bene della nuova fede."
+
+#End with a reference to 
+ faith_creation.1001.desc.temporal:0 "\n\n[reformer.GetFirstNameNoTooltip] ha scelto di guidare personalmente questo fiorente movimento [reformed_faith.GetAdjectiveNoTooltip] e ha assunto il titolo di [reformed_faith.ReligiousHeadName], una posizione di rilievo che [reformer.GetSheHe] dovrebbe tramandare al suo erede."
+ faith_creation.1001.desc.temporal.personal:0 "\n\nHo scelto di guidare personalmente questo fiorente movimento [reformed_faith.GetAdjectiveNoTooltip] e ho assunto il titolo di [reformed_faith.ReligiousHeadName], una posizione di rilievo che tramanderò ai miei discendenti."
+ faith_creation.1001.desc.spiritual:0 "\n\nI [reformer.Custom('DefaultPriestTitlePlural')] [reformed_faith.GetAdjectiveNoTooltip] hanno scelto [reformed_hof.GetFirstNameNoTooltip] come loro nuovo [reformed_faith.ReligiousHeadName], che determinerà la dottrina religiosa e arbitrerà le controversie interreligiose per l'intero mondo [reformed_faith.GetAdjectiveNoTooltip]."
+ faith_creation.1001.desc.spiritual.sameold:0 "\n\nI [reformer.Custom('DefaultPriestTitlePlural')] [reformed_faith.GetAdjectiveNoTooltip] hanno scelto di mantenere [reformed_hof.GetFirstNameNoTooltip] come loro [reformed_faith.ReligiousHeadName], [reformer.GetSheHe] continuerà a determinare la dottrina religiosa e ad arbitrare le controversie interconfessionali per l'intero mondo [reformed_faith.GetAdjectiveNoTooltip]."
+ faith_creation.1001.desc.no_head:0 "\n\nIl fiorente movimento ha deciso di non istituire un capo religioso, preferendo invece lasciare che ogni [reformer.Custom('DefaultPriestTitle')] determini quali insegnamenti sono appropriati per il/la proprio/a [reformed_faith.HouseOfWorship]."
+ faith_creation.1001.desc.no_holy_sites:0 "\n\nI Fedeli [reformed_faith.GetAdherentNamePluralNoTooltip] attendono con impazienza l'arrivo profetizzato del [reformed_faith.ReligiousHeadName], un grande leader che radunerà tutti i credenti dietro di lui e inaugurerà un'età dell'oro per la Fede [reformed_faith.GetAdjectiveNoTooltip]."
+
+ faith_creation.1001.o.frightened:0 "[ROOT.Char.GetFaith.random_GoodGodNames] salvaci da questi [second.Custom('GetUnbelieverNamePlural')] sanguinari!"
+ faith_creation.1001.o.heretical:0 "Questi eretici pagheranno per i loro crimini contro [ROOT.Char.GetFaith.HighGodName]!"
+ faith_creation.1001.o.crusader:0 "Una [ROOT.Char.GetFaith.GHWName] o due rimetteranno questi [second.Custom('GetUnbelieverNamePlural')] al loro posto!"
+ faith_creation.1001.o.interested:0 "Dobbiamo tenere d'occhio questo nuovo sviluppo..."
+ faith_creation.1001.o.uninterested:0 "Non importa a cosa credono questi [second.Custom('GetUnbelieverNamePlural')]."
+ faith_creation.1001.o.getreaction:0 "[ROOT.Char.Custom2('GetFaithCreationReaction', reformer)]"
+ faith_creation.1001.o.personal:0 "Il mondo vedrà che [ROOT.Char.GetFaith.HighGodName] ci preferisce!"
+
+ faith_creation.1010.t:0 "La [HoF.GetFirstNameNoTooltip] nomina come [faith.ReligiousHeadName|U]"
+ faith_creation.1010.desc.start:0 "Anche se la rettitudine della nostra fede non è mai stata messa in dubbio, il periodo di tempo che siamo stati costretti a sopportare senza un leader spirituale è stato provante. Alla fine questo calvario è finito comunque, come"
+ faith_creation.1010.desc.temporal.personal:0 "Alla fine ho convinto i [faith.AltPriestTermPlural] ad accettarmi come l'unico vero [faith.ReligiousHeadName|U]."
+ faith_creation.1010.desc.temporal:0 "[HoF.GetTitledFirstName] è riuscito a convincere i [faith.AltPriestTermPlural] ad accettare [HoF.GetHerHim] come l'unico vero [faith.ReligiousHeadName|U]."
+ faith_creation.1010.desc.spiritual:0 "I [faith.AltPriestTermPlural] si sono riuniti per eleggere [HoF.GetFirstName] l'unico vero [faith.ReligiousHeadName|U]."
+ faith_creation.1010.desc.end:0 "\n\nCon i fedeli finalmente uniti dietro un unico leader, sembra che una nuova età dell'oro per [faith.GetNameNoTooltip] sia alle porte."
+ faith_creation.1010.desc.end.personal:0 "\n\nCon i fedeli finalemten al mio seguito, condurro [faith.GetNameNoTooltip] in una nuova età dell'oro!"
+
+ faith_creation.1010.a:0 "Gloria a [faith.HighGodName]!"
+
+ faith_creation.1011.message.title:0 "Capo Religioso Stabilito"
+ faith_creation.1011.message.desc:0 "I/Le [faith.AltPriestTermPlural] della fede [faith.GetAdjective] hanno proclamato [faith.ReligiousHeadName|U] [HoF.GetFirstName], quale loro [head_of_faith|E]"

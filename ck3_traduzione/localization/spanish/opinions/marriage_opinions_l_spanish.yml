@@ -1,0 +1,30 @@
+﻿l_spanish:
+ broke_betrothal_opinion:0 "Fidanzamento Rotto"
+ refused_alliance_opinion:0 "Alleanza Rifiutata"
+ # Make sure this is removed from everywhere  concubine_marriage_opinion: "Faith Does Not Allow For Concubines" 
+
+ polygamous_marriage_opinion:0 "Non in un [marriage|E] [GetFaithDoctrine('doctrine_monogamy').GetBaseName]"
+ former_polygamous_marriage_opinion:0 "Hai sconsacrato il nostro [marriage|E] avendo altri [spouses|E]"
+ relative_in_blasphemous_union_opinion:0 "Ha costretto il mio parente a un'unione blasfema"
+ spouse_does_not_believe_in_concubines_opinion:0 "Le tue [concubines|E] stanno sconsacrando il nostro [marriage|E]"
+ spouse_does_not_believe_in_former_concubines_opinion:0 "Hai sconsacrato il nostro [marriage|E] avendo altre [concubines|E]"
+ 
+ concubine_with_monogamous_faith_opinion:0 "Serve come [concubine|E] ma crede in una [faith|E] [GetFaithDoctrine('doctrine_monogamy').GetBaseName]"
+ concubine_with_polygamous_faith_opinion:0 "Serve come [concubine|E] ma crede in una [faith|E] [GetFaithDoctrine('doctrine_polygamy').GetBaseName]"
+ formerly_concubine_with_monogamous_faith_opinion:0 "Precedentemente una [concubine|E] mentre credeva in una [faith|E] [GetFaithDoctrine('doctrine_monogamy').GetBaseName]"
+ formerly_concubine_with_polygamous_faith_opinion:0 "Precedentemente una [concubine|E] mentre credeva in una [faith|E] [GetFaithDoctrine('doctrine_polygamy').GetBaseName]"
+ 
+ forced_me_concubine_marriage_opinion:0 "Mi ha costretto a servire come [concubine|E]"
+ forced_family_concubine_marriage_opinion:0 "Ha costretto il mio parente a servire come [concubine|E]"
+ forced_spouse_concubine_marriage_opinion:0 "Ha costretto la mia [spouse|E] a servire come [concubine|E]"
+ stole_concubine_opinion:0 "Ha rubato la mia [concubine|E]"
+ 
+ same_sex_with_no_acceptance_opinion:0 "Mi ha costretto ad avere una relazione omosessuale"
+ former_same_sex_with_no_acceptance_opinion:0 "Precedentemente costretto ad avere una relazione omosessuale"
+
+ married_lowborn_opinion:0 "Il [liege|E] ha sposato un Coniuge di [lowborn|E]"
+
+ broke_betrothal_grand_wedding_opinion:0 "Infranto Fidanzamento per un Matrimonio in Grande"
+ prestigious_wedding_opinion:0 "Il [liege|E] terrà un Matrimonio in Grande"
+ non_prestigious_wedding_opinion:0 "Il [liege|E] non terrà un Matrimonio in Grande"
+ challenged_authority_opinion:0 "Autorità Contestata"

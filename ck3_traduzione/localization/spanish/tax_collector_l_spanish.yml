@@ -1,0 +1,240 @@
+﻿l_spanish:
+ clan_tax_slot_no_tax_collector: "Giurisdizione Fiscale"
+ clan_tax_slot_tax_collector: "Giurisdizione Fiscale: [character.GetName]"
+
+ TAX_SLOT_SAME_OBLIGATION: "Obbligazione non modificata!"
+ TAX_SLOT_INVALID_TAX_SLOT: "[tax_jurisdiction|E] non valida!"
+ TAX_SLOT_ADD_TAX_COLLECTOR_INVALID: "[tax_collector|E] non valida!"
+ TAX_SLOT_REMOVE_EMPTY_TAX_COLLECTOR: "La [tax_jurisdiction] non ha alcun [TAX_SLOT.GetCourtPositionType.GetName] da rimuovere!"
+
+ TAX_SLOT_REMOVE_VASSAL_NOT_IN_TAX_SLOT: "[CHARACTER.GetName] non è in [TAX_SLOT.GetName]"
+ TAX_SLOT_ADD_VASSAL_WRONG_GOV: "Vassalli con la forma di governo [CHARACTER.GetGovernment.GetName] non corrispondente alla forma di governo [TAX_SLOT.GetGovernment.GetName] di [TAX_SLOT.GetName]"
+ TAX_SLOT_NO_CHANGES_TT: "Nessun cambiamento!"
+
+TAX_SLOT_MANAGE_TAX_PAYERS_BUTTON: "#T Gestisci [taxpayers|E]#!"
+TAX_SLOT_REPLACE_TAX_COLLECTOR_BUTTON: "#T Rimpiazza [TaxSlotItem.GetTaxCollector.GetName]#!\n#X [TaxSlotItem.GetTaxSlot.GetOnFireTaxCollectorDesc]#!"
+TAX_SLOT_REPLACE_TAX_COLLECTOR_BUTTON_NO_TAX_COLLECTOR: "#T Rimpiazza [tax_collector|E]#!"
+TAX_SLOT_FIRE_TAX_COLLECTOR_BUTTON: "#T Licenzia [TaxSlotItem.GetTaxCollector.GetName]#!\n#X [TaxSlotItem.GetTaxSlot.GetOnFireTaxCollectorDesc]#!"
+TAX_SLOT_FIRE_TAX_COLLECTOR_BUTTON_NO_TAX_COLLECTOR: "#T Licenzia [tax_collector|E]#!"
+TAX_SLOT_CHANGE_COLLECTION_OPTION_BUTTON: "#T Cambia [tax_decree|E]#!"
+TAX_SLOT_ADD_NEW_TAX_COLLECTOR_BUTTON: "#T Nomina [tax_collector|E]#!"
+
+
+ APPOINT_TAX_COLLECTOR_VIEW_APTITUDE: "#L [aptitude|e] [TaxSlotType.GetTaxCollectorAptitudeTextFor(Character.Self)]#!"
+
+ VASSAL_CONTRIBUTION_TAX_COLLECTOR_APTIDUE: "Attitudine dell'Esattore delle Tasse: $APTITUDE$"
+ VASSAL_CONTRIBUTION_NO_TAX_COLLECTOR: "[tax_jurisdiction|E]: [TAX_SLOT.GetName]"
+
+ TAX_SLOTS_WINDOW_HEADER: "Your Tax Jurisdictions"
+
+ TAX_COLLECTOR_SLOT_NAME: "[TaxSlot.GetName]"
+ TAX_COLLECTOR_SLOT_OPEN_OBLIGATION_BUTTON: "[tax_decrees|E]: [TaxSlot.GetObligation.GetName]"
+ TAX_COLLECTOR_SLOT_OBLIGATION_TEXT: "[TaxSlot.GetObligation.GetName]" 
+ TAX_COLLECTOR_SLOT_OPEN_ASSIGN_VASSALS_BUTTON: "Assegna Vassalli"
+
+ TAX_COLLECTOR_OBLIGATION_WINDOW_HEADER: "[tax_decrees|E] per [TaxSlot.GetName]"
+
+ TAX_COLLECTOR_TAXED_VASSALS_COUNT: "[taxpayers|E]: #TOOLTIP:TAX_SLOT_VASSAL_LIMIT_DESC [TaxSlot.GetTaxedVassalsAmount]/[TaxSlot.GetVassalLimit]#!"
+
+ TAX_SLOT_TAX_CONTRIBUTION: "@gold_icon! [ValueBreakdown.GetValue]"
+ TAX_SLOT_LEVY_CONTRIBUTION: "@soldier_icon! [ValueBreakdown.GetValue]"
+
+ OPEN_TAX_SLOTS_BUTTON: "Giurisdizioni Fiscali"
+
+ TAX_COLLECTOR_APPOINT_WINDOW_HEADER: "Nomina Esattore delle Tasse"
+ TAX_COLLECTOR_REPLACE_HEADER: "Sostituisci Esattore delle Tasse"
+ TAX_COLLECTOR_APPOINT_WINDOW_BUTTON: "Nomina"
+
+ TAX_SLOT_VASSAL_WINDOW_SORT_TAXABLE_INCOME: "Reddito Imponibile"
+ TAX_SLOT_VASSAL_WINDOW_SORT_LEVIES: "Leve"
+ TAX_SLOT_VASSAL_WINDOW_SORT_TAX_CONTRIBUTION: "Contributo in Tasse"
+ TAX_SLOT_VASSAL_WINDOW_SORT_LEVY_CONTRIBUTION: "Contributo in Leve"
+
+ TAX_SLOT_VASSAL_WINDOW_TAXABLE: "Tassabile:"
+
+ TAX_SLOT_VASSAL_WINDOW_UNASSIGNED_VASSAL_TAXABLE_INCOME: "[gold_i|E] [UnassignedVassalList.GetTaxableIncome( CharacterListItem.Self )|=2]"
+ TAX_SLOT_VASSAL_WINDOW_UNASSIGNED_VASSAL_LEVIES: "[soldier_i|E] [UnassignedVassalList.GetLevies( CharacterListItem.Self )]"
+
+TAX_SLOT_VASSAL_WINDOW_ASSIGNED_VASSAL_TAX_CONTRIBUTION: "[AssignedVassalList.GetTaxContribution( CharacterListItem.Self )|2=]"
+TAX_SLOT_VASSAL_WINDOW_ASSIGNED_VASSAL_LEVY_CONTRIBUTION: "[AssignedVassalList.GetLevyContribution( CharacterListItem.Self )|^=]"
+
+ TAX_SLOT_VASSAL_WINDOW_UNASSIGNED_VASSAL_TAX_SLOT_UNASSIGNED: "#X Non Assegnato#!"
+ TAX_SLOT_VASSAL_WINDOW_UNASSIGNED_VASSAL_TAX_SLOT_UNTAXED: "#X Non Tassato#!"
+ TAX_SLOT_VASSAL_WINDOW_UNASSIGNED_VASSAL_TAX_SLOT_NAME: "[TaxSlot.GetName]"
+
+TAX_COLLECTOR_SIGNATURE: "[Character.GetTitledFirstNameNoTooltip]\ndella Casata [Character.GetHouse.GetBaseNameNoTooltip]"
+
+
+TAX_SLOT_VASSAL_WINDOW_HEADER: "[taxpayers|E] a [TaxSlot.GetName]"
+TAX_SLOT_VASSAL_WINDOW_ASSIGNED_VASSALS: "Hai #TOOLTIP:TAX_SLOT_VASSAL_LIMIT_DESC [TaxSlot.GetTaxedVassalsAmount]/[TaxSlot.GetVassalLimit]#! [taxpayers|E] in questa [tax_jurisdiction|E]"
+TAX_SLOT_VASSAL_WINDOW_SELECT_ALL: "Seleziona Tutti"
+TAX_SLOT_VASSAL_WINDOW_CLEAR_SELECTION: "Cancella Selezione"
+TAX_SLOT_VASSAL_WINDOW_EFFECT_HEADER: "Effetti"
+TAX_SLOT_VASSAL_WINDOW_EFFECT_THIS_JURISDICTION: "[tax_jurisdiction|E] dopo i cammbiamenti:"
+
+
+TAX_SLOT_VASSAL_WINDOW_TAB_CURRENT: "Gestisci gli Attuali Contribuenti"
+TAX_SLOT_VASSAL_WINDOW_TAB_CURRENT_DESC: "Puoi visualizzare e rimuovere i [taxpayers|E] da questa [tax_jurisdiction|E] selezionandoli e confermando questa azione"
+TAX_SLOT_VASSAL_WINDOW_TAB_CURRENT_PREVIEW: "Anteprima delle modifiche della rimozione dei [taxpayers|E] da questa [tax_jurisdiction|E]"
+TAX_SLOT_VASSAL_WINDOW_TAB_CURRENT_EFFECT_SUB_HEADER: "I [vassals|E] [GetDataModelSize( AssignedVassalList.GetSelectedCharacters )] sono stati rimossi dai [taxpayers|E]"
+TAX_SLOT_VASSAL_WINDOW_TAB_CURRENT_BUTTON: "Rimuovi Contribuenti"
+
+TAX_SLOT_VASSAL_WINDOW_TAB_ASSIGN: "Assegna nuovi Contribuenti"
+TAX_SLOT_VASSAL_WINDOW_TAB_ASSIGN_DESC: "Puoi assegnare dei nuovi [vassals|E] come [taxpayers|E] di questa [tax_jurisdiction|E] selezionandoli e confermando questa azione"
+TAX_SLOT_VASSAL_WINDOW_TAB_ASSIGN_SELECT_ALL: "Seleziona i [unassigned_vassals|E]"
+TAX_SLOT_VASSAL_WINDOW_TAB_ASSIGN_PREVIEW: "Anteprima delle modifiche dell'assegnazione dei [taxpayers|E] a questa [tax_jurisdiction|E]"
+TAX_SLOT_VASSAL_WINDOW_TAB_ASSIGN_EFFECT_SUB_HEADER: "I [vassals|E] [GetDataModelSize( UnassignedVassalList.GetSelectedCharacters )] sono stati aggiunti ai [taxpayers|E] di questa [tax_jurisdiction|E]"
+TAX_SLOT_VASSAL_WINDOW_TAB_ASSIGN_BUTTON: "Assigna i Contribuenti"
+TAX_SLOT_ADD_VASSAL_ALREADY_ASSIGNED: "[CHARACTER.GetName] è già stato/a assegnato/a a [TaxSlot.GetName]"
+TAX_SLOT_ADD_VASSAL_NO_SPACE: "[TaxSlot.GetName] ha già #TOOLTIP:TAX_SLOT_VASSAL_LIMIT_DESC [TaxSlot.GetTaxedVassalsAmount]/[TaxSlot.GetVassalLimit]#! vassalli assegnati."
+TAX_SLOT_ADD_VASSAL_ONLY_SPACE_FOR: "[TaxSlot.GetName] ha spazio solo per altri [Subtract_int32( TaxSlot.GetVassalLimit, TaxSlot.GetTaxedVassalsAmount )] nuovi vassalli."
+
+TAX_SLOT_VASSAL_WINDOW_TAX_SLOT_TAX: "Contributo in Oro"
+TAX_SLOT_VASSAL_WINDOW_TAX_SLOT_TAX_DESC: "Questo è l'[gold|E] ottenuto da tutti i tuoi [taxpayers|E] assegnati a [TaxSlot.GetName]"
+TAX_SLOT_VASSAL_WINDOW_TAX_SLOT_LEVIES: "Contributo in Leve"
+TAX_SLOT_VASSAL_WINDOW_TAX_SLOT_LEVIES_DESC: "Queste sono le [levies|E] ottenute da tutti i tuoi [taxpayers|E] assegnati a [TaxSlot.GetName]"
+
+TAX_SLOT_VASSAL_WINDOW_TAX_SLOT_SUBHEADER: "Vassalli #medium #TOOLTIP:TAX_SLOT_VASSAL_LIMIT_DESC [GetDataModelSize( ValueBreakdown.GetSubValues )]/[TaxSlot.GetVassalLimit]#!#!"
+TAX_SLOT_VASSAL_WINDOW_TAX_SLOT_NO_VASSALS_ASSIGNED: "Nessun contribuente assegnato"
+TAX_SLOT_VASSAL_WINDOW_NO_TAX_SLOTS: "Nessuna giurisdizione fiscale"
+
+TAX_SLOT_VASSAL_WINDOW_TOTAL_SUB_HEADER: "Giurisdizione Fiscale #medium [GetDataModelSize( ValueBreakdown.GetSubValues )]/[Character.GetMaxTaxSlotsCount]#!"
+
+TAX_SLOT_VASSAL_WINDOW_TOTAL_TAX: "Oro da tutti i [taxpayers|E]"
+TAX_SLOT_VASSAL_WINDOW_TOTAL_TAX_DESC: "Questo è l'[gold|E] ottenuto da tutti i tuoi [taxpayers|E] assegnati a [tax_jurisdictions|E]"
+
+TAX_SLOT_VASSAL_WINDOW_TOTAL_LEVIES: "Leve da tutti i [taxpayers|E]"
+TAX_SLOT_VASSAL_WINDOW_TOTAL_LEVIES_DESC: "Queste sono le [levies|E] ottenute da tutti i tuoi [taxpayers|E] assegnati a [tax_jurisdictions|E]"
+
+TAX_SLOT_VASSAL_WINDOW_TOTAL_TAX_SLOTS: "[tax_jurisdictions|E] Massime"
+TAX_SLOT_OVERVIEW_WINDOW_ASSIGNED_TAX_SLOTS: "[tax_collectors|E]: [Character.GetTaxedTaxSlotsCount|V]/[ValueBreakdown.GetValue|V]"
+
+TAX_SLOT_NAME: "[TaxSlotType.GetName] [Select_CString( Character.IsValid, Character.GetFirstNameNicknamedPossessiveNoTooltip, '#weak Vacante#!' )]"
+
+APPOINT_TAX_COLLECTOR_WINDOW_NO_CURRENT_COLLECTOR: "Esattore Attuale: #weak None#!"
+APPOINT_TAX_COLLECTOR_WINDOW_DESC: "Gli [tax_collectors|E] sono incaricati della raccolta delle [levies|E] e dell'[gold|E] dai [taxpayers|E] di una [tax_jurisdiction|E]. Solo i [characters|E] senza terre possono essere degli [tax_collectors|E]."
+APPOINT_TAX_COLLECTOR_NO_SELECTED_DESC: "Seleziona un personaggio da nominare come [tax_collector|E]"
+
+APPOINT_TAX_COLLECTOR_FIRE_CURRENT: "Licenzia"
+APPOINT_TAX_COLLECTOR_FIRE_CURRENT_TT: "#T Licenzia [Character.GetName]#!\n#X [TaxSlot.GetOnFireTaxCollectorDesc]#!"
+APPOINT_TAX_COLLECTOR_UNTAXED_TAX_SLOT: "(Non tassata)"
+APPOINT_TAX_COLLECTOR_REPLACE_CURRENT_TT: "#T Licenziamento di [AppointTaxCollectorWindow.GetTaxCollector.GetName]#!\n#X [AppointTaxCollectorWindow.GetTaxSlot.GetOnFireTaxCollectorDesc]#!"
+
+TAX_SLOT_OBLIGATIONS_WINDOW_SELECTED: "Selezionata: [TaxSlotObligationsWindow.GetSelectedObligation.GetName]"
+TAX_SLOT_OBLIGATIONS_WINDOW_CURRENT: "Attuale: [TaxSlotObligationsWindow.GetTaxSlot.GetObligation.GetName]"
+
+TAX_SLOT_OBLIGATIONS_WINDOW_CONTRACT_HEADER: "Contratto di Tassazione"
+TAX_SLOT_OBLIGATIONS_WINDOW_CONTRACT_DESC: "[TaxSlot.GetTaxCollector.GetName], gli [tax_collector|E] di queste [tax_jurisdictions|E], applicheranno il seguente contratto ai loro [taxpayers|E]:"
+TAX_SLOT_OBLIGATIONS_WINDOW_CONTRACT_DESC_NO_TAX_COLLECTOR: "Una volta che un [tax_collector|E] è stato assegnato a [TaxSlot.GetName], applicherà il seguente contratto ai suoi [taxpayers|E]:"
+TAX_SLOT_OBLIGATIONS_WINDOW_CONTRIBUTIONS_CURRENT: "[taxes|E] Attuali"
+TAX_SLOT_OBLIGATIONS_WINDOW_CONTRIBUTIONS_PREVIEW: "[taxes|E] dopo le modifiche"
+TAX_SLOT_OBLIGATIONS_WINDOW_ACCEPT: "Accetta"
+TAX_SLOT_OBLIGATIONS_WINDOW_SELECTED_OBLIGATION: "Selezionato"
+TAX_SLOT_OBLIGATIONS_WINDOW_CURRENT_OBLIGATION: "Attuale"
+TAX_SLOT_OBLIGATIONS_WINDOW_ALREADY_SELECTED_DESC: "Questo è il tuo [tax_decree|E] attualmente attivo"
+
+TAX_SLOT_OVERVIEW_WINDOW_HEADER: "Le tue [tax_jurisdictions|E]"
+TAX_SLOT_OVERVIEW_WINDOW_TOTAL_CONTRIBUTION: "Contributo Totale:"
+TAX_SLOT_OVERVIEW_WINDOW_DESC: "Assegna i [vassals|E] del tuo [clan|E] alle [tax_jurisdictions|E] per gestire il loro contributo. Gli [tax_collector|E] e i [tax_decrees|E] di ogni giurisdizione determineranno quanto saranno tassati i [vassals|E]."
+
+TAX_SLOT_OVERVIEW_WINDOW_TAX_SLOTS_WARNING: "Hai [Character.GetTaxSlotsWithoutTaxCollectorCount] [untaxed_jurisdictions|E]"
+TAX_SLOT_OVERVIEW_WINDOW_UNASSIGNED_VASSALS_WARNING: "Hai [Character.GetUntaxedJurisdictionCount] [unassigned_vassals|E]"
+TAX_SLOT_OVERVIEW_WINDOW_TOTAL_SUB_HEADER: "Giurisdizioni fiscali #medium [GetDataModelSize( ValueBreakdown.GetSubValues )]/[Character.GetMaxTaxSlotsCount]#!"
+TAX_SLOT_OVERVIEW_WINDOW_RETURN_BUTTON: "Ritorna al Regno"
+
+TAX_SLOT_OVERVIEW_AUTO_ASSIGN_BUTTON: "Assegnazione automatica dei [vassals|E] alle [tax_jurisdictions|E]"
+
+clan_tax_collector_obligations: "Attitudine dell'[tax_collector|E]"
+TT_TAX_SLOT_VASSAL_LIMIT_HEADER: "#T Limite dei [taxpayers|E]: $MAX|V$#!"
+TT_TAX_SLOT_VASSAL_LIMIT: "Limite"
+TT_TAX_SLOT_VASSAL_LIMIT_CURRENT: "Attuale: $CURRENT|V$"
+TAX_SLOT_VASSAL_LIMIT_DESC: "[TaxSlot.GetVassalLimitDesc]"
+
+tax_slot_vassal_level_base_desc: "Di Base"
+tax_slot_vassal_limit_tax_collector_desc: "Attitudine dell'Esattore"
+tax_slot_vassal_liege_rank_desc: "Rango"
+
+TAX_SLOT_REALM_VIEW_OPEN_ASSIGN_VIEW: "#weak Giurisdizione fiscale:#! [Character.GetAssignedTaxSlot.GetName]"
+TAX_SLOT_REALM_VIEW_OPEN_ASSIGN_VIEW_UNASSIGNED: "#weak Giurisdizione fiscale:#! #Warning Non assegnata#!"
+
+TAX_SLOT_ASSIGN_VASSAL_VIEW_HEADER: "Seleziona una Giurisdizione fiscale"
+TAX_SLOT_ASSIGN_VASSAL_VIEW_DESC: "Per ricevere un contributo dai [vassals|E] del [clan|E], essi devono essere assegnati a una [tax_jurisdiction|E] che abbia un [tax_collector|E]."
+TAX_SLOT_ASSIGN_VASSAL_VIEW_CURRENT_TAX_SLOT: "Attuale Giurisdizione Fiscale: [TaxSlot.GetName]"
+TAX_SLOT_ASSIGN_VASSAL_VIEW_CURRENT_TAX_SLOT_UNASSIGNED: "Attuale Giurisdizione Fiscale: #N Non assegnata#!"
+TAX_SLOT_ASSIGN_VASSAL_VIEW_TAX_COLLECTOR: "Esattore delle tasse: [Character.GetShortUIName]"
+TAX_SLOT_ASSIGN_VASSAL_VIEW_TAX_COLLECTOR_APTITUDE: "Attitudine: [TaxSlot.GetTaxSlotType.GetTaxCollectorAptitudeTextFor( Character.Self )]"
+TAX_SLOT_ASSIGN_VASSAL_VIEW_NO_AVAILABLE_TAX_SLOT: "Non sono disponibili spazi fiscali"
+TAX_SLOT_ASSIGN_VASSAL_VIEW_NO_SELECTION_DESC: "Seleziona una [tax_jurisdiction|E] per i tuoi [vassal|E] per visualizzare l'anteprima delle modifiche"
+TAX_SLOT_ASSIGN_VASSAL_VIEW_EFFECT_DESC: "[Character.GetName] è stato assegnato a questa [tax_jurisdiction|E] come [taxpayer|E]"
+TAX_SLOT_ASSIGN_VASSAL_VIEW_EFFECT_VASSAL_NAME: "[Character.GetName]:"
+TAX_SLOT_ASSIGN_VASSAL_VIEW_ASSIGN_BUTTON: "Assegna"
+
+TAX_SLOT_ASSIGN_VASSAL_TAX_CHANGE: "[ValueBreakdown.GetValue] #weak ([TaxSlotVassalChange.GetTaxChange|2+=])"
+TAX_SLOT_REMOVE_VASSAL_TAX_CHANGE: "[ValueBreakdown.GetValue] #weak ([Negate_CFixedPoint( TaxSlotVassalChange.GetTaxChange )|2+=])"
+TAX_SLOT_ASSIGN_VASSAL_TAX_DESC: "Questo sarà l'[gold|E] acquisito dai nuovi [taxpayers|E] quando saranno assegnati a [Character.GetShortUIName]"
+TAX_SLOT_REMOVE_VASSAL_TAX_DESC: "Questo sarà l'[gold|E] acquisito dai restanti [taxpayers|E] assegnati a [Character.GetShortUIName]"
+
+TAX_SLOT_ASSIGN_VASSAL_LEVIES_CHANGE: "[ValueBreakdown.GetValue] #weak ([TaxSlotVassalChange.GetLeviesChange|+=])"
+TAX_SLOT_REMOVE_VASSAL_LEVIES_CHANGE: "[ValueBreakdown.GetValue] #weak ([Negate_int32( TaxSlotVassalChange.GetLeviesChange )|+=])"
+TAX_SLOT_ASSIGN_VASSAL_LEVIES_DESC: "Queste saranno le [levies|E] acquisite dai nuovi [taxpayers|E] quando saranno assegnati a [Character.GetShortUIName]"
+TAX_SLOT_REMOVE_VASSAL_LEVIES_DESC: "Queste saranno le [levies|E] acquisite dai restanti [taxpayers|E] assegnati a [Character.GetShortUIName]"
+
+
+VASSAL_TAX_CONTRIBUTION: "Contributo come [taxpayer|E]"
+VASSAL_TAX_CONTRIBUTION_DESC: "Questo è l'[gold|E] che [Character.GetName] fornirà come [taxpayer|E]"
+VASSAL_LEVIES_CONTRIBUTION: "Contributo come [taxpayer|E]"
+VASSAL_LEVIES_CONTRIBUTION_DESC: "Queste sono le [levies|E] che [Character.GetName] fornirà come [taxpayer|E]"
+
+GO_TO_TAX_SLOTS_BUTTON_HEADER: "Giurisdizioni Fiscali"
+GO_TO_TAX_SLOTS_BUTTON_VALUE: "[Character.GetTaxedTaxSlotsCount]/[Character.GetTotalTaxSlotsCount]"
+
+TAX_SLOT_ASSIGN_VASSAL_ASSIGNING_DESC: "Stai assegnando [Character.GetShortUINameNoTooltip] ad una [tax_jurisdiction|E]"
+
+TAX_SLOT_REALM_VIEW_LIEGES_TAX_COLLECTOR: "Il [tax_collector|e] del/della [liege|e]: [TaxSlot.GetTaxCollector.GetName] #weak ([TaxSlot.GetTaxSlotType.GetTaxCollectorAptitudeTextFor( TaxSlot.GetTaxCollector.Self )])#!"
+TAX_SLOT_REALM_VIEW_LIEGES_TAX_COLLECTOR_UNASSIGNED: "Il [tax_collector|e] del/della [liege|e]: #weak Non assegnato#!"
+
+TAX_COLLECTION_OPTION_INSTRUCTIONS: "Scegli uno dei seguenti [tax_decrees|E] per visualizzare le modifiche in questa [tax_jurisdiction|E]. Nota che puoi cambiare un [tax_decree|e] solo ogni [GetDefine('NTaxSlot', 'TAX_DECREE_COOLDOWN')|0] anni"
+TAX_OPTION_EFFECT_LABEL: "Effetti"
+
+TAX_OPTION_TOOLTIP_CLICK_TO_SELECT: "#I Clicca per selezionare il [tax_decree|E]#!"
+
+RELATION_TAX_COLLECTOR: "[tax_collector|E]"
+
+RENAME_TAX_SLOT: "#T Rinomina la Giurisdizione Fiscale#!"
+RENAME_TAX_SLOT_TITLE: "Rinomina il [TaxSlot.GetName]"
+RENAME_TAX_SLOT_DESC: "Cambia il nome del [TaxSlot.GetName]"
+RENAME_TAX_SLOT_ACCEPT: "Accetta"
+
+TAX_SLOT_TAXPAYER_LIMIT: "Limite del [taxpayer|E]"
+
+TAX_COLLECTOR_NEW_HIRE: "Assumi [Character.GetUIName] come [tax_collector|E]"
+
+TAX_COLLECTOR_VALUE_CHANGE_DIFFERENCE: " #weak ([Subtract_CFixedPoint( ValueBreakdown.GetFixedPointValue, TaxCollectorValueChange.GetForCurrentCollector )|^+=])"
+TAX_COLLECTOR_VALUE_CHANGE_DIFFERENCE_INT: " #weak ([Subtract_CFixedPoint( ValueBreakdown.GetFixedPointValue, TaxCollectorValueChange.GetForCurrentCollector )|0+=])"
+
+TAX_COLLECTOR_VALUE_CHANGE: "[ValueBreakdown.GetValue][AddLocalizationIf( NotEqualTo_CFixedPoint( ValueBreakdown.GetFixedPointValue, TaxCollectorValueChange.GetForCurrentCollector ), 'TAX_COLLECTOR_VALUE_CHANGE_DIFFERENCE' )]"
+TAX_COLLECTOR_VALUE_CHANGE_INT: "[ValueBreakdown.GetValue][AddLocalizationIf( NotEqualTo_CFixedPoint( ValueBreakdown.GetFixedPointValue, TaxCollectorValueChange.GetForCurrentCollector ), 'TAX_COLLECTOR_VALUE_CHANGE_DIFFERENCE_INT' )]"
+
+TAX_COLLECTOR_NEW_HIRE_TAX_DESC: "Questo sarà l'[gold|E] ottenuto da tutti i tuoi [taxpayers|E] quando saranno assegnati a [Character.GetShortUIName]"
+TAX_COLLECTOR_NEW_HIRE_LEVIES_DESC: "Queste saranno le [levies|E] ottenute da tutti i tuoi [taxpayers|E] quando saranno assegnati a [Character.GetShortUIName]"
+
+TAX_SLOT_FIRE_TAX_COLLECTOR_CONFIRMATION_TITLE: "Licenzia [TaxSlot.GetTaxCollector.GetName]"
+TAX_SLOT_FIRE_TAX_COLLECTOR_CONFIRMATION_TEXT: "[TaxSlot.GetOnFireTaxCollectorDesc]"
+TAX_SLOT_FIRE_TAX_COLLECTOR_CONFIRMATION_ACCEPT: "Accetta"
+
+TAX_SLOT_REPLACE_TAX_COLLECTOR_CONFIRMATION_TITLE: "Sostituisci [TaxSlot.GetTaxCollector.GetName]"
+TAX_SLOT_REPLACE_TAX_COLLECTOR_CONFIRMATION_TEXT: "[TaxSlot.GetOnFireTaxCollectorDesc]"
+TAX_SLOT_REPLACE_TAX_COLLECTOR_CONFIRMATION_ACCEPT: "Accetta"
+
+INVALID_VASSAL_COUNT: "A questi $NUM$ [vassals|E] non si può applicare questo [tax_decree|E] e gli sarà rimosso se gli verrà applicato:"
+VASSAL_IS_NOT_FAR_ENOUGH: "[CHARACTER.GetShortUIName] è troppo vicino/a alla tua [capital|E]"
+VASSAL_HAS_THE_WRONG_RELIGION: "[CHARACTER.GetShortUIName] è della tua stessa [religion|E]"
+VASSAL_HAS_THE_WRONG_FAITH: "[CHARACTER.GetShortUIName] #Bold non#! è della tua stessa [faith|E]"
+
+NO_TAX_SLOT_AVAILABLE: "#X Nessun slot fiscale valido, potrebbero essere attivati il mese prossimo#!"
+
+TAX_SLOT_OBLIGATION_LIEGE_MODIFIER: "#S [liege|E] per Vassallo:#!"
+TAX_SLOT_OBLIGATION_VASSAL_MODIFIER: "#S [vassal|E]:#!"
+
+TAX_SLOT_OBLIGATION_SELECT_WARNING_TOOLTIP: "[JoinText( '\n\n', TaxSlotObligationsWindow.CanSelectObligationDesc( TaxSlotObligation.Self ), TaxSlotObligationsWindow.GetInvalidVassalsForObligationDesc( TaxSlotObligation.Self ) )]"
+TAX_SLOT_OBLIGATION_COOLDOWN: "#X @warning_icon! Non puoi cambiare il [tax_decree|E] fino al $DATE$#!"

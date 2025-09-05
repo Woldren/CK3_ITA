@@ -1,0 +1,9 @@
+﻿l_spanish:
+ magic_user_witch:0 "strega"
+ magic_user_sorcerer:0 "stregone"
+ magic_practice_witchcraft:0 "stregoneria"
+ magic_practice_sorcery:0 "stregoneria"
+ 
+ magic_superstition_harvest:0 "raccolto scarso"
+ magic_superstition_weather:0 "cattivo tempo"
+ magic_superstition_animals:0 "bestiame ammalato"

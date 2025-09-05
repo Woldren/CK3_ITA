@@ -1,0 +1,175 @@
+﻿l_spanish:
+
+ # Tribal Era
+ culture_parameter_unlock_maa_ayyar:0 "È possibile reclutare [GetMaA('ayyar').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_metsanvartija:0 "È possibile reclutare [GetMaA('metsanvartija').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_horse_archers:0 "È possibile reclutare [GetMaA('horse_archers').GetName] come [men_at_arms|E]"
+ unlock_maa_horse_archers_name: "[GetCultureTradition('tradition_horse_lords').GetName]"
+ culture_parameter_unlock_maa_mubarizun:0 "È possibile reclutare [GetMaA('mubarizun').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_mulaththamun:0 "È possibile reclutare [GetMaA('mulaththamun').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_archers_of_the_nile:0 "È possibile reclutare [GetMaA('archers_of_the_nile').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_hussar:0 "È possibile reclutare [GetMaA('hussar').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_horn_warrior:0 "È possibile reclutare [GetMaA('horn_warrior').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_bush_hunter:0 "È possibile reclutare [GetMaA('bush_hunter').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_shomer:0 "È possibile reclutare [GetMaA('shomer').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_sahel_horsemen:0 "È possibile reclutare [GetMaA('sahel_horsemen').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_zbrojnosh:0 "È possibile reclutare [GetMaA('zbrojnosh').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_guinea_warrior:0 "È possibile reclutare [GetMaA('guinea_warrior').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_chu_ko_nu:0 "È possibile reclutare [GetMaA('chu_ko_nu').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_bondi:0 "È possibile reclutare [GetMaA('bondi').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_vigmen:0 "È possibile reclutare [GetMaA('vigmen').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_varangian_veterans:0 "È possibile reclutare [GetMaA('varangian_veterans').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_longbowmen:0 "È possibile reclutare [GetMaA('longbowmen').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_huscarls:0 "È possibile reclutare [GetMaA('huscarl').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_huanch_vaulter:0 "È possibile reclutare [GetMaA('guanch_vaulter').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_ayrudzi: "È possibile reclutare [GetMaA('ayrudzi').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_conrois: "È possibile reclutare [GetMaA('conrois').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_akritai: "È possibile reclutare [GetMaA('akritai').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_ballistrai: "È possibile reclutare [GetMaA('ballistrai').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_skoutatoi: "È possibile reclutare [GetMaA('skoutatoi').GetName] come [men_at_arms|E]" 
+ culture_parameter_unlock_maa_varangian_guards: "Gli [emperors|E] hanno accesso alla [decision|E] #high $found_varangian_guard_decision$#!, che abilita le [GetMaA('varangian_guards').GetName] come [men_at_arms|E]"
+
+ # Early Medieval Era
+ culture_parameter_unlock_maa_khandayat:0 "È possibile reclutare [GetMaA('khandayat').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_garudas:0 "È possibile reclutare [GetMaA('garudas').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_cataphract:0 "È possibile reclutare [GetMaA('cataphract').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_monaspa:0 "È possibile reclutare [GetMaA('monaspa').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_druzhina:0 "È possibile reclutare [GetMaA('druzhina').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_mountaineer:0 "È possibile reclutare [GetMaA('mountaineer').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_abudrar:0 "È possibile reclutare [GetMaA('abudrar').GetName] come [men_at_arms|E]"
+ culture_parameter_unlock_maa_palace_guards:0 "È possibile reclutare [GetMaA('palace_guards').GetName] come [men_at_arms|E]"
+ 
+ #Military
+ tradition_hird_name:0 "$innovation_hird$"
+ tradition_hird_desc:0 "$innovation_hird_desc$"
+ innovation_hird:0 "Hirds"
+ innovation_hird_desc:0 "La tradizione di mantenere i seguaci armati al servizio di una famiglia ci è stata di grande aiuto. Formalizzando ed espandendo questo sistema possiamo schierare interi reggimenti di huscarli nei nostri eserciti."
+
+ innovation_zweihanders:0 "Zweihanders"
+ innovation_zweihanders_desc:1 "Queste massicce spade a due mani sono così abili nell'abbattere la carica di $knight_culture_player_plural_no_tooltip_lowercase$ come lo sono nel rompere le formazioni di picchieri nemici, rendendole una formidabile aggiunta ai nostri reggimenti di picchieri."
+
+ #innovation_longbows:0 "Arco Lungo"
+ #innovation_longbows_desc:0 "Sfruttando il forte legno di tasso che cresce qui, i nostri arcieri hanno imparato a costruire archi lunghi così potenti da richiedere una formazione specializzata fin da piccoli per poterli utilizzare in modo efficace. Questo investimento ne vale la pena, dato che i nostri arcieri possono tirare frecce che viaggiano più lontano e penetrano più in profondità rispetto a quelle lanciate da altri arcieri."
+
+ innovation_adaptive_militia:0 "Milizia Adattiva"
+ innovation_adaptive_militia_desc:1 "Armi come la goedendag sono economiche e facili da produrre, ma sorprendentemente efficaci contro le cariche della cavalleria. La loro esistenza ci permette di adattare le nostre milizie per avere probabilità molto migliori quando si combattono corazzati $knight_culture_player_plural_no_tooltip_lowercase$."
+
+ innovation_valets:0 "Valletti"
+ innovation_valets_desc:1 "L'istituzione di un sistema di valletto di servitori dedicati per i nostri nobili cavalieri ci permetterà di mettere in campo $knight_culture_player_plural_no_tooltip_lowercase$ che sono sia meglio armati che corazzati."
+
+ innovation_pike_columns:0 "Picchiere in Colonna"
+ innovation_pike_columns_desc:0 "I picchieri sono sempre stati forti difensori, ma storicamente sono stati carenti in mobilità e in attacco. L'ideazione di nuove formazioni per affrontare questa carenza migliorerà le nostre possibilità di vittoria in battaglia."
+
+ innovation_legionnaires:0 "Legionari"
+ innovation_legionnaires_desc:1 "Come abbiamo restaurato l'impero romano, così anche noi ripristineremo la struttura dell'antica legione romana e le sue temute truppe d'elite!"
+
+ innovation_desert_tactics:0 "Tattica del Deserto"
+ innovation_desert_tactics_desc:0 "Il Levante è un luogo sconosciuto con un terreno povero per le cariche della cavalleria. Dovremmo adattarci a queste terre e alla cavalleria da campo, che è più adatta a combattere nella nostra nuova casa."
+
+ innovation_caballeros:0 "Caballeros"
+ innovation_caballeros_desc:0 "Gli stalloni andalusi sono più bravi a viaggiare e a combattere su terreni accidentati rispetto ad altre razze di cavalli. Possiamo addestrare reggimenti di cavalleria specializzati che ne beneficiano."
+
+ innovation_cataphracts:0 "Catafratti"
+ innovation_cataphracts_desc:0 "Completamente avvolti in tute protettive di ferro, la nostra intimidatoria cavalleria catafratica può rompere quasi ogni linea difensiva avanzando con le loro lance."
+
+ innovation_hobbies:0 "Hobby"
+ innovation_hobbies_desc:1 "I cavalieri sui nostri cavalli celtici per hobby sono sia veloci che agili — perfetti per scoutismo e raid in terreni accidentati dove i nemici $knight_culture_player_plural_no_tooltip_lowercase$ sono detestabili."
+
+ innovation_rectilinear_schiltron:0 "Schiltron Rettilineo"
+ innovation_rectilinear_schiltron_desc:0 "Il tradizionale circolo dei picchieri è una potente formazione difensiva, ma è limitato in attacco e in mobilità. Pur richiedendo una grande disciplina da impiegare, il nostro schiltron rettilineo è una formazione superiore che è capace sia di potenti tattiche offensive che difensive."
+
+ tradition_forest_wardens_name:0 "$innovation_forest_wardens$"
+ tradition_forest_wardens_desc:0 "$innovation_forest_wardens_desc$"
+ innovation_forest_wardens:0 "Guardiani della Foresta"
+ innovation_forest_wardens_desc:0 "I nostri antenati hanno vissuto in queste foreste per generazioni, ma ora sono minacciati da estranei. Secoli di esperienza accumulata nella lotta nelle foreste ci aiuteranno a proteggere la nostra patria ancestrale."
+
+ innovation_compound_bows:0 "Archi Composti"
+ innovation_compound_bows_desc:0 "Realizzati in strisce laminate di corno, legno e tendini, i nostri archi composti sono molto più piccoli di un arco tradizionale, ma altrettanto potenti. Questo profilo ridotto permette di sparare comodamente da cavallo, permettendoci di mettere in campo arcieri a cavallo davvero devastanti in battaglia."
+
+ tradition_khadga_puja_name:0 "Khadga Puja"
+ tradition_khadga_puja_desc:0 "Questa cultura ha abbracciato l'arte marziale e il culto rituale degli spadoni a due mani, permettendo loro di addestrare guerrieri forti e abili. Le spade pesanti permettono loro di falciare sia la fanteria che la cavalleria."
+ innovation_khandayats:0 "Khandayats"
+ innovation_khandayats_desc:0 "Abili nell'uso dello spadone khanda, i nostri preziosi fanti sono esperti sia nel combattere nelle giungle che nell'abbattere la cavalleria leggera nemica."
+
+ tradition_garuda_warriors_name:0 "Guerrieri Garuda"
+ tradition_garuda_warriors_desc:0 "I guerrieri più illustri di questa cultura sono indicati come Garuda, e ci si aspetta che combattano fino alla morte. Anche coloro che seguono un Garuda sono tenuti a morire se il loro capo lo fa, o in battaglia o per mano propria."
+
+ tradition_futuwaa_name:0 "$innovation_futuwaa$"
+ tradition_futuwaa_desc:0 "$innovation_futuwaa_desc$"
+ innovation_futuwaa:0 "Futuwaa"
+ innovation_futuwaa_desc:0 "I nostri giovani hanno iniziato a formare dei club che promuovono l'abilità, il vigore e il comportamento morale. Appoggiando e sostenendo questi club, ci assicureremo una scorta di soldati in grado di sostenere la nostra causa."
+ 
+ tradition_land_of_the_bow_name:0 "La Terra dell'Arco"
+ tradition_land_of_the_bow_desc:0 "In una terra di abbondanza, arricchita dal Nilo e dal loro stesso ingegno, i nubiani hanno prosperato per generazioni. Per quasi lo stesso tempo, l'arco è stato l'arma scelta per scoraggiare i razziatori e briganti dei deserti circostanti."
+
+ tradition_desert_ribat_name:0 "Ribat del Deserto"
+ tradition_desert_ribat_desc:0 "Questa cultura ha una tradizione di rifugi fortificati nel deserto, dove i pii possono vivere in connessione con il cielo aperto e le sabbie. Questo stile di vita genera guerrieri del deserto abili e devoti e attira i mistici."
+
+ tradition_mubarizuns_name:0 "$innovation_mubarizuns$"
+ tradition_mubarizuns_desc:0 "$innovation_mubarizuns_desc$"
+ innovation_mubarizuns:0 "Mubarizun"
+ innovation_mubarizuns_desc:0 "Sul modello dei leggendari campioni dell'esercito di Rashidun, i nostri soldati Mubarizun sono addestrati per eccellere sia nei combattimenti in formazione che nei combattimenti individuali."
+
+ tradition_hussar_name:0 "$innovation_hussar_raids$"
+ tradition_hussar_desc:0 "$innovation_hussar_raids_desc$"
+ innovation_hussar_raids:1 "Razziatori $hussar$"
+ innovation_hussar_raids_desc:1 "Cavalleria leggera che può colpire rapidamente i nemici esposti prima di sfrecciare via, il nostro $hussar$ può essere formato in reggimenti specializzati in aggressioni e razzie."
+
+ tradition_druzhina_name:0 "$innovation_druzhina$"
+ tradition_druzhina_desc:0 "$innovation_druzhina_desc$"
+ innovation_druzhina:0 "Druzhina"
+ innovation_druzhina_desc:0 "I soldati variaghi hanno servito a lungo come imponenti guardie del corpo per i nostri monarchi, ma possono servire altrettanto facilmente come fanteria pesante dedicata nei nostri eserciti."
+
+ tradition_horn_mountain_skirmishing_name:0 "$innovation_mountain_skirmishing$"
+ tradition_horn_mountain_skirmishing_desc:0 "$innovation_mountain_skirmishing_desc$"
+ innovation_mountain_skirmishing:0 "Schermaglia in Montagna"
+ innovation_mountain_skirmishing_desc:0 "Le grandi montagne del Corno d'Africa pongono sfide logistiche a molti tipi di eserciti, ma i nostri schermagliatori possono facilmente adattarsi a queste condizioni per sbaragliare gli invasori nemici."
+
+ tradition_bush_hunting_name:0 "$innovation_bush_hunting$"
+ tradition_bush_hunting_desc:0 "$innovation_bush_hunting_desc$"
+ innovation_bush_hunting:0 "Caccia nella Boscaglia"
+ innovation_bush_hunting_desc:0 "La boscaglia è un luogo ruvido e aspro, ma offre un'abbondanza di opportunità per chi sa dove guardare e come sfruttarla. Addestrare i nostri arcieri in queste tecniche darà loro un vantaggio nell'ingaggiare i nemici in queste zone."
+
+ tradition_mobile_guards_name:0 "$innovation_mobile_guards$"
+ tradition_mobile_guards_desc:0 "$innovation_mobile_guards_desc$"
+ innovation_mobile_guards:0 "Tattica Difensiva"
+ innovation_mobile_guards_desc:0 "Il nostro popolo è stato esiliato e cacciato più volte. Queste esperienze, per quanto tragiche, ci hanno portato a diventare eccezionalmente abili nelle tattiche di retroguardia che riducono al minimo le perdite."
+
+ innovation_alpine_supremacy:0 "Supremazia Alpina"
+ innovation_alpine_supremacy_desc:0 "L'alta quota della nostra patria richiede ai nostri soldati una logistica e tecniche di combattimento diverse da quelle delle pianure. Padroneggiare queste capacità ci renderà indiscussi signori delle montagne."
+
+ innovation_sahel_horsemen:0 "Cavalieri del Sahel"
+ innovation_sahel_horsemen_desc:0 "Il Sahel è una pianura secca e arida, dove spesso si percorrono grandi distanze con i cavalli. I Cavalieri del Sahel sono guerrieri a cavallo che usano armature leggere trapuntate e giavellotti per devastare i loro nemici. Sono veloci e possono facilmente sfidare deserti e terre aride."
+ 
+ innovation_bamboo_bows:0 "Arco di Bambù"
+ innovation_bamboo_bows_desc:0 "Una delle più antiche armi tradizionali per i fanti indiani è l'arco di bambù, che è sia economico da realizzare che facile da trasportare e mantenere. Poiché l'arco è anche l'arma preferita di molti cacciatori, non mancano arcieri esperti negli eserciti indiani."
+ 
+ innovation_zbrojnosh:0 "Zbrojnosh"
+ innovation_zbrojnosh_desc:0 "Le colline e le montagne boscose della nostra patria richiedono un approccio diverso alla guerra. I nostri uomini armati, gli Zbrojnosh, sono addestrati a trasformare il terreno a loro vantaggio e hanno dimostrato di essere bravi combattenti in grado di sconfiggere eserciti molto più grandi."
+
+ tradition_upland_skirmishing_name:0 "$innovation_upland_skirmishing$"
+ tradition_upland_skirmishing_desc:0 "$innovation_upland_skirmishing_desc$"
+ innovation_upland_skirmishing:0 "Schermaglie in Alta Quota"
+ innovation_upland_skirmishing_desc:0 "Le colline della savana boscosa sono la nostra patria da generazioni. I nostri antenati ci hanno mostrato come utilizzare questo terreno, e con i predoni che minacciano i nostri confini, possiamo usare questa conoscenza per la nostra difesa."
+ 
+ innovation_sarawit:0 "Sarawit"
+ innovation_sarawit_desc:0 "Gli altipiani dove si sono stabiliti i nostri antenati richiedono un approccio particolare all'agricoltura. La costruzione di campi terrazzati ci ha insegnato a sviluppare nuove tattiche militari, che vengono impiegate dai nostri soldati Sarawit."
+ 
+ tradition_mountain_herding_name:0 "Allevamento di Montagna"
+ tradition_mountain_herding_desc:0 "Questa cultura ha fatto delle montagne più fredde la propria casa, in una regione altrimenti secca e arida. I pastori e gli agricoltori di questi altipiani hanno formato guerrieri resistenti e robusti, e nel tempo la loro fatica ha fatto fiorire questo popolo molto al di sopra del nudo deserto."
+ innovation_desert_mountain_herding:0 "Pratica sulle Montagne Desertiche"
+ innovation_desert_mountain_herding_desc:0 "Fin dall'antichità gli abitanti delle nostre montagne sono alla ricerca di metodi per pascolare le loro mandrie in terreni inospitali. Questo li ha trasformati in guerrieri molto resistenti e robusti, chiamati Abudrar."
+ 
+ tradition_burman_royal_army_name:0 "Esercito Reale"
+ tradition_burman_royal_army_desc:0 "$innovation_royal_army_tradition_desc$"
+ innovation_royal_army_tradition:0 "Tradizione dell'Esercito Reale"
+ innovation_royal_army_tradition_desc:0 "Avere un esercito permanente per sorvegliare la capitale è una tradizione per noi. Ci ha dato accesso a soldati robusti che lavorano estremamente bene con le truppe di supporto, come gli elefanti da guerra."
+ 
+ innovation_repeating_crossbow:0 "Chu-ko-nu"
+ innovation_repeating_crossbow_desc:0 "La balestra a ripetizione, conosciuta come Chu-ko-nu, è un'invenzione ingegnosa con un meccanismo facile da usare che può essere azionato da chiunque. Ciò che le manca in portata e potere di penetrazione, lo compensa con la velocità di tiro, rendendola un'arma ideale per le posizioni difensive."
+
+ innovation_men_at_arms:0 "Uomini d'Arme"
+ innovation_men_at_arms_desc:0 "L'addestramento e l'equipaggiamento di eserciti permanenti che rimangono sotto la diretta disposizione dei nostri sovrani saranno un trampolino di lancio sulla strada per centralizzare il nostro potere."
+ 
+ innovation_pole_vault:0 "Pertica"
+ innovation_pole_vault_desc:0 "La pertica è un'invenzione semplice che richiede molto allenamento e pratica per essere padroneggiata. Un abile saltatore è in grado di spingersi in avanti superando grandi spazi e alte rocce, nonché alcune fortificazioni."

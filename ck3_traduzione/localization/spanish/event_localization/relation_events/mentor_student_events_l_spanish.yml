@@ -1,0 +1,13 @@
+﻿l_spanish:
+ mentor_student.0001.t:0 "Ciò che era una volta"
+ mentor_student.0001.desc:1 ""Questa cosa non può andare avanti [ROOT.Char.GetFirstNameNoTooltip]!" esclama [mentor_to_lose.Custom('DE_ART_DEF_P_A')] mi[mentor_to_lose.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose'))] [mentor_to_lose.GetTitledFirstName], [mentor_to_lose.Custom('quirk_neg_pp')].\n\n"Il nostro rapporto è finito, siamo troppo diversi perché questo possa funzionare. Ora sei da sol[ROOT.Char.Custom('DE_END_PRO_S_N')].""
+ mentor_student.0001.a:0 "Molto bene."
+
+ mentor_student.0002.desc:1 ""Non c'è più nulla che io possa insegnarvi."\n\nMi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose'))] [mentor_to_lose.GetTitledFirstName] sorride [mentor_to_lose.Custom('quirk_pos_adverb')] e annuisce. "Hai imparato molto, ma per andare ancora più lontano nei tuoi studi devi fare a modo tuo.""
+ mentor_student.0002.a:1 "[mentor_to_lose.GetSheHe|U] mi ha insegnato davvero molto!"
+ mentor_student.0002.b:0 "Sento che il nostro rapporto diventerà ancora più forte."
+
+ mentor_student.0003.t:0 "Secondi Pensieri"
+ mentor_student.0003.desc:1 "[mentor_to_lose.Custom('DE_ART_DEF_P_D')] mi[mentor_to_lose.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose'))] [mentor_to_lose.GetTitledFirstName] sorride [mentor_to_lose.Custom('quirk_neg_adverb')] mentre mi racconta delle sue ultime #EMP vittorie#!.\n\nPotrei avere ancora cose da imparare, ma [mentor_to_lose.GetFirstName] è sempre più difficile da tollerare come persona."
+ mentor_student.0003.a:0 "Questa relazione è finita."
+ mentor_student.0003.b:0 "Se questo è il prezzo della conoscenza..."

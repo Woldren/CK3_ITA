@@ -1,0 +1,15 @@
+﻿l_spanish:
+
+ # Fund Inspiration Loc
+ fund_inspiration_interaction:1 "Finanzia Ispirazione"
+ fund_inspiration_interaction_desc:2 "Finanzia l'[inspiration|E] di [recipient.GetShortUINamePossessiveNoTooltip] per dare inizio ad un [project|E] che potrebbe portare ad ottenere un [artifact|E].\n\nLa qualità potenziale del manufatto e il costo del finanziamento si baserà sulle sue abilità."
+ fund_inspiration_interaction_reqruit_family_tooltip:0 "[recipient.GetShortUIName|U] e la sua famiglia"
+
+ # Indebt Guest Loc
+ indebt_guest_interaction:0 "Indebita Ospite"
+ indebt_guest_interaction_desc:0 "Fai sì che i tuoi [Concept('court_amenities','Servitori')|E] testimonino un susseguirsi di spese che si sono avute durante la permanenza di [recipient.GetShortUINamePossessive], #EMP poi#! offri[recipient.Custom('DE_PRO_DEM')] una via d'uscita..."
+ indebt_guest_interaction.tt.direct_indebted_guest:0 "Avrai la possibilità di far andare [recipient.GetTitledFirstName] da qualche parte"
+ indebt_guest_interaction.tt.failure:0 "[recipient.GetTitledFirstName] non sarà messo sotto pressione e fuggirà"
+ INDEBT_GUEST_INTRIGUE_ACTOR:0 "[intrigue|E] di [actor.GetShortUINamePossessive|U]: $VALUE|=+0$"
+ INDEBT_GUEST_INTRIGUE_RECIPIENT:0 "[intrigue|E] di [recipient.GetShortUINamePossessive|U]: $VALUE|=+0$"
+ INDEBT_GUEST_CURRENT_CGV_ABOVE_EXPECTED:0 "Eccesso di [court_grandeur|E] di [recipient.GetShortUINamePossessive|U]: $VALUE|=+0$"

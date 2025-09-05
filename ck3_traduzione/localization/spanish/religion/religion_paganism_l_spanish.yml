@@ -1,0 +1,1567 @@
+﻿
+l_spanish:
+
+ #Generic Pagan/Common Pagan Localization
+ paganism_religion:0 "Paganesimo"
+ paganism_religion_adj:0 "Pagana"
+ paganism_religion_adherent:0 "Pagano"
+ paganism_religion_adherent_plural:0 "Pagani"
+ paganism_religion_desc:0 "Comunemente definite da una venerazione per la natura, il culto degli antenati e una fede negli spiriti, molte fedi native sono considerate essere forme diverse di paganesimo."
+
+ paganism_high_god_name:0 "Madre Terra"
+ paganism_high_god_name_2:0 "$paganism_high_god_name$" # Optional translation alt
+ paganism_high_god_name_possessive:0 "di Madre Terra"
+ paganism_high_god_name_alternate:0 "Gaia"
+ paganism_high_god_name_alternate_possessive:0 "di Gaia "
+ paganism_good_god_father_sky:0 "$paganism_trickster_god_name$"
+ paganism_good_god_ancestors:0 "gli antenati"
+ paganism_devil_name:0 "corruzione"
+ paganism_devil_name_possessive:0 "della corruzione"
+ paganism_devil_shehe:0 "esso"
+ paganism_devil_herselfhimself:0 "di esso"
+ paganism_devil_herhis:0 "suo"
+ paganism_evil_god_decay:0 "degrado"
+ paganism_evil_god_decay_possessive:0 "del degrado"
+ paganism_evil_god_drought:0 "siccità"
+ paganism_death_deity_name:0 "morte"
+ paganism_death_deity_name_possessive:0 "della morte"
+ paganism_death_deity_herhis:0 "suo"
+ paganism_mother_earth_father_sky:0 "Madre Terra e Padre Cielo"
+ paganism_mother_earth_father_sky_2:0 "$paganism_mother_earth_father_sky$" # Optional translation alt
+ paganism_mother_earth_father_sky_3:0 "$paganism_mother_earth_father_sky$" # Optional translation alt
+ 
+
+ paganism_creator_god_name:0 "$paganism_high_god_name$"
+ paganism_creator_god_name_possessive:0 "$paganism_high_god_name_possessive$"
+ paganism_health_god_name:0 "$paganism_high_god_name$"
+ paganism_health_god_name_possessive:0 "$paganism_high_god_name_possessive$"
+ paganism_fertility_god_name:0 "$paganism_high_god_name$"
+ paganism_fertility_god_name_possessive:0 "$paganism_high_god_name_possessive$"
+ paganism_wealth_god_name:0 "$paganism_high_god_name$"
+ paganism_wealth_god_name_possessive:0 "$paganism_high_god_name_possessive$"
+ paganism_household_god_name:0 "$paganism_high_god_name$"
+ paganism_household_god_name_possessive:0 "$paganism_high_god_name_possessive$"
+ paganism_fate_god_name:0 "destino"
+ paganism_fate_god_name_possessive:0 "del destino"
+ paganism_knowledge_god_name:0 "$paganism_high_god_name$"
+ paganism_knowledge_god_name_possessive:0 "$paganism_high_god_name_possessive$"
+ paganism_war_god_name:0 "$paganism_high_god_name$"
+ paganism_war_god_name_possessive:0 "$paganism_high_god_name_possessive$"
+ paganism_trickster_god_name:0 "Padre Cielo"
+ paganism_trickster_god_name_possessive:0 "Padre Cielo"
+ paganism_night_god_name:0 "$paganism_trickster_god_name$"
+ paganism_night_god_name_possessive:0 "$paganism_trickster_god_name_possessive$"
+ paganism_water_god_name:0 "$paganism_high_god_name$"
+ paganism_water_god_name_possessive:0 "$paganism_high_god_name_possessive$"
+
+ paganism_house_of_worship:0 "tempio"
+ paganism_house_of_worship_2:0 "$paganism_house_of_worship$" # Optional translation alt
+ paganism_house_of_worship_3:0 "$paganism_house_of_worship$" # Optional translation alt
+ paganism_house_of_worship_plural:0 "templi"
+ paganism_religious_symbol:0 "triquetra"
+ paganism_religious_symbol_2:0 "$paganism_religious_symbol$" # Optional translation alt
+ paganism_religious_symbol_3:0 "$paganism_religious_symbol$" # Optional translation alt
+ paganism_religious_text:0 "sacre storie"
+ paganism_religious_text_2:0 "$paganism_religious_text$" # Optional translation alt
+ paganism_religious_text_3:0 "$paganism_religious_text$" # Optional translation alt
+ paganism_religious_head_title:0 "Alto Sciamano"
+ paganism_religious_head_title_name:0 "Alto Consiglio"
+ paganism_devotee:0 "devoto"
+ paganism_devoteeplural:0 "devoti"
+ paganism_priest:0 "sciamano"
+ paganism_priest_plural:0 "sciamani"
+ paganism_priest_alternate_plural:1 "anziani"
+ paganism_divine_realm:0 "i Cieli"
+ paganism_divine_realm_2:0 "$paganism_divine_realm$" # Optional translation alt
+ paganism_divine_realm_3:0 "$paganism_divine_realm$" # Optional translation alt
+ paganism_afterlife:0 "gli inferi"
+ paganism_afterlife_2:0 "$paganism_afterlife$" # Optional translation alt
+ paganism_afterlife_3:0 "$paganism_afterlife$" # Optional translation alt
+ witchgodname_paganism_the_shadow:0 "l'Ombra"
+ witchgodname_paganism_the_shadow_possessive:0 "dell'Ombra"
+
+
+ pagan:0 "Paganesimo"
+ pagan_adj:0 "Pagana"
+ pagan_adherent:0 "Pagano"
+ pagan_adherent_plural:0 "Pagani"
+
+ #Germanic/Ásatrú
+ germanic_religion:1 "Norrena"
+ germanic_religion_adj:1 "Norrena"
+ germanic_religion_adherent:1 "Norreno"
+ germanic_religion_adherent_plural:1 "Norreni"
+ germanic_religion_desc:1 "La fede nativa della regione Scandinava, il paganesimo Norreno ruota attorno alla venerazione degli dei noti come Æsir. Ci si aspetta che i seguaci vivano - e preferibilmente muoiano - in modo onorevole."
+
+ germanic_high_god_name:0 "Odino"
+ germanic_high_god_name_2:0 "$germanic_high_god_name$" # Optional translation alt
+ germanic_high_god_name_possessive:0 "di Odino"
+ germanic_high_god_she_he:0 "Lui"
+ germanic_high_god_alternate:0 "il Padre di Tutti"
+ germanic_high_god_alternate_possessive:0 "del Padre di Tutti"
+ germanic_good_god_thor:0 "Thor"
+ germanic_good_god_baldr:0 "Baldr"
+ germanic_good_god_freyja:0 "$germanic_fertility_god_name$"
+ germanic_good_god_freyja_possessive:0 "$germanic_fertility_god_name_possessive$"
+ germanic_good_god_tyr:0 "$germanic_war_god_name$"
+ germanic_good_god_sif:0 "Sif"
+ germanic_devil_name:0 "Loki"
+ germanic_devil_name_possessive:0 "di Loki"
+ germanic_evil_god_surtr:0 "Surtr"
+ germanic_evil_god_ymir:0 "$germanic_creator_god_name$"
+ germanic_death_deity_name:0 "Hel"
+ germanic_death_deity_name_2:0 "$germanic_death_deity_name$" # Optional translation alt
+ germanic_death_deity_name_3:0 "$germanic_death_deity_name$" # Optional translation alt
+ germanic_death_deity_name_possessive:0 "di Hel"
+ germanic_divine_realm:0 "Asgard"
+ germanic_divine_realm_2:0 "$germanic_divine_realm$" # Optional translation alt
+ germanic_divine_realm_3:0 "$germanic_divine_realm$" # Optional translation alt
+ germanic_positive_afterlife:0 "Valhalla"
+ germanic_positive_afterlife_2:0 "$germanic_positive_afterlife$" # Optional translation alt
+ germanic_positive_afterlife_3:0 "$germanic_positive_afterlife$" # Optional translation alt
+ germanic_religious_symbol:0 "valknut"
+ germanic_religious_symbol_2:0 "$germanic_religious_symbol$" # Optional translation alt
+ germanic_religious_symbol_3:0 "$germanic_religious_symbol$" # Optional translation alt
+ germanic_religious_text:0 "saghe eroiche"
+ germanic_religious_text_2:0 "$germanic_religious_text$" # Optional translation alt
+ germanic_religious_text_3:0 "$germanic_religious_text$" # Optional translation alt
+ germanic_religious_head_title:0 "Fylkir"
+ germanic_religious_head_title_name:0 "Fylkirate"
+ germanic_priest_male:0 "goði"
+ germanic_priest_male_plural:0 "goðar"
+ germanic_priest_female:0 "goðja"
+ germanic_priest_female_plural:0 "goðar"
+ germanic_priest_neuter:0 "goði"
+ germanic_priest_neuter_plural:0 "goðar"
+ germanic_bishop_male:0 "hofgoði"
+ germanic_bishop_male_plural:0 "hofgoðar"
+ germanic_bishop_female:0 "hofgoðja"
+ germanic_bishop_female_plural:0 "hofgoðar"
+ germanic_bishop_neuter:0 "hofgoði"
+ germanic_bishop_neuter_plural:0 "hofgoðar"
+
+ germanic_creator_god_name:0 "Ymir"
+ germanic_creator_god_name_possessive:0 "di Ymir"
+ germanic_health_god_name:0 "Eir"
+ germanic_health_god_name_possessive:0 "di Eir"
+ germanic_fertility_god_name:0 "Freyja"
+ germanic_fertility_god_name_possessive:0 "di Freyja"
+ germanic_wealth_god_name:0 "Njörðr"
+ germanic_wealth_god_name_possessive:0 "di Njörðr"
+ germanic_household_god_name:0 "Frigg"
+ germanic_household_god_name_possessive:0 "di Frigg"
+ germanic_fate_god_name:0 "le Norne"
+ germanic_fate_god_name_possessive:0 "delle Norne"
+ germanic_knowledge_god_name:0 "$germanic_high_god_name$"
+ germanic_knowledge_god_name_possessive:0 "$germanic_high_god_name_possessive$"
+ germanic_war_god_name:0 "Týr"
+ germanic_war_god_name_possessive:0 "di Týr"
+ germanic_trickster_god_name:0 "$germanic_devil_name$"
+ germanic_trickster_god_name_possessive:0 "$germanic_devil_name_possessive$"
+ germanic_night_god_name:0 "Nótt"
+ germanic_night_god_name_possessive:0 "di Nótt"
+ germanic_water_god_name:0 "$germanic_wealth_god_name$"
+ germanic_water_god_name_possessive:0 "$germanic_wealth_god_name_possessive$"
+
+ norse_pagan:0 "Ásatrú"
+ norse_pagan_adj:0 "Ásatrú"
+ norse_pagan_adherent:0 "Ásatrúano"
+ norse_pagan_adherent_plural:0 "Ásatrúani"
+
+ norse_pagan_old:0 "Antico Ásatrú"
+ norse_pagan_old_adj:0 "Antico Ásatrúano"
+ norse_pagan_old_adherent:0 "Antico Ásatrúano"
+ norse_pagan_old_adherent_plural:0 "Antichi Ásatrúani"
+
+ #Baltic
+ baltic_religion:1 "Baltica"
+ baltic_religion_adj:1 "Baltica"
+ baltic_religion_adherent:1 "Balto"
+ baltic_religion_adherent_plural:1 "Balti"
+ baltic_religion_desc:1 "In quanto aderenti alla "dimora della pace interiore", i pagani Baltici si concentrano sul vivere in armonia con il mondo naturale che li circonda preservando le tradizioni e le storie dei loro antenati."
+
+ baltic_high_god_name:0 "Dievas"
+ baltic_high_god_name_2:0 "$baltic_high_god_name$" # Optional translation alt
+ baltic_high_god_name_possessive:0 "di Dievas"
+ baltic_high_god_she_he:0 "lui"
+ baltic_high_god_name_alternate:0 "Dievas Senelis"
+ baltic_high_god_name_alternate_possessive:0 "di Dievas Senelis"
+ baltic_good_god_perkunas:0 "$baltic_war_god_name$"
+ baltic_good_god_laima:0 "$baltic_fate_god_name$"
+ baltic_good_god_gabija:0 "Gabija"
+ baltic_good_god_patrimpas:0 "Patrimpas"
+ baltic_devil_name:0 "Peckols"
+ baltic_devil_name_possessive:0 "di Peckols"
+ baltic_evil_god_ragana:0 "Ragana"
+ baltic_evil_god_slogutis:0 "Slogutis"
+ baltic_evil_god_ziburinis:0 "Žiburinis"
+ baltic_death_deity_name:0 "Giltinė"
+ baltic_death_deity_name_possessive:0 "di Giltinė"
+ baltic_religious_symbol_2:0 "$baltic_religious_symbol$" # Optional translation alt
+ baltic_religious_symbol_3:0 "$baltic_religious_symbol$" # Optional translation alt
+ baltic_religious_symbol:0 "austras koks"
+ baltic_religious_text:0 "inni sacri"
+ baltic_religious_text_2:0 "$baltic_religious_text$" # Optional translation alt
+ baltic_religious_text_3:0 "$baltic_religious_text$" # Optional translation alt
+ baltic_religious_head_title:0 "Kriwe"
+ baltic_religious_head_title_name:0 "Romowe"
+ baltic_priest_male:0 "vaidilė"
+ baltic_priest_male_plural:0 "vaidilė"
+ baltic_priest_female:0 "vaidilutė"
+ baltic_priest_female_plural:0 "vaidilutė"
+ witchgodname_baltic_dievas_senelis:0 "Dievas Senelis"
+ witchgodname_baltic_dievas_senelis_possessive:0 "di Dievas Senelis"
+
+ baltic_creator_god_name:0 "$baltic_high_god_name$"
+ baltic_creator_god_name_possessive:0 "$baltic_high_god_name_possessive$"
+ baltic_health_god_name:0 "Saulė"
+ baltic_health_god_name_possessive:0 "di Saulė"
+ baltic_fertility_god_name:0 "$baltic_health_god_name$"
+ baltic_fertility_god_name_possessive:0 "$baltic_health_god_name_possessive$"
+ baltic_wealth_god_name:0 "Dalia"
+ baltic_wealth_god_name_possessive:0 "di Dalia"
+ baltic_household_god_name:0 "Matka Gabia"
+ baltic_household_god_name_possessive:0 "di Matka Gabia"
+ baltic_fate_god_name:0 "Laima"
+ baltic_fate_god_name_possessive:0 "di Laima"
+ baltic_knowledge_god_name:0 "Dievas Senelis"
+ baltic_knowledge_god_name_possessive:0 "di Dievas Senelis"
+ baltic_war_god_name:0 "Perkūnas"
+ baltic_war_god_name_possessive:0 "di Perkūnas"
+ baltic_trickster_god_name:0 "Kaukas"
+ baltic_trickster_god_name_possessive:0 "di Kaukas"
+ baltic_night_god_name:0 "Mēness"
+ baltic_night_god_name_possessive:0 "di Mēness"
+ baltic_water_god_name:0 "Bangpūtys"
+ baltic_water_god_name_possessive:0 "di Bangpūtys"
+
+ baltic_pagan:0 "Vidilismo"
+ baltic_pagan_adj:0 "Vidilista"
+ baltic_pagan_adherent:0 "Vidilista"
+ baltic_pagan_adherent_plural:0 "Vidilisti"
+
+ baltic_pagan_old:0 "Antico Vidilismo"
+ baltic_pagan_old_adj:0 "Antico Vidilista"
+ baltic_pagan_old_adherent:0 "Antico Vidilista"
+ baltic_pagan_old_adherent_plural:0 "Antichi Vidilisti"
+
+ #Slavic
+ slavic_religion:1 "Slava"
+ slavic_religion_adj:1 "Slava"
+ slavic_religion_adherent:1 "Slavo"
+ slavic_religion_adherent_plural:1 "Slavi"
+ slavic_religion_desc:1 "Enfatizzando il dovere personale, la moralità e la conformità, il paganesimo Slavo è il termine generico per la miriade di fedi native di gran parte dell'Europa centrale e orientale. La comunità è una parte importante della maggior parte di esse, e le cerimonie religiose sono spesso incontri pubblici che celebrano la bellezza e la gioia."
+ slavic_high_god_name:0 "Rod"
+ slavic_high_god_name_2:0 "$slavic_high_god_name$" # Optional translation alt
+ slavic_high_god_name_possessive:0 "di Rod"
+ slavic_high_god_name_alternate:0 "Belobog"
+ slavic_high_god_name_alternate_possessive:0 "di Belobog"
+ slavic_good_god_perun:0 "Perun"
+ slavic_good_god_dazhbog:0 "Dazhbog"
+ slavic_good_god_veles:0 "Veles"
+ slavic_good_god_veles_possessive:0 "di Veles"
+ slavic_devil_name:0 "Chernobog"
+ slavic_devil_name_possessive:0 "di Chernobog"
+ slavic_evil_god_koschei:0 "Koschei"
+ slavic_religious_symbol:0 "kolovrat"
+ slavic_religious_symbol_2:0 "$slavic_religious_symbol$" # Optional translation alt
+ slavic_religious_symbol_3:0 "$slavic_religious_symbol$" # Optional translation alt
+ slavic_religious_text:0 "grandi cronache"
+ slavic_religious_text_2:0 "$slavic_religious_text$" # Optional translation alt
+ slavic_religious_text_3:0 "$slavic_religious_text$" # Optional translation alt
+ slavic_religious_head_title:0 "Chief Volkhv"
+ slavic_priest_male:0 "zhrets"
+ slavic_priest_male_plural:0 "zhretsy"
+ slavic_priest_female:0 "zhritsa "
+ slavic_priest_female_plural:0 "zhritse"
+ slavic_bishop_male:0 "volkhv"
+ slavic_bishop_male_plural:0 "volkhvi"
+ slavic_bishop_female:0 "vedunya"
+ slavic_bishop_female_plural:0 "vedunye"
+ slavic_priest_alternate_plural:0 "veche"
+ slavic_positive_afterlife:0 "Vyraj"
+ slavic_positive_afterlife_2:0 "$slavic_positive_afterlife$" # Optional translation alt
+ slavic_positive_afterlife_3:0 "$slavic_positive_afterlife$" # Optional translation alt
+ slavic_negative_afterlife:0 "Nawia"
+ slavic_negative_afterlife_2:0 "$slavic_negative_afterlife$" # Optional translation alt
+ slavic_negative_afterlife_3:0 "$slavic_negative_afterlife$" # Optional translation alt
+
+ slavic_creator_god_name:1 "Deivos"
+ slavic_creator_god_name_possessive:1 "di Devois"
+ slavic_health_god_name:0 "Zhibog"
+ slavic_health_god_name_possessive:0 "di Zhibog"
+ slavic_fertility_god_name:0 "Devana"
+ slavic_fertility_god_name_possessive:0 "di Devana"
+ slavic_wealth_god_name:0 "Dazhbog"
+ slavic_wealth_god_name_possessive:0 "di Dazhbog"
+ slavic_household_god_name:0 "Rozanica"
+ slavic_household_god_name_possessive:0 "di Rozanica"
+ slavic_fate_god_name:0 "Sud"
+ slavic_fate_god_name_possessive:0 "di Sud"
+ slavic_knowledge_god_name:0 "Woda"
+ slavic_knowledge_god_name_possessive:0 "di Woda"
+ slavic_war_god_name:0 "Perun"
+ slavic_war_god_name_possessive:0 "di Perun"
+ slavic_trickster_god_name:0 "$slavic_devil_name$"
+ slavic_trickster_god_name_possessive:0 "$slavic_devil_name_possessive$"
+ slavic_night_god_name:0 "Xors Jutrobog"
+ slavic_night_god_name_possessive:0 "di Xors Jutrobog"
+ slavic_water_god_name:0 "Kupala"
+ slavic_water_god_name_possessive:0 "di Kupala"
+
+ slavic_pagan:1 "Slovianska Pravda"
+ slavic_pagan_adj:2 "Slovianska"
+ slavic_pagan_adherent:2 "Slovianskano"
+ slavic_pagan_adherent_plural:2 "Slovianskansi"
+
+ slavic_pagan_old:1 "Antico Slovianska Pravda"
+ slavic_pagan_old_adj:2 "Antico Slovianska"
+ slavic_pagan_old_adherent:2 "Antico Slovianskano"
+ slavic_pagan_old_adherent_plural:2 "Antichi Slovianskansi"
+
+ #Finno-Ugric
+ finno_ugric_religion:1 "Ugrofinnica"
+ finno_ugric_religion_adj:1 "Ugrofinnica"
+ finno_ugric_religion_adherent:1 "Ugrofinnico"
+ finno_ugric_religion_adherent_plural:1 "Ugrofinnici"
+ finno_ugric_religion_desc:1 "La venerazione della natura e un profondo rispetto per i propri antenati e le loro tradizioni sono ciò che definisce il paganesimo ugro-finnico. Tenuto in grande considerazione tra gli aderenti è "sisu", un concetto finlandese di determinazione stoica, grinta, coraggio e resilienza."
+
+ finno_ugric_high_god_name:0 "Ukko"
+ finno_ugric_high_god_name_2:0 "$finno_ugric_high_god_name$" # Optional translation alt
+ finno_ugric_high_god_name_possessive:0 "di Ukko"
+ finno_ugric_high_god_name_alternate:0 "Vecchio"
+ finno_ugric_high_god_name_alternate_possessive:0 "del Vecchio"
+ finno_ugric_good_god_akras:0 "Äkräs"
+ finno_ugric_good_god_ilmarinen:0 "Ilmarinen"
+ finno_ugric_good_god_lempo:0 "Lempo"
+ finno_ugric_good_god_paivatar:0 "Päivätär"
+ finno_ugric_devil_name:0 "Paholainen"
+ finno_ugric_devil_name_possessive:0 "di Paholainen"
+ finno_ugric_evil_god_nuolennoutaja:0 "Nuolennoutaja"
+ finno_ugric_evil_god_painaja:0 "Painaja "
+ finno_ugric_evil_god_kielen_kantaja:0 "Kielen Kantaja"
+ finno_ugric_evil_god_ohimoiden_ottaja:0 "Ohimoiden Ottaja"
+ finno_ugric_evil_god_sydamen_syoja:0 "Sydämen Syöjä"
+ finno_ugric_death_deity_name:0 "Tuoni"
+ finno_ugric_death_deity_name_possessive:0 "di Tuoni"
+ finno_ugric_religious_symbol:0 "elk"
+ finno_ugric_religious_symbol_2:0 "$finno_ugric_religious_symbol$" # Optional translation alt
+ finno_ugric_religious_symbol_3:0 "$finno_ugric_religious_symbol$" # Optional translation alt
+ finno_ugric_religious_text:0 "grandi epopee"
+ finno_ugric_religious_text_2:0 "$finno_ugric_religious_text$" # Optional translation alt
+ finno_ugric_religious_text_3:0 "$finno_ugric_religious_text$" # Optional translation alt
+ finno_ugric_afterlife:0 "Tuonela"
+ finno_ugric_afterlife_2:0 "$finno_ugric_afterlife$" # Optional translation alt
+ finno_ugric_afterlife_3:0 "$finno_ugric_afterlife$" # Optional translation alt
+ finno_ugric_witgodname_vainamoinen:0 "Väinämöinen"
+ finno_ugric_witgodname_vainamoinen_possessive:0 "di Väinämöinen"
+
+ finno_ugric_creator_god_name:0 "$finno_ugric_high_god_name$"
+ finno_ugric_creator_god_name_possessive:0 "$finno_ugric_high_god_name_possessive$"
+ finno_ugric_health_god_name:0 "Akka"
+ finno_ugric_health_god_name_possessive:0 "di Akka"
+ finno_ugric_fertility_god_name:0 "Lempo"
+ finno_ugric_fertility_god_name_possessive:0 "di Lempo"
+ finno_ugric_wealth_god_name:0 "Äkräs"
+ finno_ugric_wealth_god_name_possessive:0 "di Äkräs"
+ finno_ugric_household_god_name:0 "$finno_ugric_health_god_name$"
+ finno_ugric_household_god_name_possessive:0 "$finno_ugric_health_god_name_possessive$"
+ finno_ugric_fate_god_name:0 "Raako"
+ finno_ugric_fate_god_name_possessive:0 "di Raako"
+ finno_ugric_knowledge_god_name:0 "Väinämöinen"
+ finno_ugric_knowledge_god_name_possessive:0 "di Väinämöinen"
+ finno_ugric_war_god_name:0 "Perkele"
+ finno_ugric_war_god_name_possessive:0 "di Perkele"
+ finno_ugric_trickster_god_name:0 "il Menninkäinen"
+ finno_ugric_trickster_god_name_possessive:0 "del Menninkäinen"
+ finno_ugric_night_god_name:0 "Kuu"
+ finno_ugric_night_god_name_possessive:0 "di Kuu"
+ finno_ugric_water_god_name:0 "Ahto"
+ finno_ugric_water_god_name_possessive:0 "di Ahto"
+
+ finnish_pagan:0 "Ukonusko"
+ finnish_pagan_adj:0 "Ukonuska"
+ finnish_pagan_adherent:0 "Ukonusko"
+ finnish_pagan_adherent_plural:0 "Ukonuski"
+
+ finnish_pagan_old:0 "Antico Ukonusko"
+ finnish_pagan_old_adj:0 "Antico Ukonuska"
+ finnish_pagan_old_adherent:0 "Antico Ukonusko"
+ finnish_pagan_old_adherent_plural:0 "Antichi Ukonuski"
+
+
+ #Mande/Siguic
+ west_african_religion:2 "Mandé"
+ west_african_religion_adj:2 "Mandé"
+ west_african_religion_adherent:2 "Mandé"
+ west_african_religion_adherent_plural:2 "Mandé"
+ west_african_religion_desc:2 "Le fedi native del popolo Mandé si concentrano sulla venerazione dei grandi spiriti della terra e nell'onorare gli spiriti dei morti."
+
+ west_african_high_god_name:0 "Amma"
+ west_african_high_god_name_2:0 "$west_african_high_god_name$" # Optional translation alt
+ west_african_high_god_name_possessive:0 "Amma"
+ west_african_high_god_name_alternate:0 "Essere Supremo"
+ west_african_high_god_name_alternate_possessive:0 "dell'Essere Supremo"
+ west_african_good_god_nummo:0 "$dogon_water_god_name$"
+ west_african_good_god_yurugu:0 "Yurugu"
+ west_african_good_god_lebe:0 "Lébé"
+ west_african_devil_name:0 "Jackal"
+ west_african_devil_name_possessive:0 "di Jackal"
+ west_african_death_deity_name:0 "dama"
+ west_african_death_deity_name_possessive:0 "di dama"
+ west_african_religious_symbol:0 "totem"
+ west_african_religious_symbol_2:0 "$west_african_religious_symbol$" # Optional translation alt
+ west_african_religious_symbol_3:0 "$west_african_religious_symbol$" # Optional translation alt
+ west_african_religious_text:0 "storie antiche"
+ west_african_religious_text_2:0 "$west_african_religious_text$" # Optional translation alt
+ west_african_religious_text_3:0 "$west_african_religious_text$" # Optional translation alt
+ west_african_religious_head_title:0 "Capo Hogon"
+ west_african_priest:0 "hogon"
+ west_african_priest_plural:0 "hogon"
+ west_african_divine_realm:0 "Ardyenne"
+ west_african_divine_realm_2:0 "$west_african_divine_realm$" # Optional translation alt
+ west_african_divine_realm_3:0 "$west_african_divine_realm$" # Optional translation alt
+
+ dogon_creator_god_name:0 "$west_african_high_god_name$"
+ dogon_creator_god_name_possessive:0 "$west_african_high_god_name_possessive$"
+ dogon_health_god_name:0 "$west_african_high_god_name$"
+ dogon_health_god_name_possessive:0 "$west_african_high_god_name_possessive$"
+ dogon_fertility_god_name:0 "$west_african_high_god_name$"
+ dogon_fertility_god_name_possessive:0 "$west_african_high_god_name_possessive$"
+ dogon_wealth_god_name:0 "$west_african_high_god_name$"
+ dogon_wealth_god_name_possessive:0 "$west_african_high_god_name_possessive$"
+ dogon_household_god_name:0 "$west_african_high_god_name$"
+ dogon_household_god_name_possessive:0 "$west_african_high_god_name_possessive$"
+ dogon_fate_god_name:0 "$paganism_fate_god_name$"
+ dogon_fate_god_name_possessive:0 "$paganism_fate_god_name_possessive$"
+ dogon_knowledge_god_name:0 "$west_african_high_god_name$"
+ dogon_knowledge_god_name_possessive:0 "$west_african_high_god_name_possessive$"
+ dogon_war_god_name:0 "$west_african_high_god_name$"
+ dogon_war_god_name_possessive:0 "$west_african_high_god_name_possessive$"
+ dogon_trickster_god_name:0 "$west_african_devil_name$"
+ dogon_trickster_god_name_possessive:0 "$west_african_devil_name_possessive$"
+ dogon_night_god_name:0 "$west_african_high_god_name$"
+ dogon_night_god_name_possessive:0 "$west_african_high_god_name_possessive$"
+ dogon_water_god_name:0 "il Nummo"
+ dogon_water_god_name_possessive:0 "di Nummo"
+
+ west_african_pagan:0 "Siguismo"
+ west_african_pagan_adj:0 "Siguica"
+ west_african_pagan_adherent:0 "Siguista"
+ west_african_pagan_adherent_plural:0 "Siguisti"
+ west_african_pagan_desc:0 "Enfatizzando l'armonia e l'equilibrio, i seguaci di questa fede nativa Mandé riveriscono la progenie gemella di Amma, noti insieme come Nummo, che erano visti come due parti di un essere completo e perfetto."
+
+ west_african_pagan_old:0 "Antico Siguismo"
+ west_african_pagan_old_adj:0 "Antico Siguica"
+ west_african_pagan_old_adherent:0 "Antico Siguista"
+ west_african_pagan_old_adherent_plural:0 "Antichi Siguisti"
+
+# Bida (Part of Mande)
+ bidu_high_god_name:1 "Bida"
+ bidu_high_god_name_2:0 "$bidu_high_god_name$" # Optional translation alt
+ bidu_high_god_name_possessive:1 "di Bida"
+ bidu_high_god_name_alternate:0 "Il Grande Serpente"
+ bidu_high_god_name_alternate_possessive:0 "del Grande Serpente"
+ bidu_creator_god_name:0 "$bidu_high_god_name$"
+ bidu_creator_god_name_possessive:0 "$bidu_high_god_name_possessive$"
+ bidu_health_god_name:0 "$bidu_high_god_name$"
+ bidu_health_god_name_possessive:0 "$bidu_high_god_name_possessive$"
+ bidu_fertility_god_name:0 "$bidu_high_god_name$"
+ bidu_fertility_god_name_possessive:0 "$bidu_high_god_name_possessive$"
+ bidu_wealth_god_name:0 "$bidu_high_god_name$"
+ bidu_wealth_god_name_possessive:0 "$bidu_high_god_name_possessive$"
+ bidu_household_god_name:0 "$bidu_high_god_name$"
+ bidu_household_god_name_possessive:0 "$bidu_high_god_name_possessive$"
+ bidu_fate_god_name:0 "$paganism_fate_god_name$"
+ bidu_fate_god_name_possessive:0 "$paganism_fate_god_name_possessive$"
+ bidu_knowledge_god_name:0 "$bidu_high_god_name$"
+ bidu_knowledge_god_name_possessive:0 "$bidu_high_god_name_possessive$"
+ bidu_war_god_name:0 "$bidu_high_god_name$"
+ bidu_war_god_name_possessive:0 "$bidu_high_god_name_possessive$"
+ bidu_trickster_god_name:0 "$west_african_devil_name$"
+ bidu_trickster_god_name_possessive:0 "$west_african_devil_name_possessive$"
+ bidu_night_god_name:0 "$bidu_high_god_name$"
+ bidu_night_god_name_possessive:0 "$bidu_high_god_name_possessive$"
+ bidu_water_god_name:0 "$bidu_high_god_name$"
+ bidu_water_god_name_possessive:0 "$bidu_high_god_name_possessive$"
+
+ west_african_bidu_pagan:0 "Bidaismo"
+ west_african_bidu_pagan_adj:0 "Bidaica"
+ west_african_bidu_pagan_adherent:0 "Bidaista"
+ west_african_bidu_pagan_adherent_plural:0 "Bidaisti"
+ west_african_bidu_pagan_desc:0 "Gli aderenti a questa fede nativa Soninke adorano il dio serpente Bida, un'entità capricciosa che richiede sacrifici regolari ma premia i seguaci con benedizioni e raccolti abbondanti."
+
+ west_african_bidu_pagan_old:0 "Antico Bidaismo"
+ west_african_bidu_pagan_old_adj:0 "Antico Bidaica"
+ west_african_bidu_pagan_old_adherent:0 "Antico Bidaista"
+ west_african_bidu_pagan_old_adherent_plural:0 "Antichi Bidaisti"
+
+ #Hausa/Bori
+ west_african_bori_religion:1 "Hausa"
+ west_african_bori_religion_adj:1 "Hausana"
+ west_african_bori_religion_adherent:1 "Hausano"
+ west_african_bori_religion_adherent_plural:1 "Hausani"
+ west_african_bori_religion_desc:0 "Venerando la forza spirituale che risiede in tutte le cose fisiche, le sacerdotesse di questa fede fungono da intermediari tra l'umanità e gli spiriti del mondo."
+
+ west_african_bori_high_god_name:0 "Boorii"
+ west_african_bori_high_god_name_2:0 "$west_african_bori_high_god_name$" # Optional translation alt
+ west_african_bori_high_god_name_possessive:0 "di Boorii"
+ west_african_bori_high_god_name_alternate:0 "gli spiriti"
+ west_african_bori_high_god_name_alternate_possessive:0 "degli spiriti"
+ west_african_bori_good_god_water_spirits:0 "$bori_water_god_name$"
+ west_african_bori_good_god_tree_spirits:0 "$bori_health_god_name$"
+ west_african_bori_good_god_wind_spirits:0 "$bori_night_god_name$"
+ west_african_bori_good_god_rock_spirits:0 "$bori_wealth_god_name$"
+ west_african_bori_devil_name:0 "gli spiriti della boscaglia"
+ west_african_bori_devil_name_possessive:0 "degli spiriti della boscaglia"
+ west_african_bori_devil_shehe:0 "loro"
+ west_african_bori_devil_herhis:0 "il loro"
+ west_african_bori_devil_herselfhimself:0 "loro stessi"
+ west_african_bori_evil_god_black_spirits:0 "gli spiriti neri"
+ west_african_bori_religious_symbol:0 "staff"
+ west_african_bori_religious_symbol_2:0 "$west_african_bori_religious_symbol$" # Optional translation alt
+ west_african_bori_religious_symbol_3:0 "$west_african_bori_religious_symbol$" # Optional translation alt
+ west_african_bori_religious_head_title:0 "Inna"
+ west_african_bori_priest_male:0 "adjingi"
+ west_african_bori_priest_male_plural:0 "adjingi"
+ west_african_bori_priest_female:0 "magadja"
+ west_african_bori_priest_female_plural:0 "magadja"
+ west_african_bori_divine_realm:0 "Jangare"
+ west_african_bori_divine_realm_2:0 "$west_african_bori_divine_realm$" # Optional translation alt
+ west_african_bori_divine_realm_3:0 "$west_african_bori_divine_realm$" # Optional translation alt
+ witchgodname_west_african_bori_the_shadow:0 "l'Ombra"
+ witchgodname_west_african_bori_the_shadow_possessive:0 "dell'Ombra"
+
+ bori_creator_god_name:0 "$west_african_bori_high_god_name$"
+ bori_creator_god_name_possessive:0 "$west_african_bori_high_god_name_possessive$"
+ bori_health_god_name:0 "gli spiriti dell'albero"
+ bori_health_god_name_possessive:0 "degli spiriti dell'albero"
+ bori_fertility_god_name:0 "$bori_health_god_name$"
+ bori_fertility_god_name_possessive:0 "$bori_health_god_name_possessive$"
+ bori_wealth_god_name:0 "gli spiriti della roccia"
+ bori_wealth_god_name_possessive:0 "degli spiriti della roccia"
+ bori_household_god_name:0 "l'Alledjenu"
+ bori_household_god_name_possessive:0 "di Alledjenu"
+ bori_fate_god_name:0 "$bori_household_god_name$"
+ bori_fate_god_name_possessive:0 "$bori_household_god_name_possessive$"
+ bori_knowledge_god_name:0 "$bori_household_god_name$"
+ bori_knowledge_god_name_possessive:0 "$bori_household_god_name_possessive$"
+ bori_war_god_name:0 "$west_african_bori_devil_name$"
+ bori_war_god_name_possessive:0 "$west_african_bori_devil_name_possessive$"
+ bori_trickster_god_name:0 "$west_african_bori_devil_name$"
+ bori_trickster_god_name_possessive:0 "$west_african_bori_devil_name_possessive$"
+ bori_night_god_name:0 "gli spiriti del vento"
+ bori_night_god_name_possessive:0 "degli spiriti del vento"
+ bori_water_god_name:0 "gli spiriti dell'acqua"
+ bori_water_god_name_possessive:0 "degli spiriti dell'acqua"
+
+ west_african_bori_pagan:0 "Bori"
+ west_african_bori_pagan_adj:0 "Bori"
+ west_african_bori_pagan_adherent:0 "Bori"
+ west_african_bori_pagan_adherent_plural:0 "Bori"
+
+ west_african_bori_pagan_old:0 "Antico Bori"
+ west_african_bori_pagan_old_adj:0 "Antico Borica"
+ west_african_bori_pagan_old_adherent:0 "Antico Bori"
+ west_african_bori_pagan_old_adherent_plural:0 "Antichi Bori"
+
+ #Senegal/Roog Sene
+ west_african_roog_religion:1 "Senegambia"
+ west_african_roog_religion_adj:1 "Senegambiana"
+ west_african_roog_religion_adherent:1 "Senegambiano"
+ west_african_roog_religion_adherent_plural:1 "Senegambiani"
+ west_african_roog_religion_desc:0 "Le tradizioni del popolo Serer tracciano la via del Divino, il percorso per vivere una vita spiritualmente appagante in onore dei propri antenati e del creatore dell'universo, Roog."
+
+ west_african_roog_high_god_name:0 "Roog"
+ west_african_roog_high_god_name_2:0 "$west_african_roog_high_god_name$" # Optional translation alt
+ west_african_roog_high_god_name_possessive:0 "di Roog"
+ west_african_roog_high_god_name_shehe:0 "loro"
+ west_african_roog_high_god_name_alternate:0 "Il Dio Misericordioso"
+ west_african_roog_high_god_name_alternate_possessive:0 "del Dio Misericordioso"
+ west_african_roog_good_god_mendiss:0 "$roog_sene_water_god_name$"
+ west_african_roog_good_god_tiurakh:0 "$roog_sene_wealth_god_name$"
+ west_african_roog_good_god_takhar:0 "$roog_sene_war_god_name$"
+ west_african_roog_good_god_pangool:0 "$roog_sene_health_god_name$"
+ west_african_roog_devil_name:0 "Ɓoxo-koƥ"
+ west_african_roog_devil_name_possessive:0 "di Ɓoxo-koƥ"
+ west_african_roog_house_of_worship:0 "santuario"
+ west_african_roog_house_of_worship_2:0 "il $west_african_roog_house_of_worship$" # Optional translation alt
+ west_african_roog_house_of_worship_3:0 "$west_african_roog_house_of_worship$" # Optional translation alt
+ west_african_roog_house_of_worship_plural:0 "santuari"
+ west_african_roog_religious_symbol:0 "taana"
+ west_african_roog_religious_symbol_2:0 "$west_african_roog_religious_symbol$" # Optional translation alt
+ west_african_roog_religious_symbol_3:0 "$west_african_roog_religious_symbol$" # Optional translation alt
+ west_african_roog_religious_head_title:0 "Capo Saltigue"
+ west_african_roog_priest:0 "saltigue"
+ west_african_roog_priest_plural:0 "saltigue"
+ west_african_roog_afterlife:0 "Jaaniiw"
+ west_african_roog_afterlife_2:0 "$west_african_roog_afterlife$" # Optional translation alt
+ west_african_roog_afterlife_3:0 "$west_african_roog_afterlife$" # Optional translation alt
+
+ roog_sene_creator_god_name:0 "$west_african_roog_high_god_name$"
+ roog_sene_creator_god_name_possessive:0 "$west_african_roog_high_god_name_possessive$"
+ roog_sene_health_god_name:0 "il Pangool"
+ roog_sene_health_god_name_possessive:0 "di Pangool"
+ roog_sene_fertility_god_name:0 "$roog_sene_health_god_name$"
+ roog_sene_fertility_god_name_possessive:0 "$roog_sene_health_god_name_possessive$"
+ roog_sene_wealth_god_name:0 "Tiurakh"
+ roog_sene_wealth_god_name_possessive:0 "di Tiurakh"
+ roog_sene_household_god_name:0 "$roog_sene_health_god_name$"
+ roog_sene_household_god_name_possessive:0 "$roog_sene_health_god_name_possessive$"
+ roog_sene_fate_god_name:0 "$roog_sene_health_god_name$"
+ roog_sene_fate_god_name_possessive:0 "$roog_sene_health_god_name_possessive$"
+ roog_sene_knowledge_god_name:0 "$roog_sene_health_god_name$"
+ roog_sene_knowledge_god_name_possessive:0 "$roog_sene_health_god_name_possessive$"
+ roog_sene_war_god_name:0 "Takhar"
+ roog_sene_war_god_name_possessive:0 "di Takhar"
+ roog_sene_trickster_god_name:0 "$roog_sene_health_god_name$"
+ roog_sene_trickster_god_name_possessive:0 "$roog_sene_health_god_name_possessive$"
+ roog_sene_night_god_name:0 "$roog_sene_health_god_name$"
+ roog_sene_night_god_name_possessive:0 "$roog_sene_health_god_name_possessive$"
+ roog_sene_water_god_name:0 "Mendiss"
+ roog_sene_water_god_name_possessive:0 "di Mendiss"
+
+ west_african_roog_pagan:0 "Roog Sene"
+ west_african_roog_pagan_adj:0 "Roogana"
+ west_african_roog_pagan_adherent:0 "Roogano"
+ west_african_roog_pagan_adherent_plural:0 "Roogani"
+
+ west_african_roog_pagan_old:0 "Antico Roog Sene"
+ west_african_roog_pagan_old_adj:0 "Antico Roogana"
+ west_african_roog_pagan_old_adherent:0 "Antico Roogano"
+ west_african_roog_pagan_old_adherent_plural:0 "Antico Roogani"
+
+ # Waaqism
+ waaqism_religion:1 "Oromo-Somali"
+ waaqism_religion_adj:1 "Oromo-Somali"
+ waaqism_religion_adherent:1 "Oromo-Somali"
+ waaqism_religion_adherent_plural:1 "Oromo-Somali"
+ waaqism_religion_desc:0 "Il mondo è governato da molte divinità, ma tutte sono soggette a quella più elevata, Waaq, il dio del cielo. La pioggia e la vita ci vengono portate dall'alto."
+
+ waaqism_high_god_name:0 "Waaq"
+ waaqism_high_god_name_2:0 "$waaqism_high_god_name$" # Optional translation alt
+ waaqism_high_god_name_possessive:0 "di Waaq"
+ waaqism_high_god_name_alternate:0 "Eebo"
+ waaqism_high_god_name_alternate_possessive:0 "di Eebo"
+ waaqism_health_god_name:0 "Bucur Bacayr"
+ waaqism_health_god_name_possessive:0 "di Bucur Bacayr"
+ waaqism_fertility_god_name:0 "l'Ayanlee"
+ waaqism_fertility_god_name_possessive:0 "di Ayanlee"
+ waaqism_household_god_name:0 "Huur"
+ waaqism_household_god_name_possessive:0 "di Huur"
+ waaqism_fate_god_name:0 "Nidar"
+ waaqism_fate_god_name_possessive:0 "di Nidar"
+ waaqism_knowledge_god_name:0 "Biriir ina Barqo"
+ waaqism_knowledge_god_name_possessive:0 "di Biriir ina Barqo"
+ waaqism_war_god_name:0 "Wiilwaal"
+ waaqism_war_god_name_possessive:0 "di Wiilwaal"
+ waaqism_trickster_god_name:0 "Qori Ismaris"
+ waaqism_trickster_god_name_possessive:0 "di Qori Ismaris"
+ waaqism_night_god_name:0 "Dhegdheer"
+ waaqism_night_god_name_possessive:0 "di Dhegdheer"
+ waaqism_devil_name:0 "Habbad ina Kamas"
+ waaqism_devil_name_possessive:0 "di Habbad ina Kamas"
+
+ waaqism_house_of_worship:0 "taalo"
+ waaqism_house_of_worship_2:0 "il $waaqism_house_of_worship$" # Optional translation alt
+ waaqism_house_of_worship_3:0 "$waaqism_house_of_worship$" # Optional translation alt
+ waaqism_house_of_worship_plural:0 "taalo"
+ waaqism_religious_symbol:0 "albero odaa"
+ waaqism_religious_symbol_2:0 "$waaqism_religious_symbol$" # Optional translation alt
+ waaqism_religious_symbol_3:0 "$waaqism_religious_symbol$" # Optional translation alt
+ waaqism_religious_head_title:0 "Yaayyaa"
+ waaqism_religious_head_title_name:0 "Handuuraa"
+ waaqism_priest:0 "wadaad"
+ waaqism_priest_plural:0 "wadaad"
+ waaqism_high_priest:0 "sommo waddad"
+ waaqism_high_priest_plural:0 "sommi waddad"
+ waaqism_divine_realm:0 "il cielo"
+ waaqism_divine_realm_2:0 "$waaqism_divine_realm$" # Optional translation alt
+ waaqism_divine_realm_3:0 "$waaqism_divine_realm$" # Optional translation alt
+ waaqism_afterlife:0 "l'ombra del sicomoro"
+ waaqism_afterlife_2:0 "$waaqism_afterlife$" # Optional translation alt
+ waaqism_afterlife_3:0 "$waaqism_afterlife$" # Optional translation alt
+
+ waaqism_pagan:0 "Waaqismo"
+ waaqism_pagan_adj:0 "Waaqi"
+ waaqism_pagan_adherent:0 "Waaqista"
+ waaqism_pagan_adherent_plural:0 "Waaqisti"
+
+ waaqism_pagan_old:0 "Antico Waaqismo"
+ waaqism_pagan_old_adj:0 "Antico Waaqista"
+ waaqism_pagan_old_adherent:0 "Antico Waaqista"
+ waaqism_pagan_old_adherent_plural:0 "Antichi Waaqisti"
+
+ # Akom
+ akom_religion:1 "Akan"
+ akom_religion_adj:1 "Akan"
+ akom_religion_adherent:1 "Akan"
+ akom_religion_adherent_plural:1 "Akani"
+ akom_religion_desc:0 "Le varie fedi dei popoli Akan adorano i figli del creatore e della madre Terra."
+ 
+ akom_high_god_name:0 "Nyame"
+ akom_high_god_name_2:0 "$akom_high_god_name$" # Optional translation alt
+ akom_high_god_name_possessive:0 "di Nyame"
+ akom_high_god_name_alternate:0 "il Creatore"
+ akom_high_god_name_alternate_possessive:0 "del Creatore"
+ akom_health_god_name:0 "Asase Yaa"
+ akom_health_god_name_possessive:0 "di Asase Yaa"
+ akom_fertility_god_name:0 "Esi Ketewaa"
+ akom_fertility_god_name_possessive:0 "di Esi Ketewaa"
+ akom_wealth_god_name:0 "Akonedi"
+ akom_wealth_god_name_possessive:0 "di Akonedi"
+ akom_knowledge_god_name:0 "Anansi"
+ akom_knowledge_god_name_possessive:0 "di Anansi"
+ akom_war_god_name:0 "Adade Kofi"
+ akom_war_god_name_possessive:0 "di Adade Kofi"
+ akom_night_god_name:0 "Bia"
+ akom_night_god_name_possessive:0 "di Bia"
+ akom_water_god_name:0 "Tano"
+ akom_water_god_name_possessive:0 "di Tano"
+
+ akom_the_abosom:0 "l'Abosom"
+ akom_the_abosom_2:0 "$akom_the_abosom$" # Optional translation alt
+ akom_the_abosom_3:0 "$akom_the_abosom$" # Optional translation alt
+ akom_the_nsamanfo:0 "gli Nsamanfo"
+ akom_gye_nyame:0 "Gye Nyame"
+ akom_gye_nyame_2:0 "$akom_gye_nyame$" # Optional translation alt
+ akom_gye_nyame_3:0 "$akom_gye_nyame$" # Optional translation alt
+ akom_religious_head_nsoroma:0 "Nsoroma"
+ akom_high_priest:0 "Alto Sciamano"
+ akom_high_priest_plural:0 "Alti Sciamani"
+ akom_divine_realm:0 "il Cielo"
+ akom_divine_realm_2:0 "$akom_divine_realm$" # Optional translation alt
+ akom_divine_realm_3:0 "$akom_divine_realm$" # Optional translation alt
+ akom_afterlife:0 "tra gli Nsamanfo"
+ akom_afterlife_2:0 "$akom_afterlife$" # Optional translation alt
+ akom_afterlife_3:0 "$akom_afterlife$" # Optional translation alt
+
+ akom_pagan:0 "Akom"
+ akom_pagan_adj:0 "Akom"
+ akom_pagan_adherent:0 "Akomista"
+ akom_pagan_adherent_plural:0 "Akomisti"
+
+ akom_pagan_old:0 "Antico Akom"
+ akom_pagan_old_adj:0 "Antica Akomista"
+ akom_pagan_old_adherent:0 "Antico Akomista"
+ akom_pagan_old_adherent_plural:0 "Antichi Akanisti"
+
+ # Youruba
+ west_african_orisha_religion:1 "Yoruba"
+ west_african_orisha_religion_adj:1 "Yoruba"
+ west_african_orisha_religion_adherent:2 "Yoruba"
+ west_african_orisha_religion_adherent_plural:2 "Yoruba"
+ west_african_orisha_religion_desc:1 "Sebbene abbia creato l'universo, l'alto dio del pantheon yoruba rimane lontano dagli affari dei mortali. I praticanti invece pregano gli òrìṣà, innumerevoli spiriti inviati dalle divinità superiori per guidare l'umanità lungo il percorso prescelto."
+ 
+ yoruba_high_god_name:0 "Ọlọrun"
+ yoruba_high_god_name_2:0 "$yoruba_high_god_name$" # Optional translation alt
+ yoruba_high_god_name_possessive:0 "di Ọlọrun"
+ yoruba_high_god_name_alternate:0 "Il Sovrano Assoluto"
+ yoruba_high_god_name_alternate_possessive:0 "del Sovrano Assoluto"
+ yoruba_death_deity_name:0 "Egungun"
+ yoruba_death_deity_name_possessive:0 "di Egungun"
+ yoruba_religious_symbol:0 "ori"
+ yoruba_religious_symbol_2:0 "$yoruba_religious_symbol$" # Optional translation alt
+ yoruba_religious_symbol_3:0 "$yoruba_religious_symbol$" # Optional translation alt
+ yoruba_religious_text:0 "sacre storie"
+ yoruba_religious_text_2:0 "$yoruba_religious_text$" # Optional translation alt
+ yoruba_religious_text_3:0 "$yoruba_religious_text$" # Optional translation alt
+ yoruba_devil_name:0 "Ajogun"
+ yoruba_devil_name_possessive:0 "di Ajogun"
+ yoruba_the_orisa:0 "gli òrìṣà"
+ yoruba_the_orisa_2:0 "$yoruba_the_orisa$" # Optional translation alt
+ yoruba_the_orisa_3:0 "$yoruba_the_orisa$" # Optional translation alt
+ yoruba_divine_realm:0 "Paradiso"
+ yoruba_divine_realm_2:0 "$yoruba_divine_realm$" # Optional translation alt
+ yoruba_divine_realm_3:0 "$yoruba_divine_realm$" # Optional translation alt
+ yoruba_afterlife:0 "$yoruba_divine_realm$"
+ yoruba_afterlife_2:0 "$yoruba_divine_realm_2$" # Optional translation alt
+ yoruba_afterlife_3:0 "$yoruba_divine_realm_3$" # Optional translation alt
+ witchgodname_yoruba_heka:0 "$yoruba_night_god_name$"
+ witchgodname_yoruba_heka_possessive:0 "$yoruba_night_god_name_possessive$"
+
+ yoruba_creator_god_name:0 "Olodumare"
+ yoruba_creator_god_name_possessive:0 "di Olodumare"
+ yoruba_health_god_name:0 "Obaluaye"
+ yoruba_health_god_name_possessive:0 "di Obaluaye"
+ yoruba_fertility_god_name:0 "Oronsen"
+ yoruba_fertility_god_name_possessive:0 "di Oronsen"
+ yoruba_wealth_god_name:0 "Oshosi"
+ yoruba_wealth_god_name_possessive:0 "di Oshosi"
+ yoruba_household_god_name:0 "Ọbà"
+ yoruba_household_god_name_possessive:0 "di Ọbà"
+ yoruba_knowledge_god_name:0 "Ọrunmila"
+ yoruba_knowledge_god_name_possessive:0 "di Ọrunmila"
+ yoruba_fate_god_name:0 "$paganism_fate_god_name$"
+ yoruba_fate_god_name_possessive:0 "$paganism_fate_god_name_possessive$"
+ yoruba_war_god_name:0 "Ogun"
+ yoruba_war_god_name_possessive:0 "di Ogun"
+ yoruba_trickster_god_name:0 "$yoruba_devil_name$"
+ yoruba_trickster_god_name_possessive:0 "$yoruba_devil_name_possessive$"
+ yoruba_night_god_name:0 "Ọya"
+ yoruba_night_god_name_possessive:0 "di Ọya"
+ yoruba_water_god_name:0 "Olokun"
+ yoruba_water_god_name_possessive:0 "di Olokun"
+
+ west_african_orisha_pagan:0 "Orisa"
+ west_african_orisha_pagan_adj:0 "Orisana"
+ west_african_orisha_pagan_adherent:0 "Orisano"
+ west_african_orisha_pagan_adherent_plural:0 "Orisani"
+ west_african_orisha_pagan_old:0 "Antico Orisa"
+ west_african_orisha_pagan_old_adj:0 "Antico Orisana"
+ west_african_orisha_pagan_old_adherent:0 "Antico Orisano"
+ west_african_orisha_pagan_old_adherent_plural:0 "Antichi Orisani"
+
+ # Kushitism
+ kushitism_religion:1 "Kordofan"
+ kushitism_religion_adj:1 "Kordofaniana"
+ kushitism_religion_adherent:1 "Kordofaniano"
+ kushitism_religion_adherent_plural:1 "Kordofaniani"
+ kushitism_religion_desc:0 "La venerazione degli antichi dei rimane forte qui, così come l'adorazione del confine tra la vita e la morte."
+
+
+ kushitism_high_god_name:0 "Wepwawet"
+ kushitism_high_god_name_2:0 "$kushitism_high_god_name$" # Optional translation alt
+ kushitism_high_god_name_possessive:0 "di Wepwawet"
+ kushitism_high_god_name_alternate:0 "l'Apritore della Via"
+ kushitism_high_god_name_alternate_possessive:0 "dell'Apritore della Via"
+ paganism_evil_god_chaos:0 "Chaos"
+ kushitism_death_deity_name:0 "$kushitism_high_god_name$"
+ kushitism_death_deity_name_possessive:0 "$kushitism_high_god_name_possessive$"
+ kushitism_religious_symbol:0 "Djed"
+ kushitism_religious_symbol_2:0 "$kushitism_religious_symbol$" # Optional translation alt
+ kushitism_religious_symbol_3:0 "$kushitism_religious_symbol$" # Optional translation alt
+ kushitism_religious_text:0 "pietre sacre"
+ kushitism_divine_realm:0 "Duat"
+ kushitism_divine_realm_2:0 "$kushitism_divine_realm$" # Optional translation alt
+ kushitism_divine_realm_3:0 "$kushitism_divine_realm$" # Optional translation alt
+ kushitism_devil_name:0 "Apep"
+ kushitism_devil_name_possessive:0 "di Apep"
+ witchgodname_kushitism_heka:0 "$kushitism_health_god_name$"
+ witchgodname_kushitism_heka_possessive:0 "$kushitism_health_god_name_possessive$"
+
+ kushitism_creator_god_name:0 "il Ḫmnyw"
+ kushitism_creator_god_name_possessive:0 "del Ḫmnyw"
+ kushitism_health_god_name:0 "Heka"
+ kushitism_health_god_name_possessive:0 "di Heka"
+ kushitism_fertility_god_name:0 "Min"
+ kushitism_fertility_god_name_possessive:0 "di Min"
+ kushitism_wealth_god_name:0 "Nepri"
+ kushitism_wealth_god_name_possessive:0 "di Nepri"
+ kushitism_household_god_name:0 "Nekhbet"
+ kushitism_household_god_name_possessive:0 "di Nekhbet"
+ kushitism_fate_god_name:0 "Shai"
+ kushitism_fate_god_name_possessive:0 "di Shai"
+ kushitism_knowledge_god_name:0 "Arensnuphis"
+ kushitism_knowledge_god_name_possessive:0 "di Arensnuphis"
+ kushitism_war_god_name:0 "$kushitism_high_god_name$"
+ kushitism_war_god_name_possessive:0 "$kushitism_high_god_name_possessive$"
+ kushitism_trickster_god_name:0 "$kushitism_devil_name$"
+ kushitism_trickster_god_name_possessive:0 "$kushitism_devil_name_possessive$"
+ kushitism_night_god_name:0 "Iah"
+ kushitism_night_god_name_possessive:0 "di Iah"
+ kushitism_water_god_name:0 "Tefnut"
+ kushitism_water_god_name_possessive:0 "di Tefnut"
+
+
+ kushitism_pagan:0 "Kushitismo"
+ kushitism_pagan_adj:0 "Kushite"
+ kushitism_pagan_adherent:0 "Kushitista"
+ kushitism_pagan_adherent_plural:1 "Kushitisti"
+
+ kushitism_pagan_old:0 "Antico Kushitismo"
+ kushitism_pagan_old_adj:0 "Antico Kushita"
+ kushitism_pagan_old_adherent:0 "Antico Kushitista"
+ kushitism_pagan_old_adherent_plural:0 "Antichi Kushitistsi"
+
+ #Tengrism
+ tengrism_religion:1 "Sciamanesimo"
+ tengrism_religion_adj:1 "Sciamanica"
+ tengrism_religion_adherent:1 "Sciamanista"
+ tengrism_religion_adherent_plural:1 "Sciamanisti"
+ tengrism_religion_desc:0 "I tengristi considerano la loro esistenza sostenuta da Tengri, l'eterno cielo blu, e da Eje, la fertile madre terra. Ci si aspetta che gli aderenti mantengano il mondo in equilibrio conducendo una vita retta e rispettosa; l'inganno e la sovversività sono altamente stigmatizzati."
+
+ tengrism_high_god_name:0 "Tengri"
+ tengrism_high_god_name_2:0 "$tengrism_high_god_name$" # Optional translation alt
+ tengrism_high_god_name_3:0 "$tengrism_high_god_name$" # Optional translation alt
+ tengrism_high_god_name_possessive:0 "di Tengri"
+ tengrism_high_god_name_alternate:0 "Padre Celeste"
+ tengrism_high_god_name_alternate_possessive:0 "del Padre Celeste"
+ tengrism_good_god_eje:0 "Eje"
+ tengrism_good_god_ulgen:0 "Ülgen"
+ tengrism_devil_name:0 "Erlik"
+ tengrism_devil_name_possessive:0 "di Erlik"
+ tengrism_evil_god_karash:0 "Karash Han"
+ tengrism_evil_god_shyngay:0 "Shyngay Han"
+ tengrism_evil_god_komur:0 "Komur Han"
+ tengrism_evil_god_badysh:0 "Badysh Han"
+ tengrism_evil_god_yabash:0 "Yabash Han"
+ tengrism_evil_god_kerey:0 "Kerey Han"
+ tengrism_death_deity_name:1 "$tengrism_devil_name$"
+ tengrism_death_deity_name_possessive:0 "$tengrism_devil_name_possessive$"
+ tengrism_religious_symbol:0 "Mezzaluna Tengri"
+ tengrism_religious_symbol_2:0 "$tengrism_religious_symbol$" # Optional translation alt
+ tengrism_religious_symbol_3:0 "$tengrism_religious_symbol$" # Optional translation alt
+ tengrism_religious_text:0 "grandi legende"
+ tengrism_religious_text_2:0 "$tengrism_religious_text$" # Optional translation alt
+ tengrism_religious_text_3:0 "$tengrism_religious_text$" # Optional translation alt
+ tengrism_divine_realm:0 "Eterno Cielo Blu"
+ tengrism_divine_realm_2:0 "$tengrism_divine_realm$" # Optional translation alt
+ tengrism_divine_realm_3:0 "$tengrism_divine_realm$" # Optional translation alt
+ tengrism_afterlife_negative:0 "Tamag"
+ tengrism_afterlife_negative_2:0 "$tengrism_afterlife_negative$" # Optional translation alt
+ tengrism_afterlife_negative_3:0 "$tengrism_afterlife_negative$" # Optional translation alt
+ witchgodname_tengrism_the_irshi:0 "l'Irshi"
+ witchgodname_tengrism_the_irshi_possessive:0 "del'Irshi"
+
+ tengrism_creator_god_name:0 "Ülgen"
+ tengrism_creator_god_name_possessive:0 "di Ülgen"
+ tengrism_health_god_name:0 "Karshyt Han"
+ tengrism_health_god_name_possessive:0 "di Karshyt Han"
+ tengrism_fertility_god_name:0 "Yashyl Han"
+ tengrism_fertility_god_name_possessive:0 "di Yashyl Han"
+ tengrism_wealth_god_name:0 "Burcha Han"
+ tengrism_wealth_god_name_possessive:0 "di Burcha Han"
+ tengrism_household_god_name:0 "$tengrism_high_god_name$"
+ tengrism_household_god_name_possessive:0 "$tengrism_high_god_name_possessive$"
+ tengrism_fate_god_name:0 "$paganism_fate_god_name$"
+ tengrism_fate_god_name_possessive:0 "$paganism_fate_god_name_possessive$"
+ tengrism_knowledge_god_name:0 "$tengrism_creator_god_name$"
+ tengrism_knowledge_god_name_possessive:0 "$tengrism_creator_god_name_possessive$"
+ tengrism_war_god_name:0 "$tengrism_high_god_name$"
+ tengrism_war_god_name_possessive:0 "$tengrism_high_god_name_possessive$"
+ tengrism_trickster_god_name:0 "$tengrism_devil_name$"
+ tengrism_trickster_god_name_possessive:0 "$tengrism_devil_name_possessive$"
+ tengrism_night_god_name:0 "$tengrism_high_god_name$"
+ tengrism_night_god_name_possessive:0 "$tengrism_high_god_name_possessive$"
+ tengrism_water_god_name:0 "$tengrism_high_god_name$"
+ tengrism_water_god_name_possessive:0 "$tengrism_high_god_name_possessive$"
+
+ tengri_pagan:1 "Tengrismo"
+ tengri_pagan_adj:0 "Tengri"
+ tengri_pagan_adherent:1 "Tengrinista"
+ tengri_pagan_adherent_plural:1 "Tengrinisti"
+
+ tengri_pagan_old:1 "Antico Tengrismo"
+ tengri_pagan_old_adj:1 "Antico Tengrinista"
+ tengri_pagan_old_adherent:1 "Antico Tengrinista"
+ tengri_pagan_old_adherent_plural:1 "Antichi Tengrinisti"
+
+ #Magyarism
+ magyar_religion:2 "Uralico"
+ magyar_religion_adj:2 "Uralica"
+ magyar_religion_adherent:2 "Uralico"
+ magyar_religion_adherent_plural:2 "Uralici"
+ magyar_religion_desc:1 "Nella fede nativa di $mogyer$ ogni Táltos, o sacerdote, è scelto dagli dei prima della loro nascita. Dotato di forza, saggezza e poteri sovrumani, $mogyer_collective_noun$ affida a questi Táltos la protezione delle loro comunità e la guida alla prosperità."
+
+ magyar_high_god_name:0 "Isten"
+ magyar_high_god_name_2:0 "$magyar_high_god_name$" # Optional translation alt
+ magyar_high_god_name_possessive:0 "di Isten"
+ magyar_good_god_arany:0 "Arany Atyácska"
+ magyar_good_god_hajnal:0 "Hajnal Anyácska"
+ magyar_good_god_napkiraly:0 "Napkirály"
+ magyar_good_god_boldogasszony:0 "Boldogasszony"
+ magyar_good_god_hadur:0 "Hadúr"
+ magyar_devil_name:0 "Ördög"
+ magyar_devil_name_possessive:0 "di Ördög"
+ magyar_evil_god_baba_yaga:0 "Bába Yaga"
+ magyar_evil_god_boszorkany:0 "Boszorkány"
+ magyar_evil_god_fene:0 "Fene"
+ magyar_death_deity_name:1 "$magyar_devil_name$"
+ magyar_death_deity_name_possessive:0 "$magyar_devil_name_possessive$"
+ magyar_house_of_worship:0 "egyház"
+ magyar_house_of_worship_2:0 "l'$magyar_house_of_worship$" # Optional translation alt
+ magyar_house_of_worship_3:0 "$magyar_house_of_worship$" # Optional translation alt
+ magyar_house_of_worship_plural:0 "egyházak"
+ magyar_religious_symbol:0 "albero della vita"
+ magyar_religious_symbol_2:0 "$magyar_religious_symbol$" # Optional translation alt
+ magyar_religious_symbol_3:0 "$magyar_religious_symbol$" # Optional translation alt
+ magyar_religious_text:0 "miti poetici"
+ magyar_religious_head_title:0 "Capo Táltos"
+ magyar_priest:0 "táltos"
+ magyar_priest_plural:0 "taltos"
+ magyar_divine_realm:0 "Menny"
+ magyar_divine_realm_2:0 "$magyar_divine_realm$" # Optional translation alt
+ magyar_divine_realm_3:0 "$magyar_divine_realm$" # Optional translation alt
+ magyar_afterlife:0 "Pokol"
+magyar_afterlife_2:0 "$magyar_afterlife$" # Optional translation alt
+ magyar_afterlife_3:0 "$magyar_afterlife$" # Optional translation alt
+ witchgod_magyar_szelanya:0 "Szélanya"
+ witchgod_magyar_szelanya_possessive:0 "di Szélanya"
+
+ magyar_creator_god_name:0 "$magyar_high_god_name$"
+ magyar_creator_god_name_possessive:0 "$magyar_high_god_name_possessive$"
+ magyar_health_god_name:0 "$magyar_high_god_name$"
+ magyar_health_god_name_possessive:0 "$magyar_high_god_name_possessive$"
+ magyar_fertility_god_name:0 "Boldogasszony"
+ magyar_fertility_god_name_possessive:0 "di Boldogasszony"
+ magyar_wealth_god_name:0 "$magyar_high_god_name$"
+ magyar_wealth_god_name_possessive:0 "$magyar_high_god_name_possessive$"
+ magyar_household_god_name:0 "$magyar_high_god_name$"
+ magyar_household_god_name_possessive:0 "$magyar_high_god_name_possessive$"
+ magyar_fate_god_name:0 "$magyar_high_god_name$"
+ magyar_fate_god_name_possessive:0 "$magyar_high_god_name_possessive$"
+ magyar_knowledge_god_name:0 "$magyar_high_god_name$"
+ magyar_knowledge_god_name_possessive:0 "$magyar_high_god_name_possessive$"
+ magyar_war_god_name:0 "Hadúr"
+ magyar_war_god_name_possessive:0 "di Hadúr"
+ magyar_trickster_god_name:0 "$christianity_trickster_god_name$"
+ magyar_trickster_god_name_possessive:0 "$christianity_trickster_god_name_possessive$"
+ magyar_night_god_name:0 "Hold Atya"
+ magyar_night_god_name_possessive:0 "di Hold Atya"
+ magyar_water_god_name:0 "Su Ata"
+ magyar_water_god_name_possessive:0 "di Su Ata"
+
+ magyar_pagan:1 "Táltosismo"
+ magyar_pagan_adj:1 "Táltosista"
+ magyar_pagan_adherent:1 "Táltosista"
+ magyar_pagan_adherent_plural:1 "Táltosisti"
+
+ magyar_pagan_old:1 "Antico $magyar_pagan$"
+ magyar_pagan_old_adj:1 "Antico $magyar_pagan_adj$"
+ magyar_pagan_old_adherent:1 "Antico $magyar_pagan_adherent$"
+ magyar_pagan_old_adherent_plural:1 "Antichi $magyar_pagan_adherent_plural$"
+
+ #Bon
+ bon_religion:1 "Tibetano"
+ bon_religion_adj:1 "Tibetana"
+ bon_religion_adherent:1 "Tibetano"
+ bon_religion_adherent_plural:1 "Tibetani"
+ bon_religion_desc:1 "Bön è un'antica religione sciamanica originaria della regione del Tibet. È caratterizzata da meditazione, rituali mistici e una forte fede nello spiritualismo animistico."
+
+ bon_high_god_name:0 "Sangpo Bumtri"
+ bon_high_god_name_2:0 "$bon_high_god_name$" # Optional translation alt
+ bon_high_god_name_possessive:0 "di Sangpo Bumtri"
+ bon_high_god_name_alternate:0 "La Causa Ultima"
+ bon_high_god_name_alternate_possessive:0 "della Causa Ultima"
+ bon_good_god_gyalpo_pehar:0 "Gyalpo Pehar"
+ bon_devil_name:0 "Shinje"
+ bon_devil_name_possessive:0 "di Shinje"
+ bon_evil_god_shinje:0 "Shinje"
+ bon_evil_god_shinje_possessive:0 "di Shinje"
+ bon_evil_god_yami:0 "Yami"
+ bon_religious_symbol:0 "yungdrung"
+ bon_religious_symbol_2:0 "$bon_religious_symbol$" # Optional translation alt
+ bon_religious_symbol_3:0 "$bon_religious_symbol$" # Optional translation alt
+ bon_religious_head_title:0 "Menri Trizin"
+ bon_religious_head_title_name:0 "$bon_religious_head_title$"
+ bon_divine_realm:0 "Sumeru"
+ bon_divine_realm_2:0 "$bon_divine_realm$" # Optional translation alt
+ bon_divine_realm_3:0 "$bon_divine_realm$" # Optional translation alt
+ bon_afterlife_positive:0 "Tagzig Olmo Lung Ring"
+ bon_afterlife_positive_2:0 "$bon_afterlife_positive$" # Optional translation alt
+ bon_afterlife_positive_3:0 "$bon_afterlife_positive$" # Optional translation alt
+ bon_afterlife_negative:0 "Myalba"
+ bon_afterlife_negative_2:0 "$bon_afterlife_negative$" # Optional translation alt
+ bon_afterlife_negative_3:0 "$bon_afterlife_negative$" # Optional translation alt
+ bon_death_deity_name:0 "$bon_devil_name$"
+ bon_death_deity_possessive_name:0 "$bon_devil_name_possessive$"
+ witchgodname_bon_sidpa_gyalmo:0 "Sidpa Gyalmo"
+ witchgodname_bon_sidpa_gyalmo_possessive:0 "di Sidpa Gyalmo"
+ 
+ bon_devotee_male:1 "Gelongma"
+ bon_devotee_male_plural:1 "Gelongma"
+ bon_devotee_female:0 "$bon_devotee_male$"
+ bon_devotee_female_plural:0 "$bon_devotee_male_plural$"
+ bon_devotee_neuter:0 "$bon_devotee_male$"
+ bon_devotee_neuter_plural:0 "$bon_devotee_male_plural$"
+ bon_priest_male:0 "Pawo"
+ bon_priest_male_plural:0 "Pawo"
+ bon_priest_female:0 "$bon_priest_male$"
+ bon_priest_female_plural:0 "$bon_priest_male_plural$"
+ bon_priest_neuter:0 "$bon_priest_male$"
+ bon_priest_neuter_plural:0 "$bon_priest_male_plural$"
+
+ bon_creator_god_name:0 "$bon_high_god_name$"
+ bon_creator_god_name_possessive:0 "$bon_high_god_name_possessive$"
+ bon_health_god_name:0 "Tsewang Rigzin"
+ bon_health_god_name_possessive:0 "di Tsewang Rigzin"
+ bon_fertility_god_name:0 "Satrig Ersang"
+ bon_fertility_god_name_possessive:0 "di Satrig Ersang"
+ bon_wealth_god_name:0 "Zamba Lha"
+ bon_wealth_god_name_possessive:0 "di Zamba Lha"
+ bon_household_god_name:0 "Tonpa Shenrab Miwoche"
+ bon_household_god_name_possessive:0 "di Tonpa Shenrab Miwoche"
+ bon_fate_god_name:0 "le"
+ bon_fate_god_name_possessive:0 "di le"
+ bon_knowledge_god_name:0 "Shenlha Odkar"
+ bon_knowledge_god_name_possessive:0 "di Shenlha Odkar"
+ bon_war_god_name:0 "Yeshe Walmo"
+ bon_war_god_name_possessive:0 "di Yeshe Walmo"
+ bon_trickster_god_name:0 "Gyalpo Pehar"
+ bon_trickster_god_name_possessive:0 "di Gyalpo Pehar"
+ bon_night_god_name:0 "Düza Minkar"
+ bon_night_god_name_possessive:0 "di Düza Minkar"
+ bon_water_god_name:0 "Kunzang Akor"
+ bon_water_god_name_possessive:0 "di Kunzang Akor"
+
+ bon:0 "Gyur Bön"
+ #^lit. "transformed Bon" (bsgyur bon)
+ bon_adj:0 "Gyur Bönpo"
+ bon_adherent:0 "Gyur Bönpo"
+ bon_adherent_plural:0 "Gyur Bönpo"
+ bon_desc:0 "Gyur Bön o "Bön trasformato" è una tradizione spirituale fondata da Shenchen Luga che si è evoluta parallelamente alle tradizioni buddiste del Tibet, sviluppandosi dai movimenti esoterici che hanno predominato l'Era della Frammentazione."
+
+ old_bon:0 "Khyarwé Bön"
+ #^lit. "erring Bon" ('khyar ba'i bon)
+ old_bon_adj:0 "Khyarwé Bönpo"
+ old_bon_adherent:0 "Khyarwé Bönpo"
+ old_bon_adherent_plural:0 "Khyarwé Bonpo"
+ old_bon_desc:0 "Khyarwé Bön o "Bön errato" è la fede indigena della regione tibetana. Le credenze esatte variavano da luogo a luogo, ma il ritualismo, le offerte sacrificali e le credenze animistiche erano comuni tra i credenti."
+
+ old_bon_old:0 "Antico Khyarwé Bön"
+ old_bon_old_adj:0 "Antico Khyarwé Bönpo"
+ old_bon_old_adherent:0 "Antico Khyarwé Bönpo"
+ old_bon_old_adherent_plural:0 "Antichi Khyarwé Bonpo"
+ old_bon_old_desc:0 "Khyarwé Bön o "Bön errato" è la fede indigena della regione tibetana. Le credenze esatte variavano da luogo a luogo, ma il ritualismo, le offerte sacrificali e le credenze animistiche erano comuni tra i credenti."
+
+ #Zunism
+ zunism_religion:1 "Zunbil"
+ zunism_religion_adj:1 "Zunbil"
+ zunism_religion_adherent:1 "Zunbil"
+ zunism_religion_adherent_plural:1 "Zunbil"
+ zunism_religion_desc:0 "Istituito dalla dinastia Zunbil, gli zunisti riveriscono e lodano il sole perché conferisce la sua generosità alla superficie della terra."
+
+ zunism_high_god_name:0 "Zun"
+ zunism_high_god_name_2:0 "$zunism_high_god_name$" # Optional translation alt
+ zunism_high_god_name_3:0 "$zunism_high_god_name$" # Optional translation alt
+ zunism_high_god_name_possessive:0 "di Zun"
+ zunism_high_god_name_alternate:0 "Il Sole"
+ zunism_high_god_name_alternate_possessive:0 "del Sole"
+ zunism_devil_name:0 "Oscurità"
+ zunism_devil_name_possessive:0 "dell'Oscurità'"
+ zunism_religious_symbol:0 "sole"
+ zunism_religious_symbol_2:0 "$zunism_religious_symbol$" # Optional translation alt
+ zunism_religious_symbol_3:0 "$zunism_religious_symbol$" # Optional translation alt
+ zunism_religious_head_title:0 "Sommo sacerdote"
+ zunism_religious_head_title_name:0 "Sommo Sacerdozio"
+ zunism_divine_realm:0 "il Cieli"
+ zunism_divine_realm_2:0 "$zunism_divine_realm$" # Optional translation alt
+ zunism_divine_realm_3:0 "$zunism_divine_realm$" # Optional translation alt
+ zunism_afterlife_negative:0 "il vuoto"
+ zunism_afterlife_negative_2:0 "$zunism_afterlife_negative$" # Optional translation alt
+ zunism_afterlife_negative_3:0 "$zunism_afterlife_negative$" # Optional translation alt
+ witchgodname_zunism_twilight:0 "il Crepuscolo"
+ witchgodname_zunism_twilight_possessive:0 "del Crepuscolo"
+ witchgodherhis_its:0 "suo"
+ witchgodshehe_it:0 "esso"
+ witchgodherhim_it:0 "esso"
+ witch_mistress:0 "$mistress$"
+ witch_master:0 "$master$"
+ witch_mother:0 "$mother$"
+ witch_father:0 "$father$"
+
+ zunism_creator_god_name:0 "$zunism_high_god_name$"
+ zunism_creator_god_name_possessive:0 "$zunism_high_god_name_possessive$"
+ zunism_health_god_name:0 "$zunism_high_god_name$"
+ zunism_health_god_name_possessive:0 "$zunism_high_god_name_possessive$"
+ zunism_fertility_god_name:0 "$zunism_high_god_name$"
+ zunism_fertility_god_name_possessive:0 "$zunism_high_god_name_possessive$"
+ zunism_wealth_god_name:0 "$zunism_high_god_name$"
+ zunism_wealth_god_name_possessive:0 "$zunism_high_god_name_possessive$"
+ zunism_household_god_name:0 "$zunism_high_god_name$"
+ zunism_household_god_name_possessive:0 "$zunism_high_god_name_possessive$"
+ zunism_fate_god_name:0 "$paganism_fate_god_name$"
+ zunism_fate_god_name_possessive:0 "$paganism_fate_god_name_possessive$"
+ zunism_knowledge_god_name:0 "$zunism_high_god_name$"
+ zunism_knowledge_god_name_possessive:0 "$zunism_high_god_name_possessive$"
+ zunism_war_god_name:0 "$zunism_high_god_name$"
+ zunism_war_god_name_possessive:0 "$zunism_high_god_name_possessive$"
+ zunism_trickster_god_name:0 "$christianity_trickster_god_name$"
+ zunism_trickster_god_name_possessive:0 "$christianity_trickster_god_name_possessive$"
+ zunism_night_god_name:0 "$zunism_high_god_name$"
+ zunism_night_god_name_possessive:0 "$zunism_high_god_name_possessive$"
+ zunism_water_god_name:0 "$zunism_high_god_name$"
+ zunism_water_god_name_possessive:0 "$zunism_high_god_name_possessive$"
+
+ zun_pagan:0 "Zunismo"
+ zun_pagan_adj:0 "Zunista"
+ zun_pagan_adherent:0 "Zunista"
+ zun_pagan_adherent_plural:0 "Zunisti"
+
+ zun_pagan_old:0 "Antico Zunismo"
+ zun_pagan_old_adj:0 "Antico Zunista"
+ zun_pagan_old_adherent:0 "Antico Zunista"
+ zun_pagan_old_adherent_plural:0 "Antichi Zunisti"
+
+ #Hellenism
+ hellenism_religion:2 "Greco-Romana"
+ hellenism_religion_adj:2 "Greco-Romana"
+ hellenism_religion_adherent:2 "Greco-Romano"
+ hellenism_religion_adherent_plural:2 "Greco-Romani"
+ hellenism_religion_desc:0 "Gli ellenisti adorano gli antichi dei Greci e Romani, che si dice risiedano sul Monte Olimpo. Ogni dio ha i suoi aspetti ed è venerato dai suoi adoratori a modo suo."
+
+ hellenism_high_god_name:0 "Zeus"
+ hellenism_high_god_name_2:0 "$hellenism_high_god_name$" # Optional translation alt
+ hellenism_high_god_name_possessive:0 "di Zeus"
+ hellenism_high_god_name_alternate:0 "Il Tonante"
+ hellenism_high_god_name_alternate_possessive:0 "del Tonante"
+ hellenism_good_god_poseidon:0 "Poseidone"
+ hellenism_good_god_athena:0 "Atena"
+ hellenism_good_god_ares:0 "Ares"
+ hellenism_good_god_hera:0 "Hera"
+ hellenism_good_god_apollo:0 "Apollo"
+ hellenism_good_god_artemis:0 "Artemide"
+ hellenism_good_god_hermes:0 "Hermes"
+ hellenism_good_god_aphrodite:0 "Afrodite"
+ hellenism_devil_name:0 "Bacco"
+ hellenism_devil_name_possessive:0 "di Bacco"
+ hellenism_evil_god_menoetius:0 "Menezio"
+ hellenism_evil_god_erinyes:0 "le Erinni"
+ hellenism_priest_male:0 "Flamine"
+ hellenism_priest_male_plural:0 "Flamini"
+ hellenism_priest_female:0 "Vestale"
+ hellenism_priest_female_plural:0 "Vestali"
+ hellenism_priest_neuter:0 "Divinatore"
+ hellenism_priest_neuter_plural:0 "Divinatori"
+ hellenism_bishop_male:0 "Feziale"
+ hellenism_bishop_male_plural:0 "Feziali"
+ hellenism_death_deity_name:0 "Ade"
+ hellenism_death_deity_name_2:0 "$hellenism_death_deity_name$" # Optional translation alt
+ hellenism_death_deity_name_3:0 "$hellenism_death_deity_name$" # Optional translation alt
+ hellenism_death_deity_name_possessive:0 "di Ade"
+ hellenism_religious_symbol:0 "alloro"
+ hellenism_religious_symbol_2:0 "$hellenism_religious_symbol$" # Optional translation alt
+ hellenism_religious_symbol_3:0 "$hellenism_religious_symbol$" # Optional translation alt
+ hellenism_religious_text:0 "cronache sacre"
+ hellenism_religious_text_2:0 "$hellenism_religious_text$" # Optional translation alt
+ hellenism_religious_text_3:0 "$hellenism_religious_text$" # Optional translation alt
+ hellenism_religious_head_title:0 "Sommo Sacerdote"
+ hellenism_divine_realm:0 "Olimpo"
+ hellenism_divine_realm_2:0 "$hellenism_divine_realm$" # Optional translation alt
+ hellenism_divine_realm_3:0 "$hellenism_divine_realm$" # Optional translation alt
+ hellenism_witchgodname_hekate:0 "Ecate"
+ hellenism_witchgodname_hekate_possessive:0 "di Ecate"
+
+ hellenism_creator_god_name:0 "Gaia"
+ hellenism_creator_god_name_possessive:0 "di Gaia"
+ hellenism_health_god_name:0 "Asclepio"
+ hellenism_health_god_name_possessive:0 "di Asclepio"
+ hellenism_fertility_god_name:0 "Demetra"
+ hellenism_fertility_god_name_possessive:0 "di Demetra"
+ hellenism_wealth_god_name:0 "Ade"
+ hellenism_wealth_god_name_possessive:0 "di Ade"
+ hellenism_household_god_name:0 "Vesta"
+ hellenism_household_god_name_possessive:0 "di Vesta"
+ hellenism_fate_god_name:0 "Le Moire"
+ hellenism_fate_god_name_possessive:0 "delle Moire"
+ hellenism_knowledge_god_name:0 "Atena"
+ hellenism_knowledge_god_name_possessive:0 "di Atena"
+ hellenism_war_god_name:0 "Ares"
+ hellenism_war_god_name_possessive:0 "di Ares"
+ hellenism_trickster_god_name:0 "Hermes"
+ hellenism_trickster_god_name_possessive:0 "di Hermes"
+ hellenism_night_god_name:0 "Nyx"
+ hellenism_night_god_name_possessive:0 "di Nyx"
+ hellenism_water_god_name:0 "Poseidone"
+ hellenism_water_god_name_possessive:0 "di Poseidone"
+
+ hellenic_pagan:0 "Ellenismo"
+ hellenic_pagan_adj:0 "Ellenica"
+ hellenic_pagan_adherent:0 "Ellenista"
+ hellenic_pagan_adherent_plural:0 "Ellenisti"
+
+ hellenic_pagan_old:0 "Antico Ellenismo"
+ hellenic_pagan_old_adj:0 "Antico Ellenica"
+ hellenic_pagan_old_adherent:0 "Antico Ellenista"
+ hellenic_pagan_old_adherent_plural:0 "Antichi Ellenisti"
+ 
+#Siberian shamanism — Ob-Ugric-ish
+ siberian_religion:0 "Siberiana"
+ siberian_religion_adj:0 "Siberiana"
+ siberian_religion_adherent:0 "Siberiano"
+ siberian_religion_adherent_plural:0 "Siberiani"
+ siberian_religion_desc:0 "I siberiani credono in un mondo orizzontale dove uomini e bestie vivono tutti in clan, legati tra loro da alleanze o vendette. La caccia è una parte fondamentale dell'equilibrio tra prendere e dare la vita, e con la morte tutte le anime viaggiano a valle per reincarnarsi nel clan in cui hanno vissuto in precedenza."
+ 
+ siberian_high_god_name:1 "Numi-Turum"
+ siberian_high_god_name_2:0 "$siberian_high_god_name$" # Optional translation alt
+ siberian_high_god_name_possessive:1 "di Numi-Turum"
+ siberian_high_god_name_alternate:1 "Kors-Turum"
+ siberian_high_god_name_alternate_possessive:1 "di Kors-Turum"
+ siberian_good_god_forest_father:0 "foresta-padre" # partly fictional
+ siberian_good_god_river_mother:0 "fiume-madre" # partly fictional
+ siberian_good_god_mountain_master:0 "montagna-maestro" # partly fictional
+ siberian_good_god_earth_mother:0 "terra-madre" # partly fictional
+ siberian_good_god_house_master:0 "casa-maestro" # partly fictional
+ siberian_devil_name:1 "Kul-Atur"
+ siberian_devil_name_possessive:1 "di Kul-Atur"
+ siberian_evil_god_lost_shades:0 "le ombre perdute"
+ siberian_death_deity_name:1 "Kin-Ort" # prince of sickness
+ siberian_death_deity_name_possessive:1 "di Kin-Ort"
+ siberian_religious_symbol:0 "orso"
+ siberian_religious_symbol_2:0 "$siberian_religious_symbol$" # Optional translation alt
+ siberian_religious_symbol_3:0 "$siberian_religious_symbol$" # Optional translation alt
+ siberian_religious_text:0 "canti del bosco" # fictional
+ siberian_religious_text_2:0 "$siberian_religious_text$" # Optional translation alt
+ siberian_religious_text_3:0 "$siberian_religious_text$" # Optional translation alt
+ siberian_divine_realm:1 "i Cieli più Alti"
+ siberian_divine_realm_2:0 "$siberian_divine_realm$" # Optional translation alt
+ siberian_divine_realm_3:0 "$siberian_divine_realm$" # Optional translation alt
+ siberian_afterlife_negative:1 "Kul"
+ siberian_afterlife_negative_2:0 "$siberian_afterlife_negative$" # Optional translation alt
+ siberian_afterlife_negative_3:0 "$siberian_afterlife_negative$" # Optional translation alt
+ siberian_witchgodname:1 "Kaltesh-Eekva"
+ siberian_witchgodname_possessive:0 "di Kaltesh-Eekva"
+ siberian_creator_god_name:0 "$siberian_high_god_name$"
+ siberian_creator_god_name_possessive:0 "$siberian_high_god_name_possessive$"
+ siberian_health_god_name:1 "As-Iki"
+ siberian_health_god_name_possessive:1 "di As-Iki"
+ siberian_fertility_god_name:1 "Kaltesh"
+ siberian_fertility_god_name_possessive:1 "di Kaltesh"
+ siberian_wealth_god_name:0 "gli Spiriti della Fortuna"
+ siberian_wealth_god_name_possessive:1 "degli Spiriti della Fortuna"
+ siberian_household_god_name:1 "Mir-Susne-Hum"
+ siberian_household_god_name_possessive:1 "di Mir-Susne-Hum"
+ siberian_fate_god_name:0 "$siberian_fertility_god_name$"
+ siberian_fate_god_name_possessive:1 "$siberian_fertility_god_name_possessive$"
+ siberian_knowledge_god_name:1 "Sorni-Iki"
+ siberian_knowledge_god_name_possessive:1 "di Sorni-Iki"
+ siberian_war_god_name:1 "il Cacciatore" # fictional
+ siberian_war_god_name_possessive:1 "del Cacciatore"
+ siberian_trickster_god_name:1 "Heini-Iki"
+ siberian_trickster_god_name_possessive:1 "di Heini-Iki"
+ siberian_night_god_name:1 "$siberian_fertility_god_name$"
+ siberian_night_god_name_possessive:1 "$siberian_fertility_god_name_possessive$"
+ siberian_water_god_name:1 "Kassum-Im"
+ siberian_water_god_name_possessive:1 "di Kassum-Im"
+ 
+ siberian_priest_male:0 "sciamano"
+ siberian_priest_male_plural:0 "sciamani"
+ siberian_priest_female:0 "sciamana"
+ siberian_priest_female_plural:0 "sciamane"
+
+ siberian_pagan:1 "Turumismo"
+ siberian_pagan_adj:1 "Turumica"
+ siberian_pagan_adherent:1 "Turumista"
+ siberian_pagan_adherent_plural:1 "Turumisti"
+
+ siberian_pagan_old:1 "Antico Turumismo"
+ siberian_pagan_old_adj:1 "Antico Turumica"
+ siberian_pagan_old_adherent:1 "Antico Turumista"
+ siberian_pagan_old_adherent_plural:2 "Antichi Turumisti"
+ # TRADURRE DA QUI IN POI
+ # Basque Paganism - Era Zaharrak
+ ## "Basque Religion"
+ basque_religion:0 "Euskal Erlijioa"
+ basque_religion_adj:0 "Euskal"
+ basque_religion_adherent:0 "Euskal"
+ basque_religion_adherent_plural:0 "Euskals"
+ basque_religion_desc:0 "L'antica fede nativa Basca ha incorporato per lungo tempo altre religioni più transitorie. Elementi del paganesimo Celtico, del Cristianesimo, del paganesimo Ellenico e un solido substrato di miti e credenze locali sono confluiti in una miscela sincretica."
+ ## "Old Ways"
+ basque_pagan:0 "Era Zaharrak"
+ ## "Old Way"
+ basque_pagan_adj:0 "Era Zaharra"
+ ## "Believer"
+ basque_pagan_adherent:0 "Fededuna"
+ ## "Believers"
+ basque_pagan_adherent_plural:0 "Fededunak"
+
+ basque_pagan_old:0 "Vecchio $basque_pagan$"
+ basque_pagan_old_adj:0 "Vecchia $basque_pagan_adj$"
+ basque_pagan_old_adherent:0 "Vecchio $basque_pagan_adherent$"
+ basque_pagan_old_adherent_plural:0 "Vecchi $basque_pagan_adherent_plural$"
+
+ basque_high_god_name:0 "Mari"
+ ## The euphemistic nickname "Red Skirt", with red being a colour frequently ascribed to magical creatures and items in certain versions of Basque mythology.
+ basque_high_god_name_2:0 "Ionagorri"
+ basque_high_god_name_possessive:0 "di Mari"
+ basque_high_god_name_alternate:0 "$basque_high_god_name$"
+ basque_high_god_name_alternate_possessive:0 "$basque_high_god_name_possessive$"
+ ## We don't have a good line on a more pagan creator deity, so we use Aymeric Picaud's term for God filtered through a more likely Basque spelling.
+ basque_creator_god_name:0 "Ortzia"
+ basque_creator_god_name_possessive:0 "di Ortzia"
+ ## *Definitely* more of a focus later on, with the founding of a hospital in his name, but our best fit.
+ basque_health_god_name:0 "St. Blaise"
+ basque_health_god_name_possessive:0 "di San Biagio"
+ ## We don't have a solid fertility god, but the Basajaunes wild men had aspects of the harvest, so we slot them in as our best-fit.
+ basque_fertility_god_name:0 "i Basajaunes"
+ basque_fertility_god_name_possessive:0 "dei Basajaunes"
+ ## No solid wealth god, and Mari isn't a great fit, so we pull back in God.
+ basque_wealth_god_name:0 "$basque_creator_god_name$"
+ basque_wealth_god_name_possessive:0 "$basque_creator_god_name_possessive$"
+ ## We don't have a good household god candidate, so we use St. Fermin, patron saint of Navarre, as someone who might be a common candidate to swear by or to.
+ basque_household_god_name:0 "San Fermino"
+ basque_household_god_name_possessive:0 "di San Fermino"
+ ## Sugaar (Mari's most-ascribed consort) doesn't have a great fit anywhere else, mostly due to a paucity of information, so we give him Fate for his role as the father of Jaun Zuria, mythical first Lord of Bizkaia.
+ ### You could pretty easily sub him in instead of Michael if you want to decrease the amount of Christian saints mixed into the list, but it seems likely Michael was a bigger figure overall.
+ basque_fate_god_name:0 "Sugaar"
+ basque_fate_god_name_possessive:0 "di Sugaar"
+ ## Little St. Martin gets to pull double-duty here, though arguably he's just doing what trickster gods do.
+ basque_knowledge_god_name:0 "$basque_trickster_god_name$"
+ basque_knowledge_god_name_possessive:0 "$basque_trickster_god_name_possessive$"
+ basque_war_god_name:0 "San Michele"
+ basque_war_god_name_possessive:0 "di San Michele"
+ ## For stealing knowledge of farming from the Basajaunes.
+ basque_trickster_god_name:0 "Piccolo San Martino"
+ basque_trickster_god_name_possessive:0 "del Piccolo San Martino"
+ ## Gaueko, the embodiment of the night itself. Occasionally appears as a cow or a bull.
+ basque_night_god_name:0 "Gaueko"
+ basque_night_god_name_possessive:0 "di Gaueko"
+ ## No suitable water god of note, unless you want to  but the Lamia were a popular water monster in Basque mythology.
+ basque_water_god_name:0 "il Lamiak"
+ basque_water_god_name_possessive:0 "del Lamiak"
+ ## Mari's daughter, Illargia, who led the dead to the underworld. Probably.
+ basque_death_god_name:0 "Ilargui"
+ basque_death_god_name_possessive:0 "di Ilargui"
+ ## This is a tough one, but we give it to Mari again due to her association with sorceresses (though this is potentially more of an Early Modern thing) and to show the default increased acceptance of non-clerical magic.
+ basque_witch_god_name:0 "$basque_high_god_name$"
+ basque_witch_god_name_possessive:0 "$basque_high_god_name_possessive$"
+ ## Some assorted minor gods/positive divine creatures:
+ ### Tubal, son of Japheth, son of Noah, who due to a clerical error has gotten mixed up in the origin story for the wrong Iberia.
+ basque_good_god_japheth:0 "Japheth"
+ ### Aatxe, a shapeshifting bull/human who fights crime in the name of Mari.
+ basque_good_god_aatxe:0 "Aatxe"
+ ### And some popular saints who didn't get their own spheres; respectively St. Nicholas, St. John, & St. Agatha.
+ basque_good_god_st_nicholas:0 "San Nicola"
+ basque_good_god_st_john:0 "San Ganix"
+ basque_good_god_st_agatha:0 "Sant'Agata"
+ ## The old Basque word for the Devil himself, as his syncretised incarnation seems to be the best wide-spread evil spirit. The modern equivalent would be Deabrua.
+ basque_devil_name:0 "Tusuri"
+ basque_devil_name_possessive:0 "di Tusuri"
+ ## Some assorted nicknames/negative divine creatures:
+ ### These are all various regional euphemisms for the Devil.
+ basque_evil_god_mamu:0 "Mamu"
+ basque_evil_god_mekolats:0 "Mekolats"
+ basque_evil_god_beste_mutilla:0 "Beste Mutilla"
+ basque_evil_god_galtxagorri:0 "Galtxagorri"
+ basque_evil_god_prakagorri:0 "Prakagorri"
+ basque_evil_god_adar:0 "Adar"
+ ### Tartalo, a colossal & poisonous cyclops.
+ basque_evil_god_tartalo:0 "Tartalo"
+ ### Herensugue, an infamous dragon.
+ basque_evil_god_herensugue:0 "Herensugue"
+ basque_evil_god_lehen:0 "Lehen"
+ ## The Black Hunter is a myth or monster rather than a god, but *might* be a remnant of something older. Makes a decent entity to swear by, at least.
+ basque_evil_god_black_hunter:0 "Eiztari Beltza"
+ ## Our cast of divinities is pretty varied, including gods, saints, God, and assorted monsters of varying ethical alignments. Accordingly, we use one set referencing the gods, one for the saints, and one that's neutral on the lot.
+ religion_the_powers:0 "i poteri"
+ religion_the_saints:0 "i santi"
+ ## For houses of worship, we re-use churches due to long association, but not exclusively.
+ basque_house_of_worship:0 "chiesa"
+ basque_house_of_worship_2:0 "la chiesa"
+ ## Shrine isn't an attested term, but it's suitable for both Christianity & most pagans, so it works here.
+ basque_house_of_worship_3:0 "chiesa"
+ # Honourable mention goes to the Gernikako Arbola, which is more representative but also more of a cultural icon rather than a religious one.
+ basque_religious_symbol:0 "eguzkilore"
+ basque_religious_symbol_2:0 "$basque_religious_symbol$"
+ basque_religious_symbol_3:0 "$basque_religious_symbol$"
+ basque_religious_text:0 "storie sacre"
+ basque_religious_text_2:0 "antiche leggende"
+ basque_religious_text_3:0 "antichi miti"
+ # No basis for this; it was never even a remote possibility, so we go with something fun & cool.
+ basque_religious_head_title:0 "Arch-Sorgina"
+ basque_religious_head_title_name:0 "Chiesa"
+ # We don't have good sources on monastic names, so we default to syncretic Christian terms.
+ ## Honourable mention to serorak who are super interesting but neither cloistered nor (verifiably) in our period.
+ basque_devotee_male:0 "monaco"
+ basque_devotee_male_plural:0 "monaci"
+ basque_devotee_female:0 "monaca"
+ basque_devotee_female_plural:0 "monache"
+ basque_devotee_neuter:0 "monastico"
+ basque_devotee_neuter_plural:0 "monastici"
+ # Most commonly, sorginak are gendered female, but there are limited variations where they include male numbers, so we just go with it.
+ basque_priest:0 "sorgina"
+ council_basque_priest:0 "Sorgina"
+ basque_priest_plural:0 "sorginak"
+ # The places the stars go in the day; we use both the Basque loc and the English loc for a bit of variety.
+ basque_divine_realm:0 "Itsasgorrieta"
+ basque_divine_realm_2:0 "i Mari Rossi"
+ # Mari hangs out in quite a broad variety of caves, changing the weather depending on where she moves to.
+ basque_divine_realm_3:0 "Le Cave di $basque_high_god_name$"
+ # There aren't any solid positive afterlife names, and the Christian heaven stuff isn't on-brand for a cthonic religion, so we use neutral/cthonian-sounding names.
+ basque_positive_afterlife:0 "il Mondo Sotterraneo"
+ basque_positive_afterlife_2:0 "l'Aldilà"
+ basque_positive_afterlife_3:0 "l'Aldilà"
+ # We don't have good afterlife source names, so we run with the Christian versions.
+ basque_negative_afterlife:0 "inferno"
+ basque_negative_afterlife_2:0 "l'Inferno"
+ basque_negative_afterlife_3:0 "La Fossa" 
+ 
+ #Guanche faith — Indigenous inhabitants of the Canary Islands
+ north_african_religion:0 "Nordafricano"
+ north_african_religion_adj:0 "Nordafricano"
+ north_african_religion_adherent:0 "Amazigh"
+ north_african_religion_plural:0 "Amazighi"
+ north_african_religion_desc:0 "Le credenze tradizionali berbere seguono il Culto dei Morti e ritengono che quando si passa da questo mondo, si diventa divinizzati tra i propri familiari. Il culto della pietra e la costruzione di megaliti avvicinano i seguaci agli dei, e le divinità principali, seconde solo al Creatore, sono gli dei del Sole e della Luna. Anche tra i seguaci di altre fedi, il sincretismo con la tradizione popolare nordafricana è comune.
+ 
+ acham_high_god_name:0 "Achamán"
+ acham_high_god_name2:0 "$acham_high_god_name$"
+ acham_high_god_name_possessive:0 "di Achamán"
+ acham_high_god_name_alternate:0 "Achoron"
+ acham_high_god_name_alternate_possessive:0 "di Achoron"
+
+ acham_creator_god_name:0 "$acham_high_god_name$"
+ acham_creator_god_name_possessive:0 "$acham_high_god_name_possessive$"
+
+ acham_health_god_name:0 "Chaxiraxi"
+ acham_health_god_name_possessive:0 "di Chaxiraxi"
+ acham_fertility_god_name:0 "Moneiba e Eranoranhan"
+ acham_fertility_god_name_possessive:0 "Moneiba e Eranoranhan's"
+ acham_wealth_god_name:0 "Magec"
+ acham_wealth_god_name_possessive:0 "di Magec"
+ acham_household_god_name:0 "Maxios"
+ acham_household_god_name_possessive:0 "Maxios'"
+ acham_fate_god_name:0 "Achuguayo"
+ acham_fate_god_name_possessive:0 "di Achuguayo"
+ acham_knowledge_god_name:0 "$acham_fate_god_name$"
+ acham_knowledge_god_name_possessive:0 "$acham_fate_god_name_possessive$"
+ acham_war_god_name:0 "$acham_high_god_name$"
+ acham_war_god_name_possessive:0 "$acham_high_god_name_possessive$"
+ acham_trickster_god_name:0 "$acham_household_god_name$"
+ acham_trickster_god_name_possessive:0 "$acham_household_god_name_possessive$"
+ acham_night_god_name:0 "$acham_fate_god_name$"
+ acham_night_god_name_possessive:0 "$acham_fate_god_name_possessive$"
+ acham_water_god_name:0 "Achuhucanac"
+ acham_water_god_name_possessive:0 "di Achuhucanac"
+ acham_evil_god_name:0 "Guayota"
+ acham_evil_god_name_possessive:0 "di Guayota"
+ acham_witch_god_name:0 "$acham_evil_god_name$"
+ acham_witch_god_name_possessive:0 "$acham_evil_god_name_possessive$"
+ acham_death_god_name:0 "$acham_evil_god_name$"
+ acham_death_god_name_possessive:0 "$acham_evil_god_name_possessive$"
+ 
+ acham_priest_male:0 "guañameñe"
+ acham_priest_male_plural:0 "guañameñes"
+ acham_priest_female:0 "maguadas"
+ acham_priest_female_plural:0 "maguadas"
+ acham_priest_neuter:0 "kankus"
+ acham_priest_neuter_plural:0 "kankus"
+ acham_religious_head_title:0 "Faykan"
+ acham_religious_head_title_name:0 "Faykanate"
+ acham_religious_text:0 "$paganism_religious_text$"
+ acham_religious_text2:0 "$acham_religious_text$"
+ acham_religious_text3:0 "$acham_religious_text$"
+ acham_pantheon_term:0 "$religion_the_gods$"
+ acham_pantheon_term2:0 "$acham_pantheon_term$"
+ acham_pantheon_term3:0 "$acham_pantheon_term$"
+ acham_house_of_worship:0 "$paganism_house_of_worship$"
+ acham_house_of_worship2:0 "$paganism_house_of_worship$"
+ acham_house_of_worship3:0 "$paganism_house_of_worship$"
+
+ acham_positive_afterlife:0 "Aguere"
+ acham_positive_afterlife2:0 "$acham_positive_afterlife$"
+ acham_positive_afterlife3:0 "$acham_positive_afterlife$"
+ acham_negative_afterlife:0 "Echeyde"
+ acham_negative_afterlife2:0 "$acham_negative_afterlife$"
+ acham_negative_afterlife3:0 "$acham_negative_afterlife$"
+ acham_divine_realm:0 "$acham_positive_afterlife$"
+ acham_divine_realm2:0 "$acham_positive_afterlife$"
+ acham_divine_realm3:0 "$acham_positive_afterlife$"
+
+ acham_religious_symbol:0 "guatimac"
+ acham_religious_symbol2:0 "$acham_religious_symbol$"
+ acham_religious_symbol3:0 "$acham_religious_symbol$"
+
+ north_african_acham_pagan:0 "Achamánism"
+ north_african_acham_pagan_adj:0 "Achamánic"
+ north_african_acham_pagan_adherent:0 "Achamánista"
+ north_african_acham_pagan_adherent_plural:0 "Achamánisti"
+
+ north_african_acham_pagan_old:0 "Vecchio Achamánismo"
+ north_african_acham_pagan_old_adj:0 "Vecchio Achamánico"
+ north_african_acham_pagan_old_adherent:0 "Vecchio Achamánista"
+ north_african_acham_pagan_old_adherent_plural:0 "Vecchi Achamánisti"
+
+
+ 
+

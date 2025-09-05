@@ -1,0 +1,53 @@
+﻿l_spanish:
+
+#HORSE RACES
+ jason_race_events.1.t:0 "Il Volere della Folla"
+ jason_race_events.1.desc:0 "Nel folto pubblico che assiste alla corsa, i popolani urlano, mentre i guerrieri erranti scandiscono insulti e insinuazioni volgari. In mezzo a tutti loro, noi nobili ridacchiamo nervosamente, accertandoci che le nostre guardie non siano lontane."
+
+ jason_race_events.1.desc.guest_local_anger:0 "\n\n"[host.GetTitledFirstName]!" viene urlato, accompagnato da termini come #EMP [host.Custom('GetCrime')|U]!#! Chi si agita di più sono i locali: in [ROOT.Char.GetCurrentLocation.GetName], [host.GetFirstNameNoTooltip] si trova fra gente che lo odia.\n\nOsservando la folla, noto che molti hanno in mano pietre, coltelli e armi da guerra."
+
+ jason_race_events.1.desc.host_local_anger:0 "\n\n"[ROOT.Char.GetTitledFirstName]!" viene urlato, accompagnato da termini come #EMP [host.Custom('GetCrime')|U]!#! Chi si agita di più sono i locali: in [ROOT.Char.GetCurrentLocation.GetName], io mi trovo fra gente che mi odia.\n\nOsservando la folla, noto che molti hanno in mano pietre, coltelli e armi da guerra."
+
+ jason_race_events.1.desc.rowdy_fans:0 "\n\nL'emozione delle corse attira sempre i peggiori ceffi del reame, in gran numero, e li eccita con promesse di baldoria e gioco d'azzardo. \n\nA volte, nei giorni più sfortunati, i soliti piaceri non bastano e solo il sangue può soddisfarli."
+
+ jason_race_events.1.desc.end:0 "\n\nSta per scoppiare una rissa."
+
+ jason_race_events.1.a:0 "Solo io posso calmare la folla."
+ jason_race_events.1.a.tt:0 "Con le parole giuste, riporterò la loro attenzione sulla corsa."
+ jason_race_events.1.a.tt.win:0 "Il tuo discorso calma la gente"
+ jason_race_events.1.a.tt.race:1 "L'animata discussione fra i più esagitati non si ferma"
+ jason_race_events.1.a.tt.lose:0 "Non riesci a fermare la rissa"
+
+ jason_race_events.1.b:0 "Calmate i loro bollenti spiriti, $knights$!"
+ jason_race_events.1.b.tt:0 "E una volta che avremo asciugato il sangue dai nostri occhi, potremo riprendere la corsa!"
+
+ jason_race_events.1.c:0 "Forse la folla ha solo bisogno di una piccola spinta..."
+ jason_race_events.1.c.tt:0 "Avanti, miei $knights$, date inizio a una violenza devastante!"
+ jason_race_events.1.c.tt.win:0 "I tuoi $knights$ sedano la rissa"
+ jason_race_events.1.c.tt.lose:0 "I tuoi uomini hanno causato una terribile sommossa"
+ jason_race_events.1.c.tt.lose_knights:0 "Alcuni dei tuoi $knight_culture_player_plural$ sono [GetTrait('wounded_1').GetName( GetNullCharacter )]"
+
+ jason_race_events.1.d:0 "Devo andarmene da qui, #EMP in fretta#!."
+ jason_race_events.1.d.tt:0 "Chissà? Forse si risolverà tutto per il meglio."
+
+ jason_race_events.1.d.tt.win:0 "I disordini vengono sedati"
+ jason_race_events.1.d.tt.lose:0 "La violenza si diffonde nell'intera regione"
+
+ jason_race_events.1.d.tt.leave:0 "Tu e il tuo seguito vi ritirate in un luogo sicuro."
+
+ contest_wound_attendees_effect:0 "Molti dei presenti sono [GetTrait('wounded_1').GetName( GetNullCharacter )]"
+
+ contest_wound_non_root_attendees_effect:0 "Molte altre persone presenti sono [GetTrait('wounded_1').GetName( GetNullCharacter )]"
+
+
+ jason_race_events.2.t:0 "Una Curva a Tutta Velocità"
+ jason_race_events.2.desc:1 "I cavalli sfrecciano lungo la pista, i loro corpi in movimento sono oscurati da nuvole di polvere, le imprecazioni e le urla dei cavalieri sono quasi impercettibili fra il rumore degli zoccoli e il ruggito della folla.\n\nTuttavia, si può vedere il tuo cavaliere [jockey.GetFirstName] totalmente concentrato sul preparare una curva che si avvicina rapidamente. Mentre gli altri rallentano per affrontare la curva a gomito senza problemi, il tuo cavaliere sprona con forza la sua cavalcatura.\n\nCon solo pochi centimetri di margine, [jockey.GetFirstNameNoTooltip] e #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#! si infilano tra chi li precede. Una mossa incredibile, la folla sussulta incredula!"
+
+ jason_race_events.2.a:0 "Queste abilità appartengono al campo di battaglia!"
+ jason_race_events.2.a.tt:0 "I miei cavalieri dovrebbero essere addestrati a cavalcare con la stessa audacia."
+
+ jason_race_events.2.b:1 "Al mio seguito servirebbe un nuovo esploratore..."
+ jason_race_events.2.b.tt:1 "Un cavaliere tanto audace dovrebbe precederci in perlustrazione in ogni viaggio."
+
+ jason_race_events.2.c:1 "Un momento che merita di essere raccontato innumerevoli volte!"
+ jason_race_events.2.c.tt:1 "Che vincano o che perdano, i miei cavalieri sono quelli che lasciano la migliore impressione."

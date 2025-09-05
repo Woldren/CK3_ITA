@@ -1,0 +1,26 @@
+﻿l_spanish:
+ sacrifed_small_animal_title:0 "[first.GetShortUIName|U] ha sacrificato un piccolo [root_scope.Custom('SmallAnimal')|U]"
+ small_animal_rabbit:0 "coniglio"
+ small_animal_squirrel:0 "scoiattolo"
+ small_animal_mouse:0 "topo"
+ small_animal_hedgehog:0 "riccio"
+ small_animal_bird:0 "uccello"
+ small_animal_plural_rabbit: "conigli"
+ small_animal_plural_squirrel: "scoiattoli"
+ small_animal_plural_mouse: "topi"
+ small_animal_plural_hedgehog: "ricci"
+ small_animal_plural_bird: "uccelli"
+ 
+ 
+ demonic_chant_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Eseguito un Canto Demoniaco"
+ 
+ recited_witchcraft_treatise_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Recitato un Trattato di Stregoneria"
+ 
+ admire_moon_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Ammirato la Luna"
+ 
+ mournful_music_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Suonato una Canzone Luttuosa"
+ 
+ praised_horned_god_together_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Lodato il Dio Cornuto con [second.GetShortUIName|U]"
+ 
+ apa_imbued_artifact_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Infuso il manufatto [artifact.GetName] di un Potere Demoniaco"
+ artifact_monthly_piety_gain_mult_1_modifier:0 "Iscrizione Infernale"

@@ -1,0 +1,5 @@
+﻿l_spanish:
+ TARGET_IS_NOT_OF_MY_HOUSE:0 "[TARGET_CHARACTER.GetShortUIName|U] non è un [bastard|E] della tua [house|E]"
+ HOUSE_HEAD_DOES_NOT_APPROVE:0 "Il Tuo [house_head|E], [CHARACTER.GetShortUIName], non approva questa legittimazione"
+ MOTHER_IS_MARRIED:0 "[TARGET_CHARACTER.GetShortUIName|U] è sposato, e non ammetterebbe mai delle indiscrezioni"
+ WOULD_NOT_CHEAT_ON_A_PARTNER:0 "[TARGET_CHARACTER.GetShortUIName|U] ha almeno un partner che non tradirebbe mai"

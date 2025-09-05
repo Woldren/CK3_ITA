@@ -1,0 +1,15 @@
+﻿l_spanish:
+ language_events.0001.t:0 "Letargia Lessicale"
+ language_events.0001.desc:1 "È difficile tenere tutte queste lingue nella mia testa, continuo a dimenticare quale sto parlando!\n\nProprio l'altro giorno, mi sono accidentalmente presentato usando un misto confuso di parole in lingua [language_to_forget.GetLanguage.GetNameNoTooltip] e [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip]... e non mi sono nemmeno reso conto di averlo fatto finché non mi è stato fatto notare!\n\nForse dovrei semplicemente lasciare che la lingua [language_to_forget.GetLanguage.GetNameNoTooltip] scivoli via dalla mia mente..?"
+ language_events.0001.a:0 "Lascia che scivoli nell'oblio..."
+ language_events.0001.b:0 "No, devo lavorare più duramente e studiare di più!"
+ language_events.0002.b.tt:0 "Invii a riscuotere [gold_i]#P 50#! in 'tasse' da ogni contea di lingua [vassal_speaking_other_language.GetCulture.GetName] nel reame di [vassal_speaking_other_language.GetTitledFirstName]"
+ language_events.0002.t:0 "Una Lingua in Comune"
+ language_events.0002.desc:0 "È giunto alle mie orecchie che il mio vassallo, [vassal_speaking_other_language.GetTitledFirstName], sta lodando pubblicamente la mia abilità nel parlare la lingua [vassal_speaking_other_language.GetCulture.GetLanguage.GetName] — linguaggio parlato dai suoi stessi sudditi!\n\nI miei consiglieri mi suggeriscono di sfruttare questa opportunità inviandoli una lettera nella stessa lingua, riconoscendo le sue azioni."
+ language_events.0002.a:0 ""Con una maggiore comprensione arriva una prosperità condivisa!""
+ language_events.0002.b:0 ""Oh-ho ho! Ora posso tassarti più efficacemente, caro vassallo.""
+ 
+ language_events.0010.t:0 "È l'Ora della Lezione!"
+ language_events.0010.desc:0 "Mi sveglio sudato dopo un incubo snervante, dove un gufo mi seguiva costantemente e metteva alla prova la mia conoscenza della lingua [language_to_forget.GetLanguage.GetNameNoTooltip].\n\nSimbolo di saggezza in alcune culture, il demone piumato mi ha perseguitato per tutta la notte, e io temevo di deluderlo. Forse dipende da "troppa conoscenza" e questo sogno è il risultato di tutto lo stress che sento nel mantenere le mie competenze al massimo."
+ language_events.0010.a:0 "Questo non può continuare."
+ language_events.0010.b:0 "Continuerò a sforzarmi ogni giorno!"

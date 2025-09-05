@@ -1,0 +1,22 @@
+﻿l_spanish:
+ faith_conversion.1001.t:0 "Conversione"
+ faith_conversion.1001.start:0 "A seguito della mia decisione di covertirmi alla fede [new_faith.GetAdjectiveNoTooltip], mi sono organizzat[ROOT.Char.Custom('DE_END_PRO_S_N')] con un [new_faith.PriestNeuter] affinché veniss nella mia [ROOT.Char.Custom('GetCourt')|l] e conducesse i riti.\n\n"
+ faith_conversion.1001.desc:0 "Con il destino della mia anima immortale messo in discussione, posso solo pregare di aver preso la decisione giusta.\n\nMetafisica a parte,"
+ faith_conversion.1001.desc.zealous:0 "Mentre [template_priest.GetSheHe] recita le frasi del testo sacro, posso #EMP sentire#! la mia convinzione bruciare in me più ardentemente — non v'è dubbio alcuno nella mia mente che io abbia scelto la giusta via.\n\nNon importa quanto forte sia il mio zelo,"
+ faith_conversion.1001.desc.zealous.carnal_male:0 "Mentre [template_priest.GetSheHe] recita le frasi del testo sacro [new_faith.ReligiousText] posso #EMP sentire#! la mia convinzione diventare sempre più grande — non v'è dubbio alcuno nella mia mente che io abbia scelto la giusta via.\n\nNon importa quanto forte sia il mio zelo,"
+ faith_conversion.1001.desc.zealous.carnal_female:0 "Mentre [template_priest.GetSheHe] recita le frasi del testo sacro [new_faith.ReligiousText] posso #EMP sentire#! la mia convinzione pulsare dentro di me — non v'è dubbio alcuno nella mia mente che io abbia scelto la giusta via.\n\nNon importa quanto forte sia il mio zelo,"
+
+ faith_conversion.1001.desc.compassionate:0 "Con il destino della mia anima immortale messo in discussione — as well as the souls of my subjects — prego di aver fatto la scelta giusta.\n\nMetafisica a parte,"
+ faith_conversion.1001.desc.reincarnation:0 "Con la vita nella prima prossima reincarnazione messa in discussione, prego di aver fatto la scelta giusta.\n\nMetafisica a parte,"
+ faith_conversion.1001.desc.cynical:0 "Sebbene io non creda davvero alle sciocchezze che racconta il [new_faith.PriestNeuter], vi erano abbastanza vantaggi politici derivanti dalla conversione da capire che prima o poi avrei avuto bisogno di farlo pure io.\n\nIndipendentemente dalle mie ragioni, "
+
+ faith_conversion.1001.end.is_vassal.convert_away:0 "la mia preoccupazione più immediata è temporale - come reagirà [my_liege.Custom2('MyCharacterIntroduction', ROOT.Char)] dall'apprendere che ho rinnegato la sua fede?"
+ faith_conversion.1001.end.is_vassal.convert_to:0 "posso tirare un sospiro di sollievo nel sapere che [my_liege.Custom2('MyCharacterIntroduction', ROOT.Char)] non potrà più usare la mia fede contro di me."
+ faith_conversion.1001.end.is_top_liege.convert_away:0 "la mia preoccupazione più immediata è temporale - con la maggior parte dei miei vassalli che seguono una fede diversa, sarò in grado di mantenere il mio regno unito contro le ribellioni interne e gli opportunisti stranieri?"
+ faith_conversion.1001.end.is_top_liege.convert_to:0 "posso trovare conforto nel sapere che la maggioranza del mio regno è unita sotto [new_faith.PantheonTerm], un vero reame di fede [new_faith.GetAdjectiveNoTooltip]."
+ faith_conversion.1001.end.is_landless_adventurer: "l'idea di [new_faith.GetNameNoTooltip] che si diffonde, un passo per volta, dal mio umile campo fa cantare il mio cuore."
+
+ faith_conversion.1001.a:0 "Gloria a [ROOT.Char.GetFaith.HighGodName]!"
+ faith_conversion.1001.b:0 "Perlomeno ho [template_priest.GetFirstNameNoTooltip] a guidarmi..."
+
+ faith_conversion.1101.toast:0 "Signore Convertito alla Fede"

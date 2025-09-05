@@ -1,0 +1,47 @@
+﻿l_spanish:
+ sell_titles.0001.opening:0 "[vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
+ sell_titles.0001.desc.dislike:0 "Non mi interessano le vuote promesse che stai vendendo, ma se hai un disperato bisogno di oro, credo che potremmo arrivare ad un accordo."
+ sell_titles.0001.desc.normal:0 "Non cerco maggiori privilegi, mio [vassal.Custom2('RelationToMeShort', ROOT.Char)], ma se hai bisogno di oro, credo che potremmo arrivare a un accordo."
+ sell_titles.0001.a:0 "Vedi, mi servono i soldi per il bene del reame."
+ sell_titles.0001.b:0 "Questa non è una contrattazione al mercato del paese!"
+
+ sell_titles.0002.opening:0 "[friend.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
+ sell_titles.0002.desc:0 "Mi è stato detto che offri titoli in cambio di "doni."\n\nAmico mio, se avevi bisogno di oro avresti dovuto farmelo sapere!"
+ sell_titles.0002.a:0 "Sei un vero amico, [friend.GetFirstNameNoTooltip]!"
+ sell_titles.0002.b:0 "Non posso accettare."
+
+ sell_titles.0003.desc:0 "Sono onorato dei titoli che mi hai offerto e ovviamente li sovvenzionerò, come è giusto e appropriato!\n\nNon posso ringraziarti abbastanza per questo onore. Qualunque cosa tu chieda, farò del mio meglio per te."
+ sell_titles.0003.a:0 "Sei un fedele e leale vassallo."
+ sell_titles.0003.a.flavor:0 "Vorrei che tutti capissero che sono estremamente generoso."
+
+ sell_titles.0004.opening:0 "[vassal.Custom2('AppropriateGreeting', ROOT.Char )]"
+ sell_titles.0004.desc:0 "È venuto alla mia attenzione che stai vendendo titoli, anche se io stesso non sono stato adeguatamente onorato per il mio servizio.\n\nIn effetti, considerando i miei successi per te, alcuni nuovi titoli non sarebbero fuori luogo."
+ sell_titles.0004.a:0 "Così sarà, allora."
+ sell_titles.0004.b:0 "Non darti troppa importanza!"
+
+ sell_titles.0005.desc:0 "Anche se non sono accompagnati da feudi, gli obblighi associati ai titoli che offri sono più generosi di quanto potrei mai chiedere.\n\nOvviamente onorerò tale munificenza con un dono appropriato!"
+ sell_titles.0005.a:0 "Lo sono? Oh."
+ sell_titles.0005.b:0 "Non è questo che... Maledizione!"
+
+ sell_titles.0006.desc:0 "Anche se so che rischio la tua ira, il mio onore esige che parli. La tua offerta di dare "titoli" in cambio di "regali" non è guidata da nient'altro che da vile avidità, questo è evidente!\n\nIl mio onore viene dalla mia nobiltà, non dalla mia ricchezza, ma per te sembra che sia diversamente!"
+ sell_titles.0006.a:0 "Come osi infamarmi così tanto?!"
+
+ sell_titles.1002.t:0 "Vendita di Titoli: Una Proposta Modesta"
+ sell_titles.1002.desc:0 "Un certo [merchant.GetTitledFirstName], un ricco mercante, ha sentito parlare dei miei tentativi di svendere alcuni titoli superflui. [merchant.GetSheHe|U] ha una proposta molto più audace, tuttavia:\n\n"Se presento prove che sono lontanamente imparentato con la Dinastia [ROOT.Char.GetDynasty.GetBaseName], sosterrai la mia affermazione?"\n\nLa proposta è assolutamente ridicola, ma [merchant.GetSheHe] possiede una quantità assurda di oro..."
+ sell_titles.1002.a.muslim:0 "Anche Maometto era un mercante!"
+ sell_titles.1002.a:0 "Celebriamo il ritorno del mio da tempo perduto [merchant.Custom('SisterBrother')]!"
+ sell_titles.1002.b:0 "Il mio nome non è in vendita, in nessuna circostanza!"
+
+ sell_titles.1004.t:0 "Vendita di Titoli: Un Eccellente Affare"
+ sell_titles.1004.desc:0 "Contro ogni previsione, [merchant.GetTitledFirstName], il commerciante che si è rivelato essere un parente molto, molto lontano, ha dimostrato di essere un eccellente guerriero!\n\nChi avrebbe mai pensato che un cittadino comune potesse mai raggiungere tali altezze?"
+ sell_titles.1004.a:0 "Forse [merchant.GetSheHe] è veramente di sangue nobile, dopotutto?"
+
+ sell_titles.1005.desc:0 "Da quando ho accettato [merchant.GetTitledFirstNamePossessive]- voglio dire, da quando [merchant.GetSheHe] è tornat[merchant.Custom('DE_END_PRO_S_N')] in famiglia, [merchant.GetSheHe] si è dimostrat[merchant.Custom('DE_END_PRO_S_N')] popolare presso i [ROOT.Char.GetFaith.AltPriestTermPlural]. Apparentemente [merchant.GetSheHe] è piuttosto saggi[merchant.Custom('DE_END_PRO_S_N')]. Molto più di quanto ci si aspetterebbe da un semplice cittadino."
+ sell_titles.1005.a:0 "Anche l'oro si trova tra le semplici rocce, suppongo."
+
+ sell_titles.1006.desc:0 "Forse delle nuove opinioni #EMP possono#! fare bene ogni tanto? [merchant.GetTitledFirstName], già sufficientemente abile per acquisire un posto nella mia Casata, si è dimostrat[merchant.Custom('DE_END_PRO_S_N')] incredibilmente abile nell'affrontare i pericoli della mia corte. A volte mi chiedo anche se [merchant.GetSheHe] sappia di più su quello che succede rispetto a me!"
+ sell_titles.1006.a:0 "Grazie a [ROOT.Char.GetFaith.HighGodName] [merchant.GetSheHe] mi è debitore per tutto quanto."
+
+ sell_titles.1007.t:0 "Vendita di Titoli: Pecora Nera"
+ sell_titles.1007.desc:0 "C'è una ragione per cui i cittadini comuni non vengono fatti nobili per capriccio. Da quando [merchant.GetTitledFirstName] si è unit[merchant.Custom('DE_END_PRO_S_N')] alla mia corte, non è stat[merchant.Custom('DE_END_PRO_S_N')] altro che un fonte d'imbarazzo!\n\nHo sostenuto la sua pretesa di far parte della mia Casata, quindi non c'è niente da fare adesso, ma è un errore che probabilmente non rifarò ancora!"
+ sell_titles.1007.a:0 "Che vergogna..."

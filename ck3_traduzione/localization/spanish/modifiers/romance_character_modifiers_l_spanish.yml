@@ -1,0 +1,10 @@
+﻿l_spanish:
+ romance_great_painting_gift_modifier:0 "Dipinto Magnifico"
+ romance_great_painting_gift_modifier_desc:0 "Un dipinto sapientemente realizzato che sicuramente attirerà l'attenzione di chiunque si trovi nella stanza."
+ romance_talented_troubadour_modifier:0 "Trovatore di Talento Assunto"
+ romance_talented_troubadour_modifier_desc:0 "Un trovatore di grande talento è alle dipendenze di questo personaggio."
+ romance_less_talented_troubadour_modifier:0 "Trovatore Occupato"
+ romance_less_talented_troubadour_modifier_desc:0 "Un trovatore è alle dipendenze di questo personaggio."
+ had_sex_with_effect.first_person.tt:1 "Giaci con [had_sex_with_effect_partner.GetShortUIName]"
+ had_sex_with_effect.third_person.tt:1 "[had_sex_root_character.GetShortUIName|U] giace con [had_sex_with_effect_partner.GetShortUIName]"
+ had_sex_with_effect.other_person.tt:0 "Giace con [had_sex_with_effect_partner.GetShortUIName]"

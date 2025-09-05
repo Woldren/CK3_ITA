@@ -1,0 +1,38 @@
+﻿l_spanish:
+ stress_frozen_grief:0 "Il Lutto non è Finito"
+ stress_frozen_grief_desc:0 "Non avendo mai digerito la morte di una persona cara, questo personaggio ha più difficoltà a relazionarsi con gli altri."
+ stress_stuffed_corpse:0 "Cadavere Imbalsamato"
+ stress_stuffed_corpse_desc:0 "Questo personaggio tiene vicino il cadavere imbalsamato della persona amata e chiacchiera con lui, una pratica sconcertante e sacrilega."
+ stress_managed_grief:0 "In Lutto"
+ stress_managed_grief_desc:0 "Questo personaggio è in lutto per una persona cara."
+
+ #Coping Mechanism Penalties
+ stress_disturbing_confession:0 "Confessione Inquietante"
+ stress_disturbing_confession_desc:0 "Questo personaggio ha apertamente confessato alcune cose inquietanti..."
+ stress_drinking_binge:0 "Bere fino a scoppiare"
+ stress_drinking_binge_desc:0 "Questo personaggio beve più del solito."
+ stress_hashish_habit:0 "Dipendenza da Hashish"
+ stress_hashish_habit_desc:0 "Di questi tempi è raro trovare questo personaggio senza che abbia abusato di qualche droga."
+ stress_hashish_stupor:0 "Stupore causato da hashish"
+ stress_hashish_stupor_desc:0 "Questo personaggio si è drogato fino allo stupore."
+ stress_inappetetic_hunger_1:0 "Affamato"
+ stress_inappetetic_hunger_1_desc:0 "Questo personaggio non mangia abbastanza cibo da mantenersi in salute."
+ stress_inappetetic_hunger_2:0 "Molto affamato"
+ stress_inappetetic_hunger_2_desc:0 "Questo personaggio soffre di una grave carenza di cibo."
+ stress_inappetetic_hunger_3:0 "Morire di fame"
+ stress_inappetetic_hunger_3_desc:0 "Questo personaggio non ha mangiato quasi nulla per settimane e si vede."
+
+ angry_at_everyone_modifier:0 "Rabbia Incontrollata"
+ angry_at_everyone_modifier_desc:0 "Questo personaggio è colmo di rabbia e nessuno è risparmiato."
+ 
+ stress_smelling_of_sweat:0 "Odore di Sudore"
+ stress_smelling_of_sweat_desc:0 "La puzza di sudore segue questo personaggio in giro."
+
+ stress_busy_writing:0 "Impegnato a Scrivere"
+ stress_busy_writing_desc:0 "Questo personaggio trascorre la maggior parte del suo tempo a scrivere."
+
+ irritating_everyone_modifier:1 "Sfogarsi"
+ irritating_everyone_modifier_desc:1 "Questo personaggio non fa nulla per contenere la sua rabbia."
+
+ irritating_everyone_courtier_modifier:1 "$irritating_everyone_modifier$"
+ irritating_everyone_courtier_modifier_desc:1 "$irritating_everyone_modifier_desc$"

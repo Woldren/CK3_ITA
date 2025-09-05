@@ -1,0 +1,25 @@
+﻿l_spanish:
+ almohad.1001.t:0 "L'Ascesa degli Almohadi"
+ almohad.1001.desc:0 "Sembra che una credenza marginale stia prendendo piede [almohad_county.Custom('IT_COU_COL2')][almohad_county.GetName]. Il movimento religioso si autodefinisce gli Almohadi e parla della necessità di ripulire il Maghreb dagli eretici e dai fuorviati.\n\nI magistrati locali sono preoccupati, ma veramente un gruppo religioso marginale guidato da un teologo caduto in disgrazia è qualcosa di cui preoccuparsi?"
+ almohad.1001.a:0 "Perché questo dovrebbe impensierirmi?"
+ almohad.1001.a.flavor:0 "Quand'è che un gruppo religioso marginale nelle province ha mai causato problemi a qualcuno?"
+ almohad.1001.b:0 "Sradichiamolo prima che aumenti la sua presa..."
+ almohad.1001.b.conversion_tt:0 "Se stai già convertendo la fede [almohad_county.Custom('IT_COU_COL2')][almohad_county.GetName], potresti perdere i progressi se scegli questa opzione!"
+ almohad.1001.player_warning:0 "@warning_icon! #X Non riuscire a convertire ed allontanare [almohad_county.Custom('IT_COU_COL4')][almohad_county.GetName] dai [masmudi.GetName] abbastanza rapidamente porterà all'ascesa degli Almohadi. Bisogna essere preparati.#!"
+
+ almohad.1002.desc:0 "Il movimento religioso noto come gli Almohadi è uscito dalla sua sede, intento a "reclamare il Maghreb dai miscredenti", con la forza se necessario!\n\nIl loro leader, [ibn_tumart.GetTitledFirstName] fu allontanato da numerosi luoghi di apprendimento per essere - parlando francamente - fastidioso nella sua insistente ricerca di risposte sulle pratiche dogmatiche. Tuttavia, [ibn_tumart.GetSheHe] ha ora trovato un forte nucleo di seguaci e si dichiara nientemeno che il Madhi!"
+ almohad.1002.a:0 "Come se questo umile [ibn_tumart.GetFaith.PriestNeuter] rappresenti una minaccia!"
+ almohad.1002.a.target.tt:0 "Gli Almohadi entrano in guerra contro di te!"
+ almohad.1002.a.not_target.tt:0 "Gli Almohadi entrano in guerra contro il tuo Signore!"
+ almohad.1002.b:0 "[ibn_tumart.GetSheHe|U] ha delle ottime argomentazioni, in realtà."
+ almohad.1002.b.flavor:0 "Difficilmente posso definirmi un degno fedele..."
+
+ almohad.1003.desc:0 "Il fondatore degli Almohadi, [ibn_tumart.GetTitledFirstName], è andato, e con lui si sperava che anche il suo movemento sarebbe stato consegnato alla storia. Se solo fossimo così fortunati.\n\nInvece, è sorto un nuovo leader! [al_mumin.GetTitledFirstName] non ha solo tenuto insieme le tribù, [al_mumin.GetSheHe] ha raccolto ancora #EMP più#! persone sotto il suo stendardo!"
+ almohad.1003.a:0 "Questi fanatici continuano ad arrivare!"
+ almohad.1003.a.tt:0 "Gli Almohadi tornano, più forti che mai."
+
+ almohad.1004.t:0 "Controllo di Marrakesh"
+ almohad.1004.desc:0 "Fondata una volta come capitale imperiale, [marrakesh.GetTitle] è ora sotto il mio controllo, come è giusto. Tuttavia, è presente ancora l'influenza del [old_faith.GetAdjective] e i miei [masmudi.GetName] sono ansiosi di vederla ricostruita a mia immagine.\n\nSembra un peccato dover distruggere così tanti bei palazzi e templi, ma potrebbe essere necessario per mantenere la mia ambizione di portare l'illuminazione nel Maghreb."
+ almohad.1004.a:0 "Ne faremo la nostra nuova capitale [masmudi.GetAdjective]!"
+ almohad.1004.b:0 "Costruiamo una nuova città, ancora più grandiosa!"
+ almohad.1004.c:0 "Forse questa non è la linea d'azione più saggia..."

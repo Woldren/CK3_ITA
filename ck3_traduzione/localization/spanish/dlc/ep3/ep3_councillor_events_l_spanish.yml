@@ -1,0 +1,5 @@
+﻿l_spanish:
+ ep3_councillor_event.0001.t: "Coniuge Influente"
+ ep3_councillor_event.0002.t: "Muovere i fili"
+ ep3_councillor_event.0002.desc: "[councillor.GetFirstName] ha mosso qualche filo e ha incrementato il tuo [candidate_score|E] per [target_title.GetNameNoTier] di [improved_candidate_score|0+]"
+

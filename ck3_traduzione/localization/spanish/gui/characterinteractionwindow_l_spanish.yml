@@ -1,0 +1,59 @@
+﻿l_spanish:
+ GOTO_CHARACTER:0 "#T Vai alla posizione di [Character.GetShortUINamePossessiveNoTooltip]#!\n[Character.GetLocationDesc]"
+ CHARACTER_INTERACTION_ITEM_TOOLTIP_HEADER:0 "$NAME|T$"
+ CHARACTER_INTERACTION_ITEM_TOOLTIP_SCHEME_ODDS: "[predicted_difficulty|E]:$NAME$"
+ CHARACTER_INTERACTION_ITEM_TOOLTIP_SCHEME_TYPE: "#S $NAME$ Complotto#!"
+ SHOW_MORE_INTERACTIONS_TT:0 "#T Mostra più [CharacterInteractionCategory.GetDescription]#!"
+ PIN_TT:1 "#T [Select_CString( Character.IsPinned, 'Rimuovi', 'Fissa' )]\n#!Tieni traccia di questo personaggio fissandolo nel riquadro sul lato destro dello schermo"
+
+ interaction_category_favorites: "Preferiti" 
+ interaction_category_diplomacy:0 "Diplomazia"
+ interaction_category_friendly:0 "Personale"
+ interaction_category_laamp: "Avventuriero Senza Terra" 
+ interaction_category_hostile:0 "Ostile"
+
+ interaction_category_vassal: "[GetPlayer.Custom2('CharacterInteractionCategoryVassal', CHARACTER.Self )]"
+ interaction_category_vassal_governor: "[second.Custom('GetGovernorConceptNoTooltip')]" 
+ interaction_category_vassal_vassal: "Vassallo"
+ interaction_category_vassal_tributary: "Tributario"
+ interaction_category_vassal_liege: "Signore"
+ interaction_category_vassal_suzerain: "Suzerain"
+ interaction_category_vassal_fellow_vassal: "Vassallo alla Pari"
+ interaction_category_vassal_fellow_governor: "[second.Custom('GetGovernorConceptNoTooltip')] alla Pari"
+ interaction_category_vassal_courtier: "Cortigiano"
+ interaction_category_vassal_fallback: "Regno & Corte"
+
+ interaction_category_religion: "Religione"
+ interaction_category_house_head: "Capo della Casata"
+ interaction_category_prison: "Prigione"
+
+ interaction_category_diarch: "[GetPlayer.Custom2('CharacterInteractionCategoryPowerSharing', CHARACTER.Self )]"
+ interaction_category_diarch_diarch: "[GetPlayer.GetDiarchTitle]"
+ interaction_category_diarch_fallback: "Condivisione di Potere"
+
+ interaction_category_succession: "Nomina"
+ 
+ interaction_category_uncategorized: "Non categorizzato #D (DEBUG)#!"
+
+ PRISON_INTERACTIONS_BUTTON_TOOLTIP: "#T Mostra tutte le Interazioni della [prison|E]#!"
+ interaction_category_prison_filter_tag_desc: "Interazioni della [prison|E]"
+
+ HOF_INTERACTIONS_BUTTON_TOOLTIP: "#T Mostra le Interazioni del [head_of_faith|E]#!"
+ interaction_category_religion_filter_tag_desc: "Interazioni del [head_of_faith|E]"
+
+ ADMIN_GOVERNMENT_LIEGE_INTERACTIONS_BUTTON_TOOLTIP: "#T Mostra le interazioni [Concept( 'administrative_government', 'Amministrative' )|E] con il tuo [liege|E]#!"
+ ADMIN_GOVERNMENT_HOUSE_HEAD_INTERACTIONS_BUTTON_TOOLTIP: "#T Mostra le interazioni [Concept( 'administrative_government', 'Amministrative' )|E] con i [house_heads|E]#!"
+ ADMIN_GOVERNMENT_GOVERNOR_INTERACTIONS_BUTTON_TOOLTIP: "#T Mostra le Interazioni del [Character.Custom('GetGovernorConceptNoTooltip')]#!"
+ admin_liege_filter_tag_desc: "Administrative Government Interactions"
+ admin_house_head_filter_tag_desc: "[house_head|E] Interactions"
+ admin_governor_filter_tag_desc: "[CHARACTER.Custom('GetGovernorConceptNoTooltip')] Interactions"
+
+
+ INTERACTION_SENDER:0 "Mittente"
+ INTERACTION_RECIPIENT:0 "Destinatario"
+ INTERACTION_SPOUSE:0 "Coniuge"
+ INTERACTION_CONCUBINE:0 "Concubina"
+
+ INTERACTION_SHOW_ACCEPT_EFFECTS:0 "Se Accetta"
+ INTERACTION_SHOW_INTERMEDIARY_DECLINE_EFFECTS:0 "Se in Veto"
+ INTERACTION_SHOW_DECLINE_EFFECTS:0 "Se Rifiuta"

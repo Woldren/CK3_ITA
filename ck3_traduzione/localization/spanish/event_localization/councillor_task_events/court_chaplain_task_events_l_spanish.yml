@@ -1,0 +1,43 @@
+﻿l_spanish:
+ court_chaplain_task.0201.opening:0 "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
+
+ court_chaplain_task.0301.desc:0 "Stavo frugando tra alcuni documenti, sia antichi che di... provenienza meno certa. Finalmente ho abbastanza materiale per affermare che siete voi [ROOT.Char.Custom('DE_ART_DEF_P_A')] legittim[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] [county.Custom('IT_COU_COL')][county.GetName]!\n\nAdesso manca solo una piccola bustarella..."
+ court_chaplain_task.0301.a:0 "Procedi!"
+ court_chaplain_task.0301.b:0 "No, non posso."
+ court_chaplain_task.0301.b.tt:0 "Perdi tutti i progressi nella fabbricazione della rivendicazione"
+
+ court_chaplain_task.0302.desc:1 "Stavo frugando tra alcuni documenti, sia antichi che di... provenienza meno certa. Finalmente ho abbastanza materiale per affermare che che siete voi [ROOT.Char.Custom('DE_ART_DEF_P_A')] legittim[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] [county.Custom('IT_COU_COL')][county.GetName].\n\nIn effetti, potrei persino sostenere che voi siate [ROOT.Char.Custom('DE_ART_DEF_P_A')] legittim[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] di [duchy.GetName]!"
+ court_chaplain_task.0302.desc_heretic_addition:0 "Stavo frugando tra alcuni documenti, sia antichi che di... provenienza meno certa. Finalmente, ho abbastanza materiale per supportare l'idea che siete voi [ROOT.Char.Custom('DE_ART_DEF_P_A')] legittim[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] [county.Custom('IT_COU_COL')][county.GetName].\n\nVisto che, sfortunatamente, [duchy_holder.GetFirstName] persiste nella sua idea di essere #EMP [duchy_holder.GetFaith.GetAdherentName]#!, potrei persino sostenere che voi abbiate una rivendicazione su [duchy.GetName], per diritto divino!"
+ court_chaplain_task.0302.a:0 "Presenta la mia rivendicazione [county.Custom('IT_COU_COL3')]Contea di [county.GetNameNoTierNoTooltip]."
+ court_chaplain_task.0302.b:0 "Si! Tutto il ducato di [duchy.GetNameNoTierNoTooltip] sarà mio!"
+ 
+ court_chaplain_task.0311.t:0 "Una Rivendicazione su [county.GetNameNoTierNoTooltip]!"
+ court_chaplain_task.0311.opening:0 "Per mesi [councillor.GetTitledFirstName], il vostro [councillor.GetCouncilTitle], ha continuato a scavare per mettere insieme trattati falsi e storie inventate."
+ court_chaplain_task.0311.end:0 "\n\nAdesso, [councillor_liege.GetTitleTierName] [councillor_liege.GetFirstName], osa comportarsi come se avesse una rivendicazione legittima [county.Custom('IT_COU_COL3')][county.GetName]!"
+ court_chaplain_task.0311.a:0 "Menzogne, tutte menzogne!"
+
+ court_chaplain_task.0312.a:0 "[councillor_liege.GetFirstNameNoTooltip] non ha nessuna vergogna?!"
+
+ court_chaplain_task.0313.t:0 "Rivendica [county.Custom('IT_COU_COL4')]Contea di [county.GetNameNoTierNoTooltip]!"
+ court_chaplain_task.1001.notification:0 "Predicando la Dottrina Non Ortodossa"
+ court_chaplain_task.1002.notification:0 "Scarsa Retorica"
+ court_chaplain_task.1101.notification:0 "Retorica Impressionante"
+ court_chaplain_task.2001.notification:0 "Resistenza alla Conversione"
+ court_chaplain_task.2002.notification:0 "Resistenza Popolare alla Conversione"
+ court_chaplain_task.2101.notification:0 "Conversioni Entusiaste"
+ court_chaplain_task.2102.notification:1 "Nuova [councillor.GetFaith.HouseOfWorshipPlural|U] Fondata"
+ court_chaplain_task.2103.notification:0 "Nuova Conversione Volontaria"
+
+ court_chaplain_task.3001.t:0 "Ordine Compromesso"
+ court_chaplain_task.3001.desc:1 "Il mio [councillor.GetCouncilTitle], [councillor.GetFirstName], sembra profondamente preoccupato quando viene a farmi visita.\n\n"È venuto alla luce che io stia... indagando sull'esistenza di una giusta e legittima rivendicazione per te [county.Custom('IT_COU_COL3')][county.GetName]. Basti dire che molti dei vostri vassalli si sono risentiti del fatto che il loro [ROOT.Char.GetTitleTierName] ignori la loro lealtà e si comporti con loro in questo modo.""
+ court_chaplain_task.3001.a:0 "Come hai potuto lasciare che ti scoprissero?!"
+ court_chaplain_task.3002.notification:0 "Accusato di Fabbricare una Rivendicazione"
+
+ court_chaplain_task.3003.opening:0 "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
+ court_chaplain_task.3003.desc:0 "Mi è stato riferito di come il vostro [councillor.GetCouncilTitle], [councillor.GetFirstName], stia lavorando per fabbricare una falsa rivendicazione [county.Custom('IT_COU_COL3')][county.GetName]. Vi imploro di ricordare che siete [ROOT.Char.GetTitleTierName] per diritto, non per avidità."
+ court_chaplain_task.3003.a:0 "So cosa sto facendo, [vassal.GetFirstNameNoTooltip]."
+ court_chaplain_task.3003.b:0 "Impara qual è il tuo posto, [vassal.GetTitledFirstNameNoTooltip]."
+
+ court_chaplain_task.3004.opening:0 "[target.Custom2('AppropriateGreeting', ROOT.Char)]"
+ court_chaplain_task.3004.desc:0 "È chiaro che il vostro [councillor.GetCouncilTitle] sta lavorando per creare una falsa e pretenziosa rivendicazione [county.Custom('IT_COU_COL3')][county.GetName]. Non pensiate che una tale azione disonorevole possa proseguire senza che non vi sia alcun tipo di risposta."
+ court_chaplain_task.3004.a:0 "Oh, ma #EMP esiste#! un fondamento per questa rivendicazione."

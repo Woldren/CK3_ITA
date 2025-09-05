@@ -1,0 +1,234 @@
+﻿l_spanish:
+
+ #Common Islam Localization
+ islam_religion:0 "Islam"
+ islam_religion_adj:0 "Musulmana"
+ islam_religion_adherent:0 "Musulmano"
+ islam_religion_adherent_plural:0 "Musulmani"
+ islam_religion_desc:0 "L'Islam è l'ultima rivelazione della fede Abramitica, guidata dalla parola di Dio, come rivelata al Profeta Maometto. Si concentra sul vivere una buona vita servendo l'unico e solo Dio misericordioso."
+ islam_high_god_name:0 "Allah"
+ islam_high_god_name_2:0 "$islam_high_god_name$" # Optional translation alt
+ islam_high_god_name_3:0 "$islam_high_god_name$" # Optional translation alt
+ islam_high_god_name_possessive:0 "di Allah"
+ islam_high_god_name_alternate:0 "Dio"
+ islam_high_god_name_alternate_possessive:0 "di Dio"
+ islam_good_god_rahim:0 "Rahim"
+ islam_good_god_the_most_gracious:0 "il Più Magnanimo"
+ islam_good_god_the_giver_of_peace:0 "Il Donatore di Pace"
+ islam_good_god_the_one:0 "L'Uno, L'Indivisibile"
+ islam_good_god_the_prophet:0 "Il Profeta"
+ islam_good_god_muhammad:0 "Maometto"
+ islam_devil_name:0 "Shaitan"
+ islam_devil_name_possessive:0 "di Shaitan"
+ islam_evil_god_iblis:0 "$islam_trickster_god_name$"
+ islam_death_deity_name:0 "Azrail"
+ islam_death_deity_name_possessive:0 "di Azrail"
+ islam_house_of_worship:0 "moschea"
+ islam_house_of_worship_2:0 "la $islam_house_of_worship$" # Optional translation alt
+ islam_house_of_worship_3:0 "$islam_house_of_worship$" # Optional translation alt
+ islam_house_of_worship_plural:0 "moschee"
+ islam_religious_symbol:0 "shahada"
+ islam_religious_symbol_2:0 "$islam_religious_symbol$" # Optional translation alt
+ islam_religious_symbol_3:0 "$islam_religious_symbol$" # Optional translation alt
+ islam_religious_text:0 "Corano"
+ islam_religious_text_2: "hadiths"
+ islam_religious_text_3:0 "$islam_religious_text$" # Optional translation alt
+ islam_religious_head_title:0 "califfo"
+ islam_religious_head_title_name:0 "califfato"
+ islam_devotee:0 "murshid"
+ islam_devotee_plural:0 "murshidi"
+ islam_priest:0 "imam"
+ islam_priest_plural:0 "imam"
+ islam_priest_alternate_plural:0 "clero"
+ islam_bishop:0 "ālim"
+ islam_bishop_plural:0 "ulama"
+ islam_positive_afterlife:0 "paradiso"
+ islam_positive_afterlife_2:0 "Jannah"
+ islam_positive_afterlife_3:0 "paradise"
+ islam_negative_afterlife:1 "Jahannam"
+ islam_negative_afterlife_2:1 "inferno"
+ islam_negative_afterlife_3:0 "$islam_negative_afterlife$" # Optional translation alt
+ christianity_witchgodname_iblis:0 "Iblis"
+ christianity_witchgodname_iblis_possessive:0 "Iblis'"
+
+ islam_creator_god_name:0 "$islam_high_god_name$"
+ islam_creator_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_health_god_name:0 "$islam_high_god_name$"
+ islam_health_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_fertility_god_name:0 "$islam_high_god_name$"
+ islam_fertility_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_wealth_god_name:0 "$islam_high_god_name$"
+ islam_wealth_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_household_god_name:0 "$islam_high_god_name$"
+ islam_household_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_fate_god_name:0 "$islam_high_god_name$"
+ islam_fate_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_knowledge_god_name:0 "$islam_high_god_name$"
+ islam_knowledge_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_war_god_name:0 "$islam_high_god_name$"
+ islam_war_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_trickster_god_name:0 "Iblīs"
+ islam_trickster_god_name_possessive:0 "Iblīs'"
+ islam_night_god_name:0 "$islam_high_god_name$"
+ islam_night_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_water_god_name:0 "$islam_high_god_name$"
+ islam_water_god_name_possessive:0 "$islam_high_god_name_possessive$"
+
+ #Shia
+ islam_shia_priest:0 "mullah"
+ islam_shia_priest_plural:0 "mullah"
+ islam_shia_religious_head_title:0 "Imam"
+ islam_shia_religious_head_title_name:0 "Imamate"
+
+ #Ash'ari
+ ashari:0 "Ash'arismo"
+ ashari_adj:0 "Ash'ari"
+ ashari_adherent:0 "Ash'arita"
+ ashari_adherent_plural:0 "Ash'ariti"
+ ashari_desc:0 "Una scuola teologica ortodossa che sostiene che Allah ha creato ogni momento nel tempo, ma che gli esseri umani hanno il libero arbitrio di scegliere tra il bene - ciò che Dio ha comandato - e il male - ciò che Dio proibisce."
+
+ #Muwalladism
+ muwalladi:0 "Muwalladismo"
+ muwalladi_adj:0 "Muwalladi"
+ muwalladi_adherent:0 "Muwalladita"
+ muwalladi_adherent_plural:0 "Muwalladiti"
+ muwalladi_desc:1 "Lontani dal centro del mondo Arabo, i Musulmani Iberici si adattarono alla realtà di governare una regione con grandi popolazioni cristiane ed ebraiche, che avevano tradizioni inusuali ed estranee."
+
+ #Masmudism
+ masmudi:1 "Almohadismo"
+ masmudi_adj:1 "Almohadi"
+ masmudi_adherent:1 "Almohadita"
+ masmudi_adherent_plural:1 "Almohaditi"
+ masmudi_desc:2 "Un ramo riformista dell'Islam sunnita originato dalle tribù berbere dell'Africa settentrionale, il movimento Almohadi si considerava unitario e predicava una dottrina di monoteismo purificato."
+ masmudi_religious_head_title:0 "Califfo"
+ masmudi_religious_head_title_name:0 "califfato"
+
+ #Mu'tazila
+ mutazila:0 "Mu'tazilismo"
+ mutazila_adj:0 "Mu'tazilita"
+ mutazila_adherent:0 "Mu'tazilita"
+ mutazila_adherent_plural:0 "Mu'taziliti"
+ mutazila_desc:0 "Una scuola teologica razionalista che afferma che il Corano #EMP non#! è sempre stato coesistente con Dio, dato che Dio deve aver preceduto la sua stessa parola."
+
+ #Maturidi
+ maturidi:0 "Maturidismo"
+ maturidi_adj:0 "Maturidita"
+ maturidi_adherent:0 "Maturidita"
+ maturidi_adherent_plural:0 "Maturiditi"
+ maturidi_desc:0 "Una teologia razionalista che sostiene che l'etica abbia un'esistenza oggettiva, in quanto derivata dalle qualità eterne di Dio, e che gli esseri umani devono quindi perseguire scelte etiche."
+ 
+ #Quranism
+ quranist:0 "Coranismo"
+ quranist_adj:0 "Coranista"
+ quranist_adherent:0 "Coranista"
+ quranist_adherent_plural:0 "Coranisti"
+ quranist_desc:0 "Un'interpretazione letteralista dell'Islam che enfatizza il Corano come unica fonte di saggezza divina e che quindi dovrebbe essere seguito alla lettera, ignorando hadith e fatwa."
+
+ #Ismaili
+ ismaili:0 "Isma'ilismo"
+ ismaili_adj:0 "Isma'ilita"
+ ismaili_adherent:0 "Isma'ilita"
+ ismaili_adherent_plural:0 "Isma'iliti"
+ ismaili_desc:0 "Una fede sciita che considera la linea dei veri Imam - quelli permeati di conoscenza divina e infallibilità - passare attraverso Isma'il bin Jafar. Sono anche conosciuti come Settimani, poiché Isma'il era il settimo Imam dopo Maometto."
+
+ #Qarmatians
+ qarmatian:0 "Qarmatianismo"
+ qarmatian_adj:0 "Qarmatiana"
+ qarmatian_adherent:0 "Qarmatiano"
+ qarmatian_adherent_plural:0 "Qarmatiani"
+ qarmatian_desc:0 "Un ramo dell'Isma'ilismo che incorporava elementi dello Zoroastrismo. Il numero di Imam era stato predefinito da Dio per essere sette, e quindi non potevano esserci più Imam prima che il settimo, Muhammad ibn Isma'il, tornasse a guidare i fedeli."
+
+ #Nizari
+ nizari:0 "Nizarismo"
+ nizari_adj:0 "Nizaria"
+ nizari_adherent:0 "Nizarita"
+ nizari_adherent_plural:0 "Nizariti"
+ nizari_desc:0 "Una fede razionalista che enfatizza il ragionamento nell'interpretazione del Corano e degli hadith. Essere Imam è ereditario e loro fanno risalire la linea di successione ad Ali."
+ 
+ #Zayidi
+ zayidi:0 "Zayidismo"
+ zayidi_adj:0 "Zayidita"
+ zayidi_adherent:0 "Zayidita"
+ zayidi_adherent_plural:0 "Zayiditi"
+ zayidi_desc:0 "Un vero Imam non è infallibile, ma definito dalla sua lotta contro la corruzione e il male. Gli Zayiditi sono quindi definiti dalla loro convinzione che Zayd ibn Ali fosse il legittimo successore dell'Imamato, a causa della sua ribellione contro gli Omayyadi."
+
+ #Imamism (Twelver)
+ imami:0 "Imamismo"
+ imami_adj:0 "Imamita"
+ imami_adherent:0 "Imamita"
+ imami_adherent_plural:0 "Imamiti"
+ imami_desc:0 "Gli Imamiti credono che Dodici Imam fossero stati profetizzati per guidare la Umma e che il dodicesimo, Imam Zaman, stia aspettando di tornare per guidare i Musulmani nel Giorno del Giudizio."
+ islam_ayatollah:0 "ayatollah"
+ islam_ayatollah_plural:0 "ayatollah"
+
+ #
+ ghulat:1 "Ikhtilafismo"
+ ghulat_adj:1 "Ikhtilafita"
+ ghulat_adherent:1 "Ikhtilafita"
+ ghulat_adherent_plural:1 "Ikhtilafiti"
+ ghulat_desc:1 "Gli Ikhtilafi credono nella natura divina degli Imam infallibili, a cominciare da Ali. Dio non solo li ha nominati e ispirati, ma in parte li abita per guidare i loro atti e, per estensione, tutta la Umma."
+
+ alawite:0 "Alauismo"
+ alawite_adj:0 "Alauita"
+ alawite_adherent:0 "Alauita"
+ alawite_adherent_plural:0 "Alauiti"
+ alawite_desc:0 "Gli insegnamenti religiosi Alauiti sono segreti e il Corano è solo uno dei loro testi sacri. Oltre alla credenza nella successione degli Imam attraverso Ali, gli alauiti credono anche nella reincarnazione e che tutti gli esseri siano stelle scacciate dal cielo che devono ora riconquistare il loro posto vivendo vite successive buone e con fedeli."
+
+ #Alevis
+ alevi:0 "Alevismo"
+ alevi_adj:0 "Alevita"
+ alevi_adherent:0 "Alevita"
+ alevi_adherent_plural:0 "Aleviti"
+ alevi_desc:0 "Gli Aleviti credono nella successione dei dodici Imam, ma seguono anche molte altre tradizioni come delineato nella loro raccolta di testi sacri, i Buyruk. Nella tradizione Alevi, Dio è la Verità, e Maometto e Ali sono Sue manifestazioni nel mondo."
+ alevi_house_of_worship:0 "cemvi"
+ alevi_house_of_worship_2:0 "$alevi_house_of_worship$" # Optional translation alt
+ alevi_house_of_worship_3:0 "$alevi_house_of_worship$" # Optional translation alt
+ alevi_house_of_worship_plural:0 "cemvi"
+ alevi_religious_text:0 "Buyruk"
+ alevi_religious_text_2:0 "$alevi_religious_text$" # Optional translation alt
+ alevi_religious_text_3:0 "$alevi_religious_text$" # Optional translation alt
+
+ #Druze
+ druze:0 "Drusa"
+ druze_adj:0 "Drusa"
+ druze_adherent:0 "Drusa"
+ druze_adherent_plural:1 "Drusi"
+ druze_desc:0 "Proveniente dalla Montagna dei Drusi, la fede drusa segue molti dei principi dell'Isma'ilismo, ma include anche credenze gnostiche in una teologia esoterica incentrata sulla verità dell'esistenza."
+ druze_religious_text:0 "Epistole della Saggezza"
+ druze_religious_text_2:0 "$druze_religious_text$" # Optional translation alt
+ druze_religious_text_3:0 "$druze_religious_text$" # Optional translation alt
+
+ #Ibadi
+ ibadi:1 "Ibadismo"
+ ibadi_adj:0 "Ibadita"
+ ibadi_adherent:0 "Ibadita"
+ ibadi_adherent_plural:0 "Ibaditi"
+ ibadi_desc:0 "Gli Ibaditi non credono che sia necessario che l'intero Islam sia governato da un Califfo o da un Imam, se non c'è un candidato idoneo. Sono quindi Muhakkima, non riconoscendo né la linea di Ali né i successori di Abu Bakr come degni leader."
+
+ #Azariqa
+ azariqa:1 "Azraqismo"
+ azariqa_adj:0 "Azariqa"
+ azariqa_adherent:0 "Azariqa"
+ azariqa_adherent_plural:0 "Azariqi"
+ azariqa_desc:0 "Non riconoscendo alcun degno successore di Maometto, gli Azariqi considerano loro diritto e dovere lottare contro qualsiasi leader che non sostiene i valori della loro fede. In effetti, qualsiasi differenza nell'interpretazione della fede contrassegna una persona come infedele."
+
+ #Najdat
+ najdat:0 "Najdatismo"
+ najdat_adj:0 "Najdata"
+ najdat_adherent:0 "Najdata"
+ najdat_adherent_plural:0 "Najdati"
+ najdat_desc:0 "Gli aderenti al ramo Najdata del Khawarij credono fermamente nell'istituzione della leadership musulmana attraverso il consenso dei fedeli. Il leader non è infallibile, ma sono scelti da Dio attraverso la comunità."
+ 
+ #Sufri
+ sufri:0 "Sufrismo"
+ sufri_adj:0 "Sufrita"
+ sufri_adherent:0 "Sufrita"
+ sufri_adherent_plural:0 "Sufriti"
+ sufri_desc:0 "I Sufriti credono nella guida e nell'autorità divina attraverso l'interpretazione della parola di Dio, piuttosto che nell'eredità. La volontà di Dio diventa nota come espressione della volontà della Umma, fintanto che le persone che ne fanno parte sono esperte del Corano."
+
+ #Hafizi
+ hafizi:0 "Hafizi"
+ hafizi_adj:0 "Hafizita"
+ hafizi_adherent:0 "Hafiza"
+ hafizi_adherent_plural:0 "Hafizi"
+ hafizi_desc:0 "Gli hafizi danno la precedenza al sostegno verso colui che considerano il vero califfo al di sopra di tutti gli altri, oltre ad opporsi a qualsiasi tentativo di spodestarlo o deporlo. In caso di sconfitta, sono definiti dalla ribellione per una causa degna, e in caso di vittoria, dall'orgogliosa adesione alla volontà del loro capo."

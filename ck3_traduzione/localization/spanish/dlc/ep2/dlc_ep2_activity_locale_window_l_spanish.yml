@@ -1,0 +1,35 @@
+﻿l_spanish:
+
+ locale_window_your_intent:0 "Il Tuo [intent|e]"
+
+ locale_window_guests_header:0 "Ospiti"
+ locale_window_all_guests_button:0 "Tutti gli Ospiti ([GetDataModelSize(Activity.GetAttendingCharacters)])"
+ locale_window_all_guests_button_tooltip:0 "Mostra tutti gli [guests|e] presenti"
+ locale_window_activity_log:0 "Registro delle Attività"
+ locale_window_activity_log_no_entries:0 "Nessuna voce di registro"
+
+ locale_window_enter_locale_tooltip:1 "Entrare nel/nella [ActivityLocale.GetName]\n\n[ActivityLocale.GetDescription]"
+ locale_window_enter_locale_error_not_arrived:0 "@warning_icon! #X Non sei ancora arrivato al luogo dell'attività.#!"
+ locale_window_enter_locale_error_no_activity:0 "@warning_icon! #X Nessuna attività.#!"
+ locale_window_enter_locale_error_no_character:0 "@warning_icon! #X Sei un osservatore.#!"
+ locale_window_enter_locale_error_no_locale:0 "@warning_icon!#D Luogo non valido.#!"
+ locale_window_enter_locale_error_no_effect:0 "@warning_icon!#D Non c'è alcun effetto in questo luogo.#!"
+ locale_window_enter_locale_global_cooldown:0 "@warning_icon! Non è possibile visitare alcun luogo durante [DATE.GetTimeToDate()]."
+ locale_window_enter_locale_specific_cooldown:0 "@warning_icon! Non è più possibile visitare questo luogo durante [DATE.GetTimeToDate()]."
+ locale_window_enter_locale_auto_select_cooldown:0 "Visiterai automaticamente un luogo dopo [DATE.GetTimeToDate()]."
+ locale_window_enter_locale_not_opened_yet:0 "@warning_icon! Questo luogo si aprirà il [DATE.GetTimeToDate()]."
+ locale_window_enter_locale_phase_is_active:0 "@warning_icon! #X Non è possibile visitare i luoghi mentre è attiva la fase corrente.#!"
+
+ locale_window_your_activity_status:0 "Tu sei $locale_window_your_activity_status_select_hosting_or_attending$ [Activity.GetNameNoTooltip] a [Activity.GetCurrentPhase.GetLocation.GetNameNoTooltip]$locale_window_your_activity_status_select_special_guest$."
+ locale_window_your_activity_status_select_hosting_or_attending:0 "[SelectLocalization( ObjectsEqual( GetPlayer, Activity.GetHost ), 'locale_window_your_activity_status_hosting', 'locale_window_your_activity_status_attending')]"
+ locale_window_your_activity_status_attending:0 "partecipando alla [Activity.GetNameNoTooltip|l] [Activity.GetHost.Custom('IT_NAM_COL2')][Activity.GetHost.GetShortUIName]"
+ locale_window_your_activity_status_hosting:0 "ospitando una [Activity.GetNameNoTooltip|l]"
+ locale_window_your_activity_status_select_special_guest:0 "[SelectLocalization( Activity.IsSpecialGuest( GetPlayer ), 'locale_window_your_activity_status_hosting', '')]"
+ locale_window_your_activity_status_special_guest:1 " come [Activity.GetSpecialGuestTypeForCharacter(GetPlayer).GetNameIfHost( Activity.GetHost )]"
+ 
+ locale_window_status_icon_location_tooltip:0 "Tu sei a [Activity.GetCurrentPhase.GetLocation.GetName]"
+ locale_window_status_icon_special_guest_tooltip:0 "Tu sei l'[Activity.GetSpecialGuestTypeForCharacter(GetPlayer).GetNameIfHost( Activity.GetHost )] della [Activity.GetName]"
+
+ locale_window_widget_current_phase_header:0 "[SelectLocalization( Activity.IsCurrentPhaseActive, 'locale_window_widget_current_phase_active', 'locale_window_widget_current_phase_passive' )]"
+ locale_window_widget_current_phase_passive:0 "#bold Currently#!: #high Aspettando la#! [Activity.GetCurrentPhase.GetPhase.GetName]"
+ locale_window_widget_current_phase_active:0 "#bold Currently#!: #high Partecipi alla#! [Activity.GetCurrentPhase.GetPhase.GetName]"

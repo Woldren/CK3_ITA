@@ -1,0 +1,32 @@
+﻿l_spanish:
+
+ CAN_CREATE_FACTION_TRIGGER:0 "Puoi creare una $TYPE|V$ [faction|E] contro [TARGET_CHARACTER.GetShortUIName]"
+ NOT_CAN_CREATE_FACTION_TRIGGER:0 "#bold Non#! puoi creare una $TYPE|V$ [faction|E] contro [TARGET_CHARACTER.GetShortUIName]"
+ I_CAN_CREATE_FACTION_TRIGGER:1 "Puoi creare una $TYPE|V$ [faction|E] contro [TARGET_CHARACTER.GetShortUIName]"
+ NOT_I_CAN_CREATE_FACTION_TRIGGER:1 " #bold Non#! puoi creare una $TYPE|V$ [faction|E] contro [TARGET_CHARACTER.GetShortUIName]"
+ THEY_CAN_CREATE_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] può creare una $TYPE|V$ [faction|E] contro [TARGET_CHARACTER.GetShortUIName]"
+ NOT_THEY_CAN_CREATE_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U]#bold Non#! può creare una $TYPE|V$ [faction|E] contro [TARGET_CHARACTER.GetShortUIName]"
+
+ CAN_JOIN_FACTION_TRIGGER:0 "Può entrare nella [FACTION.GetNameNoTooltip]"
+ NOT_CAN_JOIN_FACTION_TRIGGER:0 "#bold Non#! puo entrare nella [FACTION.GetNameNoTooltip]"
+ I_CAN_JOIN_FACTION_TRIGGER:1 "Puoi entrare nella [FACTION.GetNameNoTooltip]"
+ NOT_I_CAN_JOIN_FACTION_TRIGGER:0 "#bold Non#! puoi entrare nella [FACTION.GetNameNoTooltip]"
+ THEY_CAN_JOIN_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] può entrare nella [FACTION.GetNameNoTooltip]"
+ NOT_THEY_CAN_JOIN_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] #bold Non#! può entrare nella [FACTION.GetNameNoTooltip]"
+
+ WAS_BLOCKED_FROM_JOINING_TRIGGER:1 "È stato vietato di unirsi alle fazioni fino al [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )]"
+ I_WAS_BLOCKED_FROM_JOINING_TRIGGER:2 "Ti è stato proibito di unirti alle fazioni fino al [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )]"
+ THEY_WAS_BLOCKED_FROM_JOINING_TRIGGER:1 "A [CHARACTER.GetShortUIName|U] è stato proibito di unirsi alle fazioni fino al [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )]"
+ BARONS_CANNOT_JOIN_INDEPENDENCE_FACTIONS:0 "I[barons|E] non entrano nella [independence_factions|E]"
+ CANNOT_START_FACTION_AGAINST_CHARACTER:0 "è impossibile creare una [faction|E] contro [CHARACTER.GetShortUIName]"
+ CHARACTER_CANNOT_LOWER_CROWN_AUTHORITY:0 "[CHARACTER.GetShortUIName|U] ha già il più basso possibile [crown_authority|E]"
+ CHARACTER_CANNOT_LOWER_IMPERIAL_BUREAUCRACY: "[CHARACTER.GetShortUIName|U] ha già la più bassa [imperial_bureaucracy|E] possibile"
+ CHARACTER_CANNOT_LOWER_TRIBAL_AUTHORITY: "[CHARACTER.GetShortUIName|U] ha già la più bassa [tribal_authority|E] possibile"
+ 
+ CHARACTER_CANNOT_BE_IN_FACTION_DUE_TO_MODIFIER:0 "Tu hai un [modifier|E] che ti proibisce di essere in [faction|E]"
+ IS_A_FACTION_MEMBER_TRIGGER:0 "È un membro della fazione"
+ NOT_IS_A_FACTION_MEMBER_TRIGGER: "#bold Non#! un membro della fazione" 
+ FACTION_CAN_PRESS_DEMANDS_TRIGGER:0 "La fazione può pressare le richieste"
+ 
+ nation_fracturing_faction.can_character_create_ui.blocked_by_struggle:0 "Il tuo [liege|E] detiene uno o più [titles|E] che non possono essere [Concept( 'dissolution_faction_dissolved', 'Separati' )|E] a causa di una [struggle|E] in corso"
+ 

@@ -1,0 +1,47 @@
+﻿l_spanish:
+ councillor_spouse_intrigue.0001.message:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] e il [spymaster.GetCouncilTitle] Cooperano"
+
+ councillor_spouse_intrigue.0002.message:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Rivela il Complotto"
+
+ councillor_spouse_intrigue.0003.message:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Scopre dei Segreti"
+
+ councillor_spouse_intrigue.0004.message:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Supporta il Complotto"
+
+ councillor_spouse_intrigue.0005.message:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Manipola il Soggetto"
+
+ councillor_spouse_intrigue.0006.message:0 "Ingenuità Perdutà"
+
+ councillor_spouse_intrigue.0007.message:0 "Pratica Subdola"
+
+ councillor_spouse_intrigue.1001.t:1 "Coniuge: Non fidarti di Nessuno"
+ councillor_spouse_intrigue.1001.desc:0 ""Devi stare attento alle persone con le quali decidi di circondarti." L'espressione degli occhi [councillor.Custom('DE_PRO_PER_P_3P_A')] mi[councillor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('councillor'))] è tremendamente seria. "Ho scoperto che anche ora che parliamo, ([spymaster.Custom('DE_ART_DEF_P_A')]) [spymaster.GetTitledFirstName] sta tramando contro di voi!"\n\nPuò mai essere possibile? [spymaster.Custom('DE_ART_DEF_P_D')] mi[spymaster.Custom('DE_END_PRO_S_N')] stess[spymaster.Custom('DE_END_PRO_S_N')] [spymaster.GetCouncilTitle]?!"
+ councillor_spouse_intrigue.1001.a:0 "Sono stato preso per uno sciocco!"
+
+ councillor_spouse_intrigue.1002.t:1 "Coniuge: Diceria e Speculazione"
+ councillor_spouse_intrigue.1002.desc:0 "[councillor.Custom('DE_ART_DEF_P_D')] mi[councillor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.Custom('quirk_pos_present')] nel modo in cui [councillor.GetSheHe] spesso fa quando ha qualcosa da condividere. "Hai sentito le voci riguardo a/[target.Custom('DE_END_ADJ_DEF_P_A')] [target.GetTitledFirstName] sul fatto che [target.GetSheHe] sta nascondendo qualcosa di terribile?" Mi avvicino in quanto [councillor.GetSheHe] abbassa la voce. "Sono tutte vere. Tutto ciò di cui abbiamo bisogno ora sono delle prove.""
+ councillor_spouse_intrigue.1002.a:0 "È tempo per un po' di spionaggio, [councillor.Custom('LoverPetName')]!"
+ councillor_spouse_intrigue.1002.b:0 "Devo scoprire di cosa si tratta!"
+ councillor_spouse_intrigue.1002.c:0 "Proteggo i miei segreti meglio di quanto faccia [target.GetFirstNameNoTooltip]."
+
+ councillor_spouse_intrigue.1003.t:1 "Coniuge: Rivelata"
+ councillor_spouse_intrigue.1003.desc:0 "Posso dirti dal modo in cui [councillor.GetSheHe] mi si avvicina che ([councillor.Custom('DE_ART_DEF_P_A')]) [councillor.GetTitledFirstName] si è imbattut[councillor.Custom('DE_END_PRO_S_N')] in un altro segreto a corte.\n\n"([agent.Custom('DE_ART_DEF_P_D')]) [agent.GetTitledFirstName] sta partecipando ad una cospirazione," dice. "[agent.GetSheHe|U] ancora non ha capito che io so, ma ti suggerisco di offrirl[agent.Custom('DE_END_NOU_S_G')] un amnistia, in cambio dell'assoluta lealtà...""
+ councillor_spouse_intrigue.1003.a:0 "Falli capire cosa c'è in gioco."
+ councillor_spouse_intrigue.1003.b:0 "Usal[agent.Custom('DE_END_PRO_S_N')] per trovare la vera mente dell'operazione!"
+ councillor_spouse_intrigue.1003.c:0 "Traccia ogni sua mossa, e tienimi a sicuro dal pericolo!"
+
+ councillor_spouse_intrigue.1004.t:1 "Coniuge: Ricerche sull'Avversario"
+ councillor_spouse_intrigue.1004.desc:1 "Il forte sostegno [secret_holder.Custom('DE_PRO_PER_P_3P_A')] [secret_holder.GetTitledFirstName] alla [faction.GetName] è stato un problema. Per fortuna, sembra che stia per avere il sopravvento.\n\n[councillor.Custom('DE_ART_DEF_P_D')] mi[councillor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] mi dice con un sorriso furbesco che ha scoperto un suo segreto tentuto fortemente nascosto.\n\n"Penso che potresti trovarlo interessante, amore...""
+ councillor_spouse_intrigue.1004.a:0 "Un piccolo ricatto [secret_holder.Custom('DE_PRO_POS_P_3P')] manterrà in riga."
+ councillor_spouse_intrigue.1004.b:0 "Questo è uno scandalo! Il reame deve saperlo!"
+ councillor_spouse_intrigue.1004.c:0 "Qualche volta è meglio aspettare con una mano vincente."
+ councillor_spouse_intrigue.1004.c.tt:1 "Non hai ancora rivelato il Segreto di [secret_holder.GetFirstNamePossessiveNoTooltip] "
+
+ councillor_spouse_intrigue.1005.t:1 "Coniuge: Dividi e Conquista"
+ councillor_spouse_intrigue.1005.desc:0 "([faction_member.Custom('DE_ART_DEF_P_D')]) [faction_member.GetTitledFirstName] ha sostenuto attivamente ([leader.Custom('DE_ART_DEF_P_A')]) [leader.GetTitledFirstName] e la sua [faction.GetName]. Tuttavia, mi[councillor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] ha un piano per cambiare le carte in tavola.\n\n"Fidati di me, le cose che posso dire a/[faction_member.Custom('DE_END_ADJ_DEF_P_A')] [faction_member.GetTitledFirstName] possono fare si che [faction_member.GetSheHe] ripudi [leader.GetFirstNameNoTooltip] in un istante.""
+ councillor_spouse_intrigue.1005.a:0 "Accertati che [faction_member.GetFirstNameNoTooltip] non supporti [leader.GetFirstNameNoTooltip] di nuovo!"
+ councillor_spouse_intrigue.1005.b:0 "Puoi far apparire #EMP me#! come una scelta migliore?"
+
+ councillor_spouse_intrigue.1006.t:1 "Coniuge: Un Rappresentante Appropriato"
+ councillor_spouse_intrigue.1006.desc:0 "Essendo ben consapevole dei miei piani nei confronti [target.Custom('DE_PRO_PER_P_3P_A')] [target.GetTitledFirstName], [councillor.Custom('DE_ART_DEF_P_A')] mi[councillor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.GetFirstName] è venut[ROOT.Char.Custom('DE_END_PRO_S_N')] da me con una proposta.\n\n"Ho un amico alla corte di [court_owner.GetTitledFirstName]. Potrei chiedere che accolgano un ospite per qualche tempo. Con un piccolo pegno di fedeltà e tutto il supporto che io posso offrire, ([plant.Custom('DE_ART_DEF_P_A')]) [plant.GetTitledFirstName] potrebbe fare miracoli per te...""
+ councillor_spouse_intrigue.1006.a:0 "Un'idea brillante, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]!"
+ councillor_spouse_intrigue.1006.b:0 "Penso che potremmo aver bisogno di [plant.GetFirstNameNoTooltip] quì."

@@ -1,0 +1,68 @@
+﻿l_spanish:
+
+ #### Your Heir is a Jerk, by Isabella Welch
+ hold_court.4001.t:0 "Flagello"
+ hold_court.4001.desc.intro:0 "[annoyed_vassal.GetTitledFirstName] irrompe nella mia sala del trono. "[ROOT.Char.Custom2('RelationToMeAddress', annoyed_vassal)|U], molti pensano che [preferred_heir.GetTitledFirstName] dovrebbe diventare il vostro successore al posto di [annoying_heir.GetTitledFirstName]. È risaputo a [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] il vostro erede [annoying_heir.GetTitledFirstNameNoTooltip] offende così tanto da aver reso l'offesa un'abilità!"
+ hold_court.4001.heir_street_fight:0 "Quel[annoying_heir.Custom('DE_END_ADJ_NUL_S_N')] malvagi[annoying_heir.Custom('DE_END_PRO_S_N')] indugia fuori dalle taverne e incita i contadini ubriachi a fare delle risse. Molti sono morti in queste risse dove [annoying_heir.GetSheHe] uccide per sport!""
+ hold_court.4001.heir_robbery:0 "Durante il mio viaggio sono stato derubato da un[annoying_heir.Custom('DE_PRO_POS_P_2P')] [annoying_heir.GetWomanMan] a cavallo in in abiti sgargianti. [annoying_heir.Custom('DE_ART_IND_D')] mi ha spogliato e legato ad un albero, prima di togliersi la maschera gongolandosi di essere [annoying_heir.GetFirstNameNoTooltip]!""
+ hold_court.4001.heir_tavern:0 "[annoying_heir.Custom('DE_ART_IND_D')] praticamente vive nella taverna, e una volta che ha sperperato i suoi soldi, altri [annoying_heir.Custom('DE_PRO_DEM')] comprano da bere in cambio di imitazioni oscene di te da parte sua!""
+ hold_court.4001.heir_diplomacy_failure:0 "[annoying_heir.GetSheHe|U] si rifiuta di prendere parte anche ad una sola riunione, e quando [annoying_heir.Custom('DE_PRO_DEM')] ho chiesto il perché, mi ha detto 'sono troppo noiosi, ci divertiremmo molto di più ad ammazzarci a vicenda.'""
+ hold_court.4001.heir_hated:0 "[annoying_heir.Custom('DE_ART_IND_D')] è un antipatic[annoying_heir.Custom('DE_END_PRO_S_N')] spaccon[annoying_heir.Custom('DE_PRO_PER_S_3P_G')] e si è vantat[annoying_heir.Custom('DE_END_PRO_S_N')] con me che non [annoying_heir.Custom('DE_PRO_DEM')] interessa se [annoying_heir.GetSheHe] non piace a nessuno di noi.""
+ hold_court.4001.protective_parent:0 "\n\n[protective_parent.GetTitledFirstNameNoTooltip] si ferma, sbigottit[protective_parent.Custom('DE_END_PRO_S_N')]. "[annoying_heir.Custom('DE_ART_DEF_P_D')] mi[annoying_heir.Custom('DE_END_PRO_S_N')] [annoying_heir.Custom('PetName')] non farebbe mai una cosa del genere!""
+ hold_court.4001.accusation_default:0 "\n\n[annoyed_vassal.GetSheHe|U] sospira. "Ma sono sicur[annoyed_vassal.Custom('DE_END_PRO_S_N')] che [annoying_heir.GetSheHe] negherà di averlo fatto.""
+ hold_court.4001.heir_admission:0 "\n\nUn sorriso da lupo si allarga sul volto di [annoying_heir.GetTitledFirstNamePossessiveNoTooltip]. "Oh, Io l'ho fatto eccome.""
+ hold_court.4001.a:0 "Molto dolce, [annoying_heir.GetSheHe] ha preso da su[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetMotherFather]!"
+ hold_court.4001.b:0 "Questa è l'ultima goccia! [preferred_heir.GetTitledFirstNameNoTooltip] lo è."
+ hold_court.4001.c:0 "Per mia esperienza, [preferred_heir.GetTitledFirstNameNoTooltip] è altrettanto insopportabile!"
+ hold_court.4001.d:0 "Essere imperfetti significa che i soldati l[annoying_heir.Custom('DE_END_PRO_S_N')] vedono come uno di loro!"
+
+## Vassals are prejudiced about your disabilities by Isabella Welch
+
+ disabled_fallback:0 "disabilitato"
+
+ ## Inspired Poet appears at court and makes demands by Isabella Welch
+
+ hold_court.4500.t:0 "Poesia Infinita"
+ hold_court.4500.desc: "Una figura splendida, con un bagliore di rivelazione intorno a sé, si avvicina. "Sono [Select_CString(demanding_poet.IsFemale,'una grande potesessa','un grande poeta')] e ho viaggiato da molto lontano solo per servirvi. Ho composto la più grande ballata del mondo, sulla vostra gloria e sulla magnificenza della corte [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip].""
+ hold_court.4500.a:1 "Non ho bisogno di [Select_CString(demanding_poet.IsFemale,'una potesessa','un poeta')]."
+ hold_court.4500.b:1 "I tuoi versi sono affascinanti, vieni a scrivere per la mia corte."
+
+### Peasants are convinced you're a literal monster by Isabella Welch 
+ hold_court.4600.t:0 "Co[ROOT.GetCharacter.GetSheHe] che fa di se stess[ROOT.Char.Custom('DE_END_PRO_S_N')] una bestia..."
+ hold_court.4600.desc:1 "Davanti al mio trono si presenta un branco di contadini schifosi. Sono armati con i più pericolosi e incendiari attrezzi agricoli che abbia mai visto in tutta la mia carriera di repressore di ribellioni.\n\n"Questo essere che ci governa è un vero demone incarnato. [Select_CString(ROOT.Char.IsFemale,'Nessuna','Nessun')] [ROOT.GetCharacter.GetWomanMan] sarebbe capace di tali violenti estremismi e blasfemie. Chiediamo la fine della vostra mostruosa tirannia!""
+ hold_court.4600.a:0 "Io non sono un demone, sono un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip], che è molto, #EMP molto#! peggio."
+ hold_court.4600.b:0 "Un concetto adorabile! [chancellor.GetCouncilTitle]! Diffondete la voce che sono un demone."
+ hold_court.4600.c:0 "Sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] davvero così abominevole?"
+ hold_court.4600.c.tt:0 "Non è troppo tardi per cambiare."
+ hold_court.4600.d:1 "Levatemi di torno questa gentaglia."
+### Vassal invites you to a suspicious dinner by Isabella Welch
+ hold_court.4601.t:0 "[ROOT.GetCharacter.Custom('DE_ART_DEF_P_D')] mi[ROOT.GetCharacter.Custom('DE_END_PRO_S_N')] delizios[ROOT.GetCharacter.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.GetLadyLord|U],"
+ hold_court.4601.d:0 "Il mio cuore non ha quasi mai smesso di palpitare da quando ho iniziato a sentire i paesani raccontare che tu hai l'anima di un vero demone. Mi pento sempre di non aver conosciuto meglio la tua spaventosa persona.\n\nVieni al mio castello, e ceneremo con le più crude prelibatezze mai conosciute a [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]!"
+ hold_court.4601.a:0 "Sembra squisito!"
+ hold_court.4601.b:0 "Abbiamo banchetti più raffinati a casa..."
+
+### Sophisticated Cannibal dinner by Isabella Welch
+ hold_court.4602.t:0 "[ROOT.GetCharacter.Custom('DE_ART_DEF_P_D')] mi[ROOT.GetCharacter.Custom('DE_END_PRO_S_N')] delizios[ROOT.GetCharacter.Custom('DE_END_PRO_S_N')] Signor[ROOT.GetCharacter.Custom('DE_END_ADJ_IND_S_A')]"
+ hold_court.4602.desc:0 "Il [cannibal_vassal.Custom('FortifiedBuilding')] di [cannibal_vassal.GetTitledFirstNamePossessiveNoTooltip] è illuminato solo da alcune candele tremolanti. [cannibal_vassal.Custom('DE_ART_IND_D')] mi fa sedere davanti a un tavolo da banchetto sul quale non vi sono piatti a parte una miriade di tagli di carne poco cotta.\n\n[cannibal_vassal.Custom('DE_ART_IND_D')] si mette dietro la mia sedia, aspettando che io scelga del cibo. Dopo un po', [cannibal_vassal.GetSheHe] si china vicino alla mia testa, digrignando i denti.\n\n"Stanotte davanti a noi, cucinate, ci sono molte persone buone, ma nessuna è deliziosa quanto te!"
+ hold_court.4602.a:0 "Chi dovrei mangiare come antipasto?"
+ hold_court.4602.b:0 "Va bene, puoi avere un solo morso."
+ hold_court.4602.c:0 "Me ne vado! Questa cosa è di cattivo gusto!"
+
+## Shady genealogist offers to prove you are descended from mythical heroes by Isabella Welch
+
+ hold_court.4900.t:0 "In Tempi Antichi..."
+ hold_court.4900.desc:1 "Una figura antica si avvicina al mio trono, con un clic e un colpetto del suo bastone che lo accompagna ad ogni passo.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], Io sono un genealogista e voi sapete di essere di origine nobile. Tuttavia, nobile non è proprio la stessa cosa di divino o mitico. Desidero scrivere una pergamena che ripercorra il vostro lignaggio completo fino agli albori della storia. Per qualche moneta d'oro, posso rivelare la verità a voi e al mondo: voi siete un vero discendente di [ROOT.GetCharacter.Custom('GetMythicalFounder')]!""
+ hold_court.4900.a:0 ""Non ho bisogno di un pezzo di carta che me lo dica!""
+ hold_court.4900.b:0 ""Eccellente! Assicuratevi che la lista sia eccessivamente lunga!""
+ hold_court.4900.c:0 ""[ROOT.GetCharacter.Custom('GetMythicalFounder')]? Nulla in confronto a me!""
+ hold_court.4900.d:0 ""La mia dinastia potrà anche essere piccola, ma non siamo stupidi!""
+ hold_court.4900.e: ""Una premessa perfetta per consolidare il mio status di leggenda!"" 
+
+ hold_court.4901.desc.intro:0 "Dopo alcuni giorni il genealogista [suspicious_genealogist.GetTitledFirstName] ritorna. [suspicious_genealogist.GetSheHe|U] dispiega una pergamena abbastanza lunga da circondare una delle mie province. Il mio [chaplain.GetCouncilTitle] inciampa leggermente su di essa mentre l'estremità srotolata rotola ai piedi del mio trono.\n\n"Ho qui la verità sulla vostra origine, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]," [suspicious_genealogist.GetSheHe] si schiarisce la gola e inizia a leggere, "oggi sveliamo una grande storia. Dinnanzi a noi vi è [ROOT.Char.Custom('DE_ART_DEF_P_D')] [ROOT.GetCharacter.GetTitledFirstNameNoTooltip],"
+ hold_court.4901.mothers:0 "figlia di [mother_1.GetFullNameNicknamedNoTooltip], generata dalla temibile [mother_2.GetFullNameNicknamedNoTooltip], frutto dei lombi di [mother_3.GetFullNameNicknamedNoTooltip], è emersa dal grembo di [mother_4.GetFullNameNicknamedNoTooltip], figlia della fiera [mother_5.GetFullNameNicknamedNoTooltip]..."
+ hold_court.4901.fathers:0 "figlio di [father_1.GetFullNameNicknamedNoTooltip], generato dal temibile [father_2.GetFullNameNicknamedNoTooltip], frutto dei lombi di [father_3.GetFullNameNicknamedNoTooltip], figlio del rimarchevole [father_4.GetFullNameNicknamedNoTooltip], figlio di [father_5.GetFullNameNicknamedNoTooltip]...""
+ hold_court.4901.desc.outro:0 "\n\nAlcune palpebre a corte cominciano a calare."
+ hold_court.4901.a:0 "È ora di fare un pisolino. Sognerò la mia gloria."
+ hold_court.4901.a.tt:0 "Lascia il resto della corte ad ascoltare con attenzione"
+ hold_court.4901.b:0 "Questa cosa mi emoziona più di qualsiasi ballata! Sono sul bordo del mio trono!"
+ hold_court.4901.c:0 ""Basta! Il/La [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTooltip] è in debito con te per i tuoi servigi.""

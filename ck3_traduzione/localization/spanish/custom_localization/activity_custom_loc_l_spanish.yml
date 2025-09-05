@@ -1,0 +1,11 @@
+﻿l_spanish:
+ #GetActivitySpecialType
+ pilgrimage_piousness:0 "Devozione Raggiunta"
+ pilgrimage_worldliness:0 "Mondanità Raggiunta"
+
+ #GetActivitySpecialTypeDesc
+ pilgrimage_piousness_desc:0 "\n\nQuanto si è rivelato Pio il tuo [pilgrimage|E] fino ad ora.\n\nPiù sei Pio, migliori saranno le ricompense per l'[activity|E] che potresti ricevere."
+ pilgrimage_worldliness_desc:0 "\n\nQuanto si è rivelato Mondano il tuo [pilgrimage|E] fino ad ora.\n\nPiù sei Mondano, migliori saranno le ricompense per l'[activity|E] che potresti ricevere."
+
+ fallback_liturgical_province_language: "[ROOT.Province.GetCulture.GetLanguage.GetName] Arcaica"
+ fallback_liturgical_character_language: "[ROOT.Char.GetCulture.GetLanguage.GetName] Arcaica"

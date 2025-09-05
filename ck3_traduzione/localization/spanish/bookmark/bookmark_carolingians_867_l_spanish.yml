@@ -1,0 +1,38 @@
+﻿l_spanish:
+ bm_867_carolingians:0 "I Carolingi"
+ bm_867_carolingians_desc:1 "Dopo la morte di Luigi il Pio, l'ex grande impero Carolingio venne diviso in tre regni separati di Francia Orientale, Occidentale e Centrale. Da allora, questi regni non hanno fatto altro che frammentarsi ulteriormente a causa di varie guerre, ribellioni ed eredità che hanno causato instabilità e frammentazione.\n\n#bold Esiste qualcuno dei Carolingi abbastanza forte da riunire il loro impero? O i loro battibecchi familiari li renderanno vulnerabili allo sfruttamento da parte degli opportunisti?#!"
+
+ #Charles the Bald
+ bookmark_carolingians_charles_the_bald:0 "Carlo il Calvo"
+ bookmark_carolingians_charles_the_bald_desc:0 "Al momento della nascita di Carlo, i suoi fratellastri, che erano già uomini adulti, governavano già i propri regni nell'impero Carolingio. Senza una propria corona, egli divenne noto come 'il Calvo,' sebbene in seguito avrebbe ereditato l'Aquitania e la Francia Occidentale. In futuro erediterà persino l'Italia e lo stesso Sacro Romano Impero, ma la sua linea non persevererà, il suo ultimo nipote morirà senza figli solo sette anni dopo la sua stessa morte.\n\n#bold Puoi cambiare il corso della storia e assicurare a Carlo una lunga e prosperosa linea di discendenti?#!"
+
+ bookmark_carolingians_charles_the_bald_alt_judith:0 "$Judith$"
+ bookmark_carolingians_charles_the_bald_alt_louis:0 "$Louis$ $nick_the_stammerer$"
+
+ #King Lothaire
+ bookmark_carolingians_king_lothaire:0 "Re Lotario II"
+ bookmark_carolingians_king_lothaire_desc:0 "Sebbene egli fosse innamorato della sua amante Waldrada, il padre di Lotario lo forzò in un matrimonio politico con Teutberga. La loro unione non produsse figli, e la vita di Lotario consistette in una continua lotta per divorziare dalla moglie e per vedere legittimati i suoi figli bastardi. Sebbene senza mai smettere di provare, Lotario morirà senza un erede legale.\n\n#bold Riuscirai a superare le macchinazioni di chi complotta contro di te e garantire la continuazione della tua Casata?#!"
+
+ bookmark_carolingians_king_lothaire_alt_waldrada:0 "$Waldrada$"
+ bookmark_carolingians_king_lothaire_alt_teutberga:0 "$Teutberga$"
+
+ #Ludwig the German
+ bookmark_carolingians_ludwig_the_german:0 "Ludwig il Germanico"
+ bookmark_carolingians_ludwig_the_german_desc:0 "Un uomo ambizioso, Ludwig ha cercato a lungo di riconquistare i pezzi dell'Impero che considera suoi per diritto di nascita. Tuttavia queste ambizioni hanno subito una battuta d'arresto dopo l'altra, poiché le sue varie campagne militari sono finite nel fallimento e i suoi figli ribelli hanno strappato via dal suo controllo la maggior parte dei suoi stessi insediamenti.\n\n#bold Riuscirai a invertire le disgrazie di Ludwig e riconquistare l'Impero per i suoi discendenti, oppure i suoi figli sono destinati ad essere relegati ad una semplice nota a piè di pagina nella storia?#!"
+
+ bookmark_carolingians_ludwig_the_german_alt_youngerludwig:0 "$Ludwig$ $nick_the_younger$"
+ bookmark_carolingians_ludwig_the_german_alt_karl:0 "$Karl$"
+
+ #King Louis of Italy
+ bookmark_carolingians_king_louis:0 "Re Luigi II"
+ bookmark_carolingians_king_louis_desc:1 "Il potere imperiale era diminuito così tanto ai tempi in cui Luigi venne incoronato Imperatore del Sacro Romano Impero che il titolo non offiva più alcuna reale autorità. Sebbene sia riuscito a reclamare il Regno di Provenza, lo zio di Luigi e il fratello, alleggeriti da qualsiasi tipo di fedeltà alla Corona Imperiale, continuano ad agire come più gli aggrada. Circondato da vicini litigiosi e con un regno instabile, Luigi II morirà senza generare un figlio.\n\n#bold Riuscirai a riconquistare tutti i territori perduti dell'Impero e ristabilire il vero potere della Corona Imperiale?#!"
+
+ bookmark_carolingians_king_louis_alt_ermengarde:0 "$Ermengarde$"
+ bookmark_carolingians_king_louis_alt_engelberga:0 "$Engelberga$"
+
+ # King Karlmann of Bavaria
+ bookmark_carolingians_king_karlmann:1 "Principe Carlomanno"
+ bookmark_carolingians_king_karlmann_desc:0 "Il figlio maggiore di Ludovico il Germanico, Carlomanno si ribellò al padre e lo forzò a dargli il controllo delle terre di Bavaria. Egli espanderà questo dominio tramite guerre con gli Slavi ad Est e successivamente sarà persino eletto Re d'Italia, sebbene uno sfortunato infarto lo costringerà ad abdicare al trono di Bavaria e d'Italia nei confronti dei suoi fratelli più giovani. Morirà solo qualche anno più tardi.\n\n#bold Con un po' di fortuna, sarai in grado di evitare lo sfortunato decesso di Carlomanno e a stabilire un retaggio che duri nei secoli?#!"
+
+ bookmark_carolingians_king_karlmann_alt_arnulf:0 "$Arnulf$"
+ bookmark_carolingians_king_karlmann_alt_hemma:0 "$Hemma$"

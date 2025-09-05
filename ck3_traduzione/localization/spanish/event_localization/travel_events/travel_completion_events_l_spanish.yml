@@ -1,0 +1,25 @@
+﻿l_spanish:
+#Travel Completion Events
+#Generic completion
+ travel_completion_event.1000.t:1 "$travel_event_prefix$ Arrivo"
+ travel_completion_event.1000.desc.home:0 "Finalmente, rieccomi a casa! Non c'è nulla di meglio che tornare a [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] dopo un lungo viaggio. Non vedo l'ora di riposare per un po' di tempo, "
+ travel_completion_event.1000.desc.abroad:0 "Dopo un lungo cammino, sono finalmente arrivat[ROOT.Char.Custom('DE_END_PRO_S_N')] a [final_destination_province.GetName]! Per un po' di tempo non avrò più a che fare con sentieri polverosi e piaghe da sella, "
+ travel_completion_event.1000.desc.activity:0 "poiché è giunto il momento di partecipare all'attività di [ROOT.Char.GetInvolvedActivity.GetName].\n\n"
+ travel_completion_event.1000.desc.no_activity:0 "ma il richiamo della strada ci invita sempre a proseguire.\n\n"
+ travel_completion_event.1000.stats:2 "Il mio seguito riferisce che abbiamo viaggiato per [travel_plan_scope.MakeScope.Var('travel_plan_elapsed_days').GetValue] giorni e abbiamo attraversato [travel_plan_scope.MakeScope.Var('travel_plan_provinces_traversed').GetValue] baronie.\n\n"
+ travel_completion_event.1000.stats.travel_leader:0 "Il mio [GetCourtPositionType('travel_leader_court_position').GetNameNoTooltip()], [travel_leader_scope.GetName], riferisce che abbiamo viaggiato per [travel_plan_scope.MakeScope.Var('travel_plan_elapsed_days').GetValue] giorni e abbiamo attraversato [travel_plan_scope.MakeScope.Var('travel_plan_provinces_traversed').GetValue] baronie.\n\n"
+ travel_completion_event.1000.desc.memory:0 "Non dimenticherò mai quando [travel_conc_memory.GetDescription]."
+ travel_completion_event.1000.desc.cultural_ambassador:0 "Il mio Ambasciatore Culturale ha avuto la possibilità di diffondere l'accettazione per la cultura [ROOT.Char.GetCulture.GetName]!\n\n"
+ travel_completion_event.1000.a:1 "Ringraziando [ROOT.Char.GetFaith.HighGodName], posso di nuovo stare al coperto..."
+ travel_completion_event.1000.a.adventurer: "Grazie a [ROOT.Char.GetFaith.HighGodName], di nuovo in letto confortevole..." 
+ travel_completion_event.1000.b:1 "Viaggiare è meraviglioso, ma il ritorno a casa è anche più dolce."
+ travel_completion_event.1000.b.adventurer: "Viaggiare è meraviglioso, ma lo è ancora di più se si viaggia comodi." 
+ cultural_ambassador_cultural_acceptance_gain_desc:0 "Viaggiare con un Ambasciatore Culturale"
+ cultural_ambassador_toast.t:0 "[cultural_ambassador.GetFirstNameNoTooltip] incrementa l'Accetazione Culturale"
+ cultural_ambassador_option.tt:0 "Effetti guadagnati per merito del tuo Ambasciatore Culturale:\n$EFFECT_LIST_BULLET$L'[cultural_acceptance|E] tra ogni [culture|E] che hai visitato e la cultura [SCOPE.GetRootScope.GetCharacter.GetCulture.GetName] è migliorata di #positive_value +1%#!"
+
+ finally_there_perk_title_message: "[GetPerk('finally_there_perk').GetName( GetNullCharacter )]"
+ souvenirs_aplenty_perk_title_message: "[GetPerk('souvenirs_aplenty_perk').GetName( GetNullCharacter )]"
+ no_stone_unturned_perk_title_message: "[GetPerk('no_stone_unturned_perk').GetName( GetNullCharacter )]"
+ no_stone_unturned_perk_cooldown_title_message: "[GetPerk('no_stone_unturned_perk').GetName( GetNullCharacter )]: Nessun Effetto"
+ no_stone_unturned_perk_cooldown_message: "La Contea è ancora influenzata dalla tua ultima visita."

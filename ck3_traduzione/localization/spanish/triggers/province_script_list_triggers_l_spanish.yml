@@ -1,0 +1,26 @@
+﻿l_spanish:
+
+ ALL_PROVINCES:0 "Tutti le Baronie:"
+ ANY_PROVINCE:0 "Qualsiasi Baronia:"
+
+ ALL_REALM_PROVINCES:0 "Tutte le Baronie del Regno:"
+ ANY_REALM_PROVINCE:0 "Qualsiasi Baronia del Regno:"
+ ALL_OF_MY_REALM_PROVINCES:1 "Tutte le Tue Baronie del Regno:"
+ ANY_OF_MY_REALM_PROVINCES:1 "Qualsiasi Tua Baronia del Regno:"
+ ALL_OF_THEIR_REALM_PROVINCES:0 "Tutte le Baronie del Regno di [CHARACTER.GetShortUINamePossessive]:"
+ ANY_OF_THEIR_REALM_PROVINCES:0 "Una qualsiasi delle Baronie del Regno di [CHARACTER.GetShortUINamePossessive]:"
+
+ ALL_DIRECTLY_OWNED_PROVINCES:0 "Tutte le Baronie Detenute:"
+ ANY_OF_MY_DIRECTLY_OWNED_PROVINCES:0 "Qualsiasi tua Baronia Detenuta:"
+ ANY_OF_THEIR_DIRECTLY_OWNED_PROVINCES:0 "Qualsiasi Baronia Detenuta da [CHARACTER.GetShortUIName]:"
+
+ any_realm_county:0 "Qualsiasi Contea del Reame:"
+ any_realm_county_count_greater_or_equal:0 "Qualsiasi [county|E] del [realm|E] uguale o superiore a:"
+ any_realm_county_count_less_or_equal:0 "Qualsiasi [county|E] del [realm|E] uguale o inferiore a:"
+ any_realm_county_count_equal:0 "Qualsiasi [county|E] del [realm|E] uguale a:"
+
+ any_sub_realm_county:0 "Ogni Contea del Sotto-Reame:"
+
+ county_opinion:0 "Opinione della Contea: $OPINION|=V$"
+ monthly_county_control_change: "Variazione Mensile del [control|E] della Contea"
+ num_county_followers:0 "Numero di Seguaci della Contea: $NUM|V0$"

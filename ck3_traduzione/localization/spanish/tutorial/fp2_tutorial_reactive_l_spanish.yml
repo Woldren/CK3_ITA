@@ -1,0 +1,47 @@
+﻿l_spanish:
+ reactive_advice_struggle:0 "Dispute"
+ action_reactive_advice_struggle:0 "Avviso: Dispute"
+ action_reactive_advice_struggle_desc:1 "Puoi partecipare a una Disputa. Apri qui per saperne di più su cosa questo significhi per te."
+ action_reactive_advice_struggle_click:0 "$click_to_open_lesson$"
+ 
+ lessons_struggle_introduction:0 "Dispute"
+ lessons_struggle_introduction_desc:0 "Ora fai parte di una [struggle|E]!\n\nLe [struggle_struggles|E] sono conflitti prolungati all'interno di una [region|E] dove le azioni di tutti i partecipanti cambieranno lo stato dell'area, stabilendo differenti [struggle_phase_phases|E]. I cambiamenti nello stato della regione porteranno a degli effetti sulla [war|E], sulla [faith|E] e sulla [culture|E].\n\nIn definitiva, tutti i partecipanti competono per essere loro a decidere quale sarà la conclusione della [struggle|E], condizionando tutti i partecipanti nella regione."
+ reactive_advice_struggle_introduction: "$lessons_struggle_introduction$"
+
+ lessons_struggle_region_open:0 "Regione della Disputa"
+ lessons_struggle_region_open_desc:1 "La [struggle_region|E] é contrassegnata all'interno di un nuovo confine il quale appare in evidenza se passi il mouse sul pulsante Disputa. Solo i personaggi che possiedono una terra nella regione partecipano alla [struggle|E].\n\n#TUT I [characters|E] all'esterno della regione possono unirsi ad una [struggle|E] acquisendo delle terre all'interno della [struggle_region|E] e spostando la loro [capital|E] all'interno dell'area.#!"
+
+ lessons_struggle_view_open:0 "Accesso alla Panoramica della Disputa"
+ lessons_struggle_view_open_desc:0 "Da qui puoi aprire la panoramica della [struggle|E], il punto dal quale è possibile consultare tutte le informazioni relative alla [struggle|E]."
+ lessons_struggle_view_open_prompt:0 "Apri la panoramica della [struggle|E]"
+
+ lessons_struggle_view:0 "Panoramica della Disputa"
+ lessons_struggle_view_desc:1 "Nella Panoramica della Disputa, puoi apprendere di più sull'attuale [struggle_phase|E] e sui suoi effetti. Puoi inoltre osservare le potenziali nuove fasi e i [struggle_catalyst_catalysts|E] di cui hai bisogno per indirizzare completamente la [struggle|E] verso di loro."
+
+
+ lessons_struggle_current_phases_and_effects:0 "Fase Attuale & Effetti"
+ lessons_struggle_current_phases_and_effects_desc:0 "L'attuale [struggle_phase|E] ha un impatto sull'intera [struggle_region|E], applicando effetti speciali per i partecipanti [struggle_involved|E], [Concept( 'struggle_interloper', 'Osservatori' )|E] e [struggle_uninvolved|E].\n\nIn questa sezione puoi esaminare gli effetti della fase su [war|E], [faith|E], [culture|E], e altri effetti."
+
+ lessons_next_struggle_phases:0 "Fase Successiva della Disputa"
+ 
+ # TODO_CD: The key should not use POINT_BASED_PHASE_DEFAULT_DURATION because it's valid only for point-based phases
+ lessons_next_struggle_phases_desc:3 "L'attuale [struggle_phase|E] giungerà ad una fine quando una delle potenziali nuove fasi raggiungerà l'avanzamento a [GetDefine('NStruggle', 'POINT_BASED_PHASE_DEFAULT_DURATION')]. Per aumentare l'avanzamento di una qualsiasi delle potenziali fasi successive devi completare uno qualsiasi dei [struggle_catalyst_catalysts|E] elencati sotto di loro.\n\n#TUT Esamina tutte le potenziali fasi successive per saperne di più su di esse, sui loro effetti, e il recente avanzamento del [struggle_catalyst|E]. Selezionarlo aprirà la lista dei [Concept( 'struggle_catalyst', 'Catalizzatori' )|E], che può essere completata un numero illimitato di volte da te o da altri partecipanti [struggle_involved|E] nella [struggle|E].#!"
+
+ lessons_ending_struggle_open:0 "Poni Fine alla Disputa"
+ lessons_ending_struggle_open_desc:1 "La [struggle|E] continuerà a cambiare fase finché un partecipanti non attiverà una delle Decisioni Finali e porrà fine alla [struggle|E]. Puoi esaminare le Decisioni Finali per controllare i requisiti e gli effetti."
+ lessons_ending_struggle_open_prompt:0 "Apri le Decisioni Finali"
+
+ lessons_ending_struggle:0 "Porre Fine alla Disputa"
+ lessons_ending_struggle_desc:1 "Da qui puoi vedere tutte le Decisioni Finali della [struggle|E].\n\nTieni presente che ogni Decisione Finale richiede che tu ti trovi in una specifica fase per attivarla. Riceverai una notifica se una di esse è disponibile."
+
+
+ lessons_explore_struggle_open:0 "Esplora la Disputa"
+ lessons_explore_struggle_open_desc:0 "Ora conosci tutte le basi e sei pronto per la tua prima [struggle|E].\n\nEsaminare gli effetti della fase attuale e le potenziali fasi successive sulle quali vuoi lavorare è un buon punto di partenza."
+ 
+ lessons_struggle_involvement_view_open:0 "Coinvolgimento nella Disputa"
+ lessons_struggle_involvement_view_open_desc:0 "In una [struggle|E], tutti i [characters|E] nella regione possono attivare i [struggle_catalyst_catalysts|E]. Pertanto, è importante sapere chi sono i partecipanti [struggle_involved] e gli [Concept( 'struggle_interloper', 'Osservatori' )|E]. La Panoramica del Coinvolgimento nella [struggle|E] offre informazioni a riguardo."
+ lessons_struggle_involvement_view_open_prompt:1 "Apri la Panoramica del Coinvolgimento nella Disputa"
+  
+ lessons_struggle_involvement_view:0 "Coinvolgimento nella Disputa"
+ lessons_struggle_involvement_view_desc:0 "Da qui puoi vedere le informazioni sul coinvolgimento, insieme ad un'analisi di ciò che ti rende [struggle_involved|E], [Concept( 'struggle_interloper', 'Osservatori' )|E] o [struggle_uninvolved|E].\n\nOltre al tuo coinvolgimento personale, è possibile visualizzare l'elenco dei partecipanti alla [struggle|E] e il loro coinvolgimento. Anche le [struggle_involved_cultures|E] e le [struggle_involved_faiths|E] possono essere trovate qui.\n\n#TUT Conoscere il coinvolgimento di un altro giocatore è importante quando pianifichi con quali Catalizzatori potresti voler procedere, perché i Catalizzatori potrebbero indurti a puntare su un altro partecipante alla [struggle|E], su un'altra [faith|E] o un'altra [culture|E].#!"
+

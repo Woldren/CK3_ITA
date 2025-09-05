@@ -1,0 +1,15 @@
+﻿l_spanish:
+ yearly.0001.pos_descriptor:0 "[ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('second') )] "
+ yearly.0001.no_descriptor:0 ""
+
+ yearly.0001.diplomacy:0 "buone maniere ed etichetta"
+ yearly.0001.martial:0 "tattiche e strategie"
+ yearly.0001.stewardship:0 "registri e finanze"
+ yearly.0001.intrigue:0 "astuzia e osservazione"
+ yearly.0001.learning:0 "filosofia e teologia"
+
+ yearly.0001.diplomacy_short:0 "etichetta"
+ yearly.0001.martial_short:0 "militare"
+ yearly.0001.stewardship_short:0 "finanze"
+ yearly.0001.intrigue_short:0 "intrighi"
+ yearly.0001.learning_short:0 "teologia"

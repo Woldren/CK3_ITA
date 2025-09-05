@@ -1,0 +1,60 @@
+﻿l_spanish:
+
+ RELIGION_TAG_TRIGGER:0 "È parte della religione $RELIGION|V$"
+
+ FAITH_FERVOR_GLOBAL:0 "Il[fervor|E] è $COMPARATOR$ $NUM|V0$"
+ NOT_FAITH_FERVOR_GLOBAL:0 "Il[fervor|E] #bold non#! è $COMPARATOR$ $NUM|V0$"
+ FAITH_FERVOR_THIRD:0 "Il[fervor|E] della religione [FAITH.GetName] è $COMPARATOR$ $NUM|V0$"
+ NOT_FAITH_FERVOR_THIRD:0 "Il[fervor|E] della religione [FAITH.GetName] #bold non#! è $COMPARATOR$ $NUM|V0$"
+
+ FAITH_VIRTUES_GLOBAL:0 "Ha $NUM|V0$ [virtuous|E] [traits|E]"
+ NOT_FAITH_VIRTUES_GLOBAL:0 "Ha meno di $NUM|V0$ [virtuous|E] [traits|E]"
+ FAITH_VIRTUES_FIRST:1 "Hai $NUM|V0$ [virtuous|E] [traits|E]"
+ NOT_FAITH_VIRTUES_FIRST:1 "Ne hai meno di $NUM|V0$ [virtuous|E] [traits|E]"
+ FAITH_VIRTUES_THIRD:0 "[CHARACTER.GetUIName] ha $NUM|V0$ [virtuous|E] [traits|E]"
+ NOT_FAITH_VIRTUES_THIRD:0 "[CHARACTER.GetUIName] ha meno di $NUM|V0$ [virtuous|E] [traits|E]"
+
+ FAITH_SINS_GLOBAL:0 "Ha $NUM|V0$ [sinful|E] [traits|E]"
+ NOT_FAITH_SINS_GLOBAL:0 "Ha meno di $NUM|V0$ [sinful|E] [traits|E]"
+ FAITH_SINS_FIRST:1 "Hai $NUM|V0$ [sinful|E] [traits|E]"
+ NOT_FAITH_SINS_FIRST:1 "Ne hai meno di $NUM|V0$ [sinful|E] [traits|E]"
+ FAITH_SINS_THIRD:0 "[CHARACTER.GetUIName] ha $NUM|V0$ [sinful|E] [traits|E]"
+ NOT_FAITH_SINS_THIRD:0 "[CHARACTER.GetUIName] ha meno di $NUM|V0$ [sinful|E] [traits|E]"
+
+ HOLY_SITES_CONTROLLED_GLOBAL:0 "Ha $NUM|V0$ [holy_sites|E] sotto controllo"
+ NOT_HOLY_SITES_CONTROLLED_GLOBAL:0 "Ha meno di $NUM|V0$ [holy_sites|E] sotto controllo"
+ HOLY_SITES_CONTROLLED_FIRST:1 "Hai $NUM|V0$ [holy_sites|E] sotto controllo"
+ NOT_HOLY_SITES_CONTROLLED_FIRST:1 "Hai meno di $NUM|V0$ [holy_sites|E] sotto controllo"
+ HOLY_SITES_CONTROLLED_THIRD:0 "[FAITH.GetName] ha $NUM|V0$ [holy_sites|E] sotto controllo"
+ NOT_HOLY_SITES_CONTROLLED_THIRD:0 "[FAITH.GetName] ha meno di $NUM|V0$ [holy_sites|E] sotto controllo"
+
+ RELIGION_IS_SAME_AS:0 "È della stessa [religion|E] di [TARGET_CHARACTER.GetShortUIName]"
+ NOT_RELIGION_IS_SAME_AS:0 "Non è della stessa [religion|E] di [TARGET_CHARACTER.GetShortUIName]"
+ I_HAVE_SAME_RELIGION:1 "Hai la stessa [religion|E] di [TARGET_CHARACTER.GetShortUIName]"
+ NOT_I_HAVE_SAME_RELIGION:1 " #bold non#! hai la stessa [religion|E] di [TARGET_CHARACTER.GetShortUIName]"
+ THEY_HAVE_SAME_RELIGION:0 "[CHARACTER.GetShortUIName|U] ha la stessa [religion|E] di [TARGET_CHARACTER.GetShortUIName]"
+ NOT_THEY_HAVE_SAME_RELIGION:0 "[CHARACTER.GetShortUIName|U] non ha la stessa [religion|E] di [TARGET_CHARACTER.GetShortUIName]"
+
+ IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "Le [doctrines] della fede [FAITH.GetName] permettono ai [rulers] di garantire [titles] [CHARACTER.Custom('DE_PRO_POS_P_1P')] [CHARACTER.GetWomenMen]"
+ NOT_IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "Le [doctrines] della fede [FAITH.GetName] #bold non#! permettono ai [rulers] di garantire [titles] [TARGET_CHARACTER.Custom('DE_PRO_POS_P_1P')] [TARGET_CHARACTER.GetWomenMen]"
+
+ I_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH:2 "Il tuo [realm|E] contiene almeno $VALUE|0V$ [holy_sites|E] [FAITH.GetAdherentNamePlural] con [holders|E] di fede [FAITH.GetAdjectiveNoTooltip]"
+ I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH:2 "Il tuo [realm|E] o la tua [confederation|E] #bold non#! contiene almeno $VALUE|0V$ [holy_sites|E] di fede [FAITH.GetName] con [holders|E] di fede [FAITH.GetAdjectiveNoTooltip] #weak (Attualmente: [GetPlayer.MakeScope.ScriptValue('holy_site_reform_tracker_value')|V0])#!"
+ I_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH_DIRECTLY: "Il tuo [realm|E] contiene almeno $VALUE|0V$ [holy_site|E] di fede [FAITH.GetName] con [holders|E] di fede [FAITH.GetAdjectiveNoTooltip]"
+ I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH_DIRECTLY: "Il tuo [realm|E] #bold non#! contiene almeno $VALUE|0V$ [holy_site|E] di fede [FAITH.GetName] con [holders|E] di fede [FAITH.GetAdjectiveNoTooltip]"
+
+ NOT_RELIGION_TAG_TRIGGER:0 "La tua [faith] #bold non#! fa parte del $RELIGION|V$"
+
+ CAN_LEGITIMIZE_BASTARDS_IN_FAITH:0 "[CHARACTER.GetFaith.GetName] permette ai [bastards|E] di essere [legitimized|E]"
+ CANNOT_LEGITIMIZE_BASTARDS_IN_FAITH:0 "[CHARACTER.GetFaith.GetName] #EMP non#! permette ai [bastards|E] di essere [legitimized|E]"
+ 
+ CANNOT_CREATE_HOF_TITLE_AT_OR_ABOVE_LIEGE_TIER:0 "Non puoi diventare [head_of_faith|E] se ciò ti rende uguale o superiore al [title_rank|E] del tuo [liege|E]"
+ CHAR_CAN_ONLY_CREATE_ONE_FAITH:0 "Hai già riformato o creato una nuova [faith|E] con questo personaggio!"
+
+ has_forced_defender:0 "Sei un difensore forzato"
+ has_pledged_attacker:0 "Sei un attaccante giurato"
+ they_have_pledged_as_attacker:0 "Loro sono attaccanti giurati nella tua [GREAT_HOLY_WAR.GetName] della fede"
+ has_pledged_defender:0 "Sei un difensore giurato"
+ 
+ ANY_FAITH_RULER_GLOBAL:0 "Qualsiasi [ruler|E] [FAITH.GetAdjectiveNoTooltip]"
+ 

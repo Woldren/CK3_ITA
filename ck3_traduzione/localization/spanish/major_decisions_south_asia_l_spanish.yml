@@ -1,0 +1,29 @@
+﻿l_spanish:
+ #Become Chakravarti
+ become_chakravarti_decision:0 "Diventa Chakravarti"
+ become_chakravarti_decision_desc:0 "#F Con i rituali e le cerimonie necessarie, formalizzerò il mio status divino di legittimo sovrano del mondo intero.#!"
+ become_chakravarti_decision_tooltip:0 "Unisci l'India come legittimo sovrano del mondo"
+ become_chakravarti_decision_indian_empires_unite_effect:0 "Consolido gli imperi dell'India"
+ become_chakravarti_decision_new_primary_title_effect:0 "L'Impero dell'India diventa il mio nuovo [primary_title|E]"
+ become_chakravarti_decision_confirm:0 "Partecipa ai rituali"
+
+ #Become Lady/Lord of the Ganges
+ take_stewardship_of_the_sacred_river_decision:0 "Assumi l'amministrazione del Fiume Sacro"
+ take_stewardship_of_the_sacred_river_decision_desc:0 "#F Con il controllo su tutte le terre lungo il flusso del Gange, ho una certa autorità riguardo a quali sovrani è consentito l'accesso alle acque sacre e ai suoi rituali. È tempo che i/le [ROOT.Char.GetFaith.PriestNeuterPlural] formalizzino questa autorità come protettore della santità stessa.#!"
+ take_stewardship_of_the_sacred_river_decision_tooltip:0 "Formalizza il controllo del Gange come una carica divina"
+ take_stewardship_of_the_sacred_river_decision_confirm:0 "Chiama i [ROOT.Char.GetFaith.AltPriestTermPlural] al fiume"
+ capital_province_in_ganges_region:0 "La tua [realm_capital|E] si trova nella [region|E] della [GetGeographicalRegion('custom_ganges_plain').GetName] "
+ MY_VASSAL_OR_LIEGE_MUST_NOT_BE_RULER_OF_GANGES:0 "L'autorità come amministratore delle Acque Sacre non può essere sottratta da un vassallo o da un signore"
+ 
+ form_bene_israel_decision:0 "Consolida $k_bene_israel$"
+ form_bene_israel_decision_desc:0 "Le nostre comunità sono lontane dalle tribù originarie di Israele, e le nostre possibilità di tornare nella terra santa sono scarse. Dobbiamo forgiare una nuova casa per il popolo ebraico, qui nel Deccan."
+ form_bene_israel_decision_tooltip:0 "ufficializza il regno di $k_bene_israel$."
+ form_bene_israel_decision_confirm:0 "[ROOT.Char.Custom('GetQueenKing')|U] di $k_bene_israel$!"
+ malabarism_religious_head_exists_tt:0 "$d_malabarism$ Esiste"
+
+ #Spread Theravada Faith
+ spread_theravada_faith_decision:0 "Diffondi la Fede [ROOT.Char.GetFaith.GetNameNoTooltip]"
+ spread_theravada_faith_decision_desc:0 "La fede [ROOT.Char.GetFaith.GetName] è andata in declino, e ora tocca a me assicurare la sua sopravvivenza. Il primo passo su questa strada è trovare il modo migliore per superare le differenze religiose nella Valle dell'Irrawaddy Valley."
+ spread_theravada_faith_decision_tooltip:0 "Prendi una decisione su come occuparti del conflitto religioso."
+ spread_theravada_faith_decision_confirm:0 "Consulta il/la [ROOT.Char.GetFaith.PriestNeuter|U]"
+ spread_theravada_faith_decision_cus_tt:0 "Ponderi quale sia il modo migliore per convertire la popolazione..."

@@ -1,0 +1,22 @@
+﻿l_spanish:
+
+TRAIT_FLAG_DESC_can_foment_revolt_interaction: "Sblocca l'[interaction|E] [incite_revolts_interaction|E]"
+TRAIT_FLAG_DESC_can_request_incursion_interaction: "Sblocca l'[interaction|E] [fp3_request_turkic_invasion_interaction|E]"
+TRAIT_FLAG_DESC_can_change_to_iranian_faith_decision: "Sblocca una [decision|E] che permette di cercare una nuova [faith|E]"
+TRAIT_FLAG_DESC_can_use_install_loyalist_cb: "Sblocca il [casus_belli|E] [fp3_install_loyalist_cb|E]"
+TRAIT_FLAG_DESC_can_use_demand_submission_interaction: "Sblocca l'[interaction|E] [fp3_demand_submission_interaction|E]"
+trait_fp3_struggle_detractor: "Detrattore del Califfato"
+trait_fp3_struggle_detractor_desc: "Questo personaggio crede che il posto del Califfo sia, nella migliore delle ipotesi, Baghdad. E solo Baghdad."
+trait_fp3_struggle_detractor_non_orthodox_sunni_character_desc: "Essendo [ROOT.GetCharacter.GetFaith.GetAdherentName], l'opinione di [ROOT.GetCharacter.GetFirstNameNoTooltip] sul califfato sunnita è più una formalità che una scelta consapevole."
+trait_fp3_struggle_detractor_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] crede che il posto del Califfo sia, nella migliore delle ipotesi, Baghdad. E solo Baghdad."
+trait_fp3_struggle_supporter: "Sostenitore dell'Autorità del Califfo"
+trait_fp3_struggle_supporter_desc: "Questo personaggio ritiene che il Califfato debba riaffermare il suo dominio sul Medio Oriente."
+trait_fp3_struggle_supporter_character_is_caliph_desc: "Come [ROOT.GetCharacter.GetTitleAsName|l], [ROOT.GetCharacter.GetFirstNameNoTooltip], si considera [Select_CString( ROOT.GetCharacter.IsFemale, 'la padrona assoluta', 'il padrone assoluto' )] di tutto l'Islam, dall'Indo all'Atlantico."
+trait_fp3_struggle_supporter_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ritiene che il Califfato debba riaffermare il suo dominio sul Medio Oriente."
+
+CONVERSION_FP3_STRUGGLE_ENDING_BONUS: "Bonus [struggle_ending_decision|E]"
+
+persian_struggle.tt.supporter_killed_caliph: "Uccidere [ROOT.GetCharacter.Custom('IT_NAM_COL3')][ROOT.GetCharacter.GetTitledFirstNameNoTooltip] determina l'allineamento della disputa"
+persian_struggle.tt.neutral_killed_caliph: "$persian_struggle.tt.supporter_killed_caliph$"
+persian_struggle.tt.converted_away_from_sunni_orthodoxy: "La conversione dall'ortodossia sunnita a un'altra religione determina l'allineamento della disputa"
+

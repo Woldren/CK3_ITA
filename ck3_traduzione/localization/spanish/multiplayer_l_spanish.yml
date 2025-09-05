@@ -1,0 +1,9 @@
+﻿l_spanish:
+ RANDOM_COUNT:0 "Contatore casuale"
+ RANDOM_SEED:0 "Seed casuale"
+ GAMESTATE_CHECKSUM:0 "Stato del gioco checksum"
+ LIVING_CHARACTERS:0 "Personaggi in Vita"
+ MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY:0 "Solo Microsoft"
+ MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY_TT:1 "#T $MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY$\n#!$JOM_BULLET_WITH_TAB$Il gioco è elencato e visibile solo ai giocatori di Microsoft Store\n$JOM_BULLET_WITH_TAB$I giocatori che conoscono la password possono partecipare al gioco, se non c'è, chiunque può partecipare\n$JOM_BULLET_WITH_TAB$I giocatori possono anche partecipare se invitati o se l'host condivide l'ID del server\n$JOM_BULLET_WITH_TAB$Possono partecipare solo i giocatori che utilizzano account Microsoft"
+ MULTIPLAYER_GUI_CLICK_TO_SELECT:0 "Clicca sulla mappa per selezionare un [character|E], o per creare il tuo Sovrano da usare come suo sostituto!"
+ MULTIPLAYER_GUI_SERVER_BROWSER_PASTE_ID:0 "#T Incolla l'ID del server dagli Appunti#!"

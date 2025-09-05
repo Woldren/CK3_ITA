@@ -1,0 +1,11 @@
+﻿l_spanish:
+ parent_aids_martial_modifier:0 "Genitore Assiste nell'Apprendimento Marziale"
+ parent_aids_diplomacy_modifier:0 "Genitore Assiste nell'Apprendimento Diplomatico"
+ parent_aids_stewardship_modifier:0 "Genitore Assiste nell'Apprendimento Amministrativo"
+ parent_aids_intrigue_modifier:0 "Genitore Assiste nell'Apprendimento dell'Intrigo"
+ parent_aids_learning_modifier:0 "Genitore Assiste in Erudizone"
+ mothered_many_children_modifier:0 "Ha Avuto Molti Figli"
+ parent_dealing_with_courtiers_modifier:0 "Genitore Gestisce i Cortigiani"
+ parent_dealing_with_courtiers_modifier_desc:0 "Questo personaggio ha un genitore che tiene sotto controllo i suoi cortigiani."
+ parent_events_wrangling_courtiers_modifier:0 "Gestione dei Cortigiani"
+ parent_events_wrangling_courtiers_modifier_desc:0 "Questo personaggio tiene d'occhio la propria corte, per tenere in riga i cortigiani."

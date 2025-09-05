@@ -1,0 +1,112 @@
+﻿l_spanish:
+
+ep3_travel_events.3000.t: "Le Acque del Giordano"
+ep3_travel_events.3000.desc: "Gli uomini parlano solo della meraviglia "
+
+ep3_travel_events.3000.israel: "del [Glossary( ''Ereṣ Yisrā'ēl', 'ERES_YISRAEL_GLOSS' )], irrigato dal nobile fiume Giordano, come il giardino di [ROOT.Char.GetFaith.HighGodName].\n\nIn questo luogo di miracoli, entro nelle acque, mi immergo dove Eliseo guarì un lebbroso, dove gli Israeliti di Giosuè fecero gli ultimi passi verso casa..."
+ep3_travel_events.3000.greek_christian: "della Palestina, dove ogni deserto è un [Glossary( 'eremo', 'EREMOS_GLOSS' )] santissimo, ogni pietra è sacra, ogni ruscello confluisce nel fiume Giordano.\n\nImmergendomi nelle acque di quel fiume, mi bagno dove un tempo Giovanni Battista compì i suoi riti, dove Cristo stesso fu battezzato..."
+ep3_travel_events.3000.christian: "della Palestina, una terra dove il suolo conosce il calpestio di Dio, dove il grande fiume Giordano conosce il suo corpo.\n\nImmergendomi nelle acque di quel fiume, mi bagno dove un tempo Giovanni Battista compì i suoi riti, dove Cristo stesso fu battezzato..."
+ep3_travel_events.3000.muslim: "della Palestina, terra di grandi trionfi Islamici, bagnata dal nobile fiume Giordano.\n\nOra mi immergo in quel fiume per iniziare le mie abluzioni. Quasi in vista dei luoghi di riposo dei compagni del Profeta - la pace sia su di loro - questo luogo è ideale per la mia osservanza dell'[Glossary( 'hadith', 'HADITHS_GLOSS' )]..."
+ep3_travel_events.3000.outro_rapture: "\n\nE, anche se ci sono piante viscide sotto i piedi, schiuma lattiginosa trasportata da correnti fangose - è adatto per essere uno dei quattro fiumi del Paradiso! Non mi sono mai sentit[ROOT.Char.Custom('DE_END_PRO_S_N')] così pulit[ROOT.Char.Custom('DE_END_PRO_S_N')]."
+ep3_travel_events.3000.outro: "\n\nE... sembra sporco! La mia pelle è pigramente accarezzata da un liquido caldo, torbido  e lattiginoso; tra le dita dei piedi mi ribolle il fango delle piante. Senza tante cerimonie, mi arrampico di nuovo sulla riva fangosa."
+ERES_YISRAEL_GLOSS: "#bold 'Ereṣ Yisrā'ēl#! è la trasposizione in Ebraico Tiberiano di "Terra d'Israele""
+EREMOS_GLOSS: "L'#bold Eremo#! è un termine Greco usato in riferimento a luoghi desolati adatti alla solitudine contemplativa."
+HADITHS_GLOSS: "Le #bold Hadith#! sono delle raccolte di detti e azioni attribuite al profeta Maometto; una delle principali fonti di guida per la maggior parte delle sette Musulmane."
+ep3_travel_events.3000.a_christian: "Acqua santissima - per battesimi benedetti!"
+ep3_travel_events.3000.a_jewish: "Acqua miracolosa, da custodire!"
+ep3_travel_events.3000.a_muslim: "Inshallah, qualche goccia per ogni abluzione!"
+ep3_travel_events.3000.b: "Eppure... Sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] purificat[ROOT.Char.Custom('DE_END_PRO_S_N')] dalle acque."
+ep3_travel_events.3000.b_zealot: "Sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] purificat[ROOT.Char.Custom('DE_END_PRO_S_N')] dalle acque!"
+ep3_travel_events.3000.b.flavor: "Sì, è quello che racconterò!"
+ep3_travel_events.3000.c: "Alcuni mi sono finiti in bocca! Devo... #EMP *hurk!*#!"
+ep3_travel_events.3000.c_zealot: "Ma — #EMP *hurk!*#! — ha un sapore #EMP diverso#! dal solito..."
+ep3_travel_events.3000.c_flavor: "Ti "liberi" con discrezione."
+
+holy_water_mortal_stomach_modifier: "Acqua Santa, Stomaco Mortale"
+holy_water_mortal_stomach_modifier_desc: "Da quando è diventato un po' #EMP troppo#! impregnato dell'estasi del fiume Giordano, questo personaggio ha sofferto di un'indisposizione."
+
+artifact_water_of_the_jordan: "Acqua del Giordano"
+artifact_water_of_the_jordan_desc: "Gocce sacre provenienti dalla fonte benedetta che bagna la Terra Santa, il fiume Giordano. Leggermente marroncine."
+
+ep3_travel_events.3001.t: "Le porte della Cilicia"
+ep3_travel_events.3001.intro: "Attraversiamo a fatica i valichi di guardia, i dirupi scoscesi tra l'Asia e l'Europa. In alto, nelle cima spazzate dal vento, tra le pietre, gli occhi di uomini di cultura [current_location.GetCulture.GetName] ci osservano."
+ep3_travel_events.3001.greek: "\n\nQuesti [Glossary( 'akritai', 'AKRITAI_GLOSS' )], i guardiani delle porte della Cilicia, nelle loro alte fortezze, non si difendono più dall'assalto devastante dei tempi di Eraclea, ma vegliano contro i nemici in arrivo, i nomadi che fanno razzie e i ladruncoli che infestano questi stretti valichi."
+AKRITAI_GLOSS: "Il termine Greco #bold akritai#!, deriva dalla parola #EMP akron#! o "confine" e si riferisce ai soldati di frontiera talvolta glorificati come difensori contro le incursioni #EMP ghazi#!, e occasionalmente condannati come briganti."
+ep3_travel_events.3001.friend: "\n\nSi dice che questi guardiani delle Porte della Cilicia, nelle loro alte fortezze, un tempo le difendessero da un'ondata di pagani devastatori. Ora vegliano contro le incursioni dei nomadi e dei ladruncoli, anche se alcuni dicono che sono poco meglio dei briganti stessi. Eppure..."
+ep3_travel_events.3001.islamic_arabic: "\n\nUomini astuti e rozzi che infestano le Porte della Cilicia, questi storici [Glossary( 'al-thughūr', 'AL_THUGHUR_GLOSS')], vegliano sul [lords_liege.GetTitleAsName] [lords_liege.GetPrimaryTitle.GetAdjectiveNoTooltip]. Durante il grande Califfato Rashidun, le truppe di frontiera inseguivano fin qui i portatori dell'Islam, attraverso questo infido sentiero di morte."
+AL_THUGHUR_GLOSS: "#bold Al-thughūr#! è un termine Arabo usato per le marce in Cilicia, che paragona le fortificazioni e gli stretti passaggi di montagna agli spazi tra i denti."
+ep3_travel_events.3001.foe: "\n\nUomini astuti e rozzi infestano le porte della Cilicia, vegliando sul [lords_liege.GetTitleAsName] [lords_liege.GetPrimaryTitle.GetAdjectiveNoTooltip]. Dalle loro alte fortezze, colpiscono con le loro imboscate i briganti e i poveri innocenti - tutto presumibilmente in difesa della terraferma."
+ep3_travel_events.3001.praise_outro: "\n\nQui, pochi comuni coscritti in piccoli fortini arruffati salvaguardavano un Impero."
+ep3_travel_events.3001.distrust_outro: "\n\nMentre avanziamo, sagome furtive replicano i nostri passi sulle piste..."
+ep3_travel_events.3001.a_greek: "Che l'#EMP akritai#! sia lodato!"
+ep3_travel_events.3001.a_non_greek: "Un posto fatale."
+ep3_travel_events.3001.b: "Minaccioso."
+
+haunted_by_hostile_troops_modifier: "Infestato da Tuppe Ostili"
+haunted_by_hostile_troops_modifier_desc: "Questo personaggio è turbato dal ricordo di occhi vigili nei valichi montani della Cilicia."
+
+ep3_travel_events.3002.t: "Dove Governano gli uomini [local_lord.GetCulture.GetCollectiveNounNoTooltip]"
+
+ep3_travel_events.3002.intro: "La sede del potere è vicina: il/la [local_lord_capital.GetProvince.GetHolding.GetType.GetName|l] di [local_lord_capital.GetName], da dove [local_lord.GetTitledFirstName] sorveglia gli uomini [local_lord.GetCulture.GetCollectiveNoun] locali.\n\n"
+ep3_travel_events.3002.admin: "Quest[local_lord.Custom('DE_END_PRO_S_N')] [local_lord.GetTitleAsNameNoTooltip|l] [local_lord.GetCulture.GetNameNoTooltip], fortunatamente, abbraccia l'illuminato stile amministrativo tipico della cultura [ROOT.Char.GetCulture.GetName]. Viaggiare attraverso [local_lord.Custom('DE_ART_DEF_P_A')] su[local_lord.Custom('DE_END_PRO_S_N')] [local_lord.GetPrimaryTitle.GetTierAsNameNoTooltip|l] è pratico e sicuro.\n\n"
+ep3_travel_events.3002.non_admin: "Affidandosi a istrionici legami personali e a una forza brutale per tenere insieme il suo pezzo di terra, quest[local_lord.Custom('DE_END_PRO_S_N')] [local_lord.GetTitleAsNameNoTooltip|l] [local_lord.GetCulture.GetNameNoTooltip] non è che un[local_lord.Custom('DE_PRO_POS_P_2P')] meschin[local_lord.Custom('DE_END_PRO_S_N')] signor[local_lord.Custom('DE_END_ADJ_IND_S_A')] [local_lord.GetGovernment.GetNameNoTooltip|l].\n\n"
+ep3_travel_events.3002.armenian: "Con l'avvicinarsi dei cavalieri, penso ai valorosi Armeni che hanno difeso l'Impero negli anni bui, amaramente reticenti a deporre le loro spade come ad abbracciare la dottrina. Strani compagni di letto... ma amici e ammiratori dei Romani."
+ep3_travel_events.3002.georgian: "È strano visitare gli uomini [local_lord.GetCulture.GetCollectiveNounNoTooltip]. Come noi, hanno cantato a lungo il vero credo, costruito grandi bagni, trattato con gli Armeni... ma guardano alle steppe infinite e confidano nelle loro alte montagne."
+ep3_travel_events.3002.bulgarian: "Mentre gli [Glossary( 'Sciti', 'SCYTHIAN_GLOSS' )] emidomestici guidano le capre attraverso la strada, penso a [Glossary( 'San Cirillo e San Metodio', 'CYRIL_AND_METHODIUS_GLOSS' )]... e a quanto siano stati fortunati ad avere alle spalle la gloria dell'Impero: una gloria che ora porto con me."
+SCYTHIAN_GLOSS: "#bold Scita#!: un membro di una cultura Iraniana della steppa ormai scomparsa. Il termine continua a servire ai Greci per descrivere indiscriminatamente sia i nomadi del Nord che gli Slavi."
+CYRIL_AND_METHODIUS_GLOSS: "#bold Cirillo e Metodio#!, conosciuti anche come gli "Apostoli degli Slavi": due fratelli venerati come santi per aver Cristianizzato gli Slavi Meridionali e creato l'alfabeto Glagolitico."
+ep3_travel_events.3002.serbian: "Un gruppo di cavalieri ci accoglie qui. Questi cavalieri agguerriti e rivestiti di cotta sarebbero degli eccellenti [Glossary( 'chonsarioi', 'CHONSARIOI_GLOSS' )]... ma non ho alcun bastone di comando. Sono semplicemente un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] Roman[ROOT.Char.Custom('DE_END_PRO_S_NP')] in visita."
+CHONSARIOI_GLOSS: "I #bold Chonsarioi#! sono le formazioni Bizantine di cavalieri reclutati nei Balcani, apprezzati per la loro abilità come esploratori e incursori."
+ep3_travel_events.3002.latin: "I suoi servitori si avvicinano a noi. Una volta, questi Latini avrebbero avuto la dignità dei Romani, parlando e comportandosi in modo raffinato. Ora, invece, farfugliano come barbari e si affannano a cercare ricchezze, a chiedere [Glossary( 'diritti speciali', 'SPECIAL_RIGHTS_GLOSS' )] nelle nostre grandi città..."
+SPECIAL_RIGHTS_GLOSS: "I #bold Diritti speciali#! a commerciare senza tariffe e a stabilire più strutture a Costantinopoli era una causa cronica dei mercanti veneziani."
+ep3_travel_events.3002.vlach: "Il mio pensiero va alle carni e ai formaggi di pecora di Vlach - la loro diffusa ospitalità. I nomadi di [local_lord.GetTitleAsNameNoTooltip] che una volta erano i feroci [Glossary( 'Daci', 'DACIANS_GLOSS' )], si dice... finché un Romano non si presentò alla loro porta."
+DACIANS_GLOSS: "I #bold Daci#!: antichi abitanti delle terre vicine ai Carpazi, a ovest del Mar Nero. Dopo la conquista di Traiano, furono integrati per un breve periodo nell'impero come Dacia Romana."
+ep3_travel_events.3002.generic: "Visti i contatti tra i nostri popoli, ci si aspetta che io mi presenti davanti a magnati come questi, impressionandoli con la virtù [ROOT.Char.GetCulture.GetNameNoTooltip]..."
+
+insulted_by_visiting_emperor: "Gli insulti di un Basileus in visita"
+honored_by_visiting_emperor: "Legami storici onorati da un Basileus itinerante"
+
+ep3_travel_events.3002.a: "Lasciate che ammirino un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.Custom('GetDaughterSon')] dell'Impero!"
+ep3_travel_events.3002.a_byzantine: "Vengo come un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] rampoll[ROOT.Char.Custom('DE_END_PRO_S_N')] della potente Roma."
+ep3_travel_events.3002.a.flavor: "Una visita di grande effetto potrebbe consolidare la mia reputazione tra queste persone... e anche in patria."
+ep3_travel_events.3002.b: "Visiterò i/le loro [local_lord.GetFaith.HouseOfWorshipPlural] locali."
+ep3_travel_events.3002.b.flavor: "Un buon mezzo per evitare le formalità... Devo solo ignorare le differenze religiose."
+ep3_travel_events.3002.c: "Questi provinciali apprezzano il calore e l'umiltà."
+ep3_travel_events.3002.c_foreign: "Questi stranieri apprezzano il calore e l'umiltà."
+
+cultural_acceptance_loss_insulted_by_visiting_emperor: "Gli insulti dell'Imperatore in visita"
+cultural_acceptance_gain_honored_by_visiting_emperor: "Il rispetto dell'Imperatore in visita"
+
+impressive_visit_vassalization_acceptance_bonus: "[local_lord.GetShortUIName] ha aumentato #V $offer_vassalization_interaction$#! l'Accettazione per #V 5 anni#!"
+
+ep3_travel_events.3002.a_success: "[local_lord.Custom('DE_ART_DEF_P_D')] [local_lord.GetTitleAsNameNoTooltip] è stupit[local_lord.Custom('DE_PRO_POS_P_2P')]"
+ep3_travel_events.3002.a_failure: "[local_lord.Custom('DE_ART_DEF_P_D')] [local_lord.GetTitleAsNameNoTooltip] disprezza il mio sfarzo"
+
+ep3_travel_events.3010.t: "Il Silenzio dell'Anatolia"
+ep3_travel_events.3010: "I nostri richiami riecheggiano nei vicoli deserti dei villaggi, alla ricerca di un mormorio, anche solo di un belato di benvenuto. Solo il vento risponde.\n\n"
+ep3_travel_events.3010.fairy_towers: ""Quei monoliti assurdamente contorti sono le antiche torri fatate di [current_location.GetName]. Nei loro buchi si nascondono delle porte chiuse a chiave," mormorano i miei compagni." 
+ep3_travel_events.3010.normal_holes: ""Rintanati in qualche buco, in qualche galleria, in qualche nascondiglio in cima alle colline," mormorano i miei compagni."
+ep3_travel_events.3010.native_knowledge: ""Queste persone hanno imparato da tempo a nascondersi nei momenti difficili, dai [Glossary( 'ghazi', 'GHAZIS_GLOSS' )], dai nomadi... e probabilmente ci hanno scambiato per qualcosa di peggio: per gli odiati esattori delle tasse.""
+ep3_travel_events.3010.foreigners: ""Questi popoli hanno imparato molto tempo fa a superare i tempi duri nascondendosi. E sembra che ci abbiano scambiato per un gruppo di razziatori.""
+
+GHAZIS_GLOSS: "I #bold Ghazi#! sono dei guerrieri Musulmani che partecipano alle spedizioni militari contro i non Musulmani. Durante il Califfato Rashidun, le incursioni dei #EMP ghazi#! in Anatolia si sono verificate con una portata e una frequenza devastanti."
+
+
+ep3_travel_events.3010.a: "Saccheggiamo le loro case, non troveremo alcuna resistenza!"
+ep3_travel_events.3010.a.flavor: "Forse qualche gingillo abbandonato; forse qualche capra randagia da portare via! Non sembra esserci nessuno che ci veda."
+
+ep3_travel_events.3010.b: "Li farò venire allo scoperto: abbiamo bisogno delle competenze locali."
+ep3_travel_events.3010.b.flavor: "Un po' di ospitalità sarebbe gradita; una guida locale che ci accompagni in queste terre aspre, ancora meglio."
+
+ep3_travel_events.3010.c: "Il silenzio... è piuttosto piacevole."
+ep3_travel_events.3010.c_fairy_towers: "Strana, vasta, silenziosa... ma bellissima."
+ep3_travel_events.3010.c.flavor: "Nessun popolano che si agita, nessuna bestia che fa rumore... se solo tutto il mondo fosse così."
+
+ep3_travel_events.3010.a_success: "Recuperi alcuni oggetti di valore dimenticati"
+ep3_travel_events.3010.a_failure: "Non trovi nulla che valga la pena prendere"
+ep3_travel_events.3010.b_success: "Trovi e ti assicuri un aiuto locale"
+ep3_travel_events.3010.b_failure: "Gridi nel silenzio"
+
+ep3_guide_from_the_borderlands_modifier: "Guida Della Natura Selvaggia dell'Anatolia"
+ep3_guide_from_the_borderlands_modifier_desc: "La saggia prudenza di una guardia forestale del duro interno Anatolico guida questo personaggio nei suoi viaggi."
+

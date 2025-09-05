@@ -1,0 +1,28 @@
+﻿l_spanish:
+ excellent_food_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUINameNoTooltip)] [Select_CString( first.IsLocalPlayer, 'Sei', 'è' )] Felicissimo della quantità di [root_scope.Custom('GetExpensiveDessert')|U]"
+ 
+ hook_trusting_guest_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUINameNoTooltip)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Promesso Ingenuamente un Favore a [second.GetShortUINameNoTooltip|U]"
+ 
+ impressed_guest_honor_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUINameNoTooltip)] [Select_CString( first.IsLocalPlayer, 'Sei', 'è' )] stato Onorato da [second.GetShortUINameNoTooltip|U]"
+ 
+ impressed_courtly_vassal_title:0 "Vassalli di corte impressionati dal sontuoso banchetto"
+ 
+ leftover_food_giveaway_title:0 "[province.GetName|U] Ha Ricevuto Cibo Avanzato"
+ leftover_food_giveaway_modifier:0 "Festa degli Avanzi"
+ leftover_food_giveaway_modifier_desc:0 "Gli Abitanti di questo luogo hanno ricevuto del cibo squisito da un banchetto"
+ 
+ virtuous_feast_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUINameNoTooltip)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Partecipato ad un Banchetto Virtuoso"
+ 
+ noble_privileges_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUINameNoTooltip)] [Select_CString( first.IsLocalPlayer, 'Sei', 'è' )] stato Insignito di alcuni Privilegi Nobiliari"
+ noble_privileges_modifier:0 "Privilegi Nobiliari"
+ noble_privileges_modifier_desc:0 "Questa contea è sotto stretta sorveglianza della nobiltà"
+ 
+ pet_pet:0 "Animale Domestico Coccolato"
+ good_kitty_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUINameNoTooltip)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Accarezzato il Gatto di [second.GetShortUINamePossessiveNoTooltip|U]"
+ good_puppy_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUINameNoTooltip)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Accarezzato il Cane di [second.GetShortUINamePossessiveNoTooltip|U]"
+ 
+ antiquarian_admires_artifact_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUINameNoTooltip)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] intrattenuto [host.GetShortUINameNoTooltip|U] con la storia di [artifact.GetName|U]"
+ 
+ jester_entertained_guests_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUINameNoTooltip)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] fatto Ridere Vigorosamente [second.GetShortUINameNoTooltip|U]"
+ 
+ apa_executioner_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUINameNoTooltip)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] raccontato le sue Esecuzioni sotto gli Ordini di [second.GetShortUINamePossessiveNoTooltip|U]"

@@ -1,0 +1,3 @@
+﻿l_spanish:
+ UNDER_CONCUBINE_LIMIT_PRESTIGE_PENALTY:0 "Sotto il limite di [concubines|E]"
+ LATIN_EMPIRE_REASON: "Sei un [GetTrait('despoiler_of_byzantium').GetName( GetNullCharacter )] nell'[GetTitleByKey('e_latin_empire').GetName]: $VALUE|=+0$"

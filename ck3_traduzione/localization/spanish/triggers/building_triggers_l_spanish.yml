@@ -1,0 +1,49 @@
+﻿l_spanish:
+
+ HAS_BULDING_TRIGGER:0 "[PROVINCE.GetName] ha un $BUILDING|V$ [building|E]"
+ 
+ HAS_FREE_BUILDING_SLOT_TRIGGER_GLOBAL:0 "Ha uno spazio libero di costruzione"
+ HAS_NOT_FREE_BUILDING_SLOT_TRIGGER_GLOBAL:0 "#bold Non#! ha uno spazio libero di costruzione"
+ HAS_FREE_BUILDING_SLOT_TRIGGER_THIRD:0 "[PROVINCE.GetName] ha uno spazio libero di costruzione"
+ HAS_NOT_FREE_BUILDING_SLOT_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold non#! ha uno spazio libero di costruzione"
+ 
+ HAS_BUILDING_OR_HIGHER_TRIGGER_GLOBAL:0 "Ha un [building|E] del tipo $BUILDING|V$ o un suo miglioramento"
+ NOT_HAS_BUILDING_OR_HIGHER_TRIGGER_GLOBAL:0 "#bold Non#! ha un [building|E] del tipo $BUILDING|V$ o un suo miglioramento"
+ HAS_BUILDING_OR_HIGHER_TRIGGER_THIRD:0 "[PROVINCE.GetName] ha un [building|E] del tipo $BUILDING|V$ o un suo miglioramento"
+ NOT_HAS_BUILDING_OR_HIGHER_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold non#! ha un [building|E] del tipo $BUILDING|V$ o un suo miglioramento"
+ 
+ HAS_ONGOING_CONSTRUCTION_TRIGGER_GLOBAL:0 "Ha un [building|E] in costruzione"
+ NOT_HAS_ONGOING_CONSTRUCTION_TRIGGER_GLOBAL:0 "#bold Non#! ha un [building|E] in costruzione"
+ HAS_ONGOING_CONSTRUCTION_TRIGGER_THIRD:0 "[PROVINCE.GetName] ha un [building|E] in costruzione"
+ NOT_HAS_ONGOING_CONSTRUCTION_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold Non#! ha un [building|E] in costruzione"
+ 
+ HAS_HOLDING_TYPE_TRIGGER_THIRD:0 "[PROVINCE.GetName] è un [holding|E] del tipo $HOLDING$"
+ NOT_HAS_HOLDING_TYPE_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold non#! è un [holding|E] del tipo $HOLDING$"
+ 
+ BUILDING_SLOTS_TRIGGER_GLOBAL:0 "Ha $NUM|V$ spazi di costruzione"
+ NOT_BUILDING_SLOTS_TRIGGER_GLOBAL:0 "#bold Non#! ha $NUM|V$ spazi di costruzione"
+ BUILDING_SLOTS_TRIGGER_THIRD:0 "[PROVINCE.GetName] ha $NUM|V$ spazi di costruzione"
+ NOT_BUILDING_SLOTS_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold non#! ha $NUM|V$ spazi di costruzione"
+ 
+ FREE_BUILDING_SLOTS_TRIGGER_GLOBAL:0 "Ha $NUM|V$ spazi liberi di costruzione"
+ NOT_FREE_BUILDING_SLOTS_TRIGGER_GLOBAL:0 "#bold Non#! ha $NUM|V$ spazi liberi di costruzione"
+ FREE_BUILDING_SLOTS_TRIGGER_THIRD:0 "[PROVINCE.GetName] ha $NUM|V$ spazi liberi di costruzione"
+ NOT_FREE_BUILDING_SLOTS_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold non#! ha $NUM|V$ spazi liberi di costruzione"
+ 
+ NUM_BUILDINGS_TRIGGER_GLOBAL:0 "Ha $NUM|V$ edifici costruiti"
+ NOT_NUM_BUILDINGS_TRIGGER_GLOBAL:0 "#bold Non#! ha $NUM|V$ edifici costruiti"
+ NUM_BUILDINGS_TRIGGER_THIRD:0 "[PROVINCE.GetName] ha $NUM|V$ edifici costruiti"
+ NOT_NUM_BUILDINGS_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold non#! ha $NUM|V$ edifici costruiti"
+ 
+ HAS_SPECIAL_BUILDING_SLOT_TRIGGER_GLOBAL:0 "Ha uno spazio per [special_building|E]"
+ NOT_HAS_SPECIAL_BUILDING_SLOT_TRIGGER_GLOBAL:0 "#bold Non#! ha uno spazio per un [special_building|E]"
+ HAS_SPECIAL_BUILDING_SLOT_TRIGGER_THIRD:0 "[PROVINCE.GetName] ha uno spazio per un [special_building|E]"
+ 
+ NOT_HAS_SPECIAL_BUILDING_SLOT_TRIGGER_THIRD:0 "[PROVINCE.GetName] non ha uno spazio per un [special_building|E]"
+ HAS_SPECIAL_BUILDING_TRIGGER_GLOBAL:0 "Ha un [special_building|E]"
+ NOT_HAS_SPECIAL_BUILDING_TRIGGER_GLOBAL:0 "#bold Non#! ha un [special_building|E]"
+ HAS_SPECIAL_BUILDING_TRIGGER_THIRD:0 "[PROVINCE.GetName] ha un [special_building|E]"
+ NOT_HAS_SPECIAL_BUILDING_TRIGGER_THIRD:0 "[PROVINCE.GetName] non ha un [special_building|E]"
+ 
+ HAS_HOLDING_DESC:0 "[PROVINCE.GetName] contiene un [holding|E]"
+ NOT_HAS_HOLDING_DESC:0 "[PROVINCE.GetName] #bold non#! contiene un [holding|E]"

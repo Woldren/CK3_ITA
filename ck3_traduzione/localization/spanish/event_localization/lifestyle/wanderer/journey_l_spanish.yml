@@ -1,0 +1,149 @@
+﻿l_spanish:
+ journey_events.10.t: "Un Compagno per Attività all'Aperto"
+ journey_events.10.desc: ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], ho notato che avete molto bisogno di un compagno per quando svolgete le vostre attività all'aria aperta." dice [provider_character.GetFirstName], [Select_CString(provider_character.IsFemale,'la mia','il mio')] mi[provider_character.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('provider_character'))], mentre entro nel mio studio. [provider_character.GetSheHe|U] mi rivolge uno sguardo complice e mi dice: "Oggi una carovana di mercanti sta passando da [ROOT.Char.GetCapitalLocation.GetName] e ho visto che hanno una vasta scelta di animali in vendita."\n\nQuando [provider_character.Custom('DE_PRO_DEM')] chiedo maggiori dettagli, [provider_character.GetSheHe] mi racconta di aver visto cani, cavalli e falconi di ogni dimensione. Riflettendoci bene, ho pensato che un animale che mi accompagni nelle attività all'aperto è proprio ciò di cui ho bisogno."
+ journey_events.10.a: "Un vero e proprio cavallo da guerra sarebbe perfetto."
+ journey_events.10.b: "Un cane, l'amico dell'uomo è il compagno ideale."
+ journey_events.10.c: "Un falcone, ecco ciò che mi serve."
+ journey_events.10.d: "Non m'interessa avere un animale domestico."
+
+ journey_events.11.t: "Un Compagno per Attività all'Aperto: Cavallo"
+ journey_events.11.desc: "Dopo un giorno o due, mi viene finalmente presentato un magnifico stallone, grande e potente. Non appena salgo in sella, però, percepisco da parte dell'animale una certa tensione ostile nei miei confronti.\n\nPer un momento, ho timore di venire disarcionat[ROOT.Char.Custom('DE_END_PRO_S_N')], ma alla fine riesco a resistere. Il cavallo mi guarda con quello che posso solo descrivere come un barlume di rispetto."
+ journey_events.11.a: "Credo che col tempo diventeremo buoni amici."
+
+ journey_events.12.t: "Un Compagno per Attività all'Aperto: Cane"
+ journey_events.12.desc: "Dopo un giorno o due, mi viene consegnata una piccola scatola. Quando mi avvicino noto che la scatola si muove, come se all'interno ci fosse qualcosa di vivo che si agita. Dopo qualche esitazione, mi convinco ad aprirla e con mia grande meraviglia vi scopro all'interno il mio nuovo piccolo amico.\n\nUna volta tolto il coperchio, il cucciolo salta fuori dalla scatola e inizia a correre in giro per la stanza. Dopo poco, però, si ferma, si sdraia su un fianco e inizia a sonnecchiare."
+ journey_events.12.a: "È un po' piccolo, vero?"
+
+ journey_events.20.t: "Nei Cieli Sopra di Noi"
+ journey_events.20.desc: "Si è fatto ormai tardi, quando [informer_character.Custom('DE_ART_DEF_P_A')] mi[informer_character.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('informer_character'))] [informer_character.GetFirstName] mi si avvicina con un barlume nei suoi occhi.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], ho sentito una voce che potrebbe interessarvi."\n\n[informer_character.GetSheHe|U], poi, mi racconta che è venut[informer_character.Custom('DE_END_PRO_S_N')] a conoscenza di una storia riguardante dei fenomeni astronomici che si sono recentemente verificati, con una certa regolarità, sui cieli sopra [destination_province.Custom('IT_COU_COL4')][destination_province.GetName]. Anche se i dettagli sul fenomeno in questione non sono molto chiari, si dice che sia un'esperienza unica."
+ journey_events.20.a: "Questo sì che è interessante..."
+
+ wayfarer_astronomical_phenomenon: "Fenomeno Astronomico"
+ wayfarer_astronomical_phenomenon_desc: "#emp Durante un'[activity|e] di [GetActivityType('activity_roaming').GetName] vivrete l'esperienza di un evento unico in questa [barony|e]#!\n\nI racconti affermano che questa provincia sia teatro di sorprendenti fenomeni astronomici."
+
+ journey_events.30.t: "Una Storia della Buonanotte"
+ journey_events.30.desc: "Mi imbatto in [character_1.GetFirstName] e [character_2.GetFirstName], nel bel mezzo di un'accesa discussione. "Davvero? A [traveller_province.GetName], dite?" Nel vedermi, [character_1.GetFirstNameNoTooltip] si volta verso di me e chiede: "Voi siete già stat[ROOT.Char.Custom('DE_END_PRO_S_N')] lì durante i vostri viaggi, vero [ROOT.Char.GetFirstName]?"\n\n"Vedete, [character_2.GetFirstNameNoTooltip] mi sta raccontando di aver visto [traveller_province.Custom('journey_events_30_custom_loc')] a [traveller_province.GetNameNoTooltip]. Avete visto anche voi qualcosa di simile?""
+ journey_events.30.a: "[traveller_province.Custom('journey_events_30_short_custom_loc')] a [traveller_province.GetNameNoTooltip]? Oh, lasciate che vi racconti tutto!"
+ journey_events.30.a.tt: "Pensi di aver già visto [traveller_province.Custom('journey_events_30_short_custom_loc')] a [traveller_province.GetNameNoTooltip], ma che solo questo non basta per creare una buona storia. Forse, se la si romanzasse un po'..."
+ journey_events.30.a.win: "La mia storia riesce a convincerli"
+ journey_events.30.a.loss: "Loro non credono alla mia storia"
+ journey_events.30.b: "È davvero possibile qualcosa del genere?"
+ journey_events.30.c: "No, [character_2.GetFirstNameNoTooltip], ma vi ascolto."
+
+ journey_events_30_custom_loc_fallback: "un magnifico arco naturale"
+ journey_events_30_custom_loc_oasis: "un'indimenticabile oasi lussureggiante"
+ journey_events_30_custom_loc_desert: "un imponente megalite antico"
+ journey_events_30_custom_loc_mountains: "Un fantastico panorama montano"
+ journey_events_30_custom_loc_forest: "una immensa foresta"
+
+ journey_events_30_short_custom_loc_fallback: "Un arco"
+ journey_events_30_short_custom_loc_oasis: "Un'oasi"
+ journey_events_30_short_custom_loc_desert: "Un megalite"
+ journey_events_30_short_custom_loc_mountains: "Un panorama"
+ journey_events_30_short_custom_loc_forest: "Una grande foresta"
+
+ journey_events.40.t: "Un Bardo Locale"
+ journey_events.40.desc: "[suggester_character.GetFirstName], [suggester_character.Custom('DE_ART_DEF_P_A')] mi[suggester_character.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suggester_character'))], si rivolge a me mentre entra nella stanza: "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], tutti a corte sanno quanto vi piaccia condividere i vostri racconti di viaggio e le vostre imprese e, ve l'assicuro, con grande piacere di tutti."\n\n[suggester_character.GetSheHe|U] continua: "Ho sentito parlare di un bardo locale che di recente è divenuto particolarmente popolare. Una specie di menestrello, che piace molto ai contadini. Con la giusta motivazione, forse potrebbe iniziare a condividere alcuni dei vostri racconti in giro per il regno.""
+ journey_events.40.a: "Avete ragione, tutti meritano di ascoltare i miei racconti..."
+ journey_events.40.a.tt: "Alcune [counties|e] del tuo [realm|e] guadagneranno [GetModifier( 'journey_local_bard_modifier' ).GetNameWithTooltip] per #high 3 anni#!"
+ journey_events.40.b: "I can think of better ways to spend my coin, [suggester_character.GetFirstNameNoTooltip]."
+
+ journey_local_bard_modifier: "Bardo Locale"
+ journey_local_bard_modifier_desc: "Un bardo sta condividendo i racconti di viaggio del sovrano, con grande divertimento degli abitanti del luogo."
+
+ journey_events.50.t: "Una Notte a [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]"
+ journey_events.50.desc: "Per molto tempo, mi sono chiesto come si comportano tra loro i miei sudditi quando sanno di non essere sotto gli occhi di qualche nobile. Dopo averci riflettuto a lungo, ho trovato qualche indumento malandato da usare come travestimento e studiato quale sia il momento giusto per sgattaiolare fuori senza farmi notare.\n\nMa, con l'avvicinarsi del momento stabilito, inizio a nutrire dei dubbi. Tutto ciò è davvero degno di un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip]?"
+ journey_events.50.a: "Ora è troppo tardi per tirarsi indietro."
+ journey_events.50.a.win: "Esco di nascosto"
+ journey_events_50_event_chain_begins_tt: "Vado a [rootscope.GetCapitalLocation.GetName]"
+ journey_events.50.a.loss: "Vengo sorpres[ROOT.Char.Custom('DE_END_PRO_S_N')] con indosso degli stracci"
+ journey_events.50.b: "No, non posso farmi beccare con indosso abiti del genere!"
+ journey_events.50.b.tt: "Ma dove ho la testa? Certo che no, non posso andare a mischiarmi con servi e contadini!"
+
+ journey_events.51.desc: "Girando per le strade, mi imbatto in un edificio alquanto squallido ma, a quanto pare, molto frequentato. Incuriosit[ROOT.Char.Custom('DE_END_PRO_S_N')] entro e, appena varcata la porta, mi viene dato dell'alcol. La folla di persone all'interno mi spinge verso un posto a sedere in un angolo della sala. Per tutto il tempo, nessuno ha prestato la minima attenzione nei miei confronti.\n\nMi siedo e osservo le altre persone nel locale. Un gruppo particolarmente rumoroso è assiepato intorno a un grande tavolo, dove alcuni contadini sembrano divertirsi con un qualche gioco coi dadi."
+ journey_events.51.a: "Beh, mostrerò loro come sa giocare un nobile."
+ journey_events.51.a.tt: "È ora di levargli anche i magri guadagni che hanno. È quasi come tassarli!"
+ journey_events.51.a.big_win: "Vinco quasi tutte le partite"
+ journey_events.51.a.win: "Vinco qualche partita"
+ journey_events.51.a.loss: "Perdo più di quanto vinco"
+ journey_events.51.b: "È tempo di finire il mio bicchiere e tornare a casa."
+ journey_events.51.b.tt: "Ho visto fin troppi contadini per oggi."
+
+ journey_events.52.desc: "Dopo l'atmosfera bonaria delle prime bevute, gli animi si scaldano con il passare delle ore. [local_gambler.GetFirstNameNoTooltip], un[local_gambler.Custom('DE_PRO_POS_P_2P')] cliente, si alza improvvisamente in piedi ed esclama: "Maledetti nobili! Non sanno nulla della vita della gente comune. Soprattutto quell'idiota [ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetTitledFirstName]!"\n\nA quelle parole, intorno al tavolo si leva un coro di approvazione, mentre io mi sento rattrapire sulla sedia. [local_gambler.GetFirstNameNoTooltip] se ne accorge e si volta verso di me per chiedermi: "Tu cosa ne pensi?""
+ journey_events.52.a: "Io penso che sia arrivato il momento di fare un altro giro!"
+ journey_events.52.a.tt: "Continui a far scorrere l'alcol finché non avranno smesso di lamentarsi!"
+ journey_events.52.b: "Beh, veramente... Io #bold sono#! [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip]."
+ journey_events.52.b.tt: "Dimostrerò loro quanto si sbagliano sul mio conto!"
+ journey_events.52.c: "A quanto pare, [threat_1.Custom('IT_NAM_COL3')][threat_1.GetTitledFirstNameNoTooltip] si sta intascando tutte le nostre tasse..."
+ journey_events.52.c.chancellor: "Ho sentito parlare tanto della corruzione del [threat_1.GetCouncilTitle] [threat_1.GetFirstNameNoTooltip]..."
+ journey_events.52.c.steward: "A quanto pare, [threat_1.GetFirstNameNoTooltip], sfrutta il suo ruolo di [threat_1.GetCouncilTitle] per riscuotere ulteriori tasse che vanno a finire nelle sue tasche..."
+ journey_events.52.c.marshal: "Ho visto il [threat_1.GetCouncilTitle] [threat_1.GetFirstNameNoTooltip] picchiare a morte una persona per strada..."
+ journey_events.52.c.spymaster: "Ho sentito delle voci poco lusinghiere su [threat_1.GetFirstNameNoTooltip], l'attuale [threat_1.GetCouncilTitle]..."
+ journey_events.52.c.chaplain: "Girano voci sul comportamento immorale del [threat_1.GetCouncilTitle] [threat_1.GetFirstNameNoTooltip]..."
+ journey_events.52.c.fallback: "Per la verità, ho sentito dire che la colpa sia di [threat_1.GetFirstNameNoTooltip], l'attuale [threat_1.GetCouncilTitle]."
+ journey_events.52.c.tt: "Questa è una buona opportunità per incolpare qualcun altro, come quell'idiota di [threat_1.GetFirstNameNoTooltip]."
+
+ journey_drink_and_circus_modifier: "Consumo Eccessivo di Alcol"
+ journey_drink_and_circus_modifier_desc: "In questa contea è aumentata la quantità di alcolici distribuiti nelle taverne dal[ROOT.Char.Custom('DE_END_ADJ_NUL_S_N')] loro Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], secondo alcuni addirittura di persona."
+
+ journey_blame_game_modifier: "Nobile Impopolare"
+ journey_blame_game_modifier_desc: "Questo personaggio è molto impopolare tra la popolazione locale e su di lui circolano molte voci poco lusinghiere."
+
+ journey_blame_game_province_modifier: "Governante Popolare"
+ journey_blame_game_province_modifier_desc: "Il governante di questa contea ha guadagnato popolarità da quando hanno cominciato a circolare i racconti su come abbia a cuore e si batta per il suo popolo."
+
+ journey_pauper_king_modifier: "Re dei Poveri"
+ journey_pauper_king_modifier_desc: "Sembra che questo personaggio sia particolarmente popolare tra i suoi contadini e servi, grazie alle numerose storie sulle sue amichevoli frequentazioni dei membri delle classi inferiori."
+
+ journey_events.53.desc: "Ordino un giro dopo l'altro, finché tutti si addormentano o vanno a casa. Alla fine, 
+[Select_CString(And(local_gambler.IsFemale, ROOT.Char.IsFemale), 'sedute', 'seduti')] al tavolo rimaniamo solo [local_gambler.GetFirstNameNoTooltip] e io. [local_gambler.GetSheHe|U], nonostante riesca a stare a malapena ancora svegli[local_gambler.Custom('DE_END_PRO_S_N')], continua a fissarmi con la coda dell'occhio.\n\n"Sai, in fin dei conti, non sei poi male per essere un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] nobile." borbotta, prima di finire per crollare anche lui, con la sua testa che fa un bel botto sul tavolo."
+ journey_events.53.a: "Hmm, mi chiedo quando l'ha capito che sono un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] nobile."
+ journey_events.53.a.tt: "È ora di tornare a casa, prima che qualcuno si preoccupi troppo della mia assenza."
+
+ journey_events.54.desc: "Sebbene all'inizio la tensione sia palpabile, dopo qualche bicchiere e il racconto dei miei viaggi i presenti si rilassano. Dopo un po', nella taverna si respira un'allegra atmosfera e mi vengono rivolte domande d'ogni tipo.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], se posso..." dice timidamente [local_gambler.GetFirstNameNoTooltip], "Abbiamo una milizia locale qui a [ROOT.Char.GetCapitalLocation.GetNameNoTooltip] e saremmo lieti di servirvi più direttamente."\n\nMalgrado i miei tentativi di respingerli, insistono con la loro offerta e, mentre il taverniere chiude infine il locale, sembrano tutti di buon umore mentre lentamente si dirigono all'uscita."
+ journey_events.54.a: "Una serata davvero produttiva!"
+ local_militia_name_default: "Milizia Locale"
+
+ journey_events.55.desc: "Cerco di allentare la tensione nella stanza quando all'improvviso ricevo il primo pugno, il primo di tanti.\n\nDopo una gragnuola di pugni e calci che si abbattono sul mio povero corpo, vengo trascinat[ROOT.Char.Custom('DE_END_PRO_S_N')] verso l'uscita posteriore e gettat[ROOT.Char.Custom('DE_END_PRO_S_N')] nel vicolo. Riesco a malapena a sentirmi la faccia e non riesco a rimettermi in piedi.\n\nSolo dopo diverse ore, alcune guardie passano e una di loro mi riconosce. Mi aiutano ad alzarmi e mi riaccompagnano alla mia dimora."
+ journey_events.55.a: "È stata una pessima idea fin dall'inizio..."
+
+ journey_events.56.desc: "All'inizio cercavo solo di rifilare qualche frecciatina all'indirizzo di [threat_1.GetFirstName], ma dopo un po' mi faccio davvero coinvolgere dalla situazione. Non si tratta più di una finta facciata solo per rifilare la colpa a qualcun altro, è proprio che io odio [Select_CString(threat_1.IsFemale,'quella donna','quell'uomo')].\n\nMentre continuo a raccontare le mie storie su di [threat_1.GetSheHe], aggiungo quanto sia difficile per [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstName], cioè per me, avere a che fare con la sua corruzione.\n\nAl termine della serata, le persone se ne vanno con un'opinione molto diversa [threat_1.Custom('IT_NAM_COL')][threat_1.GetFirstName] e su di me."
+ journey_events.56.a: "Questo è tutto ciò che [threat_1.GetSheHe] si merita."
+ journey_events.56.a.tt: "Dopo una serata così produttiva, è ora di tornare a casa prima che qualcuno si preoccupi troppo per la mia assenza."
+
+ journey_events.57.desc: "Nonostante i miei sforzi per affibbiare la colpa al mio [threat_1.GetCouncilTitle], [threat_1.GetFirstName], vengo costantemente interrott[ROOT.Char.Custom('DE_END_PRO_S_N')] da voci e commenti sprezzanti [ROOT.Char.Custom('IT_NAM_COL')][ROOT.Char.GetTitledFirstName], ossia su di me.\n\nPrima che me ne renda conto, la serata arriva alla conclusione e tutti se ne vanno con un'opinione sul mio conto ancora più negativa di quando ero arrivat[ROOT.Char.Custom('DE_END_PRO_S_N')]. Dannazione, com'è potuto accadere?"
+ journey_events.57.a: "Chi avrebbe mai pensato che fossi così impopolare?"
+ journey_events.57.a.tt: "Beh... Non così produttiva come speravo, ma ho trascorso comunque una serata memorabile..."
+ 
+ journey_events.60.t: "Enlightenment"
+ journey_events.60.desc_intro: "As of late, I have been burdened with unease. The [journey_province.Custom('TerrainTypeProvincePrefix')] [journey_county.Custom('TerrainTypeCountyScopePlural')] in [journey_county.GetNameNoTierNoTooltip] have been lovely, but it cannot fill the unending sense of emptiness.\n\nWhile going about my usual bidding, "
+ journey_events.60.desc_courtly: "I walk into [journey_county.GetHolder.GetNamePossessive] court, and watch [journey_county.GetHolder.GetHerHim] preside over it. The lords and ladies of [journey_county.GetHolder.GetPrimaryTitle.GetNameNoTierNoTooltip] gather around [journey_county.GetHolder.GetHerHim] solemnly, as petitioners begin to arrive. All present themselves to the [journey_county.GetHolder.GetTitleTierName] with dignity, albeit to ask for [journey_county.GetHolder.GetHerHis] gold or support. No matter how dull nor trivial the request, [journey_county.GetHolder.GetSheHe] listens attentively, and offers a fair judgement."
+ journey_events.60.desc_bellicose: "I stumble upon an encampment, and observe as a group of knights train. They spar with one another, and their movements show a sense of brutality, yet also grace, as they move in almost perfect unison. Their commander, looks upon them with a sense of pride, and the mutual respect between them is palpable."
+ journey_events.60.desc_stoic: "I witness children playing in the streets, with the exception of one, who seems to be the target of their games. He is pushed around, his clothes are torn, yet he remains calm and composed. He simply gets up, dusts himself off, and continues on his way to the bewilderment of the others, who lose interest in him."
+ journey_events.60.desc_bureaucratic: "Local pupils scurry about town, bearing scrolls and books. A piece falls from one of their hands, with the student not taking notice. Before I attempt to return it, I notice an intricate blueprint on the [ROOT.Char.Custom('GetWritingMaterial')] that catches my eye. It looks to be a plan for a new building in [journey_county.GetNameNoTierNoTooltip], with such advanced features that I would expect to see from the mind of a master architect. None of the students look past the age of 18, but have already mastered a craft that would take most a lifetime."
+ journey_events.60.desc_spiritual: "I come across a group of peasants and monks alike, gathered around in a circle. Their soft hymns fill the air, though I cannot make out if they are singing in praise of [ROOT.Char.GetFaith.HighGodName] or another deity. Upon closer inspection, I realize some peasants are of higher stature, with some even wearing the garb of nobility. Nonetheless, all seem to be in a state of peace, with their reverence of the divine binding them together."
+ journey_events.60.desc_egalitarian: "I decide to take a quick stop at a local tavern, walking directly into a discussion. From their accents and garments alike, the patrons share few similarities. Yet, the discussion is rather civil and lively, and there seems to be no judgement, as if they've all came from the same womb. People are spoken to as a traveller in [journey_county.GetNameNoTierNoTooltip], rather than another [journey_culture.GetNameNoTooltip] or [ROOT.Char.GetCulture.GetNameNoTooltip]."
+ journey_events.60.desc_communal: "a chilling scream is heard, and people rush to the source. I follow, and witness a woman clutching her babe in front of a burning house. The others waste no time in grabbing buckets of water, and even nobles are getting their hands dirty. The fire is put out quickly, but the mother's home is lost. The townsfolk gather around her and the child, offering what little they have to help them rebuild."
+ journey_events.60.opt: "Perhaps I can learn something from these [journey_culture.GetCollectiveNounNoTooltip]."
+ journey_events.60.opt_b: "I have seen so much in my travels."
+
+ journey_bellicose_modifier: "Martial Respect"
+ journey_bellicose_modifier_desc: "This character witnessed knights in action, and it left them in awe."
+
+ journey_stoic_modifier: "Unending Resolve"
+ journey_stoic_modifier_desc: "This character practices the art of stoicism."
+
+ journey_bureaucratic_modifier: "Aspiring Architect"
+ journey_bureaucratic_modifier_desc: "This character has seen the advanced planning of a local building project."
+
+ journey_spiritual_modifier: "Divine Reverence"
+ journey_spiritual_modifier_desc: "This character appreciates the presence of a higher power."
+
+ journey_egalitarian_modifier: "Universal Advocate"
+ journey_egalitarian_modifier_desc: "This character has seen the benefits of a diverse society.\n[courtier|E] Recruitment Cost: #P -10%#!"
+
+ journey_communal_modifier: "Community Patron"
+ journey_communal_modifier_desc: "This character brings their herd together in times of need.\n[GetActivityType('activity_camp_party').GetName] [activity|E] Cost: #P -20%#!\n[GetActivityType('activity_feast').GetName] [activity|E] Cost: #P -20%#!"
+
+ journey_courtly_modifier: "Court Connoisseur"
+ journey_courtly_modifier_desc: "This character appreciates a well-run court."

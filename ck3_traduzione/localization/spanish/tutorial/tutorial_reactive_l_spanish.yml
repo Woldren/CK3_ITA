@@ -1,0 +1,770 @@
+﻿l_spanish:
+ open_tutorial_lesson:1 "Consigli: "
+ click_to_open_lesson:1 "#I Clicca per saperne di più#!"
+ reactive_advice_mercenaries:0 "$reactive_advice_mercenaries_step_1$"
+ action_reactive_advice_mercenaries:0 "$open_tutorial_lesson$$reactive_advice_mercenaries_step_1$"
+ action_reactive_advice_mercenaries_desc:0 "I mercenari sono soldati a pagamento che possono far pendere l'ago della bilancia in una guerra.\nApri qui per ricevere alcuni suggerimenti e consigli su come utilizzarli al meglio!"
+ action_reactive_advice_mercenaries_click:0 "$click_to_open_lesson$"
+ reactive_advice_mercenaries_step_1:0 "Mercenari"
+ reactive_advice_mercenaries_desc:0 "Se stai perdendo una guerra, potresti far pendere la bilancia a tuo favore assumendo dei [mercenaries|E].\n\nI mercenari costano [gold|E], ma ti forniranno un considerevole [army|E]. Una volta impiegati, potrai controllarli come faresti con qualsiasi altro esercito.\n\n#TUT Potresti voler assumere un'unità di Mercenari per la tua guerra attuale. Anche se tu potresti andare in [debt|E] assumendoli, ti consigliamo di trovarne dei mercenari a buon mercato, a meno che tu non stia perdendo pesantemente la guerra.#!"
+ reactive_advice_mercenaries_task:0 "Naviga verso la scheda $HIRE_TROOPS$ e seleziona una qualsiasi banda Mercenaria"
+ reactive_advice_succession:0 "$reactive_advice_succession_step_1$"
+ action_reactive_advice_succession:0 "$open_tutorial_lesson$$reactive_advice_succession_step_1$"
+ action_reactive_advice_succession_desc:0 "Cosa è appena successo? Sei morto e si è verificata una Successione!\nApri qui per vedere un resoconto di ciò che è successo, così come alcuni suggerimenti su come pianificare quelli futuri."
+ action_reactive_advice_succession_click:0 "$click_to_open_lesson$"
+ reactive_advice_succession_step_1:0 "Successione"
+ reactive_advice_succession_desc:3 "Il Re è morto, lunga vita al Re!\n\nNon preoccuparti, anche se il tuo vecchio personaggio è morto, Crusader Kings III è un gioco di dinastie. Dal momento che il tuo [ruler|E] ha un [player_heir|E], ora controllerai lui!\n\n#TUT La morte è una parte naturale del gioco, e spesso si continuerà come il [eligible_child|E] più vecchio (a seconda delle [succession_laws|E] del tuo regno). Per pianificare una successione sicura, ti consigliamo di avere almeno due figli, il secondo serve come riserva nel caso in cui il primo muoia.\n\nDurante la successione potresti perdere alcuni dei [titles|E] che il tuo personaggio precedente deteneva. Non preoccuparti, conservi delle [claims|E] su tutti i titoli che hai perduto.#!\n\n#weak Ti raccomandiamo di prenderti un po' di tempo per familiarizzare con il tuo nuovo personaggio prima di continuare.#!"
+ reactive_advice_domain_limit:0 "$reactive_advice_domain_limit_step_1$"
+ reactive_advice_domain_limit_step_1:0 "Limite del Dominio"
+ reactive_advice_domain_limit_desc:0 "Attualmente possiedi più terre nel tuo [domain|E] di quante ne possa gestire il tuo personaggio da solo, è il momento di creare dei nuovi [vassals|E]!\n\nPoiché vorrai mantenere i titoli di valore nel tuo dominio, ti consigliamo di andare nella scheda Dominio, nella schermata del tuo Regno, dove potrai vedere quanto vale ogni titolo per te. Considera anche quali sono i titoli [de_jure|E].\n\n#TUT Rimanere oltre il [domain_limit|E] per troppo tempo dovrebbe essere evitato, in quanto ciò avrà delle conseguenze.\n\nPer rimanere sotto il limite, devi concedere i [titles|E] in eccesso ai nuovi vassalli. Anche se puoi concedere dei titoli ai tuoi vassalli esistenti, spesso è un'idea migliore trovare qualcuno senza terra a cui assegnarli.\n\nI membri della [dynasty|E] che si trovano lontano oppure i [courtiers|E] con il [trait|E] [GetTrait('content').GetName( GetPlayer )] sono dei vassalli eccellenti. I [claimants|E] ai tuoi titoli, oppure i Cortigiani con il tratto [GetTrait('ambitious').GetName( GetPlayer )] lo sono meno.#!"
+ reactive_advice_vassal_limit:0 "$reactive_advice_vassal_limit_step_1$"
+ reactive_advice_vassal_limit_step_1:0 "Limite dei Vassalli"
+ reactive_advice_vassal_limit_desc:0 "Nessuno può gestire un'orda di Conti: gli aspiranti conquistatori devono fare affidamento a [vassals|E] di livello superiore, come i Duchi, affinché gestiscano le loro terre per loro!\n\nPuoi vedere il tuo attuale limite dei Vassalli nella scheda del Dominio.\n\n#TUT Proprio come per il limite del tuo dominio, è meglio non superare il tuo [vassal_limit|E]. Per evitare questa penalità, dovresti consolidare i tuoi vassalli.\n\nIl modo migliore per farlo è concedere i [duchies|E] ai tuoi vassalli, questo li farà governare un'area più grande in modo che tu non debba farlo! Anche se, perché questo funzioni, è necessario che tu stesso detenga un [kingdom|E] oppure un [empire|E], non commettere l'errore di cedere uno dei tuoi [primary_titles|E]!\n\nSe ti trovi a superare il limite di Vassalli come Duca, ti suggeriamo di formare un Regno il prima possibile.#!"
+ reactive_advice_megaduke_penalty:0 "$reactive_advice_megaduke_penalty_step_1$"
+ reactive_advice_megaduke_penalty_step_1:0 "Ducato troppo grande!"
+ reactive_advice_megaduke_penalty_desc:2 "Il tuo [duchy|E] si sta sgretolando sotto la pressione data dal possedere troppe terre. Dovresti [create|E] oppure [usurp|E] un [kingdom|E]!\n\n#TUT Forse puoi già creare un regno? Se è così, apri la scheda della Situazione Attuale e vedi se ce n'è uno che puoi creare. Se non puoi, esiste una [decision|E] perché tu possa fondare il tuo Regno — anche se bisogna fare attenzione che i titoli che hai creato siano solitamente più deboli di quelli [de_jure|E] esistenti.\n\nSe sei un [vassal|E] e il tuo [liege|E] è un Re, devi chiedere l'indipendenza prima di poter diventare tu stesso un Re. Il primo passo è quello di unirsi o fondare una [independence_faction|E].#!"
+ reactive_advice_bastards:0 "$reactive_advice_bastards_step_1$"
+ action_reactive_advice_bastards:0 "$open_tutorial_lesson$$reactive_advice_bastards_step_1$"
+ action_reactive_advice_bastards_desc:0 "Un figlio bastardo può essere una benedizione o una maledizione, ma cosa significa veramente?!"
+ action_reactive_advice_bastards_click:0 "$click_to_open_lesson$"
+ reactive_advice_bastards_step_1:0 "Bastardi"
+ reactive_advice_bastards_desc:1 "Ops! Sembra che tu abbia un figlio [bastard|E]! Questa può essere una minaccia o un'opportunità...\n\n#TUT Avere dei figli Bastardi non è poi così male; possono sposarsi per formare delle [alliances|E] pur non essendo una minaccia diretta alla tua [succession|E], in quanto non sono considerati [legitimate|E].\n\nPotrebbe anche essere una buona idea lasciare in giro alcuni bambini Bastardi, in modo che possano essere [legitimized|E] se dovessi trovarti a corto di figli Legittimi. Tuttavia, ricordati di tenere d'occhio l'[opinion|E] che il tuo [spouse|E] ha di te...\n\nSe desideri avere dei figli Bastardi, ti raccomandiamo di usare il [scheme|E] [GetScheme('seduce').GetTypeName] su personaggi non sposati. Se seduci una donna sposata, suo marito potrebbe pensare che il bambino sia suo, se questo accade non potrai rendere Legittimo il bambino.#!"
+ reactive_advice_protecting_against_hostile_schemes:0 "$reactive_advice_protecting_against_hostile_schemes_step_1$"
+ action_reactive_advice_protecting_against_hostile_schemes:0 "$open_tutorial_lesson$$reactive_advice_protecting_against_hostile_schemes_step_1$"
+ action_reactive_advice_protecting_against_hostile_schemes_desc:0 "Molti pericoli si nascondono nell'ombra e la minaccia di un complotto non è mai troppo lontana.\nApri questa pagina per scoprire i complotti e come proteggerti!"
+ action_reactive_advice_protecting_against_hostile_schemes_click:0 "$click_to_open_lesson$"
+ reactive_advice_protecting_against_hostile_schemes_step_1:0 "Proteggersi dai Complotti"
+ reactive_advice_protecting_against_hostile_schemes_step_2:0 "$reactive_advice_protecting_against_hostile_schemes_step_1$"
+ reactive_advice_protecting_against_hostile_schemes_desc:0 "Attento a dove metti i piedi! Come sovrano, ci sono molti che vorrebbero [Concept( 'scheme', 'complottare' )|E] per vederti morto...\n\nCerca di fare in modo che i tuoi sudditi abbiano un' alta [opinion|E] nei tuoi confronti, ma soprattutto, fa in modo che il tuo [spymaster|E] ti sia #emphasis sempre#! fedele.\n\n#TUT Forse non sai che esistono, ma i [hostile_schemes|E] potrebbero prenderti di mira in qualsiasi momento. Per prevenire i Complotti, ti raccomandiamo di fare in modo che i tuoi [vassals|E] e [courtiers|E] siano felici.#!"
+ reactive_advice_protecting_against_hostile_schemes_2_desc:0 "Avere un Capo delle spie con un'opinione molto bassa di te potrebbe essere una condanna a morte, perché non c'è modo di scoprire i [secret_schemes|E]!\n\n#TUT Ricordalo se hai intenzione di giocare nei panni di un [tyrant|E], perché anche se riuscissi a soggiogare i tuoi sudditi mediante la [dread|E] loro potrebbero ancora Complottare contro di te.\n\nInfine, fai attenzione ai [claimants|E] al tuo trono che hanno il tratto [GetTrait('sadistic').GetName( GetPlayer )] oppure il tratto [GetTrait('ambitious').GetName( GetPlayer )]...#!"
+ reactive_advice_protect_against_factions:0 "$reactive_advice_protect_against_factions_step_1$"
+ action_reactive_advice_protect_against_factions:0 "$open_tutorial_lesson$$reactive_advice_protect_against_factions_step_1$"
+ action_reactive_advice_protect_against_factions_desc:0 "Una Fazione è una cosa pericolosa se non viene controllata.\nApri qui per una panoramica sulle fazioni e su come gestirle al meglio!"
+ action_reactive_advice_protect_against_factions_click:0 "$click_to_open_lesson$"
+ reactive_advice_protect_against_factions_step_1:0 "Proteggersi dalle Fazioni"
+ reactive_advice_protect_against_factions_desc:1 "Si è formata una [faction|E] contro di te, ma non farti prendere dal panico - hai ancora tempo per sistemare le cose!\n\nI [vassals|E] e i [counties|E] si uniscono alle fazioni quando sono insoddisfatti del tuo governo. Per contrastare l'insoddifazione puoi aumentare la loro [opinion|E] nei tuoi confronti, o cercare di diventare [dreaded|E].\n\n#TUT Per evitare le Fazioni, ti raccomandiamo di aumentare l'[opinion|E] dei tuoi Vassalli nei tuoi confronti, rallentare le tue conquiste e cercare di [GetScheme('murder').GetTypeName] tutti i [claimants|E] più popolari di te.\n\nAvrai spesso il tempo di placare i tuoi Vassalli prima che la Fazione faccia le sue richieste, usa questo tempo saggiamente.#!"
+ reactive_advice_protect_against_factions_2_desc:0 "Le Contee con un bassa [county_opinion|E] tendono a unirsi al [peasant_faction|E]. A differenza delle altre fazioni, questa fazione si solleverà indipendentemente dal fatto che abbia una possibilità di vincere o meno!\n\nA volte, bisogna semplicemente rimettere i contadini al loro posto...\n\n#TUT Dovresti sempre tenere d'occhio le Fazioni Contadine. Se colpiscono mentre sei in guerra possono causare dei danni significativi al tuo [control|E].#!"
+ reactive_advice_protect_against_factions_step_2:0 "$reactive_advice_protect_against_factions_step_1$"
+ reactive_advice_imprisoned:0 "$reactive_advice_imprisoned_step_1$"
+ action_reactive_advice_imprisoned:0 "$open_tutorial_lesson$$reactive_advice_imprisoned_step_1$"
+ action_reactive_advice_imprisoned_desc:0 "Qualcuno ti ha imprigionato! Questo non va bene...\nApri qui per alcuni suggerimenti su ciò che accadrà, e su cosa puoi fare, se vieni imprigionato."
+ action_reactive_advice_imprisoned_click:0 "$click_to_open_lesson$"
+ reactive_advice_imprisoned_step_1:0 "Sei stato imprigionato!"
+ reactive_advice_imprisoned_desc:2 "Il tuo personaggio è stato catturato e ora è alla mercé di qualcun altro. Non c'è molto che tu possa fare a riguardo.\n\nVai sul personaggio che ti tiene [prisoner|E] e usa l'[interaction|E] #TUT_KW 'Riscatta te stesso'#! — se sei fortunato sarai in grado di pagarti la libertà! Se sei sfortunato, potrebbe scegliere di [Concept( 'execute', 'giustiziarti' )|E].\n\n#TUT Se seri in [war|E] con colui che ti imprigiona, egli potrà importi una [victory|E]. Non c'è niente che tu possa fare a riguardo, tranne che stare più attento in futuro!\n\nSe sei stato catturato mentre stavi [commanding|E] un [army|E], è possibile che sia successo perché avevi una [prowess_i][prowess|E] bassa. A volte è una buona idea mitigare questo rischio evitando di guidare personalmente gli eserciti.\n\nSe sei stato catturato durante un [siege|E], è successo perché un nemico ha [occupied|E] la tua [realm_capital|E]. Dovresti sempre cercare di fare in modo che i nemici stiano alla larga dalla tua capitale!#!"
+ reactive_advice_county_control:0 "$reactive_advice_county_control_step_1$"
+ action_reactive_advice_county_control:0 "$open_tutorial_lesson$$reactive_advice_county_control_step_1$"
+ action_reactive_advice_county_control_desc:1 "Se il [control|E] è basso in una [county|E], ne ricaverai meno.\nApri qui per una panoramica su come gestire il Controllo della Contea!"
+ action_reactive_advice_county_control_click:0 "$click_to_open_lesson$"
+ reactive_advice_county_control_step_1:0 "Controllo della Contea"
+ reactive_advice_county_control_desc:2 "Una delle tue [counties|E] ha un basso [control|E], il che significa che riceverai meno [taxes|E] e [levies|E] da essa. Tuttavia, ci sono diversi modi per aumentare di nuovo il Controllo!\n\n#TUT Ci sono molti posti dove puoi vedere il Controllo: nella scheda Dominio nella Panoramica del Regno, nella Panoramica della Situazione Attuale e nella Panoramica della Contea.\n\nPer aumentare il controllo, devi andare nella tua schermata del Consiglio e assegnare il tuo [marshal|E] al compito [increase_control|E]. Il controllo aumenta anche con il tempo, ma questo processo è molto lento; piuttosto ti consigliamo di usare un Maresciallo altamente qualificato.\n\nSe lasci una Contea con un controllo basso per molto tempo, questa potrebbe ottenere la [county_corruption|E]. Per evitarlo, ti consigliamo di non conquistare troppe terre in una sola volta.#!"
+ reactive_advice_looming_game_over:0 "$reactive_advice_looming_game_over_step_1$"
+ reactive_advice_looming_game_over_step_1:0 "Evitare la Fine della Partita"
+ reactive_advice_looming_game_over_desc:5 "Oh-oh! Sembra che tu non abbia un [player_heir|E]. Se morirai ora, sarà la [game_over|E], cerchiamo di evitarlo!\n\n#TUT Se sei in questa situazione, probabilmente significa che sei l'ultimo della tua Dinastia. A questo punto c'è solo una valida linea d'azione: generare un Erede [Concept( 'legitimate', 'Legittimo' )|E]!\n\nSe fai parte di una società che permette a un solo genere di ereditare, puoi provare a cambiare la tua [gender_law|E] affinché sia meno restrittiva. Se hai dei [bastards|E], ora è il momento di legittimarli!\n\nA parte questo, assicurati di essere [married|E] a un personaggio con un'alta [fertility|E] (come regola generale, le donne oltre i 45 anni sono raramente fertili). Se questo non dovesse funzionare, richiedi il [divorce|E] o cerca di [GetScheme('murder').GetTypeName] il tuo [spouse|E] e risposati con qualcun altra, oppure prova ad usare il [scheme|E] per [GetScheme('seduce').GetTypeName] per generare un Bastardo.\n\nIl tempo è essenziale, non correre dei rischi inutili!#!"
+ reactive_advice_bankruptcy:0 "$reactive_advice_bankruptcy_step_1$"
+ action_reactive_advice_bankruptcy:0 "$open_tutorial_lesson$$reactive_advice_bankruptcy_step_1$"
+ action_reactive_advice_bankruptcy_desc:0 "Sei rimasto senza [gold_i]Oro, sei in debito!\nApri qui per una panoramica sul debito e su come uscirne."
+ action_reactive_advice_bankruptcy_click:0 "$click_to_open_lesson$"
+ reactive_advice_bankruptcy_step_1:0 "Debito"
+ reactive_advice_bankruptcy_desc:2 "Sei rimasto senza [gold_i][gold|E], non va affatto bene, devi tagliare le tue spese e cercare di riempire la tua tesoreria il prima possibile!\n\n#TUT Essere in [debt|E] ti impedisce di fare molte cose, come dichiarare le [wars|E] oppure di rinforzare gli [men_at_arms|E], e ti causerà la [county_corruption|E]. Non lasciare che il tuo debito vada fuori controllo!\n\nLa cosa più ovvia da fare è terminare qualsiasi guerra tu stia combattendo, perché quando sei in pace non devi pagare i costi di mantenimento per i tuoi [armies|E]. Se stai perdendo molto oro, potresti anche considerare di sciogliere alcuni degli Uomini d'Arme.\n\nSe la tua [faith|E] lo permette, puoi usare l'[interaction|E] #TUT_KW $hof_ask_for_gold_interaction$#! sul tuo [head_of_faith|E], oppure la Decisione #TUT_KW $borrow_from_holy_order_decision$#!.\n\nPotrebbe anche essere una buona idea scegliere il [focus|E] $stewardship_wealth_focus_short$, se non l'hai già fatto.#!"
+ reactive_advice_rightful_liege:0 "$reactive_advice_rightful_liege_step_1$"
+ action_reactive_advice_rightful_liege:0 "$open_tutorial_lesson$$reactive_advice_rightful_liege_step_1$"
+ action_reactive_advice_rightful_liege_desc:0 "La struttura De Jure è molto importante per i tuoi vassalli, non essere il loro signore #emphasis legittimo#! può essere dannoso per le tue relazioni.\nApri qui per una panoramica su cosa significa essere un Signore Legittimo!"
+ action_reactive_advice_rightful_liege_click:0 "$click_to_open_lesson$"
+ reactive_advice_rightful_liege_step_1:0 "Signore Legittimo"
+ reactive_advice_rightful_liege_step_2:0 "$reactive_advice_rightful_liege_step_1$"
+ reactive_advice_rightful_liege_desc:1 "Non sei il [rightful_liege|E] di un [vassal|E]. Questo abbasserà la sua [opinion|E] nei tuoi confronti e quindi riceverai meno [taxes|E] e [levies|E].\n\nDovresti sforzarti di essere il Signore Legittimo di tutti i tuoi Vassalli!\n\n#TUT Per farlo è necessario detenere il [title|E] che è un gradino sopra di loro nel [de_jure|E]. Un Vassallo con il titolo di [county|E] vuole stare sotto il suo [duchy|E] De Jure. Per esempio, il Conte di $c_madrid$ vuole stare sotto il duca di $d_toledo$.\n\nÈ molto comune avere alcuni vassalli di cui #emphasis non#! sei il Signore Legittimo, non c'è molto che tu possa fare a riguardo, ed è assolutamente normale! Tuttavia, ricordati di usare l'[interaction|E] #TUT_KW $grant_vassal_interaction$#! per organizzare i tuoi Vassalli, non puoi detenere ogni titolo per conto tuo.#!"
+ reactive_advice_rightful_liege_2_desc:0 "Quando conquisti nuove terre, spesso ottieni dei nuovi Vassalli di cui non sei il Signore Legittimo. Pianificare attentamente le tue conquiste può mitigare questo problema.\n\n#TUT Per evitare di avere troppi Vassalli che non ti apprezzano, ti consigliamo di cercare di concentrare le tue conquiste su un' area De Jure alla volta. In questo modo puoi #emphasis alla fine#! diventare il loro Signore Legittimo. Prendi nota di controllare spesso se puoi [create|E] dei nuovi Titoli!\n\nRicordati di usare le modalità della mappa De Jure quando pianifichi le tue conquiste!#!"
+ 
+ reactive_advice_bishop_endorsement:0 "$reactive_advice_bishop_endorsement_step_1$"
+ action_reactive_advice_bishop_endorsement:0 "$open_tutorial_lesson$$reactive_advice_bishop_endorsement_step_1$"
+ action_reactive_advice_bishop_endorsement_desc:0 "Il tuo Vescovo non ti sta appoggiando!\nApri qui per una panoramica su cosa questo significhi per te e su come puoi rimediare."
+ action_reactive_advice_bishop_endorsement_click:0 "$click_to_open_lesson$"
+ reactive_advice_bishop_endorsement_step_1:0 "Approvazione del Vescovo"
+ reactive_advice_bishop_endorsement_desc:3 "La [faith|E] del tuo personaggio fa sì che tu abbia un [realm_priest|E] nel tuo [council|E].\n\nQuesti Vescovi detengono un potere immenso e sono più che disposti a condividerlo con te, se stai dalla loro parte...\n\n#TUT Il tuo Vescovo ti fornisce le [taxes|E] e le [levies|E] da tutti le [temple_holdings|E] nel tuo [realm|E], e quanto ti danno dipende dalla sua [opinion|E] nei tuoi confronti.\n\nEssere antipatico significa che non otterrai nulla, e il vescovo può anche renderti la vita difficile! Possono, per esempio, costringerti a divorziare dal tuo [spouse|E]...\n\nDovresti fare del tuo meglio per migliorare la loro opinione nei tuoi confronti. Usare l'[interaction|E] #TUT_KW $gift_interaction$#! o iniziare un [scheme|E] per [GetScheme('sway').GetTypeName] sono due buone opzioni da considerare.\n\nSe tutto questo non funziona, il complotto per [GetScheme('murder').GetTypeName] è sempre un'opzione... Forse il loro successore sarà più amichevole?#!"
+ 
+ reactive_advice_encyclopedia:0 "$reactive_advice_encyclopedia_step_1$"
+ action_reactive_advice_encyclopedia:0 "$open_tutorial_lesson$$reactive_advice_encyclopedia_step_1$"
+ action_reactive_advice_encyclopedia_desc:0 "Vuoi saperne di più su alcuni termini di gioco? Apri qui per un'introduzione sull'Enciclopedia."
+ action_reactive_advice_encyclopedia_click:0 "$click_to_open_lesson$"
+ reactive_advice_encyclopedia_step_1:0 "Enciclopedia"
+ reactive_advice_encyclopedia_desc:0 "Crusader Kings III presenta molti concetti e termini che è possibile conoscere. Se ti stai interrogando su un concetto di gioco, puoi aprire l'Enciclopedia.\n\nSegui la UI evidenziata per vedere come fare.\n\n#TUT La categoria "Lezioni del tutorial" dell'Enciclopedia elenca molte sezioni del tutorial, nel caso in cui tu abbia bisogno di rinfrescarti la memoria. #!"
+
+ reactive_advice_religion:0 "$lesson_basics_religion_1$"
+ action_reactive_advice_religion:0 "$open_tutorial_lesson$$lesson_basics_religion_1$"
+ action_reactive_advice_religion_desc:0 "Vuoi saperne di più sulla Fede e la Religione? Apri qui per un'introduzione alla tua Religione."
+ action_reactive_advice_religion_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_dynamic_culture:0 "Cultura"
+ action_reactive_advice_dynamic_culture:0 "$open_tutorial_lesson$$reactive_advice_dynamic_culture$"
+ action_reactive_advice_dynamic_culture_desc:0 "Vuoi saperne di più sulle Culture? Apri qui per un'introduzione alle Culture."
+ action_reactive_advice_dynamic_culture_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_fabricate_claim:0 "$reactive_advice_fabricate_claim_step_1$"
+ action_reactive_advice_fabricate_claim:0 "$open_tutorial_lesson$$reactive_advice_fabricate_claim_step_1$"
+ action_reactive_advice_fabricate_claim_desc:0 "Non sei in grado di dichiarare guerra? Puoi fabbricare una rivendicazione!\nAprila per scoprire come usare il tuo consiglio per fabbricare delle rivendicazioni."
+ action_reactive_advice_fabricate_claim_click:0 "$click_to_open_lesson$"
+ reactive_advice_fabricate_claim_step_1:0 "Fabbricare delle rivendicazioni"
+ reactive_advice_fabricate_claim_desc:1 "Non puoi dichiarare una guerra senza un[casus_belli|E]. Le fonti più comuni di Casus Bellis sono le [claims|E], ma a volte è difficile ottenere la rivendicazione che desideri.\n\nQui entrano in gioco le [fabricated_claims_short|E]!\n\n#TUT Puoi assegnare il tuo [court_chaplain|E] perché fabbrichi una rivendicazione su qualsiasi [county|E] vicina, che può essere eseguita nella schermata del [council|E]. Puoi fabbricare una sola rivendicazione alla volta e ognuna di esse richiederà del tempo per essere completata.\n\nQuesto strumento è particolarmente utile quando si sta giocando con un piccolo [ruler|E], poiché i Casus Bellis diventano più facile da ottenere quanto più grande è il tuo [realm|E].\n\nVi consigliamo di fabbricare delle rivendicazioni sui tuoi vicini più prossimi - idealmente quelli che sono più deboli di te! Se stai giocando come Conte, concentrateti sul rivendicare i titoli all'interno dello stesso [duchy|E] [de_jure|E] della tua [realm_capital|E].#!"
+ 
+ reactive_advice_education:0 "$reactive_advice_education_step_1$"
+ action_reactive_advice_education:0 "$open_tutorial_lesson$$reactive_advice_education_step_1$"
+ action_reactive_advice_education_desc:1 "Il tuo erede non diventerà un grande sovrano senza un'educazione!\nApri qui per una panoramica sulla tutela e su come preparare adeguatamente il tuo erede al potere."
+ action_reactive_advice_education_click:0 "$click_to_open_lesson$"
+ reactive_advice_education_step_1:0 "Educazione"
+ reactive_advice_education_desc:4 "Sembra che il tuo [player_heir|E] non abbia un [guardian|E]! Senza un adeguata [education|E] avranno [skills|E] scarse e [traits|E] casuali.\n\n#TUT Usa l'[interaction|E] #TUT_KW $educate_child_interaction$#! sul tuo Erede e trova un personaggio adatto per ricoprire il ruolo di loro [guardian|E].\n\nDevi trovare un personaggio che sia esperto nel campo in cui desideri che il suo [ward|E] ecella. Ti consigliamo di cercare un Guardiano con un alto livello di [education_trait|E] (ad esempio [GetTrait('education_martial_4').GetName( GetPlayer )]) oppure un Tratto come [GetTrait('intellect_good_1').GetName( GetPlayer )] oppure il Tratto [GetTrait('intellect_good_3').GetName( GetPlayer )]. Se non sei disposto a correre il rischio di permettere a qualcun altro di plasmare la personalità di tuo figlio, puoi educare tu stesso il tuo erede!\n\nGeneralmente desideri che tutti i tuoi figli abbiano una buona educazione. Tuttavia, se hai dei figli a cui non tieni particolarmente (come il tuo quarto o quinto figlio), puoi sempre assegnarli ai tuoi [vassals|E] per migliorare la loro [opinion|E] nei tuoi confronti. Il modo più semplice per trovare un possibile guardiano è usare l'Interazione #TUT_KW $offer_ward_interaction$#! direttamente su un Vassallo.#!"
+ reactive_advice_tooltip_modes:0 "$reactive_advice_tooltip_modes_step_1$"
+ action_reactive_advice_tooltip_modes:0 "$open_tutorial_lesson$$reactive_advice_tooltip_modes_step_1$"
+ action_reactive_advice_tooltip_modes_desc:1 "Crusader Kings III ha diverse modalità di suggerimento! \nApri qui per una panoramica sulle diverse modalità, e scopri quale si adatta meglio al tuo stile di gioco."
+ action_reactive_advice_tooltip_modes_click:0 "$click_to_open_lesson$"
+ reactive_advice_tooltip_modes_step_1:0 "Modalità dei Suggerimenti"
+ reactive_advice_tooltip_modes_step_2:0 "Modalità Avanzate di Suggerimento"
+ reactive_advice_tooltip_modes_desc:1 "Le Modalità dei Suggerimenti controllano #EMP il modo#! attraverso il quale hai accesso ai suggerimenti con il [highlighted_text|E] e alle informazioni dei suggerimenti #weak (in altre parole, come bloccare i suggerimenti in modo da potervi muovere il mouse)#!.\n\nLa modalità predefinita del Suggerimento si chiama #V Blocco del Timer#!. Con questa modalità, i suggerimenti si bloccheranno in una determinata posizione dopo un tempo impostato indicato da una piccola barra di avanzamento."
+ reactive_advice_tooltip_modes_2_desc:0 "Se sei un giocatore esperto, o semplicemente preferisci che i tuoi suggerimenti non si blocchino automaticamente, ti consigliamo di provare il #V Blocco dell'Azione#!. Con questa modalità, premendo il #V Pulsante centrale del mouse #! si bloccano i suggerimenti.\n\n#I Puoi cambiare le modalità di Suggerimento andando nella sezione #V Menu del gioco#!, quindi in #V Impostazioni#!, e poi nella sezione #V Gioco#! troverai l'#V Impostazione della Modalità dei Suggerimenti.#!"
+
+ action_perk_bonus_cap_modes:0 "Raggiunto il Bonus Massimo dei Benefici"
+ action_perk_bonus_cap_modes_desc:0 "Hai raggiunto la quantità massima di bonus che un beneficio può dare. Alcuni benefici, come il [GetPerk('sound_foundations_perk').GetName(GetPlayer)], hanno una quantità massima di punti abilità che possono darti."
+ action_perk_bonus_cap_modes_click:0 "$click_to_open_lesson$"
+ reactive_advice_perk_bonus_cap:0 "$action_perk_bonus_cap_modes$"
+ reactive_advice_perk_bonus_cap_desc:0 "$action_perk_bonus_cap_modes_desc$ Mentre sei al di sopra del limite, il bonus non aumenterà più, e non diminuirà fino a quando non sarai sotto il limite."
+ reactive_advice_perk_bonus_cap_step_1:0 "$action_perk_bonus_cap_modes$"
+
+ action_reactive_advice_varangian_adventure:0 "$open_tutorial_lesson$$reactive_advice_varangian_adventure_step_1$"
+ action_reactive_advice_varangian_adventure_desc:0 "Sei in grado di iniziare un'Avventura Variaga.\nApri qui per saperne di più su questo speciale tipo di guerra."
+ action_reactive_advice_varangian_adventure_click:0 "$click_to_open_lesson$"
+ reactive_advice_varangian_adventure:0 "$game_concept_varangian_adventures$"
+ reactive_advice_varangian_adventure_step_1:0 "$game_concept_varangian_adventures$"
+ reactive_advice_varangian_adventure_desc:0 "Puoi dichiarare una [varangian_adventure|E].\n\nPer la durata dell'[era|E] $culture_era_tribal$ questo tipo di guerra è disponibile per permetterti di iniziare una nuova vita in una terra lontana, lontano dalle coste fredde della tua patria.\n\nUn'$game_concept_varangian_adventures$ di successo non solo trasferirà il tuo regno in un luogo straniero, ma lascerà anche tutte le tue terre esistenti indipendenti, compresi i tuoi vassalli.\n\nla tua prima [varangian_adventure|E] intrapresa come un sovrano $north_germanic_group$ richiederà anche delle ulteriori truppe di proprietà delle conteee della stessa-[faith|E] e della stessa-[culture|E] che si trovano a [GetGeographicalRegion('dlc_fp1_region_core_mainland_scandinavia').GetName] per aiutarti a conquistare la tua nuova casa."
+
+# Court positions
+ action_reactive_advice_court_positions:0 "$open_tutorial_lesson$$ra_court_pos_open_view$"
+ action_reactive_advice_court_positions_desc:0 "Apri qui per un'introduzione sulle Posizioni della Corte"
+ action_reactive_advice_court_positions_click:0 "$click_to_open_lesson$"
+ reactive_advice_court_positions: "$ra_court_pos_open_view$"
+ 
+ ra_court_pos_open_view:0 "Posizioni di Corte"
+ ra_court_pos_open_view_desc:0 "Questo è un buon momento per passare alle [court_positions|E]. Esse sono incarichi e riconoscimenti che puoi assegnare ai tuoi [courtiers|E] e [vassals|E].\n\nCiascuno ti dà un beneficio, al costo di uno stipendio mensile. Per esempio, il [GetCourtPositionType('court_physician_court_position').GetName()] manterrà te e la tua [corte|E] in salute."
+ ra_court_pos_open_view_trigger:0 "Apri la scheda Posizioni della Corte (evidenziata)"
+ ra_court_pos_appointing:0 "$ra_court_pos_open_view$"
+ ra_court_pos_appointing_desc:1 "Puoi nominare nuove [court_positions|E] cliccando su uno dei ritratti vuoti di una delle posizioni vacanti della Corte. Un Personaggio con un'alta [aptitude|E] per la Posizione ti darà un bonus maggiore.\n\n#TUT Quando nomini qualcuno per una Posizione, questo influenzerà anche la sua [opinion|E] nei tuoi confronti.\n\nA causa di ciò, potrebbe essere conveniente nominare qualcuno con una scarsa $game_concept_aptitude$ solo per farti apprezzare di più.#!"
+ ra_court_pos_salary:0 "$ra_court_pos_open_view$"
+
+
+# Inventory
+ action_reactive_advice_artifact_inventory:0 "$open_tutorial_lesson$$ra_artifact_inventory_general$"
+ action_reactive_advice_artifact_inventory_desc:0 "Apri qui per un introduzione sui Manufatti dell'Inventario"
+ action_reactive_advice_artifact_inventory_click:0 "$click_to_open_lesson$"
+ reactive_advice_artifact_inventory: "$ra_artifact_inventory_general$"
+ 
+ ra_artifact_inventory_general:0 "Inventario"
+ ra_artifact_inventory_general_desc:0 "Hai acquisito il tuo primo [inventory_artifact|E]. Questi [artifacts|E] sono indossati sulla tua persona e ti forniscono vari benefici."
+ ra_artifact_inventory_open_step:0 "$ra_artifact_inventory_general$"
+ ra_artifact_inventory_open_step_desc:0 "[inventory_artifacts|E] sono conservati nel tuo Inventario, apriamolo ora."
+ ra_artifact_inventory_open_step_open:0 "Apri l'Inventario (evidenziato)"
+ ra_artifact_inventory_welcome:0 "$ra_artifact_inventory_general$"
+ ra_artifact_inventory_welcome_desc:0 "Nel tuo Inventario, puoi equipaggiare i [inventory_artifacts|E] per ottenere vari benefici, come l'aumento di una certa [skill|E] o per incrementare il tuo [prestige|E].\n\nPuoi anche [repair|E] oppure [reforge|E] i [inventory_artifacts|E], il che ripristinerà la loro [durability|E] e impedirà che si distruggano con il passare del tempo.\n\nPuoi anche vedere quali [artifact_claims|E] possiedi, e cercate di ottenere quei [artifacts|E] per te stesso!"
+ 
+ # Station Men-at-Arms
+ ra_maa_stationing_open_card_step:0 "Stazionamento degli uomini d'arme"
+ ra_maa_stationing_open_card_step_desc:0 "ha degli [men_at_arms|E] che non sono [stationed|E].\n\nFacendo stazionare il tuo [regiments|E] li renderai più potenti e più bravi a combattere, cosa che può essere fondamentale per vincere le [battles|E].\n\nFai stazionare subito un reggimento!"
+ ra_maa_stationing_open_card_step_tt:0 "Clicca su uno dei tuoi Uomini d'arme contrassegnato dal testo '#X $MAA_UNSTATIONED$#!' (evidenziato)"
+ ra_maa_stationing_click_station_button:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_click_station_button_desc:0 "Puoi far stazionare un [regiment|E] di [men_at_arms|E] per [holding|E] nel tuo [domain|E]\n\nTutte i Possedimenti sono validi per ogni tipo di Reggimento, ma alcuni danno vantaggi maggiori di altri.\n\nSeleziona un Possedimento in cui far stazionare questo Reggimento."
+ ra_maa_stationing_click_station_button_tt:0 "Clicca sul pulsante "Cambia il Possedimento di stazionamento" (evidenziato)."
+ ra_maa_stationing_select_station:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_select_station_desc:0 "[holdings|E] differenti forniscono quantità diverse di vantaggi a seconda del tipo di [buildings|E] che hai scelto di costruire.\n\nIn questa schermata puoi vedere esattamente quanto migliorerebbe il tuo [regiment|E] di [men_at_arms|E] se stazionasse in un Possedimento.\n\nClicca su un Possedimento #P Verde#! sulla mappa che a tuo parere dà al tuo Reggimento il miglior beneficio."
+ ra_maa_stationing_select_station_tt:0 "Clicca su qualsiasi Possedimento #P Verde#! sulla mappa"
+ ra_maa_stationing_finished:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_finished_desc:0 "Il [regiment|E] di [men_at_arms|E] ora è [stationed|E], puoi vedere quanto è migliorato sotto il suo ritratto (la parte evidenziata).\n\nRicordati di controllare di tanto in tanto, in modo che i tuoi Reggimenti siano dislocati nel [holdings|E] ottimale.\n\nQuesto è particolarmente importante se si conquistano o si ereditano nuovi territori, o se si decide di specializzare un Possedimento con [buildings|E] come il [GetBuilding('smiths_01').GetName] oppure le [GetBuilding('stables_01').GetName]."
+ reactive_advice_station_maa: "$ra_maa_stationing_open_card_step$"
+ 
+
+
+# Tours
+ REACTIVE_ADVICE_TOURS:0 "Viaggi"
+
+ action_reactive_advice_tours_picking_vassals:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_TOURS$"
+ action_reactive_advice_tours_picking_vassals_desc:0 "Ora stai pianificando i Vassalli da visitare durante il tuo Grande Viaggio. Aprilo per saperne di più sulla pianificazione dei viaggi."
+ action_reactive_advice_tours_picking_vassals_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_tours_picking_vassals:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_intro:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_intro_desc:0 "Stai per intraprendere un [GetActivityType( 'activity_tour' ).GetName()] nel tuo [realm|E].\n\nDurante un viaggio, potrai [travel|E] per far visita ai tuoi [vassals|E], investire dell'[gold|E] per ottenere ricompense come il [county_control|E], l'[opinion|E], l'[cultural_acceptance|E], e molto altro!"
+
+ ra_tours_picking_vassals_add:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_add_desc:0 "Per prima cosa, devi selezionare a quali [vassals|E] farai visita.\n\nChi visitare dipende dal tipo di [GetActivityType( 'activity_tour' ).GetName()]. Ad esempio, in un [majesty_tour|E] ciascuna [stop|E] aumenta l'[opinion|E] di quel Vassallo, per cui potresti scegliere i Vassalli che hanno una bassa opinione di te.\n\nViaggiare tra fermate che sono lontante tra loro aumenta la quantità d'[gold|E] necessaria per ciascuna fermata."
+ ra_tours_picking_vassals_add_prompt:0 "Aggiungi almeno un Vassallo da visitare cliccando sulla mappa"
+
+ ra_tours_picking_vassals_stops:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_stops_desc:0 "In ciascuna [stop|E] del viaggio, puoi:\n$BULLET_WITH_TAB$[tour_the_grounds|E], aumentando il [county_control|E]\n$BULLET_WITH_TAB$Richidere un [hosted_dinner|E], creando dei [hooks|E] e delle [relations|E]\n$BULLET_WITH_TAB$Chidere al tuo [vassal|E] di organizzare un [cultural_festival|E], aumentando l'[county_opinion|E] e l'[cultural_acceptance|E]"
+
+ ra_tours_picking_vassals_conclusion:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_conclusion_desc:0 "Una volta che sei soddisfatto delle [stops|E] e dell'ordine in cui si trovano, puoi passare alla fase successiva della pianificazione."
+
+# Active Regency Liege Side
+ REACTIVE_ADVICE_REGENCY_TERM:0 "Reggenza"
+ REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT:0 "Apri la schermata della reggenza (evidenziata)"
+ REACTIVE_ADVICE_YOU_REGENCY_REASONS:0 "Una [regency|E] può verificarsi per diversi motivi, tra cuipuò verificarsi per diversi motivi, tra cui:\n$BULLET_WITH_TAB$Quando [travel|E] al di fuori del tuo [realm|E]\n$BULLET_WITH_TAB$Quando sei un [child|E]\n$BULLET_WITH_TAB$Diventi [GetTrait('incapable').GetName( GetPlayer )]"
+
+ reactive_advice_regency_for_liege:0 "$action_reactive_advice_regency_for_liege$"
+ action_reactive_advice_regency_for_liege:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_REGENCY_TERM$"
+ action_reactive_advice_regency_for_liege_desc:0 "Ora hai un Reggente. Aprila per un'introduzione alle reggenze."
+ action_reactive_advice_regency_for_liege_click:0 "$click_to_open_lesson$"
+
+ ra_regency_liege_intro:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_intro_desc:0 "Ora hai un [regent|E].\n\n$REACTIVE_ADVICE_YOU_REGENCY_REASONS$"
+
+ ra_regency_liege_effects:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_effects_desc:0 "In una [regency|E], puoi continuare a compiere qualsiasi azione che potresti compiere normalmente.\n\nTuttavia, il [regent|E] ottiene degli speciali [diarch_powers|E] che può usare su di te o sui tuoi [vassals|E]. Hai sempre il diritti di [veto|E] su questi $game_concept_diarch_powers$."
+
+ ra_regency_liege_open_UI:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_open_UI_desc:0 "Ora diamo un'occhiata alla tua [regency|E]!"
+ ra_regency_liege_open_UI_prompt:0 "$REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT$"
+
+ ra_regency_liege_open_tab:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_open_tab_desc:0 "Il tuo [regent|E] è mostrato nella scheda '$DIARCHY_WINDOW_YOUR_TAB$'."
+ ra_regency_liege_open_tab_prompt:0 "Apri la scheda '$DIARCHY_WINDOW_YOUR_TAB$'(evidenziata)"
+
+ ra_regency_liege_scales_of_power:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_scales_of_power_desc:0 "Questi sono gli [scales_of_power|E].\n\nPiù la bilancia favorisce il tuo [regent|E], più avrà accesso ai [diarch_powers|E], e terminare la [regency|E] sarà più difficile.\n\nPuoi far pendere la bilancia direttamente a tuo favore con il bottone '$DIARCHY_WINDOW_SWING_SCALES$'."
+
+ ra_regency_liege_mandate:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_mandate_desc:0 "Puoi dare al tuo [regent|E] un [mandate|E], che concentrerà i suoi sforzi in quell'area.\n\nPuoi sempre cambiare questo mandato in un secondo momento, a seconda delle tue priorità."
+
+ ra_regency_liege_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_ending_desc:0 "Se le condizioni che hanno dato il via alla [regency|E] sono cessate, puoi provare a porre finea alla reggenza.\n\nIl [regent|E] deve accettarlo, ma puoi offrirgli cose come l'[gold|E] oppure un [favor|E] per rendere più probabile l'accettazione. \n\nIn caso di rifiuto, può dichiararti [war|E]!"
+
+ ra_regency_liege_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_conclusion_desc:0 "Le reggenze sono per lo più un affare reattivo. Per ora, tieni d'occhio gli [scales_of_power|E].\n\nQuando il tuo [regent|E] usa uno dei suoi [diarch_powers|E] lo saprai e potrai decidere cosa fare al riguardo."
+
+
+# Active Regency Regent Side
+ reactive_advice_regency_for_regent:0 "$action_reactive_advice_regency_for_regent$"
+ action_reactive_advice_regency_for_regent:0 "$open_tutorial_lesson$Regent"
+ action_reactive_advice_regency_for_regent_desc:0 "Ora siete il reggente del tuo Signore. Aprilo per un'introduzione alle reggenze."
+ action_reactive_advice_regency_for_regent_click:0 "$click_to_open_lesson$"
+
+ ra_regency_regent_intro:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_intro_desc:0 "Stai agendo come il [regent|E] del tuo [liege|E].\n\nA [regency|E] can occur for many reasons, including:\n$BULLET_WITH_TAB$Quando il tuo Signore [travels|E] al di fuori del suo [realm|E]\n$BULLET_WITH_TAB$Quando il tuo Signore è un [child|E]\n$BULLET_WITH_TAB$Il tuo signore diventa [GetTrait('incapable').GetName( GetPlayer )]"
+
+ ra_regency_regent_powers:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_powers_desc:0 "In quanto [regent|E] ottieni degli speciali [diarch_powers|E] che puoi usare sul tuo [liege|E] oppure su uno dei suoi [vassals|E]. Il tuo signore ha sempre i diritti di [veto|E] su questi $game_concept_diarch_powers$.\n\nL'uso di questi Poteri sui tuoi compagni Vassalli può essere visto come un eccesso di potere, che causerà una penalita dell'[opinion|E] basata sulla [strife|E]."
+
+ ra_regency_regent_open_UI:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_open_UI_desc:0 "Ora diamo un'occhiata alla tua [regency|E]!"
+ ra_regency_regent_open_UI_prompt:0 "$REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT$"
+
+ ra_regency_regent_open_tab:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_open_tab_desc:0 "Il tuo ruolo di [regent|E] è mostarto nella scheda '$DIARCHY_WINDOW_LIEGE_TAB$'."
+ ra_regency_regent_open_tab_prompt:0 "Apri la scheda '$DIARCHY_WINDOW_LIEGE_TAB$' (evidenziata)"
+
+ ra_regency_regent_scales_of_power:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_scales_of_power_desc:0 "Esistono gli [scales_of_power|E].\n\nQuanto più l'Equilibrio ti favorisce, maggiori saranno i [diarch_powers|E] a cui avrai accesso, e terminare la [regency|E] sarà più difficile.\n\nPuoi far pendere la bilancia direttamente in tuo favore con il bottone '$DIARCHY_WINDOW_SWING_SCALES$'."
+
+ ra_regency_regent_mandate:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_mandate_desc:0 "Il tuo [liege|E] può darti un [mandate|E], che ti darà l'opportunità di migliorare il [realm|E].\n\nSe gestirai bene queste opportunità, farai spostare gli [scales_of_power|E] in tuo favore."
+
+ ra_regency_regent_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_ending_desc:0 "Se le condizioni che hanno dato il via alla [regency|E] sono cessate, il tuo [liege|E] può provare provare a porre finea alla reggenza.\n\nSe gli [scales_of_power|E] sono nettamente in tuo favore, potresti anche essere in grado di resistere al loro tentativo di porre fine della Reggenza, forse anche all'avvio di una [war|E] per il suo [primary_title|E]!"
+
+ ra_regency_regent_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_conclusion_desc:0 "In quanto [regent|E], puoi provare a usare i tuoi [diarch_powers|E] sul tuo [liege|E] oppure sui suoi [vassals|E].\n\nSe non vuoi inimicarti il tuo signore, puoi semplicemente reagire alle opportunità che si presentano e il tuo signore potrebbe ricompensarti per la tua lealtà!"
+
+
+# Prepare by setting a Regent
+ REACTIVE_ADVICE_FUTURE_REGENT:0 "Futuro Reggente"
+ action_reactive_advice_set_future_regent:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_FUTURE_REGENT$"
+ action_reactive_advice_set_future_regent_desc:1 "Se non sei in grado di governare, un Reggente governerà al tuo posto. Aprila per scoprire come controllare chi sarà il tuo Reggente."
+ action_reactive_advice_set_future_regent_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_set_future_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+
+ ra_regency_future_regent_intro:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_intro_desc:0 "In futuro, potresti diventare incapace di governare il tuo [realm|E] tu stesso, in questo caso inizierà una [regency|E].\n\nPrima che questo accada, puoi vedere il tuo futuro [regent|E] e persino di designarne uno tu stesso!\n\n$REACTIVE_ADVICE_YOU_REGENCY_REASONS$"
+
+ ra_regency_future_regent_open_realm_panel:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_realm_panel_desc:0 "Lasciati anticipare il tuo futuro [regency|E]! Lo puoi vedere nella scheda del regno."
+ ra_regency_future_regent_open_realm_panel_prompt:0 "Apri la scheda del regno (evidenziata)"
+
+ ra_regency_future_regent_open_UI:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_UI_desc:1 "Lo stato della tua [regency|E] è mostrata qui, nella parte superiore della scheda del reame."
+ ra_regency_future_regent_open_UI_prompt:1 "Apri la Scheda del reggenza (evidenziata)"
+
+ ra_regency_future_regent_open_tab:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_tab_desc:0 "Il tuo futuro [regent|E] è mostrato nella scheda '$DIARCHY_WINDOW_YOUR_TAB$'."
+ ra_regency_future_regent_open_tab_prompt:0 "$ra_regency_liege_open_tab_prompt$"
+
+ ra_regency_future_regent_current_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_current_regent_desc:0 "Il tuo futuro [regent|E] è mostrato qui.\n\nA meno che tu non ne abbia designato uno, il candidato con il [regent_succession_score|E] più alto sarà scelto."
+
+ ra_regency_future_regent_swap_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_swap_regent_desc:0 "Puoi designare un [regent|E] usando questo bottone.\n\nDovresti cercare di trovare un reggente che abbia un'alta [diarch_loyalty|E] ed un alta [Concept( 'diarch_aptitude', 'Aptitude' )|E]."
+
+ ra_regency_future_regent_succession:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_succession_desc:0 "Se il tuo [regent|E] attuale muore oppure è incapace di agire come [regent|E], il personaggio successivo nell'ordine di successione prenderà il suo posto."
+
+ ra_regency_future_regent_conclusion:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_conclusion_desc:0 "Per il momento, considera la possibilità di designare un [regent|E], if you want more control over who will rule in your stead."
+
+
+# Travel Planning
+ REACTIVE_ADVICE_TRAVEL_PLANNING:0 "Pianificazione del viaggio"
+ action_reactive_advice_travel_planning:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ action_reactive_advice_travel_planning_desc:0 "Stai per viaggiare, aprila per saperne di più sulla pianificazione del tuo viaggio."
+ action_reactive_advice_travel_planning_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_travel_planning:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+
+ ra_travel_planning_intro:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_intro_desc:0 "Stai per [Concept( 'travel', 'viaggiare' )|E] lontano dal luogo in cui ti trovi. Prima di partire, è necessario pianificare il viaggio."
+
+ ra_travel_planning_entourage:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_entourage_desc:0 "Raramente viaggerai da solo; i [characters|E] che viaggiano con te sono il tuo [entourage|E].\n\nQuesti personaggi ti raggiungeranno spesso anche alla tua destinazione."
+
+ ra_travel_planning_speed_safety:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_speed_safety_desc:0 "Ci sono due fattori principali da considerare quando si pianifichi il tuo [travel|E]: La [travel_speed|E] e la [travel_safety|E].\n\nLa velocità di base è pari al 100%, e un'alta velocità significa che arriverai a destinazione più velocemente.\n\nLa sicurezza contrasta qualsiasi [travel_danger|E] che potresti incontrare sul percorso. Avere un'alta sicurezza significa che tu e il tuo [entourage|E] potete attraversare le aree pericolose con minori rischi."
+
+ ra_travel_planning_caravan_master:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_caravan_master_desc:0 "Puoi nominare un [GetCourtPositionType('travel_leader_court_position').GetName()]; una speciale [court_position|E] che si unirà a te in tutte tutti i [travels|E].\n\nHanno un grande impatto sulla tua [travel_speed|E] e sulla tua [travel_safety|E], quindi, di solito, nei viaggi più lunghi conviene che qualcuno occupi questa posizione."
+
+ ra_travel_planning_travel_options:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_travel_options_desc:0 "Puoi anche scegliere fino a due [travel_options|E] per questo viaggio specifico.\n\nLe opzioni di viaggio di solito costano [gold|E] e forniscono vari benefici, soprattutto alla [travel_speed|E] e alla [travel_safety|E].\n\nMolte opzioni riducono il [travel_danger|E] per specifiche tipologie di [terrain|E] sulla tua strada. Ogni tipo di pericolo presente in una località è indicato sulla mappa con un colore unico. Tutti i pericoli che si possono incontrare sono visualizzati come icone sul percorso."
+
+ ra_travel_planning_custom_route:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_custom_route_desc:0 "Infine, è possibile personalizzare il percorso per aggirare i [travel_danger|E] lungo la strada, anziché raggiungere direttamente la tua destinazione."
+
+ ra_travel_planning_conclusion:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_conclusion_desc:0 "Prima di partire, controlla il tempo totale di viaggio e che ci siano poche possibilità di incontrare dei [travel_danger|E] lungo la tua strada.\n\nBuon viaggio!"
+
+# Create Accolade
+ REACTIVE_ADVICE_CREATE_ACCOLADE:0 "Encomi"
+
+ reactive_advice_create_accolade:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+
+ ra_create_accolade_knights_panel:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_knights_panel_desc:0 "Ora puoi concedere un [accolade|E] a uno dei tuoi [knights|E]!\n\nOgni Cavaliere che detiene un'encomio diventa un [acclaimed_knight|E], e fornisce dei vantaggi a te e ai tuoi [armies|E].\n\nL'encomio rimarrà fino a quando non lo distruggerai e passerà ai futuri Cavalieri tramite la [accolade_succession|E]."
+ ra_create_accolade_knights_panel_prompt:0 "Seleziona un encomio non assegnato (evidenziato)"
+
+ ra_create_accolade_candidates:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_candidates_desc:0 "Quando crei un [accolade|E], puoi scegliere uno dei tuoi [knights|E] eleggibili nella lista."
+ ra_create_accolade_candidates_prompt:0 "Scegli un candidato dall'elenco (evidenziato)"
+
+ ra_create_accolade_attributes:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_attributes_desc:0 "Ogni [acclaimed_knight|E] ha due [accolade_types|E] (evidenziate), una primaria e una secondaria. Prima di creare l'[accolade|E], questi attributi sono mostrati per ogni candidato.\n\nOgni attributo fornisce a te e ai tuoi [armies|E] diversi vantaggi, mentre l'elogiato guadagna [glory|E]. La gloria si ottiene partecipando alle [contests|E] [GetActivityType( 'activity_tournament' ).GetName()] e alle [battles|E].\n\nL'attributo primario fa sempre parte dell'[accolade|E], e non può essere modificato dalla [accolade_succession|E]."
+  
+ ra_create_accolade_conclusion:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_conclusion_desc:0 "Adesso puoi creare questo [accolade|E] se vuoi.\n\nAltri elogi saranno disponibili man mano che la tua [culture|E] scopre le [innovations|E]."
+
+# House Unity
+ action_reactive_advice_house_unity: "Consigli: Unità della Casata"
+ action_reactive_advice_house_unity_desc: "Per saperne di più sull'[house_unity|E] dei [clans|E], e come si può influire su di essa per ottenere vantaggi e accedere ai diversi tipi di [succession_laws|E]."
+ action_reactive_advice_house_unity_click: "$click_to_open_lesson$"
+
+ ra_advice_house_unity: "Unità della Casata"
+
+ ra_house_unity_1: "$ra_advice_house_unity$"
+ ra_house_unity_1_desc: "Come [clan|E], hai accesso all'[house_unity|E]!\n\nL'Unità della Casata rappresenta lo stato delle relazioni interne della tua [house|E], che vanno dall'Antagonistica all'Armoniosa. Ogni [house_unity_level|E] comporta una serie di effetti per tutti i membri della Casata, e determinerà la [succession_law|E] attiva.\n\nSapere come influenzare l'Unità della Casata si rivelerà utile per raggiungere i tuoi obiettivi."
+
+ ra_house_unity_2: "$ra_advice_house_unity$"
+ ra_house_unity_2_desc: "Per prima cosa, devi sapere come visualizzare l'[house_unity|E]. A tale scopo, apri la visuale della tua [house|E]."
+
+ ra_house_unity_panel_prompt: "Apri la schermata della [house|E]"
+
+ ra_house_unity_3: "$ra_advice_house_unity$"
+ ra_house_unity_3_desc: "La scheda Unità della Casata contiene tutte le informazioni e le interazioni di cui hai bisogno per sfruttare al meglio l'Unità della Casata. Puoi vedere il tuo attuale punteggio dell'Unità della Casata, il livello attuale e una panoramica dei livelli più alti e più bassi dell'Unità della Casata.\n\nInoltre, qui puoi vedere le recenti modifiche all'Unità. Questo è importante perché tutti i membri della Casata possono decidere di [house_unity_unifying_actions|E] oppure di [house_unity_devisive_actions|E] per influenzare l'Unità della Casata."
+
+ ra_house_unity_4: "$ra_advice_house_unity$"
+ ra_house_unity_4_desc: "Come già menzionato, ogni [house_unity_level|E] ha i propri effetti. In questa sezione puoi vedere l'elenco degli effetti attivi.\n\nRicordate che questi effetti si applicano a tutti i membri della [house|E]. Tra gli effetti troverai la [succession_law|E] attiva della tua Casata."
+
+ ra_house_unity_5: "$ra_advice_house_unity$"
+ ra_house_unity_5_desc: "Infine, ogni Casata del Clan ha accesso alle Decisioni di Unità della Casata. Queste [decisions|E] garantiranno diversi vantaggi a tutti i membri della Casata. Tuttavia, la maggior parte di queste possono essere messe in atto solo dal [house_head|E].\n\n#weak Puoi tentare di diventare Capo della Casata usando l'interazione "Sfidare il Capo della Casata" sul tuo attuale Capo della Casata.#!"
+
+ ra_house_unity_6: "$ra_advice_house_unity$"
+ ra_house_unity_6_desc: "Ora sai tutto quello che c'è da sapere sull'Unità della Casata!\n\nSfrutta queste conoscenze per assicurarti che la tua Casata lasci un segno duraturo nella storia."
+
+# Tax Collection
+ action_reactive_advice_tax_collector: "Consiglio: Riscossione delle tasse"
+ action_reactive_advice_tax_collector_desc: "Apri per un'introduzione alle [tax_jurisdictions|E] e agli [tax_collectors|E]."
+ action_reactive_advice_tax_collector_click: "$click_to_open_lesson$"
+
+ reactive_advice_tax_collector: "Riscossione delle tasse"
+
+ ra_tax_collector_1: "$reactive_advice_tax_collector$"
+ ra_tax_collector_1_desc: "Hai degli [tax_collectors|E]!\n\nTi aiuteranno a raccogliere l'[gold|E] e le [levies|E] dai Vassali del tuo Clan. Gli esattori fiscali ti aiuteranno anche a gestire le [tax_jurisdictions|E] e faranno rispettare i decreti fiscali.\n\n#weak L'attitudine dei tuoi esattori delle tasse influisce sul contributo che otterrai dai tuoi contribuenti.#!"
+
+ ra_tax_collector_2: "$reactive_advice_tax_collector$"
+ ra_tax_collector_2_desc: "Per prima cosa, devi sapere dove trovare le tue [tax_jurisdictions|E], come nominare gli [tax_collectors|E], e assegnarli ai contribuenti."
+
+ ra_tax_collector_panel_prompt: "Apri il pannello delle [tax_jurisdictions|E]"
+
+ ra_tax_collector_3: "$reactive_advice_tax_collector$"
+ ra_tax_collector_3_desc: "Benvenuto nella scheda della tua [tax_jurisdiction|E]!\n\nQui puoi visualizzare e gestire tutto ciò che riguarda le tue Giurisdizioni.\n\nIn alto puoi vedere quanti [tax_collectors|E] hai nominato e il totale dell'[gold|E] e delle [levies|E] che stati guadagnando dai tuoi contribuenti."
+
+ ra_tax_collector_4: "$reactive_advice_tax_collector$"
+ ra_tax_collector_4_desc: "Queste sono le tue [tax_jurisdictions|E], dove puoi decidere quali Vassalli del tuo Clan dovranno contribuire e selezionare i Decreti fiscali per ogni Giurisdizione. Dovrai inoltre nominare un [tax_collector|E] per gestire ciascuna delle tue giurisdizioni fiscali e per applicare i decreti fiscali.\n\n#weak Una giurisdizione con dei contribuenti ma senza un esattore delle tasse sarà non tassata, il che significa che non genererà né [gold|E] né [levies|E].#!"
+
+ ra_tax_collector_5: "$reactive_advice_tax_collector$"
+ ra_tax_collector_5_desc: "Congratulazioni!\n\nOra conosci le basi della riscossione delle tasse. Ricordati di impostare i decreti fiscali della [tax_jurisdictions|E] per personalizzare le [vassal_obligations|E] secondo le tue esigenze attuali.\n\nPossa il tuo [clan|E] lasciare un segno indelebile nella storia."
+
+ action_reactive_advice_legitimacy: "Consiglio: Legittimità"
+ action_reactive_advice_legitimacy_desc: "Apri per un introduzione alla [legitimacy|E]."
+ action_reactive_advice_legitimacy_click: "$click_to_open_lesson$"
+
+ reactive_advice_legitimacy: "Legittimità"
+
+ ra_legitimacy_1: "$reactive_advice_legitimacy$"
+ ra_legitimacy_1_desc: "La [legitimacy|E] è la rappresentazione del tuo 'diritto a governare.' I tuoi [vassals|E] generano [legitimacy_expectations|E], e ci si aspetta che tu le soddisfi.\n\nUna $game_concept_legitimacy$ più alta ti offre una serie di benefici, e una $game_concept_legitimacy$ bassa influenzerà negativamente la facilità con la quale regni.\n\n#weak La $game_concept_legitimacy$ ha 5 [legitimacy_levels|E] e un livello inferiore 'Illegittimo', che presenta una certa porzione della [legitimacy|E] del precedente governante ereditata dai suoi [heir|E]. Guadagni $game_concept_legitimacy$ in molti modi differenti, incluso vincere guerre, creare [legends|E] o prendere parte ad [activities|E]. Essa può allo stesso modo essere persa perdendo guerre e titoli, o a causa di [epidemics|E] incontrollate che dilagano.#!"
+
+ ra_legitimacy_2: "$reactive_advice_legitimacy$"
+ ra_legitimacy_2_desc: "La schermata della [legitimacy|E] può essere trovata in basso a sinistra. Contiene informazioni riguardanti il tuo [legitimacy_level|E], le tue [legitimacy_expectations|E], quanta [legitimacy|E] hai attualmente e inoltre gli attuali effetti per tutte queste cose.\n\n#weak Svantaggi e benefici dell'avere un certo punteggio di [legitimacy|E] includono penalità e vantaggi per l'opinione, [dynasty_prestige|E] malus e bonus, costi per i [casus_belli|E] aumentati o ridotti e e soglie variabili per per unirsi ad [alliances|E] e [faction|E].#!"
+
+ action_reactive_advice_epidemics: "Consiglio: Epidemie"
+ action_reactive_advice_epidemics_desc: "Apri per un'introduzione alle [epidemics|E]."
+ action_reactive_advice_epidemics_click: "$click_to_open_lesson$" 
+
+ reactive_advice_epidemics: "Epidemie"
+ ra_epidemics_panel_prompt: "Apri il pannello delle [epidemics|E]"
+ ra_specific_epidemics_panel_prompt: "Apri il pannello 'Vedi Epidemie'"
+
+ ra_epidemics_1: "$reactive_advice_epidemics$"
+ ra_epidemics_1_desc: "Le [epidemics|E] sono focolai di malattie che si diffondono sulla mappa, colpendo sia [characters|E] che [holdings|E]. Quando un'Epidemia compare in un'area, le [baronies|E] colpite hanno un [infection_rate|E] che determina quanto sia grave il suo impatto.\n\nLa visuale [epidemics|E] può essere trovata in basso a destra."
+
+ ra_epidemics_2: "$reactive_advice_epidemics$"
+ ra_epidemics_2_desc: "Ogni [epidemic|E] sulla mappa è suddivisa in sezioni nel pannello $reactive_advice_epidemics$.\n\nLe $reactive_advice_epidemics$ del regno contengono informazioni sulle $reactive_advice_epidemics$ nel tuo regno. Le $reactive_advice_epidemics$ Mondiali ti informano delle $reactive_advice_epidemics$ nel resto del mondo, e le $reactive_advice_epidemics$ Vicine tracciano l'avanzamento delle $reactive_advice_epidemics$ che non sono anocora all'interno del tuo regno, ma che sono vicine abbastanza da rappresentare una potenziale minaccia in futuro."
+
+ ra_epidemics_3: "$reactive_advice_epidemics$"
+ ra_epidemics_3_desc: "All'interno di questo pannello, sono conservate le informazioni rilevanti per ogni Epidemia. Tiene traccia di quale sia la gravità dell'Epidemia — Minore, Maggiore o Apocalittica — quando e dove è iniziata, quando e dove è iniziata, quanti [characters|E] ha ucciso, e i [modifiers|E] sia dei personaggi che del luogo, per le [baronies|E] e le [counties|E].\n\nIl pulsante 'Visualizza Epidemie' ti mostererà altri dettagli."
+
+ ra_epidemics_4: "$reactive_advice_epidemics$"
+ ra_epidemics_4_desc: "Questo pannello include informazioni sul [infection_rate|E] di ogni [barony|E] colpita dall'Epidemia. Il [infection_rate|E] progredirà verso il suo valore massimo a velocità differenti in base all'intensità dell'Epidemia, e può essere mitigata con la $game_concept_epidemic_resistance$.\n\n#weak Il modo in cui gestisci e affronti le $reactive_advice_epidemics$ determina non solo il modo in cui il tuo [realm|E] recupera e successivamente prospera, ma anche quanta [legitimacy|E] perderai come governatore.#!"
+
+ action_reactive_advice_legends: "Consiglio: Leggende"
+ action_reactive_advice_legends_desc: "Apri per un'introduzione alle [legends|E]."
+ action_reactive_advice_legends_click: "$click_to_open_lesson$" 
+
+ reactive_advice_legends: "Leggede"
+ ra_legends_panel_prompt: "Apri il pannello [legends|E]"
+ ra_legends_view_panel_prompt: "Apri il pannello di Creazione delle Leggende"
+
+ ra_legends_1: "$action_reactive_advice_legends$"
+ ra_legends_1_desc: "Le [legends|E] sono i racconti delle gesta famose compiute da un [character|E] nel corso della sua vita. Ogni Leggenda ha il suo [legend_type|E]: Legittimante, eroica o sacra.\n\nLa schermata delle [legends|E] può essere trovata in basso a sinistra."
+
+ ra_legends_2: "$action_reactive_advice_legends$" #completare 449
+ ra_legends_2_desc: "Ogni [legend|E] disponibile è visibile qui, così come tutte le sue informazioni.\n\nIn alto ci sono i [legend_seeds|E], le basi di una Leggenda. Essi possono essere guadagnati o, in alcuni casi, già posseduti se il personaggio soddisfa determinati criteri. Al di sotto vi sono i/le $action_reactive_advice_legends$ del Mondo, che tengono traccia delle altre $action_reactive_advice_legends$ nel mondo non attivamente promosse da te.\n\n#weak I 'Promotori' sono i personaggi che supportano attivamente una data Leggenda.#!"
+
+ ra_legends_3: "$action_reactive_advice_legends$"
+ ra_legends_3_desc: "Questa informazione inclusa nel pannello $action_reactive_advice_legends$ include il costo base, il mantenimento, gli effetti attivi e la Qualità della Leggenda.\n\nIl pulsante utilizzato per selezionare una legenda dall'elenco è evidenziato."
+
+ ra_legends_4: "$action_reactive_advice_legends$"
+ ra_legends_4_desc: "Questo pannello include le informazioni sulla Leggenda che ti appresti a creare, e in più ti offre una selezione di [characters|E]. Questi personaggi sono le scelte potenziali per i [legend_protagonists|E].\n\n#weak Dare inizio ad una Leggenda attiverà la Cronoca della Leggenda, dalla quale puoi incrementare la [legend_quality|E] o completare la Leggenda.#!"
+
+ # Plague Resistance
+ action_reactive_advice_plague_resistance: "Consiglio: Resistenza all'Epidemia"
+ action_reactive_advice_plague_resistance_desc: "Apri per un'introduzione to [epidemic_resistance|E]."
+ action_reactive_advice_plague_resistance_click: "$click_to_open_lesson$"
+
+ reactive_advice_plague_resistance: "Resistenza all'Epidemia"
+
+ ra_plague_resistance_1: "$reactive_advice_plague_resistance$"
+ ra_plague_resistance_1_desc: "Quando si ha a che fare con le pestilenze, si hanno alcune opzioni per limitarne l'avanzamento nelle proprie terre.\n\nIl fattore principale è la [epidemic_resistance|E]. Più la Resistenza all'Epidemia nelle tue [baronies|E] e [counties|E] è alta, più si riesce a tenere a bada un'Epidemia.\n\n#weak Sebbene sia possibile combattere le Epidemie, è importante ricordare che è improbabile che si riesca a fermarle del tutto. Tieniti pronto alla diffusione di Epidemie più grandi, nonostante i tuoi sforzi.#!"
+
+ ra_plague_resistance_2: "$reactive_advice_plague_resistance$"
+ ra_plague_resistance_2_desc: "La $reactive_advice_plague_resistance$ può essere incrementata in molti modi. Gli edifici come $building_type_hospices_01$ e $building_type_charnel_grounds_01$ danno bonus innati di $reactive_advice_plague_resistance$ per la [county|E] o la [barony|E] in cui vengono costruiti.\n\nAltre opzioni, meno permanenti, includono [court_position_tasks|E] eseguiti dal $court_physician_court_position$, [decisions|E] o eventi."
+
+ ra_plague_resistance_3: "$reactive_advice_plague_resistance$"
+ ra_plague_resistance_3_desc: "Con l'aumentare della $reactive_advice_plague_resistance$, il [infection_rate|E] delle [baronies|E] di rilievo diminuisce.\n\nAnche se è improbabile che si riesca a debellare completamente una grande Epidemia solo adottando misure come queste, ridurre il [infection_rate|E] aiuterà a ridurre la devastazione generale nel tuo [realm|E]."
+
+ action_reactive_advice_tutorial_schemes: "Consiglio: $game_concept_schemes$"
+ action_reactive_advice_tutorial_schemes_desc: "Apri per un'introduzione ai [schemes|e]."
+ action_reactive_advice_tutorial_schemes_click: "$click_to_open_lesson$"
+ reactive_advice_tutorial_schemes: "$ra_tutorial_schemes_1$"
+
+ ra_tutorial_schemes_1: "$game_concept_schemes$"
+ ra_tutorial_schemes_1_desc: "Hai appena iniziato un [scheme|E]! I $game_concept_schemes$ sono obiettivi a lungo termine, rivolti a un altro Personaggio. Possono essere obiettivi ostili, come tentare di [GetScheme('murder').GetTypeName] o [GetScheme('abduct').GetTypeName] il tuo bersaglio, oppure essere più salutari, come il $game_concept_scheme$ per [GetScheme('befriend').GetTypeName]."
+
+ ra_tutorial_schemes_2: "$game_concept_schemes$"
+ ra_tutorial_schemes_2_desc: "Hai appena iniziato un [scheme|E]! I $game_concept_schemes$ sono obiettivi a lungo termine, rivolti a un altro Personaggio. Possono essere obiettivi ostili, come tentare di [GetScheme('murder').GetTypeName] o [GetScheme('abduct').GetTypeName] il tuo bersaglio, oppure essere più salutari, come il $game_concept_scheme$ per [GetScheme('befriend').GetTypeName]."
+
+ ra_tutorial_schemes_3: "$game_concept_schemes$"
+ ra_tutorial_schemes_3_desc: "Qui vedrai tutti i tuoi complotti attivi. Puoi avere un [personal_scheme|e] e un [hostile_scheme|e] attivi allo stesso tempo.\n\n#TUT Usa i complotti quando vuoi, ma tieni presente che il tuo personaggio sarà più o meno bravo in certi complotti a seconda dei suoi [traits|e] e delle sue [skills|e]. Alcuni [lifestyle|e] [perks|e] possono sbloccare ulteriori $game_concept_schemes$ per il tuo personaggio.#!"
+
+ # Favorite Child
+ action_reactive_advice_favorite_child: "Consiglio: Favorite Child"
+ action_reactive_advice_favorite_child_desc: "You can now choose [favorite_child|E]. Open this to learn more about it and how to select them."
+ action_reactive_advice_favorite_child_click: "$click_to_open_lesson$"
+
+ reactive_advice_favorite_child: "Figlio preferito"
+
+ ra_favorite_child_1: "$reactive_advice_favorite_child$"
+ ra_favorite_child_1_desc: "Ora puoi decidere chi è il tuo [favorite_child|E]. Ciò significa che egli avrà un'alta [opinion|E] di te e, quando morirai, potrai scegliere di continuare con lui la tua eredità, invece di farlo attraverso il tuo erede.\n\nIl tuo filgio preferito può essere:\n$BULLET_WITH_TAB$Children\n$BULLET_WITH_TAB$Nipote\n$BULLET_WITH_TAB$Pronipote\nFintanto che appartiene alla tua [dynasty|E]."
+ ra_favorite_child_1_prompt: "Apri la Scheda Personaggio (in evidenza)"
+
+ ra_favorite_child_2: "$reactive_advice_favorite_child$"
+ ra_favorite_child_2_desc: "Nella Scheda Personaggio, trova il figlio che vuoi designare come preferito.\n\nClicca con il Tasto Destro sul figlio per interagire, cerca l'opzione Scegli il figlio preferito, oppure clicca sulle icone dei tuoi figli.\n\nRicordati che scegliere un $game_concept_favorite_child$ significa anche che gli altri pargoli potrebbero avere un'opinione inferiore nei tuoi confronti."
+ ra_favorite_child_2_prompt: "Clicca con il tasto destro su uno dei tuoi figli per vedere le interazioni disponibili (in evidenza)"
+
+ ra_favorite_child_3: "$reactive_advice_favorite_child$"
+ ra_favorite_child_3_desc: "Dopo aver selezionato un figlio preferito, apparirà un'icona sul suo ritratto. E anche se non è il tuo erede, sarà possibile continuare come lui (o lei) dopo la tua morte.\n\nCasomai volessi cambiare il tuo pargolo preferito, torna alla scheda del personaggio e selezionane un altro."
+
+
+ # Army Automation
+ action_reactive_advice_army_automation: "Consiglio: $ARMY_AUTOMATION_FEATURE_NAME$"
+ action_reactive_advice_army_automation_desc: "Se non vuoi controllare manualmente ogni [war|E], puoi abilitare $ARMY_AUTOMATION_FEATURE_NAME$. Apri qui per apprendere come farlo."
+ action_reactive_advice_army_automation_click: "$click_to_open_lesson$"
+
+ reactive_advice_army_automation: "$ARMY_AUTOMATION_FEATURE_NAME$"
+
+ ra_army_auto_intro: "$reactive_advice_army_automation$"
+ ra_army_auto_intro_desc: "Se vuoi concentrarti su altro piuttosto che controllare i tuoi [armies|E], puoi lasciarli controllare al gioco."
+ ra_army_auto_open: "$reactive_advice_army_automation$"
+ ra_army_auto_open_desc: "Puoi attivare/disattivare $ARMY_AUTOMATION_FEATURE_NAME$ nella Schermata Militare."
+ ra_army_auto_open_prompt: "Apri la Schermata Militare"
+ ra_army_auto_explain: "$reactive_advice_army_automation$"
+ ra_army_auto_explain_desc: "Qui puoi decidere se i tuoi [armies|E] debbano essere automatizzati o meno. Puoi farlo in qualsiasi momento, persino nel bel mezzo di una [war|E].\n\nSpetta comunque a te reclutare gli [men_at_arms|E], assoldare i [mercenaries|E] e [Concept( 'raids', 'razziare' )|E]. Puoi apportare modifiche qui, cliccando il pulsante Impostazioni degli $ARMY_AUTOMATION_FEATURE_NAME$."
+
+ # EP3
+ action_reactive_advice_admin_gov: "Consiglio: Governo Amministrativo"
+ action_reactive_advice_admin_gov_desc: "Stai giocando in un [administrative_government|e]. Apri per maggiori informazioni."
+ action_reactive_advice_admin_gov_click: "$click_to_open_lesson$"
+
+ action_reactive_advice_landless_adventurer: "Consiglio: Avventuriero senza terra"
+ action_reactive_advice_landless_adventurer_desc: "Stai giocando come un [adventurer|e]. Apri per maggiori informazioni."
+ action_reactive_advice_landless_adventurer_click: "$click_to_open_lesson$"
+ reactive_advice_landless_adventurer: "Avventuriero senza terra"
+
+ action_reactive_advice_agent_scheme_rework: "Consiglio: Complotti con gli agenti"
+ action_reactive_advice_agent_scheme_rework_desc: "Apri per leggere un'introduzione sui [schemes|e] con gli [agents|e]."
+ action_reactive_advice_agent_scheme_rework_click: "$click_to_open_lesson$"
+
+ action_reactive_advice_admin_gov_troops: "Consiglio: Amministrazione Militare"
+ action_reactive_advice_admin_gov_troops_desc: "Apri per leggere un'introduzione sulla gestione Militare in un [administrative_government|e]."
+ action_reactive_advice_admin_gov_troops_click: "$click_to_open_lesson$"
+ reactive_advice_admin_gov_troops: "Amministrazione Militare"
+ ra_contracts_1_desc: "$game_concept_task_contract_desc$"
+
+ ra_landless_adventurer_1: "Avventuriero senza terra"
+ ra_landless_adventurer_2: "Il tuo campo"
+ ra_landless_adventurer_3: "Il tuo seguaci"
+ ra_landless_adventurer_4: "Contratti"
+ ra_landless_adventurer_5: "Scopo del campo"
+ ra_landless_adventurer_6: "Sulla via del potere"
+ ra_landless_adventurer_1_desc: "@ra_landless_adventurer_2! \nSei un [adventurer|e]! Viaggia per il mondo, visita le [courts|e] dei [rulers|e] per trovare lavoro e completa i [task_contracts|e] per ottenere ricompense proficue. Puoi migliorare il tuo [camp|e], reclutare [followers|e] e costruire un vasto [contact_list|e]."
+ ra_landless_adventurer_2_desc: "In quanto [adventurer|e], non sei legato a nessuna terra, avendo invece la libertà di viaggiare per il mondo. La tua base operativa da $game_concept_adventurer$ è il tuo [camp|e], che puoi potenziare ed espandere con [camp_buildings|e] durante la tua carriera d’avventura. "
+ ra_landless_adventurer_3_desc: "Durante i tuoi viaggi, puoi radunare [followers|e], che hanno uno scopo simile ai [courtiers|e] dei [rulers|e] dotati di terre. Quando [traveling|e] come [adventurer|e], avrai l’opportunità di utilizzare l’[travel_option|e] [GetTravelOption('adventurers_scout_for_talent_option').GetName].\n\nInoltre, potresti acquisire nuovi $game_concept_followers$ prendendo la [decision|e] Visita Possedimento. Nel tuo $game_concept_camp$, puoi visualizzare i tuoi $game_concept_followers$ tramite il pulsante nell’angolo in alto a sinistra del pannello."
+ ra_landless_adventurer_4_desc: "Come [adventurer|e], la tua principale fonte di reddito saranno i [task_contracts|e]. Puoi vederli rappresentati come pergamene sulla mappa. I $game_concept_task_contracts$ si trovano in tutto il mondo e richiedono di completare un compito specifico per un datore di lavoro.\n\nIl tuo [prestige_level|E] determina il [task_contract_tier|e] dei $game_concept_task_contracts$ che ricevi. Ottenere il livello di fama [GetPrestigeLevelName('(int32)2')] o superiore sblocca l’acquisto o la conquista di [land|E], se desideri passare a diventare un [landed|E] [ruler|E]. Livelli più alti sbloccano opzioni più potenti.\n\nPuoi accedere a nuovi $game_concept_task_contracts$ spostando il tuo [camp|e], un’azione che avrà un costo in [provisions_i][provisions|e] basato sulla distanza percorsa."
+ ra_landless_adventurer_5_desc: "Puoi visualizzare i dettagli sul tuo [camp|e] nella scheda $game_concept_realm$ (in evidenza). Da lì, puoi cambiare il tuo [camp_purpose|e] e aprire la panoramica del $game_concept_camp$.\n\nLo scopo del tuo $game_concept_camp$ determinerà il tipo di [task_contracts|e] che sarai in grado di trovare, potrà sbloccare determinate [decisions|e] e [camp_buildings|e], oltre a una varietà di altri benefici."
+ ra_landless_adventurer_6_desc: "@ra_landless_adventurer!\nAccetta i [task_contracts|e], sposta il tuo [camp|e] per esplorare diverse parti del mondo e accresci il tuo [following|e].\n\nCome [adventurer|e], hai la libertà di scegliere il futuro della tua [dynasty|e]. Rimarrai sulla strada, proverai a ottenere un [title|e] in una terra lontana o ti intrometterai negli affari dei [rulers|e] di tutto il mondo?"
+
+ reactive_advice_admin_gov: "Governo Amministrativo"
+
+ ra_admin_gov_1: "$reactive_advice_admin_gov$"
+ ra_admin_gov_1b: "$reactive_advice_admin_gov$" 
+ ra_admin_gov_2: "$reactive_advice_admin_gov$"
+ ra_admin_gov_2b: "$reactive_advice_admin_gov$"
+ ra_admin_gov_3: "Panoramica della Provincia"
+ ra_admin_gov_4: "Successione e Influenza"
+ ra_admin_gov_5: "Amministrazione della Provincia"
+ ra_admin_gov_5b: "Amministrazione della Provincia"
+ ra_admin_gov_6: "Famiglie Potenti"
+ ra_admin_gov_7: "Tenute"
+ ra_admin_gov_8: "Sulla Via del Potere"
+
+
+ ra_admin_gov_1_desc: "@ra_admin_gov_1! Sei in un [administrative_government|e]. Esso è composto da [governors|e] che amministrano e presiedono la terra per il loro [top_liege|e], anche se non possiedono realmente quelle terre.\n\nLe [skills|e] di un $game_concept_governor$ e il loro grado nel [trait|e] [GetTrait('governor').GetName( GetNullCharacter )] determineranno la loro [governor_efficiency|e], che misura quante [levies|e] e [taxes|e] saranno in grado di raccogliere per il loro $game_concept_top_liege$."
+ ra_open_admin_gov_panel_prompt: "Apri la scheda Governo Amministrativo (in evidenza)"
+
+ ra_admin_gov_2_desc: "Questa è la Panoramica del Governo Amministrativo, dove puoi ispezionare tutte le [provinces|e] presenti all’interno del [top_realm|e], sia cliccandole sulla mappa, sia nella vista a destra.\n\nUn [governor|e] può detenere una sola $game_concept_province$, il che significa che dovrà distribuire i $game_concept_governorship$ tra le proprie [houses|e]. Poiché i $game_concept_governors$ non possiedono la terra all’interno della loro $game_concept_province$ assegnata, dovranno garantire le proprie posizioni tramite [schemes|e] e azioni politiche.\n\nIn generale, il [top_liege|e] dovrebbe mirare a far sì che le $game_concept_provinces$ siano detenute da $game_concept_governors$ con un'alta [governor_efficiency|e]."
+ ra_open_admin_gov_theme_detail_prompt: "Ispeziona una $game_concept_province$"
+
+ ra_admin_gov_3_desc: "Stai visualizzando informazioni dettagliate su una singola [province|e]. Le $game_concept_provinces$ possono appartenere a diversi [title_tiers|e] e avere [obligations|e] collegate a esse, garantendo vari benefici da [vassal|e].\n\nSotto le informazioni della $game_concept_province$, puoi vedere quali risorse la $game_concept_province$ sta generando per il suo [top_liege|e]. Questi valori sono strettamente legati a quanto bene il [governor|e] sta amministrando la terra. "
+
+ ra_admin_gov_4_desc: "La [succession|e] di una [province|e] in un [administrative_government|e] è determinata da un’elezione, in cui spendi @influence_icon![influence|e] per aumentare il punteggio di $game_concept_succession$ di un candidato.\n\nSe vuoi espandere il tuo potere all’interno del [realm|e], devi assicurarti che membri della tua [house|e] detengano [governorships|e] in diverse $game_concept_provinces$, o persino il [title|e] del $game_concept_top_realm$ stesso."
+
+ ra_admin_gov_5_desc: "Ogni [province|e] è [Concept( 'governed', 'governata' )|e] da una [family|e]. Puoi vedere lo stemma della [house|e] mostrato nell’angolo di ogni $game_concept_province$ e se hai o meno un candidato della tua $game_concept_house$ nella linea di [succession|e] dall’altra.\n\nMan mano che la tua $game_concept_house$ acquisisce più [titles|e], diventerai più influente, potenzialmente trasformandoti in una [powerful_family|e]."
+
+ ra_open_admin_gov_powerful_families_intro: "Apri la scheda Famiglie Nobili (in evidenza)"
+
+ ra_admin_gov_6_desc: "Una [powerful_family|e] è una [house|e] influente nel [administrative_government|e]. La famiglia del [top_liege|e] è sempre considerata potente, indipendentemente dal [powerful_family_rating_mid|e]. Oltre a questa, ci possono essere altre cinque $game_concept_powerful_families$.\n\nSebbene qualsiasi $game_concept_house$ possa impostare un [powerful_family_bonus_short|e], esso ha effetto solo se la Famiglia associata è considerata Potente."
+ ra_open_admin_gov_open_estate_prompt: "Visualizza la tua Tenuta"
+ ra_admin_gov_7_desc: "Un [estate|e] è un tipo di [domicile|e], che rappresenta un possedimento privato non legato a specifici [titles|e] [landed|e]. In un [administrative_government|e], funge da base operativa per la tua [family|e] e verrà ereditato all’interno della tua [house|e].\n\nPuoi migliorare e costruire nuovi [estate_buildings|e] all’interno della tua $game_concept_estate$ per aumentare la tua [influence|e] e la tua influenza politica all’interno del [realm|e].\n\n#TUT In particolare, i [rulers|e] di tipo [feudal|e] in un $game_concept_administrative_government$ non avranno accesso a un $game_concept_estate$.#!"
+ ra_admin_gov_8_desc: "@ra_admin_gov_8! Un [administrative_government|e] riguarda la famiglia, l’influenza politica, l’intrigo e l’assegnare la persona giusta al posto giusto.\n\nUserai l'[influence|e] per migliorare la tua posizione all’interno del [realm|e], indirizzando i membri della tua [dynasty|e] verso posizioni di potere.\n\n[Concept( 'scheme', 'Complotta' )|E] contro i tuoi rivali e indebolisci la loro autorità tramite macchinazioni politiche. La strada verso il potere è lunga e tortuosa, ma giocando bene le tue carte potresti riuscire a percorrerla."
+
+ ra_agent_scheme_rework_1: "Complotti Complessi"
+ ra_agent_scheme_rework_1_desc: "Prendiamoci un momento per esaminare i [schemes|e] complessi. Questi $game_concept_schemes$ consistono in tre parametri principali: [success_chance|e], [scheme_speed_single|e] e [secrecy|e].\n\nPer aiutarti a completare un $game_concept_scheme$ ci sono diversi tipi di [agents|e], che solitamente vengono selezionati in gruppi di cinque all’inizio di un $game_concept_scheme$ complesso."
+ reactive_advice_agent_scheme_rework: "$ra_agent_scheme_rework_1$"
+
+ ra_agent_scheme_rework_2: "Dettagli sui Complotti Complessi"
+ ra_agent_scheme_rework_2_desc: "Un [scheme|e] complesso si svilupperà nell’arco di diverse [scheme_phases|e]. Ogni $game_concept_scheme_phase$ dura un certo numero di giorni, dopo i quali la tua [success_chance|e] aumenterà.\n\nC’è la possibilità di ottenere un [scheme_opportunity_opportunity|e] dopo ogni $game_concept_scheme_phase$, che puoi spendere per convincere gli [agents|e] a unirsi o per eseguire il $game_concept_scheme$ con una maggiore $game_concept_success_chance$."
+
+ ra_agent_scheme_rework_3: "Potenziale dei Complotti Complessi"
+ ra_agent_scheme_rework_3_desc: "Ogni [scheme|e] ha un [scheme_potential|e] associato. Questo Potenziale può essere aumentato tramite l’uso degli [agents|e] e funge da limite massimo per la [success_chance|e] che puoi accumulare.\n\nIl $game_concept_scheme_potential$ non può mai superare il 95%, il che significa che tutti i $game_concept_schemes$, indipendentemente dal numero di [scheme_opportunity_opportunities|e] spese per aumentare la $game_concept_success_chance$, avranno sempre una possibilità di fallire."
+
+ ra_agent_scheme_rework_4: "Segretezza dei Complotti Complessi"
+ ra_agent_scheme_rework_4_desc: "Un [scheme|e] complesso ha un certo livello di [secrecy|e] associato. Questo valore rappresenta quanto è probabile che il $game_concept_scheme$ venga scoperto.\n\nAll’avvio di un $game_concept_scheme$, ci sarà un periodo di grazia di alcuni mesi durante il quale non potrà essere scoperto in nessun caso. Dopo questo periodo, il $game_concept_scheme$ rischia di essere scoperto tramite [scheme_breaches|e].\n\nPuoi comunque eseguire un complotto anche se ha delle $game_concept_scheme_breaches$, ma con una [success_chance|e] inferiore. Se il tuo $game_concept_scheme$ accumula sette $game_concept_scheme_breaches$, verrà annullato.\n\n#TUT Inoltre, alcuni complotti di base, come [GetScheme('seduce').GetTypeName], possono anch’essi essere considerati segreti e avere un periodo di grazia associato.#!"
+
+ ra_agent_scheme_rework_5: "Agenti nei Complotti Complessi"
+ ra_agent_scheme_rework_5_desc: "I [schemes|e] complessi hanno cinque slot per [agent|e] che possono essere riempiti con potenziali cospiratori. In generale, è una buona idea riempire quanti più slot $game_concept_agent$ possibile, poiché possono fornire bonus utili a [scheme_speed|e], [secrecy|e] o [scheme_potential|e].\n\nTipi diversi di $game_concept_agent$ privilegiano [skills|e] diverse. Per esempio, un [GetAgentSlotType( 'agent_infiltrator' ).GetName] trae vantaggio da [intrigue_i|e] [intrigue|e] e [diplomacy_i|e] [diplomacy|e], oltre a certi [traits|e]."
+
+ ra_agent_scheme_rework_6: "Esecuzione di un Complotti"
+ ra_agent_scheme_rework_6_desc: "Quando ritieni di aver pianificato a sufficienza, potrebbe essere il momento di considerare l’esecuzione del tuo [scheme|e]. Per farlo, puoi sfruttare [EmptyScope.ScriptValue('multi_ending_scheme_charge_to_advance_threshold_t1_value')], [EmptyScope.ScriptValue('multi_ending_scheme_charge_to_advance_threshold_t2_value')], [EmptyScope.ScriptValue('multi_ending_scheme_charge_to_advance_threshold_t3_value')] o [EmptyScope.ScriptValue('multi_ending_scheme_charge_to_advance_threshold_t4_value')] delle tue [scheme_opportunity_opportunities|e] accumulate.\n\nInoltre, se sospetti che qualcuno stia tramando contro di te, potrebbe valere la pena cambiare la tua [scheme_countermeasure|e] attiva per evitare possibili contrattempi.\n\nBuona fortuna e... buon complotto!"
+
+ TUTORIAL_PROVINCIAL_ARMIES: "[SelectLocalization( GetPlayer.IsValid, 'TUTORIAL_PROVINCIAL_ARMIES_INGAME', 'PROVINCIAL_ARMIES_CONCEPT' )]"
+ TUTORIAL_PROVINCIAL_ARMIES_INGAME: "[GetPlayer.Custom('GetProvincialArmiesConcept')]"
+ TUTORIAL_PROVINCIAL_ARMIES_NO_TOOLTIP: "[SelectLocalization( GetPlayer.IsValid, 'TUTORIAL_PROVINCIAL_ARMIES_INGAME_NO_TOOLTIP', 'PROVINCIAL_ARMIES_CONCEPT_NO_TOOLTIP' )]"
+ TUTORIAL_PROVINCIAL_ARMIES_INGAME_NO_TOOLTIP: "[GetPlayer.Custom('GetProvincialArmiesConceptNoTooltip')]"
+
+ ra_admin_gov_troops_1: "Militare in un Governo Amministrativo"
+ ra_admin_gov_troops_1b: "Militare in un Governo Amministrativo"
+ ra_admin_gov_troops_1_desc: "@ra_admin_troops_1! In un [administrative_government|e], il Militare e la gestione delle truppe funzionano in modo diverso rispetto ad altri tipi di $game_concept_government$.\n\nPur mantenendo l’accesso e il pieno controllo delle tue truppe, hai anche accesso ai $TUTORIAL_PROVINCIAL_ARMIES$. In un $game_concept_administrative_government$, ogni [province|e] può avere il proprio [army|e], che è proprietà di quello specifico [title|e].\n\nI [governors|e] assumono il ruolo sia di funzionari civili che militari, mentre il [top_liege|e] ha la possibilità di gestire le truppe dei $game_concept_governors$, prendendone il controllo o assegnandole ad altri $game_concept_governors$ nel [realm|e]."
+ ra_admin_gov_troops_1_prompt: "Apri la scheda $TUTORIAL_PROVINCIAL_ARMIES_NO_TOOLTIP$ (evidenziata)"
+
+ ra_admin_gov_troops_2: "Militare in un Governo Amministrativo"
+ ra_admin_gov_troops_2b: "Militare in un Governo Amministrativo"
+ ra_admin_gov_troops_2_desc: "I [governors|e] possono creare [men_at_arms|e] come parte del $game_concept_governorship$ di cui sono responsabili. Queste truppe appartengono al [title|e] e possono essere prese in prestito da altri $game_concept_governors$ del [realm|e].\n\nIl [top_liege|e] ha a disposizione gli $TUTORIAL_PROVINCIAL_ARMIES$ e la capacità di gestire le truppe dei $game_concept_governors$. Può prenderne il controllo nelle proprie [wars|e] o riassegnarle ai $game_concept_governors$ che potrebbero averne bisogno.\n\nQuesto gli concede la possibilità di arruolarle e utilizzarle, migliorando le difese lungo i confini del $game_concept_realm$."
+ ra_admin_gov_troops_2_prompt: "Ispeziona un [GetPlayer.Custom('GetProvincialArmyConceptNoTooltip')]"
+
+ ra_admin_gov_troops_3: "Acquisire Eserciti Aggiuntivi"
+ ra_admin_gov_troops_3_desc: "Questa è una panoramica dell’[army|e] di un [governorship|e] specifico.\n\nCome $game_concept_governor$, puoi sfruttare la tua [influence|e] per richiedere l’aiuto di un $game_concept_army$ da un’altra [province|e].\n\nIl [top_liege|e] può obbligare qualsiasi $game_concept_governor$ a riassegnare il proprio $game_concept_army$ o a prenderne direttamente il controllo."
+
+ ra_admin_gov_troops_4: "Dettagli dell’Esercito"
+ ra_admin_gov_troops_4_desc: "Lo stato mostra se l’[army|e] è disponibile o meno.\n\nSe le truppe sono state arruolate dal [governor|e] in una [war|e], il [top_liege|e] non potrà riassegnarle finché non saranno congedate.\n\nIn caso di rivolte dei $game_concept_governors$ contro il [liege|e], il $game_concept_governor$ riprenderà tutte le truppe provenienti dal suo [governorship|e].\n\nTieni d’occhio la situazione nell’intero regno per ottimizzarne l’uso."
+
+ ra_admin_gov_troops_5: "Sulla Strada verso il Potere"
+ ra_admin_gov_troops_5_desc: "@ra_admin_troops_5! Sebbene un [realm|e] [administrative|e] si basi sull’azione politica e sull’intrigo, avere un esercito forte e ben gestito non solo migliorerà le tue difese, ma ti assisterà anche nelle tue iniziative diplomatiche.\n\nDopotutto, la forza militare è solo una delle tante Strade verso il Potere..."
+
+ action_reactive_advice_laamp_contract_move: "$open_tutorial_lesson$ Trovare Contratti"
+ action_reactive_advice_laamp_contract_move_desc: "Le tue opportunità di [task_contract|E] locali scarseggiano? Apri qui per un’introduzione su come trovare nuovi Contratti."
+ action_reactive_advice_laamp_contract_move_click: "$click_to_open_lesson$"
+ reactive_advice_laamp_contract_move: "$ra_laamp_contract_move_1$"
+
+ ra_laamp_contract_move_1: "Trovare Contratti"
+ ra_laamp_contract_move_1_desc: "Se il lavoro nella tua zona si è esaurito o cerchi impieghi più emozionanti, spostare il tuo [camp|E] è il modo più semplice per trovare una serie di nuovi [task_contracts|E].\n\nDevi [Concept( 'travel', 'viaggiare' )|E] a una distanza adeguata da dove si trovava il tuo vecchio accampamento per assicurarti di trovare nuove opportunità al tuo arrivo."
+ ra_domicile_camp_task: "Vai alla finestra del Campo"
+
+ ra_laamp_contract_move_2: "Spostare il tuo Campo"
+ ra_laamp_contract_move_2_desc: "Ecco un esempio di destinazione a una buona distanza dalla posizione attuale del tuo [camp|E].\n\nPuoi pianificare il [Concept( 'travel', 'viaggio' )|E] direttamente dalla scheda della [county|E], verso qualsiasi [barony|E] selezionata nella Contea.\n\n#weak Nota: puoi anche avviare il Viaggio del Campo dalla finestra del Campo, usando il pulsante Sposta Domicilio in basso.#!"
+ ra_domicile_travel_task: "Vai alla scheda $relocate_camp_to_interaction$"
+
+ ra_laamp_contract_move_3: "Viaggiare con il tuo Campo"
+ ra_laamp_contract_move_3_desc: "[Concept( 'traveling', 'Viaggiare' )|E] con il tuo [camp|E] funziona come il normale Viaggio, ma porti con te tutti gli [camp_buildings|E] e i [followers|E], e devi spendere [provisions|E]."
+ ra_domicile_depart_task: "Inizia il tuo Viaggio del Campo"
+
+ ra_laamp_contract_move_4: "$ra_laamp_contract_move_3$"
+ ra_laamp_contract_move_4_desc: "$ra_laamp_contract_move_3_desc$"
+ ra_domicile_arrive_task: "Concludi il tuo Viaggio del Campo"
+
+ ra_laamp_contract_move_5: "Nuovi Contratti"
+ ra_laamp_contract_move_5_desc: "Ora che sei arrivato, nella regione saranno disponibili diversi nuovi [task_contracts|E]!\n\nRicorda, puoi spostare il tuo [camp|E] in qualsiasi momento per trovare nuovi [task_contracts|E], e nuove opportunità si presenteranno fintanto che viaggerai abbastanza lontano — almeno due [duchies|E] [de_jure|E] dal tuo vecchio campo."
+ 
+ reactive_advice_tutorial_war: "Guerra"
+ reactive_advice_lesson_army_movement: "$lesson_army_movement$"
+ reactive_advice_lesson_battle_mechanics: "$lesson_battle_mechanics$"
+ reactive_advice_lesson_siege_mechanics: "$lesson_siege_mechanics$"
+ reactive_advice_lesson_warscore: "$lesson_warscore$"
+ reactive_advice_lesson_winning_wars: "$lesson_winning_wars$"
+ reactive_advice_lesson_losing_wars: "$lesson_losing_wars$"
+
+ #CE2 Khans of the Steppe
+action_reactive_advice_migration: "Advice: Migration"
+action_reactive_advice_migration_desc: "As a Nomad within the Great Steppe you can Migrate to new lands. Open to learn more about Migration."
+action_reactive_advice_migration_click: "$click_to_open_lesson$"
+
+ ra_migration_1: "Migration"
+ ra_migration_1_desc: "When playing as a [nomad|E] in [the_great_steppe|E] you have the possibility to [migrate|E].\nMigration is important for Nomads as it is a great way to find new lands for your [herd|E] to graze and grow big.\n\nHerd represents your people and their flock, and your herd needs land with good [county_fertility|E] to keep fed.\nLet's have a look at how to find the best spots in the steppe where the fertility will benefit you and your [realm|E]."
+ ra_migration_1_prompt: "Click on the Migration button (highlighted)"
+
+ ra_migration_1b: "$ra_migration_1$"
+
+ ra_migration_2: "Migration"
+ ra_migration_2_desc: "Choosing a new location for you and your [herd|E] should mainly be based on [county_fertility|E]. Fertility of the land is measured on a scale from 0-100 and will deplete at a steady pace as you inhabit the lands. When it has been depleted, you need to [migrate|E] to a new location to keep growing."
+ ra_migration_2_prompt: "Click on the map mode to view the fertility map mode (highlighted)"
+
+ ra_migration_3: "Migration"
+ ra_migration_3_desc: "The distance you can [migrate|E] is dependent on your [title_tiers|E] and the [dominance|E] law you currently enforce. Realms with a large Domain and high Dominance will have different needs from Migrating, and at some point not needing to migrate at all for the purpose of growing your [herd|E]. To select a location you would potentially want to migrate to, click a [de_jure|E] title on the map."
+ ra_migration_3_prompt: "Click any location within range on the map"
+
+ ra_migration_4: "Migration"
+ ra_migration_4_desc: "Depending on your chosen location, you will see pins on the map telling you of the specific [county_fertility|E], or a sum of the entire [domain_fertility|E] of the [de_jure|E] title selected."
+
+ ra_migration_5: "Migration"
+ ra_migration_5_desc: "The chosen location of your [migration|E] always holds atleast one [nomad|E] or [herder|E] that you will have to negotiate with to be granted access. You can offer them [herd|E], [gold|E] or use a [hook|E] to help you convince them to accept your proposal to migrate in to their area."
+
+ ra_migration_6: "Migration (Accept Negotiation)"
+ ra_migration_6_desc: "There can be several [nomads|E] in the same location of your target location. If you were to [migrate|E] in a Hostile way they would all react, but if you can persuade the strongest Character within the area that you are moving in you will be welcomed by them all. \n\n If the Migration negotiation is accepted, you would leave your current title behind and possibly your [subjects|E] aswell."
+
+ ra_migration_7: "Migration (Declined Negotiation)"
+ ra_migration_7_desc: "If the [nomad|E] with the biggest [herd|E] in the area does not accept your proposal, you will have to declare [war|E] against them and all other nomads that inhabits the chosen location. You can see the total herd strength displayed in the window for these cases.\n\nSimilar to as if the negotiation is accepted, a declined proposal will lead to you leaving your current [title|E] behind and possibly your [subjects|E] aswell. You will also be considered [unlanded|E], meaning you have no [county_fertility|E] and therefor your herd wont grow.\n\nIt will be of outmost interest to either win the war, or after that find another location for you and your flock to migrate to."
+
+ ra_migration_8: "Migration"
+ ra_migration_8_desc: "If all goes well with the [migration|E], you will have heaps of new lands to graze, new possibilities to deal with a [settlement_issue|E] that gives you the opportunity to handle conflicts and increase the local [county_control|E] in the new [domain|E].\n\nLands changes hands often in [the_great_steppe|E], so make sure you balance your [dread|E] with [opinion|E] well to keep all doors open. One lost title for a [nomad|E] means trifold are within grasp as long as you keep growing your [herd|E] and [dominance|E]."
+
+
+action_reactive_advice_great_steppe: "Advice: The Great Steppe"
+action_reactive_advice_great_steppe_desc: "The Great Steppe is a Situation where you will have to take the Fertility of the lands in to account. Open to learn more about what this affects."
+action_reactive_advice_great_steppe_click: "$click_to_open_lesson$"
+
+ ra_great_steppe_1: "The Great Steppe"
+ ra_great_steppe_1_desc: "Welcome to [the_great_steppe|E]!\n\nPlaying as a [GetGovernment( 'nomad_government' ).GetName] [ruler|E], ensuring that their [herd|E] can grow is their primary concern. The Herd grows by having fertile lands to graze, thus you will need to move around in search for bountiful grasslands for you and your flock to thrive.\n\nNomads rule in the Steppe Region, where you will be taking part in a [situation|E]. The Steppe is divided in to three regions, where the focus lies on the [county_fertility|E] of the land."
+ ra_great_steppe_1_prompt: "Click the Situations button to continue (highlighted)"
+
+ ra_great_steppe_1b: "$ra_great_steppe_1$"
+
+ ra_great_steppe_2: "The Great Steppe"
+ ra_great_steppe_2_desc: "Each of the three regions will be affected by a [steppe_season|E]. These Seasons are not your regular winter or summer, but a long time effect on the [county_fertility|E] of the land.\n\nHow and where these effects will affect you is visible through the season effects. For example, living in a region with abundant grazing will have impact on fertility for your [herd|E] to graze, but it will also affect the opinion of the people following you." 
+
+ ra_great_steppe_3: "The Great Steppe"
+ ra_great_steppe_3_desc: "To be able to plan ahead, you can take help from your [GetCourtPositionType('court_astrologer_court_position').GetName()]. The Stargazer will predict the chance of two seasons being the next in a Region.\n\nWith this information you can decide whether it is best to stay put in a location or try to [migrate|E] to a neighboring region.\n\nThe longer you can stay in fertile land, the bigger your [herd|E] will grow and the happier your people will be."
+
+ ra_great_steppe_4: "The Great Steppe"
+ ra_great_steppe_4_desc: "To get an overview of how the other [nomads|E] in [the_great_steppe|E] are doing, you can view that at the bottom of the panel. The Nomad with the biggest [herd|E] holds the title of [gurkhan|E], with their Herds strength being either the biggest Threat or the greatest Ally you can come across in the steppe. If you hold this title, you can potentially also level up your [dominance|E] (in the realms panel) to the fifth and final level, Unrestricted Dominance.\n\nThe herds strength will be used during wars and raids but in the form of [horde|E]. Horde is the part of your herd that is fit for fighting, so think of it as your horses, your camels and your people that can hold a bow and arrow, while the herd that is left is the sheep, cows and children, and so on."
+
+ ra_great_steppe_5: "The Great Steppe"
+ ra_great_steppe_5_desc: "To view other regions you can click them in this view, but the one impacting you is the one you currently are in. \n\n Now, are you ready to lead your flock during both bountiful and trying times? Finding new lands through [war|E] or [migrating|E] is always an option for a strong [GetGovernment( 'nomad_government' ).GetName] [ruler|E] to show your people the way to the rich lands, the Golden Apple of the steppe."
+
+
+action_reactive_advice_kurultai: "Advice: Kurultai Council"
+action_reactive_advice_kurultai_desc: "Open this to learn more about the Nomad Council, Kurultai."
+action_reactive_advice_kurultai_click: "$click_to_open_lesson$"
+
+ ra_kurultai_1: "Kurultai"
+ ra_kurultai_1_desc: "You have a [kurultai|E] [council|E] as a ruler in the [the_great_steppe|E]. \n\nYou migtht already be familiar with having a Council, but when playing as a [nomad|E] you will have a new type of administrators that will focus more on supporting your [county_fertility|E] growth or [herd|E]."
+ ra_kurultai_1_prompt: "Click on the Council Panel to continue (highlighted)"
+
+ ra_kurultai_1b: "$ra_kurultai_1$"
+
+ ra_kurultai_2: "Kurultai"
+ ra_kurultai_2_desc: "You can have 4 [kurultai|E] members on your [council|E], together with your [spouse|E] and a [spymaster|E]. The kurultai can have various tasks attached to various [skills|E], for example Manage Fertility will be one based on your kurultais [stewardship|E]. If you have a kurultai assigned you can click the button in the bottom left corner to swap the task out."
+
+ ra_kurultai_3: "Kurultai"
+ ra_kurultai_3_desc: "The [kurultai|E] will work on their assigned tasks, but their biggest impact will be on the [succession|E] of your [realm|E].\n\nEach character in the [the_great_steppe|E] can be [obedient|E] to one [ruler|E], and the obedience matters a lot specifically for your kurultai members and their say in who your [heir|E] will be."
+ ra_kurultai_3_prompt: "Click on realms tab to continue (highlighted)"
+
+ ra_kurultai_4: "Kurultai"
+ #TODO add the concepts for stable and chaotic once it's in
+ ra_kurultai_4_desc: "At the top of this panel you can see if your [succession|E] is considered stable or chaotic. This will be an indicator of if your [heir|E] will inherit all of your [realm|E] or if it will be divided amongst other more powerful characters."
+ ra_kurultai_4_prompt: "Click on succession tab to continue (highlighted)"
+
+ ra_kurultai_5: "Kurultai"
+ #TODO add the concepts for oppose and stable once it's in
+ ra_kurultai_5_desc: "In the bar highlighted you will get an indication of if your [kurultai|E] and oldest children will approve of the [succession|E] or oppose it.\n\nTo get to the point of having a stable succession you need to keep the kurultai [obedient|E] to you, but you will also need to have the [steppe_seasons|E] play in your favor. If the current season affects your lands in a bad way, like the Zud would, your people will think You are being punished and will question your rule and decision of who will succeed you. \n\nTo stay in control of the Succession, keep your people Obedient and [migrate|E] to lands that are in your favor."
+
+
+action_reactive_advice_tributaries: "Advice: Tributaries"
+action_reactive_advice_tributaries_desc: "Tributaries are a type of Subject a Ruler can have. Open this to get an introduction to what Tributaries are."
+action_reactive_advice_tributaries_click: "$click_to_open_lesson$"
+
+ra_tributaries_1: "Tributaries"
+ra_tributaries_1_desc: "[tributaries|E] are a type of [subject|E], a type of relationship between two [rulers|e] where an agreement of a [truce|E] is put in place in exchange for a periodic payment. When the deal is in place the tributary then provides either [herd|E], [taxes|E] or [prestige|E] to the other, their [suzerain|E]."
+ra_tributaries_1_prompt: "Click on the Realms panel to continue (highlighted)"
+
+ra_tributaries_2: "Tributaries"
+ra_tributaries_2_desc: "In comparison to the usual [subject|E] type, [vassals|E], the [tributaries|E] have a bit more freedom from their [suzerain|E]. They can break free if their own requirements of a leader is not met, and find their luck elsewhere."
+ra_tributaries_2_prompt: "Click on the Subjects tab to continue (highlighted)"
+
+ra_tributaries_3: "Tributaries"
+ra_tributaries_3_desc: "All types of [subjects|E] will be displayed in the realms panel. In the list of Subjects you will see your [tributaries|E] chance of wanting to break free and a special [tributary_contract|E] where you as a [suzerain|E] can for example increase or decrease their payments, or the war support either of you will have in upcoming quarrels."
+
+ra_tributaries_4: "Tributaries"
+ra_tributaries_4_desc: "As [migration|E] is a common action for [nomads|E], moving away from your [tributaries|E] lands has a big impact on their willingness to stay as your tribute. If they can't witness your greatness they will soon look for protection and truces with other [rulers|e] closer by."
+
+ra_tributaries_5: "Tributaries"
+ra_tributaries_5_desc: "If you yourself have the [tributary|E] role it could allow you to grow your [herd|E] in peace under the protection of a bigger [suzerain|E], but power can trade hands quickly in [the_great_steppe|E]; make sure you and the people you consider friends aid each other when in need to grow, but don't be afraid to break free and join the side of a greater Khan when the situation demands it."

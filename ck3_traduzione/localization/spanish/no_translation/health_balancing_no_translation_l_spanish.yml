@@ -1,0 +1,3 @@
+﻿l_spanish:
+ debug_bubonic_plague_outbreak.tt:0 "Peste Bubbonica: Vittime totali: [THIS.Var('total_victims_num').GetValue|0]\nPeste Bubbonica: Deceduti: [THIS.Var('dead_victims_num').GetValue|0]\nPeste Bubbonica: Sopravvissuti:[THIS.Var('surviving_victims_num').GetValue|0]"
+ debug_smallpox_outbreak.tt:0 "Vaiolo: Vittime totali: [THIS.Var('total_victims_num').GetValue|0]\nVaiolo: Deceduti: [THIS.Var('dead_victims_num').GetValue|0]\nVaiolo: Sopravvissuti:[THIS.Var('surviving_victims_num').GetValue|0]"

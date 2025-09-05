@@ -1,0 +1,93 @@
+﻿l_spanish:
+ trait_specific.1001.desc:0 "Ultimamente sono apparse strane persone a [ROOT.Char.Custom('GetCourt')|l], alcune le vedo solo come ombre con la coda dell'occhio, altre le scorgo rapidamente ma poi sembrano sparire.\n\nNon importa quante guardie io abbia assegnato a questo incarico, questi strani individui non possono essere trovati e l'insistenza dei loro scherni sta aumentando!"
+ trait_specific.1001.a:0 "Lì! Avrei giurato..."
+
+ trait_specific.1002.desc:0 "Ultimamente faccio fatica a ragionare con chiarezza, i miei pensieri si disperdono come nuvole in un cielo d'estate.\n\nGli uccelli fuori dal mio [ROOT.Char.Custom('ResidenceBuilding')] hanno iniziato a cantare un nuovo motivo. Altre persone parlano per enigmi e #EMP nessuno#! riconosce che il coriandolo è una spezia davvero terribile."
+ trait_specific.1002.a:0 "Aspetta, a cosa stavo pensando?"
+
+ trait_specific.1010.t:0 "Follia Emergente"
+ trait_specific.1010.desc:0 "Nell'ultima settimana ho girato in tondo, come una foglia nella tempesta. Che cos'è la realtà? Che cos'è #EMP reale#!? Non riesco più a rispondere a queste domande.\n\nSo solo che la donna tra le nuvole mi capisce, ma le ombre sono sempre di più ogni giorno che passa."
+ trait_specific.1010.a:0 "Si aggrappano come roditori... Sciò, via di qui!"
+
+ trait_specific.2001.t:0 "L'Esordio"
+ trait_specific.2001.desc:0 "Una sensazione di disagio mi pervade. Cerco di tornare alla mia [ROOT.Char.Custom('GetChamber')], ma la sua porta si restringe sempre più davanti ai miei occhi| Cos... cosa sta succedendo?\n\nAll'improvviso sento un odore... un odore che ho già sentito, ma... #EMP dove#!? Qualcuno mi chiede se sto bene, ma non riesco a rispondere, non riesco a fare nulla..."
+ trait_specific.2001.a:0 "Io... Quanto tempo sono stato via?"
+
+ trait_specific.2002.desc:0 "Ultimamente ho sperimentato alcuni... episodi. Qualcosa mi afferra, si appropria del mio corpo, e in seguito mi lascia stanco e confuso.\n\nHo cercato di tenere questa cosa nascosta alla gente, ho cercato di nasconderlo, ma è difficile controllare qualcosa che va e viene a suo piacimento."
+ trait_specific.2002.a:0 "Mi guardano tutti come se io fossi... #EMP possedut[ROOT.Char.Custom('DE_END_PRO_S_N')]#!."
+
+ trait_specific.3001.desc:0 "Una freccia vagante sibila accanto alla mia testa e non provo #EMP nulla#!, né paura, né panico e nemmeno rabbia.\n\nOrmai è diventata, in maniera preoccupante, la norma. Mi sento come se esistessi dietro una tenda che mi protegge dai miei sentimenti e dal mondo. E sono così #EMP stanc[ROOT.Char.Custom('DE_END_PRO_S_N')]#!..."
+ trait_specific.3001.a:0 "Credo che tornerò a letto."
+
+ trait_specific.3002.desc_opening:0 "Qual è il significato di tutto questo? Perché compiamo questi gesti giorno dopo giorno dopo giorno?"
+
+ trait_specific.3999.t:0 "Giornate Grigie"
+ trait_specific.3999.desc:0 "Per tutta la vita ho saputo che la mia felicità non è arrivata così facilmente come agli altri, e ora questa sensazione mi è estranea come l'aria lo è per un pesce."
+ trait_specific.3999.desc_end:0 "\n\nNon ho più motivazione e le energie mi abbandonano. Mentre la mia vita sprofonda nel grigiore, mi sento in preda al panico, ma anche questo è oltre le mie forze."
+ trait_specific.3999.a:0 "Tutto questo è troppo..."
+
+ trait_specific.4001.t:0 "Lettura Alternativa"
+ trait_specific.4001.landed: "In un angolo polveroso della biblioteca trovo un libro"
+ trait_specific.4001.adventurer: "Nell'angolo di una cassapanca trovo un libro"
+ trait_specific.4001.desc:0 " parzialmente nascosto dietro altri tomi. È rilegato in pelle e con strane iscrizioni. È vecchio, ma è evidente che sia stato usato di recente..\n\nSfogliandolo, mi sono subito reso conto che tratta di conoscenze... #EMP insolite#!."
+ trait_specific.4001.a:0 "Interessante... Mi guardo intorno prima di sedermi a leggere."
+ trait_specific.4001.a_tt:0 "Spero che la persona che ha letto il libro di recente, non sia qui in giro e mi veda..."
+ trait_specific.4001.b:0 "Eresia! Lo consegnerò ai/alle [ROOT.Char.GetFaith.PriestNeuterPlural]."
+
+ trait_specific.5001.t:0 "Buongustaio"
+ trait_specific.5001.desc:0 "Cervo, alce, quaglia... Ci sono così tanti cibi esotici da provare in questo mondo!\n\nDopo aver assaggiato tanti squisiti piatti di carne nel corso degli anni, non posso fare a meno di chiedermi cos'altro ci sia là fuori. Quali gustose scoperte attendono ancora le mie papille gustative?"
+ trait_specific.5001.a:0 "Devo provare tutto!"
+ trait_specific.5001.a.tt:0 "Cercherò dei tipi di carne più esotica"
+ trait_specific.5001.b:0 "Le varietà che ho qui vanno bene."
+
+ trait_specific.5002.desc:0 "Nella mia ricerca di carni rare, un pensiero si è radicato nella mia mente. Faccio fatica ad ammetterlo perfino a me stesso, ma mi chiedo che sapore ha la carne #EMP umana#!...\n\nVenendo a conoscenza che un servitore di corte è malato e in punto di morte, mi trovo a ordinare che venga affidato alle mie cure personali."
+ trait_specific.5002.a:0 "Perdonami... Devo scoprirlo!"
+ trait_specific.5002.b:0 "Non farò altro che pregare per la sua anima."
+
+ trait_specific.5003.t:0 "Portato all'Estremo"
+ trait_specific.5003.desc:0 "Doveva essere solo una breve gita, una piacevole escursione in campagna. Sono, però, ormai diversi giorni che non vediamo anima viva e le nostre provviste sono finite da tempo, al punto che abbiamo dovuto mangiare i cavalli per sopravvivere.\n\nLa nostra guida ci promette che raggiungeremo dei luoghi abitati entro una settimana, ma alcuni servitori non ce la fanno più e il mio stomaco brontola sempre più forte ogni ora che passa."
+ trait_specific.5003.a:0 "Farò quanto necessario per sopravvivere..."
+ trait_specific.5003.b:0 "Possiamo resistere a tutto questo!"
+
+ trait_specific.6001.t:0 "Provare Qualcosa di Alternativo"
+ trait_specific.6001.desc:0 "Ultimamente le mie attività... sessuali lasciano a desiderare. I medici mi hanno consigliato dei balsami, ma nulla mi soddisfa.\n\nSempre più disperat[ROOT.Char.Custom('DE_END_PRO_S_N')], mi imbatto in alcuni libri, nascosti in fondo a una pila in una bancarella di mercanti, che raffigurano alcune... attività insolite. Mi accorgo che non riesco a smettere di sfogliare le pagine e un calore si impossessa del mio basso ventre."
+ trait_specific.6001.a:0 "Bene, se questo è quello che ci vuole..."
+ trait_specific.6001.b:0 "Io sono meglio di così!"
+
+ trait_specific.6002.t:0 "Sperimentare"
+ trait_specific.6002.desc:0 "Mi allungo per sfilare [lover.Custom('GetUpperClothingArticle')] del[lover.Custom('DE_END_ADJ_NUL_S_N')] mi[lover.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover') )], [lover.Custom('IT_NAM_COL3')][lover.GetTitledFirstName],  quando [lover.GetSheHe] si allontana improvvisamente da me.\n\n"Volevo provare qualcosa di #EMP nuovo#!, amore mio," dice [lover.GetSheHe], mentre afferra qualcosa da sotto il letto, con un subdolo sorrisetto stampato sul suo viso.\n\nNella sua mano si palesa [ROOT.Char.Custom('DeviantObjectArticle')]. "Ho pensato che #EMP questo#! potrebbe esserci utile.""
+ trait_specific.6002.a:0 "Molto bene, non farmi attendere oltre!"
+ trait_specific.6002.b:0 "Ti piace questo genere di... #EMP cose?!#!"
+ trait_specific.6002.b_known:0 "Sapevo che [lover.GetSheHe] era interessat[lover.Custom('DE_END_PRO_S_N')] ad alcune strane pratiche, ma questo?!"
+
+ trait_specific.7001.t:0 "In alto i Calici!"
+ trait_specific.7001.desc:0 "Niente riesce a calmarmi come un buon boccale di [ROOT.Char.Custom('RegionalAlcoholicDrink')]. Al termine di una giornata difficile o dopo una bella giornata, diciamo pure dopo una giornata qualsiasi... sono sempre sicur[ROOT.Char.Custom('DE_END_PRO_S_N')] di trovare conforto in fondo a un boccale."
+ trait_specific.7001.a:0 "Portamene un altro!"
+ trait_specific.7002.b:0 "Sono più forte di così."
+
+ trait_specific.8001.t:0 "Coltivare delle Piante"
+ trait_specific.8001.desc:0 "Un gioviale mercante mi ha messo in mano una busta di semi di piante che, dice, rafforzeranno la mia salute e il mio spirito.\n\nDevo ammettere che non ho molta esperienza nella coltivazione delle piante, ma non può essere così difficile."
+ trait_specific.8001.a:0 "Li userò per creare un giardino privato"
+ trait_specific.8001.a.success:0 "Coltiva un giardino rigoglioso"
+ trait_specific.8001.a.small_success:0 "Il progetto fallisce, ma si impara molto anche dai fallimenti"
+ trait_specific.8001.a.failure:0 "I semi non germogliano"
+ trait_specific.8002.b:0 "Devono pur valere qualcosa..."
+
+ trait_specific.9001.t:0 "Riflessioni Serali"
+ trait_specific.9001.desc:0 "Bevo un sorso di [ROOT.Char.Custom('GetExpensiveDrink_Singular')] e passo rapidamente in rassegna i miei ultimi scarabocchi.\n\n#POE [ROOT.Char.Custom('GeneratePoem_Title')|U]#!\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming')]\n[ROOT.Char.Custom('GeneratePoem_Outro_Rhyming')]\n\nSono davvero [Select_CString(ROOT.Char.IsFemale,'una delle','uno dei')] più grandi artist[ROOT.Char.Custom('DE_END_NOU_S_G')] del mio tempo!"
+ trait_specific.9001.a:0 "Un bel verso! Su cosa mi soffermerò dopo?"
+ trait_specific.9001.b:0 "Scrivere è divertente, ma non conosco le #EMP rime#!."
+ trait_specific.9001.c:0 "Forse, invece, mi farò preparare un bagno..."
+ 
+ 
+ trait_specific.8501.t:0 "Risatina Sospetta"
+ trait_specific.8501.desc:0 "Sto parlando con alcuni dei miei [ROOT.Char.Custom('GetCourtierPlural')] di un argomento piuttosto serio, quando non posso fare a meno di notare che [mean_courtier.Custom('IT_NAM_COL3')][mean_courtier.GetTitledFirstName] sta ridacchiando sotto i baffi.\n\nÈ solo quando [mean_courtier.Custom('DE_PRO_DEM')] chiedo spiegazioni e [mean_courtier.GetSheHe] mi chiede di ripetere la parola 'sospettoso' che mi rendo conto che [mean_courtier.GetSheHe] sta ridendo della mia blesità."
+ trait_specific.8501.a:0 "È maleducat[mean_courtier.Custom('DE_END_PRO_S_N')], ma cosa posso farci?"
+ trait_specific.8501.b:0 "Imprigionatel[mean_courtier.Custom('DE_END_PRO_S_N')]!"
+ trait_specific.8501.c:0 "Se lo trovate così divertente forse vorreste avere lo stesso problema."
+ trait_specific.8501.d:0 "Ditelo di nuovo, vi sfido."
+ trait_specific.8501.e:0 "Forse volete dare un'occhiata più da vicino."
+ trait_specific.8501.f:0 "In realtà, credo scoprirete che anche [ROOT.Char.GetFaith.HealthGodName] aveva la 'zeppola'."
+ trait_specific.8501.g:0 "Non #EMP crederete#! a ciò che posso fare con questa lingua..."
+ trait_specific.8501.d.tt:0 "Affronti [mean_courtier.Custom('IT_NAM_COL3')][mean_courtier.GetTitledFirstName] in un [single_combat_duel|E]"
+ trait_specific.8501.h:0 "Va tutto bene?"

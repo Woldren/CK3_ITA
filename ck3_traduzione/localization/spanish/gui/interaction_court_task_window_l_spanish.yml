@@ -1,0 +1,6 @@
+﻿l_spanish:
+ REQUEST_COURT_TASK_INTERACTION_HEADER: "Richiedi Posizione di Corte"
+ GRANT_COURT_TASK_INTERACTION_HEADER: "Concedi Posizione di Corte"
+ COURT_TASK_INTERACTION_NO_SELECTED_TASK: "@warning_icon! #X Non è stata selezionata nessuna posizione#!"
+ COURT_TASK_INTERACTION_WINDOW_SELECT_TASK: "Seleziona una Posizione di Corte"
+ COURT_TASK_INTERACTION_WINDOW_SELECTED_TASK: "Posizione Selezionata: [CourtTaskInteractionWindow.GetSelectedPosition.GetNameNoTooltip]"

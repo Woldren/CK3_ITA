@@ -1,0 +1,18 @@
+﻿l_spanish:
+ heresy.0010.t:2 "Eresia: [heretic_faith.GetAdherentNamePluralNoTooltip] in [heretic_title.GetNameNoTierNoTooltip]"
+ heresy.0010.desc:1 "[heretic_ruler.Custom('IT_NAM_COL3')|U][heretic_ruler.GetTitledFirstName] di [heretic_title.GetNameNoTier] ha annunciato al mondo che [heretic_ruler.GetSheHe] e i suoi vassalli si sono convertiti alla fede [heretic_faith.GetAdjective]."
+ heresy.0010.desc.nonexistant:1 "\n\nDisillusi dagli insegnamenti dei preti di fede [origin_faith.GetAdjective], i nobili di [heretic_title.GetNameNoTierNoTooltip] non considerano più il clero come giusto e vero. In quanto [heretic_faith.GetAdherentNamePluralNoTooltip], essi credono che la loro nuova fede si allinei correttamente con il volere di [heretic_faith.HighGodName] e stanno prendendo le distanze dalle loro precedenti istituzioni religiose."
+ heresy.0010.desc.exists:1 "\n\nDisillusi dagli insegnamenti dei preti di fede [origin_faith.GetAdjective], i nobili di [heretic_title.GetNameNoTierNoTooltip] non considerano più il clero come giusto e vero, e pertanto stanno prendendo le distanze dalle loro precedenti istituzioni religiose. Si professano invece [heretic_faith.GetAdherentNamePluralNoTooltip], le cui dottrine essi ritengono siano meglio allineate con il volere di [heretic_faith.HighGodNamePossessive]."
+ heresy.0010.desc.resurgent:1 "\n\nDisillusi dagli insegnamenti dei preti di fede [origin_faith.GetAdjective], i nobili di [heretic_title.GetNameNoTierNoTooltip] non considerano più il clero come giusto e vero. Di conseguenza, i nobili di [heretic_title.GetNameNoTierNoTooltip] hanno fatto rivivere gli insegnamenti abbandonati della fede [heretic_faith.GetAdherentNamePluralNoTooltip], le cui dottrine essi ritengono siano meglio allineate con il volere di [heretic_faith.HighGodNamePossessive]."
+ heresy.0010.tt.custom:0 "La fede [heretic_faith.GetName|V] compare [heretic_title.Custom('IT_COU_COL2')][heretic_title.GetName]"
+ heresy.0010.a.new_heresy:0 "Quale perversa derisione della nostra fede è mai questa!?"
+ heresy.0010.a.existing_heresy:0 "Quei vili eretici li hanno condotti fuori strada!"
+ heresy.0010.a.astray_faith:0 "Non lo capisco, ma immagino che ciò li renda felici?"
+ heresy.0010.a.same_faith:0 "Sapevo che alla fine avrebbero visto la luce!"
+ heresy.0010.b:0 "Sai, hanno delle buone argomentazioni..."
+ heresy.0010.notification.title:0 "Nuovo Movimento Religioso"
+ heresy.0010.notification:0 "[heretic_ruler.GetFullName] ha fondato un nuovo movimento [heretic_faith.GetAdjective]!"
+
+ heresy.0011.notification.heresy:1 "Un [convert_ruler.Custom2('HierarchicalStatus', me)] Abbraccia l'Eresia: [convert_ruler.GetShortUINameNoTooltip]"
+ heresy.0011.notification.same_faith:1 "Un [convert_ruler.Custom2('HierarchicalStatus', me)] Abbraccia la Vera Fede: [convert_ruler.GetShortUINameNoTooltip]"
+ heresy.0011.notification.other:1 "Un [convert_ruler.Custom2('HierarchicalStatus', me)] Cambia Fede: [convert_ruler.GetShortUINameNoTooltip]"

@@ -1,0 +1,170 @@
+﻿l_spanish:
+ 
+#LOCALE EVENTS
+
+#VISITOR'S CAMP
+ jason_locale_events.100.t:0 "Chi rifiuta il combattimento"
+ jason_locale_events.100.desc:0 "La recente assenza del mio $knight_culture_player_no_tooltip_lowercase$ [unreliable_knight.GetTitledFirstName] non è passata inosservata, né tantomeno i numerosi servitori allontanati dalla sua porta. Su richiesta dell' organizzatore del torneo, entro nel suo alloggio.\n\n"
+ jason_locale_events.100.desc.mess:0 "Le libagioni versate macchiano un pavimento cosparso di leccornie rosicchiate, strani oggetti, mobili rovesciati.\n\n"
+ jason_locale_events.100.desc.self_harm:0 "Una cupa penombra incombe su un pavimento disseminato di indumenti strappati e oggetti in frantumi,"
+ jason_locale_events.100.desc.smug:0 "[unreliable_knight.GetTitledFirstNameNoTooltip] mi riconosce con una scarsa obbedienza, rigirando la sua spada lucente tra le mani.\n\n"
+ jason_locale_events.100.desc.insanity:0 "piume, feci e sangue.\n\nUna mano mozzata giace  ai piedi di [unreliable_knight.GetTitledFirstNameNoTooltip]. Di chi? Non lo so. [unreliable_knight.GetSheHe|U] gesticola con entrambe le mani, scandendo le parole:\n\n"Appariranno altre mani, mio [ROOT.Char.GetTitleTierName|U], altre mani. Vedete? Se io parteciperò ai tornei, appariranno altre mani insanguinate.""
+ jason_locale_events.100.desc.drunk:0 "Il tuo $knight_culture_player_no_tooltip_lowercase$ è ubriaco fradicio, continua a tracannare vino e a trasalire per l'evidente disgusto di sé. L'ubriacone sarà completamente a pezzi entro la mattinata.\n\n"Devo, devo — #EMP *hic*#! — cavalcare o lottare o qualsiasi cosa sia?""
+ jason_locale_events.100.desc.hash:0 "Il tuo $knight_culture_player_no_tooltip_lowercase$ è barcollante, con l'alito che puzza di hashish. La pelle è appiccicosa a causa del sudore, strizza gli occhi, ridacchia e sbiascica una domanda:\n\n"Dovrei fare qualcosa... nel prossimo futuro?""
+ jason_locale_events.100.desc.depressed:0 "un sangue di $knight_culture_player_no_tooltip_lowercase$.\n\nLe lacrime diventano rosse sulle guance di [unreliable_knight.GetTitledFirstNameNoTooltip].\n\n"Non posso andare là fuori," singhiozza il tuo $knight_culture_player_no_tooltip_lowercase$. "Non posso affrontarli. Non di nuovo, non ora. Vi prego, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleTierName|U], #EMP vi prego#!... risparmiatemi la mischia del torneo.""
+ jason_locale_events.100.desc.demand:0 ""Tutto il mondo sa che sono un grande e degno $knight_culture_player_no_tooltip_lowercase$," ringhia [unreliable_knight.GetSheHe]. "E così, senza servitori di alto lignaggio e senza grandi doni da parte [ROOT.Char.Custom('DE_PRO_PER_P_3P_A')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], devo #EMP rifiutare#! di partecipare alla competizione."\n\n"La mia partecipazione ai tornei in condizioni di indigenza ci disonorerebbe entrambi.""
+
+ jason_locale_events.100.a:0 "Mi devi i tuoi servigi, ricordi?"
+ jason_locale_events.100.a.tt:0 "Forse non è pront[unreliable_knight.Custom('DE_END_PRO_S_N')] a dare il meglio di sé, ma questo $knight_culture_player_no_tooltip_lowercase$ #EMP si piegherà#! alla tua autorità."
+
+ jason_locale_events.100.b:1 "Gareggia! Ti darò qualsiasi cosa!"
+ jason_locale_events.100.b.tt:1 "E mi prenderò cura dei miei migliori $knight_culture_player_plural_no_tooltip_lowercase$, Lo giuro!"
+
+ jason_locale_events.100.c.mad:0 "Il tuo giuramento è nullo, idiota! Sparisci!"
+ jason_locale_events.100.c.drunk:0 "Il tuo giuramento è nullo, ubriacone! Sparisci!"
+ jason_locale_events.100.c.hash:0 "Il tuo giuramento è nullo, stupido! Sparisci!"
+ jason_locale_events.100.c.depressed:0 "Non sei un mio $knight_culture_player_no_tooltip_lowercase$."
+ jason_locale_events.100.c.demanding:0 "Il tuo giuramento è nullo, ciarlatano! Sparisci!"
+ jason_locale_events.100.c.tt:0 "Allontanate questo indecoroso $knight_culture_player_no_tooltip_lowercase$ dal mio servizio!"
+
+ jason_locale_events.100.c.forbid_knight:0 "A [unreliable_knight.GetShortUIName] è proibito essere il tuo $knight_culture_player_no_tooltip_lowercase$"
+
+ jason_locale_events.100.d:0 "Forse dovresti solo... riposare."
+ jason_locale_events.100.d.not_competing:0 "[unreliable_knight.GetShortUIName] non parteciperà o aiuterà nelle gare di squadra"
+
+ knight_not_participating_log_title:0 "Il servitore si ritira"
+ knight_not_participating_log:1 "Il guerriero di [CHARACTER.GetTitledFirstName], [TARGET_CHARACTER.GetTitledFirstName], si è ritirato dal torneo. Si sparge la voce."
+ knight_dismissed_log_title:0 "Servitore Licenziato"
+ knight_dismissed_log:1 "[CHARACTER.GetTitledFirstName] ha sciolto il noto concorrente [TARGET_CHARACTER.GetTitledFirstName] dal suo servizio a seguito di un misterioso incidente."
+
+ jason_locale_events.210.t.camel_cavalry:0 "Esperti del deserto"
+ jason_locale_events.210.t.elephant_cavalry:0 "Futuro conduttore di elefanti"
+ jason_locale_events.210.t.horse_archer:0 "Il colpo di grazia"
+ jason_locale_events.210.t.heavy_cavalry:0 "Come un tuono"
+ jason_locale_events.210.t.crossbowmen:0 "Un arco, incrociato"
+ jason_locale_events.210.t.heavy_infantry:0 "Supporto, non rimovibile"
+ 
+ jason_locale_events.210.desc:0 "I $knight_culture_player_plural_no_tooltip$ mimano gli atti di guerra e i rivali amichevoli spadroneggiano, mentre gli interpreti ridono del loro lavoro.\n\n"Voi [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] avete le vostre competenze," concede [foreign_lord.GetName],"
+ jason_locale_events.210.desc.teen:0 "I $knight_culture_player_plural_no_tooltip$ mimano gli atti di guerra e i rivali amichevoli spadroneggiano, mentre gli interpreti ridono del loro lavoro.\n\n"Voi [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip], beh, siete a posto," ghigna [foreign_lord.GetName],"
+ jason_locale_events.210.desc.camel_cavalry:0 ""ma a tutti voi manca la volontà di mettere in riga un cammello! E nemmeno i vostri sederi grassocci potrebbero confortarvi su una delle nostre selle!"\n\nGli stallieri vicini stringono le redini dei cammelli: la sfida di [foreign_lord.GetTitleTierName] è lanciata. Sebbene i [foreign_lord.GetCulture.GetCollectiveNounNoTooltip] terrorizzino i cavalli e dominino i deserti e le terre aride in cima alle loro bestie... la puzza dei cammelli è davvero disgustosa."
+ jason_locale_events.210.desc.elephant_cavalry:0 ""ma qualche guerriero [ROOT.Char.GetCulture.GetNameNoTooltip] ha il coraggio di stare in piedi sopra un elefante in battaglia, di brandire la lancia e l'arco mentre quella grande proboscide risuona di rabbia?"\n\nLe zanne dorate di un elefante brillano nelle vicinanze; l'howdah sulla sua schiena scricchiola in cima. Il [foreign_lord.GetTitleTierName] lancia una grande e imprevedibile sfida."
+ jason_locale_events.210.desc.horse_archer:0 ""ma qualcuno di voi è in grado di girarsi in sella, cavalcando a tutta velocità, e lanciare una freccia sulla coda del cavallo? Riuscite a cronometrare il tempo tra un battito di zoccoli e l'altro? Il più giovane dei [foreign_lord.GetCulture.GetNameNoTooltip] riesce a farlo."\n\nVedo i miei [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l] che tirano gli archi di corno, che accarezzano i pony della steppa. Siamo ottimi cavalieri... ma siamo all'altezza di un popolo nato in sella...?"
+ jason_locale_events.210.desc.heavy_cavalry:0 ""ma chi di voi si è lanciato contro una linea nemica, incurante di tutte le armi, con il suo destriero che calpestava e la sua lancia che colpiva? Mettete alla prova il mio cavallo da guerra: vediamo se riuscite a disarcionare anche il peggiore cavalliere [foreign_lord.GetCulture.GetNameNoTooltip]."\n\nLa mia gente non usa l'attrezzatura necessaria per cavalcare con una lancia pesante in battaglia: non è questo il nostro modo di combattere. Tuttavia, posso permettere che un tale vanto rimanga in piedi...?"
+ jason_locale_events.210.desc.crossbowmen:0 ""ma ne avete mai #EMP visto#! uno? Potreste caricarne uno e prendere la mira?"\n\nIl [foreign_lord.GetTitleTierName] mi passa un'arma che ho già visto... da lontano. Si tratta di un robusto arco posto lateralmente all'estremità di un tubo portafrecce: i [foreign_lord.GetCulture.GetCollectiveNounNoTooltip] lo usano per perforare le armature. Qualsiasi armatura."
+ jason_locale_events.210.desc.heavy_infantry:0 ""potete sfrecciare da una parte all'altra! Ma che ne dite di resistere a uno dei miei guerrieri, appesantiti dal nostro pesante corredo, finché il nemico non si infrange contro di voi?"\n\nI miei [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l] lottano con un'impressionante armatura [foreign_lord.GetCulture.GetNameNoTooltip] , sollevano armi [foreign_lord.GetCulture.GetNameNoTooltip], stupiti dal loro peso. per sudare in un duello così strano... ci vuole una grinta impressionante."
+
+ jason_locale_events.210.a:0 "Ci proverò!"
+ jason_locale_events.210.b:0 "[root_culture_knight.GetTitledFirstNameNoTooltip] è l'abilità [ROOT.Char.GetCulture.GetNameNoTooltip] personificata."
+ jason_locale_events.210.b.same_heritage:0 "[root_culture_knight.GetTitledFirstName] è l'abilità [ROOT.Char.GetCulture.GetHeritage.GetNameNoTooltip] personificata."
+ jason_locale_events.210.a.win:0 "Siete un nobile rappresentante dei [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]"
+ jason_locale_events.210.a.lose:0 "La vostra goffaggine e la vostra delicatezza invitano a schernire con allegria"
+
+ jason_locale_events.210.b.tt:0 "[root_culture_knight.GetSheHe|U] è all'altezza di qualsiasi atto, per quanto sconosciuto!"
+ jason_locale_events.210.b.win:0 "[root_culture_knight.GetFirstNameNoTooltip] corrisponde alla competenza di [foreign_lord.GetCulture.GetNameNoTooltip]"
+ jason_locale_events.210.b.lose:0 "I tentativi di [root_culture_knight.GetFirstNameNoTooltip] sono... piuttosto maldestri"
+ jason_locale_events.210.c:0 "Potete condividre qualcuno dei vostri [foreign_lord.Custom('KnightCultureNoTooltip')|l] perché ci insegnino?"
+ jason_locale_events.210.c.tt:0 "Un po' di talento straniero potrebbe giovare sia ai miei [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l] che ai miei uomini d'arme."
+ jason_locale_events.210.d.camel_cavalry:0 "Noi [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] non abbiamo bisogno di bestie insignificanti!"
+ jason_locale_events.210.d.tt.camel_cavalry:0 "Vi giuro che i [foreign_lord.GetCulture.GetCollectiveNounNoTooltip] preferirebbero assaporare il gusto dello sputo di cammello piuttosto che combattere le nostre coraggiose truppe!"
+ jason_locale_events.210.d.elephant_cavalry:0 "Noi [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] siamo abbastanza alti!"
+ jason_locale_events.210.d.tt.elephant_cavalry:0 "Gli sciocchi [foreign_lord.GetCulture.GetNameNoTooltip]possono essere calpestati dai loro stessi colossi in qualsiasi momento.! #EMP Siamo in grado di conquistare la gloria!#!"
+ jason_locale_events.210.d.horse_archer:0 "Noi [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] affrontiamo i nostri nemici!"
+ jason_locale_events.210.d.tt.horse_archer:0 "Lasciate che i [foreign_lord.GetCulture.GetCollectiveNounNoTooltip] senza onore girino in tondo! Come devono essere gelosi le loro mogli e i loro mariti dei loro cavalli..."
+ jason_locale_events.210.d.heavy_cavalry:0 "Noi [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] colpiamo abbastanza forte!"
+ jason_locale_events.210.d.tt.heavy_cavalry:1 "Non abbiamo bisogno di scontrarci inutilmente!"
+ jason_locale_events.210.d.crossbowmen:0 "Noi [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] non abbiamo bisogno di aggeggi!"
+ jason_locale_events.210.d.tt.crossbowmen:0 "Come vigliacchi, i [foreign_lord.GetCulture.GetCollectiveNounNoTooltip] eliminare da lontano i più nobili guerrieri. Ma noi, noi non lo faremo mai."
+ jason_locale_events.210.d.heavy_infantry:0 "Noi [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] possiamo difenderci!"
+ jason_locale_events.210.d.tt.heavy_infantry:0 "Armatura? Che bisogno abbiamo, quando abbiamo l'abilità? I [foreign_lord.GetCulture.GetCollectiveNounNoTooltip] sono pesanti come pietre: li seppelliremo sotto terra."
+
+ cultural_acceptance_knightly_camaraderie:0 "Scambio di pratiche marziali"
+ cultural_acceptance_knightly_rivalry:0 "Inimicizia tra guerrieri itineranti"
+ tournament_open_minded_warrior_modifier:0 "Guerriero dalla mente aperta"
+ tournament_open_minded_warrior_modifier_desc:0 "Questo personaggio mostra uno spiccato interesse per le arti marziali degli altri popoli."
+ tournament_knight_humiliated_modifier:0 "Umiliato il miglior cavaliere"
+ tournament_knight_humiliated_modifier_desc:0 "Gli sfidanti stranieri hanno fatto vergognare l'illustre cavaliere di questo personaggio: i suoi guerrieri sono considerati un po' uno zimbello."
+ tournament_loyalty_martial_traditions_modifier:0 "Fedele alle tradizioni marziali"
+ tournament_loyalty_martial_traditions_modifier_desc:0 "Questo personaggio difende con veemenza la superiorità dei loro metodi di guerra originari."
+
+#TAVERN
+ jason_locale_events.200.t:0 "Alleanza, bruciata"
+ jason_locale_events.200.desc:0 ""Ogni goccia del mio onore," farfuglia [drunk_knight.GetFullName], sporcandosi, "Appartiene a voi!"\n\nI servitori cercano di trattenerl[drunk_knight.Custom('DE_END_PRO_S_N')], i suoi amici si scusano. Il $knight_culture_player_no_tooltip_lowercase$ ubriaco li scaccia via.\n\n"Liberatemi! Maledetti! [ROOT.Char.GetTitleTierName] — liberatemi dal[drunk_knight_liege.Custom('DE_END_ADJ_NUL_S_N')] mi[drunk_knight_liege.Custom('DE_END_PRO_S_N')] sudici[drunk_knight_liege.Custom('DE_END_PRO_S_N')] padron[drunk_knight_liege.Custom('DE_END_ADJ_IND_S_A')]! Il mio giuramento è per voi. Mi volete?"\n\nLa risata mi si blocca in gola. [drunk_knight.GetFirstNameNoTooltip] è veramente un famosissimo $knight_culture_player_no_tooltip_lowercase$, che ha ricevuto le più alte onorificenze dal[drunk_knight_liege.Custom('DE_END_ADJ_NUL_S_N')] su[drunk_knight_liege.Custom('DE_END_PRO_S_N')] signor[drunk_knight_liege.Custom('DE_END_ADJ_IND_S_A')], [drunk_knight_liege.GetTitledFirstName]."
+ jason_locale_events.200.desc.caution:0 "Questa follia del vino... potrebbe farmi guadagnare sia un grande guerriero che un nemico vendicativo."
+ jason_locale_events.200.desc.party:0 "E certamente, la sua perdita sconvolgerà  [drunk_knight_liege.Custom('IT_NAM_COL3')][drunk_knight_liege.GetTitleTierName]... ma credo di avvertire l'arrivo di una rivelazione #EMP storica#!..."
+
+ jason_locale_events.200.a:0 "Dimostrati all'altezza, $knight_culture_player_no_tooltip_lowercase$! #EMP Bevi!#!"
+ jason_locale_events.200.a.tt:0 "L'ubriaco fradicio [drunk_knight.GetFirstNameNoTooltip] cercherà di dimostrare i suoi meriti... come? Solo la bevanda lo sa."
+ jason_locale_events.200.a.tt.join:0 "[drunk_knight.GetFirstNameNoTooltip] diventa il tuo $knight_culture_player_no_tooltip_lowercase$, provocando la rabbia di [drunk_knight_liege.GetShortUIName]"
+ jason_locale_events.200.a.tt.recruit:0 ""Il [ROOT.Char.GetTitleTierName] invoca i $knight_culture_player_plural_no_tooltip_lowercase$! Risponderai?""
+ jason_locale_events.200.a.tt.recruit_desc:0 "Altri $knight_culture_player_plural_no_tooltip_lowercase$ ubriachi ti giurano la loro fedeltà"
+ jason_locale_events.200.a.tt.join_three:0 "[drunk_knight.GetShortUIName] diventa il tuo $knight_culture_player_no_tooltip_lowercase$"
+ jason_locale_events.200.a.tt.recruit_lieges:0 "I signori dei vostri nuovi cortigiani sono infuriati, in particolare [drunk_knight_liege.GetShortUIName]"
+ jason_locale_events.200.a.tt.recruit_specific:0 "[extra_knight.GetFirstNameNoTooltip] e [extra_knight_2.GetFirstNameNoTooltip] ti giurano la loro fedeltà"
+ jason_locale_events.200.a.tt.song:0 ""Riunitevi tutti! Canto la storia del grande [ROOT.Char.GetTitledFirstNameNoTooltip]!""
+ jason_locale_events.200.a.tt.song_specific:0 "Il gorgheggio appassionato di [drunk_knight.GetFirstNameNoTooltip] annuncia il suo giuramento di fedeltà a te"
+ jason_locale_events.200.a.tt.beatings:0 ""Vuoi vedermi combattere, vero?""
+ jason_locale_events.200.a.tt.beatings_specific:0 "[drunk_knight.GetFirstNameNoTooltip] dà prova di sé con alcuni brutali pestaggi"
+ jason_locale_events.200.a.tt.marry:0 ""Solo un matrimonio suggellerà il nostro legame!""
+ jason_locale_events.200.a.tt.marry_desc:0 "Un membro della tua [house|E] oppure un [close_family|E] sposerà [drunk_knight.GetUIName]"
+ jason_locale_events.200.a.tt.marry_specific:0 "Tuo/a [ROOT.Char.Custom2('RelationToMeShort', surprise_spouse)] [surprise_spouse.GetFirstNameNoTooltip] sposa [drunk_knight.GetFirstNameNoTooltip]"
+ jason_locale_events.200.a.tt.death:0 ""Vi sfido a bere mio [ROOT.Char.GetTitleTierName]!""
+ jason_locale_events.200.a.tt.death_specific:0 "Il talento di [drunk_knight.GetFirstNameNoTooltip] nel bere... non ha funzionato"
+
+ jason_locale_events.200.b:0 "Che la tua devozione non vacilli mai... anche se tu dovessi farlo!"
+ jason_locale_events.200.b.tt:0 "Esegui il giuramento cerimoniale, che non può essere ritrattato al mattino."
+
+ jason_locale_events.200.c:1 "Fatti da parte, idiota. Il tuo signore ne verrà a conoscenza."
+ jason_locale_events.200.c.tt:1 "Cosa farà questo traditore ubriaco? Vomiterà su di me? [drunk_knight.GetSheHe|U] non è esattamente in forma per combattere."
+
+ jason_locale_events.200.c.unchallenged:0 "Il $knight_culture_player_no_tooltip_lowercase$ indietreggia"
+
+ jason_locale_events.200.c.attacked:0 "[drunk_knight.GetSheHe|U] #bold ti schiaffeggia#!"
+
+ jason_locale_events.200.c.duel.tt:0 "Estraete entrambi le armi!"
+ jason_locale_events.200.c.slap.tt:0 "Le vostre guardie intervengono, ma quando oramai è troppo tardi!"
+
+ jason_locale_events.200.c.won_brawl.tt:0 "La tua mente più lucida ha la meglio!"
+ jason_locale_events.200.c.lost_brawl.tt:0 "Umiliato da un ubriaco"
+
+
+ jason_locale_events.200.d:0 "Silenzio. Attento al tuo onore, [drunk_knight.GetFirstNameNoTooltip]."
+ jason_locale_events.200.d.tt:1 "Non si dovrebbero scegliere parole avventate e poco sagge al posto di un giuramento di fedeltà."
+
+ tournament_wound_non_root_combatants_effect:0 "Alcuni dei guerrieri degli altri signori rimangono feriti"
+
+ poached_drunk_knight_log_title:0 "Cambio di alleanza"
+ poached_drunk_knight_log:1 "[Select_CString(CHARACTER.IsLocalPlayer,'',CHARACTER.GetShortUIName)] [Select_CString( CHARACTER.IsLocalPlayer, 'Hai', 'ha' )] approfittato del giuramenti da ubriaco di [TARGET_CHARACTER.GetTitledFirstName] per sottrarre il guerriero al suo signore."
+ drunk_knight_dies_log_title:0 "Vittima dei bagordi"
+ drunk_knight_dies_log:1 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Hai', 'ha' )] bevuto fino a morire mentre [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'eri', 'era' )] in preda a una sbornia sfrenata con [CHARACTER.GetTitledFirstName]."
+ drunk_knight_marries_log_title:0 "Le promesse della notte"
+ drunk_knight_marries_log:1 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Sei', 'è' )] ritornat[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] da un'intensa attività di baldoria con un nuovo padrone e un matrimonio con la [Select_CString( CHARACTER.IsLocalPlayer, 'tua', 'famiglia di' )][Select_CString( CHARACTER.IsLocalPlayer, 'famiglia',CHARACTER.GetTitledFirstName)]."
+ drunk_knight_beats_log_title:0 "Il terrore della taverna"
+ drunk_knight_beats_log:1 "Da ubriaco, [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'hai', 'ha' )] ha sconfitto in malo modo un certo numero di guerrieri di spicco per [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'guadagnarti', 'guadagnarsi' )] un posto tra i $knight_culture_player_plural_no_tooltip_lowercase$ di [CHARACTER.GetTitledFirstName]."
+ drunk_oaths_log_title:0 "Reclutatore di facce imbarazzate"
+ drunk_oaths_log:1 "[Select_CString(CHARACTER.IsLocalPlayer,'',CHARACTER.GetShortUIName)] [Select_CString( CHARACTER.IsLocalPlayer, 'Hai', 'ha' )] costretto un gruppo di $knight_culture_player_plural_no_tooltip_lowercase$ ubriachi, [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'eri', 'era' )] il più grande tra loro, ad abbandonare i propri legami con [CHARACTER.GetSheHe]."
+
+# TOURNAMENT GROUNDS
+
+ jason_locale_events.0220.t:0 "Dove La Vittoria è Favorita"
+ jason_locale_events.0220.desc:0 "I miei $knight_culture_player_plural_no_tooltip_lowercase$ si sono radunati per la giornata di addestramento, i loro assistenti carichi di equipaggiamento. [senior_knight.GetTitledFirstName] e io stess[ROOT.Char.Custom('DE_END_PRO_S_N')] siamo davanti a tutti.\n\n"$knight_culture_player_plural_no_tooltip$! Ciò che non sapete, chiedete umilmente che vi venga insegnato," sollecita [senior_knight.GetFirstNameNoTooltip]. "Insieme, rappresentiamo [ROOT.Char.GetTitleAsNameNoTooltip]! Prepariamoci insieme alle nostre glorie."\n\n[senior_knight.GetSheHe|U] si rivolge a me, con gli occhi che brillano.\n\n"Comandaci.""
+
+ jason_locale_events.0220.a:0 "Osservare i nostri avversari: imparare i loro punti deboli."
+ jason_locale_events.0220.a.tt:0 "Questi $knight_culture_player_plural_no_tooltip_lowercase$ sono qui per vincere le sfide. Non conta nient'altro."
+
+ jason_locale_events.0220.b:0 "Competenze? Bah! Siamo qui per farci vedere."
+
+
+ jason_locale_events.0220.c:0 "Alle vostre selle - sguainate le spade!"
+ jason_locale_events.0220.c.tt:0 "Tempreremo la forza e i riflessi, a cavallo e a piedi."
+
+ jason_locale_events.0220.d:0 "$knight_culture_player_plural_no_tooltip$! Dimostrate la vostra acutezza, sia dell'occhio che della mente."
+ jason_locale_events.0220.d.tt:0 "Allenare le facoltà è utile quanto sudarsi la giornata"
+
+ jason_locale_events.0220.e:0 "Batteteli tutti, [senior_knight.GetFirstNameNoTooltip]. #EMP Adesso.#!"
+ jason_locale_events.0220.e.tt:0 "Date a tutti qualcosa da guardare! #EMP Difendentevi!#!"
+
+ every_knight_change_contestant_score_effect_low_tt:0 "Il punteggio dei [knights|e] di [THIS.Char.GetShortUIName|U] #positive_value aumenta leggermente#!"
+
+ every_knight_change_contestant_score_effect_tt:0 "Il punteggio dei [knights|e] di [THIS.Char.GetShortUIName|U] #positive_value aumenta moderatamente#!"
+
+ senior_knight_gains_nickname_tt:0 "[senior_knight.GetShortUIName] potrebbe ottenere un [nickname|e] suggestivo"

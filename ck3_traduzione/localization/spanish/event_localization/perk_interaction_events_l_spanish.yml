@@ -1,0 +1,11 @@
+﻿l_spanish:
+ perk_interaction.0002.t:0 "Una Rivendicazione sulle mie Terre!"
+ perk_interaction.0002.same_faith:0 "Per qualche motivo inspiegabile, i [actor.GetFaith.AltPriestTermPlural] hanno sanzionato le rivendicazioni totalmente infondate di [actor.GetTitledFirstNamePossessive] su [target.GetName]!"
+ perk_interaction.0002.other_faith:0 "I sacerdoti ciarlatani della fede [actor.GetFaith.GetAdjective] hanno dichiarato pubblicamente il loro supporto alle rivendicazioni totalmente infondate di [actor.GetTitledFirstNamePossessive] su [target.GetName]!"
+ perk_interaction.0002.a:1 "Gliela farò vedere quando sarà il momento..."
+
+ perk_interaction.0102.actor_toast.t:0 "Il tuo incontro con [recipient.GetFirstNameNoTooltip] è stato Invalidato"
+ perk_interaction.0102.recipient_toast.t:0 "Il tuo incontro con [actor.GetFirstNameNoTooltip] è stato Invalidato"
+ perk_interaction.0102.bout_invalidated.tt:0 "Il cambiamento delle circostanze ti ha costretto ad annullare"
+ perk_interaction.0101.victor_toast.t:0 "Sei Vittorios[ROOT.Char.Custom('DE_END_PRO_S_N')] contro [sc_loser.GetFirstNameNoTooltip]"
+ perk_interaction.0101.loser_toast.t:0 "Hai perso contro [sc_victor.GetFirstNameNoTooltip]"

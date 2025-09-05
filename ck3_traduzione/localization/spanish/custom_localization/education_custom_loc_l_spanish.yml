@@ -1,0 +1,81 @@
+﻿l_spanish:
+ martial_good_trait_match_good_outcome:0 "Essendo un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] attiv[ROOT.Char.Custom('DE_END_PRO_S_N')] ed entusiasta, non è una sorpresa che [ROOT.Char.GetFirstName] sia andat[ROOT.Char.Custom('DE_END_PRO_S_N')] bene nei suoi studi di guerra e combattimento."
+ martial_bad_trait_match_good_outcome:0 "Dire che l'indisciplinat[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetFirstName] non fosse tagliat[ROOT.Char.Custom('DE_END_PRO_S_N')] per una vita di guerra è un eufemismo. Tuttavia, [ROOT.Char.GetSheHe] ha superato ogni aspettativa."
+ martial_neutral_trait_match_good_outcome:0 "Grazie alla supervisione di un insegnante adeguato, persino un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] come [ROOT.Char.GetFirstName], con una scarsa inclinazione naturale per la guerra, è stat[ROOT.Char.Custom('DE_END_PRO_S_N')] in grado di arrivare a comprenderla appieno."
+ education_martial_3_outcome_description:0 "Ha mostrato una grande attitudine sia nelle tattiche di battaglia che nella gestione degli eserciti. Un giorno sarà un buon comandante, ne sono certo."
+ education_martial_3_outcome_description_not_commander:0 "Ha mostrato una grande attitudine sia nelle tattiche di battaglia che nella gestione degli eserciti. È un peccato che non comanderà mai degli eserciti."
+ education_martial_4_outcome_description:0 "È impressionante vedere una tale abilità in qualcuno di così giovane. Dimostra un livello di intuizione che è raro persino tra i comandanti veterani!"
+ 
+ martial_good_trait_match_bad_outcome:0 "Si era pensato che la natura energica di [ROOT.Char.GetFirstNamePossessive] fosse il segno di un'affinità verso la guerra e il combattimento, ma forse era semplicemente sregolatezza."
+ martial_bad_trait_match_bad_outcome:1 "[ROOT.Char.GetFirstName] non ha mai mostrato grande interesse per la materia della guerra, ma ho sempre sperato che si trattasse di una fase passeggera. Ero in errore."
+ martial_neutral_trait_match_bad_outcome:1 "Per molto tempo ho sperato che una buona tutela sarebbe stata sufficiente ad insegnare a [ROOT.Char.GetFirstName] la complessità della guerra. Ero in errore."
+ education_martial_1_outcome_description:2 "Ha mostrato una scarsa comprensione della materia, ma almeno sa da quale parte si impugna una spada, e potrebbe persino essere in grado di distinguere un fante da un $knight_culture_player_no_tooltip_lowercase$."
+ education_martial_2_outcome_description:1 "Ha sviluppato solo una comprensione basilare della materia, ma almeno ha imparato l'essenziale della gestione di un esercito. Posso solo sperare che il resto arrivi con l'esperienza."
+
+ education_martial_prowess_1_outcome_description:1 "\n\nA livello personale, ha appreso poco dai suoi studi di $knight_culture_player_adjective_no_tooltip_lowercase$, ed è molto maldestr[ROOT.Char.Custom('DE_END_PRO_S_N')] nei combattimenti uno contro uno."
+ education_martial_prowess_2_outcome_description:1 "\n\nA livello personale, ha anche combattuto con successo contro piccoli gruppi di ribelli contadini, dimostrando di essere un $knight_culture_player_no_tooltip_lowercase$ competente."
+ education_martial_prowess_3_outcome_description:0 "\n\nA livello personale, ha dimostrato di essere un combattete di successo negli scontri ravvicinati, abile nel maneggiare la sua spada e nel gestire il suo seguito come un'unità coesa."
+ education_martial_prowess_4_outcome_description:0 "\n\nA livello personale, si è dimostrat[ROOT.Char.Custom('DE_END_PRO_S_N')] un combattente individuale incredibilmente abile, padroneggiando persino la più difficile forma di combattimento tradizionale [ROOT.Char.GetCulture.GetNameNoTooltip]."
+
+ diplomacy_good_trait_match_good_outcome:0 "Persino da bambin[ROOT.Char.Custom('DE_END_PRO_S_N')], [ROOT.Char.GetFirstName] ha sempre saputo usare le parole. Non deve perciò sorprendere che se la sia cavata bene nello studio delle relazioni diplomatiche."
+ diplomacy_good_trait_match_bad_outcome:0 "Nonostante sia un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] che ama chiacchierare, [ROOT.Char.GetFirstName] a volte ha difficoltà ad andare d'accordo con le persone."
+ diplomacy_bad_trait_match_good_outcome:0 "Sebbene vada raramente d'accordo con gli altri bambini, [ROOT.Char.GetFirstName] ha mostrato una soprendente attitudine per le manovre diplomatiche."
+ diplomacy_bad_trait_match_bad_outcome:0 "[ROOT.Char.GetFirstName] era sempre così concentrat[ROOT.Char.Custom('DE_END_PRO_S_N')] su ciò che #EMP [ROOT.Char.GetSheHe]#! voleva, che forse non dovrebbe essere una grande sorpresa che abbia avuto grandi difficoltà nell'apprendere come influenzare gli altri."
+ diplomacy_neutral_trait_match_good_outcome:0 "Grazie alla supervisione di un insegnante adeguato, persino un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] come [ROOT.Char.GetFirstName], con una scarsa inclinazione naturale per l'influenza diplomatica, è stat[ROOT.Char.Custom('DE_END_PRO_S_N')] in grado di arrivare a comprenderla appieno."
+ diplomacy_neutral_trait_match_bad_outcome:0 "Per molto tempo ho sperato che una buona tutela sarebbe stata sufficiente ad insegnare a [ROOT.Char.GetFirstName] le complessità della diplomazia. Tutti gli sforzi sono stati vani, purtroppo."
+
+ stewardship_good_trait_match_good_outcome:0 "Un[ROOT.Char.Custom('DE_PRO_PER_P_3P_G')][Select_CString( ROOT.Char.IsFemale, 'amministratore', 'amministratrice' )] nat[ROOT.Char.Custom('DE_END_PRO_S_N')], non dovrebbe sorprendere nessuno che [ROOT.Char.GetFirstName] sia arrivat[ROOT.Char.Custom('DE_END_PRO_S_N')] lontano nei suoi studi sulla gestione del reame."
+ stewardship_good_trait_match_bad_outcome:0 "Sebbene sembri sempre cercare autorità e ordine, [ROOT.Char.GetFirstName] non è diventat[ROOT.Char.Custom('DE_END_PRO_S_N')] tanto competente quanto si era previsto nell'amministrazione di terre e persone."
+ stewardship_bad_trait_match_good_outcome:0 "Sebbene fosse più interessat[ROOT.Char.Custom('DE_END_PRO_S_N')] ai pettegolezzi riguardo la gente del reame piuttosto che alle sue teasse e ai suoi censimenti, [ROOT.Char.GetFirstName] ha sviluppato un'attitudine per l'amministrazione."
+ stewardship_bad_trait_match_bad_outcome:0 "Forse non sorprende che l'ossessione di [ROOT.Char.GetFirstNamePossessive] per i più piccoli dettagli della vita delle persone, non sia stata di beneficio per la sua comprensione dell'amministrazione dell'intero reame."
+ stewardship_neutral_trait_match_good_outcome:0 "Grazie alla supervisione di un insegnante adeguato, persino un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] come [ROOT.Char.GetFirstName], con una scarsa inclinazione naturale per l'amministrazione, è stat[ROOT.Char.Custom('DE_END_PRO_S_N')] in grado di arrivare a comprenderla appieno."
+ stewardship_neutral_trait_match_bad_outcome:0 "Per molto tempo ho sperato che una buona tutela sarebbe stata sufficiente ad insegnare a [ROOT.Char.GetFirstName] le complessità dell'amministrazione. Tutti gli sforzi sono stati vani, purtroppo."
+
+ intrigue_good_trait_match_good_outcome:0 "Essendo stat[ROOT.Char.Custom('DE_END_PRO_S_N')] sempre [ROOT.Char.Custom('DE_ART_DEF_P_A')] figli[ROOT.Char.Custom('DE_END_PRO_S_N')] più intelligente, [ROOT.Char.GetFirstName] ha dato prova, numerose volte nel corso dei suoi studi di avere un'affinità naturale per l'attenta pianificazione, e niente altro che qualche piccola distrazione."
+ intrigue_good_trait_match_bad_outcome:0 "Nonostante abbia avuto più di una buona dose di esperienza con la menzogna da bambin[ROOT.Char.Custom('DE_END_PRO_S_N')], [ROOT.Char.GetFirstName] ha sempre trovato difficoltà a sfruttare quel tipo di creatività."
+ intrigue_bad_trait_match_good_outcome:0 "Nonostante sia stat[ROOT.Char.Custom('DE_END_PRO_S_N')] un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] introvers[ROOT.Char.Custom('DE_END_PRO_S_N')], spesso pers[ROOT.Char.Custom('DE_END_PRO_S_N')] nei suoi pensieri, [ROOT.Char.GetFirstName] ha sviluppato un debole per l'arte della manipolazione."
+ intrigue_bad_trait_match_bad_outcome:0 "Essendo stato un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] tranquill[ROOT.Char.Custom('DE_END_PRO_S_N')] e solitari[ROOT.Char.Custom('DE_END_PRO_S_N')], [ROOT.Char.GetFirstName] non ha mai mostrato molto interesse nel farsi strada."
+ intrigue_neutral_trait_match_good_outcome:0 "Grazie alla supervisione di un insegnante adeguato, persino un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] come [ROOT.Char.GetFirstName], con una scarsa inclinazione naturale nei confronti della cauta pianficazione, è stat[ROOT.Char.Custom('DE_END_PRO_S_N')] in grado di arrivare a capirne i suoi usi."
+ intrigue_neutral_trait_match_bad_outcome:0 "Per molto tempo ho sperato che una buona tutela sarebbe stata sufficiente ad insegnare a [ROOT.Char.GetFirstName] le complessità dell'attenta pianificazione. Tutti gli sforzi sono stati vani, purtroppo."
+
+ learning_good_trait_match_good_outcome:0 "Essendo sempre stat[ROOT.Char.Custom('DE_END_PRO_S_N')] un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] figli[ROOT.Char.Custom('DE_END_PRO_S_N')] curios[ROOT.Char.Custom('DE_END_PRO_S_N')] e affamat[ROOT.Char.Custom('DE_END_PRO_S_N')] di conoscenza, [ROOT.Char.GetFirstName] ha mostrato un'affinità per la scuola già in tenera età."
+ learning_good_trait_match_bad_outcome:0 "Nonostante sia stat[ROOT.Char.Custom('DE_END_PRO_S_N')] un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] curios[ROOT.Char.Custom('DE_END_PRO_S_N')], ansios[ROOT.Char.Custom('DE_END_PRO_S_N')] di apprendere, crescendo, l'attenzione di [ROOT.Char.GetFirstNamePossessive] è virata altrove."
+ learning_bad_trait_match_good_outcome:0 "Nonostante sia sempre sembrat[ROOT.Char.Custom('DE_END_PRO_S_N')] un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] così disattent[ROOT.Char.Custom('DE_END_PRO_S_N')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')], [ROOT.Char.GetFirstName] ha dato prova che la totale dedizione nello studio non è ciò che rende uno studioso tale."
+ learning_bad_trait_match_bad_outcome:0 "Essendo stat[ROOT.Char.Custom('DE_END_PRO_S_N')] un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] così disattent[ROOT.Char.Custom('DE_END_PRO_S_N')], non è difficile capire perché [ROOT.Char.GetFirstName] abbia avuto difficoltà a fare i conti con lo studio."
+ learning_neutral_trait_match_good_outcome:0 "Grazie alla supervisione di un insegnante adeguato, persino un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] come [ROOT.Char.GetFirstName], con una scarsa inclinazione naturale per lo studio, è stat[ROOT.Char.Custom('DE_END_PRO_S_N')] in grado di arrivare a comprendere appieno qualsiasi materia."
+ learning_neutral_trait_match_bad_outcome:0 "Per molto tempo ho sperato che una buona tutela sarebbe stata sufficiente ad insegnare a [ROOT.Char.GetFirstName] le complessità di qualsiasi tipo di materia. Tutti gli sforzi sono stati vani, purtroppo."
+
+
+
+ education_diplomacy_1_outcome_description:1 "Le pratiche di cortesia e onore sono una vera sfida per [ROOT.Char.GetSheHe], ma almeno conosce le basi dell'etichetta."
+ education_diplomacy_2_outcome_description:1 "Di qualsiasi corte si tratti, sarebbero ben pochi coloro che rimarrebbero oltremodo affascinati dalla sua comprensione dell'etichetta, ma almeno, [ROOT.Char.GetSheHe] sa come comportarsi in presenza della gente perbene."
+ education_diplomacy_3_outcome_description:0 "Con un'ottima padronanza di tutte le maniere dell'etichetta, e con una comprensione di tutti i tipi di intrattenimento, e l'eloquenza che ne consegue, [ROOT.Char.GetSheHe] avrà pochi problemi nel condurre una vita a corte."
+ education_diplomacy_4_outcome_description:0 "Una vera lingua d'argento, [ROOT.Char.Custom('DE_ART_IND_A')] sarebbe in grado di influenzare l'opinione di Conti e Re! Quando parla, la corte ascolta in un rapito silenzio."
+
+ education_stewardship_1_outcome_description:0 "Forse potrebbe essere considerat[ROOT.Char.Custom('DE_END_PRO_S_N')] fortunat[ROOT.Char.Custom('DE_END_PRO_S_N')] ad aver padroneggiato l'arte di contare le monete, perché la maggior parte degli altri aspetti di un amministratore sembra essergli sfuggita."
+ education_stewardship_2_outcome_description:1 "In pochi sarebbero impressionati dalla sua comprensione della materia, ma ha quantomeno sviluppato una solida conoscenza delle basi della gestione e di una sensata parsimonia."
+ education_stewardship_3_outcome_description:0 "Mostra una profonda comprensione del flusso dell'oro e degli spostamenti delle persone, esprime persino una straordinaria creatività nell'affrontare tali questioni."
+ education_stewardship_4_outcome_description:0 "Non content[ROOT.Char.Custom('DE_END_PRO_S_N')] di aver compreso il flusso del denaro e delle persone, [ROOT.Char.Custom('DE_ART_IND_A')] sembra capace di predirlo come per istinto! Inoltre, trova sempre nuovi modi per trarne profitto."
+
+ education_intrigue_1_outcome_description:0 "Non avendo né delicatezza né pazienza, per [ROOT.Char.GetSheHe] è difficile mettere in atto i suoi piani a lungo termine. Perlomeno [ROOT.Char.GetSheHe] prova a fare dei piani."
+ education_intrigue_2_outcome_description:1 "Sebbene abbia dimostrato di essere pienamente capace di pianificare intrighi meschini, pochi parlerebbero di raffinatezza, ma la raffinatezza non è sempre ciò di cui hai bisogno."
+ education_intrigue_3_outcome_description:0 "Adesso conosce molti modi per ottenere ciò che vuole. Ma cosa più importante, è pienamente cosciente delle implicazioni politiche di quei desideri."
+ education_intrigue_4_outcome_description:0 "Ora è più difficle da dire, purtroppo. Tutto ciò che gli viene assegnato viene fatto da altri prima di [ROOT.Char.GetSheHe], e non dice più bugie meschine come faceva prima. Forse non era intelligente come sembrava dopotutto."
+
+ education_learning_1_outcome_description:0 "La ricerca della conoscenza, non ha mai messo correttamente radici nella sua mente, e ora il tempo speso tra libri e tomi sembra essere per [ROOT.Char.GetSheHe] più un obbligo che una gioia."
+ education_learning_2_outcome_description:0 "Non un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] grande studios[ROOT.Char.Custom('DE_END_PRO_S_N')], perlomeno è riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] a memorizzare alcune citazioni dai classici. Probabilmente non scriverà mai nessun grande teorema, ma potrebbe leggerne uno o due."
+ education_learning_3_outcome_description:0 "Un[ROOT.Char.Custom('DE_PRO_PER_P_3P_G')]avid[ROOT.Char.Custom('DE_END_PRO_S_N')] apprendista, è diventat[ROOT.Char.Custom('DE_END_PRO_S_N')] un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] ver[ROOT.Char.Custom('DE_END_PRO_S_N')] [Select_CString( ROOT.Char.IsFemale, 'dispensatrice', 'dispensatore' )] di conoscenza, e ha dato prova di essere pienamente in grado di strutturare argomenti teorici e teologici avanzati."
+ education_learning_4_outcome_description:0 "La sua comprensione dei lavori filosofici e teorici è impressionante, e spesso si impegna in dibattiti con i suoi ex insegnanti. Persino in così giovane età [ROOT.Char.Custom('DE_PRO_POS_P_3P')] si può sentire citare ignoti passaggi per supportare nuove idee e teorie."
+
+
+ ChildhoodPersonalityTrait_charming:0 "[GetTrait('charming').GetName( ROOT.Char )]"
+ ChildhoodPersonalityTrait_rowdy:0 "[GetTrait('rowdy').GetName( ROOT.Char )]"
+ ChildhoodPersonalityTrait_bossy:0 "[GetTrait('bossy').GetName( ROOT.Char )]"
+ ChildhoodPersonalityTrait_curious:0 "[GetTrait('curious').GetName( ROOT.Char )]"
+ ChildhoodPersonalityTrait_pensive:0 "[GetTrait('pensive').GetName( ROOT.Char )]"
+
+ diplomatic_education: "$education_diplomacy_loc$"
+ martial_education: "$education_martial_loc$"
+ stewardship_education: "$education_stewardship_loc$"
+ intrigue_education: "$education_intrigue_loc$"
+ learning_education: "$education_learning_loc$"

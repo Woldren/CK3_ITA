@@ -1,0 +1,83 @@
+﻿l_spanish:
+#Shelter from the Storm
+ bp1_yearly.0100.t:0 "Ripararsi dalla Tempesta"
+ bp1_yearly.0100.desc:0 "I cieli presagiscono sventura, il vento geme: arriva un maelstrom!"
+
+ bp1_yearly.0100.sedentary_traveller:0 "\n\nIn questo strano angolo di terra dominano casupole malandate, sporche e minuscole."
+ bp1_yearly.0100.nomadic_traveller:0 "\n\nNon c'è tempo per montare il campo prima che arrivi la tempesta."
+ bp1_yearly.0100.sedentary_host:0 "Ci siamo imbattuti in un'unica casa di campagna semidecente... ma l'abitazione è di proprietà [host.Custom('DE_PRO_PER_P_3P_A')] mi[host.Custom('DE_END_PRO_S_N')] turpe [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('host'))] [host.GetFirstName].\n\nSono sferzat[ROOT.Char.Custom('DE_END_PRO_S_N')] dalla tempesta che monta."
+ bp1_yearly.0100.nomadic_host:0 "Per fortuna ci siamo imbattuti in un vero e proprio accampamento. Sfortunatamente... quelli che si trovano all'interno sono della tribù [host.Custom('DE_PRO_PER_P_3P_A')] mi[host.Custom('DE_END_PRO_S_N')] turpe [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('host'))] [host.GetFirstName].\n\nSono sferzat[ROOT.Char.Custom('DE_END_PRO_S_N')] dalla tempesta che monta."
+
+ bp1_yearly.0100.lover_welcome:0 "Forse [host.GetFirstNameNoTooltip] è molto lontan[host.Custom('DE_END_PRO_S_N')]? Forse la fortuna è benevola e [lover.Custom('DE_ART_DEF_P_A')] su[lover.Custom('DE_END_PRO_S_N')] seducente [host.Custom2('RelationToMeShort', SCOPE.sC('lover'))] [lover.GetFirstName] è qui per accogliermi?"
+ bp1_yearly.0100.friend_welcome:0 "Forse [host.GetFirstNameNoTooltip] è molto lontan[host.Custom('DE_END_PRO_S_N')]? Forse la fortuna è benevola e [lover.Custom('DE_ART_DEF_P_A')] su[lover.Custom('DE_END_PRO_S_N')] [befriend.Custom('ComplimentAdjective')] [host.Custom2('RelationToMeShort', SCOPE.sC('befriend'))] [befriend.GetFirstName] è qui per accogliermi?"
+
+ bp1_yearly.0100.close:0 "In un modo o nell'altro... sarà una lunga notte."
+
+
+
+ bp1_yearly.0100.a:0 "Sorridete, messeri!"
+ bp1_yearly.0100.a.tt:0 "Una misera ospitalità ci attende..."
+ bp1_yearly.0100.a_title:0 "Una notte infelice e paranoica"
+ bp1_yearly.0100.a.success_chance:0 "Qualsiasi [scheme|E] che [host.GetShortUINameNoTooltip] ha contro di te ottiene 15 di [success_chance|E]"
+
+ bp1_yearly.0100.b:0 "Forse è qui che vivono i segreti di famiglia..."
+ bp1_yearly.0100.b.tt:0 "Ti metti al riparo... e hai l'opportunità di curiosare in giro"
+ bp1_yearly.0100.b.tt_success:0 "La notte dà i suoi frutti"
+ bp1_yearly.0100.b.secrets:0 "Apprendi un [secret|E] appartenente a [host.GetFirstName] o alla sua [family|E]"
+ bp1_yearly.0100.b.tt_failure:0 "Non trovi armadi pieni di scheletri"
+ bp1_yearly.0100.b.tt_crit_failure:0 "Sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] colt[ROOT.Char.Custom('DE_END_PRO_S_N')] in flagrante"
+
+ bp1_yearly.0100.c:0 "Perché litigare con [befriend.GetFirstNameNoTooltip]...?"
+ bp1_yearly.0100.c.tt:0 "Per [befriend.GetTitledFirstName], puoi evocare il buon umore"
+ bp1_yearly.0100.c.tt_success:0 "Ti leghi strettamente [befriend.Custom('DE_END_ADJ_DEF_P_A')] tu[befriend.Custom('DE_END_PRO_S_N')] nemic[befriend.Custom('DE_END_PRO_S_N')] [host.Custom2('RelationToMeShort', SCOPE.sC('befriend'))]"
+ bp1_yearly.0100.c.tt_failure:0 "Il tuo fascino è apprezzato"
+ bp1_yearly.0100.c.tt_crit_failure:0 "Condividi una terribile notte di litigi"
+
+ bp1_yearly.0100.d:0 "Non c'è niente di meglio di un appuntamento segreto..."
+ bp1_yearly.0100.d.tt:0 "[host.GetFirstNamePossessiveNoTooltip] [host.Custom2('RelationToMeShort', SCOPE.sC('lover'))] potrebbe essere all'interno, desideros[lover.Custom('DE_END_PRO_S_N')] di liberarti dai tuoi abiti da viaggio..."
+ bp1_yearly.0100.d.tt.success:0 "[lover.GetSheHe|U] ti aspetta"
+ bp1_yearly.0100.d.tt.sex:0 "Dormi con [lover.GetShortUINameNoTooltip]"
+ bp1_yearly.0100.d.tt_failure:0 "Una notte in solitudine"
+ bp1_yearly.0100.d.tt_no_sex:0 "Non c'è traccia dell'affascinante [lover.GetShortUINameNoTooltip]"
+
+ bp1_yearly.0100.e:0 "Le nostre spade garantiranno un riparo."
+ bp1_yearly.0100.e.tt:0 "Sorridere falsamente? No, preferisci legare i tuoi padroni di casa"
+ bp1_yearly.0100.e.wounded_chance:0 "La tua [prowess|E] determina se sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] ferit[ROOT.Char.Custom('DE_END_PRO_S_N')]"
+ bp1_yearly.0100.e.tt_success:0 "Grazie alla copertura della tempesta, sei inarrestabile"
+ bp1_yearly.0100.e.tt_failure:0 "Sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] rigettat[ROOT.Char.Custom('DE_END_PRO_S_N')] in mezzo alle intemperie"
+
+ bp1_yearly.0100.f:0 "Sarebbe preferibile un buco nel terreno."
+ bp1_yearly.0100.f.tt_success:0 "Sopporti le intemperie... a malapena"
+ bp1_yearly.0100.f.sick:0 "Potresti diventare [GetTrait('ill').GetName( GetNullCharacter )]"
+ bp1_yearly.0100.f.tt_failure:0 "La notte è lunga. La tempesta è crudele"
+ bp1_yearly.0100.f.very_sick:0 "Potresti contrarre la [GetTrait('pneumonic').GetName( GetNullCharacter )]"
+
+ bp1_yearly.0101.t:0 "Tempesta nella Natura Selvaggia"
+ bp1_yearly.0101.desc:0 "Sottovoce, ringrazio [ROOT.Char.GetFaith.FertilityGodName] per aver tenuto [lover.Custom('DE_ART_DEF_P_A')] ripugnante [lover.Custom2('RelationToMeShort', SCOPE.sC('host'))] [lover.Custom('DE_PRO_PER_P_3P_A')] [lover.GetTitledFirstName] lontano da questo umile luogo.\n\nMentre la tempesta fa la guerra al cielo, la sua furia risuona intorno a noi,"
+
+ bp1_yearly.0101.gentle_flirt:0 "[lover.GetFirstNameNoTooltip] rabbrividisce attimo dopo attimo. Questa paura è solo una recita? Qualcosa si agita nel suo sguardo, dietro il suo sorriso formale. I suoi occhi mi dicono... si."
+ bp1_yearly.0101.protective_flirt:0 "[lover.GetFirstNameNoTooltip] si comporta in modo sicuro, protettivo. [lover.Custom('DE_END_PRO_P_A')] sorrido con gratitudine, gentilmente, e in breve tempo... [lover.GetSheHe] scivola in un silenzio estasiato. È mi[lover.Custom('DE_END_PRO_S_N')]."
+
+ bp1_yearly.0101.finish:0 "\n\nL'angolo nel quale ci appartiamo è buio. Molto buio. E nulla di ciò che facciamo, col suo corpo affamato, sotto i miei vestiti sporchi di terra, può essere ascoltato attraverso il tumulto della natura.\n\nL'unico suono che esce dalle mia bocca è un'imprecazione rivolta al[lover.Custom('DE_END_ADJ_NUL_S_N')] su[lover.Custom('DE_END_PRO_S_N')] [lover.Custom2('RelationToMeShort', SCOPE.sC('host'))]. E, proprio in quel momento, la mia vittoria è completa."
+
+ bp1_yearly.0101.a:0 "Ma è #EMP te#! che sogno, [lover.GetFirstNameNoTooltip]!"
+ bp1_yearly.0101.b:0 "Un unico, delizioso insulto."
+
+ bp1_yearly.0102.opening:0 "[host.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ bp1_yearly.0102.desc:0 "Avete dormito bene? Godetevi l'ospitalità del mio popolo il tempo di una notte,"
+
+ bp1_yearly.0102.desc_weak:0 "per riposare i vostri gloriosi piedi?"
+ bp1_yearly.0102.desc_powerful:0 "per sognare di poter essere me?"
+
+ bp1_yearly.0102.uneventful_night:0 "\n\nMi è stato detto che voi eravate un[host.Custom('DE_PRO_POS_P_2P')] mendicante tutt'altro che attraente, invadente e sporc[host.Custom('DE_END_PRO_S_N')] di sterco."
+ bp1_yearly.0102.failed_snoop:0 "\n\nI vostri diritti quale Signor[host.Custom('DE_END_PRO_S_N')] di queste terre hanno dei limiti. Mi sono assicurat[ROOT.Char.Custom('DE_END_PRO_S_N')] che tutti sappiano che non li rispettate."
+ bp1_yearly.0102.warm_welcome:0 "\n\nSe solo fossi stat[ROOT.Char.Custom('DE_END_PRO_S_N')] presente per respingervi. [befriend.GetTitledFirstName] ha sempre avuto dei pessimi gusti."
+ bp1_yearly.0102.cold_welcome:0 "\n\n[befriend.Custom('DE_ART_DEF_P_D')] vostr[befriend.Custom('DE_END_PRO_S_N')] anfitrione [befriend.GetTitledFirstName] ha imparato a odiarvi come me. Il mio cuore trabocca di gioia."
+ bp1_yearly.0102.erotic_welcome:0 "\n\nSe fossi stat[ROOT.Char.Custom('DE_END_PRO_S_N')] presente, sareste stat[lover.Custom('DE_END_PRO_S_N')] cacciat[lover.Custom('DE_END_PRO_S_N')] alla prima parola odiosa che avete pronunciato nei confronti [lover.Custom('DE_PRO_PER_P_3P_A')] mi[lover.Custom('DE_END_PRO_S_N')] [host.Custom2('RelationToMeShort', SCOPE.sC('lover'))], vile serpente."
+ bp1_yearly.0102.attack_success:0 "\n\nAvete attaccato i miei uomini come un animale spaventato, senza onore né cortesia, come siete solito fare."
+ bp1_yearly.0102.attack_fail:0 "\n\nNo? Ah, giusto. #EMP Avete provato#! ad assalirci, ma siete stato ricacciato indietro come la bestia che siete merita. I vostri sforzi sono stati patetici."
+
+ bp1_yearly.0102.close:0 "\n\nChe la prossima tempesta vi spazzi via dalla faccia della terra."
+
+ bp1_yearly.0102.a:0 "Investite in letti più comodi, zoticone!"
+ bp1_yearly.0102.b:0 "Non è il cielo che dovete temere, [host.GetFirstNameNoTooltip]..."

@@ -1,0 +1,51 @@
+﻿l_spanish:
+ bm_1066_hastings:0 "Il Destino dell'Inghilterra"
+ bm_1066_hastings_desc:2 "Quando il Re senza figli, Edoardo il Confessore morì, l'Inghilterra cadde in una crisi di successione come non ve ne erano mai state prima.\n\nTre uomini cercano di assicurarsi il trono: Harold Godwinson, William il Bastardo, e Harald Hardrade, mentre Svend e Malcolm rimasero a guardare, pronti a intervenire al minimo segno di debolezza.\n\n#bold Chi si ergerà vittorioso dopo questi tempi tumultuosi nella storia?#!"
+
+ bookmark_hastings_england:0 "Re Harold d'Inghilterra"
+ bookmark_hastings_england_desc:2 "Harold Godwinson era il leader di una potente e nobile Casata, e il cognato del Re, quando Re Edoardo morì senza figli. Adesso, eletto nuovo Re d'Inghilterra dai suoi pari, egli si trova ad affrontare la sfida di restare sul trono, mentre l'avido Duca di Normandia, così come Re Harald di Norvegia, spronato e aiutato dal fratello esiliato di Harold, mira a rimpiazzarlo!\n\n#bold Con un grande esercito alle tue spalle e il supporto dei signori Anglo-Sassoni, scopriranno che i lupi hanno morso più di quanto potessero masticare?"
+
+ bookmark_hastings_england_alt_tostig:0 "$Tostig$"
+ bookmark_hastings_england_alt_eadgifu:0 "$Eadgifu$ $nick_the_fair$"
+
+ bookmark_hastings_normandy:0 "Guglielmo il Bastardo"
+ bookmark_hastings_normandy_desc:1 "La Casata di Normandia fa risalire il proprio lignaggio ai vichinghi Norreni, e si è stabilita nel continente Europeo oltre 200 anni fa. Ora, Guglielmo II sogna di portare la sua famiglia a governare il Regno d'Inghilterra, ed egli crede che il suo stato di successore al trono gli sia stato promesso dal vecchio Re Edoardo, e persino riconosciuto da Harold Godwinson stesso. Nonostante ciò, ora che Edoardo è morto, Harold ha rotto il suo giuramento e preso la corona per se stesso!\n\n#bold Guglielmo è in guerra con l'Inghilterra. Puoi adunare le tue forze e reclamare ciò che è tuo di diritto?"
+
+ bookmark_hastings_normandy_alt_robert:0 "$Robert$ $nick_the_curthose$"
+ bookmark_hastings_normandy_alt_william:0 "$William$ $nick_the_red$"
+
+ bookmark_hastings_norway:0 "Harald Hardrade"
+ bookmark_hastings_norway_desc:1 "Avendo dimostrato un formidabile talento militare già in giovane età, Harald ha recentemente provato, e fallito, a conquistare la Danimarca. Ora, egli guarda oltre il mare. Per antico contratto, la corona d'Inghilterra sarebbe dovuta passare a Harald, quando l'ultimo Re morì senza un erede. Ma, invece, gli Anglo-Sassoni hanno messo Harold Godwinson sul trono! Fortunatamente, il falso Re si è fatto dei nemici, e Tostig Godwinson, il fratello di Harold, vive in esilio in Norvegia...\n\n#bold Usando i suoi stessi nemici contro di lui, riuscirai a dare a questo vichingo Variago il controllo sul Mare del Nord?"
+ 
+ bookmark_hastings_norway_alt_olaf:0 "$Olaf$"
+ bookmark_hastings_norway_alt_ingegerd:0 "$Ingegerd$"
+
+ bookmark_hastings_denmark:0 "Re Svend di Danimarca"
+ bookmark_hastings_denmark_desc:1 "Avendo legami di sangue tra Inghilterra e Norvegia, Svend possiede delle rivendicazioni forti su entrambi i troni. Sfortunatamente, i suoi eserciti sono piccoli e indisciplinati, rendendo inattuabile una guerra di conquista. Tuttavia, ci sono altri modi per perseguire i sogni di qualcuno...\n\n#bold Se i tuoi figli dovessero sposarsi con membri di famiglie potenti, ciò potrebbe garantire molte alleanze utili, alleanze su cui potresti fare leva per fondare un impero che possa rivaleggiare Roma stessa!#!"
+
+ bookmark_hastings_denmark_alt_harald:0 "$Harald$ $nick_the_whetstone$"
+ bookmark_hastings_denmark_alt_knud:0 "$Knud$"
+
+ bookmark_hastings_scotland:0 "Re Malcolm di Scozia"
+ bookmark_hastings_scotland_desc:1 "Noto in Scozia come il "Grande Capo", la situazione di Malcolm III è delicata, ma ricca di opportunità. Verso sud, le ricche terre di Northumbria, restano vulnerabili mentre l'Inghilterra è devastata dalla guerra, ma i signori della guerra Norreni e i montanari Gaelici contestano ancora l'autorità del Re a casa.\n\n#bold Le Isole Britanniche pullulano di pericoli e opportunità: sei in grado di cogliere una rosa da questo giardino di spine?#!"
+
+ bookmark_hastings_scotland_alt_duncan:0 "$Duncan$"
+ bookmark_hastings_scotland_alt_donald:0 "$Donald$ $nick_the_fair$"
+
+ war_1066_Norman_Conquest:0 "Conquista Normanna dell'Inghilterra"
+ war_1066_Harald_Invasion:0 "Invasione Norvegese dell'Inghilterra"
+ war_1066_Seljuk_Invasion:0 "Invasione Selgiuchida dell'Armenia"
+ war_1066_Sinhalese_Rebellion:0 "Ribellione Sinhalese"
+
+ debug_bm_1340_history:0 "#D Debug Storia: 1340#!"
+ debug_bm_1340_history_desc:0 "Esegui questo per eseguire il debug dei file della storia fino al 1340"
+
+ ### CHARACTERS
+
+ # 1066
+ KING_MALCOLM:0 "Re Malcolm"
+ KING_HAROLD:0 "Re Harold"
+ EADGIFU:0 "Eadgifu la Fiera"
+ BASTARD_WILLIAM:0 "William il Bastardo"
+ KING_SVEND:0 "Re Svend"
+ KING_HARALD:0 "Harald Hardrade"

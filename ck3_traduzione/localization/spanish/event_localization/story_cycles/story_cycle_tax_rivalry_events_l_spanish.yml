@@ -1,0 +1,87 @@
+﻿l_spanish:
+ tax_rivalry.t:0 "Sangue e Oro"
+
+ tax_rivalry.0011.t:0 "$tax_rivalry.t$: Fare la Pace"
+ tax_rivalry.0011.desc_intro:0 "[forgiven_rival.GetTitledFirstName|U] è stat[forgiven_rival.Custom('DE_END_PRO_S_N')] per lungo tempo una spina nel mio fianco, ma, forse, non deve necessariamente essere così."
+ tax_rivalry.0011.desc_opinion:0 "Non siamo affatto in cattivi rapporti e con un po' di buon senso potremmo persino diventare preziosi alleati, potendo contare l'uno sull'altro. Se solo ponessimo fine a questa faida."
+ tax_rivalry.0011.desc_compassion:0 "Non sono certo una persona a cui piace litigare a lungo, ma posso fidarmi del fatto che [forgiven_rival.GetSheHe] sia di mentalità aperta quanto la mia?"
+ tax_rivalry.0011.desc_unity:0 "Per il bene del clan, potrei fare pace con [forgiven_rival.GetSheHe], anche solo in pubblico, come facciata. Ma [forgiven_rival.GetTitledFirstNameNoTooltip] la penserà allo stesso modo?"
+ tax_rivalry.0011.desc_fallback:0 "Posso tender[forgiven_rival.Custom('DE_PRO_DEM')] la mano in segno di pace. Chissà se accetterà il mio ramoscello d'ulivo?"
+ tax_rivalry.0011.a:0 "Vediamo cosa ne pensa della mia idea."
+ tax_rivalry.0011.a.tt_ai:0 "Chiederò a [forgiven_rival.GetTitledFirstNameNoTooltip] di mettere da parte il nostro astio."
+ tax_rivalry.0011.a.tt_player:0 "Solo alla fine [forgiven_rival.GetTitledFirstNameNoTooltip|U] deciderà come rispondere."
+ tax_rivalry.0011.a.failure:0 "[forgiven_rival.GetTitledFirstNameNoTooltip] respinge la mia offerta"
+ tax_rivalry.0011.b:0 "[forgiven_rival.GetTitledFirstNameNoTooltip|U] assaggerà ancora la mia vendetta!"
+ tax_rivalry.0011.b.tt:0 "La nostra aspra rivalità ricomincerà."
+
+ tax_rivalry.0012.desc_intro_unfriendly:0 "Di solito tendo di evitare in ogni modo di menzionare [forgiven_rival.Custom('DE_ART_DEF_P_A')] [forgiving_rival.GetTitledFirstName], ma un particolare stato d'animo mi ha spint[ROOT.Char.Custom('DE_END_PRO_S_N')], in qualche modo, ad accettare la sua visita improvvisa e inaspettata nel mio cortile."
+ tax_rivalry.0012.desc_intro_friendly:0 "Anche se [forgiving_rival.GetTitledFirstName] ed io non siamo mai stati a contatto da quando sono iniziate le nostre beghe, ho comunque apprezzato la sua visita improvvisata nel mio cortile."
+ tax_rivalry.0012.desc_outro:0 "In cortile cenammo in un clima che non si può dire fosse esattamente piacevole. Improvvisamente [forgiving_rival.GetTitledFirstName] si è schiarit[forgiving_rival.Custom('DE_END_PRO_S_N')] la gola:\n\n"Se non fossimo impegnati in questa disputa, potremmo godere di molti altri pomeriggi come questo. Quindi non perdonerai le mie precedenti follie,[ROOT.Char.GetTitledFirstameNoTooltip]?""
+ tax_rivalry.0012.a:0 "Solo se perdonerete anche le mie."
+ tax_rivalry.0012.b:0 "Servi, scortate [forgiven_rival.GetTitledFirstNameNoTooltip] alla porta."
+
+ tax_rivalry.0013.desc_intro:0 "[forgiven_rival.GetTitledFirstName|U] ha accettato la mia proposta, e da oggi le nostre dispute pecuniarie sono solo un lontano ricordo."
+ tax_rivalry.0013.desc_outro_neutral:0 "Speriamo che l'amarezza del passato non macchi nuovamente le nostre relazioni in futuro..."
+ tax_rivalry.0013.desc_outro_vengeful:0 "Dopo tutto, ci saranno molte altre occasioni per metterl[forgiven_rival.Custom('DE_END_PRO_S_N')] a tacere senza che [forgiven_rival.GetHerHis] lo sappia..."
+ tax_rivalry.0013.a:0 "Si può solo sperare."
+
+ tax_rivalry.0014.desc:0 "Pare che, per il bene del regno, [forgiven_rival.Custom2('MyCharacterIntroduction', ROOT.Char)] e [forgiving_rival.Custom2('MyCharacterIntroduction', ROOT.Char)] abbiano messo da parte la loro piccola disputa. Solo il tempo ci dirà, però, se nuovi dissapori potranno nuovamente ridestare la controversia."
+ tax_rivalry.0014.a:0 "Vedremo."
+
+ tax_rivalry.1000.t:0 "$tax_rivalry.t$: Punto Cieco"
+ tax_rivalry.1000.desc:0 "[steward.GetTitledFirstNamePossessive|U] e [tax_collector.GetTitledFirstNamePossessive] stanno litigando e questo sta seriamente compromettendo le finanze del Regno. Nessuno dei due vuole mantenere una corrispondenza con il proprio rivale e di conseguenza i pagamenti vengono spesso ignorati, smarriti e persino persi.\n\n Mentre brontolo, mi rendo conto del pessimo lavoro svolto dai due. Come sarebbe facile, ad esempio, "smarrire" questa somma e far sì che ognuno incolpi l'altro della sua perdita..."
+ tax_rivalry.1000.b:0 "Dovrei seriamente rimproverarli per questa la loro negligenza."
+ tax_rivalry.1000.b.tt:0 "Ordino a [steward.GetTitledFirstNameNoTooltip] e [tax_collector.GetTitledFirstNameNoTooltip] di cessare immediatamente la loro rivalità."
+
+ tax_rivalry.1001.desc:0 "Le tasse per [liege.Custom2('MyCharacterIntroduction', ROOT.Char)] sono scomparse proprio mentre [other_rival.Custom2('MyCharacterIntroduction', ROOT.Char)] stava pagando le sue!\n\nSenza alcuna prova che indichi il contrario, io posso solo supporre che si tratti di un complotto di [other_rival.GetTitledFirstNamePossessiveNoTooltip] per calunniare il mio buon nome e la mia tesoreria."
+ tax_rivalry.1001.a:0 "Quel[other_rival.Custom('DE_END_ADJ_NUL_S_N')] [other_rival.Custom('InsultNoun')]!"
+
+ tax_rivalry.1002.desc:0 ""Voi due state diventando negligenti," [liege.Custom2('MyCharacterIntroduction', ROOT.Char)] spinge un sacchetto pieno d'oro verso la nostra estremità del tavolo. "Comunicate così poco tra di voi che sarebbe stato fin troppo facile per me appropriarmi delle vostre tasse e incolpare l'altro della loro scomparsa. Abbiate il buon senso di porre fine alle vostre inutili controversie.\n\n[liege.GetFirstNameNoTooltip] afferra la borsa, la mette via e inizia a fissarci intensamente."
+ tax_rivalry.1002.a:0 "Non succederà più."
+
+ tax_rivalry.3001.t:0 "$tax_rivalry.t$: La Rabbia"
+ tax_rivalry.3001.desc_intro:0 "Mentre medito sui torti di [sabotaged_rival.GetTitledFirstNameNoTooltip], mi viene in mente un piano davvero scellerato. Con una piccola corruzione, posso convincere i contadini di [sabotaged_county.GetNameNoTierNoTooltip] che [sabotaged_rival.GetTitledFirstNameNoTooltip] intende quintuplicare le loro tasse e ispirare una ribellione contro [liege.GetTitledFirstName.Custom('DE_ART_DEF_P_A')] nostr[liege.GetTitledFirstName.Custom('DE_END_PRO_S_N')] [liege.GetTitledFirstName]."
+ tax_rivalry.3001.desc_outro_assigned:0 "Naturalmente la colpa ricadrà su quel[sabotaged_rival.Custom('DE_END_ADJ_NUL_S_N')] [sabotaged_rival.Custom('InsultNoun')] per la cattiva gestione della contea."
+ tax_rivalry.3001.desc_outro_fallback:0 "Non importa che [sabotaged_rival.GetTitledFirstNameNoTooltip] non sia effettivamente a capo della contea, il danno sarà fatto."
+ tax_rivalry.3001.a:0 "Mandate a chiamare gli Araldi"
+ tax_rivalry.3001.a.tt:0 "Una [peasant_faction|E] si solleverà contro [sabotaged_rival.Custom('DE_ART_DEF_P_A')] tu[sabotaged_rival.Custom('DE_END_PRO_S_N')] Signor[sabotaged_rival.Custom('DE_END_ADJ_IND_S_A')] a [sabotaged_county.GetNameNoTierNoTooltip]"
+ tax_rivalry.3001.b:0 "Difendere la mia posizione è più importante."
+
+ tax_rivalry.3002.desc:0 "Vile [saboteur.Custom('InsultNoun')]! [saboteur.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha diffuso la falsa notizia che sto aumentando le tasse in [sabotaged_county.GetName]. Si è quindi radunata una folla di persone aizzanti contro il mio signore; nessuna parola mortale potrà placare la sua ira."
+ tax_rivalry.3002.a:0 "È stata tutta opera di [sabotatore.GetTitledFirstNamePossessiveNoTooltip]!"
+
+ tax_rivalry.3003.desc:0 "Oh, che buffonata... ora il [sabotaged_county.GetName] ha radunato della plebaglia che inveisce contro di me. Tutto questo è accaduto perché credevano che [sabotaged_rival.GetTitledFirstName] avrebbe aumentato le loro tasse!\n\n[sabotaged_rival.GetTitledFirstNameNoTooltip|U] sostiene che sia opera di [saboteur.GetTitledFirstName], ma una cosa è chiara: la rivalità tra di loro è ormai quasi fuori controllo."
+ tax_rivalry.3003.a:0 "Alle armi!"
+ tax_rivalry.3003.a.tt:0 "Una [peasant_faction|E] si solleverà contro di voi in [sabotaged_county.GetNameNoTierNoTooltip]"
+
+ tax_rivalry.4000.t: "$tax_rivalry.t$: Clan Diviso"
+ tax_rivalry_liege_notification_desc:0 "Questo è accaduto a causa della rivalità tra [steward.GetShortUIName] e [tax_collector.GetShortUIName]."
+ tax_rivalry_steward_notification_desc:0 "Questo è accaduto a causa della rivalità con [tax_collector.GetShortUIName]."
+ tax_rivalry_tax_collector_notification_desc:0 "Questo è accaduto a causa della tua rivalità con [steward.GetShortUIName]."
+ 
+ tax_rivalry.4010.t: "$tax_rivalry.t$: Un'Amara Rivalità"
+ tax_rivalry.4010.desc_liege_friendly:0 "Questo è accaduto nonostante i buoni rapporti tra di loro."
+ tax_rivalry.4010.desc_liege_unfriendly:0 "Questo è accaduto a causa dei cattivi rapporti tra di loro."
+ tax_rivalry.4010.desc_steward_friendly:0 "Questo è accaduto nonostante i miei buoni rapporti con [tax_collector.GetSheHe]."
+ tax_rivalry.4010.desc_steward_unfriendly:0 "Questo è accaduto a causa dei miei cattivi rapporti con [tax_collector.GetSheHe]."
+ tax_rivalry.4010.desc_tax_collector_friendly:0 "Questo è accaduto nonostante i miei buoni rapporti con [steward.GetSheHe]."
+ tax_rivalry.4010.desc_tax_collector_unfriendly:0 "Questo è accaduto a causa dei miei cattivi rapporti con [steward.GetSheHe]."
+
+ tax_rivalry.4011.t:0 "$tax_rivalry.t$:  Disgelo delle Relazioni"
+ tax_rivalry.4011.desc_liege_friendly:0 "Questo è accaduto grazie ai buoni rapporti tra di loro."
+ tax_rivalry.4011.desc_liege_unfriendly:0 "Questo è accaduto nonostante i cattivi rapporti di loro."
+ tax_rivalry.4011.desc_steward_friendly:0 "Questo è accaduto grazie ai miei buoni rapporti con [tax_collector.GetSheHe]."
+ tax_rivalry.4011.desc_steward_unfriendly:0 "Questo è accaduto nonostante i miei cattivi rapporti con [tax_collector.GetSheHe]."
+ tax_rivalry.4011.desc_tax_collector_friendly:0 "Questo è accaduto grazie ai miei buoni rapporti con [steward.GetSheHe]."
+ tax_rivalry.4011.desc_tax_collector_unfriendly:0 "Questo è accaduto nonostante i miei cattivi rapporti con [steward.GetSheHe]."
+
+ tax_rivalry.9000.t:0 "$tax_rivalry.t$:  Vittoria"
+ tax_rivalry.9000.desc:0 "Non devo più sopportare quel[other_rival.Custom('DE_END_ADJ_NUL_S_N')] [less_fortunate_rival.Custom('quirk_neg_noun')] di [less_fortunate_rival.GetTitledFirstName]. Per ora sono [ROOT.Char.Custom('MistressMaster')] del mio dominio, e [less_fortunate_rival.GetTitledFirstNameNoTooltip] saggerà un bastone molto più duro se [less_fortunate_rival.GetSheHe] dovesse osare di nuovo disturbare il mio regno."
+ tax_rivalry.9000.a:0 "È bello essere [ROOT.Char.GetTitleAsNameNoTooltip]."
+ tax_rivalry.9000.a.tt:0 "La tua rivalità con [less_fortunate_rival.GetTitledFirstNameNoTooltip] finirà, per il momento."
+
+ tax_rivalry.9001.t:0 "$tax_rivalry.t$: Sconfitta"
+ tax_rivalry.9001.desc:0 "Come potevo prevedere che [fortunate_rival.GetFullName] sarebbe diventato [fortunate_rival.GetTitleAsNameNoTooltip] di [fortunate_rival.GetPrimaryTitle.GetNameNoTooltip]? Se solo avessi agito prima, forse il mio destino non sarebbe stato segnato!"
+ tax_rivalry.9001.a_spurned:0 "Non è ancora finita!"
+ tax_rivalry.9001.a_neutral:0 "Così inizia un nuovo capitolo..."
+ tax_rivalry.9001.a.tt:0 "La tua rivalità con [fortunate_rival.GetTitledFirstNameNoTooltip] finirà, per il momento."

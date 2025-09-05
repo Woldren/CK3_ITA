@@ -1,0 +1,63 @@
+﻿l_spanish:
+ insult_poetry.0001.t:0 "Un Insulto!"
+ insult_poetry.0001.from_other:0 "[actor.GetTitledFirstName] ti ha mandato un poema:\n"
+ insult_poetry_line_1_a_01:0 "\nSei più stupido di una [ROOT.GetCharacter.Custom('rhyme_group_a_one')]"
+ insult_poetry_line_1_a_02:0 "\nSei più brutto di un [ROOT.GetCharacter.Custom('rhyme_group_a_one')]"
+ insult_poetry_line_1_b_01:0 "\nSei più stupido di un [ROOT.GetCharacter.Custom('rhyme_group_b_one')]"
+ insult_poetry_line_1_b_02:0 "\nSei più brutto di un [ROOT.GetCharacter.Custom('rhyme_group_b_one')]"
+ insult_poetry_line_1_c_01:0 "\nQualcuno che è di lignaggio troppo basso per [ROOT.Char.Custom('rhyme_group_c_one')]"
+ insult_poetry_line_1_c_02:0 "\nUn emarginato, indegno anche di un [ROOT.Char.Custom('rhyme_group_c_one')]"
+
+ insult_poetry_line_2_a_01:0 "\nCome nessuno nemmeno [ROOT.GetCharacter.Custom('rhyme_group_a_two')]"
+ insult_poetry_line_2_a_02:0 "\nPiù di Dio [ROOT.GetCharacter.Custom('rhyme_group_a_two')]"
+ insult_poetry_line_2_b_01:0 "\nStare intorno a te è un [ROOT.GetCharacter.Custom('rhyme_group_b_two')]"
+ insult_poetry_line_2_b_02:0 "\nPiù di nostro Signore [ROOT.GetCharacter.Custom('rhyme_group_b_two')]"
+ insult_poetry_line_2_c_01:0 "\nNemmeno degno di essere [ROOT.GetCharacter.Custom('rhyme_group_c_two')]"
+ insult_poetry_line_2_c_02:0 "\nSicuramente siete solito essere [ROOT.GetCharacter.Custom('rhyme_group_c_two')]"
+
+ insult_poetry_recipient_line_1_a_01:0 "\nSei più stupido di un [recipient.Custom('rhyme_group_a_one')]"
+ insult_poetry_recipient_line_1_a_02:0 "\nSei più brutto di un [recipient.Custom('rhyme_group_a_one')]"
+ insult_poetry_recipient_line_1_b_01:0 "\nSei più stupido di un [recipient.Custom('rhyme_group_b_one')]"
+ insult_poetry_recipient_line_1_b_02:0 "\nSei più brutto di un [recipient.Custom('rhyme_group_b_one')]"
+ insult_poetry_recipient_line_1_c_01:0 "\nQualcuno che è di troppo basso lignaggio per [ROOT.Char.Custom('rhyme_group_c_one')]"
+ insult_poetry_recipient_line_1_c_02:0 "\nUn emarginato, indegno anche di un [ROOT.Char.Custom('rhyme_group_c_one')]"
+
+ insult_poetry_recipient_line_2_a_01:0 "\nCome nessuno nemmeno [recipient.Custom('rhyme_group_a_two')]"
+ #insult_poetry_recipient_line_2_a_02: "\nPiù di Dio [recipient.Custom('rhyme_group_a_two')]"
+ insult_poetry_recipient_line_2_b_01:0 "\nStare intorno a te è un [recipient.Custom('rhyme_group_b_two')]"
+ #insult_poetry_recipient_line_2_b_02: "\nPiù di nostro Signore [recipient.Custom('rhyme_group_b_two')]"
+ insult_poetry_recipient_line_2_c_01:0 "\nNemmeno degno di essere [recipient.Custom('rhyme_group_c_two')]"
+ insult_poetry_recipient_line_2_c_02:0 "\nSicuramente siete solito essere [recipient.Custom('rhyme_group_c_two')]"
+ 
+ insult_poetry.0001.a:0 "Come osi?"
+
+ #Rhyme group A
+ insult_cow:0 "vacca"
+ insult_plough:0 "aratro"
+ insult_prow:0 "prua"
+ insult_sow:0 "sementa"
+
+ insult_should_allow:0 "dovrebbe consentire"
+ insult_understands_how:0 "capisce come"
+ insult_knows_quite_how:0 "sa bene come"
+ insult_could_use_as_a_plough:0 "potrebbe utilizzare come aratro"
+ 
+ #Rhyme group B
+ insult_dog:0 "cane"
+ insult_bog:0 "latrina"
+ insult_hog:0 "maiale"
+ insult_sprog:0 "marmittone"
+ insult_slog:0 "sgobbare"
+ insult_clog:0 "intasare"
+ insult_grog:0 "grog"
+
+ #Rhyme group C
+ insult_hunt:0 "caccia"
+ insult_grunt:0 "grugnire"
+ insult_stunt:0 "stunt"
+ insult_punt:0 "punt"
+
+ insult_runt:0 "chiamato animale"
+ insult_errant:0 "un vagabondo"
+ insult_shunt:0 "evitato"
+ insult_blunt:0 "chiamato spuntato"

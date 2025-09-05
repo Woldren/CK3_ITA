@@ -1,0 +1,64 @@
+﻿l_spanish:
+ ### Modifiers
+ fired_court_position:0 "Titolare di una Posizone di Corte Licenziato"
+## Court Event 7030
+ cultural_acceptance_foreign_merchants:0 "Comunità Mercantile [foreign_merchant.GetCulture.GetName]"
+ cultural_acceptance_foreigners_expelled:0 "Mercanti [foreign_merchant.GetCulture.GetName] Espulsi"
+ court_7030_merchant_privileges:0 "Privilegi Mercantili Estesi"
+ court_7030_merchant_privileges_desc:0 "Questo personaggio ha offerto privilegi speciali a un gruppo di mercanti stranieri, in cambio dell'accesso alla loro estesa marina mercantile."
+ foreign_merchant_community:0 "Comunità di Mercanti Straniera"
+ foreign_merchant_community_desc:0 "Una comunità di commercianti stranieri prospera in questa contea."
+## Court Event 7040
+ fervor_gain_ascetic_example:0 "Ispirato dall'Ascetismo"
+ court_7040_ascetic_practices:0 "Pratica Asceta"
+ court_7040_ascetic_practices_desc:0 "Questo personaggio ha adottato alcune pratiche ascetiche per vivere più vicino ai suoi ideali religiosi."
+## Court Event 7050
+ cultural_artifact_gift_accepted:0 "Manufatto [friend.GetCulture.GetName] Regalato"
+ cultural_artifact_gift_rejected:0 "Manufatto [friend.GetCulture.GetName] Rifiutato"
+ cultural_artifact_heretical:0 "Manufatto [friend.GetCulture.GetName] Ritenuto Eretico"
+ intolerance_of_icons:0 "Intolleranza delle culture non ortodosse"
+ court_7050_listens_to_church:0 "Credente Ubbidiente"
+ court_7050_listens_to_church_desc:0 "Questo personaggio è veramente zelante, e ascolta i suoi sacerdoti e le autorità religiose."
+ court_7050_tolerance:0 "Tolleranza Verso gli Altri"
+ court_7050_tolerance_desc:0 "Questo personaggio ha una mente aperta verso le pratiche degli altri, il che irrita le sue autorità religiose, ma è apprezzato da quelle di una fede diversa."
+## Court Event 7070
+ court_7070_palace_renovations:0 "Palazzo Restaurato"
+ court_7072_homogenising_culture:0 "Conservatore del Patrimonio Culturale"
+ court_7072_renowned_court:0 "Palazzo Rinomato"
+ cultural_palace_architecture:0 "Stile Architettonico Straniero Adottato"
+## Court Event 7100
+ pet_wolf:1 "Lupo da Compagnia"
+ pet_bear:1 "Orso da Compagnia"
+ pet_lion:1 "Leone da Compagnia"
+ pet_tiger:1 "Tigre da Compagnia"
+ exotic_pet_wolf:0 "Lupo da Compagnia"
+ exotic_pet_bear:0 "Orso da Compagnia"
+ exotic_pet_lion:0 "Leone da Compagnia"
+ exotic_pet_tiger:0 "Tigre da Compagnia"
+## Court Event 7300
+ incentivized_food_taster:0 "Assaggiatore Incentivato"
+## Court Event 7400
+ expensive_guests:0 "Ospite Stravagante"
+ expensive_guests_desc:0 "Questo sovrano è noto per la sua frivola ospitalità."
+ inhospitable_court:0 "Ospite Ostile"
+ inhospitable_court_desc:0 "La corte di questo sovrano non è il più accogliente dei luoghi."
+## Court Event 7610
+ struggling_with_destrier:0 "Lotta con il Destriero"
+ struggling_with_destrier_desc:0 "Questo personaggio cavalca un cavallo da guerra di taglia normale, nonostante non abbia abbastanza esperienza per controllarlo."
+ practicing_with_palfrey:0 "Addestramento con un Palafreno"
+ practicing_with_palfrey_desc:0 "Questo personaggio pratica l'arte equestre con un destriero adatto."
+## Court Event 7620
+ peregrine_falcon:1 "Rapace da Caccia"
+ peregrine_falcon_desc:1 "Questo personaggio possiede un falco o uno sparviero, un prestigioso uccello da preda usato per cacciare e mettersi in mostra.\n\n#weak Migliora la [hunt_success_chance|E] della $hunt_type_falconry$#!"
+## Court Event 7630
+ master_of_horse_cavalry_bonus:0 "$master_of_horse_court_position$ Motivato"
+ master_of_horse_cavalry_bonus_desc:0 "Il [GetCourtPositionType('master_of_horse_court_position').GetName()] di questo personaggio ha motivo per impegnarsi maggiormente nell'arduo compito di istruire altre persone a prendersi cura dei cavalli."
+ master_of_hunt_activity_bonus:0 "$master_of_hunt_court_position$ Motivato"
+ master_of_hunt_activity_bonus_desc:0 "Il [GetCourtPositionType('master_of_horse_court_position').GetName()] di questo personaggio si impegna maggiormente in ogni caccia programmata, in segno di gratitudine per il sostegno e la lealtà ricevute.\n\nL'[activity|E] [GetActivityType('activity_hunt').GetName] costa leggermente meno [gold|E]"
+## Court Event 7700
+ honorable_ruler:0 "Sovrano Onorevole"
+ honorable_ruler_desc:0 "Questo personaggio ha scelto la via dell'onore quando non ce n'era bisogno."
+ pigeon_thief:0 "Piccione Domestico"
+ pigeon_thief_desc:0 "Questo personaggio è sempre un passo avanti a tutti grazie al suo #EMP nefasto#! piccione domestico."
+ profiting_from_pigeon_thievery:0 "Piccione Informatore"
+ profiting_from_pigeon_thievery_desc:0 "Alcune persone si riferiscono ai loro informatori come "uccellini". Questo personaggio ha preso la cosa alla lettera."

@@ -1,0 +1,208 @@
+﻿l_spanish:
+ hinduism_religion:0 "Induismo"
+ hinduism_religion_adj:0 "Induista"
+ hinduism_religion_adherent:0 "Induista"
+ hinduism_religion_adherent_plural:0 "Induisti"
+ hinduism_religion_desc:0 "L'induismo è un dharma, uno stile di vita, che include una moltitudine di dei e pratiche religiose. Condivisa è la fede nel samsara, il ciclo infinito della continua rinascita dell'anima nel mondo, e moksha, la liberazione da quel ciclo."
+ hinduism_high_god_name:0 "Brahma"
+ hinduism_high_god_name_2:0 "$hinduism_high_god_name$" # Optional translation alt
+ hinduism_high_god_name_possessive:0 "di Brahma"
+ hinduism_high_god_shehe:0 "Egli"
+ hinduism_high_god_herselfhimself:0 "Egli stesso"
+ hinduism_high_god_herhis:0 "Suo"
+ hinduism_high_god_name_alternate:0 "il Sé Supremo"
+ hinduism_high_god_name_alternate_possessive:0 "del Sé Supremo"
+ hinduism_good_god_brahma:0 "Brahma"
+ hinduism_good_god_vishnu:0 "Vishnou"
+ hinduism_good_god_shiva:0 "Shiva"
+ hinduism_good_god_krishna:0 "Krishna"
+ hinduism_good_god_shakti:0 "Shakti"
+ hinduism_good_god_narayana:0 "Narayana"
+ hinduism_good_god_ganesh:0 "Ganesh"
+ hinduism_good_god_surya:0 "Surya"
+ hinduism_devil_name:0 "i Vinayakas"
+ hinduism_devil_name_possessive:0 "dei Vinayakas"
+ hinduism_devil_shehe:0 "loro"
+ hinduism_devil_herselfhimself:0 "loro stessi"
+ hinduism_evil_god_vetalas:0 "la vetala"
+ hinduism_evil_god_pishachas:0 "i Pishacha"
+ hinduism_evil_god_krodha:0 "Krodha"
+ hinduism_house_of_worship:0 "tempio"
+ hinduism_house_of_worship_2:0 "il $hinduism_house_of_worship$" # Optional translation alt
+ hinduism_house_of_worship_3:0 "$hinduism_house_of_worship$" # Optional translation alt
+ hinduism_house_of_worship_plural:0 "templi"
+ hinduism_religious_symbol:0 "l'Aum"
+ hinduism_religious_symbol_2:0 "$hinduism_religious_symbol$" # Optional translation alt
+ hinduism_religious_symbol_3:0 "$hinduism_religious_symbol$" # Optional translation alt
+ hinduism_religious_text:0 "il Veda"
+ hinduism_religious_text_2:0 "$hinduism_religious_text$" # Optional translation alt
+ hinduism_religious_text_3:0 "$hinduism_religious_text$" # Optional translation alt
+ hinduism_religious_head_title:1 "Swami"
+ hinduism_religious_head_title_name:0 "Sampradaya"
+ hinduism_devotee_male:0 "sanyasista"
+ hinduism_devotee_male_plural:0 "sanyasisti"
+ hinduism_devotee_female:0 "sanyasista"
+ hinduism_devotee_female_plural:0 "sanyasiste"
+ hinduism_devotee_neuter:0 "sanyasista"
+ hinduism_devotee_neuter_plural:0 "sanyasisti"
+ hinduism_priest:0 "pujaro"
+ hinduism_priest_plural:0 "pujari"
+ hinduism_priest_term_plural:0 "bramini"
+ hinduism_bishop:0 "swami"
+ hinduism_bishop_plural:0 "swami"
+ hinduism_divine_realm:0 "Soumerou"
+ hinduism_divine_realm_2:0 "$hinduism_divine_realm$" # Optional translation alt
+ hinduism_divine_realm_3:0 "$hinduism_divine_realm$" # Optional translation alt
+ hinduism_positive_afterlife:0 "Svarga"
+ hinduism_positive_afterlife_2:0 "$hinduism_positive_afterlife$" # Optional translation alt
+ hinduism_positive_afterlife_3:0 "$hinduism_positive_afterlife$" # Optional translation alt
+ hinduism_negative_afterlife:0 "Naraka"
+ hinduism_negative_afterlife_2:0 "$hinduism_negative_afterlife$" # Optional translation alt
+ hinduism_negative_afterlife_3:0 "$hinduism_negative_afterlife$" # Optional translation alt
+ hinduism_death_name:0 "Yama"
+ hinduism_death_name_possessive:0 "di Yama"
+
+ hinduism_creator_god_name:0 "Brahma"
+ hinduism_creator_god_name_possessive:0 "di Brahma"
+ hinduism_health_god_name:0 "Ganga"
+ hinduism_health_god_name_possessive:0 "di Ganga"
+ hinduism_fertility_god_name:0 "Gayatri"
+ hinduism_fertility_god_name_possessive:0 "di Gayatri"
+ hinduism_wealth_god_name:0 "Kubera"
+ hinduism_wealth_god_name_possessive:0 "di Kubera"
+ hinduism_household_god_name:0 "Santoshî Mâ"
+ hinduism_household_god_name_possessive:0 "di Santoshî Mâ"
+ hinduism_fate_god_name:0 "il karma"
+ hinduism_fate_god_name_possessive:0 "del karma"
+ hinduism_knowledge_god_name:0 "Sarasvatī"
+ hinduism_knowledge_god_name_possessive:0 "di Sarasvatī"
+ hinduism_war_god_name:0 "Kali"
+ hinduism_war_god_name_possessive:0 "di Kali"
+ hinduism_trickster_god_name:0 "Krishna"
+ hinduism_trickster_god_name_possessive:0 "di Krishna"
+ hinduism_night_god_name:0 "Nindra"
+ hinduism_night_god_name_possessive:0 "di Nindra"
+ hinduism_water_god_name:0 "Yami"
+ hinduism_water_god_name_possessive:0 "di Yami"
+
+ #Vaishnavism
+ vaishnavism:0 "Vishnouismo"
+ vaishnavism_adj:0 "Vishnouista"
+ vaishnavism_adherent:0 "Vishnouista"
+ vaishnavism_adherent_plural:0 "Vishnouisti"
+ vaishnavism_desc:0 "Nel Vishnuismo, Vishnu è il Signore Supremo, e i deva più importanti sono i suoi numerosi avatar, come Rama e Krishna. Ciascuna di queste varie incarnazioni lavora per ripristinare l'equilibrio nell'universo."
+ vaishnavism_high_god_name:0 "Vishnu"
+ vaishnavism_high_god_name_2:0 "$vaishnavism_high_god_name$" # Optional translation alt
+ vaishnavism_high_god_name_possessive:0 "di Vishnu"
+
+ vaishnavism_wealth_god_name:0 "Lakshmi"
+ vaishnavism_wealth_god_name_possessive:0 "di Lakshmi"
+ vaishnavism_knowledge_god_name:0 "Hayagrīva"
+ vaishnavism_knowledge_god_name_possessive:0 "di Hayagrīva"
+ vaishnavism_war_god_name:0 "Jagannātha"
+ vaishnavism_war_god_name_possessive:0 "di Jagannātha"
+ vaishnavism_trickster_god_name:0 "Krishna"
+ vaishnavism_trickster_god_name_possessive:0 "di Krishna"
+
+ #Shaivism
+ shaivism:0 "Shivaismo"
+ shaivism_adj:0 "Shivaita"
+ shaivism_adherent:0 "Shivaita"
+ shaivism_adherent_plural:0 "Shivaiti"
+ shaivism_desc:0 "Gli Shivaiti ​​adorano Shiva, il creatore e distruttore di mondi, l'Essere Supremo che esiste in tutte le cose. Proprio come Shiva lavora per mantenere l'equilibrio e preservare l'universo, i devoti dovrebbero sforzarsi di raggiungere l'equilibrio nelle loro vite."
+ shaivism_high_god_name:0 "Shiva"
+ shaivism_high_god_name_2:0 "$shaivism_high_god_name$" # Optional translation alt
+ shaivism_high_god_name_possessive:0 "di Shiva"
+
+ shaivism_health_god_name:0 "Vaitheeswaran"
+ shaivism_health_god_name_possessive:0 "di Vaitheeswaran"
+ shaivism_fertility_god_name:0 "Parvati"
+ shaivism_fertility_god_name_possessive:0 "di Parvati"
+ shaivism_wealth_god_name:0 "Bhairava"
+ shaivism_wealth_god_name_possessive:0 "di Bhairava"
+ shaivism_household_god_name:0 "Munīshwarar"
+ shaivism_household_god_name_possessive:0 "di Munishwarar"
+ shaivism_knowledge_god_name:0 "Dakshinamûurti"
+ shaivism_knowledge_god_name_possessive:0 "di Dakshinamurti"
+ shaivism_war_god_name:0 "Virabhadra"
+ shaivism_war_god_name_possessive:0 "de Virabhadra"
+
+ #Srikula Shaktism
+ srikula_shaktism:0 "Shaktismo Srikula"
+ srikula_shaktism_adj:0 "Srikulaita"
+ srikula_shaktism_adherent:0 "Srikulaita"
+ srikula_shaktism_adherent_plural:0 "Srikulaiti"
+ srikula_shaktism_desc:0 "Lo Shaktismo crede nella Grande Dea come l'essere supremo da cui deriva tutta l'esistenza. Gli srikulaiti adorano Tripurasundari come la fonte di tutta la shakti, l'energia dell'universo."
+ shaktism_good_god_sundari:0 "Tripurasundari"
+ shaktism_good_god_sundari_2:0 "$shaktism_good_god_sundari$" # Optional translation alt
+ shaktism_good_god_sundari_possessive:0 "di Tripurasundari"
+ shaktism_good_god_devi:0 "Devi"
+ shaktism_good_god_parvati:0 "Parvati"
+ shaktism_good_god_kali:0 "Kali"
+ shaktism_good_god_kali_2:0 "$shaktism_good_god_kali$" # Optional translation alt
+ shaktism_good_god_kali_possessive:0 "di Kali"
+ shaktism_good_god_chandi:0 "Chandi"
+
+ #Kalikula Shaktism
+ kalikula_shaktism:0 "Shaktismo Kalikula"
+ kalikula_shaktism_adj:0 "Kalikulaita"
+ kalikula_shaktism_adherent:0 "Kalikulaita"
+ kalikula_shaktism_adherent_plural:0 "Kalikulaiti"
+ kalikula_shaktism_desc:0 "Lo Shaktismo crede nella Grande Dea come l'essere supremo da cui deriva tutta l'esistenza. Kalikula riverisce Kali come colei che può dare guida, buona rinascita e infine il moksha."
+
+ #Smartism
+ smartism:0 "Smartisme"
+ smartism_adj:0 "Smartista"
+ smartism_adherent:0 "Smartista"
+ smartism_adherent_plural:0 "Smartisti"
+ smartism_desc:0 "La tradizione Smartista rifiuta il culto dei singoli dei. Brahman è eterno e Vishnu, Devi, Shiva, Ganesh e Surya sono venerati come uguali avatar dell'Essere Supremo. Tutta l'adorazione individuale è un passo avanti verso la comprensione e l'unità con Brahman."
+
+ smartism_health_god_name:0 "Vishnu"
+ smartism_health_god_name_possessive:0 "di Vishnu"
+ smartism_household_god_name:0 "Shiva"
+ smartism_household_god_name_possessive:0 "di Shiva"
+ smartism_knowledge_god_name:0 "Ganesh"
+ smartism_knowledge_god_name_possessive:0 "di Ganesh"
+ smartism_war_god_name:0 "Devi"
+ smartism_war_god_name_possessive:0 "di Devi"
+
+ #Krishnaism
+ krishnaism:0 "Krishnaismo"
+ krishnaism_adj:0 "Krishnaita"
+ krishnaism_adherent:0 "Krishnaita"
+ krishnaism_adherent_plural:0 "Krishnaiti"
+ krishnaism_desc:0 "Krishna è la forma autentica dell'Essere Supremo e Vishnu è il suo avatar quando assume la forma dell'onnipotente. Attraverso i suoi avatar divini, è presente in tutte le cose."
+ krishnaism_high_god_name:0 "Krishna"
+ krishnaism_high_god_name_2:0 "$krishnaism_high_god_name$" # Optional translation alt
+ krishnaism_high_god_name_possessive:0 "di Krishna"
+
+ #Advaitism
+ advaitism:0 "Advaita Vedanta"
+ advaitism_adj:0 "Vedantista"
+ advaitism_adherent:0 "Vedantista"
+ advaitism_adherent_plural:0 "Vedantisti"
+ advaitism_desc:0 "A differenza di molte religioni indù, l'advaita vedanta enfatizza l'unicità dell'Atman, il vero sé, con il Brahman, la realtà più vera, e crede che il moksha possa essere raggiunto anche nella vita. sebbene in morte."
+
+ #Saura
+ saura: "Saura"
+ saura_adj: "Saura"
+ saura_adherent: "Saurita"
+ saura_adherent_plural: "Sauriti"
+ saura_desc: "Surya il Dio Sole, il Brahman visibile, è la principale divinità dei Saura. Radicato nella tradizione del Veda, i Saura dipingono Surya seduto su un carro trainato da sette cavalli, ognuno dei quali rappresenta un colore dell'arcobaleno."
+
+ saura_good_god_ushas: "Usha"
+ saura_good_god_mitra: "Mitra"
+ saura_good_god_aranyani: "Aranyani"
+ saura_good_god_saranyu: "Saranyu"
+ saura_good_god_chaya: "Chaya"
+ saura_good_god_shani: "Shani"
+ saura_good_god_aditi: "Aditi"
+
+ saura_high_god_name: "Surya"
+ saura_high_god_name_possessive: "di Surya"
+ saura_health_god_name: "Dhanvantari"
+ saura_health_god_name_possessive: "di Dhanvantari"
+ saura_night_god_name: "Ratri"
+ saura_night_god_name_possessive: "di Ratri"
+ saura_war_god_name: "Skanda"
+ saura_war_god_name_possessive: "di Skanda"

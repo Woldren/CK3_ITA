@@ -1,0 +1,33 @@
+﻿l_spanish: 
+ bm_1178_nomads: "Il Cielo Senza Fine"
+ bm_1178_nomads_desc: "Quando i popoli nomadi si spostano verso nuovi pascoli, lo spettacolo è mozzafiato: un mare vivo e ondeggiante di persone e bestiame che scorre lentamente verso l'orizzonte.\n\nLo scalpitio incessante degli zoccoli dei loro cavalli e delle loro greggi sembra l'incessante suono ritmato di un tamburo di guerra, ricordando ai loro vicini stanziali che un attacco potrebbe arrivare in ogni momento! Una tribù che ha lasciato la propria terra è un esercito in marcia.\n\n#bold Il 'mondo del seminato' sembra ormai maturo per qualsiasi capotribù abbastanza coraggioso da rivendicarlo. Riuscirai a guidare la tua tribù nelle vaste distese per costruire un potente impero dal dorso di un cavallo?#!"
+
+ bookmark_nomads_togrul: "Gran Capo Togrul"
+ bookmark_nomads_togrul_oghuul: "Oghuul"
+ bookmark_nomads_togrul_desc: "Togrul divenne sovrano dei Kereiti uccidendo i fratellastri, ma fu solo grazie all'amico e alleato Yesügei che riuscì a mantenere il potere. Togrul fu costretto per due volte all'esilio e per due volte Yesügei lo riportò al potere.\n\nMa non ci sarà una terza volta, perché Yesügei è morto, assassinato da una tribù rivale, e i nemici di Togrul sono fin troppo consapevoli che il suo protettore è scomparso.\n\n#bold I tuoi nemici ti circondano come dei lupi, riuscirai a respingerli tutti?#!"
+
+ bookmark_nomads_temujin: "Gran Capo Temüjin"
+ bookmark_nomads_temujin_borte: "Borte"
+ bookmark_nomads_temujin_hoelun: "Hoelun"
+ bookmark_nomads_temujin_desc: "[Concept( 'story_content_temujin', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_temujin', '$bm_story_content_available_copy|q$' )|E]\nTemüjin è venuto al mondo stringendo nel piccolo pugno un grumo di sangue, segno che il suo destino sarebbe stato quello di un grande guerriero. Sebbene sia ancora giovane, ha già affrontato terribili prove: l'assassinio di suo padre, la fame e la prigionia da parte di tribù rivali. Tuttavia, la sua determinazione rimane incrollabile e ora sta radunando coraggiosi cavalieri sotto la sua bandiera.\n\n#bold Fai tremare la terra sotto gli zoccoli delle tue orde indomabili e piega il mondo alla tua volontà!#!"
+
+ bookmark_nomads_jamukha: "Capo Jamukha"
+ bookmark_nomads_jamukha_desc: "[Concept( 'story_content_jamukha', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_jamukha', '$bm_story_content_available_copy|q$' )|E]\nGuerriero formidabile, Jamukha ha affrontato la sua infanzia con l'aiuto di Temüjin, stringendo con lui un 'giuramento di anda', un legame più forte di quello di sangue. Il suo innato orgoglio si sposa alla perfezione con la crescente sete di potere di Temüjin, anche se i due sono raramente d'accordo sulle questioni di governo.\n\n#bold Spada dell'Altai, vuoi sottomettere il tuo #EMP anda#!, o perire nella sua ombra?#!"
+
+ bookmark_nomads_koncek: "Khan Könçek"
+ bookmark_nomads_koncek_kotyan: "Kotyan"
+ bookmark_nomads_koncek_svoboda: "Svoboda"
+ bookmark_nomads_koncek_desc: "Dal Mar Nero alle desolate terre di Altin, tutti conoscono il suo nome. Unire i Cumani sotto un unico vessillo non è stata un'impresa da poco, in una regione così instabile, e nemmeno mettere in pratica la tolleranza necessaria per rimanere al potere.\n\nI principi di Russia cercano ancora una volta di offuscare la sua immagine, così l'anziano Könçek deve prepararsi per le battaglie a venire, poiché nessun khan può regnare per sempre.\n\n#bold Il destino della tua gente è nelle tue mani. Sarai in grado di mantenere l'unità o il tuo popolo cadrà nuovamente nel caos delle lotte intestine?#!"
+
+ bookmark_nomads_inanch_bilge: "Khan Inanch Bilge"
+ bookmark_nomads_inanch_bilge_gurbesu: "Gürbesu"
+ bookmark_nomads_inanch_bilge_tayang: "Tayang il Debole"
+ bookmark_nomads_inanch_bilge_desc: "Inanch Bilge sostiene di discendere dai magi biblici e ha recentemente dimostrato il suo valore liberandosi dai Kara Khitai.\n\nMa un destino sfortunato lo attende: il figlio ed erede del khan, Tayang, affronterà il potente Temüjin in battaglia e cadrà. Sua moglie, Gürbesu, diventerà una delle tante concubine del vincitore.\n\n#bold Riuscirai a sfidare questo destino e ad assicurare una solida successione, o la debolezza di tuo figlio condannerà la tua stirpe all'eterna vergogna?#!"
+
+ bookmark_nomads_duolubu: "Capo Duolubu"
+ bookmark_nomads_duolubu_wolila: "Wolila"
+ bookmark_nomads_duolubu_desc: "Duolubu, un tempo fedele baghatur dei Kara Khitai, è stato tradito dalla sua stessa famiglia. Sua moglie è morta tra le braccia del fratello e il loro nipote nipote siede ora sul trono.\n\nCon il padre sul letto di morte, è tempo di agire. Se il giovane Zhílǔgǔ non può essere influenzato, tanto vale voltargli le spalle.\n\n#bold I giorni più bui sono finiti e il sole sta sorgendo di nuovo. Riuscirai a reclamare il tuo onore o sarai ricordati per sempre come uno sciocco?#!"
+
+ bookmark_nomads_wolila: "Capo Wolila"
+ bookmark_nomads_wolila_zhilugu: "Khagan Zhilugu"
+ bookmark_nomads_wolila_desc: "Wolila ebbe due figli forti. Il primo, l'incrollabile Duolubu, il Pacificatore dell'Est, sposò l'imperatrice dei Kara Khitai. Il secondo, il disonesto Puguzi, ne divenne l'amante. La moglie e il fratello hanno poi tramato la morte di Duolubu. Furioso per il loro fratricidio, Wolila ordinò la morte dei due amanti. Così Zhilugu degli Yelü salì sul trono dei Kara Khitai.\n\n#bold Per i kitai si avvicina l'ultima tempesta. Riuscirai a parlare a nome del tuo popolo, a difendere ancora una volta il tuo onore e a cambiare il loro destino?#!"

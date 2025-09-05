@@ -1,0 +1,17 @@
+﻿l_spanish:
+ PLAYABLE_DIFFICULTY_INFO_SEPARATOR:0 "\n@warning_icon! "
+
+ pdi_at_war:0 "In [war|E]"
+ pdi_no_player_heir:0 "Nessun [player_heir|E]"
+ pdi_primary_heir_of_wrong_dynasty:0 "L'[primary_heir|E] è della [dynasty|E] sbagliata"
+ pdi_cannot_have_children:0 "Non può avere figli"
+ pdi_female_under_male_dominated_doctrine:0 "La [faith|E] preferisce [rulers|E] maschi"
+ pdi_male_under_female_dominated_doctrine:0 "La [faith|E] preferisce [rulers|E] femmine"
+ pdi_liege_of_hostile_faith:0 "Il [liege|E] ha una [faith|E] ostile"
+ pdi_patrilinial_marriage_as_woman:1 "[marriage|E] [patrilineal|E]"
+ pdi_matrilinial_marriage_as_man:1 "[marriage|E] [matrilineal|E]"
+ pdi_is_in_debt:0 "In [debt|E]"
+ pdi_has_poor_health:0 "[health|E]: $action_dying$"
+ pdi_in_regency: "In una [regency|E]"
+ pdi_admin_without_noble_title: "È [administrative|E] ma non ha il [title|E] di una [noble_family|E]" 
+ pdi_herder_to_nomad: "#alert_trial Diventerà [ruler|E] [GetGovernment( 'nomad_government' ).GetName] se selezionato#!"

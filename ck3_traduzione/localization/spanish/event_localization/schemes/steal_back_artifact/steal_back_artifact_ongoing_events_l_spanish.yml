@@ -1,0 +1,22 @@
+﻿l_spanish:
+ steal_back_artifact_event_title:1 "Ruba Manufatto:"
+ steal_back_artifact_ongoing.1001.t:0 "$steal_back_artifact_event_title$ L'antiquario"
+ steal_back_artifact_ongoing.1001.desc:0 "Uno degli ostacoli ovvi al recupero del manufatto, è l'antiquario di [target.GetTitledFirstNamePossessive], [antiquarian.GetTitledFirstName].\n\nCi sono, naturalmente, molteplici modi per... #EMP occuparsi#! di una persona, ma mi chiedo se [antiquarian.GetFirstNameNoTooltip] è il tipo di persona che potrei persuadere a guardare dall'altra parte offrendogli una tangente adeguata."
+ steal_back_artifact_ongoing.1001.a:0 "L'oro è il linguaggio universale della corruzione."
+ steal_back_artifact_ongoing.1001.a.tt:0 "Credi che la lealtà di [antiquarian.GetTitledFirstNamePossessive] possa essere comprata con le ricchezze..."
+ steal_back_artifact_ongoing.1001.b:0 "Magari un manufatto per un manufatto?"
+ steal_back_artifact_ongoing.1001.b.tt:0 "[antiquarian.GetTitledFirstName] accetterà un "commercio." equo"
+ steal_back_artifact_ongoing.1001.c:0 "Un'introduzione a [random_beauty.GetTitledFirstName] potrebbe risultare... #EMP stimolante#!."
+ steal_back_artifact_ongoing.1001.c.tt:0 "Stai puntando sul fatto che [antiquarian.GetTitledFirstName] apprezzi la bellezza fisica al di sopra della lealtà.."
+ steal_back_artifact_ongoing.1001.d:0 "Cercherò piuttosto altre possibilità."
+
+ steal_back_artifact_ongoing_notification.1001.success:0 "[antiquarian.GetTitledFirstName] Accetta la Tangente"
+ steal_back_artifact_ongoing_notification.1001.failure:0 "[antiquarian.GetTitledFirstName] Rifiuta la Tangente"
+
+ steal_back_artifact_ongoing.1002.t:0 "$steal_back_artifact_event_title$ Gestire i Dettagli"
+ steal_back_artifact_ongoing.1002.desc:0 "Ho detto a [agent.Custom2('MyCharacterIntroduction', ROOT.Char)] di monitorare [target.GetTitledFirstName] così da poter trovare la perfetta opportunità per  per rubar[target.Custom('DE_PRO_DEM')] un manufatto.\n\nI progressi, tuttavia, sono stati molto più lenti di quanto avrei voluto. Forse dovrei dar[agent.Custom('DE_PRO_DEM')] qualcosa nello specifico da tenere d'occhio?"
+ steal_back_artifact_ongoing.1002.a:0 "Dai istruzioni specifiche a [agent.GetFirstNameNoTooltip]."
+ steal_back_artifact_ongoing.1002.b:0 "Confido che faranno il loro lavoro."
+ steal_back_artifact_ongoing_notification.1002.success:0 "[agent.GetTitledFirstName] Riferisce"
+ steal_back_artifact_ongoing_notification.1002.failure:0 "[antiquarian.GetTitledFirstName] Non Riesce a Trovare Alcuna Informazione"
+

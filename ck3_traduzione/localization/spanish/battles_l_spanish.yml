@@ -1,0 +1,85 @@
+﻿l_spanish:
+ # Knight wounded/slain event strings for use in battle events. 
+ knight_wounded_no_enemy_friendly:2 "Il nostro $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] è stat[CHARACTER.Custom('DE_END_PRO_S_N')] ferit[CHARACTER.Custom('DE_END_PRO_S_N')] da un soldato nemico!"
+ knight_wounded_no_enemy_enemy:2 "Uno dei nostri valorosi soldati è riuscito a ferire il [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] nemico [CHARACTER.GetShortUINameNoTooltip]!"
+ knight_wounded_by_enemy_friendly:2 "Il nostro $knight_culture_player_no_tooltip_lowercase$, [CHARACTER.GetShortUINameNoTooltip], è stat[CHARACTER.Custom('DE_END_PRO_S_N')] ferit[CHARACTER.Custom('DE_END_PRO_S_N')] da [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ knight_wounded_by_enemy_enemy:2 "Il nostro $knight_culture_player_no_tooltip_lowercase$, [TARGET_CHARACTER.GetShortUINameNoTooltip], ha ferito [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetShortUINameNoTooltip]!"
+ knight_maimed_no_enemy_friendly:2 "Il nostro $knight_culture_player_no_tooltip_lowercase$, [CHARACTER.GetShortUINameNoTooltip], è stat[CHARACTER.Custom('DE_END_PRO_S_N')] mutilat[CHARACTER.Custom('DE_END_PRO_S_N')] da un soldato nemico!"
+ knight_maimed_no_enemy_enemy:2 "Uno dei nostri valorosi soldati è riuscito a mutilare il [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] nemico [CHARACTER.GetShortUINameNoTooltip]!"
+ knight_maimed_by_enemy_friendly:2 "Il nostro $knight_culture_player_no_tooltip_lowercase$, [CHARACTER.GetShortUINameNoTooltip], è stat[CHARACTER.Custom('DE_END_PRO_S_N')] mutilat[CHARACTER.Custom('DE_END_PRO_S_N')] da [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ knight_maimed_by_enemy_enemy:2 "Il nostro $knight_culture_player_no_tooltip_lowercase$, [TARGET_CHARACTER.GetShortUINameNoTooltip], ha mutilato [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetShortUINameNoTooltip]!"
+ knight_killed_no_enemy_friendly:2 "Il nostro $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] è stat[CHARACTER.Custom('DE_END_PRO_S_N')] uccis[CHARACTER.Custom('DE_END_PRO_S_N')] da un soldato nemico!"
+ knight_killed_no_enemy_enemy:2 "Uno dei nostri valorosi soldati è riuscito a uccidere il [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] nemico [CHARACTER.GetShortUINameNoTooltip]!"
+ knight_killed_by_enemy_friendly:2 "Il nostro $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] è stat[CHARACTER.Custom('DE_END_PRO_S_N')] uccis[CHARACTER.Custom('DE_END_PRO_S_N')] da [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ knight_killed_by_enemy_enemy:2 "Il nostro $knight_culture_player_no_tooltip_lowercase$, [TARGET_CHARACTER.GetShortUINameNoTooltip], ha ucciso [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetShortUINameNoTooltip]!"
+ 
+ # Berserker Kills
+ berserker_rage_killed_enemy_enemy:1 "Al nostro $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] è stata strappata via la testa dal [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_friendly:1 "Il nostro $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ha strappato via la testa di [TARGET_CHARACTER.GetShortUINameNoTooltip] ed è diventato un [GetTrait('berserker').GetName( GetNullCharacter )]!"
+ berserker_rage_killed_enemy_no_trait_enemy:1 "Al nostro $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] è stata strappata via la testa dal [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_no_trait_friendly:1 "Il nostro $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ha strappato via la testa di [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_no_enemy_enemy:1 "Il nemico $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] si è scatenato tra i nostri soldati ed è diventato un [GetTrait('berserker').GetName( GetNullCharacter )]!"
+ berserker_rage_no_enemy_friendly:1 "Il nostro $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] si è scatenato tra i soldati nemici ed è diventato un [GetTrait('berserker').GetName( GetNullCharacter )]!"
+
+ berserker_rage_killed_enemy_no_trait_v2_enemy:0 "[TARGET_CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] è stat[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] spaccat[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] a metà dal [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_no_trait_v2_friendly:0 "[CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ha spaccato [TARGET_CHARACTER.GetShortUINameNoTooltip] a metà!"
+ berserker_rage_killed_enemy_no_trait_v3_enemy:0 "[TARGET_CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] è stat[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] brutalmente smembrat[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] dal [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_no_trait_v3_friendly:0 "[CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ha brutalmente smembrato [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_no_trait_v4_enemy:0 "[TARGET_CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] è stat[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] fatt[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] a pezzi arto dopo arto dal [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_no_trait_v4_friendly:0 "[CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ha fatto a pezzi [TARGET_CHARACTER.GetShortUINameNoTooltip] arto dopo arto!"
+ berserker_rage_killed_enemy_no_trait_v5_enemy:0 "[TARGET_CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] è stat[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] fatt[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] a pezzi dal [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_no_trait_v5_friendly:0 "[CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ha fatto a pezzi [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_no_trait_v6_enemy:0 "Il cuore [TARGET_CHARACTER.Custom('DE_PRO_PER_P_3P_A')] nostr[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] è stato strappato via dal [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_no_trait_v6_friendly:0 "[CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ha strappato il cuore a [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_no_trait_v7_enemy:0 "Il cuore [TARGET_CHARACTER.Custom('DE_PRO_PER_P_3P_A')] nostr[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] ha ceduto dopo che il [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] [TARGET_CHARACTER.Custom('DE_PRO_DEM')] ha urlato contro!"
+ berserker_rage_killed_enemy_no_trait_v7_friendly:0 "[CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ha spaventato [TARGET_CHARACTER.GetShortUINameNoTooltip] a morte con un possente ruggito!"
+ berserker_rage_killed_enemy_no_trait_v8_enemy:0 "Il [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] ha spaccato il cranio [TARGET_CHARACTER.Custom('DE_PRO_PER_P_3P_A')] nostr[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_no_trait_v8_friendly:0 "[CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ha spaccato il crano di [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_no_trait_v9_enemy:0 "[TARGET_CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] è stato strangolato con il suo stesso intestino dal [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_no_trait_v9_friendly:0 "[CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ha strangolato [TARGET_CHARACTER.GetShortUINameNoTooltip] con il suo stesso intestino!"
+
+ # Shieldmaiden Kills
+ shieldmaiden_skill_killed_enemy_no_trait_v1_enemy:0 "[CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] è stat[CHARACTER.Custom('DE_END_PRO_S_N')] decapitat[CHARACTER.Custom('DE_END_PRO_S_N')] da [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ shieldmaiden_skill_killed_enemy_no_trait_v1_friendly:0 "[CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ha decapitato [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ shieldmaiden_skill_killed_enemy_no_trait_v2_enemy:0 "$berserker_rage_killed_enemy_no_trait_v2_enemy$"
+ shieldmaiden_skill_killed_enemy_no_trait_v2_friendly:0 "$berserker_rage_killed_enemy_no_trait_v2_friendly$"
+ shieldmaiden_skill_killed_enemy_no_trait_v3_enemy:0 "$berserker_rage_killed_enemy_no_trait_v3_enemy$"
+ shieldmaiden_skill_killed_enemy_no_trait_v3_friendly:0 "$berserker_rage_killed_enemy_no_trait_v3_friendly$"
+ shieldmaiden_skill_killed_enemy_no_trait_v4_enemy:0 "[CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] è stat[CHARACTER.Custom('DE_END_PRO_S_N')] pietosamente abbattut[CHARACTER.Custom('DE_END_PRO_S_N')] da [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ shieldmaiden_skill_killed_enemy_no_trait_v4_friendly:0 "[CHARACTER.Custom('DE_ART_DEF_P_D')] nostr[CHARACTER.Custom('DE_END_PRO_S_N')] $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ha pietosamente abbattuto [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ shieldmaiden_skill_killed_enemy_no_trait_v5_enemy:0 "$berserker_rage_killed_enemy_no_trait_v5_enemy$"
+ shieldmaiden_skill_killed_enemy_no_trait_v5_friendly:0 "$berserker_rage_killed_enemy_no_trait_v5_friendly$"
+
+ # Commander injured/killed event string for use in battle events.
+ commander_wounded_no_enemy_friendly_player:1 "Sei stato ferito mentre conducevi le tue truppe in battaglia!"
+ commander_wounded_no_enemy_friendly:0 "Il comandante [CHARACTER.GetUINameNoTooltip] è stat[CHARACTER.Custom('DE_END_PRO_S_N')] ferit[CHARACTER.Custom('DE_END_PRO_S_N')] mentre conduceva le sue truppe in battaglia!"
+ commander_wounded_no_enemy_enemy:0 "Uno dei nostri valorosi soldati è riuscito a ferire il comandante nemico [CHARACTER.GetUINameNoTooltip] in battaglia!"
+
+ commander_wounded_by_enemy_friendly_player:1 "Sei stato ferito da [TARGET_CHARACTER.GetUINameNoTooltip] mentre conducevi le tue truppe in battaglia!"
+ commander_wounded_by_enemy_friendly:0 "Il comandante [CHARACTER.GetUINameNoTooltip] è stat[CHARACTER.Custom('DE_END_PRO_S_N')] ferit[CHARACTER.Custom('DE_END_PRO_S_N')] da [TARGET_CHARACTER.GetUINameNoTooltip] mentre conduceva le sue truppe in battaglia!"
+ commander_wounded_by_enemy_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] ha ferito il comandante nemico, [CHARACTER.GetUINameNoTooltip] in battaglia!"
+
+ commander_maimed_no_enemy_friendly_player:0 "Sono stato mutilato da un soldato nemico mentre conducevo le mie truppe in battaglia !"
+ commander_maimed_no_enemy_friendly:0 "Il comandante [CHARACTER.GetUINameNoTooltip] è stato mutilato mentre conduceva le sue truppe in battaglia!"
+ commander_maimed_no_enemy_enemy:0 "Uno dei tuoi valorosi soldati è riuscito a mutilare il comandante nemico, [CHARACTER.GetUINameNoTooltip] in battaglia!"
+
+ commander_maimed_by_enemy_friendly_player:1 "Sono stato mutilato da [TARGET_CHARACTER.GetUINameNoTooltip] mentre conducevo le mie truppe in battaglia!"
+ commander_maimed_by_enemy_friendly:0 "Il comandante [CHARACTER.GetUINameNoTooltip] è stato mutilato da [TARGET_CHARACTER.GetUINameNoTooltip] in battaglia!"
+ commander_maimed_by_enemy_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] ha mutilato il comandante nemico, [CHARACTER.GetUINameNoTooltip] in battaglia!"
+
+ commander_killed_no_enemy_friendly_player:0 "Sono stato ucciso da un soldato nemico mentre conducevo le truppe in battaglia!"
+ commander_killed_no_enemy_friendly:0 "Il comandante [CHARACTER.GetUINameNoTooltip] è stato ucciso mentre conduceva le sue truppe in battaglia!"
+ commander_killed_no_enemy_enemy:0 "Uno dei tuoi valorosi soldati è riuscito a uccidere il comandante nemico, [CHARACTER.GetUINameNoTooltip], mandando il loro esercito allo sbando!"
+
+ commander_killed_by_enemy_friendly_player:1 "Sei stato ucciso da [TARGET_CHARACTER.GetUINameNoTooltip] mentre guidavi le tue truppe in battaglia!"
+ commander_killed_by_enemy_friendly:0 "Il comandante [CHARACTER.GetUINameNoTooltip] è stato ucciso da [TARGET_CHARACTER.GetUINameNoTooltip]!"
+ commander_killed_by_enemy_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] ha ucciso il comandante nemico, [CHARACTER.GetUINameNoTooltip], mandando il loro esercito allo sbando!"
+
+ # Commander injured/killed event strings for use in messages/toasts.
+ commander_wounded_no_enemy_interface_friendly_player:1 "Sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] ferit[ROOT.Char.Custom('DE_END_PRO_S_N')] da un soldato nemico mentre conducevi le truppe in battaglia!"
+ commander_wounded_by_enemy_interface_friendly_player:1 "Sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] ferit[ROOT.Char.Custom('DE_END_PRO_S_N')] da [enemy_knight.GetUINameNoTooltip] mentre conducevi le truppe im battaglia!"
+ commander_maimed_no_enemy_interface_friendly_player:1 "Sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] mutilat[ROOT.Char.Custom('DE_END_PRO_S_N')] da un soldato nemico mentre conducevi le truppe in battaglia!"
+ commander_maimed_by_enemy_interface_friendly_player:1 "Sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] mutilat[ROOT.Char.Custom('DE_END_PRO_S_N')] da [enemy_knight.GetUINameNoTooltip] mentre conducevi le truppe in battaglia!"
+ commander_killed_no_enemy_interface_friendly:1 "[ROOT.Char.GetUINameNoTooltip] è stat[ROOT.Char.Custom('DE_END_PRO_S_N')] uccis[ROOT.Char.Custom('DE_END_PRO_S_N')] da un soldato nemico mentre conduceva le truppe in battaglia!"
+ commander_killed_by_enemy_interface_friendly:1 "[ROOT.Char.GetUINameNoTooltip] è stat[ROOT.Char.Custom('DE_END_PRO_S_N')] uccis[ROOT.Char.Custom('DE_END_PRO_S_N')] da [enemy_knight.GetUINameNoTooltip] mentre conduceva le truppe in battaglia!"
+

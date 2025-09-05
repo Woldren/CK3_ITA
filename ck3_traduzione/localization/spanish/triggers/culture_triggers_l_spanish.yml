@@ -1,0 +1,75 @@
+﻿l_spanish:
+
+ HAS_INNOVATION_THIRD:0 "La [culture|E] [CULTURE.GetName] ha l'[innovation|E] [INNOVATION.GetName] "
+ NOT_HAS_INNOVATION_THIRD:0 "La [culture|E] [CULTURE.GetName] #bold non#! ha l'[innovation|E] [INNOVATION.GetName]"
+ HAS_INNOVATION_NONE:0 "La [culture|E] non ha l'[innovation|E] [INNOVATION_TYPE.GetName]"
+ NOT_HAS_INNOVATION_NONE:0 "La [culture|E] #bold non#! ha l'[innovation|E] [INNOVATION_TYPE.GetName]" 
+
+ MUST_BE_UNLOCKED_BY_DECISION:0 "Deve essere sbloccata da una decisione"
+
+ HAS_CULTURAL_ERA_OR_LATER:0 "La [culture|E] [CULTURE.GetName|U] ha raggiunto l'era $ERA$"
+ NOT_HAS_CULTURAL_ERA_OR_LATER:0 "La [culture|E] [CULTURE.GetName|U] #bold non#! ha raggiunto l'era $ERA$"
+
+ DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "Il titolo [TITLE.GetName] è in [de_jure_drifting|E] verso [TARGET_TITLE.GetName]"
+ NOT_DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "Il titolo [TITLE.GetName] #bold non#! è in [de_jure_drifting|E] verso [TARGET_TITLE.GetName]"
+ DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "In [de_jure_drifting|E] verso [TARGET_TITLE.GetName]"
+ NOT_DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "#bold Non#! è in [de_jure_drifting|E] verso [TARGET_TITLE.GetName]"
+
+
+ DE_JURE_DRIFT_PROGRESS_TRIGGER:0 "Il processo di [de_jure_drifting|E] del titolo [TITLE.GetName] verso [TARGET_TITLE.GetName] è $OPERATOR$ $VALUE|V0$"
+
+ YOU_CAN_ONLY_CHANGE_CULTURE_ONCE:0 "Non puoi cambiare volontariamente la tua cultura più di una volta nella vita"
+ KNOWS_LANGUAGE_FIRST:1 "Conosco la lingua [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_FIRST_NOT:1 "#bold Non#! conosco la lingua [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_THIRD:1 "[CHARACTER.GetShortUIName|U] conosce la lingua [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_THIRD_NOT:1 "[CHARACTER.GetShortUIName|U] #bold non#! conosce la lingua [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_GLOBAL:1 "Conosce la lingua [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_GLOBAL_NOT:1 "#bold Non#! conosce la lingua [CULTURE_PILLAR.GetName]"
+
+ KNOWS_LANGUAGE_OF_CULTURE_FIRST:1 "Conosco la lingua [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_FIRST_NOT:1 "#bold Non#! conosco la lingua [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_THIRD:1 "[CHARACTER.GetShortUIName|U] conosce la lingua [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_THIRD_NOT:1 "[CHARACTER.GetShortUIName|U] #bold non#! conosce la lingua [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_GLOBAL:1 "Conosce la lingua [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_GLOBAL_NOT:1 "#bold Non#! conosce la lingua [TARGET_CULTURE.GetLanguage.GetName]"
+
+ HAS_CULTURAL_TRADITION_FIRST:2 "La [culture|E] [CULTURE.GetName|U] ha la [tradition|E] [CULTURE_TRADITION.GetName]"
+ HAS_CULTURAL_TRADITION_FIRST_NOT:2 "La [culture|E] [CULTURE.GetName|U] non ha la [tradition|E] [CULTURE_TRADITION.GetName]"
+ HAS_CULTURAL_TRADITION_THIRD:0 "$HAS_CULTURAL_TRADITION_FIRST$"
+ HAS_CULTURAL_TRADITION_THIRD_NOT:0 "$HAS_CULTURAL_TRADITION_FIRST_NOT$"
+ HAS_CULTURAL_TRADITION_GLOBAL:0 "La [culture|E] [CULTURE.GetName|U] ha la [tradition|E] [CULTURE_TRADITION.GetName]"
+ HAS_CULTURAL_TRADITION_GLOBAL_NOT:0 "La [culture|E] [CULTURE.GetName|U] non ha la [tradition|E] [CULTURE_TRADITION.GetName]"
+ HAS_CULTURAL_TRADITION_NONE:0 "La [culture|E] ha la [tradition|E] [CULTURE_TRADITION.GetName]"
+ NOT_HAS_CULTURAL_TRADITION_NONE:0 "La [culture|E] non ha la [tradition|E] [CULTURE_TRADITION.GetName]"
+ 
+
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_COASTAL_WARRIORS_NOT:0 "Incompatibile con la [tradition|E] $tradition_fp1_coastal_warriors_name$ "
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_NORTHERN_STORIES_NOT:0 "Incompatibile con la [tradition|E] $tradition_fp1_northern_stories_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_TRIALS_BY_COMBAT_NOT:0 "Incompatibile con la [tradition|E] $tradition_fp1_trials_by_combat_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_THE_RIGHT_TO_PROVE_NOT:0 "Incompatibile con la [tradition|E] $tradition_fp1_the_right_to_prove_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_RUNESTONES_NOT:0 "Incompatibile con la [tradition|E] $tradition_runestones_name$ [tradition|E]"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_PERFORMATIVE_HONOUR_NOT:0 "Incompatibile con la [tradition|E] $tradition_fp1_performative_honour_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_WARRIOR_CULTURE_NOT:0 "Incompatibile con la [tradition|E] $tradition_warrior_culture_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_SEAFARING_NOT:0 "Incompatibile con la [tradition|E] $tradition_seafaring_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_POETRY_NOT:0 "Incompatibile con la [tradition|E] $tradition_poetry_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_STORYTELLERS_NOT:0 "Incompatibile con la [tradition|E] $tradition_storytellers_name$"
+ any_ancestor_culture_was_mystical:1 "Almeno una cultura ancestrale deve avere la [tradition|E] $tradition_mystical_ancestors_name$."
+ mystical_ancestors_disinherit:0 "La cultura non ha la [tradition|E] $tradition_mystical_ancestors_name$."
+
+ HAS_CULTURAL_PILLAR_FIRST:1 "La [culture|E] [CULTURE.GetName|U] ha il [culture_pillar|E] [CULTURE_PILLAR.GetName]"
+ HAS_CULTURAL_PILLAR_FIRST_NOT:1 "La [culture|E] [CULTURE.GetName|U] non ha il [culture_pillar|E] [CULTURE_PILLAR.GetName]"
+ HAS_CULTURAL_PILLAR_THIRD:0 "$HAS_CULTURAL_PILLAR_FIRST$"
+ HAS_CULTURAL_PILLAR_THIRD_NOT:0 "$HAS_CULTURAL_PILLAR_FIRST_NOT$"
+
+ HAS_CULTURAL_PARAMETER_FIRST:1 "La [culture|E] [CULTURE.GetName|U] ha la [tradition|E] $PARAMETER_NAME$"
+ HAS_CULTURAL_PARAMETER_FIRST_NOT:1 "Non sbloccata da nessuna [tradition|E] [CULTURE.GetName|U]" #controllare se è sbloccato o sbloccata
+ HAS_CULTURAL_PARAMETER_THIRD:0 "$HAS_CULTURAL_PARAMETER_FIRST$"
+ HAS_CULTURAL_PARAMETER_THIRD_NOT:0 "$HAS_CULTURAL_PARAMETER_FIRST_NOT$"
+
+ NUM_DISCOVERED_INNOVATIONS_TRIGGER: "Il numero di [innovations|E] Scoperte dalla [culture|E] [CULTURE.GetName|U] #weak ($CURRENT_VALUE|0$)#! è $COMPARATOR$ $NUM|V0$"
+ NOT_NUM_DISCOVERED_INNOVATIONS_TRIGGER: "Il numero di [innovations|E] Scoperte dalla [culture|E] [CULTURE.GetName|U] #weak ($CURRENT_VALUE|0$)#! non è $COMPARATOR$ $NUM|V0$"
+
+ NUM_DISCOVERED_INNOVATIONS_IN_ERA_TRIGGER: "Il numero di [innovations|E] Scoperte dalla [culture|E] [CULTURE.GetName|U] #weak ($CURRENT_VALUE|0$)#! nell'[era|E] $ERA$ è $COMPARATOR$ $NUM|V0$"
+
+ HAS_SAME_CULTURAL_HERITAGE: "Condividi lo stesso [heritage|E] [Concept('culture','culturale')|E] "
+ HAS_SAME_CULTURAL_HERITAGE_NOT: "Non condividi lo stesso [heritage|E] [Concept('culture','culturale')|E]"

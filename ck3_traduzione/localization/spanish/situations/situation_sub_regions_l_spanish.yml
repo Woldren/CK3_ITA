@@ -1,0 +1,10 @@
+﻿l_spanish: 
+ the_great_steppe_sub_region_steppe_west: "Steppe Occidentali"
+ the_great_steppe_sub_region_steppe_west_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak Le steppe occidentali sono il luogo d'incontro tra le steppe e i grandi fiumi Don, Dnieper e Volga. Nel corso della storia, questo è stato anche il punto di partenza di numerose invasioni dei territori europei da parte delle popolazioni nomadi.#!"
+ the_great_steppe_sub_region_steppe_central: "Steppe Centrali"
+ the_great_steppe_sub_region_steppe_central_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak Le steppe centrali si trovano tra gli Urali a overs, i Monti Altai a est e il Khorassan a sud. Le popolazioni nomadi le attraversavano da ovest a est per raggiungere i grandi imperi su entrambi i lati della steppa.#!"
+ the_great_steppe_sub_region_steppe_east: "Steppe Orientali"
+ the_great_steppe_sub_region_steppe_east_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak A est dei Monti Altai e a nord del Deserto del Gobi si trovano le vaste steppe orientali. Queste hanno generato potenti guerrieri che alla fine hanno viaggiato verso ovest o hanno cercato di appropriarsi delle ricchezze dei loro vicini sudorientali.#!"
+
+ # TODO_MPO: Flesh out loc for sub region tooltips
+ SITUATION_SUB_REGION_TOOLTIP_DESC: "Questa [situation_sub_region|E] fa parte di [SituationSubRegion.GetSituation.GetName]\n\nFase Attuale: [SituationSubRegion.GetCurrentPhase.GetName|V]"

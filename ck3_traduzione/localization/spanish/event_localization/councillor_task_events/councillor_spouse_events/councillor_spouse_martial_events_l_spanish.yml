@@ -1,0 +1,51 @@
+﻿l_spanish:
+ councillor_spouse_martial.0001.message:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Ispira Reclutamento"
+
+ councillor_spouse_martial.0002.message:0 "Aiuto all'Organizzazione dell'Esercito"
+
+ councillor_spouse_martial.0003.message:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Ispiratore"
+
+ councillor_spouse_martial.0004.message:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Incoraggia la Cavalleria"
+
+ councillor_spouse_martial.0005.message:0 "Supporto nei Negoziati coi Mercenari"
+
+ councillor_spouse_martial.0006.message:0 "Si Prende Cura di Me"
+
+ councillor_spouse_martial.0007.message:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] sta Curando le Ferite"
+
+ councillor_spouse_martial.0008.message:0 "Presenza Intimidatoria"
+
+ councillor_spouse_martial.0009.message:0 "Pratica di Combattimento"
+
+ councillor_spouse_martial.1001.t:1 "Coniuge: Il Giorno del Torneo"
+ councillor_spouse_martial.1001.desc:2 "Il sole splende e i contadini stanno lavorando per il torneo organizzato da mi[councillor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))]. Tutti i miei $knight_culture_player_plural_no_tooltip_lowercase$ esultano mentre [councillor.Custom('DE_ART_DEF_P_A')] [councillor.GetTitledFirstName] indice il torneo in loro onore, e per una volta io semplicemente mi siedo e osservo.\n\nNon intendo però passare l'intera giornata del torneo bloccato su un trono!"
+ councillor_spouse_martial.1001.a:2 "Anche io tifo per i miei $knight_culture_player_plural_no_tooltip_lowercase$!"
+ councillor_spouse_martial.1001.commanders:2 "Ogni $knight_culture_player_no_tooltip_lowercase$"
+ councillor_spouse_martial.1001.b:0 "Questa è l'occasione perfetta per dare a [child.GetFirstNameNoTooltip] qualche suggerimento!"
+ councillor_spouse_martial.1001.b.education_tt:0 "Promuovo l'educazione marziale di [child.GetFirstNamePossessiveNoTooltip]"
+ councillor_spouse_martial.1001.c:0 "Questo giorno è in #EMP nostro#! onore, mi[councillor.Custom('DE_END_PRO_S_N')] car[councillor.Custom('DE_END_PRO_S_N')]!"
+ 
+ councillor_spouse_martial.1002.t:1 "Coniuge: Agendo a Nome Mio"
+ councillor_spouse_martial.1002.desc:0 "Mi[councillor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] trascorre molto tempo a viaggiare per il reame con le sue guardie d'onore. Ci sono molte questioni che [councillor.GetSheHe] può risolvere per mio conto, e la presenza militare che [councillor.GetTitledFirstName] porta con sé è un fermo richiamo al mio diritto di regnare."
+ councillor_spouse_martial.1002.a:0 "Io e [councillor.Custom('DE_ART_DEF_P_A')] mi[councillor.Custom('DE_END_PRO_S_N')] [councillor.GetTitleAsNameNoTooltip] siamo pronti a difendere il regno!"
+ councillor_spouse_martial.1002.b:0 "Assicurati che la gente strisci in modo appropriato, mi[councillor.Custom('DE_END_PRO_S_N')] car[councillor.Custom('DE_END_PRO_S_N')]."
+ councillor_spouse_martial.1002.c:0 "Tutti dovrebbero temermi e strisciare ai miei piedi, [councillor.GetFirstNameNoTooltip]!"
+
+ councillor_spouse_martial.1003.t:1 "Coniuge: Una Questione di Onore"
+ councillor_spouse_martial.1003.desc:0 "Mi[councillor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('councillor'))]. È del conflitto tra [attacker_vassal.GetTitledFirstName] e [defender_vassal.GetTitledFirstName] che [councillor.GetSheHe] desidera discutere.\n\n"La loro lotta è senza onore, e portano vergonga al tuo reame. Lascia che me ne occupi io. So che posso forzarli ad una pace.""
+ councillor_spouse_martial.1003.a:0 "Risolvi la situazione, a qualunque costo."
+ councillor_spouse_martial.1003.b:0 "No, voglio vedere chi vince!"
+ councillor_spouse_martial.1003.b.tt:0 "[attacker_vassal.GetFirstNameNoTooltip] e [defender_vassal.GetFirstNameNoTooltip] continuano la loro guerra"
+ councillor_spouse_martial.1003.c:0 "Oh, confido che puoi farcela, amore."
+ councillor_spouse_martial.1003.c.unlock_tt:0 "Questa opzione è disponibile grazie al genio strategico di [councillor.GetFirstNamePossessiveNoTooltip] "
+
+ councillor_spouse_martial.1004.t:1 "Coniuge: La Guardia"
+ councillor_spouse_martial.1004.desc:0 "Sono rimasto confuso sul perché mi[councillor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] voglia consegnarmi un "grande regalo" in cortile. Ben presto tuttavia ho capito, quando [councillor.Custom('DE_ART_DEF_P_A')] [councillor.GetTitledFirstName] ha ordinato ad un gruppo di soldati di mettersi in fila. "Un reggimento completo, reclutato nelle mie terre, pronto a servirti."\n\nQuesto #EMP è#! un grande regalo!"
+ councillor_spouse_martial.1004.a:0 "Più truppe per rinforzare l'esercito!"
+ councillor_spouse_martial.1004.b:0 "Serviranno come mia guardia personale."
+
+ councillor_spouse_martial.1005.t:1 "Coniuge: Lasciare un Segno"
+ councillor_spouse_martial.1005.desc:0 "[vassal.Custom('DE_ART_DEF_P_D')] [vassal.GetTitledFirstName] sta arrivando a [capital.GetNameNoTier] per rendermi omaggio. Tuttavia, [councillor.GetTitledFirstName] suggerisce che un'esibizione militare potrebbe rafforzaren la sua fedeltà.\n\n"Vedere la tua schiacciante potenza farebbe riflettere qualcuno due volte qualora gli fosse passata per la testa l'idea del tradimento," sottolinea mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]."
+ councillor_spouse_martial.1005.a:0 "Sì, [vassal.Custom('DE_ART_DEF_P_A')] [vassal.GetFirstNameNoTooltip] vedrà soldati ovunque si volterà!"
+ councillor_spouse_martial.1005.a.tt:1 "[vassal.Custom('DE_ART_DEF_P_D')] [vassal.GetFirstNameNoTooltip] diventa più suscettibile alla [dread|E]"
+ councillor_spouse_martial.1005.b:0 "Una normale parata dovrebbe bastare."

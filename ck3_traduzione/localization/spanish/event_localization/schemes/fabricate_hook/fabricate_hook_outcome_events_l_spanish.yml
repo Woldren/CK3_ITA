@@ -1,0 +1,45 @@
+﻿l_spanish:
+ fabricate_hook_header:0 "Fabbrica Gancio:"
+ fabricate_hook_hook_gained_on_you:0 "@warning_icon [owner.GetShortUIName] ha fabbricato un [hook|E] su di te!"
+
+ fabricate_hook_outcome.0001.t:1 "$fabricate_hook_header$ Un Segreto"
+ fabricate_hook_outcome.0001.desc:0 "[target.GetFirstName] ha qualcosa da nascondere, a quanto pare. Buon per me. Non dovrei avere troppe difficoltà a far sì che finisca nelle mie grinfie."
+ fabricate_hook_outcome.0001.a:0 "Tutto ciò che mi serve e fare in modo che [target.GetSheHe] sappia ciò di cui sono a conoscenza..."
+ fabricate_hook_outcome.0001.b:0 "Terrò la cosa per me per adesso."
+ fabricate_hook_outcome.0001.c:0 "Oh, questo è qualcosa di cui tutti dovrebbero venire al corrente!"
+
+ fabricate_hook_outcome.1001.t:1 "$fabricate_hook_header$ Una Situazione Compromettente"
+ fabricate_hook_outcome.1001.desc:0 "Tutti si spogliano #EMP a volte.#! La parte difficle è assicurarsi che la truppa di giocolieri entri nelle camere di [target.GetTitledFirstNamePossessive] al momento giusto, e che ci siano abbastanza servitori in giro a speculare riguardo al caos che ne conseguirà.\n\nSospetto che [target.GetFirstNameNoTooltip] farà qualsiasi cosa per impedirmi di alimentare le fiamme delle voci che ne deriveranno..."
+ fabricate_hook_outcome.1001.a:0 "Manda dentro gli intrattenitori!"
+ fabricate_hook_outcome.1001.a.flavor:0 "Ugh, parlare con i giocolieri. Di nuovo."
+ fabricate_hook_outcome.1001.b:0 "Dovrei pensarci più attentamente."
+ fabricate_hook_outcome.1001.c:0 "Tutto ciò è stato un grosso sbaglio."
+
+ fabricate_hook_outcome.1002.t:1 "$fabricate_hook_header$ Una Missiva Incriminante"
+ fabricate_hook_outcome.1002.desc:1 "Fermando un messaggero proveniente dalla corte del[target.Custom('DE_END_ADJ_NUL_S_N')] [target.GetTitledFirstName], si è presentata un'opportunità.\n\n"
+ fabricate_hook_outcome.1002.desc.vassals:0 "Imitando il sigillo del[target.Custom('DE_END_ADJ_NUL_S_N')] [target.GetTitleAsName], posso fabbricare una lettera recante la minaccia di un aumento delle tasse e farla circolare tra i suoi vassalli. O perlomeno posso minacciare di farlo..."
+ fabricate_hook_outcome.1002.desc.no_vassals:0 "Imitando il sigillo del[target.Custom('DE_END_ADJ_NUL_S_N')] [target.GetTitleAsName], posso fabbricare una lettera recante la minaccia di un aumento delle tasse e farla circolare tra i suoi cortigiani O perlomeno posso minacciare di farlo..."
+ fabricate_hook_outcome.1002.a:0 ""Quella #EMP è#! la tua firma, non è così?""
+
+ fabricate_hook_outcome.1003.t:1 "$fabricate_hook_header$ Un Audace Salvataggio"
+ fabricate_hook_outcome.1003.desc:0 "Non sarebbe meraviglioso se [target.GetTitledFirstName] avesse un debito con me, non di paura, ma di gratitudine? Se io, pe esempio, [target.Custom('DE_PRO_POS_P_3P')] salvassi da feroci banditi mentre [target.Custom('DE_ART_IND_A')] è in viaggio? Proprio così, vili banditi, proprio come gli uomini attualmente in attesa all'esterno dei cancelli del castello?\n\nLi caricherei con le mie guardie all'ultimo momento, disperndendoli e lasciando [target.GetFirstNameNoTooltip] in debito con me per la vita."
+ fabricate_hook_outcome.1003.a:0 "Così semplice, eppure così convincente."
+
+ fabricate_hook_outcome.1004.t:1 "$fabricate_hook_header$ Maldicenze"
+ fabricate_hook_outcome.1004.desc:0 "Ho dato adito a maldicenze contro [target.GetTitledFirstName]. Nessuna di esse è vera, e qualcuno dovrebbe screditarle come le palesi menzogne che in realtà esse sono.\n\nQuale modo migliore per far sì che [target.GetFirstNameNoTooltip] sia in debito con quel #EMP qualcuno#!?"
+ fabricate_hook_outcome.1004.a:0 "Devo oppormi ad una tale ingiustizia!"
+ fabricate_hook_outcome.1004.a.flavor:0 "Al mio [ROOT.Char.GetFaith.PriestNeuter] questa cosa non piacerà."
+ fabricate_hook_outcome.1004.a.flavor_sacred_shadows:0 "Il mio [ROOT.Char.GetFaith.PriestNeuter] lo apprezzerà!"
+
+ fabricate_hook_outcome.1005.t:1 "$fabricate_hook_header$ Barbaro ma Efficace"
+ fabricate_hook_outcome.1005.desc:0 "La soluzione più semplice è spesso la migliore. Perché preoccuarsi con tutti questi intrighi e manipolazioni quando posso semplicemente costringere [target.GetFirstName] ad eseguire i miei ordini?\n\nQualche uomo forzuto e qualche lettera minacciosa dovrebbe bastare, in effetti."
+ fabricate_hook_outcome.1005.a:0 "Scriba! Abbiamo lettere da comporre!"
+ fabricate_hook_outcome.1005.a.flavor:0 ""Mia carissima vittima...""
+
+ fabricate_hook_outcome.2001.t:1 "$fabricate_hook_header$ Un Subdolo Stratagemma"
+ fabricate_hook_outcome.2001.desc:0 "Con mezzi subdoli, [owner.GetFirstName] ha escogitato un modo per tenermi in pugno!\n\nIo condanno tutto per le menzogne e gli inganni che sono, ma non ho altra scelta se non quella di assecondar[owner.Custom('DE_PRO_POS_P_3P')]."
+ fabricate_hook_outcome.2001.a:0 "Credevo non ti saresti abbassat[owner.Custom('DE_END_PRO_S_N')] a tanto, [owner.GetFirstNameNoTooltip]."
+
+ fabricate_hook_outcome.3001.t:1 "$fabricate_hook_header$ Perdere il Vantaggio"
+ fabricate_hook_outcome.3001.desc:0 "[target.GetFirstName] ha scoperto che sto cercando di tener[target.Custom('DE_PRO_POS_P_3P')] in pugno in modo disonesto!\n\nDevo fare il possibile per salvare la mia reputazione!"
+ fabricate_hook_outcome.3001.a:0 "Ciò significa la fine dei miei sforzi..."

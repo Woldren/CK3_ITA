@@ -1,0 +1,14 @@
+﻿l_spanish:
+
+ holding_torch_modifier: "Tenere la Torcia"
+ holding_torch_modifier_desc: "Questo personaggio porta ancora con sé la fiamma di una cotta non corrisposta, che lo rende un po' vulnerabile"
+
+ reminiscing_modifier: "Abbandonarsi ai Ricordi"
+ reminiscing_modifier_desc: "Questo personaggio ha trascorso un po' di tempo a ricordare la propria giovinezza."
+
+ delayed_heartbreak_modifier: "Crepacuore in Ritardo"
+ delayed_heartbreak_modifier_desc: "Questo personaggio ha tentato di riaccendere una vecchia fiamma ed è stato respinto."
+
+ besotted_modifier: "Invaghito"
+ besotted_modifier_desc: "Pieno delle passioni ardenti della giovinezza, questo personaggio è veramente innamorato di un altro."
+ 

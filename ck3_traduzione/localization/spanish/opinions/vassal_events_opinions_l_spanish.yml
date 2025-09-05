@@ -1,0 +1,11 @@
+﻿l_spanish:
+ promised_vassal_holy_war_opinion:0 "Ha promesso di combattere i nemici religiosi"
+ promised_vassal_claim_war_opinion:0 "Ha promesso di combattere per la rivendicazione di un vassallo"
+ favored_vassal_opinion:0 "Vassallo preferito"
+ favored_vassals_rival_opinion:0 "Vassallo preferito"
+ favored_me:0 "Mi ha favorito"
+
+tributary_volunteered_opinion: "Tributo Offerto Volontariamente"
+tributary_demanded_opinion: "Tributo Richiesto"
+tributary_ceased_payments_opinion: "Pagamenti del Tributo Interrotti"
+tributary_released_opinion: "Mi ha Liberato dal Contratto di Tributario"

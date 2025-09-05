@@ -1,0 +1,21 @@
+﻿l_spanish:
+ varangian_arrived.title:0 "Un nuovo Variago"
+ varangian_arrived.desc:0 "[varangian_candidate.GetShortUIName|U] si è unito alla Guardia Variaga"
+
+ varangian.0002.t:0 "La Guardia Variaga"
+ varangian.0002.opening:0 "Nel momento in cui [varangian_candidate.Custom2('MyCharacterIntroduction', ROOT.Char )], arriva da me con il suo piano, [varangian_candidate.Custom('DE_ART_IND_A')] sembra aver già preso la sua decisione.\n\n"Prestare servizio nei Variaghi"
+ varangian.0002.miklagard:0 "Miklagard"
+ varangian.0002.elsewhere:0 "la guardia dell'Imperatore"
+ varangian.0002.end:0 "porterà ricchezza e gloria!"\n\nQuesto non posso negarlo, ma potrei negare la sua richiesta. D'altra parte, sarebbe giusto fermare qualcuno nella sua ricerca della gloria?"
+ varangian.0002.a:0 "Vai, con la benedizione [ROOT.Char.GetFaith.WarGodNamePossessive]!"
+ varangian.0002.b:0 "No, te lo proibisco! Qui c'è bisogno di te."
+
+ varangian.1002.t:0 "Di Ritorno dalla Guardia Variaga"
+ varangian.1002.opening:0 "Riconosco a malapena [returning_varangian.Custom2('MyCharacterIntroduction', ROOT.Char )], quando appare nel/nella [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'campo', 'great_hall')]."
+ varangian.1002.new_partner:0 "E di certo non riconosco [partner.GetWomanMan] al [varangian_candidate.GetHerHis] fianco!"
+ varangian.1002.ending:0 "\n\n"Sono tornat[returning_varangian.Custom('DE_END_PRO_S_N')], finalmente!" sospira [returning_varangian.GetFirstNameNoTooltip]. "Ci sono state molte volte in cui ho pensato che non avrei mai più rivisto questi luoghi, ma finalmente sono tornat[returning_varangian.Custom('DE_END_PRO_S_N')]."\n\nPer quanto sia strano vedere mi[returning_varangian.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', returning_varangian )] dopo tutti questi anni, non posso negare di essere colpit[ROOT.Char.Custom('DE_END_PRO_S_N')] dai suoi abiti e dai gioielli stranieri, e dal pesante forziere che ha portato con se."
+ varangian.1002.a:0 "Bentornat[returning_varangian.Custom('DE_END_PRO_S_N')] a casa, [returning_varangian.GetFirstNameNoTooltip]!"
+
+ varangian.3001.t:0 "Guardia Variaga: Una Morte Onorevole"
+ varangian.3001.desc:0 "[varangian.Custom2('MyCharacterIntroduction', ROOT.Char)] è morto mentre prestava servizio nella Guardia Varangiana!\n\nHo ricevuto una missiva dal [emperor.GetTitledFirstName] elogiando il [varangian.GetHerHis] nome, e descrivendo come [varangian.GetSheHe] ha combattuto valorosamente per salvare la vita di [emperor.GetTitleAsNameNoTooltip] da feroci assassini.\n\nNiente può portare [varangian.GetFirstNameNoTooltip] indietro, ma la ricompensa postuma dell'oro da [emperor.GetTitleAsNameNoTooltip] aiuta ad alleviare il dolore."
+ varangian.3001.a:0 "Coraggioso fino alla fine, [varangian.GetFirstNameNoTooltip]..."

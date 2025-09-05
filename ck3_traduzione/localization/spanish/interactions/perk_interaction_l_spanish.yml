@@ -1,0 +1,37 @@
+﻿l_spanish:
+ claim_throne_interaction:0 "Rivendicare il Trono #weak (Complotto)#!"
+ claim_throne_interaction_message:0 "Trono Rivendicato"
+
+ demand_payment_interaction:0 "Richiedi Pagamento"
+ demand_payment_interaction_desc:0 "Costringi [recipient.GetShortUINameNoTooltip] a darti dell'oro come pagamento per un tuo [hook|E]"
+ demand_payment_interaction_message:0 "Obbligazioni Pagate"
+ RECIPIENT_HAS_TOO_LITTLE_GOLD:0 "[CHARACTER.GetName] non ha abbastanza oro"
+ demand_payment_too_little_gold_tt:0 "#N [recipient.GetShortUINameNoTooltip] non ha abbastanza oro per pagare#!\nRiceverò meno del previsto #F ([gold_i][SCOPE.ScriptValue('demand_payment_current_gold_value')|0]/[gold_i][SCOPE.ScriptValue('demand_payment_gold_to_pay')|0])#!"
+
+ buy_claim_interaction:0 "Acquista una Rivendicazione"
+ buy_claim_interaction_desc:0 "Paga [piety|E] per ottenere un [claim|E] su uno dei titoli validi di [recipient.GetShortUINamePossessiveNoTooltip] #weak ([buy_claim|E])#!"
+ buy_claim_interaction.message:0 "[target.GetName] Rivendicato!"
+ BUY_CLAIM_ALREADY_HAS_A_CLAIM:1 "Hai già un [claim|E] su questo [title|E]"
+ BUY_CLAIM_ALREADY_KING_OR_EMPEROR:1 "Non è possibile acquistare un [claim|E] su un [kingdom|E] se sei già un [king|E] o [emperor|E]"
+ BUY_CLAIM_ALREADY_EMPEROR:1 "Non è possibile acquistare un [claim|E] su un [empire|E] se sei già un [emperor|E]"
+ BUY_CLAIM_RELIGIOUS_TITLE:0 "Non è possibile acquistare un [claim|E] su un titolo religioso"
+ BUY_CLAIM_LANDLESS_ADVENTURER_TITLE:0 "Non puoi acquistare una [claim|E] sul titolo di un [adventurer|E]"
+ BUY_CLAIM_NOBLE_FAMILY_TITLE: "Non puoi acquistare una [claim|E] sul titolo di una [noble_family|E]"
+
+ challenge_to_single_combat_interaction:0 "Sfida il Rivale a Combattere"
+ challenge_to_single_combat_interaction_desc_regular: "Sfida il tuo [rival|E] ad un [single_combat_duel|E], infliggendo [stress|E] in caso di vittoria"
+ challenge_to_single_combat_nomadic_interaction: "Sfida a combattere"
+ challenge_to_single_combat_interaction_desc_nomadic: "Sfida un [character|E] che non fa parte dei [close_family|E] del genere [martial|E] ad un [single_combat_duel|E], infliggendo [stress|E] in caso di vittoria"
+ challenge_to_single_combat_interaction_desc: "[SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_nomadic' ), 'challenge_to_single_combat_interaction_desc_nomadic', 'challenge_to_single_combat_interaction_desc_regular' )]"
+ challenge_to_single_combat_interaction.enter_non_lethal_bout.tt:0 "Un [single_combat_fight|E] non letale avrà inizio immediatamente"
+ challenge_to_single_combat_interaction.victor_gets.tt:0 "Il vincitore perde [stress|E]"
+ challenge_to_single_combat_interaction.loser_gets.tt:0 "Il perdente ottiene [stress|E]"
+ challenge_to_single_combat_interaction.challenge_rejected.t:0 "[recipient.GetShortUINameNoTooltip] Rifiuta la tua Sfida!"
+ challenge_to_single_combat_interaction.challenge_rejected.tt:0 "[recipient.Custom('DE_ART_DEF_P_D')] codard[recipient.Custom('DE_END_PRO_S_N')] teme la tua lama"
+ UNLOCKS_ABILITY_TO_DUEL_RIVALS:0 "Puoi sfidare i [rivals|E] a [single_combat_fight|E], infliggendo [stress|E] in caso di vittoria"
+ CTSC_RELATIVE_PROWESS:0 "[Concept( 'prowess', 'Maestria' )|E] Relativa: $VALUE|=+0$"
+
+ UNLOCKS_ABILITY_TO_DUEL_EVERYONE: "È possibile sfidare [characters|E] che non fanno parte dei [close_family|E], del genere [martial|E], ad un [single_combat_fight|E], infliggendo [stress|E] in caso di vittoria"
+
+ buy_artifact_claim_interaction:0 "Comprare una Rivendicazione su un Manufatto"
+ buy_artifact_claim_interaction_desc:0 "Spendi [piety|E] o [prestige|E] per ottenere una [personal_artifact_claim|E] su un [artifact|E] di un altro personaggio #weak ([buy_artifact_claim|E])#!"

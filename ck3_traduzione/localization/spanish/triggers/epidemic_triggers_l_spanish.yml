@@ -1,0 +1,46 @@
+﻿l_spanish:
+ outbreak_province_equal_global: "L'epidemia è iniziata in [PROVINCE.GetName]"
+ not_outbreak_province_equal_global: "L'epidemia #bold non#! è iniziata in [PROVINCE.GetName]"
+ outbreak_province_equal_third: "L'epidemia di [EPIDEMIC.GetName] è iniziata in [PROVINCE.GetName]"
+ not_outbreak_province_equal_third: "L'epidemia di [EPIDEMIC.GetName] #bold non#! è iniziata in [PROVINCE.GetName]"
+  
+ outbreak_intensity_global: "L'intensità dell'epidemia è $COMPARATOR$ $CHECK_VALUE|V$"
+ not_outbreak_intensity_global: "L'intensità dell'epidemia #bold non#! è $COMPARATOR$ $CHECK_VALUE|V$"
+ outbreak_intensity_third: "L'intensità dell'epidemia di [EPIDEMIC.GetName] è $COMPARATOR$ $CHECK_VALUE|V$"
+ not_outbreak_intensity_third: "L'intensità dell'epidemia di [EPIDEMIC.GetName] #bold non#! è $COMPARATOR$ $CHECK_VALUE|V$"
+  
+ total_infected_provinces_global: "Il numero di [holdings|e] infetti è $COMPARATOR$ $NUM|V$ "
+ not_total_infected_provinces_global: "Il numero di [holdings|e] #bold non#! infetti è $COMPARATOR$ $NUM|V$"
+ total_infected_provinces_third: "Il numero di [holdings|e] infettati da [EPIDEMIC.GetName] è $COMPARATOR$ $NUM|V$"
+ not_total_infected_provinces_third: "Il numero di [holdings|e] infettati da [EPIDEMIC.GetName] #bold non#! è $COMPARATOR$ $NUM|V$"
+  
+ outbreak_start_date_global: "È iniziato $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ not_outbreak_start_date_global: "#bold Non#! è iniziato $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ outbreak_start_date_third: "L'epidemia di [EPIDEMIC.GetName] è iniziata $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ not_outbreak_start_date_third: "L'epidemia di [EPIDEMIC.GetName] #bold non#! è iniziata $COMPARATOR$ [CHECK_DATE.GetString|V]"
+  
+ days_since_outbreak_start_global: "È iniziata $COMPARATOR$ $NUM|V$ giorni fa"
+ not_days_since_outbreak_start_global: "#bold Non#! è iniziata $COMPARATOR$ $NUM|V$ giorni fa"
+ days_since_outbreak_start_third: "L'epidemia di [EPIDEMIC.GetName] è iniziata $COMPARATOR$ $NUM|V$ giorni fa"
+ not_days_since_outbreak_start_third: "L'epidemia di [EPIDEMIC.GetName] #bold non#! è iniziata $COMPARATOR$ $NUM|V$ giorni fa"
+  
+ province_infection_date_global: "L'infezione è iniziata $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ not_province_infection_date_global: "L'infezione #bold non#! è iniziata $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ province_infection_date_third: "L'infezione di [EPIDEMIC.GetName] in [PROVINCE.GetName] è iniziata $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ not_province_infection_date_third: "L'infezione di [EPIDEMIC.GetName] in [PROVINCE.GetName] #bold non#! è iniziata $COMPARATOR$ [CHECK_DATE.GetString|V]"
+  
+ days_since_province_infection_global: "L'infezione è iniziata $COMPARATOR$ $NUM|V$ giorni fa"
+ not_days_since_province_infection_global: "L'infezione #bold non#! è iniziata $COMPARATOR$ $NUM|V$ giorni fa"
+ days_since_province_infection_third: "L'infezione di [EPIDEMIC.GetName] in [PROVINCE.GetName] è iniziata $COMPARATOR$ $NUM|V$ giorni fa"
+ not_days_since_province_infection_third: "L'infezione di [EPIDEMIC.GetName] in [PROVINCE.GetName] #bold non#! è iniziata $COMPARATOR$ $NUM|V$ giorni fa"
+  
+ province_infection_rate_global: "Il [infection_rate|E] è $COMPARATOR$ $NUM|V$"
+ not_province_infection_rate_global: "Il [infection_rate|E] #bold non#! è $COMPARATOR$ $NUM|V$"
+ province_infection_rate_third: "Il [infection_rate|E] di [EPIDEMIC.GetName] in [PROVINCE.GetName] è $COMPARATOR$ $NUM|V$"
+ not_province_infection_rate_third: "Il [infection_rate|E] di [EPIDEMIC.GetName] in [PROVINCE.GetName] #bold non#! è $COMPARATOR$ $NUM|V$"
+  
+ any_province_epidemic_global: "Tutte le [epidemics|E]"
+ any_province_epidemic_third: "Tutte le [epidemics|E] in [PROVINCE.GetName]"
+ any_province_epidemic_count_global: "$PARAMETERS$ [epidemics|E]"
+ any_province_epidemic_count_third: "$PARAMETERS$ [epidemics|E] in [PROVINCE.GetName]"
+  

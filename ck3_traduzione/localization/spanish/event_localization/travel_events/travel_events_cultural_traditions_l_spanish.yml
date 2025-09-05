@@ -1,0 +1,152 @@
+﻿l_spanish:
+
+ travel_events.1200.t:0 "Abitanti Amichevoli"
+ travel_events.1200.desc:1 "Mentre ci fermiamo per accamparci fuori da un piccolo villaggio di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], gli abitanti del luogo vengono a dare un'occhiata alla nostra carovana. All'inizio penso che vogliano commerciare con noi, ma presto diventa chiaro che sono venuti per farci dei regali e per imparare il più possibile sulla nostra cultura!\n\n[Select_CString(local_peasant.IsFemale, 'Una', 'Un' )] abitante in particolare, [local_peasant.GetNameNoTooltip], ha un milione di domande sulla nostra provenienza."
+ travel_events.1200.a:0 "Devo parlare con loro per saperne di più."
+ travel_events.1200.b:0 "Ne trarremo il massimo beneficio."
+
+ tradition_travel_discount_desc:0 "Ho sperimentato questa tradizione culturale durante il viaggio"
+
+ travel_events.1200.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_xenophilic').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1201.t:0 "La cavalleria vive ancora"
+ travel_events.1201.desc:0 "Viaggiando verso [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] incontriamo alcuni [GetPlayer.Custom('KnightCulturePlural')] [ROOT.Char.GetCurrentLocation.GetCulture.GetName]. Sono profondamente rispettosi e, a quanto pare, grandi amanti della poesia, visto che insistono nel recitarla ogni volta che possono.\n\nIl codice di condotta che seguono ha molti pregi e non posso fare a meno di ammirarlo. Uno dei [GetPlayer.Custom('KnightCulturePlural')], [local_knight.GetNameNoTooltip] è particolarmente impressionante. "
+ travel_events.1201.a:0 "Vorrei importare questa tradizione."
+ travel_events.1201.b:0 "Dovrei cercare di essere più cavalleresco"
+
+ travel_events.1201.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_chivalry').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1202.t:0 "Buoni Lavoratori"
+ travel_events.1202.desc:2 "Viaggiando verso [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], noto che tutti lavorano intensamente e pacificamente, cosa che non accade nel mio paese.\n\nInterrompo uno dei lavoratori per chiedergli cosa sta succedendo e [random_peasant.GetSheHe] condivide con me la sua saggezza:\n\n"Beh, vedi, quello che devi fare è lavorare e non fermarti finché il lavoro non è stato fatto bene""
+ travel_events.1202.a:0 "Devo parlare con loro per saperne di più."
+ travel_events.1202.b:0 "Forse posso applicare alcuni di questi principi nella mia terra."
+
+ travel_events.1202.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_hard_working').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1203.t:0 "Forti Legami"
+ travel_events.1203.desc:0 "Mentre attraverso i villaggi di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], passo un po' di tempo a parlare con la gente del posto. Una cosa che salta all'occhio è la loro intensa lealtà nei confronti del loro signore.\n\nUn abitante del villaggio parla con una tale passione da far pensare che stia descrivendo un amante piuttosto che il suo sovrano."
+ travel_events.1203.a:0 "Devo parlare con loro per saperne di più."
+ travel_events.1203.b:0 "Renderò i miei sudditi ugualmente fedeli."
+
+ travel_events.1203.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_loyal_soldiers').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1204.t:0 "Discussione Civile"
+ travel_events.1204.desc:0 "Viaggiando verso [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] ho l'opportunità di osservare la gente del posto che discutevano su chi fosse il proprietario di un certo capo di bestiame.Sebbene l'oggetto della disputa sembri piuttosto serio, entrambe le parti rimangono calme e rilassate e nessuno ricorre alle maniere forti.\n\nImmagino cosa potremmo ottenere nelle nostre terre se avessimo questo livello di pace e ragionevolezza."
+ travel_events.1204.a:0 "Devo parlare con loro per saperne di più."
+ travel_events.1204.b:0 "Proverò questo esperimento di pacifismo."
+
+ travel_events.1204.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_pacifism').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1205.t:0 "Una Vita Semplice"
+ travel_events.1205.desc:0 "Viaggiando attraverso il/le [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l] di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], non posso fare a meno di notare quanto siano semplici i vestiti, le abitazioni e persino le espressioni dei abitanti [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip].\n\nTuttavia, quando chiedo informazioni sulla povertà di questa particolare regione, mi viene spiegato che si tratta di una scelta e che si punta più sulla praticità che sull'apparenza."
+ travel_events.1205.a:0 "Dovremmo imparare da questo nella mia terra."
+ travel_events.1205.b:0 "Dovrei cercare di vivere in modo semplice."
+ travel_events.1205.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_spartan').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1206.t:0 "Gioie della Caccia"
+ travel_events.1206.desc:0 "Viaggiando attraverso il/le [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l] di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], incontro un gruppo di cacciatori. Mi permettono di seguirli per un po' nella loro caccia, illustrandomi alcune loro tecniche e dandomi alcuni suggerimenti unici per seguire le prede di questa regione."
+ travel_events.1206.a:0 "Vorrei che ci fossero più persone così"
+ travel_events.1206.b:0 "Forse possono addestrarmi?"
+ travel_events.1206.c:0 "[Select_CString(ROOT.Char.IsFemale,'Sono una cacciatrice','Sono un cacciatore')]!"
+ travel_events.1206.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_hunters').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1207.t:0 "Carne della Terra"
+ travel_events.1207.desc:0 "Viaggiando verso [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] un anziano del villaggio ci ferma e insiste che ci uniamo per un pasto. Mentre lo mangio, mi rendo conto che non un solo boccone è fatto di carne. L'anziano è felice di entrare nei dettagli su come viene preparato, sugli ingredienti utilizzati e sul fatto che in realtà non mangiano affatto carne."
+ travel_events.1207.a:0 "Voglio le ricette!"
+ travel_events.1207.b:0 "Posso avere un'altra razione?"
+ travel_events.1207.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_vegetarianism').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1208.t:0 "Navigazione"
+ travel_events.1208.desc:0 "Mentre navighiamo attraverso [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], gettiamo l'ancora per parlare con una barca piena di gente del posto. Quella che doveva essere una sosta veloce finisce per diventare una lunga discussione sui nodi, sulle correnti locali e sul mare in generale.\n\n"L'albatros è il re di tutti gli uccelli e ucciderlo è il più grande dei crimini""
+ travel_events.1208.a:0 "Dovremmo parlare con loro per saperne di più."
+ travel_events.1208.b:0 "Basta ascoltare, è ora di applicare queste conoscenze."
+ travel_events.1208.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_seafaring').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1209.t:0 "La Narrazione fa la Storia"
+ travel_events.1209.desc:0 "I cantastorie [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] sono molto rinomati e quando finalmente li incontro non mi deludono!\n\nPassiamo molte ore seduti intorno al fuoco ad ascoltare le loro storie ed è una vera gioia sentirli parlare."
+ travel_events.1209.a:0 "Dovrei incoraggiare le persone nella mia terra a raccontare storie."
+ travel_events.1209.b:0 "Se vi piacciono le storie, questa vi piacerà."
+ travel_events.1209.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_storytellers').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1210.t:0 "Musica [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip|U]"
+ travel_events.1210.desc:0 "Mentre viaggio attraverso il/le [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l] di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] sento una dolce melodia portata dal vento.\n\nUna rapida deviazione dal sentiero mi conduce a un gruppo di musicisti che suonano a squarciagola quella che deve essere la musica [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip]. Fermandomi ad ascoltare, il mio cuore si riempie di gioia."
+ travel_events.1210.a:0 "Dovremmo importare questa tradizione."
+ travel_events.1210.b:0 "Voglio imparare a suonare!"
+ travel_events.1210.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_music_theory').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1211.t:0 "Poeti"
+ travel_events.1211.desc:0 "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], mi[ROOT.Char.Custom('DE_END_PRO_S_N')] signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], per favore, un momento del vostro tempo ad ascoltare la mia ultima poesia"\n\nNon è il primo [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] che cerca di farmi conoscere le sue poesie e, considerando la strada che mi aspetta, non sarà certo l'ultima. Qui deve esserci una vera e propria ossessione per la poesia, perché ogni sognatore ha una poesia nel cuore. "
+ travel_events.1211.a:0 "Dovremmo parlare con loro per saperne di più."
+ travel_events.1211.b:0 "Vorrei fare un tentativo."
+ travel_events.1211.c:0 "Questa la chiami poesia?"
+ travel_events.1211.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_poetry').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1212.t:0 "Amici Pescatori"
+ travel_events.1212.desc:0 "Non passa giorno a [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] che non incontri un pescatore che abbia qualche nuova informazione da darmi, che si tratti del tipo di esca da usare, del luogo in cui pescare o addirittura di come cucinare il pesce.\n\nHo anche la possibilità di pescare, con i pescatori che mi mostrano i trucchi e i consigli. Quando finalmente ne prendo un pesce, tutti applaudono."
+ travel_events.1212.a:0 "Dovremmo parlare con loro per saperne di più."
+ travel_events.1212.b:1 "E se provassimo queste tattiche di pesca in mare?"
+ travel_events.1212.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_fishermen').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1213.t:0 "Viaggiatori Mistici"
+ travel_events.1213.desc:0 "Qui,a [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] i mistici sono ovunque.\n\nUn giorno, mentre aspetto che un masso venga rimosso dal sentiero, mi ritrovo in una conversazione piuttosto profonda sul senso della vita con uno di loro."
+ travel_events.1213.a:0 " Mi interessa conoscere la vostra gente."
+ travel_events.1213.b:0 "Quale saggezza puoi condividere con me?"
+ travel_events.1213.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_mendicant_mystics').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1214.t:0 "Guerrieri Rispettati"
+ travel_events.1214.desc:0 "Nei miei viaggi, mi sono reso conto che la gente [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] qui a [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] apprezza i guerrieri più di ogni altra cosa.\n\nLe dispute sono risolte con la violenza e coloro che rischiano la vita per il loro signore sono considerati i più coraggiosi. Ho passato gran parte del pomeriggio a discutere con loro delle complessità della loro cultura guerriera."
+ travel_events.1214.a:0 "Dovremmo parlare con loro per saperne di più."
+ travel_events.1214.b:0 "Puoi farmi vedere qualche mossa?"
+ travel_events.1214.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_warrior_culture').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1215.t:0 "[GetPlayer.Custom('KnightCultureNoTooltip')] Ammirevole "
+ travel_events.1215.desc:0 "Una sera ci fermiamo a riposare in una taverna e mentre sono seduto in un angolo a godermi pacificamente un po' di musica [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip], la porta si apre e appare una grande figura.\n\nUn [GetPlayer.Custom('KnightCultureNoTooltipLowercase')] entra spavaldo e l'atmosfera cambia immediatamente. Le persone chinano la testa in segno di riverenza, alcune svengono e il taverniere serve prontamente bevande gratuite all'apparentemente famoso [GetPlayer.Custom('KnightCultureNoTooltipLowercase')].\n\nEssere un [GetPlayer.Custom('KnightCultureNoTooltipLowercase')] è davvero così speciale? "
+ travel_events.1215.a:0 "Dobbiamo scoprire il motivo di questa adulazione."
+ travel_events.1215.b:0 "Posso essere così se mi alleno!"
+ travel_events.1215.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_martial_admiration').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
+
+ travel_events.1216.t:0 "Pensatori Itineranti"
+ travel_events.1216.desc:0 "Camminando per [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] noto che molti viaggiatori [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] affermano di essere filosofi.\n\nAll'inizio sono scettico, ma dopo essere stato superato in astuzia  per la terza volta consecutiva, comincio a pensare che ci possa essere del vero nelle loro affermazioni.\n\nL'ultimo filosofo, [local_philosopher.GetNameNoTooltip], praticamente ride dei miei ultimi tentativi di argomentazione logica"
+ travel_events.1216.a:0 "Dovrei imparare di più su come funziona la loro cultura."
+ travel_events.1216.b:0 "Cosa posso imparare?"
+ travel_events.1216.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_philosopher_culture').GetName] da [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ healthy_vegetarian_meal_modifier:0 "Cibo Vegetariano Salutare"
+ healthy_vegetarian_meal_modifier_desc:0 "Questo personaggio ha mangiato del sano cibo vegetariano durante il suo viaggio"
+
+ living_simply_modifier:0 "Una Vita Semplice"
+ living_simply_modifier_desc:0 "Questo personaggio vive in modo semplice."
+
+ villager_gifts_modifier:0 "Doni dai Paesani"
+ villager_gifts_modifier_desc:0 "Questo personaggio ha ricevuto diversi doni dagli abitanti del villaggio"
+
+ loyal_attitudes_modifier:0 "Atteggiamento Leale"
+ loyal_attitudes_modifier_desc:0 "Questo personaggio ispira lealtà a se stesso e agli altri."
+
+ pacifist_mindset_modifier:0 "Mentalità Pacifica"
+ pacifist_mindset_modifier_desc:0 "Questo personaggio sta cercando di adottare una mentalità più pacifista."
+
+ told_good_story_modifier:0 "Una Buona Storia"
+ told_good_story_modifier_desc:0 "Questo personaggio ha recentemente raccontato una bella storia."
+
+ musically_inspired_modifier:0 "Ispirazione Musicale"
+ musically_inspired_modifier_desc:0 "Questo personaggio è ispirato dalla musica e spesso si esercita usando i suoi prigionieri come pubblico."
+
+ fishing_logistics_modifier:1 "Logistica della Pesca"
+ fishing_logistics_modifier_desc:1 "Questo personaggio applica la conoscenza della pesca alla logistica navale."
+
+ mystic_wisdom_modifier:0 "Saggezza Mistica"
+ mystic_wisdom_modifier_desc:0 "Questo personaggio ha recentemente beneficiato della saggezza di un mistico."
+
+ trained_in_warrior_culture_modifier:0 "Addestramento alla Cultura Guerriera"
+ trained_in_warrior_culture_modifier_desc:0 "Questo personaggio è stato recentemente addestrato in una cultura guerriera."
+
+ training_hard_modifier:0 "Duro Allenamento"
+ training_hard_modifier_desc:0 "Questo personaggio si sta allenando duramente."
+
+ philosophical_musings_modifier:0 "Riflessioni Filosofiche"
+ philosophical_musings_modifier_desc:0 "Questo personaggio è stato recentemente immerso in riflessioni filosofiche."
+
+ personal_chivalry_modifier:0 "Cavalleresco"
+ personal_chivalry_modifier_desc:0 "Questo personaggio si impegna ad essere cavalleresco."
+

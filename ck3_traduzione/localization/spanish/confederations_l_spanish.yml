@@ -1,0 +1,16 @@
+﻿l_spanish: 
+ is_confederation_member_global: "È membro di una [confederation|E]"
+ not_is_confederation_member_global: "Non è membro di una [confederation|E]"
+ is_confederation_member_first: "Sei membro di una [confederation|E]"
+ not_is_confederation_member_first: "#bold Non#! sei membro di una [confederation|E]"
+ is_confederation_member_third: "[CHARACTER.GetShortUIName|U] è membro di una [confederation|E]"
+ not_is_confederation_member_third: "[CHARACTER.GetShortUIName|U] #bold non#! è membro di una [confederation|E]"
+
+ is_member_of_confederation_global: "È membro di [CONFEDERATION.GetName]"
+ not_is_member_of_confederation_global: "Non è membro di [CONFEDERATION.GetName]"
+ is_member_of_confederation_first: "Sei membro di [CONFEDERATION.GetName]"
+ not_is_member_of_confederation_first: "Non sei #bold membro#! di [CONFEDERATION.GetName]"
+ is_member_of_confederation_third: "[CHARACTER.GetShortUIName|U] è membro di [CONFEDERATION.GetName]"
+ not_is_member_of_confederation_third: "[CHARACTER.GetShortUIName|U] #bold non#! è membro di [CONFEDERATION.GetName]"
+
+ confederation_member_count_global: "Numero di membri della [confederation|E] $COMPARATOR$ $NUM|V0$"

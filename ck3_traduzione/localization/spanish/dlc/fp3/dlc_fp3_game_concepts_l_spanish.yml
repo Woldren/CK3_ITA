@@ -1,0 +1,55 @@
+﻿l_spanish: 
+
+ #Struggle
+ game_concept_persian_struggle: "Interregno Iraniano"
+ game_concept_persian_struggle_desc: "L'$game_concept_persian_struggle$ descrive il tumultuoso declino del califfato abbaside, durante il quale la Mesopotamia fu devastata da ribellioni e lotte per il potere, mentre diversi governanti persiani diventavano indipendenti.\n\nSebbene i [characters|E] [Concept('struggle_involved', 'coinvolti')|E] nella disputa possano avere piani diversi, la maggior parte di loro cercherà di diventare [GetTrait('fp3_struggle_supporter').GetName(GetNullCharacter)] e combattere per ripristinare il potere del califfato, oppure di diventare [GetTrait('fp3_struggle_detractor').GetName(GetNullCharacter)] e cercare di distruggerlo.\n\nLa [struggle|E] oscilla tra due [struggle_phase_phases|E]: [struggle_persia_phase_unrest|E] e [struggle_persia_phase_stabilisation|E]."
+
+ #Legacy Track Stuff
+ 
+ game_concept_kindle_royal_fire_decision: "Decisione di Accendere il Fuoco Reale"
+ game_concept_kindle_royal_fire_decision_desc: "Questa [decision|E] permette di accendere un fuoco reale, guadagnando dei bonus in [health|E] e [dynasty_prestige|E]."
+ game_concept_fp3_embellish_capital_decision: "Decisione di $fp3_embellish_capital_decision_name$"
+ game_concept_fp3_embellish_capital_decision_desc: "Questa [decision|E] permette di migliorare la propria [capital|E] al costo di una [county|E] recentemente conquistata."
+
+ game_concept_master_assassin: "Maestro Assassino"
+ game_concept_master_assassin_desc: "Il $game_concept_master_assassin$ è una [court_position|E] resa disponibile dalle [faiths|E] con il [core_tenet|E] [GetFaithDoctrine('tenet_fp3_fedayeen').GetBaseName]. Il [master_assassin|E] è un pericoloso fanatico che comanda degli assassini subalterni, incaricati di eliminare coloro che sono considerati nemici della sua fede."
+ game_concept_assassin: "Assassino"
+
+ game_concept_research_project: "Progetto di Ricerca"
+ game_concept_research_projects: "Progetti di Ricerca"
+ game_concept_research_project_desc: "Un progetto di ricerca è una [inspiration|E] che si basa sull'[aptitude|E] del $court_scholar_court_position$ per apportare benefici a chi lo impiega.\n\nIn alcuni casi, il progetto di ricerca può scoprire una nuova [innovation|E]."
+
+ game_concept_ending_phase: "Fase Conclusiva"
+ game_concept_ending_phase_desc: "Una $game_concept_ending_phase$ è una speciale [struggle_phase|E] che, quando viene attivata, porta alla fine della [struggle|E] stessa. I [characters|E] [Concept( 'struggle_involved', 'coinvolti' )|E] e [Concept( 'struggle_interloper', 'intrusi' )|E] possono avanzare alla fase finale nel modo normale, utilizzando i [struggle_catalyst_catalysts|E]."
+
+ game_concept_struggle_ending_decision: "Decisione di Conclusione"
+ game_concept_struggle_ending_decisions: "Decisioni di Conclusione"
+ game_concept_struggle_ending_decision_desc: "La $game_concept_struggle_ending_decision$ è una singola [decision|E] che pone fine a una [struggle|E]. Spesso, tali decisioni sono disponibili solo durante particolari [struggle_phase_phases|E]."
+
+ game_concept_struggle_persia_phase_stabilisation: "Stabilizzazione"
+ game_concept_struggle_persia_phase_stabilisation_desc: "Nonostante i disordini latenti, il Califfo continua a essere rispettato. Le ribellioni e il settarismo sono in regressione, ma sottomettere i Signori della Persia non sarà semplice.\n\nLa tensione potrebbe degenerare in [struggle_persia_phase_unrest|E], portando a un caos ancora maggiore."
+ game_concept_struggle_persia_phase_unrest: "Disordini"
+ game_concept_struggle_persia_phase_unrest_desc: "Afflitto da rivolte e intrighi, il Califfato sta collassando. Ambiziosi signori della guerra e astuti governanti si impadroniscono di tutto il potere che riescono a usurpare, in una disputa senza soste.\n\nA meno che la situazione non venga risolta attraverso una [ending_phase|E], il regno entrerà in una fase di [struggle_persia_phase_stabilisation|E] durante la quale i sostenitori del califfo cercheranno di ripristinare la sua autorità."
+ game_concept_struggle_persia_phase_concession: "Concessione"
+ game_concept_struggle_persia_phase_concession_desc: "Col passare del tempo, man mano che le tensioni in Persia si placano e sia i detrattori che i sostenitori del Califfato si stancano di versare sangue, l'[persian_struggle|E] potrebbe giungere a una fine naturale... non con un botto, ma con un lamento."
+
+ game_concept_fp3_request_turkic_invasion_interaction: "$fp3_request_turkic_invasion_interaction$"
+ game_concept_fp3_request_turkic_invasion_interaction_desc: "Finanzia qualsiasi [ruler|E] di origine turca per conquistare il territorio di uno dei governanti tuoi vicini."
+
+ game_concept_fp3_install_loyalist_cb: "Imporre un Sostenitore"
+ game_concept_fp3_install_loyalist_cb_desc: "Permette di dichiarare una [war|E] per imporre un [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] del Califfato a capo del [realm|E] interessato."
+
+ game_concept_fp3_demand_submission_interaction: "$fp3_demand_submission_interaction$"
+ game_concept_fp3_demand_submission_interaction_desc: "Richiedi la lealtà di un [character|E] sotto forma di un [hook|E] usando la pietà, l'astuzia o l'intimidazione."
+
+ game_concept_fp3_request_house_unity_change_interaction: "$fp3_request_house_unity_change_interaction$"
+ game_concept_fp3_request_house_unity_change_interaction_desc: "$fp3_request_house_unity_change_interaction_desc$"
+
+ game_concept_fp3_request_honorary_titles_interaction: "$fp3_request_honorary_titles_interaction$"
+ game_concept_fp3_request_honorary_titles_interaction_desc: "$fp3_request_honorary_titles_interaction_desc$"
+
+ game_concept_fp3_free_house_member_cb: "$fp3_free_house_member_cb_name$"
+ game_concept_fp3_free_house_member_cb_desc: "Un [casus_belli|E] disponibile per il [house_head|E] che costringe i Signore suo bersaglio a liberare tutti i membri della [house|E] [Concept( 'imprisoned', 'imprigionati' )|E]."
+
+ game_concept_fp3_unify_house_cb: "$fp3_unify_house_cb_name$"
+ game_concept_fp3_unify_house_cb_desc: "Un [casus_belli|E] che consente al [house_head|E] di reclamare come [vassals|E] i membri della propria [house|E] facenti parte di un altro [realm|E]."

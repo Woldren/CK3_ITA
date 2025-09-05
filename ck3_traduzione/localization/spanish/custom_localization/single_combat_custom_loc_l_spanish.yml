@@ -1,0 +1,22 @@
+﻿l_spanish:
+ grit_type_grit:0 "pietrisco"
+ grit_type_dirt:0 "terra"
+ grit_type_sand:0 "sabbia"
+ grit_type_bog_water:0 "acqua di palude"
+ grit_type_twigs:0 "arbusti"
+ grit_type_wet_leaves:0 "foglie bagnate"
+ grit_type_dry_grass:0 "erba secca"
+
+ ground_type_dust:0 "la polvere"
+ ground_type_dirt:0 "la terra"
+ ground_type_rocks:0 "le rocce"
+ ground_type_sandy_rocks:0 "le rocce sabbiose"
+ ground_type_sand:0 "la sabbia"
+ ground_type_wet_grass:0 "l'erba bagnata"
+ ground_type_mulch:0 "il pacciame"
+ ground_type_grass:0 "l'erba"
+ 
+ rainy_soil_type_thick_mud: "fango denso"
+ rainy_soil_type_soft_earth: "terriccio molle"
+ rainy_soil_type_rocky_earth: "terra rocciosa"
+ rainy_soil_type_sandy_mire: "palude sabbiosa"

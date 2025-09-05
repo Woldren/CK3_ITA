@@ -1,0 +1,6 @@
+﻿l_spanish:
+ kochinim_history_loc:0 "Formata dalla cultura [CULTURE.GetName] e da una cultura sconosciuta del [heritage|E] $israelite_group$ nell'anno [DATE.GetYear]"
+ vlach_history_loc:0 "Formata dalla cultura [CULTURE.GetName] e da una cultura sconosciuta del [heritage|E] $south_slavic_group$ nell'anno [DATE.GetYear]"
+ bulgarian_history_loc:0 "Formata dalla cultura [CULTURE.GetName] e da una cultura sconosciuta del [heritage|E] $south_slavic_group$ nell'anno [DATE.GetYear]"
+ scythian_heritage_loc:0 "Si è separato dalla cultura Scita nell'anno [DATE.GetYear]"
+ bactrian_heritage_loc:0 "Formata dalle culture Bactriana e [CULTURE.GetName] nell'anno [DATE.GetYear]"

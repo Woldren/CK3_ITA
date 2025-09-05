@@ -1,0 +1,40 @@
+﻿l_spanish:
+ ## Custom Loc
+ nc_fbeauty:0 "carino"
+ nc_mbeauty:0 "bello"
+ nc_charming:0 "affascinante"
+ nc_intelligent:0 "intelligente"
+ nc_wellborn:0 "sangue nobile"
+ rwh_empress:0 "un'imperatrice consorte"
+ rwh_emperor:0 "un imperatore consorte"
+ rwh_queen:0 "una regina consorte"
+ rwh_king:0 "un principe consorte"
+ rwh_duchess:0 "una duchessa"
+ rwh_duke:0 "un duca"
+ rwh_countess:0 "una contessa"
+ rwh_count:0 "un conte"
+ rwh_wife:0 "una moglie"
+ rwh_husband:0 "un marito"
+ gbm_angel:0 "un angelo"
+ gbm_valkyrie:0 "una valchiria"
+ gbm_aphrodite:0 "Afrodite stessa"
+ gbm_adonis:0 "Adone stesso"
+ gbm_rati:0 "Rati stessa"
+ gbm_kamadeva:0 "Kamadeva stesso"
+ gbm_lilith:0 "Lilith stessa"
+ gbm_default:0 "una dea"
+ gbm_male_default:0 "un dio" #continua da qui
+ 
+ ## Modifiers
+ # Event Interaction Modifiers
+ event_bonus_to_county_control:0 "Esperto nel Controllo delle Folle"
+ event_bonus_to_county_control_desc:0 "Questo personaggio è più efficace nell'incarico del consiglio $task_increase_control$."
+ event_bonus_to_agent_invite:0 "Maestro dell'Intrigo"
+ event_bonus_to_agent_invite_desc:0 "Questo personaggio troverà più semplice invitare gli agenti all'interno dei propri complotti."
+ event_bonus_to_vassal_accept:0 "Negoziatore Magistrale"
+ event_bonus_to_vassal_accept_desc:0 "Questo personaggio guadagnerà un bonus di +20 all'accettzione la prossima volta che richiederà ad un altro personaggio di diventare suo vassallo."
+ # Interaction Bonuses
+ BONUS_TO_AGENT_RECRUITMENT:0 "Maestro dell'Intrigo: $VALUE|=+0$"
+ event_bonus_to_vassal_accept_tt:0 "Hai la reputazione di essere un sovrano giusto: $VALUE|=+0$"
+ # Council Task Bonuses
+ INCREASE_COUNTY_CONTROL_EXPERIENCE_BONUS_VALUE:0 "Il [councillor.GetCouncilTitle] [councillor.GetFirstName] è esperto nel trattare con la marmaglia"

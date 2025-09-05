@@ -1,0 +1,66 @@
+﻿l_spanish:
+ bp1_1000_time_with_bf_modifier:0 "Tempo di Qualità Con il Miglior Amico"
+ bp1_1000_time_with_bf_modifier_desc:0 "Questo personaggio sta trascorrendo del tempo di qualità con il suo migliore amico."
+ bp1_1000_focus_on_work_modifier:0 "Concentrato sul Lavoro"
+ bp1_1000_focus_on_work_modifier_desc:0 "Questo personaggio trascura il suo amico per concentrarsi sui suoi doveri."
+
+ bp1_1020_friend_with_modifier:0 "Amico Premuroso"
+ bp1_1020_friend_with_modifier_desc:0 "Un amico premuroso siede al capezzale di questo personaggio."
+ bp1_superstition_modifier:0 "Superstizioso"
+ bp1_superstition_modifier_desc:0 "La vita di questo personaggio è condizionata dalla credenza in influenze soprannaturali che portano alla buona o alla cattiva sorte."
+ bp1_1070_unlucky_charm_modifier:0 "Il Fascino della Sfortuna"
+ bp1_1070_unlucky_charm_modifier_desc:0 "La sfortuna è stata allontanata da questo personaggio grazie a un rivale malvagio."
+ bp1_well_fed_pigs_modifier:0 "Maiali ben Nutriti"
+ bp1_well_fed_pigs_modifier_desc:0 "Questo personaggio ha un allevamento di bestiame sospettosamente grasso."
+
+ humiliated_by_rival_modifier:0 "Umiliato"
+ humiliated_by_rival_modifier_desc:0 "Questo personaggio è stato messo pubblicamente in imbarazzo da un rivale e non si è ancora scrollato di dosso la vergogna."
+ triumphant_over_rival_modifier:0 "Trionfante"
+ triumphant_over_rival_modifier_desc:0 "Questo personaggio ha sconfitto pubblicamente un rivale e, di conseguenza, cammina a testa alta."
+
+ dead_best_friend_modifier:0 "Dolore Perpetuo"
+ dead_best_friend_modifier_desc:0 "Il migliore amico di questo personaggio è morto e non è riuscito a riprendersi completamente."
+
+ linguistically_challenged_modifier:0 "Difficoltà Linguistiche"
+ linguistically_challenged_modifier_desc:0 "Questo personaggio pronuncia alcune parole in modo particolare e di conseguenza viene deriso."
+
+ descriptivist_modifier:0 "Descrittivo"
+ descriptivist_modifier_desc:0 "Questo personaggio insiste nell'utilizzare il proprio approccio alla lingua, il che implica una netta mancanza di formazione in ambito linguistico."
+
+ sneaking_suspicion_modifier:0 "Vago Sospetto"
+ sneaking_suspicion_modifier_desc:0 "Questo personaggio ha un carattere apparentemente solare, avendo messo da parte tutte le sue preoccupazioni. O almeno così pare..#EMP pare#!"
+
+ busy_guards_modifier:0 "Guardie indaffarate"
+ busy_guards_modifier_desc:0 "Questo personaggio ha reindirizzato gli sforzi delle sue guardie su questioni frivole invece di proteggere se stesso."
+
+ lacking_supplies_modifier:0 "Mancanza di rifornimenti"
+ lacking_supplies_modifier_desc:0 "Questo personaggio ha permesso che le azioni nefaste di altri non venissero indagate e, di conseguenza, è privo di scorte di cibo."
+
+ optimist_modifier:0 "Ottimista"
+ optimist_modifier_desc:0 "Per questo personaggio, il boccale è sempre mezzo pieno."
+
+ lacking_poultry_modifier:0 "Mancanza di Prodotti Avicoli"
+ lacking_poultry_modifier_desc:0 "In questa contea mancano gli alimenti e i prodotti forniti dai polli."
+
+ obsessively_neurotic_modifier:0 "Ossessivamente Nevrotico"
+ obsessively_neurotic_modifier_desc:0 "Questo personaggio vede il pericolo dietro ogni angolo e vive la sua vita nella paura."
+
+ unhappy_spouse_modifier:0 "Matrimonio Infelice"
+ unhappy_spouse_modifier_desc:0 "Le nevrosi di questo personaggio hanno incrinato il suo matrimonio, in modo potenzialmente irreparabile."
+
+ disdained_modifier:0 "Disprezzato"
+ disdained_modifier_desc:0 "Questo personaggio è noto per essere sotto il controllo dei propri vassalli, che disprezzano apertamente i suoi tentativi di tenerli in riga."
+
+ cat_revenge_modifier:0 "Vendetta per il Gatto"
+ cat_revenge_modifier_desc:0 "Il gatto di questo personaggio è stato ucciso dalla sua nemesi e, di conseguenza, il personaggio è pervaso da pensieri di vendetta."
+
+ cat_survived_modifier:0 "Sorpresa Felina"
+ cat_survived_modifier_desc:0 "Il gatto di questo personaggio è sopravvissuto in qualche modo a un tentativo di omicidio da parte della sua nemesi."
+
+ sated_modifier:0 "Sazio"
+ sated_modifier_desc:0 "Questo personaggio ha passato del #EMP tempo di qualità#! con il proprio amante."
+ family_troubles_modifier:0 "Problemi di Famiglia"
+ family_troubles_modifier_desc:0 "Questo personaggio ha una famiglia allargata che si trova in una situazione di difficoltà."
+ 
+ skinned_pet_modifier:0 "Animale Domestico Scuoiato"
+ skinned_pet_modifier_desc:0 "L'amato animale domestico di questo personaggio è stato scuoiato e trasformato in un indumento a causa delle macchinazioni di un rivale."

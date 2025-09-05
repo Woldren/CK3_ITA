@@ -1,0 +1,19 @@
+﻿l_spanish:
+ SELECT_CHARACTER_ON_MAP:0 "Scegli un personaggio sulla mappa."
+ PICK_ANY_CHARACTER:5 "Gioca con un Sovrano qualsiasi nel #bold [GameSetup.GetSelectedBookmark.GetDate.GetYear]#!, o #bold crea il tuo!#!"
+ BOOKMARK_DISABLED:0 "Questo indicatore è disabilitato"
+ BOOKMARK_NOT_PICKED_CHARACTER:0 "Scegli un personaggio dai preferiti prima di iniziare il gioco. Oppure scegli liberamente facendo clic su "Scegli un personaggio"."
+ SINGLEPLAYER:0 "Giocatore singolo"
+
+ GAMESETUP_TUTORIAL_PROMPT_HEADER:1 "Benvenuto su Crusader Kings III"
+ GAMESETUP_TUTORIAL_PROMPT_INTRO:0 "Crusader Kings III è un gioco di strategia profonda di dinastie e intrighi!"
+ GAMESETUP_TUTORIAL_PROMPT_RECOMMEND:0 "La traduzione di questo gioco è frutto del durissimo lavoro del gruppo di traduttori amatoriali TWR. Si tratta di un'opera ancora in corso, che continua da ben oltre 16 mesi, ma che è completa al 99%. Ti invitiamo a provarla e qualora dovesse piacerti, a supportare il nostro lavoro cliccando sul link nella descrizione della pagina sul workshop. Ecco i nomi dei traduttori, partendo dal coordinatore del progetto e da coloro che hanno contribuito di più: Woldren, Darmac, ZeXoGod, Brukino, akirak, spectro75, Ruxsha, Toraky, FullDark98, Khalix94, Ace The Brave, Anonymus, Rano05, Rick, GC_SpiritFreedom, Hero, Deky, Darkraffa, Hustinov, EspositoBoys, TheInvisible1 e altri."
+ GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER:0 "Se sei nuovo del mondo di Crusader Kings, ti consigliamo vivamente di giocare il tutorial. Nel tutorial giocherai nei panni del $bookmark_rags_to_riches_petty_king_murchad$, un sovrano irlandese. Guida la tua dinastia per sconfiggere i tuoi nemici e diventare re d'Irlanda!"
+ GAMESETUP_TUTORIAL_PROMPT_ASK:0 "Vuoi apprendere il gioco nei panni del $bookmark_rags_to_riches_petty_king_murchad$?"
+
+ GAMESETUP_TUTORIAL_PROMPT_DISABLE:0 "Forse più tardi"
+ GAMESETUP_TUTORIAL_PROMPT_PLAY_TUTORIAL:0 "$GAMESETUP_PLAY_TUTORIAL$"
+ GAMESETUP_PLAY_TUTORIAL:0 "Gioca il Tutorial"
+ GAMESETUP_GAME_INFO:0 "Informazioni di gioco"
+ 
+ GAMESETUP_TUTORIAL_PROMPT_PLAY_BUTTON_TOOLTIP:0 "#T Gioca con $bookmark_rags_to_riches_petty_king_murchad$, nel 1066#!"

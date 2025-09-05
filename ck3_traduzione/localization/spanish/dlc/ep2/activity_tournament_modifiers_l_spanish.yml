@@ -1,0 +1,97 @@
+﻿l_spanish:
+
+ speeches_and_games_modifier:0 "Discorsi & Giochi"
+ speeches_and_games_modifier_desc:0 "Il signore di questa contea ha dominato, con splendore e carisma, le masse indisciplinate."
+
+ feeble_presence_modifier:0 "Presenza Debole"
+ feeble_presence_modifier_desc:0 "Il signore di questa contea non ha dimostrato alcuna capacità di controllare la folla."
+
+ deft_cavalrymen_modifier:0 "Cavalleggeri Audaci"
+ deft_cavalrymen_modifier_desc:0 "I cavalieri di questo personaggio galoppano sul campo di battaglia alla massima velocità, con una destrezza ben studiata."
+
+ daring_scout_modifier:0 "Esploratore Audace"
+ daring_scout_modifier_desc:0 "Questo personaggio viaggia con un intrepido corridore per sondare il percorso da seguire."
+
+ unwilling_tourneyer_modifier:0 "Torneatore Riluttante"
+ unwilling_tourneyer_modifier_desc:1 "[contest_aptitude|E]: -10"
+
+ generous_to_knights_modifier:0 "Generoso con i Cavalieri"
+ generous_to_knights_modifier_desc:1 "[contest_aptitude|E]: +5"
+
+ safeguards_knightly_honor_modifier:0 "Salvaguardia dell'Onore Cavalleresco"
+ safeguards_knightly_honor_modifier_desc:0 "Il rispetto di questo personaggio per i codici che legano i nobili guerrieri sembra incrollabile."
+
+ tournament_bracer_modifier:0 "Un Buon Parabraccio"
+ tournament_bracer_modifier_desc:0 "Questo personaggio ha acquistato un bracciale da arciere a un Torneo per migliorare le sue abilità."
+
+ tournament_two_bracers_modifier:0 "Parabracci Doppi"
+ tournament_two_bracers_modifier_desc:0 "Questo personaggio ha bizzarramente acquistato un parabraccio da arciere per ogni braccio, cosa che egli difende strenuamente, ma che ha fatto storcere il naso a più di qualche spettatore."
+
+ tournament_poorly_announced_modifier:0 "Annunciato in modo Inadeguato"
+ tournament_poorly_announced_modifier_desc:0 "Questo personaggio ha investito in alcuni araldi piuttosto scadenti."
+
+ tournament_well_proclaimed_modifier:0 "Ben Annunciato"
+ tournament_well_proclaimed_modifier_desc:0 "Questo personaggio beneficia di un araldo ben addestrato ed esperto."
+
+ tournament_star_struck_modifier:0 "Impressionato dai Personaggi Famosi"
+ tournament_star_struck_modifier_desc:0 "Questo personaggio è piuttosto rapito da tutto lo sfarzo e il fascino derivante dal vedere un personaggio famoso."
+
+ tournament_grounded_modifier:0 "Coi Piedi Per Terra"
+ tournament_grounded_modifier_desc:0 "Questo personaggio non ha alcun interesse per la fama e si disinteressa di chiunque ne cerchi gli orpelli."
+
+ tournament_foreign_knight_modifier:0 "Sostenuto un Cavaliere Straniero"
+ tournament_foreign_knight_modifier_desc:0 "Questo personaggio ha sostenuto un imponente cavaliere straniero, guadagnandosi il rispetto degli stranieri ma un po' di costernazione da parte degli altri."
+
+ tournament_farrier_mistake_modifier:0 "Stallone Ferito dal Maniscalco"
+ tournament_farrier_mistake_modifier_desc:0 "L'impaccio di un apprendista ha temporaneamente azzoppato il cavallo preferito di questo personaggio.\n\n#weak L'attitudine del Cavallo Personale alla Competizione è leggermente diminuita.#!"
+
+ tournament_performative_sensuousness_modifier:0 "Esibizione Sensuale"
+ tournament_performative_sensuousness_modifier_desc:0 "Quando è davanti a un pubblico, questo personaggio tende a muovere il corpo in modo piuttosto... scintillante."
+
+ tournament_ambidextrous_modifier:0 "Ambidestro"
+ tournament_ambidextrous_modifier_desc:0 "L'abilità di questo personaggio con una lama in entrambe le mani gli conferisce un vantaggio a sorpresa quando incrocia le spade."
+
+ tournament_ambisinister_modifier:0 "Ambisinistro"
+ tournament_ambisinister_modifier_desc:0 "La capacità di cambiare mano di questo personaggio si è dimostrata notevole."
+
+ tournament_fashionable_duelist_modifier:0 "Duellante alla Moda"
+ tournament_fashionable_duelist_modifier_desc:0 "Le scelte sartoriali di questo personaggio in un duello potrebbero non essere particolarmente favorevoli alla vittoria, ma sono assolutamente belle."
+
+ tournament_charm_resistant_modifier:0 "Resistente al Fascino"
+ tournament_charm_resistant_modifier_desc:0 "Questo personaggio sembra essere un po' resistente alle insidie amorose."
+
+ tournament_child_friendly_modifier:0 "Amichevole con i Bambini"
+ tournament_child_friendly_modifier_desc:0 "Questo personaggio ha una vera e propria capacità di stringere legami con i bambini."
+
+ tournament_soaked_modifier:0 "Inzuppato"
+ tournament_soaked_modifier_desc:0 "Questo personaggio è stato inzuppato dopo che un festaiolo gli ha versato addosso una bevanda, lasciandolo con uno strano odore."
+
+ tournament_public_proselytiser_modifier:0 "Proselitista pubblico"
+ tournament_public_proselytiser_modifier_desc:0 "Questo personaggio ha dimostrato la propria pietà arringando la folla durante un torneo."
+
+ tournament_sports_enthusiast_modifier:0 "Entusiasta per gli Sport"
+ tournament_sports_enthusiast_modifier_desc:0 "L'entusiasmo di questo personaggio per gli eventi sportivi traspare in ogni momento."
+
+ tournament_low_blower_modifier:0 "Dai Colpi Bassi"
+ tournament_low_blower_modifier_desc:0 "Questo personaggio ha acquisito una certa fama a causa del suo gioco sleale sul terreno dei duelli."
+
+ tournament_roguish_duelist_modifier:0 "Duellante Rocambolesco"
+ tournament_roguish_duelist_modifier_desc:0 "Il fascino e la sfrontatezza di questo personaggio con la spada in mano fanno infuriare i concorrenti e appassionano gli spettatori."
+
+ tournament_ended_rightly_modifier:0 "Finito Bene"
+ tournament_ended_rightly_modifier_desc:0 "Questo personaggio è stato messo in imbarazzo in un duello, poiché il suo avversario lo ha umiliato lanciandogli il pomo svitato di una spada!"
+
+ tournament_melee_protector_modifier:0 "Protettore nella Mischia"
+ tournament_melee_protector_modifier_desc:0 "La schiena di questo personaggio è protetta da una persona sorprendente.\n\n#weak Questo modificatore durerà fino alla fine della Gara di Mischia.#!"
+
+ tournament_house_unity_modifier:0 "Unità della Casata"
+ tournament_house_unity_modifier_desc:0 "Questa Casata ha dimostrato il suo valore nella mischia, facendosi notare dagli altri come un ottimo esempio di fronte unito."
+
+ tournament_reckoning_modifier:0 "Una Resa dei Conti"
+ tournament_reckoning_modifier_desc:0 "Questo personaggio pagherà per la sua avidità prima o poi in futuro. Non è dato sapere quando, ma solo che accadrà."
+
+ tournament_loving_parent_modifier:0 "Genitore Amorevole"
+ tournament_loving_parent_modifier_desc:0 "Questo personaggio ha dimostrato di essere un genitore amorevole, almeno nei confronti del suo erede."
+
+ tournament_annoyed_locals_modifier:0 "Locali Infastiditi"
+ tournament_annoyed_locals_modifier_desc:0 "Il pubblico di questa contea ha dovuto passare il tempo ad ascoltare le prediche mentre cercava di guardare un torneo."

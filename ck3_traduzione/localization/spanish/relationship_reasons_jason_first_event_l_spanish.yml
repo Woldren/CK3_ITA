@@ -1,0 +1,6 @@
+﻿l_spanish:
+ rival_race_sabotage_accusation:0 "[CHARACTER.GetShortUIName|U] ha accusato [TARGET_CHARACTER.GetShortUIName] di un sabotaggio a tradimento dopo un incidente di gara."
+ rival_race_sabotage_accusation_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] ha accusato [CHARACTER.GetShortUIName] di un sabotaggio a tradimento dopo un incidente di gara."
+
+ friend_shared_disappointment:0 "La gentilezza di [CHARACTER.GetShortUINamePossessive|U] dopo che una sconfitta comune alle corse ha fatto nascere un legame dalla delusione."
+ friend_shared_disappointment_corresponding:0 "La gentilezza di [TARGET_CHARACTER.GetShortUIName|U] dopo che una sconfitta comune alle corse ha fatto nascere un legame dalla delusione."

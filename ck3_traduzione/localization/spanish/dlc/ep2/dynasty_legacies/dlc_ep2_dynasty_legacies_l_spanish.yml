@@ -1,0 +1,35 @@
+﻿l_spanish:
+
+ ep2_activities_legacy_track_name:0 "Attività"
+ ep2_activities_legacy_track_desc:0 "Per conoscere davvero il mondo, dobbiamo conoscere le altre persone"
+ ep2_activities_legacy_track:0 "Attivita di [dynasty_perk|E]"
+
+ ep2_activities_legacy_1_name:0 "Percorrere il Sentiero Sacro"
+ ep2_activities_legacy_1_pilgrimages_cheaper_effect:0 "Le attività di [GetActivityType('activity_pilgrimage').GetName] sono il [EmptyScope.ScriptValue('ep2_activities_legacy_1_pilgrimages_discount_value')|0+%] più economico"
+ ep2_activities_legacy_1_pilgrimages_add_learning_per_holy_site_effect:0 "Guadagni [EmptyScope.ScriptValue('ep2_activities_legacy_1_pilgrimages_learning_add_value')|0+=] di [learning|E] per ogni luogo sacro della tua [faith|E] visitato#WEAK , fino a un massimo di [EmptyScope.ScriptValue('ep2_activities_legacy_1_pilgrimages_learning_cap_value')|0+=]#!"
+
+ ep2_activities_legacy_2_name:0 "Matrimoni Tradizionali [GetPlayer.GetDynasty.GetBaseNameNoTooltip]"
+ ep2_activities_legacy_2_grand_weddings_cheaper_effect:0 "Qualsiasi [GetActivityType('activity_wedding').GetName] è il [EmptyScope.ScriptValue('ep2_activities_legacy_2_grand_weddings_discount_value')|0+%] più economico"
+ ep2_activities_legacy_2_grand_weddings_acceptance_boost_effect:0 "Qualsiasi [GetActivityType('activity_wedding').GetName] guadagna un bonus di accettazione di [EmptyScope.ScriptValue('ep2_activities_legacy_2_grand_weddings_acceptance_boost_value')|0+=]"
+ ep2_activities_legacy_2_grand_weddings_increased_strong_hook_on_liege_event_effect:0 "Aumenta la possibilità di generare un [strong_hook|E] temporaneo sui [lieges|E] a cui piaci durante un [GetActivityType('activity_wedding').GetName]"
+
+ ep2_activities_legacy_3_name:0 "Degno di una Visita"
+ ep2_activities_legacy_3_tours_majesty_modifier_effect:0 "Ottieni il modificatore [GetModifier('ep2_activities_legacy_3_tours_majesty_modifier').GetNameWithTooltip] per [EmptyScope.ScriptValue('ep2_activities_legacy_3_tours_modifier_duration_value')] anni dopo aver completato un $tour_type_majesty$"
+ ep2_activities_legacy_3_tours_intimidation_modifier_effect:0 "Ottieni il modificatore [GetModifier('ep2_activities_legacy_3_tours_intimidation_modifier').GetNameWithTooltip] per [EmptyScope.ScriptValue('ep2_activities_legacy_3_tours_modifier_duration_value')] anni dopo aver completato un $tour_type_intimidation$"
+ ep2_activities_legacy_3_tours_taxation_modifier_effect:0 "Ottieni il modificatore [GetModifier('ep2_activities_legacy_3_tours_taxation_modifier').GetNameWithTooltip] per [EmptyScope.ScriptValue('ep2_activities_legacy_3_tours_modifier_duration_value')] anni dopo aver completato un $tour_type_taxation$"
+ ep2_activities_legacy_3_tours_reset_modifier_timers_effect:0 "Al completamento di una qualsiasi [GetActivityType('activity_tour').GetName], azzera i tempi di recupero di uno qualsiasi dei modificatori sopra indicati."
+
+ ep2_activities_legacy_4_name:0 "Ricette di Famiglia"
+ ep2_activities_legacy_4_hunts_up_legendary_hunt_sightings_effect:0 "Maggiore probabilità di generare avvistamenti di Animali Leggendari"
+
+ # Yes, I know it's out of period, but it rocked.
+ ep2_activities_legacy_5_name:0 "Campo del Drappo d'Oro"
+ ep2_activities_legacy_5_tournaments_invite_knights_boosts_effect:0 "La [decision|E] $invite_knights_decision$ è gratuita durante le attività di tipo  [GetActivityType('activity_tournament').GetName] e attira [characters|E] con una maggiore [prowess|E]"
+ ep2_activities_legacy_5_house_heads_get_one_freebie_grand_activity_effect:0 "La prima [grand_activity|E] delle [house_heads|E] è gratuita"
+
+ ep2_activities_legacy_3_tours_majesty_modifier:0 "Conferire la Grazia"
+ ep2_activities_legacy_3_tours_majesty_modifier_desc:0 "Questo personaggio è noto per fare visite tranquille, ma enfatiche, ai suoi vassalli."
+ ep2_activities_legacy_3_tours_intimidation_modifier:0 "Instillare Paura"
+ ep2_activities_legacy_3_tours_intimidation_modifier_desc:0 "Questo personaggio ritiene che il tocco personale sia essenziale per mantenere un regime di paura."
+ ep2_activities_legacy_3_tours_taxation_modifier:0 "Diritto Signorile"
+ ep2_activities_legacy_3_tours_taxation_modifier_desc:0 "Questo personaggio ritiene che una contabilità accurata sia il più alto dovere di ogni signore."

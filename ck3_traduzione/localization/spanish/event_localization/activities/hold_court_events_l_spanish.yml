@@ -1,0 +1,51 @@
+﻿l_spanish:
+ hold_court_placeholder_gain_cgv:0 "Guadagni #P 10#! in Magnificenza della Corte"
+ hold_court_placeholder_lose_cgv:0 "Perdi #N 10#! in Magnificenza della Corte"
+ hold_court_start_activity:0 "Ascolti il primo postulante"
+
+ hold_court_header:0 "Udienza:"
+
+ # Activity Start
+ hold_court.0001.t:0 "$hold_court_header$ Inizio"
+ hold_court.0001.desc:0 "Sedut[ROOT.Char.Custom('DE_END_PRO_S_N')] sul mio trono, faccio cenno alle mie guardie di aprire le porte della sala. Un flusso di gente entra dentro e alcuni di essi si allineano di fronte al mio trono, mentre altri si piazzano di lato, semplicemente ad osservare.\n\nDopo alcuni istanti, tutti i movimenti nella camera cessano, tutti gli sguardi vengono rivolti verso il mio, in attesa. Di fronte a me conto [ROOT.Var('num_petitioners').GetValue|V0] postulanti allineati in fila ordinata, in attesa che io li chiami."
+ hold_court.0001.a:0 "Fai cenno al primo in linea di avvicinarsi."
+ hold_court.0001.b:0 "Pensandoci bene, è una bella giornata fuori..."
+ hold_court.0001.b.tooltip:0 "La tua udienza termina e tu rimandi a casa i postulanti"
+
+ # Guest offers to share rumors from a nearby foreign realm.
+ hold_court.1001.t:0 "Spionaggio Indiretto"
+ hold_court.1001.desc:0 "[rumormonger.Custom('DE_ART_DEF_P_D')] mi[rumormonger.Custom('DE_END_PRO_S_N')] ospite [rumormonger.GetTitledFirstName] si avvicina al mio trono con un ghigno in volto e si inchina profondamente.\n\n"Saluti, Vostra Maestà. Durante il mio recente viaggio a [neighboring_realm.GetName], ho appreso alcune chicche #EMP affascinanti#! sui sudditi di [neighboring_ruler.GetTitledFirstNamePossessive]. Sarei felice di condividerle con voi... in cambio di un compenso."
+ hold_court.1001.a:0 "Una somma considerevole, ma non posso permettermi di rimanere ignorante."
+ hold_court.1001.a.seducer:0 "Forse possiamo trovare un altro accordo?"
+ hold_court.1001.a.success:0 "Le informazioni di [rumormonger.GetTitledFirstNamePossessive] contengono materiale prezioso per ricattare"
+ hold_court.1001.a.success.tt:0 "[rumormonger.GetTitledFirstName] ti rivela ogni [secret|E] rilevante che conosce"
+ hold_court.1001.a.failure:0 "Le informazioni di [rumormonger.GetTitledFirstNamePossessive] non sono altro che pettegolezzi inutili"
+ hold_court.1001.a.failure.tt:0 "[rumormonger.GetTitledFirstName] non conosce in realtà nessun [secret|E] rilevante"
+ hold_court.1001.b:0 "Nessuno può estorcermi denaro dinanzi alla mia stessa corte! Guardie, prendetel[rumormonger.Custom('DE_END_PRO_S_N')]!"
+ hold_court.1001.c:0 "Vattene via, pettegol[rumormonger.Custom('DE_END_PRO_S_N')]! La mia corte non ha posto per quelli come te!"
+
+ # Wandering claimant asks you to press their claim NOW!!
+ hold_court.1011.t:0 "Una Rivendicazione per la Guerra"
+ hold_court.1011.desc:0 ""Oh munific[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitledFirstNameNoTooltip], io sono [claimant_guest.GetFirstName], ed ho viaggiato a lungo per chidervi aiuto nel raddrizzare una grande ingiustizia!"\n\nL[claimant_guest.Custom('DE_PRO_PER_S_3P_N')][claimant_guest.GetWomanMan] davanti a me fa un profondo inchino prima di continuare con la sua supplica ben preparata. "[target_character.Custom2('MyCharacterIntroduction', claimant_guest)|U] attualmente siede sul torno di [target_title.GetNameNoTier], ma sono io [claimant_guest.Custom('DE_ART_DEF_P_A')] ver[claimant_guest.Custom('DE_END_PRO_S_N')] e legittim[claimant_guest.Custom('DE_END_PRO_S_N')] sovran[claimant_guest.Custom('DE_END_PRO_S_N')] di quelle terre!"\n\n"Se mi aiutate a esercitare la mia rivendicazione, vi giurerò fedeltà, e vi servirò lealmente fino alla fine dei miei giorni.""
+ hold_court.1011.a:0 "Eserciterò la tua rivendicazione entro questo anno!"
+ hold_court.1011.b:0 "Vi prego di partire subito, non posso rischiare di offendere [target_character.Custom('DE_ART_DEF_P_A')] [target_character.GetTitleAsNameNoTooltip]."
+ hold_court.1011.c:0 "Non posso aiutarvi, ma godetevi la mia ospitalità."
+
+ # Peasant begs for relief after a drought/early frost/etc.
+ hold_court.1021.t:0 "Polvere alla Polvere"
+ hold_court.1021.desc:0 "Un[peasant.Custom('DE_PRO_POS_P_2P')] contadin[peasant.Custom('DE_END_PRO_S_N')] magr[peasant.Custom('DE_END_PRO_S_N')] e straccion[peasant.Custom('DE_END_ADJ_IND_S_A')] si trova davanti a me e osserva l'opulenza della mia sala del trono. Ovviamente distratto, l[peasant.Custom('DE_END_PRO_S_N')] chiamo per ottenere la sua attenzione.\n\n"Oh, mi scusi mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Io, uh... il mio villaggio a [county.GetNameNoTier] è stato colpito dalla peronospora quest'anno. Abbiamo perso non soltanto il nostro raccolto, ma anche le nostre sementi. Non abbiamo nulla, moriremo di fame senza aiuto!"\n\nGuardandosi di nuovo attorno nella mia sala del trono, aggiunge: "Di sicuro avrete del denaro da parte?""
+ hold_court.1021.a:0 "Avrai i fondi necessari per ricostruire."
+ hold_court.1021.a.stewardship:0 "Stabiliamo un sistema di condivisione del raccolto con i villaggi vicini."
+ hold_court.1021.b:1 "I tuoi servigi ripagheranno il vostro debito."
+ hold_court.1021.c:0 "Se i campi sono aridi, tu brandirai una spada."
+ county_or_15_dev: "[county.GetName] ed ogni [county|E] del [realm|E] con 15 o meno di [development|E]"
+
+ # Activity End
+ hold_court.0021.t:0 "$hold_court_header$ Conclusione"
+ hold_court.0021.desc:0 "Quando l'ultimo postulante se ne va, vari cortigiani lo seguono fuori dalla stanza, avendo affari da sbrigare altrove. Altri rimangono, parlando tra loro della recente udienza.\n\nBen presto la formalità cerimoniale dell'udienza cessa del tutto, e al suo posto subentra il ronzio e il trambusto della normale vita di corte."
+ hold_court.0021.a:0 "Il mio lavoro qui è concluso."
+ hold_court.0021.arrogant:0 "È bene lasciare che i miei soggetti si crogiolino nel timore della mia presenza."
+ hold_court.0021.shy:0 "Non vedo l'ora di tornare nei miei alloggi..."
+ hold_court.0021.gregarious:0 "Questa sembra una buona occasione per socializzare con la mia corte."
+ hold_court.0021.every_guest_and_courtier:0 "Tutti gli Ospiti e i Cortigiani:"
+ hold_court_1001_pool_tt: "[rumormonger.GetShortUIName] lascia la tua [court|E]"

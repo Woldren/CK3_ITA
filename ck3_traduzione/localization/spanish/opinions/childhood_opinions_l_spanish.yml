@@ -1,0 +1,7 @@
+﻿l_spanish:
+ charming_crush_on_me_opinion:0 "Ha una Cotta per me"
+ bothersome_crush_on_me_opinion:0 "Ha una Cotta per me"
+ guardian_of_heir_opinion:0 "Tutore del tuo Erede"
+ guardian_of_relative_opinion:0 "Tutore di un tuo Familiare"
+ guardian_of_heir_parochial_opinion:0 "Tutore [GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName] del tuo Erede"
+ guardian_of_relative_parochial_opinion:0 "Tutore [GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName] del tuo Parente"

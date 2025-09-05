@@ -1,0 +1,22 @@
+﻿l_spanish:
+  enact_legacy_of_adventurer_decision: "Perpetuare il Retaggio della Casata [GetPlayer.GetHouse.GetBaseNameNoTooltip]"
+  enact_legacy_of_adventurer_decision_desc: "Nel corso degli anni, il mio umile campo ha continuato a crescere, sia in termini di dimensioni che di spirito.\n\nOgni volta che portiamo a termine un compito, il nostro legame con questa terra e la sua gente si rafforza. Per le generazioni a venire, le nostre imprese saranno cantate nelle taverne e i nostri nomi continueranno a essere pronunciati, anche nei luoghi più remoti della terra."
+  enact_legacy_of_adventurer_decision_confirm: "Per [GetPlayer.GetPrimaryTitle.GetName]!"
+  enact_legacy_of_adventurer_decision_tooltip: "Consolidare la posizione della [house|E] [GetPlayer.GetHouse.GetBaseNameNoTooltip] nel regno degli [adventurers|e]"
+  have_enough_followers_tt: "Hai non meno di #V 15#! [followers|E] #weak (#color_white [GetPlayer.MakeScope.ScriptValue('tally_current_followers')]#!)#!"
+  have_enough_patrons_tt: "Hai almeno #V 5#! persone nel tuo [contact_list|E] #weak (#color_white [GetPlayer.MakeScope.ScriptValue('tally_roll_of_patrons')]#!)#!"
+  has_max_level_pavilion_tt: "Il tuo [GetDomicileBuilding('camp_main_01').GetName] è al livello #V 4#! #weak (#color_white [GetPlayer.MakeScope.ScriptValue('camp_pavillion_level')]#!)#!"
+  has_enough_contracts_tt: "Hai completato con successo #V [contract_tally]/50#! [task_contracts|E] non [criminals|E]"
+  legacy_adventurer_legitimacy_on_landing: "Se un [adventurer|e] della [house|e] [GetPlayer.GetHouse.GetBaseName] diventa un [ruler|E]:\n$BULLET$ otterrà [GetPlayer.MakeScope.ScriptValue('massive_legitimacy_gain')|+0] in [legitimacy|e][legitimacy_i]\n$BULLET$ Per ogni [follower|e] che ha, otterrà #P 25#! [levies|e][soldier_i]"
+  criminal_contracts_blocked_tt: "@warning_icon! #warning Non potrai più accettare [task_contracts|e] [criminal|e]#!"
+  task_successful_noncrim_contract_count_effect_tt: "Stai facendo progressi nella [decision|e] $enact_legacy_of_adventurer_decision$"
+  remnants_adventurer_army: "Resti di [prev_title.GetNameNoTooltip]"
+
+  legacy_adventurer_house_modifier: "Stirpe di Avventurieri"
+  legacy_adventurer_house_modifier_desc: "Questa casata apprezza lo stile di vita avventuroso e il fatto di non doversi preoccupare delle questioni di corte.\n[adventurer_i] Ricompense in [prestige|e] per i [task_contracts|e] completati con successo: #P +15%#![prestige_i]"
+
+  bp3_decisions.0100.t: "$enact_legacy_of_adventurer_decision$"
+  bp3_decisions.0100.desc: "A tutti coloro che mi seguono, offro un luogo sicuro dove riposare e la possibilità di lasciare un segno nel mondo.\n\nLa dilagante corruzione e le truffe non hanno posto nel mio mondo. Tutto ciò che facciamo contribuirà alla prosperità dei regni che attraversiamo. Questo è il vero significato dell'appartenenza alla casata [GetPlayer.GetHouse.GetBaseName].\n\nFinché comanderò [GetPlayer.GetPrimaryTitle.GetName] puniremo i malvagi!"
+  bp3_decisions.0100.a: "Avanti, miei prodi!"
+  bp3_decisions.0100.a_tt: "Crea fino a #V 3#! [justicar_task_contracts|E] sulla mappa"
+  bp3_decisions.0100.b: "Tuttavia, il mio desiderio di possedere delle terre non svanisce..."

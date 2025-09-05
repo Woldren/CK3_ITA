@@ -1,0 +1,703 @@
+﻿l_spanish:
+bp2_yearly.6000.t: "Non è il modo di fare della cultura [ROOT.Char.GetCulture.GetNameNoTooltip]"
+bp2_yearly.6000.desc.intro: "Mentre [Select_CString(hosted_child.IsFemale,'mia','mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hosted_child'))] [hosted_child.GetName] si presenta, [tutor.GetName] fa il reseconto di una settimana di insegnamento fallimentare e frustrazioni."
+
+bp2_yearly.6000.desc.fault.bellicose: "\n\n"[Select_CString(hosted_child.IsFemale,'Alla bambina','Al bambino')] non è mai stato detto che tutto ciò che [hosted_child.GetSheHe] desidera deve essere #EMP preso#!! [hosted_child.GetFirstNameNoTooltip] sceglie la pace con i suoi coetanei piuttosto che dare prova di sé! Questo è tutto ciò che [Select_CString(hosted_child.IsFemale,'la bambina','il bambino')] conosce!""
+bp2_yearly.6000.desc.fault.bureaucratic: "\n\n"[Select_CString(hosted_child.IsFemale,'La bambina','Il bambino')] è una catastrofe disordinata! Passa le giornate a sognare. Non distingue un indumento pulito da uno sporco! Il caos è tutto ciò che [Select_CString(hosted_child.IsFemale,'la bambina','il bambino')] conosce!""
+bp2_yearly.6000.desc.fault.communal: "\n\n"[Select_CString(hosted_child.IsFemale,'La bambina','Il bambino')] parla male perfino di sua madre! Mai [Select_CString(hosted_child.IsFemale,'le','gli')]  è stato detto di non farlo. [Select_CString(hosted_child.IsFemale,'La bambina è stata abbandonata a se stessa','Il bambino è stato abbandonato a se stesso')], a fare le cose di testa sua e a non curarsi della famiglia che [Select_CString(hosted_child.IsFemale,'la attende','lo attende')].""
+bp2_yearly.6000.desc.fault.courtly: "\n\n"[Select_CString(hosted_child.IsFemale,'La bambina non è stata istruita','Il bambino non è stato istruito')] su nulla di raffinato! Devo colpir[Select_CString(hosted_child.IsFemale,'la','lo')] sul cranio affinché si inchini a voi, o [ROOT.Char.GetTitleAsNameNoTooltip]. Sa forse recitare versi? Parlare con garbo all’altro sesso? No!""
+bp2_yearly.6000.desc.fault.egalitarian: "\n\n"[hosted_child.GetSheHe|U] non è mai [Select_CString(hosted_child.IsFemale,'stata educata','stato educato')] al rispetto per i popoli che condividono la nostra terra. [Select_CString(hosted_child.IsFemale,'La bambina','Il bambino')] ha imitato l’accento di un dignitario [realm_minority.GetNameNoTooltip] belando come una pecora! Questa sarebbe la sua educazione?!""
+bp2_yearly.6000.desc.fault.egalitarian_no_culture: "\n\n"[hosted_child.GetSheHe|U] non è mai [Select_CString(hosted_child.IsFemale,'stata educata','stato educato')] al rispetto per i popoli che condividono la nostra terra. Il bambino imita le loro lingue belando come una pecora! Questa sarebbe la sua educazione?!""
+bp2_yearly.6000.desc.fault.spiritual: "\n\n"[Select_CString(hosted_child.IsFemale,'La bambina','Il bambino')] si ferma forse a ringraziare per la provvidenza del suo cibo? Invoca il divino in cerca di aiuto? No! È [Select_CString(hosted_child.IsFemale,'stata cresciuta','stato cresciuto')] per una vita senza rispetto.""
+bp2_yearly.6000.desc.fault.stoic: "\n\n"[Select_CString(hosted_child.IsFemale,'La bambina','Il bambino')] arriccia il naso di fronte alla bellezza della nostra terra natia. [hosted_child.GetSheHe|U] disprezza il bisogno di combattere, di difendere la nostra gente! È [Select_CString(hosted_child.IsFemale,'stata educata','stato educato')] al meschino interesse personale.""
+
+bp2_yearly.6000.desc.mid: "\n\nL'ira di [lTutor.GetFirstNamePossessiveNoTooltip] è rivolta contro [Select_CString(childs_home_liege.IsFemale,'la','il')] [hosted_child.Custom2('RelationToMeShort', SCOPE.sC('childs_home_liege'))] [Select_CString(hosted_child.IsFemale,'della bambina','del bambino')].\n\n"Vi è forse"
+
+bp2_yearly.6000.desc.value.bellicose: "fuoco e ardore"
+bp2_yearly.6000.desc.value.bureaucratic: "buon senso"
+bp2_yearly.6000.desc.value.communal: "amore per i parenti e la famiglia"
+bp2_yearly.6000.desc.value.courtly: "rispetto per i modi nobili"
+bp2_yearly.6000.desc.value.egalitarian: "grazia sociale"
+bp2_yearly.6000.desc.value.spiritual: "rispetto per i nostri riti sacri"
+bp2_yearly.6000.desc.value.stoic: "senso del dovere verso il suo popolo"
+
+bp2_yearly.6000.desc.outro: "in [childs_home_liege.GetTitledFirstName]? Come possono degli adeguati giovani di cultura [ROOT.Char.GetCulture.GetNameNoTooltip] provenire da una tale corte, dove non vengono istruiti sulle nostre tradizioni?""
+
+bp2_yearly.6000.a: "Tutti sapranno del disprezzo [childs_home_liege.Custom('IT_NAM_COL2')][childs_home_liege.GetTitleAsNamePossessiveNoTooltip]!"
+bp2_yearly.6000.a.tt: "Difendi la causa [Select_CString(hosted_child.IsFemale,'della povera','del povero')] giovane [hosted_child.GetFirstNameNoTooltip], vittima dell’apatia [Select_CString(childs_home_liege.IsFemale,'della sua','del suo')] [hosted_child.Custom2('RelationToMeShort', SCOPE.sC('childs_home_liege'))] verso le nostre usanze."
+
+bp2_yearly.6000.a.response: "[childs_home_liege.GetShortUIName] potrebbe perdere [opinion|E] presso altri [childs_home_liege.GetCulture.GetCollectiveNounNoTooltip]"
+
+bp2_yearly.6000.b: "Correggerò io stesso [Select_CString(hosted_child.IsFemale,'la bambina','il bambino')]."
+bp2_yearly.6000.b.success: "I nostri nobili valori sono profondamente radicati"
+bp2_yearly.6000.b.failure: "Alcuni scrupoli mal compresi sono stati assimilati con amarezza"
+bp2_yearly.6000.c: "Non disturbarmi con le nostre maledette usanze."
+
+defender_of_bellicose_ways_modifier: "Difensore delle Vie Bellicose"
+defender_of_bellicose_ways_modifier_desc: "Questo personaggio si erge risoluto contro qualsiasi denigrazione delle proprie pratiche culturali."
+defender_of_bureaucratic_ways_modifier: "Difensore delle Vie Burocratiche"
+defender_of_bureaucratic_ways_modifier_desc: "$defender_of_bellicose_ways_modifier_desc$"
+defender_of_communal_ways_modifier: "Difensore delle Vie Comunitarie"
+defender_of_communal_ways_modifier_desc: "$defender_of_bellicose_ways_modifier_desc$"
+defender_of_courtly_ways_modifier: "Difensore delle Vie Cortigiane"
+defender_of_courtly_ways_modifier_desc: "$defender_of_bellicose_ways_modifier_desc$"
+defender_of_egalitarian_ways_modifier: "Difensore delle Vie Egualitarie"
+defender_of_egalitarian_ways_modifier_desc: "$defender_of_bellicose_ways_modifier_desc$"
+defender_of_spiritual_ways_modifier: "Difensore delle Vie Spirituali"
+defender_of_spiritual_ways_modifier_desc: "$defender_of_bellicose_ways_modifier_desc$"
+defender_of_stoic_ways_modifier: "Difensore delle Vie Stoiche"
+defender_of_stoic_ways_modifier_desc: "$defender_of_bellicose_ways_modifier_desc$"
+
+bp2_yearly.6001.opening: "[childs_host.Custom2('AppropriateGreeting', ROOT.Char)]"
+bp2_yearly.6001.desc: "Avere [Select_CString(hosted_child.IsFemale,'tua','tuo')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hosted_child'))] [hosted_child.GetName] sotto la mia cura ha rivelato un’amara verità: ti importa poco delle tradizionali virtù [ROOT.Char.GetCulture.GetNameNoTooltip]. Marmocchi, che nulla sanno delle nostre usanze, crescono diventando"
+
+bp2_yearly.6001.desc.insult.bellicose: "vigliacchi"
+bp2_yearly.6001.desc.insult_bureaucratic: "scansafatiche"
+bp2_yearly.6001.desc.insult.communal: "vagabondi"
+bp2_yearly.6001.desc.insult.courtly: "rozzi"
+bp2_yearly.6001.desc.insult.egalitarian: "malfattori"
+bp2_yearly.6001.desc.insult.spiritual: "eretici"
+bp2_yearly.6001.desc.insult.stoic: "felloni"
+
+bp2_yearly.6001.desc.outro: "nella tua corte.\n\nI capi della nostra gente ne sono tutti a conoscenza. Mi sono assicurato/a di ciò."
+bp2_yearly.6001.a: "Devo affrontare la questione! Dobbiamo dimostrare che si sbaglia!"
+bp2_yearly.6001.a.tt: "Gli educatori della mia corte necessitano di un severo discorso sui valori."
+bp2_yearly.6001.b: "Agirò come meglio credo."
+bp2_yearly.6001.b.tt: "Non sono [Select_CString(ROOT.Char.IsFemale,'la tipica','il tipico')] [ROOT.Char.GetCulture.GetNameNoTooltip], ma posso esserne uno eccezionale."
+enforcing_cultural_values_modifier: "Imposizione dei Valori Culturali"
+enforcing_cultural_values_modifier_desc: "Questo personaggio esige incessantemente che le usanze della sua cultura vengano rispettate."
+
+rejecting_bellicose_ways_modifier: "Rifiuto delle Vie Bellicose"
+rejecting_bellicose_ways_modifier_desc: ""Tradizione? Quale stolto dà ancora importanza alle nostre tradizioni?""
+rejecting_bureaucratic_ways_modifier: "Rifiuto delle Vie Burocratiche"
+rejecting_bureaucratic_ways_modifier_desc: "$rejecting_bellicose_ways_modifier_desc$"
+rejecting_communal_ways_modifier: "Rifiuto delle Vie Comunitarie"
+rejecting_communal_ways_modifier_desc: "$rejecting_bellicose_ways_modifier_desc$"
+rejecting_courtly_ways_modifier: "Rifiuto delle Vie Cortigiane"
+rejecting_courtly_ways_modifier_desc: "$rejecting_bellicose_ways_modifier_desc$"
+rejecting_egalitarian_ways_modifier: "Rifiuto delle Vie Egualitarie"
+rejecting_egalitarian_ways_modifier_desc: "$rejecting_bellicose_ways_modifier_desc$"
+rejecting_spiritual_ways_modifier: "Rifiuto delle Vie Spirituali"
+rejecting_spiritual_ways_modifier_desc: "$rejecting_bellicose_ways_modifier_desc$"
+rejecting_stoic_ways_modifier: "Rifiuto delle Vie Stoiche"
+rejecting_stoic_ways_modifier_desc: "$rejecting_bellicose_ways_modifier_desc$"
+
+bp2_yearly.6010.t: "Nessun[Select_CString(sad_boi.IsFemale,'a','')] [sad_boi.GetWomanMan|U] [Select_CString(sad_boi.IsFemale,'imprigionata','Imprigionato')]"
+bp2_yearly.6010.desc: ""#EMP Ho tanti amici, i loro doni sono pochi...#!" canta [sad_boi.GetFirstName], la voce incrinata dall’emozione.\n\n[Select_CString(sad_boi.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sad_boi'))] getta via il suo strumento, gridando: "Basta con [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]!"
+bp2_yearly.6010.adult: "È priva di ogni comodità."\n\nLanciandomi uno sguardo carico di disprezzo, [sad_boi.GetSheHe] aggiunge: "Questa canzone sarà il mio appello di aiuto in questa triste prigionia. Qualche soldo... se il mio popolo ancora si cura di me...""
+bp2_yearly.6010.child: "Sono così infelice qui."\n\nGuardandomi con gli occhi colmi di lacrime, [Select_CString(sad_boi.IsFemale,'la bambina','il bambino')] aggiunge: "Ascoltando questa canzone, la mia famiglia si commuoverà! Mi manderanno qualcosa per rendere sopportabile il mio #EMP esilio#!, se... ancora si curano di me...""
+bp2_yearly.6010.outro: "\n\n[sad_boi.GetSheHe|U] riprende il malinconico motivo, ripensando a [home_court_liege.GetPrimaryTitle.GetNameNoTier] come a un ricordo lontano negli suoi occhi."
+bp2_yearly.6010.a: "Sì, vediamo quale "carità" riusciranno a racimolare..."
+bp2_yearly.6010.a.tt: "...per la mia borsa."
+bp2_yearly.6010.b: "Infelice?! #EMP Posso aiutare?!#!"
+bp2_yearly.6010.b.tt: "La mia corte non può essere cantata come un luogo di miseria!"
+bp2_yearly.6010.c: "Devo insegnar[sad_boi.Custom('DE_PRO_DEM')] che il suo posto è qui."
+bp2_yearly.6010.c.tt: "Dobbiamo tutti, nativi o no, sopportare le difficoltà con silenziosa dignità."
+bp2_yearly.6010.c.success: "[sad_boi.GetSheHe|U] darà un’altra possibilità a [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+bp2_yearly.6010.c.tt_education: "L’esito dell’educazione di [sad_boi.GetFirstNamePossessive] migliorerà"
+bp2_yearly.6010.c.failure: "Negare la verità dei suoi versi turba [sad_boi.GetFirstNameNoTooltip]"
+bp2_yearly.6010.d: "Una composizione bellissima, in realtà."
+bp2_yearly.6010.d.tt: "Che questo lamento sia cantato ovunque: la sua bellezza conta più del suo contenuto."
+
+bp2_yearly.6020.t: "I Bambini Dicono Cose Tanto Buffe"
+bp2_yearly.6020.desc: "Mentre condivido le ultime notizie dalla corte di [snitch.GetHomeCourt.GetTitledFirstNamePossessive], [Select_CString(snitch.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('snitch'))] [snitch.GetName] sembra stranamente [Select_CString(snitch.IsFemale,'divertita','divertito')], con un sorriso distante"
+bp2_yearly.6020.child: "sul suo piccolo volto.\n\n"Ho una storia, [ROOT.Char.GetTitleAsNameNoTooltip]. Un racconto che ho fatto dalle mie osservazioni! Ma... non dovrei dirlo. Ho promesso che non l’avrei fatto."\n\n[snitch.GetSheHe|U] ridacchia con gioiosa malizia, compiacendosi di questo raro potere sui suoi anziani.\n\n"Monello!" grida [snitch.GetFirstNameNoTooltip]."
+bp2_yearly.6020.youth: "sul suo unto volto adolescenziale.\n\n"Ho una storia, [ROOT.Char.GetTitleAsNameNoTooltip]: me l’hai appena ricordata. Qualcosa da non ripetere mai! Ma... ero così piccolo. Sembra passato così tanto tempo."\n\n[snitch.GetSheHe|U] sogghigna con gioiosa perfidia, compiacendosi di questo raro potere su coloro che lo hanno cresciuto.\n\n"Monello!" grida [snitch.GetFirstNameNoTooltip]."
+bp2_yearly.6020.liege: ""Così venerabile, così monello!""
+bp2_yearly.6020.family: ""La famiglia può essere così monella!""
+
+bp2_yearly.6020.a: "Continua pure..."
+bp2_yearly.6020.a.secret: "Scopri un [secret|e] custodito dalla famiglia di [snitch.GetShortUINamePossessive]"
+bp2_yearly.6020.a.non_family_secret: "Scopri un [secret|e] dalla cerchia ristretta della [court|E] di [no_no_doer.GetShortUINamePossessive]"
+bp2_yearly.6020.a.success: "Un racconto deliziosamente sordido"
+bp2_yearly.6020.a.failure: "Solo sciocchezze infantili, suppongo..."
+bp2_yearly.6020.a.no_secret: "Non apprendi nulla di rilevante"
+bp2_yearly.6020.b: "Una lingua sciolta porta disonore."
+bp2_yearly.6020.b.tt: "[snitch.GetFirstNameNoTooltip] dovrebbe preferire la virtù della discrezione al pettegolezzo."
+bp2_yearly.6020.b.discretion: "[snitch.GetShortUIName] sarà molto meno incline a rivelare i tuoi [secrets|E]"
+
+bp2_yearly.6030.t: "Gli Occhi della Famiglia"
+bp2_yearly.6030.desc: "[Select_CString(snitch.IsFemale,'La mia','Il mio')] [snitch.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('snitch'))] [snitch.GetFirstName] rallegra una nebbiosa passeggiata mattutina, raccontandomi della sua prigionia sotto la custodia di [warden.GetName].\n\n[snitch.Custom('DE_ART_IND_A')|U] è [Select_CString(snitch.IsFemale,'tornata molto cambiata','tornato molto cambiata')]: più [Select_CString(snitch.IsFemale,'saggia','saggio')], più [Select_CString(snitch.IsFemale,'osservatrice','osservatore')]. Un[Select_CString(snitch.IsFemale,'a','')] leale [snitch.GetDynastyHouseName], ben [Select_CString(snitch.IsFemale,'adattata','adattato')] alla vita in una terra straniera.\n\nUn[Select_CString(snitch.IsFemale,'a','')] leale [snitch.GetDynastyHouseNameNoTooltip]... forse c’è del valore nell’aver avuto gli occhi della nostra famiglia alla corte di [warden.GetTitledFirstNamePossessiveNoTooltip]...?"
+bp2_yearly.6030.hostage_reticent: "\n\n[snitch.GetFirstNameNoTooltip], tuttavia, sembra #negative_value molto riluttante#! a fare da [Select_CString(snitch.IsFemale,'mia informatrice','mio informatore')]. Forse gli è persino stato detto di non farlo."
+bp2_yearly.6030.hostage_normal: "\n\nIn particolare — cosa sa, se sa qualcosa, [snitch.GetFirstNameNoTooltip]?"
+
+bp2_yearly.6030.a: "Posso estorcere i segreti di [warden.GetPrimaryTitle.GetNameNoTierNoTooltip]..."
+bp2_yearly.6030.maybe_secret: "#high [snitch.GetFirstName]#! #EMP potrebbe#! condividere un [secret|E] dalla cerchia ristretta di [warden.GetShortUINamePossessive]"
+bp2_yearly.6030.a.success: "Apprendi tutto ciò che [snitch.GetFirstNameNoTooltip] sa"
+bp2_yearly.6030.a.failure: "[snitch.GetFirstNameNoTooltip] elude le domande"
+bp2_yearly.6030.a.no_secret: "[snitch.GetFirstName] non sa... nulla di rilevante"
+bp2_yearly.6030.a.evade: "#high [snitch.GetFirstName]#! non condivide nulla di utile"
+
+bp2_yearly.6030.b: "Per il servizio reso alla sua famiglia — una ricompensa!"
+bp2_yearly.6030.b.tt: "[Select_CString(snitch.IsFemale,'Falle','Fagli')] sapere quanto bene ricompenso agenti e informatori!"
+bp2_yearly.6030.b.failure: "[snitch.GetFirstNameNoTooltip] non fornisce alcun [secret|E]"
+bp2_yearly.6030.b.rewarded: "#high [snitch.GetFirstName]#! sarà molto più incline a unirsi ai tuoi [schemes|E]"
+
+bp2_yearly.6030.refuse_reward: "#high [snitch.GetFirstName]#! è inutile e irremovibile"
+
+
+bp2_yearly.6030.c: "Senza onore, la prigionia è inutile."
+bp2_yearly.6030.c.tt: "Le regole dell’accordo sono severe e inviolabili."
+bp2_yearly.6030.c.honor: "I [rulers|E] saranno più inclini a offrirti e chiederti degli [hostages|E]"
+bp2_yearly.6030.c.hostage_secrets: "@alert_icon! #alert_trial Otterrai [tyranny|E] se costringerai gli [hostages|E] a rivelare dei [secrets|E]#!"
+
+honorable_warden_modifier: "Custode Onorevole"
+honorable_warden_modifier_desc: "Questo personaggio afferma di garantire un’inviolabile dignità ai [hostages|e]."
+
+bp2_yearly.6040.t: "Tutto Ciò che Non Siamo"
+bp2_yearly.6040.desc: "Osservo i più giovani [ROOT.Char.GetCulture.GetCollectiveNoun] di [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier] durante i loro studi. Lenti ad apprendere, indisciplinati, litigano come i loro genitori.\n\nNulla a che vedere con i [advanced_culture.GetCollectiveNoun] della meravigliosa [childhood_location.GetCounty.GetTitle.GetNameNoTier]. Il loro regno è fatto di ordine, grandi opere e grandiose idee. Quando ero"
+bp2_yearly.6040.hostage: "[Select_CString(ROOT.Char.IsFemale,'tenuta','tenuto')] in ostaggio"
+bp2_yearly.6040.education: "[Select_CString(ROOT.Char.IsFemale,'educata','educato')]"
+bp2_yearly.6040.outro: "lì, fui [Select_CString(ROOT.Char.IsFemale,'illuminata','illuminato')].\n\nArrivai a vedere il mio popolo per i primitivi che sono.\n\nPotrei far sì che non sia più così. Armato delle conoscenze [advanced_culture.GetNameNoTooltip] della mia gioventù... forse dovrei guidarci sul difficile cammino della riforma?"
+
+bp2_yearly.6040.a: "Il mio regno può rinascere."
+bp2_yearly.6040.a.tt: "Introduci conoscenze straniere per sostituire le usanze del tuo popolo — o conducili verso una gloria maggiore."
+bp2_yearly.6040.a.reforms: "Cerchi di riformare e migliorare la tua [culture|E], [court|E] e [realm|E], seguendo il modello [advanced_culture.GetName]"
+bp2_yearly.6040.a.warning: "@alert_icon! #alert_trial Questo sarà difficile e costoso. Assicurati di essere preparato.#!"
+bp2_yearly.6040.b: "Perché persino #EMP prendere in considerazione#! l'idea di sfidare le nostre tradizioni?"
+bp2_yearly.6040.b.tt: "Abbraccio le nostre squisite usanze [ROOT.Char.GetCulture.GetNameNoTooltip] e rinnego tutto il resto!"
+bp2_yearly.6040.b.promote_culture: "L'[councillor_task|E] [promote_culture|E] sarà più efficace per #high 25 anni#!"
+bp2_yearly.6040.b.no_reforms: "Non prenderai più in considerazione queste riforme"
+bp2_yearly.6040.c: "Ora semplicemente non è il momento."
+bp2_yearly.6040.c.recurring: "Questo impulso alla riforma probabilmente si ripresenterà"
+
+devoted_to_tradition_modifier: "Campione della Tradizione"
+devoted_to_tradition_modifier_desc: "Rifiutando ogni legame con gli stranieri, questo personaggio è un rinomato sostenitore del suo popolo."
+bp2_devoted_to_tradition_modifier_conversion_task_desc: "$devoted_to_tradition_modifier$"
+
+bp2_yearly.6050.t: "Pietra, Ferro, Argilla e Graticcio"
+bp2_yearly.6050.desc: "Per ordine mio, le prime nuove strade e modesti avamposti si diramano da [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier] — costruiti nello stile delle grandi strade, dei forti e degli uffici delle tasse della cultura [advanced_culture.GetName].\n\nEppure, la mia capitale non è la scintillante [childhood_location.GetCounty.GetTitle.GetNameNoTier], né [ROOT.Char.GetPrimaryTitle.GetNameNoTier] una terra popolosa ricca di commerci e artigianato. #EMP Per ora.#!\n\nAl mio fianco, [noble_representative.GetTitledFirstName] guarda con sospetto le mie nuove costruzioni e i miei architetti stranieri.\n\n"Arricchisci #EMP mercanti#! e #EMP popolani#!," sogghigna  [Select_CString(noble_representative.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('noble_representative'))], "quando la tua fedele nobiltà potrebbe invece creare nuove sale con la tua generosità!""
+
+bp2_yearly.6050.a: "La mia nuova, grandiosa capitale prospererà!"
+bp2_yearly.6050.a.tt: "Una nuova gemma brillerà tra le città delle terre civilizzate; i suoi abitanti prospereranno, così come me."
+bp2_yearly.6050.b: "Noi popoli civilizzati non #EMP doniamo#!. Tassiamo e costruiamo."
+bp2_yearly.6050.b.tt: "Queste imposizioni sono consuetudine in terre straniere — e pertanto lo sono anche qui, adesso!"
+bp2_yearly.6050.every_county_development: "Il livello di [development|E] in ogni [county|E] del tuo [domain|E] cambierà di #positive_value +1#!"
+bp2_yearly.6050.county_control_loss: "Il livello di [control|E] cambierà di #negative_value -30#! in ogni [county|E] del tuo [domain|E]"
+bp2_yearly.6050.county_opinion_modifier: "Ogni [county|E] del tuo [domain|E] non di cultura [advanced_culture.GetName] ottiene [GetModifier('unprecedented_taxation_modifier').GetNameWithTooltip]"
+bp2_yearly.6050.c: "Non posso voltare le spalle ai miei nobili!"
+bp2_yearly.6050.c.tt: "Favorirò sopra ogni cosa i magnati di [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]."
+bp2_yearly.6020.pay_vassals: "Paghi [gold_i|E]#N [root_scope.MakeScope.ScriptValue('minor_gold_value')]#! a tutti i tuoi [powerful_vassals|E] #EMP e#! perdi [gold_i|E]#N [root_scope.MakeScope.ScriptValue('minor_gold_value')]"
+
+bp2_yearly.6050.reaffirmation_path: "@alert_icon! #alert_trial Questo contribuisce #EMP rapidamente#! a riaffermare le tue usanze della cultura [root_scope.GetCulture.GetNameNoTooltip]#!"
+bp2_yearly.6050.reform_path: "@alert_icon! #alert_trial Questo contribuisce alle tue vaste riforme della cultura [advanced_culture.GetNameNoTooltip]#!"
+
+cultural_acceptance_gain_beginning_reforms: "Un [ruler|E] ha iniziato a importare i costumi dell'altra [culture_possessive|E]"
+cultural_acceptance_gain_building_familiar_settlements: "Il [realm|E] di un riformatore ricostruito in uno stile ora condiviso"
+cultural_acceptance_turned_away_trade: "Con falsità su grandiosi progetti, un [ruler|E] ha ingannato costruttori e mercanti dell’altra [culture|E]"
+
+massive_construction_efforts_modifier: "Massivi Sforzi di Costruzione"
+massive_construction_efforts_modifier_desc: "Abili costruttori sono stati importati in massa per lavorare su magnifici progetti in questo luogo."
+
+great_builder_modifier: "Grande Costruttore"
+great_builder_modifier_desc: "Un devoto finanziatore di progetti edilizi ambiziosi: un modernizzatore e datore di lavoro di talenti stranieri qualificati."
+
+unprecedented_taxation_modifier: "Tassazione Senza Precedenti"
+unprecedented_taxation_modifier_desc: "Tasse in stile straniero, dure oltre ogni immaginazione precedente, finanziano uno sviluppo locale molto odiato."
+
+loyal_realm_nobility_modifier: "Amato dalla Nobiltà del Regno"
+loyal_realm_nobility_modifier_desc: "Questo personaggio ha coltivato un fervente legame con i nobili guerrieri del suo popolo."
+
+bp2_yearly.6060.t: "Studi nell’Eternità"
+bp2_yearly.6060.desc: "Gli squallidi riti della cultura [ROOT.Char.GetCulture.GetName], le usanze della nostra fede [ROOT.Char.GetFaith.GetName]... non siamo che bambini che vagiscono nel buio?\n\nQuando [clergy_representative.GetFirstName] e i nostri meschini [clergy_representative.GetFaith.PriestNeuterPlural] implorano il favore di [ROOT.Char.GetFaith.HighGodName], la mia mente vola al ricordo del fruscio delle sacre vesti della cultura [advanced_culture.GetName], rapita dalla verità della loro retorica. Bramo le sale di apprendimento di [childhood_location.GetCounty.GetTitle.GetNameNoTier], per vagare tra i misteri lì rivelati.\n\n"
+
+bp2_yearly.6060.same_faith: "Per i [advanced_culture.GetCollectiveNounNoTooltip], la fede vive nella grandezza, rafforzata dallo studio. Viene portato dal più alto al più basso e, a differenza delle nostre superstizioni, rimane costante."
+bp2_yearly.6060.different_faith: "Tutte le anime di un regno, con pochi templi e ancora meno lettere... dipendono forse dalle mie labbra per condividere la verità di [advanced_culture_faith.GetName]?"
+
+
+
+#My guardian Kopti ensured I knew that, though we share the same faith, with few temples and fewer lettered folk in our land... wisdom slips, like water, through Karluk fingers.
+
+
+bp2_yearly.6060.a: "Ho vissuto solo per questo. Io sono [advanced_culture_faith.GetAdherentNameNoTooltip]."
+bp2_yearly.6060.a.tt: "Chi altro potrebbe unire le nostre fedi? E quale fede migliore per portare ordine spirituale e illuminazione a [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]?"
+
+bp2_yearly.6060.b: "La fede deve essere costruita, deve essere ordinata."
+bp2_yearly.6060.b.tt: "Imiteremo come le fedi straniere sono organizzate, come si elevano verso il cielo e penetrano in ogni aspetto della vita quotidiana."
+bp2_yearly.6060.b.conversion_bonus: "Velocità di progresso della [convert_county|E]: #P +[EmptyScope.ScriptValue('zealous_proselytizer_percentage')|0]%#!"
+
+bp2_yearly.6060.c: "L’apprendimento è la fonte di ogni forza."
+bp2_yearly.6060.c.tt: "E se io fossi il più erudito e il più saggio di tutti, se la mia devozione fosse totale, il mio reame prospererebbe di certo!"
+bp2_yearly.6060.c.nerd: "Riduci tutte le abilità tranne [learning|E] di #negative_value 2#!"
+bp2_yearly.6060.c.tribal_warning: "@warning_icon! #X Potrai costruire $building_type_generic_university$ solo quando non avrai più un [tribal_government|E]#!"
+bp2_yearly.6060.d: "Eppure sento che... #EMP noi#! siamo i veri credenti!"
+bp2_yearly.6060.d.tt: "Non c’è nulla di ostentato, nulla di complicato, nella nostra verità. Essa è giusta."
+
+fervor_gain_reformer_converts: "Un famoso riformatore si è convertito"
+fervor_gain_reformer_champions_faith: "Un sovrano sta rivitalizzando questa [faith|E]"
+fervor_loss_reformer_rejects_faith: "Il famoso campione di un’altra [faith|E] l’ha rinnegata"
+
+adapted_rituals_modifier: "Riti Stranieri Adattati"
+adapted_rituals_modifier_desc: "Con la costruzione di templi in stile straniero e l’introduzione di riti stranieri, la gente dice che per questa persona nulla è sacro... oppure tutto lo è?"
+
+court_of_scholars_modifier: "Corte di Studiosi"
+court_of_scholars_modifier_desc: "Un patrono tanto di intellettuali quanto di stravaganti, questo personaggio governa un popolo in rapido cambiamento."
+
+bp2_yearly.6070.t: "Dove il Mondo Intero Guarda"
+bp2_yearly.6070.desc: ""Ho servito a lungo [advanced_court_owner.GetTitledFirstName], il/la più grande [advanced_culture.GetName] vivente," afferma [foreign_official.GetName], un cosiddetto ufficiale di [advanced_court_owner.GetPrimaryTitle.GetNameNoTier].\n\n"La poesia del suo potere, le mode che abbagliano il mondo, le danze di corte, le insegne e tutto il resto — vi andrebbe di partecipare alla cultura suprema, [ROOT.Char.GetTitleAsNameNoTooltip]? Posso aiutarvi. So dove sono celate ricchezze #EMP inimitabili#!."\n\nLe mie ambizioni riformatrici attraggono queste creature amorali, ugualmente ambiziose: osservano il mio interesse per il cambiamento... con un’opportunismo avido."
+
+bp2_yearly.6070.a: "Preferirei imparare come governa [CHARACTER.Custom('IT_NAM_COL3')][advanced_court_owner.GetTitleAsNameNoTooltip]."
+bp2_yearly.6070.a.tt: "Non mi interessano i metodi della grandezza, ma i metodi della civiltà."
+bp2_yearly.6070.b: "Portaci maniere civilizzate, vesti magnifiche."
+bp2_yearly.6070.b.tt: "Per le più raffinate vesti di [advanced_culture.GetNameNoTooltip] — al prezzo più alto! Non importa la loro... provenienza..."
+bp2_yearly.6070.artifact_warning: "@warning_icon! #X [advanced_court_owner.GetTitledFirstName] potrebbe volerle indietro#!"
+bp2_yearly.6070.change_clothes: "Alcuni dei tuoi sudditi si vestiranno come i [advanced_culture.GetCollectiveNoun] finché regnerai"
+bp2_yearly.6070.change_clothes_heir: "Alcuni dei tuoi sudditi si vestiranno come i [advanced_culture.GetCollectiveNoun], finché regnerai tu o il tuo attuale [primary_heir|E]"
+bp2_yearly.6070.c: "Il linguaggio del potere è il più importante tra gli ornamenti."
+bp2_yearly.6070.c.tt: "Se padroneggerò veramente la lingua [advanced_culture.GetLanguage.GetNameNoTooltip], sarò un loro pari senza bisogno di orpelli."
+bp2_yearly.6070.court_language_discount: "Spendi enormemente meno [prestige|E] quando cambi [court_language|E]"
+bp2_yearly.6070.d: "Tu, [advanced_culture.GetNameNoTooltip], sei un vile insetto!"
+bp2_yearly.6070.d.tt: "Sono forse visto come parente di questo verme? Fare di [foreign_official.GetSheHe] un esempio dovrebbe cambiare le cose!"
+
+artifact_admired_culture_regalia: "Regalie Opulente della cultura [advanced_court_owner.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+artifact_famed_culture_regalia_desc: "Un sontuoso assortimento di raffinatezze della cultura [advanced_culture.GetName] "importate", della qualità che [advanced_court_owner.GetTitleAsNameNoTooltip] potrebbe commissionare ai suoi artigiani più sofisticati."
+
+artifact_admired_culture_crown: "La Corona di [root_scope.GetFirstNameNoTooltip]"
+artifact_famed_culture_crown_desc: "Un maestoso manufatto della cultura [advanced_culture.GetName], mai visto prima nelle terre [root_scope.GetCulture.GetName], questa corona dorata di dubbia provenienza ha viaggiato lontano per posarsi sul capo di un visionario [root_scope.GetTitleAsNameNoTooltip]."
+
+artifact_advanced_culture_treatise: "Un Trattato [root_scope.GetPrimaryTitle.GetAdjectiveNoTooltip] in [advanced_culture.GetLanguage.GetNameNoTooltip]"
+
+bp2_yearly.6080.t: "Sangue [ROOT.Char.GetCulture.GetNameNoTooltip]"
+bp2_yearly.6080.desc: "Un gruppo di mercenari di origine [advanced_culture.GetName], guidati da due comandanti esperti, cerca di servire come guardia di palazzo e di addestrare le mie forze. Attende oltre i miei cancelli. All’interno, il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('angry_vassal'))] [angry_vassal.GetTitledFirstName] mi urla contro.\n\n"#EMP Traditore [ROOT.Char.GetTitleAsNameNoTooltip], cane dei [advanced_culture.GetCollectiveNounNoTooltip]!#! Vuoi essere un tiranno diverso da ogni vero [ROOT.Char.GetCulture.GetName], brandendo leggi aliene e forze straniere? Disprezzi forse le nostre usanze?!"\n\n"Allora anche i nostri giuramenti di lealtà devono essere gettati via!" dice [angry_vassal.GetSheHe], scortato da [angry_vassal.GetHerHis] seguito armato. "Noi vassalli siamo d’accordo: a meno che i [advanced_culture.GetCollectiveNounNoTooltip] non se ne vadano, i nostri legami con te sono privi di valore!""
+
+bp2_yearly.6080.a: "Potrei farli stabilire come migranti pacifici?"
+bp2_yearly.6080.a.tt: "I miei nobili possono certamente essere convinti a badare poco alla cosa se soltanto i popolani vengono sostituiti..."
+bp2_yearly.6080.pop_opinion_modifier: "Ogni [county|E] non-[advanced_culture.GetName] nello stesso [duchy|E] ottiene #N [GetModifier('forcible_resettlement_modifier').GetNameWithTooltip]#!"
+bp2_yearly.6080.b: "Un leader ribelle! #EMP Prendetel[angry_vassal.Custom('DE_END_PRO_S_N')]!#!"
+bp2_yearly.6080.b.tt: "Vediamo se gli altri tradizionalisti riescono a organizzarsi in sua assenza!"
+bp2_yearly.6080.b.success: "Il dissidente viene catturato"
+bp2_yearly.6080.b.failure: "[angry_vassal.GetFirstNameNoTooltip] riesce a fuggire combattendo"
+bp2_yearly.6080.add_both_courtiers: "[foreign_mercenary_1.GetName] e [foreign_mercenary_2.GetName] si uniscono alla tua corte"
+bp2_yearly.6080.c: "Tutti i vecchi legami sono infranti: non mi fermeranno."
+bp2_yearly.6080.c.tt: "Il nostro popolo sta rinascendo. Obblighi primitivi, vecchi debiti, non contano più. Portare a compimento le mie riforme è la sola cosa che conta."
+bp2_yearly.6080.hook_removal_vassals: "I [vassals|E] perdono tutti i [hooks|E] che hanno su di te"
+bp2_yearly.6080.hook_removal: "@warning_icon! #X Perdi tutti i [hooks|E] che hai sui tuoi [vassals|E]#!"
+bp2_yearly.6080.truce_removal: "@warning_icon! #X Tutte le [truces|E] tra te e i tuoi [vassals|E] sono annullate#!"
+bp2_yearly.6080.d: "Il sangue del mio popolo non deve essere versato."
+bp2_yearly.6080.d.tt: "Il nostro popolo, la nostra causa comune, dovrebbe guidarci e unirci: dovremmo essere legati l’uno all’altro."
+
+elite_foreign_guard_modifier: "Caserme della Guardia d’Elite"
+elite_foreign_guard_modifier_desc: "Combattenti altamente disciplinati, per lo più provenienti da altre terre e popoli, hanno qui la loro sede. Addestrano abilità di combattimento e attendono il richiamo del loro signore."
+
+custom.every_non_advanced_culture_vassal: "Ogni [vassal|E] non-[advanced_culture.GetName]"
+custom.every_non_advanced_culture_unhooked_no_truce_vassal: "Ogni [vassal|E] non-[advanced_culture.GetName] con cui non hai alcuna [truce|E] o [hook|E]"
+
+forcible_resettlement_modifier: "Reinsediamenti Forzati"
+forcible_resettlement_modifier_desc: "Migranti, spodestati da coloni importati di una cultura più avanzata, suscitano qui un ardente risentimento."
+
+common_noble_cause_modifier: "Causa Comune Nobiliare"
+common_noble_cause_modifier_desc: "Questo personaggio ispira i membri della sua stessa cultura con il ritornello di uno scopo condiviso."
+
+cultural_acceptance_learning_from_culture: "Un’[innovation|E] è stata trasmessa tra queste [cultures|E]"
+
+bp2_yearly.6090.t: "Un Diritto di Nascita, Rinnovato"
+bp2_yearly.6090.desc: "Ho inseguito l’approvazione della cultura [advanced_culture.GetName], bramato le raffinatezze straniere, mi sono reso ridicolo per i miei sogni. Ora basta.\n\n"
+bp2_yearly.6090.burn_letters: "I vari doni inviati da [advanced_court_owner.GetTitledFirstName] bruciano, mentre i miei nobili della cultura [ROOT.Char.GetCulture.GetName] venerano il mio nome.\n\n"
+bp2_yearly.6090.burn_else: "La maggior parte dei miei ornamenti della cultura [advanced_culture.GetNameNoTooltip] brucia, mentre i miei nobili [ROOT.Char.GetCulture.GetName] venerano il mio nome.\n\n"
+
+bp2_yearly.6090.reaffirm_social: "Mentre gli avidi [advanced_culture.GetCollectiveNounNoTooltip] abusavano della mia brama, i miei vassalli mi esortavano alla cautela."
+bp2_yearly.6090.reaffirm_realm: "Mentre io dilaniavo le nostre terre, essi costruivano nobili sale e armavano validi $knight_culture_player_plural_no_tooltip_lowercase$."
+bp2_yearly.6090.reaffirm_ritual: "Anche se disprezzavo le loro antiche credenze, rimanevo nelle loro preghiere."
+bp2_yearly.6090.reaffirm_maa: "Rischiarono il loro onore, la loro vita, pur di impedirmi di cedere [ROOT.Char.GetPrimaryTitle.GetNameNoTier] agli stranieri."
+bp2_yearly.6090.outro: "\n\nLa mia giovinezza a [childhood_location.GetCounty.GetTitle.GetNameNoTier] mi ha fuorviato. I [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] sono il mio popolo. E non hanno bisogno di essere 'civilizzati'."
+
+bp2_yearly.6090.a.bow: "Il mondo intero dovrebbe inchinarsi davanti a noi."
+bp2_yearly.6090.a.strength: "Il mondo intero dovrebbe sentire la nostra forza."
+bp2_yearly.6090.a.governed: "Il mondo intero dovrebbe ascoltare la nostra saggezza."
+bp2_yearly.6090.a.zeal: "Il mondo intero dovrebbe conoscere il nostro zelo."
+bp2_yearly.6090.a.kin: "Il mondo intero dovrebbe rispondere ai nostri consanguinei."
+bp2_yearly.6090.a.virtue: "Il mondo intero dovrebbe meravigliarsi della nostra virtù."
+bp2_yearly.6090.a.tt: "Ravviviamo i nostri antichi legami — in un fuoco che consumi tutti coloro che oserebbero dubitare dei [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]!"
+bp2_yearly.6090.tribal_invasion: "Puoi usare il [casus_belli|E] Invasione un’ulteriore volta"
+bp2_yearly.6090.non_tribal_invasion: "Puoi usare il [casus_belli|E] Invasione una volta"
+bp2_yearly.6090.no_invasion_req: "Il tuo [casus_belli|E] Invasione non ha requisito di [prestige_level|E]"
+bp2_yearly.6090.b: "Dobbiamo difendere la nostra terra, le nostre famiglie, per sempre."
+bp2_yearly.6090.b.tt: "Il mio cuore si spezza al pensiero di perdere tutto ciò che abbiamo. Restiamo risoluti, restiamo devoti: questo non deve accadere."
+bp2_yearly.6090.traditionalist_traditions: "Otterrai sconti sulle [traditions|E] correlate"
+
+a_cultures_great_defender_modifier: "Il Più Grande Difensore del Popolo"
+a_cultures_great_defender_modifier_desc: "Superando una piaga di dubbi, questo personaggio è diventato un eroe celebre per il suo popolo e un devoto alla propria patria."
+
+inspired_defenders_modifier: "Ispirati nella Schiavitù, Ispirati nella Resistenza"
+inspired_defenders_modifier_desc: "Gli abitanti di queste terre difendono ferocemente ciò che è loro e sono pronti a difendere il loro signore."
+
+uniter_and_conqueror_modifier: "Unificatore e Conquistatore"
+uniter_and_conqueror_modifier_desc: "Questo capo visionario ha messo alla prova il valore del suo popolo, finché la grandezza del loro destino comune è divenuta chiara a tutti."
+
+cultural_acceptance_loss_rejected_influence: "Un riformatore ha rifiutato l’altra cultura scegliendo l’isolamento"
+
+bp2_yearly.6091.t: "Un Popolo Immutabile"
+bp2_yearly.6091: "Sia tra i cortigiani delle mie splendide sale che tra la plebaglia dei villaggi, le mie riforme abortite hanno lasciato un segno distinto.\n\nI disordini hanno indurito il cuore di ogni [ROOT.Char.GetCulture.GetName] contro gli stranieri. Regnano sospetto e ostilità, ma anche la pratica amorevole delle nostre vecchie tradizioni, feste gioiose e un orgoglioso spirito marziale.\n\nI miei consiglieri mi riferiscono le speranze del popolo: che altri capi come me guardino alla tradizione, alla fede,"
+bp2_yearly.6091.dominance: "e al loro destino negli anni a venire."
+bp2_yearly.6091.defense: "e alla loro difesa negli anni a venire."
+bp2_yearly.6091.a: "Celebriamo tutto ciò che siamo."
+bp2_yearly.6091.a.tt: "...e nient’altro."
+
+bp2_yearly.6091.aggressive: "La tua [culture|E] ora spende meno [prestige|E] per [GetCultureTradition('tradition_ruling_caste').GetName], [GetCultureTradition('tradition_hereditary_hierarchy').GetName], [GetCultureTradition('tradition_staunch_traditionalists').GetName], [GetCultureTradition('tradition_zealous_people').GetName], [GetCultureTradition('tradition_faith_bound').GetName], e [GetCultureTradition('tradition_warrior_culture').GetName]"
+bp2_yearly.6091.defensive: "La tua [culture|E] ora spende meno [prestige|E] per [GetCultureTradition('tradition_isolationist').GetName], [GetCultureTradition('tradition_hereditary_hierarchy').GetName], [GetCultureTradition('tradition_tribe_unity').GetName], [GetCultureTradition('tradition_staunch_traditionalists').GetName], [GetCultureTradition('tradition_stalwart_defenders').GetName], [GetCultureTradition('tradition_zealous_people').GetName], e [GetCultureTradition('tradition_faith_bound').GetName]"
+
+bp2_yearly.6100.t: "I miei [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip], Rinati!"
+bp2_yearly.6100.desc: "Gli anni di derisione e sospetto, sacrificio e disordini... erano per questo.\n\nMentre i miei [ROOT.Char.GetCulture.GetCollectiveNoun] si inchinano davanti a me, le ultime parole del mio più grande editto di riforma vengono recitate fragorosamente. Governeremo in un nuovo modo, ispirato alla cultura [advanced_culture.GetName]. Costruiremo finché non eguaglieremo le glorie di [childhood_location.GetCounty.GetTitle.GetNameNoTier]. E ogni bambino [ROOT.Char.GetCulture.GetNameNoTooltip] imparerà le abilità — conoscerà le meraviglie — che io conobbi nella mia gioventù.\n\nMolto è cambiato!"
+bp2_yearly.6100.reform_court: "Una nuova eleganza vivifica la mia corte."
+bp2_yearly.6100.reform_maa: "Armi di ferro e le parole della legge difendono il mio dominio."
+bp2_yearly.6100.reform_faith: "La mia fede è concentrata, raffinata, sublime."
+bp2_yearly.6100.reform_realm: "Il commercio fiorisce, gli insediamenti crescono e ogni giorno più persone migrano nel mio rinato [ROOT.Char.GetPrimaryTitle.GetNameNoTier]."
+bp2_yearly.6100.outro: "\n\nSono ancora [ROOT.Char.GetCulture.GetNameNoTooltip]. Ma sono il nuovo [ROOT.Char.GetCulture.GetNameNoTooltip]."
+
+bp2_yearly.6100.a: "Questa è la mia eredità - deve essere assoluta!"
+bp2_yearly.6100.a.tt: "Cambiamenti maggiori hanno un costo, tutti i piccoli proprietari terrieri non sono facilmente persuasi... ma potremmo adattare ancora di più dai [advanced_culture.GetCollectiveNounNoTooltip]!"
+bp2_yearly.6100.b: "Ce l’ho fatta!"
+bp2_yearly.6100.b.tt: "Il mio popolo non deve essere spinto oltre. Li ho già guidati all’inizio di una nuova era."
+
+cultural_acceptance_gain_completed_reform: "Un sovrano ha trasformato completamente il suo reame seguendo il modello dell’altra cultura"
+
+bp2_yearly.6100.2_more_innovations: "La [culture|E] [root_scope.GetCulture.GetName] riceve #high 2#! [innovations|E] aggiuntive dalla cultura [advanced_culture.GetName]"
+bp2_yearly.6100.1_more_innovation: "La [culture|E] [root_scope.GetCulture.GetName] riceve #high 1#! [innovation|E] aggiuntiva dalla cultura [advanced_culture.GetName]"
+bp2_yearly.6100.gained_2_innovations: "La [culture|E] [root_scope.GetCulture.GetName] ha ricevuto #high 2#! [innovations|E] casuali dalla cultura [advanced_culture.GetName]"
+bp2_yearly.6100.gained_1_innovation: "La [culture|E] [root_scope.GetCulture.GetName] ha ricevuto #high 1#! [innovation|E] casuale dalla cultura [advanced_culture.GetName]"
+
+flourishing_settlements_modifier: "Insediamenti Fiorenti"
+flourishing_settlements_modifier_desc: "Con l’introduzione di nuove pratiche e tecnologie, i locali qui sono grati e prosperano."
+
+ bp2_yearly.6110.t: "Riforme Straniere"
+bp2_yearly.6110.realm: "Osservo un garzone ravvivare il fuoco. La sua luce dura a malapena, una misera fiammella contro l’oscurità di questa notte.\n\nForse è il nostro stesso modo di vivere, come [ROOT.Char.GetCulture.GetCollectiveNoun], a essere in difetto. Un nemico così potente da affrontare — e ho ancora in me la convinzione necessaria per eguagliare tutto/a [ROOT.Char.GetPrimaryTitle.GetNameNoTier]?\n\nPenso al modo di vivere della cultura [advanced_culture.GetName], a come essi vivono e governano. Forse una parte di ciò vale la pena imporla al mio popolo?"
+bp2_yearly.6110.combat: "Guardo i miei $knight_culture_player_plural_no_tooltip_lowercase$ oziare al sole del pomeriggio, intrattenendosi a vicenda con racconti di gesta compiute.\n\nHanno avuto le loro vittorie, e combattono bene nello stile tradizionale [ROOT.Char.GetCulture.GetName]. Eppure... penso alle abilità e alle tattiche di un soldato della cultura [advanced_culture.GetName]. I miei guerrieri dovrebbero adattare i loro modi di fare la guerra?\n\nO forse dovremmo abbracciare qualche altra forma di influenza [advanced_culture.GetNameNoTooltip]?"
+bp2_yearly.6110.social: "Il mercato. Il modo particolare di parlare in lingua [ROOT.Char.GetCulture.GetLanguage.GetName] della nostra [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier] mi riempie le orecchie. I [ROOT.Char.GetCulture.GetCollectiveNoun], pur reverenti verso di me, proseguono nelle loro fatiche quotidiane.\n\nSo di essere come loro, ma #EMP diverso#!. Sono loro e gli [advanced_culture.GetCollectiveNoun] a essere distinti.\n\nÈ qualcosa da cambiare, in fretta? Perché, pur non essendo cresciuto tra loro, il mio capriccio è il futuro di ogni [ROOT.Char.GetCulture.GetNameNoTooltip]. Aspetti della cultura [advanced_culture.GetNameNoTooltip] sono nelle mie mani da introdurre."
+bp2_yearly.6110.ritual: "Le regole degli dei stranieri differiscono, così mi dicono, quanto quelle degli uomini. E in luoghi diversi, gli uomini godono di cose differenti — mentre i loro dei incoraggiano ciò che vogliono, giusto o sbagliato.\n\nIl [ROOT.Char.GetFaith.HouseOfWorship] è silenziosa, contemplativa.\n\nGli antenati [ROOT.Char.GetCulture.GetHeritage.GetName] di un tempo, e [ROOT.Char.GetFaith.HighGodName], si offenderebbero davvero... se le pratiche del mio popolo cambiassero? Ma quale usanza [advanced_culture.GetName] servì meglio coloro che mi hanno cresciuto?"
+bp2_yearly.6110.regional: "Passeggiando in una sala del trono quasi vuota, lotto con i miei ricordi e i miei sogni.\n\nRivivo le strade di [childhood_location.GetCounty.GetTitle.GetNameNoTier] sovrapposte a una futura [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier], vedo un banchetto [advanced_culture.GetName] su una tavola [ROOT.Char.GetCulture.GetName], guido bande di guerra riorganizzate al loro primo assaggio di vittoria.\n\nCosa rende i [advanced_culture.GetCollectiveNounNoTooltip] così diversi tra i popoli? Una tale usanza può essere adattata, ma inizia dalla mia corte, da me."
+
+bp2_yearly.6110.a: "[considered_tradition_1.GetNameNoTooltip]"
+bp2_yearly.6110.b: "[considered_tradition_2.GetNameNoTooltip]"
+bp2_yearly.6110.c: "[considered_tradition_3.GetNameNoTooltip]"
+bp2_yearly.6110.d: "[considered_tradition_4.GetNameNoTooltip]"
+bp2_yearly.6110.e: "Preferirei considerare altri cambiamenti..."
+bp2_yearly.6110.e.tt: "Non riesco a immaginare i [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] adottare queste pratiche."
+
+cultural_acceptance_gain_adapted_tradition: "Una [tradition|E] è stata adattata"
+
+introduced_foreign_custom_modifier: "Ha Introdotto una Usanza Straniera"
+introduced_foreign_custom_modifier_desc: "Senza dare al suo popolo il tempo di adattarsi, questo personaggio ha imposto a tutti una pratica estranea."
+repeated_foreign_reforms_modifier: "Riforme Straniere Ripetute"
+repeated_foreign_reforms_modifier_desc: "I membri della cultura di questo personaggio sono in rivolta per gli attacchi al loro stile di vita."
+assault_on_tradition_modifier: "Assalto alla Tradizione"
+assault_on_tradition_modifier_desc: "In una sola vita, questo personaggio ha reso la propria cultura completamente irriconoscibile."
+
+bp2_yearly.6120.t: "Dove i Legami Sono Messi alla Prova"
+bp2_yearly.6120.desc: "Il mio ostaggio [hostage.GetName] si agita [Select_CString(hostage.IsFemale,'ansiosa','ansioso')], [Select_CString(hostage.IsFemale,'speranzosa','speranzoso')]. [Select_CString(hostage_giver.IsFemale,'La sua','Il suo')] [hostage.Custom2('RelationToMeShort', SCOPE.sC('hostage_giver'))] [hostage_giver.GetTitledFirstName] è [Select_CString(hostage_giver.IsFemale,'vicina','vicino')], qui in [ROOT.Char.GetCurrentLocation.GetName], e da tempo non era così.\n\n[Select_CString(hostage.IsFemale,'La ragazza','Il ragazzo')] adesso vive con me.[Select_CString(hostage_giver.IsFemale,'La sua','Il suo')] [hostage.Custom2('RelationToMeShort', SCOPE.sC('hostage_giver'))] e io abbiamo un patto. [hostage.GetFirstNameNoTooltip] è sotto il mio dominio, e [hostage.GetSheHe] dovrebbe essere leale a #EMP me#!. Vi è rischio nel permetter[Select_CString(hostage.IsFemale,'le','gli')] di riaccendere l’amore per la sua famiglia...\n\n"Ti prego," implora [hostage.GetSheHe]. "Ti prego, mi[Select_CString(ROOT.Char.IsFemale,'a','o')] [ROOT.Char.GetTitleAsNameNoTooltip], mi[Select_CString(hostage_giver.IsFemale,'a','o')] [hostage.Custom2('RelationToMeShort', SCOPE.sC('hostage_giver'))] mi manca con tutto il cuore!""
+
+
+bp2_yearly.6120.a: "Assapora la riunione. È preziosa."
+bp2_yearly.6120.a.tt: "[Select_CString(hostage.IsFemale,'La bambina','Il bambino')] è pur sempre della dinastia [hostage.GetDynastyHouseNameNoTooltip], dopotutto, e appartiene alle grazie della sua famiglia."
+bp2_yearly.6120.b: "Mi aspetterei un compenso per un favore tanto generoso!"
+bp2_yearly.6120.b.tt: "A cosa serve un ostaggio, se non per trarne favori simili?"
+bp2_yearly.6120.hook: "Se [hostage_giver.GetShortUIName] accetta, ottieni un [weak_hook|E] su di [hostage_giver.GetSheHe]"
+bp2_yearly.6120.hook_acceptance: "La [personality|E] di [hostage_giver.GetShortUIName] determina se [hostage_giver.Custom('DE_ART_IND_A')] accetterà"
+bp2_yearly.6120.c: "Vieni, parliamo con [hostage_giver.GetSheHe] #EMP insieme#!."
+bp2_yearly.61020.c.tt: "Posso essere più affascinante di quell’insipid[hostage_giver.Custom('DE_END_PRO_S_N')], e far sì che la sua stessa famiglia preferisca la mia compagnia alla sua!"
+bp2_yearly.6120.c.success: "Domini l’interazione con [hostage_giver.GetFirstNameNoTooltip]"
+bp2_yearly.6120.c.failure: "Ti mostri come un fastidioso invadente"
+bp2_yearly.6120.d: "#EMP Silenzio!#! Ti sei guadagnato uno schiaffo, [hostage.Custom('GirlBoy')]!"
+bp2_yearly.6120.d.tt: "[hostage.GetFirstNameNoTooltip] appartiene a me, non alla compagnia della sua famiglia. Una punizione lo aiuterà a tenerlo a mente."
+
+bp2_yearly.6121.t: "Il [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))|U] Dimenticato"
+bp2_yearly.6121.reunion: "Ho atteso questo momento. [Select_CString(hostage.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] [hostage.GetFirstName], un ostaggio che tutela la mia pace, si trova davanti a me in [ROOT.Char.GetCurrentLocation.GetName].\n\n"[hostage.Custom2('RelationToMeShort', ROOT.Char)|U]!"\n\nMentre corre verso il mio abbraccio, è come se non fosse mai [Select_CString(hostage.IsFemale,'partita','partito')]. Eppure la stretta forte delle sue braccia tradisce la nostalgia [Select_CString(hostage.IsFemale,'della bambina','del bambino')] per la sua casa.\n\n[warden.GetTitledFirstName] è stato gentile nel permetterci questa compagnia condivisa, ma non è comunque molto."
+
+bp2_yearly.6121.intrusion: "Con [warden.GetTitledFirstName] al suo fianco, [hostage.GetFirstName] si presenta davanti a me. [Select_CString(hostage.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] è molto [Select_CString(hostage.IsFemale,'cambiata','cambiato')] da quando [Select_CString(hostage.IsFemale,'la','lo')] mandai in ostaggio, ma riconoscerei un [ROOT.Char.GetDynastyHouseName] ovunque!\n\nAbbraccio [Select_CString(hostage.IsFemale,'la ragazza','il ragazzo')]. [hostage.GetSheHe|U] cerca di restare [Select_CString(hostage.IsFemale,'composta','composto')], ma la forza della sua stretta tradisce la nostalgia di casa.\n\nPoi [warden.GetTitledFirstNameNoTooltip] interviene, attirando l’attenzione [Select_CString(hostage.IsFemale,'della mia','del mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] con chiacchiere su questa riunione... e sui raccolti locali di [ROOT.Char.GetCurrentLocation.GetName]?\n\nAd ogni modo, ringrazio [ROOT.Char.GetFaith.HouseholdGodName] a nome della mia famiglia."
+bp2_yearly.6121.hook: ""Ti chiedi se sarai riunito con [Select_CString(hostage.IsFemale,'la tua','il tuo')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], vero?" blandisce [warden.GetTitledFirstName]. "[Select_CString(hostage.IsFemale,'La ragazza','Il ragazzo')] [hostage.GetFirstName], che hai generosamente ceduto in nome della pace."\n\n[warden.GetFirstNameNoTooltip] sembra fin troppo [Select_CString(warden.IsFemale,'compiaciuta','compiaciuto')] di sé.\n\n"Finché saremo insieme in [ROOT.Char.GetCurrentLocation.GetName], potrai condividere la compagnia dell’ostaggio, anche se questo mette in pericolo il nostro accordo..."\n\n"...se giuri che questa mia generosità non sarà dimenticata.""
+bp2_yearly.6121.forbidden: ""Pensavi forse, solo perché tu e [Select_CString(hostage.IsFemale,'la tua','il tuo')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] [hostage.GetFirstName] siete entrambi in [ROOT.Char.GetCurrentLocation.GetName], di poter stare insieme?"\n\n[warden.GetTitledFirstName] scuote il capo.\n\n"Il mio ostaggio è molto occupato. In ogni caso, per la durata del nostro accordo, [hostage.GetSheHe] appartiene solo a me."\n\nInfatti, ho visto a malapena una traccia [Select_CString(hostage.IsFemale,'della ragazza','del ragazzo')] che era [Select_CString(hostage.IsFemale,'stata mandata','stato mandato')] via..."
+
+bp2_yearly.6121.a: ""[hostage.GetFirstNameNoTooltip]! Ti porto a casa.""
+bp2_yearly.6121.a.tt: "Al diavolo il disonore: [hostage.GetFirstNameNoTooltip] appartiene a me! Che [warden.GetTitledFirstNameNoTooltip] faccia ciò che vuole al riguardo."
+bp2_yearly.6121.b: ""Un dono sontuoso, così non morirai di fame!""
+bp2_yearly.6121.b.tt: ""Mangia! Mangia! E ostenta il tuo status di [ROOT.Char.GetDynastyHouseNameNoTooltip].""
+bp2_yearly.6121.c: ""È bello vederti, [hostage.Custom('GetLassLad')].""
+bp2_yearly.6121.d: "Qualsiasi cosa per amore della Casata [ROOT.Char.GetDynastyHouseNameNoTooltip]."
+bp2_yearly.6121.d.tt: "Nessun mio parente sarà abbandonato dalla propria famiglia."
+bp2_yearly.6121.e: "Per un abbraccio rubato, non ho bisogno di permesso..."
+bp2_yearly.6121.e.tt: "[warden.GetTitledFirstNameNoTooltip] non può certo impedirmi di andare a trovare [hostage.GetFirstNameNoTooltip] e parlargli, anche solo per un momento."
+bp2_yearly.6121.e.success: "Ti intrufoli fino a un abbraccio"
+bp2_yearly.6121.e.failure: "Vieni scoperto"
+bp2_yearly.6121.f: "Eh. Non sento la sua mancanza."
+bp2_yearly.6121.f.tt: "L[hostage.Custom('DE_END_PRO_S_N')] rivedrò un giorno... e va bene così."
+
+bp2_yearly.6122.t: "Non Dimenticato"
+bp2_yearly.6122.sneaking: "Mentre i miei agenti portavano via [hostage.GetFirstName] dalle guardie di [warden.GetTitledFirstNamePossessive], approfittando del gran trambusto della cena, anch’io mi intrufolo a questo incontro familiare.\n\nLe ignobili circostanze sono lontane dai miei pensieri mentre [Select_CString(hostage.IsFemale,'mia','mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] mi abbraccia, ridendo delle mie rughe, colmo d’entusiasmo.\n\n[hostage.GetSheHe|U] è stato via a lungo, e presto dovrà tornare al suo custode. Così va il mondo, ma non invidio il suo padrone severo."
+bp2_yearly.6122.rescue: "Come ribolliva [warden.GetTitledFirstName] mentre lo congedavo dalla mia presenza, con il suo ex ostaggio [hostage.GetFirstName] al mio fianco.\n\n"Tornerà, [hostage.Custom2('RelationToMeShort', ROOT.Char)]?" chiede [Select_CString(hostage.IsFemale,'la bambina','il bambino')]. "Volevo tornare a casa, ma... non voglio costringerti a combattere [warden.GetPrimaryTitle.GetNameNoTier]."\n\nRassicuro [hostage.GetFirstNameNoTooltip], ma la verità resta evidente.\n\nHo rotto un patto. Nel bene e nel male, potrebbe risultare che ho sacrificato la pace."
+
+bp2_yearly.6122.c: ""Insieme, aspetteremo ciò che verrà.""
+bp2_yearly.6122.c.tt: "Se sarà guerra, almeno [hostage.GetFirstNameNoTooltip] non sarà il primo tra i caduti..."
+
+bp2_yearly.6123.t: "Il Rampollo della Pace"
+bp2_yearly.6123.desc: "La riunione tra parenti è uno spettacolo commovente, uno di cui sono lieto testimone.\n\n [hostage_giver.GetTitledFirstName] impartisce alcune sagge parabole a [hostage.GetFirstName] col passare della giornata, mentre attendo di riavere il mio ostaggio in buone condizioni.\n\n"Abbine cura," esorta [hostage_giver.GetTitleAsNameNoTooltip], mentre prendo con me [Select_CString(hostage.IsFemale,'sua','suo')] [hostage_giver.Custom2('RelationToMeShort', SCOPE.sC('hostage'))]. "Tienil[Select_CString(hostage.IsFemale,'a','o')] lontano da estranei come me.""
+bp2_yearly.6123.stolen_hostage: "[hostage_giver.GetTitledFirstName] ha fatto l’impensabile! La mia rettitudine incontra il suo tradimento.\n\nQuel cane mi allontana mentre [Select_CString(hostage.IsFemale,'la bambina','il bambino')] [hostage.GetFirstName], simbolo della nostra pace, sta ingiustamente al suo fianco... e io devo andarmene. Ho poca forza con me qui. È un insulto! È ignobile!\n\nOra torno a casa, offes[Select_CString(ROOT.Char.IsFemale,'a','o')] e deris[Select_CString(ROOT.Char.IsFemale,'a','o')], senza alcuna certezza che non accada di peggio.\n\n[hostage_giver.GetFirstNameNoTooltip] vivrà abbastanza da rimpiangere questa follia, come io rimpiango di aver portato il mio ostaggio vicino a un serpente così avido..."
+bp2_yearly.6123.favor_accepted: "Ho giudicato bene... [hostage_giver.GetTitledFirstName] è un[hostage_giver.Custom('DE_PRO_POS_P_2P')] [hostage_giver.Custom('WomanManPerson_GenderPreference')] dispost[hostage_giver.Custom('DE_END_PRO_S_N')] a lasciarsi condizionare.\n\nMentre [hostage_giver.GetSheHe] stringe a sé [hostage.GetFirstName], la tenerezza che riserva alla sua famiglia è ben visibile.\n\nCon un nuovo obbligo da impor[hostage_giver.Custom('DE_PRO_DEM')] e un ostaggio tanto amato nelle mie mani, non vedo alcuna minaccia da parte [hostage_giver.Custom('IT_NAM_COL2')][hostage_giver.GetTitleAsNameNoTooltip] nei giorni a venire."
+bp2_yearly.6123.sneaker: "[hostage_giver.GetTitledFirstName], ratto senza onore, non sembra rispettare la mia autorità su [Select_CString(hostage.IsFemale,'sua','suo')] [hostage_giver.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] [hostage.GetFirstName].\n\n[hostage_giver.GetSheHe|U] nega di aver mandato servitori scaltri a portare via [Select_CString(hostage.IsFemale,'la bambina','il bambino')] dalla mia ben sorvegliata tavola. Ma so che cerca solo di violare gli accordi tra noi.\n\n"Bugie!" protesta [hostage_giver.GetSheHe].\n\nFinché [hostage.GetSheHe] vivrà alla mia corte, [hostage.GetFirstNameNoTooltip] #EMP deve#! rimanere lontano [hostage_giver.Custom('IT_NAM_COL5')][hostage_giver.GetTitleAsNameNoTooltip], sempre."
+bp2_yearly.6123.forbidden_desc: "Anche se sospetto che l[hostage_giver.Custom('DE_END_PRO_S_N')] turbi, [hostage_giver.GetTitledFirstName] ha rispettato la mia decisione riguardo alla possibilità di incontrare [Select_CString(hostage.IsFemale,'sua','suo')] [hostage_giver.Custom2('RelationToMeShort', SCOPE.sC('hostage'))].\n\n"Non mi manca affatto  [Select_CString(hostage.IsFemale,'la ragazza','il ragazzo')]," dichiara [hostage_giver.GetSheHe]. "Sono quasi felice che tu sia costrett[ROOT.Char.Custom('DE_END_PRO_S_N')] a sopportare ancora un po’ la sua stupidità."\n\nCosì deve essere, del resto... è utile mettere alla prova un[hostage_giver.Custom('DE_PRO_POS_P_2P')] [hostage_giver.Custom('WomanManPerson_GenderPreference')], e sapere da che parte sta."
+
+bp2_yearly.6123.a: "Un vero membro della famiglia, [hostage_giver.GetFirstNameNoTooltip]."
+
+bp2_yearly.6123.return_hostage: "[hostage.GetShortUIName] non è più il tuo [hostage|E]"
+
+bp2_yearly.6130.t: "Prigioniero, Affascinato"
+bp2_yearly.6130.desc.different_ages: "Il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] [kin.GetFirstName] e l’ostaggio [hostage.GetName], nonostante la differenza d’età, sembrano diventare sempre più inseparabili.\n\nIl più grande dei due protegge fermamente l’altro, dando buoni consigli sul mondo, mentre il più giovane non manca mai di strappargli un sorriso.\n\nVedendo questi improbabili compagni, non posso che compiangere la separazione che verrà. Un giorno, l’accordo sull’ostaggio con la famiglia di [hostage.GetFirstNamePossessiveNoTooltip] terminerà..."
+bp2_yearly.6130.desc: "Il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] [kin.GetFirstName] e l’ostaggio [hostage.GetName] sembrano diventare compagni fidati, confidenti leali.\n\n[hostage.GetFirstNameNoTooltip], quando sente nostalgia di casa, è sempre rallegrato da [kin.GetFirstNameNoTooltip]. Il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))], il cui rango a volte gli pesa addosso, trova in [hostage.GetFirstNameNoTooltip] un sostegno nelle sue mansioni.\n\nVedendo i due bambini condividere gioie, non posso che compiangere la separazione che verrà. Un giorno, l’accordo sull’ostaggio con la famiglia di [hostage.GetFirstNamePossessiveNoTooltip] terminerà..."
+bp2_yearly.6130.a: ""Giurate di sostenervi sempre, l’un l’altro.""
+bp2_yearly.6130.a.tt: "Un legame tra le nostre due corti... forse vale la pena coltivarlo?"
+bp2_yearly.6130.b: ""L’amore per i parenti deve essere sopra ogni cosa!""
+bp2_yearly.6130.b.tt: "Vai a giocare con qualcuno che sarà sempre lì per te, [kin.Custom('GirlBoy')]."
+
+bp2_yearly.6130.family_opinion: "[kin.GetShortUIName] guadagna #P 30#! di [opinion|E] verso il suo parente stretto"
+
+bp2_yearly.6130.alliance: "Se entrambi diventeranno [rulers|E], [kin.GetShortUIName] e [hostage.GetShortUIName] potranno negoziare un’[alliance|E]"
+
+bp2_yearly.6140.t: "Per Amicizia, Troppo Giovani"
+bp2_yearly.6140.desc: "Mentre i riti sacri distraggono tutti i sorveglianti, mi[kin.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] [kin.GetFirstName] e l’ostaggio [hostage.GetName] scatenano il loro odio crescente.\n\n"[Select_CString(root_scope.IsFemale,'Mia','Mio')] [kin.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))] è il più potente [ROOT.Char.GetTitleAsName] di tutta la terra!" sibila [kin.GetFirstNameNoTooltip]. "Un giorno, grazie a [root_scope.GetSheHe], il/la vile [home_court.GetPrimaryTitle.GetNameNoTier] sarà in fiamme, e la tua testa penderà dalla sella di un $knight_culture_player_no_tooltip_lowercase$!"\n\n"Vorrei che [Select_CString(home_court.IsFemale,'mia','mio')] [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] mi riportasse a casa," risponde [hostage.GetFirstNameNoTooltip], "lì avresti troppa paura per insultarmi!"\n\nDa quando [Select_CString(kin.IsFemale,'mia','mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] ha iniziato a parlare così? E ad un[hostage.Custom('DE_PRO_PER_P_3P_G')]ospite [Select_CString(hostage.IsFemale,'onorata','onorato')]!"
+bp2_yearly.6140.a: "La competizione affina l’ingegno [Select_CString(kin.IsFemale,'della mia','del mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))]."
+bp2_yearly.6140.a.tt: "Umilial[hostage.Custom('DE_END_PRO_S_N')], [kin.Custom('GirlBoy')]! [hostage.GetFirstNameNoTooltip] è [Select_CString(hostage.IsFemale,'una nemica','un nemico')] del tutto alla tua portata."
+bp2_yearly.6140.b: "Gli ostaggi sono tenuti non per il conflitto, ma per la pace."
+bp2_yearly.6140.b.tt: "Meglio pregare #EMP contro#! il taglio delle teste, bambini."
+
+bp2_yearly.6150.t: "La Voce della Certezza"
+bp2_yearly.6150.desc: "Gli ostaggi sono solitamente presenti, radunati accanto a funzionari e familiari, quando i [ROOT.Char.GetTitleAsName] come me ricevono petizioni e celebrano cerimonie.\n\nIl mio ostaggio [hostage.GetFirstName] non gradisce ciò.\n\n"Vi prego, essere [Select_CString(hostage.IsFemale,'osservata','ossevato')], essere un trofeo..." protesta, mentre gli ultimi supplicanti si congedano.\n\n"Mi sento come uno spirito strappato dall'[hostage.GetFaith.NegativeAfterLife]. Tutti mi fissano... sanno che non appartengo a questo luogo.""
+bp2_yearly.6150.a: "Appartieni alla mia famiglia. Stai con loro."
+bp2_yearly.6150.a.tt: "Non c’è nulla da temere! Sei praticamente uno di noi."
+bp2_yearly.6150.b: "Va’ a studiare con i [ROOT.Char.GetFaith.PriestNeuterPlural]..."
+bp2_yearly.6150.b.tt: "Posso rappresentare da solo la mia magnificenza: il mio primo dovere verso questi ostaggi è crescerli."
+bp2_yearly.6150.c: "Sei [Select_CString(hostage.IsFemale,'mia','mio')] e ti tratto come voglio."
+bp2_yearly.6150.c.tt: "Non posso permettere al mio ostaggio di dirmi cosa fare."
+
+hostages_accepted_into_family_modifier: "Accoglienza degli Ostaggi in Famiglia"
+hostages_accepted_into_family_modifier_desc: "Un ospite generoso e cerimonioso che sottolinea con solennità il dover trattare gli ostaggi come parenti."
+eschews_flaunting_of_hostages_modifier: "Evita di Esibire gli Ostaggi"
+eschews_flaunting_of_hostages_modifier_desc: "Gli ostaggi di questo personaggio sono accuditi e cresciuti con cura, non messi in mostra."
+
+bp2_yearly.6150.family_opinion_hostage: "[hostage.GetShortUIName] guadagna #P 20#! di [opinion|E] verso i tuoi [close_family|E]"
+
+bp2_yearly.6160.t: "Il Peggiore dei Miei Cavalieri"
+bp2_yearly.6160.desc: "Tra singhiozzi e bugie, scopro la verità riguardo alla scorsa notte.\n\n[Select_CString(kin.IsFemale,'Mia','Mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] [kin.GetFirstName] e l’ostaggio [hostage.GetFirstName] erano sgattaiolati via celati dalla notte. Spinti dalla curiosità verso il mondo oltre la mia dimora, si erano introdotti in un insediamento.\n\nStavano ammirando i cavalli di una famiglia locale, quando ad un certo punto sono stati scoperti ed sono fuggiti su dei destrieri rubati.\n\nGli inesperti bambini, a quel punto, erano finiti in un fossato.\n\n"È [Select_CString(hostage.IsFemale,'stata','stato')] [hostage.GetFirstNameNoTooltip] a spingermi a farlo!" piange mi[Select_CString(kin.IsFemale,'a','o')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] ferit[Select_CString(kin.IsFemale,'a','o')], mentre i villici si lamentano del loro cavallo ora azzoppato."
+bp2_yearly.6160.a: "Assaporate il lavoro per ripagare i vostri debiti."
+bp2_yearly.6160.a.tt: "I piccoli vogliono provare la vita comune? Allora che lavorino per un po’ per il proprietario del cavallo."
+bp2_yearly.6160.b: "Hai ferito [Select_CString(kin.IsFemale,'mia','mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))], ostaggio?! #EMP Vattene!#!"
+bp2_yearly.6160.b.tt: "Nessuna tregua vale il rischio di mettere in pericolo la mia famiglia con la presenza di simile gentaglia!"
+bp2_yearly.6160.c: "#EMP Ehhh...#! Immagino che pagherò io per questo..."
+bp2_yearly.6160.d: "Curare il cavallo? Troppo facile."
+bp2_yearly.6160.e: "Sono bambini! Succede."
+bp2_yearly.6160.e.tt: "Lasciate che questi monelli si riposino. Non è successo nulla di così grave."
+
+labored_with_the_commons_modifier: "Ha lavorato con la gente comune"
+labored_with_the_commons_modifier_desc: "Conosciuto per aver sgobbato tra stallieri e allevatori di cavalli, per compensare le follie della gioventù."
+
+renowned_knowledge_of_horses_modifier: "Celebre conoscenza dei cavalli"
+renowned_knowledge_of_horses_modifier_desc: "Molti si rivolgono alla saggezza di questo personaggio per curare i mali e rafforzare la salute dei cavalli."
+
+
+bp2_yearly.6200.t: "Dove i [ROOT.Char.Custom('KnightCulturePluralNoTooltip')] conoscono la pace"
+bp2_yearly.6200.desc: "Mentre il mio consiglio pianifica la difesa di [ROOT.Char.GetPrimaryTitle.GetNameNoTier], il mio ostaggio [hostage.GetName] viene condotto dentro.\n\n"Nobile [ROOT.Char.GetTitleAsName], mi hai trattato bene e con giustizia. Ma con la rovina che incombe, è giusto che a [home_court.GetPrimaryTitle.GetNameNoTier], la mia patria, i [home_court.Custom('KnightCulturePluralNoTooltipLowercase')] restino inattivi, con i loro stendardi ammainati?"\n\n[hostage.GetSheHe|U] si inginocchia.\n\n"Concedimi di viaggiare – porterò il nostro appello di aiuto a [home_court.GetTitledFirstName]! Sono del suo sangue. [home_court.GetSheHe|U] ti sosterrà, per amore mio!""
+bp2_yearly.6200.a: "Va’, e ritorna con il ferro."
+bp2_yearly.6200.a.tt: "Ti prego, sii fedele! Ti prego, salvami in quest’ora del bisogno!"
+bp2_yearly.6200.hostage_travel: "[hostage.GetShortUIName] viaggerà verso [home_court.GetCapitalLocation.GetTitle.GetName]"
+bp2_yearly.6200.hostage_warning: "@alert_icon! #alert_trial [hostage.GetShortUIName] potrebbe cessare di essere il tuo [hostage|E]#!"
+bp2_yearly.6200.war_positive: "[home_court.GetShortUIName] potrebbe aiutarti nella tua [war|E]"
+bp2_yearly.6200.b: "Porta con te un dono prezioso."
+bp2_yearly.6200.b.tt: "La generosità stimolerà il gusto per la guerra di [home_court.GetTitleAsNameNoTooltip]."
+bp2_yearly.6200.c: "Porta con te il fedele [target_knight.GetFirstNameNoTooltip] e parti in fretta!"
+bp2_yearly.6200.war_very_positive: "#P [home_court.GetShortUIName] è più propenso ad aiutarti nella tua [war|E]#!"
+bp2_yearly.6200.c.tt: "Un accompagnatore fidato... e qualcuno che garantisca che [hostage.GetFirstNameNoTooltip] non dimentichi i miei interessi."
+bp2_yearly.6200.hostage_positive: "#P [hostage.GetShortUIName] è più propens[Select_CString(hostage.IsFemale,'a','o')] a tornare nella tua [court|E]#!"
+bp2_yearly.6200.hostage_travel_knight: "[hostage.GetShortUIName] e [target_knight.GetShortUIName] viaggeranno verso [home_court.GetCapitalLocation.GetTitle.GetName]"
+bp2_yearly.6200.imprison_warning: "@alert_icon! #alert_trial [target_knight.GetShortUIName] potrebbe venire imprigionat [target_knight.Custom('DE_END_PRO_S_N')] da [home_court.GetShortUIName]#!"
+bp2_yearly.6200.d: "No, non posso permettere che un ostaggio se ne vada."
+bp2_yearly.6200.d.tt: "Non c’è alcuna garanzia che tu ritorni! Nessuna garanzia che [home_court.GetTitledFirstNameNoTooltip] non preferisca confortare i miei nemici."
+
+bp2_yearly.6202.t: "[hostage.Custom2('AppropriateGreeting', ROOT.Char )]"
+bp2_yearly.6202.opening: "Sono di nuovo a [home_court.GetCapitalLocation.GetTitle.GetNameNoTier]."
+bp2_yearly.6202.assembled_nobles: "Nobili di spicco hanno gremito la corte [home_court..Custom('IT_NAM_COL2')][home_court.GetTitleAsName] mentre recitavo il vostro appello.\n\n"
+bp2_yearly.6202.nostalgia: "La brezza passa tra alberi familiari. Ho reso nota qui la tua contesa.\n\n"
+bp2_yearly.6202.impatient: "Piccoli nobili, che mi conoscevano solo da bambin[Select_CString(ROOT.Char.IsFemale,'a','o')], mi hanno cinguettato addosso mentre iniziavo il vostro appello, poi si sono zittiti.\n\n"
+
+bp2_yearly.6202.received_empathy: "I presenti hanno pianto per la sventura di [ROOT.Char.GetPrimaryTitle.GetNameNoTierPossessive]. [Select_CString(home_court.IsFemale,'Mia','Mio')] [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] sembrava profondamente colpit[Select_CString(home_court.IsFemale,'a','o')]"
+bp2_yearly.6202.received_debate: "Un dibattito aveva iniziato a infuriare. [Select_CString(home_court.IsFemale,'Mia','Mio')] [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))], pur non essendo [Select_CString(home_court.IsFemale,'una tua alleata','un tuo alleato')], vuole farsi campione della sua famiglia"
+bp2_yearly.6202.received_scorn: ""Con quale diritto [ROOT.Char.Custom('DE_ART_IND_A')] chiede il nostro aiuto?" mi ha chiesto, e avevo ben poca risposta. [Select_CString(home_court.IsFemale,'Mia','Mio')] [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] sembra contrariat[Select_CString(home_court.IsFemale,'a','o')]"
+bp2_yearly.6202.received_apathy: "Alcuni non se ne curano affatto, mentre alcuni [home_court.Custom('KnightCulturePluralNoTooltipLowercase')] si radunano per attendere la parola di [Select_CString(home_court.IsFemale,'mia','mio')] [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))]. [home_court.GetSheHe|U] chiede quando spero di partire"
+
+bp2_yearly.6202.fears_returning: "— e [home_court.GetSheHe] teme il mio ritorno nella tua terra travagliata."
+bp2_yearly.6202.awaiting: "— eppure attendiamo ancora il suo giudizio."
+bp2_yearly.6202.want_to_stay: "— eppure [home_court.GetSheHe] è troppo saggi[Select_CString(home_court.IsFemale,'a','o')] per giudizi affrettati."
+bp2_yearly.6202.want_to_return: "— eppure [home_court.GetSheHe] mi fa indugiare qui, mentre la guerra infuria!"
+bp2_yearly.6202.a: "Almeno [hostage.GetFirstNameNoTooltip] è ancora viv[Select_CString(hostage.IsFemale,'a','o')]."
+
+bp2_yearly_6203_army_name: "Schiera di [ROOT.Var( 'bp2_yearly_6203_army_name_origin' ).Char.GetFirstNamePossessiveNoTooltip] [ROOT.Var( 'bp2_yearly_6203_army_name_origin' ).Char.GetHomeCourt.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+
+bp2_yearly.6203.t: "[ROOT.Char.GetNameNoTooltip],"
+bp2_yearly.6203.join_war: "[home_court.GetPrimaryTitle.GetNameNoTier] è al vostro fianco! [Select_CString(home_court.IsFemale,'La mia','Il mio')] [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))], l’[Select_CString(home_court.IsFemale,'impavida','impavido')] [home_court.GetTitledFirstName], onorerà i legami tra di voi con la forza delle armi.\n\nNessuno osi minacciare una sala che ospita un[Select_CString(hostage.IsFemale,'a','')] [hostage.GetDynastyHouseName]!\n\n"
+bp2_yearly.6203.assist: "[home_court.GetName] si rammarica di non poter venire in vostro aiuto. Tuttavia, con la promessa della guerra e delle sue glorie, abbiamo radunato una forza di miserabili erranti e avventurieri [home_court.GetPrimaryTitle.GetAdjectiveNoTooltip]! Possano combattere bene per [ROOT.Char.GetPrimaryTitle.GetNameNoTier].\n\n"
+bp2_yearly.6203.betray: "Non possiamo ignorare la debolezza tradita nelle vostre suppliche. [home_court.GetTitledFirstName] riporrà invece fiducia nella forza del vostro nemico. Preparatevi al suo arrivo.\n\nDopo che [Select_CString(home_court.IsFemale,'mia','mio')] [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] avrà saccheggiato la vostraa capitale, potreste rivedermi alla vostra corte."
+bp2_yearly.6203.decline: "Ho fatto ciò che potevo, ma [home_court.GetTitledFirstName] vede poco valore nei vostri argomenti. Senza alleanza, [home_court.GetPrimaryTitle.GetNameNoTier] non marcerà quando [ROOT.Char.GetPrimaryTitle.GetNameNoTier] chiamerà. [Select_CString(home_court.IsFemale,'Mia','Mio')] [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] vi ringrazia per avermi [Select_CString(hostage.IsFemale,'inviata','inviato')] da [home_court.GetSheHe], e porge i suoi saluti.\n\n"
+bp2_yearly.6203.dont_keep_knight: "Il mio posto è nella vostra corte, perciò [target_knight.GetFirstName] ed io torneremo presto."
+bp2_yearly.6203.dont_keep: "Il mio posto è nella vostra corte, perciò tornerò presto."
+bp2_yearly.6203.keep: "Ma non sono più il vostro ostaggio."
+
+ bp2_yearly.6203.a: "Sia Benedett[home_court.Custom('DE_END_PRO_S_N')]! Il nostro legame è saldissimo."
+ bp2_yearly.6203.a.tt: "E [home_court.GetFirstNameNoTooltip] prende le armi per difendere i parenti, risponde alle suppliche di chi è nel bisogno — [home_court.GetSheHe] sembra un buon amico da avere."
+ bp2_yearly.6203.b: "#EMP Tradimento!#! Inonderò la terra di sangue!"
+ bp2_yearly.6203.b.tt: "Sconfiggerò tutti i nemici e otterrò la mia vendetta!"
+
+ bp2_yearly.6203.c.positive: "Alla guerra, [hostage.GetFirstNameNoTooltip]! #EMP Alla guerra!#!"
+ bp2_yearly.6203.c.negative: "Sono stato uno sciocco a mandarl[hostage.Custom('DE_END_PRO_S_N')] lontano dal mio sguardo..."
+ bp2_yearly.6203.c.tt: "Io ti proteggo, ma tu proteggi tutto il regno!"
+
+ from_victory_vengeance_modifier: "Dalla Vittoria, la Vendetta"
+ from_victory_vengeance_modifier_desc: "Questo personaggio spinge eserciti e cavalieri a crudeltà spietate, deciso un giorno a vendicare un tradimento passato."
+
+ bp2_yearly.6204.t: "Un Appello dal Mio Sangue"
+ bp2_yearly.6204.desc: "Ricoperto dalla polvere della strada e dall’odore del sudore dei cavalli, [Select_CString(hostage.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] [hostage.GetFirstName] ha fatto ritorno inaspettatamente!\n\n"Non metto in pericolo la vostra tregua, [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))]," ansima [hostage.GetSheHe]. "La guerra non arriva qui! No, l’orrenda guerra arriva a [warden.GetPrimaryTitle.GetNameNoTier] — nella sala dove sono tenuto in ostaggio!"\n\n"
+ bp2_yearly.6204.desc_gift: "[hostage.GetSheHe|U] presenta sia una missiva che una borsa d’oro da parte di [warden.GetTitledFirstName]."
+ bp2_yearly.6204.desc_chaperone: "[target_knight.GetName], [Select_CString(target_knight.IsFemale,'la sua cauta compagna','il suo cauto compagno')], presenta una missiva da parte di [warden.GetTitledFirstName]."
+ bp2_yearly.6204.desc_outro: "\n\n"Non hai l'obbligo di aiutare," dice [hostage.GetFirstNameNoTooltip], "ma il mio carceriere è stato buono con me! [warden.GetSheHe|U] non merita di essere rovinato da [attacker.GetName]!""
+ bp2_yearly.6204.desc_none: "[hostage.GetSheHe|U] presenta una missiva da parte di [warden.GetTitledFirstName]."
+ bp2_yearly.6204.a: "Portatemi la mia [ROOT.Char.Custom('signature_weapon')]! #EMP Noi [ROOT.Char.GetDynastyHouseNameNoTooltip] combatteremo!#!"
+ bp2_yearly.6204.a.tt: "Nessuno minaccerà una sala che ospita il mio sangue!"
+ bp2_yearly.6204.b: "Contribuirò a pagare e armare un esercito."
+ bp2_yearly.6204.b.tt: "Raduna giovani armati e avventurieri squattrinati da mandare con [hostage.GetFirstNameNoTooltip]! Potranno combattere senza il mio coinvolgimento diretto."
+ bp2_yearly.6204.c: "La difesa di [warden.GetPrimaryTitle.GetNameNoTierNoTooltip] non è un mio dovere."
+ bp2_yearly.6204.c.tt: "Condividiamo solo una tregua. Non siamo alleati!"
+ 
+ bp2_yearly.6205.t: "Verso Terre di Conflitto"
+ bp2_yearly.6205.desc: "[Select_CString(hostage.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] [hostage.GetFirstName] monta sul suo destriero, in un silenzio mortale. Davanti, il/la [warden.GetCapitalLocation.Custom('TerrainTypeProvince')] di [warden.GetCapitalLocation.GetTitle.GetNameNoTier] — dove potrebbero attendere i temibili [attacker.Custom('KnightCulturePluralNoTooltip')|l] [attacker.GetPrimaryTitle.GetAdjective].\n\n"
+ bp2_yearly.6205.desc_gift: "Le mie casse sono colme dei doni di [warden.GetTitledFirstNamePossessive], ma [Select_CString(hostage.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] cavalca praticamente da [Select_CString(hostage.IsFemale,'sola','solo')] verso la guerra.\n\n"
+ bp2_yearly.6205.desc_chaperone: "[target_knight.GetFirstName], [warden.Custom2('RelationToMeShort', SCOPE.sC('target_knight'))] di [warden.GetTitledFirstNamePossessive], sarà l’unica scorta [Select_CString(hostage.IsFemale,'della mia','del mio')] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('hostage'))]. Stringendo le redini al cuore, [target_knight.GetSheHe] giura di morire per la mia famiglia, se necessario.\n\n"
+ bp2_yearly.6205.desc_none: "Alcuni giovani stracciati si sono radunati per servire la causa del mio [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('hostage'))], ma tutti i miei ospiti rimarranno qui... mentre [hostage.GetFirstNameNoTooltip] cavalca verso la guerra di [warden.GetTitledFirstNamePossessive].\n\n"
+ bp2_yearly.6205.desc_outro: "Eppure — è stato [warden.GetFirstNameNoTooltip] a porre davanti a me un simile orrendo spettacolo! [Select_CString(warden.IsFemale,'Una','Un')] [warden.GetWomanMan] debole, [warden.GetSheHe] manda ospiti d’onore come [Select_CString(hostage.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] a prostrarsi al tintinnio di una singola spada!\n\nE dovrei fidarmi di questo #EMP verme#! e dei suoi simili per proteggere il mio sangue?"
+ 
+ bp2_yearly.6205.a: "[Select_CString(hostage.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] resterà qui."
+ bp2_yearly.6205.b: "Farò soffrire [warden.GetFirstNameNoTooltip] per questo affronto!"
+ bp2_yearly.6205.c: "Be’... buona fortuna, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))]."
+
+ bp2_yearly.6170.t: "Un Patto con gli Incivili"
+ bp2_yearly.6170.desc: ""Nessun [ROOT.Char.GetDynastyHouseName] è contento di ciò che hai fatto!" ringhia [Select_CString(kin.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] [kin.GetFirstName].\n\n"Come hai potuto mandare [hostage.GetName], [Select_CString(hostage.IsFemale,'la mia','il mio')] [hostage.Custom('ComplimentAdjective')] [kin.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], in una lurida sala dove uomini barbari urlano '[warden.Custom('CulturalCurse')|U]!' e mai 'Lodato sia il Signore'? Dove i cani defecano liberamente su selvaggi e signori locali di cultura [warden.GetCulture.GetName] allo stesso modo?"\n\nIn verità, [warden.GetName] non possiede la cultura [ROOT.Char.GetCulture.GetName], ma nondimeno è [Select_CString(warden.IsFemale,'una degna','un degno')]—\n\n"[hostage.GetFirstNameNoTooltip] è [Select_CString(personaggio.IsFemale,'tenuta','tenuto')] in ostaggio in una capanna!" urla [kin.GetFirstNameNoTooltip]. "#EMP Provvedi ai suoi bisogni!#! Ai suoi diritti come [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] di [ROOT.Char.GetTitleAsNamePossessiveNoTooltip]!""
+ bp2_yearly.6170.a: "Sì, è un affronto alla sua dignità, e alla mia."
+ bp2_yearly.6170.a.tt: "[Select_CString(hostage.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] deve avere tutte le sofisticate comodità di casa!"
+ bp2_yearly.6170.b: "Il dovere verso la famiglia vi lega tutti."
+ bp2_yearly.6170.b.tt: "Il sacrificio di [hostage.GetFirstNamePossessiveNoTooltip] dovrebbe essere solo uno dei tanti al servizio della Casata [ROOT.Char.GetDynastyHouseNameNoTooltip]."
+ bp2_yearly.6170.c: "[hostage.GetSheHe|U] conoscerà come vivono altri popoli."
+ bp2_yearly.6170.c.tt: "Vivere come i rozzi insegnerà [Select_CString(hostage.IsFemale,'alla mia','al mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] a fare a meno dei lussi, a essere forte e intraprendente..."
+
+ bp2_yearly.6170.scheme_bonus: "[close_family|E] e [spouses|E] hanno maggiori probabilità di unirsi ai tuoi [hostile_schemes|E] per #high 10 anni#!"
+ bp2_yearly.6170.leave_court_bonus: "I [courtiers|E] [close_family|E] hanno meno probabilità di lasciare la corte per #high 10 anni#!"
+
+ lavish_care_modifier: "Cure Sontuose"
+ lavish_care_modifier_desc: "Questo personaggio è viziato da dozzine di servitori raffinati, vivendo tra lusso e comodità."
+
+ trained_by_the_uncivilized_modifier: "Addestrato da Genti Rustiche"
+ trained_by_the_uncivilized_modifier_desc: "Come ostaggio, questo personaggio ha appreso i modi e i metodi rustici di una cultura considerata “inferiore”."
+ cultural_acceptance_hostage_exchange: "Contatto tramite ostaggi prestigiosi"
+
+ united_family_modifier: "Famiglia Unita"
+ united_family_modifier_desc: "Questo personaggio esige che i propri parenti onorino profondamente i legami reciproci."
+
+ bp2_yearly.6180.notification_high: "Riforme: Sovrano [advanced_culture.GetNameNoTooltip] Compiaciuto"
+ bp2_yearly.6180_notification_tooltip_high: "[pleased_ruler.GetTitledFirstName] loda il tuo interesse nell'imitare i nobili [advanced_culture.GetCollectiveNoun]."
+
+ bp2_yearly.6181.notification_high: "Riforme: Reame Trascurato Denunciato"
+ bp2_yearly.6181_notification_tooltip_high: "[disappointed_ruler.GetTitledFirstName] è delus[disappointed_ruler.Custom('DE_END_PRO_S_N')] che le tue riforme non offriranno molte nuove opportunità ai mercanti di cultura [advanced_culture.GetName]."
+
+ bp2_yearly.6182.notification_high: "Riforme: Signore Straniero Condanna i Riti"
+ bp2_yearly.6182_notification_tooltip_high: "[disappointed_ruler.GetTitledFirstName] ti esorta ad abbandonare le superstizioni [ROOT.Char.GetCulture.GetName], se desideri liberare il tuo popolo."
+
+ bp2_yearly.6183.notification_high: "Riforme: Gentile [disappointed_ruler.GetWomanMan] Disapprova la Volgarità"
+ bp2_yearly.6183_notification_tooltip_high: "[disappointed_ruler.GetTitledFirstName] guarda con disappunto al tuo "selvaggio" ricevimento dei raffinati cortigiani [advanced_culture.GetName]."
+
+ bp2_yearly.6184.notification_high: "Riforme: Signore della Guerra Esprime Disprezzo"
+ bp2_yearly.6184_notification_tooltip_high: "[disappointed_ruler.GetTitledFirstName] denuncia il tuo rifiuto delle élite [advanced_culture.GetName] e il tuo debole controllo sui vassalli."
+
+ bp2_yearly.6185.notification_high: "Riforme: Mercenari Assalgono [ROOT.Char.Custom('KnightCultureNoTooltip')]"
+ bp2_yearly.6185_notification_tooltip_high: "[beaten_knight.GetTitledFirstName] è [Select_CString(beaten_knight.IsFemale,'stata gravemente picchiata e umilaita','stato gravemente picchiato e umiliato')]  da una banda errante di mercenari [advanced_culture.GetName] vendicativi."
+
+ bp2_yearly.6186.notification_high: "Riforme: Voci di Barbarie"
+ bp2_yearly.6186_notification_tooltip_high: "La tua corte è derisa come un bastione di maniere rozze, un luogo anatema per i cortigiani delle culture raffinate."
+
+ dearth_of_intellectuals_modifier: "Carenza di Intellettuali"
+ dearth_of_intellectuals_modifier_desc: "Gli zeloti hanno scacciato molti studiosi, missionari e funzionari stranieri dal reame di questo personaggio."
+ bereft_of_intellectuals_modifier: "Privo di Intellettuali"
+ bereft_of_intellectuals_modifier_desc: "Gli zeloti hanno scacciato quasi tutti gli studiosi, missionari e funzionari stranieri dal reame di questo personaggio."
+
+ bp2_yearly.6187.notification_high: "Riforme: Forestieri Abili in Fuga"
+ bp2_yearly.6187_notification_tooltip_high: "[zealot_vassal.GetTitledFirstName] guida altri zeloti nello scacciare studiosi, missionari e funzionari dal reame"
+ bp2_yearly.6187_no_vassal_notification_tooltip_high: "Zeloti recentemente infiammati stanno scacciando studiosi, missionari e funzionari dal reame"
+
+ bp2_yearly.6188.notification_high: "Riforme: Nobiltà Locale al Comando"
+ bp2_yearly.6188_notification_tooltip_high: "A [isolating_county.GetName], i nobili minori rafforzati soffocano gli insediamenti urbani, strangolano i commerci e accumulano ricchezze."
+
+bp2_yearly.6189.notification_high: "Riforme: Costruzioni Troppo Rapide"
+bp2_yearly.6189_notification_tooltip_high: "Le grandiose costruzioni in stile [advanced_culture.GetName] di [affected_province.GetName] sono state pianificate in modo errato: i guerrieri coscritti faticano per evitare un disastro."
+
+grand_buildings_collapsed_modifier: "Costruzione Problematiche"
+grand_buildings_collapsed_modifier_desc: "Questa contea è turbata dai danni causati da progetti edilizi troppo ambiziosi."
+conscripted_warriors_modifier: "Guerrieri Coscritti"
+conscripted_warriors_modifier_desc: "Tutti gli uomini validi qui sono esausti per il lavoro di costruzione estenuante e affrettato."
+
+bp2_yearly.6190.notification_high: "Riforme: [ROOT.Char.GetFaith.HouseOfWorship|U] Saccheggiato"
+bp2_yearly.6190_notification_tooltip_high: "A [affected_county.GetName], fanatici [ROOT.Char.GetFaith.AltPriestTermPlural] locali hanno distrutto i tuoi preziosi oggetti votivi e icone [advanced_culture.GetName]."
+
+bp2_yearly.6191.notification_high: "Riforme: Lontani dai Cugini"
+bp2_yearly.6191_notification_tooltip_high: "I notabili [annoyed_culture.GetName] si sentono alienati dalla tua cultura di corte, che diventa sempre più distinta dalla loro."
+
+cultural_acceptance_diverging_court: "Divergenza tra le [cultures|E] di [court|E]"
+
+bp2_yearly.6192.notification_high: "Riforme: Vassallo Perde Fiducia"
+bp2_yearly.6192_notification_tooltip_high: "[vassal.GetTitledFirstName] si sente [Select_CString(vassal.IsFemale,'smarrita','smarrito')] nel tuo regno in rapida trasformazione e non vede più valore nell’essere costante e fedele."
+
+bp2_yearly.6193.notification_high: "Riforme: Governo Rafforzato"
+bp2_yearly.6193_notification_tooltip_high: "I magnati non nasconderanno più le loro ricchezze! Le infrastrutture in stile [advanced_culture.GetName] rafforzano la tua autorità."
+
+bp2_yearly.6194.notification_high: "Riforme: Gratitudine Vassallatica"
+bp2_yearly.6194_notification_tooltip_high: "[vassal.GetTitledFirstName] esalta il tuo nome ai suoi pari, grato per i tuoi doni e per la riaffermazione dei vostri legami."
+
+bp2_yearly.6195.notification_high: "Riforme: Santi Presagi di Cambiamento"
+bp2_yearly.6195_notification_tooltip_high: "Molti hanno dubitato di te, ma i segni da [ROOT.Char.GetFaith.KnowledgeGodName] suggeriscono la giustezza delle tue pratiche spirituali della cultura [advanced_culture.GetName]."
+
+bp2_yearly.6196.notification_high: "Riforme: Una Scoperta Benedetta"
+bp2_yearly.6196_notification_tooltip_high: "[priest.GetTitledFirstName] offre un tesoro di ricchezze: o i beni che i [ROOT.Char.GetFaith.HouseOfWorshipPlural] ti avevano sottratto... o una miracolosa benedizione da [ROOT.Char.GetFaith.HighGodName]."
+
+bp2_yearly.6197.notification_high: "Riforme: Splendore al Lavoro"
+bp2_yearly.6197_notification_tooltip_high: "Mi giunge voce che [vassal.GetTitledFirstName] stia imitando gli elementi della cultura [advanced_culture.GetName] della mia corte — una delle tante reazioni ammirate."
+
+custom.every_non_advanced_culture_courtier: "Ogni [courtier|E] non-[advanced_culture.GetName]"
+
+bp2_yearly.6198.notification_high: "Riforme: Difensore della Corte"
+bp2_yearly.6198_notification_tooltip_high: "[courtier.GetTitledFirstName], a nome dei tuoi cortigiani, promette eterna devozione alla tua Casa: hai dimostrato di saper tenere a bada i rivali in cerca di potere."
+
+bp2_yearly.6199.notification_high: "Riforme: [ROOT.Char.Custom('KnightCultureNoTooltip')] Adattabile"
+bp2_yearly.6199_notification_tooltip_high: "[knight.GetTitledFirstName] ha padroneggiato le tecniche marziali [advanced_culture.GetName] e le impiega in modo spettacolare."
+
+bp2_yearly.6210.notification_high: "Riforme: Ispirato dal Giuramento"
+bp2_yearly.6210_notification_tooltip_high: "[ruler.GetTitledFirstName] desidera eguagliare il tuo giuramento di non versare sangue di cultura [ruler.GetCulture.GetName] con una proclamazione di fratellanza."
+
+cultural_acceptance_embracing_identity: "Complimenti scambiati sul [heritage|E] comune"
+
+bp2_yearly.6211.notification_high: "Riforme: Cugini Soddisfatti"
+bp2_yearly.6211_notification_tooltip_high: "I signori e i popolani [pleased_culture.GetName] sono ispirati dal nuovo fervore dei loro cugini di cultura [ROOT.Char.GetCulture.GetName] e migrano nelle tue terre in numero crescente."
+
+cultural_acceptance_reformer_migration: "Migrazione e rapida adozione delle pratiche"
+
+bp2_yearly.6212.notification_high: "Riforme: Influenza [advanced_culture.GetName]"
+bp2_yearly.6212_notification_tooltip_high: "Le famiglie urbane di cultura [advanced_culture.GetName] hanno fondato una nuova comunità nella tua capitale, mentre i migranti rurali si stabiliscono nella campagna."
+bp2_yearly.6212_2_notification_tooltip_high: "L’amministrazione quotidiana di [ROOT.Char.GetPrimaryTitle.GetNameNoTier] ha assunto un carattere decisamente di cultura [advanced_culture.GetName], come spesso osservano i viaggiatori."
+
+bp2_yearly.6213.notification_high: "Riforme: Progresso Brutale"
+bp2_yearly.6213_notification_tooltip_high: "I tuoi esecutori hanno preso l’iniziativa di reprimere le voci sul tuo indottrinamento nella cultura [advanced_culture.GetName] e sulla crudeltà dei tuoi metodi [advanced_culture.GetName]."
+bp2_yearly.6213_notification_2_tooltip_high: "I riti tradizionali della cultura [ROOT.Char.GetCulture.GetName] sono stati ignorati, i diritti tradizionali abusati, dai funzionari [advanced_culture.GetName] che eseguono la tua volontà."
+
+bp2_yearly.6214.notification_high: "Riforme: Comunità in Transizione"
+bp2_yearly.6214_notification_1_tooltip_high: "I mercanti e gli artigiani di [affected_county.GetName] lavorano sotto nuovi accordi e leggi, competendo per le monete in stile [advanced_culture.GetName] ora in circolazione."
+bp2_yearly.6214_notification_2_tooltip_high: "I piccoli [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l] e i liberi proprietari litigiosi di [affected_county.GetName] hanno accettato i termini di servizio e di fedeltà propri della cultura [advanced_culture.GetName], riducendo la violenza e i conflitti locali."
+bp2_yearly.6214_notification_3_tooltip_high: "I [ROOT.Char.GetFaith.HouseOfWorshipPlural] e le parrocchie rurali di [affected_county.GetName] sono ora gestiti da uomini colti e raffinati, promuovendo educazione e governo propri della cultura [advanced_culture.GetName]."
+
+bp2_yearly.6215.notification_high: "Riforme: Un [ROOT.Char.GetTitleAsNameNoTooltip] d’Intenti"
+bp2_yearly.6215_notification_1_tooltip_high: "I magnati interessati alle ricchezze sollecitano i loro padroni a imitare il tuo celebre interesse nel riformare la società e il commercio [ROOT.Char.GetCulture.GetName]."
+bp2_yearly.6215_notification_2_tooltip_high: "Il vigore bellico del tuo seguito, un esercito temprato dal tuo impulso a rinascere [ROOT.Char.GetPrimaryTitle.GetNameNoTier], è ampiamente rispettato."
+bp2_yearly.6215_notification_3_tooltip_high: "Le cerimonie delle tue sale consacrate sono note ovunque, mentre gli uomini speculano avidamente sulla natura divisa della tua anima [ROOT.Char.GetCulture.GetName]."
+
+bp2_yearly.6216.notification_high: ""Riforme: È [ROOT.Char.GetSheHe|U] #EMP Il Nostro#! [ROOT.Char.GetTitleAsNameNoTooltip]?""
+bp2_yearly.6216_notification_tooltip_high: "I tuoi agenti riportano mormorii tra la nobiltà... una persona che solo per metà è di cultura [advanced_culture.GetName] merita davvero la loro reverenza?"
+bp2_yearly.6216_notification_2_tooltip_high: "Si diffonde una voce di un complotto straniero... di [Select_CString(ROOT.Char.IsFemale,'una burattina corrotta','un burattino corrotto')] dai [advanced_culture.GetCollectiveNoun] e [Select_CString(ROOT.Char.IsFemale,'piazzata','piazzato')] sul trono..."

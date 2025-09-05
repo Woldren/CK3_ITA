@@ -1,0 +1,66 @@
+﻿l_spanish:
+ scholarship_bird_automaton_modifier:0 "Uccello Meccanico"
+ scholarship_bird_automaton_modifier_desc:0 "Questo personaggio ha un meraviglioso uccello meccanico che canta come se fosse vivo."
+ scholarship_bird_dissection_modifier:0 "Studi sugli Uccelli Meccanici"
+ scholarship_bird_dissection_modifier_desc:0 "Questo personaggio sta studiando il funzionamento interno di macchine complesse."
+ book_translation_excellent_modifier:0 "Traduttore Esperto"
+ book_translation_excellent_modifier_desc:0 "Questo personaggio è l'autore di una famosa traduzione di un'opera classica."
+ book_translation_mediocre_modifier:0 "Aspirante Traduttore"
+ book_translation_mediocre_modifier_desc:0 "Questo personaggio è l'autore di una traduzione di un'opera classica."
+ terrified_courtiers_modifier:0 "Cortigiani Terrorizzati"
+ terrified_courtiers_modifier_desc:0 "I cortigiani di questo personaggio sono intimiditi dalla sua severa disciplina."
+ book_translation_ongoing_modifier:0 "Tradurre un Libro"
+ book_translation_ongoing_modifier_desc:0 "Questo personaggio sta attualmente traducendo un libro."
+ scholarship_astrological_insights_modifier:0 "Comprensione dei Cieli"
+ scholarship_astrological_insights_modifier_desc:0 "Questo personaggio capisce molto dei movimenti dei cieli."
+ scholarship_down_to_earth_modifier:0 "Questioni Terrene"
+ scholarship_down_to_earth_modifier_desc:0 "Questo personaggio si concentra su questioni terrene, mentre i sacerdoti si occupano di questioni spirituali."
+ logical_thinking_modifier:0 "Pensiero Logico"
+ logical_thinking_modifier_desc:0 "Questo personaggio sa come usare la logica per risparmiare tempo durante la ricerca."
+ chronic_headaches_modifier:0 "Mal di Testa Cronici"
+ chronic_headaches_modifier_desc:0 "Questo personaggio soffre di mal di testa cronici causandogli irritabilità."
+ rich_fertilizer_modifier:0 "Buon Fertilizzante"
+ rich_fertilizer_modifier_desc:0 "Le fattorie di questa contea sono state ben fertilizzate quest'anno."
+ tomb_defiler_modifier:0 "Profanatore Sepolcrale"
+ tomb_defiler_modifier_desc:0 "Le voci più inquietanti circondano il sovrano di queste terre."
+ wide_vocabulary_modifier:0 "Vocabolario Ricco"
+ exercise_modifier:0 "Esercizio"
+
+ introspective_rest_modifier:0 "Riposo Introspettivo"
+ introspective_rest_modifier_desc:0 "Questo personaggio ha l'abitudine di chiudersi e comunicare con il divino. Non è assolutamente consentito alcun disturbo!"
+
+ theology_dangerous_habits_modifier:0 "Abitudini Pericolose"
+ theology_dangerous_habits_modifier_desc:0 "La ricerca di "visioni" di questo personaggio lascia tracce su di lui."
+
+ mystic_suspicious_reputation_modifier:0 "Reputazione Sospetta"
+ mystic_suspicious_reputation_modifier_desc:0 "Questo personaggio sta facendo... #EMP qualcosa#! dietro quelle porte chiuse."
+
+ mystic_great_openness_modifier:0 "Grande Apertura"
+ mystic_great_openness_modifier_desc:0 "Questo personaggio sta facendo uno sforzo per aprirsi con gli altri."
+
+ mystic_dangerous_to_know_modifier:0 "Pericoloso da Sapere"
+ mystic_dangerous_to_know_modifier_desc:0 "Questo personaggio ha in mente qualcosa di strano e insolito. Tutti sanno che mettersi dalla sua parte avrà gravi conseguenze. Probabilmente."
+
+ mystic_devout_protector_modifier:0 "Protettore Devoto"
+ mystic_devout_protector_modifier_desc:0 "Questo personaggio ha annunciato pubblicamente la sua dedizione alla sicurezza e al benessere degli altri."
+
+ divine_guidance_modifier:0 "Guida Divina"
+ divine_guidance_modifier_desc:0 "Le voci dall'aldilà aiutano questo personaggio. Almeno è così che dice."
+ 
+ court_of_poetry_modifier:0 "Corte della Poesia"
+ court_of_poetry_modifier_desc:0 "Le sale di questo personaggio risuonano di parole raffinate, l'aria che si respira è ricca di fioriture linguistiche."
+
+ beauty_of_language_modifier:0 "Linguaggio Incantevole"
+ beauty_of_language_modifier_desc:0 "Questo personaggio ha trovato una gioia infinita nell'elegante mistero delle parole: una passione destinata a essere condivisa." 
+
+ welcoming_inclusivist_modifier:0 "Inclusivista Caloroso"
+ welcoming_inclusivist_modifier_desc:0 "Questo personaggio crede fermamente che le nostre differenze si completino a vicenda e che la debolezza si trovi nell'uniformità inconsapevole."
+
+ consorting_with_muslims_modifier:0 "Frequentare i Musulmani"
+ consorting_with_muslims_modifier_desc:0 "Questo personaggio è noto per associarsi ai pagani."
+
+ rebuked_the_heathen_modifier:0 "Respingere i Pagani"
+ rebuked_the_heathen_modifier_desc:0 "Questo personaggio non vuole avere nulla a che fare con pagani, eretici, apostati e altri #EMP disgustosi#! individui."
+
+ refused_heathen_knowledge_modifier:0 "Rifiutare le Conoscenze dei Pagani"
+ refused_heathen_knowledge_modifier_desc:0 "Questo personaggio preferisce che i suoi libri siano pii e puri."

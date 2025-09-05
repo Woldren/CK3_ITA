@@ -1,0 +1,89 @@
+﻿l_spanish:
+ fp3_strange_rituals_opinion: "Pratica strani rituali"
+
+ fp3_bad_portent_opinion: "Ha avuto un cattivo presagio"
+
+ fp3_magnificent_fire_ritual_opinion: "Ha celebrato un magnifico rituale del fuoco"
+
+ fp3_blessed_by_fire_opinion: "Ha ricevuto la benedizione da Ātar, il fuoco sacro"
+ fp3_sent_me_to_the_frontier_opinion: "Mi ha Spedito alla Frontiera"
+ fp3_mildly_terrified_opinion: "Leggermente Atterrito"
+ fp3_admires_resolve_opinion: "Ammira la Risolutezza"
+ fp3_resentful_opinion: "Risentito"
+ fp3_ignored_me_in_time_of_need_opinion: "Mi ha Ignorato nel Momento del Bisogno"
+ fp3_dismayed_opinion: "Costernato"
+ fp3_went_too_far_opinion: "Si è Spinto Troppo Oltre"
+ fp3_convincing_argument_opinion: "Ha Presentato un'Argomentazione Convincente"
+ fp3_killjoy_opinion: "Ha Criticato il Consumo di Alcol"
+ fp3_suspicious_motives_opinion: "Motivi Sospetti"
+ fp3_treats_with_barbarians_opinion: "Tratta con i Barbari"
+ fp3_very_very_pleased_opinion: "Estremamente Soddisfatto"
+ fp3_unjust_burden_opinion: "Mi ha Oppresso Ingiustamente"
+ fp3_supports_my_tribe_opinion: "Sostiene la Mia Tribù"
+ fp3_disrespected_me_opinion: "Mi Ha Mancato di Rispetto"
+
+ fp3_harbors_heretics_opinion: "Dà Rifugio agli Eretici"
+ fp3_persecuted_my_faith_opinion: "Ha Perseguitato la mia Fede"
+ fp3_blasphemous_practices_opinion: "Pratiche Blasfeme"
+ fp3_loyal_to_dead_spouse_opinion: "Leale al Coniuge Defunto"
+ fp3_benevolent_opinion: "Benevolo"
+ fp3_stole_my_court_poet_opinion: "Mi Ha Sottratto il Poeta di Corte"
+ fp3_wrongful_imprisonment_opinion: "Imprigiona Ingiustamente le Persone"
+ fp3_fearing_retribution_opinion: "Temere la Vendetta"
+ fp3_murdered_my_servants_opinion: "Murdered my Servant"
+ fp3_plotting_rebellion_opinion: "Plotting Rebellion"
+ fp3_denied_me_an_opportunity_opinion: "Denied me an Opportunity"
+ fp3_unfair_to_my_child_opinion: "Unfair to my Child"
+ fp3_meddling_in_my_privileges_opinion: "Meddling in my Privileges"
+ fp3_frustrated_opinion: "Frustrated"
+
+ fp3_stole_from_me: "Mi ha derubato"
+ fp3_sabotaged_me: "Mi ha sabotato"
+ fp3_flogged_me: "Mi ha frustato"
+ fp3_denounced_me: "Mi ha denunciato"
+ fp3_conciliatory_opinion: "Conciliante"
+ fp3_hostile_opinion: "Ostile"
+
+ fp3_incited_conflict: "Ha provocato un conflitto"
+ caliphal_authority: "Autorità califale"
+
+ fp3_spawn_of_ahriman_opinion: "Progenie di Ahriman"
+
+ fp3_abolished_priesthood_opinion: "Ha abolito il sacerdozio legittimo"
+
+ fp3_false_imam_opinion: "Non è il legittimo imam"
+
+ fp3_disrespected_word_of_god_opinion: "Ha mancato di rispetto alla lingua scelta da Dio"
+
+ fp3_grateful_for_discretion_opinion: "Grato per la discrezione"
+
+ fp3_meddled_in_my_family_matters_opinion: "Si intromette negli affari della mia famiglia"
+
+ scheme_sway_and_compelled_to_submit_opinion: "Condizionato"
+
+ fp3_rejected_my_authority_opinion: "Ha rifiutato la mia autorità"
+
+ fp3_taught_me_gardening_opinion: "Ha imparato a curare il giardino"
+
+ fp3_shared_secret_faith_opinion: "Condivide la mia fede segreta"
+
+ fp3_blessed_me_opinion: "Mi ha benedetto"
+ fp3_built_a_dakhma_opinion: "Ha sostenuto la mia fede"
+
+ #Culture Opinions
+ sogdian_opinion: "Opinione $sogdian$"
+ saka_opinion: "Opinione $saka$"
+ han_opinion: "Opinione $han$"
+ turkish_opinion: "Opinione $turkish$"
+ baloch_opinion: "Opinione $baloch$"
+ tajik_opinion: "Opinione $tajik$"
+ khwarezmian_opinion: "Opinione $khwarezmian$"
+ afghan_opinion: "Opinione $afghan$"
+ 
+ #Faith Opinions
+ imami_opinion: "Opinione $imami$"
+
+ #Clan Opinions
+ clan_government_opinion: "Opinione del [clan|E]"
+
+ fp3_split_the_muslim_world_in_two_caliphates: "Dividi i Califfati"

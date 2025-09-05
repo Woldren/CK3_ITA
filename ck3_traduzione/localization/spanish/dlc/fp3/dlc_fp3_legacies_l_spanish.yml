@@ -1,0 +1,22 @@
+﻿l_spanish:
+
+ fp3_khvarenah_legacy_track_name: "Splendore"
+ fp3_khvarenah_legacy_track_desc: "La nostra casata risplenderà della gloria degli antichi re"
+ fp3_khvarenah_legacy_1_name: "Senso del Dovere"
+ fp3_khvarenah_legacy_2_name: "Grandi Ambizioni"
+ fp3_khvarenah_legacy_3_name: "Gloria Radiosa"
+ fp3_khvarenah_legacy_4_name: "Antica Autorità"
+ fp3_khvarenah_legacy_5_name: "Splendore Rigenerato"
+ 
+ LEGACY_DYNASTY_BESTOW_GLORY_DESCRIPTION: "Efficacia dell'[councillor_task|E] [bestow_royal_favor|E]: #P +20%#!"
+ LEGACY_DYNASTY_MEMBERS_MARIABILITY_BONUS: "Accettazione del [marriage|E] per i [dynasty_members|E]: #P +[EmptyScope.ScriptValue('khvarenah_legacy_marriage_acceptance')|0]#!"
+ LEGACY_DYNASTY_COMPETENT_VIZIERS_DESCRIPTION: "[skills|E] nel compiere gli [councillor_tasks|E] di [vizier|E]: #p +25%#!"
+ LEGACY_DYNASTY_ASAWIRA_UNLOCK_DESCRIPTION: "Può reclutare [GetMaA('asawira').GetName] come [men_at_arms|E]"
+ LEGACY_DYNASTY_ASAWIRA_UNLOCK_DESCRIPTION_WARNING: "#weak Può reclutare solo un reggimento di asawira (fino a dimensione 5)#!"
+ LEGACY_DYNASTY_BETTER_TAX_COLLECTOR_DESCRIPTION: "Può promulgare il [tax_decree|E] #high $maguh_special_rights_tax_collector$#!"
+ LEGACY_DYNASTY_BETTER_COURT_POSITION_PERFORMANCE_DESCRIPTION: "[aptitude|E] per le [court_positions|E] di [GetCourtPositionType('master_assassin_court_position').GetName()|l], [GetCourtPositionType('court_scholar_court_position').GetName()|l], [GetCourtPositionType('chief_qadi_court_position').GetName()|l], [GetCourtPositionType('lady_in_waiting_court_position').GetName()|l] e [GetCourtPositionType('royal_architect_court_position').GetName()|l]: #P +[EmptyScope.ScriptValue('khvarenah_legacy_aptitude')|0]#!"
+
+ LEGACY_HOSTILE_SCHEME_BONUS_AGAINST_DYNASTY_MEMBERS: "[success_chance|E] del [hostile_scheme|E] contro i [dynasty_members|E]: #P +10%#!"
+ LEGACY_ENEMIES_LOSE_SOME_EXTRA_CONTROL_WHEN_OCCUPIED: "Le [counties|E] nemiche perdono ulteriore [control|E] quando sono [Concept( 'occupied', 'occupate' )|E]"
+ LEGACY_UNLOCK_embellish_capital_DECISION: "Sblocca la decisione [fp3_embellish_capital_decision|E]"
+ 

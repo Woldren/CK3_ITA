@@ -1,0 +1,9 @@
+﻿l_spanish:
+ hold_court_decision:0 "Indici Udienza"
+ hold_court_decision_desc:0 "Per poter essere un sovrano di successo, devo effettivamente gestire i vari dilemmi e le varie situazioni che si presentano nella mia sfera d'influenza.\n\nInvitando ufficialmente tutti i miei sudditi a recarsi nel mio [ROOT.Char.Custom('ResidenceBuilding')] e a chiedere aiuto, sarò in grado di rimanere informato, influenzare gli equilibri di potere e mostrare in modo chiaro al mondo che sono io a comandare."
+ hold_court_decision_tooltip:0 "Esercita la tua autorità Indicendo un'[Concept( 'holding_court', 'Udienza' )|E]"
+ hold_court_decision_effects:0 "Inviti i tuoi ospiti e sudditi a presentarti una supplica per ricevere la tua assistenza:\n$EFFECT_LIST_BULLET$ Potresti venire a conoscenza di opportunità uniche\n$EFFECT_LIST_BULLET$ Potresti essere in grado di influenzare gli avvenimenti nei reami stranieri\n$EFFECT_LIST_BULLET$ La Magnificenza della tua Corte potrebbe aumentare ulteriormente\n$EFFECT_LIST_BULLET$ Potresti guadagnare o perdere Opinione, Prestigio, Oro, e altro"
+ hold_court_decision_confirm:0 "Ascolta le Richieste"
+ hold_court_gain_grandeur_tooltip:0 "Farai aumentare la [Concept( 'court_grandeur', 'Magnificenza della tua Corte' )|E]"
+ hold_court_gain_legitimacy_tooltip: "Incrementerai la tua [legitimacy|E]"
+

@@ -1,0 +1,45 @@
+﻿l_spanish:
+ legend_owner_equal_global: "È di [TARGET_CHARACTER.GetName]"
+ not_legend_owner_equal_global: "#bold Non#! è di [TARGET_CHARACTER.GetName]"
+ legend_owner_equal_third: "[LEGEND.GetName] è di [TARGET_CHARACTER.GetName]"
+ not_legend_owner_equal_third: "[LEGEND.GetName] #bold non#! è di [TARGET_CHARACTER.GetName]"
+  
+ promoted_legend_equal_global: "Sta [Concept( 'promoting_legend', 'promuovendo la leggenda' )|E] [LEGEND.GetName]"
+ not_promoted_legend_equal_global: "#bold Non#! sta [Concept( 'promoting_legend', 'promuovendo la leggenda' )|E] [LEGEND.GetName]"
+ promoted_legend_equal_third: "[CHARACTER.GetName] sta [Concept( 'promoting_legend', 'promuovendo la leggenda' )|E] [LEGEND.GetName]"
+ not_promoted_legend_equal_third: "[CHARACTER.GetName] #bold non#! sta [Concept( 'promoting_legend', 'promuovendo la leggenda' )|E] [LEGEND.GetName]"
+ promoted_legend_equal_first: "Sto [Concept( 'promoting_legend', 'promuovendo la leggenda' )|E] [LEGEND.GetName]"
+ not_promoted_legend_equal_first: "#bold Non#! sto [Concept( 'promoting_legend', 'promuovendo la leggenda' )|E] [LEGEND.GetName]"
+
+ legend_quality_global: "La [Concept( 'legend_quality', 'Qualità' )|E] è $COMPARATOR$ $CHECK_VALUE|V$"
+ not_legend_quality_global: "La [Concept( 'legend_quality', 'Qualità' )|E] #bold non#! è $COMPARATOR$ $CHECK_VALUE|V$"
+ legend_quality_third: "La [Concept( 'legend_quality', 'Qualità' )|E] della leggenda [LEGEND.GetName] è $COMPARATOR$ $CHECK_VALUE|V$"
+ not_legend_quality_third: "La [Concept( 'legend_quality', 'Qualità' )|E] della leggenda [LEGEND.GetName] #bold non#! è $COMPARATOR$ $CHECK_VALUE|V$"
+
+ legend_start_date_global: "È stata creata $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ not_legend_start_date_global: "#bold Non#! è stata creata $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ legend_start_date_third: "[LEGEND.GetName] è stata creata $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ not_legend_start_date_third: "[LEGEND.GetName] #bold non#! è stata creata $COMPARATOR$ [CHECK_DATE.GetString|V]"
+
+ legend_seed_name_and_quality: "[LEGEND_SEED.GetName( CHARACTER.Self )] #weak ([LEGEND_SEED.GetQualityString] [LEGEND_SEED.GetType.GetName]) [legend_seed|e]"
+
+ has_personal_legend_seed_global: "Ha il/la $legend_seed_name_and_quality$"
+ not_has_personal_legend_seed_global: "#bold Non#! ha il/la $legend_seed_name_and_quality$"
+ has_personal_legend_seed_third: "[CHARACTER.GetName] ha il/la $legend_seed_name_and_quality$"
+ not_has_personal_legend_seed_third: "[CHARACTER.GetName] #bold non#! ha il/la $legend_seed_name_and_quality$"
+
+ has_triggered_legend_seed_global: "Si qualifica per il [legend_seed|e] [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )]" #controllare
+ not_has_triggered_legend_seed_global: "#bold Non#! si qualifica per il [legend_seed|e] [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )]"
+ has_triggered_legend_seed_third: "[CHARACTER.GetName] si qualifica per il [legend_seed|e] [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )]"
+ not_has_triggered_legend_seed_third: "[CHARACTER.GetName] #bold non#! si qualifica per il [legend_seed|e] [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )]"
+  
+ any_legend_promoter_global: "Qualsiasi promotore di una [legend|E]"
+ any_legend_promoter_third: "Qualsiasi promotore della leggenda [LEGEND.GetName]"
+ any_legend_promoter_count_global: "$PARAMETERS$ promotori della [legend|E]"
+ any_legend_promoter_count_third: "$PARAMETERS$ promotori della leggenda [LEGEND.GetName]"
+
+ has_legend_modifier_global: "Ha il Modificatore: $MODIFIER$"
+ not_has_legend_modifier_global: "#bold Non#! ha il Modificatore: $MODIFIER$"
+ has_legend_modifier_third: "[LEGEND.GetName] ha il Modificatore: $MODIFIER$"
+ not_has_legend_modifier_third: "[LEGEND.GetName] #bold non#! ha il Modificatore: $MODIFIER$"
+  

@@ -1,0 +1,53 @@
+﻿l_spanish: 
+ councillor_spouse_stewardship.1001.desc:0 "Spese Militari" #military Upkeep
+ councillor_spouse_stewardship.1002.desc:0 "Lavoratori Diligenti" #Worker Diligence
+ councillor_spouse_stewardship.1003.desc:0 "Negoziati sulla Costruzione" #Construction Negotiations
+ councillor_spouse_stewardship.1004.desc:0 "Risparmi della Casata" #Household Savings
+ councillor_spouse_stewardship.1005.desc:0 "Casata Impeccabile" #Impeccable Household
+ councillor_spouse_stewardship.1006.desc:0 "Corte Ben Organizzata" #Well-organized Court
+ councillor_spouse_stewardship_1006_every_courtier:0 "Ogni Cortigiano" #Every Courtier
+ councillor_spouse_stewardship.1007.desc:0 "Vita Confortevole" #Comfortable Living
+ councillor_spouse_stewardship.1008.desc:0 "Corte in Salute" #Healthy Court
+ councillor_spouse_stewardship.1009.desc:0 "Negoziati sullo Sviluppo" #Development Negotiations
+ councillor_spouse_stewardship.1010.desc:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] ha Risolto il Debito del Cortigiano" #Resolves Courtier Debt
+ councillor_spouse_stewardship.1011.desc.guilds:0 "Gilda Sconfitta" #Guilds Defeated
+ councillor_spouse_stewardship.1011.desc.serfs:0 "Servi Tranquillizzati" #Serfs Mollified
+ councillor_spouse_stewardship.1011.desc.corruption:0 "Controllo degli Esattori delle Tasse" #Control of Tax Collectors 
+
+ councillor_spouse_stewardship.2001.t:1 "Coniuge: Richiesta di Investimento"
+ councillor_spouse_stewardship.2001.desc:0 "Grazie alla diligente amministrazione delle finanze della mia Casata da parte [councillor.Custom('IT_NAM_COL2')][councillor.GetTitledFirstNamePossessive], c'è più oro alla fine di questa stagione di quanto previsto.\n\n"Come potremmo utilizzarlo al meglio, [ROOT.Char.GetWifeHusband] mi[ROOT.Char.Custom('DE_END_PRO_S_N')]?""
+ councillor_spouse_stewardship.2001.a:0 "Organizza una magnifica cena per la gioia di tutti!"
+ councillor_spouse_stewardship_2001_every_powerful_vassal:0 "Ogni Vassallo Potente"
+ councillor_spouse_stewardship.2001.b:0 "Investi un po' di soldi nell'area locale."
+ councillor_spouse_stewardship.2001.c:0 "Se c'è una cosa che i soldi possono comprare sono occhi e orecchie!"
+ councillor_spouse_stewardship.2001.d:0 "Risparmiamoli per il momento"
+
+ councillor_spouse_stewardship.2002.t:1 "Coniuge: Una Brillante Opportunità"
+ councillor_spouse_stewardship.2002.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]." [courtier_lender.GetTitledFirstName] si avvicina e mi sorride [courtier_lender.Custom('quirk_pos_adverb')]. "Sono stat[courtier_lender.Custom('DE_END_PRO_S_N')] avvicinat[courtier_lender.Custom('DE_END_PRO_S_N')] da [councillor.GetTitledFirstName] che nella sua saggezza ha suggerito un accordo tra noi due. Visto che potrebbe servirti un po' di aiuto finanziario, e a me servirebbe un po' di assistenza sociale...""
+ councillor_spouse_stewardship.2002.a:0 "Ti ripagherò, te lo prometto."
+ councillor_spouse_stewardship.2002.money_loan_tooltip:0 "Prendo in prestito [gold_i] #bold [THIS.Var('amount_to_loan').GetValue]#! oro da [courtier_lender.GetFirstNameNoTooltip]."
+ councillor_spouse_stewardship.2002.b:0 "Perché non li doni alla [ROOT.Char.GetFaith.HouseOfWorship] invece?"
+ councillor_spouse_stewardship.2002.c:0 "Dovresti donarli ai poveri."
+ councillor_spouse_stewardship.2002.d:0 "Accetto volentieri questo omaggio!"
+
+ councillor_spouse_stewardship.2003.t:1 "Coniuge: Opportunità di Commercio"
+ councillor_spouse_stewardship.2003.desc:0 "[councillor.GetTitledFirstName] mi si avvicina con tre pergamene nella sua mano.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], ho preparato delle proposte commerciali per i sovrani vicini. Sono cert[councillor.Custom('DE_END_PRO_S_N')] che si potrà raggiungere un accordo che andrà a beneficio di entrambe le parti!""
+ councillor_spouse_stewardship.2003.a:0 "[ruler_1.GetTitledFirstNameNoTooltip] sembra ragionevole."
+ councillor_spouse_stewardship.2003.b:0 "Concludi un'intesa con [ruler_2.GetTitledFirstNameNoTooltip]."
+ councillor_spouse_stewardship.2003.c:0 "Fai un accordo con [ruler_3.GetTitledFirstNameNoTooltip]."
+ councillor_spouse_stewardship.2003.d_greedy:0 "Nessuno di loro si avvicinerà al mio oro!"
+ councillor_spouse_stewardship.2003.d_arrogant:0 "Nessuno di loro è degno di un accordo con #EMP me#!!"
+ councillor_spouse_stewardship.2003.d:0 "Nessuno di loro rappresenta un'opportunità abbastanza allettante..."
+
+ councillor_spouse_stewardship.2004.t:1 "Coniuge: Un Aiuto"
+ councillor_spouse_stewardship.2004.desc:0 ""[ROOT.Char.Custom('DE_ART_DEF_P_D')] tu[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('on_my_hook'))], [on_my_hook.Custom('DE_ART_DEF_P_A')] [on_my_hook.GetTitledFirstName], recentemente si è trovato un po' nei guai."\n\n[councillor.Custom('DE_ART_DEF_P_D')] [councillor.GetTitledFirstName] sorride [councillor.Custom('quirk_pos_adverb')] e continua, "Mi sono assicurat[councillor.Custom('DE_END_PRO_S_N')] che la situazione si risolvesse da sola, e di menzionarti come benefattore.""
+ councillor_spouse_stewardship.2004.a:0 "Lavoro eccellente!"
+ councillor_spouse_stewardship.2004.b:0 "Una buona azione non ha bisogno di essere rimborsata."
+
+ councillor_spouse_stewardship.2005.t:1 "Coniuge: Investimenti in [county_to_boost.GetNameNoTierNoTooltip]"
+ councillor_spouse_stewardship.2005.desc:1 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. È giunto alla mia attenzione che vi è una rara opportunità di investimento in [county_to_boost.GetName]."\n\nMi[councillor.Custom('DE_END_PRO_S_N')] [councillor.Custom('WifeHusband')] [councillor.GetFirstName] elabora i dettagli dell'investimento finanziario, e sembra effettivamente che l'affare potrebbe portare un notevole beneficio a [county_to_boost.GetNameNoTierNoTooltip], qualora avesse successo."
+ councillor_spouse_stewardship.2005.a:0 "È un rischio che vale la pena correre!"
+ councillor_spouse_stewardship.2005.a_1:0 "L'accordo si traduce in un ottimo ritorno per [county_to_boost.GetNameNoTierNoTooltip]"
+ councillor_spouse_stewardship.2005.a_2:0 "L'accordo va a monte"
+ councillor_spouse_stewardship.2005.b:0 " Lascia l'opportunità alla gente di [county_to_boost.GetNameNoTierNoTooltip]."
+ councillor_spouse_stewardship.2005.c:0 "Questi discorsi sugli affari locali non sono degni della mia attenzione!"

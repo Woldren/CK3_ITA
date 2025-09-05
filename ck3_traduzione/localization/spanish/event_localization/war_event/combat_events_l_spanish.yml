@@ -1,0 +1,82 @@
+﻿l_spanish:
+ combat_event.0003.t:0 "Imbattibile"
+ combat_event.0003.desc.opening:0 "Cento battaglie, cento vittorie!"
+ combat_event.0003.desc.commander:0 "Con la mia ultima vittoria contro [enemy_commander.GetTitledFirstName] ed i suoi soldati,"
+ combat_event.0003.desc.no_commander:0 "Con la mia ultima vittoria in battaglia"
+ combat_event.0003.desc.ending:0 "Ho finalmente raggiunto questo traguardo epocale.\n\nNon avendo mai perso una sola battaglia, ci sono stati a lungo voci sulla mia imbattibilità, una forza indomabile che non avrebbe mai potuto essere sconfitta. Sta cominciando a sembrare che potrebbe essere davvero così..."
+ combat_event.0003.desc.alt_ending:0 "Ho finalmente raggiunto questo traguardo epocale.\n\nCon ogni battaglia che ho vinto, le voci sulla mia abilità crescevano. Ora che le mie gesta hanno superato anche quelle della leggenda, posso affermare di essere veramente imbattibile, una forza indomabile che non potrà mai essere sconfitta."
+ combat_event.0003.a:0 "Spargete la voce in lungo e in largo sulla mia abilità!"
+ combat_event.0003.b:0 "Non devo cadere nell'arroganza. Una freccia vagante potrebbe porre fine a tutto questo..."
+ combat_event.0003.b.zealous:0 "Non sono altro che [ROOT.Char.Custom('signature_weapon')] di [ROOT.Char.GetFaith.HighGodName] , mi limito a seguire la [ROOT.Char.GetFaith.WarGodHerHis|U] volontà."
+
+ combat_event.0004.t:0 "Rovesciare il Colosso"
+ combat_event.0004.desc:0 "[enemy_commander.Custom2('MyCharacterIntroduction', ROOT.Char)|U] è un comandante leggendario, conosciuto in tutto il mondo per aver combattuto oltre cento battaglie nella sua vita senza perderne nemmeno una.\n\nNonostante questo, oggi ho battuto [enemy_commander.GetHerHim] sul campo di battaglia, dimostrando al mondo intero che [enemy_commander.GetSheHe] non è imbattibile!"
+ combat_event.0004.a:0 "Anche le grandi leggende cadono davanti alla mia arma, [ROOT.Char.Custom('signature_weapon')]!"
+ combat_event.0004.b:0 "Se [enemy_commander.GetSheHe] può essere sconfitto, anche io posso."
+ combat_event.0004.b.zealous:0 "Ringrazio [ROOT.GetCharacter.GetFaith.WarGodName] per aver umiliato quell[enemy_commander.Custom('DE_PRO_PER_S_3P_N')][enemy_commander.GetWomanMan]."
+
+ combat_event.0005.t:0 "Rovesciare il Colosso"
+ combat_event.0005.desc:0 "Oggi è accaduto l'impensabile: sono stato sconfitto in battaglia da [friendly_commander.Custom2('MyCharacterIntroduction', ROOT.Char)]! Avevo davvero cominciato a pensare che non avrei mai potuto perdere, ma ora sono stato ridimensionato ed umiliato.\n\nLa mia reputazione è ancora intatta nonostante questa sconfitta, anche se [friendly_commander.GetFirstName] ha rubato parte della mia gloria."
+ combat_event.0005.a:0 "[friendly_commander.GetSheHe|U] merita riconoscimento per avermi sconfitto."
+ combat_event.0005.b:0 "Inaccetabile! [friendly_commander.GetSheHe|U] rimpiangerà il giorno in cui mi ha incontrato!"
+ combat_event.0005.message:0 "Infuriato per la sua sconfitta in battaglia, [enemy_commander.GetTitledFirstName] ha giurato vendetta!"
+
+ # Combatants Taken Prisoner
+ combat_event.1002.pow_message.t:0 "Combattenti Nemici Catturati"
+ combat_event.1002.pow_message.desc.single:1 "Le tue forze hanno catturato [primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U]"
+ combat_event.1002.pow_message.desc.double:1 "Le tue forze hanno catturato [primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] e [secondary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)]"
+ combat_event.1002.pow_message.desc.multiple:1 "Le tue forze hanno catturato [primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] e altri [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0]"
+ combat_event.1002.pow_message.desc.end:0 "dopo aver vinto la Battaglia di [combat_location.GetName]!"
+
+ combat_event.1003.pow_message.t:0 "Combattenti Alleati Catturati"
+ combat_event.1003.pow_message.desc.single:1 "[primary_prisoner.Custom('REL_TO_ME')|U][primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] è stat[primary_prisoner.Custom('DE_END_PRO_S_N')] fatt[primary_prisoner.Custom('DE_END_PRO_S_N')] prigionier[primary_prisoner.Custom('DE_END_PRO_S_N')][Concept( 'prisoner_of_war', 'di guerra' )|E]"
+ combat_event.1003.pow_message.desc.double:1 "[primary_prisoner.Custom('REL_TO_ME')|U][primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] e [primary_prisoner.Custom('REL_TO_ME')][secondary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] sono stati fatti prigionieri [Concept( 'prisoner_of_war', 'di guerra' )|E]"
+ combat_event.1003.pow_message.desc.multiple:1 "[primary_prisoner.Custom('REL_TO_ME')|U][primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] e [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] ed altri, sono stati fatti prigionieri [Concept( 'prisoner_of_war', 'di guerra' )|E]"
+ combat_event.1003.pow_message.desc.end:1 "dal[combat_winner.Custom('DE_END_ADJ_NUL_S_N')] tu[combat_winner.Custom('DE_END_PRO_S_N')] nemic[combat_winner.Custom('DE_END_PRO_S_N')], [combat_winner.Custom('IT_NAM_COL3')][combat_winner.GetTitledFirstName] dopo la [battle|E] di [combat_location.GetName]!"
+
+ combat_event.1004.pow_message.t:0 "[ROOT.Char.Custom2('RelationToMeShort', primary_prisoner)|U] Fatt[primary_prisoner.Custom('DE_END_PRO_S_N')] Prigionier[primary_prisoner.Custom('DE_END_PRO_S_N')]"
+ combat_event.1004.pow_message.desc.end:0 "[combat_winner.Custom('IT_NAM_COL5')][combat_winner.GetTitledFirstName] dopo aver vinto la [battle|E] di [combat_location.GetName]!"
+
+ combat_event.1005.pow_toast.t:1 "Combattenti Nemici Catturati"
+ combat_event.1005.pow_toast.desc:2 "Le tue forze hanno catturato [valuable_prisoner.Custom2('NamePossessiveCharacterIntroduction', primary_combat_loser)] come [prisoner_of_war|E] durante la [battle|E] di [combat_location.GetName]!"
+ combat_event.1005.pow_toast.desc.primary:2 "Le tue forze hanno catturato [valuable_prisoner.Custom('DE_ART_DEF_P_A')] tu[valuable_prisoner.Custom('DE_END_PRO_S_N')] nemic[valuable_prisoner.Custom('DE_END_PRO_S_N')] [valuable_prisoner.GetTitledFirstName] come [prisoner_of_war|E] durante la [battle|E] di [combat_location.GetName]!"
+ combat_event.1006.pow_toast.t:0 "Erede Fatto Prigioniero"
+ combat_event.1006.pow_toast.desc:2 "[combat_winner.GetTitledFirstName] ha catturato [valuable_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] come [prisoner_of_war|E] dopo la [battle|E] di [combat_location.GetName]!"
+ combat_event.1007.pow_toast.t:0 "$combat_event.1005.pow_toast.t$"
+ combat_event.1007.pow_toast_primary.t:0 "Leader Nemico Catturato"
+ combat_event.1007.pow_toast.desc:0 "[combat_winner.Custom('IT_NAM_COL3')|U][combat_winner.GetTitledFirstName] ha catturato [valuable_prisoner.Custom('IT_NAM_COL3')][valuable_prisoner.GetTitledFirstName] nella battaglia di [combat_location.GetName] e l'ha fatt[valuable_prisoner.Custom('DE_END_PRO_S_N')] prigionier[valuable_prisoner.Custom('DE_END_PRO_S_N')]."
+ combat_event.1007.pow_toast.desc.primary:1 "[combat_winner.Custom('IT_NAM_COL3')|U][combat_winner.GetTitledFirstName] ha catturato il tuo nemico, [combat_winner.Custom('IT_NAM_COL3')][valuable_prisoner.GetTitledFirstName], nella battaglia di [combat_location.GetName] e l'ha fatt[valuable_prisoner.Custom('DE_END_PRO_S_N')] prigionier[valuable_prisoner.Custom('DE_END_PRO_S_N')]."
+
+ # Combatants Slain
+ combat_event.1012.slain_message.t:0 "Combattenti Nemici Uccisi"
+ combat_event.1012.slain_message.desc.single:2 "Le tue forze hanno ucciso [primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)]"
+ combat_event.1012.slain_message.desc.double:2 "Le tue forze hanno ucciso [primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)] e [secondary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)]"
+ combat_event.1012.slain_message.desc.multiple:2 "Le tue forze hanno ucciso [primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)] e altri [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0]"
+ combat_event.1012.slain_message.desc.end:1 "nella battaglia di [combat_location.GetName]!"
+
+ combat_event.1013.slain_message.t:0 "Combattenti Alleati Uccisi"
+ combat_event.1013.slain_message.desc.single:0 "[primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U] è stat[primary_deceased.Custom('DE_END_PRO_S_N')] uccis[primary_deceased.Custom('DE_END_PRO_S_N')]"
+ combat_event.1013.slain_message.desc.double:0 "[primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U] e [secondary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)] sono stati uccisi"
+ combat_event.1013.slain_message.desc.multiple:0 "[primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U] e altri [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] sono stati uccisi"
+ combat_event.1013.slain_message.desc.end:1 "durante la [battle|E] di [combat_location.GetName]!"
+
+ combat_event.1014.slain_message.t:1 "[ROOT.Char.Custom2('RelationToMeShort', primary_deceased)|U] Uccis[ROOT.Char.Custom('DE_END_PRO_S_N')] in Battaglia"
+
+ # Slain/captured knight event strings for use in battle events (after the battle).
+ combatant_captured_in_battle_friendly_player:1 "Hai catturato [TARGET_CHARACTER.Custom('IT_NAM_COL3')][TARGET_CHARACTER.GetUINameNoTooltip] in battaglia!"
+ combatant_captured_in_battle_friendly:0 "[CHARACTER.Custom('IT_NAM_COL3')|U][CHARACTER.GetUINameNoTooltip] ha catturato [TARGET_CHARACTER.Custom('IT_NAM_COL3')][TARGET_CHARACTER.GetUINameNoTooltip] in battaglia!"
+ combatant_captured_in_battle_enemy_player:1 "Sei stato catturato in battaglia [CHARACTER.Custom('IT_NAM_COL5')][CHARACTER.GetUINameNoTooltip]!"
+ combatant_captured_in_battle_enemy:0 "[TARGET_CHARACTER.Custom('IT_NAM_COL3')|U][TARGET_CHARACTER.GetUINameNoTooltip] è stato catturato in battaglia [CHARACTER.Custom('IT_NAM_COL5')][CHARACTER.GetUINameNoTooltip]!"
+
+ combatant_killed_in_battle_friendly_player:1 "Hai ucciso [TARGET_CHARACTER.Custom('IT_NAM_COL3')][TARGET_CHARACTER.GetUINameNoTooltip] mentre si stava ritirando dalla battaglia!"
+ combatant_killed_in_battle_friendly:0 "[CHARACTER.Custom('IT_NAM_COL3')|U][CHARACTER.GetUINameNoTooltip] ha ucciso [TARGET_CHARACTER.Custom('IT_NAM_COL3')][TARGET_CHARACTER.GetUINameNoTooltip] mentre si stava ritirando dalla battaglia!"
+ combatant_killed_in_battle_enemy_player:1 "Sei stato ucciso da [CHARACTER.GetUINameNoTooltip] durante la ritirata!"
+ combatant_killed_in_battle_enemy:0 "[TARGET_CHARACTER.Custom('IT_NAM_COL3')|U][TARGET_CHARACTER.GetUINameNoTooltip] è stato ucciso [CHARACTER.Custom('IT_NAM_COL5')][CHARACTER.GetUINameNoTooltip] durante la ritirata!"
+
+ combatant_killed_in_battle_no_killer_friendly_player:1 "Uno dei tuoi uomini ha ucciso [TARGET_CHARACTER.Custom('IT_NAM_COL3')][TARGET_CHARACTER.GetUINameNoTooltip] mentre si stava ritirando dalla battaglia!"
+ combatant_killed_in_battle_no_killer_friendly:1 "Uno dei nostri uomini ha ucciso [TARGET_CHARACTER.Custom('IT_NAM_COL3')][TARGET_CHARACTER.GetUINameNoTooltip] mentre si stava ritirando dalla battaglia!"
+ combatant_killed_in_battle_no_killer_enemy_player:1 "Sei stato ucciso da un soldato nemico durante la ritirata!"
+ combatant_killed_in_battle_no_killer_enemy:0 "[TARGET_CHARACTER.Custom('IT_NAM_COL3')|U][TARGET_CHARACTER.GetUINameNoTooltip] è sato ucciso da un soldato nemico durante la ritirata!"
+
+
+

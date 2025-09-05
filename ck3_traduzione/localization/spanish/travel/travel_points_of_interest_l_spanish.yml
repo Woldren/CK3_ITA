@@ -1,0 +1,8 @@
+﻿l_spanish:
+ poi_special_buildings.visit:0 "Visitato/a [province.GetHolding.GetSpecialBuildingType.GetName]"
+ poi_capitals.visit:0 "Visitata la capitale di [province.GetTitle.GetDeFactoTopLiege.GetBaseName]"
+ poi_mausoleum_at_halicarnassus.visit:0 "Visitato il Mausoleo di Halicarnassus"
+ poi_lighthouse_of_alexandria.visit:0 "Visitato il Faro di Alessandria"
+ poi_grand_city.visit:0 "Visitata la Grande Città di [province.GetName]"
+ poi_natural_feature.visit:0 "Visitato/a [province.GetHolding.GetSpecialBuildingType.GetName]"
+ poi_legend_capitals.visit: "Visitato il luogo d'origine di [province.GetTitle.GetHolder.GetPromotedLegend.GetName]" 

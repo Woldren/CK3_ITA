@@ -1,0 +1,68 @@
+﻿l_spanish:
+ completed_hajj_memory:0 "compiuto un Hajj"
+ completed_first_hajj_desc:0 "ho intrapreso il mio primissimo Hajj a [ROOT.Var('hajj_destination').GetProvince.GetCounty.GetName]"
+ completed_first_hajj_desc_second_perspective:0 "hai intrapreso il tuo primissimo Hajj a [ROOT.Var('hajj_destination').GetProvince.GetCounty.GetName]"
+ completed_first_hajj_desc_third_perspective:0 "[owner.GetName] ha intrapreso il suo primissimo Hajj a [ROOT.Var('hajj_destination').GetProvince.GetCounty.GetName]"
+
+ #I have visited the beautiful walls of Mecca, once again...
+ revisited_hajj_desc:0 "ho rivisitato le bellissime mura di [ROOT.Var('hajj_destination').GetProvince.GetCounty.GetName], intraprendendo ancora una volta l'Hajj"
+ revisited_hajj_desc_second_perspective:0 "hai rivisitato le bellissime mura di [ROOT.Var('hajj_destination').GetProvince.GetCounty.GetName], intraprendendo ancora una volta l'Hajj"
+ revisited_hajj_desc_third_perspective:0 "[owner.GetName] ha rivisitato [ROOT.Var('hajj_destination').GetProvince.GetCounty.GetName], intraprendendo ancora una volta l'Hajj"
+
+ completed_first_pilgrimage_desc:0 "ho viaggiato verso [ROOT.Var('pilgrimage_destination').GetProvince.GetName] per il mio primo vero pellegrinaggio"
+ completed_first_pilgrimage_desc_second_perspective:0 "hai viaggiato verso [ROOT.Var('pilgrimage_destination').GetProvince.GetName] per il tuo primo vero pellegrinaggio"
+ completed_first_pilgrimage_desc_third_perspective:0 "[owner.GetName] ha viaggiato verso [ROOT.Var('pilgrimage_destination').GetProvince.GetName] per il suo primo vero pellegrinaggio"
+
+ completed_pilgrimage_desc:1 "ho viaggiato verso [ROOT.Var('pilgrimage_destination').GetProvince.GetName] in un"
+ completed_pilgrimage_pious_desc:0 "pellegrinaggio pio"
+ completed_pilgrimage_worldly_desc:0 "pellegrinaggio mondano"
+ completed_pilgrimage_desc_second_perspective:1 "hai viaggiato verso [ROOT.Var('pilgrimage_destination').GetProvince.GetName] in un"
+ completed_pilgrimage_desc_third_perspective:1 "[owner.GetName] ha viaggiato verso [ROOT.Var('pilgrimage_destination').GetProvince.GetName] in un"
+ 
+ completed_pilgrimage_friend_desc:1 "ho viaggiato verso [ROOT.Var('pilgrimage_destination').GetProvince.GetName] in un pellegrinaggio con [friend.GetTitledFirstName]"
+ completed_pilgrimage_friend_desc_second_perspective:1 "hai viaggiato verso [ROOT.Var('pilgrimage_destination').GetProvince.GetName] in un pellegrinaggio con [friend.GetTitledFirstName]"
+ completed_pilgrimage_friend_desc_third_perspective:1 "[owner.GetName] ha viaggiato verso [ROOT.Var('pilgrimage_destination').GetProvince.GetName] in un pellegrinaggio con [friend.GetTitledFirstName]"
+
+ pilgrimage_handled_predecessor_remains_memory:0 "maneggiate le spoglie di un predecessore durante un pellegrinaggio"
+ buried_predecessor_at_holy_site_memory_desc:0 "ho riposto [predecessor.GetTitledFirstName] a riposare nella santità di [ROOT.Var('pilgrimage_destination').GetProvince.GetName]"
+ buried_predecessor_at_holy_site_memory_desc_second_perspective:0 "hai riposto [predecessor.GetTitledFirstName] a riposare nella santità di [ROOT.Var('pilgrimage_destination').GetProvince.GetName]"
+ buried_predecessor_at_holy_site_memory_desc_third_perspective:0 "[owner.GetName] ha riposto [predecessor.GetTitledFirstName] a riposare nella santità di [ROOT.Var('pilgrimage_destination').GetProvince.GetName]"
+ completed_pilgrimage_then_buried_predecessor_memory_desc:0 "ho portato a termine il pellegrinaggio iniziato dal mio defunto predecessore [predecessor.GetTitledFirstName] dopodiché ho nuovamente riposto i suoi resti a [ROOT.Var('home').GetProvince.GetName]"
+ completed_pilgrimage_then_buried_predecessor_memory_desc_second_perspective:0 "hai portato a termine il pellegrinaggio iniziato dal tuo predecessore, dopodiché hai nuovamente riposto i suoi resti a [ROOT.Var('home').GetProvince.GetName]"
+ completed_pilgrimage_then_buried_predecessor_memory_desc_third_perspective:0 "[owner.GetName] portato a termine il pellegrinaggio iniziato dal suo predecessore, dopodiché ha nuovamente riposto i suoi resti a [ROOT.Var('home').GetProvince.GetName]""
+
+ good_predator_omen_memory:0 "ha assistito a un buon auspicio"
+ good_predator_omen_memory_desc:0 "ho osservato un predatore in libertà che cacciava un uccello"
+ good_predator_omen_memory_desc_second_perspective:0 "hai osservato un predatore in libertà che cacciava un uccello"
+ good_predator_omen_memory_desc_third_perspective:0 "[owner.GetName] ha osservato un predatore in libertà che cacciava un uccello"
+
+ bad_predator_omen_memory:0 "ha assistito a un cattivo auspicio"
+ bad_predator_omen_memory_desc:0 "ho assistito a un predatore che non è riuscito a catturare la sua preda in natura"
+ bad_predator_omen_memory_desc_second_perspective:0 "hai assistito a un predatore che non è riuscito a catturare la sua preda in natura"
+ bad_predator_omen_memory_desc_third_perspective:0 "[owner.GetName] ha assistito a un predatore che non è riuscito a catturare la sua preda in natura"
+
+ good_prey_omen_memory:0 "$good_predator_omen_memory$"
+ good_prey_omen_memory_desc:0 "ho visto una bestia incontrarsi con la sua compagna in natura"
+ good_prey_omen_memory_desc_second_perspective:0 "hai visto una bestia incontrarsi con la sua compagna in natura"
+ good_prey_omen_memory_desc_third_perspective:0 "[owner.GetName] ha visto una bestia incontrarsi con la sua compagna in natura"
+
+ bad_prey_omen_memory:0 "$bad_predator_omen_memory$"
+ bad_prey_omen_memory_desc:0 "ho visto una bestia essere fatta a pezzi dal suo predatore in natura mentre andava a incontrare il suo compagno"
+ bad_prey_omen_memory_desc_second_perspective:0 "hai visto una bestia essere fatta a pezzi dal suo predatore in natura mentre andava a incontrare il suo compagno"
+ bad_prey_omen_memory_desc_third_perspective:0 "[owner.GetName] ha visto una bestia essere fatta a pezzi dal suo predatore in natura mentre andava a incontrare il suo compagno"
+ 
+ bad_but_good_prey_omen_memory:0 "$bad_prey_omen_memory$"
+
+ hajj_prophet_like_sacrifice_memory:0 "ha compiuto un sacrificio come il profeta"
+ hajj_prophet_like_sacrifice_memory_desc:0 "nello spirito del profeta, ho sacrificato sessantatré cammelli durante il mio Hajj a [ROOT.Var('memory_location').GetProvince.GetName]"
+ hajj_prophet_like_sacrifice_memory_desc_second_perspective:0 "nello spirito del profeta, hai sacrificato sessantatré cammelli durante il tuo Hajj a [ROOT.Var('memory_location').GetProvince.GetName]"
+ hajj_prophet_like_sacrifice_memory_desc_third_perspective:0 "nello spirito del profeta, [owner.GetName] ha sacrificato sessantatré cammelli durante il suo Hajj a [ROOT.Var('memory_location').GetProvince.GetName]"
+
+ memory_apa_was_converted:0 "È stato/a convertito/a da un pellegrino"
+ converted_by_unbeliever_desc:0 "sono stat[owner.Custom('DE_END_PRO_S_N')] convertit[owner.Custom('DE_END_PRO_S_N')] alla fede [owner.GetFaith.GetName] da [converter.GetName] durante il suo pellegrinaggio"
+ converted_by_unbeliever_desc_second_perspective:0 "sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] convertit[ROOT.Char.Custom('DE_END_PRO_S_N')] alla fede [owner.GetFaith.GetName] da [converter.GetNameNoTier] durante il suo pellegrinaggio"
+ converted_by_unbeliever_desc_third_perspective:0 "[owner.GetFaith.GetName] è stat[owner.Custom('DE_END_PRO_S_N')] convertit[owner.Custom('DE_END_PRO_S_N')] alla fede [owner.GetFaith.GetName] da [converter.GetName] durante il suo pellegrinaggio"
+ memory_apa_converted:0 "Proselitismo durante il pellegrinaggio"
+ converted_unbeliever_desc:0 "Durante il mio pellegrinaggio a [ROOT.Var('memory_location').GetProvince.GetName] ho converito [converted.GetName] alla fede [owner.GetFaith.GetName]"
+ converted_unbeliever_desc_second_perspective:0 "Durante il tuo pellegrinaggio a [ROOT.Var('memory_location').GetProvince.GetName] hai converito [converted.GetName] alla fede [owner.GetFaith.GetName]"
+ converted_unbeliever_desc_third_perspective:0 "Durante il tuo pellegrinaggio a [ROOT.Var('memory_location').GetProvince.GetName] [owner.GetName] ha converito [converted.GetName] alla fede [owner.GetFaith.GetName]"

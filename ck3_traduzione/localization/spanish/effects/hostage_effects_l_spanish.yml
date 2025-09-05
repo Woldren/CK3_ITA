@@ -1,0 +1,15 @@
+﻿l_spanish:
+ I_TAKE_HOSTAGE: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'diventi', 'diventa' )] il [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'suo', 'tuo' )] [hostage|E]" #controllare in gioco stringhe 1-6
+ THEY_TAKE_HOSTAGE: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'diventi', 'diventa' )] l'[hostage|E] di [CHARACTER.GetName]"
+
+ I_TOOK_HOSTAGE: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei diventato/a', 'è diventato/a' )] il [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'suo', 'tuo' )] [hostage|E]"
+ THEY_TOOK_HOSTAGE: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei diventato/a', 'è diventato/a' )] l'[hostage|E] di [CHARACTER.GetName]"
+
+ I_RETURN_FROM_HOSTAGE: "Non sarò più un [hostage|E]"
+ THEY_RETURN_FROM_HOSTAGE: "[CHARACTER.GetName] non sarà più un [hostage|E]"
+
+ I_RETURNED_FROM_HOSTAGE: "Non sono più un [hostage|E]"
+ THEY_RETURNED_FROM_HOSTAGE: "[CHARACTER.GetName] non è più un [hostage|E]"
+
+ I_ATTACK_TRUCE_HOSTAGE_FATE: "#X Decidi il fato dell'[hostage|E]: [TARGET_CHARACTER.GetShortUIName|U]#!"
+ THEY_ATTACK_TRUCE_HOSTAGE_FATE: "#X Decide il fato dell'[hostage|E]: [TARGET_CHARACTER.GetShortUIName|U]#!"

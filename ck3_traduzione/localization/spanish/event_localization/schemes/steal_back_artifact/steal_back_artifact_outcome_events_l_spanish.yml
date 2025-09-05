@@ -1,0 +1,13 @@
+﻿l_spanish:
+ steal_back_artifact_outcome.1001.t:0 "$steal_back_artifact_event_title$ Successo!"
+ steal_back_artifact_outcome.1001.desc:1 "Provo un grande moto di orgoglio e non posso fare a meno di sorridere quando mi viene presentato il manufatto che ho cercato di recuperare. Il/La [artifact.GetName] ritorna al suo legittimo proprietario!\n\nAnche se forse è un po' ammaccato e sporco per le fatiche del recupero, non posso fare a meno di passare le dita sulla superficie preziosa di questo oggetto rubato... [artifact.GetName], un bel premio!"
+ steal_back_artifact_outcome.1001.a:0 "Torna al suo posto, nelle mani giuste."
+
+ steal_back_artifact_outcome.1002.t:0 "$steal_back_artifact_event_title$ Manufatto Rubato!"
+ steal_back_artifact_outcome.1002.desc:0 "Oggi mi è venuta la voglia di ammirare il mio manufatto, il/la [artifact_to_steal.GetName]... ma con orrore, scopro che non c'è più! #EMP Sparito!#!\n\nDopo alcune febbrili indagini, un servitore si fa avanti dicendo che [owner.GetName] ha orchestrato lo spudorato furto! Si dice infatti che [owner.GetSheHe] si dilungava spesso su quanto meglio sarebbe apparso il manufatto nelle sue mani..."
+ steal_back_artifact_outcome.1002.a:0 "Che sia [Select_CString(owner.IsFemale,'maledetta quella spregevole ladra','maledetto quello spregevole ladro')]!"
+
+ steal_back_artifact_outcome.2001.t:0 "$steal_back_artifact_event_title$ Fallimento"
+ steal_back_artifact_outcome.2001:0 "La mia intrusione, astutamente pianificata, è andata come previsto, ma il/la [artifact.GetName] non è stato trovato/a\n\nIl manufatto è stato spostato? Nascosto? O la fortuna ha salvato il mio obiettivo... o i miei lacchè incompetenti sono stati astutamente superati. Presi dal panico per questo totale fallimento, non mi aiuteranno più. Il mio bottino resta al suo legittimo proprietario..."
+ steal_back_artifact_outcome.2001.a:0 "Non posso crederci! #EMP Inaccettabile!#!"
+

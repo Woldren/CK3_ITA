@@ -1,0 +1,35 @@
+﻿l_spanish: 
+
+ bm_story_content_available_icon: "@story_content_icon!"
+ bm_story_content_available_copy: "#font:TitleFont #size:15 Contenuto Speciale della Storia Disponibile#!#!#!"
+
+ bm_1066_laamps: "Gli Esuli Erranti"
+ bm_1066_laamps_desc: "Signori e Dame lacerano il mondo con i loro meschini giochi di potere. Nel frattempo, grandi avventurieri sorgono da umili origini per incidere i loro nomi nell’edificio del tempo. Non vincolati dal dovere, senza titoli né corone, la loro casa è la strada, e i loro destini illimitati.\n\n#bold Con grande coraggio, astuzia e ambizione, potrai affrontare le contese della nobiltà e sfruttare i loro vani intrighi per accrescere la tua gloria! Hai ciò che serve per lottare tra fango e polvere e diventare una leggenda?#!"
+
+ bookmark_laamps_hassan_sabbah: "Hasan Sabbah"
+ bookmark_laamps_hassan_sabbah_desc: "[Concept( 'story_content_hasan', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_hasan', '$bm_story_content_available_copy|q$' )|E]\nHasan Sabbah nacque in una famiglia di scarsa fama, ma la sua costante devozione all’Islam e la resistenza fanatica all’occupazione selgiuchide lo avrebbero posto su un cammino destinato a cambiare per sempre la storia.\n\nDalle sue umili origini, Hasan era destinato a fondare gli Assassini nella loro roccaforte montana di Alamut. Sarebbe diventato leggenda, e tutti avrebbero temuto il temibile Vecchio della Montagna.\n\n#bold Hai l’astuzia e la fede assoluta per radunare i devoti e abbattere gli imperi?#!"
+
+ bookmark_laamps_suleyman_qutalmishoglu: "Suleyman Qutalmishoglu"
+ bookmark_laamps_suleyman_qutalmishoglu_desc: "Nella lotta per il trono selgiuchide, Suleyman fu sconfitto dal cugino, Alp Arslan, ed esiliato insieme ai suoi fratelli. Umiliato ma non spezzato, riusciì ad ottenere l’alleanza delle tribù turkmene locali nei Monti del Tauro.\n\nSuleyman avrebbe poi fondato il Sultanato di Rum nel mezzo dei tumulti in Anatolia, rimanendo coinvolto nelle guerre dei pretendenti bizantini.\n\n#bold La tua forza sarà sufficiente a gettare le fondamenta di un nuovo impero?#!"
+ bookmark_laamps_alt_alp_arslan: "Alp Arslan"
+ bookmark_laamps_alt_mensur_qutalmishoglu: "Mensur"
+
+ bookmark_laamps_el_cid: "Rodrigo Díaz 'il Campeador'"
+ bookmark_laamps_el_cid_desc: "[Concept( 'story_content_el_cid', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_el_cid', '$bm_story_content_available_copy|q$' )|E]\nDiscendente da nobile lignaggio, Rodrigo entrò nel consiglio reale in giovane età. Al servizio di Sancho II di Castiglia, Rodrigo si formò tanto nelle arti di corte quanto in quelle marziali, sotto l’attenta sorveglianza del re.\n\nTuttavia, la guerra di Sancho contro suo fratello Alfonso VI di León portò alla sua prematura morte e Alfonso finì per esiliare Rodrigo, dando inizio involontariamente alla sua leggenda.\n\n#bold Rodrigo crescerà fino a diventare El Cid, “il signore”, ed emergere come re a pieno titolo, o rimarrà un semplice nobile?#!"
+
+ bookmark_laamps_hereweard_the_wake: "Hereweard 'il Risvegliato'"
+ bookmark_laamps_hereweard_the_wake_desc: "[Concept( 'story_content_hereward', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_hereward', '$bm_story_content_available_copy|q$' )|E]\nEsiliato e marchiato come fuorilegge da Edoardo il Confessore, Hereweard si recò nelle Fiandre in cerca di fama e fortuna.\n\nHereweard sarebbe un giorno tornato in Inghilterra per guidare una resistenza determinata contro gli invasori normanni, diventando un eroe popolare di grande fama.\n\n#bold Hereweard rimarrà un famigerato criminale sotto la tua guida, o diventerà l’eroe che era destinato a essere?#!"
+ bookmark_laamps_alt_boudewijn_v: "Boudewijn V"
+
+ bookmark_laamps_robert_crispin: "Roberto 'Phrangopoulos'"
+ bookmark_laamps_robert_crispin_desc: "In quanto secondogenito senza diritto di eredità, Roberto Crispin abbracciò lo spirito normanno dell’avventura.\n\nGià veterano esperto del conflitto in Iberia, Roberto entrò al servizio dell’Imperatore bizantino e ora guida un contingente di mercenari normanni contro i Turchi.\n\n#bold Roberto troverà la gloria che cerca come grande comandante, o cadrà vittima del nido di vipere che è la corte bizantina?#!"
+ bookmark_laamps_alt_konstantinos_x: "Konstantinos X"
+ bookmark_laamps_alt_roussel_de_baeilleul: "Roussel de Bailleul"
+
+ bookmark_laamps_wallada_bint_al_mustakfi: "Wallada bint al-Mustakfi"
+ bookmark_laamps_wallada_bint_al_mustakfi_desc: "[Concept( 'story_content_wallada', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_wallada', '$bm_story_content_available_copy|q$' )|E]\nFiglia del Califfo di Cordova e una delle ultime degli Omayyadi, Wallada dedicò la sua vita agli studi e alla conoscenza. Curandosi poco delle aspettative di una donna nella società andalusa, Wallada camminava a capo scoperto in un mondo austero, affinando le menti delle donne di ogni ceto.\n\nLa vita di Wallada non conosce confini, e il suo potenziale è infinito.\n\n#bold Accogli e forma donne intelligenti da ogni parte del mondo alla tua causa. Puoi spezzare i vincoli della tradizione ed ereditare il lascito del Califfato Omayyade?#!"
+
+ bookmark.1073.t: "Il Legittimo Selgiuchide"
+ bookmark.1073.desc: "Sono passati tre anni da quando [tughril.GetTitledFirstName] morì senza erede, gettando [GetTitleByKey('k_persia').GetBaseNameNoTier] nel caos, con solo suo cugino, il mio giusto padre, [qutalmish.GetTitledFirstName], a mantenere l’ordine.\n\nIl nipote avido di Tughril, [alp_arslan.GetFirstName], era piombato dal Khorasan per usurpare la corona mentre i lealisti si erano radunati attorno a mio padre e a me, ma il nostro destino fu sigillato alla Battaglia di [GetTitleByKey('b_damghan').GetNameNoTier]: mio padre morto; io catturato...\n\nPerdonato ma esiliato dai miei parenti senza onore, i miei fratelli e io guidiamo i rimanenti fedeli, strappando magre esistenze nelle montagne. Io #EMP so#! che cose più grandi ci attendono — anche ora gli eserciti oghuz premono verso [GetTitleByKey('e_byzantium').GetNameNoTier|l], terre ricche pronte per essere colte!"
+ bookmark.1073.a: "È il mio destino fondare un #EMP nuovo#! regno selgiuchide!"
+ bookmark.1073.b: "Il trono selgiuchide appartiene a #EMP me#!."

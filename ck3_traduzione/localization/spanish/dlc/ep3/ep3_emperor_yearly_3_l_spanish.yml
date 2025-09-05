@@ -1,0 +1,67 @@
+﻿l_spanish:
+
+
+ep3_emperor_yearly.3000.t: "Il Diritto di Saccheggio del Palazzo"
+ep3_emperor_yearly.3000.desc: "Possenti e pelosi variaghi si aggirano per le mie nuove sale imperiali, con le braccia cariche d'oro e altri gioielli.\n\nDopo la morte [dead_emperor.Custom('IT_NAM_COL2')][dead_emperor.GetTitledFirstName], coloro che lo avrebbero difeso fino alla all'ultimo sono penetrati nelle stanze del tesoro e si sono impadroniti di ciò che volevano. È un loro diritto tradizionale e nessuno osa impedire a questi guerrieri d'elite di prendersi la loro sfavillante ricompensa.\n\nQuesto è il prezzo che devo pagare per tenere al guinzaglio le mie [GetMaA('varangian_guards').GetName], i miei segugi giurati.\n\n"
+
+ep3_emperor_yearly.3000.desc_leader: "E così, agli ordini [varangian_leader.Custom('IT_NAM_COL2')][varangian_leader.GetFullName], attingono alle finanze [ROOT.Char.Custom('DE_PRO_PER_P_3P_A')] monarca scelt[ROOT.Char.Custom('DE_END_PRO_S_N')] da [ROOT.Char.GetFaith.HighGodName]."
+ep3_emperor_yearly.3000.desc_no_leader: "E così gli uomini del Nord attingono alle finanze [ROOT.Char.Custom('DE_PRO_PER_P_3P_A')] monarca scelt[ROOT.Char.Custom('DE_END_PRO_S_N')] da [ROOT.Char.GetFaith.HighGodName]."
+
+ep3_emperor_yearly.3000.a: ""Fermateli, Akolouthos! Recuperate il mio oro!""
+ep3_emperor_yearly.3000.a.flavor: ""[varangian_leader.GetFirstNameNoTooltip]! Siete stat[varangian_leader.Custom('DE_END_PRO_S_N')] nominat[varangian_leader.Custom('DE_END_PRO_S_N')] comandante della Guardia, pertanto dovreste essere in grado di controllare la Guardia. #EMP Fatelo!#!""
+ep3_emperor_yearly.3000.b: "Usanza o meno, castigherò queste bestie!"
+ep3_emperor_yearly.3000.b.flavor: "Avranno la loro ricompensa, ma il palazzo imperiale deve mantenere la sua dignità. Bisogna dare degli esempi!"
+ep3_emperor_yearly.3000.c: "La fedeltà ha il suo prezzo."
+ep3_emperor_yearly.3000.c.flavor: "I variaghi rinunciano al loro regolare stipendio e intraprendono un lungo viaggio per ricevere questa grande ricompensa." 
+
+akolouthos_aptitude_option_unlock: "Questa opzione è disponibile grazie all'elevata [aptitude|e] del tuo [GetCourtPositionType('akolouthos_court_position').GetName()]"
+
+disrespected_varangians_modifier: "Mancanza di Rispetto per i Variaghi"
+disrespected_varangians_modifier_desc: "L'aver contestato il diritto delle Guardie Variaghe ad ottenere la loro ricompensa ha seriamente minato la loro lealtà, oltreché quella delle altre truppe mercenarie assoldate."
+major_gold_to_varangians_tooltip: "Paghi [gold_i]#negative_value 75#! a causa delle #high 3#! [court_position|E] occupate dai variaghi"
+medium_gold_to_varangians_tooltip: "Paghi [gold_i]#negative_value 50#! a causa delle #high 2#! [court_position|E] occupate dai variaghi"
+minor_gold_to_varangians_tooltip: "Paghi [gold_i]#negative_value 25#! a un variago titolare di una [court_position|E]"
+
+loyal_varangians_modifier: "Variaghi Valorosi"
+loyal_varangians_modifier_desc: "Rinforzate da incrollabili variaghi, le formazioni di fanteria pesante di questo personaggio sono solide e colpiscono duramente."
+
+attentive_varangians_modifier: "Variaghi Disciplinati"
+attentive_varangians_modifier_desc: "Ben ricompensate per i loro servizi, le guardie variaghe evitano le risse e i bagordi a favore di una coscienziosa protezione."
+eager_varangian_army: "Folla Variaga"
+
+ep3_emperor_yearly.3011.t: "Il Nostro Fuoco Segreto"
+ep3_emperor_yearly.3011.intro: "[invader.Custom('IT_NAM_COL3')|U][invader.GetTitleAsName] di [invader.GetPrimaryTitle.GetNameNoTier] avrebbe dovuto sapere che non bisognava"
+ep3_emperor_yearly.3011.liege_attacking: "veleggiare verso la"
+ep3_emperor_yearly.3011.commander_attacking: "inviare la flotta [invading_commander.Custom('IT_NAM_COL2')][invading_commander.GetTitledFirstName] nella"
+ep3_emperor_yearly.3011.desc: "tranquilla [army.GetLocation.GetNameNoTooltip], che non bisognava sfidare la città di [ROOT.Char.GetFaith.HighGodName].\n\nI [Glossary( 'dromons', 'DROMONS_GLOSS' )] della mia flotta, con a bordo sifoni di bronzo con bocche di drago, si stanno allontanando dai loro moli. Se le acque saranno calme e i comandanti coordineranno bene il loro attacco... i miei nemici bruceranno.\n\nSe [ROOT.Char.GetFaith.HighGodName] dovesse mai richiedere un prezzo da pagare per i nostri peccati, anche molti difensori [ROOT.Char.GetCapitalLocation.GetCounty.GetCulture.GetCollectiveNoun] saranno immolati. Il fuoco liquido è il caos incarnato!"
+ep3_emperor_yearly.3011.kyrie_eleison: "[Glossary( 'Kýrie, eléison', 'KYRIE_ELEISON_GLOSS' )]!"
+
+KYRIE_ELEISON_GLOSS: "#bold Kýrie, eléison#! — "Signore, abbi pietà di me!", è una preghiera cristiana invocata dalle forze bizantine come grido di battaglia."
+ep3_emperor_yearly.3011.a: "Diamo fuoco all'acqua stessa!"
+ep3_emperor_yearly.3011.a.success: "L'assalto incenerisce il nemico"
+ep3_emperor_yearly.3011.a.fail: "˜Stai subendo forti perdite"
+ep3_emperor_yearly.3011.a.critical_fail: "Le tue navi si distruggono da sole"
+ep3_emperor_yearly.3011.b: "Non posso rischiare di perdere la flotta."
+unable_to_use_fire_ships_tooltip: "@alert_icon! #alert_trial Le tue navi col #italic fuoco greco!#! non saranno disponibili per #high 30 giorni#!"
+
+ravaged_by_greek_fire_modifier: "Devastati dal Fuoco Greco"
+ravaged_by_greek_fire_modifier_desc: "I soldati superstiti di questo esercito sono terribilmente ustionati e col morale a terra."
+
+defenders_immolated_modifier: "Difensori Immolati"
+defenders_immolated_modifier_desc: "Il porto è privo di flotta e le mura sono presidiate da sopravvissuti bendati per le orribili ustioni riportate."
+
+assaulted_by_greek_fire_modifier: "Attaccati col Fuoco Greco"
+assaulted_by_greek_fire_modifier_desc: "Le truppe di questo personaggio sono state demoralizzate, disperse e parte di loro perfino bruciate vive durante un attacco navale col fuoco greco."
+
+ep3_emperor_yearly.3012.t: "Draghi sul Bosforo"
+ep3_emperor_yearly.3012.intro: "I miei [Glossary( 'dromons', 'DROMONS_GLOSS' )] si avvicinano con decisione affinché le loro armi del terrore possano colpire la flotta [invader.GetPrimaryTitle.GetAdjective].\n\nFragorosi boati risuonano [army.GetLocation.Custom('IT_COU_COL3')][army.GetLocation.GetNameNoTooltip]! Grandi code di fuoco illuminano un campo di battaglia soffocato dal fumo e assordato da urla infernali.\n\n"
+ep3_emperor_yearly.3012.attack_success: "Le navi [invader.Custom('IT_NAM_COL2')][invader.GetTitledFirstName] vengono avvolte dalle fiamme come imponenti pire funerarie. Corpi urlanti e carbonizzati saltano in mare invocando la salvezza di [invader.GetFaith.HighGodName], ma anche in acqua i miei nemici trovano solo fuoco!\n\nMentre il mare risplende, i miei dromoni fanno ritorno vittoriosi."
+ep3_emperor_yearly.3012.attack_fail: "Parte della flotta [invader.GetPrimaryTitle.GetAdjectiveNoTooltip] va in fiamme e gli equipaggi disperati urlano in agonia, ma diverse navi riescono ad allontanarsi e a sfuggire all'attacco. I miei dromoni faranno presto ritorno ai loro ormeggi, puzzando di pece e nafta.\n\nLe forze nemiche, sebbene colpite e indebolite, rappresentano ancora una seria minaccia."
+ep3_emperor_yearly.3012.attack_crit_fail: "Ahimè, #EMP le mie navi sono in fiamme!#! Mentre le onde impetuose proiettano le fiamme dei miei sifoni sui ponti degli stessi dromoni da cui partono, la flotta [invader.GetPrimaryTitle.GetAdjectiveNoTooltip] rimane appena fuori dalla nostra portata.\n\nSolo poche navi amiche si salvano e fanno ritorno nel grande porto di Costantinopoli."
+ep3_emperor_yearly.3012.a_success: "Un tempo invasori, ora #EMP cenere!#!"
+ep3_emperor_yearly.3012.a_fail: "Perfino il fuoco del [ROOT.Char.GetFaith.PositiveAfterLife] ha i suoi limiti."
+ep3_emperor_yearly.3012.a_crit_fail: "Una catastrofe!"
+
+two_knights_killed_tooltip: "@death_icon!#high 2#! [knights|e] rimangono uccisi"
+three_knights_killed_tooltip: "#high 3#! [knights|e] rimangono feriti"
+two_knights_wounded_tooltip: "#high 2#! [knights|e] rimangono feriti"

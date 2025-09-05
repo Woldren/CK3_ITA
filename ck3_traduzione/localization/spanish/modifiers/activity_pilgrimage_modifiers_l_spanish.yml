@@ -1,0 +1,180 @@
+﻿l_spanish:
+ pilgrimage_sympathetic_towards_faiths_modifier:0 "Simpatia per gli Infedeli"
+ pilgrimage_disdainful_towards_faiths_modifier:0 "Disprezzo per gli Infedeli"
+
+ pilgrimage_divine_protection_modifier:0 "Protezione Divina"
+ pilgrimage_divine_protection_modifier_desc:1 "Questo personaggio ha viaggiato in sicurezza quasi senza protezione attraverso terre straniere."
+
+ new_pilgrimage_companions_modifier:0 "Compagni di Pellegrinaggio Variegati"
+ new_pilgrimage_companions_modifier_desc:1 "Questo personaggio ha viaggiato con persone molto diverse."
+
+ showy_about_pilgrimage_modifier:0 "Pellegrinaggio Teatrale"
+ showy_about_pilgrimage_modifier_desc:1 "Questo personaggio ha fatto in modo che tutti sapessero quanto fosse pio il loro pellegrinaggio."
+
+ pilgrimage_worldly_modifier:1 "Pellegrinaggio Laico"
+ pilgrimage_worldly_modifier_desc:1 "Un pellegrinaggio ha insegnato molto a questo personaggio sul mondo."
+
+ dedicated_to_pilgrimage_modifier:1 "Pellegrino Devoto"
+
+ hajj_halq_modifier:0 "Halq"
+ hajj_halq_modifier_desc:0 "La testa di questo personaggio è stata rasata, segno del loro recente completamento dell'Hajj."
+
+ pilgrimage_armed_pilgrimages_modifier:0 "Pellegrino Determinato"
+ pilgrimage_armed_pilgrimages_modifier_desc:0 "Questo personaggio è stato in pellegrinaggio mentre seguiva il [core_tenet|E] [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]."
+ pilgrimage_mendicant_preachers_modifier:0 "Il Viaggio della Povertà"
+ pilgrimage_mendicant_preachers_modifier_desc:0 "Questo personaggio è stato in pellegrinaggio mentre seguiva il [core_tenet|E] [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]."
+ pilgrimage_pentarchy_modifier:0 "Le Sedi dei Vescovi"
+ pilgrimage_pentarchy_modifier_desc:0 "Questo personaggio è stato in pellegrinaggio mentre seguiva il [core_tenet|E] [GetFaithDoctrine('tenet_pentarchy').GetBaseName]."
+ pilgrimage_struggle_submission_modifier:0 "Dimostrazione di Sottomissione"
+ pilgrimage_struggle_submission_modifier_desc:0 "Questo personaggio è stato in pellegrinaggio mentre seguiva il [core_tenet|E] [GetFaithDoctrine('tenet_struggle_submission').GetBaseName]."
+ pilgrimage_ancestor_worship_modifier:0 "Sulle Orme dei Miei Antenati"
+ pilgrimage_ancestor_worship_modifier_desc:0 "Questo personaggio è stato in pellegrinaggio mentre seguiva il [core_tenet|E] [GetFaithDoctrine('tenet_ancestor_worship').GetBaseName]."
+
+ pilgrimage_religious_reflections_modifier:0 "Mistico Incontrato in Pellegrinaggio"
+
+ pilgrimage_rest_and_good_health_modifier:0 "Viaggiatore Rilassato"
+ pilgrimage_rest_and_good_health_modifier_desc:0 "Questo personaggio prende il viaggio con calma."
+ 
+ pilgrimage_botched_miracle_modifier:0 "Ha Subito un Miracolo Mal Riuscito"
+ pilgrimage_botched_miracle_modifier_desc:0 "La malattia di questo personaggio è stata aggravata da un miracolo mal riuscito."
+
+ pilgrimage_miracle_witness_modifier:0 "Testimone di un Miracolo"
+ pilgrimage_miracle_witness_modifier_desc:0 "Questo personaggio è stato testimone di un miracolo." 
+                 
+ pilgrimage_religion_spread_modifier:0 "Ha Diffuso la Religione"
+ pilgrimage_religion_spread_modifier_desc:0 "This character has successfully spread religion to other people."
+ pilgrimage_flogging_spread_modifier:0 "Ha Diffiso la Fusticazione"
+ pilgrimage_flogging_spread_modifier_desc:0 "Questo personaggio ha diffuso con successo l'arte dell'autoflagellazione."
+ pilgrimage_work_work_modifier:1 "Duro lavoro"
+ pilgrimage_work_work_modifier_desc:0 "Questo personaggio ha convinto una persona a espiare i propri peccati tramite il lavoro manuale."
+
+ pilgrimage_perfect_worldly_reward_modifier:0 "Pellegrino colto"
+ pilgrimage_perfect_worldly_reward_modifier_desc:0 "Questo personaggio è estremamente aperto alle altre culture e manifestazioni."
+ pilgrimage_high_worldly_reward_modifier:0 "Pellegrino altruista"
+ pilgrimage_high_worldly_reward_modifier_desc:0 "Questo personaggio accetta molto bene le altre culture e manifestazioni."
+ pilgrimage_mid_worldly_reward_modifier:0 "Pellegrino incuriosito"
+ pilgrimage_mid_worldly_reward_modifier_desc:0 "Questo personaggio accetta le altre culture e manifestazion."
+ pilgrimage_low_worldly_reward_modifier:0 "Pellegrino protetto"
+ pilgrimage_low_worldly_reward_modifier_desc:0 "Questo personaggio accetta leggermente le altre culture e manifestazion."
+
+ pilgrimage_accepting_modifier:0 "Accettazione"
+ pilgrimage_accepting_modifier_desc:0 "Questo personaggio ha accettato di percorrere la strada panoramica durante un pellegrinaggio."
+
+ keen_eye_modifier:0 "Occhio Attento"
+ keen_eye_modifier_desc:0 "Questo personaggio è stato in grado di identificare le reliquie false"
+
+ pilgrimage_combat_omen_modifier:0 "Presagio di Combattimento"
+ pilgrimage_combat_omen_modifier_desc:0 "Questo personaggio ha recentemente avuto più successo nelle imprese marziali dopo aver assistito a un presagio."
+
+ pilgrimage_watchful_omen_modifier:0 "Presagio Cautelativo"
+ pilgrimage_watchful_omen_modifier_desc:0 "Questo personaggio è sempre più diffidente dopo aver assistito a un presagio."
+
+ pilgrimage_hostile_omen_modifier:0 "Presagio Vendicativo"
+ pilgrimage_hostile_omen_modifier_desc:0 "Questo personaggio ha vissuto un'esperienza che crede sia un segno della caduta dei suoi nemici."
+
+ pilgrimage_failure_omen_modifier:0 "Cattivo Presagio"
+ pilgrimage_failure_omen_modifier_desc:0 "Questo personaggio crede che la sua sofferenza sia preordinata."
+
+ pilgrimage_horny_omen_modifier:0 "Presagio Fruttuoso"
+ pilgrimage_horny_omen_modifier_desc:0 "Questo personaggio crede che presto avrà un/una figlio/a."
+
+ pilgrimage_family_omen_modifier:0 "Presagio Familiare"
+ pilgrimage_family_omen_modifier_desc:0 "Questo personaggio ha recentemente trascorso più tempo con la propria famiglia dopo aver sperimentato un presagio."
+
+ determination_modifier:0 "Determinato"
+ determination_modifier_desc:0 "Questo personaggio ha contemplato la morte ed ora pieno di determinazione!"
+
+ determined_to_live_modifier:0 "Determinato a vivere"
+ determined_to_live_modifier_desc:0 "Questo personaggio ha contemplato la morte ed ora ha un'irrefrenabile volontà di continuare a vivere.!"
+
+ imperial_contemplation_modifier:0 "Contemplazione imperiale"
+ imperial_contemplation_modifier_desc:0 "Questo personaggio ha recentemente contemplato la natura effimera dei grandi imperi della storia."
+
+ contemplated_ancient_gods_modifier:0 "Contemplazione Divina"
+ contemplated_ancient_gods_modifier_desc:0 "Questo personaggio ha recentemente contemplato la fede delle antiche civiltà e la natura del culto umano per il divino."
+
+ pilgrimage_touched_divine_modifier:0 "Toccato dal Fuoco Divino"
+ pilgrimage_touched_divine_modifier_desc:0 "Questo personaggio si è arrampicato sull'albero di una nave durante una forte tempesta e ha toccato le fiamme divine."
+
+ pilgrim_group_joined_modifier:0 "Compagnia di Pellegrini"
+ pilgrim_group_joined_modifier_desc:0 "Questo personaggio ha sostenuto un gruppo di pellegrini contadini nel loro viaggio verso un luogo sacro."
+
+ pilgrimage_temple_architect_modifier:0 "Ispirazione del Tempio"
+ pilgrimage_temple_architect_modifier_desc:0 "Questo personaggio ha ammirato templi al di fuori del proprio regno durante un pellegrinaggio."
+
+ pilgrimage_forgiving_modifier:0 "Indulgente"
+ pilgrimage_forgiving_modifier_desc:0 "Si dice che questo personaggio abbia una natura indulgente."
+
+ pilgrimage_exotic_wares_modifier:0 "Prodotti Esotici"
+ pilgrimage_exotic_wares_modifier_desc:0 "Questo personaggio trasporta della merce esotica che può essere rivenduta a casa."
+
+ pilgrimage_super_exotic_wares_modifier:0 "Prodotti Straordinariamente Esotici"
+ pilgrimage_super_exotic_wares_modifier_desc:0 "Questo personaggio trasporta oggetti straordinariamente esotici che possono essere rivenduti a casa."
+
+ local_expert_modifier:0 "Esperto Locale"
+ local_expert_modifier_desc:0 "Questo personaggio è famoso per le proprie conoscenze geografiche dopo aver sfogliato una guida turistica."
+ pilgrim_guide_modifier:0 "$local_expert_modifier$"
+
+ architectural_interest_modifier:0 "Interesse Architettonico"
+ architectural_interest_modifier_desc:0 "Questo personaggio ha dimostrato interesse per l'architettura secolare"
+
+ pilgrimage_burial_at_destination_modifier:0 "Riposo Sacro"
+ pilgrimage_burial_at_destination_modifier_desc:0 "Questo personaggio sta trasportando i resti del suo predecessore, per deporli nel luogo sacro di destinazione."
+
+ pilgrimage_burial_at_capital_modifier:0 "Riposo nella Capitale"
+ pilgrimage_burial_at_capital_modifier_desc:0 "Questo personaggio sta trasportando i resti del suo predecessore, per deporli a casa."
+
+ pilgrimage_turned_back_buried_modifier:0 "Priorità al luogo di Riposo"
+ pilgrimage_turned_back_buried_modifier_desc:0 "Questo personaggio ha dato la priorità alla deposizione dei resti del suo predecessore in casa."
+
+ pilgrimage_buried_at_destination_modifier:0 "Luogo di Riposo Sacro"
+ pilgrimage_buried_at_destination_modifier_desc:0 "Questo personaggio ha deposto i resti del suo predecessore in un luogo sacro."
+
+ pilgrimage_buried_at_capital_modifier:0 "Riposo del Pellegrino"
+ pilgrimage_buried_at_capital_modifier_desc:0 "Questo personaggio ha onorato un pellegrinaggio iniziato prima di deporre le spoglie del suo predecessore."
+
+ hajj_hygienic_modifier:0 "Igienico"
+ hajj_hygienic_modifier_desc:0 "Questo personaggio si astiene dal condividere i liquidi con la folla durante l'Hajj."
+
+ hajj_prophet_like_modifier:0 "Come un Profeta"
+ hajj_prophet_like_modifier_desc:0 "Questo personaggio ha compiuto un abbondante sacrificio religioso nello spirito del Profeta durante l'Hajj."
+
+ hajj_camel_knowledge_modifier:0 "Sacrificio del Cammello"
+ hajj_camel_knowledge_modifier_desc:0 "Questo personaggio ha sacrificato un cammello durante l'Hajj."
+ 
+ hajj_pushed_the_marwah_modifier:0 "Marwah Intenso"
+ hajj_pushed_the_marwah_modifier_desc:0 "Questo personaggio si è spinto al limite quando ha compiuto i giri tra Safa e Marwah durante l'Hajj."
+
+ hajj_skimp_on_safa_modifier:0 "Tempo Libero a Safa"
+ hajj_skimp_on_safa_modifier_desc:0 "Questo personaggio se l'è presa comoda quando ha compiuto i giri tra Safa e Marwah durante l'Hajj."
+
+ hajj_caught_on_safa_modifier:0 "Pigrizia a Safa"
+ hajj_caught_on_safa_modifier_desc:0 "Questo personaggio è stato sorpreso a prendersela comoda mentre faceva i giri tra Safa e Marwah durante l'Hajj."
+
+ hajj_prayer_wealth_modifier:0 "Orientamento alla Ricchezza"
+ hajj_prayer_wealth_modifier_desc:0 "Questo personaggio ha avuto un'ispirazione divina e si è concentrato sulla ricchezza."
+
+ hajj_prayer_prestige_modifier:0 "Orientamento al Prestigio"
+ hajj_prayer_prestige_modifier_desc:0 "Questo personaggio ha avuto un'ispirazione divina e si è concentrato sul prestigio."
+
+ hajj_prayer_opinion_modifier:0 "Orientamento alle Opinioni"
+ hajj_prayer_opinion_modifier_desc:0 "Questo personaggio ha avuto un'ispirazione divina e si è concentrato sulla simpatia."
+
+ ghost_pilgrimage_promised_modifier:0 "Influenzato dai Fantasmi"
+ ghost_pilgrimage_promised_modifier_desc:0 "$pilgrimage_promised_modifier_desc$"
+
+ hajj_promised_modifier:0 "Hajj Promesso"
+ hajj_promised_modifier_desc:0 "Il prossimo pellegrinaggio Hajj di questo personaggio sarà più economico."
+
+ pilgrimage_promised_modifier:0 "Pellegrinaggio Promesso"
+ pilgrimage_promised_modifier_desc:0 "Il prossimo Pellegrinaggio di questo personaggio sarà più economico."
+
+ pilgrimage_herbalist_modifier:0 "Pellegrinaggio Erbalistico"
+ pilgrimage_herbalist_modifier_desc:0 "Questo personaggio ha assistito un altro pellegrino attraverso l'erboristeria."
+
+ pilgrimage_chill_ship_modifier:0 "Tempo di Riposo"
+ pilgrimage_chill_ship_modifier_desc:0 "Questo personaggio ha trascorso un periodo di riposo al mare."
+
+ pilgrim_protection_modifier:0 "Protezione dei Pellegrini"
+ pilgrim_protection_modifier_desc:0 "Questo gruppo di pellegrini ha ottenuto una protezione supplementare da parte degli uomini forti locali."
+ 

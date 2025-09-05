@@ -1,0 +1,82 @@
+﻿l_spanish:
+
+ war_event.1901:1 "Il tuo [liege|E], [attacker_winner.GetUIName], ha vinto la sua [war|E] contro [defender_loser.Custom('IT_NAM_COL3')][defender_loser.GetShortUIName]!"
+ war_event.1902:1 "Il tuo [liege|E], [defender_loser.GetUIName], ha perso la sua [war|E]rra contro [attacker_winner.Custom('IT_NAM_COL3')][attacker_winner.GetShortUIName]!"
+ war_event.1903:1 "Il tuo [liege|E], [attacker_white_peace.GetUIName], ha firmato una [white_peace|E] con [defender_white_peace.Custom('IT_NAM_COL3')][defender_white_peace.GetShortUIName]!"
+ war_event.1904:1 "Il tuo [liege|E], [defender_white_peace.GetUIName], ha firmato una [white_peace|E] con [attacker_white_peace.Custom('IT_NAM_COL3')][attacker_white_peace.GetShortUIName]!"
+ war_event.1905:1 "Il tuo [liege|E], [attacker_loser.GetUIName], ha perso la guerra contro [defender_winner.Custom('IT_NAM_COL3')][defender_winner.GetShortUIName]!"
+ war_event.1906:1 "Il tuo [liege|E], [defender_winner.GetUIName], ha vinto la guerra contro [attacker_loser.Custom('IT_NAM_COL3')][attacker_loser.GetShortUIName]!"
+
+ war_event.notification_liege_win.t:0 "Il tuo Signore ha vinto la Guerra"
+ war_event.notification_liege_loss.t:0 "Il tuo Signore ha perso la Guerra"
+
+ war_event.1001.t:0 "Il Mio Signore Dichiara Guerra"
+ war_event.1001.desc:0 "È strano quanto velocemente una situazione possa cambiare durante la guerra.\n\nNel bel mezzo della lotta contro [recipient.Custom2('MyCharacterIntroduction', ROOT.Char)], è arrivata una missiva da [liege_invalidator.Custom2('MyCharacterIntroduction', ROOT.Char)]. [liege_invalidator.GetSheHe|U] mi chiede di abbandonare la mia causa e seguirl[liege_invalidator.Custom('DE_END_PRO_S_N')] nella #EMP la sua#! guerra contro [recipient.GetTitledFirstName]."
+ war_event.1001.a:0 "M-ma per quanto riguarda la mia guerra !? Maledett[liege_invalidator.Custom('DE_END_PRO_S_N')]!"
+
+ war_event.2003.desc:0 "Pochè [liege_invalidator.Custom2('MyCharacterIntroduction', invalidator)] ora è in guerra contro di te, le mie forze si uniranno alla sua causa."
+ war_event.2003.a:0 "Così sia."
+
+ war_event.2001.t:0 "Un Nuovo Avversario"
+ war_event.2001.desc:0 "Nulla a questo mondo è certo, soprattutto in tempo di guerra. La [war.GetName] non fa differenza.\n\nPoiché questo conflitto ora non è più contro [previous_defender.Custom2('MyCharacterIntroduction', ROOT.Char)], ma contro [defender.Custom2('MyCharacterIntroduction', ROOT.Char)], potrebbe essere saggio rivalutare la situazione."
+ war_event.2001.a:0 "Il mio obiettivo è sempre lo stesso."
+ war_event.2001.a.tt:0 "La guerra imperversa"
+ war_event.2001.b:0 "Questa non è più la migliore linea d'azione."
+ war_event.2001.c: "Possiamo, forse, trovare un accordo?"
+ war_event.2001.c.tt: "Richiedere una grossa somma d'oro [defender.Custom('IT_NAM_COL4')][defender.GetTitledFirstName] in cambio della fine della guerra"
+
+
+ war_event.2002.t:0 "[invalidator.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.2002.desc:0 "Purtroppo ci siamo trovati su parti opposte in questo conflitto. Non è mai stata mia intenzione, quindi ritirerò le mie truppe."
+ war_event.2002.a:0 "Una scelta saggia."
+
+ war_event.2004.t: "[harald.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.2004.desc: "Preso atto che ora ci troviamo in disaccordo, possiamo comunque trovare un modo per risolvere questo conflitto in maniera pacifica?\n\nIo potrei richiamare le mie truppe, in cambio di una giusta quantità d'oro..."
+ war_event.2004.a: "È un buon affare."
+ war_event.2004.b: "Mai!"
+
+ war_event.2005.t: "[william.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.2005.desc: "La vostra saggezza vi precede. Avete fatto un affare."
+ war_event.2005.a: "Eccellente!"
+
+ war_event.2006.t: "[william.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.2006.desc: "Temo di dover rifiutare la vostra offerta. Ci incontreremo di nuovo sul campo di battaglia."
+ war_event.2006.a: "E guerra sia."
+
+ war_event.3001.t:0 "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.3001.desc:0 "Due anni fa avevate promesso di aiutarmi nella [war.GetName], eppure finora non avete fatto nulla per supportarmi in questo sforzo.\n\nQual è lo scopo della nostra alleanza se non muovete mai un dito per aiutarmi?"
+ war_event.3001.a:0 "Manderò immediatamente le mie truppe in tuo aiuto!"
+ war_event.3001.a.tt:0 "Se non guadagnerò [war_contribution|E] nei prossimi 12 mesi perderò [prestige_level|E] e metterò a rischio la mia alleanza con [war_owner.GetTitledFirstNameNoTooltip]!"
+ war_event.3001.b:0 "Questo scrigno d'oro dovrebbe compensare la mia assenza..."
+ war_event.3001.b.tt:0 "Non manderò i miei uomini a combattere la [war.GetName]."
+ war_event.3001.c:0 "Mi scuso, non avrei dovuto affermare che sarei stato d'aiuto."
+
+ war_event.3002.t:0 "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.3002.desc.start:0 "Nonostante la tua promessa di inviare truppe in mio aiuto, devo ancora vedere uno solo dei tuoi soldati sul campo di battaglia."
+ war_event.3002.desc.end.1:0 "Rompendo il tuo giuramento in questo modo hai recato disonore a te stesso e alla tua famiglia."
+ war_event.3003.desc.end.2:0 "Il tuo fallimento in questo senso ha seriamente danneggiato la mia fiducia in te, [ROOT.Char.GetTitledFirstName]."
+ war_event.3002.1.a:0 "Ottimo."
+ war_event.3003.2.a:0 "La prossima volta farò meglio."
+ war_event.3003.2.b:0 "Forse dovrei solo porre fine alla nostra alleanza...?"
+
+ war_event.neighbor_war.both_neighbors.t:0 "Guerra dei Vicini Risolta"
+ war_event.neighbor_war.both_neighbors.desc:1 "Il tuo vicino, [winner.Custom('IT_NAM_COL3')][winner.GetTitledFirstName], ha vinto la guerra contro [loser.Custom('IT_NAM_COL3')][loser.GetTitledFirstName], nella [war.GetName]!"
+
+ war_event.neighbor_war.only_winner.t:0 "Il Sovrano Confinante ha Vinto la Guerra"
+ war_event.neighbor_war.only_winner.desc:3 "Il tuo vicino, [winner.Custom('IT_NAM_COL3')][winner.GetTitledFirstName], ha vinto contro [loser.Custom2('YourCharacterIntroductionNoComma', this_player)], nella [war.GetName]!"
+
+ war_event.neighbor_war.only_loser.t:0 "Il Sovrano Confinante ha Perso la Guerra"
+ war_event.neighbor_war.only_loser.desc:2 "Il tuo vicino, [loser.Custom('IT_NAM_COL3')][loser.GetTitledFirstName], ha perso contro [winner.Custom2('YourCharacterIntroductionNoComma', this_player)], nella [war.GetName]!"
+
+ #Holy wars "soft invalidated" by faith change
+ war_event.3101.t:0 "Fede Ritrovata"
+ war_event.3101.desc:0 "Mi è giunta la notizia della conversione [defender.Custom('IT_NAM_COL2')][defender.GetTitledFirstName] alla fede [defender.GetFaith.GetNameNoTooltip]. Non ho più il diritto dato da [ROOT.Char.GetFaith.HighGodName] di muovere guerra contro [defender.GetPrimaryTitle.GetNameNoTierNoTooltip]."
+ war_event.3101.a:0 "È giunto il momento di abbassare le nostre spade."
+ war_event.3101.b.tt:0 "[war.GetName] continua"
+ war_event.3101.b:0 "[defender.GetSheHe|U] crede che questo mi fermerà? Ha!"
+
+ war_event.3102.t:0 "[attacker.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ war_event.3102.desc:0 "La tua ritrovata fiducia in [ROOT.Char.GetFaith.HighGodName] è poco convincente. La mia causa è ancora giusta, non ci sarà pietà."
+ war_event.3102.a:0 "[ROOT.Char.Custom('CulturalCurse')|U]!"
+
+

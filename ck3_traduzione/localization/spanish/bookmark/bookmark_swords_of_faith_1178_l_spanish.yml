@@ -1,0 +1,34 @@
+﻿l_spanish: 
+
+ bm_1178_swords_of_faith: "Le spade della fede"
+ bm_1178_swords_of_faith_desc: "Spinti dal fervore religioso e dalla promessa di ricompense sia spirituali che temporali, principi e poveri marciarono verso est in nome di Dio, dell'oro e della gloria eterna.\n\nLa loro guerra santa valse loro il regno di Gerusalemme e ora, quasi un secolo dopo, i loro eredi lottano per mantenere l'eredità dei crociati di fronte a possenti potentati musulmani come Salah ad-Din Yusuf, il nuovo sultano d'Egitto.\n\n#bold Questa è l'epoca delle crociate, al crocevia tra zelo religioso e ambizione mondana. Scegli la tua strada con saggezza, perché quale premio è più grande della Terra Santa stessa?#!"
+
+ bookmark_swords_of_faith_saladin: "Salāh al-Dīn Yusuf"
+ bookmark_swords_of_faith_saladin_saphadin: "Sayf al-Dīn Ahmad"
+ bookmark_swords_of_faith_saladin_ali: "Ali"
+ bookmark_swords_of_faith_saladin_desc: "L'ultimo visir dei Fatimidi si è finora dimostrato un energico e capace successore della dinastia che ha rovesciato, nonostante una recente sconfitta per mano del giovane e lebbroso re di Gerusalemme.\n\nAnche se formalmente investito dal Califfo abbaside come Sultano d'Egitto e Siria, finché i discendenti dei crociati si aggrapperanno ostinatamente alle conquiste dei loro antenati, il suo regno non sarà mai veramente completo.\n\n#bold Riusciranno gli Ayyubidi a trionfare sul regno di Gerusalemme e a reclamare la Terra Santa, o la caduta di questa nuova dinastia arriverà improvvisa come la sua ascesa?#!"
+
+ bookmark_swords_of_faith_sibylla: "Principessa Sibylla"
+ bookmark_swords_of_faith_sibylla_baudouin: "Re Baldovino di Gerusalemme"
+ bookmark_swords_of_faith_sibylla_baudouin_son: "Baldovino"
+ bookmark_swords_of_faith_sibylla_desc: "Gerusalemme ha già conosciuto una regina nella sua breve storia e sembra che presto ne vedrà un'altra. Il fratello di Sibylla, re Baldovino, ha governato abilmente nonostante la lebbra, ma è solo questione di tempo prima che la malattia gli tolga la vita.\n\nGiovane vedova ed erede riconosciuta del fratello, la mano di Sibylla è ambita da molti e una forte alleanza contribuirebbe a rafforzare la sua posizione.\n\n#bold La situazione a Gerusalemme è pericolosa e il suo re non è destinato a rimanere in questo mondo. Riuscirai a salire sul trono e a far sì che non solo sopravviva, ma prosperi?#!"
+
+ bookmark_swords_of_faith_levon: "Conte Levon"
+ bookmark_swords_of_faith_levon_roupen: "Principe Roupen di Cilicia"
+ bookmark_swords_of_faith_levon_desc: "Due volte la morte si è abbattuta sulla famiglia di Levon: prima per suo padre, vittima del tradimento bizantino, e poi per suo zio, un tirannico apostata ucciso dai suoi stessi cortigiani per paura di sperimentare le sue crudeltà.\n\nOra il fratello maggiore di Levon, Roupen, governa in Cilicia, un uomo dal temperamento santo che presiede un nido vizioso di intrighi e ambizioni, e potrebbe essere solo questione di tempo prima che la morte colpisca tre volte.\n\n#bold Riuscirai a superare il retaggio di conflitti della tua famiglia e a fare della Cilicia un regno a sé stante?#!"
+
+ bookmark_swords_of_faith_gokbori: "Muzaffar al-Dīn Gökböri"
+ bookmark_swords_of_faith_gokbori_ghazi: "Sayf al-Dīn Ghazi"
+ bookmark_swords_of_faith_gokbori_yusuf: "Zayn al-Dīn Yusuf"
+ bookmark_swords_of_faith_gokbori_desc: "Privato del suo patrimonio e bandito in esilio a favore di un fratello minore, Gökböri prestò la sua lama e il suo coraggio a un principe zengide e si guadagnò un nuovo feudo a Harran.\n\nIl servizio al suo nuovo signore è stato costante, ma il principe che serve viene colpito da una malattia a cui è improbabile che sopravviva, e Gökböri sa bene che la lealtà deve avere dei limiti, e che un futuro incerto spesso è foriero di opportunità.\n\n#bold Il Sultano d'Egitto ha dimostrato fino a che punto può arrivare un uomo di volontà e capacità: riuscirai a seguire le sue orme e a fondare una nuova dinastia tutta tua?#!"
+
+ bookmark_swords_of_faith_raimon: "Duca Raimon"
+ bookmark_swords_of_faith_raimon_eschiva: "Eschiva"
+ bookmark_swords_of_faith_raimon_desc: "Derubato del padre in tenera età da assassini Nizari, Raimon ha combattuto contro i predoni turcomanni da quando aveva diciassette anni, ha assoldato corsari per flagellare le coste bizantine e ha sopportato quasi un decennio di prigionia in un carcere zengide.\n\nDopo la sua liberazione, è stata una scelta naturale come reggente per il re bambino Baudouin, ma quel giovane lebbroso è ora maggiorenne e Raimon è tornato nelle sue terre per ammireare il futuro del regno, oltre che il proprio.\n\n#bold Hai assaggiato e rinunciato al potere di un re e sei rimasto un pilastro del regno. Cosa farai con la tua influenza?#!"
+
+ #EVENTS
+ bookmark.0300.t: "Il figlio di suo padre?"
+ bookmark.0300.desc: "Il mio marito defunto, [dead_husband.GetFirstName], è morto mesi prima della nascita di nostro figlio. Questo bambino non conoscerà mai suo padre e la distanza che lo separa dai suoi parenti paterni non è poca.\n\nPer quanto generoso e coraggioso possa essere stato suo padre, il nostro matrimonio #italic è stato#! breve e il suo nome ha poco peso qui...\n\nSe [baby_baudouin.GetFirstName] un giorno porterà una corona sulla sua fronte, allora potrebbe essere un vantaggio per lui se lasciassi svanire la memoria di suo padre e lo allevassi invece secondo le tradizioni della mia stirpe reale."
+ bookmark.0300.a: "Farò crescere [baby_baudouin.GetFirstNameNoTooltip] in modo che pensi a sè stesso come a un [ROOT.Char.GetHouse.GetBaseNameNoTooltip] leader."
+ bookmark.0300.b: "No, dobbiamo onorare la memoria di [dead_husband.GetFirstNameNoTooltip]."
+ bookmark.0300.b.tt: "#warning @warning_icon! Questa scelta ti lascerà con un [player_heir|E] non della tua dinastia!#!"

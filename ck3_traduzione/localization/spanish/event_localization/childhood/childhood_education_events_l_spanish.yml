@@ -1,0 +1,44 @@
+﻿l_spanish:
+ childhood_education.0004.t:0 "La Versatilità della Giovinezza"
+ childhood_education.0004.opening:0 "[ward.Custom('DE_ART_DEF_P_D')] mi[ward.Custom('DE_END_PRO_S_N')] pupill[ward.Custom('DE_END_PRO_S_N')], [ward.GetTitledFirstName], ha cambiato la materia dei suoi studi.\n\n"
+ childhood_education.0004.desc1:0 "Credo che adesso desideri approfondire le sue conoscenze in [ward.Custom('education_focus_child')], una materia in cui eccello... Questo mi scalda il cuore!"
+ childhood_education.0004.desc2:0 "Credo che abbandonerebbe il nostro interesse comune per gli studi in [ROOT.Char.Custom('education_focus')]!"
+ childhood_education.0004.desc_fallback:0 "[ward.Custom('DE_ART_IND_A')] persegue la conoscenza in [ward.Custom('education_focus_child')]."
+ childhood_education.0004.a:0 "[ward.GetTitledFirstNameNoTooltip] ora sta studiando [ward.Custom('education_focus_child')]!"
+
+
+ childhood_education.1011.t:0 "È Quello che Sono"
+ childhood_education.1011.desc:0 "[guardian.GetTitledFirstName] mi ha insegnato molto sulle usanze della sua gente — #EMP della nostra#! gente, poiché non solo io professo la fede [guardian.GetFaith.GetAdjective], per quanto mi veda totalmente come un [guardian.GetCulture.GetName]."
+ childhood_education.1011.a:0 "È l'unico modo in cui vorrei vivere."
+
+ childhood_education.1012.t:0 "Un Giorno Benedetto"
+ childhood_education.1012.desc:0 "Con l'andare avanti della sua educazione sulla fede e sulle usanze della mia gente, [ward.GetTitledFirstName] mi ha detto che [ward.GetSheHe] si sente come un[ward.Custom('DE_PRO_POS_P_2P')] buon[ward.Custom('DE_PRO_POS_P_2P')] [guardian.GetFaith.GetAdjective] di cultura [guardian.GetCulture.GetName]."
+ childhood_education.1012.a:0 "Alla fine, [ward.GetSheHe] vede la luce!"
+
+ child_culture_and_faith_converted.parent.message:1 "Le credenze e la cultura di tu[ward.Custom('DE_END_PRO_S_N')] [ward.Custom('GetDaughterSon')] [ward.GetTitledFirstName] sono cambiate sotto la guida di [guardian.GetTitledFirstName]"
+
+ childhood_education.1021.t:0 "Nella Fede, la Verità"
+ childhood_education.1021.desc:0 "La guida di [guardian.GetTitledFirstName] mi ha insegnato molto, ora sento di aver compreso la vera natura del mondo.\n\nCome ho potuto dubitare che [guardian.GetFaith.GetName] avesse tutte le risposte?"
+ childhood_education.1021.a:0 "Ho trovato la mia vera fede."
+
+ childhood_education.1022.t:0 "Nella Fede, la Verità"
+ childhood_education.1022.desc:0 "Dopo le letture e i miei insegnamenti, [ward.Custom('DE_ART_DEF_P_A')] mi[ward.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('ward'))], [ward.GetTitledFirstName], ha finalmente abbracciato la vera fede.\n\nHo sempre saputo che [ward.GetSheHe] sarebbe stat[ward.Custom('DE_END_PRO_S_N')] un[ward.Custom('DE_PRO_POS_P_2P')] buon[ward.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetFaith.GetAdjective] un giorno."
+ childhood_education.1022.a:1 "[ROOT.Char.GetFaith.KnowledgeGodName] guida la mia mano."
+
+ child_faith_converted.parent.message:1 "Le credenze di vostr[ward.Custom('DE_END_PRO_S_N')] [ward.Custom('GetDaughterSon')] [ward.GetTitledFirstName] sono cambiate sotto la guida di [guardian.GetTitledFirstName]"
+
+ childhood_education.1031.t:0 "Natura ed Educazione"
+ childhood_education.1031.desc:0 "Posso anche essere nat[ward.Custom('DE_END_PRO_S_N')] [ward.GetCulture.GetName], ma non posso negare di non sapere più nemmeno cosa significhi. Dopo gli insegnamenti di [guardian.GetTitledFirstName], mi sento [guardian.GetCulture.GetName] in tutto e per tutto."
+ childhood_education.1031.a:0 "È quello che sono."
+
+ childhood_education.1032.t:0 "Natura ed Educazione"
+ childhood_education.1032.desc:0 "Dopo avere a lungo insegnato al[ward.Custom('DE_END_ADJ_NUL_S_N')] giovane [ward.GetTitledFirstName], sono rimast[guardian.Custom('DE_END_PRO_S_N')] compiaciut[guardian.Custom('DE_END_PRO_S_N')] quando mi ha detto che si considera [guardian.GetCulture.GetName]!"
+ childhood_education.1032.a:0 "E infatti lo è!"
+
+ child_culture_converted.parent.message:1 "La cultura di tu[ward.Custom('DE_END_PRO_S_N')] [ward.Custom('GetDaughterSon')] [ward.GetTitledFirstName] è cambiata sotto la guida di [guardian.GetTitledFirstName]"
+
+ childhood_education.9004.child_message:0 "[GetPerk( 'pedagogy_perk' ).GetName( GetPlayer )] di [guardian.GetTitledFirstNameNoTooltip]"
+ childhood_education.9004.guardian_message:1 "[GetPerk( 'pedagogy_perk' ).GetName( GetPlayer )]"
+
+ childhood_education.9010.child_message:0 "[GetPerk( 'just_one_more_hill_perk' ).GetName( GetPlayer )] di [parent.GetTitledFirstNameNoTooltip]"
+ childhood_education.9010.parent_message:1 "[GetPerk( 'just_one_more_hill_perk' ).GetName( GetPlayer )]"

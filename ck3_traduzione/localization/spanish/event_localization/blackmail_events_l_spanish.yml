@@ -1,0 +1,15 @@
+﻿l_spanish:
+ blackmail.0001.t:0 "Ricatto rifiutato!"
+ blackmail.0001.desc:0 "Che si tratti di un errato senso di orgoglio, o di paura di una rappresaglia più grande, [recipient.GetTitledFirstName] afferma che non ho alcun potere su di [recipient.GetHerHim]!"
+ blackmail.0001.a:0 "È stata fatta una minaccia e può esserci un solo esito..."
+ blackmail.0001.b:0 "Odio ammetterlo, ma non posso svelare questo segreto."
+
+ blackmail.1001.t:0 "Paura dell'Ignoto"
+ blackmail.1001.desc:0 "I miei vassalli non sanno nulla del mio ricatto, ma hanno notato come la mia vittima, [blackmail_target.GetTitledFirstName], si comporta in mia presenza. Hanno visto la paura che alberga nei suoi occhi..."
+ blackmail.1001.a:0 "#EMP Tutti#! dovrebbero temermi..."
+ blackmail.1001.b:0 ""Vi assicuro che non sta succedendo niente di spiacevole!""
+
+ blackmail.1002.t:0 "L'Ombra Incombe"
+ blackmail.1002.desc:0 "La paura di essere smascherato è costantemente nella mia mente. [blackmailer.GetTitledFirstName] sa troppo su di me e le conseguenze di rifiutare una qualsiasi delle sue richieste sono troppo grandi anche per essere contemplate.\n\nSono veramente al sicuro?"
+ blackmail.1002.a:0 "Di notte giaccio sveglio con preoccupazione."
+ blackmail.1002.b:0 "Andrà tutto bene, [blackmailer.GetFirstNameNoTooltip] mi ha detto così!"

@@ -1,0 +1,69 @@
+﻿l_spanish:
+ handhands_hand:0 "mano"
+ handhands_hands:0 "mani"
+
+ fistfists_fist:0 "pugno"
+ fistfists_fists:0 "pugni"
+
+ armarms_arm:0 "braccio"
+ armarms_arms:0 "braccia"
+ 
+ footfeet_foot:0 "piede"
+ footfeet_feet:0 "piedi"
+
+ eyeeyes_eye:0 "occhio"
+ eyeeyes_eyes:0 "occhi"
+
+ maskface_mask:0 "maschera"
+ maskface_face:0 "faccia"
+
+ # Grammatical Stuff
+ articleblank_article:0 "uno/una "
+ articleblank_articlevowel:0 "un/un' "
+ articleblank_blank:0 ""
+ articletwo_two: "due"
+
+ maskface_behind:0 "dietro"
+ maskface_in:0 "sulla"
+ maskface_across:0 "attraverso"
+ 
+ # Substitution Stuff
+ senseobserve_eye:0 "vedere"
+ senseobserve_taste:0 "assaporare"
+ senseobserve_sense: "sentire" #controllare
+ senseobserve_see: "vedere"
+ senseobserve_seem: "sembrare"
+ senseobserve_look: "sembrare"
+ actiontaps_forehead: "fronte"
+ actiontaps_nose: "naso"
+ 
+ # Terms
+ partaglow_eyes: "gli occhi sembrano brillare"
+ partaglow_eye: "l'occhio sembra brillare"
+ partaglow_face: "il viso sembra brillare"
+ partaglow_body: "il corpo sembra brilalre"
+ 
+ # Sayings
+ saying_1p_away: "allontanati da me"
+ saying_1p_sight: "sparisci dalla mia vista"
+ saying_3p_seems: "sembra sorridere"
+ saying_3p_smiles: "sorride"
+ saying_3p_aware: "prende coscienza"
+ saying_3p_sight: "vede" 
+
+#frostbite event
+ bodypart_nose:0 "naso"
+ bodypart_ear:0 "orecchio"
+ bodypart_ears:0 "orecchie"
+ bodypart_finger:0 "dito"
+ bodypart_fingers:0 "dita"
+ bodypart_hand:0 "mano"
+ bodypart_hands:0 "mani"
+ bodypart_arm:0 "braccio"
+ bodypart_arms:0 "braccia"
+ bodypart_leg:0 "gamba"
+ bodypart_legs:0 "gambe"
+ bodypart_foot:0 "piede"
+ bodypart_feet:0 "piedi"
+ bodypart_toe:0 "alluce"
+ bodypart_toes:0 "alluci" 

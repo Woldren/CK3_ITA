@@ -1,0 +1,54 @@
+﻿l_spanish:
+ start_hunt_mystical_animal_story_cycle_effect.tt:1 "#EMP Non mi fermerò finché non l'avrò trovato!#!"
+
+ hunt_mystical_animal.1001.t:1 "[ROOT.Char.Custom('GetAnimalType')|U] [ROOT.Char.Custom('GetLegendaryColor')|U]"
+ hunt_mystical_animal.1001.desc:1 "L'inafferrabile bestia mi appare in sogno, le profondità scure dei suoi occhi mi giudicano mentre [ROOT.Char.Custom('GetAnimalChargePresent')], sfoggiando il suo immacolato manto [ROOT.Char.Custom('GetLegendaryColor')].\n\nSiamo tra i/gli/le [legendary_county.GetCountyData.GetCapital.Custom('GetTerrainTypePlural')] sotto la luna alta e circondati dal silenzio. Per quanto mi sforzi, non riesco ad avvicinarmi alla mia preda.\n\nMentre mi risveglio con gli artigli, sento la mia determinazione rafforzarsi..."
+ hunt_mystical_animal.1001.a:0 "Non mi sfuggirà ancora per molto!"
+
+ hunt_mystical_animal.1002.desc:1 "Cavalcando nei/negli/nelle [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTypePlural')] di [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip], giungiamo a una svolta della strada e lo vedo ancora una volta, scintillante al sole, il/la [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')].\n\nMi volto per avvisare gli altri, ma quando mi volto indietro il/la [ROOT.Char.Custom('GetAnimalType')] è già sparito/a..."
+ hunt_mystical_animal.1002.a:0 "Mi provoca!"
+
+ hunt_mystical_animal.1003.desc:1 "Da quando ho iniziato la mia ricerca, da tutto il paese sono arrivate segnalazioni di persone che hanno avvistato un/una [ROOT.Char.Custom('GetAnimalType')] con la pelliccia [ROOT.Char.Custom('GetLegendaryColor')].\n\nPassare al setaccio i resoconti e distinguere i fatti dalla finzione è un compito immane. Se solo i rapporti fossero più affidabili..."
+ hunt_mystical_animal.1003.a:0 "Impiegherò delle persone per cercarlo/a!"
+ hunt_mystical_animal.1003.b:0 "Questo compito è troppo grande. Non ne voglio sapere."
+ hunt_mystical_animal.1003.b.tt:2 "Abbandona la ricerca del/della #V [THIS.Char.Custom('GetAnimalType')] con la pelliccia [THIS.Char.Custom('GetLegendaryColor')] #!"
+ hunt_mystical_animal.1003.c:0 "[ROOT.Char.Custom('DE_ART_DEF_P_D')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [steward.GetCouncilTitle] risolverà il problema."
+ hunt_mystical_animal.1003.d:0 "Posso farlo. #EMPDevo#!!"
+ hunt_mystical_animal.1003.e:0 "[m_hunt.GetTitledFirstName], organizza un gruppo di ricerca!"
+
+ hunt_mystical_animal.1004.desc:1 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!" [m_hunt.GetTitledFirstName] riesce a malapena a contenersi, "Abbiamo notizie di persone che hanno visto [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')] nei/negli/nelle [legendary_county.GetCountyData.GetCapital.Custom('GetTerrainTypePlural')] di [legendary_county.GetCountyData.GetCapital.GetNameNoTooltip]!"\n\n"Alcuni sostengono che la malattia segua la sua scia, altri che porti prosperità, ma tutti sembrano abbastanza certi che si trovi nella zona."\n\nÈ qui? In [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]?!"
+ hunt_mystical_animal.1004.a:0 "Andiamo a cavallo!"
+ hunt_mystical_animal.1004.a.tt:0 "Questa volta non mi sfuggirà."
+ hunt_mystical_animal.1004.a.success:0 "Trovi [THIS.Char.Custom('GetAnimalType')] #V [THIS.Char.Custom('GetLegendaryColor')] #!"
+ hunt_mystical_animal.1004.b:0 "Non gli permetterò di tirare i miei fili in questo modo."
+
+ hunt_mystical_animal.1005.desc:1 "\n\nIn un attimo, [activity.Custom('GetAnimalType')] [activity.Custom('GetAnimalChargePresent')] nel [ROOT.Char.GetCurrentLocation.Custom('GetProvinceFoliageDesc')]: è sparito con la stessa rapidità con cui è apparso."
+ hunt_mystical_animal.1005.a:1 "Maledizioni! Ti #EMP prenderò#!, bestia.!"
+
+ hunt_mystical_animal.1006.desc:1 "Scruto il mattino nebbioso e vedo il/la [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')] seduto alle soglie dei/degli/delle [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTypePlural')], #EMP taunting#! me.\n\nVoltandomi, mi trovo di fronte alla stoffa delle lenzuola e, cercando di staccarmi, barcollo contro una testa di [ROOT.Char.Custom('GetAnimalType')] montata su una trave.\n\nChiudo gli occhi, ma non c'è scampo. [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')] è lì - a ridere di me!"
+ hunt_mystical_animal.1006.a:1 "TI PRENDERÒ, BESTIA!"
+ hunt_mystical_animal.1006.b:1 "Tu! Ora sei [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')]! Torna qui!"
+
+ hunt_mystical_animal.1007.desc:2 "Perlustro il territorio alla ricerca dell'elusivo [activity.Custom('GetAnimalType')] [activity.Custom('GetLegendaryColor')], che fa a pezzi la natura selvaggia di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] — Questa volta non me lo lascerò scappare!\n\nMentre seguo le sue tracce nel [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTree')], Sempre più in profondità nel verde, le cose iniziano a cambiare forma.\n\nVedo funghi grandi come [ROOT.Char.Custom('ResidenceBuildingPlural')], alberi piccoli come topi e bruchi grandi come cavalli."
+ hunt_mystical_animal.1007.a:0 "Non importa in quale buco ti infilerai, io ti troverò!"
+ hunt_mystical_animal.1007.b:0 "Oh, questi funghi... Sembrano gustosi."
+ hunt_mystical_animal.1007.b.success:0 "Yum!"
+ hunt_mystical_animal.1007.b.failure:0 "Mi sento un po' male..."
+
+ hunt_mystical_animal.1008.desc:1 "Con il passare dei giorni non sento parlare [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')], e mi sento inquieto...\n\nQualcuno l'avrà visto? E che dire di tutti i contadini che disseminano le strade dei/degli/delle [legendary_county.GetCountyData.GetCapital.Custom('GetTerrainTypePlural')]? Forse dovrei chiedere la loro assistenza..."
+ hunt_mystical_animal.1008.a:0 "Inviate una missiva!"
+ hunt_mystical_animal.1008.b:0 "Non scenderò così in basso."
+ hunt_mystical_animal.1008.c:0 "Invierò [knight.GetFirstNameNoTooltip]."
+
+ hunt_mystical_animal.1009.desc:1 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], questa tua ricerca di una semplice bestia... Devo ammettere che mi preoccupa."\n\n[court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)|U] si avvicina a me mentre cerco di analizzare gli avvistamenti del/della [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')].\n\n"Evidentemente qualsiasi cosa distragga così tanto l'attenzione potrebbe essere stata inviata dal [ROOT.Char.GetFaith.DevilName]; il non supporre la sua esistenza sia un segno di [ROOT.Char.GetFaith.HighGodNameAlternate]!""
+ hunt_mystical_animal.1009.a:1 "[ROOT.Char.Custom('GetAnimalType')|U] è un messaggero di [ROOT.Char.GetFaith.HighGodName]!"
+ hunt_mystical_animal.1009.a.success:0 ""Potresti avere ragione...""
+ hunt_mystical_animal.1009.a.failure:0 ""Cosa stai dicendo?""
+ hunt_mystical_animal.1009.b:0 "Non sono affari tuoi."
+ hunt_mystical_animal.1009.c:0 "Hai ragione, cosa ho pensato?"
+
+ hunt_mystical_animal.9001.desc:2 "Sto seguendo le tracce sempre più in profondità nei/negli/nelle [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTypePlural')] di [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip] quando l'aria si fa improvvisamente silenziosa intorno a me.\n\nCome se fosse nato dall'aria stessa, il/la [activity.Custom('GetAnimalType')] [activity.Custom('GetLegendaryColor')] è davanti a me, con la pelliccia che brilla alla luce del sole e gli occhi profondi come sogni. Sollevo il mio arco..."
+ hunt_mystical_animal.9001.a:1 "... e lascia volare la freccia."
+
+ hunt_mystical_animal.9002.desc:2 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!" esclama [m_hunt.GetTitledFirstName] avvicinandosi con esitazione, "Un contadino locale vi ha inviato un regalo. [dummy_gender.Custom('DE_ART_IND_A')|U] sostiene che questa colorazione [activity.Custom('GetLegendaryColor')] sia naturale, ma non ho mai visto nulla di simile!"\n\nCon crescente trepidazione mi avvicino al fagotto, ed eccolo lì: il/la [activity.Custom('GetAnimalType')] [activity.Custom('GetLegendaryColor')] a cui ho dato la caccia per anni."
+ hunt_mystical_animal.9002.a:0 "Deve essere uno scherzo...!"

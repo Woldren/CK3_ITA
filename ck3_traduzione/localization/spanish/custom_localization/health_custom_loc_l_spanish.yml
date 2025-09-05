@@ -1,0 +1,12 @@
+﻿l_spanish:
+ possessed_vision:0 "visione"
+ possessed_episode:0 "episodio"
+ age_young:0 "giovane"
+ age_middle_aged:0 "di mezza età"
+ age_old:0 "anzian[ROOT.Char.Custom('DE_END_PRO_S_N')]"
+
+ medic_doctor:0 "dottore"
+ medic_physic:0 "medico"
+ medic_surgeon:0 "chirurgo"
+ medic_sawbones:0 "segaossa"
+ medic_barber:0 "barbiere"

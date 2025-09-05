@@ -1,0 +1,25 @@
+﻿l_spanish:
+ LifestyleFocus_diplomacy:0 "diplomatico"
+ LifestyleFocus_martial:0 "marziale"
+ LifestyleFocus_stewardship:0 "amministrazione"
+ LifestyleFocus_intrigue:0 "intrigo"
+ LifestyleFocus_learning:0 "erudizione"
+
+#STATECRAFT
+ statecraft_ongoing.4010.nobility:0 "nobiltà"
+ statecraft_ongoing.4010.clan:0 "clan"
+ statecraft_ongoing.4010.chieftains:0 "capi"
+ statecraft_ongoing.4010.clergy:0 "[ROOT.Char.GetFaith.AltPriestTermPlural]"
+ statecraft_ongoing.4010.citizenry:0 "cittadinanza"
+
+#GOVERNANCE
+ governance_ongoing.1040.blacksmithsguild:0 "Gilda dei Fabbri"
+ governance_ongoing.1040.merchantsguild:0 "Gilda dei Mercanti"
+ governance_ongoing.1055.outofwedlock:0 " fuori dal letto nuziale"
+ governance_ongoing.1055.null:0 ""
+ governance_ongoing.1062.gardener:0 "giardiniere"
+ governance_ongoing.1062.poet:0 "poeta di corte"
+ governance_ongoing.1062.philosopher:0 "filosofo naturale"
+ governance_ongoing.1062.gardener_U:0 "Giardiniere"
+ governance_ongoing.1062.poet_U:0 "Poeta di Corte"
+ governance_ongoing.1062.philosopher_U:0 "Filosofo Naturale"

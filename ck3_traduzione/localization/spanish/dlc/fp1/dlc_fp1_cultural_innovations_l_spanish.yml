@@ -1,0 +1,16 @@
+﻿l_spanish:
+ ####################
+ # Culture-Specific	#
+ ####################
+ # Military
+ innovation_varangian_adventurers:0 "Avventurieri Variaghi"
+ innovation_varangian_adventurers_desc:0 "Cosa dobbiamo a queste terre in cui viviamo? Nulla! Il cuore del reame è la sua gente, e non meritiamo forse la terra migliore, i tesori più grandi, i palazzi più belli? Averli è tanto semplice quanto #EMP prenderli#!!"
+ unlock_varangian_adventurer_cb:0 "Sblocca il [casus_belli|E] per l'[varangian_adventure|E] durante l'[era|E] [tribal|E]"
+
+ ####################
+ # Regional			#
+ ####################
+ # Civic
+ innovation_all_things:0 "Ogni Cosa"
+ innovation_all_things_desc:0 "Tra la nostra gente, c'è una forte tradizione di raduni pubblici di tutti gli adulti liberi e dotati di potere, dove chiunque può sollevare le proprie rimostranze al sovrano. Naturalmente, per coloro che si distinguono agli occhi del popolino, vi può essere l'opportunità di guadagnare potere influenzando la folla..."
+ unlocks_authority_cooldown_breaking:0 "I [characters|E] possono violare il periodo di attesa necessario per il cambio dell'[crown_authority|E] e dell'[tribal_authority|E] ad un costo alto di [prestige|E]"

@@ -1,0 +1,575 @@
+﻿l_spanish:
+ ### Setup Work ###
+ activity_survey: "Ispezione"
+ activity_survey_desc: "Esegui un'ispezione approfondita delle tue terre per assicurarti che il tuo regno sia una macchina ben funzionante e per cercare delle opportunità per migliorare la burocrazia e la situazione attuale."
+ activity_survey_host_desc: "$BULLET_WITH_TAB$Possibilità di guadagnare delle @pressed_claim![claims|E]\n$BULLET_WITH_TAB$Possibilità di aumentare l'Accettazione dell'@vassal_icon![Concept( 'offer_vassalization', 'offerta di vassallaggio' )|E]\n$BULLET_WITH_TAB$Possibilità di migliorare le @gold_icon![taxes|E] nella [county|E]\n$BULLET_WITH_TAB$Possibilità di migliorare lo @development_icon![development|E] nella [county|E]\n$BULLET_WITH_TAB$Possibilità di aumentare il @control_icon![control|E] nella [county|E]\n$BULLET_WITH_TAB$Possibilità di migliorare le @stationed_regiment_icon![levies|E] nella [county|E]\n$BULLET_WITH_TAB$Possibilità di aumentare l'@opinion_icon![opinion|E]\n$BULLET_WITH_TAB$Possibilità di aumentare l'@domain_icon![county_opinion|E]"
+ activity_survey_guest_desc: ""
+ activity_survey_conclusion_desc: "Questo viaggio mi ha dato la possibilità di vedere più cose del mio regno, ma non posso restare qui a lungo. Il mio lavoro qui è finito, è ora di ritornare a casa."
+ activity_survey_selection_tooltip: "Assicurati che il tuo regno sia gestito da leccapiedi competenti mediante un'ispezione approfondita\n\nRicompense Previste: $rewards_inspection_tt$"
+ activity_survey_destination_selection: "\nLe [inspections|E] sono vantagggiose se effettuate in quelle [counties|E] con un basso [county_control|E] o si trovino lungo lungo la frontiera con altri [realms|E], dove la burocrazia locale non riesce ad arrivare. Queste aree possono offrirti maggiori opportunità e avere una [inspection_success_chance_no_prefix|E] maggiore."
+ survey_activity_not_capital: "Le [inspections|E] non possono essere realizzate nella [capital|E]"
+ survey_activity_on_cooldown: "Le [inspections|E] in una [county|E] possono essere realizzate solo una volta ogni #bold 5#! anni"
+ rewards_inspection_tt: "\n$BULLET_WITH_TAB$@pressed_claim![claims|E] & @vassal_icon! Accettazione dell'[Concept( 'offer_vassalization', 'offerta di vassallaggio' )|E]\n$BULLET_WITH_TAB$@gold_icon![taxes|E], @development_icon![development|E], & @control_icon![control|E]\n$BULLET_WITH_TAB$@stationed_regiment_icon![levies|E], @opinion_icon![opinion|E], & @domain_icon![county_opinion|E]"
+ activity_survey_predicted_cost: "Il costo di una [inspection|E] è influenzato principalmente dall'ammontare dei finanziamenti stanziati per l'[activity|E]. Un finanziamento più sostanzioso ti renderà più facile il compito, ma ti costerà di più."
+ 
+ phase_surveying: "Ispezione del Regno"
+ phase_surveying_desc: ""
+
+ survey_overseer_intent: "Determinazione del Supervisore"
+ survey_overseer_intent_desc: "Gli amministratori e i nobili locali sono noti per l'imposizione di tasse aggiuntive e per le loro tasche profonde, poniamo fine a tutto questo.\n\n#emp Migliora la [inspection_success_chance_no_prefix|E]#!"
+
+ survey_learning_intent: "$survey_learning_intent_guest$"
+ survey_learning_intent_desc: "$survey_learning_intent_guest_desc$\n\n#emp Una possibilità di ottenere dei bonus aggiuntivi per la [capital|E]#!"
+
+ survey_learning_intent_guest: "Intento dell'indagine"
+ survey_learning_intent_guest_desc: "Vediamo quali insegnamenti possiamo trarre dalla burocrazia locale da applicare nella nostra capitale."
+
+ activity_survey_province_desc: "Viaggi verso [ROOT.Province.GetName]"
+
+ survey_border_county: "\n#positive_value ++ Contea di Confine #!"
+ survey_bordering_other_vassals_county: "\n#positive_value + Contea di Confine di un Altro Vassallo #!"
+ survey_very_low_county_control: "\n#positive_value +++ Controllo della Contea Molto Basso #!"
+ survey_low_county_control: "\n#positive_value ++ Controllo della Contea Basso #!"
+ survey_medium_county_control: "\n#positive_value + Controllo della Contea Medio #!"
+
+ county_control_modifier: "[county_control|E]"
+ borderlands_modifier: "Terre di Confine"
+ inspection_success_chance.events: "Eventi"
+ inspection_success_chance.second_try_modifier: "[GetModifier('inspection_second_try_modifier').GetName]"
+
+ inspection_activity_success_increase_miniscule_tt: "la [inspection_success_chance_no_prefix|E] #positive_value aumenta marginalmente#!"
+ inspection_activity_success_increase_minor_tt:0 "la [inspection_success_chance_no_prefix|E] #positive_value aumenta leggermente#!"
+ inspection_activity_success_increase_medium_tt:0 "la [inspection_success_chance_no_prefix|E] #positive_value aumenta#!"
+ inspection_activity_success_decrease_miniscule_tt: "la [inspection_success_chance_no_prefix|E] #negative_value diminuisce marginalmente#!"
+ inspection_activity_success_decrease_minor_tt:0 "la [inspection_success_chance_no_prefix|E] #negative_value diminuisce leggermente#!"
+ inspection_activity_success_decrease_medium_tt:0 "la [inspection_success_chance_no_prefix|E] #negative_value diminuisce#!"
+
+ inspection_success_chance: "[inspection_success_chance_no_prefix|E]"
+ inspection_success_bar: "[inspection_success_chance_no_prefix|E]: [Activity.MakeScope.Var( 'inspection_success_chance' ).GetValue|V0]%"
+
+ ### Activity Option ###
+ inspection_option_allocated_funds: "Fondi per l'ispezione"
+ inspection_no_funding: "Nessuno"
+ inspection_no_funding_desc: "$EFFECT_LIST_BULLET$ Le [skill_challenges|E] saranno più difficili da realizzare\n$EFFECT_LIST_BULLET$ Il costo in [gold_i] [gold|E] durante gli eventi è invariato\n\n#weak Con pochi o nessun finanziamento, potrebbe essere difficile trovare le risorse finanziarie necessarie per sostenere tutti i tuoi obiettivi nella provincia.#!"
+ inspection_small_fund: "Finanziamento Adeguato"
+ inspection_small_fund_desc: "$EFFECT_LIST_BULLET$ Le [skill_challenges|E] nell'[activity|E] hanno maggiori possibilità di successo\n$EFFECT_LIST_BULLET$ Il costo in [gold_i] [gold|E] durante gli eventi eventi è ridotto del #P 20%#!\n\n#weak Con una piccola somma d'oro sarà più facile finanziare le ristrutturazioni che immagini saranno necessarie nella provincia.#!"
+ inspection_large_fund: "Finanziamento Consistente"
+ inspection_large_fund_desc: "$EFFECT_LIST_BULLET$ Le [skill_challenges|E] nell'[activity|E] hanno una notevole possibilità di successo\n$EFFECT_LIST_BULLET$ Il costo in [gold_i] [gold|E] durante gli eventi eventi è ridotto del #p 40%#!\n\n#weak Con un'ingente somma d'oro non credi che avrai delle difficoltò a finanziare qualsiasi progetto nella provincia.#!"
+
+ ### Intro Event ###
+ bp3_survey.0005.t: "Arrivo"
+ bp3_survey.0005.desc.holder: "Appena arrivo a [ROOT.Char.GetCurrentLocation.GetName], vengo condott[ROOT.Char.Custom('DE_END_PRO_S_N')] in un piccolo studio dove [county_holder.Custom('DE_ART_DEF_P_A')] [county_holder.GetTitledFirstName] mi riceve. Ho inviato un messaggero affinché annunciasse il mio arrivo, quindi non dovrebbe essere una sorpresa che io sia qui, ma [county_holder.GetSheHe] è chiaramente curios[county_holder.Custom('DE_END_PRO_S_N')] di conoscere le ragione della mia presenza. Tutte le sue smancerie sono dovute alla sua coscienza sporca o sono la normalità?\n\nNon importa, non sono qui per occuparmi di [county_holder.GetSheHe] in questo momento, sono qui per..."
+ bp3_survey.0005.desc.no_holder: "Appena arrivo a [ROOT.Char.GetCurrentLocation.GetName], vengo condott[ROOT.Char.Custom('DE_END_PRO_S_N')] in uno studio. Un gruppo di servitori si occupa di tutte le mie necessità e si agita intorno a me per un po', finché non chiedo loro di andarsene. Come faccio a concentrarmi sul mio compito se continuano a correre su e giù per la stanza?\n\nDopo averli tolti di mezzo, posso finalmente iniziare a lavorare al mio progetto, che è quello di..."
+ bp3_survey.0005.a: "Espandere i miei confini."
+ bp3_survey.0005.a.tt: "L'[inspection|E] cercherà di:$SurveyArrivalIntroClaims$ $SurveyARrivalIntroVassals$"
+ bp3_survey.0005.b: "Migliorare la burocrazia qui a [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]."
+ bp3_survey.0005.b.tt: "L'[inspection|E] cercherà di:$SurveyArrivalIntroTax$ $SurveyArrivalIntroDevelopment$ $SurveyArrivalIntroControl$"
+ bp3_survey.0005.c: "Assicurarmi che la gente di qui ricordi perché sono [ROOT.Char.Custom('DE_ART_DEF_P_A')] loro signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]."
+ bp3_survey.0005.c.tt: "L'[inspection|E] cercherà di:$SurveyArrivalIntroLevy$ $SurveyArrivalIntroOpinion$ $SurveyArrivalIntroPopularOpinion$"
+
+ SurveyArrivalIntroClaims: "\n$BULLET_WITH_TAB$ Fare delle @pressed_claim![claims|E]"
+ SurveyARrivalIntroVassals: "\n$BULLET_WITH_TAB$ Aumenta l'Accettazione dell'@vassal_icon! [Concept( 'offer_vassalization', 'offerta di vassallaggio' )|E]"
+
+ SurveyArrivalIntroTax: "\n$BULLET_WITH_TAB$ Aumentare le @gold_icon![taxes|E] (#bold [activity.GetHost.MakeScope.ScriptValue('survey_province_tax_info_value')|2]#!)"
+ SurveyArrivalIntroDevelopment: "[activity.GetHost.Custom('SurveyArrivalIntroDevelopmentLoc')]"
+ SurveyArrivalIntroControl: "[activity.GetHost.Custom('SurveyArrivalIntroControlLoc')]"
+
+ SurveyArrivalIntroLevy: "\n$BULLET_WITH_TAB$ Aumentare le @stationed_regiment_icon![levies|E] (#bold [activity.GetHost.MakeScope.ScriptValue('survey_province_levy_info_value')|0]#!)"
+ SurveyArrivalIntroOpinion: "[activity.GetHost.Custom2('SurveyArrivalIntroOpinionLoc', county_holder)]"
+ SurveyArrivalIntroPopularOpinion: "[activity.GetHost.Custom('SurveyArrivalIntroPopularOpinionLoc')]"
+
+ SurveyArrivalIntroDevelopmentLocMaxed: "" # Intentionally empty
+ SurveyArrivalIntroDevelopmentLocGood: "\n$BULLET_WITH_TAB$ Aumentare lo @development_icon![development|E] (#bold #p [ROOT.Char.MakeScope.ScriptValue('survey_province_development_info_value')|0]#!#!)"
+ SurveyArrivalIntroDevelopmentLocBad: "\n$BULLET_WITH_TAB$ Aumentare lo @development_icon![development|E] (#bold #n [ROOT.Char.MakeScope.ScriptValue('survey_province_development_info_value')|0]#!#!)"
+ SurveyArrivalIntroDevelopmentLocNeutral: "\n$BULLET_WITH_TAB$ Aumentare lo @development_icon![development|E] (#bold #color_yellow [ROOT.Char.MakeScope.ScriptValue('survey_province_development_info_value')|0]#!#!)"
+
+ SurveyArrivalIntroControlLocMaxed: "" # Intentionally empty
+ SurveyArrivalIntroControlLocBad: "\n$BULLET_WITH_TAB$ Aumentare il @control_icon![control|E] (#bold #n [ROOT.Char.MakeScope.ScriptValue('survey_province_control_info_value')|0]#!#!)"
+ SurveyArrivalIntroControlLocNeutral: "\n$BULLET_WITH_TAB$ Aumentare il @control_icon![control|E] (#bold #color_yellow [ROOT.Char.MakeScope.ScriptValue('survey_province_control_info_value')|0]#!#!)"
+
+ SurveyArrivalIntroOpinionLocEmpty: "" # Intentionally empty
+ SurveyArrivalIntroOpinionLocGood: "\n$BULLET_WITH_TAB$ Aumentare l' @opinion_icon![opinion|E] (#bold #p [second.GetOpinionOf( GetPlayer )|=]#!#!)"
+ SurveyArrivalIntroOpinionLocBad: "\n$BULLET_WITH_TAB$ Aumentare l' @opinion_icon![opinion|E] (#bold #n [second.GetOpinionOf( GetPlayer )|=]#!#!)"
+
+ SurveyArrivalIntroPopularOpinionLocMaxed: "\n$BULLET_WITH_TAB$ Aumentare l' @domain_icon![county_opinion|E] (#bold #p [ROOT.Char.MakeScope.ScriptValue('survey_province_popular_opinion_info_value')|0]#!#!)"
+ SurveyArrivalIntroPopularOpinionLocBad: "\n$BULLET_WITH_TAB$ Aumentare l' @domain_icon![county_opinion|E] (#bold #n [ROOT.Char.MakeScope.ScriptValue('survey_province_popular_opinion_info_value')|0]#!#!)"
+ SurveyArrivalIntroPopularOpinionLocNeutral: "\n$BULLET_WITH_TAB$ Aumentare l' @domain_icon![county_opinion|E] (#bold #color_yellow [ROOT.Char.MakeScope.ScriptValue('survey_province_popular_opinion_info_value')|0]#!#!)"
+
+ ### End Event ###
+ bp3_survey.0010.t: "Conclusione"
+ bp3_survey.0010.desc.border.success: "I nostri sforzi lungo il confine di [province.GetName] sono stati un enorme successo. Abbiamo definito chiaramente che si tratta di un'area che deve essere sottoposta alla supervisione [ROOT.Char.Custom('DE_PRO_PER_P_3P_A')] [ROOT.Char.GetPrimaryTitle.GetName], e questo si riflette nel modo in cui le persone ne parlano.\n\nMolti abitanti del luogo parlano di me come se fossi già [ROOT.Char.Custom('DE_ART_DEF_P_A')] loro sovran[ROOT.Char.Custom('DE_END_PRO_S_N')]."
+ bp3_survey.0010.desc.border.failure: "Nonostante i nostri sforzi, ogni nostro tentativo di rivendicare un diritto sulle terre di confine di [province.GetName] si sono rivelati insufficienti, se non addirittura imbarazzanti. Alcuni abitanti delle terre di confine hanno iniziato a usare l'espressione "avere successo tanto quanto [ROOT.Char.Custom('DE_ART_DEF_P_A')] [ROOT.Char.GetTitledFirstName]" quando si riferiscono [Select_CString(ROOT.Char.IsFemale, 'alle giovani donne respinte', 'ai giovani uomini respinti')].\n\nSto iniziando a rimpiangere tutta questa faccenda..."
+ bp3_survey.0010.desc.bureaucracy.success: "All'inizio sembrava impossibile, ma in qualche modo sono riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] a trovare un modo per iniziare a mettere a posto le cose a [province.GetName], ponendo fine a parte della corruzione e dei banditi locali. Sebbene sia solo un primo passo nella giusta direzione, è fondamentale per il futuro della contea.\n\nOra dobbiamo solo assicurarci di rimanere sulla strada giusta per il prossimo futuro."
+ bp3_survey.0010.desc.bureaucracy.failure: "Ci sono stati momenti in cui mi è sembrato che sarei riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] a porre fine alla corruzione che affligge [province.GetName], ma a ogni volta c'era qualcosa di nuovo da sistemare. C'era sempre un altro gruppo di banditi che saccheggiava, un altro nobile corrotto che nascondeva le tasse o un altro edificio da ristrutturare.\n\nSebbene sia stato uno sforzo eroico da parte mia, c'è un limite a quello che può fare [Select_CString(ROOT.Char.IsFemale,'una donna da sola','un uomo da solo')]..."
+ bp3_survey.0010.desc.people.success: "Abbiamo riscontrato un significativo aumento della popolarità tra i locali di [province.GetName], al punto che, a quanto pare, alcuni usano l'espressione "essere come [ROOT.Char.GetFirstName]". Era solo questione di tempo prima che imparassero ad apprezzare i loro superiori.\n\nSperiamo che se ne ricordino la prossima volta che si presenterà un problema di poco conto."
+ bp3_survey.0010.desc.people.failure: "Non importa quanto io abbia parlato e dialogato con gli abitanti di [province.GetName], nella contea si respira una costante aria di malcontento. Nonostante i miei sforzi, non so come affrontare o risolvere questo problema.\n\nForse non è destino, almeno non in questo momento"
+ bp3_survey.0010.a: "Come previsto."
+ bp3_survey.0010.b: "Tornerò a sistemare le cose in un altro momento."
+
+ bp3_survey.0010.acceptance.positive: "Aumentata l'Accettazione dell'[Concept('offer_vassalization', 'offerta di vassallaggio')|E] di [THIS.Char.GetName]: "
+ bp3_survey.0010.acceptance.success: "$bp3_survey.0010.acceptance.positive$ #p +10#!"
+ INSPECTION_REASON_REWARD: "[inspection|E] Riuscita: $VALUE|=+0$"
+ INSPECTION_REASON_REWARD_FOCUSED: "Obiettivo dell'[inspection|E]: Accettazione del Vassallo: $VALUE|=+0$"
+
+ inspection_reward_focused_vassal_acceptance: "Obiettivo dell'Ispezione: l'Accettazione del Vassallo"
+ inspection_reward_focused_vassal_acceptance_desc: "Questo personaggio si è concentrato sulla creazione di legami con coloro che non appartengono al suo regno.\nAccettazione dell'[Concept('offer_vassalization', 'offerta di vassallaggio')|E]: #p +10#!"
+ inspection_reward_focused_claims_modifier: "Obiettivo dell'Ispezione: le Rivendicazioni"
+ inspection_reward_focused_claims_modifier_desc: "Questo personaggio ha la reputazione di avere una mentalità espansionistica.\nVelocità di [fabricate_claim|E]: #p +25%#!"
+ FABRICATE_CLAIM_INSPECTION_BONUS: "[inspection|E]"
+
+ inspection_reward_average_tax_modifier: "Tasse Ispezionate"
+ inspection_reward_average_tax_modifier_desc: "Le imposte locali sono state aumentate di recente."
+ inspection_reward_focused_tax_modifier: "Obiettivo dell'Ispezione: le Tasse"
+ inspection_reward_focused_tax_modifier_desc: "Molto tempo ed energie sono stati dedicati per garantire che i contribuenti pagassero il dovuto."
+ inspection_reward_focused_development_modifier: "Obiettivo dell'Ispezione: lo Sviluppo"
+ inspection_reward_focused_development_modifier_desc: "Una notevole somma di denaro è stata accantonata per migliorare le strade locali e gli edifici pubblici."
+ inspection_reward_focused_control_modifier: "Obiettivo dell'Ispezione: il Controllo"
+ inspection_reward_focused_control_modifier_desc: "Il reclutamento e la riqualificazione della guarnigione locale hanno migliorato il controllo della contea."
+
+                                                            
+                                                                                                        
+                                                                    
+                                                                                                                             
+                                                                     
+                                                                                                                       
+                                                                                        
+                                                                                                                                                                                  
+                                                                        
+                                                                                                                        
+                                                                                                  
+                                                                                                                                                              
+
+ inspection_reward_average_levy_modifier: "Leve Ispezionate"
+ inspection_reward_average_levy_modifier_desc: "Le leve locali hanno registrato un aumento di reclute recentemente."
+ inspection_reward_focused_levy_modifier: "Obiettivo dell'Ispezione: le Leve"
+ inspection_reward_focused_levy_modifier_desc: "Molto tempo ed energie sono stati dedicati alla riqualificazione delle leve e ad aumentarene il numero."
+ inspection_reward_average_popular_opinion_modifier: "Contea Visitata"
+ inspection_reward_average_popular_opinion_modifier_desc: "Questa contea è stata visitata di recente dal[ROOT.Char.Custom('DE_END_ADJ_NUL_S_N')] su[ROOT.Char.Custom('DE_END_PRO_S_N')] signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] locale."
+ inspection_reward_focused_popular_opinion_modifier: "Obiettivo dell'Ispezione: l'Opinione popolare"
+ inspection_reward_focused_popular_opinion_modifier_desc: "[ROOT.Char.Custom('DE_ART_DEF_P_D')] signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] locale ha dedicato una notevole quantità di tempo a viaggiare per la contea e a confrontarsi con la gente del posto."
+ inspection_reward_focused_opinion_modifier: "Obiettivo dell'Ispezione: l'Opinione"
+ inspection_reward_focused_opinion_modifier_desc: "Questo personaggio passa molto tempo a comunicare con i suoi vassalli."
+ inspection_reward_focused_popular_opinion_character_modifier: "Obiettivo dell'Ispezione: l'Opinione Generale"
+ inspection_reward_focused_popular_opinion_character_modifier_desc: "Questo personaggio è popolare ovunque, sia tra i nobili che tra le classi inferiori."
+
+ inspection_conclusion_success_claim_key_title: "Rivendicazione Riuscita"
+ inspection_conclusion_success_claim_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'sei','è')] riuscit[host.Custom('DE_END_PRO_S_N')] ad affermare le [Select_CString(host.IsLocalPlayer,'tue','proprie')] rivendicazioni nelle terre di confine di [province.GetName]."
+ inspection_conclusion_expansionist_mindset_key_title: "Mentalità Espansionistica"
+ inspection_conclusion_expansionist_mindset_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] dimostrato di avere una mentalità espansionistica."
+ inspection_conclusion_success_acceptance_key_title: "Diplomazia Riuscita"
+ inspection_conclusion_success_acceptance_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] impressionato molti dei suoi vicini con la [Select_CString(host.IsLocalPlayer,'tua','sua')] diplomazia."
+ inspection_conclusion_impressed_neighbors_key_title: "Vicini Impressionati"
+ inspection_conclusion_impressed_neighbors_key: "Grazie ai suoi sforzi diplomatici, [host.GetSheHe] [Select_CString(host.IsLocalPlayer,'hai','ha')] migliorato i rapporti con alcuni dei [Select_CString(host.IsLocalPlayer,'tuoi','suoi')] vicini."
+
+ inspection_conclusion_success_tax_key_title: "Tasse Rettificate"
+ inspection_conclusion_success_tax_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] migliorato ed eliminato molte delle scappatoie fiscali presenti a [province.GetName]."
+ inspection_conclusion_success_development_key_title: "Infrastrutture Migliorate"
+ inspection_conclusion_success_development_key: "Le strade e i ponti di [province.GetName] hanno ottenuto un'importante somma di denaro per la loro ristrutturazione."
+ inspection_conclusion_success_control_key_title: "Controllo Rafforzato"
+ inspection_conclusion_success_control_key: "La guarnigione locale è stata rinforzata e riqualificata per gestire qualsiasi problema a [province.GetName]."
+
+ inspection_conclusion_success_levy_key_title: "Leve Migliorate"
+ inspection_conclusion_success_levy_key: "Le leve locali di [province.GetName] ha avuto un notevole impulso dopo essere state visitate da [host.GetShortUIName]."
+ inspection_conclusion_success_opinion_key_title: "Diplomazia Riuscita"
+ inspection_conclusion_success_opinion_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] gestito in modo eccellente i [Select_CString(host.IsLocalPlayer,'tuoi','suoi')] affari interni e [Select_CString(host.IsLocalPlayer,'hai','ha')] dato prova di [Select_CString(host.IsLocalPlayer,'te','sé')] tra i [Select_CString(host.IsLocalPlayer,'tuoi','suoi')] vassalli."
+ inspection_conclusion_success_popular_opinion_key_title: "Sovran[host.Custom('DE_END_PRO_S_N')] Popolare"
+ inspection_conclusion_success_popular_opinion_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] registrato un aumento della popolarità dopo che [Select_CString(host.IsLocalPlayer,'hai','ha')] visitato [province.GetName]."
+
+ inspection_conclusion_success_governor_experience_key_title: "[host.Custom('GetGovernorConceptNoTooltip')] Esperienza"
+ inspection_conclusion_success_governor_experience_key: "[host.GetShortUIName] ha acquisito della preziosa esperienza nel suo ruolo di [host.Custom('GetGovernorConceptNoTooltip')] dopo aver visitato [province.GetName]."
+ 
+ inspection_retry_desc: "L'ultima volta che quest'area è stata supervisionata dal[host.Custom('DE_END_ADJ_NUL_S_N')] loro signor[host.Custom('DE_END_ADJ_IND_S_A')], il lavoro è terminato in modo inconcludente. Ma il piano di miglioramento della contea è ancora in corso.\n#weak Verrà rimosso da una [inspection|E] di successo#!"
+
+ inspection_second_try_modifier: "Ispezione Inconcludente"
+ inspection_second_try_modifier_desc: "$inspection_retry_desc$\n\n[inspection_success_chance|E]: #p +10%#!"
+
+ inspection_third_try_modifier: "$inspection_second_try_modifier$"
+ inspection_third_try_modifier_desc: "$inspection_retry_desc$\n\n[inspection_success_chance|E]: #p +20%#!"
+
+ inspection_fourth_try_modifier: "$inspection_second_try_modifier$"
+ inspection_fourth_try_modifier_desc: "$inspection_retry_desc$\n\n[inspection_success_chance|E]: #p +30%#!"
+
+ ### Mid-Activity Events ###
+ bp3_survey.0020.t: "Progetti di Espansione"
+ bp3_survey.0020.desc: "Viaggio nelle terre di confine di [province.GetName] per vedere i confini del mio regno. Una landa vuota, in attesa di un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetLadyLord] con l'ambizione di prendere le redini della situazione. Qualcuno con un occhio al potenziale.\n\n"
+ bp3_survey.0020.desc_weak_neighbor: "Si suppone che un[neighboring_lord.Custom('DE_PRO_POS_P_2P')] cert[neighboring_lord.Custom('DE_END_PRO_S_N')] [neighboring_lord.GetName] sia la cosa più vicina a un[neighboring_lord.Custom('DE_PRO_POS_P_2P')] nobile a capo di queste terre. Un[neighboring_lord.Custom('DE_PRO_POS_P_2P')] [neighboring_lord.GetWomanMan] debole che sta aspettando che qualcuno [neighboring_lord.Custom('DE_PRO_DEM')] dica cosa fare, da quello che ho sentito."
+ bp3_survey.0020.desc_no_neighbor: "Non essendoci nessun altro di rilievo nelle vicinanze, stabilire il dominio e stabilire le nostre rivendicazioni su queste terre non dovrebbe rivelarsi un problema."
+ bp3_survey.0020.a: "Troviamo un qualche tipo di compromesso con quest[neighboring_lord.Custom('DE_END_PRO_S_N')] [neighboring_lord.GetFirstNameNoTooltip]."
+ bp3_survey.0020.a.tt: "Aumenta la ricompensa dell'accettazione della [Concept('offer_vassalization', 'offerta di vassallaggio')|E] se l'[inspection|E] riuscisse\n"
+ bp3_survey.0020.b: "È ora di fare di queste terre le mie terre."
+ bp3_survey.0020.b.tt: "Aumenta la ricompensa per le [claims|e] se l'[inspection|E] riuscisse\n"
+ bp3_survey.0020.acceptance.positive: "Aumenta l'accettazione della [Concept('offer_vassalization', 'offerta di vassallaggio')|E] di [neighboring_lord.GetName]: "
+ bp3_survey.0020.acceptance.great_success: "$bp3_survey.0020.acceptance.positive$ #p +10#!"
+ bp3_survey.0020.acceptance.success: "$bp3_survey.0020.acceptance.positive$ #p +5#!"
+
+ inspection_mid_border_key_title: "Diplomazia Locale"
+ inspection_mid_border_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] rivendicato il [Select_CString(host.IsLocalPlayer,'tuo','suo')] diritto le terre di confine di [province.GetName]."
+ inspection_mid_border_fail_key_title: "Tentativi Falliti"
+ inspection_mid_border_fail_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] fallito la [Select_CString(host.IsLocalPlayer,'tua','sua')] rivendicazione sulle terre di confine di [province.GetName]."
+
+ bp3_survey.0030.t: "Supervisione di [province.GetNameNoTooltip]"
+ bp3_survey.0030.desc: "Dopo aver esaminato a fondo tutti i documenti che sono riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] a trovare, sono riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] a ricavare un po' di fondi supplementari che posso riassegnare per alleviare alcuni dei problemi infrastrutturali locali che affliggono la contea. Devo solo capire quale settore della burocrazia ha più bisogno di aiuti supplementari."
+ bp3_survey.0030.a: "La soppressione delle nostre scappatoie fiscali locali si ripagherà da sola a tempo debito."
+ bp3_survey.0030.a.tt: "Aumenta la ricompensa [Concept('tax', 'fiscale')|E] se l'[inspection|E] riuscisse\n"
+ bp3_survey.0030.b: "[province.Custom('SurveyMidDomainInfrastructureOptionsLoc')|U] [province.GetNameNoTooltip] ha bisogno di aiuto."
+ bp3_survey.0030.b.tt: "Aumenta la ricompensa dello [development|E] se l'[inspection|E] riuscisse\n"
+ bp3_survey.0030.c: "La guarnigione locale è in difficoltà negli ultimi tempi."
+ bp3_survey.0030.c.tt: "Aumenta la ricompensa del [control|E] se l'[inspection|E] riuscisse\n"
+ bp3_survey.0030.d: "In realtà... #emp Ho#! bisogno di quei soldi."
+
+ inspection_mid_activity_tax_great_modifier: "Tasse Migliorate"
+ inspection_mid_activity_tax_great_modifier_desc: "Il signore locale ha supervisionato personalmente l'infrastruttura di raccolta delle tasse locali."
+ inspection_mid_activity_tax_average_modifier: "Tasse Rettificate"
+ inspection_mid_activity_tax_average_modifier_desc: "Recentemente sono state apportate delle modifiche alla burocrazia per la riscossione delle imposte nella contea."
+
+ inspection_mid_activity_development_great_modifier: "Sviluppo Migliorato"
+ inspection_mid_activity_development_great_modifier_desc: "Il signore locale ha preso dei provvedimenti per riallocare i fondi e migliorare notevolmente le infrastrutture locali."
+ inspection_mid_activity_development_average_modifier: "Sviluppo Rettificato"
+ inspection_mid_activity_development_average_modifier_desc: "Sono stati stanziati fondi per contribuire a migliorare la burocrazia locale."
+
+ inspection_mid_activity_control_great_modifier: "Controllo Migliorato"
+ inspection_mid_activity_control_great_modifier_desc: "Alla guarnigione locale è stata assegnata una notevole somma per aumentare le pattuglie nella contea."
+ inspection_mid_activity_control_average_modifier: "Controllo Rettificato"
+ inspection_mid_activity_control_average_modifier_desc: "Il denaro è stato stanziato per contribuire ad alleviare i problemi della contea locale."
+
+ SurveyMidDomainInfrastructureOptionsFarm: "le vecchie fattorie in"
+ SurveyMidDomainInfrastructureOptionsManors: "le magioni nella città in"
+ SurveyMidDomainInfrastructureOptionsCastle: "le mura del castello in"
+ SurveyMidDomainInfrastructureOptionsCity: "la casa del vecchio sindaco in"
+ SurveyMidDomainInfrastructureOptionsTemple: "[ROOT.Province.GetCounty.GetFaith.HouseOfWorship2] in"
+ SurveyMidDomainInfrastructureOptionsPort: "l'antico porto in"
+ SurveyMidDomainInfrastructureOptionsQuarries: "le vecchie cave al di fuori di"
+
+ inspection_mid_domain_key_title: "Riallocazione Riuscita"
+ inspection_mid_domain_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'sei','è')] riuscit[host.Custom('DE_END_PRO_S_N')] a trovare e riallocare dei fondi per migliorare le infrastrutture e la burocrazia di [province.GetName]."
+ inspection_mid_domain_fail_key_title: "Burocrazia Corrotta"
+ inspection_mid_domain_fail_key: "Nonostante i [Select_CString(host.IsLocalPlayer,'tuoi','suoi')] numerosi tentativi, [Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] non [Select_CString(host.IsLocalPlayer,'sei','è')] stat[host.Custom('DE_END_PRO_S_N')] in grado di porre fine alla burocrazia corrotta a [province.GetName]."
+ inspection_mid_domain_selfish_key_title: "Bisogni Egoistici"
+ inspection_mid_domain_selfish_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] accantonato una parte del denaro di [province.GetName] per le [Select_CString(host.IsLocalPlayer,'tue','sue')] esigenze personali."
+
+ bp3_survey.0040.t: "Il Popolo di [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip]"
+ bp3_survey.0040.desc: "Nell'ambito dei miei sforzi per migliorare la nostra posizione nei confronti del popolo di [province.GetName], ho riservato parte della giornata per girare la città e incontrare la gente del posto."
+ bp3_survey.0040.mid: "Nonostante le sue obiezioni, ho portato [county_holder.GetFirstName] in modo che possa vedere il modo giusto di procedere."
+ bp3_survey.0040.outro: "\n\nSebbene all'inizio avessero qualche riserva, vediamo un folto gruppo di persone del posto che vogliono avvicinarsi per raccontarci i loro problemi. Se ne avrò l'occasione, parlerò..."
+ bp3_survey.0040.a: "delle leve locali e della guarnigione."
+ bp3_survey.0040.a.tt: "Aumenta la ricompensa delle [levies|E] se l'[inspection|E] riuscisse\n"
+ bp3_survey.0040.b: "di come sono rimast[ROOT.Char.Custom('DE_END_PRO_S_N')] colpit[ROOT.Char.Custom('DE_END_PRO_S_N')] dal lavoro che ha svolto [county_holder.GetFirstNameNoTooltip]."
+ bp3_survey.0040.b.tt: "Aumenta la ricompensa dell'[opinion|E] se l'[inspection|E] riuscisse\n"
+ bp3_survey.0040.c: "della grande ammirazione che nutro per [province.GetNameNoTooltip]."
+ bp3_survey.0040.c.tt: "Aumenta la ricompensa dell'[county_opinion|E] se l'[inspection|E] riuscisse\n"
+
+ inspection_mid_activity_levy_great_modifier: "Leve Migliorate"
+ inspection_mid_activity_levy_great_modifier_desc: "La provincia ha visto un notevole aumento del reclutamento dopo che il loro signore si è impegnato con la popolazione locale."
+ inspection_mid_activity_levy_average_modifier: "Leve Rettificate"
+ inspection_mid_activity_levy_average_modifier_desc: "C'è stato un leggero aumento delle leve dopo la visita del signore alla contea."
+ inspection_mid_activity_opinion_great_modifier: "Sovrano Popolare"
+ inspection_mid_activity_opinion_great_modifier_desc: "Il sovrano locale è diventato una figura popolare dopo aver visitato la provincia."
+ inspection_mid_activity_opinion_average_modifier: "Popolazione Appagata"
+ inspection_mid_activity_opinion_average_modifier_desc: "Dopo aver parlato con loro di persona, il signore ha placato alcuni degli abitanti del luogo."
+
+ inspection_mid_people_key_title: "Sovran[host.Custom('DE_END_PRO_S_N')] Affascinante"
+ inspection_mid_people_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] affascinato gli abitanti del luogo a [province.GetName] dopo aver parlato a lungo con loro."
+ inspection_mid_people_fail_key_title: "Conversa[host.Custom('DE_END_NOU_S_GS_N')] Mediocre"
+ inspection_mid_people_fail_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] non [Select_CString(host.IsLocalPlayer,'sei','è')] riuscit[host.Custom('DE_END_PRO_S_N')] ad impressionare nessuno dopo aver trascorso un po' di tempo con la gente del posto a [province.GetName]."
+
+ bp3_survey.0050.t: "Signor[host.Custom('DE_PRO_PER_S_3P_G')] a Corte"
+ bp3_survey.0050.desc: "Sebbene [host.GetSheHe] abbia inviato un messaggero per tempo, sono un po' sorpres[ROOT.Char.Custom('DE_END_PRO_S_N')] quando vedo [Select_CString(host.IsFemale,'la mia signora','il mio signore')], [host.GetFirstName], presentarsi alla mia corte a [province.GetName]. [host.GetSheHe|U] mi ha spiegato che è qui per "supervisionare" le cose di persona, senza entrare nei dettagli.\n\nCerco a lungo di capire se c'è qualcosa in particolare che [host.GetSheHe] voglia da me, ma [host.GetSheHe] afferma di avere tutto ciò di cui ha bisogno. Speriamo che [host.GetSheHe] non trovi qualcosa che non va..."
+ bp3_survey.0050.a: "Benvenut[host.Custom('DE_END_PRO_S_N')] a [province.GetNameNoTooltip], mi[host.Custom('DE_END_PRO_S_N')] [host.GetTitleAsNameNoTooltip]."
+ bp3_survey.0050.a.tt: "[host.GetName] ha organizzato un [inspection|E] a [province.GetName]"
+
+ bp3_survey_liege_intervention: "Intervento del Signore"
+
+ ### Random Events ###
+ bp3_survey.1000.t: "Terre Vuote"
+ bp3_survey.1000.desc: "Mentre esploriamo le regioni più oscure di [province.GetName], [guest_1.GetFirstName] ed io troviamo una piccola area conosciuta come il/la [empty_province.Custom('HoldingNoHoldingTerrainRoamingTooltip')]. "
+ bp3_survey.1000.desc_lonely: "Mentre esploro le regioni più oscure di [province.GetName], Mi sono imbattut[ROOT.Char.Custom('DE_END_PRO_S_N')] in una piccola area conosciuta come: [empty_province.Custom('HoldingNoHoldingTerrainRoamingTooltip')]. "
+ bp3_survey.1000.desc_continuation: "A parte qualche pastore di capre, non sembra esserci nessuno che viva qui intorno. Ogni volta che passiamo accanto a loro, ci guardano con occhi sospettosi.\n\n"
+ bp3_survey.1000.desc_border: "Se volessi espandere il mio dominio, dovrei assicurarmi di avere dei vassalli capaci di esprimere il mio potere ai confini del mio regno."
+ bp3_survey.1000.desc_bureaucracy: "Se volessi assicurarmi il controllo di [province.GetNameNoTooltip], avrò bisogno di conoscere meglio la popolazione, anche in queste terre remote."
+ bp3_survey.1000.desc_domain: "Se volessi ispirare la mia popolazione, dovrei fare in modo che anche le persone che vivono in questo luogo isolato conoscano il mio volto e il mio nome."
+ bp3_survey.1000.a: "Invia qualche persona a creare un piccolo avamposto nella regione."
+ bp3_survey.1000.b: "Investi in strade per la zona, in modo da poter mandare qui della gente."
+ bp3_survey.1000.c: "Devo contattare la gente del posto."
+
+ inspection_empty_lands_populace_modifier: "Visita della Sovrano"
+ inspection_empty_lands_populace_modifier_desc: "I pastori di capre locali hanno avuto l'onore di incontrare personalmente il loro signore."
+
+ inspection_empty_lands_domain_modifier: "Strada a pedaggio"
+ inspection_empty_lands_domain_modifier_desc: "In questa regione remota sono stati apportati miglioramenti alla rete stradale locale.\n#emp Si convertirà in un [economic_building|E] se verrà costruito un [holding|E]#!"
+
+ inspection_empty_lands_border_modifier: "Piccolo Avamposto"
+ inspection_empty_lands_border_modifier_desc: "Un piccolo avamposto di frontiera è stato costruito come primo passo per colonizzare la zona.\n#emp Si convertirà in un [fortification_building|E] se verrà costruito un [holding|E]#!"
+
+ inspection_survey_new_goods_modifier: "Nuove Merci"
+ inspection_survey_new_goods_modifier_desc: "Questa contea ha visto arrivare dei nuovi beni dopo che il loro signore ha espanso il regno con delle nuove terre."
+
+ bp3_survey.1010.t: "I Briganti di [province.GetNameNoTooltip]"
+ bp3_survey.1010.desc: "Mentre viaggio per le strade di [province.GetName], mi trovo improvvisamente di fronte a un[peasant_character.Custom('DE_PRO_POS_P_2P')] [peasant_character.GetWomanMan] che è minacciat[peasant_character.Custom('DE_END_PRO_S_N')] da una specie di briganti nel bel mezzo della giornata. [peasant_character.GetSheHe|U] grida in cerca di aiuto, mentre guarda me e le mie guardie.\n\nNegli ultimi tempi alcuni mercenari della città si sono dati al banditismo e al crimine per mantenersi, ma non avevo idea che la situazione fosse così grave. Voglio intervenire e aiutare quest[peasant_character.Custom('DE_END_PRO_S_N')] pover[peasant_character.Custom('DE_PRO_PER_S_3P_N')][peasant_character.GetWomanMan]?"
+ bp3_survey.1010.a: "Fate in modo che la guarnigione li faccia uscire dalla città."
+ bp3_survey.1010.a.win: "Radunate la guarnigione locale e sbarazzatevi dei briganti."
+ bp3_survey.1010.a.win_short: "Raduno della guarnigione"
+ bp3_survey.1010.a.lose: "La situazione diventa peggiore di quanto non sia già"
+ bp3_survey.1010.a.lose_short: "Briganti Rafforzati"
+ bp3_survey.1010.b: "Forse sono disponibili ad un'offerta di lavoro..."
+ bp3_survey.1010.b.flavor: "Sembra che siano bravi a gestire la gente del posto, dopotutto."
+ bp3_survey.1010.c: "Devo intervenire!"
+ bp3_survey.1010.c.win: "Spaventa i briganti"
+ bp3_survey.1010.c.win_short: "Briganti Spaventati"
+ bp3_survey.1010.c.lose: "Ferit[ROOT.Char.Custom('DE_END_PRO_S_N')] dai briganti"
+ bp3_survey.1010.d: "Allontanatel[bandit_character.Custom('DE_END_PRO_S_N')] da me!"
+ bp3_survey.1010.d.flavor: "[bandit_character.GetSheHe|U] è impegnat[bandit_character.Custom('DE_END_PRO_S_N')] a derubare qualcun altro, scappiamo!"
+
+ inspection_bandits_in_x_domain_modifier: "Guarnigione Mercenaria"
+ inspection_bandits_in_x_domain_modifier_desc: "Un gruppo di mercenari e banditi è stato ingaggiato per rinforzare la guarnigione locale."
+ inspection_bandits_in_x_populace_modifier: "Sovran[ROOT.Char.Custom('DE_END_PRO_S_N')] Protettiv[ROOT.Char.Custom('DE_END_PRO_S_N')]"
+ inspection_bandits_in_x_populace_modifier_desc: "Questo personaggio si è fatto in quattro per proteggere il suo popolo, anche mettendo in gioco la propria vita."
+ inspection_bandits_in_x_border_negative_modifier: "Banditi Spietati"
+ inspection_bandits_in_x_border_negative_modifier_desc: "I criminali mantengono un controllo ferreo sulla contea, gestendo gran parte degli affari quotidiani da dietro le quinte."
+ inspection_bandits_in_x_border_positive_modifier: "Strade Sicure"
+ inspection_bandits_in_x_border_positive_modifier_desc: "Gli abitanti della zona si sentono al sicuro sapendo che i banditi non sono un problema o una minaccia."
+
+ bp3_survey.1020.t: "Le Antiche Strade di [province.GetCounty.GetName]"
+ bp3_survey.1020.desc: "Mentre viaggio attraverso il terreno di [province.Custom('HoldingNoHoldingTerrainRoamingTooltip')], rifletto su un problema fin troppo comune. Appena usciti dalla città, ci ritroviamo bloccati in fossati fangosi e a seguire sentieri che non portano da nessuna parte.\n\nQueste antiche strade sono a malapena utilizzabili, se non addirittura completamente inutilizzabili. Finché non metterò a disposizione degli uomini per iniziare a lavorare alle riparazioni, è probabile che la situazione inizi a ripercuotersi sui cittadini locali e sui commercianti stranieri, sempre che non lo abbia già fatto."
+ bp3_survey.1020.a: "Stanzierò i fondi necessari a tal fine."
+ bp3_survey.1020.b: "Reclutiamo i cittadini."
+ bp3_survey.1020.c: "La guarnigione può occuparsene."
+ bp3_survey.1020.d: "Non è un problema così grande."
+
+ inspection_value_old_roads_desc: "\t#weak Aumento per ogni #bold 3#! livelli di [development|E] al di sotto di #bold 30#!#!"
+ MODIFIER_DEFINITION_OLD_ROADS_DESC: "\nQuesto modificatore aumenta quanto più basso è lo [development|E]"
+
+ inspection_old_roads_of_x_border_modifier: "Nuove Strade"
+ inspection_old_roads_of_x_border_modifier_desc: "Una notevole somma d'oro è stata stanziata per la manutenzione della rete stradale locale."
+ inspection_old_roads_of_x_domain_modifier: "Manutenzione da parte della Guarigione"
+ inspection_old_roads_of_x_domain_modifier_desc: "La guarnigione locale è stata destinata alla manutenzione delle vecchie strade della contea."
+ inspection_old_roads_of_x_populace_modifier: "Manutenzione da parte dei Cittadini"
+ inspection_old_roads_of_x_populace_modifier_desc: "I cittadini della contea sono stati costretti a partecipare ai lavori di manutenzione delle strade della contea."
+ inspection_old_roads_negative_modifier: "Strade Poco Curate"
+ inspection_old_roads_negative_modifier_desc: "Le antiche strade della contea sono da tempo in rovina e necessitano di manutenzione."
+
+ bp3_survey.1030.t: "Lotta Tra le Gilde"
+ bp3_survey.1030.desc: "Mentre sono nel bel mezzo di una discussione con uno dei miei burocrati, vengo improvvisamente interrott[ROOT.Char.Custom('DE_END_PRO_S_N')] da due gruppi che si urlano contro a pochi passi di distanza. Le mie guardie riescono a separarli, a malapena, mentre i rappresentanti delle due fazioni continuano a gridare l'uno contro l'altro.\n\nDopo aver tentato ripetutamente di calmarli, ho finalmente capito che si tratta di una disputa tra la [city_province.Custom('InspectionFightingGuilds1Loc')] e la [city_province.Custom('InspectionFightingGuilds2Loc')] sui diritti di proprietà nella parte più importante del centro città."
+ bp3_survey.1030.a: "C'è posto per entrambe le vostre gilde!"
+ bp3_survey.1030.a.win: "Raggiungono un compromesso"
+ bp3_survey.1030.a.loss: "Si trasforma in una lotta di potere che coinvolge tutti i cittadini di [city_province.GetNameNoTooltip]"
+ bp3_survey.1030.a.loss_short: "Si rifiutano di scendere a compromessi"
+ bp3_survey.1030.b: "Sostieni la [city_province.Custom('InspectionFightingGuilds1Loc')]."
+ bp3_survey.1030.c: "Aiuti la [city_province.Custom('InspectionFightingGuilds2Loc')]."
+ bp3_survey.1030.d: "[city_province.Custom('InspectionFightingGuilds1Loc')]? [city_province.Custom('InspectionFightingGuilds2Loc')]?! Pfft, quello è il mio oro!"
+
+ InspectionFightingGuildsMillers: "$LocalGuildsMillers$"
+ InspectionFightingGuildsBakers: "$LocalGuildsBakers$"
+ InspectionFightingGuildsFishmongers: "$LocalGuildsFishmongers$"
+ InspectionFightingGuildsShoemakers: "$LocalGuildsShoemakers$"
+ InspectionFightingGuildsTanners: "$LocalGuildsTanners$"
+ InspectionFightingGuildsTailors: "$LocalGuildsTailors$"
+ InspectionFightingGuildsWeavers: "$LocalGuildsWeavers$"
+ InspectionFightingGuildsSkinners: "$LocalGuildsSkinners$"
+ InspectionFightingGuildsButchers: "$LocalGuildsButchers$"
+ InspectionFightingGuildsFurriers: "$LocalGuildsFurriers$"
+ InspectionFightingGuildsVintners: "$LocalGuildsVintners$"
+ InspectionFightingGuildsCarpenters: "$LocalGuildsCarpenters$"
+ InspectionFightingGuildsMasons: "$LocalGuildsMasons$"
+ InspectionFightingGuildsMiners: "$LocalGuildsMiners$"
+ InspectionFightingGuildsBlacksmiths: "$LocalGuildsBlacksmiths$"
+ InspectionFightingGuildsSaddlers: "$LocalGuildsSaddlers$"
+ InspectionFightingGuildsMerchants: "$LocalGuildsMerchants$"
+ InspectionFightingGuildsPhysicians: "$LocalGuildsPhysicians$"
+ InspectionFightingGuildsPharmacists: "$LocalGuildsPharmacists$"
+ InspectionFightingGuildsToolmakers: "$LocalGuildsToolmakers$"
+ InspectionFightingGuildsInnkeepers: "Gilda degli Albergatori"
+ InspectionFightingGuildsArtists: "Gilda degli Artisti"
+
+ inspection_fighting_guilds_innkeepers_guild_modifier: "Gilda degli Albergatori"
+ inspection_fighting_guilds_innkeepers_guild_modifier_desc: "Questa città è fortemente influenzata da una potente $inspection_fighting_guilds_innkeepers_guild_modifier$."
+ inspection_fighting_guilds_artists_guild_modifier: "Gilda degli Artisti"
+ inspection_fighting_guilds_artists_guild_modifier_desc: "Gli artisti vengono da lontano per partecipare alle attività creative che si possono vedere in ogni angolo della città."
+ inspection_learning_intent_local_guilds_modifier: "Gilde Locali"
+ inspection_learning_intent_local_guilds_modifier_desc: "Alcune nuove gilde si sono insediate nella baronia dopo aver concluso degli affari con il loro signore in altre parti del regno."
+
+ bp3_survey.1040.t: "L'Incendio Si Diffonde"
+ bp3_survey.1040.desc: "Mentre stiamo viaggiando per le strade di [province.GetName], io e il mio entourage ci imbattiamo improvvisamente in un incendio che sta divampando in uno dei quartieri più antichi della città. Molti sono in piedi con gli occhi spalancati dallo shock o piangono sommessamente accanto a uno dei corpi sparsi sul marciapiede.\n\nUna decina di soldati cerca disperatamente di domare l'incendio prima che possa divampare nel resto della città e lasciare dietro di sé solo cenere."
+ bp3_survey.1040.a: "Il popolo deve essere salvato!"
+ bp3_survey.1040.a.win: "Aiutate a spegnere il fuoco"
+ bp3_survey.1040.a.loss: "Il fuoco si diffonde nonostante i tuoi sforzi"
+ bp3_survey.1040.a.death: "Imprigionat[ROOT.Char.Custom('DE_END_PRO_S_N')] nelle Fiamme"
+ bp3_survey.1040.b: "Troverò i fondi più tardi, adesso concentriamoci sul salvare ciò che possiamo."
+ bp3_survey.1040.c: "Un incendio ancora più grande rimetterà [county_owner.GetFirstNameNoTooltip] al suo posto."
+ bp3_survey.1040.c.win: "La gente crede che tu abbia cercato di aiutarla"
+ bp3_survey.1040.c.loss: "La gente sa cosa hai fatto veramente"
+ bp3_survey.1040.d: "Non c'è nient'altro che possa fare qui..."
+ bp3_survey.1040.destroyed_building: "Il fuoco si diffonde" 
+
+ inspection_fire_spreading_modifier: "Strade Bruciate"
+ inspection_fire_spreading_modifier_desc: "Bruciare parte del vecchio marciume ha dato origine a delle nuove opportunità."
+ inspection_selfless_ruler_modifier: "Sovran[ROOT.Char.Custom('DE_END_PRO_S_N')] Altruista"
+ inspection_selfless_ruler_modifier_desc: "Questo personaggio ha messo a rischio la propria salute per aiutare il suo popolo."
+
+ bp3_survey.1050.t: "Espansione delle Mura Cittadine"
+ bp3_survey.1050.desc: "Mi ritrovo ancora una volta a discutere con alcuni abitanti del luogo su cosa dovrei dare priorità nella ristrutturazione di [province.GetName]. "Lo spostamento e la ricostruzione delle vecchie mura della città, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]" mi dice il Capitano della guarnigione locale, [soldier_character.GetNameNoTooltip], facendomi l'occhiolino, "Pensate a quanto spazio in più avremmo per un nuovo quartiere residenziale!"\n\n"No, no! L'antico quartiere dei mercanti ha bisogno di un ritocco. " dice [merchant_character.GetNameNoTooltip], un rappresentante delle corporazioni locali, intromettendosi nella conversazione senza pudore. "Immaginate quanto sarà più vivace la città con un quartiere commerciale più attivo!" "
+ bp3_survey.1050.a: "Concentriamoci sulle vecchie mura fatiscenti di [province.GetNameNoTooltip]."
+ bp3_survey.1050.b: "I commercianti ne hanno il diritto."
+ bp3_survey.1050.c: "Non abbiamo abbastanza oro a disposizione da poterlo distribuire a chiunque."
+
+ inspection_expanding_walls_new_modifier: "Spazio per l'Espansione"
+ inspection_expanding_walls_new_modifier_desc: "Questa città ha trovato un po' di spazio per espandersi, dopo aver spostato una sezione delle sue mura."
+ inspection_expanding_walls_old_modifier: "Investimento nelle Gilde"
+ inspection_expanding_walls_old_modifier_desc: "Le gilde locali hanno registrato un piccolo vantaggio per le loro fortune, dopo che una piccola somma è stata stanziata per la manutenzione del distretto commerciale."
+ inspection_learning_intent_building_modifier: "Pratiche di Costruzione"
+ inspection_learning_intent_building_modifier_desc: "Dopo aver appreso le pratiche utilizzate in altre parti del regno, la capitale sta prosperando."
+
+ inspection_expanding_walls_new_desc: "\t#weak Aumento per ogni spazio [building|E] libero#!"
+ MODIFIER_DEFINITION_EXPANDING_WALLS_NEW_DESC: "\nQuesto modificatore aumenta quanto più spazi [building|E] liberi ci sono nella [barony|E]"
+
+ inspection_expanding_walls_old_desc: "\t#weak Aumento per ogni [building|E]#!"
+ MODIFIER_DEFINITION_EXPANDING_WALLS_OLD_DESC: "\nQuesto modificatore aumenta quanti più [buildings|E] ci sono nella [barony|E]"
+
+ bp3_survey.1060.t: "Una Minera di Opportunità"
+ bp3_survey.1060.desc: "Mentre visito l'entroterra di [province.GetName], io e il mio seguito ci imbattiamo in un'antica e oscura strada. Sebbene sia ben nascosta, conduce a un piccolo affioramento collinare e, in particolare, a una grotta dove troviamo alcune attrezzature minerarie abbandonate sparse sul pavimento della grotta.\n\n"
+ bp3_survey.1060.desc.copper: ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]," esclama improvvisamente uno dei miei soldati, [soldier_character.GetFirstNameNoTooltip], "Non è forse una vena di rame?""
+ bp3_survey.1060.desc.silver: ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]," esclama improvvisamente uno dei miei soldati, [soldier_character.GetFirstNameNoTooltip],"Questo scintillio deve essere d'argento!""
+ bp3_survey.1060.desc.gold: ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]," esclama improvvisamente uno dei miei soldati, [soldier_character.GetFirstNameNoTooltip], spalancando gli occhi, "È una pepita d'oro?""
+ bp3_survey.1060.a: "Cosa stiamo aspettando? Scavate! SCAVATE!"
+
+ inspection_learning_intent_flourishing_metal_trade_modifier: "Mercato Fiorente"
+ inspection_learning_intent_flourishing_metal_trade_modifier_desc: "Questa baronia ha ricevuto un mercato fiorente dopo la scoperta di una miniera in un'altra parte del regno."
+
+ bp3_survey.1070.t: "Irregolarità Regolari"
+ bp3_survey.1070.desc.intro.personal: "Esaminando le tasse riscosse dai miei intendenti e viceré locali, ho notato delle chiare discrepanze tra quanto registrato in alcune aree e quanto ricevuto.\n\n"
+ bp3_survey.1070.desc.intro.vassal: "Esaminando le tasse riscosse a [province.GetName] mentre era governata da [county_owner.GetFirstName], ho notato una chiara discrepanza tra quanto mi era dovuto e quanto mi è stato dato. Sebbene [county_owner.GetFirstNameNoTooltip] avrebbe dovuto accorgersene, i numeri errati sono stati aggiunti prima che arrivassero sulla sua scrivania.\n\n"
+ bp3_survey.1070.desc: "A prescindere da di chi sia la colpa, è chiaro che qualcuno deve pagare. Gli abitanti del luogo hanno già pagato il loro dovuto, ma sono più facili da spremere rispetto ai veri responsabili di questi 'errori'."
+ bp3_survey.1070.a: "I nobili #emp pagheranno#! il dovuto, in un modo o nell'altro."
+ bp3_survey.1070.a.flavor: "I responsabili devono dare l'esempio, in modo che gli altri sappiano cosa rischiano."
+ bp3_survey.1070.b: "Una tassa una tantum sulla gente del posto compenserà queste perdite."
+ bp3_survey.1070.b.flavor: "La gente del posto non lo apprezzerà, ma il denaro è necessario."
+ bp3_survey.1070.c: "Questa volta lascerò perdere..."
+ bp3_survey.1070.c.flavor: "Speriamo che la mia indulgenza sia apprezzata."
+
+ inspection_regular_irregularities_local_modifier: "Tassa Una Tantum"
+ inspection_regular_irregularities_local_modifier_desc: "Questo personaggio ha imposto una tassa irregolare una tantum ai propri cittadini locali, per compensare le mancanze dei suoi vassalli."
+ inspection_regular_irregularities_modifier: "Punizione Forzata"
+ inspection_regular_irregularities_modifier_desc: "Questo personaggio ha punito duramente i vassalli che hanno rubato il denaro delle tasse per il loro tornaconto personale."
+
+ bp3_survey.1080.t: "Un Lugo che Merita Una Visita"
+ bp3_survey.1080.desc: ""Non è affatto sicuro, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.GetLadyLord]", mi dice [Select_CString(traveler_character.IsFemale,'una viaggiatrice esausta','un viaggiatore esausto')]. "Ne sono uscito viv[traveler_character.Custom('DE_END_PRO_S_N')] per un pelo, a dire il vero." E in effetti sembra che [traveler_character.GetSheHe] abbia avuto un'esperienza difficile.\n\n"
+ bp3_survey.1080.desc.holy_poi: "Sembra che i fedeli [ROOT.GetCharacter.GetFaith.GetReligion.GetAdherentNamePluralNoTooltip] di tutto il mondo si siano recati qui a [location_province.GetName] per vedere il più sacro dei luoghi, l'edificio sacro '[location_province.GetHolding.GetSpecialBuildingType.GetName]'. Tuttavia, durante il tragitto sono stati intercettati da dei criminali."
+ bp3_survey.1080.desc.poi: "Sembra che persone da tutto il mondo si siano recate qui per vedere il monumento '[location_province.GetHolding.GetSpecialBuildingType.GetName]', Tuttavia, durante il tragitto sono state intercettate da dei criminali."
+ bp3_survey.1080.desc.holy_site: "Sembra che i fedeli [ROOT.GetCharacter.GetFaith.GetReligion.GetAdherentNamePluralNoTooltip] di tutto il mondo si siano recati qui a [location_province.GetName] per vedere il sito sacro. Tuttavia, durante il tragitto sono stati intercettati da dei criminali."
+ bp3_survey.1080.desc.outro: "Se permettiamo ai banditi e ai pedoni di continuare a derubare i visitatori... È solo questione di tempo prima che inizino a spostarsi altrove."
+ bp3_survey.1080.a: "Recluterò una piccola pattuglia di guardie per proteggere i viaggiatori."
+ bp3_survey.1080.b: "Lasciamo che i cittadini si prendano cura dei loro visitatori."
+ bp3_survey.1080.c: "Possono cavarsela da soli."
+
+ protected_poi_modifier_desc: "\nPossibilità di ottenere un punto d'[skill|E] dalla [monument_expedition|E]: #p +10%#!"
+ protected_holy_site_modifier_desc: "\nPietà del [pilgrimage|E]: #p +20#!"
+
+ inspection_proteted_poi_levy_modifier: "Monumento Protetto"
+ inspection_proteted_poi_levy_modifier_desc: "La guarnigione è stata istituita per prendersi cura del monumento locale e dei suoi numerosi viaggiatori.\n\n$protected_poi_modifier_desc$"
+
+ inspection_protected_holy_site_levy_modifier: "Sito Sacro Protetto"
+ inspection_protected_holy_site_levy_modifier_desc: "La guarnigione è stata istituita per prendersi cura del luogo sacro locale e dei suoi numerosi pellegrini.\n$protected_holy_site_modifier_desc$"
+
+ inspection_protected_holy_poi_levy_modifier: "$inspection_protected_holy_site_levy_modifier$"
+ inspection_protected_holy_poi_levy_modifier_desc: "La guarnigione è stata istituita per prendersi cura del luogo sacro locale e dei suoi numerosi pellegrini.\n$protected_poi_modifier_desc$ $protected_holy_site_modifier_desc$"
+
+ inspection_protected_poi_gold_modifier: "Monumento Presidiato"
+ inspection_protected_poi_gold_modifier_desc: "Il monumento locale ha una guarnigione speciale dedicata a proteggerlo e a proteggere i numerosi viaggiatori che lo visitano.\n$protected_poi_modifier_desc$"
+
+ inspection_protected_holy_site_gold_modifier: "Sito Sacro Presidiato"
+ inspection_protected_holy_site_gold_modifier_desc: "Il sito sacro locale ha una guarnigione speciale dedicata a proteggerlo e a proteggere i numerosi pellegrini che lo visitano.\n$protected_holy_site_modifier_desc$"
+
+ inspection_protected_holy_poi_gold_modifier: "$inspection_protected_holy_site_gold_modifier$"
+ inspection_protected_holy_poi_gold_modifier_desc: "Il sito sacro locale ha una guarnigione speciale dedicata a proteggerlo e a proteggere i numerosi pellegrini che lo visitano.\n$protected_poi_modifier_desc$ $protected_holy_site_modifier_desc$"
+
+ bp3_survey.1090.t: "L'Entroterra Nascosto"
+ bp3_survey.1090.desc: ""Siete qui per scovare i bracconieri, non è vero?" ci grida [Select_CString( hunter_character.IsFemale, 'una cacciatrice vestita di stracci', 'un cacciatore vestito di stracci' )], mentre ci avviciniamo al suo piccolo campo durante uno dei miei sopralluoghi nell'entroterra di [province.GetName]. "Se ne possono trovare molti, sebbene queste non siano delle terre regali. Qui in [poaching_province.GetName], ognuno si arrangia come può."\n\n"Se desideraste rivendicare il vostro diritto su queste terre, avrete bisogno di qualcuno che possa presentarsi regolarmente a vostro nome, se capite cosa intendo." aggiunge, facendomi l'occhiolino, prima di addentare un pezzo di carne alla griglia. Un gruppo che possa dimostrare agli abitanti di questo posto che queste terre mi appartengono? Forse non è una cattiva idea..."
+ bp3_survey.1090.a: "Assumeremo delle guardie che possano pattugliare l'entroterra."
+ bp3_survey.1090.b: "Recluta i cacciatori locali che già conoscono la zona."
+ bp3_survey.1090.c: "Chi si preoccupa di uno o due bracconieri?"
+
+ inspection_hidden_hinterlands_modifier: "[hunt_success_chance|E]: #p +10%#!\n[prestige_experience|E] dell'[hike|E]: #P +25%#!"
+
+ inspection_hidden_hinterlands_recruit_modifier: "Pattuglia della Natura Selvaggia"
+ inspection_hidden_hinterlands_recruit_modifier_desc: "Un reggimento di guardia istituito per garantire che nella regione ci sia il minor numero possibile di bracconieri o di criminali.\n\n$inspection_hidden_hinterlands_modifier$"
+
+ inspection_hidden_hinterlands_hunters_modifier: "Cacciatori Locali"
+ inspection_hidden_hinterlands_hunters_modifier_desc: "Un gruppo di cacciatori locali che sono stati assunti [ROOT.Char.Custom('DE_PRO_PER_P_3P_A')] loro signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] per proteggere la baronia dai bracconieri e dai criminali.\n\n$inspection_hidden_hinterlands_modifier$"
+
+ ### Progression Events ###
+ bp3_survey.1200.t: "Fare dei Passi Avanti"
+ bp3_survey.1200.desc: "Nonostante i numerosi problemi e le questioni che ho affrontato qui a [province.GetName], mi sembra di aver iniziato a comprendere come muovermi qui. I proprietari terrieri, le gilde locali, tutti iniziano ad accettare il mio modo di fare le cose.\n\nOra devo solo tracciare un percorso per il futuro di questa contea e trovare le persone giuste per guidarla."
+ bp3_survey.1200.a: "Spero che queste siano le ultime sfide che mi aspettano qui."
+
+ bp3_survey.1210.t: "Un passo nella Giusta Direzione"
+ bp3_survey.1210.desc: "Dopo una serata passata a discutere con i proprietari terrieri locali, sono finalmente riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] ad ottenere un accordo con una delle gilde commerciali locali.\n\nSpero che questo sia solo l'inizio per riportare questa contea dove vorrei che fosse. Se solo riuscissi a trovare qualche voce più amichevole che sostenga i miei sforzi qui."
+ bp3_survey.1210.a: "Il primo di molti passi."
+
+ bp3_survey.1220.t: "Un Passo Falso"
+ bp3_survey.1220.desc: "Dopo una serata trascorsa a discutere con i proprietari terrieri locali, non siamo ancora riusciti a trovare un compromesso. Nonostante i miei sforzi, sento che la mia motivazione per cercare di migliorare le cose qui sta lentamente svanendo.\n\nPerché non provano andare d'accordo, per una volta?"
+ bp3_survey.1220.a: "#bold Parlatevi#!!"
+
+ bp3_survey.1230.t: "Un Abbaglio Dietro l'Altro"
+ bp3_survey.1230.desc: "Dopo una lunga giornata trascorsa a parlare con i proprietari terrieri locali, mi trovo a dover affrontare una piccola disputa tra le gilde dei mercanti, seguita da altri battibecchi tra nobili.\n\nQualunque cosa faccia, mi sembra che un nuovo problema attenda la mia attenzione. Cosa c'è di sbagliato nelle persone che abitano a [province.GetName]?!"
+ bp3_survey.1230.a: "#emp Vogliono#! davvero che le cose migliorino?!"
+
+ ### APAs
+ apa_survey_bad_harvest_title: "Segni di un Cattivo Raccolto"
+ apa_survey_bad_harvest_key_title: "Un Cattivo Raccolto"
+ apa_survey_bad_harvest_key: "Ispezionando i terreni agricoli locali di [apa_province.GetName], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] iniziato a vedere i segni di un cattivo raccolto in arrivo."
+
+ apa_survey_good_harvest_title: "Segni di un Buon Raccolto"
+ apa_survey_good_harvest_key_title: "Un Buon Raccolto"
+ apa_survey_good_harvest_key: "Ispezionando i terreni agricoli locali di [apa_province.GetName], [Select_CString(first.IsLocalPlayer,'tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] iniziato a vedere i segni di un buon raccolto in arrivo."
+
+ apa_survey_bad_merchant_guild_title: "Scarse Relazioni tra le Gilde dei Mercanti"
+ apa_survey_bad_merchant_guild_key_title: "Relazioni tra le Gilde dei Mercanti"
+ apa_survey_bad_merchant_guild_key: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] litigato con una gilda di mercanti locali a [apa_province.GetName]."
+
+ apa_survey_good_merchant_guild_title: "Ottime Relazioni tra le Gilde dei Mercanti"
+ apa_survey_good_merchant_guild_key_title: "Relazioni tra le Gilde dei Mercanti"
+ apa_survey_good_merchant_guild_key: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] stretto degli accordi con una gilda di mercanti locali a [apa_province.GetName]."
+
+ apa_survey_bad_noble_title: "Nobili Ostili"
+ apa_survey_bad_noble_key_title: "$apa_survey_bad_noble_title$"
+ apa_survey_bad_noble_key: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] litigato con un nobile locale a [apa_province.GetName]."
+
+ apa_survey_good_noble_title: "Nobili Amichevoli"
+ apa_survey_good_noble_key_title: "$apa_survey_good_noble_title$"
+ apa_survey_good_noble_key: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] trascorso un po' di tempo a banchettare con alcuni nobili locali a [apa_province.GetName]."
+
+ apa_survey_tax_problems_title: "Evasione Fiscale"
+ apa_survey_tax_problems_key_title: "$apa_survey_tax_problems_title$"
+ apa_survey_tax_problems_key: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto un'evasione fiscale da parte di diversi nobili di [apa_province.GetName], ma non [Select_CString(first.IsLocalPlayer,'sei','è')] riuscit[first.Custom('DE_END_PRO_S_N')] a risolvere il problema."
+
+ apa_survey_extra_taxes_title: "Tasse Supplementari"
+ apa_survey_extra_taxes_key_title: "$apa_survey_extra_taxes_title$"
+ apa_survey_extra_taxes_key: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto un'evasione fiscale da parte di diversi nobili di [apa_province.GetName], e [Select_CString(first.IsLocalPlayer,'ti sei','si è')] assicurat[first.Custom('DE_END_PRO_S_N')] che pagassero quanto dovuto."
+
+ apa_survey_old_bridge_title: "Ponte Traballante"
+ apa_survey_old_bridge_key_title: "$apa_survey_old_bridge_title$"
+ apa_survey_old_bridge_key: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'sei','è')] quasi cadut[first.Custom('DE_END_PRO_S_N')] nell'acqua a causa di un antico ponte traballante, che ora ha un disperato bisogno di riparazioni e di manutenzione."
+
+ apa_survey_bad_mercenaries_title: "Mercenari Problematici"
+ apa_survey_bad_mercenaries_key_title: "$apa_survey_bad_mercenaries_title$"
+ apa_survey_bad_mercenaries_key: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto alcuni mercenari problematici che devastano l'entroterra di [apa_province.GetName]."
+
+ apa_survey_good_mercenaries_title: "Accordo con i Mercenari"
+ apa_survey_good_mercenaries_key_title: "$apa_survey_good_mercenaries_title$"
+ apa_survey_good_mercenaries_key: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] scoperto alcuni mercenari problematici a [apa_province.GetName], e [Select_CString(first.IsLocalPlayer,'hai','ha')] inviato una piccola pattuglia a gestire il problema."
+
+ apa_survey_small_festival_title: "Festa Locale"
+ apa_survey_small_festival_key_title: "$apa_survey_small_festival_title$"
+ apa_survey_small_festival_key: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] partecipato ad una piccola festa a [apa_province.GetName] riuscendo a impressionare i contadini e i nobili partecipanti."
+
+ apa_survey_fishing_rights_title: "Disputa sulla Pesca"
+ apa_survey_fishing_rights_key_title: "$apa_survey_fishing_rights_title$"
+ apa_survey_fishing_rights_key: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] posto fine ad una disputa tra una gilda di pescatori locali e un nobile a [apa_province.GetName] che stavano litigando sui diritti di pesca."
+
+ apa_survey_city_walls_title: "Mura Cittadine Fatiscenti"
+ apa_survey_city_walls_key_title: "$apa_survey_city_walls_title$"
+ apa_survey_city_walls_key: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] sprecato tempo ed energie nel tentativo di aiutare nella manutenzione delle mura cittadine a [apa_province.GetName] senza ottenere alcun risultato."
+
+ apa_survey_local_gift_title: "Popolare Tra la Gente del Posto"
+ apa_survey_local_gift_key_title: "$apa_survey_local_gift_title$"
+ apa_survey_local_gift_key: "[Select_CString(first.IsLocalPlayer,'Tu',first.GetShortUIName)] [Select_CString(first.IsLocalPlayer,'hai','ha')] ricevuto un regalo dalla cittadinanza di [apa_province.GetName]."
+

@@ -1,0 +1,44 @@
+﻿l_spanish:
+
+ ALL_CLAIMANTS:0 "tutti i [claimants|E]"
+ ANY_CLAIMANT:0 "qualsiasi [claimant|E]"
+
+ ANY_CHILD:0 "Qualsiasi Figlio:"
+ ANY_CHILD_FIRST:0 "Uno qualsiasi dei miei Figli:"
+ ANY_CHILD_THIRD:0 "Uno qualsiasi dei Figli di [CHARACTER.GetShortUIName]:"
+ ALL_CHILDREN:0 "Tutti i Figli:"
+ ALL_CHILDREN_FIRST:0 "Tutti i miei Figli:"
+ ALL_CHILDREN_THIRD:0 "Tutti i Figli di [CHARACTER.GetShortUIName]:"
+ COUNT_EQ_CHILDREN:0 "esattamente $COUNT$ Figli:"
+ COUNT_EQ_CHILDREN_THIRD:0 "Esattamente $COUNT$ Figli di [CHARACTER.GetShortUIName]:"
+ COUNT_GT_EQ_CHILDREN:0 "$COUNT$ Figli:"
+ COUNT_GT_EQ_CHILDREN_THIRD:0 "$COUNT$ Figli di [CHARACTER.GetShortUIName]:"
+
+ ALL_COURTIERS:0 "Tutti i Cortigiani:"
+ ANY_COURTIERS:0 "Qualsiasi Cortigiano:"
+ ALL_OF_MY_COURTIERS:0 "Tutti i miei Cortigiani:"
+ ANY_OF_MY_COURTIERS:0 "Uno qualsiasi dei miei Cortigiani:"
+ ALL_OF_THEIR_COURTIERS:0 "Tutti i Cortigiani di [CHARACTER.GetShortUIName]:"
+ ANY_OF_THEIR_COURTIERS:0 "Uno qualsiasi dei Cortigiani di [CHARACTER.GetShortUIName]:"
+ AT_LEAST_COURTIERS: "$PARAMETERS$ [courtiers|E]:"
+ AT_LEAST_OF_MY_COURTIERS: "$PARAMETERS$ dei [courtiers|E] di [CHARACTER.GetShortUIName]:"
+ AT_LEAST_OF_THEIR_COURTIERS: "$PARAMETERS$ dei [courtiers|E] di [CHARACTER.GetShortUIName]:"
+ 
+
+ ALL_HOOKED_CHARACTERS:0 "Tutti i personaggi con un [Concept( 'hooked', 'gancio nei loro confronti' )|E]"
+ ANY_HOOKED_CHARACTER:0 "Qualsiasi personaggio con un [Concept( 'hooked', 'gancio nei suoi confronti' )|E]"
+ ALL_OF_THEIR_HOOKED_CHARACTERS:0 "tutti personaggi verso cui [CHARACTER.GetShortUIName] possiede un [Concept( 'hooked', 'gancio' )|E]:"
+ ANY_OF_THEIR_HOOKED_CHARACTERS:0 "qualsiasi personaggio verso cui [CHARACTER.GetShortUIName] possiede un [Concept( 'hooked', 'gancio' )|E]:"
+
+ ANY_FAITH_HOLY_SITE:0 "Qualsiasi [holy_site|E] di fede [FAITH.GetAdjective]"
+
+ ANY_HELD_TITLE:0 "Qualsiasi [title|E] detenuto:"
+ ANY_OF_MY_HELD_TITLES:0 "Uno qualsiasi dei miei [titles|E]:"
+ ANY_HELD_TITLE_COUNT:0 "$PARAMETERS$ [titles|E] detenuti:"
+ ANY_OF_MY_HELD_TITLES_COUNT:0 "$PARAMETERS$ dei [titles|E] che detengo:"
+ ANY_HELD_TITLE_PERCENT:0 "$PARAMETERS$ [titles|E] detenuti:"
+ ANY_OF_MY_HELD_TITLES_PERCENT:0 "$PARAMETERS$ dei [titles|E] che detengo:"
+ 
+ ANY_WARDEN_HOSTAGE: "Qualsiasi [hostage|E]:"
+ ANY_WARDEN_HOSTAGE_FIRST: "Uno qualsiasi dei miei [hostages|E]:"
+ ANY_WARDEN_HOSTAGE_THIRD: "Uno qualsiasi degli [hostages|E] di [CHARACTER.GetShortUIName]:"

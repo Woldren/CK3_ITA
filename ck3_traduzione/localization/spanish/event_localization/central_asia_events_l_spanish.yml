@@ -1,0 +1,23 @@
+﻿l_spanish:
+ central_asia.0001.t:0 "Il Mondo Prima di Me"
+ central_asia.0001.desc:0 "I capi dei clan sanno tutti perché sono stati chiamati. Passiamo una lunga notte appartati nella yurta del palazzo, e loro convocano sciamani e generali per parlare davanti a loro. Non c'è dibattito. Esco dalla tenda mentre i primi raggi del sole fanno breccia nell'orizzonte e l'intero esercito riunito è già sveglio, in attesa.\n\nMi salutano, sapendo che non sono semplicemente il loro sovrano. Sono il sovrano dell'universo — Genghis Khan."
+ central_asia.0001.a:0 "Qui è dove inizia veramente la mia conquista."
+ central_asia.0001.mongol_invasion_cb:0 "Sono in grado di utilizzare la [mongol_invasion_casus_belli|E]"
+
+ central_asia.0002.t:0 "Genghis Khan"
+ central_asia.0002.desc:0 "Sono stato convocato dal mio signore a un Grande Kurultai, un raduno di ogni capo clan e vassallo del regno. Sapevamo tutti perché, e non c'è stato alcun dubbio durante le discussioni notturne che sono state tenuto nella yurta fumosa. [genghis_khan.GetFirstName] [genghis_khan.GetDynastyName] è il Signor[genghis_khan.Custom('DE_END_ADJ_IND_S_A')] dell'universo — Genghis Khan.\n\nNon c'è stata alcuna cerimonia di incoronazione, perché chi poteva giudicarlo? Invece, [genghis_khan.GetSheHe] ha rilasciato una dichiarazione prima di radunare gli eserciti.\n\n"Oggi marceremo in avanti e conquistiamo tutto ciò che si trova sotto il Grande Cielo!""
+ central_asia.0002.a:0 "Il mondo tremerà davanti a noi!"
+
+ central_asia.0003.desc:0 "Gli araldi ci portano la notizia di un nuovo sovrano nelle steppe, qualcuno che si autodefinisce 'Gengis Khan', autoproclamato sovrano dell'universo. Un'orda unita di cavalieri e guerrieri si sta riversando per soggiogare coloro che rifiutano di inchinarsi.\n\nQueste sono affermazioni ridicole, ovviamente, ma ci sono arrivate anche notizie sulla caduta di grandi città di fronte un feroce conquistatore..."
+ central_asia.0003.a.distant:0 "Tutto questo finirà abbastanza presto."
+ central_asia.0003.a.neighbor:0 "Dobbiamo prepararci. Ci sono problemi in vista."
+
+ central_asia.0011.t:0 "La Culla delle Steppe"
+ central_asia.0011.desc:0 "L'eredità degli antichi non è solo un potente simbolo, ma una forza guida a sé stante. Come una volta, i popoli disparati di questa terra saranno uniti e guidati sotto la bandiera della Battria. Il mio stendardo.\n\nCon zoccoli tonanti e piedi in marcia, tutti coloro che viaggiano da Oriente ad Occidente sapranno che governiamo il cielo aperto."
+ central_asia.0011.a:0 "Portiamo la forza di innumerevoli popoli!"
+
+ central_asia.0012.desc:0 "Il mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('bactrian_emperor'))], [bactrian_emperor.GetTitledFirstName], ha rivendicato le antiche terre della Battria e intende governarle come una sola, così come facevano i re nei tempi antichi.\n\nPer coloro che viaggiano tra Oriente e Occidente, questa terra potrebbe sembrare inospitale, ma sappiamo che in realtà è brulicante di vita. "
+ central_asia.0012.a:0 "Portiamo la forza di innumerevoli popoli!"
+
+ central_asia.0013.desc:0 "[bactrian_emperor.GetFullName] ha rivendicato tutte le terre dell'antica Battria e si è dichiarato il suo unico vero sovrano. Lo sciocco sembra aver trascurato un piccolo dettaglio, tuttavia. Alcune delle terre che ha rivendicato sono mie!"
+ central_asia.0013.a:0 "Dovrà strapparle dalle mie fredde e morte mani!"

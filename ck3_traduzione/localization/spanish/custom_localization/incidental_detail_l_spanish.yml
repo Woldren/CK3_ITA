@@ -1,0 +1,17 @@
+﻿l_spanish:
+ #GetIncidentalDetail
+ servant_struggling_with_vase:0 "un servo alle prese con un vaso"
+ courtier_passing_by_in_hurry:0 "un cortigiano che passa di fretta"
+ fly_crawling_on_decoration:0 "una mosca che striscia su alcune decorazioni dorate"
+ peddler_passing_by_in_hurry:0 "un venditore ambulante che passa di fretta"
+ feather_drift_past:0 "una piuma che svolazza"
+ cupbearer_pours_drink:0 "il coppiere che versa da bere"
+ courtiers_chat:0 "due cortigiani che chiacchierano sottovoce"
+ 
+ servant_struggling_with_vase_pres:0 "un servitore alle prese con un vaso"
+ courtier_passing_by_in_hurry_pres:0 "un cortigiano passa di fretta"
+ fly_crawling_on_decoration_pres:0 "una mosca cammina su alcune decorazioni dorate"
+ peddler_passing_by_in_hurry_pres:0 "un venditore ambulante passa di fretta"
+ feather_drift_past_pres:0 "una piuma galleggia nell'aria"
+ cupbearer_pours_drink_pres:0 "il coppiere versa da bere"
+ courtiers_chat_pres:0 "due cortigiani chiacchierano sottovoce"

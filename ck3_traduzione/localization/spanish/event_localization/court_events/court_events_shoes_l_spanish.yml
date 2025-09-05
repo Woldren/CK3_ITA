@@ -1,0 +1,50 @@
+﻿l_spanish:
+ court.placeholder_court_grandeur_loss:0 "Perdi #V 10#! in Magnificenza della Corte"
+
+ # Growing Debauchery
+ court.1000.t:0 "Crescente Dissolutezza"
+ court.1000.desc.opening:0 "Al sicuro a [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], con tutti i suoi bisogni soddisfatti, [child.Custom2('MyCharacterIntroduction', ROOT.Char)] ha mostrato poca proclività a fare una qualunque cosa che non fosse"
+ court.1000.desc.drunkard:0 "trascorrere le sue giornate alla taverna annegando in un infinito mare di [child.Custom('RegionalAlcoholicDrink')]."
+ court.1000.desc.hashishiyah:0 "trascorrere le sue giornate rinchius[child.Custom('DE_END_PRO_S_N')] in qualche angolo, con la testa fra le nuvole e trangugiando una quantità infinità di dolci all'hashish."
+ court.1000.desc.rakish:0 "trascorrere le sue giornate al bordello, "intrattenendo" un'infinita schiera di "ospiti"."
+ court.1000.desc.ending:0 "\n\nGli inviati stranieri hanno cominciato a prendere nota del suo comportamento, ed io non posso fare a meno di chiedermi quali diceria vengano sussurrate sul suo riguardo nelle corti lontane..."
+ court.1000.a:0 "Questo comportamento è inaccettabile... [child.GetSheHe] deve essere punit[child.Custom('DE_END_PRO_S_N')]. Umiliat[child.Custom('DE_END_PRO_S_N')], persino."
+ court.1000.a.tt:0 "Fare di [child.GetFirstName] un esempio potrebbe impedire che altri cortigiani agiscano allo stesso modo."
+ court.1000.b:0 "Ha solo bisogno di qualche responsabilità, qualcosa di importante di cui occuparsi!"
+ court.1000.b.success:0 "I nuovi incarichi affidati a [child.GetFirstNamePossessiveNoTooltip] l[child.Custom('DE_END_PRO_S_N')] tengono occupat[child.Custom('DE_END_PRO_S_N')]."
+ court.1000.b.failure:0 "[child.GetFirstNameNoTooltip], continua a indulgere nei suoi vizi dopo aver finito di lavorare."
+ court.1000.c:0 "Ah beh! Sa davvero come godersi il meglio della vita!"
+ court.1000.c.tt:0 "Essere permissivi con [child.GetFirstName] potrebbe incoraggiare altri cortigiani ad agire nello stesso modo."
+
+ court.1001.title:0 "[courtier.GetFirstName] Abbraccia la Dissolutezza"
+
+ # Sbronze Mattutine
+ court.1010.t:0 "Sbronze Mattutine"
+ court.1010.desc:0 "Le buffonate da ubriac[courtier.Custom('DE_END_PRO_S_N')] [courtier.Custom('REL_TO_ME3')][courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] sono già state oggetto di pettegolezzi a corte, ma ultimamente sembra averle portate a un livello completamente nuovo.\n\nUbriacarsi a metà mattina, svenire nel cortile del [courtier.Custom('ResidenceBuilding')], barcollare verso la taverna nel pomeriggio e svegliarsi il giorno dopo in una stalla coi postumi di una sbronza colossale... Il comportamento degenerato di [courtier.GetFirstNamePossessiveNoTooltip] è motivo di imbarazzo per tutti coloro che risiedono a [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]."
+ court.1010.a:0 "[courtier.Custom('DE_ART_IND_D')] è un[courtier.Custom('DE_PRO_POS_P_2P')] buon[courtier.Custom('DE_END_PRO_S_N')] a nulla... e lo sarà sempre."
+ court.1010.b:0 "[courtier.GetFirstNameNoTooltip] potrà smaltire la sbornia nelle segrete!"
+ court.1010.c:0 "Una severa ramanzina l[courtier.Custom('DE_END_PRO_S_N')] riporterà sulla retta via."
+ court.1010.c.success:0 "[courtier.GetFirstNameNoTooltip] smette di bere... o quantomeno non esagera più."
+ court.1010.c.failure:0 "[courtier.GetFirstNameNoTooltip] non modifica il suo comportamento."
+ court.1010.d:0 "Se [courtier.GetFirstNameNoTooltip] vuole agire come un giullare, allora sarà un giullare!"
+ court.1010.e:0 "Lasciamo che gli altri se ne facciano beffe... [ROOT.Char.GetFaith.NegativeAfterLife], riderò con loro!"
+
+ # Il Lungo Braccio della Legge
+ court.1020.opening:0 "[foreign_ruler.Custom2('AppropriateGreeting', ROOT.Char)]"
+ court.1020.desc:0 "È giunto alla mia attenzione che un[fugitive.Custom('DE_PRO_POS_P_2P')] fuorilegge latitante, [fugitive.GetTitledFirstName], sia stat[fugitive.Custom('DE_END_PRO_S_N')] accolt[fugitive.Custom('DE_END_PRO_S_N')] presso la vostra corte. Consegnatel[fugitive.Custom('DE_END_PRO_S_N')] perché incontri la mia giustizia "
+ court.1020.desc.forgive_this:0 "e io perdonerò questo sgarbo."
+ court.1020.desc.forgive_all:0 "e perdonerò questo sgarbo, così come quelli precedenti."
+ court.1020.desc.gold:0 "e vi ricompenserò per il disturbo."
+ court.1020.desc.opinion:0 "e mi ricorderò negli anni a venire di questa vostra collaborazione."
+ court.1020.a:0 "Sarà fatto."
+ court.1020.b:0 "[fugitive.GetFirstNameNoTooltip] è mi[fugitive.Custom('DE_END_PRO_S_N')] ospite... ed è sotto la mia protezione."
+ court.1020.c:0 "[fugitive.GetFirstNameNoTooltip]? Non c'è nessun[fugitive.Custom('DE_PRO_POS_P_2P')] [fugitive.GetFirstNameNoTooltip] nella mia corte."
+
+ # Cattive Maniere
+ court.1030.t:0 "Cattive Maniere"
+ court.1030.desc:0 "#EMP ~BURRRP~#!\n\nQuando il forte rutto eccheggia come un boato nella sala da pranzo, tutte le conversazioni cessano bruscamente. [chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)|U] si dà dei colpetti sullo stomaco e sorride soddisfatto. "Ahh, meglio fuori che dentro, diceva sempre mio padre!".\n\nDiversi cortigiani si scambiano sguardi increduli, prima che ([courtier.Custom('DE_ART_DEF_P_A')]) [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] si rivolga direttamente a me ed esclami: "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], questa cosa è stata del tutto inappropriata! Siete d'accordo?""
+ court.1030.a:0 "[chaplain.GetFirstNameNoTooltip] è un[chaplain.Custom('DE_PRO_POS_P_2P')] [chaplain.GetWomanMan] di [chaplain.GetFaith.HighGodName]. Cerchiamo di trattarl[chaplain.Custom('DE_END_PRO_S_N')] come tale."
+ court.1030.b:0 "[chaplain.Custom('GetActualBishopTitle')] o no, [chaplain.GetFirstNameNoTooltip] #EMP imparerà#! le buone maniere..."
+ court.1030.b.flavor:0 "...altrimenti andrà a mangiare nel porcile assieme ai maiali!"
+ court.1030.b.custom:0 "come ogni altro cortigiano."
+ court.1030.c:0 "Oh andiamo, come se anche noi non ne avessimo mai fatto uno?"

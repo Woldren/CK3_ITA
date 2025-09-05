@@ -1,0 +1,39 @@
+﻿l_spanish:
+
+ acclaimed_opinion:0 "Acclamato"
+
+ accolade.0001.notification_high:0 "L'Encomio Diventa di Rango Impressionante"
+ accolade_rank_unlock_notification_tooltip_high:0 "[changing_accolade.GetNameNoTooltip] è ora un [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]nL'[acclaimed_knight.Custom('FormalComplimentAdjective')] [acclaimed_knight.GetShortUINameNoTooltip] diventa un'ispirazione ancora maggiore per $knight_culture_player_plural_no_tooltip_lowercase$ in lungo e in largo."
+ accolade.0001.notification_low:0 "L'Encomio Sale di Rango"
+ accolade_rank_unlock_notification_tooltip_low:0 "[changing_accolade.GetNameNoTooltip] è ora un [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]nL'[acclaimed_knight.Custom('ComplimentAdjective')] [acclaimed_knight.GetShortUINameNoTooltip] si guadagna un posto di rilievo tra i tuoi $knight_culture_player_plural_no_tooltip_lowercase$."
+
+ accolade.0002.notification_high:0 "Encomio Famoso Scende di Rango"
+ accolade_rank_loss_notification_tooltip_high:0 "[changing_accolade.GetNameNoTooltip] è ora un [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]n$knight_culture_player_plural_no_tooltip$ in lungo e in largo speculano sul fatto che [acclaimed_knight.GetShortUINameNoTooltip] possa ripristinare la leggendaria posizione del titolo."
+ accolade_rank_loss_notification_tooltip_high_dead:0 "[changing_accolade.GetNameNoTooltip] è ora un [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\nCon la morte di [acclaimed_knight.Custom('FormalComplimentAdjective')] [acclaimed_knight.GetShortUINamePossessive], si dubita che la leggendaria posizione del suo titolo possa essere ripristinata in breve tempo."
+ accolade.0002.notification_low:0 "L'Encomio Scende di Rango"
+ accolade_rank_loss_notification_tooltip_low:0 "[changing_accolade.GetNameNoTooltip] è ora un [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\nSolo il tempo ci dirà se [acclaimed_knight.GetShortUINameNoTooltip] potrà reclamare l'antica posizione del titolo."
+ accolade_rank_loss_notification_tooltip_low_dead:0 "[changing_accolade.GetNameNoTooltip] è ora un [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\nIl [acclaimed_knight.Custom('ComplimentAdjective')] [acclaimed_knight.GetShortUINameNoTooltip] è morto, e la sua eredità ora nelle mani del suo allievo."
+ accolade.0002.notification_empty:0 "L'Encomio Scende di Rango"
+ accolade_rank_loss_notification_tooltip_empty:0 "[changing_accolade.GetNameNoTooltip] ha perso un [accolade_rank|E]"
+
+ accolade_rank_loss_notification_tooltip_no_rank:0 "[changing_accolade.GetNameNoTooltip] è ora un [acclaimed_knight.Custom('AccoladeRankFlavorNumber')], sta perdendo tutti i suoi effetti\nSolo il tempo ci dirà se [acclaimed_knight.GetShortUINameNoTooltip] potrà reclamare l'antica posizione del titolo."
+ accolade_rank_loss_notification_tooltip_no_rank_dead:0 "[changing_accolade.GetNameNoTooltip] è ora un [acclaimed_knight.Custom('AccoladeRankFlavorNumber')], sta perdendo tutti i suoi effetti\nIl [acclaimed_knight.Custom('ComplimentAdjective')] [acclaimed_knight.GetShortUINameNoTooltip] è morto, e la sua eredità ora nelle mani del suo allievo."
+ accolade_rank_loss_notification_tooltip_empty_no_rank:0 "[changing_accolade.GetNameNoTooltip] è ora un [changing_accolade.Custom('AccoladeRankFlavorNumber')], sta perdendo tutti i suoi effetti"
+
+ accolade.0003.accolade_becomes_idle.tt:0 "[dead_accolade.GetNameNoTooltip] Diventa inattivo"
+ accolade.0003.accolade_becomes_idle_effects.tt:0 "Senza un Cavaliere Acclamato idoneo, tutti gli effetti sono persi."
+
+ accolade.0004.new_acclaimed_knight.tt:0 "Successore: [succeeding_accolade.GetNameNoTooltip]"
+ accolade.0004.new_acclaimed_knight_name.tt:0 "[new_acclaimed_knight.GetShortUINameNoTooltip] diventa il tuo [acclaimed_knight]"
+ accolade.glory_loss.tt:0 "Perde [TopScope.GetValue( 'glory' )|0] Gloria"
+
+ accolade.0005.new_acclaimed_knight_new_type.tt:0 "Successore: [succeeding_accolade.GetNameNoTooltip]"
+ accolade.0005.new_accolade_type.tt:0 "Ottiene l'attributo [new_secondary.GetNameNoTooltip]"
+ accolade.0005.new_acclaimed_knight_succeeds.tt:0 "[new_acclaimed_knight.GetShortUINameNoTooltip] diventa il tuo [acclaimed_knight]"
+ accolade.0005.glory_loss.tt:0 "Perde [TopScope.GetValue( 'glory' )|0] Gloria"
+
+ accolade.0007.notification:0 "Trovato il Successore dell'Encomio"
+ accolade_find_successor_notification_tooltip:0 "[chosen_knight.GetUIName], uno stimato $knight_culture_player_no_tooltip_lowercase$, si unisce alla tua corte.\n[chosen_knight.GetSheHe|U] può essere nominato come successore di [accolade_in_need.GetName]."
+
+ accolade.0007.notification_fail:0 "Nessun degno successore dell'encomio"
+ accolade_find_successor_fail_notification_tooltip:0 "La ricerca di un $knight_culture_player_no_tooltip_lowercase$ che possa diventare un [accolade_in_need.GetName] è stata infruttuosa."

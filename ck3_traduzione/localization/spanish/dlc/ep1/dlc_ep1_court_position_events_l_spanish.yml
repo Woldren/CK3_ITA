@@ -1,0 +1,25 @@
+﻿l_spanish:
+ # Murder save: food taster tradotto da ZeXoGod e revisionato da Woldren
+ court_position.9001.t:0 "$murder_save_header$ $food_taster_court_position$"
+ court_position.9001.desc:0 "Il mio attentato alla vita di [target.GetFirstName] è stato sventato!\n\nI miei agenti non hanno tenuto conto dell'assaggia[food_taster.Custom('DE_END_NOU_S_GS_N')] di [target.GetFirstName], e il veleno non ha mai raggiunto il suo piatto."
+ court_position.9001.food_taster_dies:0 "\n\nPerlomeno l'assaggia[food_taster.Custom('DE_END_NOU_S_GS_N')] è stat[food_taster.Custom('DE_END_PRO_S_N')] uccis[food_taster.Custom('DE_END_PRO_S_N')] dal veleno. [food_taster.GetFirstName] non si metterà più sulla mia strada."
+
+ court_position.9002.desc:0 "Un assassino ha attentato alla mia vita! Fortunatamente [food_taster.Custom('DE_ART_DEF_P_A')] mi[food_taster.Custom('DE_END_PRO_S_N')] fidat[food_taster.Custom('DE_END_PRO_S_N')] assaggia[food_taster.Custom('DE_END_NOU_S_GS_N')], [food_taster.GetFirstName], stava facendo il suo lavoro e il veleno non ha mai raggiunto il mio piatto."
+ court_position.9002.food_taster_dies:0 "Tragicamente, [food_taster.GetFirstNameNoTooltip] ha ingerito troppo veleno e non ha potuto essere salvat[food_taster.Custom('DE_END_PRO_S_N')]."
+ court_position.9002.owner_discovered:0 "\n\nNon può esserci alcun dubbio che questa sia tutta opera [owner.Custom('IT_NAM_COL2')][owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
+
+ # Murder save: cupbearer
+ court_position.9011.t:0 "$murder_save_header$ $cupbearer_court_position$"
+ court_position.9011.desc:0 "Il mio attentato alla vita di [target.GetFirstName] è stato sventato!\n\nI miei agenti non hanno tenuto conto del[cupbearer.Custom('DE_END_ADJ_NUL_S_N')] su[cupbearer.Custom('DE_END_PRO_S_N')] coppier[cupbearer.Custom('DE_END_ADJ_IND_S_A')], e anche se il veleno è entrato nella bevanda di [target.GetFirstName], non è mai andato oltre le labbra di [cupbearer.GetFirstName]."
+ court_position.9011.cupbearer_dies:0 "\n\nPerlomeno [cupbearer.Custom('DE_ART_DEF_P_A')] coppier[cupbearer.Custom('DE_END_ADJ_IND_S_A')] è stat[cupbearer.Custom('DE_END_PRO_S_N')] uccis[cupbearer.Custom('DE_END_PRO_S_N')] dal veleno. [cupbearer.Custom('DE_ART_IND_D')] non si metterà più sulla mia strada."
+
+ court_position.9012.desc:0 "Un assassino ha attentato alla mia vita! Per fortuna [cupbearer.Custom('DE_ART_DEF_P_A')] mi[cupbearer.Custom('DE_END_PRO_S_N')] coppier[cupbearer.Custom('DE_END_ADJ_IND_S_A')], [cupbearer.GetFirstName], si era pres[cupbearer.Custom('DE_END_PRO_S_N')] la libertà di farsi un sorso del mio [ROOT.Char.Custom('RegionalDrink')] prima di servirmi quest'oggi."
+ court_position.9012.cupbearer_dies:0 "Tragicamente, [cupbearer.GetFirstNameNoTooltip] ha ingerito troppo veleno e non ha potuto essere salvat[cupbearer.Custom('DE_END_PRO_S_N')]. In qualche modo possiamo trarne una lezione sul fatto di prendersi troppe libertà..."
+
+ # Murder save: bodyguard
+ court_position.9021.t:0 "$murder_save_header$ $bodyguard_court_position$"
+ court_position.9021.desc:0 "Il mio attentato alla vita di [target.GetFirstName] è stato sventato!\n\nLa sua guardia del corpo [bodyguard.Custom('InsultAdjective')] ha sconfitto l'assassino che ho mandato, e [target.GetFirstName] non si è fatt[target.Custom('DE_END_PRO_S_N')] nemmeno un graffio!"
+ court_position.9021.bodyguard_dies:0 "\n\nPerlomeno la guardia del corpo è morta per le sue ferite e non si metterà più sulla mia strada."
+
+ court_position.9022.desc:0 "Un assassino ha attentato alla mia vita!\n\nMentre camminavo nei corridoi vuoti a tarda notte, un assassino è sbucato improvvisamente dalle tenebre, e non oso pensare cosa sarebbe successo se [bodyguard.GetFirstName], la mia fidata guardia del corpo, non mi avesse accompagnato."
+ court_position.9022.bodyguard_dies:0 "\n\nTragicamente, [bodyguard.Custom('DE_ART_IND_A')] ha subito gravi ferite nella lotta che ne è seguita e non ha potuto essere salvat[bodyguard.Custom('DE_END_PRO_S_N')]."

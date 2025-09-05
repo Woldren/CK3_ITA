@@ -1,0 +1,7 @@
+﻿l_spanish:
+ 
+ imaginary_friend_gained_memory: "ha ottenuto un[imaginary_friend_name.Custom('DE_PRO_PER_P_3P_G')] amic[imaginary_friend_name.Custom('DE_END_PRO_S_N')] immaginari[imaginary_friend_name.Custom('DE_END_PRO_S_N')]" 
+ imaginary_friend_gained_memory_desc: "ha ottenuto un[imaginary_friend_name.Custom('DE_PRO_PER_P_3P_G')] amic[imaginary_friend_name.Custom('DE_END_PRO_S_N')] immaginari[imaginary_friend_name.Custom('DE_END_PRO_S_N')] di nome [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
+ imaginary_friend_gained_memory_desc_second_perspective: "hai ottenuto un[imaginary_friend_name.Custom('DE_PRO_PER_P_3P_G')] amic[imaginary_friend_name.Custom('DE_END_PRO_S_N')] immaginari[imaginary_friend_name.Custom('DE_END_PRO_S_N')] di nome [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
+ imaginary_friend_gained_memory_desc_third_perspective: "[owner.GetName] ha ottenuto un[imaginary_friend_name.Custom('DE_PRO_PER_P_3P_G')] amic[imaginary_friend_name.Custom('DE_END_PRO_S_N')] immaginari[imaginary_friend_name.Custom('DE_END_PRO_S_N')] di nome [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
+ 

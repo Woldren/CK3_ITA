@@ -1,0 +1,13 @@
+﻿l_spanish: 
+ the_great_steppe_participant_group_nomad_rulers_capital: "Governanti Nomadi nella Regione"
+ the_great_steppe_participant_group_nomad_rulers_capital_desc: "Tutti i [rulers|e] [GetGovernment( 'nomad_government' ).GetName] con la propria [capital|e] in questa [situation_sub_region|E]."
+ the_great_steppe_participant_group_nomad_rulers_realm: "Governanti Nomadi Parzialmente nella Regione"
+ the_great_steppe_participant_group_nomad_rulers_realm_desc: "Tutti i [rulers|e] [GetGovernment( 'nomad_government' ).GetName] con la propria [capital|e] in una diversa [situation_sub_region|E], ma con parte del proprio [realm|e] in questa."
+ the_great_steppe_participant_group_herders: "Mandriani"
+ the_great_steppe_participant_group_herders_desc: "[herders|E] inclusi in questa [situation|E]"
+ the_great_steppe_nomad_rulers_capital: "[steppe_season|E] #weak (Governanti nella Regione)#!"
+ the_great_steppe_nomad_rulers_realm: "[steppe_season|E] #weak (Parzialmente nella Regione)#!"
+ the_great_steppe_participant_group_settled_rulers: "Governanti Stanziali"
+ the_great_steppe_participant_group_settled_rulers_desc: "Tutti i [rulers|e] stanziali in questa [situation_sub_region|E]."
+ the_great_steppe_settled_rulers: "[steppe_season|E] #weak (Governanti Stanziali)#!"
+ the_great_steppe_herders: "[steppe_season|E] #weak (Mandriani)#!"

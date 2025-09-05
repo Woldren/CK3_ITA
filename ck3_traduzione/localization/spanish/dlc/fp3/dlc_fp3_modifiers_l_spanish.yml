@@ -1,0 +1,447 @@
+﻿l_spanish: 
+
+ fp3_brutal_predations_county_modifier: "Predazioni Brutali"
+ fp3_brutal_predations_county_modifier_desc: "Gli abitanti di questa zona sono sconcertati da una serie di atti violenti commessi da un mercenario assassino, che rimane in libertà." 
+
+ fp3_low_frontier_morale_county_modifier: "Basso Morale alla Frontiera"
+ fp3_low_frontier_morale_county_modifier_desc: "I soldati che presidiano le fortezze di questa regione si sentono dimenticati dal loro sovrano."
+
+ fp3_boosted_frontier_morale_county_modifier: "Morale della Frontiera Aumentato"
+ fp3_boosted_frontier_morale_county_modifier_desc: "I soldati che presidiano le fortezze di questa regione si sentono più forti da quando il loro sovrano ha fatto loro visita di persona."
+
+ fp3_visited_the_frontier_modifier: "Ha Visitato la Frontiera"
+ fp3_visited_the_frontier_modifier_desc: "Questo personaggio ha recentemente avuto a che fare con i soldati nelle fortezze di frontiera ed è stato quindi esposto alla ricca flora di malattie che popolano i loro alloggi affollati."
+
+ fp3_frontier_heresy_county_modifier: "Eresie alla Frontiera"
+ fp3_frontier_heresy_county_modifier_desc: "Le convinzioni radicali hanno messo radici sia tra i soldati che tra i coloni di questa contea."
+
+ fp3_garrison_decimated_county_modifier: "Guarnigione Decimata"
+ fp3_garrison_decimated_county_modifier_desc: "I soldati che sorvegliavano questa provincia sono stati massacrati dal loro sovrano per aver seguito un credo pagano." 
+
+ fp3_jinx_modifier: "Ha subito il Malocchio"
+ fp3_jinx_modifier_desc: "Questo personaggio crede che qualcuno con intenzioni malevole abbia usato il Malocchio contro di lui."
+
+ fp3_call_of_the_wild_modifier: "Attirato dalla Frontiera"
+ fp3_call_of_the_wild_modifier_desc: "Questo personaggio si sente in dovere di esplorare le steppe lontane, i deserti proibiti e le alte montagne, per vedere cosa c'è oltre."
+
+ fp3_marriage_material_modifier: "Materiale per il matrimonio"
+ fp3_marriage_material_modifier_desc: "Questo personaggio è stato convinto che sia nel suo interesse obbedire ai genitori e sposarsi, sarà davvero così?"
+
+ fp3_dutiful_scion_modifier: "Rampollo Diligente"
+ fp3_dutiful_scion_modifier_desc: "Questo personaggio dedica la sua vita alla propria dinastia, non alle banali distrazioni come l'avventura o la propria felicità." 
+
+ fp3_worried_sick_modifier: "Malato Preoccupato"
+ fp3_worried_sick_modifier_desc: "Questo personaggio è preoccupato per una persona cara che è partita per affrontare lontani pericoli."
+
+ fp3_gross_persecutions_county_modifier: "Gravi Persecuzioni"
+ fp3_gross_persecutions_county_modifier_desc: "Molti fedeli di questa provincia si nascondono o fuggono in seguito a violente persecuzioni religiose da parte del loro signore." 
+
+ fp3_galvanized_heretics_county_modifier: "Eretici Galvanizzati"
+ fp3_galvanized_heretics_county_modifier_desc: "L'oppressione ha trasformato la popolazione di questa contea in radicali aggressivi, se già non lo erano, irremovibili nel difendere la loro fede a qualunque costo."
+
+ fp3_promoting_arabic_modifier: "Promuovere l'Arabo"
+ fp3_promoting_arabic_modifier_desc: "Questo personaggio promuove la Lingua Araba."
+
+ fp3_conversion_curious_county_modifier: "Curiosa-Conversione"
+ fp3_conversion_curious_county_modifier_desc: "Tra la popolazione di questa contea cresce la curiosità per le altre fedi."
+
+ fp3_teapot_alcoholism_modifier: "Prolifico Bevitore di Tè"
+ fp3_teapot_alcoholism_modifier_desc: "Questo personaggio tiene sempre una bella teiera al suo fianco ed è noto per il consumo di grandi quantità del suo misterioso contenuto."
+
+ ulema_displeased_drinking: "Scandalo di Bevute in Pubblico"
+ ulema_displeased_drinking_desc: "Le note abitudini alcoliche di questo personaggio hanno portato a uno scandalo pubblico, con il clero che si interroga apertamente sulle conseguenze sulla sua capacità di governare."
+
+ fp3_mountain_redoubt_modifier: "Fortezza di Badd"
+ fp3_mountain_redoubt_modifier_desc: "Questa fortezza, arroccata sulla cima di un'alta montagna, è quasi inespugnabile. Tenuta dai leader khurramiti Javidhan e Babak molto tempo fa, ora è stata ricostruito ed è diventato un formidabile fortino per i bellicosi abitanti delle Montagne Nere."
+
+ fp3_royal_fire_modifier: "Fuoco Reale"
+ fp3_royal_fire_modifier_desc: "Questo sovrano ha un fuoco eterno che arde nel suo nome, per benedire il suo regno con la luce della gloria."
+ fp3_plundered_county_modifier: "Estorta & Saccheggiata"
+ fp3_plundered_county_modifier_desc: "Questa contea ha visto un grande investimento in architettura monumentale e in grandi opere pubbliche."
+
+ fp3_architectural_splendor_county_modifier: "Splendore Monumentale"
+ fp3_architectural_splendor_county_modifier_desc: "Questa contea ha visto una frenetica attività di costruzione di monumenti e grandi opere pubbliche."
+
+ fp3_efficient_splendor_county_modifier: "Costruttori Efficienti"
+ fp3_efficient_splendor_county_modifier_desc: "Questa contea ha visto una frenetica attività di costruzione di monumenti e grandi opere pubbliche."
+
+ fp3_luxurious_bathhouse_modifier: "Hammam Celeste"
+ fp3_luxurious_bathhouse_modifier_desc: "Questo personaggio ha abbellito la propria capitale con una nuova struttura termale di eccezionale grandezza e qualità."
+
+ fp3_less_luxurious_bathhouse_modifier: "Hammam Danneggiata dall'Umidità"
+ fp3_less_luxurious_bathhouse_modifier_desc: "Sebbene questo personaggio abbia una lussuosa struttura termale, la sua costruzione lascia un po' a desiderare e le piastrelle e le pietre hanno iniziato a presentare delle crepe."
+
+ fp3_very_lofty_tower_modifier: "Torre Alta"
+ fp3_very_lofty_tower_modifier_desc: "La residenza di questo personaggio ha una torre molto alta e molto bella, le cui scale possono essere salite per guardare il mondo dall'alto e per isolarsi da tutti gli sguardi indiscreti."
+
+ fp3_less_lofty_tower_modifier: "Torre Meno Alta"
+ fp3_less_lofty_tower_modifier_desc: "La residenza di questo personaggio ha una torre molto alta e snella. Anche se non è così alta come era stata pensata in origine, la vista dalla cima stimola comunque l'anima e fornisce un isolamento, se necessario."
+
+ fp3_spiritual_splendor_county_modifier: "Splendore Spirituale"
+ fp3_spiritual_splendor_county_modifier_desc: "Questa contea ha visto una grande costruzione e ristrutturazione di monumenti religiosi di ogni tipo."
+
+ fp3_great_tower_of_silence_modifier: "Grande Torre del Silenzio"
+ fp3_great_tower_of_silence_modifier_desc: "Questo personaggio ha supervisionato la costruzione di un dakhma di dimensioni senza precedenti e spesso osserva il macabro edificio, riflettendo su ciò che si trova oltre questo mondo terreno e così umano."
+
+ fp3_less_great_tower_of_silence_modifier: "Torre del Silenzio"
+ fp3_less_great_tower_of_silence_modifier_desc: "Questo personaggio ha supervisionato la costruzione di una grande dakhma e, vedendo gli avvoltoi della steppa scendere verso di essa, riflette spesso sulla vita e sulla morte."
+
+ police_chief_of_baghdad_modifier: "Capitano di Baghdad"
+ police_chief_of_baghdad_modifier_desc: "Questo personaggio detiene il titolo di Sahib al-Shurta, capitano della guardia di Baghdad. Nonostante i recenti sconvolgimenti, la posizione offre ancora alcune opportunità di influenza."
+
+ fp3_light_of_the_walayah_modifier: "Luce del Walayah"
+ fp3_light_of_the_walayah_modifier_desc: "Si dice che questa dinastia possieda #italic nūr#!, la luce mistica della guida di Dio."
+
+ fp3_azariqa_ascendancy_modifier: "Ascesa dei Muhakkima"
+ fp3_azariqa_ascendancy_modifier_desc: "Questo personaggio ha portato i Muhakkima a una grandezza senza precedenti."
+
+ fp3_promoted_persian_scripture_modifier: "Grande Traduttore"
+ fp3_promoted_persian_scripture_modifier_desc: "Questo personaggio ha supervisionato le traduzioni di opere religiose arabe, in precedenza considerate tabù."
+
+ fp3_persian_resurgence_county_modifier: "Rinascita Persiana"
+ fp3_persian_resurgence_county_modifier_desc: "Questa contea arde di fervore religioso misto a un risorgente patriottismo locale, da cui potrebbero scaturire cose inaspettate."
+
+ fp3_forgotten_runestones_county_modifier: "Pietre Runiche Dimenticate"
+ fp3_forgotten_runestones_county_modifier_desc: "In questa contea si trovano tre misteriose pietre, scolpite con squisite rune alla maniera dei Rus'. Tuttavia, sono un po' appassite e nessuno è in grado di discernere il loro significato."
+
+ fp3_dismayed_daylamites_county_modifier: "Abitanti della Foresta in Difficoltà"
+ fp3_dismayed_daylamites_county_modifier_desc: "La popolazione locale aveva sviluppato superstizioni paurose intorno a una serie di misteriose pietre rune nelle profondità della foresta. Ora che le pietre sono andate perdute, la gente teme una punizione da parte dei loro creatori, chiunque essi siano." 
+
+ fp3_insulted_chinese_noble_modifier: "Disprezzato in Cina"
+ fp3_insulted_chinese_noble_modifier_desc: "Questo personaggio ha insultato un importante nobile cinese, che ora diffonde voci maligne su di lui nelle corti di Chang'an, Kaifeng e Luoyang."
+
+ fp3_vengeful_nomads_county_modifier: "Nomadi Vendicativi"
+ fp3_vengeful_nomads_county_modifier_desc: "In questa contea si verificano attacchi selvaggi da parte di nomadi intenzionati a vendicare un capo che è stato ingiustamente ucciso."
+
+ fp3_nomad_recruits_modifier: "Reclute Nomadi"
+ fp3_nomad_recruits_modifier_desc: "Questa dinastia ha permesso ai nomadi di insediarsi nelle sue terre, fornendo un eccellente bacino di reclutamento di cavalieri capaci."
+
+ fp3_nomad_friction_county_modifier: "Lotta Per I Pascoli"
+ fp3_nomad_friction_county_modifier_desc: "Questa contea è afflitta da attriti tra agricoltori stanziali e tribù nomadi."
+
+ fp3_resentful_nomads_county_modifier: "Nomadi Risentiti"
+ fp3_resentful_nomads_county_modifier_desc: "Questa contea è afflitta da conflitti dovuti a nomadi scontenti e indisciplinati."
+
+ fp3_banning_archery_modifier: "Divieto di Tiro con l'Arco"
+ fp3_banning_archery_modifier_desc: "Questo personaggio ha vietato la pratica del tiro con l'arco in alcune zone del suo regno, ostacolando i suoi arcieri, ma rendendo certamente meno probabile il verificarsi di incidenti."
+
+ fp3_crushed_by_failure_modifier: "Sconcerto per il Fallimento"
+ fp3_crushed_by_failure_modifier_desc: "Qualunque cosa fosse, questo personaggio ha fallito in modo spettacolare e il dubbio ora gli corrode la mente."
+
+ fp3_silk_road_secure_county_modifier: "Via della Seta Sicura"
+ fp3_silk_road_secure_county_modifier_desc: "I nomadi guerrieri di questa provincia sono tenuti a mantenere sicure le strade per le carovane."
+
+ fp3_nomad_attacks_county_modifier: "Razziatori Dilaganti"
+ fp3_nomad_attacks_county_modifier_desc: "Questa contea subisce razzie contro le carovane di passaggio, interrompendo in modo significativo il flusso del commercio."
+
+ fp3_gnostic_fervor_county_modifier: "Fervore Gnostico"
+ fp3_gnostic_fervor_county_modifier_desc: "Questa contea ha recentemente ospitato un gruppo di diligenti rifugiati manichei."
+
+ fp3_lackluster_diet_modifier: "Dieta Poco Brillante"
+ fp3_lackluster_diet_modifier_desc: "Questo personaggio consuma un intruglio di semi di finocchio, cetrioli e altre erbe per cercare di curare la sua malinconia."
+
+ fp3_herbal_remedies_modifier: "Rimedi a Base di Erbe"
+ fp3_herbal_remedies_modifier_desc: "This character consumes a concoction of fennel seeds, cucumbers and other herbs in order to try and cure their melancholy." 
+
+ fp3_worshipping_in_solitude_modifier: "Adorazione in Solitudine"
+ fp3_worshipping_in_solitude_modifier_desc: "Questo personaggio ha iniziato a trascorrere lunghe ore nella sua cappella privata, lontano da occhi indiscreti. Numerose sono le speculazioni su ciò che accade al suo interno."
+
+ fp3_rare_books_modifier: "Libri Rari"
+ fp3_rare_books_modifier_desc: "Questo personaggio è entrato in possesso di una piccola collezione di libri rari, recuperati da biblioteche leggendarie come quelle di Ctesifonte, Gundeshapur e forse anche Alessandria." 
+
+ fp3_oil_of_vitriol_modifier: "Olio di Vitriolo"
+ fp3_oil_of_vitriol_modifier_desc: "Questo personaggio ha accesso a quantità pericolose di una sostanza estremamente corrosiva creata da un alchimista persiano."
+
+ fp3_dabbling_in_alchemy_modifier: "Dilettarsi con l'Alchimia"
+ fp3_dabbling_in_alchemy_modifier_desc: "Questo personaggio si è dilettato con l'alchimia e nel farlo è stato esposto a ogni sorta di sostanze nocive."
+
+ fp3_alchemical_insights_modifier: "Intuizioni Alchemiche"
+ fp3_alchemical_insights_modifier_desc: "Insieme a un alchimista persiano, questo personaggio ha fatto grandi scoperte nello studio dei liquidi e della materia e ha imparato molto sulla struttura di questo mondo."
+
+ fp3_reneged_on_promise_modifier: "Promessa Non Mantenuta"
+ fp3_reneged_on_promise_modifier_desc: "Questo personaggio non ha mantenuto la promessa fatta per pagare gli sforzi letterari di un famoso poeta e ora è considerato poco affidabile."
+
+ fp3_broken_icehouses_county_modifier: "Yakhchals Rotto"
+ fp3_broken_icehouses_county_modifier_desc: "Questa contea era famosa per la produzione di dolciumi freddi, prima che le ghiacciaie crollassero a causa di un terremoto."
+
+ fp3_court_austerity_modifier: "Austerità di Corte"
+ fp3_court_austerity_modifier_desc: "Alla corte di questo personaggio regna una rigida austerità: ci sono poche stravaganze, poche risate e soprattutto niente dolci."
+
+ fp3_securing_sorbet_supply_modifier: "Assicurato il Rifornimento di Faloodeh"
+ fp3_securing_sorbet_supply_modifier_desc: "Questo personaggio si è impadronito di tutte le scorte di dolci freddi del regno, per la gioia dei suoi cortigiani, ma per l'ira dei suoi vassalli."
+
+ fp3_thinking_about_the_afterlife_modifier: "Pensare alla Morte"
+ fp3_thinking_about_the_afterlife_modifier_desc: "Questo personaggio ha passato molto tempo a pensare a ciò che lo attende nell'aldilà."
+
+ fp3_sufi_initiate_modifier: "Iniziato Sufi"
+ fp3_sufi_initiate_modifier_desc: "Questo personaggio si è interessato al misticismo Sufi e alla meditazione Muraqaba, approfondendo la relazione del cuore con il Creatore."
+
+ fp3_avoiding_dark_places_modifier: "Evitare i Luoghi Oscuri"
+ fp3_avoiding_dark_places_modifier_desc: "Questo personaggio ha avuto un'esperienza inquietante di troppo e ora vuole evitare il buio."
+
+ fp3_looking_for_bodyguards_modifier: "Alla Ricerca di Guardie del Corpo"
+ fp3_looking_for_bodyguards_modifier_desc: "Questo personaggio ha avuto un'esperienza spaventosa di troppo e ora è alla ricerca di altre guardie del corpo."
+
+ fp3_relentless_skeptic_modifier: "Scettico implacabile"
+ fp3_relentless_skeptic_modifier_desc: "Questo personaggio ha iniziato a mettere in discussione molte credenze e ipotesi popolari sul mondo invisibile. Altri potrebbero considerarlo un cinico, un becero dissenziente, persino un apostato."
+
+ fp3_womens_faith_galvanized_modifier: "Fede Femminile"
+ fp3_womens_faith_galvanized_modifier_desc: "Questo personaggio si sente perseguitato per aver venerato una Santa Donna, ma questo non ha fatto altro che rafforzare la sua determinazione."
+
+ fp3_promoted_persian_mathematics_modifier: "Promuovere Matematica Persiana"
+ fp3_promoted_persian_mathematics_modifier_desc: "Gli studiosi di questo personaggio stanno scoprendo le loro innovazioni matematiche che rivaleggiano con quelle del $indo_aryan_group_collective_noun$."
+
+ fp3_denied_religious_protection_modifier: "Protezione Religiosa Negata"
+ fp3_denied_religious_protection_modifier_desc: "Questo sovrano ha negato ai pagani la libertà di praticare la l fede."
+
+ patron_of_the_sciences: "Anche se non sono state fatte scoperte importanti, questo progetto le ha fatto guadagnare la notorietà di grande mecenate delle scienze."
+
+ fp3_treatise_on_development_modifier: "Trattato sull'Amministrazione"
+ fp3_treatise_on_development_modifier_desc: "Un documento sul valore della burocrazia, con diverse indicazioni su come garantire una corretta linea di comunicazione a partire dal sovrano e fino al livello locale."
+
+ fp3_treatise_on_building_modifier: "Trattato sulla Gestione"
+ fp3_treatise_on_building_modifier_desc: "Un trattato su come gestire le proprie risorse per massimizzare l'efficienza."
+
+ fp3_treatise_on_control_modifier: "Trattato sull'Autorità"
+ fp3_treatise_on_control_modifier_desc: "Un documento su come un leader dovrebbe affrontare il compito di governare e sedare le ribellioni." 
+
+ fp3_treatise_on_mathematics_modifier: "Monografia in Matematica"
+ fp3_treatise_on_mathematics_modifier_desc: "Una tesi specialistica sulla matematica, con diverse note su come utilizzarla nella vita quotidiana."
+
+ fp3_treatise_on_taxation_modifier: "Trattato sulla Tassazione"
+ fp3_treatise_on_taxation_modifier_desc: "Un lungo trattato sconclusionato sulla tassazione e sulle misure da adottare per affrontare al meglio il problema della tassazione."
+
+ fp3_treatise_on_light_warfare_modifier: "Guida alla Schermaglia"
+ fp3_treatise_on_light_warfare_modifier_desc: "Una breve tesi sul valore della fanteria leggera e su come utilizzarla al meglio."
+
+ fp3_treatise_on_heavy_warfare_modifier: "Manuale sulla Guerra Difensiva"
+ fp3_treatise_on_heavy_warfare_modifier_desc: "Un trattato sulle formazioni rilevanti per la fanteria pesante, con una piccola guida alla fine su che tipo di esercitazioni si possono fare per ottenere una maggiore coesione nel proprio esercito."
+
+ fp3_treatise_on_cavalry_modifier: "Storia della Cavalleria"
+ fp3_treatise_on_cavalry_modifier_desc: "Un lungo articolo sulla storia delle cariche di cavalleria effettuate nel corso della storia, con particolare attenzione a come si possono ribaltare le sorti della battaglia da cavallo."
+
+ fp3_treatise_on_siege_modifier: "Manuale sugli Assedi"
+ fp3_treatise_on_siege_modifier_desc: "Un manuale breve e conciso sulla natura degli assedi e su come affrontare il nemico con o senza armi d'assedio."
+
+ fp3_treatise_on_strategy_modifier: "Storia della strategia"
+ fp3_treatise_on_strategy_modifier_desc: "Un trattato lungo ma accessibile sulla storia della strategia e della tattica, con esempi che risalgono a diversi secoli fa."
+
+ fp3_fearsome_example_modifier: "Esempio Temibile"
+ fp3_fearsome_example_modifier_desc: "Questo sovrano distrusse brutalmente una comunità religiosa di frontiera, dimostrando una volontà intimidatoria di sopprimere qualsiasi eresia."
+
+ fp3_refused_the_caliph_modifier: "Rifiuto della Domanda di Guerra Santa"
+ fp3_refused_the_caliph_modifier_desc: "Questo personaggio rifiutò la richiesta del capo della fede di attaccare un sovrano pagano vicino."
+
+ fp3_praying_too_much_modifier: "Preghiere Eccessive"
+ fp3_praying_too_much_modifier_desc: "Questo personaggio ha iniziato a passare molto tempo nel tempio, trascurando altri compiti."
+
+ fp3_name_read_in_friday_prayer_modifier: "Nome Letto nella Preghiera del Venerdì"
+ fp3_name_read_in_friday_prayer_modifier_desc: "Questo personaggio ha decretato che il suo nome venga letto al posto di quello del califfo durante l'assemblea di culto più importante della settimana — una dichiarazione pubblica ricorrente della sua lealtà e della sua importanza."
+
+ fp3_displayed_pious_submission_to_caliph_modifier: "Sottomissione al Califfo"
+ fp3_displayed_pious_submission_to_caliph_modifier_desc: "Questo personaggio ha dato istruzioni precise affinché il nome del califfo venga letto per primo durante la preghiera del venerdì, il culto più importante di ogni moschea — il mondo sa a chi obbediscono."
+
+ fp3_honored_by_the_faithful_modifier: "Onorato dai Fedeli"
+ fp3_honored_by_the_faithful_modifier_desc: "Il nome di questo personaggio viene letto durante la preghiera del venerdì nella sede stessa del leader della loro fede, facendogli guadagnare una significativa legittimità come governante."
+
+ fp3_rule_by_fear_modifier: "Governare con la Paura"
+ fp3_rule_by_fear_modifier_desc: "Questo personaggio ha dimostrato di essere disposto e capace di far uccidere le persone in modo arbitrario, tenendo insieme il suo regno con la paura."
+
+ fp3_minor_child_spy_network_modifier: "Rete di Spionaggio Minori"
+ fp3_minor_child_spy_network_modifier_desc: "Questo personaggio impiega una piccola rete di bambini come spie per scoprire i segreti dei clan."
+
+ fp3_better_company_modifier: "Compagnia Migliore"
+ fp3_better_company_modifier_desc: "Questo personaggio è stato castigato dagli anziani e sta imparando a comportarsi in modo più consono a un rampollo del suo clan."
+
+ fp3_justification_for_taxation_modifier: "Giustificazioni per la Tassazione"
+ fp3_justification_for_taxation_modifier_desc: "L'esattore di questo personaggio ha creato giustificazioni discutibili per far sì che i suoi vassalli contribuiscano più di quanto la maggior parte di loro considererebbe giusto."
+
+ fp3_excuses_for_extortion_modifier: "Scuse per l'Estorsione"
+ fp3_excuses_for_extortion_modifier_desc: "$fp3_justification_for_taxation_modifier_desc$"
+
+ fp3_locals_intimidated_county_modifier: "Locali Intimoriti"
+ fp3_locals_intimidated_county_modifier_desc: "La gente comune di questa contea è stata spaventata e sottomessa."
+
+ fp3_locals_infuriated_county_modifier: "Locali Infuriati"
+ fp3_locals_infuriated_county_modifier_desc: "La gente comune di questa contea è infuriata per il trattamento riservato dal loro sovrano a un popolare magistrato locale."
+
+ fp3_looking_the_other_way_modifier: "Guardare dall'Altra Parte"
+ fp3_looking_the_other_way_modifier_desc: "Questo personaggio ha adottato una politica che ignora alcuni comportamenti economici scorretti da parte dei suoi vassalli e sudditi - per il bene del regno o per la propria tranquillità."
+
+ fp3_capable_magistrates_modifier: "Magistrati Capaci"
+ fp3_capable_magistrates_modifier_desc: "Questo personaggio è supportato da magistrati particolarmente capaci, in grado di far sembrare giusta quasi ogni sentenza."
+
+ fp3_delegated_payments_modifier: "Pagamenti Delegati"
+ fp3_delegated_payments_modifier_desc: "Questo personaggio ha reso l'esattore delle tasse il responsabile dei pagamenti dell'esercito, una misura efficace - finora."
+
+ fp3_army_influence_modifier: "Influenza dell'Esercito"
+ fp3_army_influence_modifier_desc: "Questo personaggio è stato investito di una notevole influenza sull'esercito dal suo signore."
+
+ fp3_messy_payments_modifier: "Pagamenti Inaffidabili"
+ fp3_messy_payments_modifier_desc: "La responsabilità di pagare i soldati di questo personaggio è stata divisa in modo scomodo, causando a volte ritardi che hanno danneggiato il morale."
+
+ fp3_cutting_corners_modifier: "Tagliare Gli Angoli"
+ fp3_cutting_corners_modifier_desc: "Questo personaggio è sovraccarico di lavoro e di conseguenza è diventato un po' sciatto."
+
+ fp3_promoting_zoroastrianism_modifier: "Amico degli Zoroastriani"
+ fp3_promoting_zoroastrianism_modifier_desc: "Questo personaggio è noto per fare di tutto per aiutare la comunità Zoroastriana."
+
+ fp3_blessed_by_fire_modifier: "Benedetta dal Fuoco"
+ fp3_blessed_by_fire_modifier_desc: "Questo personaggio ha vissuto una profonda esperienza incontrando il fuoco scaturito dal fulmine, l'elemento più puro di questo mondo."
+
+ fp3_bad_tower_of_silence_county_modifier: "Torre della Follia"
+ fp3_bad_tower_of_silence_county_modifier_desc: "In questa contea si è tentato di costruire un grande e nuovo dakhma, ma sono stati commessi degli errori nella costruzione e la materia putrida dei cadaveri sta avvelenando le acque sotterranee."
+
+ fp3_wary_of_sabotage_modifier: "Diffida del Sabotaggio"
+ fp3_wary_of_sabotage_modifier_desc: "Questo personaggio non tollera alcuno sgarro all'interno della contea che gli è stata assegnata."
+
+ fp3_antagonize_character_interaction_known_liar: "Conosciuto per Esagerare"
+ fp3_antagonize_character_interaction_known_liar_desc: "Le persone si sono stancate dei commenti di questo personaggio, perché spesso tendono ad essere esagerati."
+
+ fp3_not_puppeteering_kingmaker_modifier: "Fallimento del Burattinaio"
+ fp3_not_puppeteering_kingmaker_modifier_desc: "Questo personaggio non è riuscito a spodestare un sovrano ostile con uno più adatto ai suoi interessi. Ora la loro stessa legittimità è in discussione."
+
+ fp3_sickly_monkey_modifier: "Scimmia Malata"
+ fp3_sickly_monkey_modifier_desc: "Questo personaggio sta cercando di curare una scimmia malata per farla tornare in salute. Gli artigli della creatura sono affilati e i denti ben affilati."
+
+ fp3_chess_playing_monkey_modifier: "Scimmia che Gioca a Scacchi"
+ fp3_chess_playing_monkey_modifier_desc: "Questo personaggio possiede una scimmia che si dice sia stata istruita all'arte degli scacchi da un re filosofo orientale."
+
+ fp3_paper_surplus_modifier: "Carta Lunga"
+ fp3_paper_surplus_modifier_desc: "Questo personaggio ha sempre accesso alla carta per registrare le sue ricerche."
+
+ fp3_paper_shortage_modifier: "Carta Corta"
+ fp3_paper_shortage_modifier_desc: "Questo personaggio non può avere accesso costante alla carta e deve ricorrere a fonti di pergamena poco frequenti."
+
+ fp3_liquid_wisdom_modifier: "Saggezza Liquida"
+ fp3_liquid_wisdom_modifier_desc: "Questo personaggio ha dimostrato di essere un buon ospite per gli studiosi in visita, beneficiando senza dubbio di uno scambio di idee più libero."
+
+ fp3_morbid_insights_modifier: "Intuizioni Morbose"
+ fp3_morbid_insights_modifier_desc: "Questo personaggio ha imparato alcune spiacevoli lezioni sulla condizione umana."
+
+ fp3_wheat_shortage_modifier: "Carenza di Grano"
+ fp3_wheat_shortage_modifier_desc: "Il fornaio reale di questa contea sta facendo incetta di grano, non lasciando nemmeno un maund per i contadini."
+
+ fp3_generous_bakers_modifier: "Fornai Generosi"
+ fp3_generous_bakers_modifier_desc: "I fornai di questa contea sono generosi con il loro pane dopo l'esecuzione di un fornaio avido."
+
+ fp3_impious_tax_collector_modifier: "Esattore delle Tasse Empio"
+ fp3_impious_tax_collector_modifier_desc: "Questo personaggio è stato esposto pubblicamente come un povero esattore delle tasse a causa della sua peccaminosità."
+
+ fp3_incapable_tax_collector_modifier: "Esattore Incapace"
+ fp3_incapable_tax_collector_modifier_desc: "Questo personaggio non può più essere un esattore delle tasse a causa del suo carattere imperfetto."
+
+ fp3_religious_desertion_modifier: "Diserzione Religiosa"
+ fp3_religious_desertion_modifier_desc: "I soldati di questa contea si sono ritirati per evitare di combattere il loro capo di fede."
+
+ fp3_struggle_supremacy_house_reward_modifier: "Supremazia Sunnita"
+ fp3_struggle_supremacy_house_reward_modifier_desc: "I Califfi appartenenti a questa casata rivendicano un'autorità di ampio respiro grazie al successo della loro restaurazione del potere sull'Iran."
+
+ fp3_struggle_caliph_super_suspicious_modifier: "Estremamente Sospettoso"
+ fp3_struggle_caliph_super_suspicious_modifier_desc: "A causa dei crescenti disordini nella regione, questo personaggio sente di essere in grave pericolo."
+ has_fp3_struggle_caliph_super_suspicious_modifier: "[target.GetShortUIName] is $fp3_struggle_caliph_super_suspicious_modifier$: $VALUE|+0=-+$"
+
+ fp3_irrigation_insights_modifier: "Approfondimenti sull'Irrigazione"
+ fp3_irrigation_insights_modifier_desc: "Studiando un antico sistema Qanat, questo personaggio ha imparato a conoscere l'irrigazione."
+
+ disturbed_sky_burial: "Sepoltura Disturbata"
+ disturbed_sky_burial_desc: "Gli zeloti del regno sono impressionati dalla risolutezza con cui questo personaggio affronta le pratiche pagane, come le sepolture."
+ disturbed_funerals: "Fede Disattesa"
+
+ fp3_untrained_falcon: "Falco Inesperto"
+ fp3_untrained_falcon_desc: "Questo personaggio ha trovato un uccello durante una sepoltura. Finora gli ha dato solo dispiaceri, ma spera di poterlo trasformare in un vero cacciatore."
+
+ fp3_aggressive_falcon: "Falco Aggressivo"
+ fp3_aggressive_falcon_desc: "Questo personaggio ha trovato un uccello durante una sepoltura. Sembra che abbia sviluppato una preferenza per la carne umana, che hanno scelto di alimentare ulteriormente."
+
+ fp3_had_delicious_kumis: "Aveva dei Kumis Deliziosi"
+ fp3_had_delicious_kumis_desc: "Questo personaggio condivideva una deliziosa bevanda a base di latte di cavalla con i viaggiatori turchi che incontrava nei suoi viaggi."
+
+ turkic_war_band: "Ingaggia Guerrieri Turchi"
+ turkic_war_band_desc: "Questo personaggio ha ingaggiato una banda di guerrieri turchi per aiutare le sue truppe, con grande orrore di alcuni dei suoi vassalli."
+
+ rebuffed_turkic_war_band: "Guerrieri Turchi Insultati"
+ rebuffed_turkic_war_band_desc: "In un'impressionante dimostrazione di coraggio, questo personaggio ha insultato sfacciatamente un grande gruppo di guerrieri nomadi mentre era in viaggio."
+
+ ancient_persian_relics: "Antichi Tesori"
+ ancient_persian_relics_desc: "Grazie a un'improvvisa vincita, questo personaggio è diventato famoso per la sua ricchezza e generosità."
+
+ fp3_house_modifier_conceded_hegemony: "Egemonia Concessa"
+ fp3_house_modifier_conceded_hegemony_desc: "Questa casata dovette cedere il suo potere egemonico per placare i suoi nemici"
+ fp3_house_modifier_rebuilding_efforts: "Sforzi della Ricostruzione"
+ fp3_house_modifier_rebuilding_efforts_desc: "Questa casata sta ricostruendo il proprio regno dopo una sanguinosa lotta con i nemici del Califfato"
+ fp3_house_modifier_frontier_ambitions: "Ambizioni di Frontiera"
+ fp3_house_modifier_frontier_ambitions_desc: "Questa casata sta cercando nuove vie di espansione dopo una lotta infruttuosa con il Califfato"
+
+ fp3_house_modifier_destroyed_the_caliphate: "Distruggere il Califfato"
+
+ fp3_established_futuwaa_lodges_modifier: "Lodge Futuwaa Fondati"
+ fp3_established_futuwaa_lodges_modifier_desc: "Questo personaggio ha fondato dei club marziali per i giovani vagabondi nella loro capitale."
+ fp3_established_madrasas_modifier: "Madrasa Istituita"
+ fp3_established_madrasas_modifier_desc: "Questo personaggio ha istituito delle scuole per educare i giovani disadattati nella loro capitale."
+
+ fp3_rekindler_of_iran_modifier: "Fiamma della Persia"
+ fp3_rekindler_of_iran_modifier_desc: "Questa dinastia risolse l'Intermezzo iraniano riaccendendo le fiamme della Persia."
+ fp3_rekindler_of_iran_modifier_reason: "Tu hai il [GetModifier('fp3_rekindler_of_iran_modifier').GetNameWithTooltip|L] [modifier|E]: $VALUE|=+0$"
+
+ dreaded_beauty: "Bellezza Temuta"
+ dreaded_beauty_desc: "Secondo alcuni, è il modo in cui le persone reagiscono alle loro deformità che ha reso questo personaggio così crudele."
+
+ generous_beauty: "Bellezza Genuina"
+ generous_beauty_desc: "Forse è per compensare ciò che la gente dice del suo aspetto che questo sovrano si è fatto un nome come persona generosa con le sue ricchezze e allo stesso tempo veloce nel dimenticare le tasse arretrate."
+
+ fp3_flame_of_iran_modifier: "Spirito Persiano Riacceso"
+ fp3_flame_of_iran_modifier_desc: "La mente di questo personaggio arde di un senso di feroce indipendenza e di comunità."
+
+ unified_the_persian_region_house_modifier: "Casata del Fondatore"
+ unified_the_persian_region_house_modifier_desc: "Questa Casata ha portato la stabilità nella regione, unendoli."
+
+ fp3_resisted_the_struggle_modifier: "Resistenza al Califfato"
+ fp3_resisted_the_struggle_modifier_desc: "Questo personaggio ha combattuto il Califfato e ha raggiunto uno status quo"
+
+ scheme_helpful_sympathizer_modifier: "Simpatizzante Utile"
+ scheme_helpful_sympathizer_modifier_desc: "Un cortigiano del bersaglio fornisce segretamente informazioni agli assassini."
+
+ scheme_untrustworthy_sympathizer_modifier: "Simpatizzante Inafidabile"
+
+ scheme_assassin_recruits_modifier: "Assassini Reclutati"
+ scheme_assassin_recruits_modifier_desc: "Il Maestro Assassino è aiutato da fanatici appena reclutati, che potrebbero avere più entusiasmo che competenza."
+
+ scheme_assassin_closing_in_modifier: "Assassino in Avvicinamento"
+
+ scheme_strengthened_resolve_modifier: "Risolutezza Rafforzata"
+
+ scheme_weakened_resolve_modifier: "Risolutezza Indebolita"
+
+ scheme_poisoned_blade_modifier: "Lama Avvelenata"
+
+ scheme_pestilent_blade_modifier: "Lama Pestilente"
+
+ scheme_renegade_assassin_modifier: "Assassino Rinnegato"
+
+ fp3_tax_collector_become_teacher: "Esattoria Istruttiva"
+ fp3_cunning_tax_collectors: "Esattori Astuti"
+ fp3_sided_with_different_faith_vassal_tax_dispute: "Agevolazioni Fiscali per le Differenti Fedi"
+ fp3_sided_with_tax_collector_tax_dispute: "Riscossione dei tributi supportata in caso di controversia"
+
+ fp3_honorary_title_intrigue_modifier: "Aiutante dello Stato"
+ fp3_honorary_title_scholarship_modifier: "Sostenitore dello Stato"
+ fp3_honorary_title_stewardship_modifier: "Fortificatore dello Stato"
+ fp3_honorary_title_diplomacy_modifier: "Amico dello Stato"
+ fp3_honorary_title_piety_modifier: "Corona della Comunità"
+ fp3_honorary_title_prestige_modifier: "Pilastro dello Stato"
+ fp3_honorary_title_martial_modifier: "Spada dello Stato"
+
+ fp3_higher_purpose_modifier: "Scopo Superiore"
+ fp3_higher_purpose_modifier_desc: "Questo personaggio si affida a un potere superiore per i suoi problemi esistenziali."
+
+ changed_tax_collector_mandate_opinion: "Cambiare il Mio Mandato"
+ fired_from_tax_collector_position_opinion: "Licenziato dal ruolo di Esattore delle Tasse"
+
+ goldlust_opinion: "Sete D'oro"
+ resigned_opinion: "Dimissioni"
+ took_my_coin_opinion: "Preso la mia Moneta"
+ liar_opinion: "Bugiardo" 
+
+ fp3_sundered_caliphate_opinion: "Califfato distrutto"
+ fp3_zanj_rebellion_work_concessions_modifier: "Concessioni Lavorative Zanj"

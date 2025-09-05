@@ -1,0 +1,37 @@
+﻿l_spanish:
+ #PartnerOpinionDescription
+ partner_opinion_high:0 "[ROOT.Char.Custom2('PartnerOpinionHighDescription', SCOPE.sC('second') )]"
+ partner_opinion_low:0 "[ROOT.Char.Custom2('PartnerOpinionLowDescription', SCOPE.sC('second') )]"
+ #PartnerOpinionHighDescription
+ partner_opinion_desc_darling:0 "car[second.Custom('DE_END_PRO_S_N')]"
+ partner_opinion_desc_precious:0 "prezios[second.Custom('DE_END_PRO_S_N')]"
+ partner_opinion_desc_sweet:0 "dolce"
+ partner_opinion_desc_lovely:0 "adorabile"
+ #PartnerOpinionLowDescription
+ partner_opinion_desc_esteemed:0 "stimat[second.Custom('DE_END_PRO_S_N')]"
+ partner_opinion_desc_imposing:0 "imponente"
+ partner_opinion_desc_respectable:0 "rispettabile"
+ #RandomJewelry
+ random_jewelry_torc: "una torc"
+ random_jewelry_pendant: "un ciondolo"
+ random_jewelry_ring: "un anello"
+ random_jewelry_medallion: "un medaglione"
+ random_jewelry_bracelet: "un braccialetto"
+ random_jewelry_bangle: "un bangle"
+ random_jewelry_brooch: "una spilla"
+ #RandomPositiveLookAdjective
+ random_positive_look_magnificent:0 "magnifico"
+ random_positive_look_stupendous:0 "stupendo"
+ random_positive_look_marvelous:0 "meraviglioso"
+ random_positive_look_exquisite:0 "squisito"
+ random_positive_look_delightful:0 "delizioso"
+ random_positive_look_terrific:0 "formidabile"
+ random_positive_look_splendid:0 "splendido"
+ random_positive_look_stunning:0 "stupefacente"
+ random_positive_look_enchanting:0 "incantevole"
+ random_positive_look_wonderful:0 "meraviglioso"
+
+ murder_memory_ending_revenge: "ma adesso ho la mia vendetta."
+ murder_memory_ending_justice: "ma la giustizia arriva per tutti."
+ murder_memory_ending_sleep: "ma posso dormire un po' più sereno adesso."
+ murder_memory_ending_sow: "ma raccogli ciò che semini."

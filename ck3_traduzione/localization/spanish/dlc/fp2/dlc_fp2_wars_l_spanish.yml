@@ -1,0 +1,39 @@
+﻿l_spanish:
+ FP2_BORDER_RAID_CB_NAME:0 "[border_raid|E] contro [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+ FP2_BORDER_RAID_CB_SPECIFIC_NAME:0 "[border_raid|E] di [TITLE.GetBaseNameNoTier]"
+ FP2_BORDER_RAID_WAR_NAME:0 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] [border_raid|E] di [TITLE.GetBaseNameNoTier]"
+ FP2_BORDER_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ fp2_border_raid:0 "[border_raid|E]"
+
+ border_raid_cb_desc_victory_attacker:0 "Guadagni [gold|E] in proporzione allo [development|E] della [county|E] bersaglio, che diminuirà.\n$border_raid_building_tt$\n$border_raid_warning_tt$"
+ border_raid_cb_desc_victory_defender:0 "[attacker.GetName] guadagna [gold|E] in proporzione allo [development|E] della [county|E] bersaglio, che diminuirà.\n$border_raid_building_tt$\n$border_raid_warning_tt$"
+ border_raid_cb_desc_white_peace_attacker:0 "Non riesci a completare l'incursione."
+ border_raid_cb_desc_white_peace_defender:0 "[attacker.GetName] non riesce a completare la sua incursione."
+ border_raid_cb_desc_defeat_attacker:0 "Devi pagare un risarcimento in [gold|E] per aver tentato l'incursione."
+ border_raid_cb_desc_defeat_defender:1 "[attacker.GetName] deve pagare un risarcimento in [gold|E] per aver tentato l'incursione."
+ destroy_random_building_tt:0 "Un [building|E] casuale a [raid_county.GetName] viene distrutto, facendo guadagnare [gold_i] extra"
+ border_raid_building_tt:0 "Un [building|E] potrebbe venire distrutto."
+ border_raid_warning_tt:0 "@warning_icon! #X Nessun [title|E] passerà di mano.#!"
+ border_raid_message_title:0 "Contea di Confine Razziata"
+
+ FP2_EXPEL_INTERLOPER_CB_NAME:0 "[iberian_reclamation|E] contro [DEFENDER.GetPrimaryTitle.GetNameNoTier] "
+ FP2_EXPEL_INTERLOPER_CB_SPECIFIC_NAME:0 "[iberian_reclamation|E] di [TITLE.GetBaseNameNoTier]"
+ FP2_EXPEL_INTERLOPER_WAR_NAME:0 "$ORDER$ [iberian_reclamation|E] [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] di [TITLE.GetBaseNameNoTier]"
+ FP2_EXPEL_INTERLOPER_WAR_NAME_BASE:0 "[DEFENDER.GetPrimaryTitle.GetName][ATTACKER.GetPrimaryTitle.GetAdjective]"
+
+ iberian_reclamation_cb_victory_desc_attacker_vassalize:0 "Vassallizzi [defender.GetShortUIName|U]"
+ iberian_reclamation_cb_victory_desc_defender_vassalize:0 "[attacker.GetShortUIName|U] ti vassallizza"
+ iberian_reclamation_cb_victory_desc_attacker_conquer_1:0 "$EFFECT_LIST_BULLET$Diventi il [liege|E] dei [vassals|E] [struggle_involved|E] di [rank|E] inferiore, di [defender.GetShortUINamePossessive|U] nel [duchy|E] di riferimento"
+ iberian_reclamation_cb_victory_desc_attacker_conquer_2:0 "$EFFECT_LIST_BULLET$Ottieni le [counties|E] [Concept( 'struggle_uninvolved', 'non coinvolte' )|E], e quelle dei [holders|E] con terre al di fuori del [duchy|E]\n"
+ iberian_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] diventa [liege|E] dei [vassals|E] [struggle_involved|E] di [rank|E] inferiore, di [defender.GetShortUINamePossessive|U] nel [duchy|E] di riferimento"
+ iberian_reclamation_cb_victory_desc_defender_conquer_2:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] ottiene le [counties|E] contestate non [Concept( 'struggle_involved', 'Coinvolte' )|E], e quelle dei [holders|E] con terre al di fuori del [duchy|E]\n"
+ fp2_expel_interloper:0 "[iberian_reclamation|E]"
+
+
+ iberian_reclamation_cb_white_peace_desc_vassalize:0 "[defender.GetShortUIName|U] rimarrà [independent|E]"
+ iberian_reclamation_cb_white_peace_desc_conquer:0 "[defender.GetShortUIName|U] manterrà i [titles|E] contesi"
+ iberian_reclamation_cb_defeat_desc_vassalize:0 "$iberian_reclamation_cb_white_peace_desc_vassalize$"
+ iberian_reclamation_cb_defeat_desc_conquer:0 "$iberian_reclamation_cb_white_peace_desc_conquer$"
+ iberian_reclamation_cb_defeat_desc:0 "$iberian_reclamation_cb_white_peace_desc$"
+ 
+ CB_COST_IBERIAN_RECLAMATION:0 "Costa [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [prestige|E] per ogni [county|E]"

@@ -1,0 +1,18 @@
+﻿l_spanish: 
+ CHARACTER_IS_PRESSING_TARGET_CHARACTERS_CLAIM:0 "[Select_CString(CHARACTER.IsLocalPlayer,'',CHARACTER.GetShortUIName)] [Select_CString( CHARACTER.IsLocalPlayer, 'Stai', 'sta' )] esercitando la rivendicazione di [TARGET_CHARACTER.GetName]"
+
+ GLOBAL_HOSTAGE_OATH_OF_FRIENDSHIP: "Un giuramento eterno di amicizia esiste"
+ YOU_HAVE_OATH_WITH_THEM: "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] avete giurato di supportarvi in eterno quando siete diventati amici d'infanzia"
+ HOSTAGE_OATH_OF_FRIENDSHIP_THIRD: "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] hanno giurato di supportarsi in eterno quando sono diventati amici d'infanzia"
+
+ can_appoint_for_title_first: "Puoi nominare [CHARACTER.GetShortUIName|U] per [TARGET_TITLE.GetName]"
+ not_can_appoint_for_title_first: "#bold Non#! puoi nominare [CHARACTER.GetShortUIName|U] per [TARGET_TITLE.GetName]"
+ can_appoint_for_title_third: "[CHARACTER.GetShortUIName|U] può essere nominat[CHARACTER.Custom('DE_END_PRO_S_N')] per [TARGET_TITLE.GetName]"
+ not_can_appoint_for_title_third: "[CHARACTER.GetShortUIName|U] #bold non#! può essere nominat[CHARACTER.Custom('DE_END_PRO_S_N')] per [TARGET_TITLE.GetName]"
+ can_appoint_for_title_global: "$can_appoint_for_title_third$"
+ not_can_appoint_for_title_global: "$not_can_appoint_for_title_third$"
+
+ is_noble_family_title_third: "[TITLE.GetName] è il [title|E] di una [noble_family|E]"
+ not_is_noble_family_title_third: "[TITLE.GetName] #bold non#! è il [title|E] di una [noble_family|E]"
+ is_noble_family_title_global: "$is_noble_family_title_third$"
+ not_is_noble_family_title_global: "$not_is_noble_family_title_third$"

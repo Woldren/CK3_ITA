@@ -1,0 +1,16 @@
+﻿l_spanish:
+
+ KNIGHTS_VIEW_FORCE:0 "Costringi"
+ KNIGHTS_VIEW_ALLOW:0 "Permetti"
+ KNIGHTS_VIEW_FORBID:0 "Vieta"
+ KNIGHTS_VIEW_TITLE:1 "$knight_culture_player_plural_no_tooltip$"
+ MAX_KNIGHT_COUNT:2 "$knight_culture_player_plural_no_tooltip$: #high [GetKnightCount( GetPlayer.Self )]/[GetKnightLimit( GetPlayer.Self )]#!"
+ MAX_KNIGHT_TOOLTIP:1 "#T Numero Massimo di $knight_culture_player_plural_no_tooltip$: [knight_i][GetKnightLimit( GetPlayer.Self )|V]#!\n[GetKnightLimitBreakdown( GetPlayer.Self )]"
+ KNIGHT_EFFECTIVENESS:1 "$knight_culture_player_no_tooltip$ Efficacia: #high [GetPlayer.GetKnightEffectiveness|%0]#!"
+ KNIGHT_EFFECTIVENESS_TOOLTIP:2 "#T [knight_effectiveness|E]: [GetPlayer.GetKnightEffectiveness|V%0]#!\nBase: #V 100%#!\n[GetPlayer.GetKnightEffectivenessBreakdown]"
+ KNIGHTS_VIEW_TITLE_FORBID_TT:2 "#T Vieta ad [Character.GetShortUIName] di essere un $knight_culture_player$#!\n\n[Character.GetShortUIName] non può unirsi #emphasis mai#! ai tuoi [armies|E] come $knight_culture_player_no_tooltip$. Questo lo protegge dal morire in [battle|E]."
+ KNIGHTS_VIEW_TITLE_BY_PROWESS_TT:2 "#T Permetti a [Character.GetShortUIName] di essere un $knight_culture_player$#!\n\n[Character.GetShortUIName] può unirsi ai tuoi [armies|E] come $knight_culture_player_no_tooltip$ se la sua [prowess|E] è una delle più alte nel [realm|E]"
+ KNIGHTS_VIEW_TITLE_FORCE_TT:2 "#T Costringi [Character.GetShortUIName] ad essere un $knight_culture_player$#!\n\n[Character.GetShortUIName] #emphasis deve#! unirsi ai tuoi [armies|E] come $knight_culture_player_no_tooltip$, a dispetto della sua [prowess|E]. [Character.GetSheHe|U] potrebbe prendere il posto di un $knight_culture_player_no_tooltip$ con una maggiore Maestria."
+ KNIGHTS_CURRENT_MAX:0 "[GetKnightCount( GetPlayer.Self )|V]/[GetKnightLimit( GetPlayer.Self )|V]"
+ KNIGHTS_SUBHEADER:0 "[courtiers|E] e [vassals|E] Idonei"
+ KNIGHTS_SUBHEADER_LANDLESS_ADVENTURER: "[followers|E] Idonei"

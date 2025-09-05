@@ -1,0 +1,10 @@
+﻿l_spanish:
+
+ # My Favorite Councilor
+
+ bp2_yearly_extra.0001.t:0 "Il Mio Consigliere Preferito"
+ bp2_yearly_extra.0001.desc:0 "Affascinante e intrigante. Ho osservato il Consiglio all'opera e un consigliere in particolare, [target_councilor.Custom('IT_NAM_COL3')][target_councilor.GetTitledFirstName], [ROOT.Char.Custom2( 'RelationToMe', target_councilor )], ha catturato il mio interesse.\n\nÈ chiaro che condividiamo le stesse passioni e, così, mi ritrovo a passare sempre più tempo con il Consiglio."
+ bp2_yearly_extra.0001.a:0 "Voglio dare anch'io il mio contributo!"
+ bp2_yearly_extra.0001.a.tt:0 "Aiutare o fare confusione? Sporcarsi le mani è un ottimo modo per imparare."
+ bp2_yearly_extra.0001.b:0 "Semplicemente mi piace vederli al lavoro."
+ bp2_yearly_extra.0001.b.tt:0 "È sempre più sicuro stare in disparte e prendere appunti."

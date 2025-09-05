@@ -1,0 +1,101 @@
+﻿l_spanish:
+
+ ##################################################
+ # #Misc Keys
+ TRUCE_TRADE_DEAL:1 "\nTregua firmata in cambio della cessazione delle incursioni\n\n"
+
+ ##################################################
+ # #Standard Trade Events
+ fp1_trade_events.0000.t:0 "Razziare o Commerciare"
+ fp1_trade_events.0002.t:1 "$fp1_trade_events.0000.t$?"
+ fp1_trade_events.0002.desc:0 "Mentre le mie truppe ed io ci prepariamo a saccheggiare le terre della Contea di [county.GetNameNoTierNoTooltip], i nostri primi esploratori fanno rapporto.\n\nSembra che le città locali siano ricche, ma molte sono pesantemente fortificate, e vi è il rischio concreto di essere sorpresi da eserciti vendicativi prima di poter penetrare negli obiettivi più succulenti.\n\nNon tutto è perduto: l'arte del buon saccheggio sta tutta nello sfruttare le opportunità, e forse potremmo organizzare scambi e tributi in cambio della nostra non belligeranza."
+ fp1_trade_events.0002.a:0 "Forse il/l'[county.GetHolder.GetTitleAsNameNoTooltip] locale sarà accondiscendente?"
+ fp1_trade_events.0002.a.accepted:0 "Se la tua offerta viene accettata"
+ fp1_trade_events.0002.a.rejected:0 "Se la tua offerta viene respinta"
+ fp1_trade_events.0002.a.tt:0 "Continui a razziare la Contea"
+ fp1_trade_events.0002.b:0 "Una tregua con il [county.GetHolder.GetTopLiege.GetTitleAsNameNoTooltip] al potere potrebbe essere inestimabile..."
+ fp1_trade_events.0002.c:0 "Si, probabilmente #EMP potremmo#! commerciare. Ma saccheggiamoli comunque."
+ fp1_trade_events.0002.c.tt:0 "$fp1_trade_events.0002.a.tt$"
+ fp1_trade_events.0002.d:0 "Quale razza di codardo #EMP feudale#! dalla vita facile fa soldi senza razziare?"
+ fp1_trade_events.0002.d.tt:0 "Saccheggi la Contea di [county.GetNameNoTierNoTooltip] e ti rifiuti di pensare al commercio come alternativa alle razzie per il resto della tua vita"
+
+ fp1_trade_events.0003.t:0 "$fp1_trade_events.0002.t$"
+ fp1_trade_events.0003.desc:0 "Un'orda disordinata di banditi, pirati e altri furfanti pesantemente armati è entrata in [county.GetNameNoTierNoTooltip], guidata da [raider.GetFirstName]!\n\nAll'inizio, i miei esploratori pensavano fossero qui per saccheggiare, ma un emissario del loro [raider.GetTitleAsNameNoTooltip] sostiene che invece sarebbero felici di commerciare. Sono pieni di bottini, vecchi e nuovi, e questo darebbe alla gente del posto la possibilità di comprare merci esotiche da tutto il mondo.\n\nIl messaggio è chiaro. Commercia a condizioni vantaggiose e loro se ne andranno in pace, oppure rifiuta la loro offerta e si prenderanno quello che vogliono."
+ fp1_trade_events.0003.a:0 "Un offerta inaspettata, ma altamente gradita."
+ fp1_trade_events.0003.a.tt_success:0 "La tua offerta viene accettata!"
+ fp1_trade_events.0003.b:0 "#EMP Trattare#!? Con questi briganti?!"
+ fp1_trade_events.0003.b.tt_failure:0 "La tua offerta viene rifiutata!"
+
+ fp1_trade_events.0011.t:0 "$fp1_trade_events.0000.t$: Una Sistemazione Confortevole"
+ fp1_trade_events.0011.desc.subsequent_renewal:0 "Per decadi"
+ fp1_trade_events.0011.desc.first_renewal:0 "Per molti anni"
+ fp1_trade_events.0011.desc.outro:0 "ho raggiunto un accordo con [recipient.GetTitledFirstName]. I miei razziatori terranno le loro armi appese alle cinture, nelle sue terre, e i suoi sudditi compreranno le merci di lusso esotiche che prenderemo da regni meno diplomatici.\n\nI termini del nostro accordo sono quasi conclusi, però, molti tra i miei seguaci sono riluttanti a rinunciare ai loro comodi contatti commerciali.\n\nForse [recipient.GetFirstNameNoTooltip] potrebbe essere apert[recipient.Custom('DE_END_PRO_S_N')] ad un'estensione?"
+ fp1_trade_events.0011.a:0 "Una grande offerta!"
+ fp1_trade_events.0011.a.accepted:0 "La tua offerta viene accettata"
+ fp1_trade_events.0011.a.rejected:0 "la tua offerta viene rifiutata"
+ fp1_trade_events.0011.b:0 "Questa cosa ha fatto il suo tempo..."
+ fp1_trade_events.0011.b.tt:0 "L'accordo scadrà silenziosamente"
+
+ fp1_trade_events.0012.t:0 "$fp1_trade_events.0011.t$"
+ fp1_trade_events.0012.desc.subsequent_renewal:0 "$fp1_trade_events.0011.desc.subsequent_renewal$"
+ fp1_trade_events.0012.desc.first_renewal:0 "$fp1_trade_events.0011.desc.first_renewal$"
+ fp1_trade_events.0012.desc.outro:0 "il mio accordo con [raider.GetTitledFirstName] si è mantenuto saldo: [raider.Custom('DE_ART_IND_A')] tiene i suoi cani al guinzaglio nelle mie terre, e i miei mercanti comprano il bottino rubato da qualche altra parte.\n\nCon l'approssimarsi della fine dell'accordo, [raider.GetFirstNameNoTooltip] mi ha chiesto un'estensione.\n\nPrivatamente, molti dei suoi guerrieri più ricchi mi hanno offerto di scegliere dei doni, qualora dovessi continuare a permettergli di avere accesso liberamente ai nostri mercati, ed #EMP è#! bello non doversi preoccupare di razziatori [raider.GetPrimaryTitle.GetAdjectiveNoTooltip] infuriati che saccheggiano le campagne..."
+ fp1_trade_events.0012.a:0 "Una proposta molto ben accetta!"
+ fp1_trade_events.0012.a.tt_success:0 "$fp1_trade_events.0011.a.accepted$"
+ fp1_trade_events.0012.b:0 "Ho chiuso con quest[raider.Custom('DE_END_PRO_S_N')] [raider.GetWomanMan]."
+ fp1_trade_events.0012.b.tt:0 "$fp1_trade_events.0011.b.tt$"
+ fp1_trade_events.0012.b.tt_failure:0 "$fp1_trade_events.0011.a.rejected$"
+
+ fp1_trade_events.0021.t:0 "$fp1_trade_events.0000.t$: Visitatori da Lontano"
+ fp1_trade_events.0021.desc:0 "Il mio accordo commerciale con [partner.GetTitledFirstName] assicura un flusso costante di visite dei miei mercanti e della piccola nobiltà nelle sue terre, al fine di vendere i propri bottini e importare merce di lusso straniera.\n\nDecisamente meno comune è una spedizione da [partner.GetPrimaryTitle.GetNameNoTier] diretta a [ROOT.Char.GetPrimaryTitle.GetNameNoTier], che spesso è una sorta di evento a [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]. Può essere un evento raro vedere riuniti così tanti stranieri provenienti da terre lontane e con le mani libere.\n\nI leader di una tale spedizione sono riusciti a radunare una platea per implorare il loro patrocinio: un[priest.Custom('DE_PRO_POS_P_2P')] [priest.GetFaith.PriestNeuter] eloquente e un mercante appassionato."
+ fp1_trade_events.0021.a:0 "Potrebbe farmi comodo qualcuno che conti le mie monete..."
+ fp1_trade_events.0021.b:0 "Benvenut[priest.Custom('DE_END_PRO_S_N')] al mio servizio, [priest.GetFirstNameNoTooltip]!"
+ fp1_trade_events.0021.c:0 "E chi è co[partner.GetSheHe] che ti accompagna, dietro di te?"
+ fp1_trade_events.0021.d:0 "Circolate, stranieri, il mio accordo è con [partner.GetFirstNameNoTooltip]."
+
+ fp1_trade_events.0031.t:0 "$fp1_trade_events.0021.t$"
+ fp1_trade_events.0031.desc:0 "I razziatori di [raider.GetTitledFirstNameNoTooltip] sono un gruppo temibile, tanto che spesso sono grat[ROOT.Char.Custom('DE_END_PRO_S_N')] del fatto che ci consideriamo amici cauti piuttosto che nemici sanguinari.\n\nUno tra i più #EMP feroci#! e spaventosi guerrieri annoverati tra le sue fila è [warrior.GetFirstName], un mietitore di non poca fama.\n\nQuando [warrior.Custom('DE_ART_IND_A')] ha chiesto un'udienza, quasi mi aspettavo si trattasse di un tentativo di assassinio, ma sono rimast[ROOT.Char.Custom('DE_END_PRO_S_N')] #EMP piacevolemente#! sorpres[ROOT.Char.Custom('DE_END_PRO_S_N')] quando ho scoperto che l'ambizios[warrior.Custom('DE_END_PRO_S_N')], giovane guerrier[warrior.Custom('DE_END_PRO_S_N')] desiderava offrirmi i suoi servigi."
+ fp1_trade_events.0031.a:0 "I guerrieri di [raider.GetPrimaryTitle.GetNameNoTierNoTooltip] sono leggendari!"
+ fp1_trade_events.0031.b:0 "Sparisci, bandit[raider.Custom('DE_END_PRO_S_N')]."
+
+ fp1_trade_events.0041.t:0 "$fp1_trade_events.0000.t$: Belligeranti con Benefici"
+ fp1_trade_events.0041.desc:0 "Il mio accordo con [partner.GetTitledFirstName] è un rapporto reciprocamente vantaggioso, ma a volte mi chiedo se è all'altezza del suo potenziale. Alle mie terre potrebbe far comodo il tocco dei suoi muratori e carpentieri veterani, e anche se è al sicuro dai miei razziatori, molti altri non hanno un tale accordo.\n\nCon un po' di spesa congiunta per facilitare il transito dei nostri servi, potremmo risolvere due problemi in uno: [partner.GetFirstNameNoTooltip] manderebbe abili artigiani a servirmi per un certo periodo e, in cambio, io [partner.Custom('DE_PRO_DEM')] anziani razziatori e coloni impazienti come consiglieri per aiutarl[partner.Custom('DE_END_PRO_S_N')] a mantenere al sicuro le sue terre."
+ fp1_trade_events.0041.foreign_architects_growth.tt:0 "Le [counties|E] sottosviluppate del tuo [domain|E]"
+ fp1_trade_events.0041.foreign_architects_no_growth.tt:0 "Le [counties|E] del tuo [domain|E] con almeno 15 di [development|E]"
+ fp1_trade_events.0041.partner_gets_raid_aid.tt:0 "Uno dei [duchies|E] più vulnerabili di [partner.GetFirstNamePossessiveNoTooltip] diventa più difficile da razziare"
+ fp1_trade_events.0041.raider_gets_civic_aid.tt:0 "Il [domain|E] di [raider.GetFirstNamePossessiveNoTooltip] ottiene un incremento nello [development|E] e sconti sui costi di costruzione"
+ fp1_trade_events.0041.partner.benefiting_counties.tt:0 "[counties|E] nei [duchy|E] nominati"
+ fp1_trade_events.0041.a.advanced:0 "Potrebbero costruirmi un palazzo nello stile [partner.GetCulture.GetNameNoTooltip]?"
+ fp1_trade_events.0041.a.fallback:0 "Mani istruite sono sempre le benvenute..."
+ fp1_trade_events.0041.a.offer_accepted:0 "$fp1_trade_events.0011.a.accepted$"
+ fp1_trade_events.0041.a.offer_rejected:0 "$fp1_trade_events.0011.a.rejected$"
+ fp1_trade_events.0041.b:0 "Manteniamo questa cosa informale."
+
+ fp1_trade_events.0051.t:0 "$fp1_trade_events.0041.t$"
+ fp1_trade_events.0051.desc:0 "Il mio sporadico partner commerciale, [raider.GetTitledFirstName], mi ha fatto giungere voce di un'intrigante offerta. Sebbene sia vero che le mie terre sono al sicuro dai suoi razziatori, non lo sono però dagli altri furfanti e girovaghi, e al tempo stesso le sue terre sono povere e sottosviluppate.\n\nQualora dovessimo entrambi anticipare le spese di viaggio per i nostri servitori, [raider.GetFirstNameNoTooltip] suggerisce una sorta di programma di scambio: guerrieri veterani e coloni provenienti dalle sue terre verranno inviati per aiutare a proteggere una delle mie frontiere vulnerabili dagli attacchi di ladri meno abili, e muratori e carpentieri esperti del mio reame faranno un giro nel suo dominio."
+ fp1_trade_events.0051.offer_accepted:0 "$fp1_trade_events.0011.a.accepted$"
+ fp1_trade_events.0051.offer_rejected:0 "$fp1_trade_events.0011.a.rejected$"
+ fp1_trade_events.0051.a:0 "A [option_1.GetNameNoTierNoTooltip] potrebbero far comodo gente esperta..."
+ fp1_trade_events.0051.b:0 "[option_2.GetNameNoTierNoTooltip] potrebbe essere un buon posto per loro?"
+ fp1_trade_events.0051.c:0 "Penso che preferirei sostenere [option_3.GetNameNoTierNoTooltip]."
+ fp1_trade_events.0051.d:0 "Che proposta oltraggiosa!"
+
+ ##################################################
+ # Special Trade Events
+ fp1_trade_events.1131.t:0 "La Minaccia degli Uomini del Nord"
+ fp1_trade_events.1131.desc:0 "Un'orda disparata di pirati, uomini senza terra, bambini disperati e altri malfattori si sono uniti a [attacker.GetFirstName] nell'attacco da [attacker.GetSheHe] proposto ai miei possedimenti.\n\nAnche se le dimensioni di tale forza sono formidabili, essi mancano di disciplina o di lealtà, con ogni mercenario che prima di tutto è interessato esclusivamente a ciò che può guadagnare personalmente dalla guerra.\n\nA differenza di un nemico convenzionale, potrebbe essere semplicemente possibile trattare direttamente con gli invasori. Forse si potrebbe trovare un accordo..."
+ fp1_trade_events.1131.a:0 "Mai! Tornatevene in quell'inferno di ghiaccio che chiamate casa, feccia!"
+ fp1_trade_events.1131.b:0 "Se è la terra ciò che vogliono, perché non dargliela?"
+ fp1_trade_events.1131.c:0 "Secondo la mia esperienza, i soldati preferiscono l'oro alla gloria..."
+ fp1_trade_events.1131.c.tt:0 "Paghi direttamente una somma alle truppe di [attacker.GetFirstNamePossessiveNoTooltip] affinché si disperdano"
+ fp1_trade_events.1131.d:0 "Scacceremo questi invasori come abbiamo sempre fatto."
+ fp1_trade_events.1131.d.tt:0 "Combatti gli uomini del Nord alla vecchia maniera"
+
+ fp1_trade_events.1171.t:0 "$fp1_trade_events.0000.t$: Una Mano Santa di Aiuto"
+ fp1_trade_events.1171.desc:0 "Nonostante siano inziati in circostanze #EMP insolite#!, i miei rapporti con [partner.GetTitledFirstName] non hanno fatto altro che rafforzarsi nel tempo.\n\nSi sono rafforzati, a quanto pare, più di quanto potessi immaginare, giacché la sua ultima lettera esprimeva una sincera preoccupazione per il destino della mia anima.\n\nNel tentativo di convincermi a convertirmi alla fede [partner.GetFaith.GetName], [partner.GetFirstNameNoTooltip] mi sta offrendo la mano di su[partner.Custom('DE_END_PRO_S_N')] [prospective_spouse.Custom('GetDaughterSon')], assieme ad una grande cerimionia per darmi il benvenuto nella sua fede, #EMP e#! ad una bella dote."
+ fp1_trade_events.1171.a:0 "[partner.GetSheHe|U] #EMP sa#! essere molto convincente..."
+ fp1_trade_events.1171.b:0 "Che bel gesto! Ad un'amicizia imperitura!"
+ fp1_trade_events.1171.b.tt:0 "Tutti gli effetti di cui sopra, così come..."
+ fp1_trade_events.1171.c.cynical:0 "Pah, mi aspetto una somma migliore di questa."
+ fp1_trade_events.1171.c.fallback:0 "Nessuna somma di denaro può allontanarmi dalla fede [raider.GetFaith.GetNameNoTooltip]."
+

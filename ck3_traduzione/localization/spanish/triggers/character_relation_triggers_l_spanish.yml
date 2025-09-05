@@ -1,0 +1,91 @@
+﻿l_spanish:
+
+ IS_AT_WAR_WITH_TRIGGER:0 "È in [war|E] con [TARGET_CHARACTER.GetShortUIName|V]"
+ NOT_IS_AT_WAR_WITH_TRIGGER:0 "#bold Non#! è in [war|E] con [TARGET_CHARACTER.GetShortUIName|V]"
+ I_AM_AT_WAR_WITH_TRIGGER:1 "Sei in [war|E] con [TARGET_CHARACTER.GetShortUIName|V]"
+ NOT_I_AM_AT_WAR_WITH_TRIGGER:1 "#bold Non#! sei in [war|E] con [TARGET_CHARACTER.GetShortUIName|V]"
+ THEY_ARE_AT_WAR_WITH_TRIGGER:0 "[CHARACTER.GetShortUIName|V] è in [war|E] con [TARGET_CHARACTER.GetShortUIName|V]"
+ NOT_THEY_ARE_AT_WAR_WITH_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold non#! è in [war|E] con [TARGET_CHARACTER.GetShortUIName|V]"
+ NONE_ARE_AT_WAR_WITH_TRIGGER: "È in [war|E] con te"
+ NOT_NONE_ARE_AT_WAR_WITH_TRIGGER: "#bold Non#! è in [war|E] con te"
+ 
+
+ IS_ALLIED_TO_TRIGGER:0 "È [allied|E] con [TARGET_CHARACTER.GetShortUIName|V]"
+ NOT_IS_ALLIED_TO_TRIGGER:0 "#bold Non#! è [allied|E] con [TARGET_CHARACTER.GetShortUIName|V]"
+ I_AM_ALLIED_TO_TRIGGER:1 "Sei [allied|E] con [TARGET_CHARACTER.GetShortUIName|V]"
+ NOT_I_AM_ALLIED_TO_TRIGGER:1 "#bold Non#! sei [allied|E] con [TARGET_CHARACTER.GetShortUIName|V]"
+ THEY_ARE_ALLIED_TO_TRIGGER:0 "[CHARACTER.GetShortUIName|V] è alleato con [TARGET_CHARACTER.GetShortUIName|V]"
+ NOT_THEY_ARE_ALLIED_TO_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold non#! è alleato con [TARGET_CHARACTER.GetShortUIName|V]"
+
+ IS_ALLIED_IN_WAR_GLOBAL:0 "È [allied|E] con [TARGET_CHARACTER.GetShortUIName|V] in una [war|E]"
+ NOT_IS_ALLIED_IN_WAR_GLOBAL:0 "#bold Non#! è [allied|E] con [TARGET_CHARACTER.GetShortUIName|V] in una [war|E]"
+ IS_ALLIED_IN_WAR_FIRST:1 "Sei [allied|E] con [TARGET_CHARACTER.GetShortUIName|V] in una [war|E]"
+ NOT_IS_ALLIED_IN_WAR_FIRST:1 "#bold Non#! sei [allied|E] con [TARGET_CHARACTER.GetShortUIName|V] in una [war|E]"
+ IS_ALLIED_IN_WAR_THIRD:0 "[CHARACTER.GetShortUIName|V] è alleato con [TARGET_CHARACTER.GetShortUIName|V] in una [war|E]"
+ NOT_IS_ALLIED_IN_WAR_THIRD:0 "[CHARACTER.GetShortUIName|V] #bold non#! è alleato con [TARGET_CHARACTER.GetShortUIName|V] in una [war|E]"
+
+ THEY_ARE_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] è Signore o Signore del Signore"
+ NOT_THEY_ARE_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] #bold non#! è Signore o Signore del Signore"
+ THEY_ARE_MY_LIEGE_OR_ABOVE:1 "[TARGET_CHARACTER.GetShortUIName|V] è il tuo [liege|E] o Signore del tuo Signore"
+ NOT_THEY_ARE_MY_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] #bold non#! è il tuo [liege|E] o Signore del tuo Signore"
+ THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] è il [liege|E] di [CHARACTER.GetShortUINamePossessive] o Signore del suo Signore"
+ NOT_THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] #bold non#! è il [liege|E] di [CHARACTER.GetShortUINamePossessive] o il Signore del suo Signore"
+
+ THEY_ARE_TRIBUTARY_OF_SUZERAIN_OR_ABOVE: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei', 'è' )] un [suzerain|E] o superiore"
+ NOT_THEY_ARE_TRIBUTARY_OF_SUZERAIN_OR_ABOVE: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] #bold non#! [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei', 'è' )] un [suzerain|E] o superiore"
+
+ THEY_ARE_MY_TRIBUTARY_OF_SUZERAIN_OR_ABOVE: "[TARGET_CHARACTER.GetShortUIName|VU] è il tuo [suzerain|E] o superiore"
+ NOT_THEY_ARE_MY_TRIBUTARY_OF_SUZERAIN_OR_ABOVE: "[TARGET_CHARACTER.GetShortUIName|VU] #bold non#! è  il tuo [suzerain|E] o superiore"
+
+ THEY_ARE_THEIR_TRIBUTARY_OF_SUZERAIN_OR_ABOVE: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei', 'è' )] il [suzerain|E] di [CHARACTER.GetShortUIName] o superiore"
+ NOT_THEY_ARE_THEIR_TRIBUTARY_OF_SUZERAIN_OR_ABOVE: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] #bold non#! [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei', 'è' )] il [suzerain|E] di [CHARACTER.GetShortUIName] o superiore"
+
+ THEY_ARE_VASSAL_OR_BELOW:0 "[TARGET_CHARACTER.GetShortUIName|V] è un [vassal|E]"
+ NOT_THEY_ARE_VASSAL_OR_BELOW:0 "[TARGET_CHARACTER.GetShortUIName|V] #bold non#! è un [vassal|E]"
+
+ IS_ATTRACTED_TO_WOMEN_TRIGGER:0 "È [attracted|E] dalle donne"
+ NOT_IS_ATTRACTED_TO_WOMEN_TRIGGER:0 "#bold Non#! è [attracted|E] dalle donne"
+
+ IS_ATTRACTED_TO_MEN_TRIGGER:0 "È [attracted|E] dagli uomini"
+ NOT_IS_ATTRACTED_TO_MEN_TRIGGER:0 "#bold Non#! è [attracted|E] dagli uomini"
+
+ HAS_SEXUALITY_TRIGGER:0 "È $SEXUALITY|V$"
+
+ IS_ATTRACTED_TO:0 "È [attracted|E] da [TARGET_CHARACTER.GetShortUIName]"
+ HAS_RELATION_CRUSH_ON_TARGET:0 "ha una [crush|E] per [TARGET_CHARACTER.GetShortUIName]"
+ HAS_RELATION_BULLY_BY_TARGET:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei', 'è' )] il/la [bully|E] di [CHARACTER.GetShortUIName]"
+ num_of_relation_bully_trigger:1 "Il numero di [bullies|E] è $COMPARATOR$ $NUM|V0$"
+ NUM_OF_RELATION_VICTIM_TRIGGER:1 "Il numero di [Concept( 'victim', 'vittime' )|E] di [Concept( 'bully', 'bullismo' )|E] è $COMPARATOR$ $NUM|V0$"
+ HAS_RELATION_VICTIM_BY_TARGET:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei', 'è' )] la [victim|E] di [CHARACTER.GetShortUIName]"
+ NUM_OF_RELATION_LOVER_TRIGGER:1 "Il numero di [lovers|E] è $COMPARATOR$ $NUM|V0$"
+ HAS_RELATION_RIVAL_WITH_TARGET:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete', 'sono' )] [rivals|E]"
+ NOT_HAS_RELATION_RIVAL_WITH_TARGET: "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] non [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete', 'sono' )] [rivals|E]"
+ NUM_OF_RELATION_RIVAL_TRIGGER:1 "Il numero di [rivalries|E] è $COMPARATOR$ $NUM|V0$"
+ NOT_NUM_OF_RELATION_RIVAL_TRIGGER:0 "Hai bisogno di più [rivals|E]"
+ NUM_OF_RELATION_NEMESIS_TRIGGER:1 "Il numero di [nemeses|E] è $COMPARATOR$ $NUM|V0$"
+ HAS_RELATION_FRIEND_WITH_TARGET:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete', 'sono' )] [friends|E]"
+ NOT_HAS_RELATION_FRIEND_WITH_TARGET: "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] non [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete', 'sono' )] [friends|E]"
+ NUM_OF_RELATION_FRIEND_TRIGGER:1 "Il numero di [friends|E] è $COMPARATOR$ $NUM|V0$"
+ HAS_RELATION_LOVER_WITH_TARGET:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete', 'sono' )] [lovers|E]"
+ HAS_RELATION_BEST_FRIEND_WITH_TARGET:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete', 'sono' )] [best_friends|E]"
+ NUM_OF_RELATION_GUARDIAN_TRIGGER:1 "Il numero di [guardians|E] è $COMPARATOR$ $NUM|V0$"
+ NUM_OF_RELATION_WARD_TRIGGER:1 "Il numero di [wards|E] è $COMPARATOR$ $NUM|V0$"
+ NUM_OF_RELATION_BEST_FRIEND_TRIGGER:1 "Il numero di [best_friend|E] è $COMPARATOR$ $NUM|V0$"
+ NUM_OF_RELATION_CRUSH_TRIGGER:1 "Il numero di [crushes|E] è $COMPARATOR$ $NUM|V0$"
+ NUM_OF_RELATION_SOULMATE_TRIGGER:1 "Il numero di [soulmates|E] è $COMPARATOR$ $NUM|V0$"
+ HAS_RELATION_POSSIBLE_PARENT_OF_TARGET:0 "Potrebbe essere il [parent|E] di [TARGET_CHARACTER.GetName]"
+ HAS_RELATION_BLOOD_BROTHER_WITH_TARGET: "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete', 'sono' )] fratelli di sangue"
+
+ HAS_RELATION_NEMESIS_WITH_TARGET:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete', 'sono' )] [nemeses|E]"
+ NOT_HAS_RELATION_NEMESIS_WITH_TARGET: "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] non [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete', 'sono' )] [nemeses|E]"
+ HAS_RELATION_SOULMATE_WITH_TARGET:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete', 'sono' )] [soulmates|E]"
+ HAS_RELATION_MENTOR_WITH_TARGET:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei', 'è' )] il [mentor|E] di [CHARACTER.GetShortUIName]"
+ HAS_RELATION_GUARDIAN_OF_TARGET:0 " [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei', 'è' )] il [guardian|E] di [CHARACTER.GetShortUIName]"
+ HAS_RELATION_WARD_OF_TARGET: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei', 'è' )] il [ward|E] di [CHARACTER.GetShortUIName]"
+
+ HAS_ANY_RELATION_WITH_TARGET:0 "Ha qualche relazione con [TARGET_CHARACTER.GetShortUIName]"
+ HAS_MOTHER_TRIGGER:0 "Ha una madre"
+ HAS_FATHER_TRIGGER:0 "Ha un padre"
+ 
+ HAS_ARTIFACT_TRIGGER:0 "Possiede un qualsiasi manufatto"
+ NOT_HAS_ARTIFACT_TRIGGER:0 "Non possiede manufatti"

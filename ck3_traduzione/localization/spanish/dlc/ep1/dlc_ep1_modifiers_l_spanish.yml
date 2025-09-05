@@ -1,0 +1,31 @@
+﻿l_spanish:
+ 
+ inspiration_invested_in_new_forge_modifier:0 "Nuova Fucina"
+ inspiration_invested_in_new_forge_modifier_desc:0 "Questo personaggio ha una fucina nuova di zecca e molto efficiente."
+ 
+ inspiration_alchemy_condoned_by_church_modifier:0 "La Chiesa Condona l'Alchimia"
+ inspiration_alchemy_condoned_by_church_modifier_desc:0 "La chiesa locale ha deciso di condonare la passione di questo personaggio per gli esperimenti alchemici."
+
+ raised_in_secrecy_modifier:0 "Cresciuto nella Segretezza"
+ raised_in_secrecy_modifier_desc:0 "Questo personaggio è stato cresciuto in completa segretezza e in quasi totale isolamento fin dalla nascita."
+
+ legendary_party_aftermath_modifier:0 "Postumi di una Festa Leggendaria"
+ legendary_party_aftermath_modifier_desc:0 "La corte di questo personaggio porta ancora i devastanti postumi di una festa vergognosamente eccelsa, anche se distruttiva."
+ mythic_party_aftermath_modifier:0 "Postumi della Festa Mitica"
+ mythic_party_aftermath_modifier_desc:0 "La corte di questo personaggio porta ancora i postumi devastanti di una festa così gloriosamente devastante che vive nella memoria locale."
+ world_shattering_party_aftermath_modifier:0 "Conseguenze di una Festa che Distrugge il Mondo"
+ world_shattering_party_aftermath_modifier_desc:0 "TLa corte di questo personaggio porta ancora le devastanti cicatrici di una festa così caotica che ha causato più danni della maggior parte dei piccoli assedi."
+ lacking_diplomatic_munity_modifier:0 "Mancanza di Immunità diplomatica"
+ lacking_diplomatic_munity_modifier_desc:0 "Tutti sanno che un diplomatico che visita questa corte è un po' meno al sicuro di quanto non voglia la tradizione."
+ humbling_hall_modifier:0 "Sala dell'Umiliazione"
+ humbling_hall_modifier_desc:0 "Una stanza di questa corte è famosa per un incidente che ha umiliato due nobili diplomatici, una storia di giustizia popolare usata dal volgo come una favola consolatoria."
+ inscrutable_host_modifier:0 "Ospite Imperscrutabile"
+ inscrutable_host_modifier_desc:0 "Si ritiene che questo personaggio pensi che la vendetta sia un piatto da servire freddo. Probabilmente."
+
+ above_petty_differences_modifier:0 "Al di là delle Piccole Differenze"
+ above_petty_differences_modifier_desc:0 "Questo personaggio non si preoccupa minimamente delle piccole cose, concentrandosi sul terreno comune tra i popoli al di là delle piccole dispute."
+
+ what_did_i_just_drink_modifier:0 "Cosa ho appena bevuto?"
+ what_did_i_just_drink_modifier_desc:0 "Quello era... Io... la mia testa... Ahi."
+ known_killjoy_modifier:0 "Noto Guastafeste"
+ known_killjoy_modifier_desc:0 "Nessun divertimento consentito, per decreto nobiliare."

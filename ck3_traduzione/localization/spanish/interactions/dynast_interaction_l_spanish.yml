@@ -1,0 +1,46 @@
+﻿l_spanish:
+ dynasty_interaction_header:1 "[dynast_interaction|E]\n"
+ disinherit_interaction:0 "Disereda"
+ disinherit_interaction_desc:0 "$dynasty_interaction_header$Rimuovi [recipient.GetShortUINameNoTooltip] dalla [line_of_succession|E]"
+ disinherit_interaction_notification:0 "Membro della Dinastia Diseredato"
+ courtly_vassal_disapproves_disinheriting:0 "Ogni [vassal|E] [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) perde #N 20#! di [opinion|E] nei confronti di [actor.GetTitledFirstName] per #V 10 anni#! #weak (Disapprova il Diseredamento di un erede non Contestato)#!"
+
+
+ restore_inheritance_interaction:0 "Restaura Eredità"
+ restore_inheritance_interaction_desc:0 "$dynasty_interaction_header$Restaura [recipient.GetShortUINameNoTooltip] alla naturale [line_of_succession|E]\n\n#weak Questo è disponibile perché [recipient.GetSheHe] è stato [disinherited|E]#!"
+ restore_inheritance_interaction_notification:0 "Eredità Restaurata"
+
+ denounce_interaction:0 "Denuncia"
+ denounce_interaction_desc:0 "$dynasty_interaction_header$[denounce|E] [recipient.GetShortUINameNoTooltip]\n\n#weak Questo darà a tutti i membri della nostra [dynasty|E] un [imprisonment_reason|E] contro [recipient.GetHerHim]"
+ denounce_interaction_notification:0 "Membro della Dinastia Denunciato"
+
+ forgive_interaction:0 "Perdona"
+ denounced_change_to_forgiven:0 "#V $denounced_opinion$ Opinion#! #weak (-50)#! cambia a #V $forgave_denounced_opinion$#! #weak (-25)#! (#P +25#! [opinion|E])"
+ forgiven_changed_to_denounced:0 "The #V $forgave_denounced_opinion$ Opinion#! #weak (-25)#! cambia a #V $denounced_opinion$#! #weak (-50)#! (#N -25#! [opinion|E])"
+ forgive_interaction_desc:0 "$dynasty_interaction_header$Ritira la [denouncement|E] di [recipient.GetShortUINameNoTooltip]"
+ forgive_interaction_notification:0 "Membro della Dinastia Perdonato"
+
+ call_dynasty_member_to_war_interaction:0 "Chiama Membro della Dinastia in Guerra"
+ call_dynasty_member_to_war_interaction_desc:0 "Chiama [recipient.GetShortUINameNoTooltip] per servire [recipient.GetHerHis] [dynasty|E] in guerra"
+ call_dynasty_member_to_war_interaction_extra_icon:0 "$hook_extra_icon$"
+
+ dynast_legitimize_bastard_interaction:1 "Legittimare il Bastardo #weak (Dynasty)#!"
+ dynast_legitimize_bastard_interaction_desc:2 "$dynasty_interaction_header$Dichiara [recipient.GetShortUINameNoTooltip] essere un $game_concept_legitimized_bastard$\n\n#weak Questo è disponibile perché [recipient.GetSheHe] è un [bastard|E] della mia [dynasty|E]#!"
+ dynast_legitimize_bastard_interaction_notification:0 "Bastardo Legittimato"
+
+ dynast_claim_title_interaction:0 "Rivendica Titolo"
+ dynast_claim_title_interaction_desc:0 "$dynasty_interaction_header$[claim|EU] un [title|E] detenuto da [recipient.GetShortUINameNoTooltip] per te stesso"
+ dynast_claim_title_interaction_notification:0 "Titolo Rivendicato"
+ ALREADY_HAVE_CLAIM_ON_THIS_TITLE:0 "Hai già una rivendicazione su questo titolo"
+ ALREADY_HAVE_CLAIMS_ON_ALL_TITLES:0 "Hai già una rivendicazione su tutti i titoli di [TARGET_CHARACTER.GetShortUINamePossessive]"
+
+ dynast_end_dynasty_wars_interaction:0 "Fine delle Guerre Dinastiche"
+ dynast_end_dynasty_wars_interaction_desc:0 "$dynasty_interaction_header$Esigere che [recipient.GetShortUINameNoTooltip] termina immediatamente tutte le loro guerre offensive contro qualsiasi altro membro della nostra [dynasty|E]"
+ dynast_end_dynasty_wars_interaction_notification:0 "Guerra Dinastica Finita"
+
+ recipient_secondary_legitimize_bastard_interaction:0 "Bastardo"
+ 
+ send_to_varangian_guard_interaction:0 "Manda nella Guardia Varangiana #weak (Dinastia)#!"
+ send_to_varangian_guard_interaction_desc:0 "$dynasty_interaction_header$Manda [recipient.GetShortUINameNoTooltip] a guadagnarsi gloria e fortuna nella Guardia Variaga. Chissà, potrebbe anche essere d'aiuto per rafforzare il carattere!"
+ send_to_varangian_guard_interaction_toast:0 "[recipient.GetShortUIName] se n'è andat[recipient.Custom('DE_END_PRO_S_N')] per entrare nella Guardia Variaga"
+ send_to_varangian_guard_interaction_toast_desc:0 "Fama e gloria attendono!"

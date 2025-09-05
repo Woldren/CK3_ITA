@@ -1,0 +1,69 @@
+﻿l_spanish:
+ greeting_lover_object:0 "[second.GetTitledFirstName|U], mi[second.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('second'))],"
+ greeting_lover_fallback:0 "[second.GetTitledFirstName|U], mi[second.Custom('DE_END_PRO_S_N')] car[second.Custom('DE_END_PRO_S_N')] [second.Custom('LoverPetName')],"
+
+ greeting_liege_positive:1 "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]"
+ greeting_liege_negative:1 "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]"
+ greeting_liege_liked:0 "I miei omaggi, mi[second.Custom('DE_END_PRO_S_N')] [second.Custom('ComplimentAdjective')] Signor[second.Custom('DE_PRO_PER_S_3P_G')],"
+ greeting_liege_dislike:0 "Al[second.Custom('DE_END_ADJ_NUL_S_N')] mi[second.Custom('DE_END_PRO_S_N')] Signor[second.Custom('DE_PRO_PER_S_3P_G')],"
+ greeting_liege_fallback:0 "I miei omaggi, mi[second.Custom('DE_END_PRO_S_N')] Signor[second.Custom('DE_PRO_PER_S_3P_G')],"
+
+ greeting_vassal_positive:1 "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]"
+ greeting_vassal_negative:1 "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]"
+ greeting_vassal_relative_liked:1 "[ROOT.Char.Custom2('GreetingToFamily', second)]"
+ greeting_vassal_liked:0 "I miei omaggi, mio [second.Custom('ComplimentAdjective')] vassallo,"
+ greeting_vassal_dislike:1 "Al mio [second.Custom('InsultAdjective')] vassallo,"
+ greeting_vassal_fallback:0 "Al mio vassallo,"
+
+ greeting_family_positive:1 "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]"
+ greeting_family_negative:1 "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]"
+ greeting_family_liked:1 "Amorevole [ROOT.Char.Custom2('RelationToMeShort', second)],"
+ greeting_family_fallback:1 "I miei omaggi [ROOT.Char.Custom2('RelationToMeShort', second)],"
+ 
+ greeting_foreign_ruler:1 "I miei omaggi [second.GetNameNoTooltip],"
+ greeting_foreign_ruler_negative:1 "Al[second.Custom('DE_END_ADJ_NUL_S_N')] [second.Custom('InsultAdjective')] [second.GetTitledFirstNameNoTooltip],"
+ greeting_foreign_ruler_positive:1 "Al[second.Custom('DE_END_ADJ_NUL_S_N')] [second.Custom('ComplimentAdjective')] [second.GetNameNoTooltip],"
+
+ greeting_generic:1 "I miei omaggi [second.GetNameNoTooltip],"
+ greeting_generic_negative:0 "Al[second.Custom('DE_END_ADJ_NUL_S_N')] [second.Custom('InsultAdjective')] [second.GetFirstNameNoTooltip],"
+ greeting_generic_positive:0 "Al[second.Custom('DE_END_ADJ_NUL_S_N')] [second.Custom('ComplimentAdjective')] [second.GetFirstNameNoTooltip],"
+
+ greeting_appropriate_positive_liege:1 "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]"
+ greeting_appropriate_positive_vassal:1 "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]"
+ greeting_appropriate_positive_family:1 "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]"
+ greeting_appropriate_positive_foreign_ruler:1 "[ROOT.Char.Custom2('GreetingToForeignRulerPositive', second)]"
+
+ greeting_appropriate_lover:1 "[ROOT.Char.Custom2('GreetingToLover', second)]"
+ greeting_appropriate_liege:1 "[ROOT.Char.Custom2('GreetingToLiege', second)]"
+ greeting_appropriate_vassal:1 "[ROOT.Char.Custom2('GreetingToVassal', second)]"
+ greeting_appropriate_family:1 "[ROOT.Char.Custom2('GreetingToFamily', second)]"
+ greeting_appropriate_foreign_ruler:1 "[ROOT.Char.Custom2('GreetingToForeignRuler', second)]"
+ greeting_appropriate_fallback:1 "[ROOT.Char.Custom2('GreetingToGeneric', second)]"
+ greeting_appropriate_positive_fallback:0 "[ROOT.Char.Custom2('GreetingToGenericPositive', second)]"
+ greeting_appropriate_negative_fallback:0 "[ROOT.Char.Custom2('GreetingToGenericNegative', second)]"
+
+ greeting_appropriate_negative_liege:1 "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]"
+ greeting_appropriate_negative_vassal:1 "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]"
+ greeting_appropriate_negative_family:1 "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]"
+ greeting_appropriate_negative_foreign_ruler:1 "[ROOT.Char.Custom2('GreetingToForeignRulerNegative', second)]"
+
+
+ greeting_supplimentary.negative:0 "[ROOT.Char.Custom2('NegativeSupplimentaryGreeting', second)]"
+ greeting_supplimentary.negative.tales:0 "I racconti dei tuoi misfatti vengono narrati dall'Irlanda a Cathay."
+ greeting_supplimentary.negative.greek:0 "Il tuo basso personaggio è il soggetto delle commedie greche."
+ greeting_supplimentary.negative.insult.1:0 "Possano i tuoi umori marcirti in corpo."
+ greeting_supplimentary.negative.insult.2:0 "Possano i tuoi anni essere brevi e miserabili."
+ greeting_supplimentary.negative.insult.3:0 "Possa il senno continuare a sfuggirti."
+ greeting_supplimentary.negative.insult_muslim.1:0 "Maledetto il tuo settimo nonno."
+ greeting_supplimentary.negative.insult_muslim.2:0 "Possa tu essere ricucito vivo nel ventre di un cammello morto."
+ greeting_supplimentary.negative.insult_muslim.3:0 "Che Allah distrugga la tua Casata."
+ greeting_supplimentary.negative.insult_muslim.4:0 "Figlio di un cane rognoso."
+
+ greeting_supplimentary.positive:0 "[ROOT.Char.Custom2('PositiveSupplimentaryGreeting', second)]"
+ greeting_supplimentary.positive.flattery.1:0 "Benedizioni su di voi e sulla vostra Casata."
+ greeting_supplimentary.positive.flattery.2:0 "La vostra saggezza e la vostra misericordia sono leggendarie."
+ greeting_supplimentary.positive.flattery.3:0 "La pace sia con voi."
+ greeting_supplimentary.positive.flattery.4:0 "Possiate voi vivere in armonia e contentezza."
+ greeting_supplimentary.positive.flattery.5:0 "La vostra spietatezza è invidiabile."
+ greeting_supplimentary.positive.flattery.6:0 "I vostri grandi appetiti sono rinomati in tutto il mondo."
+ 

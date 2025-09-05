@@ -1,0 +1,29 @@
+﻿l_spanish:
+ fabricate_hook_ongoing.0001.t:0 "$fabricate_hook_header$ Parente"
+ fabricate_hook_ongoing.0001.desc:1 "[target.GetTitledFirstNamePossessive] [target.Custom2('RelationToMe', SCOPE.sC('family_member'))], [family_member.GetTitledFirstName], è stato insolitamente disponibile. Pur sapendo che potrei non avere intenzioni benevole [target.GetFirstName], [family_member.GetSheHe] è disposto a rispondere alle domande"
+ fabricate_hook_ongoing.0001.a:0 ""[target.GetSheHe] ha qualche punto debole in particolare di cui dovrei essere a conoscenza?""
+ fabricate_hook_ongoing.0001.b:0 ""Come ci si potrebbe avvicinare a [target.GetHerHim]?""
+
+ fabricate_hook_ongoing.0002.t:0 "$fabricate_hook_header$ Indebita influenza"
+ fabricate_hook_ongoing.0002.desc:0 "[target.GetTitledFirstName] sembra insolitamente attento attorno [hooking_character.Custom('DE_END_ADJ_DEF_P_A')] su[hooking_character.Custom('DE_END_PRO_S_N')] [target.Custom2('RelationToMeShort', hooking_character )], [hooking_character.GetTitledFirstName]. Questo tipo di deferenza può solo significare che [hooking_character.GetFirstNameNoTooltip] abbia una qualche leva su di [target.GetSheHe].\n\nChe ci sia qualcosa per me da poter apprendere qui?"
+ fabricate_hook_ongoing.0002.a:0 "Le mie spie dovrebbero cercare una spiegazione a questo mistero"
+ fabricate_hook_ongoing.0002.b:0 "Devo sapere cosa [target.Custom('DE_PRO_DEM')] sta facendo fare!"
+
+ fabricate_hook_ongoing.0003.t:0 "$fabricate_hook_header$ Pettegolezzi"
+ fabricate_hook_ongoing.0003.desc_servant:0 "I miei agenti hanno preso contatto con [servant.GetTitledFirstName], un[servant.Custom('DE_PRO_POS_P_2P')] serv[servant.Custom('DE_END_PRO_S_N')] nel [target.Custom('ResidenceBuilding')] di mi[servant.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstNamePossessive]."
+ fabricate_hook_ongoing.0003.desc:0 "I miei agenti hanno presto contatto con un servitore un[servant.Custom('DE_PRO_POS_P_2P')] serv[servant.Custom('DE_END_PRO_S_N')] nel [target.Custom('ResidenceBuilding')] di [target.GetTitledFirstNamePossessive] il mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))]."
+ fabricate_hook_ongoing.0003.desc_ending:0 "\n\nCon il giusto incentivo è dispost[servant.Custom('DE_END_PRO_S_N')] a dare inizio ad alcuni #EMP sussurri#! riguardo al fatto che [target.GetFirstName] non sia così [target.Custom('FormalComplimentAdjective')] come sembra!"
+ fabricate_hook_ongoing.0003.a:0 "Rovineremo la sua reputazione!"
+ fabricate_hook_ongoing.0003.a_gregarious:0 "Tu #EMP sai#! che è la cosa giusta da fare."
+ fabricate_hook_ongoing.0003.b:0 "Un orecchio solidale vicino a [target.GetSheHe] è sufficiente."
+ fabricate_hook_ongoing.0003.b_lustful:0 "Oppure potremmo essere #EMP noi#! a dare inizio a qualcosa qui..."
+
+ fabricate_hook_ongoing.0004.t:0 "$fabricate_hook_header$ Una Questione di Gusto"
+ fabricate_hook_ongoing.0004.desc:0 "[target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] è un[target.Custom('DE_PRO_POS_P_2P')] [target.GetWomanMan] complicat[target.Custom('DE_END_PRO_S_N')].\n\nDevo capirl[target.Custom('DE_END_PRO_S_N')] il più possibile se voglio convincere le persone a schierarsi dalla mia parte in qualsivoglia imminente #EMP contesa#!."
+ fabricate_hook_ongoing.0004.a:0 "Presto scoprirò la verità su [target.GetHerHim]."
+ fabricate_hook_ongoing.0004.b.success:0 "Apprendi qualcosa su di [target.GetHerHim]"
+ fabricate_hook_ongoing.0004.b.failure:0 "[target.GetSheHe|U] ti scopre"
+ fabricate_hook_ongoing.0004.b:0 "Mi prenderò il mio tempo."
+
+ fabricate_hook_ongoing.0005.desc:0 "Le persone descrivono [target.GetFirstName] come [target.Custom('ComplimentAdjective')] e [target.Custom('InsultAdjective')], il che mi fa capire la loro relazione con [target.GetSheHe] più di ogni altra cosa.\n\nInoltre, un curioso numero di persone menziona quanto spesso [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('target'))] e parla dei suoi [target.Custom('herhis_subject_of_interest')]."
+ fabricate_hook_ongoing.0005.a:0 "Sono sicuro che questa informazione si rivelerà utile."

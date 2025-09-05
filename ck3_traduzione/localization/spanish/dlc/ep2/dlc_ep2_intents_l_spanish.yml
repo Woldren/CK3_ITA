@@ -1,0 +1,46 @@
+﻿l_spanish:
+ # Intents
+ reduce_stress_intent:1 "Svagarsi"
+
+ reduce_stress_intent_desc:0 "Vuoi concentrarti nel ridurre il tuo [stress|E] cercando opportunità di svago."
+
+ murder_attendee_intent:0 "Assassinare"
+ murder_attendee_intent_desc:0 "Il tuo obiettivo è porre fine alla vita del tuo bersaglio. Questo si traduce spesso in occasioni buone per commettere l'omicidio e opzioni speciali."
+
+ woo_attendee_intent:0 "Sedurre"
+ woo_attendee_intent_desc:0 "Hai in mente una sola cosa: sedurre il tuo bersaglio. Questo porta spesso a eventi e opzioni speciali per soddisfare questo tuo desiderio."
+
+ impose_obedience_intent: "Imporre l'Obbedienza"
+ impose_obedience_intent_desc: "Una dimostrazione di forza è l'unica cosa che hai in testa. Ciò spesso porta a delle opportunità di guadagnare l'[obedience|E] del tuo bersaglio."
+
+ befriend_attendee_intent:0 "Fare Amicizia"
+ befriend_attendee_intent_desc:0 "Vuoi fare amicizia con il tuo bersaglio. Questo spesso porta a eventi e opzioni amichevoli."
+
+ lechery_intent:0 "Darsi alla Lussuria"
+ lechery_intent_desc:0 "Intendi assecondare i tuoi desideri carnali e cercare incontri sessuali con un gran numero di partner. Questo si traduce spesso in una riduzione dello [stress|E] per un personaggio con tratto [GetTrait('lustful').GetName( GetNullCharacter )]."
+
+ legitimacy_intent: "Esprimere la Legittimità"
+ legitimacy_intent_desc: "Intendi utilizzare questo incontro come mezzo per promuovere la tua [legitimacy|E]."
+
+ altruism_intent_header:0 "Altruismo:"
+ altruism_intent:0 "Dimostrare Altruismo"
+ altruism_intent_desc:1 "Provi a migliorare la vita degli altri cercando opportunità per intraprendere azioni altruistiche. Questo porta spesso a un aumento dell'[county_opinion|E] e della [piety|E]. Un personaggio con tratto [GetTrait('zealous').GetName( GetNullCharacter )|U], [GetTrait('generous').GetName( GetNullCharacter )] o [GetTrait('improvident').GetName( GetNullCharacter )] può perdere [stress|E]."
+
+ justice_intent:0 "Fare Giustizia"
+ justice_intent_desc:0 "Cerchi la giustizia, anche per i criminali più meschini del tuo regno. Questo porta spesso a un aumento del [control|E], inoltre un personaggio con tratto [GetTrait('just').GetName( GetNullCharacter )] può perdere [stress|E]."
+ 
+ recruit_knights_intent:0 "Reclutare"
+ recruit_knights_intent_desc:0 "Cerchi di migliorare la tua corte con nuovi e potenti [knights|E]. Questo porta spesso a opportunità di reclutamento."
+ # TOOLTIPS
+ intent_obedience_success_tt: "[THIS.Char.GetIntentTarget.GetShortUIName] ti è diventat[THIS.Char.Custom('DE_END_PRO_S_N')] [obedient|E], sei riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] nel tuo [intent|E]"
+ intent_obedience_fail_tt: "Hai fallito nel tuo [intent|E] di rendere [THIS.Char.GetIntentTarget.GetShortUIName] [obedient|E]" 
+ intent_murder_success_tt:1 "Hai ucciso [THIS.Char.Custom('IT_NAM_COL3')][THIS.Char.GetIntentTarget.GetShortUIName], bersaglio del tuo [intent|El] omicida"
+ intent_murder_dead_tt:1 "[THIS.Char.Custom('IT_NAM_COL3')|U][THIS.Char.GetIntentTarget.GetShortUIName], bersaglio del tuo [intent|El] omicida, è mort[THIS.Char.Custom('DE_END_PRO_S_N')]"
+ intent_murder_fail_tt:1 "Hai fallito nel tentativo di assassinare [THIS.Char.Custom('IT_NAM_COL3')][THIS.Char.GetIntentTarget.GetShortUIName], bersaglio del tuo [intent|El] omicida"
+ intent_woo_success_tt:1 "Hai sedotto [THIS.Char.Custom('IT_NAM_COL3')][THIS.Char.GetIntentTarget.GetShortUIName], obiettivo del tuo [intent|El] di seduzione"
+ intent_woo_potential_tt:1 "Hai suscitato l'interesse [THIS.Char.Custom('IT_NAM_COL2')][THIS.Char.GetIntentTarget.GetShortUIName], obiettivo del tuo [intent|El] di seduzione"
+ intent_woo_fail_tt:1 "Hai fallito nel sedurre [THIS.Char.Custom('IT_NAM_COL3')][THIS.Char.GetIntentTarget.GetShortUIName], obiettivo del tuo [intent|El] di seduzione"
+ intent_befriend_success_tt:1 "Hai creato un legame con [THIS.Char.Custom('IT_NAM_COL3')][THIS.Char.GetIntentTarget.GetShortUIName], obiettivo del tuo [intent|El] di fare amicizia"
+ intent_befriend_potential_tt:1 "Hai trascorso del tempo con [THIS.Char.Custom('IT_NAM_COL3')][THIS.Char.GetIntentTarget.GetShortUIName], obiettivo del tuo [intent|El] di fare amicizia"
+ intent_befriend_fail_tt:1 "Hai fallito nel creare un legame con [THIS.Char.Custom('IT_NAM_COL3')][THIS.Char.GetIntentTarget.GetShortUIName], obiettivo del tuo [intent|El] di fare amicizia"
+ activity_intent_complete_toast:1 "Intento Raggiunto"

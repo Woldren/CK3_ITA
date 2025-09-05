@@ -1,0 +1,8607 @@
+﻿####################################
+#   ITALIAN CUSTOM LOCALISATION     #
+#      						        #
+####################################
+
+##################################################################
+##################################################################
+
+###CODICI PER IL GENERE OPPOSTO###
+
+DE_END_PRO_S_N_Opp = { #o/a
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = CustomLoc_DE_END_PRO_S_N_female
+		trigger = { is_female = no }
+	}
+	text = {
+		localization_key = CustomLoc_DE_END_PRO_S_N_male
+		trigger = { is_female = yes }
+	}
+}
+
+DE_ART_DEF_P_A_Opp = { #il/la
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = CustomLoc_DE_ART_DEF_P_A_female
+		trigger = { is_female = no }
+	}
+	text = {
+		localization_key = CustomLoc_DE_ART_DEF_P_A_male
+		trigger = { is_female = yes }
+	}
+}
+
+DE_PRO_POS_P_2P_Opp = { #un/una
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = CustomLoc_DE_PRO_POS_P_2P_female
+		trigger = { is_female = no }
+	}
+	text = {
+		localization_key = CustomLoc_DE_PRO_POS_P_2P_male
+		trigger = { is_female = yes }
+	}
+}
+
+############################################################
+
+REL_TO_ME = { 
+	type = character
+
+	text = {
+		localization_key = CustomLoc_REL_TO_ME_m 
+		trigger = {
+			is_female = no
+			OR = {
+					is_parent_of = root
+					is_grandparent_of = root
+					is_great_grandparent_of = root
+					is_sibling_of = root
+					is_child_of = root 
+					is_nibling_of = root  
+				}
+			}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME_f 
+		trigger = {
+			is_female = yes
+			OR = {
+					is_parent_of = root
+					is_grandparent_of = root
+					is_great_grandparent_of = root
+					is_sibling_of = root
+					is_child_of = root 
+					is_nibling_of = root  
+				}
+			}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME_m2 
+		trigger = {
+			is_female = no
+			is_close_or_extended_family_of = root
+			NOR = {
+					is_parent_of = root
+					is_grandparent_of = root
+					is_great_grandparent_of = root
+					is_sibling_of = root
+					is_child_of = root 
+					is_nibling_of = root  
+				}
+			}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME_f2 
+		trigger = {
+			is_female = yes
+			is_close_or_extended_family_of = root
+			NOR = {
+					is_parent_of = root
+					is_grandparent_of = root
+					is_great_grandparent_of = root
+					is_sibling_of = root
+					is_child_of = root 
+					is_nibling_of = root  
+				}
+			}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME_m3 
+		trigger = {
+			is_female = no
+			NOT = {
+			is_close_or_extended_family_of = root
+				}
+		}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME_f3 
+		trigger = {
+			is_female = yes
+			NOT = {
+			is_close_or_extended_family_of = root
+				}
+		}
+	}
+	
+}
+
+REL_TO_ME2 = { 
+	type = character
+
+	text = {
+		localization_key = CustomLoc_REL_TO_ME2_m 
+		trigger = {
+			is_female = no
+			OR = {
+					is_parent_of = root
+					is_grandparent_of = root
+					is_great_grandparent_of = root
+					is_sibling_of = root
+					is_child_of = root 
+				}
+			}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME2_f 
+		trigger = {
+			is_female = yes
+			OR = {
+					is_parent_of = root
+					is_grandparent_of = root
+					is_great_grandparent_of = root
+					is_sibling_of = root
+					is_child_of = root 
+				}
+			}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME2_m2 
+		trigger = {
+			is_female = no
+			is_close_or_extended_family_of = root
+			NOR = {
+					is_parent_of = root
+					is_grandparent_of = root
+					is_great_grandparent_of = root
+					is_sibling_of = root
+					is_child_of = root 
+				}
+			}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME2_f2 
+		trigger = {
+			is_female = yes
+			is_close_or_extended_family_of = root
+			NOR = {
+					is_parent_of = root
+					is_grandparent_of = root
+					is_great_grandparent_of = root
+					is_sibling_of = root
+					is_child_of = root 
+				}
+			}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME2_m3 
+		trigger = {
+			is_female = no
+			NOT = {
+			is_close_or_extended_family_of = root
+				}
+		}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME2_f3 
+		trigger = {
+			is_female = yes
+			NOT = {
+			is_close_or_extended_family_of = root
+				}
+		}
+	}
+	
+}
+
+REL_TO_ME3 = { 
+	type = character
+
+	text = {
+		localization_key = CustomLoc_REL_TO_ME3_m 
+		trigger = {
+			is_female = no
+			OR = {
+					is_parent_of = root
+					is_grandparent_of = root
+					is_great_grandparent_of = root
+					is_sibling_of = root
+					is_child_of = root 
+				}
+			}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME3_f 
+		trigger = {
+			is_female = yes
+			OR = {
+					is_parent_of = root
+					is_grandparent_of = root
+					is_great_grandparent_of = root
+					is_sibling_of = root
+					is_child_of = root 
+				}
+			}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME3_m2 
+		trigger = {
+			is_female = no
+			is_close_or_extended_family_of = root
+			NOR = {
+					is_parent_of = root
+					is_grandparent_of = root
+					is_great_grandparent_of = root
+					is_sibling_of = root
+					is_child_of = root 
+				}
+			}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME3_f2 
+		trigger = {
+			is_female = yes
+			is_close_or_extended_family_of = root
+			NOR = {
+					is_parent_of = root
+					is_grandparent_of = root
+					is_great_grandparent_of = root
+					is_sibling_of = root
+					is_child_of = root 
+				}
+			}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME3_m3 
+		trigger = {
+			is_female = no
+			NOT = {
+			is_close_or_extended_family_of = root
+				}
+		}
+	}
+	text = {
+		localization_key = CustomLoc_REL_TO_ME3_f3 
+		trigger = {
+			is_female = yes
+			NOT = {
+			is_close_or_extended_family_of = root
+				}
+		}
+	}
+	
+}
+
+###BARONI E CONTI###
+
+IT_NAM_COL = { #SUL/SULLA/SULLO
+	type = character
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_no_title #NESSUN TITOLO
+		trigger = {
+				is_landed = no
+				NOT = {
+				any_spouse = {
+					primary_title.tier >= tier_barony
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_infante #INFANTE
+		trigger = {
+			AND = { 
+					primary_title.tier < tier_kingdom
+					culture = { has_cultural_pillar = heritage_iberian }
+					has_government = feudal_government
+					any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_principe #PRINCIPE
+		trigger = { # Prince
+			is_female = no
+			primary_title.tier < tier_kingdom
+			OR = {
+				has_government = feudal_government
+				has_government = clan_government
+			}
+			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+		}
+
+	}
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_principessa #PRINCIPESSA
+		trigger = { # Princesse
+			is_female = yes
+			primary_title.tier < tier_kingdom
+			OR = {
+				has_government = feudal_government
+				has_government = clan_government
+			}
+			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_base #CONTE/PRINCIPE VESCOVO
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					has_government = republic_government
+					}
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_base_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_norse_special #CONTE/PRINCIPE VESCOVO
+		trigger = {
+				primary_title.tier = tier_county
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					has_government = republic_government
+					}
+				NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_norse_special_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+					primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_base_r #SINDACO/BARONE/WALI/THANE/REEVE
+		trigger = {
+				OR = {
+					primary_title.tier = tier_barony
+					any_spouse = {
+					primary_title.tier = tier_barony
+						}
+					}
+					is_female = no
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_base_rf #BARONESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_barony
+					any_spouse = {
+					primary_title.tier = tier_barony
+						}
+					}
+					is_female = yes
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_english #EARL
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				has_government = feudal_government
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					}
+				NOT = {
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_english_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+					NOT = {
+						primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+							}
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_tribal #CAPO/CAPO DONNA
+		trigger = {
+				primary_title.tier = tier_county
+				has_government = tribal_government
+				NOT = {
+					OR = {
+					culture = culture:gaelic
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+						}
+					}
+				}
+			}
+
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_islam #SCEICCO
+		trigger = {
+				primary_title.tier = tier_county
+				has_government = clan_government
+				is_female = no
+				has_religion = religion:islam_religion
+				NOT = {
+					OR = {
+					culture = { has_cultural_pillar = heritage_iranian }
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_islam_f #SCEICCA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				has_government = clan_government
+				is_female = yes
+				has_religion = religion:islam_religion
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_gaelic #MORMAER
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				has_government = tribal_government
+				OR = {
+					culture = culture:gaelic
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_gaelic #BANMORMAER
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				is_female = yes
+				has_government = tribal_government
+				OR = {
+					culture = culture:gaelic
+					}
+				}
+			}
+
+###DUCHI/RE###			
+						
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_i_base #IMPERATORE/IMPERATRICE
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+				NOT = {
+					faith = faith:orthodox
+					has_title = title:e_hre
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_i_base_hre #KAISER
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+					has_title = title:e_hre
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_i_base_hre_f #KAISERIN
+		trigger = {
+				OR = {
+					primary_title.tier = tier_empire
+					any_spouse = {
+					primary_title.tier = tier_empire
+					has_title = title:e_hre
+						}
+					}
+				OR = {
+					has_government = feudal_government
+					}
+					has_title = title:e_hre
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_i_ortox #BASILEUS
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+					is_female = no
+					faith = faith:orthodox
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_i_ortox_f #BASILISSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_empire
+					any_spouse = {
+					primary_title.tier = tier_empire
+						}
+					}
+				OR = {
+					has_government = feudal_government
+					}
+					is_female = yes
+					faith = faith:orthodox
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_r_base #RE/PAPA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_r_indu #MAHARAJA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				has_government = feudal_government
+				religion = religion:hinduism_religion
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_r_otox #PATRIARCA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				has_government = theocracy_government
+				faith = faith:orthodox
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_r_islam #SULTANO/CALIFFO
+		trigger = {
+				primary_title.tier >= tier_kingdom
+				is_female = no
+				OR = {
+					has_government = clan_government
+					has_government = tribal_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_r_base_f #REGINA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_kingdom
+					any_spouse = {
+					primary_title.tier = tier_kingdom
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = feudal_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_r_islam_f #SULTANA/CALIFFA
+		trigger = {
+				OR = {
+					primary_title.tier >= tier_kingdom
+					any_spouse = {
+					primary_title.tier >= tier_kingdom
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = clan_government
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_d_base #DUCA
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_d_base_f #DUCHESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_d_english #PICCOLO RE
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					}
+				OR = {
+					culture = culture:anglo_saxon
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_d_english_f #PICCOLA REGINA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					}
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_d_norse #JARL
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				OR = {
+					has_government = tribal_government
+					has_government = feudal_government
+					}
+				OR = {
+					culture = culture:norse
+					}
+				}
+			}
+
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_d_islam #EMIRO
+		trigger = {
+				primary_title.tier = tier_duchy
+				OR = {
+				has_government = clan_government
+				has_government = tribal_government
+				}
+				is_female = no
+				has_religion = religion:islam_religion
+				NOT = {
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_d_islam_f #EMIRA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+					has_religion = religion:islam_religion
+					NOT = {
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+							}
+						}
+					}
+				OR = {
+				has_government = clan_government
+				has_government = tribal_government
+				}
+				is_female = yes
+				NOT = {
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL_d_general #GRANDE CAPO/GRANDE CAPO DONNA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				has_government = tribal_government
+				}
+			}
+			
+	}
+	
+###########################################################	
+	
+IT_NAM_COL2 = { #DEL/DELLA/DELLO
+	type = character
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_no_title #NESSUN TITOLO
+		trigger = {
+				is_landed = no
+				NOT = {
+				any_spouse = {
+					primary_title.tier >= tier_barony
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_infante #INFANTE
+		trigger = {
+			AND = { 
+					primary_title.tier < tier_kingdom
+					culture = { has_cultural_pillar = heritage_iberian }
+					has_government = feudal_government
+					any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_principe #PRINCIPE
+		trigger = { # Prince
+			is_female = no
+			primary_title.tier < tier_kingdom
+			OR = {
+				has_government = feudal_government
+				has_government = clan_government
+			}
+			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+		}
+
+	}
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_principessa #PRINCIPESSA
+		trigger = { # Princesse
+			is_female = yes
+			primary_title.tier < tier_kingdom
+			OR = {
+				has_government = feudal_government
+				has_government = clan_government
+			}
+			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_base #CONTE/PRINCIPE VESCOVO
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					has_government = republic_government
+					}
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_base_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_norse_special #CONTE/PRINCIPE VESCOVO
+		trigger = {
+				primary_title.tier = tier_county
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					has_government = republic_government
+					}
+				NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_norse_special_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+					primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_base_r #SINDACO/BARONE/WALI/THANE/REEVE
+		trigger = {
+				OR = {
+					primary_title.tier = tier_barony
+					any_spouse = {
+					primary_title.tier = tier_barony
+						}
+					}
+					is_female = no
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_base_rf #BARONESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_barony
+					any_spouse = {
+					primary_title.tier = tier_barony
+						}
+					}
+					is_female = yes
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_english #EARL
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				has_government = feudal_government
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					}
+				NOT = {
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_english_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+					NOT = {
+						primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+							}
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_tribal #CAPO/CAPO DONNA
+		trigger = {
+				primary_title.tier = tier_county
+				has_government = tribal_government
+				NOT = {
+					OR = {
+					culture = culture:gaelic
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+						}
+					}
+				}
+			}
+
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_islam #SCEICCO
+		trigger = {
+				primary_title.tier = tier_county
+				has_government = clan_government
+				is_female = no
+				has_religion = religion:islam_religion
+				NOT = {
+					OR = {
+					culture = { has_cultural_pillar = heritage_iranian }
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_islam_f #SCEICCA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				has_government = clan_government
+				is_female = yes
+				has_religion = religion:islam_religion
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_gaelic #MORMAER
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				has_government = tribal_government
+				OR = {
+					culture = culture:gaelic
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_gaelic #BANMORMAER
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				is_female = yes
+				has_government = tribal_government
+				OR = {
+					culture = culture:gaelic
+					}
+				}
+			}
+
+###DUCHI/RE###			
+						
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_i_base #IMPERATORE/IMPERATRICE
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+				NOT = {
+					faith = faith:orthodox
+					has_title = title:e_hre
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_i_base_hre #KAISER
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+					has_title = title:e_hre
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_i_base_hre_f #KAISERIN
+		trigger = {
+				OR = {
+					primary_title.tier = tier_empire
+					any_spouse = {
+					primary_title.tier = tier_empire
+					has_title = title:e_hre
+						}
+					}
+				OR = {
+					has_government = feudal_government
+					}
+					has_title = title:e_hre
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_i_ortox #BASILEUS
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+					is_female = no
+					faith = faith:orthodox
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_i_ortox_f #BASILISSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_empire
+					any_spouse = {
+					primary_title.tier = tier_empire
+						}
+					}
+				OR = {
+					has_government = feudal_government
+					}
+					is_female = yes
+					faith = faith:orthodox
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_r_base #RE/PAPA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_r_indu #MAHARAJA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				has_government = feudal_government
+				religion = religion:hinduism_religion
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_r_islam #SULTANO/CALIFFO
+		trigger = {
+				primary_title.tier >= tier_kingdom
+				is_female = no
+				OR = {
+					has_government = clan_government
+					has_government = tribal_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_r_otox #PATRIARCA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				has_government = theocracy_government
+				faith = faith:orthodox
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_r_base_f #REGINA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_kingdom
+					any_spouse = {
+					primary_title.tier = tier_kingdom
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = feudal_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_r_islam_f #SULTANA/CALIFFA
+		trigger = {
+				OR = {
+					primary_title.tier >= tier_kingdom
+					any_spouse = {
+					primary_title.tier >= tier_kingdom
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = clan_government
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_d_base #DUCA
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_d_base_f #DUCHESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_d_english #PICCOLO RE
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					}
+				OR = {
+					culture = culture:anglo_saxon
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_d_english_f #PICCOLA REGINA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					}
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_d_norse #JARL
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				OR = {
+					has_government = tribal_government
+					has_government = feudal_government
+					}
+				OR = {
+					culture = culture:norse
+					}
+				}
+			}
+
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_d_islam #EMIRO
+		trigger = {
+				primary_title.tier = tier_duchy
+				OR = {
+				has_government = clan_government
+				has_government = tribal_government
+				}
+				is_female = no
+				has_religion = religion:islam_religion
+				NOT = {
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_d_islam_f #EMIRA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+					has_religion = religion:islam_religion
+					NOT = {
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+							}
+						}
+					}
+				OR = {
+				has_government = clan_government
+				has_government = tribal_government
+				}
+				is_female = yes
+				NOT = {
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL2_d_general #GRANDE CAPO/GRANDE CAPO DONNA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				has_government = tribal_government
+				}
+			}
+			
+	}
+	
+#############################################################
+	
+IT_NAM_COL3 = { #IL/LA/LO
+	type = character
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_no_title #NESSUN TITOLO
+		trigger = {
+				is_landed = no
+				NOT = {
+				any_spouse = {
+					primary_title.tier >= tier_barony
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_infante #INFANTE
+		trigger = {
+			AND = { 
+					primary_title.tier < tier_kingdom
+					culture = { has_cultural_pillar = heritage_iberian }
+					has_government = feudal_government
+					any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_principe #PRINCIPE
+		trigger = { # Prince
+			is_female = no
+			primary_title.tier < tier_kingdom
+			OR = {
+				has_government = feudal_government
+				has_government = clan_government
+			}
+			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+		}
+
+	}
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_principessa #PRINCIPESSA
+		trigger = { # Princesse
+			is_female = yes
+			primary_title.tier < tier_kingdom
+			OR = {
+				has_government = feudal_government
+				has_government = clan_government
+			}
+			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_base #CONTE/PRINCIPE VESCOVO
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					has_government = republic_government
+					}
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_base_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_norse_special #CONTE/PRINCIPE VESCOVO
+		trigger = {
+				primary_title.tier = tier_county
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					has_government = republic_government
+					}
+				NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_norse_special_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+					primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+						}
+					}			
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_base_r #SINDACO/BARONE/WALI/THANE/REEVE
+		trigger = {
+				OR = {
+					primary_title.tier = tier_barony
+					any_spouse = {
+					primary_title.tier = tier_barony
+						}
+					}
+					is_female = no
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_base_rf #BARONESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_barony
+					any_spouse = {
+					primary_title.tier = tier_barony
+						}
+					}
+					is_female = yes
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_english #EARL
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				has_government = feudal_government
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					}
+				NOT = {
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_english_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+					NOT = {
+						primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+							}
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_tribal #CAPO/CAPO DONNA
+		trigger = {
+				primary_title.tier = tier_county
+				has_government = tribal_government
+				NOT = {
+					OR = {
+					culture = culture:gaelic
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+						}
+					}
+				}
+			}
+
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_islam #SCEICCO
+		trigger = {
+				primary_title.tier = tier_county
+				has_government = clan_government
+				is_female = no
+				has_religion = religion:islam_religion
+				NOT = {
+					OR = {
+					culture = { has_cultural_pillar = heritage_iranian }
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_islam_f #SCEICCA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				has_government = clan_government
+				is_female = yes
+				has_religion = religion:islam_religion
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_gaelic #MORMAER
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				has_government = tribal_government
+				OR = {
+					culture = culture:gaelic
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_gaelic #BANMORMAER
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				is_female = yes
+				has_government = tribal_government
+				OR = {
+					culture = culture:gaelic
+					}
+				}
+			}
+
+###DUCHI/RE###			
+						
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_i_base #IMPERATORE/IMPERATRICE
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+				NOT = {
+					faith = faith:orthodox
+					has_title = title:e_hre
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_i_base_hre #KAISER
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+					has_title = title:e_hre
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_i_base_hre_f #KAISERIN
+		trigger = {
+				OR = {
+					primary_title.tier = tier_empire
+					any_spouse = {
+					primary_title.tier = tier_empire
+					has_title = title:e_hre
+						}
+					}
+				OR = {
+					has_government = feudal_government
+					}
+					has_title = title:e_hre
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_i_ortox #BASILEUS
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+					is_female = no
+					faith = faith:orthodox
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_i_ortox_f #BASILISSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_empire
+					any_spouse = {
+					primary_title.tier = tier_empire
+						}
+					}
+				OR = {
+					has_government = feudal_government
+					}
+					is_female = yes
+					faith = faith:orthodox
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_r_base #RE/PAPA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_r_indu #MAHARAJA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				has_government = feudal_government
+				religion = religion:hinduism_religion
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_r_base_f #REGINA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_kingdom
+					any_spouse = {
+					primary_title.tier = tier_kingdom
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = feudal_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_r_islam #SULTANO/CALIFFO
+		trigger = {
+				primary_title.tier >= tier_kingdom
+				is_female = no
+				OR = {
+					has_government = clan_government
+					has_government = tribal_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_r_otox #PATRIARCA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				has_government = theocracy_government
+				faith = faith:orthodox
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_r_islam_f #SULTANA/CALIFFA
+		trigger = {
+				OR = {
+					primary_title.tier >= tier_kingdom
+					any_spouse = {
+					primary_title.tier >= tier_kingdom
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = clan_government
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_d_base #DUCA
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_d_base_f #DUCHESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_d_english #PICCOLO RE
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					}
+				OR = {
+					culture = culture:anglo_saxon
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_d_english_f #PICCOLA REGINA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					}
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_d_norse #JARL
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				OR = {
+					has_government = tribal_government
+					has_government = feudal_government
+					}
+				OR = {
+					culture = culture:norse
+					}
+				}
+			}
+
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_d_islam #EMIRO
+		trigger = {
+				primary_title.tier = tier_duchy
+				OR = {
+				has_government = clan_government
+				has_government = tribal_government
+				}
+				is_female = no
+				has_religion = religion:islam_religion
+				NOT = {
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_d_islam_f #EMIRA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+					has_religion = religion:islam_religion
+					NOT = {
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+							}
+						}
+					}
+				OR = {
+				has_government = clan_government
+				has_government = tribal_government
+				}
+				is_female = yes
+				NOT = {
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL3_d_general #GRANDE CAPO/GRANDE CAPO DONNA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				has_government = tribal_government
+				}
+			}
+			
+	}
+	
+
+###########################################################	
+	
+IT_NAM_COL4 = { #AL/ALLA/ALLO
+	type = character
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_no_title #NESSUN TITOLO
+		trigger = {
+				is_landed = no
+				NOT = {
+				any_spouse = {
+					primary_title.tier >= tier_barony
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_infante #INFANTE
+		trigger = {
+			AND = { 
+					primary_title.tier < tier_kingdom
+					culture = { has_cultural_pillar = heritage_iberian }
+					has_government = feudal_government
+					any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_principe #PRINCIPE
+		trigger = { # Prince
+			is_female = no
+			primary_title.tier < tier_kingdom
+			OR = {
+				has_government = feudal_government
+				has_government = clan_government
+			}
+			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+		}
+
+	}
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_principessa #PRINCIPESSA
+		trigger = { # Princesse
+			is_female = yes
+			primary_title.tier < tier_kingdom
+			OR = {
+				has_government = feudal_government
+				has_government = clan_government
+			}
+			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_base #CONTE/PRINCIPE VESCOVO
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					has_government = republic_government
+					}
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_base_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_norse_special #CONTE/PRINCIPE VESCOVO
+		trigger = {
+				primary_title.tier = tier_county
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					has_government = republic_government
+					}
+				NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_norse_special_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+					primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+						}
+					}		
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_base_r #SINDACO/BARONE/WALI/THANE/REEVE
+		trigger = {
+				OR = {
+					primary_title.tier = tier_barony
+					any_spouse = {
+					primary_title.tier = tier_barony
+						}
+					}
+					is_female = no
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_base_rf #BARONESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_barony
+					any_spouse = {
+					primary_title.tier = tier_barony
+						}
+					}
+					is_female = yes
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_english #EARL
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				has_government = feudal_government
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					}
+				NOT = {
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_english_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+					NOT = {
+						primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+							}
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_tribal #CAPO/CAPO DONNA
+		trigger = {
+				primary_title.tier = tier_county
+				has_government = tribal_government
+				NOT = {
+					OR = {
+					culture = culture:gaelic
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+						}
+					}
+				}
+			}
+
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_islam #SCEICCO
+		trigger = {
+				primary_title.tier = tier_county
+				has_government = clan_government
+				is_female = no
+				has_religion = religion:islam_religion
+				NOT = {
+					OR = {
+					culture = { has_cultural_pillar = heritage_iranian }
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_islam_f #SCEICCA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				has_government = clan_government
+				is_female = yes
+				has_religion = religion:islam_religion
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_gaelic #MORMAER
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				has_government = tribal_government
+				OR = {
+					culture = culture:gaelic
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_gaelic #BANMORMAER
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				is_female = yes
+				has_government = tribal_government
+				OR = {
+					culture = culture:gaelic
+					}
+				}
+			}
+
+###DUCHI/RE###			
+						
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_i_base #IMPERATORE/IMPERATRICE
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+				NOT = {
+					faith = faith:orthodox
+					has_title = title:e_hre
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_i_base_hre #KAISER
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+					has_title = title:e_hre
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_i_base_hre_f #KAISERIN
+		trigger = {
+				OR = {
+					primary_title.tier = tier_empire
+					any_spouse = {
+					primary_title.tier = tier_empire
+					has_title = title:e_hre
+						}
+					}
+				OR = {
+					has_government = feudal_government
+					}
+					has_title = title:e_hre
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_i_ortox #BASILEUS
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+					is_female = no
+					faith = faith:orthodox
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_i_ortox_f #BASILISSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_empire
+					any_spouse = {
+					primary_title.tier = tier_empire
+						}
+					}
+				OR = {
+					has_government = feudal_government
+					}
+					is_female = yes
+					faith = faith:orthodox
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_r_base #RE/PAPA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_r_indu #MAHARAJA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				has_government = feudal_government
+				religion = religion:hinduism_religion
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_r_base_f #REGINA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_kingdom
+					any_spouse = {
+					primary_title.tier = tier_kingdom
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = feudal_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_r_otox #PATRIARCA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				has_government = theocracy_government
+				faith = faith:orthodox
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_r_islam #SULTANO/CALIFFO
+		trigger = {
+				primary_title.tier >= tier_kingdom
+				is_female = no
+				OR = {
+					has_government = clan_government
+					has_government = tribal_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_r_islam_f #SULTANA/CALIFFA
+		trigger = {
+				OR = {
+					primary_title.tier >= tier_kingdom
+					any_spouse = {
+					primary_title.tier >= tier_kingdom
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = clan_government
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_d_base #DUCA
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_d_base_f #DUCHESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_d_english #PICCOLO RE
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					}
+				OR = {
+					culture = culture:anglo_saxon
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_d_english_f #PICCOLA REGINA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					}
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_d_norse #JARL
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				OR = {
+					has_government = tribal_government
+					has_government = feudal_government
+					}
+				OR = {
+					culture = culture:norse
+					}
+				}
+			}
+
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_d_islam #EMIRO
+		trigger = {
+				primary_title.tier = tier_duchy
+				OR = {
+				has_government = clan_government
+				has_government = tribal_government
+				}
+				is_female = no
+				has_religion = religion:islam_religion
+				NOT = {
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_d_islam_f #EMIRA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+					has_religion = religion:islam_religion
+					NOT = {
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+							}
+						}
+					}
+				OR = {
+				has_government = clan_government
+				has_government = tribal_government
+				}
+				is_female = yes
+				NOT = {
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL4_d_general #GRANDE CAPO/GRANDE CAPO DONNA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				has_government = tribal_government
+				}
+			}
+			
+	}
+
+###########################################################
+
+IT_NAM_COL5 = { #IL/LA/LO
+	type = character
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_no_title #NESSUN TITOLO
+		trigger = {
+				is_landed = no
+				NOT = {
+				any_spouse = {
+					primary_title.tier >= tier_barony
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_infante #INFANTE
+		trigger = {
+			AND = { 
+					primary_title.tier < tier_kingdom
+					culture = { has_cultural_pillar = heritage_iberian }
+					has_government = feudal_government
+					any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_principe #PRINCIPE
+		trigger = { # Prince
+			is_female = no
+			primary_title.tier < tier_kingdom
+			OR = {
+				has_government = feudal_government
+				has_government = clan_government
+			}
+			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+		}
+
+	}
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_principessa #PRINCIPESSA
+		trigger = { # Princesse
+			is_female = yes
+			primary_title.tier < tier_kingdom
+			OR = {
+				has_government = feudal_government
+				has_government = clan_government
+			}
+			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_base #CONTE/PRINCIPE VESCOVO
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					has_government = republic_government
+					}
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_base_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_norse_special #CONTE/PRINCIPE VESCOVO
+		trigger = {
+				primary_title.tier = tier_county
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					has_government = republic_government
+					}
+				NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_norse_special_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+					primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+						}
+					}	
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_base_r #SINDACO/BARONE/WALI/THANE/REEVE
+		trigger = {
+				OR = {
+					primary_title.tier = tier_barony
+					any_spouse = {
+					primary_title.tier = tier_barony
+						}
+					}
+					is_female = no
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_base_rf #BARONESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_barony
+					any_spouse = {
+					primary_title.tier = tier_barony
+						}
+					}
+					is_female = yes
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_english #EARL
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				has_government = feudal_government
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					}
+				NOT = {
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_english_f #CONTESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+					NOT = {
+						primary_title = { target_is_de_jure_liege_or_above = title:e_france }
+							}
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_tribal #CAPO/CAPO DONNA
+		trigger = {
+				primary_title.tier = tier_county
+				has_government = tribal_government
+				NOT = {
+					OR = {
+					culture = culture:gaelic
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+						}
+					}
+				}
+			}
+
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_islam #SCEICCO
+		trigger = {
+				primary_title.tier = tier_county
+				has_government = clan_government
+				is_female = no
+				has_religion = religion:islam_religion
+				NOT = {
+					OR = {
+					culture = { has_cultural_pillar = heritage_iranian }
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_islam_f #SCEICCA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				has_government = clan_government
+				is_female = yes
+				has_religion = religion:islam_religion
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_gaelic #MORMAER
+		trigger = {
+				primary_title.tier = tier_county
+				is_female = no
+				has_government = tribal_government
+				OR = {
+					culture = culture:gaelic
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_gaelic #BANMORMAER
+		trigger = {
+				OR = {
+					primary_title.tier = tier_county
+					any_spouse = {
+					primary_title.tier = tier_county
+						}
+					}
+				is_female = yes
+				has_government = tribal_government
+				OR = {
+					culture = culture:gaelic
+					}
+				}
+			}
+
+###DUCHI/RE###			
+						
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_i_base #IMPERATORE/IMPERATRICE
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+				NOT = {
+					faith = faith:orthodox
+					has_title = title:e_hre
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_i_base_hre #KAISER
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+					has_title = title:e_hre
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_i_base_hre_f #KAISERIN
+		trigger = {
+				OR = {
+					primary_title.tier = tier_empire
+					any_spouse = {
+					primary_title.tier = tier_empire
+					has_title = title:e_hre
+						}
+					}
+				OR = {
+					has_government = feudal_government
+					}
+					has_title = title:e_hre
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_i_ortox #BASILEUS
+		trigger = {
+				primary_title.tier = tier_empire
+				OR = {
+					has_government = feudal_government
+					}
+					is_female = no
+					faith = faith:orthodox
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_i_ortox_f #BASILISSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_empire
+					any_spouse = {
+					primary_title.tier = tier_empire
+						}
+					}
+				OR = {
+					has_government = feudal_government
+					}
+					is_female = yes
+					faith = faith:orthodox
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_r_base #RE/PAPA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = theocracy_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_r_indu #MAHARAJA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				has_government = feudal_government
+				religion = religion:hinduism_religion
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_r_base_f #REGINA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_kingdom
+					any_spouse = {
+					primary_title.tier = tier_kingdom
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = feudal_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_r_islam #SULTANO/CALIFFO
+		trigger = {
+				primary_title.tier >= tier_kingdom
+				is_female = no
+				OR = {
+					has_government = clan_government
+					has_government = tribal_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_r_islam_f #SULTANA/CALIFFA
+		trigger = {
+				OR = {
+					primary_title.tier >= tier_kingdom
+					any_spouse = {
+					primary_title.tier >= tier_kingdom
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = clan_government
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_r_otox #PATRIARCA
+		trigger = {
+				primary_title.tier = tier_kingdom
+				is_female = no
+				has_government = theocracy_government
+				faith = faith:orthodox
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_d_base #DUCA
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_d_base_f #DUCHESSA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				is_female = yes
+				has_government = feudal_government
+				NOT = {
+					OR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:pictish
+					culture = culture:irish
+					culture = culture:welsh
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_d_english #PICCOLO RE
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					}
+				OR = {
+					culture = culture:anglo_saxon
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_d_english_f #PICCOLA REGINA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				is_female = yes
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					}
+				OR = {
+					culture = culture:anglo_saxon
+					culture = culture:norse
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_d_norse #JARL
+		trigger = {
+				primary_title.tier = tier_duchy
+				is_female = no
+				OR = {
+					has_government = tribal_government
+					has_government = feudal_government
+					}
+				OR = {
+					culture = culture:norse
+					}
+				}
+			}
+
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_d_islam #EMIRO
+		trigger = {
+				primary_title.tier = tier_duchy
+				OR = {
+				has_government = clan_government
+				has_government = tribal_government
+				}
+				is_female = no
+				has_religion = religion:islam_religion
+				NOT = {
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_d_islam_f #EMIRA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+					has_religion = religion:islam_religion
+					NOT = {
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+							}
+						}
+					}
+				OR = {
+				has_government = clan_government
+				has_government = tribal_government
+				}
+				is_female = yes
+				NOT = {
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+					}
+				}
+			}
+			
+	text = {
+		localization_key = CustomLoc_IT_NAM_COL5_d_general #GRANDE CAPO/GRANDE CAPO DONNA
+		trigger = {
+				OR = {
+					primary_title.tier = tier_duchy
+					any_spouse = {
+					primary_title.tier = tier_duchy
+						}
+					}
+				has_government = tribal_government
+				}
+			}
+			
+	}
+	
+#####################################################################	
+
+IT_COU_COL = { #DELLA/DELLO
+	type = landed_title
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL_r_base #REGNO/SULTANATO
+		trigger = {
+				tier = tier_kingdom
+					exists = holder
+					holder = {
+					OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					has_government = tribal_government
+						}
+					}
+			}
+		}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL_base #CONTEA
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+					NOR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:sardinian
+					culture = culture:pictish
+					culture = culture:gaelic
+					culture = culture:scottish
+					culture = culture:irish
+					culture = culture:welsh
+					culture = culture:cumbrian
+					culture = culture:assyrian
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_balto_finnic }
+					culture = { has_cultural_pillar = heritage_turkic }
+						}
+					NOR = {
+					has_government = tribal_government 
+					has_government = theocracy_government 
+						}
+					NOT = {
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+		}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL_sardi #LORDSHIP
+		trigger = {
+				tier = tier_county
+					exists = holder
+					holder = {
+					OR = {
+					primary_title = { target_is_de_jure_liege_or_above = title:k_wales }
+					culture = culture:sardinian	
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL_english #EARLDOM
+		trigger = {
+				tier = tier_county	
+					exists = holder
+					holder = {
+					primary_title = { target_is_de_jure_liege_or_above = title:e_britannia }
+					NOT = {
+					has_government = tribal_government
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL_gaelic #EARLDOM
+		trigger = {
+				tier = tier_county
+				OR = {
+					culture = culture:gaelic
+					culture = culture:scottish
+					}
+			exists = holder
+					holder = {
+			has_government = feudal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL_islam #SCEICCATO
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+					has_religion = religion:islam_religion
+					OR = {
+					has_government = feudal_government
+					has_government = clan_government
+						}
+					}
+				}
+			}
+		}
+		
+	text = {
+		localization_key = CustomLoc_IT_COU_COL_persia #VILAYAH
+		trigger = {
+			tier = tier_county
+			exists = holder
+					holder = {
+			top_liege = {
+			culture = { has_cultural_pillar = heritage_iranian }
+			has_government = clan_government
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL_norse #DOMINIO
+		trigger = {
+				tier = tier_county
+					NOT = {
+					religion = religion:christianity_religion
+					}				
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL_norse2
+		trigger = {
+				tier = tier_county
+					OR = {
+					religion = religion:christianity_religion
+					}
+					NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:gaelic
+						}
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL_morma #MORMAERDOM
+		trigger = {
+				tier = tier_county
+					OR = {
+					culture = culture:pictish
+					culture = culture:gaelic
+					}				
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL_d_base #DUCATO
+		trigger = {
+			tier = tier_duchy
+			exists = holder
+					holder = {
+			NOT = {
+				OR = {
+				has_religion = religion:islam_religion
+				has_culture = culture:norse
+					}
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL_d_islam #EMIRATO
+		trigger = {
+			tier = tier_duchy
+			NOT = {
+			has_title_law = temporal_head_of_faith_succession_law
+			}
+			exists = holder
+					holder = {
+			has_religion = religion:islam_religion
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL_d_norse #JARLDOM
+		trigger = {
+			tier = tier_duchy
+			exists = holder
+					holder = {
+			has_culture = culture:norse
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL_i_base #IMPERO
+		trigger = {
+				tier = tier_empire
+			}
+		}
+}
+
+IT_COU_COL2 = { #NELLA/NEL
+	type = landed_title
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL2_r_base #REGNO/SULTANATO
+		trigger = {
+				tier = tier_kingdom
+					exists = holder
+					holder = {
+					OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					has_government = tribal_government
+						}
+					}
+			}
+		}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL2_base #CONTEA
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+					NOR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:sardinian
+					culture = culture:pictish
+					culture = culture:gaelic
+					culture = culture:scottish
+					culture = culture:irish
+					culture = culture:welsh
+					culture = culture:cumbrian
+					culture = culture:assyrian
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_balto_finnic }
+					culture = { has_cultural_pillar = heritage_turkic }
+						}
+					NOR = {
+					has_government = tribal_government 
+					has_government = theocracy_government 
+						}
+					NOT = {
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+		}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL2_sardi #LORDSHIP
+		trigger = {
+				tier = tier_county
+					exists = holder
+					holder = {
+					OR = {
+					primary_title = { target_is_de_jure_liege_or_above = title:k_wales }
+					culture = culture:sardinian	
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL2_english #EARLDOM
+		trigger = {
+				tier = tier_county	
+					exists = holder
+					holder = {
+					primary_title = { target_is_de_jure_liege_or_above = title:e_britannia }
+					NOT = {
+					has_government = tribal_government
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL2_gaelic #EARLDOM
+		trigger = {
+				tier = tier_county
+				OR = {
+					culture = culture:gaelic
+					culture = culture:scottish
+					}				
+			exists = holder
+					holder = {
+			has_government = feudal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL2_islam #SCEICCATO
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+					has_religion = religion:islam_religion
+					OR = {
+					has_government = feudal_government
+					has_government = clan_government
+						}
+					}
+				}
+			}
+		}
+		
+	text = {
+		localization_key = CustomLoc_IT_COU_COL2_persia #VILAYAH
+		trigger = {
+			tier = tier_county
+			exists = holder
+					holder = {
+			top_liege = {
+			culture = { has_cultural_pillar = heritage_iranian }
+			has_government = clan_government
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL2_norse #DOMINIO
+		trigger = {
+				tier = tier_county
+					NOT = {
+					religion = religion:christianity_religion
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL2_norse2 #DOMINIO
+		trigger = {
+				tier = tier_county
+					OR = {
+					religion = religion:christianity_religion
+					}
+					NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:gaelic
+						}
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL2_morma #MORMAERDOM
+		trigger = {
+				tier = tier_county
+					OR = {
+					culture = culture:pictish
+					culture = culture:gaelic
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL2_d_base #DUCATO
+		trigger = {
+			tier = tier_duchy
+			exists = holder
+					holder = {
+			NOT = {
+				OR = {
+				has_religion = religion:islam_religion
+				has_culture = culture:norse
+					}
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL2_d_islam #EMIRATO
+		trigger = {
+			tier = tier_duchy
+			NOT = {
+			has_title_law = temporal_head_of_faith_succession_law
+			}
+			exists = holder
+					holder = {
+			has_religion = religion:islam_religion
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL2_d_norse #JARLDOM
+		trigger = {
+			tier = tier_duchy
+			exists = holder
+					holder = {
+			has_culture = culture:norse
+			}
+		}
+	}
+}
+
+IT_COU_COL3 = { #SULLA/SUL
+	type = landed_title
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL3_r_base #REGNO/SULTANATO
+		trigger = {
+				tier = tier_kingdom
+					exists = holder
+					holder = {
+					OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					has_government = tribal_government
+						}
+					}
+			}
+		}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL3_base #CONTEA
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+					NOR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:sardinian
+					culture = culture:pictish
+					culture = culture:gaelic
+					culture = culture:scottish
+					culture = culture:irish
+					culture = culture:welsh
+					culture = culture:cumbrian
+					culture = culture:assyrian
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_balto_finnic }
+					culture = { has_cultural_pillar = heritage_turkic }
+						}
+					NOR = {
+					has_government = tribal_government 
+					has_government = theocracy_government 
+						}
+					NOT = {
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+		}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL3_sardi #LORDSHIP
+		trigger = {
+				tier = tier_county
+					exists = holder
+					holder = {
+					OR = {
+					primary_title = { target_is_de_jure_liege_or_above = title:k_wales }
+					culture = culture:sardinian	
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL3_english #EARLDOM
+		trigger = {
+				tier = tier_county	
+					exists = holder
+					holder = {
+					primary_title = { target_is_de_jure_liege_or_above = title:e_britannia }
+					NOT = {
+					has_government = tribal_government
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL3_gaelic #EARLDOM
+		trigger = {
+				tier = tier_county
+				OR = {
+					culture = culture:gaelic
+					culture = culture:scottish
+					}
+			exists = holder
+					holder = {
+			has_government = feudal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL3_islam #SCEICCATO
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+					has_religion = religion:islam_religion
+					OR = {
+					has_government = feudal_government
+					has_government = clan_government
+						}
+					}
+				}
+			}
+		}
+		
+	text = {
+		localization_key = CustomLoc_IT_COU_COL3_persia #VILAYAH
+		trigger = {
+			tier = tier_county
+			exists = holder
+					holder = {
+			top_liege = {
+			culture = { has_cultural_pillar = heritage_iranian }
+			has_government = clan_government
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL3_norse #DOMINIO
+		trigger = {
+				tier = tier_county
+					NOT = {
+					religion = religion:christianity_religion
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL3_norse2 #DOMINIO
+		trigger = {
+				tier = tier_county
+					OR = {
+					religion = religion:christianity_religion
+					}
+					NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:gaelic
+						}
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL3_morma #MORMAERDOM
+		trigger = {
+				tier = tier_county
+					OR = {
+					culture = culture:pictish
+					culture = culture:gaelic
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL3_d_base #DUCATO
+		trigger = {
+			tier = tier_duchy
+			exists = holder
+					holder = {
+			NOT = {
+				OR = {
+				has_religion = religion:islam_religion
+				has_culture = culture:norse
+					}
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL3_d_islam #EMIRATO
+		trigger = {
+			tier = tier_duchy
+			NOT = {
+			has_title_law = temporal_head_of_faith_succession_law
+			}
+			exists = holder
+					holder = {
+			has_religion = religion:islam_religion
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL3_d_norse #JARLDOM
+		trigger = {
+			tier = tier_duchy
+			exists = holder
+					holder = {
+			has_culture = culture:norse
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL3_pv #PRINCIPATO VESCOVILE
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+						has_religion = religion:christianity_religion
+						has_government = theocracy_government 
+					}
+				}
+			}
+		}
+}
+
+IT_COU_COL4 = { #LA/IL
+	type = landed_title
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL4_r_base #REGNO/SULTANATO
+		trigger = {
+				tier = tier_kingdom
+					exists = holder
+					holder = {
+					OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					has_government = tribal_government
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL4_base #CONTEA
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+					NOR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:sardinian
+					culture = culture:pictish
+					culture = culture:gaelic
+					culture = culture:scottish
+					culture = culture:irish
+					culture = culture:welsh
+					culture = culture:cumbrian
+					culture = culture:assyrian
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_balto_finnic }
+					culture = { has_cultural_pillar = heritage_turkic }
+						}
+					NOR = {
+					has_government = tribal_government 
+					has_government = theocracy_government 
+						}
+					NOT = {
+					has_religion = religion:islam_religion
+						}					
+					}
+				}
+			}
+		}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL4_sardi #LORDSHIP
+		trigger = {
+				tier = tier_county
+					exists = holder
+					holder = {
+					OR = {
+					primary_title = { target_is_de_jure_liege_or_above = title:k_wales }
+					culture = culture:sardinian	
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL4_english #EARLDOM
+		trigger = {
+				tier = tier_county	
+					exists = holder
+					holder = {
+					primary_title = { target_is_de_jure_liege_or_above = title:e_britannia }
+					NOT = {
+					has_government = tribal_government
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL4_gaelic #EARLDOM
+		trigger = {
+				tier = tier_county
+				OR = {
+					culture = culture:gaelic
+					culture = culture:scottish
+					}
+			exists = holder
+					holder = {
+			has_government = feudal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL4_islam #SCEICCATO
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+					has_religion = religion:islam_religion
+					OR = {
+					has_government = feudal_government
+					has_government = clan_government
+						}
+					}
+				}
+			}
+		}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL4_persia #VILAYAH
+		trigger = {
+			tier = tier_county
+			exists = holder
+					holder = {
+			top_liege = {
+			culture = { has_cultural_pillar = heritage_iranian }
+			has_government = clan_government
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL4_norse #DOMINIO
+		trigger = {
+				tier = tier_county
+					NOT = {
+					religion = religion:christianity_religion
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL4_norse2 #DOMINIO
+		trigger = {
+				tier = tier_county
+					OR = {
+					religion = religion:christianity_religion
+					}
+					NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:gaelic
+						}
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL4_morma #MORMAERDOM
+		trigger = {
+				tier = tier_county
+					OR = {
+					culture = culture:pictish
+					culture = culture:gaelic
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL4_d_base #DUCATO
+		trigger = {
+			tier = tier_duchy
+			exists = holder
+					holder = {
+			NOT = {
+				OR = {
+				has_religion = religion:islam_religion
+				has_culture = culture:norse
+					}
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL4_d_islam #EMIRATO
+		trigger = {
+			tier = tier_duchy
+			NOT = {
+			has_title_law = temporal_head_of_faith_succession_law
+			}
+			exists = holder
+					holder = {
+			has_religion = religion:islam_religion
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL4_d_norse #JARLDOM
+		trigger = {
+			tier = tier_duchy
+			exists = holder
+					holder = {
+			has_culture = culture:norse
+			}
+		}
+	}
+}
+
+IT_COU_COL5 = { #DALLA/DAL
+	type = landed_title
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL5_r_base #REGNO/SULTANATO
+		trigger = {
+				tier = tier_kingdom
+					exists = holder
+					holder = {
+					OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					has_government = tribal_government
+						}
+					}
+			}
+		}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL5_base #CONTEA
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+					NOR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:sardinian
+					culture = culture:pictish
+					culture = culture:gaelic
+					culture = culture:scottish
+					culture = culture:irish
+					culture = culture:welsh
+					culture = culture:cumbrian
+					culture = culture:assyrian
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_balto_finnic }
+					culture = { has_cultural_pillar = heritage_turkic }
+						}
+					NOR = {
+					has_government = tribal_government 
+					has_government = theocracy_government 
+						}
+					NOT = {
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+		}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL5_sardi #LORDSHIP
+		trigger = {
+				tier = tier_county
+					exists = holder
+					holder = {
+					OR = {
+					primary_title = { target_is_de_jure_liege_or_above = title:k_wales }
+					culture = culture:sardinian	
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL5_english #EARLDOM
+		trigger = {
+				tier = tier_county	
+					exists = holder
+					holder = {
+					primary_title = { target_is_de_jure_liege_or_above = title:e_britannia }
+					NOT = {
+					has_government = tribal_government
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL5_gaelic #EARLDOM
+		trigger = {
+				tier = tier_county
+				OR = {
+					culture = culture:gaelic
+					culture = culture:scottish
+					}				
+			exists = holder
+					holder = {
+			has_government = feudal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL5_islam #SCEICCATO
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+					has_religion = religion:islam_religion
+					OR = {
+					has_government = feudal_government
+					has_government = clan_government
+						}
+					}
+				}
+			}
+		}
+		
+	text = {
+		localization_key = CustomLoc_IT_COU_COL5_persia #VILAYAH
+		trigger = {
+			tier = tier_county
+			exists = holder
+					holder = {
+			top_liege = {
+			culture = { has_cultural_pillar = heritage_iranian }
+			has_government = clan_government
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL5_norse #DOMINIO
+		trigger = {
+				tier = tier_county
+					NOT = {
+					religion = religion:christianity_religion
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL5_norse2 #DOMINIO
+		trigger = {
+				tier = tier_county
+					OR = {
+					religion = religion:christianity_religion
+					}
+					NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:gaelic
+						}
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL5_morma #MORMAERDOM
+		trigger = {
+				tier = tier_county
+					OR = {
+					culture = culture:pictish
+					culture = culture:gaelic
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL5_d_base #DUCATO
+		trigger = {
+			tier = tier_duchy
+			exists = holder
+					holder = {
+			NOT = {
+				OR = {
+				has_religion = religion:islam_religion
+				has_culture = culture:norse
+					}
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL5_d_islam #EMIRATO
+		trigger = {
+			tier = tier_duchy
+			NOT = {
+			has_title_law = temporal_head_of_faith_succession_law
+			}
+			exists = holder
+					holder = {
+			has_religion = religion:islam_religion
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL5_d_norse #JARLDOM
+		trigger = {
+			tier = tier_duchy
+			exists = holder
+					holder = {
+			has_culture = culture:norse
+			}
+		}
+	}
+}
+
+IT_COU_COL7 = { #ALLA/AL
+	type = landed_title
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL7_r_base #REGNO/SULTANATO
+		trigger = {
+				tier = tier_kingdom
+					exists = holder
+					holder = {
+					OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					has_government = tribal_government
+						}
+					}
+			}
+		}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL7_base #CONTEA
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+					NOR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:sardinian
+					culture = culture:pictish
+					culture = culture:gaelic
+					culture = culture:scottish
+					culture = culture:irish
+					culture = culture:welsh
+					culture = culture:cumbrian
+					culture = culture:assyrian
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_balto_finnic }
+					culture = { has_cultural_pillar = heritage_turkic }
+						}
+					NOR = {
+					has_government = tribal_government 
+					has_government = theocracy_government 
+						}
+					NOT = {
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+		}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL7_sardi #LORDSHIP
+		trigger = {
+				tier = tier_county
+					exists = holder
+					holder = {
+					OR = {
+					primary_title = { target_is_de_jure_liege_or_above = title:k_wales }
+					culture = culture:sardinian	
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL7_english #EARLDOM
+		trigger = {
+				tier = tier_county	
+					exists = holder
+					holder = {
+					primary_title = { target_is_de_jure_liege_or_above = title:e_britannia }
+					NOT = {
+					has_government = tribal_government
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL7_gaelic #EARLDOM
+		trigger = {
+				tier = tier_county
+				OR = {
+					culture = culture:gaelic
+					culture = culture:scottish
+					}
+			exists = holder
+					holder = {
+			has_government = feudal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL7_islam #SCEICCATO
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+					has_religion = religion:islam_religion
+					OR = {
+					has_government = feudal_government
+					has_government = clan_government
+						}
+					}
+				}
+			}
+		}
+		
+	text = {
+		localization_key = CustomLoc_IT_COU_COL7_persia #VILAYAH
+		trigger = {
+			tier = tier_county
+			exists = holder
+					holder = {
+			top_liege = {
+			culture = { has_cultural_pillar = heritage_iranian }
+			has_government = clan_government
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL7_norse #DOMINIO
+		trigger = {
+				tier = tier_county
+					NOT = {
+					religion = religion:christianity_religion
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL7_norse2 #DOMINIO
+		trigger = {
+				tier = tier_county
+					OR = {
+					religion = religion:christianity_religion
+					}
+					NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:gaelic
+						}
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL7_morma #MORMAERDOM
+		trigger = {
+				tier = tier_county
+					OR = {
+					culture = culture:pictish
+					culture = culture:gaelic
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL7_d_base #DUCATO
+		trigger = {
+			tier = tier_duchy
+			exists = holder
+					holder = {
+			NOT = {
+				OR = {
+				has_religion = religion:islam_religion
+				has_culture = culture:norse
+					}
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL7_d_islam #EMIRATO
+		trigger = {
+			tier = tier_duchy
+			NOT = {
+			has_title_law = temporal_head_of_faith_succession_law
+			}
+			exists = holder
+					holder = {
+			has_religion = religion:islam_religion
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL7_d_norse #JARLDOM
+		trigger = {
+			tier = tier_duchy
+			exists = holder
+					holder = {
+			has_culture = culture:norse
+			}
+		}
+	}
+}
+
+IT_COU_COL8 = { #DELLA/DEL
+	type = landed_title
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL8_r_base #REGNO/SULTANATO
+		trigger = {
+				tier = tier_kingdom
+					exists = holder
+					holder = {
+					OR = {
+					has_government = feudal_government
+					has_government = clan_government
+					has_government = tribal_government
+						}
+					}
+			}
+		}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL8_base #CONTEA
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+					NOR = {
+					culture = culture:anglo_saxon
+					culture = culture:english
+					culture = culture:norse
+					culture = culture:sardinian
+					culture = culture:pictish
+					culture = culture:gaelic
+					culture = culture:scottish
+					culture = culture:irish
+					culture = culture:welsh
+					culture = culture:cumbrian
+					culture = culture:assyrian
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_balto_finnic }
+					culture = { has_cultural_pillar = heritage_turkic }
+						}
+					NOR = {
+					has_government = tribal_government 
+					has_government = theocracy_government 
+						}
+					NOT = {
+					has_religion = religion:islam_religion
+						}
+					}
+				}
+			}
+		}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL8_sardi #LORDSHIP
+		trigger = {
+				tier = tier_county
+					exists = holder
+					holder = {
+					OR = {
+					primary_title = { target_is_de_jure_liege_or_above = title:k_wales }
+					culture = culture:sardinian	
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL8_english #EARLDOM
+		trigger = {
+				tier = tier_county	
+					exists = holder
+					holder = {
+					primary_title = { target_is_de_jure_liege_or_above = title:e_britannia }
+					NOT = {
+					has_government = tribal_government
+						}
+					}
+				}
+			}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL8_gaelic #EARLDOM
+		trigger = {
+				tier = tier_county
+				OR = {
+					culture = culture:gaelic
+					culture = culture:scottish
+					}
+			exists = holder
+					holder = {
+			has_government = feudal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL8_islam #SCEICCATO
+		trigger = {
+				tier = tier_county
+				exists = holder
+					holder = {
+					top_liege = {
+					has_religion = religion:islam_religion
+					OR = {
+					has_government = feudal_government
+					has_government = clan_government
+						}
+					}
+				}
+			}
+		}
+		
+	text = {
+		localization_key = CustomLoc_IT_COU_COL8_persia #VILAYAH
+		trigger = {
+			tier = tier_county
+			exists = holder
+					holder = {
+			top_liege = {
+			culture = { has_cultural_pillar = heritage_iranian }
+			has_government = clan_government
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL8_norse #DOMINIO
+		trigger = {
+				tier = tier_county
+					NOT = {
+					religion = religion:christianity_religion
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL8_norse2 #DOMINIO
+		trigger = {
+				tier = tier_county
+					OR = {
+					religion = religion:christianity_religion
+					}
+					NOT = {
+					OR = {
+					culture = culture:pictish
+					culture = culture:gaelic
+						}
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL8_morma #MORMAERDOM
+		trigger = {
+				tier = tier_county
+					OR = {
+					culture = culture:pictish
+					culture = culture:gaelic
+					}
+			exists = holder
+					holder = {
+			has_government = tribal_government
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL8_d_base #DUCATO
+		trigger = {
+			tier = tier_duchy
+			exists = holder
+					holder = {
+			NOT = {
+				OR = {
+				has_religion = religion:islam_religion
+				has_culture = culture:norse
+					}
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL8_d_islam #EMIRATO
+		trigger = {
+			tier = tier_duchy
+			NOT = {
+			has_title_law = temporal_head_of_faith_succession_law
+			}
+			exists = holder
+					holder = {
+			has_religion = religion:islam_religion
+			}
+		}
+	}
+	
+	text = {
+		localization_key = CustomLoc_IT_COU_COL8_d_norse #JARLDOM
+		trigger = {
+			tier = tier_duchy
+			exists = holder
+					holder = {
+			has_culture = culture:norse
+			}
+		}
+	}
+}
+
+##################################################################
+
+FR_RelationToMe_OnA = {
+	type = character
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_motherwife
+		trigger = {
+			scope:second = {
+				OR = {
+					this = root.mother
+					this = root.mother.mother
+					this = root.father.mother
+				}
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_sisterwife
+		trigger = {
+			scope:second = {
+				any_sibling = { this = root }
+				is_female = yes
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_daughterwife
+		trigger = {
+			scope:second = {
+				OR = {
+					any_parent = { this = root }
+					any_parent = { any_parent = { this = root } }
+				}
+				is_female = yes
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_fatherhusband
+		trigger = {
+			scope:second = {
+				OR = {
+					this = root.father
+					this = root.father.father
+					this = root.mother.father
+				}
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_brotherhusband
+		trigger = {
+			scope:second = {
+				any_sibling = { this = root }
+				is_female = no
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_sonhusband
+		trigger = {
+			scope:second = {
+				OR = {
+					any_parent = { this = root }
+					any_parent = {
+						even_if_dead = yes
+						any_parent = {
+							this = root
+						}
+					}
+				}
+				is_female = no
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_wife
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = yes
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_husband
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = yes
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_wife_departed
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = no
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_husband_departed
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = no
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_concubine_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_consort = { this = root }
+				is_concubine = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_concubine_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_consort = { this = root }
+				is_concubine = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_mother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_child = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_father
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_child = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_grandmother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_great_grandmother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_great_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_grandfather
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_great_grandfather
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_great_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_heir_daughter
+		trigger = {
+			exists = player_heir
+			player_heir = scope:second
+			scope:second = {
+				is_female = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_heir_son
+		trigger = {
+			exists = player_heir
+			player_heir = scope:second
+			scope:second = {
+				is_male = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_daughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_son
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_religious_head
+		trigger = {
+			faith.religious_head = scope:second
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_granddaughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_grandson
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_greatgranddaughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_great_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_greatgrandson
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_great_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_half_sister
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_sibling = {
+					this = root
+				}
+				any_parent = { NOT = { is_parent_of = root } }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_half_brother
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_sibling = {
+					this = root
+				}
+				any_parent = { NOT = { is_parent_of = root } }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_daughter_in_law
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					is_child_of = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_son_in_law
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_spouse = {
+					is_child_of = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_sister_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = yes
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_brother_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = no
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_sister_friend
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = friend
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_brother_friend
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = friend
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_sister_bully
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = victim
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_brother_bully
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = victim
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_sister_victim
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = bully
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_brother_victim
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = bully
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_sister
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_sibling_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_brother
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_sibling_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_niece
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_sibling_child_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_nephew
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_sibling_child_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_aunt
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_parent_sibling_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_uncle
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_parent_sibling_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_cousin
+		trigger = {
+			scope:second = {
+				is_cousin_of_root_trigger = yes
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_cousin_female
+		trigger = {
+			scope:second = {
+				is_cousin_of_root_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_stepdaughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_parent = {
+					any_spouse = {
+						this = root
+						NOT = { is_parent_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_stepson
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_parent = {
+					any_spouse = {
+						this = root
+						NOT = { is_parent_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_stepsister
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_parent = {
+					any_spouse = {
+						any_child = {
+							this = root
+							NOT = { is_sibling_of = scope:second }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_stepbrother
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_parent = {
+					any_spouse = {
+						any_child = {
+							this = root
+							NOT = { is_sibling_of = scope:second }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_stepmother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					any_child = {
+						this = root
+						NOT = { is_child_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_stepfather
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					any_child = {
+						this = root
+						NOT = { is_child_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_liege_female_lover
+		trigger = {
+			scope:second = {
+				has_relation_lover = root
+				is_female = yes
+				any_vassal_or_below = {
+					this = root
+				}
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_liege_male_lover
+		trigger = {
+			scope:second = {
+				has_relation_lover = root
+				is_female = no
+				any_vassal_or_below = {
+					this = root
+				}
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_lover_female
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = lover
+					this = root
+				}
+				is_female = yes
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_lover_male
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = lover
+					this = root
+				}
+				is_female = no
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_friend_female
+		trigger = {
+			scope:second = {
+				has_relation_friend = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_friend_male
+		trigger = {
+			scope:second = {
+				has_relation_friend = root
+				is_female = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_liege_female_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = yes
+				any_vassal_or_below = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_liege_male_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = no
+				any_vassal_or_below = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_vassal_female_rival
+		trigger = {
+			scope:second = {
+				is_female = yes
+				has_relation_rival = root				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_vassal_male_rival
+		trigger = {
+			scope:second = {
+				is_female = no
+				has_relation_rival = root				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_rival_female
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = rival
+					this = root
+				}
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_rival_male
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = rival
+					this = root
+				}
+				is_female = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_crush
+		trigger = {
+			any_relation = {
+				type = crush
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_bully
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = victim
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_victim
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = bully
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_ward
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = guardian
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_guardian
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = ward
+					this = root
+				}
+			}
+		}
+	}
+
+	text = { #intrigue-mentor
+		localization_key = CustomLoc_FR_OnA_Relation_mentor
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = intrigue_student
+					this = root
+				}
+			}
+		}
+	}
+
+	text = { #intrigue-mentor
+		localization_key = CustomLoc_FR_OnA_Relation_student
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = intrigue_mentor
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_mentor
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = student
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_student
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = mentor
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_sisterinlaw
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_sibling = {
+					any_spouse = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_brotherinlaw
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_sibling = {
+					any_spouse = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_liege_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				OR = {
+					any_vassal_or_below = {
+						this = root
+					}
+					any_courtier = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_liege_male
+		trigger = {
+			scope:second = {
+				is_female = no
+				OR = {
+					any_vassal_or_below = {
+						this = root
+					}
+					any_courtier = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_councillor_female
+		trigger = {
+			scope:second = {
+				is_female = yes			
+				is_councillor_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_councillor_male
+		trigger = {
+			scope:second = {
+				is_female = no				
+				is_councillor_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_court_physician_female
+		trigger = {
+			scope:second = { is_female = yes }
+			has_relation_court_physician = scope:second
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_court_physician_male
+		trigger = {
+			scope:second = { is_male = yes }
+			has_relation_court_physician = scope:second
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_vassal_female
+		trigger = {
+			scope:second = {
+				is_female = yes			
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_vassal_male
+		trigger = {
+			scope:second = {
+				is_female = no				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_knight
+		trigger = {
+			scope:second = { is_knight_of = root }
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_kinswoman
+		trigger = {
+			scope:second = { is_female = yes }
+			scope:second.dynasty = root.dynasty
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_kinsman
+		trigger = {
+			scope:second = { is_male = yes }
+			scope:second.dynasty = root.dynasty
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_courtier_female
+		trigger = {
+			scope:second = {
+				is_courtier_of = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_courtier_male
+		trigger = {
+			scope:second = {
+				is_courtier_of = root
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_peasant_affair_female
+		trigger = {
+			any_owned_story = {
+				story_type = story_peasant_affair
+				var:peasant_character = {
+					this = scope:second
+					is_female = yes
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_peasant_affair_male
+		trigger = {
+			any_owned_story = {
+				story_type = story_peasant_affair
+				var:peasant_character = {
+					this = scope:second
+					is_male = yes
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_agent
+		trigger = {
+			any_scheme = {
+				scheme_is_character_agent = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_host_female
+		trigger = {
+			exists = host
+			host = scope:second
+			scope:second = { is_female = yes }
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_host_male
+		trigger = {
+			exists = host
+			host = scope:second
+			scope:second = { is_male = yes }
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_prisoner_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_imprisoned_by = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_prisoner_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_imprisoned_by = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_jailer_female
+		trigger = {
+			is_imprisoned_by = scope:second
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_jailer_male
+		trigger = {
+			is_imprisoned_by = scope:second
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_guest_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				exists = host
+				host = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_guest_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+				exists = host
+				host = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_acquaintance_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA_Relation_acquaintance_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
+}
+
+
+
+FR_RelationToMe_OnA2 = {
+	type = character
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_motherwife
+		trigger = {
+			scope:second = {
+				OR = {
+					this = root.mother
+					this = root.mother.mother
+					this = root.father.mother
+				}
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_sisterwife
+		trigger = {
+			scope:second = {
+				any_sibling = { this = root }
+				is_female = yes
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_daughterwife
+		trigger = {
+			scope:second = {
+				OR = {
+					any_parent = { this = root }
+					any_parent = { any_parent = { this = root } }
+				}
+				is_female = yes
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_fatherhusband
+		trigger = {
+			scope:second = {
+				OR = {
+					this = root.father
+					this = root.father.father
+					this = root.mother.father
+				}
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_brotherhusband
+		trigger = {
+			scope:second = {
+				any_sibling = { this = root }
+				is_female = no
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_sonhusband
+		trigger = {
+			scope:second = {
+				OR = {
+					any_parent = { this = root }
+					any_parent = {
+						even_if_dead = yes
+						any_parent = {
+							this = root
+						}
+					}
+				}
+				is_female = no
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_wife
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = yes
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_husband
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = yes
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_wife_departed
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = no
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_husband_departed
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = no
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_concubine_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_consort = { this = root }
+				is_concubine = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_concubine_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_consort = { this = root }
+				is_concubine = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_mother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_child = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_father
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_child = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_grandmother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_great_grandmother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_great_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_grandfather
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_great_grandfather
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_great_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_heir_daughter
+		trigger = {
+			exists = player_heir
+			player_heir = scope:second
+			scope:second = {
+				is_female = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_heir_son
+		trigger = {
+			exists = player_heir
+			player_heir = scope:second
+			scope:second = {
+				is_male = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_daughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_son
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_religious_head
+		trigger = {
+			faith.religious_head = scope:second
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_granddaughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_grandson
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_greatgranddaughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_great_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_greatgrandson
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_great_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_half_sister
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_sibling = {
+					this = root
+				}
+				any_parent = { NOT = { is_parent_of = root } }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_half_brother
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_sibling = {
+					this = root
+				}
+				any_parent = { NOT = { is_parent_of = root } }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_daughter_in_law
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					is_child_of = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_son_in_law
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_spouse = {
+					is_child_of = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_sister_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = yes
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_brother_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = no
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_sister_friend
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = friend
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_brother_friend
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = friend
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_sister_bully
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = victim
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_brother_bully
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = victim
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_sister_victim
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = bully
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_brother_victim
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = bully
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_sister
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_sibling_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_brother
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_sibling_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_niece
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_sibling_child_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_nephew
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_sibling_child_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_aunt
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_parent_sibling_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_uncle
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_parent_sibling_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_cousin
+		trigger = {
+			scope:second = {
+				is_cousin_of_root_trigger = yes
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_cousin_female
+		trigger = {
+			scope:second = {
+				is_cousin_of_root_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_stepdaughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_parent = {
+					any_spouse = {
+						this = root
+						NOT = { is_parent_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_stepson
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_parent = {
+					any_spouse = {
+						this = root
+						NOT = { is_parent_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_stepsister
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_parent = {
+					any_spouse = {
+						any_child = {
+							this = root
+							NOT = { is_sibling_of = scope:second }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_stepbrother
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_parent = {
+					any_spouse = {
+						any_child = {
+							this = root
+							NOT = { is_sibling_of = scope:second }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_stepmother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					any_child = {
+						this = root
+						NOT = { is_child_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_stepfather
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					any_child = {
+						this = root
+						NOT = { is_child_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_liege_female_lover
+		trigger = {
+			scope:second = {
+				has_relation_lover = root
+				is_female = yes
+				any_vassal_or_below = {
+					this = root
+				}
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_liege_male_lover
+		trigger = {
+			scope:second = {
+				has_relation_lover = root
+				is_female = no
+				any_vassal_or_below = {
+					this = root
+				}
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_lover_female
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = lover
+					this = root
+				}
+				is_female = yes
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_lover_male
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = lover
+					this = root
+				}
+				is_female = no
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_friend_female
+		trigger = {
+			scope:second = {
+				has_relation_friend = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_friend_male
+		trigger = {
+			scope:second = {
+				has_relation_friend = root
+				is_female = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_liege_female_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = yes
+				any_vassal_or_below = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_liege_male_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = no
+				any_vassal_or_below = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_vassal_female_rival
+		trigger = {
+			scope:second = {
+				is_female = yes
+				has_relation_rival = root				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_vassal_male_rival
+		trigger = {
+			scope:second = {
+				is_female = no
+				has_relation_rival = root				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_rival_female
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = rival
+					this = root
+				}
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_rival_male
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = rival
+					this = root
+				}
+				is_female = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_crush
+		trigger = {
+			any_relation = {
+				type = crush
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_bully
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = victim
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_victim
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = bully
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_ward
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = guardian
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_guardian
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = ward
+					this = root
+				}
+			}
+		}
+	}
+
+	text = { #intrigue-mentor
+		localization_key = CustomLoc_FR_OnA2_Relation_mentor
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = intrigue_student
+					this = root
+				}
+			}
+		}
+	}
+
+	text = { #intrigue-mentor
+		localization_key = CustomLoc_FR_OnA2_Relation_student
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = intrigue_mentor
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_mentor
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = student
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_student
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = mentor
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_sisterinlaw
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_sibling = {
+					any_spouse = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_brotherinlaw
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_sibling = {
+					any_spouse = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_liege_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				OR = {
+					any_vassal_or_below = {
+						this = root
+					}
+					any_courtier = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_liege_male
+		trigger = {
+			scope:second = {
+				is_female = no
+				OR = {
+					any_vassal_or_below = {
+						this = root
+					}
+					any_courtier = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_councillor_female
+		trigger = {
+			scope:second = {
+				is_female = yes			
+				is_councillor_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_councillor_male
+		trigger = {
+			scope:second = {
+				is_female = no				
+				is_councillor_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_court_physician_female
+		trigger = {
+			scope:second = { is_female = yes }
+			has_relation_court_physician = scope:second
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_court_physician_male
+		trigger = {
+			scope:second = { is_male = yes }
+			has_relation_court_physician = scope:second
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_vassal_female
+		trigger = {
+			scope:second = {
+				is_female = yes			
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_vassal_male
+		trigger = {
+			scope:second = {
+				is_female = no				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_knight
+		trigger = {
+			scope:second = { is_knight_of = root }
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_kinswoman
+		trigger = {
+			scope:second = { is_female = yes }
+			scope:second.dynasty = root.dynasty
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_kinsman
+		trigger = {
+			scope:second = { is_male = yes }
+			scope:second.dynasty = root.dynasty
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_courtier_female
+		trigger = {
+			scope:second = {
+				is_courtier_of = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_courtier_male
+		trigger = {
+			scope:second = {
+				is_courtier_of = root
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_peasant_affair_female
+		trigger = {
+			any_owned_story = {
+				story_type = story_peasant_affair
+				var:peasant_character = {
+					this = scope:second
+					is_female = yes
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_peasant_affair_male
+		trigger = {
+			any_owned_story = {
+				story_type = story_peasant_affair
+				var:peasant_character = {
+					this = scope:second
+					is_male = yes
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_agent
+		trigger = {
+			any_scheme = {
+				scheme_is_character_agent = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_host_female
+		trigger = {
+			exists = host
+			host = scope:second
+			scope:second = { is_female = yes }
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_host_male
+		trigger = {
+			exists = host
+			host = scope:second
+			scope:second = { is_male = yes }
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_prisoner_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_imprisoned_by = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_prisoner_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_imprisoned_by = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_jailer_female
+		trigger = {
+			is_imprisoned_by = scope:second
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_jailer_male
+		trigger = {
+			is_imprisoned_by = scope:second
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_guest_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				exists = host
+				host = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_guest_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+				exists = host
+				host = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_acquaintance_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA2_Relation_acquaintance_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
+}
+
+
+
+FR_RelationToMe_OnA3 = {
+	type = character
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_motherwife
+		trigger = {
+			scope:second = {
+				OR = {
+					this = root.mother
+					this = root.mother.mother
+					this = root.father.mother
+				}
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_sisterwife
+		trigger = {
+			scope:second = {
+				any_sibling = { this = root }
+				is_female = yes
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_daughterwife
+		trigger = {
+			scope:second = {
+				OR = {
+					any_parent = { this = root }
+					any_parent = { any_parent = { this = root } }
+				}
+				is_female = yes
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_fatherhusband
+		trigger = {
+			scope:second = {
+				OR = {
+					this = root.father
+					this = root.father.father
+					this = root.mother.father
+				}
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_brotherhusband
+		trigger = {
+			scope:second = {
+				any_sibling = { this = root }
+				is_female = no
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_sonhusband
+		trigger = {
+			scope:second = {
+				OR = {
+					any_parent = { this = root }
+					any_parent = {
+						even_if_dead = yes
+						any_parent = {
+							this = root
+						}
+					}
+				}
+				is_female = no
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_wife
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = yes
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_husband
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = yes
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_wife_departed
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = no
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_husband_departed
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = no
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_concubine_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_consort = { this = root }
+				is_concubine = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_concubine_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_consort = { this = root }
+				is_concubine = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_mother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_child = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_father
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_child = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_grandmother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_great_grandmother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_great_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_grandfather
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_great_grandfather
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_great_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_heir_daughter
+		trigger = {
+			exists = player_heir
+			player_heir = scope:second
+			scope:second = {
+				is_female = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_heir_son
+		trigger = {
+			exists = player_heir
+			player_heir = scope:second
+			scope:second = {
+				is_male = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_daughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_son
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_religious_head
+		trigger = {
+			faith.religious_head = scope:second
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_granddaughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_grandson
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_greatgranddaughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_great_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_greatgrandson
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_great_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_half_sister
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_sibling = {
+					this = root
+				}
+				any_parent = { NOT = { is_parent_of = root } }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_half_brother
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_sibling = {
+					this = root
+				}
+				any_parent = { NOT = { is_parent_of = root } }
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_daughter_in_law
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					is_child_of = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_son_in_law
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_spouse = {
+					is_child_of = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_sister_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = yes
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_brother_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = no
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_sister_friend
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = friend
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_brother_friend
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = friend
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_sister_bully
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = victim
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_brother_bully
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = victim
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_sister_victim
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = bully
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_brother_victim
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = bully
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_sister
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_sibling_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_brother
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_sibling_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_niece
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_sibling_child_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_nephew
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_sibling_child_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_aunt
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_parent_sibling_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_uncle
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_parent_sibling_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_cousin
+		trigger = {
+			scope:second = {
+				is_cousin_of_root_trigger = yes
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_cousin_female
+		trigger = {
+			scope:second = {
+				is_cousin_of_root_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_stepdaughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_parent = {
+					any_spouse = {
+						this = root
+						NOT = { is_parent_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_stepson
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_parent = {
+					any_spouse = {
+						this = root
+						NOT = { is_parent_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_stepsister
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_parent = {
+					any_spouse = {
+						any_child = {
+							this = root
+							NOT = { is_sibling_of = scope:second }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_stepbrother
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_parent = {
+					any_spouse = {
+						any_child = {
+							this = root
+							NOT = { is_sibling_of = scope:second }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_stepmother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					any_child = {
+						this = root
+						NOT = { is_child_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_stepfather
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					any_child = {
+						this = root
+						NOT = { is_child_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_liege_female_lover
+		trigger = {
+			scope:second = {
+				has_relation_lover = root
+				is_female = yes
+				any_vassal_or_below = {
+					this = root
+				}
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_liege_male_lover
+		trigger = {
+			scope:second = {
+				has_relation_lover = root
+				is_female = no
+				any_vassal_or_below = {
+					this = root
+				}
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_lover_female
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = lover
+					this = root
+				}
+				is_female = yes
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_lover_male
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = lover
+					this = root
+				}
+				is_female = no
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_friend_female
+		trigger = {
+			scope:second = {
+				has_relation_friend = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_friend_male
+		trigger = {
+			scope:second = {
+				has_relation_friend = root
+				is_female = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_liege_female_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = yes
+				any_vassal_or_below = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_liege_male_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = no
+				any_vassal_or_below = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_vassal_female_rival
+		trigger = {
+			scope:second = {
+				is_female = yes
+				has_relation_rival = root				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_vassal_male_rival
+		trigger = {
+			scope:second = {
+				is_female = no
+				has_relation_rival = root				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_rival_female
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = rival
+					this = root
+				}
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_rival_male
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = rival
+					this = root
+				}
+				is_female = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_crush
+		trigger = {
+			any_relation = {
+				type = crush
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_bully
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = victim
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_victim
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = bully
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_ward
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = guardian
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_guardian
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = ward
+					this = root
+				}
+			}
+		}
+	}
+
+	text = { #intrigue-mentor
+		localization_key = CustomLoc_FR_OnA3_Relation_mentor
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = intrigue_student
+					this = root
+				}
+			}
+		}
+	}
+
+	text = { #intrigue-mentor
+		localization_key = CustomLoc_FR_OnA3_Relation_student
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = intrigue_mentor
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_mentor
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = student
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_student
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = mentor
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_sisterinlaw
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_sibling = {
+					any_spouse = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_brotherinlaw
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_sibling = {
+					any_spouse = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_liege_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				OR = {
+					any_vassal_or_below = {
+						this = root
+					}
+					any_courtier = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_liege_male
+		trigger = {
+			scope:second = {
+				is_female = no
+				OR = {
+					any_vassal_or_below = {
+						this = root
+					}
+					any_courtier = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_councillor_female
+		trigger = {
+			scope:second = {
+				is_female = yes			
+				is_councillor_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_councillor_male
+		trigger = {
+			scope:second = {
+				is_female = no				
+				is_councillor_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_court_physician_female
+		trigger = {
+			scope:second = { is_female = yes }
+			has_relation_court_physician = scope:second
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_court_physician_male
+		trigger = {
+			scope:second = { is_male = yes }
+			has_relation_court_physician = scope:second
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_vassal_female
+		trigger = {
+			scope:second = {
+				is_female = yes			
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_vassal_male
+		trigger = {
+			scope:second = {
+				is_female = no				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_knight
+		trigger = {
+			scope:second = { is_knight_of = root }
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_kinswoman
+		trigger = {
+			scope:second = { is_female = yes }
+			scope:second.dynasty = root.dynasty
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_kinsman
+		trigger = {
+			scope:second = { is_male = yes }
+			scope:second.dynasty = root.dynasty
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_courtier_female
+		trigger = {
+			scope:second = {
+				is_courtier_of = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_courtier_male
+		trigger = {
+			scope:second = {
+				is_courtier_of = root
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_peasant_affair_female
+		trigger = {
+			any_owned_story = {
+				story_type = story_peasant_affair
+				var:peasant_character = {
+					this = scope:second
+					is_female = yes
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_peasant_affair_male
+		trigger = {
+			any_owned_story = {
+				story_type = story_peasant_affair
+				var:peasant_character = {
+					this = scope:second
+					is_male = yes
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_agent
+		trigger = {
+			any_scheme = {
+				scheme_is_character_agent = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_host_female
+		trigger = {
+			exists = host
+			host = scope:second
+			scope:second = { is_female = yes }
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_host_male
+		trigger = {
+			exists = host
+			host = scope:second
+			scope:second = { is_male = yes }
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_prisoner_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_imprisoned_by = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_prisoner_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_imprisoned_by = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_jailer_female
+		trigger = {
+			is_imprisoned_by = scope:second
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_jailer_male
+		trigger = {
+			is_imprisoned_by = scope:second
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_guest_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				exists = host
+				host = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_guest_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+				exists = host
+				host = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_acquaintance_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_FR_OnA3_Relation_acquaintance_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+DE_DELLA_RELIGION = { #del/della
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = CustomLoc_DE_DELLA_RELIGION_della
+		trigger = { 
+			OR = {	
+				has_religion = religion:christianity_religion
+				has_religion = religion:judaism_religion				
+			}
+		}
+	}
+
+	text = {
+		localization_key = CustomLoc_DE_DELLA_RELIGION_del
+		trigger = {
+			OR = {
+				has_religion = religion:islam_religion	
+			}
+		}
+	}
+}

@@ -1,0 +1,81 @@
+﻿l_spanish:
+
+ MY_HAS_DIARCHY_PARAMETER:0 "Il mio tipo di [diarchy|E] lo permette"
+ NOT_MY_HAS_DIARCHY_PARAMETER:0 "Il mio tipo di [diarchy|E] #bold non#! lo permette"
+ THEIR_HAS_DIARCHY_PARAMETER:0 "Il tipo di [diarchy|E] di [CHARACTER.GetShortUIName] lo permette"
+ NOT_THEIR_HAS_DIARCHY_PARAMETER:1 "Il tipo di [diarchy|E] di [CHARACTER.GetShortUIName] #bold non#! lo permette"
+
+ MY_HAS_DIARCHY_ACTIVE_PARAMETER:0 "Gli [scales_of_power|E] nella tua [CHARACTER.GetDiarchyTypeName] ti favoriscono abbastanza" #scales of power, equilibri di potere
+ NOT_MY_HAS_DIARCHY_ACTIVE_PARAMETER:0 "Gli [scales_of_power|E] nella tua [CHARACTER.GetDiarchyTypeName] ti sfavoriscono"
+ THEIR_HAS_DIARCHY_ACTIVE_PARAMETER:0 "Gli [scales_of_power|E] nella [CHARACTER.GetDiarchyTypeName] di [CHARACTER.GetShortUIName] l[CHARACTER.Custom('DE_END_PRO_S_N')] sfavoriscono"
+ NOT_THEIR_HAS_DIARCHY_ACTIVE_PARAMETER:0 "Gli [scales_of_power|E] nella [CHARACTER.GetDiarchyTypeName] di [CHARACTER.GetShortUIName] l[CHARACTER.Custom('DE_END_PRO_S_N')] favoriscono eccessivamente"
+
+ MY_DIARCHY_POWER_LEVEL_GREATER_THAN:0 "I miei [scales_of_power|E] sono maggiori di $NUM|0$"
+ THEIR_DIARCHY_POWER_LEVEL_GREATER_THAN:0 "Gli [scales_of_power|E] di [CHARACTER.GetShortUIName] sono maggiori di $NUM|0$"
+
+ I_AM_DIARCHY_SUCCESSOR:0 "Sono in [line_of_succession|E] per [sharing_power|E] con il mio [liege|E]"
+ NOT_I_AM_DIARCHY_SUCCESSOR:0 "Non sono in [line_of_succession|E] per [sharing_power|E] con il mio [liege|E]"
+ THEY_ARE_DIARCHY_SUCCESSOR:0 "[CHARACTER.GetShortUIName] è in [line_of_succession|E] per [sharing_power|E] con il suo [liege|E]"
+ NOT_THEY_ARE_DIARCHY_SUCCESSOR:0 "[CHARACTER.GetShortUIName] non è in [line_of_succession|E] per [sharing_power|E] con il suo [liege|E]"
+
+ I_HAVE_ACTIVE_DIARCHY:0 "Sto attualmente [sharing_power|E]"
+ NOT_I_HAVE_ACTIVE_DIARCHY:0 "Non sto attualmente [sharing_power|E]"
+ THEY_HAVE_ACTIVE_DIARCHY:0 "[CHARACTER.GetShortUIName] sta attualmente [sharing_power|E]"
+ NOT_THEY_HAVE_ACTIVE_DIARCHY:0 "[CHARACTER.GetShortUIName] non sta attualmente [sharing_power|E]"
+
+ I_AM_DIARCH_OF_TARGET:0 "Sono il [TARGET_CHARACTER.GetDiarchTitle] di [TARGET_CHARACTER.GetShortUIName]"
+ NOT_I_AM_DIARCH_OF_TARGET:0 "Non sono il [TARGET_CHARACTER.GetDiarchTitle] di [TARGET_CHARACTER.GetShortUIName]"
+ THEY_ARE_DIARCH_OF_TARGET:0 "[CHARACTER.GetShortUIName] è il [TARGET_CHARACTER.GetDiarchTitle] di [TARGET_CHARACTER.GetShortUIName]"
+ NOT_THEY_ARE_DIARCH_OF_TARGET:0 "[CHARACTER.GetShortUIName] non è il [TARGET_CHARACTER.GetDiarchTitle] di [TARGET_CHARACTER.GetShortUIName]"
+
+ I_AM_DIARCH:0 "Sto [sharing_power|E] con il [liege|E]"
+ NOT_I_AM_DIARCH:0 "Non sto [sharing_power|E] con il [liege|E]"
+ THEY_ARE_DIARCH:0 "[CHARACTER.GetShortUIName] condivide il potere con il suo [liege|E]"
+ NOT_THEY_ARE_DIARCH:0 "[CHARACTER.GetShortUIName] non condivide il potere con il suo [liege|E]"
+
+ I_CAUSED_STRIFE:0 "Ho causato $COMPARATOR$ $NUM|0$ [strife|E]"
+ NOT_I_CAUSED_STRIFE:0 "#bold Non#! ho causato $COMPARATOR$ $NUM|0$ [strife|E]"
+ THEY_CAUSED_STRIFE:0 "[CHARACTER.GetShortUIName] ha causato $COMPARATOR$ $NUM|0$ [strife|E]"
+ NOT_THEY_CAUSED_STRIFE:0 "[CHARACTER.GetShortUIName] #bold non#! ha causato $COMPARATOR$ $NUM|0$ [strife|E]"
+
+ I_SPENT_YEARS_IN_DIARCHY:0 "Ho trascorso $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'anno', 'anni' )] a [sharing_power|E]"
+ NOT_I_SPENT_YEARS_IN_DIARCHY:0 "Non #bold ho#! trascorso $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'anno', 'anni' )] a [sharing_power|E]"
+ THEY_SPENT_YEARS_IN_DIARCHY:0 "[CHARACTER.GetShortUIName] ha trascorso $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'anno', 'anni' )] a [sharing_power|E]"
+ NOT_THEY_SPENT_YEARS_IN_DIARCHY:0 "[CHARACTER.GetShortUIName] #bold non#! ha trascorso $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'anno', 'anni' )] a [sharing_power|E]"
+
+ I_SPENT_YEARS_AS_DIARCH:0 "Ho trascorso $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'anno', 'anni' )] da [CHARACTER.GetLiege.GetDiarchTitle]"
+ NOT_I_SPENT_YEARS_AS_DIARCH:0 "Non #bold ho#! trascorso $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'anno', 'anni' )] da [CHARACTER.GetLiege.GetDiarchTitle]"
+ THEY_SPENT_YEARS_AS_DIARCH:0 "[CHARACTER.GetShortUIName] ha trascorso $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'anno', 'anni' )] da [CHARACTER.GetLiege.GetDiarchTitle]"
+ NOT_THEY_SPENT_YEARS_AS_DIARCH:0 "[CHARACTER.GetShortUIName] #bold non#! ha trascorso $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'anno', 'anni' )] da [CHARACTER.GetLiege.GetDiarchTitle]"
+
+ I_HAVE_ACTIVE_MANDATE:0 "Ho un [mandate|E] per [SelectLocalization( StringIsEmpty( '$MANDATE_TYPE|q$' ), '', ' $MANDATE_TYPE|q$' )]"
+ NOT_I_HAVE_ACTIVE_MANDATE:0 "#bold Not#! ho un [mandate|E] per [SelectLocalization( StringIsEmpty( '$MANDATE_TYPE|q$' ), '', ' $MANDATE_TYPE|q$' )]"
+ THEY_HAVE_ACTIVE_MANDATE:0 "[CHARACTER.GetShortUIName] ha un [mandate|E] attivo per $MANDATE_TYPE$"
+ NOT_THEY_HAVE_ACTIVE_MANDATE:0 "[CHARACTER.GetShortUIName] non ha un [mandate|E] attivo per $MANDATE_TYPE$"
+ 
+ I_HAVE_MANDATE_TYPE_QUALIFICATION:0 "La mia idoneità per il [mandate|E] $MANDATE_TYPE$ è pari a $COMPARATOR$ $NUM|0V$"
+ NOT_I_HAVE_MANDATE_TYPE_QUALIFICATION:0 "La mia idoneità per il [mandate|E] $MANDATE_TYPE$ #bold non#! è pari a $COMPARATOR$ $NUM|0V$"
+ THEY_HAVE_MANDATE_TYPE_QUALIFICATION:0 "L'idoneità di [CHARACTER.GetShortUIName] per il [mandate|E] $MANDATE_TYPE$ è pari a $COMPARATOR$ $NUM|0V$"
+ NOT_THEY_HAVE_MANDATE_TYPE_QUALIFICATION:0 "L'idoneità di [CHARACTER.GetShortUIName] per il [mandate|E] $MANDATE_TYPE$ #bold non#! è pari a $COMPARATOR$ $NUM|0V$"
+
+ MY_DIARCH_APTITUDE:0 "La mia [Concept( 'diarch_aptitude', 'attitudine' )|E] da [CHARACTER.GetDiarchTitle] è pari a $COMPARATOR$ $NUM|0V$"
+ NOT_MY_DIARCH_APTITUDE:0 "La mia [Concept( 'diarch_aptitude', 'attitudine' )|E] da [CHARACTER.GetDiarchTitle] #bold non#! è pari a $COMPARATOR$ $NUM|0V$"
+ THEIR_DIARCH_APTITUDE:0 "L'[Concept( 'diarch_aptitude', 'attitudine' )|E] di [CHARACTER.GetShortUIName] da [CHARACTER.GetDiarchTitle] è pari a $COMPARATOR$ $NUM|0V$"
+ NOT_THEIR_DIARCH_APTITUDE:0 "L'[Concept( 'diarch_aptitude', 'attitudine' )|E] di [CHARACTER.GetShortUIName] da [CHARACTER.GetDiarchTitle] #bold non#! è pari a $COMPARATOR$ $NUM|0V$"
+
+ MY_LOYALTY_AS_DIARCH:0 "La mia [diarch_loyalty|E] come [CHARACTER.GetDiarchTitle] è pari a $COMPARATOR$ $NUM|0V$"
+ NOT_MY_LOYALTY_AS_DIARCH:0 "La mia [diarch_loyalty|E] come [CHARACTER.GetDiarchTitle] #bold non#! è pari a $COMPARATOR$ $NUM|0V$"
+ THEIR_LOYALTY_AS_DIARCH:0 "La [diarch_loyalty|E] di [CHARACTER.GetShortUIName] come [CHARACTER.GetDiarchTitle] è pari a $COMPARATOR$ $NUM|0V$"
+ NOT_THEIR_LOYALTY_AS_DIARCH:0 "La [diarch_loyalty|E] di [CHARACTER.GetShortUIName] come [CHARACTER.GetDiarchTitle] #bold non#! è pari a $COMPARATOR$ $NUM|0V$"
+
+ I_AM_DESIGNATED_DIARCH:0 "[CHARACTER.GetLiege.GetName] mi ha designat[CHARACTER.Custom('DE_END_PRO_S_N')] come suo [CHARACTER.GetLiege.GetDiarchTitle]"
+ NOT_I_AM_DESIGNATED_DIARCH:0 "Non sono stat[CHARACTER.Custom('DE_END_PRO_S_N')] designat[CHARACTER.Custom('DE_END_PRO_S_N')] come [CHARACTER.GetLiege.GetDiarchTitle] di [CHARACTER.GetLiege.GetName]"
+ THEY_ARE_DESIGNATED_DIARCH:0 "[CHARACTER.GetLiege.GetName] ha designat[CHARACTER.Custom('DE_END_PRO_S_N')] [CHARACTER.GetName] come suo [CHARACTER.GetLiege.GetDiarchTitle]"
+ NOT_THEY_ARE_DESIGNATED_DIARCH:0 "[CHARACTER.GetName] non ha designat[CHARACTER.Custom('DE_END_PRO_S_N')] [CHARACTER.GetLiege.GetName] come suo [CHARACTER.GetLiege.GetDiarchTitle]"
+
+ TIME_AFTER_DESIGNATED_DIARCH:0 "Il tempo trascorso dalla designazione del diarca è pari a $COMPARATOR$ $DURATION|V$"
+
+ I_HAVE_DIARCHY_TYPE:0 "Sto [Concept( 'sharing_power', 'Condividendo il Potere' )|E] a $DIARCHY_TYPE$"
+ NOT_I_HAVE_DIARCHY_TYPE:0 "Non sono in una diarchia di tipo $DIARCHY_TYPE$"
+ THEY_HAVE_DIARCHY_TYPE:0 "[CHARACTER.GetName] sta [sharing_power|E] a $DIARCHY_TYPE$"
+ NOT_THEY_HAVE_DIARCHY_TYPE:0 "[CHARACTER.GetName] non è in una diarchia di tipo $DIARCHY_TYPE$"

@@ -1,0 +1,14 @@
+﻿l_spanish:
+ claim_my_throne_success_discovered_opinion:0 "Falso pretendente"
+ claim_my_throne_success_undiscovered_opinion:0 "Pretendente improvvisato"
+ claim_my_throne_failure_opinion:0 "Ha tentato di falsificare una rivendicazione"
+
+ claim_throne_aiding_liege_opinion:0 "Mi sta assistendo"
+
+ claim_throne_bought_support_opinion:0 "Ha comprato il mio supporto"
+
+ claim_throne_self_declared_opinion:0 "Si è Autoproclamato Sovrano"
+ 
+ claim_throne_tricked_peasants_opinion:0 "Ha Ingannato i Contadini"
+
+ claim_throne_forged_letter_opinion:0 "Ha Ingannato i Nobili"

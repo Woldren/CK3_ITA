@@ -1,0 +1,25 @@
+﻿l_spanish:
+ 
+#RACE EVENTS
+ jason_first_race_event.1.t:0 "Un Caos di Gambe"
+ jason_first_race_event.1.desc:1 "In pieno galoppo, il cavaliere [opponent.Custom('IT_NAM_COL2')][opponent.GetTitledFirstName] spinge il suo cavallo, #EMP [opponent.Custom('GetContestHorseRaceName')]#!, contro quello del mio cavaliere [jockey.GetFirstName]... o forse è stato il mio cavallo, #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#!, ad avere deviato la sua traiettoria verso quella dell'avversario? Comunque sia andata, tutti loro, cavalli e cavalieri, si sono schiantati lateralmente contro le barriere.\n\nDove prima c'erano due cavalli in corsa, scintillanti per il sudore dello sforzo, ora entrambe le cavalcature barcollano instabili sulle zampe, mentre i due cavalieri cercano di riprenderne il controllo.\n\nGli altri cavalli in gara continuano invece di buon passo, mentre i due che si sono scontrati rimangono indietro, visibilmente scossi."
+ jason_first_race_event.1.desc.suspicious:0 "Attorniat[opponent.Custom('DE_END_PRO_S_N')] dai suoi servitori, [opponent.Custom('IT_NAM_COL3')][opponent.GetTitledFirstNameNoTooltip] lancia un grido di spavento... alquanto poco convincente."
+ jason_first_race_event.1.desc.sympathetic:0 "Attorniat[opponent.Custom('DE_END_PRO_S_N')] dai suoi servitori, [opponent.Custom('IT_NAM_COL3')][opponent.GetTitledFirstNameNoTooltip] lancia un urlo di terrore."
+ jason_first_race_event.1.a:0 "È un complotto! Sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] imbrogliat[ROOT.Char.Custom('DE_END_PRO_S_N')]!"
+ jason_first_race_event.1.a.tt:1 "Questa aggressione è motivo sufficiente per squalificarli!"
+ jason_first_race_event.1.a.tt.win:1 "[opponent.Custom('IT_NAM_COL3')|U][opponent.GetFirstNameNoTooltip] "gioca sporco" e il suo cavallo viene squalificato dalla corsa"
+ jason_first_race_event.1.a.tt.lose:0 "La tua è agli occhi di tutti un'accusa meschina... nessuno ti dà retta"
+
+ jason_first_race_event.1.b:0 "[opponent.Custom('IT_NAM_COL3')|U][opponent.GetFirstNameNoTooltip] è l'unic[opponent.Custom('DE_END_PRO_S_N')] a condividere questo momento di sfortuna."
+ jason_first_race_event.1.b.tt:1 "Esprimi la tua sincera solidarietà al tuo sfortunato avversario."
+
+ jason_first_race_event.1.c:2 ""Allenta le redini, [jockey.GetFirstNameNoTooltip]!""
+ jason_first_race_event.1.c.tt:1 "Urli il nome del tuo cavaliere per incoraggiarlo!"
+ jason_first_race_event.1.c.tt.win:1 "[jockey.GetFirstNameNoTooltip] riprende il controllo della sua cavalcatura"
+ jason_first_race_event.1.c.tt.lose:1 "[jockey.GetFirstNameNoTooltip] non riesce a sentirti"
+
+ jason_first_race_event.1.d:1 "Addio vittoria?"
+ jason_first_race_event.1.d.tt:1 "Mi auguro solo che [jockey.GetFirstNameNoTooltip] stia bene..."
+
+ contest_horse_race_collision_log_title:0 "Cavalieri si Scontrano"
+ contest_horse_race_collision_log:1 "I cavalieri di [CHARACTER.GetShortUIName] e [TARGET_CHARACTER.GetShortUIName] si sono scontrati durante la corsa"

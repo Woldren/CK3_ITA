@@ -1,0 +1,15 @@
+﻿l_spanish:
+ #GROUPS
+ culture_group_military:0 "Militare"
+ culture_group_civic:0 "Civica"
+ culture_group_regional:1 "Culturale e Regionale"
+ culture_group_any:0 "qualsiasi"
+ #ERAS
+ culture_era_tribal:0 "Tribale"
+ culture_era_tribal_desc:0 "L'Era Tribale di una [culture|E] precede l'emergere di leggi codificate e di un governo istituzionalizzato. I Sovrani con un [tribal_government|E] e un [nomadic_government|E] possono utilizzare solo le [innovations|E] dell'Era Tribale."
+ culture_era_early_medieval:0 "Alto Medioevo"
+ culture_era_early_medieval_desc:0 "L'Alto Medioevo vede l'emergere di amministratori professionisti e di una serie di importanti [innovations|E], permettendo ad una [culture|E] di uscire dal Secolo Buio."
+ culture_era_high_medieval:0 "Pieno Medioevo"
+ culture_era_high_medieval_desc:0 "Il Pieno Medioevo è un'epoca di grande progresso tecnologico e amministrativo, che vede le cittadine trasformarsi in città e l'ascesa della classe borghese nonostante l'aristocrazia regni sovrana."
+ culture_era_late_medieval:0 "Basso Medioevo"
+ culture_era_late_medieval_desc:0 "Il periodo del Basso Medioevo segna lo splendore del mondo feudale. Burocrati, artigiani, mercanti e usurai cominciano a minare il dominio delle vecchie classi privilegiate, ad eccezione dei monarchi stessi."

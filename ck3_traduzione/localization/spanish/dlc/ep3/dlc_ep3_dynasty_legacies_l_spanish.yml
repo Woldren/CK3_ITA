@@ -1,0 +1,25 @@
+﻿l_spanish:
+
+ ep3_administrative_legacy_track_name: "Burocrazia"
+ ep3_administrative_legacy_track_desc: "Che l’influenza della Casa [GetPlayer.GetDynasty.GetBaseNameNoTooltip] eclissi tutte le altre"
+
+ ep3_administrative_legacy_1_name: "Amministratore dell’Impero"
+ ep3_administrative_legacy_1_effect_global: "[governor_efficiency|E]: #P +5%#!"
+
+ ep3_administrative_legacy_2_name: "Il Potere è una Scala"
+ ep3_administrative_legacy_2_effect_schemes_global: "[political_schemes|E]: #P +10#! [success_chance_max_i] [scheme_success_chance|E] Massima"
+ ep3_administrative_legacy_2_effect_investment_discount_global: "Promuovere i membri della [house|E] costa il #P 10%#! in meno"
+
+ ep3_administrative_legacy_3_name: "Casa e Focolare"
+ ep3_administrative_legacy_3_effect_family_rating_global: "Valutazione [powerful_family|E]: #P +15#!"
+ ep3_administrative_legacy_3_effect_reception_hall_global: "Sblocca la [estate|E] [GetDomicileBuilding('reception_hall_01').GetName]"
+ ep3_dynasty_legacy_gain_legitimacy_effect_title: "[GetDomicileBuilding('reception_hall_01').GetName] fornisce [legitimacy|E]"
+ ep3_dynasty_legacy_add_legitimacy_effect_title: "Legittimità Conservata"
+ ep3_dynasty_legacy_add_legitimacy_effect_desc: "L’[activity.GetActivityType.GetNameNoTooltip] di [host.GetShortUINamePossessive] in [activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly] ha aggiunto [legitimacy|E] al [GetDomicileBuilding('reception_hall_01').GetName] di [reception_hall_owner.GetShortUINamePossessive]"
+
+ ep3_administrative_legacy_4_name: "Città Eterna"
+ ep3_administrative_legacy_4_effect_cabinet_of_curiosities_global: "Sblocca la [estate|E] [GetDomicileBuilding('cabinet_of_curiosities_01').GetName]"
+
+ ep3_administrative_legacy_5_name: "Diaírei kaì Basíleue"
+ ep3_administrative_legacy_track_effect_claimant_factions_global: "I [vassals|E] e le [noble_families|E] hanno meno probabilità di unirsi alle [claimant_factions|E] o di usare il [scheme|E] [GetScheme('depose').GetTypeName]"
+ ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "Sblocca l’[interaction|E] #high [GetPlayer.GetPlayerInteractionName('ep3_mass_arrests_interaction')]#!"

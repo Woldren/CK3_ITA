@@ -1,0 +1,25 @@
+﻿l_spanish:
+
+ # What's a Study Day Worth?
+ bp2_yearly.3000.t: "Quanto Vale una Giornata di Studio?"
+ bp2_yearly.3000.desc: "[educator.Custom2('MyCharacterIntroduction', ROOT.Char)|U] continua a blaterare dandomi per l'ennesima volta lezioni sulle buone maniere che si addicono a un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], intervallate da austere citazioni dal [educator.GetFaith.ReligiousText|U]."
+ bp2_yearly.3000.desc_no_educator: "Mentre giro un'altra pagina, osservo con tristezza gli altri bambini della [ROOT.Char.Custom('GetCourt')] che giocano all'esterno. Le risate, le urla di gioia... Torno alla copia del [ROOT.Char.GetFaith.ReligiousText|U] sul mio tavolo."
+ bp2_yearly.3000.desc_ending: "\n\nCerto, tutto questo è molto importante per il mio futuro, ma... qualcuno si accorgerebbe davvero se uscissi di nascosto per una volta, o magari due, per andare a giocare?"
+ bp2_yearly.3000.a: "La conoscenza è la chiave dell'universo!"
+ bp2_yearly.3000.a.tt: "C'è la possibilità che la tua istruzione abbia un esito migliore"
+ bp2_yearly.3000.b: "Un po' di impegno non può far male."
+ bp2_yearly.3000.c: "Perché studiare quando si può #EMP giocare#!?"
+ # SheHe Knows This Room
+ bp2_yearly.3010.t: "[child.GetSheHe|U] Conosce Questa Stanza"
+ bp2_yearly.3010.desc: "Mi si stringe il cuore quando vedo [Select_CString(child.IsFemale,'la mia amata figlia','il mio amato figlio')] [child.GetFirstName] fissare sconcertata le pareti intorno a [child.GetSheHe], come se non [child.Custom('DE_PRO_DEM')] fossero familiari.\n\n[child.GetSheHe|U] ha mosso proprio qui i suoi primi passi, ma è stato ormai tanto tempo fa. I molti anni trascorsi all'estero come ostaggio devono aver cancellato quei ricordi dalla sua giovane mente.\n\nAncora una volta, si guarda intorno e sospira".
+ bp2_yearly.3010.a: "Devo parlare con [child.GetSheHe]."
+ bp2_yearly.3010.b: "[child.Custom('DE_END_PRO_P_A')] passerà."
+ # I've Walked This Floor
+ bp2_yearly.3011.t: "Ho Già Camminato Su Questo Pavimento"
+ bp2_yearly.3011.desc: "In qualche angolo della mia mente, #EMP so#! di essere già stat[ROOT.Char.Custom('DE_END_PRO_S_N')] qui, ma i ricordi sono più nebulosi dei sogni e i sogni di casa mi hanno già mentito in passato. Dopo tanti anni trascorsi all'estero come ostaggio, mi è difficile anche solo distinguere ciò che è casa e ciò che non lo è...\n\nQuesto camino è sempre stato qui? Questo corridoio è sempre stato così buio? Non lo so."
+ bp2_yearly.3011.desc_parent: "\n\nQuando incontro gli occhi di mi[parent.Custom('DE_END_PRO_S_N')] [parent.GetMotherFather|l] dall'altra parte della stanza, vedo la mia tristezza rispecchiarsi nei suoi occhi e ci stringiamo poi in un forte abbraccio."
+ bp2_yearly.3011.desc_no_parent: "\n\nQuando incrocio lo sguardo di mi[parent.Custom('DE_END_PRO_S_N')] [parent.GetMotherFather] dall'altra parte della stanza, [parent.GetSheHe] si limita a sospirare e a distogliere lo sguardo."
+ bp2_yearly.3011.a: "Ora sono [Select_CString(ROOT.Char.IsFemale,'un'estranea','un estraneo')]."
+ bp2_yearly.3011.b: "Questo è ancora il mio posto!"
+ bp2_yearly.3010.a.tt: "[child.GetFirstNameNoTooltip] ha abbracciato la propria diversità"
+ bp2_yearly.3010.b.tt: "[child.GetFirstNameNoTooltip] rimane attaccat[child.Custom('DE_END_PRO_S_N')] alle proprie origini"

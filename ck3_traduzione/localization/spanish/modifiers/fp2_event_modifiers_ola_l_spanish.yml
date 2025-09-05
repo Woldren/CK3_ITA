@@ -1,0 +1,146 @@
+﻿l_spanish:
+ tolerance_gospel_modifier:0 "Vangelo della Tolleranza"
+ tolerance_gospel_modifier_desc:0 "Questo personaggio ha esortato il suo popolo ad abbracciare la pazienza e l'unità."
+ fanatical_recruits_modifier:0 "Reclute Fanatiche"
+ fanatical_recruits_modifier_desc:0 "Questo personaggio ha un flusso costante di reclute zelanti."
+ tensions_eased_province_modifier:0 "Tensioni Attenuate"
+ tensions_eased_province_modifier_desc:0 "La tensione religiosa in questa provincia si sta attenuando."
+ riots_and_murders_province_modifier:0 "Rivolte e Omicidi"
+ riots_and_murders_province_modifier_desc:0 "Questa contea è stata scossa da massacri ed espulsioni dei cosiddetti indesiderabili."
+ hate_monger_modifier:0 "Fabbricatore di Odio"
+ hate_monger_modifier_desc:0 "Questo personaggio è un noto seminatore di discordia e di odio."
+
+ nursing_salaries_for_single_mothers_modifier:0 "Stipendi delle Balie"
+ nursing_salaries_for_single_mothers_modifier_desc:0 "Questo personaggio ha istituito un sistema per cui le madri non sposate vengono pagate per allattare i loro figli per un certo periodo di tempo."
+ widows_and_widowers_amazing_funds_modifier:0 "Fondi per le Vedove"
+ widows_and_widowers_amazing_funds_modifier_desc:0 "Questo personaggio ha creato un fondo per le vedove di guerra o di sventura, ma le persone con figli fuori dal matrimonio non ricevono nulla."
+ starving_single_mothers_and_children_modifier:0 "Madri Affamate"
+ starving_single_mothers_and_children_modifier_desc:0 "Le vedove, i genitori non spostati e i loro figli sono lasciati a morire di fame nelle terre di questo personaggio."
+ destitute_single_mothers_modifier:0 "Misero Serraglio"
+ destitute_single_mothers_modifier_desc:0 "La corte di questo personaggio è piena di madri non sposate indigenti e dei loro figli, in vari stati di miseria."
+
+ anti_innovation_muslim_modifier:0 "Nizamiyyah"
+ anti_innovation_muslim_modifier_desc:0 "Questo personaggio ha mostrato interesse per un nuovo movimento religioso che disprezza il razionalismo e la scienza.."
+ rolling_in_filth_modifier:0 "Rotolando nella Sporcizia"
+ rolling_in_filth_modifier_desc:0 "Questo personaggio non si preoccupa della pulizia e della cosiddetta igiene."
+ cannot_read_greek_modifier:0 "Dichiara di leggere il Greco"
+ cannot_read_greek_modifier_desc:0 "Questo personaggio sostiene di conoscere la lingua degli studiosi del mondo antico, ma le prove dimostrano il contrario.."
+ misread_medicine_incompetence_modifier:0 "Fraintendere il Canone della Medicina"
+ misread_medicine_incompetence_modifier_desc:0 "Questo personaggio ha letto il Canone della Medicina e le altre grandi opere sulla salute e l'igiene, ma le ha completamente fraintese."
+ inspired_medicine_modifier:0 "Ispirato dalle Innovazioni Mediche"
+ inspired_medicine_modifier_desc:0 "Questo personaggio si è interessato alle recenti innovazioni in campo medico degli studiosi Persiani e Andalusiani."
+ medical_insights_modifier:0 "Approfondimenti Medici"
+ medical_insights_modifier_desc:0 "Questo personaggio ha letto Ippocrate e Galeno e ora insiste che le persone si lavino le mani a corte."
+
+ fp2_advanced_maritime_technology_modifier:0 "Tecnologia Marittima Avanzata"
+ fp2_advanced_maritime_technology_modifier_desc:0 "Questo personaggio è in possesso di una tecnologia navale molto avanzata rispetto al resto del mondo."
+ fp2_successful_shipyards_modifier:0 "Esperti Costruttori Navali"
+ fp2_successful_shipyards_modifier_desc:0 "In questa sede operano esperti artigiani navali in grado di realizzare anche le imbarcazioni più complesse."
+
+ foreboding_visions_modifier:0 "Inquietanti Visioni del Futuro"
+ foreboding_visions_modifier_desc:0 "In sogni febbrili e con convulsioni che potrebbero essere quelle di una possessione, questo personaggio percepisce delle visioni inquietanti sugli eventi futuri.."
+
+ mysterious_prophetess_illness_modifier:0 "Malattia delle Sibille"
+ mysterious_prophetess_illness_modifier_desc:0 "Questo personaggio soffre di una malattia invalidante apparentemente collegata a sogni profetici."
+
+ frightened_by_portent_modifier:0 "Spaventato dal Presagio"
+ frightened_by_portent_modifier_desc:0 "Questo personaggio ha ricevuto un presagio di terribili eventi futuri."
+
+ cortes_modifier:0 "Cortes"
+ cortes_modifier_desc:0 "Questo personaggio permette ai rappresentanti eletti dei comuni liberi di partecipare alle riunioni del consiglio.."
+
+ extra_large_cortes_modifier:0 "Parlamento del Popolo"
+ extra_large_cortes_modifier_desc:0 "Questo personaggio permette a #italic chiunque#! di partecipare alle riunioni del consiglio."
+
+ vineyards_burnt_county_modifier:0 "Vigneti Incendiati"
+ vineyards_burnt_county_modifier_desc:0 "Questa contea ospitava un tempo magnifici vigneti, ma sono stati tutti distrutti."
+
+ vineyards_protected_county_modifier:0 "Vigneti Protetti"
+ vineyards_protected_county_modifier_desc:0 "I vigneti di questa contea sono protetti dai fanatici religiosi che vogliono bruciarli."
+
+ crusading_against_iberian_wine_modifier:0 "Campagna Anti Vino"
+ crusading_against_iberian_wine_modifier_desc:0 "Questo personaggio è deciso a porre fine alle blasfeme abitudini alcoliche dei suoi sudditi Iberici."
+
+ wine_supply_secure_modifier:0 "Fornitura di Vino Assicurata"
+ wine_supply_secure_modifier_desc:0 "Questo personaggio si è assicurato che nulla possa minacciare l'approvvigionamento del pregiato vino locale alla sua corte."
+
+ 
+
+
+ toledo_steel_armaments_modifier:0 "Armati come i Romani"
+ toledo_steel_armaments_modifier_desc:0 "I soldati di questo personaggio impugnano delle spade di squisito acciaio Iberico, come le legioni Romane di un tempo."
+
+ toledo_steel_county_modifier:0 "Acciaio di Toledo"
+ toledo_steel_county_modifier_desc:0 "Questa contea produce un tipo di acciaio resistente che è rinomato fin dall'antichità."
+
+ tortured_smith_spilling_secrets_modifier:0 "Segreti della Fabbricazione delle Spade"
+ tortured_smith_spilling_secrets_modifier_desc:0 "Questo personaggio ha appreso i segreti della fabbricazione delle spade da un maestro fabbro torturato."
+
+ guild_rights_protected_modifier:0 "Diritti della Gilda Protetti"
+ guild_rights_protected_modifier_desc:0 "La gilda dei fabbri di questa contea è stata protetta dalle interferenze esterne."
+
+ master_smith_npc_modifier:0 "Fabbro Esperto"
+ master_smith_npc_modifier_desc:0 "L'abilità di questo personaggio nella forgiatura è quasi senza pari.."
+
+
+ great_translation_school_modifier:0 "Grande Scuola di Traduzione"
+ great_translation_school_modifier_desc:0 "Questo personaggio ha fondato una scuola di traduzione dove le grandi opere straniere sono rese disponibili a beneficio di tutta la civiltà."
+
+ mediocre_translation_school_modifier:0 "Scuola di Traduzione Mediocre"
+ mediocre_translation_school_modifier_desc:0 "Questo personaggio ha finanziato una scuola di traduzione, ma le persone coinvolte hanno un talento piuttosto discutibile."
+
+ translation_effort_modifier:0 "Sforzi di Traduzione"
+ translation_effort_modifier_desc:0 "Questo personaggio ha assunto uno studioso capace per tradurre delle opere importanti."
+
+ dusty_libraries_modifier:0 "Biblioteche Polverose"
+ dusty_libraries_modifier_desc:0 "Le biblioteche del regno di questo personaggio, un tempo magnifiche, sono diventate polverose e disordinate. Tuttavia, al loro interno si può trovare una strana tranquillità."
+
+
+
+
+
+ mystery_meat_unhealth_benefits_modifier:0 "Strane Sensazioni"
+ mystery_meat_unhealth_benefits_modifier_desc:0 "Questo personaggio ha mangiato una grande quantità di carne da una misteriosa carcassa gigante che si era arenata su una spiaggia. Probabilmente non avrebbero dovuto..."
+
+ mystery_meat_health_benefits_modifier:0 "Grande Nutrimento"
+ mystery_meat_health_benefits_modifier_desc:0 "Questo personaggio ha mangiato una grande quantità di carne da una carcassa gigante che si era arenata su una spiaggia. Era molto gustosa."
+
+ lay_ruler_issued_fatwa_modifier:0 "Sentenza Religiosa"
+ lay_ruler_issued_fatwa_modifier_desc:0 "Questo sovrano ha emesso un parere legale su una questione religiosa - anche se alcuni potrebbero affermare che non aveva l'autorità per farlo."
+
+ saw_the_world_from_above_modifier:0 "Ha visto il Mondo dall'Alto"
+ saw_the_world_from_above_modifier_desc:0 "Questo personaggio ha vissuto una profonda esperienza di ascensione nel cielo."
+
+
+ felt_something_modifier:0 "Stupito dalla Bellezza"
+ felt_something_modifier_desc:0 "Questo personaggio ha ascoltato una musica di una bellezza ultraterrena."
+
+ investing_in_music_modifier:0 "Investimento nella Musica"
+ investing_in_music_modifier_desc:0 "Questo personaggio si sforza di far esibire alla sua corte musicisti di talento, anche quelli di basso lignaggio."
+
+ great_pine_chopped_down_county_modifier:0 "Grande Pino Abbattuto"
+ great_pine_chopped_down_county_modifier_desc:0 "In questa contea si trovava un grande e vecchio pino cembro, che gettava un'ombra meravigliosa. Ora non c'è più."
+
+ aversion_to_joy_modifier:0 "Avversione alla Gioia"
+ aversion_to_joy_modifier_desc:0 "Questo personaggio dice a se stesso che la gioia e la bellezza sono distrazioni vane, che rendono deboli."
+
+
+
+
+ memorable_public_execution_modifier:0 "Memorabile Esecuzione Pubblica"
+ memorable_public_execution_modifier_desc:0 "Questo personaggio ha giustiziato una persona in un modo #italic davvero #! orripilante."
+
+ compelling_apology_modifier:0 "Scuse Convincenti"
+ compelling_apology_modifier_desc:0 "Qualunque sia il suo errore, questo personaggio ha presentato delle scuse #italic davvero #! sincere."
+
+ restitution_to_minorities_modifier:0 "Risarcimento alle Minoranze Locali"
+ restitution_to_minorities_modifier_desc:0 "Questo personaggio ha risolto alcune delle rimostranze delle minoranze locali."
+
+ obligations_fulfilled_modifier:0 "Obbligazioni Discutibili"
+ obligations_fulfilled_modifier_desc:0 "Questo personaggio ha adempiuto ai propri obblighi nei confronti di un altro sovrano, consegnando degli schiavi fuggiti..."
+
+ saqaliba_settlers_county_modifier:0 "Coloni di Saqaliba"
+ saqaliba_settlers_county_modifier_desc:0 "Gli ex schiavi di origine Europea Orientale si sono stabiliti in questa provincia.."
+
+ former_slave_npc_modifier:0 "Ex Schiavo"
+ former_slave_npc_modifier_desc:0 "Questo personaggio un tempo era uno schiavo ed è molto impegnato a difendere la propria libertà."

@@ -1,0 +1,28 @@
+﻿l_spanish:
+ 
+ ep3_yearly.1010.t: "Hippomania"
+ ep3_yearly.1010.intro: "#EMP Clip, clop. Clip, clop.#!\n\nIn sella al suo destriero, [horse_owner.Custom('WarhorseStoryName')], [Select_CString(horse_owner.IsFemale,'la governatrice','il governatore')] [horse_owner.GetTitledFirstName], trotta [Select_CString(horse_owner.IsFemale,'orgogliosa','orgoglioso')] nel mio cortile. Il/La [horse_owner.Custom('HorseStoryMareStallion')] si pavoneggia con orgoglio, sempre consapevole del suo illustre pedigree.\n\n[horse_owner.GetFirstNameNoTooltip] è l'invidia di ogni governatore di Bisanzio, e io non faccio eccezione."
+ ep3_yearly.1010.greek_flavor: "L'[Glossary( 'Hipperos', 'HIPPEROS_GLOSS' )] è profondamente radicato nella tradizione greca."
+ ep3_yearly.1010.outro: "\n\n[horse_owner.Custom('WarhorseStoryName')] deve essere mio! Ma come?"
+
+ ep3_yearly.1010.a: "Forse il giusto prezzo potrebbe convincere [horse_owner.GetFirstNameNoTooltip]..."
+ ep3_yearly.1010.a.tt.success: "[horse_owner.GetTitledFirstNameNoTooltip] accetta la tua offerta"
+ ep3_yearly.1010.a.tt.failure: "[horse_owner.GetTitledFirstNameNoTooltip] rifiuta la tua offerta"
+
+ ep3_yearly.1010.b: "[horse_owner.Custom('WarhorseStoryName')] si addice a una persona di rango superiore."
+ ep3_yearly.1010.b.tt.success: "[horse_owner.GetTitledFirstNameNoTooltip] cede alla tua influenza"
+ ep3_yearly.1010.b.tt.failure: "[horse_owner.GetTitledFirstNameNoTooltip] rifiuta la tua offerta"
+
+ ep3_yearly.1010.c: ""[spymaster.GetFirstNameNoTooltip], questo cavallo sarà mio ad ogni costo.""
+ ep3_yearly.1010.c.flavor: "Incarichi il tuo Capo delle Spie, [spymaster.GetTitledFirstNameNoTooltip], affinché porti via in segreto [horse_owner.Custom('HorseStoryMareStallion')]"
+ ep3_yearly.1010.c.tt.success: "[spymaster.GetFirstNameNoTooltip] porta via in segreto il cavallo"
+ ep3_yearly.1010.tt: "[horse_owner.Custom('WarhorseStoryName')] diventa tuo"
+ ep3_yearly.1010.c.tt.failure: "[spymaster.GetFirstNameNoTooltip] non riesce a rubare il cavallo"
+ ep3_yearly.1010.d: "A caval donato non si guarda in bocca, [horse_owner.GetFirstNameNoTooltip]."
+ ep3_yearly.1010.d.tt: "Avveleni il cavallo di [horse_owner.GetTitledFirstNameNoTooltip]"
+ ep3_yearly.1010.d.success: "[horse_owner.GetFirstNameNoTooltip] non è la persona più saggia"
+ ep3_yearly.1010.d.failure: "[horse_owner.GetFirstNameNoTooltip] ti scopre"
+ ep3_yearly.1010.d.dead_horse: "[horse_owner.Custom('WarhorseStoryName')] muore"
+
+ HIPPEROS_GLOSS: "L'#bold Hipperos#! è un'antica parola Greca che descrive l'ossessione per i cavalli."
+

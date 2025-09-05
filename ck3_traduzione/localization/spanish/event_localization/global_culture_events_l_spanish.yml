@@ -1,0 +1,57 @@
+﻿l_spanish:
+ global_culture.custom.change_culture:1 "Tutte le contee ed i personaggi di [old_culture.GetName] del tuo reame diventano [new_culture.GetName]"
+ global_culture.custom.merge_culture:1 "Tutte le contee ed i personaggi di [old_culture_1.GetName] e [old_culture_2.GetName] nel tuo reame diventano [new_culture.GetName]"
+ global_culture.custom.keep_culture:1 "Tutte le contee ed i personaggi [old_culture.GetName] del tuo reame mantengono la loro cultura."
+ global_culture.custom.trigger:0 "Non controlli almeno l'80% di tutte le contee [CHARACTER.GetCulture.GetName]"
+
+ # Visigoth Split
+ global_culture.0002.t:0 "Il destino dei Visigoti"
+ global_culture.0002.desc:0 "Molto tempo fa, i nostri antenati migrarono nella penisola iberica e costruirono i loro primi insediamenti. Da allora abbiamo vissuto qui per generazioni, la terra ci ha plasmato tanto quanto noi abbiamo plasmato la terra. È tempo di chiedersi: siamo ancora Visigoti? O siamo qualcosa di completamente nuovo?"
+ global_culture.0002.a:0 "I tempi stanno cambiando, e dobbiamo cambiare con loro."
+ global_culture.0002.b:0 "Non abbandoneremo le tradizioni dei nostri antenati!"
+
+ global_culture.0005.t:0 "$global_culture.0002.t$"
+ global_culture.0005.desc:0 "Quando i Visigoti migrarono per la prima volta nella penisola Iberica, erano stranieri in una nuova e strana terra.\n\nQuesto è cambiato nel corso di molte generazioni, come la terra li ha plasmati, così loro hanno plasmato la terra. Nel corso del tempo le varie comunità dei Visigoti crebbero distinte e separate l'una dall'altra.\n\nNonostante il loro patrimonio condiviso queste nuove comunità - [castilian.GetName], [catalan.GetName], [occitan.GetName], e [andalusian.GetName] - non vengono riconosciute più come parenti."
+ global_culture.0005.a:0 "Solo il tempo ci dirà come questo influisce sulla regione."
+
+ # Norse Split
+ global_culture.0012.t:0 "Il destino dei Nordici"
+ global_culture.0012.desc:0 "Vivendo nelle terre dure della Scandinavia, il nostro popolo ha una storia di garantire la nostra prosperità e sopravvivenza attraverso il commercio, il saccheggio, e la lotta come spade per il noleggio.\n\nNel corso del tempo questo ha provocato l'accumulazione di grande ricchezza, rendendo il nostro popolo mettere radici e stabilirsi in fattorie permanenti con maggiore frequenza.\n\nOra questi insediamenti hanno cominciato a divergere culturalmente gli uni dagli altri, mentre le loro tradizioni e persino le lingue cambiano per soddisfare le esigenze dei loro nuovi stili di vita."
+ global_culture.0012.a:0 "Dobbiamo prima di tutto garantire la nostra prosperità."
+ global_culture.0012.b:0 "Inacettabile! I Nordici #EMP will#! staranno uniti."
+
+ global_culture.0015.t:0 "$global_culture.0012.t$"
+ global_culture.0015.desc:0 "Mercanti, predoni e mercenari... i Norreni hanno viaggiato a lungo dalla Scandinavia in tutta Europa e anche oltre, lasciando il segno ovunque andassero.\n\nOra sembra che questa età possa volgere al termine, come le differenze culturali e rivalità clan hanno portato alla nascita di disparati [danish.GetName], [swedish.GetName], e [norwegian.GetName] identità tra di loro"
+ global_culture.0015.desc_norse:0 "Commercianti, razziatori e mercenari... i nostri antenati norreni hanno viaggiato a lungo dalla Scandinavia in tutta Europa e anche oltre, lasciando il loro segno ovunque andassero.\n\nOra sembra che quest'epoca stia volgendo al termine, poiché la nostra madrepatria è fratturata dalle differenze culturali e dalle rivalità tra clan nelle identità di [danish.GetName], [swedish.GetName], e [norwegian.GetName]."
+ global_culture.0015.a:0 "Che cosa significa questo per il futuro dell'Europa?"
+ global_culture.0015.b:0 "Che cosa significa questo per il futuro della nostra gente?"
+
+ # Scottish Split
+ global_culture.0032.t:0 "L'Ascesa degli Scozzesi"
+ global_culture.0032.desc:1 "Anche se condividiamo origini comuni con gli altri anglosassoni, i nostri clan che vivono nelle pianure della Bretagna settentrionale hanno iniziato a divergere culturalmente e linguisticamente mentre ci adattiamo alla vita su un terreno accidentato.\n\nMolti della nostra gente ora stanno reclamando un'identità culturale unica che possiamo denominare il nostro. Qualcosa possiamo essere fieri di essere..."
+ global_culture.0032.a:0 "Siamo Scozzesi, ora e per sempre!"
+ global_culture.0032.b:0 "Non dovremmo voltare le spalle ai nostri connazionali."
+
+ global_culture.0035.t:0 "$global_culture.0032.t$"
+ global_culture.0035.desc:1 "Sebbene condividano origini comuni con gli altri anglosassoni, i clan che vivono nelle pianure della Bretagna settentrionale si sono adattati alla vita su un terreno accidentato.\n\nDivergendo culturalmente e linguisticamente dai loro ex compatrioti, questi [scottish.GetCollectiveNoun] hanno accolto con entusiasmo la loro nuova identità culturale."
+ global_culture.0035.a:0 "Riusciranno a prosperare da soli?"
+
+
+ # Norman Merge
+ global_culture.3002.t:0 "Ascesa dei Normanni"
+ global_culture.3002.desc:1 "Le terre del Nord della Francia hanno fornito alla nostra gente un terreno fertile e lussureggiante per stabilirsi ed espandersi.\n\nAdottando alcune delle tradizioni della gente del posto, saremo in grado di acclimatarsi meglio alla regione."
+ global_culture.3002.a:0 "Ai nuovi amici e ai nuovi inizi!"
+
+ global_culture.3003.t:0 "$global_culture.3002.t$"
+ global_culture.3003.desc:0 "Siamo lontani dalle terre che i nostri antenati Norreni chiamavano casa, ma sono queste terre del Nord della Francia che pensiamo come il nostro paese. Come leader del mio popolo, è mia responsabilità garantire la prosperità futura e, se vogliamo prosperare, dobbiamo adattarci al nostro nuovo ambiente. Dobbiamo imparare dalle persone i cui antenati hanno fatto uso di questi fertili\n\nCon questo decreto, cambieremo il nostro modo di vivere a beneficio dei nostri parenti. Forgieremo un nuovo percorso come il nostro popolo."
+ global_culture.3003.a:0 "Da oggi in poi ci chiamiamo Normanni!"
+
+ global_culture.3005.t:0 "$global_culture.3002.t$"
+ global_culture.3005.desc:0 "Un gruppo di coloni Norreni provenienti dalla Scandinavia si sono stabiliti sulla costa della Francia settentrionale, facendo una nuova casa per se stessi lì.\n\nIl loro leader, [norman_founder.GetTitledFirstName], ha decretato che la sua gente debba adottare diverse usanze e tradizioni locali per assicurarsi di prosperare in questa nuova terra."
+ global_culture.3005.a:0 "Cosa significa questo per la regione?"
+
+ global_culture.3011.t:0 "Diffusione della Cultura [sicilian.GetNameNoTooltip]"
+ global_culture.3011.desc:0 "L'eclettico mix di popoli dell'Italia meridionale e della Sicilia ha dato vita ad un'unica cultura, influenzata dalle molteplici influenze.\n\nOra è chiaro che le persone in [county_to_change.GetName] non si vedono più come [old_culture.GetCollectiveNoun], ma come nativi [sicilian.GetCollectiveNoun]!"
+ global_culture.3011.a:0 "Uno sviluppo interessante..."
+
+ global_culture.3012.a:0 "Fantastico!"

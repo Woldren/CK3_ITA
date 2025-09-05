@@ -1,0 +1,12 @@
+﻿l_spanish:
+ # Cultural MaA
+ bondi:0 "Bondí"
+ vigmen:0 "Vigmen"
+ varangian_veterans:0 "Veterani Variaghi"
+ jomsviking_pirates:0 "Pirati Jomsviking"
+
+ # MaA Flavour
+ bondi_flavor:0 "#F I Bondí fanno parte di una classe di liberi proprietari terrieri, spesso marinai competenti, che usano le navi lunghe per commerciare o per saccheggiare. Combattono usando lance e scudi.#!"
+ vigmen_flavor:0 "#F I guerrieri posti d'avanti formano un muro di scudi impenetrabile per proteggere gli arcieri nelle retrovie. Questa tattica scoraggia gli schermagliatori consentendo un'avanzata costante.#!"
+ varangian_veterans_flavor:0 "#F Esploratori, avventurieri, guerrieri e mercenari di tutte le lontane colonie nordiche. Alcuni hanno persino prestato servizio nella Guardia Variaga.#!"
+ jomsviking_pirates_flavor:0 "#F Gli Jomsvikings, che sono tra i più grandi saccheggiatori del Baltico, eccellono nel creare il caos durante i combattimenti.#!"

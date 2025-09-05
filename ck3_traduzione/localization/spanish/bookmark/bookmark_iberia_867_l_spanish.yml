@@ -1,0 +1,37 @@
+﻿l_spanish:
+
+ # Bookmark Loc
+ bm_867_iberia:1 "La Disputa per l'Iberia"
+ bm_867_iberia_desc:3 "I vecchi poteri dell'Iberia si stanno sgretolando.\n\nA nord, le Asturie sono piene di vassalli ambiziosi, che aspirano ad essere liberi.\n\nA sud, al-Andalus è forte, ma deve fare i conti con il malcontento. I distretti militari di confine mormorano di indipendenza e gli intrighi tormentano gli Omayyadi al potere.\n\nPotenze straniere affamate guardano con cupidigia le ricche terre dell'Iberia.\n\n#bold Dopo secoli di sviluppo, la $game_concept_iberian_struggle$ entra in una nuova fase, e se finirà nel sangue o nella fratellanza dipenderà da un lancio di dadi."
+ war_867_Vimara_conquest_Portucale:0 "Guerra per la [claim|E] di Vimara su $d_porto$"
+ war_Andalusian_Rebellion:0 "Ribellione del Distretto di Frontiera"
+
+ # Wilfred the Hairy Loc
+ bookmark_fp2_iberia_wilfred_the_hairy:0 "$GuifrE_$ $nick_the_hairy$"
+ bookmark_fp2_iberia_sunyer:0 "$Sunyer$"
+ bookmark_fp2_iberia_bernat_of_gothia:0 "$Bernat$"
+ bookmark_fp2_iberia_wilfred_the_hairy_desc:0 "Quando suo padre e suo zio furono massacrati dal duca di Tolosa, il re franco si appropriò delle loro terre, lasciando $GuifrE_$ e i suoi cugini nell'indigenza.\n\nSono passati vent'anni e la ruota gira. Riconfermato nelle terre del padre, l'intrigante cugino di $GuifrE_$ ha ripreso i suoi diritti di nascita e il suo nuovo signore è un cugino dell'uomo che ha ucciso i loro genitori.\n\n#bold Tu più di tutti sai che la fortuna può cambiare in un batter d'occhio e desideri un premio più sicuro — $d_barcelona$.#!"
+
+# Lupp ibn Musa / Lope Musez
+ bookmark_fp2_iberia_lupp_ibn_musa:1 "$Lubb$ Muzez"
+ bookmark_fp2_iberia_lupp_ibn_musa_desc:0 "La potente dinastia dei Banu Qasi, i Figli di Cassio, un tempo dominava tutta la Valle dell'Ebro. Tuttavia i tempi duri li hanno colpiti sin dai tempi del regno del glorioso padre di $Lubb$, e i Banu Musa, recentemente rinominati, si limitano a mormorare e a leccarsi le ferite dalla loro antica sede di Tudela, tramando per recuperare i loro domini meridionali.\n\n#bold Riuscirai a riconquistare ciò che apparteneva ai Banu Qasi e a riportare la dinastia al suo antico splendore?#!"
+
+ bookmark_fp2_iberia_lubb_ibn_musa_alt_mohamed:0 "Mohamed"
+ bookmark_fp2_iberia_lubb_ibn_musa_alt_oria:0 "Oria"
+
+ #Mendo Guterres of Santiago
+ bookmark_fp2_iberia_mendo_guterres:0 "Conte $Hermenexildo$ Gutierrez"
+ bookmark_fp2_iberia_mendo_guterres_desc:0 "Potente vassallo di re Adelfonso III, $Hermenexildo$ controlla le terre della Galizia meridionale con un'amministrazione irreprensibile. L'indiscutibile lealtà verso il suo monarca lo ha aiutato a espandere il dominio ancestrale della sua famiglia, ma è abbastanza?\n\n#bold Con il crescente interesse verso il Sud, riuscirai a conquistare le terre di Portucale e a dare inizio ad una delle sue dinastie più influenti?#!"
+
+ bookmark_fp2_iberia_mendo_guterres_alt_arias:0 "$Arias$"
+ bookmark_fp2_iberia_mendo_guterres_alt_ermesinda:0 "Hermesinda Gatónez"
+
+ bookmark_fp2_iberia_ibn_marwan:0 "Ibn Marwan"
+ bookmark_fp2_iberia_ibn_marwan_desc:1 "Abd al-Rahman ibn Marwan, canaglia nell'animo, ha un rapporto burrascoso con il suo signore, il sultano Omayyade, ma gode di un forte sostegno da parte dei mozarabi nel suo dominio e, in verità, potrebbe avere più cose in comune con loro e con la loro fede. Si è ritagliato una roccaforte a Badajoz, ma a ovest lo zelante clan dei Banu Danis si oppone sempre più al suo dominio sulla Bassa Marca.\n\n#bold Un'alleanza con Alfonso III, il re delle Asturie, sempre più opportunista, potrebbe aiutarti a conquistare la tua corona?#!"
+ bookmark_fp2_iberia_ibn_marwan_alt_surunbaqi:0 "Emir Sa'dun di Porto"
+ bookmark_fp2_iberia_ibn_marwan_alt_rahman:0 "Abd al-Rahman"
+
+ bookmark_fp2_iberia_adanis_ibn_awsaga:0 "Emiro Adanis"
+ bookmark_fp2_iberia_adanis_ibn_awsaga_desc:0 "Incaricata dal sultano Omayyade di proteggere la costa occidentale dalle incursioni vichinghe, la dinastia berbera dei Banu Danis è cresciuta rapidamente in influenza e potere. L'emiro Adanis ha costruito delle solide fortezze ad Alcácer e Coimbra, ma è preoccupato per i Mozarab sotto il suo dominio, che preferiscono schierarsi con la sua nemesi, Ibn Marwan.\n\n#bold Riuscirai a mettere al sicuro le tue e a guidare i Berberi verso un grande futuro a Al-Andalus?#!"
+ bookmark_fp2_iberia_ibn_awsaga_alt_masud:0 "Mas'ud ibn Adanis"
+ bookmark_fp2_iberia_ibn_awsaga_alt_yahya:0 "Yahya ibn Adanis"

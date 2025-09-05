@@ -1,0 +1,64 @@
+﻿l_spanish:
+ infected_wound_modifier:0 "Ferita Infetta"
+ gangrene_modifier:0 "Cancrena"
+ rejected_from_marriage_bed_modifier:0 "Espulso dal Letto Coniugale"
+ rejected_from_marriage_bed_modifier_desc:0 "Il matrimonio di questo personaggio non produrrà discendenza."
+
+ safe_disease_treatment_success_high_modifier:0 "Riduzione dei Sintomi della Malattia"
+ safe_disease_treatment_success_high_modifier_desc:0 "Il successo del trattamento ha ridotto i sintomi della malattia di questo personaggio."
+ safe_disease_treatment_success_low_modifier:0 "Riduzione dei Sintomi della Malattia"
+ safe_disease_treatment_success_low_modifier_desc:0 "Il successo del trattamento ha ridotto i sintomi della malattia di questo personaggio."
+ safe_disease_treatment_failure_modifier:0 "Peggioramento dei Sintomi della Malattia"
+ safe_disease_treatment_failure_modifier_desc:0 "Un trattamento fallito ha peggiorato i sintomi della malattia di questo personaggio."
+ risky_disease_treatment_success_high_modifier:0 "Sintomi della Malattia Notevolmente Ridotti"
+ risky_disease_treatment_success_high_modifier_desc:0 "Un trattamento di grande successo ha ridotto i sintomi della malattia di questo personaggio."
+ risky_disease_treatment_success_low_modifier:0 "Sintomi della Malattia Notevolmente Ridotti"
+ risky_disease_treatment_success_low_modifier_desc:0 "Un trattamento di grande successo ha ridotto i sintomi della malattia di questo personaggio."
+ risky_disease_treatment_failure_modifier:0 "Trattamento della Malattia Fallito"
+ risky_disease_treatment_failure_modifier_desc:0 "Un trattamento disastroso ha peggiorato i sintomi della malattia di questo personaggio."
+
+ safe_wound_treatment_success_high_modifier:0 "Trattamento Efficace delle Ferite"
+ safe_wound_treatment_success_high_modifier_desc:0 "Un trattamento efficace ha ridotto la gravità della ferita di questo personaggio."
+ safe_wound_treatment_success_low_modifier:0 "Trattamento Efficace delle Ferite"
+ safe_wound_treatment_success_low_modifier_desc:0 "Un trattamento efficace ha ridotto la gravità della ferita di questo personaggio."
+ safe_wound_treatment_failure_modifier:0 "Ferite Peggiorate"
+ safe_wound_treatment_failure_modifier_desc:0 "Un trattamento fallito ha aggravato la ferita di questo personaggio."
+ risky_wound_treatment_success_modifier:0 "Trattamento delle Ferite di Grande Successo"
+ risky_wound_treatment_success_modifier_desc:0 "Un trattamento di grande successo ha ridotto la gravità della ferita di questo personaggio."
+ risky_wound_treatment_failure_modifier:0 "Trattamento della Ferita Fallito"
+ risky_wound_treatment_failure_modifier_desc:0 "Un trattamento disastroso ha peggiorato la gravità della ferita di questo personaggio."
+ recently_maimed_modifier: "Recentemente Mutilato"
+ recently_maimed_modifier_desc: "Questo personaggi è stato ferito gravemente di recente."
+
+ chastised_physician_modifier:0 "Medico Castigato"
+ chastised_physician_modifier_desc:0 "La prossima volta questo medico ci penserà due volte."
+
+ exhausted_modifier:0 "Esausto"
+ exhausted_modifier_desc:0 "L'esaurimento è un pesante fardello per questo personaggio."
+
+ low_social_energy_modifier:0 "Poca Energia Sociale"
+ low_social_energy_modifier_desc:0 "Questo personaggio ha speso la sua energia sociale altrove."
+
+ lunatic_made_of_glass_modifier:0 "Fatto di Vetro"
+ lunatic_made_of_glass_modifier_desc:0 "Questo personaggio è convinto che sia fatto di vetro fragile"
+
+ lunatic_bat_ravings_modifier:0 "Deliri"
+ lunatic_bat_ravings_modifier_desc:0 "Questo personaggio mette regolarmente in guardia le persone sui pipistrelli e afferma di essere sempre pronto ad affrontare il loro attacco.."
+
+ wounds_quickly_tended_to_modifier:0 "Ferite Trattate"
+ wounds_quickly_tended_to_modifier_desc:0 "Le ferite di questo personaggio hanno ricevuto cure urgenti"
+
+ drank_water_modifier:0 "Dissetato"
+ drank_water_modifier_desc:0 "Questo personaggio beveva beatamente acqua fresca in una giornata calda"
+
+ almost_drowned_modifier:0 "Quasi Annegato"
+ almost_drowned_modifier_desc:0 "Questo personaggio è quasi annegato ed è ancora scosso dall'esperienza."
+
+ malnourished_modifier:0 "Malnutrito"
+ malnourished_modifier_desc:0 "Questo personaggio soffre di debolezza, mancanza di energia e umore basso."
+ obese_modifier:0 "Obeso"
+ obese_modifier_desc:0 "Questo personaggio soffre di mancanza di energia, dolori articolari e mancanza di respiro."
+ gaining_weight_modifier:0 "Prendere Peso"
+ gaining_weight_modifier_desc:0 "Questo personaggio sta cercando di aumentare di peso."
+ losing_weight_modifier:0 "Perdere Peso"
+ losing_weight_modifier_desc:0 "Questo personaggio sta cercando di perdere peso."

@@ -1,0 +1,36 @@
+﻿l_spanish:
+ apa_won_at_dice_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Battuto [second.GetShortUIName|U] a Dadi"
+ 
+ apa_good_manners_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Mostrato Buone Maniere"
+ 
+ apa_visited_friends_chapel_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Visitato la Cappella di [host.GetShortUINamePossessive|U]"
+ 
+ apa_mentor_taught_me_title:0 "[second.GetShortUIName|U] ha Imparato Qualcosa da [first.GetShortUIName|U]"
+ 
+ apa_read_a_book_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Letto un Trattato Educativo"
+ 
+ apa_joked_together_title:0 "[first.GetShortUIName|U] e [second.GetShortUIName|U] [Select_CString( first.IsLocalPlayer, 'avete', 'hanno' )] Condiviso una Battuta Divertente"
+ 
+ apa_rescued_kid_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Salvato [second.GetShortUIName|U] da [first.Custom('GetSmallHidingObject')|U]"
+ barrel:0 "un barile"
+ chest:0 "una forziere"
+ cupboard:0 "un armadio"
+ casket:0 "un cofanetto"
+ cabinet:0 "un mobile"
+ 
+ apa_shared_food_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] condiviso il [first.Custom('GetExpensiveDessert')|U] con [second.GetShortUIName|U]"
+ 
+ apa_broke_toy_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Rotto [second.Custom('SmallAnimal')|U] di Legno di [second.GetShortUINamePossessive|U]"
+ 
+ apa_found_gold_stash_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Trovato una Riserva d'Oro"
+ 
+ apa_sang_nice_song_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Cantato una Bella Poesia"
+ 
+ apa_learned_from_kid_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Imparato Qualcosa da [second.GetShortUIName]"
+ 
+ apa_practiced_with_swords_title:0 "[Select_CString(first.IsLocalPlayer,'Ti',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Sei', 'si è' )] Esercitato con la [first.Custom('GetRandomWeapon')|U] mussata"
+ 
+ apa_studied_ledger_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Studiato un Libro Mastro"
+ 
+ apa_had_charming_convo_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Avuto una Conversazione Affascinante con [second.GetShortUIName|U]"
+ 

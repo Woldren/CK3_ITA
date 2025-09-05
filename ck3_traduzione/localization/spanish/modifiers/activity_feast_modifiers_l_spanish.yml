@@ -1,0 +1,120 @@
+﻿l_spanish:
+ feast_strategy_discussions_modifier:0 "Discussioni sulla Strategia"
+ feast_strategy_discussions_modifier_desc:1 "Discutere le strategie con comandanti esperti si è rivelato fruttuoso per questo personaggio."
+ feast_cavalry_insight_modifier:0 "Idee sulla Cavalleria"
+ feast_cavalry_insight_modifier_desc:1 "Elaborare strategie teoriche ha fornito a questo personaggio molte idee su come usare in modo più efficiente la sua cavalleria."
+ feast_heavy_infantry_insight_modifier:0 "Idee sulla Cavalleria Pesante"
+ feast_heavy_infantry_insight_modifier_desc:1 "La pianificazione di strategie teoriche ha fornito a questo personaggio dell'idee su come utilizzare la sua fanteria pesante in modo più efficace."
+ feast_skirmishers_insight_modifier:0 "Idee sugli Schermagliatori"
+ feast_skirmishers_insight_modifier_desc:1 "Elaborare strategie teoriche ha fornito a questo personaggio dell'idee su come utilizzare in modo più efficiente i suoi schermagliatori."
+ feast_archers_insight_modifier:0 "Idee sugli Arceri"
+ feast_archers_insight_modifier_desc:1 "Elaborare strategie teoriche ha fornito a questo personaggio dell'idee su come utilizzare in modo più efficiente i suoi arcieri."
+ feast_pikemen_insight_modifier:0 "Idee sui Picchieri"
+ feast_pikemen_insight_modifier_desc:1 "Le strategie teoriche hanno fornito a questo personaggio delle idee su come usare i suoi picchieri in modo più efficace."
+ feast_better_safe_than_sorry_modifier:0 "Meglio Prevenire che Curare"
+ feast_better_safe_than_sorry_modifier_desc:1 "A questo personaggio piace valutare la situazione e assicurarsi di essere preparato a tutte le eventualità."
+ feast_overly_safe_rather_than_sorry_modifier:0 "Meglio prevenire che curare"
+ feast_overly_safe_rather_than_sorry_modifier_desc:1 "A questo personaggio piace valutare la situazione e assicurarsi di essere preparato a tutte le eventualità. #EMP Tutte#! le eventualità."
+ feast_silenced_a_disruptive_guest:0 "Un ospite inquietante messo a tacere"
+ feast_bad_reaction_to_food:0 "Brutta Reazione al Cibo"
+ feast_had_good_fight_modifier:0 "Abbiamo combattuto bene"
+ feast_loyal_servantry_modifier:0 "Servitù Leale"
+
+ i_am_corteous_guest_modifier:0 "Padrone di Casa Cortese"
+ i_am_corteous_guest_modifier_desc:1 "Questo personaggio è eccezionalmente cortese e premuroso nei confronti del proprio ospite, ovunque si trovi."
+
+ feast_higher_standards_modifier:0 "Standard di Cortesia più Elevati"
+ feast_higher_standards_modifier_desc:0 "Ci sono certe cose in cui un nobile dovrebbe essere molto bravo."
+
+ feast_scholarly_confidence_modifier:0 "Fiducia Accademica"
+ feast_scholarly_confidence_modifier_desc:0 "Non è arroganza se è vero."
+
+ feast_gratifying_complaints_modifier:0 "Proteste Gratificanti"
+ feast_gratifying_complaints_modifier_desc:0 "È immensamente catartico lamentarsi quando le cose vanno leggermente male."
+
+ feast_life_reaffirmed_modifier:0 "Gusto per la Vita Riaffermato"
+ feast_life_reaffirmed_modifier_desc:1 "Un incontro casuale con un pasto ad una festa ha riacceso la passione di questo personaggio per la vita."
+
+ feast_reinvigorated_by_friend_modifier:0 "Rinvigorente Amicizia"
+ feast_reinvigorated_by_friend_modifier_desc:0 "Trascorrere del tempo con chi si prende cura di noi è una delle cose che rende la vita degna di essere vissuta."
+
+ feast_practiced_secrecy_modifier:0 "Pratica della Segretezza"
+ feast_practiced_secrecy_modifier_desc:0 "Ci vuole molto talento perché certe cose passino inosservate."
+
+ feast_showed_great_restraint_modifier:0 "Capacità di Moderazione"
+ feast_showed_great_restraint_modifier_desc:0 "È importante sapere quando indulgere e quando fare sacrifici."
+
+ feast_bad_form_with_rival_modifier:0 "Banchetto Rovinato dal Rivale"
+ feast_bad_form_with_rival_modifier_desc:0 "Il mondo sarebbe stato un posto perfetto senza #EMP un certa persona.#!"
+
+ feast_had_interesting_conversation_modifier:0 "Una Conversazione Interessante"
+ feast_had_interesting_conversation_modifier_desc:0 "Una buona discussione su un argomento interessante ti fa davvero riflettere."
+
+ feast_bought_more_drink_modifier:0 "Ho Combattuto la Sete"
+ feast_bought_more_drink_modifier_desc:0 "Dare ai tuoi ospiti abbastanza da bere è il compito di un buon padrone di casa!"
+
+ feast_good_food_modifier:0 "Mangiato Cibo Squisito"
+ feast_good_food_modifier_desc:0 "Mangiare cibo molto gradevole fa bene sia alla mente che all'anima!"
+
+ feast_household_efforts_modifier:0 "Sforzi della Casa"
+ feast_household_efforts_modifier_desc:1 "Il padrone di casa di questo personaggio svolge un lavoro esemplare nella gestione del rapporto tra gli ospiti e la corte."
+
+ feast_raucous_entertainment_modifier:0 "Buon Divertimento"
+ feast_raucous_entertainment_modifier_desc:0 "Una bella risata allunga la vita, fintanto che non siamo l'oggetto dello scherzo."
+
+ feast_suspicious_of_food_modifier:0 "Sospettoso del Cibo"
+ feast_suspicious_of_food_modifier_desc:0 "Una volta cucinato, controlla che tutto il cibo sia ben cotto due volte."
+
+ feast_display_of_ruthlessness_modifier:0 "Manifestazione Pubblica di Inflessibilità"
+ feast_display_of_ruthlessness_modifier_desc:1 "Mostrando un cuore freddo e una volontà d'acciaio di fronte agli altri, questo personaggio ha lasciato una buona impressione."
+
+ feast_bird_based_exercise_modifier:0 "Esercizio Basata sugli Uccelli"
+ feast_bird_based_exercise_modifier_desc:0 "Questo personaggio ha inventato un nuovo modo interessante per praticare la resistenza."
+
+ feast_livestock_at_feast_modifier:0 "Festa Animata"
+ feast_livestock_at_feast_modifier_desc:0 "La festa non ha davvero inizio finché il bestiame non si unisce alla tavola."
+
+ feast_spilled_stew_modifier:0 "Stufato Versato"
+ feast_spilled_stew_modifier_desc:0 "Questo personaggio ha generosamente ospitato un banchetto che nuotava letteralmente nel cibo."
+
+ feast_blew_off_steam_modifier:0 "Mi Sento Sollevato"
+ feast_blew_off_steam_modifier_desc:0 "Questo personaggio non si sentiva così riposato ed energico da molto tempo!"
+
+ feast_hearty_diet_modifier:0 "Dieta Sostanziosa"
+ feast_hearty_diet_modifier_desc:0 "Un pasto sano può curare la malattia più grave."
+
+ feast_obsessed_with_garum_modifier:0 "Amo il Garum"
+ feast_obsessed_with_garum_modifier_desc:0 "È buono con tutto!"
+ 
+ feast_moonlight_shadow_modifier:0 "Ombra al Chiaro di Luna"
+ feast_moonlight_shadow_modifier_desc:0 "Hai certamente portato via delle cose."
+
+ feast_observed_modifier:0 "Rilevato"
+ feast_observed_modifier_desc:0 "I peli sulla tua nuca non erano sbagliati.."
+
+ feast_honorable_soul_modifier:0 "Anima Onorevole"
+ feast_honorable_soul_modifier_desc:0 "Hai resistito all'impulso di rubare."
+
+ feast_truth_bender_modifier:0 "Piegatore di Verità"
+ feast_truth_bender_modifier_desc:0 "Hai modificato la realtà. Solo un pizzico."
+
+ feast_untruthful_modifier:0 "Bugiardo"
+ feast_untruthful_modifier_desc:0 "Si dice che tu stia dicendo cose non vere."
+
+ feast_came_clean_modifier:0 "Venuto Pulito"
+ feast_came_clean_modifier_desc:0 "Tutti hanno dei problemi - confessare la verità ha trasformato la tua debolezza in una forza."
+ 
+ feast_admitted_to_theft_modifier:0 "Ha Confessato di Aver Rubato"
+ feast_admitted_to_theft_modifier_desc:0 "Un comportamento così misero."
+
+ feast_dutiful_ruler_modifier:0 "Sovrano Coscienzioso"
+ feast_dutiful_ruler_modifier_desc:0 "Hai fatto in modo che il vero colpevole fosse assicurato alla giustizia."
+ 
+ feast_benevolent_ruler_modifier:0 "Sovrano Benevolo"
+ feast_benevolent_ruler_modifier_desc:0 "Hai mostrato perdono."
+
+ feast_sneakily_defaced_artifact_modifier:0 "Manufatto Danneggiato"
+ feast_sneakily_defaced_artifact_modifier_desc:0 "Hai danneggiato furtivamente un manufatto."
+
+ feast_7201_goh_honoured_modifier:0 "Molto Stimato"
+ feast_7201_goh_honoured_modifier_desc:0 "Questo personaggio è stato pubblicamente onorato in occasione di un banchetto nobiliare."

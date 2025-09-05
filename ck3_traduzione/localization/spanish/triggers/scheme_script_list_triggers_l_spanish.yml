@@ -1,0 +1,21 @@
+﻿l_spanish:
+
+ ALL_SCHEMES:0 "Tutti i Complotti:"
+ ANY_SCHEME:0 "Qualsiasi Complotto:"
+ ALL_OF_MY_SCHEMES:1 "Tutti i tuoi Complotti:"
+ ANY_OF_MY_SCHEMES:1 "Qualsiasi tuo Complotto:"
+ ALL_OF_THEIR_SCHEMES:0 "Tutti i Complotti per [CHARACTER.GetShortUINamePossessive]:"
+ ANY_OF_THEIR_SCHEMES:0 "Qualsiasi Complotto per [CHARACTER.GetShortUINamePossessive]:"
+
+ ALL_SCHEME_AGENTS:0 "Tutti gli Agenti del Complotto per [SCHEME.GetFullActionName]:"
+ ANY_SCHEME_AGENT:0 "Qualsiasi Agente del Complotto per [SCHEME.GetFullActionName]:"
+ scheme_progress_trigger:0 "Progressi del Complotto"
+ scheme_success_chance_trigger:0 "Possibilità di successo del complotto"
+ has_scheme_modifier_trigger:0 "Ha un modificatore del complotto"
+ can_start_scheme_trigger:0 "Può iniziare un [scheme|E]"
+ is_scheme_exposed_trigger:0 "È un [scheme|E] rivelato"
+
+ NOT_WANTS_TO_BE_SOULMATES:0 "[TARGET_CHARACTER.GetShortUIName] non vuole essere l'anima gemella"
+
+ IS_SCHEMING_AGAINST_TRIGGER: "Sta [scheming|E] contro questo personaggio"
+ AGENT_SLOT_CONTRIBUTION_TRIGGER: "Contributo dell'Agente"

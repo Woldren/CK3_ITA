@@ -1,0 +1,27 @@
+﻿l_spanish:
+ title_event_francia_name_change.title:0 "La Fine di un'Era"
+ title_event_francia_name_change.desc:0 "Il regno della dinastia Carolingia è giunto al termine!\n\nIl [francia_title.GetName] è finalmente sfuggito alla loro presa. Ora che i Carolingi sono stati rimossi, queste terre non fanno più davvero parte del loro vecchio impero.\n\nCon me come futur[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], ci attende un nuovo e radioso destino. È quindi semplicemente giunto rimuovere #EMP ogni#! ricordo della loro influenza. Incluso il loro stesso #EMP nome#!!"
+ title_event_francia_name_change.a:0 "Una nuova era ha inizio!"
+ title_event_francia_name_change.a_tt_1:0 "Il [francia_title.GetName] cambia nome in #high $k_france$#!"
+ title_event_francia_name_change.a_tt_2:0 "Il [francia_title.GetName] cambia nome in #high $k_germany$#!"
+ 
+ title_event.0012.t:0 "Dividere la Corona"
+ title_event.0012.desc:0 "Con la creazione del/della [castille.GetName], e il trono del vecchi[asturias.Custom('DE_END_PRO_S_N')] [asturias.GetBaseNameNoTier] vacante, il Regno di Pelagio è stato finalmente superato. Le sue vestigia saranno per per sempre conosciute come [leon.GetBaseNameNoTier], almeno fino a quando anche questa non sarà eclissato dall'ascesa di [castille.GetBaseNameNoTierNoTooltip]."
+ title_event.0012.a:0 "Come dovrebbe essere."
+
+ title_event.0013.t:0 "$title_event.0012.t$"
+ title_event.0013.desc:0 "Ora che detengo i troni, sia di [asturias.GetBaseNameNoTier] che di un/una distinto/a [castille.GetBaseNameNoTier], l'idea di una [asturias.GetNameNoTooltip] unificata è considerata da molti un po' confusa e un po' ridondante.\n\nInvece, sia i nobili che i popolani hanno iniziato a riferirsi alla metà occidentale delle mie terre alludendo alla parte interna dominante, [leon.GetBaseNameNoTier]."
+ title_event.0013.a:0 "Due corone sono meglio di una!"
+
+ title_event.0014.t:0 "$title_event.0012.t$"
+ title_event.0014.desc:0 "La recente formazione di una [castille.GetBaseName] indipendente, governata da [castille_char.Custom2('MyCharacterIntroduction' leon_char)], ha mandato in frantumi la pretesa del mio regno di essere il/la [asturias.GetBaseName].\n\nAvendo perso le nostre terre orientali, siamo dominati dall'entroterra di [leon.GetBaseNameNoTier], e la gente di ogni classe e setta sta lasciando cadere in disuso il vecchio titolo."
+ title_event.0014.a:0 "Divisori!"
+ title_event.0014.b:0 "Un giorno riavremo quelle terre..."
+ title_event.0014.c:0 "Huzzah! Un intero #EMP regno#! di compagni!"
+
+ title_event.0015.t:0 "$title_event.0012.t$"
+ title_event.0015.desc:0 "Con la recente creazione di [castille.GetBaseName], [leon_char.Custom2('MyCharacterIntroduction', castille_char)] non si può più dire che governi veramente un/una [asturias.GetBaseNameNoTier] unita.\n\nSenza la forza equilibratrice delle mie terre a est, il/la vecchio/a [asturias.GetBaseNameNoTierNoTooltip] è davvero poco più di un/una [leon.GetBaseName]. I contadini, il clero e persino i nobili hanno iniziato a chiamarlo/a così, con mio grande dispiacere."
+ title_event.0015.a:0 "Il potere è tornato dove avrebbe dovuto sempre essere."
+ title_event.0015.b:0 "Oggi, Castiglia. Domani, #EMP Leone#!."
+ title_event.0015.c:0 "Possiamo essere divisi nel governo, ma siamo uniti dal sangue!"
+

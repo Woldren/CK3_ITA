@@ -1,0 +1,24 @@
+﻿l_spanish: 
+ SITUATION_TOOLTIP_INVOLVEMENT: "[Character.Custom('IT_NAM_COL3')|U][Character.GetShortUINameNoTooltip|U] [Select_CString( Character.IsLocalPlayer, 'fai', 'fa' )] parte del gruppo #EMP [Situation.GetParticipantGroupByCharacter( Character.Self ).GetNameNoTooltip]#! in questa [situation|e].\n$SITUATION_START_DATE$"
+ SITUATION_START_DATE: "#weak Data di Inizio della Situazione: #! [Situation.GetStartDate.GetStringLong]"
+ SITUATION_TOOLTIP_CURRENT_PHASE: "Fase Attuale: [SituationPhase.GetName]"
+ SITUATION_PARTICIPATION_WINDOW_HEADER: "Partecipanti alla Situazione"
+ SITUATION_PARTICIPANTS: "Partecipanti"
+ SITUATION_PARTICIPATION_WINDOW_PARTICIPANT_DESC: ""
+ SITUATION_PARTICIPATION_WINDOW_GROUP_ALL: "Tutti"
+
+ SITUATION_CURRENT_PHASE: "[situation_phase|E] attuale: #HIGH [Situation.GetCurrentPhase.GetName]#!"
+ SITUATION_PHASE_ENDS_IN: "#EMP Termina in [Situation.GetCurrentPhase.GetEndDate.GetTimeToDate]#!"
+
+ SITUATION_PHASE_PARTICIPANT_END_INDENT: "#!"
+ SITUATION_PHASE_PARTICIPANT_ALL_GROUP_SUFFIX: " #weak (Tutti i Partecipanti)#!"
+ SITUATION_PHASE_PARTICIPANT_YOUR_GROUP_SUFFIX: " #weak (Il Tuo Gruppo)#!"
+ SITUATION_PHASE_PARTICIPANT_INVOLVEMENT: "[Character.Custom('IT_NAM_COL3')|U][Character.GetShortUINameNoTooltip|U] [Select_CString( Character.IsLocalPlayer, 'fai', 'fa' )] parte del #S [SituationParticipantGroup.GetNameNoTooltip]#! della [Situation.GetNameNoTooltip]"
+ SITUATION_PHASE_PARTICIPANT_ALL_EFFECTS: "#indent_newline:2 #S Effetti Comuni:#!"
+ SITUATION_PHASE_PARTICIPANT_GROUP_EFFECTS: "#indent_newline:2 #S Effetti sul [SituationParticipantGroup.GetName]:#!"
+ SITUATION_PHASE_CULTURE_DOCTRINE_EFFECTS: "#indent_newline:2 $CHARACTERS_OF_CULTURE_DOCTRINE_MODIFIER$"
+
+ SITUATION_START_EVENT_DESC: "#high Fai parte del gruppo [Situation.GetParticipantGroupByCharacter( Character.Self ).GetNameNoTooltip] nella [the_great_steppe|E].#!"
+ SITUATION_START_EVENT_DETAIL_TITLE: "Ispeziona ogni icona per visualizzare i dettagli della [situation|E]."
+
+ SITUATION_INFO_WIDGET_DEBUG: ""

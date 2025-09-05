@@ -1,0 +1,8 @@
+﻿l_spanish:
+ SETTING_REFRACTION:0 "Rifrazione"
+ SETTING_REFRACTION_QUALITY:0 "Qualità di Rifrazione"
+ SETTING_MAPOBJECT_QUALITY:0 "Oggetti della Mappa"
+ SETTING_MAP_SSAO:0 "Mappa SSAO"
+ SETTING_DOF:0 "Profondità di campo"
+ SETTING_LENS_FLARE:0 "Riflessi dell'obiettivo"
+ SETTING_SECONDARY_LENS_FLARE:0 "Riflessi dell'obiettivo secondario"

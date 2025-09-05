@@ -1,0 +1,122 @@
+﻿l_spanish:
+ ### Battle Poi - BP3
+ TRAVEL_POINT_OF_INTEREST_TT_poi_battles: "#T La Battaglia di $BattlePoiProvince$#!\n$BattlePoiInfo$\n$BattlePoiDescription$\n\n"
+ BattlePoiInfo: "#emp $BattlePoiVictoriousSide$\n$BattlePoiLosingSide$\n$BattlePoiDate$#!"
+ BattlePoiVictoriousSide: "Vincitore: [Province.MakeScope.Var('battle_poi_winner').Char.GetName]"
+ BattlePoiLosingSide: "Sconfitto: [Province.MakeScope.Var('battle_poi_loser').Char.GetName]"
+ BattlePoiDate: "Data: [Province.Custom('OrdinalIndicatorPoI')] di [Province.Custom('MonthBattlePoI')], [Province.MakeScope.Var('battle_poi_date_year').GetValue] D.C."
+ BattlePoiDescription: "#weak [Province.Custom('BattlePoIDescriptionLocIntro')] [Province.Custom('BattlePoIDescriptionLocMid')] [Province.Custom('BattlePoIDescriptionLocOutcome')] [Province.Custom('BattlePoIDescriptionLocOutro')]#!"
+
+
+ poi_battles.visit: "Ha Visitato il Sito della Battaglia di [province.GetNameNoTooltip]"
+ poi_battles.learn: "Ha Appreso dalla Battaglia di [province.GetNameNoTooltip]"
+ OrdinalIndicatorPoIST: "[Province.MakeScope.Var('battle_poi_date_day').GetValue]mo"
+ OrdinalIndicatorPoIND: "[Province.MakeScope.Var('battle_poi_date_day').GetValue]ndo"
+ OrdinalIndicatorPoIRD: "[Province.MakeScope.Var('battle_poi_date_day').GetValue]rzo"
+ OrdinalIndicatorPoIFallback: "[Province.MakeScope.Var('battle_poi_date_day').GetValue]rto"
+
+ BattlePoiProvince: "[Province.GetNameNoTooltip]"
+
+ BattlePoiCommander: "[Province.MakeScope.Var('battle_poi_winner').Char.GetTitledFirstNameNoTooltip]"
+ BattlePoiCommanderHisHer: "le sue"
+ BattlePoiCommanderCulture: "[Province.MakeScope.Var('battle_poi_winner').Char.GetCulture.GetNameNoTooltip]"
+ BattlePoiEnemyCommander: "[Province.MakeScope.Var('battle_poi_loser').Char.GetTitledFirstNameNoTooltip]"
+ BattlePoiEnemyCommanderSheHe: "[Province.MakeScope.Var('battle_poi_loser').Char.GetSheHe]"
+ BattlePoiEnemyCommanderHisHer: "le sue"
+ BattlePoiEnemyCommanderCulture: "[Province.MakeScope.Var('battle_poi_loser').Char.GetCulture.GetNameNoTooltip]"
+
+ BattlePoiBraveKnight: "[Province.MakeScope.Var('battle_poi_brave_knight').Char.GetName]"
+
+ # Intro
+ BattlePoiDescriptionIntro1: "I due versanti si scontrarono a $BattlePoiProvince$, uno guidato da $BattlePoiCommander$ e l'altro da $BattlePoiEnemyCommander$."
+ BattlePoiDescriptionIntroAttacker2: "$BattlePoiCommander$ lanciò un'offensiva formidabile contro l'esercito di $BattlePoiEnemyCommander$."
+ BattlePoiDescriptionIntroDefender2: "$BattlePoiCommander$ organizzò una difesa esperta contro l'esercito incombente di $BattlePoiEnemyCommander$."
+ BattlePoiDescriptionIntroAttackerFallback: "$BattlePoiCommander$ guidò le sue truppe coraggiosamente in una carica contro l'armata $BattlePoiEnemyCommanderCulture$ di $BattlePoiEnemyCommander$."
+ BattlePoiDescriptionIntroDefenderFallback: "$BattlePoiCommander$ guidò le sue truppe coraggiosamente nella difesa contro l'armata $BattlePoiEnemyCommanderCulture$ di $BattlePoiEnemyCommander$."
+
+ # Key Moment
+ BattlePoiDescriptionLocArchers: "Il momento chiave della battaglia fu quando gli arcieri dell'armata $BattlePoiCommanderCulture$ riuscirono ad aggirare il nemico, "
+ BattlePoiDescriptionLocHeavyInfantry: "L'esito della battaglia fu deciso quando un reggimento di fanteria pesante $BattlePoiCommanderCulture$ si fece largo tra le linee nemiche,"
+ BattlePoiDescriptionLocLightCavalry: "Il risultato fu deciso quando la cavalleria $BattlePoiCommanderCulture$ riuscì ad aggirare le truppe nemiche,"
+ BattlePoiDescriptionLocHeavyCavalry: "La battaglia giunse al termine quando la cavalleria $BattlePoiCommanderCulture$ si aprì un varco tra le linee nemiche e penetrò nel cuore della loro formazione,"
+ BattlePoiDescriptionLocPikemen: "La loro vittoria fu assicurata quando i picchieri dell'armata $BattlePoiCommanderCulture$ respinsero la carica nemica,"
+ BattlePoiDescriptionLocArchersKnight: "Il momento chiave della battaglia fu qunado gli arcieri dell'armata $BattlePoiCommanderCulture$ guidati da $BattlePoiBraveKnight$ riuscirono ad aggirare il nemico, "
+ BattlePoiDescriptionLocHeavyInfantryKnight: "L'esito della battaglia fu deciso quando un reggimento di fanteria pesante $BattlePoiCommanderCulture$ guidato da $BattlePoiBraveKnight$ si fece largo tra le linee nemiche,"
+ BattlePoiDescriptionLocLightCavalryKnight: "Il risultato fu deciso quando la cavalleria $BattlePoiCommanderCulture$ guidata da $BattlePoiBraveKnight$ riuscì ad aggirare le truppe nemiche,"
+ BattlePoiDescriptionLocHeavyCavalryKnight: "La battaglia giunse al termine quando la cavalleria $BattlePoiCommanderCulture$ guidata da $BattlePoiBraveKnight$ si aprì un varco tra le linee nemiche e penetrò nel cuore della loro formazione,"
+ BattlePoiDescriptionLocPikemenKnight: "La loro vittoria fu assicurata quando i picchieri dell'armata $BattlePoiCommanderCulture$ guidati da $BattlePoiBraveKnight$ respinsero la carica nemica,"
+ BattlePoiDescriptionLocVarangian: "La battaglia giunse al termine quando un gruppo di variaghi guidati da $BattlePoiBraveKnight$ respinsero le linee nemiche e si aprirono un farco nella loro formazione,"
+ BattlePoiDescriptionLocBerserker: "La battaglia prese una piega inaspettata quando $BattlePoiBraveKnight$ penetro tra le linee dell'armata $BattlePoiEnemyCommanderCulture$,"
+ BattlePoiDescriptionLocMidFallback: "Si sfinirono a vicenda, e alla fine, l'armata $BattlePoiCommanderCulture$ accerchiò il nemico"
+
+ # Outcome
+ BattlePoiDescriptionLocOutcomeBerserker: "face a pezzi il morale dei nemici uccidendo da solo diverse dozzine di guerrieri,"
+ BattlePoiDescriptionLocOutcomeBerserkerFled: "e fece a pezzi il morale dei nemici uccidendo da solo diverse dozzine di guerrieri."
+ BattlePoiDescriptionLocOutcomeDevastation: "sconfisse i propri nemici,"
+ BattlePoiDescriptionLocOutcomeDevastationFled: "e distrusse l'esercito nemico."
+ BattlePoiDescriptionLocOutcomeChaos: "inflisse pesanti perdite tra i loro avversari,"
+ BattlePoiDescriptionLocOutcomeChaosFled: "e inflisse pesanti perdite tra i loro avversari."
+ BattlePoiDescriptionLocOutcomeLoss: "fece a pezzi il morale dei propri nemici,"
+ BattlePoiDescriptionLocOutcomeLossFled: "e fece a pezzi il morale dei propri nemici."
+
+ # Outro
+ BattlePoiDescriptionLocOutroImprisoned: "e catturò $BattlePoiEnemyCommander$."
+ BattlePoiDescriptionLocOutroSlain: "e uccise $BattlePoiEnemyCommander$."
+ BattlePoiDescriptionLocOutroFledChaos: "In mezzo al caos $BattlePoiEnemyCommander$ riuscì a fuccidere assieme ai sui seguaci più stretti."
+ BattlePoiDescriptionLocOutroFledOrganized: "Nonostante le perdite significative, $BattlePoiEnemyCommander$ riuscì ad organizzare una ritirata strategica."
+
+
+ MonthBattlePoIJanuary: "Gennaio"
+ MonthBattlePoIFebruary: "Febbraio"
+ MonthBattlePoIMarch: "Marzo"
+ MonthBattlePoIApril: "Aprile"
+ MonthBattlePoIMay: "Maggio"
+ MonthBattlePoIJune: "Giugno"
+ MonthBattlePoIJuly: "Luglio"
+ MonthBattlePoIAugust: "Agosto"
+ MonthBattlePoISeptember: "Settembre"
+ MonthBattlePoIOctober: "Ottobre"
+ MonthBattlePoINovember: "Novembre"
+ MonthBattlePoIDecember: "Dicembre"
+
+ # Historical Battles
+ TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical: "#T $TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_name$#!\n$TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_desc$\n\n"
+ 
+ TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_name: "[Province.Custom('BattlePoiNameHistorical')]"
+ TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_desc: "[Province.Custom('BattlePoIDescriptionHistorical')]"
+
+ travel_point_historical_name_visit_message: "[ROOT.Char.GetCurrentLocation.Custom('BattlePoiNameHistorical')]"
+
+
+ BattlePoIHistoricalNameTours: "La Battaglia di Tours"
+ BattlePoIHistoricalDescTours: "#emp Vincitore: [GetScriptedCharacterByHistoryID( '131721' ).GetFirstNameNicknamed]\nSconfitto: Abd al-Rahman al-Ghafiqi\nData: 10 Ottobre 732 d.C.#!\n#weak La battaglia in cui Carlo 'il Martello' respinse l'invasione Omayyade della Francia, presso i fiumi Clain e Vienne. Si dice che gli uomini di Carlo siano stati immobili come un muro, abbattendo la cavalleria pesante Omayyade che li stava caricando. Dopo aver rintracciato il comandante nemico e averlo ucciso, gli avversari fuggirono dal campo.#!"
+
+ BattlePoIHistoricalNameLechfeld: "La Battaglia di Lechfeld"
+ BattlePoIHistoricalDescLechfeld: "#emp Vincitore: [GetScriptedCharacterByHistoryID( '1282' ).GetTitledFirstName]\nSconfitto: [GetScriptedCharacterByHistoryID( '460' ).GetFirstName] [GetScriptedCharacterByHistoryID( '460' ).GetDynastyName]\nData: 10 Agosto 955 d.C.#!\n#weak Una brutale battaglia tra le forze del Re Sassone Ottone e quelle Ungheresi. Dopo perdite devastanti da entrambe le parti, gli Ungheresi fuggirono mentre stavano per essere circondati e videro il corso della battaglia volgersi contro di loro.\n\nAl termine della battaglia, molti dei comandanti Ungheresi furono catturati e giustiziati e la minaccia Magiara all'Europa Occidentale ebbe finalmente fine.#!"
+
+ BattlePoIHistoricalNameHastings: "La Battaglia di Hastings"
+ BattlePoIHistoricalDescHastings: "#emp Vincitore: [GetScriptedCharacterByHistoryID( '140' ).GetFirstName] [GetScriptedCharacterByHistoryID( '140' ).GetDynastyName]\nSconfitto: [GetScriptedCharacterByHistoryID( '122' ).GetFullName]\nData: 14 Ottobre 1066 d.C.#!\n#weak La battaglia di Hastings è stata una delle battaglie chiave per l'ascesa al potere di Guglielmo sull'Inghilterra. Costretto a combattere in salita, l'esercito Normanno faticava a progredire ed ad un certo punto iniziò a ritirarsi, ma Guglielmo riuscì a riorganizzare un contrattacco contro le truppe Inglesi.\n\nSopraffatto dalle forze nemiche, Aroldo morì insieme ai suoi due fratelli [GetScriptedCharacterByHistoryID( '132' ).GetFirstNameNoTooltip] e [GetScriptedCharacterByHistoryID( '130' ).GetFirstNameNoTooltip], lasciando vacante il trono Inglese.#!"
+
+ BattlePoIHistoricalNameStamfordBridge: "La Battaglia di Stamford Bridge"
+ BattlePoIHistoricalDescStamfordBridge: "#emp Vincitore: [GetScriptedCharacterByHistoryID( '122' ).GetFullName]\nSconfitto: [GetScriptedCharacterByHistoryID( '102531' ).GetNameNicknamed]\nData: 25 Settembre 1066 d.C.#!\n#weak La Battaglia di Stamford Bridge è stata una delle battaglie chiave tra i tre contendenti al trono Inglese, Guglielmo di Normandia, Harald di Norvegia, e Harold d'Inghilterra. Accorrendo da Nord con i suoi uomini, Harold riuscì a sorprendere le truppe Norvegesi ed a costringerle a una battaglia alla quale non erano preparate.\n\nHarald fu ucciso da una freccia che gli trapassò la trachea, e anche il suo alleato Inglese [GetScriptedCharacterByHistoryID( '124' ).GetFirstNameNoTooltip], fratello di Harold, fu ucciso. L'esercito Norvegese, privo dei suoi comandanti, fu annientato all'indomani della battaglia.#!"
+
+ BattlePoIHistoricalNameManzikert: "La Battaglia di Manzikert"
+ BattlePoIHistoricalDescManzikert: "#emp Vincitore: [GetScriptedCharacterByHistoryID( '3040' ).GetFirstName] [GetScriptedCharacterByHistoryID( '3040' ).GetDynastyName]\nSconfitto: [GetScriptedCharacterByHistoryID( '1734' ).GetFullName]\nData: 26 Agosto 1071 d.C.#!\n#weak Incoronato Imperatore dell'Impero Bizantino nel 1068 d.C., Romanos condusse una campagna contro le incursioni Turche in Anatolia. Dopo un qualche sporadico successo, cercò di ottenere una vittoria decisiva in una battaglia contro Arp Arslan dell'Impero Selgiuchide vicino a Manzikert.\n\nTradito da uno dei suoi comandanti, che si era ritirato con gran parte del suo esercito, Romanos fu catturato dalle truppe Musulmane. In seguito, benché fosse stato liberato dal suo nemico, fu deposto, accecato, esiliato e morì per le ferite riportate.#!"
+
+ BattlePoIHistoricalNameYarmuk: "La Battaglia di Yarmuk"
+ BattlePoIHistoricalDescYarmuk: "#emp Vincitore: [GetScriptedCharacterByHistoryID( '163015' ).GetFullName]\nSconfitto: [GetScriptedCharacterByHistoryID( '145071' ).GetFullName]\nData: 20 Agosto 636 d.C.#!\n#weak La Battaglia di Yarmuk è una delle battaglie più importanti della storia Bizantina. Una sconfitta decisiva che condusse alla perdita della Siria e dell'Egitto e alla grande espansione dell'Impero Arabo.\n\nLa battaglia, che durò 6 giorni, sembrava inizialmente essere a sfavore degli invasori Musulmani, ma all'alba del quinto giorno Yarmuk cambiò la sua strategia passando da una difensiva ad una offensiva. Il sesto giorno, lanciò la sua cavalleria in un'audace carica che spezzò l'esercito Bizantino.\n\nCon il morale a pezzi, i soldati Bizantini furono spinti verso i burroni, annegarono o vennnero schiacciati dai soldati nemici mentre fuggivano dal campo di battaglia.#!"
+
+ BattlePoIHistoricalNameDandanaqan: "La Battaglia di Dandanaqan"
+ BattlePoIHistoricalDescDandanaqan: "#emp Vincitore: [GetScriptedCharacterByHistoryID( '3036' ).GetFullName]\nSconfitto: [GetScriptedCharacterByHistoryID( '144129' ).GetFullName]\nData: 23 Maggio 1040 d.C.#!\n#weak Un'importante battaglia tra la crescente potenza Selgiuchide della Persia Settentrionale e l'Impero Ghaznavide. Dopo aver sconfitto le forze Selgiuchidi nelle battaglie iniziali, i Ghaznavidi iniziarono a litigare per il bottino che si erano lasciati alle spalle.\n\nDisorganizzati e impreparati alla battaglia, furono colti di sorpresa dal ritorno delle forze Selgiuchidi. Stremate, affamate e demoralizzate, le forze Ghaznavidi furono annientate dai loro avversari.#!"
+
+ BattlePoIHistoricalNameAror: "La Battaglia di Aror"
+ BattlePoIHistoricalDescAror: "#emp Vincitore: Muhammad ibn al-Qasim\nSconfitto: Raja Dahir\nData: 711 d.C.#!\n#weak Una battaglia dell'invasione Omayyade dell'India, tra il Raja di Sindh e l'Impero Omayyade.\n\nSebbene i suoi avversari fossero in origine più numerosi, il comandante Omayyade riuscì ad ottenere una posizione migliore per il suo esercito prima di impegnarsi nella battaglia. Nel corso del conflitto, questo squilibrio portò le forze Musulmane a prendere lentamente il controllo del corso della battaglia e, con la morte di Raja Dahir, ad assicursi la vittoria.#!"
+
+ BattlePoIHistoricalNameSvolder: "La Battaglia di Svolder"
+ BattlePoIHistoricalDescSvolder: "#emp Vincitore: [GetScriptedCharacterByHistoryID( '101505' ).GetFullName]\nSconfitto: [GetScriptedCharacterByHistoryID( '144004' ).GetFullName]\nData: 9 Settembre 999 d.C.#!\n#weak Una battaglia tra le forze Norvegesi di Olafr Tryggvason da una parte e una coalizione di forze Danesi e Svedesi guidate dal Re Sveinn di Danimarca dall'altra.\n\nSebbene in massiccia inferiorità numerica, il Re Norvegese si rifiutò di fuggire di fronte alla coalizione ostile e ingaggiò battaglia con gli Svedesi e i Danesi, chiamandoli 'mangiatori di cavalli' e 'capre della foresta'.\n\nAlla fine, pur infliggendo un duro colpo al nemico, l'esercito Norvegese fu schiacciato. Olafr scomparve durante la battaglia e molto probabilmente vi morì.#!"
+
+ BattlePoIHistoricalNameCivitate: "La Battaglia di Civitate"
+ BattlePoIHistoricalDescCivitate: "#emp Vincitore: [GetScriptedCharacterByHistoryID( '1126' ).GetFullName]\nSconfitto: [GetScriptedCharacterByHistoryID( '1338' ).GetFullName]\nData: 18 Giugno 1053 d.C.#!\n#weak Una battaglia tra i Normanni da una parte e una coalizione guidata dal Papa dall'altra, di cui facevano parte sia i Tedeschi che degli Italiani locali.\n\nNonostante il vantaggio numerico, la coalizione Papale non riuscì a sfondare la fanteria Normanna al centro della battaglia e i fianchi della cavalleria persero la battaglia contro la cavalleria Normanna.\n\nPoco dopo la battaglia, il Papa stesso fu catturato dai Normanni, ponendo fine al conflitto.#!"
+
+ BattlePoIHistoricalNameTalas: "La Battaglia di Talas"
+ BattlePoIHistoricalDescTalas: "#emp Vincitore: Abbasid Caliphate\nSconfitto: Dinastia Tang\nData: 751 d.C.#!\n#weak Un conflitto prolungato tra il Califfato Abbaside, che si stava espandendo in Transoxiana da Sud-Ovest, e la Dinastia Tang, che vi stava entrando da Est.\n\nIn origine la fanteria pesante della Dinastia Tang e i suoi mercenari Turchi svolsero un ruolo importante nel respingere le forze Abbasidi, ma con il cambio di schieramento dei mercenari e il tradimento di molti alleati, i Tang furono costretti a retrocedere.\n\nQuesto conflitto vide la fine dell'espansione dei Tang verso Ovest e la Transoxiana rimase in mano ai Musulmani per molto tempo.#!"

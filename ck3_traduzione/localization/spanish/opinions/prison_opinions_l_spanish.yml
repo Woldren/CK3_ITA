@@ -1,0 +1,17 @@
+﻿l_spanish:
+ imprisoned_me:0 "In Prigione"
+ imprisoned_me_dungeon: "$imprisoned_me$"
+ imprisoned_me_past: "Mi ha Imprigionato"
+ imprisoned_close_relative:0 "Imprigionato un Parente Stretto"
+ released_from_prison:0 "Scarcerazione"
+ demanded_claim_renouncement:0 "Costretto a Rinunciare alle Rivendicazioni"
+ banished_me:0 "Esilio"
+ demanded_taking_vows:0 "Chiesto di Prendere i Coti"
+ demanded_recruitment:0 "Reclutato con la Forza"
+ ransomed_from_prison:0 "Recentemente Riscattato"
+ abductor_opinion:0 "Rapitore"
+ attempted_murder_opinion:0 "Tentato Omicidio"
+ escaped_from_prison_opinion:0 "Scappato di Prigione"
+ escaped_from_prison_crime:0 "Scappato di Prigione"
+ tried_to_escape_from_prison_opinion: "Ha Tentato di Scappare dalla Prigione"
+

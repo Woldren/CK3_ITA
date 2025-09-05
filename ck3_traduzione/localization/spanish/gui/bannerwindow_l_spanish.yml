@@ -1,0 +1,13 @@
+﻿l_spanish:
+ EDIT_BANNERS_LABEL:0 "Modifica"
+ EDIT_BANNERS_TOOLTIP:0 "#T Modifica il punto di adunata#!"
+ RAISE_BANNER:0 "Raduna l'esercito"
+ BANNER_RAISES_TIME:0 "$TIME_TO_RAISE$ $VALUE|0$ giorni"
+ BANNER_NUMBER_OF_MEN:0 "[soldiers|E]: $VALUE|0$"
+ BANNER_ALREADY_RAISED:1 "#N Tutti i soldati da questo punto di adunata sono già stati radunati#!"
+ BANNER_NOT_BEING_RAISED:0 "#N Nessuna armata viene attualmente chiamata a raccolta in questo punto di adunata#!"
+ BANNER_RAISE_PROMPT:1 "#T Raduna l'esercito e tutti i soldati assegnati a questo punto di adunata#!"
+ BANNER_CANCEL_RAISING:0 "annulla la radunata dell'esercito"
+ BANNER_CANCEL_RAISING_PROMPT:0 "#T Annulla la radunata da questo punto di adunata e congeda l'esercito#!"
+ BANNER_LIST_DOMAIN_LIMIT_PENALTY_TOOLTIP:0 "@warning_icon! #X oltre il [domain_limit|E]. la quantità di leve che puoi radunare da [domain] verranno ridotte del $PENALTY|%0$#!"
+ 

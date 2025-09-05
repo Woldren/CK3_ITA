@@ -1,0 +1,19 @@
+﻿l_spanish:
+ 
+ travel_danger_events.2000.t:1 "$travel_danger_prefix$ Gli Occhi della Giungla"
+ travel_danger_events.2000.desc:0 "Qualcosa continua a osservarmi da quando abbiamo messo piede nelle giungle di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]. Ho visto il luccichio degli occhi, il fruscio delle foglie.\n\nMi segue, mi pedina, #EMP mi dà la caccia#!.\n\nGli uomini che ho mandato a cercarla non sono tornati. Che cos'è questa creatura che si nasconde nelle profondità smeraldine della giungla?"
+ travel_danger_events.2000.a:0 "Tagliate e bruciate, #EMP trovatela#!."
+ travel_danger_events.2000.b:0 "Odio questa cosa. Fatemi uscire da qui."
+ travel_danger_events.2000.c:0 "L'unica cosa da temere in questa giungla sono io!"
+
+ travel_danger_events.2001.t:1 "$travel_danger_prefix$ L'alluvione"
+ travel_danger_events.2001.desc:0 "La pioggia non ha mai smesso di cadere mentre viaggiavamo attraverso [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]. Ho guardato nervosamente il fiume mentre le sue acque torbide si gonfiavano sempre di più, come una vescica piena di pus. \n\n[flood_victim.Custom('DE_ART_DEF_P_D')] [flood_victim.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', flood_victim)] [flood_victim.GetFirstNameNoTooltip] si sta lamentando, ancora una volta: "Sono giorni che camminiamo in questa fogna, umida e sommersa. Quando..."\n\nPrima che [flood_victim.Custom('DE_ART_IND_A')] riesca a finire la sua frase, il banco finalmente si rompe. Un getto d'acqua densa e scura si dirige verso le nostre provviste, e [flood_victim.GetFirstNameNoTooltip]!"
+ travel_danger_events.2001.a:0 "Salvate le provviste!"
+ travel_danger_events.2001.b:0 "Salvate [flood_victim.GetFirstNameNoTooltip]!!"
+
+ burned_my_jungle_opinion:0 "Ha Bruciato la mia Giungla"
+
+ travel_lost_supplies:0 "Provviste Perse"
+ travel_lost_supplies_desc:0 "Questo personaggio sta sentendo gli effetti derivanti dall'aver perso le provviste durante il viaggio."
+
+

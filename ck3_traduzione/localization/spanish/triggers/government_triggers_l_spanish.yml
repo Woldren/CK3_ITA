@@ -1,0 +1,41 @@
+﻿l_spanish:
+
+ GOVERNMENT_HAS_FLAG_TRIGGER:1 "[government|E] $FLAG$"
+ GOVERNMENT_HAS_FLAG_TRIGGER_FIRST:0 "La tua forma di [government|E] $FLAG$"
+ GOVERNMENT_HAS_FLAG_TRIGGER_THIRD:0 "La forma di [government|E] di [CHARACTER.GetShortUIName|U] $FLAG$"
+
+ NOT_GOVERNMENT_HAS_FLAG_TRIGGER:0 "Richiede che la forma di [government|E] $FLAG$"
+ NOT_GOVERNMENT_HAS_FLAG_TRIGGER_FIRST:0 "Richiede che la tua forma di [government|E] $FLAG$"
+ NOT_GOVERNMENT_HAS_FLAG_TRIGGER_THIRD:0 "Richiede che la forma di [government|E] di [CHARACTER.GetShortUINamePossessive] $FLAG$"
+
+ GOVERNMENT_ALLOWS_TRIGGER:0 "[government|E] permette: $RULE|V$"
+ THEIR_GOVERNMENT_ALLOWS_TRIGGER:0 "La forma di [government|E] di [CHARACTER.GetShortUINamePossessive|VU] permette: $RULE|V$"
+ NOT_THEIR_GOVERNMENT_ALLOWS_TRIGGER:0 "La forma di [government|E] di [CHARACTER.GetShortUINamePossessive|VU] non permette: $RULE|V$"
+ MY_GOVERNMENT_ALLOWS_TRIGGER: "La tua forma di [government|E] permette: $RULE|V$"
+ NOT_MY_GOVERNMENT_ALLOWS_TRIGGER: "La tua forma di [government|E] #bold non#! permette: $RULE|V$"
+ administrative_trigger: "Governo [administrative|E]"
+ state_faith_trigger: "[state_faith|E]"
+ uses_county_fertility_trigger: "[county_fertility|E]"
+
+ GOVERNMENT_DISALLOWS_TRIGGER:0 "La forma di [government|E] non permette: $RULE|V$"
+
+ HAS_GOVERNMENT_TRIGGER_GLOBAL:0 "Ha una forma di governo $GOVERNMENT_TYPE|V$"
+ NOT_HAS_GOVERNMENT_TRIGGER_GLOBAL:0 "#bold Non#! ha una forma di governo $GOVERNMENT_TYPE|V$"
+ HAS_GOVERNMENT_TRIGGER_FIRST:0 "Hai una forma di governo $GOVERNMENT_TYPE|V$"
+ NOT_HAS_GOVERNMENT_TRIGGER_FIRST:0 "#bold Non#! hai una forma di governo $GOVERNMENT_TYPE|V$"
+ HAS_GOVERNMENT_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|V] ha una forma di governo $GOVERNMENT_TYPE|V$"
+ NOT_HAS_GOVERNMENT_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|V] #bold non#! ha una forma di governo $GOVERNMENT_TYPE|V$"
+
+ has_council_first: "Hai un [council|E]"
+ not_has_council_first: "#bold Non#! hai un [council|E]"
+ has_council_third: "[CHARACTER.GetName] ha un [council|E]"
+ not_has_council_third: "[CHARACTER.GetName] #bold non#! ha un [council|E]"
+ has_council_global: "Ha un [council|E]"
+ not_has_council_global: "#bold Non#! ha un [council|E]"
+
+ HAS_SAME_GOVERNMENT_TRIGGER:0 "Ha la stessa forma di governo di [TARGET_CHARACTER.GetShortUIName]"
+
+ MUST_HAVE_MALE_DOMINATED_OR_EQUAL:0 "[CHARACTER.GetFaith.GetName] non ha la Dottrina [GetFaithDoctrine('doctrine_gender_equal').GetBaseName] o la Dottrina [GetFaithDoctrine('doctrine_gender_male_dominated').GetBaseName]"
+ MUST_HAVE_FEMALE_DOMINATED_OR_EQUAL:0 "[CHARACTER.GetFaith.GetName] non ha la Dottrina [GetFaithDoctrine('doctrine_gender_equal').GetBaseName] o la Dottrina [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]"
+ has_law_allowing_succession_law_change:0 "Ha almeno un'[crown_authority|E] [Concept( 'high', 'alta' )|E] o un'[tribal_authority|E] [limited_tribal|E]"
+ replenishes_county_fertility_trigger: "[county_fertility|E]"

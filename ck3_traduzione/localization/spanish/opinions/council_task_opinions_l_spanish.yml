@@ -1,0 +1,29 @@
+﻿l_spanish:
+ chancellor_task_foreign_affairs_opinion:0 "Affari Esteri"
+ chancellor_task_domestic_affairs_opinion:0 "Affari Interni"
+ chancellor_task_neighbor_decreased_opinion:0 "Incidente Diplomatico"
+ chancellor_task_neighbor_increased_opinion:0 "Abile Diplomazia"
+ chancellor_task_powerful_vassal_decreased_opinion:0 "Cancelliere Incompetente"
+ chancellor_task_powerful_vassal_increased_opinion:0 "Abile Diplomazia"
+ chancellor_bestow_royal_favor_opinion:0 "Favore Reale"
+ marshal_task_increase_control_baron_decrease_opinion:0 "Maresciallo Irrispettoso"
+ marshal_task_increase_control_baron_increase_opinion:0 "Condotta Rispettosa"
+ marshal_task_train_commanders_supported_my_child_opinion:0 "Ha Supportato il Mio Bambino"
+ marshal_task_train_commanders_rebuffed_my_child_opinion:0 "Ha Sgridato il Mio Bambino" 
+ court_chaplain_fabricated_claim_opinion:0 "Rivendicazione Fabbricata"
+ court_chaplain_fabricated_claim_on_vassal_opinion:0 "Rivendicazione Fabbricata su un Vassallo"
+ task_religious_relations_opinion:0 "Relazioni Religiose"
+ bad_religious_relations_opinion:0 "Disputa Teologica"
+ bonus_religious_relations_opinion:0 "Ammira il Mio Consigliere"
+ court_chaplain_upsetting_claim_fabrication_opinion:0 "Equilibrio tra i Vassalli compromesso"
+ court_chaplain_vassal_claim_target_upset_modifier:0 "Fabbricazione della Rivendicazione Scoperta"
+
+ spouse_held_local_tourney_opinion:0 "Il Coniuge ha Tenuto un Torneo Locale"
+ spouse_martial_display_of_force_opinion:0 "Manifestazione di Forza"
+
+ spouse_coerced_gift_opinion:0 "Dono Forzato"
+ 
+ steward_convince_dejure_upset_modifier:0 "Errore Diplomatico"
+ 
+ steward_taxed_me_opinion:0 "Mi ha Tassato"
+ steward_doubted_my_accounting_opinion:0 "Ha Dubitato dei Miei Conti" 

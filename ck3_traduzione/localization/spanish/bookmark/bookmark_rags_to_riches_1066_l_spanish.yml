@@ -1,0 +1,119 @@
+﻿l_spanish:
+ bm_1066_rags_to_riches:0 "Dalle Stalle alle Stelle"
+ bm_1066_rags_to_riches_desc:1 "#V #font:TitleFont #size:15 @legends_of_ck_icon! Leggende di Crusader Kings III#!#!#!\n\nIn tutta Europa, le famiglie combattono e tramano per il potere. Molte terre sono contese, battaglie sono vinte e perse, e le dinastie vanno e vengono, mentre i loro sovrani vengono sconfitti.\n\n#bold I Re del passato stanno venendo rimpiazzati, mentre i nuovi arrivati raggiungono le stelle. Quale sarai tu?#!"
+
+ # Murchad Briain, Duke of Munster, Ireland
+ bookmark_rags_to_riches_petty_king_murchad:0 "Piccolo Re Murchad"
+ bookmark_rags_to_riches_petty_king_murchad_desc:0 "[diplomacy_lifestyle_i] #V #font:TitleFont #size:15 Legend of Crusader Kings III#!#!#!\nAll'inizio dell'11esimo secolo, il titolo di Sovrano Supremo d'Irlanda era stato perso e riconquistato diverse volte dalla Casata Briain, mentre le case nobili Irlandesi hanno combattuto per il territorio, l'una contro l'altra e contro i colonizzatori Vichinghi. Tuttavia, pur provenendo da una linea di uomini ritenuti destinati alla regalità, non molto si sa riguardo al breve regno di Murchad nella piccola area di Munster.\n\n#bold Con il tuo aiuto, forse un membro della Casata di Briain riuscirà a sedere sul trono d'Irlanda ancora una volta?#!"
+
+ bookmark_rags_to_riches_petty_king_murchad_alt_brian:0 "$Brian$"
+ bookmark_rags_to_riches_petty_king_murchad_alt_bebinn:0 "$BE_binn$"
+
+ # Matilda di Canossa, Duchess of Tuscany, Italy
+ bookmark_rags_to_riches_duchess_matilda:0 "Duchessa Matilda"
+ bookmark_rags_to_riches_duchess_matilda_desc:0 "[learning_lifestyle_i] #V #font:TitleFont #size:15 Legend of Crusader Kings III#!#!#!\nPer abilità o per circostanza, Matilda di Canossa è destinata ad ereditare un territorio considerevole nel Nord italia. Passerà a diventare un sovrano potente e ben collegato, raggiungendo infine il grado unico di Vicario Imperiale e Vice-Regina d'Italia. Molto tempo dopo la sua morte, rimarrà una figura leggendaria sia per la sua pietà che per la sospetta stregoneria.\n\n#bold Puoi assicurarti che l'eredità di Mathilda duri, e che la linea dei Canossa continui per le generazioni a venire?#!"
+
+ # Yahya Dhunnunid, Emir (Duke) of Toldeo, Iberia
+ bookmark_rags_to_riches_emir_yahya:0 "Emir Yahya"
+ bookmark_rags_to_riches_emir_yahya_desc:1 "[intrigue_lifestyle_i] #V #font:TitleFont #size:15 Legend of Crusader Kings III#!#!#!\nIl Regno di Toledo verrà istituito alla fine del XI secolo, quando il re di León conquisterà l'omonima città. Questa eradicazione dell'Emiro Yahya e della sua influenza significa che la famiglia Dhunnunid perderà i suoi insediamenti nella regione, dove loro hanno regnato per generazioni.\n\n#bold Attraverso la manipolazione dei tuoi rivali, e trovando più alleati, hai ciò che serve per sfidare i Re della penisola Iberica e cambiare la storia per la Casata Dhunnunid?#!"
+
+ bookmark_rags_to_riches_emir_yahya_alt_zahida:0 "$Zahida$"
+ bookmark_rags_to_riches_emir_yahya_alt_yahya2:0 "$Yahya$"
+
+ # Vratislav Premyslid, Duke of Bohemia, Czechia
+ bookmark_rags_to_riches_duke_vratislav:0 "Duca Vratislav"
+ bookmark_rags_to_riches_duke_vratislav_desc:0 "[stewardship_lifestyle_i] #V #font:TitleFont #size:15 Legend of Crusader Kings III#!#!#!\nLa famiglia Přemyslid ha governato la regione della Bohemia per centinaia di anni. Hanno fatto molto affidamento sull'anzianità per la loro successione, che nel caso del duca Vratislav, alla fine porterà a seri conflitti con i suoi fratelli.\n\n#bold Per diventare Re di Bohemia, Vratislav avrà bisogno di essere tattico con le sue risorse, materiali e non. Sei pronto per il compito?#!"
+
+ bookmark_rags_to_riches_duke_vratislav_alt_judita:0 "$Judita$"
+ bookmark_rags_to_riches_duke_vratislav_alt_ota:0 "$Ota$ $nick_the_handsome$"
+
+
+ # Robert 'The Fox' de Hauteville, Duke of Apulia, Sicily
+ bookmark_rags_to_riches_duke_robert:0 "Duca Roberto"
+ bookmark_rags_to_riches_duke_robert_desc:0 "[martial_lifestyle_i] #V #font:TitleFont #size:15 Legend of Crusader Kings III#!#!#!\nRoberto iniziò la sua carriera come ladro e capo di una banda di briganti. Essendo uno di tanti fratelli, non era mai stato predetto che il figlio avventuroso diventasse un brillante stratega e statista, sovrano di vaste aree di terra - eppure eccolo qui, un potente Duca dell'Italia meridionale, pronto a intraprendere il percorso della storia, che permetterà agli Altavilla di avere una posizione stabile in Sicilia per oltre cento anni.\n\n#bold Se riuscirai a consolidare il potere nel reame, il Regno di Sicilia aspetta il suo sovrano!#!"
+
+ bookmark_rags_to_riches_duke_robert_alt_bohemond:0 "$Bohemond$"
+ bookmark_rags_to_riches_duke_robert_alt_roger:0 "$Roger$"
+ 
+ bookmark.1066.t: "Il Dilemma Coniugale di Matilda"
+ bookmark.1066.desc: "Undici anni fa, mia madre [mum.GetFirstName] ha orchestrato il mio fidanzamento con [hunchback.GetFirstNameNicknamed], mio fratellastro e figlio del nuovo marito di mia madre, [hunchbacks_father.Custom('IT_NAM_COL3')][hunchbacks_father.GetTitledFirstNameNicknamed].\n\nSebbene l'alleanza con [hunchbacks_father.GetPrimaryTitle.Custom('IT_COU_COL4')][hunchbacks_father.GetPrimaryTitle.GetBaseNameNoTier] sia vantaggiosa, è davvero questo il futuro che Dio prevede per la prestigiosa casata [ROOT.Char.GetHouse.GetBaseName]?\n\n#EMP Devo#! agire per preservare il futuro della mia discendenza!"
+ bookmark.1066.a: "Gesù è morto per i nostri peccati; uno in più non farà male."
+ bookmark.1066.b: "Lo eviterò fino al giorno della mia morte."
+ bookmark.1066.c: "Anche se il divorzio è impossibile, ho ancora influenza sul Papa..."
+ bookmark.1066.d: "Accetto il mio destino..."
+ lineality_warning: "@warning_icon! #X Scegliendo un [marriage|El] [patrilineal|El] rischi di terminare il giorco perché i tuoi figli non saranno della tua [dynasty|El]!#!"
+ bookmark.1066.a_flavor: "[hunchback.GetFirstName] non è in salute e ha bisogno di una spintarella verso la tomba..."
+ bookmark.1066.b_flavor: "Se eviterò di incontrarlo, la sua casata non potrà reclamare le mie terre."
+ bookmark.1066.c_flavor: "Tirando qualche filo, potrò rendere il nostro un matrimonio [matrilineal|El], assicurando così che i nostri figli appartengano alla mia [house|El] e alla mia [dynasty|El]."
+ abandoned_marriage_modifier: "Matrimonio Abbandonato"
+ abandoned_marriage_modifier_desc: "Questo personaggio ha abbandonato il proprio coniuge, col quale è, tecnicamente, ancora spostato...\n[marriage|E] Acceptance: #N -150#!"
+ ABANDONED_SPOUSE_MODIFIER: "Hai un [GetModifier('abandoned_marriage_modifier').GetNameWithTooltip]: $VALUE|=+0$"
+ 
+ bookmark.1067.t: "Voci di Stregoneria"
+ bookmark.1067.desc: "Il fuoco crepita e tremola mentre [witch.GetFirstName] estrae un grosso libro dalla sua sacca. L'odore di erbe secche permea l'aria della notte.\n\n"Non svelo facilmente i miei segreti." Mi guarda negli occhi. "Come giovane sovrana, e donna, le probabilità sono contro di voi. Le mie conoscenze più preziose vi aiuteranno a prosperare in un mondo che altrimenti vedrebbe la vostra rovina."\n\nQuesta donna misteriosa sembra voler condividere la sua saggezza... ma è esattamente ciò da cui i sacerdoti mi hanno mess[ROOT.Char.Custom('DE_END_PRO_S_N')] in guardia."
+ bookmark.1067.a: "Insegnami tutto, che i [ROOT.Char.GetFaith.PriestMalePlural] siano maledetti!"
+ bookmark.1067.a_flavor: "@warning_icon! #X Questa opzione ti rivelerà un [secret|El] [criminal|El]!#!"
+ bookmark.1067.b: "No, questo è un pensiero eretico."
+ bookmark.1067.b_flavor: "La mia fede in [ROOT.Char.GetFaith.HighGodName] è tutto ciò di cui ho bisogno."
+ 
+ bookmark.1068.t: "Le Marche Slave"
+ bookmark.1068.desc: "[GetTitleByKey('d_meissen').GetNameNoTier] e [GetTitleByKey('d_lausitz').GetNameNoTier], quanto desidero queste terre fertili e prospere!\n\n[emperor.Custom('DE_ART_DEF_P_D')] mi[emperor.Custom('DE_END_PRO_S_N')] sovran[emperor.Custom('DE_END_PRO_S_N')], [emperor.Custom('IT_NAM_COL3')][emperor.GetTitledFirstNameNicknamed], me le ha promesse in cambio della mia fedeltà. Ma so che sono solo vuote parole, perché [emperor.GetSheHe] non potrà garantirmele.\n\nPosso prendere le parole che [emperor.Custom('IT_NAM_COL3')][emperor.GetTitleAsNameNoTooltip] ha detto solo per ciò che sono: elogi per la mia alta statura politica, ma niente di più. Oppure, potrei prendere io in mano la situazione..."
+ bookmark.1068.a: "Quelle terre saranno mmie con la forza!"
+ bookmark.1068.a_flavor: "Per aggiungere questi [titles|El] al tuo [realm|El], dovrai probabilmente entrare in [war|El] utilizzando una [claim|El] come [casus_belli|E]."
+ bookmark.1068.b: "Mi rimetterò alla benevolenza [emperor.Custom('IT_NAM_COL2')][emperor.GetTitleAsNameNoTooltip]."
+ bookmark.1068.b_flavor: "[emperor.Custom('IT_NAM_COL3')|U][emperor.GetTitleAsNameNoTooltip], [Select_CString(emperor.IsFemale,'tua Signora','tuo Signore')], ti sarà debi[emperor.Custom('DE_END_NOU_S_GS_N')] di un [hook|El] che potrà essere usato per una moltitudine di cose, come ad esempio richiedere un [marriage|El] vantaggioso."
+ 
+ bookmark.1069.t: "Mio Fratello [jaromir.GetFirstNameNoTooltip]"
+ bookmark.1069.desc: "Il mio 'caro' fratello [jaromir.GetFirstName] si oppone alla mia autorità in ogni occasione.\n\nNon ha nulla a che fare con il mio caro amico [john_monk.GetFirstName] di Břevnov, un monaco devoto e #EMP tranquillo#!, che serve [ROOT.Char.GetFaith.HighGodName] per mio conto. Oh, se solo [john_monk.GetFirstNameNoTooltip] fosse il mio [jaromir.GetCouncilTitle|U] al suo posto...\n\nForse potrebbe esserlo?"
+ bookmark.1069.a: "Rimuoverò [jaromir.GetFirstNameNoTooltip] dal suo incarico, [john_monk.GetFirstNameNoTooltip] sarà il mio nuovo [jaromir.GetTitleAsNameNoTooltip]!"
+ bookmark.1069.a_flavor: "Avere un [councillor|El] con grandi [skills|El] e che sia anche tuo [friend|El] è molto vantaggioso, perché i suoi [councillor_tasks|El] verranno portati a termine più rapidamente. Opporsi al tuo [head_of_faith|E], però, è sempre rischioso, perché potrebbe rifiutare le tue richieste di [claims|El] o [gold|El]."
+ bookmark.1069.b: "[jaromir.GetFirstNameNoTooltip] fa parte della mia famiglia, dopottutto... e l'oro risolve tutto."
+ bookmark.1069.b_flavor: "Porre fine alla [Concept('rival','rivalità')|E] con tuo fratello riduce il rischio di divenire il bersaglio di un [GetScheme('murder').GetTypeName]."
+ bookmark.1069.c: "Ho questioni più banali di cui occuparmi..."
+ bookmark.1069.c_flavor: "A volte, non fare nulla è la soluzione migliore."
+ 
+ bookmark.1070.t: "Una Sicilia Normanna"
+ bookmark.1070.desc: "La vita di [Select_CString(ROOT.Char.IsFemale,'una duchessa','un duca')] è preferibile a quella di un bandito... ma la vita di [Select_CString(ROOT.Char.IsFemale,'una regina','un re')] mi si addice di più.\n\nPer grazia di Dio e di San Pietro, governo su [GetTitleByKey('d_apulia').GetNameNoTier] e [GetTitleByKey('d_calabria').GetNameNoTier], ma con la grazia di alcuni vecchi amici dei miei giorni da brigante potrei governare su tutto il [GetTitleByKey('k_sicily').GetName]. Poco importa cosa ne pensino il Papa o l'Imperatore.\n\nÈ ora di mettersi al lavoro."
+ bookmark.1070.a: "Tutto questo, e molto altro, sarà mio!"
+ bookmark.1070.b: "Forse dovrei stare fuori dall'Impero."
+ bookmark.1070.c: "Il Papa e l'Imperatore possono tenersi le loro terre..."
+ norman_highwaymen: "Briganti Normanni"
+ claim_sicily: "Hai ottenuto delle [pressed_claims|E] su tutti i [rulers|El] minori della [GetTitleByKey('k_sicily').GetName]"
+ 
+ bookmark.1071.t: "Il Finto Monaco"
+ bookmark.1071.desc: ""...ed è per questo che dovreste appoggiare la mia rivendicazione sull'[GetTitleByKey('e_byzantium').GetNameNoTier]!" dice il monaco, inchinandosi davanti a me. "Otterreste un alleato fidato e tutto il sostegno di cui avete bisogno!"\n\nQuesto monaco, che sostiene di essere un #EMP 'imperatore dell'Impero Romano ingiustamente deposto'#!, è un evidente impostore, ma può essermi utile.\n\nAnche se fosse un contadino di umili origini con una rivendicazione inventata, un pretesto per entrare in guerra non si può rifiutare..."
+ bookmark.1071.a: "Lo metterò sul trono di Costantinopoli!"
+ bookmark.1071.b: "Onestamente, voglio solo rivendicare qualche porto per conto mio..."
+ bookmark.1071.c: "Non sono in grado di aiutarvi."
+ start_raiktor_war: "Inizi una [war|El] contro [byz_emperor.Custom('IT_NAM_COL3')][byz_emperor.GetShortUIName] per [Concept('claim','rivendicare')|E] l'[GetTitleByKey('e_byzantium').GetNameNoTier] in nome [raiktor.Custom('IT_NAM_COL2')][raiktor.GetShortUIName] e l'[GetTitleByKey('k_epirus').GetName] per te"
+ start_raiktor_conquest_war: "Inizi una [war|El] contro [byz_emperor.Custom('IT_NAM_COL3')][byz_emperor.GetShortUIName] per conquistare le [counties|El] di [GetTitleByKey('c_dyrrachion').GetNameNoTier], [GetTitleByKey('c_avlonas').GetNameNoTier] e [GetTitleByKey('c_buthrotum').GetNameNoTier] in nome [raiktor.Custom('IT_NAM_COL2')][raiktor.GetShortUIName], che diventerà un tuo [vassal|El]"
+ gain_war_troops: "Ottieni un [army|El] di #V 3000#! uomini, che smobiliteranno dopo la [war|El]"
+ raiktor_claim_cb: "Rivendicazione di Raiktor"
+ raiktor_claim_cb_war: "Rivendicazione di Raiktor"
+ raiktor_claim_cb_name: ""Rivendicazione" di Raiktor"
+ raiktor_conquest_cb: ""Rivendicazione" di Raiktor"
+ raiktor_conquest_cb_war: ""Rivendicazione" di Raiktor"
+ raiktor_conquest_cb_name: ""Rivendicazione" di Raiktor"
+ you_gain_epirus: "[attacker.Custom('IT_NAM_COL3')|U][attacker.GetShortUIName] si è impadronit[attacker.Custom('DE_END_PRO_S_N')] dell'[GetTitleByKey('k_epirus').GetName] e di tutti i [titles|El] che ne fanno parte"
+ raiktor_gains_byzantium: "[claimant.Custom('IT_NAM_COL3')|U][claimant.GetShortUIName] si è impadronit[claimant.Custom('DE_END_PRO_S_N')] dell'[GetTitleByKey('e_byzantium').GetName]"
+ hard_raiktor_war: "È una [war|El] difficile in cui, per vincere, dovrai [Concept('occupy','occupare')|E] gran parte delle terre [de_jure|E] di Bisanzio e sconfiggere i suoi [armies|El]."
+ easy_raiktor_war: "Questa è una [war|El] più facile, in cui le [occupations|El] e le [battles|El] forniranno molto più [war_score|El] rispetto al solito."
+ raiktor_vassal_desc: "[vassal_to_be.Custom('IT_NAM_COL3')|U][vassal_to_be.GetShortUIName] si impadronisce delle [counties|El] di [GetTitleByKey('c_dyrrachion').GetNameNoTier], [GetTitleByKey('c_avlonas').GetNameNoTier] e [GetTitleByKey('c_buthrotum').GetNameNoTier] e diventa un tuo [vassal|El]"
+ raiktor_vassal_backup_desc: "Ti impadronisci delle [counties|El] di [GetTitleByKey('c_dyrrachion').GetNameNoTier], [GetTitleByKey('c_avlonas').GetNameNoTier] e [GetTitleByKey('c_buthrotum').GetNameNoTier]"
+ guiscard_modifier: "Guiscardo"
+ guiscard_modifier_desc: "Questo personaggio è particolarmente astuto e spietato."
+ 
+ bookmark.1072.t: "La Conquista di Cordova"
+ bookmark.1072.desc: "Ah, la bella [GetTitleByKey('c_cordoba').GetNameNoTier]! L'antica sede dell'autorità califfale in [GetTitleByKey('e_spain').GetNameNoTier] durante il regno degli Omayyadi. Il degno premio che ogni sovrano vorrebbe perseguire.\n\nOra devo fare una scelta: affidarmi alla forza o usare l'astuzia per seminare il malcontento fra le loro fila?\n\nL'approccio scelto sarà quello che userò d'ora in poi."
+ bookmark.1072.a: "Le guerre si vincono con le parole e coltelli ben piazzati..."
+ bookmark.1072.b: "Devo fare affidamento sull'esercito."
+ bookmark.1072.c: "[GetTitleByKey('c_cordoba').GetNameNoTierNoTooltip] può attendere."
+ start_cordoba_war: "Inizi una [war|El] contro [cordoba_holder.Custom('IT_NAM_COL3')][cordoba_holder.GetShortUIName] per conquistare la [county|El] di [GetTitleByKey('c_cordoba').GetNameNoTier] #weak (e [GetTitleByKey('c_cabra').GetNameNoTier] se [cordoba_holder.GetSheHe] la detiene)#!"
+ intrigue_challenge: "Ogni volta che si dichiara una [war|El], il tuo avversario deve vincere un duello di [Concept('intrigue','intrighi')|E][intrigue_i] contro di te oppure ottenere il [modifier|El] [GetModifier('hampered_by_false_information_modifier').GetNameWithTooltip]"
+ hampered_by_false_information_modifier: "Ostacolato Da False Informazioni"
+ hampered_by_false_information_modifier_desc: "Gli eserciti di questo personaggio sono stati ingannati da false informazioni trasmesse da agenti nemici."
+ armies_hampered: "Eserciti Ostacolati"
+ armies_unhampered: "Eserciti Non Ostacolati"
+ intrigue_duel_on_attack_effect.success: "[attacker.Custom('IT_NAM_COL3')|U][attacker.GetShortUIName] ostacola gli [armies|El] [defender.Custom('IT_NAM_COL2')][defender.GetShortUIName]"
+ intrigue_duel_on_attack_effect.failure: "[attacker.Custom('IT_NAM_COL3')|U][attacker.GetShortUIName] non riesce a ostacolare gli [armies|El] [defender.Custom('IT_NAM_COL2')][defender.GetShortUIName]"
+ 

@@ -1,0 +1,54 @@
+﻿l_spanish:
+ ##################################################
+ # #Misc
+ 
+
+ ##################################################
+ # #Attempt to Overthrow Liege
+ diarch_attempt_to_overthrow_liege:0 "Tenta di Rovesciare il Signore"
+ diarch_attempt_to_overthrow_liege_desc:0 ""Il nostro presunto "[ROOT.Char.GetLiege.GetTitleAsNameNoTooltip]"#! [ROOT.Char.GetLiege.GetFirstNameNoTooltip]  non può governare senza di #EMP me#! — - ma io potrei certamente governare senza di #EMP [ROOT.Char.GetLiege.GetSheHe]#!.Tutto ciò di cui ho bisogno è il tacito sostegno di un numero sufficiente di potenti Signori del regno, di alcuni soldati fedeli e di un'opportunità..."
+ diarch_attempt_to_overthrow_liege_tooltip:0 "Lancia un colpo di stato per prendere i [titles|E] del tuo [liege|E] senza una [war|E]"
+ diarch_attempt_to_overthrow_liege.tt.majority_powerful_vassal_support:0 "Attualmente hai potenzialmente il supporto di [SCOPE.ScriptValue('pv_overthrow_tally_display_value')|0] [Concept( 'powerful_vassal', 'vassalli potenti' )|E] eleggibili #weak (incluso te stesso)#! nella tua cospirazione, su un [SCOPE.ScriptValue('pv_overthrow_threshold_display_value')|0] rischiesti"
+ diarch_attempt_to_overthrow_liege_bypass: "Hai già gettato le basi per un simile tentativo"
+ diarch_attempt_to_overthrow_liege.tt.liege_cant_hold_only_hof_highest_title:0 "L'unico [title|E] superiore al [title|E] del tuo [liege|E] è solo quello di [head_of_faith|E] $game_concept_title$"
+ diarch_attempt_to_overthrow_liege.second_step:0 "Organizza la Tua Cospirazione"
+ diarch_attempt_to_overthrow_liege_confirm:0 "Spostati nella Sala del Trono"
+ diarch_attempt_to_overthrow_liege_confirm.prowess:0 "#X  Preparati al $game_concept_single_combat_duel$#!"
+
+ diarch_attempt_to_overthrow_liege.tt.coup_types:0 "Puoi basare il tuo Colpo di Stato sulla tua [diplomacy|E], sul tuo [intrigue|E], o sulla tua [prowess|E]"
+ diarch_attempt_to_overthrow_liege.tt.liege_response:0 "Il tuo [liege|E] si arrenderà oppure cercherà di batterti nell'[skill|E] che hai scelto, o manderà un delegato"
+ diarch_attempt_to_overthrow_liege.tt.liege_response.information_on_converting_councillors:0 "#WEAK I [powerful_vassals|E] che sostengono il tuo colpo di stato si rifiuteranno di fare da delegati per il loro [liege|E]#!"
+ diarch_attempt_to_overthrow_liege.tt.consequences:0 "#WEAK  In caso di successo, una parte della tua attuale [strife|E] viene convertita in [tyranny|E]#!"
+ diarch_coup_attempt_standard_suite_effect.tt.reduced_amount:0 "Una quantità di [strife|E] e di [tyranny|E] si è ridotta grazie al tuo intervento [Concept( 'diplomacy', 'diplomatico' )|E]"
+
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts:0 "Le tue richieste sono state accettate"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.usurp_targets.primary:0 "Tu [Concept( 'usurp', 'usurpi' )|E] #EMP tutti#! i [titles|E] di [title_tier|E] più alto [liege.Custom('IT_NAM_COL2')][liege.GetTitledFirstName]"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.usurp_targets.kingdom:0 "Tu usurpi il [title|E] del [kingdom|E] [liege.Custom('IT_NAM_COL2')][liege.GetTitledFirstName] che detiene il maggior numero di [counties|E] nel [liege.GetPrimaryTitle.GetName]"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.usurp_targets.capital:0 "Usurpi la [de_jure_capital|E] del [liege.GetPrimaryTitle.GetName] da [liege.GetTitledFirstName]"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.keep_more_titles:0 "[liege.GetTitledFirstName] mantiene tutti i [titles|E] rimanenti"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.remains_ruling:0 "Indipendentemente da ciò, [liege.Custom('IT_NAM_COL3')][liege.GetTitledFirstName] rimane un [ruler|E]"
+ 
+ diarch_attempt_to_overthrow_liege.tt.liege_fights_and_loses:0 "Le tue richieste vengono respinte, ma tu vinci"
+ diarch_attempt_to_overthrow_liege.tt.liege_fights_and_loses.take_more_titles:0 "Prendi ancora più [titles|E] [liege.Custom('IT_NAM_COL2')][liege.GetTitledFirstName]"
+ diarch_attempt_to_overthrow_liege.tt.liege_fights_and_loses.may_lose_everything:0 "Se il [realm|E] è abbastanza piccolo, [liege.Custom('IT_NAM_COL3')][liege.GetTitledFirstName] potrebbe perdere tutto."
+
+ diarch_attempt_to_overthrow_liege.tt.diplomacy_coup:0 "Effetti del colpo di stato specifici per la [diplomacy|E]"
+ diarch_attempt_to_overthrow_liege.tt.intrigue_coup:0 "Effetti del colpo di stato specifici per l'[intrigue|E]"
+ diarch_attempt_to_overthrow_liege.tt.prowess_coup:0 "Effetti del colpo di stato specifici per la [prowess|E]"
+ 
+ diarch_attempt_to_overthrow_liege.tt.win.liege_lives:0 "#P Vinci#!: il tuo [liege|E] vive e si libera"
+ diarch_attempt_to_overthrow_liege.tt.win.considered_merciful:0 "#P Vinci#!: la tua misericordia porta a convertite meno [strife|E] in [tyranny|E]"
+ diarch_attempt_to_overthrow_liege.tt.lose.usurper_captured:0 "#N Perdi#!: vieni [imprisoned|E]"
+ diarch_attempt_to_overthrow_liege.tt.win.liege_captured:0 "#P Vinci#!: tu e il tuo [liege|E] venite imprigionati"
+ diarch_attempt_to_overthrow_liege.tt.win.liege_dies:0 "#P Vinci#!: il tuo [liege|E] [character_death_dies|E]"
+ diarch_attempt_to_overthrow_liege.tt.loss.usurper_dies:0 "#N Perdi#!: tu [character_death_die|E]"
+
+ diarch_attempt_to_overthrow_liege.tt.coup_diplomacy:0 "Colpo di stato tramite Diplomazia\n#low $diarch_attempt_to_overthrow_liege.tt.coup_diplomacy_desc$#!"
+ diarch_attempt_to_overthrow_liege.tt.coup_diplomacy_desc:0 "Le parole possono risolvere il problema."
+ coup_diplomacy_tooltip:0 "La tua cospirazione è governata da sottili politiche e parole argentate"
+ diarch_attempt_to_overthrow_liege.tt.coup_intrigue:0 "Colpo di stato tramite Intrigo \n#low $diarch_attempt_to_overthrow_liege.tt.coup_intrigue_desc$#!"
+ diarch_attempt_to_overthrow_liege.tt.coup_intrigue_desc:0 "Sono necessarie alcune pugnalate."
+ coup_intrigue_tooltip:0 "La tua cospirazione è avvolta da appassionate menzogne e astuti trucchi"
+ diarch_attempt_to_overthrow_liege.tt.coup_prowess:0 "Colpo di stato tramite Maestria \n#low $diarch_attempt_to_overthrow_liege.tt.coup_prowess_desc$#!"
+ diarch_attempt_to_overthrow_liege.tt.coup_prowess_desc:0 "Scegli la violenza."
+ coup_prowess_tooltip:0 "La tua cospirazione vuole essere breve, violenta e vittoriosa."

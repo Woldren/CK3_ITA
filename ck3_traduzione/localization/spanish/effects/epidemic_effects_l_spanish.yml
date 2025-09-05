@@ -1,0 +1,11 @@
+﻿l_spanish:
+ set_epidemic_outbreak_intensity_global: "L'intensità dell'epidemia diventa $NEW_VALUE|V$"
+ set_epidemic_outbreak_intensity_global_past: "L'intensità dell'epidemia diventa $NEW_VALUE|V$"
+ set_epidemic_outbreak_intensity_third: "L'intensità dell'epidemia di [EPIDEMIC.GetName] diventa $NEW_VALUE|V$"
+ set_epidemic_outbreak_intensity_third_past: "L'intensità dell'epidemia di [EPIDEMIC.GetName] diventa $NEW_VALUE|V$"
+  
+ create_epidemic_outbreak_global: "$INTENSITY|V$ Compare un'epidemia di [EPIDEMIC_TYPE.GetName]"
+ create_epidemic_outbreak_global_past: "$INTENSITY|V$ È comparsa un'epidemia di [EPIDEMIC_TYPE.GetName]"
+ create_epidemic_outbreak_third: "$INTENSITY|V$ Un'epidemia di [EPIDEMIC_TYPE.GetName] compare a [PROVINCE.GetName]"
+ create_epidemic_outbreak_third_past: "$INTENSITY|V$ Un'epidemia di [EPIDEMIC_TYPE.GetName] è comparsa a [PROVINCE.GetName]"
+  

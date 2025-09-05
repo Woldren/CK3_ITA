@@ -1,0 +1,170 @@
+﻿l_spanish:
+ #Qiangic
+ qiangic_religion:0 "Hsexje" #lit. Worship of the Gods
+ qiangic_religion_adj:0 "Hsexjeita"
+ qiangic_religion_adherent:0 "Hsexjeita"
+ qiangic_religion_adherent_plural:0 "Hsexjeiti"
+ qiangic_religion_desc:0 "Le religioni popolari delle tribù Qiangic si concentrano sull'adorazione degli dei della natura e dei loro antenati, nonché sulla venerazione delle pietre di selce bianca che si dice possiedano gli spiriti della natura."
+ 
+ qiangic_high_god_name:0 "Mubyasei"
+ qiangic_high_god_name_2:0 "$qiangic_high_god_name$" # Optional translation alt
+ qiangic_high_god_name_possessive:0 "di Mubyasei"
+ qiangic_high_god_shehe:0 "Egli"
+ qiangic_high_god_herselfhimself:0 "egli Stesso"
+ qiangic_high_god_herhis:0 "Suo"
+ qiangic_high_god_name_alternate:0 "Abba Chi"
+ qiangic_high_god_name_alternate_possessive:0 "di Abba Chi"
+ qiangic_good_god_mubyasei:0 "Mubyasei"
+ qiangic_good_god_abba_chi:0 "Abba Chi"
+ qiangic_good_god_abba_sei:0 "Abba Sei"
+ qiangic_good_god_abba_mullah:0 "Abba Mullah"
+ qiangic_good_god_mutsitsu:0 "Mutsitshu"
+ qiangic_good_god_tugantsu:0 "Tugantshu"
+ qiangic_good_god_mupitha:0 "Mupitha"
+ qiangic_devil_name:0 "Dul"
+ qiangic_devil_name_possessive:0 "di Dul"
+ qiangic_devil_shehe:0 "Egli"
+ qiangic_devil_herselfhimself:0 "egli Stesso"
+ qiangic_evil_god_dul:0 "Dul"
+ qiangic_evil_god_dul_possessive:0 "di Dul"
+ qiangic_house_of_worship:0 "hseji"
+ qiangic_house_of_worship_2:0 "la $qiangic_house_of_worship$" # Optional translation alt
+ qiangic_house_of_worship_3:0 "$qiangic_house_of_worship$" # Optional translation alt
+ qiangic_house_of_worship_plural:0 "hseji"
+ qiangic_religious_symbol:0 "Vvluphi" # white flint stone
+ qiangic_religious_symbol_2:0 "$qiangic_religious_symbol$" # Optional translation alt
+ qiangic_religious_symbol_3:0 "$qiangic_religious_symbol$" # Optional translation alt
+ qiangic_religious_text:0 "Shgubu-mealea" #religious stories orally passed down by priests
+ qiangic_religious_text_2:0 "$qiangic_religious_text$" # Optional translation alt
+ qiangic_religious_text_3:0 "$qiangic_religious_text$" # Optional translation alt
+ qiangic_religious_head_title:0 "Bbaxbi"
+ qiangic_religious_head_title_name:0 "Bbaxbiate"
+ qiangic_devotee_male:0 "xjem"
+ qiangic_devotee_male_plural:0 "xjemi"
+ qiangic_devotee_female:0 "xjem"
+ qiangic_devotee_female_plural:0 "xjemi"
+ qiangic_devotee_neuter:0 "xjem"
+ qiangic_devotee_neuter_plural:0 "xjemi"
+ qiangic_priest:0 "xbi"
+ qiangic_priest_plural:0 "xbii"
+ qiangic_priest_term_plural:0 "Xbii"
+ qiangic_bishop:0 "voshan"
+ qiangic_bishop_plural:0 "voshani"
+ qiangic_divine_realm:0 "Mudu"
+ qiangic_divine_realm_2:0 "$qiangic_divine_realm$" # Optional translation alt
+ qiangic_divine_realm_3:0 "$qiangic_divine_realm$" # Optional translation alt
+ qiangic_positive_afterlife:0 "Mudu"
+ qiangic_positive_afterlife_2:0 "$qiangic_positive_afterlife$" # Optional translation alt
+ qiangic_positive_afterlife_3:0 "$qiangic_positive_afterlife$" # Optional translation alt
+ qiangic_negative_afterlife:0 "Sseb-gveal"
+ qiangic_negative_afterlife_2:0 "$qiangic_negative_afterlife$" # Optional translation alt
+ qiangic_negative_afterlife_3:0 "$qiangic_negative_afterlife$" # Optional translation alt
+ qiangic_death_name:0 "Ddeaxi"
+ qiangic_death_name_possessive:0 "di Ddeaxi"
+
+ qiangic_creator_god_name:0 "$qiangic_high_god_name$"
+ qiangic_creator_god_name_possessive:0 "$qiangic_high_god_name_possessive$"
+ qiangic_health_god_name:0 "Sibeahse" #medicine god
+ qiangic_health_god_name_possessive:0 "di Sibeahse"
+ qiangic_fertility_god_name:0 "Ixihse" #birth god
+ qiangic_fertility_god_name_possessive:0 "di Ixihse"
+ qiangic_wealth_god_name:0 "Zziguhse" #money god
+ qiangic_wealth_god_name_possessive:0 "di Zziguhse"
+ qiangic_household_god_name:0 "Jishse" #house god
+ qiangic_household_god_name_possessive:0 "di Jishse"
+ qiangic_fate_god_name:0 "leass"
+ qiangic_fate_god_name_possessive:0 "di leass"
+ qiangic_knowledge_god_name:0 "Abba Sei"
+ qiangic_knowledge_god_name_possessive:0 "di Abba Sei"
+ qiangic_war_god_name:0 "Gvugvuahse" #war god
+ qiangic_war_god_name_possessive:0 "di Gvugvuahse"
+ qiangic_trickster_god_name:0 "Abba Mullah"
+ qiangic_trickster_god_name_possessive:0 "di Abba Mullah"
+ qiangic_night_god_name:0 "Xishueahse" #moon god
+ qiangic_night_god_name_possessive:0 "di Xishueahse"
+ qiangic_water_god_name:0 "Dsehse" #water god
+ qiangic_water_god_name_possessive:0 "di Dsehse"
+
+ #Rrmeaism
+ rrmeaism:0 "Vvluphixje" # lit. White Stone Worship
+ rrmeaism_adj:0 "Vvluphixjeista"
+ rrmeaism_adherent:0 "Vvluphixjeista"
+ rrmeaism_adherent_plural:0 "Vvluphixjeisti"
+ rrmeaism_desc:0 "La religione dei Rrmea, o Qiang, concentra gran parte del loro culto sulla venerazione delle pietre bianche, o Vvluphi. I sacerdoti sciamani noti come xbi indossano un cappello di pelliccia di scimmia e battono un tamburo di pelle di pecora mentre eseguono i rituali."
+ 
+ rrmeaism_old:0 "Antica Vvluphixje"
+ rrmeaism_old_adj:0 "Antico Vvluphixjeista"
+ rrmeaism_old_adherent:0 "Antico Vvluphixjeista"
+ rrmeaism_old_adherent_plural:0 "Antichi Vvluphixjeisti"
+
+ #Melieism (Tangut Root West)
+ melieism:0 "Melie" # lit. Root West
+ melieism_adj:0 "Melieista"
+ melieism_adherent:0 "Melieista"
+ melieism_adherent_plural:0 "Melieisti"
+ melieism_desc:0 "Le credenze indigene del popolo Tangut si concentravano sul fatto che la Gru Bianca fosse l'aspetto maschile celeste del divino, mentre la Scimmia Rossa era vista come l'aspetto femminile terreno della divinità, e la società Tangut non buddista era divisa in due classi secondo questi principi: la gente comune sacerdotale "dai capelli neri" e "dalla faccia rossa"."
+ 
+ 
+ melieism_old:0 "Antica Melie"
+ melieism_old_adj:0 "Antico Melieista"
+ melieism_old_adherent:0 "Antico Melieista"
+ melieism_old_adherent_plural:0 "Antichi Melieisti"
+ 
+ tangut_high_god_name:0 "Mewn" # lit. Crane
+ tangut_high_god_name_2:0 "$tangut_high_god_name$" # Optional translation alt
+ tangut_high_god_name_possessive:0 "di Mewn"
+ tangut_high_god_shehe:0 "Egli"
+ tangut_high_god_herselfhimself:0 "Egli stesso"
+ tangut_high_god_herhis:0 "Suo"
+ tangut_high_god_name_alternate:0 "Phôn Mbin" # lit. White Loftiness
+ tangut_high_god_name_alternate_possessive:0 "di Phôn Mbin"
+ tangut_good_god_mewn:0 "Mewn"
+ tangut_good_god_viei:0 "Viei" # lit. Monkey
+ tangut_religious_symbol:0 "Mewn" # white crane
+ tangut_religious_symbol_2:0 "$tangut_religious_symbol$" # Optional translation alt
+ tangut_religious_symbol_3:0 "$tangut_religious_symbol$" # Optional translation alt
+ tangut_religious_text:0 "Phôn Mbin Ndzio" #Ceremonial Odes
+ tangut_religious_text_2:0 "$tangut_religious_text$" # Optional translation alt
+ tangut_religious_text_3:0 "$tangut_religious_text$" # Optional translation alt
+ tangut_religious_head_title:0 "Lhie Ndziu Phôn"
+ tangut_religious_head_title_name:0 "Lhie Ndziu Phôn"
+ tangut_devotee_male:0 "Zangie" #red-faced (ritual language)
+ tangut_devotee_male_plural:0 "Zangie" #red-faced (ritual language)
+ tangut_devotee_female:0 "Lhiwe Siwe" #red-faced (ritual language)
+ tangut_devotee_female_plural:0 "Lhiwe Siwe" #red-faced (ritual language)
+ tangut_devotee_neuter:0 "ninin" #red-faced (common language)
+ tangut_devotee_neuter_plural:0 "ninin" #red-faced (common language)
+ tangut_priest:0 "unia" #black-headed (common language)
+ tangut_priest_plural:0 "unia" #black-headed (common language)
+ tangut_priest_term_plural:0 "Unia" #black-headed (common language)
+ tangut_bishop:0 "ndziu phôn" #black-headed (ritual language)
+ tangut_bishop_plural:0 "ndziu phôn" #black-headed (ritual language)
+ tangut_divine_realm:0 "Phôn Mbin"
+ tangut_divine_realm_2:0 "$tangut_divine_realm$" # Optional translation alt
+ tangut_divine_realm_3:0 "$tangut_divine_realm$" # Optional translation alt
+ tangut_positive_afterlife:0 "Phôn Mbin"
+ tangut_positive_afterlife_2:0 "$tangut_positive_afterlife$" # Optional translation alt
+ tangut_positive_afterlife_3:0 "$tangut_positive_afterlife$" # Optional translation alt
+
+ tangut_creator_god_name:0 "$tangut_high_god_name$"
+ tangut_creator_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_health_god_name:0 "$tangut_high_god_name$"
+ tangut_health_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_fertility_god_name:0 "Viei"
+ tangut_fertility_god_name_possessive:0 "di Viei"
+ tangut_wealth_god_name:0 "$tangut_high_god_name$"
+ tangut_wealth_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_household_god_name:0 "$tangut_high_god_name$"
+ tangut_household_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_fate_god_name:0 "$tangut_high_god_name$"
+ tangut_fate_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_knowledge_god_name:0 "$tangut_high_god_name$"
+ tangut_knowledge_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_war_god_name:0 "$tangut_high_god_name$"
+ tangut_war_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_trickster_god_name:0 "$tangut_fertility_god_name$"
+ tangut_trickster_god_name_possessive:0 "$tangut_fertility_god_name_possessive$"
+ tangut_night_god_name:0 "$tangut_high_god_name$"
+ tangut_night_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_water_god_name:0 "$tangut_fertility_god_name$"
+ tangut_water_god_name_possessive:0 "$tangut_fertility_god_name_possessive$"

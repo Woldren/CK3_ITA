@@ -1,0 +1,31 @@
+﻿l_spanish:
+
+ ACHIEVEMENT_fp3_rich_in_diversity_achievement: "Ricco di Diversità"
+ ACHIEVEMENT_DESC_fp3_rich_in_diversity_achievement: "Come personaggio di una [faith|E] con la [doctrine|E] $special_doctrine_jizya_name$ o $tenet_tax_nonbelievers_name$, hai 10 [vassals|E] di altre fedi."
+
+ ACHIEVEMENT_fp3_darius_revenge_achievement: "La Vendetta di Dario"
+ ACHIEVEMENT_DESC_fp3_darius_revenge_achievement: "ome personaggio con [heritage|E] iraniano, possiedi l'Impero di Persia, il Regno di Tessalonica e il Regno di Grecia."
+
+ ACHIEVEMENT_fp3_mulct_them_dry_achievement: "Lascialo in Mutande!"
+ ACHIEVEMENT_DESC_fp3_mulct_them_dry_achievement: "Ruba quattro [modifiers|E] di [Concept('vizier_extravagance', 'Stravaganza')|E] di livello $vizier_extravagance_t4_title$ al tuo [vizier|E]."
+
+ ACHIEVEMENT_fp3_the_umma_strikes_back_achievement: "Il Ritorno degli Omayyadi"
+ ACHIEVEMENT_DESC_fp3_the_umma_strikes_back_achievement: "Iniziando come membro della [dynasty|E] omayyade, possiedi l'Impero d'Arabia e il Califfato Sunnita."
+
+ ACHIEVEMENT_fp3_royal_flush_achievement: "Scala Reale"
+ ACHIEVEMENT_DESC_fp3_royal_flush_achievement: "Come personaggio di una [faith|E] con la [doctrine|E] $tenet_fp3_fedayeen_name$, elimini un personaggio [lowborn|E], un [king|E] e un [emperor|E]."
+
+ ACHIEVEMENT_fp3_fiscal_res_achievement: "Responsabilità Fiscale"
+ ACHIEVEMENT_DESC_fp3_fiscal_res_achievement: "Assumi cinque [tax_collectors|E] con [aptitude|E] eccellente per il ruolo."
+
+ ACHIEVEMENT_fp3_abassid_strong_achievement: "Potenza Abbaside"
+ ACHIEVEMENT_DESC_fp3_abassid_strong_achievement: "Scegli la fine del $struggle_persia_ending_assertion$ nella [struggle|E] dell'$persian_struggle$."
+
+ ACHIEVEMENT_fp3_challenger_caliphate_achievement: "Rinascita Sciita"
+ ACHIEVEMENT_DESC_fp3_challenger_caliphate_achievement: "Scegli la decisione 'Fonda un Nuovo Califfato' come esito della fine del $struggle_persia_ending_foundation$ nella [struggle|E] dell'$persian_struggle$."
+
+ ACHIEVEMENT_fp3_vassalize_the_caliph_achievement: "Tutto il Tuo Califfato Ci Appartiene"
+ ACHIEVEMENT_DESC_fp3_vassalize_the_caliph_achievement: "Scegli la decisione '$struggle_persia_ending_foundation_decision_option_vassalize$' come esito della fine del $struggle_persia_ending_foundation$ nella [struggle|E] dell'$persian_struggle$."
+
+ ACHIEVEMENT_fp3_rekindle_iran_achievement: "Rinascita Iraniana"
+ ACHIEVEMENT_DESC_fp3_rekindle_iran_achievement: "Scegli la fine del $struggle_persia_ending_rekindle_iran$ nella [struggle|E] dell'$persian_struggle$."

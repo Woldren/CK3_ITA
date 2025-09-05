@@ -1,0 +1,82 @@
+﻿l_spanish:
+ #Yazidi
+ yazidi_religion:0 "Miletê Tawûsê Melek"
+ yazidi_religion_adj:0 "Miletê"
+ yazidi_religion_adherent:0 "Miletê"
+ yazidi_religion_adherent_plural:0 "Miletê"
+ yazidi_religion_desc:0 "Il dio eterno creò l'universo e i suoi sette angeli. Il primo tra loro è Melek Taus, che Dio diede amministrazione del mondo."
+
+ yazidi:0 "Yazidismo"
+ yazidi_adj:0 "Yazida"
+ yazidi_adherent:0 "Yazida"
+ yazidi_adherent_plural:0 "Yazidi"
+ yazidi_desc:0 "Gli Yazidi credono che Dio abbia creato il mondo e l'abbia posto sotto la protezione di sette angeli, primo fra tutti Tawûsê Melek, l'angelo pavone. L'Angelo Pavone in un primo momento cadde dalla grazia di Dio, ma le sue lacrime di rimorso estinse i fuochi della sua prigione, e fu riunito a Dio. Allo stesso modo, tutti noi cerchiamo di riunirci con Dio alla fine del"
+ yazidi_high_god_name:0 "Melek Taus"
+ yazidi_high_god_name_2:0 "$yazidi_high_god_name$" # Optional translation alt
+ yazidi_high_god_name_possessive:0 "Melek Taus'"
+ yazidi_high_god_name_alternate:0 "Luce di Dio"
+ yazidi_high_god_name_alternate_possessive:0 "La Luce di Dio"
+ yazidi_good_god_peacock_angel:0 "L'Angelo Pavone"
+ yazidi_good_god_tawuse_melek:0 "Angelo Tawûsê"
+ yazidi_good_god_seven_mysteries:0 "I Sette Misteri"
+ yazidi_good_god_azazil:0 "Azaz'il"
+ yazidi_good_god_azazil_possessive:0 "di Azaz'il"
+ yazidi_good_god_jabrail:0 "Jabra'il"
+ yazidi_good_god_mikhail:0 "Mikha'il"
+ yazidi_good_god_mikhail_possessive:0 "di Mikha'il"
+ yazidi_good_god_rafail:0 "Rafa'il"
+ yazidi_good_god_dadrail:0 "Dadra'il"
+ yazidi_good_god_dadrail_possessive:0 "di Dadra'il"
+ yazidi_good_god_azrafil:0 "Azraf'il"
+ yazidi_good_god_azrafil_possessive:0 "di Azraf'il"
+ yazidi_good_god_shemnail:0 "Shemna'il"
+ yazidi_good_god_shemnail_possessive:0 "di Shemna'il"
+ yazidi_creator_god_name:0 "Xwedê"
+ yazidi_creator_god_name_possessive:0 "di Xwedê"
+ yazidi_house_of_worship:0 "tempio"
+ yazidi_house_of_worship_2:0 "il $yazidi_house_of_worship$" # Optional translation alt
+ yazidi_house_of_worship_3:0 "$yazidi_house_of_worship$" # Optional translation alt
+ yazidi_house_of_worship_plural:0 "templi"
+ yazidi_religious_symbol:0 "sinjaq"
+ yazidi_religious_symbol_2:0 "$yazidi_religious_symbol$" # Optional translation alt
+ yazidi_religious_symbol_3:0 "$yazidi_religious_symbol$" # Optional translation alt
+ yazidi_religious_text:0 "qawls"
+ yazidi_religious_text_2:0 "$yazidi_religious_text$" # Optional translation alt
+ yazidi_religious_text_3:0 "$yazidi_religious_text$" # Optional translation alt
+ yazidi_religious_head_title:0 "mîr"
+ yazidi_religious_head_title_name:0 "mîrate"
+ yazidi_devotee:0 "Kochek"
+ yazidi_devotee_plural:0 "Kocheks"
+ yazidi_priest:0 "sceicco"
+ yazidi_priest_plural:0 "sceicchi"
+ yazidi_priest_alternate_plural:0 "sacerdoti"
+ yazidi_bishop:0 "sceicco baba"
+ yazidi_bishop_plural:0 "baba sheikhs"
+ yazidi_positive_afterlife:0 "la prossima vita"
+ yazidi_positive_afterlife_2:0 "$yazidi_positive_afterlife$" # Optional translation alt
+ yazidi_positive_afterlife_3:0 "$yazidi_positive_afterlife$" # Optional translation alt
+ yazidi_negative_afterlife:0 "l'Esterno"
+ yazidi_negative_afterlife_2:0 "$yazidi_negative_afterlife$" # Optional translation alt
+ yazidi_negative_afterlife_3:0 "$yazidi_negative_afterlife$" # Optional translation alt
+
+ meshefaresism:0 "Meshefaresimo"
+ meshefares_adj:0 "Meshefaresista"
+ meshefaresism_adj:0 "$meshefares_adj$"
+ meshefares_adherent:0 "Meshefaresista"
+ meshefaresism_adherent:0 "$meshefares_adherent$"
+ meshefares_adherent_plural:0 "Meshefaresisti"
+ meshefaresism_adherent_plural:0 "$meshefares_adherent_plural$"
+ meshefares_desc:0 "Seguaci del Libro Nero, che descrive come il Signore scese dalla Montagna Nera e creò il mondo."
+ meshefaresism_desc:0 "$meshefares_desc$"
+ meshefaresism_holy_text:0 "Meshefa res"
+ meshefaresism_holy_text_2:0 "$meshefaresism_holy_text$" # Optional translation alt
+ meshefaresism_holy_text_3:0 "$meshefaresism_holy_text$" # Optional translation alt
+
+ kitebacilweism:0 "Kitêbacilweismo"
+ kitebacilweism_adj:0 "Kitêbacilweista"
+ kitebacilweism_adherent:0 "Kitêbacilweista"
+ kitebacilweism_adherent_plural:0 "Kitêbacilweisti"
+ kitebacilweism_desc:0 "Seguaci del Libro dell'Apocalisse, che racconta la grandezza di Xwedê."
+ kitebacilweism_holy_text:0 "Kitêba Cilwe"
+ kitebacilweism_holy_text_2:0 "$kitebacilweism_holy_text$" # Optional translation alt
+ kitebacilweism_holy_text_3:0 "$kitebacilweism_holy_text$" # Optional translation alt

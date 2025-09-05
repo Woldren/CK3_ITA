@@ -1,0 +1,53 @@
+﻿l_spanish:
+ # Target is followed by ill omens
+ claim_throne_ongoing.1001.t:0 "Cattivi Presagi"
+ claim_throne_ongoing.1001.desc:0 "È chiaro che io non sia l'unico con l'ambizione di governare [target_title.GetNameNoTooltip]! I corvi si sono radunati sui tetti del [target.Custom('ResidenceBuilding')] di [target.GetTitledFirstNamePossessive], e qualche sera fa anche le stelle sembravano cadere, per tutta [target_title.GetNameNoTierNoTooltip].\n\nPlebei e nobili sussurrano che questo sia un segno che [target.GetFirstNameNoTooltip] ha perso il favore di [ROOT.Char.GetFaith.PantheonTerm]."
+ claim_throne_ongoing.1001.a:0 "È tempo di un[target.Custom('DE_PRO_POS_P_2P')] nuov[target.Custom('DE_END_PRO_S_N')] [target.GetTitleAsNameNoTooltip]!"
+ claim_throne_ongoing.1001.b:0 "Solo [ROOT.Char.GetFaith.AltPriestTermPlural] può interpretare questi segni."
+ # Gradually take on more responsibility in the realm
+ claim_throne_ongoing.1002.t:0 "Autorità Guadagnata"
+ claim_throne_ongoing.1002.desc:1 "La mia ricerca su [target_title.GetName] non è guidata dalla mera brama di potere, ma dal fatto che io sono l'unico che può sopportarne l'enorme responsabilità! Anche [target.GetTitledFirstName] sembra riconoscerlo, poiché mi assegna compiti sempre più importanti al servizio del reame.\n\nPresto potrei anche governare [target_title.GetTierAsNameNoTooltip] in tutto tranne che nel nome..."
+ claim_throne_ongoing.1002.a:0 ""Non si preoccupi, mio signore, mi occuperò anche di questo...""
+ claim_throne_ongoing.1002.b:0 "Tutto questo sta diventando un po' troppo, in realtà."
+ # Buying support from vassals
+ claim_throne_ongoing.1003.t:0 "Guadagnare Supporto"
+ claim_throne_ongoing.1003.desc:0 "Sono abbastanza consapevole che se dovessi servire come [target.GetTitleAsName] di [target_title.GetNameNoTier], ho bisogno del sostegno dei miei compagni vassalli più dell'attuale sostengo verso il [target.GetTitledFirstName] .\n\nIllustrare quanto sarei generoso come [target.GetTitleAsName] potrebbe tornare utile a lungo andare."
+ claim_throne_ongoing.1003.a:0 "Niente può essere troppo bello per i miei futuri servitori!"
+ claim_throne_ongoing.1003.b:0 "Avrò bisogno di tutto il mio oro per la lotta che verrà."
+ # Lunatic declares themselves ruler
+ claim_throne_ongoing.1004.t:0 "Dichiarazione di Sovranità"
+ claim_throne_ongoing.1004.desc:0 "Potrebbe sembrare che io debba lavorare per rivendicare la sovranità su [target_title.GetName], ma ho già un titolo di autorità molto più grande.\n\nIo sono il [ROOT.Char.GetLadyLord|U] di tutti i Ravanelli in [target_title.GetNameNoTierNoTooltip]!"
+ claim_throne_ongoing.1004.a:0 "Castellano, portami il mio sigillo di ravanello!"
+ claim_throne_ongoing.1004.b:0 "No, non Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] di tutti i Ravanelli a [target_title.GetNameNoTierNoTooltip]..."
+ claim_throne_ongoing.1004.b_flavor:0 "...ma nel mondo!"
+
+ claim_throne_ongoing.1005.t:0 "[ROOT.Char.GetLadyLord|U] dei Ravanelli"
+ claim_throne_ongoing.1005.desc:0 "Ho avuto diversi servitori puniti per quella che pensavo fosse una beffa, per come mi hanno definito "Vostra Ravanellità", ma ora il mio cancelliere mi ha mostrato l'atto che avevo redatto insistendo su di esso.\n\nMi sembra uno scherzo crudele che il mondo mi sta giocando, ma allo stesso tempo c'è un vago ricordo che si agita nelle parti nebbiose della mia mente..."
+ claim_throne_ongoing.1005.a:0 "Cosa... cosa ho fatto?"
+ claim_throne_ongoing.1005.b:0 "Io non commetto errori. Tutti voi seguirete il mandato."
+
+ claim_throne_ongoing.1006.t:0 "Sostegno Costante"
+ claim_throne_ongoing.1006.desc:0 "Come per tante altre cose, [friend.Custom('DE_END_PRO_S_N')] mi[friend.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))], [friend.GetTitledFirstName], è d'accordo con me sulla questione che [target.GetTitledFirstName] non è adatto a governare [target_title.GetNameNoTier].\n\n"Mi vengono in mente candidati di gran lunga migliori," [friend.GetSheHe] mi fa sapere in confidenza. "E tu sei il primo tra loro. Date la parola, e avete il mio sostegno.""
+ claim_throne_ongoing.1006.a:0 "L'amicizia è la forma più onorevole di lealtà."
+ claim_throne_ongoing.1006.b:0 "Dedica i tuoi sforzi per far sapere agli altri quanto sono adatto."
+
+ claim_throne_ongoing.1007.t:0 "La Legge della Spada"
+ claim_throne_ongoing.1007.desc:2 "Voci sulla mia ambizione di prendere il controllo di [target_title.GetNameNoTier] hanno iniziato a diffondersi tra i [GetPlayer.Custom( 'KnightCulturePluralNoTooltipLowercase' )] del reame. Il malcontento aumenta all'interno dei ranghi e delle file allorché molti credono che sia il momento di un cambiamento.\n\nMentre questa tensione ribolle, vengo avvicinato da nientemeno che da [scheming_knight.GetTitledFirstName], uno dei [GetPlayer.Custom( 'KnightCulturePluralNoTooltipLowercase' )] di [target.GetTitledFirstNamePossessive]. "I nostri guerrieri meritano di meglio. Prometti un trattamento equo ai nostri uomini, oltre a una generosa borsa d'oro, e avrai la mia spada.""
+ claim_throne_ongoing.1007.a:0 "I miei $knight_culture_player_plural_no_tooltip_lowercase$ vengono sempre per primi!"
+ claim_throne_ongoing.1007.b:1 "Un $knight_culture_player_no_tooltip_lowercase$ che tradisce il proprio signore non è affatto un $knight_culture_player_no_tooltip_lowercase$."
+
+ claim_throne_ongoing.1008.t:0 "Ingannli Tutti"
+ claim_throne_ongoing.1008.desc:1 "I miei sforzi per rafforzare la mia rivendicazione su [target_title.GetName] forse potrebbero essere aiutati da qualche trucchetto.\n\nUna lettera in cui si proclama che la fine è vicina, ultimamente, sta circolando nei reami vicini. Con un po' di falsificazione e di pazienza, sono sicuro che potrei creare una lettera simile che proclami che dovrei essere io a regnare invece di [target.GetTitledFirstName].\n\nMa come dovrei usare una lettera del genere?"
+ claim_throne_ongoing.1008.a:0 "Esponi in pubblico."
+ claim_throne_ongoing.1008.b:1 "Condividila con i miei compagni vassalli."
+ claim_throne_ongoing.1008.c:0 "Stanne fuori."
+ claim_throne_ongoing.1008.c.tt:0 "Utilizzi invece il tempo in modo più saggio."
+
+ claim_throne_ongoing.1009.t:0 "Colto a Mentire"
+ claim_throne_ongoing.1009.desc:0 "Sembra che [fraud_catcher.GetTitledFirstName] stia provando a farsi un nome affermando che la mia recente lettera è una mera falsificazione e che nessuna delle rivendicazioni al suo interno è vera.\n\nE peggio ancora, [target.GetTitledFirstName] sta credendo ad ogni parola! Sono stato scoperto?"
+ claim_throne_ongoing.1009.a:0 "Questo era una prova, e voi tutto l'avete fallito."
+ claim_throne_ongoing.1009.b:0 "Come osi accusarmi di mentire?"
+ claim_throne_ongoing.1009.b.duel_success:0 "Fai un'affermazione convincente"
+ tooltip.claim_throne_ongoing.1009.b.duel_success:0 "Tutti vengono ingannati"
+ claim_throne_ongoing.1009.b.duel_failure:0 "Nessuno ci crede"
+ tooltip.claim_throne_ongoing.1009.b.duel_failure:0 "Non riesci a impressionare nessuno"

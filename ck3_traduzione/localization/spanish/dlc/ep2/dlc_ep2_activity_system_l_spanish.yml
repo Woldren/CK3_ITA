@@ -1,0 +1,53 @@
+﻿l_spanish:
+
+ invite_to_activity_interaction:1 "Invito all'Attività"
+ invite_to_activity_accepted:0 "Invito Accettato"
+ invite_to_activity_accepted_desc:0 "[recipient.GetShortUIName] ha accettato il tuo invito e partirà presto."
+ invite_to_activity_refused:0 "Invito Rifiutato"
+ invite_to_activity_refused_desc:0 "[recipient.GetShortUIName] ha declinato l'invito."
+ invite_to_activity_interaction_desc:0 "Invita [recipient.GetTitledFirstNameNoTooltip|U] all'[activity|E] che stai ospitando."
+ invite_to_activity_reply_item_key:0 "#T Invito a [CHARACTER.GetInvolvedActivity.GetNameNoTooltip]\n#!Mittente: [CHARACTER.GetUIName]"
+ invite_to_activity_flavor:2 "[SCOPE.sC('actor').Custom2('GetInviteToActivityFlavor', SCOPE.sC('recipient'))][SCOPE.sC('actor').Custom2('GetTournamentPrizeFlavor', SCOPE.sC('recipient'))]"
+ invite_to_activity_flavor_tournament:1 "Sto organizzando un grande torneo a [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]."
+ invite_to_activity_flavor_wedding:1 "Sono liet[ROOT.Char.Custom('DE_END_PRO_S_N')] di invitarvi a"
+ invite_to_activity_flavor_tour:1 "Con la presente vi invito a partecipare al mio viaggio verso [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTier], che inizierà a [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]."
+ invite_to_activity_flavor_feast:1 "Con la presente vi invito a banchettare nel mio [ROOT.Char.Custom('FortifiedBuilding')] a [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]."
+ invite_to_activity_flavor_hunt:1 "Siete cordialmente invitati alla mia battuta di caccia nella [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.Custom('GetTerrainLandPlural')] di [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]."
+ invite_to_activity_flavor_pilgrimage:1 "Con la presente vi invito a unirvi a me nel mio pellegrinaggio a [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]."
+ invite_to_activity_flavor_playdate:1 "Vi invito a venire al mio raduno a [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]. Sarà molto divertente e un'occasione per conoscere altri bambini!"
+ invite_to_activity_flavor_witch_ritual:1 "È tempo di rendere omaggio a [ROOT.Char.GetFaith.WitchGodName] ancora una volta, vuoi venire a [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName] e condividere le rivelazioni?"
+ invite_to_activity_flavor_gruesome_festival:1 "Con la presente vi invito a [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName] per un grande sacrificio in onore di [ROOT.Char.GetFaith.PantheonTerm]."
+ invite_to_activity_flavor_fallback:0 "Presto terrò una [GetActivityType('activity_hunt').GetName], e con la presente vi invito a parteciparvi."
+ activity_location_any_game_tt:0 "Il luogo deve avere della selvaggina da caccia"
+ activity_location_owned_or_vassal_tt:1 "La [county|E] deve essere detenuta da te o da un [direct_vassal|E]"
+
+ FINALIZE_DESTINATION_SELECTION:0 "Finalizza [ActivityType.GetNameNoTooltip]"
+ START_DESTINATION_SELECTION:0 "Modifica [ActivityType.GetNameNoTooltip]"
+ NUM_STOPS:0 "Fermare ([GetDataModelSize( ActivityPlanner.AccessPlannedPhases )])"
+ ESTIMATED_TRAVEL_TIME_NEXT_DESTINATION:0 "[TravelPlanData.GetNextDestination.GetEstimatedArrivalDate.GetTimeDiffFromNow] per recarsi a [Title.GetName]"
+ ESTIMATED_TRAVEL_TIME_TOTAL:0 "Tempo di viaggio totale: [TravelPlanData.GetFinalDestination.GetEstimatedArrivalDate.GetTimeDiffFromNow]"
+
+ tournament_invite_flavor_contestant:0 "$invite_to_activity_flavor_tournament$ Inizieremo con la competizione [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName]; un'occasione per mostrare a tutti le proprie abilità, ve lo assicuro.\n"
+ tournament_invite_flavor_standard:0 "$invite_to_activity_flavor_tournament$  Inizieremo con la competizione [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName]; sarà un grande spettacolo.\n"
+ 
+ tournament_invite_flavor_bad_prizes:0 "\nPurtroppo i premi saranno dei semplici gingilli, ma l'occasione di gloria è grande!\n"
+ tournament_invite_flavor_normal_prizes:0 "\nSe da un lato l'attenzione si concentrerà sull'affinamento delle nostre abilità, dall'altro ci saranno premi adeguati per i vincitori.\n"
+ tournament_invite_flavor_good_prizes:0 "\nI premi saranno di buona qualità, se l'opportunità di gloria personale non fosse sufficiente ad attirarvi!\n"
+ tournament_invite_flavor_very_good_prizes:0 "\nHo fatto in modo di procurare ai vincitori delle ricompense fantastiche!\n"
+ tournament_invite_flavor_splendid_prizes:0 "\nSaranno messi in palio solo i premi più illustri, vere e proprie opere d'arte dei migliori artigiani del mio regno!\n"
+
+ wedding_invite_flavor_betrothed:0 "Finalmente è arrivato il momento di celebrare il nostro grande matrimonio. Vi aspetto pazientemente a [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName].\n"
+ wedding_invite_flavor_host:0 "$invite_to_activity_flavor_wedding$ celebrare il matrimonio tra me e   [ROOT.Char.GetInvolvedActivity.GetSpecialGuest('spouse_2').GetCharacter.GetFullName] a [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName].\n"
+ wedding_invite_flavor_standard:0 "$invite_to_activity_flavor_wedding$ celebrare il matrimonio di [ROOT.Char.GetInvolvedActivity.GetSpecialGuest('spouse_1').GetCharacter.GetFullName] e [ROOT.Char.GetInvolvedActivity.GetSpecialGuest('spouse_2').GetCharacter.GetFullName] a [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName].\n"
+
+ feast_invite_flavor_honor:0 "$invite_to_activity_flavor_feast$ Vorrei che tu fossi il mio ospite d'onore e che occupassi il posto più importante a tavola.\n"
+ feast_invite_flavor_standard:0 "$invite_to_activity_flavor_feast$ Insieme, godremo dei frutti di [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip].\n"
+
+ hunt_invite_flavor_standard:0 "$invite_to_activity_flavor_hunt$ Insieme, ci divertiremo un mondo!\n"
+ hunt_invite_flavor_legendary:0 "$invite_to_activity_flavor_hunt$ Insieme ci uniremo a un/una [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetTitle.GetDeJureLiege.Custom('GetLegendaryColor')] [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetTitle.GetDeJureLiege.Custom('GetAnimalType')] della leggenda!\n"
+ hunt_invite_flavor_dangerous:0 "$invite_to_activity_flavor_hunt$ Insieme, abbatteremo una bestia infida!\n"
+ hunt_invite_flavor_falconry:0 "$invite_to_activity_flavor_hunt$ Insieme, i nostri falchi faranno carne da macello delle loro prede!\n"
+
+ NOT_activity_invite_max_num_guests:0 "Impossibile aggiungere [CHARACTER.GetShortUIName] all'attività, è al completo!"
+ REASON_NOT_A_WITCH: "Non sei una Strega"
+ 

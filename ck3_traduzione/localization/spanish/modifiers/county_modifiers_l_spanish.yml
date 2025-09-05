@@ -1,0 +1,115 @@
+﻿l_spanish:
+ peasant_war_lost_county_modifier:0 "Autonomia Incrementata"
+ county_increased_opinion_modifier:0 "Abitanti Pacificati"
+ county_listened_to_locals_modifier:0 "Ascoltato dalla Gente del Posto"
+ county_mysterious_disappearances_modifier:0 "Misteriose Sparizioni"
+ county_raised_runestone_modifier:0 "Pietra Runica"
+ irrigated_oasis_modifier:0 "Oasi Irrigata"
+ guarded_irrigated_oasis_modifier:0 "Oasi Irrigata Protetta"
+ oasis_modifier:0 "Oasi"
+ county_shuubiyya_modifier:0 "Shu'ubiyya"
+ county_forced_assimilation_modifier:0 "Assimilazione Forzata"
+ 
+ nine_fingered_peasants_modifier:0 "Contadini con Nove Dita"
+ nine_fingered_peasants_modifier_desc:0 "Il lavoro in questa contea è rallentato, poiché le dita tendono a scomparire..."
+
+ county_weapons_ban_in_city_modifier:0 "Divieto di Armi nelle Città"
+ county_weapons_carried_in_city_modifier:0 "Permesso di Portare Armi"
+ county_increased_presence_modifier:0 "Maggiore Presenza"
+ county_increased_presence_modifier_desc:0 "Questa contea ha una notevole presenza di funzionari violenti"
+ county_confident_in_humanity_modifier:0 "Fiducia nell'Umanità del Signore"
+ county_superstitious_of_ruler_modifier:0 "Superstizioni contro il Signore"
+ county_chastised_beloved_adventurer_modifier_desc:0 "Un avventuriero, habitué di una taverna locale, è stato cacciato dal sovrano che disapprovava la sua mancanza di ispirazione."
+ 
+ harassing_merchants_modifier:0 "Commercianti Vessati"
+ opulent_pigsty_modifier:0 "Porcile opulento"
+
+ hold_court_cropsharing:0 "Condivisione del Raccolto"
+ hold_court_cropsharing_desc:0 "La carestia causata da un fungo in questa contea è stata alleviata facendo condividere ai villaggi locali i loro raccolti."
+ hold_court_free_labor:0 "Lavoro Gratuito"
+ hold_court_free_labor_desc:0 "I lavoratori di questa contea stanno ripagando la generosità del loro signore con fatica e sudore."
+ hold_court_ploughs_to_swords:0 "Dall'Aratro alla Spada"
+ hold_court_ploughs_to_swords_desc:0 "Le fattorie di questa contea sono vuote; i contadini si sono arruolati per combattere invece di seminare."
+
+ promote_culture_modifier:0 "Cultura Celebrata"
+ 
+ small_investment_in_revolt_modifier:0 "Protesta dei Contadini"
+ small_investment_in_revolt_modifier_desc: "[county_corruption|E]\nI contadini esprimono le loro preoccupazioni per l'influenza straniera in questa Contea" 
+ medium_investment_in_revolt_modifier:0 "Indignazione Contadina"
+ medium_investment_in_revolt_modifier_desc: "[county_corruption|E]\nI contadini sono istigati dagli agenti stranieri e rifiutano il lavoro in questa Contea." 
+ high_investment_in_revolt_modifier:0 "Rivolta Contadina" 
+ high_investment_in_revolt_modifier_desc: "[county_corruption|E]\nI contadini sono istigati dalla propaganda straniera a rivoltarsi in tutta la Contea, "
+ divide_and_conquer_modifier:0 "Propaganda Religiosa"
+ divide_and_conquer_modifier_desc:0 "Gli abitanti di questa contea sono stati sottoposti a una propaganda religiosa che li ha spinti a riunirsi sotto la bandiera del loro signore."
+
+ debug_max_popular_opinion_modifier:0 "$send_friendliness$"
+ debug_max_popular_opinion_modifier_desc:0 "$debug_generic_option$"
+ debug_min_popular_opinion_modifier:0 "$debug_make_dislike_me_interaction$"
+ debug_min_popular_opinion_modifier_desc:0 "$debug_generic_option$"
+
+ lost_holy_order_modifier:0 "Ordine Sacro Perso"
+ lost_holy_order_modifier_desc:0 "Il malcontento è stato alimentato dallo scioglimento dell'Ordine Sacro che un tempo reggeva queste terre."
+ 
+ helped_construct_makeshift_temple:0 "Tempio improvvisato"
+ helped_construct_makeshift_desc:0 "Un tempio improvvisato è stato costruito qui per dare alla gente del posto un luogo in cui pregare."
+
+ cared_for_war_widow:0 "Vedova di Guerra Accudita"
+ cared_for_war_widow_desc:0 "In questa contea una vedova di guerra è stata accudita personalmente dalle autorità locali."
+ ignored_war_widow:0 "Vedova di Guerra Ignorata"
+ ignored_war_widow_desc:0 "In questa contea una vedova di guerra è stata trattata in modo irrispettoso e abbandonata a se stessa."
+
+ entertained_peasants:0 "Contadini Divertiti"
+ entertained_peasants_desc:0 "I contadini di questa contea sono stati intrattenuti durante il passaggio di alcuni viaggiatori."
+
+ scared_peasants:0 "Contadini Spaventati"
+ scared_peasants_desc:0 "I contadini di questa contea sono rimasti terrorizzati durante il passaggio di alcuni viaggiatori."
+
+ ugly_statue:0 "Statua Orrenda"
+ ugly_statue_desc:0 "In questa contea è stata eretta una statua orribile."
+
+ accurate_statue:0 "Statua Realistica"
+ accurate_statue_desc:0 "In questa contea è stata eretta la statua di uno stimato sovrano. Sebbene da molti sia considerata brutta, il sovrano la vede come una realistica rappresentazione del suo aspetto."
+
+ destroyed_statue:0 "Statua Distrutta"
+ destroyed_statue_desc:0 "In questa contea è presente una statua distrutta."
+
+ released_criminal:0 "Criminale Rilasciato"
+ released_criminal_desc:0 "In questa contea un criminale è stato rilasciato contro la volontà della popolazione locale."
+
+ martially_inspired:0 "Ispirazione Marziale"
+ martially_inspired_desc:0 "I contadini di questa contea sono stati ispirati da atti marziali."
+
+ inspired_by_tales:0 "Ispirati dai Racconti"
+ inspired_by_tales_desc:0 "I contadini di questa contea sono stati ispirati da racconti epici."
+
+ desecrated_local_saint_modifier:0 "Tomba Profanata"
+ desecrated_local_saint_modifier_desc:0 "Il ripudio di un santo non canonico da parte di questo personaggio gli è valso sia la fiducia che l'ira."
+ patronized_local_saint_modifier:0 "Santo Locale Patrocinato"
+ patronized_local_saint_modifier_desc:0 "La tolleranza di questo personaggio nei confronti di un santo non canonico gli ha fatto guadagnare sia la fiducia che l'ira."
+ local_saint_modifier:0 "Santo Locale"
+ local_saint_modifier_desc:0 "Il patrocinio di un santo locale, non approvato dal clero, ha preso piede in questa contea."
+ 
+ super_sleuth_modifier:0 "Ribaltapietre"
+ super_sleuth_modifier_desc:0 "Questo personaggio non si fermerà davanti a nulla per trovare la verità e fare giustizia."
+ celebrity_executioner_modifier:0 "Giustiziere di Celebrità"
+ celebrity_executioner_modifier_desc:0 "La gente di questa contea ha assistito a un'esecuzione di cui si parlerà per anni."
+
+ hamlet_bandit_modifier:0 "Flagello dei Banditi"
+ hamlet_bandit_modifier_desc:0 "Questo personaggio ha fatto personalmente piazza pulita di banditi disertori che molestavano i cittadini comuni."
+ hamlet_bandit_remains_modifier:0 "Banditismo Rampante"
+ hamlet_bandit_remains_modifier_desc:0 "Questa contea è stata colpita da disertori banditi senza controllo."
+
+ optimized_weighting_sucess:0 "Mercato Ottimizzato dalla Pesatura"
+ optimized_weighting_sucess_desc:0 "In questa contea i commercianti pagano un po' più di tasse, per lo più senza rendersene conto."
+ optimized_weighting_failure:0 "Scoperto l'intrigo dei Pesi"
+ optimized_weighting_failure_desc:0 "I commercianti tendono a evitare questa contea a causa dell'iniquo sistema di pesate."
+ new_weighting_system:0 "Nuovo Sistema di Pesata"
+ new_weighting_system_desc:0 "Questa contea beneficia di un nuovo sistema superiore di pesata."
+
+ innkeeper_bad_result: "La Locanda Puzzolente"
+ innkeeper_bad_result_desc: "C'è una taverna in questa zona che genera un buon profitto, ma attira gente scontenta."
+ innkeeper_average_result: "La Locanda Mediocre"
+ innkeeper_average_result_desc: "C'è una taverna in questa zona che intrattiene la gente — anche se non la rende felice."
+ innkeeper_good_result: "La Locanda Sfarzosa"
+ innkeeper_good_result_desc: "C'è una taverna in questa zona che mantiene alto il morale della popolazione."
+ 

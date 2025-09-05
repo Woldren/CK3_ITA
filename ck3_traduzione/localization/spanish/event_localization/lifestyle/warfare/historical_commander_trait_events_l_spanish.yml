@@ -1,0 +1,50 @@
+﻿l_spanish:
+ #Generic Lines
+ historical_commander_trait.reject.tt:1 "#F Cercherai l'ispirazione altrove #!"
+
+ #Hannibal
+ historical_commander_trait.0001.t:0 ""I nemici di Roma""
+ historical_commander_trait.0001.desc:1 "Mentre studiavo le tattiche degli antichi generali, sono rimasto [ROOT.Char.Custom('surprised_reaction')] nell'apprendere le gesta di Annibale Barca durante la seconda guerra punica:\n\n#F Conosciuto come 'Il Nemico di Roma', Il risultato più importante di Annibale fu la battaglia di Canne, dove il suo esercito di circa 50,000 uomini superò in astuzia e riuscì a circondare l'esercito romano di 86,000 uomini. Circondati e impossibilitati a ritirarsi, solo 3,000 Romani sopravvissero al massacro.#!"
+ historical_commander_trait.0001.a:0 "Così come Annibale, annienterò i miei nemici!"
+ historical_commander_trait.0001.b:0 "Annibale era un vero maestro delle tattiche Fabiane."
+ historical_commander_trait.0001.c:0 "La versatilità era la più grande forza di Annibale."
+ historical_commander_trait.0001.d:0 "Bah! Era uno sciocco, combatteva la sua guerra senza speranza."
+ historical_commander_trait.0001.d.good:0 "La brutalità non è un tratto di cui essere invidiato, persino in guerra."
+ #Caesar
+ historical_commander_trait.0002.t:0 "Il Trionfo di Cesare"
+ historical_commander_trait.0002.desc:0 "Mentre studiavo le tattiche degli antichi generali mi sono divertito a conoscere le gesta di Giulio Cesare durante la conquista della Gallia.\n\n#F Durante l'assedio di Alesia, Cesare stabilì che l'assalto diretto alla città ben fortificata sarebbe stato troppo costoso. Ordinò quindi al suo esercito di costruire a sua volta una fortezza che avrebbe circondato l'intera città, intrappolando all'interno la guarnigione nemica, portandola a morire di fame e allo stesso tempo impedendo l'ingresso ai rinforzi che avrebbero dato il cambio ai difensori#!"
+ historical_commander_trait.0002.a:0 "Un po' di ingegno aiuta molto durante un assedio."
+ historical_commander_trait.0002.b:0 "Far venire il nemico da te! Mi piace!"
+ historical_commander_trait.0002.c:0 "Cesare ha corso un rischio con quel piano, ma è stato ripagato!"
+ historical_commander_trait.0002.d:0 "Le guerre non vengono combattute in quel modo di questi tempi..."
+ #Alexander
+ historical_commander_trait.0003.t:0 "L'Inarrestabile Alessandro"
+ historical_commander_trait.0003.desc:0 "Mentre studiavo le tattiche degli antichi generali sono rimasto [ROOT.Char.Custom('surprised_reaction')] nell'apprendere le gesta di Alessandro Magno durante la conquista della Mesopotamia.\n\n#F Durante l'assedio di Tiro, Alessandro per assaltare un'isola fortezza demolì una città vicina e poi usando le macerie costruì una strada rialzata che si estendeva dalla terraferma alle mura della città. Questo permise alle sue macchine d'assedio di attaccare direttamente la fortezza nemica, anche se poi fu la sua marina a aprire una breccia.#!"
+ historical_commander_trait.0003.a:0 "Nessuna quantità d'acqua fermerà i miei eserciti!"
+ historical_commander_trait.0003.b:0 "Quella strada rialzata è stata un'impresa di grande ingegno."
+ historical_commander_trait.0003.c:0 "Utilizzare le risorse del mio nemico contro di lui? Brillante!"
+ historical_commander_trait.0003.d:0 "Perché perdere tempo a studiare tattiche che non hanno funzionato?"
+
+ #Constantine
+ historical_commander_trait.0004.t:0 "La Visione di Chi-Rho"
+ historical_commander_trait.0004.desc:0 "Mentre studiavo le tattiche degli antichi generali, sono stato ispirato quando sono venuto a conoscenza della vittoria di Costantino nella battaglia di Ponte Milvio.\n\n#F La notte prima della battaglia, Costantino ha sognato che la vittoria gli sarebbe stata concessa se avesse dipinto Chi-Rho, un simbolo di Cristo, sugli scudi dei suoi soldati. Fece esattamente questo, e il giorno dopo invase le forze dell'usurpatore Massenzio, che cadde nel fiume Tevere e annegò.#!"
+ historical_commander_trait.0004.a:0 "I malvagi non possono competere con gli eserciti di Dio!"
+ historical_commander_trait.0004.b:0 "Come Costantino, nessun fiume può ritardare la mia vittoria!"
+ historical_commander_trait.0004.c:0 "Parlando con logica, le tattiche flessibili hanno vinto quella battaglia."
+ historical_commander_trait.0004.d:0 "I trucchi per rafforzare il morale non sono sufficienti per vincere le guerre!"
+
+ #Khalid ibn al-Walid
+ historical_commander_trait.0005.t:0 "La Spada di Allah"
+ historical_commander_trait.0005.desc:0 "Mentre studiavo le tattiche degli antichi generali, ho cominciato a contemplare dopo aver appreso della prima battaglia di Khalid ibn al-Walid dopo la sua conversione all'Islam.\n\n#F In inferiorità numerica in rapporto ai bizantini di 3 a 1 durante la battaglia di Mu'tah, Khalid radunò i suoi soldati vacillanti per mantenere la posizione. Questo atteggiamento ribelle gli ha permesso di organizzare una ritirata a Medina, salvando i suoi uomini da morte certa. In seguito, Khalid e il suo esercito conquistarono tutta l'Arabia in nome di Allah#!"
+ historical_commander_trait.0005.a:0 "Coloro che combattono in nome di Allah saranno vittoriosi!"
+ historical_commander_trait.0005.b:0 "La devozione ci mantiene forti quando siamo in inferiorità numerica."
+ historical_commander_trait.0005.c:0 "Sapere #EMP quando#! combattere è importante quanto sapere #EMP come#!."
+ historical_commander_trait.0005.d:0 "Perché celebrare una sconfitta imbarazzante?"
+
+ #Bilge Khagan
+ historical_commander_trait.0006.t: "The Wise King"
+ historical_commander_trait.0006.desc: "While studying the tactics of ancient generals, I was inspired when I uncovered the tales of Bilge Khagan's conquests, reaching all four quarters of the world.\n\nRaiding through Baximi and Gazhou, he humiliated emperor Xuanzong of Tang's army, despite its numbers reaching the hundred of thousands. He truly saw that our might lies in swiftness and mobility! \n\nBilge and his army later went on to crush the Khitans and Xi in Tengri's name!"
+ historical_commander_trait.0006.a: "With the blessing of heaven, we endure!"
+ historical_commander_trait.0006.b: "$historical_commander_trait.0005.c$"
+ historical_commander_trait.0006.c: "Flexible tactics are needed for a mobile army!"
+ historical_commander_trait.0006.d: "We are better than using mere tricks!"

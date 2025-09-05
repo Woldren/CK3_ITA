@@ -1,0 +1,24 @@
+﻿l_spanish:
+ #Become Greatest of Khans
+ become_greatest_of_khans_decision:0 "Diventa il più grande dei Khan"
+ become_greatest_of_khans_decision_desc:0 "#F Sono pronto a chiamare a raccolta ogni capo clan dai meandri del mio vasto reame. Essi mi proclameranno Khan dei Khan, [ROOT.Char.GetLadyLord|U] di tutto ciò che vi è sotto il Cielo.\nDa lì, noi conquistiamo.#!"
+ become_greatest_of_khans_decision_tooltip:0 "Dall' Impero Mongolo e diventa il Genghis Khan–il sovrano del mondo"
+ become_greatest_of_khans_decision_confirm:0 "Indici il Grande Kurultai"
+ become_greatest_of_khans_decision_gain_mongol_empire:1 "Il tuo reame diventa l' [mongol_empire|E]"
+ become_greatest_of_khans_decision_enable_mongol_invasion_cb:1 "Acquisisci l'accesso al [mongol_invasion_casus_belli|E]"
+ GREATEST_OF_KHANS_TITLE_REQUIREMENT:1 "Devi possedere il rango di [king|E] o [emperor|E] "
+
+ #Establish Bactrian Supremacy
+ establish_bactrian_supremacy_decision:0 "Stabilisci la Supremazia Bactriana"
+ establish_bactrian_supremacy_decision_desc:0 "#F Per generazioni, i re Bactriani hanno dominato i crocevia delle civilizzazioni. È tempo di riprendere il testimone, e far si che la parola si diffonda dai caravanserai alle oasis che qui, sotto i quattro angoli del cielo, siamo noi che regniamo.#!"
+ establish_bactrian_supremacy_decision_tooltip:0 "Mostra il dominio sulle tratte che connettendo Est e Ovest, Nord e Sud"
+ establish_bactrian_supremacy_decision_confirm:0 "Reclama le terre antiche!"
+ 
+ #Establish the Yamagate of Samarkand
+ establish_yamagate_in_samarkand_decision:0 "Stabilisci il $manichean_religious_head_title_name$ a Samarcanda"
+ establish_yamagate_in_samarkand_decision_desc:0 "#F Proprio come Mar Sisin un tempo guidava la fede nella Santa Sede di Babilonia, così il nostro attuale $manichean_religious_head_title$ ci guida qui in Turan e in Persia. Formalizzando il mandato divino della chiesa a Samarcanda, la fede Manichea rinascerà e si diffonderà a un nuovo popolo!#!"
+ establish_yamagate_in_samarkand_decision_tooltip:0 "Reclama una nuova terra santa in Oriente"
+ establish_yamagate_in_samarkand_decision_confirm:0 "Il $manichean$ è nato di nuovo!"
+
+ hof_exists_tt:1 "Il tuo [head_of_faith|E] esiste"
+ samarkand_held_by_you_or_vassal_tt:0 "$c_samarkand$ deve essere detenuto da te o da un [vassal|E]"

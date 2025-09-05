@@ -1,0 +1,18 @@
+﻿l_spanish:
+ animal_sea_snake: "un $animal_snake$ di mare"
+ animal_yellow_bellied_snake: "un $animal_snake$ dal ventre giallo"
+ animal_krait: "un krait"
+ animal_black_mamba: "un black mamba"
+ animal_cobra: "un cobra"
+ animal_viper: "una vipera"
+ animal_tiger_snake: "un $animal_snake$ tigre"
+ animal_adder: "una vipera"
+ animal_burrowing_asp: "un'aspide scavatrice"
+ animal_snake_article: "un $animal_snake$"
+ animal_grass_snake: "un $animal_snake$ delle praterie"
+
+ kurultai_member: "Membro del Kurultai"
+ councillor: "Consigliere"
+
+ kurultai_member_possessive: "del membro del Kurultai"
+ councillor_possive: "del Consigliere"

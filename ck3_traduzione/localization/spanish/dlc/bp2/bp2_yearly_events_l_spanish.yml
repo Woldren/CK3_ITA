@@ -1,0 +1,70 @@
+﻿l_spanish:
+ 
+ #Pet Rock events
+ pet_rock.0001.t:0 "Pietre sul Cammino"
+ pet_rock.0001.desc:0 " #EMP Plink!#! \n\nSto camminando all'esterno quando la mia scarpa si scontra con un piccolo sasso. Il sassolino tintinna vivacemente su alcuni dei suoi simili, e si ferma a poca distanza da me. Colt[ROOT.Char.Custom('DE_END_PRO_S_N')] da un impeto di curiosità, lo raccolgo. La sua superficie di colore [ROOT.Char.Custom('RockColor')] e scoscesa è stranamente calda.\n\nAll'improvviso, so esattamente cosa vuole. La pietra sta emanando #EMP un'aura amichevole#!. Quando la guardo, annidata nel palmo della mia mano, il suo peso mi sembra rassicurante ed esaltante allo stesso tempo."
+ pet_rock.0001.a:0 "Saremo migliori amici!"
+ pet_rock.0001.a.tt:0 "Le vostre avventure insieme iniziano!"
+ pet_rock.0001.b:0 "Cosa mi viene in mente?"
+ pet_rock.0001.b.tt:0 "Dovrei davvero passare meno tempo all'aperto..."
+
+ pet_rock.0002.t:0 "Un Sasso"
+ pet_rock.0002.desc:0 "Mentre il sasso mi riposa in grembo, felicemente seduto, penso a quale sarebbe il nome adatto a [ROOT.Char.Custom('RockStoryHerHim')]. Qualcosa di storico? Qualcosa che alluda alla sua forma? Qualcosa che descriva la sensazione rilassante che provo quando strofino la sua superficie di colore [ROOT.Char.Custom('RockColor')]?\n\nOh, lo so! Il suo nome sarà..."
+ pet_rock.0002.a:0 "Che nome fantastico!"
+
+ pet_rock.0100.t:0 "[ROOT.Char.Custom('RockStoryName')]: Valore Sedimentario"
+ pet_rock.0100.desc:0 "Dopo l'ennesima giornata stressante, mi accascio su una sedia nella mia [ROOT.Char.Custom('GetChamber')]: per quanto tempo riuscirò a continuare così?\n\nQuando sposto il piede sento un rumore silenzioso e trovo il mio sasso domestico [ROOT.Char.Custom('RockStoryName')] appollaiato accanto al mio sedile. Mi siedo con [ROOT.Char.Custom('RockStoryHerHim')] per un po', ascoltando il silenzio rilassante e accarezzando il suo esterno [ROOT.Char.Custom('RockColor')]."
+ pet_rock.0100.a:0 "Penso di poterlo fare ancora per un po'."
+
+ pet_rock.0101.t:0 "[ROOT.Char.Custom('RockStoryName')]: Una lucentezza a Specchio"
+ pet_rock.0101.desc:0 "Sul bordo del mio tavolo, la mia roccia [ROOT.Char.Custom('RockStoryName')] siede imbronciata. Do un'occhiata. È chiaro che [ROOT.Char.Custom('RockStorySheHe')] è imbronciato.\n\nSappiamo entrambi che [ROOT.Char.Custom('RockStorySheHe')] vuole uno smalto per migliorare la sua bellissima pelle [ROOT.Char.Custom('RockColor')]. È solo che il suo smalto preferito è così#EMP costoso#!..."
+ pet_rock.0101.a:0 "Va bene, va bene, ti faremo brillare..."
+ pet_rock.0101.b:0 "Dovrai accontentarti."
+
+ pet_rock.0102.t:0 "[ROOT.Char.Custom('RockStoryName')]: Pulitissimo"
+ pet_rock.0102.desc:0 "L'esterno di [ROOT.Char.Custom('RockStoryName')], normalmente di un vibrante [ROOT.Char.Custom('RockColor')], ha un aspetto un po' spento oggi. [ROOT.Char.Custom('RockStorySheHe')|U] se ne sta lì in modo accusatorio, pregandomi di fare un bagno.\n\nIo #EMP ho#! un incontro importante oggi, non è vero? Questa potrebbe essere una spiegazione difficile."
+ pet_rock.0102.a:0 "L'incontro può aspettare!"
+ pet_rock.0102.b:0 "Un altro giorno, [ROOT.Char.Custom('RockStoryName')]."
+
+ pet_rock.0103.t:0 "[ROOT.Char.Custom('RockStoryName')]: Sgraffignare il Nutrimento"
+ pet_rock.0103.desc:0 "Un altro piatto di cibo arriva davanti a me, il mio stomaco praticamente geme sotto il peso dei bocconi precedenti. Un profumo meraviglioso colpisce il mio naso: menta!\n\nAppena ne sento l'odore penso alla mia roccia [ROOT.Char.Custom('RockStoryName')]. La menta è il suo odore preferito!\n\nPosso praticamente #EMP sentire#! la sua presenza implorante che si irradia dalla sua posizione nel mio marsupio."
+ pet_rock.0103.a:0 "Vediamo se riesco a sgraffignare qualche foglia per [ROOT.Char.Custom('RockStoryHerHim')]..."
+ pet_rock.0103.b:0 "Meglio non farlo."
+
+ pet_rock.0104.t:0 "[ROOT.Char.Custom('RockStoryName')]: Rock Bottom"
+ pet_rock.0104.desc:0 "Penso a me stesso mentre attraverso la [ROOT.Char.Custom('GetRoom')]. Ci sono tante prove e tribolazioni quando si gestisce un regno! Forse la mia roccia [ROOT.Char.Custom('RockStoryName')] avrà qualche buon consiglio?\n\nAccarezzo il mio marsupio, ove è solitamente riposta. Niente. All'improvviso, mi sento pers[ROOT.Char.Custom('DE_END_PRO_S_N')] senza la sua guida in grado di calmarmi.\n\nIl panico inizia a farsi strada."
+ pet_rock.0104.a:0 "Beh, ce n'è una fuori che sembra #EMP simile#!..."
+ pet_rock.0104.b:0 " #EMP [ROOT.Char.Custom('RockStoryName')]!#! Dov'è?"
+ pet_rock.0104.b.success:0 "La ritrovi in un forziere"
+ pet_rock.0104.b.failure:0 "...[ROOT.Char.Custom('RockStoryName')]?"
+ pet_rock.0104.b.failure.tt:0 "Se n'è andata per sempre."
+ pet_rock.0104.c:0 "Forse è andata a trovare un amico?"
+ pet_rock.0104.c.tt:0 "Suppongo che [ROOT.Char.Custom('RockStorySheHe')] abbia voltato pagina..."
+
+ pet_rock.0105.t:0 "[ROOT.Char.Custom('RockStoryName')]: Piacere di Conoscerti"
+ pet_rock.0105.desc: "Sto parlando con la mia roccia [ROOT.Char.Custom('RockStoryName')] all'esterno, riflettendo sul nostro primo incontro, quando un urlo felice mi giunge all'orecchio. [other_rock_owner.GetFirstName] si sta avvicinando a me stringendo... quella non è forse una-\n\n"Sono così felice di vedere anche anche tu hai una roccia per amica, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!" [other_rock_owner.GetFirstName] tiene in mano la sua. "Forse possono diventare amiche?""
+ pet_rock.0105.a:0 "Che roccia dall'aspetto stupido."
+ pet_rock.0105.b:0 "Sono sicur[ROOT.Char.Custom('DE_END_PRO_S_N')] che si troveranno benissimo!"
+ pet_rock.0105.c:0 "Scusami, [ROOT.Char.Custom('RockStoryName')] soffre di timidezza."
+
+ pet_rock.0106.t:0 "[ROOT.Char.Custom('RockStoryName')]: Sbam!"
+ pet_rock.0106.desc:0 "Sono al mio tavolo e sto leggendo alcune lettere e resoconti. [ROOT.Char.Custom('RockStoryName')] siede accanto a me, crogiolandosi al calore di un raggio di sole.\n\nMi allungo per accarezzare la sua superficie [ROOT.Char.Custom('RockColor')], ma sembra che [ROOT.Char.Custom('RockStorySheHe')] sia di umore piuttosto giocoso. Nello sporgermi per avvicinarmi, il tavolo traballa e [ROOT.Char.Custom('RockStoryName')] si lancia di lato!"
+ pet_rock.0106.a:0 "Hah! Che scemo/a!"
+
+ pet_rock.0107.t:0 "[ROOT.Char.Custom('RockStoryName')]: Data per Scontata"
+ pet_rock.0107.desc:0 "Mentre trasporto [ROOT.Char.Custom('RockStoryName')] lungo il cortile verso il mio alloggio, con la sua superficie di colore [ROOT.Char.Custom('RockColor')] annidata felicemente nella mia mano, mi chiedo se [ROOT.Char.Custom('RockStorySheHe')] sia geloso/a di me. Dopotutto, ho un/un' intero/a [ROOT.Char.Custom('ResidenceBuilding')] da chiamare mio, da decorare come voglio e in cui ospitare i miei amici e la mia famiglia.\n\n[ROOT.Char.Custom('RockStoryName')] no. Forse è arrivato il momento di rimediare?\n\nGuardo la pietra e rifletto."
+ pet_rock.0107.a:0 "[ROOT.Char.Custom('RockStoryName')] può stare con me nel mio letto!"
+ pet_rock.0107.b:0 "Ci proverò, perché no."
+ pet_rock.0107.b.success:0 "Costruisci un rifugio soddisfacente"
+ pet_rock.0107.b.failure:0 "Ti colpisci il pollice"
+ pet_rock.0107.c:0 "Penso che [ROOT.Char.Custom('RockStorySheHe')] sia un tipo di roccia da esterni."
+
+ pet_rock.0108.t:0 "[ROOT.Char.Custom('RockStoryName')]: Tutto o Niente?"
+ pet_rock.0108.desc:0 "C'è un piccolo punto curioso in questo muro, penso, mentre [ROOT.Char.Custom('RockStoryName')] è incastonato/a nel palmo della mia mano. Il muro esterno del/della mio/a [ROOT.Char.Custom('ResidenceBuilding')], manca di un pezzo.\n\nRiesco a percepire la curiosità di di [ROOT.Char.Custom('RockStoryName')] nel mio palmo. Lo/a sollevo in alto per vedere e poi, per sfizio, lo/a metto direttamente nel buco. Come sospettavo, si adatta perfettamente.\n\nMi viene in mente che forse sarebbe meglio per me e [ROOT.Char.Custom('RockStorySheHe')] se rimanesse qui,"
+ pet_rock.0108.landed: "come parte della mia casa? Forse potremmo anche trovare dei modi nuovi e migliori per assemblare i suoi amici in edifici tutti loro?"
+ pet_rock.0108.adventurer: "felice in questa nuova casa? Forse potremmo persino trovare per [ROOT.Char.Custom('RockStorySheHe')] dei nuovi amici per la prossima volta in cui torneremo..."
+ pet_rock.0108.a:0 "Non riesco a pensare ad un onore più grande!"
+ pet_rock.0108.a.adventurer: "È tempo di separarci."
+ pet_rock.0108.a.tt:0 "Le tue avventure con la tua roccia giungono al termine."
+ pet_rock.0108.b:0 "Non potrei mai lasciarla andare!"
+ pet_rock.0108.b.tt:0 "[ROOT.Char.Custom('RockStorySheHe')|U] viaggerà con me, sempre."

@@ -1,0 +1,1087 @@
+﻿l_spanish:
+ #[TARGET.Custom('DE_END_PRO_S_N')] 
+ 
+ #PER I PRIMI TRE SOTTO, PER FAR COMPARIRE IL GENERE OPPOSTO USARE _Opp ALLA FINE, Es: [TARGET.Custom('DE_END_PRO_S_N_Opp')]
+ 
+ CustomLoc_DE_END_PRO_S_N_male:0 "o"
+ CustomLoc_DE_END_PRO_S_N_female:0 "a"
+ 
+ CustomLoc_DE_ART_DEF_P_A_male:0 "il"
+ CustomLoc_DE_ART_DEF_P_A_female:0 "la"
+ 
+ CustomLoc_DE_PRO_POS_P_2P_male:0 ""
+ CustomLoc_DE_PRO_POS_P_2P_female:0 "a"
+ 
+ CustomLoc_DE_ART_DEF_P_D_male:0 "Il"
+ CustomLoc_DE_ART_DEF_P_D_female:0 "La"
+ 
+ CustomLoc_DE_ART_IND_N_male:0 "dagli"
+ CustomLoc_DE_ART_IND_N_female:0 "dalle"
+ 
+ CustomLoc_DE_PRO_PER_P_3P_A_male:0 "del"
+ CustomLoc_DE_PRO_PER_P_3P_A_female:0 "della"
+ 
+ CustomLoc_DE_END_ADJ_DEF_P_A_male:0 "al"
+ CustomLoc_DE_END_ADJ_DEF_P_A_female:0 "alla"
+ 
+ CustomLoc_DE_PRO_DEM_male:0 "gli"
+ CustomLoc_DE_PRO_DEM_female:0 "le"
+ 
+ CustomLoc_DE_END_PRO_P_A_male:0 "Gli"
+ CustomLoc_DE_END_PRO_P_A_female:0 "Le"
+ 
+ CustomLoc_DE_PRO_POS_S_3P_female:0 "La"
+ CustomLoc_DE_PRO_POS_S_3P_male:0 "Lo"
+ 
+ CustomLoc_DE_PRO_POS_P_3P_female:0 "la"
+ CustomLoc_DE_PRO_POS_P_3P_male:0 "lo"
+ 
+ CustomLoc_DE_PRO_POS_S_1P_male:0 "i"
+ CustomLoc_DE_PRO_POS_S_1P_female:0 "le"
+ 
+ CustomLoc_DE_END_NOU_S_G_female:0 "e"
+ CustomLoc_DE_END_NOU_S_G_male:0 "i"
+ 
+ CustomLoc_DE_END_ADJ_IND_S_A_male:0 "e"
+ CustomLoc_DE_END_ADJ_IND_S_A_female:0 "a"
+ 
+ CustomLoc_DE_ART_IND_G_male:0 "ei"
+ CustomLoc_DE_ART_IND_G_female:0 "e"
+ 
+ CustomLoc_DE_PRO_PER_S_3P_G_male:0 "e"
+ CustomLoc_DE_PRO_PER_S_3P_G_female:0 "a"
+ 
+ CustomLoc_DE_END_ADJ_NUL_S_N_male:0 ""
+ CustomLoc_DE_END_ADJ_NUL_S_N_female:0 "la"
+ 
+ CustomLoc_DE_PRO_PER_P_3P_G_male:0 " "
+ CustomLoc_DE_PRO_PER_P_3P_G_female:0 "'"
+ 
+ CustomLoc_DE_END_ADJ_DEF_S_N_male:0 "o "
+ CustomLoc_DE_END_ADJ_DEF_S_N_female:0 "'"
+ 
+ CustomLoc_DE_PRO_PER_S_3P_N_male:0 "'"
+ CustomLoc_DE_PRO_PER_S_3P_N_female:0 "a "
+ 
+ CustomLoc_DE_END_NOU_S_GS_N_female:0 "trice"
+ CustomLoc_DE_END_NOU_S_GS_N_male:0 "tore"
+ 
+ CustomLoc_DE_ART_IND_A_male:0 "egli"
+ CustomLoc_DE_ART_IND_A_female:0 "lei"
+ 
+ CustomLoc_DE_ART_IND_D_male:0 "Egli"
+ CustomLoc_DE_ART_IND_D_female:0 "Lei"
+ 
+ CustomLoc_DE_ART_DEF_S_D_male:0 ""
+ CustomLoc_DE_ART_DEF_S_D_female:0 "ssa"
+ 
+ CustomLoc_DE_ART_DEF_S_G_male:0 "a"
+ CustomLoc_DE_ART_DEF_S_G_female:0 "essa"
+ 
+ CustomLoc_DE_END_ADJ_DEF_S_D_male:0 "L'"
+ CustomLoc_DE_END_ADJ_DEF_S_D_female:0 "La "
+ 
+ CustomLoc_DE_PRO_PER_P_3P_D_male:0 "stregone"
+ CustomLoc_DE_PRO_PER_P_3P_D_female:0 "strega"
+ 
+ CustomLoc_DE_END_ADJ_DEF_P_D_male:0 "a"
+ CustomLoc_DE_END_ADJ_DEF_P_D_female:0 "o"
+ 
+ CustomLoc_DE_PRO_POS_P_1P_male:0 "agli"
+ CustomLoc_DE_PRO_POS_P_1P_female:0 "alle"
+ 
+ ##################################################################################
+ 
+ #[TARGET.Custom('REL_TO_ME')] FAMIGLIARE / NON FAMIGLIARE
+ CustomLoc_REL_TO_ME_m:0 ""
+ CustomLoc_REL_TO_ME_f:0 ""
+ CustomLoc_REL_TO_ME_m2:0 "il "
+ CustomLoc_REL_TO_ME_f2:0 "la "
+ CustomLoc_REL_TO_ME_m3:0 "il "
+ CustomLoc_REL_TO_ME_f3:0 "la "
+ 
+ CustomLoc_REL_TO_ME2_m:0 "da "
+ CustomLoc_REL_TO_ME2_f:0 "da "
+ CustomLoc_REL_TO_ME2_m2:0 "dal "
+ CustomLoc_REL_TO_ME2_f2:0 "dalla "
+ CustomLoc_REL_TO_ME2_m3:0 "dal "
+ CustomLoc_REL_TO_ME2_f3:0 "dalla "
+ 
+ CustomLoc_REL_TO_ME3_m:0 "di "
+ CustomLoc_REL_TO_ME3_f:0 "di "
+ CustomLoc_REL_TO_ME3_m2:0 "del "
+ CustomLoc_REL_TO_ME3_f2:0 "della "
+ CustomLoc_REL_TO_ME3_m3:0 "del "
+ CustomLoc_REL_TO_ME3_f3:0 "della "
+ 
+ ##################################################################################
+ ###CODICI PER PERSONAGGI: RE/DUCA/CONTE...### [TARGET.Custom('IT_NAM_COL')]
+ 
+ # Custom('IT_NAM_COL')
+ CustomLoc_IT_NAM_COL_no_title:0 "su "
+ CustomLoc_IT_NAM_COL_infante:0 "sull'"
+ CustomLoc_IT_NAM_COL_principe:0 "sul "
+ CustomLoc_IT_NAM_COL_principessa:0 "sulla "
+ CustomLoc_IT_NAM_COL_base:0 "sul "
+ CustomLoc_IT_NAM_COL_base_f:0 "sulla "
+ CustomLoc_IT_NAM_COL_norse_special:0 "sul "
+ CustomLoc_IT_NAM_COL_norse_special_f:0 "sulla "
+ CustomLoc_IT_NAM_COL_base_r:0 "sul "
+ CustomLoc_IT_NAM_COL_base_rf:0 "sulla "
+ CustomLoc_IT_NAM_COL_english:0 "sull'"
+ CustomLoc_IT_NAM_COL_english_f:0 "sulla "
+ CustomLoc_IT_NAM_COL_tribal:0 "su "
+ CustomLoc_IT_NAM_COL_islam:0 "sullo "
+ CustomLoc_IT_NAM_COL_islam_f:0 "sulla "
+ CustomLoc_IT_NAM_COL_gaelic:0 "sul "
+ CustomLoc_IT_NAM_COL_gaelic_f:0 "sulla "
+ CustomLoc_IT_NAM_COL_i_base:0 "sull'"
+ CustomLoc_IT_NAM_COL_i_base_hre:0 "sul "
+ CustomLoc_IT_NAM_COL_i_base_hre_f:0 "sulla "
+ CustomLoc_IT_NAM_COL_i_ortox:0 "sul "
+ CustomLoc_IT_NAM_COL_i_ortox_f:0 "sulla "
+ CustomLoc_IT_NAM_COL_r_base:0 "su "
+ CustomLoc_IT_NAM_COL_r_indu:0 "sul "
+ CustomLoc_IT_NAM_COL_r_base_f:0 "sulla "
+ CustomLoc_IT_NAM_COL_r_islam:0 "sul "
+ CustomLoc_IT_NAM_COL_r_otox:0 "sul "
+ CustomLoc_IT_NAM_COL_r_islam_f:0 "sulla "
+ CustomLoc_IT_NAM_COL_d_base:0 "sul "
+ CustomLoc_IT_NAM_COL_d_base_f:0 "sulla "
+ CustomLoc_IT_NAM_COL_d_english:0 "sull'"
+ CustomLoc_IT_NAM_COL_d_english_f:0 "sulla "
+ CustomLoc_IT_NAM_COL_d_norse:0 "sullo "
+ CustomLoc_IT_NAM_COL_d_islam:0 "sull'"
+ CustomLoc_IT_NAM_COL_d_islam_f:0 "sull'"
+ CustomLoc_IT_NAM_COL_d_general:0 "sul "
+ 
+ # Custom('IT_NAM_COL2') RE/DUCA/CONTE...
+ CustomLoc_IT_NAM_COL2_no_title:0 "di "
+ CustomLoc_IT_NAM_COL2_infante:0 "dell'"
+ CustomLoc_IT_NAM_COL2_principe:0 "del "
+ CustomLoc_IT_NAM_COL2_principessa:0 "della "
+ CustomLoc_IT_NAM_COL2_base:0 "del "
+ CustomLoc_IT_NAM_COL2_base_f:0 "della "
+ CustomLoc_IT_NAM_COL2_norse_special:0 "del "
+ CustomLoc_IT_NAM_COL2_norse_special_f:0 "della "
+ CustomLoc_IT_NAM_COL2_base_r:0 "del "
+ CustomLoc_IT_NAM_COL2_base_rf:0 "della "
+ CustomLoc_IT_NAM_COL2_english:0 "dell'"
+ CustomLoc_IT_NAM_COL2_english_f:0 "della "
+ CustomLoc_IT_NAM_COL2_tribal:0 "di "
+ CustomLoc_IT_NAM_COL2_islam:0 "dello "
+ CustomLoc_IT_NAM_COL2_islam_f:0 "della "
+ CustomLoc_IT_NAM_COL2_gaelic:0 "del "
+ CustomLoc_IT_NAM_COL2_gaelic_f:0 "della "
+ CustomLoc_IT_NAM_COL2_i_ortox:0 "del "
+ CustomLoc_IT_NAM_COL2_i_ortox_f:0 "della "
+ CustomLoc_IT_NAM_COL2_i_base:0 "dell'"
+ CustomLoc_IT_NAM_COL2_i_base_hre:0 "del "
+ CustomLoc_IT_NAM_COL2_i_base_hre_f:0 "della "
+ CustomLoc_IT_NAM_COL2_r_base:0 "di "
+ CustomLoc_IT_NAM_COL2_r_indu:0 "del "
+ CustomLoc_IT_NAM_COL2_r_base_f:0 "della "
+ CustomLoc_IT_NAM_COL2_r_islam_f:0 "della "
+ CustomLoc_IT_NAM_COL2_r_islam:0 "del "
+ CustomLoc_IT_NAM_COL2_r_otox:0 "del "
+ CustomLoc_IT_NAM_COL2_d_base:0 "del "
+ CustomLoc_IT_NAM_COL2_d_base_f:0 "della "
+ CustomLoc_IT_NAM_COL2_d_english:0 "dell'"
+ CustomLoc_IT_NAM_COL2_d_english_f:0 "della "
+ CustomLoc_IT_NAM_COL2_d_norse:0 "dello "
+ CustomLoc_IT_NAM_COL2_d_islam:0 "dell'"
+ CustomLoc_IT_NAM_COL2_d_islam_f:0 "dell'"
+ CustomLoc_IT_NAM_COL2_d_general:0 "del "
+ 
+ # Custom('IT_NAM_COL3') RE/DUCA/CONTE... / [CHARACTER.Custom('IT_NAM_COL3')|U] -> Lettera maiuscola (Il, La, Lo...)
+ CustomLoc_IT_NAM_COL3_no_title:0 ""
+ CustomLoc_IT_NAM_COL3_infante:0 "l'"
+ CustomLoc_IT_NAM_COL3_principe:0 "il "
+ CustomLoc_IT_NAM_COL3_principessa:0 "la "
+ CustomLoc_IT_NAM_COL3_base:0 "il "
+ CustomLoc_IT_NAM_COL3_base_f:0 "la "
+ CustomLoc_IT_NAM_COL3_norse_special:0 "il "
+ CustomLoc_IT_NAM_COL3_norse_special_f:0 "la "
+ CustomLoc_IT_NAM_COL3_base_r:0 "il "
+ CustomLoc_IT_NAM_COL3_base_rf:0 "la "
+ CustomLoc_IT_NAM_COL3_english:0 "l'"
+ CustomLoc_IT_NAM_COL3_english_f:0 "la "
+ CustomLoc_IT_NAM_COL3_tribal:0 ""
+ CustomLoc_IT_NAM_COL3_islam:0 "lo "
+ CustomLoc_IT_NAM_COL3_islam_f:0 "la "
+ CustomLoc_IT_NAM_COL3_gaelic:0 "il "
+ CustomLoc_IT_NAM_COL3_gaelic_f:0 "la "
+ CustomLoc_IT_NAM_COL3_i_ortox:0 "il "
+ CustomLoc_IT_NAM_COL3_i_ortox_f:0 "la "
+ CustomLoc_IT_NAM_COL3_i_base:0 "l'"
+ CustomLoc_IT_NAM_COL3_i_base_hre:0 "il "
+ CustomLoc_IT_NAM_COL3_i_base_hre_f:0 "la "
+ CustomLoc_IT_NAM_COL3_r_base:0 ""
+ CustomLoc_IT_NAM_COL3_r_indu:0 "il "
+ CustomLoc_IT_NAM_COL3_r_base_f:0 "la "
+ CustomLoc_IT_NAM_COL3_r_islam:0 "il "
+ CustomLoc_IT_NAM_COL3_r_islam_f:0 "la "
+ CustomLoc_IT_NAM_COL3_r_otox:0 "il "
+ CustomLoc_IT_NAM_COL3_d_base:0 "il "
+ CustomLoc_IT_NAM_COL3_d_base_f:0 "la "
+ CustomLoc_IT_NAM_COL3_d_english:0 "il "
+ CustomLoc_IT_NAM_COL3_d_english_f:0 "la "
+ CustomLoc_IT_NAM_COL3_d_norse:0 "lo "
+ CustomLoc_IT_NAM_COL3_d_islam:0 "l'"
+ CustomLoc_IT_NAM_COL3_d_islam_f:0 "l'"
+ CustomLoc_IT_NAM_COL3_d_general:0 "il "
+ 
+ # Custom('IT_NAM_COL4') RE/DUCA/CONTE...
+ CustomLoc_IT_NAM_COL4_no_title:0 "a "
+ CustomLoc_IT_NAM_COL4_infante:0 "all'"
+ CustomLoc_IT_NAM_COL4_principe:0 "al "
+ CustomLoc_IT_NAM_COL4_principessa:0 "alla "
+ CustomLoc_IT_NAM_COL4_base:0 "al "
+ CustomLoc_IT_NAM_COL4_base_f:0 "alla "
+ CustomLoc_IT_NAM_COL4_norse_special:0 "al "
+ CustomLoc_IT_NAM_COL4_norse_special_f:0 "alla "
+ CustomLoc_IT_NAM_COL4_base_r:0 "al "
+ CustomLoc_IT_NAM_COL4_base_rf:0 "alla "
+ CustomLoc_IT_NAM_COL4_english:0 "all'"
+ CustomLoc_IT_NAM_COL4_english_f:0 "alla "
+ CustomLoc_IT_NAM_COL4_tribal:0 "a "
+ CustomLoc_IT_NAM_COL4_islam:0 "allo "
+ CustomLoc_IT_NAM_COL4_islam_f:0 "alla "
+ CustomLoc_IT_NAM_COL4_gaelic:0 "al "
+ CustomLoc_IT_NAM_COL4_gaelic_f:0 "alla "
+ CustomLoc_IT_NAM_COL4_i_base:0 "all'"
+ CustomLoc_IT_NAM_COL4_i_base_hre:0 "al "
+ CustomLoc_IT_NAM_COL4_i_base_hre_f:0 "alla "
+ CustomLoc_IT_NAM_COL4_i_ortox:0 "al "
+ CustomLoc_IT_NAM_COL4_i_ortox_f:0 "alla "
+ CustomLoc_IT_NAM_COL4_r_base:0 "a "
+ CustomLoc_IT_NAM_COL4_r_indu:0 "al "
+ CustomLoc_IT_NAM_COL4_r_base_f:0 "alla "
+ CustomLoc_IT_NAM_COL4_r_otox:0 "al "
+ CustomLoc_IT_NAM_COL4_r_islam:0 "al "
+ CustomLoc_IT_NAM_COL4_r_islam_f:0 "alla "
+ CustomLoc_IT_NAM_COL4_d_base:0 "al "
+ CustomLoc_IT_NAM_COL4_d_base_f:0 "alla "
+ CustomLoc_IT_NAM_COL4_d_english:0 "al "
+ CustomLoc_IT_NAM_COL4_d_english_f:0 "alla "
+ CustomLoc_IT_NAM_COL4_d_norse:0 "allo "
+ CustomLoc_IT_NAM_COL4_d_islam:0 "all'"
+ CustomLoc_IT_NAM_COL4_d_islam_f:0 "all'"
+ CustomLoc_IT_NAM_COL4_d_general:0 "al "
+ 
+  # Custom('IT_NAM_COL5') RE/DUCA/CONTE...
+ CustomLoc_IT_NAM_COL5_no_title:0 "da "
+ CustomLoc_IT_NAM_COL5_infante:0 "dall'"
+ CustomLoc_IT_NAM_COL5_principe:0 "dal "
+ CustomLoc_IT_NAM_COL5_principessa:0 "dalla "
+ CustomLoc_IT_NAM_COL5_base:0 "dal "
+ CustomLoc_IT_NAM_COL5_base_f:0 "dalla "
+ CustomLoc_IT_NAM_COL5_norse_special:0 "dal "
+ CustomLoc_IT_NAM_COL5_norse_special_f:0 "dalla "
+ CustomLoc_IT_NAM_COL5_base_r:0 "dal "
+ CustomLoc_IT_NAM_COL5_base_rf:0 "dalla "
+ CustomLoc_IT_NAM_COL5_english:0 "dall'"
+ CustomLoc_IT_NAM_COL5_english_f:0 "dalla "
+ CustomLoc_IT_NAM_COL5_tribal:0 "da "
+ CustomLoc_IT_NAM_COL5_islam:0 "dallo "
+ CustomLoc_IT_NAM_COL5_islam_f:0 "dalla "
+ CustomLoc_IT_NAM_COL5_gaelic:0 "dal "
+ CustomLoc_IT_NAM_COL5_gaelic_f:0 "dalla "
+ CustomLoc_IT_NAM_COL5_i_base:0 "dall'"
+ CustomLoc_IT_NAM_COL5_i_base_hre:0 "dal "
+ CustomLoc_IT_NAM_COL5_i_base_hre_f:0 "dalla "
+ CustomLoc_IT_NAM_COL5_i_ortox:0 "dal "
+ CustomLoc_IT_NAM_COL5_i_ortox_f:0 "dalla "
+ CustomLoc_IT_NAM_COL5_r_base:0 "da "
+ CustomLoc_IT_NAM_COL5_r_indu:0 "dal "
+ CustomLoc_IT_NAM_COL5_r_base_f:0 "dalla "
+ CustomLoc_IT_NAM_COL5_r_islam:0 "dal "
+ CustomLoc_IT_NAM_COL5_r_islam_f:0 "dalla "
+ CustomLoc_IT_NAM_COL5_r_otox:0 "dal "
+ CustomLoc_IT_NAM_COL5_d_base:0 "dal "
+ CustomLoc_IT_NAM_COL5_d_base_f:0 "dalla "
+ CustomLoc_IT_NAM_COL5_d_english:0 "dal "
+ CustomLoc_IT_NAM_COL5_d_english_f:0 "dalla "
+ CustomLoc_IT_NAM_COL5_d_norse:0 "dallo "
+ CustomLoc_IT_NAM_COL5_d_islam:0 "dall'"
+ CustomLoc_IT_NAM_COL5_d_islam_f:0 "dall'"
+ CustomLoc_IT_NAM_COL5_d_general:0 "dal "
+ 
+ 
+ ##################################################################################
+ ###CODICI PER POSSEDIMENTI: REGNO/DUCATO/CONTEA...### [TITLE.Custom('IT_COU_COL')]
+ 
+ # Custom('IT_COU_COL')
+ CustomLoc_IT_COU_COL_r_base:0 "del "
+ CustomLoc_IT_COU_COL_d_base:0 "del "
+ CustomLoc_IT_COU_COL_d_islam:0 "dell'"
+ CustomLoc_IT_COU_COL_d_norse:0 "dello "
+ CustomLoc_IT_COU_COL_base:0 "della "
+ CustomLoc_IT_COU_COL_english:0 "dell'"
+ CustomLoc_IT_COU_COL_gaelic:0 "dell'"
+ CustomLoc_IT_COU_COL_islam:0 "dello "
+ CustomLoc_IT_COU_COL_persia:0 "del "
+ CustomLoc_IT_COU_COL_norse:0 "del "
+ CustomLoc_IT_COU_COL_norse2:0 "dell'"
+ CustomLoc_IT_COU_COL_sardi:0 "del "
+ CustomLoc_IT_COU_COL_morma:0 "del "
+ CustomLoc_IT_COU_COL_i_base:0 "dell'"
+ 
+ # Custom('IT_COU_COL2') REGNO/DUCATO/CONTEA...
+ CustomLoc_IT_COU_COL2_r_base:0 "nel "
+ CustomLoc_IT_COU_COL2_d_base:0 "nel "
+ CustomLoc_IT_COU_COL2_d_islam:0 "nell'"
+ CustomLoc_IT_COU_COL2_d_norse:0 "nello "
+ CustomLoc_IT_COU_COL2_base:0 "nella "
+ CustomLoc_IT_COU_COL2_english:0 "nell'"
+ CustomLoc_IT_COU_COL2_gaelic:0 "nell'"
+ CustomLoc_IT_COU_COL2_islam:0 "nello "
+ CustomLoc_IT_COU_COL2_persia:0 "nel "
+ CustomLoc_IT_COU_COL2_norse:0 "nel "
+ CustomLoc_IT_COU_COL2_norse2:0 "nell'"
+ CustomLoc_IT_COU_COL2_sardi:0 "nel "
+ CustomLoc_IT_COU_COL2_morma:0 "nel "
+ 
+ # Custom('IT_COU_COL3') REGNO/DUCATO/CONTEA...
+ CustomLoc_IT_COU_COL3_r_base:0 "sul "
+ CustomLoc_IT_COU_COL3_d_base:0 "sul "
+ CustomLoc_IT_COU_COL3_d_islam:0 "sull'"
+ CustomLoc_IT_COU_COL3_d_norse:0 "sullo "
+ CustomLoc_IT_COU_COL3_base:0 "sulla "
+ CustomLoc_IT_COU_COL3_english:0 "sull'"
+ CustomLoc_IT_COU_COL3_gaelic:0 "sull'"
+ CustomLoc_IT_COU_COL3_islam:0 "sullo "
+ CustomLoc_IT_COU_COL3_persia:0 "sul "
+ CustomLoc_IT_COU_COL3_norse:0 "sul "
+ CustomLoc_IT_COU_COL3_norse2:0 "sull'"
+ CustomLoc_IT_COU_COL3_sardi:0 "sul "
+ CustomLoc_IT_COU_COL3_morma:0 "sul "
+ CustomLoc_IT_COU_COL3_pv:0 "sul "
+ 
+ # Custom('IT_COU_COL4') REGNO/DUCATO/CONTEA... / Custom('IT_COU_COL4')|U] -> Lettera maiuscola (Il, L', La...)
+ CustomLoc_IT_COU_COL4_r_base:0 "il "
+ CustomLoc_IT_COU_COL4_d_base:0 "il "
+ CustomLoc_IT_COU_COL4_d_islam:0 "l'"
+ CustomLoc_IT_COU_COL4_d_norse:0 "lo "
+ CustomLoc_IT_COU_COL4_base:0 "la "
+ CustomLoc_IT_COU_COL4_english:0 "l'"
+ CustomLoc_IT_COU_COL4_gaelic:0 "l'"
+ CustomLoc_IT_COU_COL4_islam:0 "lo "
+ CustomLoc_IT_COU_COL4_persia:0 "il "
+ CustomLoc_IT_COU_COL4_norse:0 "il "
+ CustomLoc_IT_COU_COL4_norse2:0 "l'"
+ CustomLoc_IT_COU_COL4_sardi:0 "il "
+ CustomLoc_IT_COU_COL4_morma:0 "il "
+ 
+ # Custom('IT_COU_COL5') REGNO/DUCATO/CONTEA...
+ CustomLoc_IT_COU_COL5_r_base:0 "dal "
+ CustomLoc_IT_COU_COL5_d_base:0 "dal "
+ CustomLoc_IT_COU_COL5_d_islam:0 "dall'"
+ CustomLoc_IT_COU_COL5_d_norse:0 "dallo "
+ CustomLoc_IT_COU_COL5_base:0 "dalla "
+ CustomLoc_IT_COU_COL5_english:0 "dall'"
+ CustomLoc_IT_COU_COL5_gaelic:0 "dall'"
+ CustomLoc_IT_COU_COL5_islam:0 "dallo "
+ CustomLoc_IT_COU_COL5_persia:0 "dal "
+ CustomLoc_IT_COU_COL5_norse:0 "dal "
+ CustomLoc_IT_COU_COL5_norse2:0 "dall'"
+ CustomLoc_IT_COU_COL5_sardi:0 "dal "
+ CustomLoc_IT_COU_COL5_morma:0 "dal "
+ 
+ # Custom('IT_COU_COL7') REGNO/DUCATO/CONTEA...
+ CustomLoc_IT_COU_COL7_r_base:0 "al "
+ CustomLoc_IT_COU_COL7_d_base:0 "al "
+ CustomLoc_IT_COU_COL7_d_islam:0 "all'"
+ CustomLoc_IT_COU_COL7_d_norse:0 "allo "
+ CustomLoc_IT_COU_COL7_base:0 "alla "
+ CustomLoc_IT_COU_COL7_english:0 "all'"
+ CustomLoc_IT_COU_COL7_gaelic:0 "all'"
+ CustomLoc_IT_COU_COL7_islam:0 "allo "
+ CustomLoc_IT_COU_COL7_persia:0 "al "
+ CustomLoc_IT_COU_COL7_norse:0 "al "
+ CustomLoc_IT_COU_COL7_norse2:0 "all'"
+ CustomLoc_IT_COU_COL7_sardi:0 "al "
+ CustomLoc_IT_COU_COL7_morma:0 "al "
+ 
+ # Custom('IT_COU_COL8') REGNO/DUCATO/CONTEA...
+ CustomLoc_IT_COU_COL8_r_base:0 "del "
+ CustomLoc_IT_COU_COL8_d_base:0 "del "
+ CustomLoc_IT_COU_COL8_d_islam:0 "del "
+ CustomLoc_IT_COU_COL8_d_norse:0 "del "
+ CustomLoc_IT_COU_COL8_base:0 "della "
+ CustomLoc_IT_COU_COL8_english:0 "del "
+ CustomLoc_IT_COU_COL8_gaelic:0 "del "
+ CustomLoc_IT_COU_COL8_islam:0 "del "
+ CustomLoc_IT_COU_COL8_persia:0 "del "
+ CustomLoc_IT_COU_COL8_norse:0 "del "
+ CustomLoc_IT_COU_COL8_norse2:0 "del "
+ CustomLoc_IT_COU_COL8_sardi:0 "del "
+ CustomLoc_IT_COU_COL8_morma:0 "del "
+ 
+ ################################################################################## col1=sul col2=del col3=il col4=al col5=dal
+ 
+ Loc_FR_du_GetShortUINameNoTooltip:0 "[CHARACTER.GetUINameNoTooltip|UV]"
+ Loc_FR_le_GetShortUIName:0 "[CHARACTER.GetShortUINameNoTooltip|UV]"
+ Loc_FR_du_GetName:0 "[CHARACTER.GetShortUIName]"
+ Loc_FR_du4_GetName:0 "[CHARACTER.GetUIName]"
+ Loc_FR_duStart_GetName:0 "[CHARACTER.GetShortName]"
+ Loc_FR_du1_GetName:0 " [CHARACTER.Custom('IT_NAM_COL')][CHARACTER.GetShortUIName]"
+ Loc_FR_du2_GetName:0 " [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetShortUIName]"
+ Loc_FR_du2UI_GetName:0 " [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetUIName]"
+ Loc_FR_du3_GetName:0 " [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetName]"
+ Loc_FR_du3UI_GetName:0 " [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetUIName]"
+ Loc_FR_du4UI_GetName:0 " [CHARACTER.Custom('IT_NAM_COL4')][CHARACTER.GetShortUIName]"
+ Loc_FR_du5_GetName:0 " [CHARACTER.Custom('IT_NAM_COL5')][CHARACTER.GetShortUIName]"
+ Loc_FR_le_GetShortUIName_U:0 "[CHARACTER.GetUINameNoTooltip|U]"
+ Loc_FR_le_GetShortUIName_U_est:0 "[actor.GetShortUIName]"
+ 
+ 
+ relation_daughter_concubine_FR_OnA:0 "mia figlia e concubina"
+ relation_son_consort_FR_OnA:0 "mio figlio e concubino"
+ relation_mother_concubine_FR_OnA:0 "mia madre e concubina"
+ relation_father_consort_FR_OnA:0 "mio padre e concubino"
+ relation_sister_concubine_FR_OnA:0 "mia sorella e concubina"
+ relation_brother_consort_FR_OnA:0 "mio fratello e concubino"
+ 
+ relation_court_dwarf_female_FR_OnA:0 "mia nana di Corte"
+ relation_court_dwarf_male_FR_OnA:0 "mio nano di Corte"
+ relation_keeper_of_swans_female_FR_OnA:0 "mia Guardiana dei Cigni"
+ relation_keeper_of_swans_male_FR_OnA:0 "mio Guardiano dei Cigni"
+ relation_master_of_horse_female_FR_OnA:0 "mia Maestra di Stalla"
+ relation_master_of_horse_male_FR_OnA:0 "mio Maestro di Stalla"
+ relation_court_jester_female_FR_OnA:0 "mia Giullare di Corte"
+ relation_court_jester_male_FR_OnA:0 "mio Giullare di Corte"
+ relation_master_of_hunt_female_FR_OnA:0 "mia Maestra della Caccia"
+ relation_master_of_hunt_male_FR_OnA:0 "mio Maestro della Caccia"
+ relation_high_almoner_female_FR_OnA:0 "mia Grande Elemosiniera"
+ relation_high_almoner_male_FR_OnA:0 "mio Grande Elemosiniere"
+ relation_cupbearer_female_FR_OnA:0 "mia Coppiera"
+ relation_cupbearer_male_FR_OnA:0 "mio Coppiere"
+ relation_seneschal_female_FR_OnA:0 "mia Siniscalco"
+ relation_seneschal_male_FR_OnA:0 "mio Siniscalco"
+ relation_antiquarian_female_FR_OnA:0 "mia Antiquaria"
+ relation_antiquarian_male_FR_OnA:0 "mio Antiquario"
+ relation_court_tutor_female_FR_OnA:0 "mia Tutrice di Corte"
+ relation_court_tutor_male_FR_OnA:0 "mio Tutore di Corte"
+ relation_royal_architect_female_FR_OnA:0 "mia Architetta Reale"
+ relation_royal_architect_male_FR_OnA:0 "mio Architetto Reale"
+ relation_court_poet_female_FR_OnA:0 "mia Poetessa di Corte"
+ relation_court_poet_male_FR_OnA:0 "mio Poeta di Corte"
+ relation_bodyguard_female_FR_OnA:0 "mia Guardia del Corpo"
+ relation_bodyguard_male_FR_OnA:0 "mia Guardia del Corpo"
+ relation_champion_female_FR_OnA:0 "mia Campionessa"
+ relation_champion_male_FR_OnA:0 "mio Campione"
+ relation_court_musician_female_FR_OnA:0 "mia Musicista di Corte"
+ relation_court_musician_male_FR_OnA:0 "mio Musico di Corte"
+ relation_food_taster_female_FR_OnA:0 "mia Assaggiatrice"
+ relation_food_taster_male_FR_OnA:0 "mia Assaggiatore"
+ relation_inspired_character_female_FR_OnA:0 "mia beneficiaria"
+ relation_inspired_character_male_FR_OnA:0 "mio beneficario"
+ relation_lady_in_waiting_female_FR_OnA:0 "mia dama d'onore"
+ relation_lady_in_waiting_male_FR_OnA:0 "mia dama d'onore"
+ relation_garuda_female_FR_OnA:0 "mia Garuda"
+ relation_garuda_male_FR_OnA:0 "mio Garuda"
+ relation_chief_eunuch_female_FR_OnA:0 "mio Capo degli Eunuchi"
+ relation_chief_eunuch_male_FR_OnA:0 "mio Capo degli Eunuchi"
+ relation_court_gardener_female_FR_OnA:0 "mia Giardiniera di Corte"
+ relation_court_gardener_male_FR_OnA:0 "mio Giardiniere di Corte"
+ relation_chief_qadi_female_FR_OnA:0 "mia Somma Qadi"
+ relation_chief_qadi_male_FR_OnA:0 "mio Sommo Qadi"
+ 
+ relation_peasant_affair_female_FR_OnA:1 "una mia conoscente," # formerly #D debug
+ relation_peasant_affair_male_FR_OnA:1 "un mio conoscente," # formerly #D debug
+ relation_agent_FR_OnA:0 "mio agente,"
+ relation_aunt_FR_OnA:0 "mia zia"
+ relation_brother_FR_OnA:0 "mio fratello"
+ relation_brother_bully_FR_OnA:0 "mio fratello e bullo"
+ relation_brother_friend_FR_OnA:0 "mio fratello e amico"
+ relation_brother_rival_FR_OnA:0 "mio fratello e rivale"
+ relation_brother_victim_FR_OnA:0 "mio fratello e vittima"
+ relation_brotherhusband_FR_OnA:0 "mio fratello-marito"
+ relation_brotherinlaw_FR_OnA:0 "mio cognato"
+ relation_bully_FR_OnA:0 "mio bullo,"
+ relation_concubine_female_FR_OnA:0 "mia concubina,"
+ relation_concubine_male_FR_OnA:0 "mio concubino,"
+ relation_councillor_female_FR_OnA:0 "mio [second.GetCouncilTitle|l],"
+ relation_councillor_male_FR_OnA:0 "mio [second.GetCouncilTitle|l],"
+ relation_court_physician_male_FR_OnA:0 "mio Medico di Corte,"
+ relation_court_physician_female_FR_OnA:0 "mio Medico di Corte,"
+ relation_prisoner_female_FR_OnA:0 "mia prigioniera,"
+ relation_prisoner_male_FR_OnA:0 "mio prigioniero,"
+ relation_jailer_female_FR_OnA:0 "mia carceriera,"
+ relation_jailer_male_FR_OnA:0 "mio carceriere,"
+ relation_courtier_female_FR_OnA:0 "mia cortigiana,"
+ relation_courtier_male_FR_OnA:0 "mio cortigiano,"
+ relation_cousin_FR_OnA:0 "mio cugino"
+ relation_cousin_female_FR_OnA:0 "mia cugina"
+ relation_crush_FR_OnA:0 "mia cotta,"
+ relation_daughter_FR_OnA:0 "mia figlia"
+ daughter_in_law_FR_OnA:0 "mia nuora"
+ relation_daughterwife_FR_OnA:0 "mia figlia-moglie"
+ relation_father_FR_OnA:0 "mio padre"
+ relation_fatherhusband_FR_OnA:0 "mio padre-marito"
+ relation_friend_female_FR_OnA:0 "mia amica"
+ relation_friend_male_FR_OnA:0 "mio amico"
+ relation_granddaughter_FR_OnA:0 "mia nipotina"
+ relation_grandfather_FR_OnA:0 "mio nonno"
+ relation_grandmother_FR_OnA:0 "mia nonna"
+ relation_grandson_FR_OnA:0 "mio nipote"
+ relation_great_grandfather_FR_OnA:0 "mio bisnonno"
+ relation_great_grandmother_FR_OnA:0 "mia bisnonna"
+ relation_greatgranddaughter_FR_OnA:0 "mia pronipote"
+ relation_greatgrandson_FR_OnA:0 "mio pronipote"
+ relation_guardian_FR_OnA:0 "mi[second.Custom('DE_END_PRO_S_N')] tu[second.Custom('DE_END_NOU_S_GS_N')],"
+ relation_guest_female_FR_OnA:0 "mia ospite,"
+ relation_guest_male_FR_OnA:0 "mio ospite,"
+ relation_half_brother_FR_OnA:0 "mio fratellastro"
+ relation_half_sister_FR_OnA:0 "mia sorellastra"
+ relation_heir_daughter_FR_OnA:0 "mia figlia ed erede"
+ relation_heir_son_FR_OnA:0 "mio figlio ed erede"
+ relation_host_female_FR_OnA:0 "mia padrona di casa"
+ relation_host_male_FR_OnA:0 "mio padrone di casa,"
+ relation_husband_FR_OnA:0 "mio marito"
+ relation_husband_departed_FR_OnA:0 "mio defunto marito"
+ relation_kinsman_FR_OnA:0 "un mio parente,"
+ relation_kinswoman_FR_OnA:0 "una mia parente,"
+ relation_knight_FR_OnA:0 "mio cavaliere,"
+ relation_liege_female_FR_OnA:0 "mia Signora,"
+ relation_liege_female_lover_FR_OnA:0 "mia amante e Signora"
+ relation_liege_female_rival_FR_OnA:0 "mia Signora e rivale"
+ relation_liege_male_FR_OnA:0 "mio Signore,"
+ relation_liege_male_lover_FR_OnA:0 "mio amante e Signore"
+ relation_liege_male_rival_FR_OnA:0 "mio Signore e rivale"
+ relation_lover_female_FR_OnA:0 "mia amante,"
+ relation_lover_male_FR_OnA:0 "mio amante,"
+ relation_mentor_FR_OnA:0 "mi[second.Custom('DE_END_PRO_S_N')] mentore,"
+ relation_mother_FR_OnA:0 "mia madre"
+ relation_motherwife_FR_OnA:0 "mia madre-moglie"
+ relation_nephew_FR_OnA:0 "mio nipote"
+ relation_niece_FR_OnA:0 "mia nipotina"
+ CustomLoc_FR_OnA_Relation_peasant_affair_female:0 "una mia vecchia... #EMP conoscenza#!,"
+ CustomLoc_FR_OnA_Relation_peasant_affair_male:0 "una mia vecchia... #EMP conoscenza#!,"
+ relation_religious_head_FR_OnA:0 "mio [ROOT.Char.GetFaith.ReligiousHeadName],"
+ relation_rival_female_FR_OnA:0 "mia rivale,"
+ relation_rival_male_FR_OnA:0 "mio rivale,"
+ relation_sister_FR_OnA:0 "mia sorella"
+ relation_sister_bully_FR_OnA:0 "mia sorella e bullo"
+ relation_sister_friend_FR_OnA:0 "mia sorella e amica"
+ relation_sister_rival_FR_OnA:0 "mia sorella e rivale"
+ relation_sister_victim_FR_OnA:0 "mia sorella e vittima"
+ relation_sisterinlaw_FR_OnA:0 "mia sorellastra"
+ relation_sisterwife_FR_OnA:0 "mia sorella-moglie"
+ relation_son_FR_OnA:0 "mio figlio"
+ son_in_law_FR_OnA:0 "mio genero"
+ relation_sonhusband_FR_OnA:0 "mio figlio-marito"
+ relation_stepbrother_FR_OnA:0 "mio fratellastro"
+ relation_stepdaughter_FR_OnA:0 "mia figliastra"
+ relation_stepfather_FR_OnA:0 "mio patrigno"
+ relation_stepmother_FR_OnA:0 "mia matrigna"
+ relation_stepsister_FR_OnA:0 "mia sorellastra"
+ relation_stepson_FR_OnA:0 "mio figliastro"
+ relation_student_FR_OnA:0 "mi[second.Custom('DE_END_PRO_S_N')] student[second.Custom('DE_ART_DEF_S_D')]"
+ relation_uncle_FR_OnA:0 "mio zio"
+ relation_vassal_female_FR_OnA:0 "mia vassalla,"
+ relation_vassal_female_rival_FR_OnA:0 "mia vassalla e rivale,"
+ relation_vassal_male_FR_OnA:0 "mio vassallo,"
+ relation_vassal_male_rival_FR_OnA:0 "mio vassallo e rivale,"
+ relation_victim_FR_OnA:0 "mia vittima,"
+ relation_ward_FR_OnA:0 "mi[second.Custom('DE_END_PRO_S_N')] pupill[second.Custom('DE_END_PRO_S_N')],"
+ relation_wife_FR_OnA:0 "mia moglie"
+ relation_wife_departed_FR_OnA:0 "mia defunta moglie"
+ 
+ 
+ ###NON PIU' UTILIZZATI
+ CustomLoc_FR_OnA_Relation_acquaintance_female:1 "una mia conoscente," # formerly #D debug
+ CustomLoc_FR_OnA_Relation_acquaintance_male:1 "un mio conoscente," # formerly #D debug
+ CustomLoc_FR_OnA_Relation_agent:0 "mio agente,"
+ CustomLoc_FR_OnA_Relation_aunt:0 "mia zia"
+ CustomLoc_FR_OnA_Relation_brother:0 "mio fratello"
+ CustomLoc_FR_OnA_Relation_brother_bully:0 "mio fratello e bullo"
+ CustomLoc_FR_OnA_Relation_brother_friend:0 "mio fratello e amico"
+ CustomLoc_FR_OnA_Relation_brother_rival:0 "mio fratello e rivale"
+ CustomLoc_FR_OnA_Relation_brother_victim:0 "mio fratello e vittima"
+ CustomLoc_FR_OnA_Relation_brotherhusband:0 "mio fratello-marito"
+ CustomLoc_FR_OnA_Relation_brotherinlaw:0 "mio cognato"
+ CustomLoc_FR_OnA_Relation_bully:0 "mio bullo,"
+ CustomLoc_FR_OnA_Relation_concubine_female:0 "mia concubina,"
+ CustomLoc_FR_OnA_Relation_concubine_male:0 "mio compagno,"
+ CustomLoc_FR_OnA_Relation_councillor_female:0 "mio [second.GetCouncilTitle|l],"
+ CustomLoc_FR_OnA_Relation_councillor_male:0 "mio [second.GetCouncilTitle|l],"
+ CustomLoc_FR_OnA_Relation_court_physician_male:0 "mio Medico di Corte,"
+ CustomLoc_FR_OnA_Relation_court_physician_female:0 "mio Medico di Corte,"
+ CustomLoc_FR_OnA_Relation_prisoner_female:0 "mia prigioniera,"
+ CustomLoc_FR_OnA_Relation_prisoner_male:0 "mio prigioniero,"
+ CustomLoc_FR_OnA_Relation_jailer_female:0 "mia carceriera,"
+ CustomLoc_FR_OnA_Relation_jailer_male:0 "mio carceriere,"
+ CustomLoc_FR_OnA_Relation_courtier_female:0 "mia cortigiana,"
+ CustomLoc_FR_OnA_Relation_courtier_male:0 "mio cortigiano,"
+ CustomLoc_FR_OnA_Relation_cousin:0 "mio cugino"
+ CustomLoc_FR_OnA_Relation_cousin_female:0 "mia cugina"
+ CustomLoc_FR_OnA_Relation_crush:0 "mia cotta,"
+ CustomLoc_FR_OnA_Relation_daughter:0 "mia figlia"
+ CustomLoc_FR_OnA_Relation_daughter_in_law:0 "mia nuora"
+ CustomLoc_FR_OnA_Relation_daughterwife:0 "mia figlia-moglie"
+ CustomLoc_FR_OnA_Relation_father:0 "mio padre"
+ CustomLoc_FR_OnA_Relation_fatherhusband:0 "mio padre-marito"
+ CustomLoc_FR_OnA_Relation_friend_female:0 "mia amica"
+ CustomLoc_FR_OnA_Relation_friend_male:0 "mio amico"
+ CustomLoc_FR_OnA_Relation_granddaughter:0 "mia nipotina"
+ CustomLoc_FR_OnA_Relation_grandfather:0 "mio nonno"
+ CustomLoc_FR_OnA_Relation_grandmother:0 "mia nonna"
+ CustomLoc_FR_OnA_Relation_grandson:0 "mio nipote"
+ CustomLoc_FR_OnA_Relation_great_grandfather:0 "mio bisnonno"
+ CustomLoc_FR_OnA_Relation_great_grandmother:0 "mia bisnonna"
+ CustomLoc_FR_OnA_Relation_greatgranddaughter:0 "mia pronipote"
+ CustomLoc_FR_OnA_Relation_greatgrandson:0 "mio pronipote"
+ CustomLoc_FR_OnA_Relation_guardian:0 "mi[second.Custom('DE_END_PRO_S_N')] tu[second.Custom('DE_END_NOU_S_GS_N')],"
+ CustomLoc_FR_OnA_Relation_guest_female:0 "mia ospite,"
+ CustomLoc_FR_OnA_Relation_guest_male:0 "mio ospite,"
+ CustomLoc_FR_OnA_Relation_half_brother:0 "mio fratellastro"
+ CustomLoc_FR_OnA_Relation_half_sister:0 "mia sorellastra"
+ CustomLoc_FR_OnA_Relation_heir_daughter:0 "mia figlia ed erede"
+ CustomLoc_FR_OnA_Relation_heir_son:0 "mio figlio ed erede"
+ CustomLoc_FR_OnA_Relation_host_female:0 "mia padrona di casa"
+ CustomLoc_FR_OnA_Relation_host_male:0 "mio padrone di casa,"
+ CustomLoc_FR_OnA_Relation_husband:0 "mio marito"
+ CustomLoc_FR_OnA_Relation_husband_departed:0 "mio defunto marito"
+ CustomLoc_FR_OnA_Relation_kinsman:0 "un mio parente,"
+ CustomLoc_FR_OnA_Relation_kinswoman:0 "una mia parente,"
+ CustomLoc_FR_OnA_Relation_knight:0 "mio cavaliere,"
+ CustomLoc_FR_OnA_Relation_liege_female:0 "mia Signora,"
+ CustomLoc_FR_OnA_Relation_liege_female_lover:0 "mia amante e Signora"
+ CustomLoc_FR_OnA_Relation_liege_female_rival:0 "mia Signora e rivale"
+ CustomLoc_FR_OnA_Relation_liege_male:0 "mio Signore,"
+ CustomLoc_FR_OnA_Relation_liege_male_lover:0 "mio amante e Signore"
+ CustomLoc_FR_OnA_Relation_liege_male_rival:0 "mio Signore e rivale"
+ CustomLoc_FR_OnA_Relation_lover_female:0 "mia amante,"
+ CustomLoc_FR_OnA_Relation_lover_male:0 "mio amante,"
+ CustomLoc_FR_OnA_Relation_mentor:0 "mi[second.Custom('DE_END_PRO_S_N')] mentore,"
+ CustomLoc_FR_OnA_Relation_mother:0 "mia madre"
+ CustomLoc_FR_OnA_Relation_motherwife:0 "mia madre-moglie"
+ CustomLoc_FR_OnA_Relation_nephew:0 "mio nipote"
+ CustomLoc_FR_OnA_Relation_niece:0 "mia nipotina"
+ CustomLoc_FR_OnA_Relation_religious_head:0 "mio [ROOT.Char.GetFaith.ReligiousHeadName],"
+ CustomLoc_FR_OnA_Relation_rival_female:0 "mia rivale,"
+ CustomLoc_FR_OnA_Relation_rival_male:0 "mio rivale,"
+ CustomLoc_FR_OnA_Relation_sister:0 "mia sorella"
+ CustomLoc_FR_OnA_Relation_sister_bully:0 "mia sorella e bullo"
+ CustomLoc_FR_OnA_Relation_sister_friend:0 "mia sorella e amica"
+ CustomLoc_FR_OnA_Relation_sister_rival:0 "mia sorella e rivale"
+ CustomLoc_FR_OnA_Relation_sister_victim:0 "mia sorella e vittima"
+ CustomLoc_FR_OnA_Relation_sisterinlaw:0 "mia sorellastra"
+ CustomLoc_FR_OnA_Relation_sisterwife:0 "mia sorella-moglie"
+ CustomLoc_FR_OnA_Relation_son:0 "mio figlio"
+ CustomLoc_FR_OnA_Relation_son_in_law:0 "mio genero"
+ CustomLoc_FR_OnA_Relation_sonhusband:0 "mio figlio-marito"
+ CustomLoc_FR_OnA_Relation_stepbrother:0 "mio fratellastro"
+ CustomLoc_FR_OnA_Relation_stepdaughter:0 "mia figliastra"
+ CustomLoc_FR_OnA_Relation_stepfather:0 "mio patrigno"
+ CustomLoc_FR_OnA_Relation_stepmother:0 "mia matrigna"
+ CustomLoc_FR_OnA_Relation_stepsister:0 "mia sorellastra"
+ CustomLoc_FR_OnA_Relation_stepson:0 "mio figliastro"
+ CustomLoc_FR_OnA_Relation_student:0 "mi[second.Custom('DE_END_PRO_S_N')] student[second.Custom('DE_ART_DEF_S_D')]"
+ CustomLoc_FR_OnA_Relation_uncle:0 "mio zio"
+ CustomLoc_FR_OnA_Relation_vassal_female:0 "mia vassalla,"
+ CustomLoc_FR_OnA_Relation_vassal_female_rival:0 "mia vassalla e rivale,"
+ CustomLoc_FR_OnA_Relation_vassal_male:0 "mio vassallo,"
+ CustomLoc_FR_OnA_Relation_vassal_male_rival:0 "mio vassallo e rivale,"
+ CustomLoc_FR_OnA_Relation_victim:0 "mia vittima,"
+ CustomLoc_FR_OnA_Relation_ward:0 "mi[second.Custom('DE_END_PRO_S_N')] pupill[second.Custom('DE_END_PRO_S_N')],"
+ CustomLoc_FR_OnA_Relation_wife:0 "mia moglie"
+ CustomLoc_FR_OnA_Relation_wife_departed:0 "mia defunta moglie"
+ 
+ CustomLoc_FR_OnA2_Relation_acquaintance_female:1 "una tua conoscente," # formerly #D debug
+ CustomLoc_FR_OnA2_Relation_acquaintance_male:1 "un tuo conoscente," # formerly #D debug
+ CustomLoc_FR_OnA2_Relation_agent:0 "tuo agente,"
+ CustomLoc_FR_OnA2_Relation_aunt:0 "tua zia"
+ CustomLoc_FR_OnA2_Relation_brother:0 "tuo fratello"
+ CustomLoc_FR_OnA2_Relation_brother_bully:0 "tuo fratello e bullo"
+ CustomLoc_FR_OnA2_Relation_brother_friend:0 "tuo fratello e amico"
+ CustomLoc_FR_OnA2_Relation_brother_rival:0 "tuo fratello e rivale"
+ CustomLoc_FR_OnA2_Relation_brother_victim:0 "tuo fratello e vittima"
+ CustomLoc_FR_OnA2_Relation_brotherhusband:0 "tuo fratello-marito"
+ CustomLoc_FR_OnA2_Relation_brotherinlaw:0 "tuo cognato"
+ CustomLoc_FR_OnA2_Relation_bully:0 "tuo bullo,"
+ CustomLoc_FR_OnA2_Relation_concubine_female:0 "tua concubina,"
+ CustomLoc_FR_OnA2_Relation_concubine_male:0 "tuo compagno,"
+ CustomLoc_FR_OnA2_Relation_councillor_female:0 "tuo [second.GetCouncilTitle|l],"
+ CustomLoc_FR_OnA2_Relation_councillor_male:0 "tuo [second.GetCouncilTitle|l],"
+ CustomLoc_FR_OnA2_Relation_court_physician_male:0 "tuo Medico di Corte,"
+ CustomLoc_FR_OnA2_Relation_court_physician_female:0 "tuo Medico di Corte,"
+ CustomLoc_FR_OnA2_Relation_prisoner_female:0 "tua prigioniera,"
+ CustomLoc_FR_OnA2_Relation_prisoner_male:0 "tuo prigioniero,"
+ CustomLoc_FR_OnA2_Relation_jailer_female:0 "tua carceriera,"
+ CustomLoc_FR_OnA2_Relation_jailer_male:0 "tuo carceriere,"
+ CustomLoc_FR_OnA2_Relation_courtier_female:0 "tua cortigiana,"
+ CustomLoc_FR_OnA2_Relation_courtier_male:0 "tuo cortigiano,"
+ CustomLoc_FR_OnA2_Relation_cousin:0 "tuo cugino"
+ CustomLoc_FR_OnA2_Relation_cousin_female:0 "tua cugina"
+ CustomLoc_FR_OnA2_Relation_crush:0 "tua cotta,"
+ CustomLoc_FR_OnA2_Relation_daughter:0 "tua figlia"
+ CustomLoc_FR_OnA2_Relation_daughter_in_law:0 "tua nuora"
+ CustomLoc_FR_OnA2_Relation_daughterwife:0 "tua figlia-moglie"
+ CustomLoc_FR_OnA2_Relation_father:0 "tuo padre"
+ CustomLoc_FR_OnA2_Relation_fatherhusband:0 "tuo padre-marito"
+ CustomLoc_FR_OnA2_Relation_friend_female:0 "tua amica"
+ CustomLoc_FR_OnA2_Relation_friend_male:0 "tuo amico"
+ CustomLoc_FR_OnA2_Relation_granddaughter:0 "tua nipote"
+ CustomLoc_FR_OnA2_Relation_grandfather:0 "tuo nonno"
+ CustomLoc_FR_OnA2_Relation_grandmother:0 "tua nonna"
+ CustomLoc_FR_OnA2_Relation_grandson:0 "tuo nipote"
+ CustomLoc_FR_OnA2_Relation_great_grandfather:0 "tuo bisnonno"
+ CustomLoc_FR_OnA2_Relation_great_grandmother:0 "tua bisnonna"
+ CustomLoc_FR_OnA2_Relation_greatgranddaughter:0 "tua pronipote"
+ CustomLoc_FR_OnA2_Relation_greatgrandson:0 "tuo pronipote"
+ CustomLoc_FR_OnA2_Relation_guardian:0 "tu[second.Custom('DE_END_PRO_S_N')] tu[second.Custom('DE_END_NOU_S_GS_N')],"
+ CustomLoc_FR_OnA2_Relation_guest_female:0 "tua ospite,"
+ CustomLoc_FR_OnA2_Relation_guest_male:0 "tuo ospite,"
+ CustomLoc_FR_OnA2_Relation_half_brother:0 "tuo fratellastro"
+ CustomLoc_FR_OnA2_Relation_half_sister:0 "tua sorellastra"
+ CustomLoc_FR_OnA2_Relation_heir_daughter:0 "tua figlia ed erede"
+ CustomLoc_FR_OnA2_Relation_heir_son:0 "tuo figlio ed erede"
+ CustomLoc_FR_OnA2_Relation_host_female:0 "tua padrona di casa"
+ CustomLoc_FR_OnA2_Relation_host_male:0 "tuo padrone di casa,"
+ CustomLoc_FR_OnA2_Relation_husband:0 "tuo marito"
+ CustomLoc_FR_OnA2_Relation_husband_departed:0 "tuo defunto marito"
+ CustomLoc_FR_OnA2_Relation_kinsman:0 "un tuo parente,"
+ CustomLoc_FR_OnA2_Relation_kinswoman:0 "una tua parente,"
+ CustomLoc_FR_OnA2_Relation_knight:0 "tuo cavaliere,"
+ CustomLoc_FR_OnA2_Relation_liege_female:0 "tua Signora,"
+ CustomLoc_FR_OnA2_Relation_liege_female_lover:0 "tua amante e Signora"
+ CustomLoc_FR_OnA2_Relation_liege_female_rival:0 "tua Signora e rivale"
+ CustomLoc_FR_OnA2_Relation_liege_male:0 "tuo Signore,"
+ CustomLoc_FR_OnA2_Relation_liege_male_lover:0 "tuo amante e Signore"
+ CustomLoc_FR_OnA2_Relation_liege_male_rival:0 "tuo Signore e rivale"
+ CustomLoc_FR_OnA2_Relation_lover_female:0 "tua amante,"
+ CustomLoc_FR_OnA2_Relation_lover_male:0 "tuo amante,"
+ CustomLoc_FR_OnA2_Relation_mentor:0 "tu[second.Custom('DE_END_PRO_S_N')] mentore,"
+ CustomLoc_FR_OnA2_Relation_mother:0 "tua madre"
+ CustomLoc_FR_OnA2_Relation_motherwife:0 "tua madre-moglie"
+ CustomLoc_FR_OnA2_Relation_nephew:0 "tuo nipote"
+ CustomLoc_FR_OnA2_Relation_niece:0 "tua nipote"
+ CustomLoc_FR_OnA2_Relation_peasant_affair_female:0 "una tua vecchia... #EMP conoscenza#!,"
+ CustomLoc_FR_OnA2_Relation_peasant_affair_male:0 "una tua vecchia... #EMP conoscenza#!,"
+ CustomLoc_FR_OnA2_Relation_religious_head:0 "tuo [ROOT.Char.GetFaith.ReligiousHeadName],"
+ CustomLoc_FR_OnA2_Relation_rival_female:0 "tua rivale,"
+ CustomLoc_FR_OnA2_Relation_rival_male:0 "tuo rivale,"
+ CustomLoc_FR_OnA2_Relation_sister:0 "tua sorella"
+ CustomLoc_FR_OnA2_Relation_sister_bully:0 "tua sorella e bullo"
+ CustomLoc_FR_OnA2_Relation_sister_friend:0 "tua sorella e amica"
+ CustomLoc_FR_OnA2_Relation_sister_rival:0 "tua sorella e rivale"
+ CustomLoc_FR_OnA2_Relation_sister_victim:0 "tua sorella e vittima"
+ CustomLoc_FR_OnA2_Relation_sisterinlaw:0 "tua sorellastra"
+ CustomLoc_FR_OnA2_Relation_sisterwife:0 "tua sorella-moglie"
+ CustomLoc_FR_OnA2_Relation_son:0 "tuo figlio"
+ CustomLoc_FR_OnA2_Relation_son_in_law:0 "tuo genero"
+ CustomLoc_FR_OnA2_Relation_sonhusband:0 "tuo figlio-marito"
+ CustomLoc_FR_OnA2_Relation_stepbrother:0 "tuo fratellastro"
+ CustomLoc_FR_OnA2_Relation_stepdaughter:0 "tua figliastra"
+ CustomLoc_FR_OnA2_Relation_stepfather:0 "tuo patrigno"
+ CustomLoc_FR_OnA2_Relation_stepmother:0 "tua matrigna"
+ CustomLoc_FR_OnA2_Relation_stepsister:0 "tua sorellastra"
+ CustomLoc_FR_OnA2_Relation_stepson:0 "tuo figliastro"
+ CustomLoc_FR_OnA2_Relation_student:0 "tu[second.Custom('DE_END_PRO_S_N')] student[second.Custom('DE_ART_DEF_S_D')]"
+ CustomLoc_FR_OnA2_Relation_uncle:0 "tuo zio"
+ CustomLoc_FR_OnA2_Relation_vassal_female:0 "tua vassalla,"
+ CustomLoc_FR_OnA2_Relation_vassal_female_rival:0 "tua vassalla e rivale,"
+ CustomLoc_FR_OnA2_Relation_vassal_male:0 "tuo vassallo,"
+ CustomLoc_FR_OnA2_Relation_vassal_male_rival:0 "tuo vassallo e rivale,"
+ CustomLoc_FR_OnA2_Relation_victim:0 "tua vittima,"
+ CustomLoc_FR_OnA2_Relation_ward:0 "tu[second.Custom('DE_END_PRO_S_N')] pupill[second.Custom('DE_END_PRO_S_N')],"
+ CustomLoc_FR_OnA2_Relation_wife:0 "tua moglie"
+ CustomLoc_FR_OnA2_Relation_wife_departed:0 "tua defunta moglie"
+ 
+ CustomLoc_FR_OnA3_Relation_acquaintance_female:1 "una sua conoscente," # formerly #D debug
+ CustomLoc_FR_OnA3_Relation_acquaintance_male:1 "un suo conoscente," # formerly #D debug
+ CustomLoc_FR_OnA3_Relation_agent:0 "suo agente,"
+ CustomLoc_FR_OnA3_Relation_aunt:0 "sua zia"
+ CustomLoc_FR_OnA3_Relation_brother:0 "suo fratello"
+ CustomLoc_FR_OnA3_Relation_brother_bully:0 "suo fratello e bullo"
+ CustomLoc_FR_OnA3_Relation_brother_friend:0 "suo fratello e amico"
+ CustomLoc_FR_OnA3_Relation_brother_rival:0 "suo fratello e rivale"
+ CustomLoc_FR_OnA3_Relation_brother_victim:0 "suo fratello e vittima"
+ CustomLoc_FR_OnA3_Relation_brotherhusband:0 "suo fratello-marito"
+ CustomLoc_FR_OnA3_Relation_brotherinlaw:0 "suo cognato"
+ CustomLoc_FR_OnA3_Relation_bully:0 "suo bullo,"
+ CustomLoc_FR_OnA3_Relation_concubine_female:0 "sua concubina,"
+ CustomLoc_FR_OnA3_Relation_concubine_male:0 "suo compagno,"
+ CustomLoc_FR_OnA3_Relation_councillor_female:0 "suo [second.GetCouncilTitle|l],"
+ CustomLoc_FR_OnA3_Relation_councillor_male:0 "suo [second.GetCouncilTitle|l],"
+ CustomLoc_FR_OnA3_Relation_court_physician_male:0 "suo Medico di Corte,"
+ CustomLoc_FR_OnA3_Relation_court_physician_female:0 "suo Medico di Corte,"
+ CustomLoc_FR_OnA3_Relation_prisoner_female:0 "sua prigioniera,"
+ CustomLoc_FR_OnA3_Relation_prisoner_male:0 "suo prigioniero,"
+ CustomLoc_FR_OnA3_Relation_jailer_female:0 "sua carceriera,"
+ CustomLoc_FR_OnA3_Relation_jailer_male:0 "suo carceriere,"
+ CustomLoc_FR_OnA3_Relation_courtier_female:0 "sua cortigiana,"
+ CustomLoc_FR_OnA3_Relation_courtier_male:0 "suo cortigiano,"
+ CustomLoc_FR_OnA3_Relation_cousin:0 "suo cugino"
+ CustomLoc_FR_OnA3_Relation_cousin_female:0 "sua cugina"
+ CustomLoc_FR_OnA3_Relation_crush:0 "la sua cotta,"
+ CustomLoc_FR_OnA3_Relation_daughter:0 "sua figlia"
+ CustomLoc_FR_OnA3_Relation_daughter_in_law:0 "sua nuora"
+ CustomLoc_FR_OnA3_Relation_daughterwife:0 "sua figlia-moglie"
+ CustomLoc_FR_OnA3_Relation_father:0 "suo padre"
+ CustomLoc_FR_OnA3_Relation_fatherhusband:0 "suo padre-marito"
+ CustomLoc_FR_OnA3_Relation_friend_female:0 "sua amica"
+ CustomLoc_FR_OnA3_Relation_friend_male:0 "suo amico"
+ CustomLoc_FR_OnA3_Relation_granddaughter:0 "sua nipote"
+ CustomLoc_FR_OnA3_Relation_grandfather:0 "suo nonno"
+ CustomLoc_FR_OnA3_Relation_grandmother:0 "sua nonna"
+ CustomLoc_FR_OnA3_Relation_grandson:0 "suo nipote"
+ CustomLoc_FR_OnA3_Relation_great_grandfather:0 "suo bisnonno"
+ CustomLoc_FR_OnA3_Relation_great_grandmother:0 "sua bisnonna"
+ CustomLoc_FR_OnA3_Relation_greatgranddaughter:0 "sua pronipote"
+ CustomLoc_FR_OnA3_Relation_greatgrandson:0 "suo pronipote"
+ CustomLoc_FR_OnA3_Relation_guardian:0 "su[second.Custom('DE_END_PRO_S_N')] tu[second.Custom('DE_END_NOU_S_GS_N')],"
+ CustomLoc_FR_OnA3_Relation_guest_female:0 "sua ospite,"
+ CustomLoc_FR_OnA3_Relation_guest_male:0 "suo ospite,"
+ CustomLoc_FR_OnA3_Relation_half_brother:0 "suo fratellastro"
+ CustomLoc_FR_OnA3_Relation_half_sister:0 "sua sorellastra"
+ CustomLoc_FR_OnA3_Relation_heir_daughter:0 "sua figlia ed erede"
+ CustomLoc_FR_OnA3_Relation_heir_son:0 "suo figlio ed erede"
+ CustomLoc_FR_OnA3_Relation_host_female:0 "sua padrona di casa"
+ CustomLoc_FR_OnA3_Relation_host_male:0 "suo padrone di casa,"
+ CustomLoc_FR_OnA3_Relation_husband:0 "suo marito"
+ CustomLoc_FR_OnA3_Relation_husband_departed:0 "suo defunto marito"
+ CustomLoc_FR_OnA3_Relation_kinsman:0 "un suo parente,"
+ CustomLoc_FR_OnA3_Relation_kinswoman:0 "una sua parente,"
+ CustomLoc_FR_OnA3_Relation_knight:0 "suo cavaliere,"
+ CustomLoc_FR_OnA3_Relation_liege_female:0 "sua Signora,"
+ CustomLoc_FR_OnA3_Relation_liege_female_lover:0 "sua amante e Signora"
+ CustomLoc_FR_OnA3_Relation_liege_female_rival:0 "sua Signora e rivale"
+ CustomLoc_FR_OnA3_Relation_liege_male:0 "suo Signore,"
+ CustomLoc_FR_OnA3_Relation_liege_male_lover:0 "suo amante e Signore"
+ CustomLoc_FR_OnA3_Relation_liege_male_rival:0 "suo Signore e rivale"
+ CustomLoc_FR_OnA3_Relation_lover_female:0 "sua amante,"
+ CustomLoc_FR_OnA3_Relation_lover_male:0 "suo amante,"
+ CustomLoc_FR_OnA3_Relation_mentor:0 "su[second.Custom('DE_END_PRO_S_N')] mentore,"
+ CustomLoc_FR_OnA3_Relation_mother:0 "sua madre"
+ CustomLoc_FR_OnA3_Relation_motherwife:0 "sua madre-moglie"
+ CustomLoc_FR_OnA3_Relation_nephew:0 "suo nipote"
+ CustomLoc_FR_OnA3_Relation_niece:0 "sua nipote"
+ CustomLoc_FR_OnA3_Relation_peasant_affair_female:0 "una sua vecchia... #EMP conoscenza#!,"
+ CustomLoc_FR_OnA3_Relation_peasant_affair_male:0 "una sua vecchia... #EMP conoscenza#!,"
+ CustomLoc_FR_OnA3_Relation_religious_head:0 "uo [ROOT.Char.GetFaith.ReligiousHeadName],"
+ CustomLoc_FR_OnA3_Relation_rival_female:0 "sua rivale,"
+ CustomLoc_FR_OnA3_Relation_rival_male:0 "suo rivale,"
+ CustomLoc_FR_OnA3_Relation_sister:0 "sua sorella"
+ CustomLoc_FR_OnA3_Relation_sister_bully:0 "sua sorella e bullo"
+ CustomLoc_FR_OnA3_Relation_sister_friend:0 "sua sorella e amica"
+ CustomLoc_FR_OnA3_Relation_sister_rival:0 "sua sorella e rivale"
+ CustomLoc_FR_OnA3_Relation_sister_victim:0 "sua sorella e vittima"
+ CustomLoc_FR_OnA3_Relation_sisterinlaw:0 "sua sorellastra"
+ CustomLoc_FR_OnA3_Relation_sisterwife:0 "sua sorella-moglie"
+ CustomLoc_FR_OnA3_Relation_son:0 "suo figlio"
+ CustomLoc_FR_OnA3_Relation_son_in_law:0 "suo genero"
+ CustomLoc_FR_OnA3_Relation_sonhusband:0 "suo figlio-marito"
+ CustomLoc_FR_OnA3_Relation_stepbrother:0 "suo fratellastro"
+ CustomLoc_FR_OnA3_Relation_stepdaughter:0 "sua figliastra"
+ CustomLoc_FR_OnA3_Relation_stepfather:0 "suo patrigno"
+ CustomLoc_FR_OnA3_Relation_stepmother:0 "sua matrigna"
+ CustomLoc_FR_OnA3_Relation_stepsister:0 "sua sorellastra"
+ CustomLoc_FR_OnA3_Relation_stepson:0 "suo figliastro"
+ CustomLoc_FR_OnA3_Relation_student:0 "su[second.Custom('DE_END_PRO_S_N')] student[second.Custom('DE_ART_DEF_S_D')]"
+ CustomLoc_FR_OnA3_Relation_uncle:0 "suo zio"
+ CustomLoc_FR_OnA3_Relation_vassal_female:0 "suo vassalla,"
+ CustomLoc_FR_OnA3_Relation_vassal_female_rival:0 "sua vassalla e rivale,"
+ CustomLoc_FR_OnA3_Relation_vassal_male:0 "il suo vassallo,"
+ CustomLoc_FR_OnA3_Relation_vassal_male_rival:0 "suo vassallo e rivale,"
+ CustomLoc_FR_OnA3_Relation_victim:0 "sua vittima,"
+ CustomLoc_FR_OnA3_Relation_ward:0 "su[second.Custom('DE_END_PRO_S_N')] pupill[second.Custom('DE_END_PRO_S_N')],"
+ CustomLoc_FR_OnA3_Relation_wife:0 "sua moglie"
+ CustomLoc_FR_OnA3_Relation_wife_departed:0 "sua defunta moglie"
+ 
+ ################################################################################## 
+ #NUOVE AGGIUNTE
+ #PREPOSIZIONE DAVANTI AI TESTI SACRI
+ CustomLoc_DE_DELLA_RELIGION_della:0 "della" Della Torah/della Bibbia
+ CustomLoc_DE_DELLA_RELIGION_del:0 "del" del Corano 
+ 
+ #VERRANNO AGGIUNTE PIAN PIANO TUTTE LE RELIGIONI
+ 
+ ################################################################################## 
+# Virgolette « » per i dialoghi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# --------------------------------  Tutorial per tradurre Crusader Kings 3 --------------------------------------------------------------
+
+# Ogni codice è costituito da 2 parti. La prima parte, [ROOT.Char. [target. [secondary. ecc, si riferisce sempre al soggetto della frase. [ROOT.Char. si riferisce sempre al nostro personaggio
+# la seconda parte del codice invece è la richiesta. Ad esempio .GetFirstName], (ossia .OttieniPrimoNome) ci permette di ottenere il nome proprio di persona del bersaglio.
+
+# Codice per maschile e femminile
+
+# [Select_CString(personaggio.IsFemale,'a','o')]
+# Esempio:
+# Mi chiamo [Character.GetName]. Ieri sono andata al mare e mi sono fatta il bagno.
+# Mi chiamo Emma. Ieri sono andat[Select_CString(Character.IsFemale,'a','o')] al mare e mi sono fatt[Select_CString(Character.IsFemale,'a','o')] il bagno.
+# Oppure: Mi chiamo Emma. Ieri sono [Select_CString(Character.IsFemale,'andata','andato')] al mare e mi sono [Select_CString(Character.IsFemale,'fatta','fatto')] il bagno.
+
+# Quand'è che non possiamo usare questo codice custom?
+# Tutte quelle volte in cui dobbiamo mettere l'apostrofo.
+# Ad esempio se dovessimo scrivere un'amica/un amico non potremmo usare questo codice, visto che ci sarebbero 3 apostrofi.
+# [Select_CString(Character.IsFemale,'un'amica','un amico')]
+# In questo caso vi invito a guardare gli esempi più in basso, così da fare dei semplici copia e incolla.
+# Intanto ecco un esempio:
+# un[personaggio.Custom('DE_PRO_PER_P_3P_G')]amica
+
+# Alcuni codici terminano con lettere particolari. |E], |U] ecc; cosa vuol dire?
+# |E] --> questo codice corrisponde alle parole in blu in gioco, sulle quali, passandoci sopra il mouse, ti compare la spiegazione.
+# Quando la E è maiuscola, la parola comparirà in maiuscolo. Se ad esempio scrivessimo |e] comparirebbe in minuscolo.
+# |U] --> questo codice fa comparire il maiuscolo sugli altri codici. Ad esempio [Character.GetSheHe] significa lei/lui, ma se scriviamo [Character.GetSheHe|U] comparirà Lei/Lui
+
+# Quando ci troviamo di fronte ad un personaggio nobile ce ne accorgiamo dalla seconda parte del codice, ad esempio [host.GetTitleAsNameNoTooltip]
+ # Quel "GetTitle" sta a significare che il codice sta cercando di richiamare il titolo del personaggio. Conte Jon, Duca Robert ecc. 
+ # In questo caso bisogna usare il codice custom IT_NAM_COL. Ecco come
+ # [host.Custom('IT_NAM_COL2')][host.GetTitleAsNameNoTooltip]
+
+ # Notate come non c'è spazio tra ] e Conte, va scritto tutto attaccato
+ # [CHARACTER.Custom('IT_NAM_COL')]    sul conte
+ # [CHARACTER.Custom('IT_NAM_COL2')]  del conte
+ # [CHARACTER.Custom('IT_NAM_COL3')]  il conte        [CHARACTER.Custom('IT_NAM_COL3')|U]   all'inizio delle frasi per far comparire "Il" in maiuscolo anziché "il"
+ # [CHARACTER.Custom('IT_NAM_COL4')]  al conte
+ # [CHARACTER.Custom('IT_NAM_COL5')]  dal conte
+
+# ---------------------- ELENCO DEI CODICI ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Essendoci questo nuovo condice per il maschile e femminile, i vecchi codici astrusi come DE_ART_DEF_P_D sono ormai inutili. Li lasciamo in questo file in caso di necessità.
+
+ # ARTICOLI DETERMINATIVI - Frase dell'esempio "Il mio/La mia"          [ROOT.Char.Custom('DE_ART_DEF_P_A')]
+ #Il/La    Maiuscolo         [personaggio.Custom('DE_ART_DEF_P_D')] mi[personaggio.Custom('DE_END_PRO_S_N')] ---> Il mio       
+ #il/la                               [personaggio.Custom('DE_ART_DEF_P_A')] mi[personaggio.Custom('DE_END_PRO_S_N')]  il mio
+ # NUOVO CODICE         [Select_CString(personaggio.IsFemale,'La','Il')]
+
+ ###################################################################################################################
+ # MASCHILE / FEMMINILE o/a                                                                                        [Select_CString(CHARACTER.IsFemale,'a','o')]                  [Select_CString(TARGET_CHARACTER.IsFemale,'a','o')] 
+ # Il codice per noi è ROOT.Char quindi sarà:                        [ROOT.Char.Custom('DE_END_PRO_S_N')] o/a            [Select_CString(ROOT.Char.IsFemale,'a','o')]
+ # Il codice per un personaggio qualsiasi -->         [CHARACTER.Custom('DE_END_PRO_S_N')] o/a                           [Select_CString(personaggio.IsFemale,'a','o')]
+ #                                                                                                                                                                                                           [Select_CString(personaggio.IsFemale,'mia','mio')]
+ ####################################################################################################################
+
+ # Lei/lui          [personaggio.GetSheHe]
+ # egli/lei         [personaggio.Custom('DE_ART_IND_A')]
+ # oppure Egli  [personaggio.Custom('DE_ART_IND_A')|U]
+ 
+ # SIGNORE / SIGNORA
+ # [Select_CString(ROOT.Char.IsFemale,'mia Signora','mio Signore')]
+ # [Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')]
+
+ # TUTORE E TUTRICE, Lavoratore e Lavoratrice ecc.
+ # tore/trice    [Select_CString(personaggio.IsFemale,'tutrice','tutore')]
+ 
+ # ETA - ESSA [Select_CString(personaggio.IsFemale,'poetessa','poeta')]
+ 
+ # gli/le  [personaggio.Custom('DE_PRO_DEM')]                 [Select_CString(personaggio.IsFemale,'le','gli')]
+ # i/e   Servi / Serve [personaggio.Custom('DE_END_NOU_S_G')] [Select_CString(personaggio.IsFemale,'serve','servi')]
+ 
+ # CODICE PER MODIFICARE LOCALMENTE UN TERMINE DELL'ENCICLOPEDIA
+ # A sinistra lasciate il termine vecchio, nello spazio dove sta scritto english, a destra invece scrivete la traduzione che volete far apparire solo ed esclusivamente in quel rigo, per quella determinata frase.
+ # [Concept('english','italiano')|E]
+ # [Concept( 'english', 'italiano' )|E]
+ # la |E] indica che la prima lettera apparirà in maiuscolo, quindi in gioco vedrete scritto "Italiano", se invece c'è la |e] vuol dire che gli sviluppatori vogliono che appaia in minuscolo.
+ 
+ #Vi presento il conte Jon -> "[CHARACTER.Custom('IT_NAM_COL3')]Conte" non c'è spazio tra ] e Conte, va scritto tutto attaccato
+ #[CHARACTER.Custom('IT_NAM_COL')]    sul conte
+ #[CHARACTER.Custom('IT_NAM_COL2')]  del conte
+ #[CHARACTER.Custom('IT_NAM_COL3')]  il conte        [CHARACTER.Custom('IT_NAM_COL3')|U]   all'inizio delle frasi per far comparire "Il" in maiuscolo anziché "il"
+ #[CHARACTER.Custom('IT_NAM_COL4')]  al conte
+ #[CHARACTER.Custom('IT_NAM_COL5')]  dal conte
+ 
+ # PREPOSIZIONI (Ricorda di mettere )|U] alla fine del codice se la preposizione è all'inizio del rigo. Esempio [ROOT.Char.Custom('DE_END_ADJ_DEF_P_A')|U]
+ # al   / alla        [personaggio.Custom('DE_END_ADJ_DEF_P_A')]       questo codice è già al/alla, non c'è bisogno di scrivere al[  
+ # all' / alla     all[personaggio.Custom('DE_PRO_PER_S_3P_N')]  ['/a ]
+ 
+ # dal  / dalla (oppure sul/sulla o quel/quella)  dal[personaggio.Custom('DE_END_ADJ_NUL_S_N')]
+ # del  / della       [personaggio.Custom('DE_PRO_PER_P_3P_A')] con questo codice non va scritto del[ perché il codice dice direttamente [del] o [della]
+ # dell'/ della   dell[personaggio.Custom('DE_PRO_PER_S_3P_N')]  ['/a ]
+
+ # quel   / quella  quel[personaggio.Custom('DE_END_ADJ_NUL_S_N')] ossia [ /la] staccato
+ # sul     / sulla  sul[personaggio.Custom('DE_END_ADJ_NUL_S_N')]        ossia [ /la]
+ # quest' / questa   quest[personaggio.Custom('DE_PRO_PER_S_3P_N')]  ossia ['/a ] tutto attaccato
+  
+ # UN UOMO / DONNA 
+ # un/una, un[personaggio.Custom('DE_PRO_POS_P_2P')] [personaggio.GetWomanMan] uomo   [/a]       [un] uomo          --> qui tra ] e "uomo" va uno spazio, a differenza di quanto avviene per [un/un']amica
+ 
+ # un/un', un[personaggio.Custom('DE_PRO_PER_P_3P_G')]amica    tutto attaccato
+ # la donna, l'uomo  l[ROOT.Char.Custom('DE_PRO_PER_S_3P_N')][ROOT.Char.GetWomanMan] ['/a ] tutto attaccato
+ # quest'uomo    quest[personaggio.Custom('DE_PRO_PER_S_3P_N')]   ['/a ] tutto attaccato
+ 
+
+ # VARI CODICI
+ # Nome del Consigliere [councillor_liege.GetFirstName]
+ # Titolo del consigliere [councillor_liege.GetTitleTierName]
+ # Titolo al posto del nome [ROOT.Char.GetTitleAsNameNoTooltip] esempio "Oh possente Duca!"   [owner.GetTitleAsNameNoTooltip] 
+ 
+ #CULTURA ITALIANA/gli ITALIANI 
+ #cultura italiana [ROOT.Char.GetCulture.GetNameNoTooltip]
+ #gli italiani     [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]
+ 
+ 
+ #RICHIAMO DEL NOME DEL PERSONAGGIO CON E SENZA TOOLTIP
+ # [personaggio.GetFirstNameNoTooltip]
+ # [personaggio.GetFirstName]
+ # [personaggio.GetName] apparirà --> Re William d'Inghilterra sottolineato
+ 
+ 
+ 
+ #Quando la frase inizia per [CHARACTER.GetShortUIName] potrebbe riferirsi a noi o a un personaggio casuale. Per evitare che compaia la parola "Te" usiamo questo codice:
+
+ # [Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] [Select_CString( CHARACTER.IsLocalPlayer, 'sei', 'è' )]
+ # [Select_CString(CHARACTER.IsLocalPlayer,'',CHARACTER.GetShortUIName)] [Select_CString( CHARACTER.IsLocalPlayer, 'Sei', 'è' )]
+ 
+ # [Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] [Select_CString( CHARACTER.IsLocalPlayer, 'hai', 'ha' )]
+ # [Select_CString(CHARACTER.IsLocalPlayer,'',CHARACTER.GetShortUIName)] [Select_CString( CHARACTER.IsLocalPlayer, 'Hai', 'ha' )]
+ 
+ # [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei', 'è' )]
+ # [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Sei', 'è' )]
+ 
+ # [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'hai', 'ha' )]
+ # [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Hai', 'ha' )]
+ 
+ # Jon e te [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'avete', 'hanno' )]
+ # Jon e te [Select_CString( CHARACTER.IsLocalPlayer, 'avete', 'hanno' )]
+ 
+ # nuovo esempio [Select_CString( attacker.IsLocalPlayer, '', attacker.GetShortUIName )][Select_CString( attacker.IsLocalPlayer, 'Ti sei', ' si è' )]
+
+
+ # ------------------------------------------------------------------ 
+ # a volte ci troviamo a dover scrivere ad esempio "Con la tua famiglia" oppure "Con la famiglia di CHARACTER"
+ # In questo caso, faremo come nell'esempio  
+ # "Un matrimonio con la [Select_CString( CHARACTER.IsLocalPlayer, 'tua', 'famiglia di' )][Select_CString( CHARACTER.IsLocalPlayer, 'famiglia',CHARACTER.GetShortUIName)]."
+ # "Un tempio nel [Select_CString( CHARACTER.IsLocalPlayer, 'tuo', 'villaggio di' )][Select_CString( CHARACTER.IsLocalPlayer, 'villaggio',CHARACTER.GetShortUIName)]".
+
+#"Vuole sposare uno dei [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tuoi ', '' )]figli di umili natali [Select_CString( CHARACTER.IsLocalPlayer, '',TARGET_CHARACTER.GetShortUIName)]".
+ # ------------------------------------------------------------------ 
+ 
+ # questo è un altro modo di usare questo codice [personaggio.LocalPlayerString( 'sei', 'è' )] 
+ # [personaggio.LocalPlayerString('Tuo ', 'Il ')] marito
+ # [personaggio.LocalPlayerString( 'tuo ', '' )]
+ 
+ # CODICE PER IL FILE DEI DUELLI
+ #il mio avversario IO PERDENTE [sc_loser.Custom('DE_ART_DEF_P_A')] mi[sc_loser.Custom('DE_END_PRO_S_N')] avversari[sc_loser.Custom('DE_END_PRO_S_N')]
+ #il mio avversario VINCENTE [sc_victor.Custom('DE_ART_DEF_P_A')] mi[sc_victor.Custom('DE_END_PRO_S_N')] avversari[sc_victor.Custom('DE_END_PRO_S_N')]
+
+
+# NUOVO CODICE
+
+#              [Select_CString(Or(first.IsLocalPlayer, second.IsLocalPlayer),'avete', 'hanno')] mangiato bene
+
+# il nome del titolo di un personaggio [personaggio.GetPrimaryTitle.GetName]
+
+
+# Codice Nome e Cognome = [ROOT.Char.GetFirstNameNoTooltip] [ROOT.Char.GetHouse.GetNameNoTooltip] (ossia nome e casata)
+
+# stringa 345 i codici per le contee

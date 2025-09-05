@@ -1,0 +1,25 @@
+﻿l_spanish:
+ #Created for the perfume creation event chain, but should be easily used elsewhere
+
+# Simple
+ color_simple_blue:0 "blu"
+ color_simple_red:0 "rosso"
+ color_simple_yellow:0 "giallo"
+ color_simple_green:0 "verde"
+ color_simple_orange:0 "arancione"
+ color_simple_cyan:0 "ciano"
+ color_simple_purple:0 "viola"
+ color_simple_pink:0 "rosa"
+ color_simple_grey:0 "grigio"
+ color_simple_black:0 "nero"
+
+# Complex
+ color_complex_gold:0 "zafferano frizzante e dorato"
+ color_complex_silver:0 "grigio-argento chiaro"
+ color_complex_blue:0 "scuro, blu notte"
+ color_complex_red:0 "rosso rubino intenso e vermiglio"
+ color_complex_purple:0 "magnifico viola di Tiro"
+ color_complex_pink:0 "ricco ciliegio"
+ color_complex_green:0 "smeraldo glorioso"
+ color_complex_bronze:0 "bronzo intenso, come un tramonto"
+ color_complex_black:0 "ossidiana nera scurissima"

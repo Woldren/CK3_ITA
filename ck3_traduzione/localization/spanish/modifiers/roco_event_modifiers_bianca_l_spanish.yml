@@ -1,0 +1,49 @@
+﻿l_spanish:
+ # Court Events: Character Modifiers
+ smelly_court_roco_modifier:0 "Corte Puzzolente"
+ smelly_court_roco_modifier_desc:0 "Questo personaggio ha una corte malfamata, temuta per il suo terribile fetore."
+ drenched_in_excrement_roco_modifier:0 "Ricoperto di Escrementi"
+ drenched_in_excrement_roco_modifier_desc:0 "Questo personaggio è stato visto ricoperto di materia fecale e ancora ne puzza."
+ creative_burst_roco_modifier:0 "Esplosione Creativa"
+ creative_burst_roco_modifier_desc:0 "Dopo aver ricevuto dei complimenti, questo personaggio è ispirato a continuare a creare."
+ mocked_for_creative_burst_roco_modifier:0 "Triste Creatore"
+ mocked_for_creative_burst_roco_modifier_desc:1 "Questo personaggio è stato deriso per la sua creatività e ora tiene segreti i suoi scritti."
+ trying_new_things_modifier:0 "Provare Cose Nuove"
+ trying_new_things_modifier_desc:0 "Questo personaggio sta cercando di ampliare le proprie vedute provando cose nuove e scrivendo su vari argomenti."
+ found_their_focus_modifier:0 "Ha Trovato il Proprio Interesse"
+ found_their_focus_modifier_desc:0 "Questo personaggio ha trovato il suo argomento preferito su cui scrivere e si sta immergendo nella scrittura."
+ moment_of_calm_and_clarity_roco_modifier:0 "Momento di Calma e Chiarezza"
+ moment_of_calm_and_clarity_roco_modifier_desc:0 "Questo personaggio ha raggiunto uno stato d'animo sereno."
+ made_a_fool_of_rival_roco_modifier:0 "Rivale Ridicolizzato"
+ made_a_fool_of_rival_roco_modifier_desc:0 "Questo personaggio ha umiliato pubblicamente il suo rivale, il che fa sì che tutti quelli che lo circondano ci pensino due volte prima di prendersela con lui."
+
+ # Petition Events: Character Modifiers
+ petition_event_artifact_exhibition_for_gold:0 "Mostra di Manufatti a Pagamento"
+ petition_event_artifact_exhibition_for_gold_desc:0 "Questo personaggio ospita una mostra di manufatti con un costo d'ingresso."
+ petition_event_artifact_exhibition_for_prestige:0 "Mostra Gratuita di Manufatti"
+ petition_event_artifact_exhibition_for_prestige_desc:0 "Questo personaggio ospita una mostra gratuita di manufatti."
+ 
+ # Petition Events: County Modifiers
+ hold_court_grateful_peasants_modifier:0 "Contadini Soddisfatti"
+ hold_court_grateful_peasants_modifier_desc:1 "La risposta a una richiesta ha soddisfatto i contadini di questa regione."
+ hold_court_displeased_peasants_modifier:0 "Contadini Scontenti"
+ hold_court_displeased_peasants_modifier_desc:0 "Una decisione a corte ha dispiaciuto molto i contadini di questa zona."
+ hold_court_less_building_cost_modifier:0 "Costo di costruzione Ridotto"
+ hold_court_less_building_cost_modifier_desc:0 "Una decisione a corte ha portato a una diminuzione dei costi di costruzione in questa zona."
+
+ # Court Events: County Modifiers
+ county_dismissed_servants_fear_modifier:0 "Paure dei Sudditi Ignorate"
+ county_dismissed_servants_fear_modifier_desc:0 "Questo sovrano ha ignorato le paure dei suoi sudditi."
+ county_acknowledged_servants_fear_modifier:0 "Paure dei Sudditi Ascoltate"
+ county_acknowledged_servants_fear_modifier_desc:0 "Questo sovrano ascolta quando i suoi servitori raccontano le loro paure."
+
+ # Culture Outcome
+ cultural_acceptance_gain_hold_court_event_outcome:0 "Una decisione a corte ha cambiato l'accettazione culturale."
+
+ # Fund Inspiration Events:County Modifiers
+ fund_inspiration_missing_peasants_modifier:0 "Contadini Scomparsi"
+ fund_inspiration_missing_peasants_modifier_desc:0 "Il panico nelle campagne si sta diffondendo perché i contadini stanno misteriosamente scomparendo."
+
+ #Court Positions: County Modifiers
+ held_public_execution_modifier:0 "Esecuzione Pubblica"
+ held_public_execution_modifier_desc:0 "È stata tenuta un'esecuzione pubblica come spettacolo per la folla."
