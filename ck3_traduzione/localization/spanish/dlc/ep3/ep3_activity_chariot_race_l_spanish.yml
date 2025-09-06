@@ -631,9 +631,11 @@ chariot_race.4051.a: "Una scommessa fallimentare..."
  charioteer_gained_trait_xp_key_title: "$charioteer_trait_xp_gain_message$"
 
  hire_charioteer_decision: "Cerca un Auriga"
+ hire_charioteer_decision_desc: "[GetCourtPositionType('charioteer_court_position').GetDescription|U]"
  hire_charioteer_decision_tooltip: "I tuoi servitori suggeriranno diversi candidati adatti per la posizione di [GetCourtPositionType('charioteer_court_position').GetName()]"
 
  hire_bookmaker_decision: "Cerca un Allibratore"
+ hire_bookmaker_decision_desc: "[GetCourtPositionType('bookmaker_court_position').GetDescription|U]" 
  hire_bookmaker_decision_tooltip: "I tuoi servitori suggeriranno diversi candidati adatti per la posizione di [GetCourtPositionType('bookmaker_court_position').GetName()]"
 
  ### MODIFIERS 

@@ -35,6 +35,7 @@
  cid.1010.b: ""Ti ringrazio, [Select_CString(friend.IsFemale,'mia cara amica','mio caro amico')].""
  cid.1010.b.flavor: "#EMP Se io scampo, vi raddoppierò la paga.#!"
  cid.1010.c: ""Non posso rischiare la collera del[liege.Custom('DE_END_ADJ_NUL_S_N')] [liege.GetTitleAsNameNoTooltip].""
+ cid_1010_no_invite_var_desc: "L'hai bandit[recipient.Custom('DE_END_PRO_S_N')]: $VALUE|=+0$"
  
  cid.1020.t: "$cid_exile_title$ Addio, [Select_CString(spouse.IsFemale,'mia cara','mio caro')]"
  cid.1020.desc.intro: "[spouse.GetFirstName] si getta sui gradini davanti all'altare e prega con fervore [spouse.GetFaith.HighGodName] perché mi protegga dal male.\n\nIo l[spouse.Custom('DE_END_ADJ_DEF_S_N')]abbraccio e [spouse.GetSheHe] bacia la mia mano, con le lacrime agli occhi, come fuori di sé per il dolore.\n\n"Solo [ROOT.Char.GetFaith.HighGodName] sa se ci vedremo di nuovo," dico, "qui sarete più al sicuro. Non posso sottoporvi a ciò che"

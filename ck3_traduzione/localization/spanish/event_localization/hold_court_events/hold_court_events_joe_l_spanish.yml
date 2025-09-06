@@ -1003,11 +1003,6 @@ court_position_desc_keeper_of_the_horses: "mantenendo la qualità dei vostri des
  master_of_spoils_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'master_of_spoils_camp_officer' ) )]"
  master_of_spoils_old_holder_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'master_of_spoils_camp_officer' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'master_of_spoils_camp_officer' ) )])#!"
  master_of_spoils_salary_tooltip: "[GetCourtPositionType( 'master_of_spoils_camp_officer' ).GetName()] ha un salario mensile di [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"
- 
- # court_astrologer
- court_astrologer_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'court_astrologer_court_position' ) )]"
- court_astrologer_old_holder_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'court_astrologer_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'court_astrologer_court_position' ) )])#!"
- court_astrologer_salary_tooltip: "[GetCourtPositionType( 'court_astrologer_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"
 # court_astrologer
 court_astrologer_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'court_astrologer_court_position' ) )]"
 court_astrologer_old_holder_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'court_astrologer_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'court_astrologer_court_position' ) )])#!"

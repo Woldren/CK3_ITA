@@ -1072,6 +1072,9 @@
  # Jon e te [Select_CString( CHARACTER.IsLocalPlayer, 'avete', 'hanno' )]
  
  # nuovo esempio [Select_CString( attacker.IsLocalPlayer, '', attacker.GetShortUIName )][Select_CString( attacker.IsLocalPlayer, 'Ti sei', ' si è' )]
+ 
+ # indipendentemente da chi sia il personaggio, Character o Target_Character, questo codice dice: se uno dei due è il nostro protagonista, fai comparire la prima frase, nell'esempio qua sotto è 'vi siete'.
+ # [Select_CString(Or(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'vi siete', 'si sono')]
 
 
  # ------------------------------------------------------------------ 

@@ -51,4 +51,7 @@
  CANT_CREATE_MAA_MAX_REGIMENTS: "@warning_icon! #X Non puoi avere più di $LIMIT$ [MEN_AT_ARMS_TYPE.GetNameNoTooltip|V]#!"
  CANT_CREATE_TTILE_MAA_WRONG_GOVERNMENT: "@warning_icon!#X Il governo [GovernmentType.GetNameWithIcon] non ti consente di reclutare gli [men_at_arms|E] di un titolo#!" #controllare
  CREATE_MAA_TOOLTIP:0 "#T Crea un nuovo Reggimento#!\n[MilitaryItem.GetMaACanBeCreatedTooltip]"
+ MEN_AT_ARMS_CAN_CREATE_TOOLTIP: "[MenAtArmsTypeView.GetCreateTooltip][AddLocalizationIf(MenAtArmsType.GetSubjectProvider( GetPlayer ).IsValid,'\n\n')][AddLocalizationIf(MenAtArmsType.GetSubjectProvider( GetPlayer ).IsValid,'MEN_AT_ARMS_PROVIDED_BY_SUBJECT')][ConcatIfNeitherEmpty('\n\n',MenAtArmsType.GetSubjectMenAtArmsHintDesc( GetPlayer ))]"
+ MEN_AT_ARMS_PROVIDED_BY_SUBJECT: "L’accesso a @[MenAtArmsType.GetIconKey]_icon![Nbsp][MenAtArmsType.GetName] è fornito da [MenAtArmsType.GetSubjectProvider( GetPlayer ).GetPrimaryTitle.GetBaseNameNoTier] ([MenAtArmsType.GetSubjectProvider( GetPlayer ).GetShortUIName])"
+ MEN_AT_ARMS_NO_POTENTIAL_SUBJECT_SOURCES: "Non sei a conoscenza di alcun [realm|E] confinante che disponga di @[MenAtArmsType.GetIconKey]_icon![Nbsp][MenAtArmsType.GetName] come [men_at_arms|E]."
  

@@ -91,3 +91,5 @@
 
  ep3_laamp_peasant_war: "Rivolta Contadina"
  ep3_laamp_peasant_war.peasant_army: "I contadini di ogni contea si raduneranno come [levies|E] e si uniranno alla tua causa"
+ ep3_join_war_payment_tt: "A causa del [task_contract|E] - [GetTaskContractType('laamp_join_war_contract').GetName]:"
+ ep3_hire_laamp_mercs_payment_tt: "A causa del lavoro di [mercenary|E]:" 

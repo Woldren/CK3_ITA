@@ -163,15 +163,17 @@
  
  #The Hermit events
  travel_events.3060.t:0 "L'Eremita"
- travel_events.3060.desc.intro: "A grotto emerges from the vegetation like a stone arch in a cathedral. On its entry there's a small wooden table and a stall; someone has left a lantern burning on it."
- travel_events.3060.desc.travel_leader: "\n\n"Careful, my [ROOT.Char.GetLadyLord]," [travel_leader.GetTitledFirstName] holds [travel_leader.GetHerHis] arm up in front of my chest. "There are bandits in these lands."\n\n"You're quick to make accusations," a dimly illuminated figure stands in the entrance to the cave. "I'm merely a hermit, and you... well you carry the title of the [ROOT.Char.GetTitleAsNameNoTooltip].""
- travel_events.3060.desc.on_your_own: " An outcast, perhaps, or maybe a bandit hideout?\n\n"Do not fear, my [ROOT.Char.GetTitleAsNameNoTooltip]," a dimly illuminated figure stands in the entrance to the cave. "I'm merely a hermit, seeking wisdom in these old woods.""
+ travel_events.3060.desc.intro: "Una grotta emerge dalla vegetazione come un arco di pietra in una cattedrale. All'ingresso c'è un piccolo tavolo di legno e una bancarella; qualcuno vi ha lasciato una lanterna accesa."
+ travel_events.3060.desc.travel_leader: "\n\n"Attento, [Select_CString(ROOT.Char.IsFemale,'mia Signora','mio Signore')]," [travel_leader.GetTitledFirstName] solleva il braccio davanti al mio petto. "Ci sono banditi in queste terre."\n\n"Sei rapido ad accusare," una figura debolmente illuminata si staglia all'ingresso della grotta. "Sono soltanto un eremita, e tu... beh, porti il titolo di [ROOT.Char.GetTitleAsNameNoTooltip].""
+ travel_events.3060.desc.on_your_own: " Un reietto, forse, o magari un covo di banditi?\n\n"Non temere, mio [ROOT.Char.GetTitleAsNameNoTooltip]," una figura debolmente illuminata si staglia all'ingresso della grotta. "Sono soltanto un eremita, in cerca di saggezza in questi antichi boschi.""
+ travel_events.3060.a:0 "Un eremita sarebbe un'ottima aggiunta al mio seguito."
  travel_events.3060.b:0 "Che fortuna! Vi prego, parlatemi del mio futuro."
  travel_events.3060.c:0 "Andiamocene... andiamocene e basta."
  impending_doom_modifier:0 "Destino imminente"
  impending_doom_modifier_desc:0 "Questo personaggio avverte un senso di pericolo dopo aver ignorato un eremita"
  ignored_hermit:0 "Eremita ignorato"
  hermit_tells_your_future_tt:0 "Riceverai una profezia..."
+
  
  travel_events.3061.t:0 "L'Eremita: Una profezia"
  travel_events.3061.intro:0 "L'eremita si prende un attimo prima di rispondere, si alza e aspetta che io lo segua. Ci sono alcune erbe sparse in giro e quello che sembra essere un letto rudimentale. [hermit_scope.Custom('DE_ART_IND_A')|U] si volta verso di me quando siamo lontani dal mio seguito e, con una voce stranamente più profonda, mi risponde:\n\n"

@@ -446,6 +446,7 @@
  admin_contract_success_tt_xp: "[trait_level_track_xp|E] nel [trait|E] [GetTrait('governor').GetName( GetNullCharacter )]"
  admin_contract_success_tt_rewards: "Potrai scegliere tra una varietà di ricompense, tra cui:#indent_newline:3 \n$EFFECT_LIST_BULLET$$admin_contract_success_tt_xp$\n$EFFECT_LIST_BULLET$[gold_i|E][gold|E]\n$EFFECT_LIST_BULLET$[influence_i|E][influence|E]\n$EFFECT_LIST_BULLET$[prestige_i|E][prestige|E]\n$EFFECT_LIST_BULLET$[piety_i|E][piety|E]\n$EFFECT_LIST_BULLET$Miglioramenti alle tue [counties|E] o ai tuoi [holdings|E]#!"
  admin_contract_failure_tt: "Potresti subire piccole penalità, come la perdita di [prestige_i|E][prestige|E] o [influence_i|E][influence|E]"
+ has_active_governance_issue: "Hai già una [governance_issue|E] in corso"
  
  task_contract_reward_effect_taxes_governor_desc: "Possibile Risultato:"
  task_contract_reward_effect_taxes_paid_in_full_desc: "$label_success_standard$"

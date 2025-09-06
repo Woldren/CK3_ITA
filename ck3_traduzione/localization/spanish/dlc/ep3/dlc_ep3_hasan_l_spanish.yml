@@ -41,8 +41,12 @@
  hasan_sabbah.1022.b: "Devo mantenere la rotta."
  hasan_sabbah.1030.t: "Morte di un Califfo"
  hasan_sabbah.1030.desc: "[ismaili_caliph.GetName|U] si è finalmente unito a [ROOT.Char.GetFaith.HighGodName|U] ed è in pace, ma quelli di noi che sono rimasti devono affrontare il peso della sua assenza. Attraverso manovre politiche e forze al di là di ogni comprensione, [new_ismaili_caliph.GetName] [ismaili_caliph.Custom('DE_PRO_DEM')] è succedut[new_ismaili_caliph.Custom('DE_END_PRO_S_N')], e le richieste [GetFaithByKey('nizari').GetAdjective] sono state ignorate.\n\nSo per certo che [nizar.GetName] era [nizar.Custom('DE_ART_DEF_P_A')] candidat[nizar.Custom('DE_END_PRO_S_N')] preferit[nizar.Custom('DE_END_PRO_S_N')], ma se renderò nota la mia fedeltà, mi farò sicuramente un[new_ismaili_caliph.Custom('DE_PRO_POS_P_2P')] nemic[new_ismaili_caliph.Custom('DE_END_PRO_S_N')]."
+ hasan_sabbah.1030.desc_caliph_heir: "$hasan_sabbah.1030.desc$ [new_ismaili_caliph.GetName] ha preso il suo posto $hasan_sabbah.1030.desc_outro$"
+ hasan_sabbah.1030.desc_caliph_no_heir: "$hasan_sabbah.1030.desc$ il Califato è rimasto senza un erede $hasan_sabbah.1030.desc_outro$"
+ hasan_sabbah.1030.desc_outro: "e ogni rivendicazione [GetFaithByKey('nizari').GetAdjective] è stata ignorata.\n\nSo bene che [nizar.GetName] era [Select_CString( nizar.IsFemale, 'la candidata favorita', 'il candidato favorito' )], ma se rivelassi la mia lealtà, potrei benissimo ritrovarmi circondat[ROOT.Char.Custom('DE_END_PRO_S_N')] da nemici." 
  hasan_sabbah.1030.a: "Non perirò nell'incredulità!"
  hasan_sabbah.1030.b: "[new_ismaili_caliph.GetFirstNameNoTooltip|U] è [new_ismaili_caliph.Custom('DE_ART_DEF_P_A')] legittim[new_ismaili_caliph.Custom('DE_END_PRO_S_N')] califf[new_ismaili_caliph.Custom('DE_END_PRO_S_N')]."
+ hasan_sabbah.1030.c: "Sosterrò qualsiasi candidatura [GetFaithByKey('ismaili').GetAdjective]."
  hasan_sabbah.1031.t: "Il Nemico di [ROOT.Char.GetFaith.GetNameNoTooltip|U]"
  hasan_sabbah.1031.desc: "Al termine del mio sermone, guardo la folla di volti illuminati che mi fissano. La mia mente si rivolge al loro maestro, [seljuk_equivalent.GetFirstName], [Select_CString(seljuk_equivalent.IsFemale, 'colei', 'colui')] che li ha allontanati da [ROOT.Char.GetFaith.HighGodName] tanto per cominciare. Mentre [seljuk_equivalent.GetSheHe] si gode una vita decadente, i suoi sudditi si agitano nella sporcizia, oscurati dalla verità dell'onnipotente.\n\nSento di non poterlo più sopportare e desidero solo vedere il suo popolo liberarsi di [seljuk_equivalent.GetSheHe], unito nella filosofia [ROOT.Char.GetFaith.GetAdjective]!"
  hasan_sabbah.1031.a: "[seljuk_equivalent.GetSheHe|U] deve morire!"
@@ -71,6 +75,8 @@
  begin_hasan_cycle_twelver_tt: "Inizi a lavorare come missionari[ROOT.Char.Custom('DE_END_PRO_S_N')] [GetPlayer.GetFaith.GetAdjective|U]"
  unlock_evangelize_decision_tt: "Ottieni l'accesso alla decisone [GetDecisionWithKey('hasan_evangelize_the_faith').GetName]"
  advance_to_the_assassins_tt: "Questa opzione ti fa #P avanzare#! sul sentiero degli Assassini"
+ chance_to_advance_to_the_assassins_tt: "Possibilità di #P avanzare#! sul tuo sentiero degli Assassini"
+ 
  unlock_final_hasan_decisions_1_tt: "Ottieni l'accesso alla [decision|E] [GetDecisionWithKey('hasan_agitate_the_populace').GetName]"
  unlock_final_hasan_decisions_2_tt: "Ottieni l'accesso alla [decision|E] [GetDecisionWithKey('hasan_found_the_assassins').GetName]"
  unlock_final_hasan_decisions_3_tt: "Ottieni l'accesso alla [decision|E] [GetDecisionWithKey('hasan_ignite_the_flames').GetName]"
@@ -82,7 +88,10 @@
  or_a_neigbouring_county_tt: "Una [county|E] vicina nello stesso [realm|E] soddisfa i requisiti di cui sopra"
  0_or_below_county_opinion_tt: "L'[county_opinion|E] è pari a #V 0#! o inferiore"
  look_for_another_enemy_tt: "Potresti cercare un altro nemico altrove"
- # Misc
+ character_camp_is_at_targets_realm: "Il [camp|E] di [CHARACTER.GetShortUINamePossessive|U] deve trovarsi nel [realm|E] di [TARGET_CHARACTER.GetNamePossessive]"
+ hasan_stroy_cycle_ultimate_foe: "Devi avanzare sul sentiero degli Assassini almeno #V 15#! volte oppure [caliph.GetName] dev’essere mort[caliph.Custom('DE_END_PRO_S_N')], e devi aver scelto un nemico giurato della fede [hasan.GetFaith.GetName] #weak (progresso attuale: [radical_points])#!"
+  
+  # Misc
  HASAN_KINGDOM: "$b_alamut$"
  HASAN_KINGDOM_adj: "Alamuti"
  ASSASSIN_NATION_FRACTURING_WAR_NAME: "Dissoluzione [ATTACKER.GetPrimaryTitle.GetAdjective] di [DEFENDER.GetPrimaryTitle.GetName]"

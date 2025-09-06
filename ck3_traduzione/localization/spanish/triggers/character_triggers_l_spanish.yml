@@ -632,6 +632,7 @@
  NOT_I_HAVE_REALM_SIZE_TRIGGER:1 "La [realm_size|E] di [CHARACTER.GetTopLiege.GetPrimaryTitle.GetName] è meno di $NUM|V$ #weak ($CURRENT_VALUE$)#!"
  NOT_THEY_HAVE_REALM_SIZE_TRIGGER:1 "La [realm_size|E] di [CHARACTER.GetTopLiege.GetPrimaryTitle.GetName] è meno di $NUM|V$ #weak ($CURRENT_VALUE$)#!"
 
+ HAS_SUB_REALM_SIZE_TRIGGER:1 "La [realm_size|E] è $NUM|V0$ o maggiore #weak ($CURRENT_VALUE|V0$)#!"
  I_HAVE_SUB_REALM_SIZE_TRIGGER:3 "La [realm_size|E] di [CHARACTER.GetPrimaryTitle.GetName] è $NUM|V0$ o maggiore #weak ($CURRENT_VALUE|V0$)#!"
  THEY_HAVE_SUB_REALM_SIZE_TRIGGER:2 "La [realm_size|E] di [CHARACTER.GetPrimaryTitle.GetName] è $NUM|V0$ o maggiore #weak ($CURRENT_VALUE|V0$)#!"
  NOT_I_HAVE_SUB_REALM_SIZE_TRIGGER:0 "La [realm_size|E] di [CHARACTER.GetPrimaryTitle.GetName] è meno di $NUM|V0$ #weak ($CURRENT_VALUE|V0$)#!"

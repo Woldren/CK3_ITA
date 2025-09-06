@@ -1721,7 +1721,7 @@
  CUSTOM_SEIZE_TITLE_EFFECT_THIRD_PAST:0 "[CHARACTER.GetShortUIName|U] si è appropriato del [TARGET_TITLE.GetName]"
  
  CLEAR_TITLE_LAWS:0 "Tutte le leggi sul titolo di [TITLE.GetName] saranno resettate"
- CLEARED_TITLE_LAWS_THIRD:0 "Tutte le leggi sul titolo di [TITLE.GetName] sono state resettate"
+ CLEARED_TITLE_LAWS:0 "Tutte le leggi sul titolo di [TITLE.GetName] sono state resettate"
  ADD_TITLE_LAW:2 "Ottiene la legge di successione [LAW.GetName|V]"
  ADD_TITLE_LAW_THIRD:1 "[TITLE.GetName|U] ottiene la legge di successione [LAW.GetName|V]"
  ADDED_TITLE_LAW:0 "[TITLE.GetName|U] ha ottenuto la legge di successione [LAW.GetName|V]"

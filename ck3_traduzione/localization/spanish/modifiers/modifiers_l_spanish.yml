@@ -557,6 +557,8 @@
  MOD_MONTHLY_PRESTIGE_GAIN_PER_KNIGHT_MULT:0 "[prestige|E] Mensile per [knight|E]"
  MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_ADD: "[prestige|E] per [legitimacy_level|E]"
  MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_MULT: "[prestige|E] Mensile per [legitimacy_level|E]"
+ MOD_MONTHLY_PRESTIGE_GAIN_PER_COURT_POSITION_ADD: "[prestige|E] per [court_position|E]"
+ MOD_MONTHLY_PRESTIGE_GAIN_PER_COURT_POSITION_MULT: "[prestige|E] Mensile per [court_position|E]" 
  MOD_MONTHLY_PIETY_FROM_BUILDINGS_MULT:0 "[piety|E] Mensile dagli [buildings|E]"
  MOD_MONTHLY_PRESTIGE_FROM_BUILDINGS_MULT:0 "[prestige|E] Mensile dagli [buildings|E]"
  MOD_STRESS_GAIN_MULT:0 "Guadagno di [stress|E]"
