@@ -1,14 +1,14 @@
 ﻿l_spanish:
  sway_outcome.1001.t:0 "Influenzare: Un'opportunità"
- sway_outcome.1001.desc:0 "Nei miei tentativi di allineare [target.GetTitledFirstName] ai miei interessi, ho trovato un'opportunità. Penso di poter sostenere che i nostri obiettivi sono, in effetti, gli stessi. Nel dettare la mia prossima lettera..."
+ sway_outcome.1001.desc:0 "Nei miei tentativi di allineare [target.Custom('IT_NAM_COL3')][target.GetTitledFirstName] ai miei interessi, ho trovato un'opportunità. Penso di poter sostenere che i nostri obiettivi sono, in effetti, gli stessi. Nel dettare la mia prossima lettera..."
  sway_outcome.1001.a:0 "...Sottolineo quegli interessi in comune."
  sway_outcome.1001.a.success:0 "[target.GetFirstNameNoTooltip] si convince"
  sway_outcome.1001.a.failure:0 "[target.GetFirstNameNoTooltip] capisce cosa c'è dietro ai miei sforzi"
  sway_outcome.1001.b:0 "...Cerco di rimanere discret[ROOT.Char.Custom('DE_END_PRO_S_N')]."
 
  sway_outcome.1002.t:0 "Influenzare: Convinzioni Religiose"
- sway_outcome.1002.same_faith:0 "Ho avuto un'idea durante i miei tentativi di allineare ([target.Custom('DE_ART_DEF_P_A')]) [target.GetTitledFirstName] ai miei interessi.\n\nCon le giuste argomentazioni, potrei essere in grado di convincerl[target.Custom('DE_END_PRO_S_N')] che sto agendo non solo nel mio interesse, ma anche nell'interesse di [ROOT.Char.GetFaith.HighGodName] stesso!"
- sway_outcome.1002.other_faith:0 "Ho avuto un'idea durante i miei tentativi di allineare ([target.Custom('DE_ART_DEF_P_A')]) [target.GetTitledFirstName] ai miei interessi.\n\nForse potrei sostenere che è nell'interesse di tutti i/gli [target.GetFaith.GetAdherentNamePlural] supportare me, piuttosto che qualsiasi altro [ROOT.Char.GetFaith.GetAdjective] governatore?"
+ sway_outcome.1002.same_faith:0 "Ho avuto un'idea durante i miei tentativi di allineare[target.Custom('IT_NAM_COL3')][target.GetTitledFirstName] ai miei interessi.\n\nCon le giuste argomentazioni, potrei essere in grado di convincerl[target.Custom('DE_END_PRO_S_N')] che sto agendo non solo nel mio interesse, ma anche nell'interesse di [ROOT.Char.GetFaith.HighGodName] stesso!"
+ sway_outcome.1002.other_faith:0 "Ho avuto un'idea durante i miei tentativi di allineare[target.Custom('IT_NAM_COL3')][target.GetTitledFirstName] ai miei interessi.\n\nForse potrei sostenere che è nell'interesse di tutti i/gli [target.GetFaith.GetAdherentNamePlural] supportare me, piuttosto che qualsiasi altro [ROOT.Char.GetFaith.GetAdjective] governatore?"
  sway_outcome.1002.a:0 "Credo di poter avanzare un'argomentazione molto convincente."
  sway_outcome.1002.b:0 "Forse dovrei attenermi alle sottigliezze diplomatiche."
 
@@ -21,7 +21,7 @@
  sway_outcome.1003.b:0 "Questa vittoria è sufficiente."
 
  sway_outcome.2001.t:0 "Influenzare: Un Malinteso"
- sway_outcome.2001.opening:0 "Sembra che le mie iniziative diplomatiche verso ([target.Custom('DE_ART_DEF_P_A')]) [target.GetTitledFirstName] abbiano causato un grosso malinteso! Ho ricevuto una lettera da [target.GetSheHe] in cui chiaramente crede che io abbia perseguito un obiettivo completamente diverso..."
+ sway_outcome.2001.opening:0 "Sembra che le mie iniziative diplomatiche verso[target.Custom('IT_NAM_COL3')][target.GetTitledFirstName] abbiano causato un grosso malinteso! Ho ricevuto una lettera da [target.GetSheHe] in cui chiaramente crede che io abbia perseguito un obiettivo completamente diverso..."
  sway_outcome.2001.not_interested_relation:0 "\n\n"Sono il vostro [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))], per amor di [target.GetFaith.HighGodNamePossessive]!""
  sway_outcome.2001.not_interested_romantically:0 "\n\n"Sebbene ne sia lusingat[ROOT.Char.Custom('DE_END_PRO_S_N')], trovo il tuo interesse inappropriato per un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetWomanMan] del tuo rango.""
  sway_outcome.2001.not_interested_horses:0 "\n\n"Non venderò i miei cavalli di razza, non importa quante lettere di lusinghe mi inviate!""

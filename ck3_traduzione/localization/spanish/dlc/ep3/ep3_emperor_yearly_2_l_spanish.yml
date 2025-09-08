@@ -89,10 +89,10 @@
  constantinople_birthday_flag_tt: "L'organizzazione di una [GetActivityType('activity_chariot_race').GetName] nei prossimi 5 anni sarà del 50% più economica"
  # Exotic Gifts
  ep3_emperor_yearly.2070.t: "Doni Esotici"
- ep3_emperor_yearly.2070.desc: "[Select_CString(ambassador.IsFemale,'La donna','L'uomo')] davanti a me sembra provenire da molto lontano, a giudicare dall'abbigliamento esotico e dalla natura dei regali che porta: oro, avorio, sale...\n\nQuando l'ultima offerta varca la porta, però, tutti i miei pensieri razionali si arrestano. — #EMP in nome di [ROOT.Char.GetFaith.HealthGodName] cos'è qell'animale?!#! Posso solo descriverlo come un come un gigantesco #EMP cavallo#! maculato con un collo lungo...\n\n"Grande [ROOT.Char.GetTitleAsNameNoTooltip], vi porto doni dalla terra [ambassador_liege.GetPrimaryTitle.Custom('IT_COU_COL')][ambassador_liege.GetPrimaryTitle.GetBaseNameNoTier], compreso questo maestoso animale che chiamiamo #EMP giraffa#!. Vi prego di accettare gli umili omaggi [Select_CString(ambassador_liege.IsFemale,'della mia Signora','del mio Signore')].""
+ ep3_emperor_yearly.2070.desc: "[Select_CString(ambassador.IsFemale,'La donna','L'uomo')] davanti a me sembra provenire da molto lontano, a giudicare dall'abbigliamento esotico e dalla natura dei regali che porta: oro, avorio, sale...\n\nQuando l'ultima offerta varca la porta, però, tutti i miei pensieri razionali si arrestano. — #EMP in nome di [ROOT.Char.GetFaith.HealthGodName] cos'è qell'animale?!#! Posso solo descriverlo come un come un gigantesco #EMP cavallo#! maculato con un collo lungo...\n\n"Grande [ROOT.Char.GetTitleAsNameNoTooltip], vi porto doni dalla terra [ambassador_liege.GetPrimaryTitle.Custom('IT_NAM_COL2')][ambassador_liege.GetPrimaryTitle.GetBaseNameNoTier], compreso questo maestoso animale che chiamiamo #EMP giraffa#!. Vi prego di accettare gli umili omaggi [Select_CString(ambassador_liege.IsFemale,'della mia Signora','del mio Signore')].""
  ep3_emperor_yearly.2070.a: "Tutti i regali sono ben accetti."
  ep3_emperor_yearly.2070.b: "Che ne dite invece di rimanere?"
- ep3_emperor_yearly.2070.b.tt: "[ambassador.GetFirstNameNoTooltip|U] è [Select_CString(ambassador.IsFemale,'un'eccellente diplomatica','un eccellente diplomatico')] che potrebbe servirmi bene!"
+ ep3_emperor_yearly.2070.b.tt: "[ambassador.GetFirstNameNoTooltip|U] è un[ambassador.Custom('DE_PRO_PER_P_3P_G')]eccellente [Select_CString(ambassador.IsFemale,'diplomatica','diplomatico')] che potrebbe servirmi bene!"
  ep3_emperor_yearly.2070.b.success: "[ambassador.GetFirstNameNoTooltip|U] è impressionat[ambassador.Custom('DE_END_PRO_S_N')] dal tuo regno e accetta la tua proposta di ospitalità"
  ep3_emperor_yearly.2070.b.success.tt: "[ambassador.GetFirstNameNoTooltip|U] viene assunt[ambassador.Custom('DE_END_PRO_S_N')]"
  ep3_emperor_yearly.2070.b.failure: "[ambassador.GetFirstNameNoTooltip|U] ha bisogno di un po' di #EMP persuasione, di tipo aureo,#! per rimanere"
@@ -233,7 +233,7 @@
  ep3_emperor_yearly.2200.t: "L'oro dell'Imperatore"
  ep3_emperor_yearly.2200.desc: "Se mai c'è stato qualcuno assolutamente indegno di sedere sul trono imperiale, questi è senz'altro [liege.GetFirstName].\n\nTutte le nostre tasse finiscono nelle tasche di [Select_CString(liege.IsFemale,'quella parassita','quel parassita')] che risiede a [capital.GetNameNoTier], mentre [governorship.Custom('IT_COU_COL4')][governorship.GetName] langue in povertà. A meno che...\n\nLe nostre tasse #EMP non devono#! più finire lì. Potrei farne certo un uso migliore..."
  ep3_emperor_yearly.2200.a: "[liege.GetSheHe|U] non merita il nostro oro."
- ep3_emperor_yearly.2200.b: "La mia lealtà è verso [ROOT.Char.GetTopLiege.GetPrimaryTitle.Custom('IT_COU_COL4')][ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip], non verso [ROOT.Char.GetTopLiege.Custom('IT_NAM_COL3')][ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]."
+ ep3_emperor_yearly.2200.b: "La mia lealtà è verso [ROOT.Char.GetTopLiege.GetPrimaryTitle.Custom('IT_NAM_COL3')][ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip], non verso [ROOT.Char.GetTopLiege.Custom('IT_NAM_COL3')][ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]."
  ep3_emperor_yearly.2200.a.tt: "Lealtà Indegna"
  ep3_emperor_yearly.2200.b.tt: "Lealtà Verso l'Impero"
  # A Prophecy of Power
@@ -261,7 +261,7 @@
  ep3_emperor_yearly.2220.c: "È un loro problema."
  # The Value of Coin
  ep3_emperor_yearly.2230.t: "Il Valore Della Moneta"
- ep3_emperor_yearly.2230.desc: "Come per ogni città di una certa rilevanza, [city.GetNameNoTier] ha attirato una vivace folla di mercanti provenienti da ogni angolo [ROOT.Char.GetTopLiege.GetPrimaryTitle.Custom('IT_COU_COL')][ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip] e anche da oltre il confine.\n\nOvunque ci sia un'opportunità di guadagno, arrivano i mercanti portando le loro merci e monete straniere, ma anche i loro strani costumi, credenze e lingue. D'altra parte, gli abitanti del luogo sono volubili: amano coloro che portano loro dei piatti esotici, come il [ROOT.Char.Custom('GetExpensiveDessert')], ma nel profondo dei loro cuori li disprezzano.\n\nNon è chiaro quale sia stato l'evento scatenante di oggi, probabilmente un piccolo fraintendimento, ma i cittadini hanno imbracciato delle armi improvvisate e stanno mettendo a ferro e fuoco i quartieri dei mercanti."
+ ep3_emperor_yearly.2230.desc: "Come per ogni città di una certa rilevanza, [city.GetNameNoTier] ha attirato una vivace folla di mercanti provenienti da ogni angolo [ROOT.Char.GetTopLiege.GetPrimaryTitle.Custom('IT_NAM_COL2')][ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip] e anche da oltre il confine.\n\nOvunque ci sia un'opportunità di guadagno, arrivano i mercanti portando le loro merci e monete straniere, ma anche i loro strani costumi, credenze e lingue. D'altra parte, gli abitanti del luogo sono volubili: amano coloro che portano loro dei piatti esotici, come il [ROOT.Char.Custom('GetExpensiveDessert')], ma nel profondo dei loro cuori li disprezzano.\n\nNon è chiaro quale sia stato l'evento scatenante di oggi, probabilmente un piccolo fraintendimento, ma i cittadini hanno imbracciato delle armi improvvisate e stanno mettendo a ferro e fuoco i quartieri dei mercanti."
  ep3_emperor_yearly.2230.a: "Invierò le truppe."
  ep3_emperor_yearly.2230.b: "Il caos genera solo delle opportunità!"
  ep3_emperor_yearly.2230.c: "I cittadini mi ascolteranno."
@@ -304,7 +304,7 @@
  ep3_emperor_yearly.2310.d: "Ci penserò su."
  # A Matter of Faith
  ep3_emperor_yearly.2320.t: "Una Questione di Fede"
- ep3_emperor_yearly.2320.desc: ""Sono onorat[ROOT.Char.Custom('DE_END_PRO_S_N')] dalla vostra visita," esordisco con aria severa, mentre ricevo [hof.Custom('IT_NAM_COL3')][hof.GetTitledFirstName]. "Ma a cosa devo questo onore?"\n\n"Sono venut[hof.Custom('DE_END_PRO_S_N')] a conoscenza del fatto che, nonostante la vostra guida [ROOT.Char.GetPrimaryTitle.Custom('IT_COU_COL4')][ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] brancola ancora nell'oscurità, seguendo la fede ufficiale sbagliata." risponde [hof.Custom('IT_NAM_COL3')][hof.GetTitleAsNameNoTooltip], facendo poi una pausa, pensierosa.\n\n"Pertanto, ho deciso di unirmi a voi in questa impresa e di offrirvi tutto il mio aiuto per guidare la nave dello Stato nella giusta direzione.""
+ ep3_emperor_yearly.2320.desc: ""Sono onorat[ROOT.Char.Custom('DE_END_PRO_S_N')] dalla vostra visita," esordisco con aria severa, mentre ricevo [hof.Custom('IT_NAM_COL3')][hof.GetTitledFirstName]. "Ma a cosa devo questo onore?"\n\n"Sono venut[hof.Custom('DE_END_PRO_S_N')] a conoscenza del fatto che, nonostante la vostra guida [ROOT.Char.GetPrimaryTitle.Custom('IT_NAM_COL3')][ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] brancola ancora nell'oscurità, seguendo la fede ufficiale sbagliata." risponde [hof.Custom('IT_NAM_COL3')][hof.GetTitleAsNameNoTooltip], facendo poi una pausa, pensierosa.\n\n"Pertanto, ho deciso di unirmi a voi in questa impresa e di offrirvi tutto il mio aiuto per guidare la nave dello Stato nella giusta direzione.""
  ep3_emperor_yearly.2320.a: "Vi ringrazio, Vostra Santità."
  ep3_emperor_yearly.2320.b: "E se la fede ufficiale fosse quella giusta?"
  hof_state_faith_discount: "Supporto del capo della fede"
@@ -312,7 +312,7 @@
  every_vassal_state_faith: "Ogni vassallo che segue la Fede di Stato"
  # Heresy Brewing
  ep3_emperor_yearly.2330.t: "L'Eresia Si Diffonde"
- ep3_emperor_yearly.2330.desc: "È innegabile. La fede ufficiale [ROOT.Char.GetPrimaryTitle.Custom('IT_COU_COL')][ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] sta affrontando una crisi.\n\n"
+ ep3_emperor_yearly.2330.desc: "È innegabile. La fede ufficiale [ROOT.Char.GetPrimaryTitle.Custom('IT_NAM_COL2')][ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] sta affrontando una crisi.\n\n"
  ep3_emperor_yearly.2330.desc_hof: "[hof.Custom('IT_NAM_COL3')|U][hof.GetTitledFirstName|U] si è unit[hof.Custom('DE_END_PRO_S_N')] a me oggi per discutere di una questione molto seria: la crisi della fede ufficiale [ROOT.Char.GetPrimaryTitle.Custom('IT_COU_COL')][ROOT.Char.GetPrimaryTitle.GetNameNoTooltip].\n\n"Non potete negarlo, [ROOT.Char.GetFirstNameNoTooltip]! Lo vedete anche voi!"
  ep3_emperor_yearly.2330.desc_end: "I segni sono ovunque: le persone vivono nel peccato, il [ROOT.Char.GetFaith.ReligiousText] viene dimenticato e disatteso e le eresie proliferano in ogni angolo!""
  ep3_emperor_yearly.2330.desc_end_hof: "I poteri laici e religiosi devono unirsi per salvare la brava gente [ROOT.Char.GetPrimaryTitle.Custom('IT_COU_COL')][ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].""

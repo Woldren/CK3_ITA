@@ -121,11 +121,12 @@
  tough_and_confident_modifier:0 " Tribale tosto & fiducioso"
  tough_and_confident_modifier_desc:0 "Lottando contro i loro riti di passaggio, questo personaggio ha imparato la passione, la determinazione e la fiducia in se stesso."
 
- peace_over_honor_modifier: "Peace Over Pathos"
- peace_over_honor_modifier_desc: "When a court hosting kin as hostage fell under threat, this character refused to lend aid."
+ peace_over_honor_modifier: "Pace sopra l’Onore"
+ peace_over_honor_modifier_desc: "Quando una corte che ospitava parenti come ostaggi fu minacciata, questo personaggio rifiutò di prestare aiuto."
 
- a_noble_fight_modifier: "A Noble Fight"
- a_noble_fight_modifier_desc: "By answering the pleas of a beleagured hostage, this character has committed to martial adventurism."
+ a_noble_fight_modifier: "Una Lotta Nobile"
+ a_noble_fight_modifier_desc: "Accogliendo le suppliche di un ostaggio assediato, questo personaggio si è votato all’avventurismo marziale."
 
-aggressive_unpredictable_modifier: "Aggressive, Unpredictable"
-aggressive_unpredictable_modifier_desc: "This warmonger is known to go from truce to violent assault at the mildest provocation."
+ aggressive_unpredictable_modifier: "Aggressivo e Imprevedibile"
+ aggressive_unpredictable_modifier_desc: "Questo guerrafondaio è noto per passare dalla tregua all’assalto violento alla minima provocazione."
+

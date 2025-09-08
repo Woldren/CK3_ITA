@@ -26,9 +26,9 @@
  ##################################################
  # OSPITI STRANIERI
  court.2401.t:0 "Stile di Seconda Mano"
- court.2401.desc:1 ""I migliori abiti del Paese, buon[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip], soprattutto perché #EMP non sono#! di questo Paese", ridacchia [seller.GetFirstName] mentre passo davanti alla porta aperta della sua camera. La sua voce è ammaliante, ma nonostante questo l'altro mio cortigiano sembra dubitare dell'affare.\n\n"Quasi nuovi, anzi tali e quali ai nuovi, arrivano direttamente da chi crea le tendenze modaiole alla corte di [grander_ruler.GetTitledFirstNamePossessive]! Questi abiti sono ciò che #EMP tutti#! nel[grander_ruler.GetPrimaryTitle.Custom('DE_END_ADJ_NUL_S_N')] [grander_ruler.GetPrimaryTitle.GetName] indosseranno nella prossima stagione."\n\n"
+ court.2401.desc:1 "«I migliori abiti del Paese, buon[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip], soprattutto perché #EMP non sono#! di questo Paese», ridacchia [seller.GetFirstName] mentre passo davanti alla porta aperta della sua camera. La sua voce è ammaliante, ma nonostante questo l'altro mio cortigiano sembra dubitare dell'affare.\n\n«Quasi nuovi, anzi pari al nuovo, arrivano direttamente da chi detta le tendenze alla corte [grander_ruler.Custom('IT_NAM_COL2')][grander_ruler.GetTitledFirstNamePossessive]! Questi abiti sono ciò che #EMP tutti#! [grander_ruler.GetPrimaryTitle.Custom('IT_COU_COL2')][grander_ruler.GetPrimaryTitle.GetName] indosseranno la prossima stagione.»\n\n"
  court.2401.a:0 "Accidenti, quegli abiti sono davvero attraenti..."
- court.2401.b:0 "Non abbiamo bisogno di ciarpame straniero alla mia corte!"
+ court.2401.b:0 "Non abbiamo bisogno di insensatezze straniere alla mia corte!"
  court.2401.c:0 "A chi importa ciò che indossa la gente?"
 
  court.2411.t:0 "Corridoi Labirintici"

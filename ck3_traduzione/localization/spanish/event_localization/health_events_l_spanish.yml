@@ -48,7 +48,7 @@
 
  # Disease Contraction, by Mathilda Bjarnehed
  health.1001.t:1 "[SCOPE.Custom('EventTitleDisease')]: Il Mio Corpo Mortale"
- health.1001.desc:0 "[ROOT.Char.GetTitleTierNameAsNameNoTooltip] o contadino, di alti o bassi natali, non fa differenza. Alla fine, siamo tutti mortali.\n\nMe lo sono ricordato quando mi sono svegliato tossendo nelle prime ore del mattino con un dolore sordo che mi martellava la testa e la gola."
+ health.1001.desc:0 "[ROOT.Char.GetTitleAsNameNoTooltip] o contadino, di alti o bassi natali, non fa differenza. Alla fine, siamo tutti mortali.\n\nMe lo sono ricordato quando mi sono svegliato tossendo nelle prime ore del mattino con un dolore sordo che mi martellava la testa e la gola."
  health.1001.nophysician.desc: "Sicuramente ci sarà qualcuno nel regno a cui posso chiedere di sistemare questa condizione maledetta..."
  health.1001.court_physician.desc:0 ""Ho sentito quel respiro sibilante dall'altra parte del/della [ROOT.Char.Custom('GetCourt')], mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!" [physician.GetFirstName], il mio medico, fa capolino nel/nella mio/a [ROOT.Char.Custom('GetChamber')]. "Doveste richiederlo, conosco un discreto numero di rimedi adatti.""
  health.1001.a:0 "Tutto ciò che voglio è restare a letto..."

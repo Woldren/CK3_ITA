@@ -1,6 +1,6 @@
 ﻿l_spanish:
- hold_court_placeholder_gain_cgv:0 "Guadagni #P 10#! in Magnificenza della Corte"
- hold_court_placeholder_lose_cgv:0 "Perdi #N 10#! in Magnificenza della Corte"
+ hold_court_placeholder_gain_cgv:0 "La Magnificenza della Corte aumenta di #P 10#!"
+ hold_court_placeholder_lose_cgv:0 "La Magnificenza della Corte si riduce di #N 10#!"
  hold_court_start_activity:0 "Ascolti il primo postulante"
 
  hold_court_header:0 "Udienza:"

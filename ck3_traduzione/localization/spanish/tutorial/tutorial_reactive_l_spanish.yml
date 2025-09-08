@@ -664,107 +664,106 @@
  reactive_advice_lesson_losing_wars: "$lesson_losing_wars$"
 
  #CE2 Khans of the Steppe
-action_reactive_advice_migration: "Advice: Migration"
-action_reactive_advice_migration_desc: "As a Nomad within the Great Steppe you can Migrate to new lands. Open to learn more about Migration."
+action_reactive_advice_migration: "Consiglio: Migrazione"
+action_reactive_advice_migration_desc: "Come Nomade nella Grande Steppa puoi Migrare verso nuove terre. Apri per saperne di più sulla Migrazione."
 action_reactive_advice_migration_click: "$click_to_open_lesson$"
 
- ra_migration_1: "Migration"
- ra_migration_1_desc: "When playing as a [nomad|E] in [the_great_steppe|E] you have the possibility to [migrate|E].\nMigration is important for Nomads as it is a great way to find new lands for your [herd|E] to graze and grow big.\n\nHerd represents your people and their flock, and your herd needs land with good [county_fertility|E] to keep fed.\nLet's have a look at how to find the best spots in the steppe where the fertility will benefit you and your [realm|E]."
- ra_migration_1_prompt: "Click on the Migration button (highlighted)"
+ ra_migration_1: "Migrazione"
+ ra_migration_1_desc: "Quando giochi come [nomad|E] nella [the_great_steppe|E] hai la possibilità di [migrate|E].\nLa migrazione è importante per i Nomadi, poiché rappresenta un ottimo modo per trovare nuove terre dove il tuo [herd|E] possa pascolare e crescere.\n\nLa mandria rappresenta il tuo popolo e il suo bestiame, e ha bisogno di terre con buona [county_fertility|E] per nutrirsi. Diamo un’occhiata a come trovare i luoghi migliori nella steppa, dove la fertilità possa giovare a te e al tuo [realm|E]."
+ ra_migration_1_prompt: "Clicca sul pulsante Migrazione (evidenziato)"
 
  ra_migration_1b: "$ra_migration_1$"
 
- ra_migration_2: "Migration"
- ra_migration_2_desc: "Choosing a new location for you and your [herd|E] should mainly be based on [county_fertility|E]. Fertility of the land is measured on a scale from 0-100 and will deplete at a steady pace as you inhabit the lands. When it has been depleted, you need to [migrate|E] to a new location to keep growing."
- ra_migration_2_prompt: "Click on the map mode to view the fertility map mode (highlighted)"
+ ra_migration_2: "Migrazione"
+ ra_migration_2_desc: "La scelta di una nuova posizione per te e la tua [herd|E] dovrebbe basarsi principalmente sulla [county_fertility|E]. La fertilità della terra è misurata su una scala da 0 a 100 e diminuirà progressivamente mentre abiti le terre. Una volta esaurita, dovrai [migrate|E] verso una nuova posizione per continuare a crescere."
+ ra_migration_2_prompt: "Clicca sulla modalità mappa per visualizzare la modalità fertilità (evidenziata)"
 
- ra_migration_3: "Migration"
- ra_migration_3_desc: "The distance you can [migrate|E] is dependent on your [title_tiers|E] and the [dominance|E] law you currently enforce. Realms with a large Domain and high Dominance will have different needs from Migrating, and at some point not needing to migrate at all for the purpose of growing your [herd|E]. To select a location you would potentially want to migrate to, click a [de_jure|E] title on the map."
- ra_migration_3_prompt: "Click any location within range on the map"
+ ra_migration_3: "Migrazione"
+ ra_migration_3_desc: "La distanza che puoi [migrate|E] dipende dai tuoi [title_tiers|E] e dalla legge di [dominance|E] che stai attualmente applicando. I domini con una grande estensione e alta Dominanza avranno esigenze diverse riguardo alla Migrazione, fino a non averne più bisogno per far crescere la tua [herd|E]. Per selezionare una località in cui potresti voler migrare, clicca su un titolo [de_jure|E] sulla mappa."
+ ra_migration_3_prompt: "Clicca su qualsiasi località entro il raggio sulla mappa"
 
- ra_migration_4: "Migration"
- ra_migration_4_desc: "Depending on your chosen location, you will see pins on the map telling you of the specific [county_fertility|E], or a sum of the entire [domain_fertility|E] of the [de_jure|E] title selected."
+ ra_migration_4: "Migrazione"
+ ra_migration_4_desc: "A seconda della posizione scelta, vedrai comparire sulla mappa dei segnalini che indicano la specifica [county_fertility|E], o una somma dell’intera [domain_fertility|E] del titolo [de_jure|E] selezionato."
 
- ra_migration_5: "Migration"
- ra_migration_5_desc: "The chosen location of your [migration|E] always holds atleast one [nomad|E] or [herder|E] that you will have to negotiate with to be granted access. You can offer them [herd|E], [gold|E] or use a [hook|E] to help you convince them to accept your proposal to migrate in to their area."
+ ra_migration_5: "Migrazione"
+ ra_migration_5_desc: "La località scelta per la tua [migration|E] ospita sempre almeno un [nomad|E] o un [herder|E] con cui dovrai negoziare per ottenere accesso. Puoi offrire loro [herd|E], [gold|E] o usare un [hook|E] per convincerli ad accettare la tua proposta di migrare nella loro area."
 
- ra_migration_6: "Migration (Accept Negotiation)"
- ra_migration_6_desc: "There can be several [nomads|E] in the same location of your target location. If you were to [migrate|E] in a Hostile way they would all react, but if you can persuade the strongest Character within the area that you are moving in you will be welcomed by them all. \n\n If the Migration negotiation is accepted, you would leave your current title behind and possibly your [subjects|E] aswell."
+ ra_migration_6: "Migrazione (Accettazione della Negoziazione)"
+ ra_migration_6_desc: "Possono esserci diversi [nomads|E] nello stesso luogo della tua destinazione. Se dovessi [migrate|E] in modo ostile, tutti reagirebbero, ma se riesci a persuadere il personaggio più forte dell’area sarai accolto benevolmente da tutti.\n\nSe la negoziazione per la Migrazione viene accettata, lascerai il tuo titolo attuale e possibilmente anche i tuoi [subjects|E]."
 
- ra_migration_7: "Migration (Declined Negotiation)"
- ra_migration_7_desc: "If the [nomad|E] with the biggest [herd|E] in the area does not accept your proposal, you will have to declare [war|E] against them and all other nomads that inhabits the chosen location. You can see the total herd strength displayed in the window for these cases.\n\nSimilar to as if the negotiation is accepted, a declined proposal will lead to you leaving your current [title|E] behind and possibly your [subjects|E] aswell. You will also be considered [unlanded|E], meaning you have no [county_fertility|E] and therefor your herd wont grow.\n\nIt will be of outmost interest to either win the war, or after that find another location for you and your flock to migrate to."
+ ra_migration_7: "Migrazione (Rifiuto della Negoziazione)"
+ ra_migration_7_desc: "Se il [nomad|E] con la [herd|E] più grande della zona non accetta la tua proposta, dovrai dichiarare [war|E] contro di lui e tutti gli altri nomadi che abitano la località scelta. In questi casi puoi vedere la forza totale della mandria mostrata nella finestra.\n\nAnalogamente a quando la negoziazione viene accettata, un rifiuto comporterà l’abbandono del tuo attuale [title|E] e forse anche dei tuoi [subjects|E]. Sarai inoltre considerato [unlanded|E], cioè senza [county_fertility|E], e quindi la tua mandria non crescerà.\n\nSarà quindi di vitale importanza vincere la guerra, o in seguito trovare un’altra località verso cui migrare con il tuo gregge."
 
- ra_migration_8: "Migration"
- ra_migration_8_desc: "If all goes well with the [migration|E], you will have heaps of new lands to graze, new possibilities to deal with a [settlement_issue|E] that gives you the opportunity to handle conflicts and increase the local [county_control|E] in the new [domain|E].\n\nLands changes hands often in [the_great_steppe|E], so make sure you balance your [dread|E] with [opinion|E] well to keep all doors open. One lost title for a [nomad|E] means trifold are within grasp as long as you keep growing your [herd|E] and [dominance|E]."
+ ra_migration_8: "Migrazione"
+ ra_migration_8_desc: "Se tutto va bene con la [migration|E], avrai vaste nuove terre da pascolare, nuove possibilità di affrontare una [settlement_issue|E] che ti darà l’opportunità di gestire conflitti e aumentare il [county_control|E] locale nel nuovo [domain|E].\n\nNella [the_great_steppe|E] le terre cambiano spesso padrone, quindi assicurati di bilanciare bene il tuo [dread|E] con l’[opinion|E] per mantenere tutte le porte aperte. Un titolo perso per un [nomad|E] significa che tre volte tanto possono essere conquistati, finché continui a far crescere la tua [herd|E] e la tua [dominance|E]."
 
-
-action_reactive_advice_great_steppe: "Advice: The Great Steppe"
-action_reactive_advice_great_steppe_desc: "The Great Steppe is a Situation where you will have to take the Fertility of the lands in to account. Open to learn more about what this affects."
+action_reactive_advice_great_steppe: "Consiglio: La Grande Steppa"
+action_reactive_advice_great_steppe_desc: "La Grande Steppa è una Situazione in cui dovrai tenere conto della Fertilità delle terre. Apri per scoprire di più sugli effetti che questo comporta."
 action_reactive_advice_great_steppe_click: "$click_to_open_lesson$"
 
- ra_great_steppe_1: "The Great Steppe"
- ra_great_steppe_1_desc: "Welcome to [the_great_steppe|E]!\n\nPlaying as a [GetGovernment( 'nomad_government' ).GetName] [ruler|E], ensuring that their [herd|E] can grow is their primary concern. The Herd grows by having fertile lands to graze, thus you will need to move around in search for bountiful grasslands for you and your flock to thrive.\n\nNomads rule in the Steppe Region, where you will be taking part in a [situation|E]. The Steppe is divided in to three regions, where the focus lies on the [county_fertility|E] of the land."
- ra_great_steppe_1_prompt: "Click the Situations button to continue (highlighted)"
+ ra_great_steppe_1: "La Grande Steppa"
+ ra_great_steppe_1_desc: "Benvenuto nella [the_great_steppe|E]!\n\nGiocando come [GetGovernment( 'nomad_government' ).GetName] [ruler|E], assicurarti che la tua [herd|E] possa crescere è la tua principale preoccupazione. La mandria cresce avendo terre fertili su cui pascolare, dunque dovrai spostarti in cerca di praterie rigogliose dove tu e il tuo gregge possiate prosperare.\n\nI Nomadi governano nella Regione della Steppa, dove prenderai parte a una [situation|E]. La Steppa è divisa in tre regioni, in cui l’attenzione è rivolta alla [county_fertility|E] della terra."
+ ra_great_steppe_1_prompt: "Clicca sul pulsante Situazioni per continuare (evidenziato)"
 
  ra_great_steppe_1b: "$ra_great_steppe_1$"
 
- ra_great_steppe_2: "The Great Steppe"
- ra_great_steppe_2_desc: "Each of the three regions will be affected by a [steppe_season|E]. These Seasons are not your regular winter or summer, but a long time effect on the [county_fertility|E] of the land.\n\nHow and where these effects will affect you is visible through the season effects. For example, living in a region with abundant grazing will have impact on fertility for your [herd|E] to graze, but it will also affect the opinion of the people following you." 
+ ra_great_steppe_2: "La Grande Steppa"
+ ra_great_steppe_2_desc: "Ognuna delle tre regioni sarà influenzata da una [steppe_season|E]. Queste Stagioni non sono i consueti inverni o estati, ma effetti di lunga durata sulla [county_fertility|E] della terra.\n\nIl modo e il luogo in cui questi effetti agiranno è visibile attraverso gli effetti stagionali. Per esempio, vivere in una regione con pascoli abbondanti avrà un impatto sulla fertilità per la tua [herd|E], ma influenzerà anche l’opinione della gente che ti segue."
 
- ra_great_steppe_3: "The Great Steppe"
- ra_great_steppe_3_desc: "To be able to plan ahead, you can take help from your [GetCourtPositionType('court_astrologer_court_position').GetName()]. The Stargazer will predict the chance of two seasons being the next in a Region.\n\nWith this information you can decide whether it is best to stay put in a location or try to [migrate|E] to a neighboring region.\n\nThe longer you can stay in fertile land, the bigger your [herd|E] will grow and the happier your people will be."
+ ra_great_steppe_3: "La Grande Steppa"
+ ra_great_steppe_3_desc: "Per poter pianificare in anticipo, puoi avvalerti del tuo [GetCourtPositionType('court_astrologer_court_position').GetName()]. L’Astrologo predirà la probabilità che due stagioni siano le prossime in una Regione.\n\nCon queste informazioni potrai decidere se è meglio restare in un luogo o tentare di [migrate|E] verso una regione vicina.\n\nPiù a lungo potrai restare in terre fertili, più grande diventerà la tua [herd|E] e più felice sarà il tuo popolo."
 
- ra_great_steppe_4: "The Great Steppe"
- ra_great_steppe_4_desc: "To get an overview of how the other [nomads|E] in [the_great_steppe|E] are doing, you can view that at the bottom of the panel. The Nomad with the biggest [herd|E] holds the title of [gurkhan|E], with their Herds strength being either the biggest Threat or the greatest Ally you can come across in the steppe. If you hold this title, you can potentially also level up your [dominance|E] (in the realms panel) to the fifth and final level, Unrestricted Dominance.\n\nThe herds strength will be used during wars and raids but in the form of [horde|E]. Horde is the part of your herd that is fit for fighting, so think of it as your horses, your camels and your people that can hold a bow and arrow, while the herd that is left is the sheep, cows and children, and so on."
+ ra_great_steppe_4: "La Grande Steppa"
+ ra_great_steppe_4_desc: "Per avere una panoramica di come se la cavano gli altri [nomads|E] nella [the_great_steppe|E], puoi guardare in fondo al pannello. Il Nomade con la [herd|E] più grande detiene il titolo di [gurkhan|E], e la forza della sua Mandria può essere la minaccia più grande o il miglior alleato che puoi incontrare nella steppa. Se detieni questo titolo, potrai anche aumentare la tua [dominance|E] (nel pannello domini) fino al quinto e ultimo livello, Dominanza Illimitata.\n\nLa forza della mandria sarà usata durante guerre e razzie, ma sotto forma di [horde|E]. L’Orda è la parte della tua mandria adatta al combattimento, quindi pensa a cavalli, cammelli e persone capaci di brandire arco e frecce, mentre il resto della mandria sono pecore, mucche e bambini, e così via."
 
- ra_great_steppe_5: "The Great Steppe"
- ra_great_steppe_5_desc: "To view other regions you can click them in this view, but the one impacting you is the one you currently are in. \n\n Now, are you ready to lead your flock during both bountiful and trying times? Finding new lands through [war|E] or [migrating|E] is always an option for a strong [GetGovernment( 'nomad_government' ).GetName] [ruler|E] to show your people the way to the rich lands, the Golden Apple of the steppe."
+ ra_great_steppe_5: "La Grande Steppa"
+ ra_great_steppe_5_desc: "Per visualizzare altre regioni puoi cliccarle in questa schermata, ma quella che ti influenza è quella in cui ti trovi attualmente.\n\nOra, sei pronto a guidare il tuo gregge sia nei tempi prosperi che in quelli difficili? Trovare nuove terre tramite [war|E] o [migrating|E] è sempre un’opzione per un forte [GetGovernment( 'nomad_government' ).GetName] [ruler|E] che voglia mostrare al suo popolo la via verso le terre ricche, la Mela d’Oro della steppa."
 
 
-action_reactive_advice_kurultai: "Advice: Kurultai Council"
-action_reactive_advice_kurultai_desc: "Open this to learn more about the Nomad Council, Kurultai."
+action_reactive_advice_kurultai: "Consiglio: Consiglio del Kurultai"
+action_reactive_advice_kurultai_desc: "Apri per scoprire di più sul Consiglio Nomade, il Kurultai."
 action_reactive_advice_kurultai_click: "$click_to_open_lesson$"
 
  ra_kurultai_1: "Kurultai"
- ra_kurultai_1_desc: "You have a [kurultai|E] [council|E] as a ruler in the [the_great_steppe|E]. \n\nYou migtht already be familiar with having a Council, but when playing as a [nomad|E] you will have a new type of administrators that will focus more on supporting your [county_fertility|E] growth or [herd|E]."
- ra_kurultai_1_prompt: "Click on the Council Panel to continue (highlighted)"
+ ra_kurultai_1_desc: "Hai un [kurultai|E] [council|E] come sovrano nella [the_great_steppe|E].\n\nPotresti già conoscere l’esistenza di un Consiglio, ma giocando come [nomad|E] avrai un nuovo tipo di amministratori che si concentreranno maggiormente sul sostenere la crescita della tua [county_fertility|E] o della tua [herd|E]."
+ ra_kurultai_1_prompt: "Clicca sul pannello del Consiglio per continuare (evidenziato)"
 
  ra_kurultai_1b: "$ra_kurultai_1$"
 
  ra_kurultai_2: "Kurultai"
- ra_kurultai_2_desc: "You can have 4 [kurultai|E] members on your [council|E], together with your [spouse|E] and a [spymaster|E]. The kurultai can have various tasks attached to various [skills|E], for example Manage Fertility will be one based on your kurultais [stewardship|E]. If you have a kurultai assigned you can click the button in the bottom left corner to swap the task out."
+ ra_kurultai_2_desc: "Puoi avere 4 membri del [kurultai|E] nel tuo [council|E], insieme al tuo [spouse|E] e a un [spymaster|E]. Il kurultai può avere vari incarichi legati a diverse [skills|E]; per esempio, Gestire la Fertilità sarà un compito basato sulla [stewardship|E] del tuo kurultai. Se hai assegnato un kurultai puoi cliccare sul pulsante in basso a sinistra per cambiare l’incarico."
 
  ra_kurultai_3: "Kurultai"
- ra_kurultai_3_desc: "The [kurultai|E] will work on their assigned tasks, but their biggest impact will be on the [succession|E] of your [realm|E].\n\nEach character in the [the_great_steppe|E] can be [obedient|E] to one [ruler|E], and the obedience matters a lot specifically for your kurultai members and their say in who your [heir|E] will be."
- ra_kurultai_3_prompt: "Click on realms tab to continue (highlighted)"
+ ra_kurultai_3_desc: "Il [kurultai|E] porterà avanti i compiti assegnati, ma il suo impatto maggiore sarà sulla [succession|E] del tuo [realm|E].\n\nOgni personaggio nella [the_great_steppe|E] può essere [obedient|E] a un [ruler|E], e l’obbedienza conta molto in particolare per i membri del tuo kurultai e la loro influenza nella scelta di chi sarà il tuo [heir|E]."
+ ra_kurultai_3_prompt: "Clicca sulla scheda domini per continuare (evidenziato)"
 
  ra_kurultai_4: "Kurultai"
  #TODO add the concepts for stable and chaotic once it's in
- ra_kurultai_4_desc: "At the top of this panel you can see if your [succession|E] is considered stable or chaotic. This will be an indicator of if your [heir|E] will inherit all of your [realm|E] or if it will be divided amongst other more powerful characters."
- ra_kurultai_4_prompt: "Click on succession tab to continue (highlighted)"
+ ra_kurultai_4_desc: "Nella parte superiore di questo pannello puoi vedere se la tua [succession|E] è considerata stabile o caotica. Questo sarà un indicatore del fatto che il tuo [heir|E] erediterà tutto il tuo [realm|E] oppure se verrà diviso tra altri personaggi più potenti."
+ ra_kurultai_4_prompt: "Clicca sulla scheda successione per continuare (evidenziato)"
 
  ra_kurultai_5: "Kurultai"
  #TODO add the concepts for oppose and stable once it's in
- ra_kurultai_5_desc: "In the bar highlighted you will get an indication of if your [kurultai|E] and oldest children will approve of the [succession|E] or oppose it.\n\nTo get to the point of having a stable succession you need to keep the kurultai [obedient|E] to you, but you will also need to have the [steppe_seasons|E] play in your favor. If the current season affects your lands in a bad way, like the Zud would, your people will think You are being punished and will question your rule and decision of who will succeed you. \n\nTo stay in control of the Succession, keep your people Obedient and [migrate|E] to lands that are in your favor."
+ ra_kurultai_5_desc: "Nella barra evidenziata vedrai un’indicazione se il tuo [kurultai|E] e i figli maggiori approveranno la [succession|E] oppure vi si opporranno.\n\nPer ottenere una successione stabile devi mantenere il kurultai [obedient|E] a te, ma dovrai anche far sì che le [steppe_seasons|E] ti siano favorevoli. Se la stagione attuale influisce negativamente sulle tue terre, come farebbe lo Zud, il tuo popolo penserà che tu sia punito e metterà in dubbio il tuo governo e la decisione su chi ti succederà.\n\nPer mantenere il controllo della Successione, tieni il tuo popolo Obbediente e [migrate|E] verso terre che ti siano favorevoli."
 
 
-action_reactive_advice_tributaries: "Advice: Tributaries"
-action_reactive_advice_tributaries_desc: "Tributaries are a type of Subject a Ruler can have. Open this to get an introduction to what Tributaries are."
+action_reactive_advice_tributaries: "Consiglio: Tributari"
+action_reactive_advice_tributaries_desc: "I Tributari sono un tipo di Soggetto che un Sovrano può avere. Apri per avere un’introduzione a cosa sono i Tributari."
 action_reactive_advice_tributaries_click: "$click_to_open_lesson$"
 
-ra_tributaries_1: "Tributaries"
-ra_tributaries_1_desc: "[tributaries|E] are a type of [subject|E], a type of relationship between two [rulers|e] where an agreement of a [truce|E] is put in place in exchange for a periodic payment. When the deal is in place the tributary then provides either [herd|E], [taxes|E] or [prestige|E] to the other, their [suzerain|E]."
-ra_tributaries_1_prompt: "Click on the Realms panel to continue (highlighted)"
+ra_tributaries_1: "Tributari"
+ra_tributaries_1_desc: "I [tributaries|E] sono un tipo di [subject|E], una forma di relazione tra due [rulers|e] in cui viene stabilita una [truce|E] in cambio di un pagamento periodico. Una volta concluso l’accordo, il tributario fornisce [herd|E], [taxes|E] o [prestige|E] all’altro, il suo [suzerain|E]."
+ra_tributaries_1_prompt: "Clicca sul pannello Domini per continuare (evidenziato)"
 
-ra_tributaries_2: "Tributaries"
-ra_tributaries_2_desc: "In comparison to the usual [subject|E] type, [vassals|E], the [tributaries|E] have a bit more freedom from their [suzerain|E]. They can break free if their own requirements of a leader is not met, and find their luck elsewhere."
-ra_tributaries_2_prompt: "Click on the Subjects tab to continue (highlighted)"
+ra_tributaries_2: "Tributari"
+ra_tributaries_2_desc: "Rispetto al solito tipo di [subject|E], i [vassals|E], i [tributaries|E] hanno un po’ più di libertà dal loro [suzerain|E]. Possono liberarsi se i loro requisiti verso un leader non sono soddisfatti e cercare fortuna altrove."
+ra_tributaries_2_prompt: "Clicca sulla scheda Soggetti per continuare (evidenziato)"
 
-ra_tributaries_3: "Tributaries"
-ra_tributaries_3_desc: "All types of [subjects|E] will be displayed in the realms panel. In the list of Subjects you will see your [tributaries|E] chance of wanting to break free and a special [tributary_contract|E] where you as a [suzerain|E] can for example increase or decrease their payments, or the war support either of you will have in upcoming quarrels."
+ra_tributaries_3: "Tributari"
+ra_tributaries_3_desc: "Tutti i tipi di [subjects|E] saranno mostrati nel pannello domini. Nella lista dei Soggetti vedrai la probabilità che i tuoi [tributaries|E] vogliano liberarsi e un [tributary_contract|E] speciale, in cui tu come [suzerain|E] puoi ad esempio aumentare o ridurre i loro pagamenti, o il supporto militare che ognuno di voi avrà nei prossimi conflitti."
 
-ra_tributaries_4: "Tributaries"
-ra_tributaries_4_desc: "As [migration|E] is a common action for [nomads|E], moving away from your [tributaries|E] lands has a big impact on their willingness to stay as your tribute. If they can't witness your greatness they will soon look for protection and truces with other [rulers|e] closer by."
+ra_tributaries_4: "Tributari"
+ra_tributaries_4_desc: "Poiché la [migration|E] è un’azione comune per i [nomads|E], allontanarsi dalle terre dei tuoi [tributaries|E] ha un grande impatto sulla loro disponibilità a restare tuoi tributari. Se non possono testimoniare la tua grandezza, presto cercheranno protezione e tregue con altri [rulers|e] più vicini."
 
-ra_tributaries_5: "Tributaries"
-ra_tributaries_5_desc: "If you yourself have the [tributary|E] role it could allow you to grow your [herd|E] in peace under the protection of a bigger [suzerain|E], but power can trade hands quickly in [the_great_steppe|E]; make sure you and the people you consider friends aid each other when in need to grow, but don't be afraid to break free and join the side of a greater Khan when the situation demands it."
+ra_tributaries_5: "Tributari"
+ra_tributaries_5_desc: "Se tu stesso ricopri il ruolo di [tributary|E], ciò può permetterti di far crescere la tua [herd|E] in pace sotto la protezione di un [suzerain|E] più grande, ma nella [the_great_steppe|E] il potere può cambiare rapidamente; assicurati che tu e le persone che consideri amici vi aiutiate a vicenda nei momenti di bisogno per crescere, ma non temere di liberarti e unirti al fianco di un Khan più potente quando la situazione lo richiede."

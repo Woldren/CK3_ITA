@@ -59,7 +59,7 @@
  conqueror_feed_county_gift: "[county_target.GetNameNoTooltip] Invia dell'Oro"
  conqueror_feed_county_gift_desc: "I contadini di [county_target.GetName] sono entusiasti delle tue conquiste e ti inviano oro."
  conqueror_feed_county_gift_herd: "[county_target.GetNameNoTooltip] Invia le Mandrie"
- conqueror_feed_county_gift_desc_herd: "I comuni mandriani di [county_target.GetName] sono in soggezione di fronte [Select_CString(ROOT.Char.IsFemale,'alla grande','al grande')] [ROOT.Char.GetTitleAsName], e giungono al tuo cospetto con begli animali." 
+ conqueror_feed_county_gift_desc_herd: "I comuni pastori di [county_target.GetName] sono in soggezione di fronte [Select_CString(ROOT.Char.IsFemale,'alla grande','al grande')] [ROOT.Char.GetTitleAsName], e giungono al tuo cospetto con begli animali." 
  conqueror_feed_knight_joins: "$knight_culture_player_no_tooltip$ Si Unisce alla Tua Causa"
  conqueror_feed_knight_joins_desc: "Il [knight.GetFullName] $knight_culture_player_no_tooltip$ ti giura fedeltà! (@skill_prowess_icon![knight.GetProwess])"
  conqueror_feed_angry_vassal: "Vassallo Furioso Rimasto Colpito"

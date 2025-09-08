@@ -105,7 +105,7 @@
  court.6041.c:0 "Ti ho dedicato fin troppo tempo."
  #Saucy Readings
  court.6050.t:0 "Letture Impertinenti"
- court.6050.desc_opening:0 "Ultimamente, non posso fare a meno di notare gruppetti di fanciulle ridacchianti e di guerrieri solitamente austeri che si riuniscono in alcove buie per ascoltare, estasiati, un libro. \n\nOggi, ho finalmente messo alle strette ([courtier.Custom('DE_ART_DEF_P_A')]) [courtier.GetTitledFirstName] che aveva nelle sue mani il 'misterioso' libro."
+ court.6050.desc_opening:0 "Ultimamente, non posso fare a meno di notare gruppetti di fanciulle ridacchianti e di guerrieri solitamente austeri che si riuniscono in alcove buie per ascoltare, estasiati, la lettura delle pagine di un libro. \n\nOggi, ho finalmente messo alle strette ([courtier.Custom('DE_ART_DEF_P_A')]) [courtier.GetTitledFirstName] che aveva nelle sue mani il 'misterioso' libro."
  court.6050.desc_byz:0 "Nonostante la sua copertina potesse suggerire fosse un pio libro di preghiere, in realtà si tratta, a tutti gli effetti, di un romanzo licenzioso, scritto secoli fa da nostri antenati pagani! C'è una bella fanciulla, pirati, tentazioni, e pagine su pagine lussuriose, piene di desideri empi..."
  court.6050.desc_islam:0 "Scorrendo velocemente il testo, si possono scorgere pirati, fanciulle poco vestite, re lussuriosi, regine lascive e subdole, e persino un topo di strada che, arricchitosi, sposa una principessa grazie all'aiuto di un djinn..."
  court.6050.desc_sonetti:0 "Ci sono pagine su pagine di poesia, graziosa nella forma, ma lasciva nel contenuto. La bellezza angelica di ogni tipo di donna è esaltata da parole gentili, che riescono però a malapena a coprire il desiderio voluttuoso del poeta..."
@@ -117,7 +117,7 @@
  court.6050.b.tt:1 "Fai bruciare tutte le copie del testo scandaloso e lo fai bandire dalla tua corte"
  court.6050.b.tt.2: "I bambini istruiti presso la tua corte avranno maggiori probabilità di sviluppare una personalità [GetTrait('pensive').GetName( GetNullCharacter )], [GetTrait('chaste').GetName( GetNullCharacter )], o [GetTrait('zealous').GetName( GetNullCharacter )]"
  court.6050.c:0 "La cultura giunge in qualsiasi forma. Lasciateli leggere."
- court.6050.c.tt: "I bambini istruiti presso la tua corte avranno maggiori probabilità di sviluppare una personalità [GetTrait('curious').GetName( GetNullCharacter )], [GetTrait('lustful').GetName( GetNullCharacter )], or [GetTrait('cynical').GetName( GetNullCharacter )]"
+ court.6050.c.tt: "I bambini istruiti presso la tua corte avranno maggiori probabilità di sviluppare una personalità [GetTrait('curious').GetName( GetNullCharacter )], [GetTrait('lustful').GetName( GetNullCharacter )], o [GetTrait('cynical').GetName( GetNullCharacter )]"
  court.6050.c.unlock_text:0 "Questa opzione è disponibile a causa della tuo alto livello di [learning|E]"
  court.6050.d:0 "Uhhh, succoso!"
  court.6050.e:1 "Perché dovremmo limitarci a leggere, [courtier.GetFirstNameNoTooltip]?"

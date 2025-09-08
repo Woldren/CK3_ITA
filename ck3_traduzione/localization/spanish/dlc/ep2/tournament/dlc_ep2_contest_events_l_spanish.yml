@@ -914,7 +914,7 @@
  contestant_score_decrease_massive_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Il tuo punteggio','Il punteggio di')] [THIS.Char.LocalPlayerString( '', THIS.Char.GetShortUIName )]  #negative_value diminuisce #EMP immensamente#!#!"
  contestant_score_decrease_major_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Il tuo punteggio','Il punteggio di')] [THIS.Char.LocalPlayerString( '', THIS.Char.GetShortUIName )]  #negative_value diminuisce enormemente#!"
  contestant_score_decrease_medium_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Il tuo punteggio','Il punteggio di')] [THIS.Char.LocalPlayerString( '', THIS.Char.GetShortUIName )]  #negative_value diminuisce moderatamente#!"
- contestant_score_decrease_minor_tt: "L[Select_CString(THIS.Char.IsLocalPlayer,'Il tuo punteggio','Il punteggio di')] [THIS.Char.LocalPlayerString( '', THIS.Char.GetShortUIName )]  #negative_value diminuisce legermente#!"
+ contestant_score_decrease_minor_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Il tuo punteggio','Il punteggio di')] [THIS.Char.LocalPlayerString( '', THIS.Char.GetShortUIName )]  #negative_value diminuisce legermente#!"
  contestant_score_decrease_miniscule_tt: "[Select_CString(THIS.Char.IsLocalPlayer,'Il tuo punteggio','Il punteggio di')] [THIS.Char.LocalPlayerString( '', THIS.Char.GetShortUIName )]  #negative_value diminuisce mínimamente#!"
  contest_events_murder_intent_miss: "Il tuo colpo [murder_target.Custom('DE_ART_DEF_P_A')] manca totalmente"
  contest_events_murder_intent_wound: "Il tuo colpo [murder_target.Custom('DE_ART_DEF_P_A')] ferisce soltanto"

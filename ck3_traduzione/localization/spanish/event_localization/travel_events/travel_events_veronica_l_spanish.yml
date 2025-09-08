@@ -176,9 +176,9 @@
 
  
  travel_events.3061.t:0 "L'Eremita: Una profezia"
- travel_events.3061.intro:0 "L'eremita si prende un attimo prima di rispondere, si alza e aspetta che io lo segua. Ci sono alcune erbe sparse in giro e quello che sembra essere un letto rudimentale. [hermit_scope.Custom('DE_ART_IND_A')|U] si volta verso di me quando siamo lontani dal mio seguito e, con una voce stranamente più profonda, mi risponde:\n\n"
- travel_events.3061.desc_good:0 ""Troverete chi state cercando.""
- travel_events.3061.desc_normal:0 ""Il fuoco parlerà e l'argento scorrerà dagli zoccoli del bestiame che morde.""
+ travel_events.3061.intro:0 "L'eremita indugia un momento prima di rispondere, poi si alza con lentezza e mi invita silenziosamente a seguirlo. Intorno a noi, poche erbe crescono sparse e un giaciglio rudimentale occupa un angolo dell’ambiente. [hermit_scope.Custom('DE_ART_IND_A')|U] si volta verso di me, quando ormai siamo lontani dal mio seguito, e con una voce insolitamente più grave rompe il silenzio:\n\n"
+ travel_events.3061.desc_good:0 ""Troverete quello o chi state cercando.""
+ travel_events.3061.desc_normal:0 ""Il fuoco prenderà voce, e dall’urto degli zoccoli del bestiame che azzanna scorrerà argento fuso.""
  travel_events.3061.desc_bad:0 ""L'acqua passerà, ma non voi.""
  travel_events.3061.a:0 "Molto perspicace."
  travel_events.3061.a.tt:0 "Te ne ricorderai"

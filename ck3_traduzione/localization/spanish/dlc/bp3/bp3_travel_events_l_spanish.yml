@@ -123,7 +123,7 @@
  travel_events_bp3.45.c: "Non ho tempo per questo vagabondo."
 
  travel_events_bp3.50.t: "Una banda di due"
- travel_events_bp3.50.desc: "Passando attraverso un vicolo secondario di [ROOT.Char.GetCurrentLocation.GetName], vedo [Select_CString(child_character.IsFemale,'una bambina da sola','un bambino da solo')] col suo cane seduto in un angolo dietro un piccolo muro. "Ecco a te, Valor." dice mentre gli porge un piccolo pezzo di pane, senza tenere nulla per sé.\n\nGuardando i due, è chiaro che il cane è stato accudito molto meglio [Select_CString(child_character.IsFemale,'della sua padroncina','del suo padroncino')]. [Select_CString(child_character.IsFemale,'La bambina','Il bambino')] deve stargli dando tutto ciò che riesce a trovare."
+ travel_events_bp3.50.desc: "Attraversando un vicolo appartato di [ROOT.Char.GetCurrentLocation.GetName], scorgo [Select_CString(child_character.IsFemale,'una bambina sola','un bambino solo')] accovacciat[Select_CString(child_character.IsFemale,'a','o')] accanto al proprio cane, riparato dietro un basso muro. "Ecco a te, Valor." mormora, offrendogli con dolcezza un pezzo di pane e trattenendo nulla per sé.\n\nOsservandoli, è evidente come l’animale sia stato nutrito e curato meglio [Select_CString(child_character.IsFemale,'dalla bambina','dal bambino')], che sembra riversare in lui ogni briciola trovata, come se la sua stessa sopravvivenza fosse meno importante della fedeltà del compagno."
  travel_events_bp3.50.a: ""Eccoti del cibo, [Select_CString(child_character.IsFemale,'bambina','bambino')].""
  travel_events_bp3.50.b: ""Vieni, mi prenderò cura di te.""
  travel_events_bp3.50.c: ""Il tuo cane? Intendi il #bold MIO#! cane.""

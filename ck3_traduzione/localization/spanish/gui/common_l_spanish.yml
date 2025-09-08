@@ -91,7 +91,7 @@
  cooltip_spouse_listing:0 "[spouse|E]: [ROOT.Char.GetPrimarySpouseOrBetrothed.GetName]"
  cooltip_betrothed_listing:0 "[betrothed|E]: [ROOT.Char.GetPrimarySpouseOrBetrothed.GetName]"
  cooltip_concubine_listing:0 "[concubine|E] di: [ROOT.Char.GetConcubinist.GetName]"
- cooltip_unmarried_listing:0 "Non Sposato"
+ cooltip_unmarried_listing:0 "Celibe"
  GLOBAL_OBSERVER:0 "Osservare"
  PLAYER_OBSERVER:0 "Osservare come [GetPlayer.GetShortUINameNotMeNoTooltip] ([SelectLocalization(GetPlayer.IsPlayer, 'OBSERVER_PLAYER_NAME', 'OBSERVER_AI')])"
  OBSERVER_PLAYER_NAME:0 "Giocato da [GetPlayer.PlayerName]"

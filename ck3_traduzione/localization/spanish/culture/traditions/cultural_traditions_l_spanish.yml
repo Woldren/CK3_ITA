@@ -1341,7 +1341,7 @@
  culture_parameter_unlock_maa_mangudai: "Puoi reclutare [GetMaA('mangudai').GetName] come [men_at_arms|E]"
  
  tradition_mpo_northern_tribes_name: "Tribù del Nord"
- tradition_mpo_northern_tribes_desc: "Si tratta di una delle culture generalmente conosciute come "popolo della foresta" dai loro vicini del sud. Questi abitanti del nord sono, in alcuni casi, dei rinomati cacciatori, in altri degli eccezionali pescatori di fiume, o ancora dei fonditori di ferro e spesso abili mandriani."
+ tradition_mpo_northern_tribes_desc: "Si tratta di una delle culture generalmente conosciute come "popolo della foresta" dai loro vicini del sud. Questi abitanti del nord sono, in alcuni casi, dei rinomati cacciatori, in altri degli eccezionali pescatori di fiume, o ancora dei fonditori di ferro e spesso abili pastori."
  culture_parameter_unlock_maa_maturkan_warriors: "Puoi reclutare [GetMaA('maturkan_warriors').GetName] come [men_at_arms|E]"
  
  tradition_devoted_horsemanship_name: "Passione per l'Equitazione"

@@ -145,10 +145,10 @@ honorable_warden_modifier: "Custode Onorevole"
 honorable_warden_modifier_desc: "Questo personaggio afferma di garantire un’inviolabile dignità ai [hostages|e]."
 
 bp2_yearly.6040.t: "Tutto Ciò che Non Siamo"
-bp2_yearly.6040.desc: "Osservo i più giovani [ROOT.Char.GetCulture.GetCollectiveNoun] di [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier] durante i loro studi. Lenti ad apprendere, indisciplinati, litigano come i loro genitori.\n\nNulla a che vedere con i [advanced_culture.GetCollectiveNoun] della meravigliosa [childhood_location.GetCounty.GetTitle.GetNameNoTier]. Il loro regno è fatto di ordine, grandi opere e grandiose idee. Quando ero"
+bp2_yearly.6040.desc: "Osservo i giovani [ROOT.Char.GetCulture.GetCollectiveNoun] di [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier] durante i loro studi. Sono lenti nell’apprendere, indisciplinati, e litigano senza tregua come i loro stessi genitori.\n\nBen altra cosa sono i [advanced_culture.GetCollectiveNoun] della splendida [childhood_location.GetCounty.GetTitle.GetNameNoTier]: il loro regno è fatto di ordine, di grandi opere e di idee grandiose. Quando fui"
 bp2_yearly.6040.hostage: "[Select_CString(ROOT.Char.IsFemale,'tenuta','tenuto')] in ostaggio"
 bp2_yearly.6040.education: "[Select_CString(ROOT.Char.IsFemale,'educata','educato')]"
-bp2_yearly.6040.outro: "lì, fui [Select_CString(ROOT.Char.IsFemale,'illuminata','illuminato')].\n\nArrivai a vedere il mio popolo per i primitivi che sono.\n\nPotrei far sì che non sia più così. Armato delle conoscenze [advanced_culture.GetNameNoTooltip] della mia gioventù... forse dovrei guidarci sul difficile cammino della riforma?"
+bp2_yearly.6040.outro: "in quelle terre, ero davvero [Select_CString(ROOT.Char.IsFemale,'illuminata','illuminato')].\n\nArrivai a vedere il mio popolo per ciò che era: ancora primitivo.\n\nEppure, non deve restare così. Forte delle conoscenze [advanced_culture.GetNameNoTooltip] della mia gioventù... forse dovrei essere io a guidarci lungo il difficile cammino della riforma?"
 
 bp2_yearly.6040.a: "Il mio regno può rinascere."
 bp2_yearly.6040.a.tt: "Introduci conoscenze straniere per sostituire le usanze del tuo popolo — o conducili verso una gloria maggiore."

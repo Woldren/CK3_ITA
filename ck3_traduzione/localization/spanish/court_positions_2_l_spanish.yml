@@ -36,18 +36,18 @@
  
  court_artificer_court_position_task_stewardship: "Crea Corone e Sculture"
  court_artificer_court_position_task_stewardship_desc: "Il tuo $court_artificer_court_position$ troverà ispirazione per creare Vesti da cerimonia, Corone, Troni e altri manufatti per il governante amministratore."
- court_artificer_court_position_task_stewardship_tt: "Ogni anno il $court_artificer_court_position$ ha una possibilità di ottenere una [inspiration|E] #V Fabbro#! o #V Artigiano#! \n$court_artificer_court_position_task_improved_chances_tt$"
+ court_artificer_court_position_task_stewardship_tt: "Ogni anno il $court_artificer_court_position$ ha una possibilità di ottenere un'[inspiration|E] #V Fabbro#! o #V Artigiano#! \n$court_artificer_court_position_task_improved_chances_tt$"
  
- court_artificer_court_position_task_improved_chances_tt: "Usare questo compito aumenta drasticamente la possibilità di ottenere una [inspiration|E]"
+ court_artificer_court_position_task_improved_chances_tt: "Usare questo compito aumenta drasticamente la possibilità di ottenere un'[inspiration|E]"
  
- must_have_an_equipped_illustrious_court_artifact: "Non hai #bold not#! equipaggiato un [court_artifact|E] #V Illustre#!"
- must_have_upgradeable_artifact_tt: "Non hai #bold not#! equipaggiato un [artifact|E] che puo' essere migliorato."
+ must_have_an_equipped_illustrious_court_artifact: "#bold Non#! hai equipaggiato un [court_artifact|E] #V Illustre#!"
+ must_have_upgradeable_artifact_tt: "#bold Non#! hai  equipaggiato un [artifact|E] che puo' essere migliorato."
  
  antiquarian_court_position_task_scout_for_artifacts: "Cerca Manufatti Rari"
  antiquarian_court_position_task_scout_for_artifacts_desc: "Il tuo  $antiquarian_court_position$ esaminerà antichi tomi e indagherà su dicerie, alla ricerca di qualcuno che possa portare qualche oggetto spettacolare a corte"
- antiquarian_court_position_task_scout_for_artifacts_tt: "Ogni anno il tuo  $antiquarian_court_position$ ha una possibilità di dare a qualcuno di [court|E] una [inspiration|E] #V Avventura#! #weak (La possibilità aumenta con [aptitude|E])#!"
+ antiquarian_court_position_task_scout_for_artifacts_tt: "Ogni anno il tuo $antiquarian_court_position$ ha una possibilità di dare a qualcuno della [court|E] un'[inspiration|E] #V Avventura#! #weak (La possibilità aumenta con [aptitude|E])#!"
  antiquarian_inspired_adventurer_message: "$antiquarian_court_position$ Ispira un'Avventura!"
- antiquarian_inspired_adventurer_effect: "Il tuo [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('adventure_target'))] [adventure_target.GetFirstName] ha ottenuto una [inspiration|E] #V Avventura#!"
+ antiquarian_inspired_adventurer_effect: "Il tuo [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('adventure_target'))] [adventure_target.GetFirstName] ha ottenuto un'[inspiration|E] #V Avventura#!"
  
  antiquarian_court_position_task_improve_artifacts: "Migliora i Manufatti"
  antiquarian_court_position_task_improve_artifacts_desc: "Il tuo $antiquarian_court_position$ migliorerà e luciderà i manufatti affinché siano il più impressionanti ed efficaci possibile."

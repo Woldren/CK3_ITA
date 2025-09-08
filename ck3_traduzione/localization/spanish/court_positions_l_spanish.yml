@@ -410,7 +410,7 @@
  court_tutor_teach_kids: "Educare i Bambini"
  court_tutor_teach_kids_desc: "Questo personaggio va oltre il proprio dovere nell'educare i bambini della corte."
   court_tutor_teach_kids_title: "Il Tutore Educa il Bambino"
- court_tutor_teach_kids_notification_desc: "Tu[child.Custom('DE_END_PRO_S_N')] [court_owner.Custom2('RelationToMeShort', SCOPE.sC('child') )] è stat[child.Custom('DE_END_PRO_S_N')] istruit[child.Custom('DE_END_PRO_S_N')] da [court_tutor_scope.GetShortUIName]"
+ court_tutor_teach_kids_notification_desc: "([child.Custom('DE_ART_DEF_P_D')]) Tu[child.Custom('DE_END_PRO_S_N')] [court_owner.Custom2('RelationToMeShort', SCOPE.sC('child') )] è stat[child.Custom('DE_END_PRO_S_N')] istruit[child.Custom('DE_END_PRO_S_N')] da [court_tutor_scope.GetShortUIName]"
  court_tutor_teach_kids_notification_desc_you: "Sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] istruit[ROOT.Char.Custom('DE_END_PRO_S_N')] da [court_tutor_scope.GetShortUIName]"
 court_tutor_teach_kids_tt: "I [children|e] a [court|e] hanno la possibilità di migliorare una delle loro [skills|e] in [diplomacy_i][stewardship_i][learning_i][martial_i] di #p +1#! o #p +2#! ogni anno"
 

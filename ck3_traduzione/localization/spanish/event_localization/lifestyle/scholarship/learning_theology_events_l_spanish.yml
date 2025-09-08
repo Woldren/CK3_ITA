@@ -46,7 +46,7 @@
  learning_theology.3002.c:0 "Dovrei consultarmi con altri/e [ROOT.Char.GetFaith.PriestNeuterPlural]."
 
  learning_theology.3003.t:0 "Fissare le Stelle"
- learning_theology.3003.desc:0 "Attraverso le mie osservazioni serali a guardare le stelle, ho visto con i miei occhi quello di cui prima avevo solo sentito parlare.\n\nLe stelle si muovono a velocità differenti e invertono il loro corso diverse volte, apparentemente in grandi gruppi, a seconda della sfera celeste a cui appartengono. In effetti, con i calcoli giusti, si potrebbe persino prevedere il loro movimento.\n\n[chaplain.Custom('DE_ART_DEF_P_D')] mi[chaplain.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chaplain'))] non approva, ovviamente. "Lascia stare i cieli. Il regno celeste spetta ai [ROOT.Char.GetFaith.AltPriestTermPlural].""
+ learning_theology.3003.desc:0 "Attraverso le mie osservazioni serali delle stelle, ho visto con i miei occhi ciò di cui finora avevo solo udito parlare.\n\nGli astri si muovono a velocità diverse e talvolta invertiscono il loro corso, in grandi schiere, secondo la sfera celeste a cui appartengono. Con i giusti calcoli, si potrebbe persino predire i loro moti.\n\n[chaplain.Custom('DE_ART_DEF_P_D')] mi[chaplain.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chaplain'))] non approva, ovviamente. "Lascia stare i cieli: il regno celeste appartiene ai [ROOT.Char.GetFaith.AltPriestTermPlural].""
  learning_theology.3003.a:0 "Troverò le mie risposte nei cieli."
  learning_theology.3003.b:0 "Hai ragione, dovrei concentrarmi sulle questioni terrene."
 

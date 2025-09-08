@@ -475,18 +475,18 @@
 
 # witch
  feature_book_title_witch_love_sorcery:0 "Il Fascino di [Artifact.GetFeatureText( 'book_subject' )]"
- feature_book_topic_witch_love_sorcery:0 "Libro di qualità [Artifact.GetOwner.Custom('ArtifactBookContentQuality')|U] che detiene il potere e la conoscenza di [Artifact.GetFeatureText( 'book_subject' )]. Contiene descrizioni [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrate di di incantesimi e sortilegi per indurre l'amore."
+ feature_book_topic_witch_love_sorcery:0 "Libro di qualità [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] che detiene il potere e la conoscenza di [Artifact.GetFeatureText( 'book_subject' )]. Contiene descrizioni [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrate di di incantesimi e sortilegi per indurre l'amore."
  feature_book_title_witch_curse_sorcery:0 "Le Maledizioni di [Artifact.GetFeatureText( 'book_subject' )]"
- feature_book_topic_witch_curse_sorcery:0 "Un libro di [Artifact.GetOwner.Custom('ArtifactBookContentQuality')|U] qualità che detiene il potere e la conoscenza di [Artifact.GetFeatureText( 'book_subject' )]. Contiene descrizioni [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrate di maledizioni e pozioni per ostacolare i tuoi nemici."
+ feature_book_topic_witch_curse_sorcery:0 "Un libro di [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] qualità che detiene il potere e la conoscenza di [Artifact.GetFeatureText( 'book_subject' )]. Contiene descrizioni [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrate di maledizioni e pozioni per ostacolare i tuoi nemici."
  feature_book_title_witch_witch:0 "[Artifact.GetOwner.GetFaith.WitchGodName|U]"
 
 # martial                      ...ArtifactBookContentQuality significa ECCELLENTE
- feature_book_title_martial_military:0 "L'Arte della Guerra $artifact_name_prefix_artifact_scope$"
- feature_book_topic_martial_military:0 "Un libro [Artifact.GetOwner.Custom('ArtifactBookContentQuality')|U] sulla strategia e la guerra, nato dalla lunga esperienza di [Artifact.GetOwner.GetFirstNamePossessiveNoTooltip] sul campo di battaglia."
- feature_book_title_martial_duels:0 "Manuale di Arti Marziali $artifact_name_prefix_artifact_scope$"
- feature_book_topic_martial_duels:0 "Un manuale [Artifact.GetOwner.Custom('ArtifactBookContentQuality')|U] contenente consigli per allenarsi nel duello con ogni arma conosciuta sul campo di battaglia, nei tornei e nelle giostre."
+ feature_book_title_martial_military:0 "L'Arte della Guerra di $artifact_name_prefix_artifact_scope$"
+ feature_book_topic_martial_military:0 "Un libro di [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] qualità sulla strategia e la guerra, partorito dalla lunga esperienza di [Artifact.GetOwner.GetFirstNamePossessiveNoTooltip] sul campo di battaglia"
+ feature_book_title_martial_duels:0 "Manuale di Arti Marziali di $artifact_name_prefix_artifact_scope$"
+ feature_book_topic_martial_duels:0 "Un manuale di [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] qualità contenente consigli per allenarsi nel duello con ogni arma conosciuta sul campo di battaglia, nei tornei e nelle giostre"
  feature_book_title_martial_chivalry:0 "Il Libro della Cavalleria [Artifact.GetOwner.GetCulture.GetNameNoTooltip]"
- feature_book_topic_martial_chivalry:0 "Un tomo [Artifact.GetOwner.Custom('ArtifactWealth')|U] contenente una serie [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] di consigli e elucubrazioni sulla cavalleria e sulla cortesia."
+ feature_book_topic_martial_chivalry:0 "Un tomo [Artifact.GetOwner.Custom('ArtifactWealth')|U] contenente una serie [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] di consigli e elucubrazioni sulla cavalleria e sulla cortesia"
 
 # diplomacy
  feature_book_title_diplomacy_dynasty:1 "Le Cronache della Dinastia [Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip]"

@@ -9,7 +9,7 @@
  bp2_hostage_system.0100.b: "[hostage.GetFirstNameNoTooltip] è al sicuro, per ora."
 
  bp2_hostage_system.0110.t: "Una Promessa Vuota"
- bp2_hostage_system.0110.desc: "Nonostante [hostage_home_court.Custom('IT_NAM_COL3')][hostage_home_court.GetTitledFirstName] abbia inviato alla mia corte su[hostage.Custom('DE_END_PRO_S_N')] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], quell'infid[hostage_home_court.Custom('DE_END_PRO_S_N')] [hostage_home_court.Custom('InsultNoun')] ha mosso guerra contro di me [hostage_home_court.GetPrimaryTitle.Custom('IT_COU_COL5')][hostage_home_court.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\n[hostage_home_court.GetSheHe|U] deve pensare che mi manchi il coraggio o che non m'importi nulla del benessere di [hostage.GetFirstNameNoTooltip], per intraprendere una [war.Custom('WarCasusBelliShort')] contro chi ha in custodia il suo ostaggio..."
+ bp2_hostage_system.0110.desc: "Nonostante [hostage_home_court.Custom('IT_NAM_COL3')][hostage_home_court.GetTitledFirstName] abbia inviato alla mia corte su[hostage.Custom('DE_END_PRO_S_N')] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], quell'infid[hostage_home_court.Custom('DE_END_PRO_S_N')] [hostage_home_court.Custom('InsultNoun')] ha mosso guerra contro di me, [hostage_home_court.GetPrimaryTitle.Custom('IT_NAM_COL3')][hostage_home_court.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\n[hostage_home_court.GetSheHe|U] deve pensare che mi manchi il coraggio o che non m'importi nulla del benessere di [hostage.GetFirstNameNoTooltip], per intraprendere una [war.Custom('WarCasusBelliShort')] contro chi ha in custodia il suo ostaggio..."
  bp2_hostage_system.0110.a: "[hostage_home_court.GetFirstNameNoTooltip] ha fatto la sua scelta."
  bp2_hostage_system.0110.b: "Calma, non siamo precipitosi..."
  
@@ -159,7 +159,7 @@
  bp2_hostage_system.0411.a: "Molto bene."
 
  bp2_hostage_system.0500.t: "Una Nuova Casa"
- bp2_hostage_system.0500.desc: "Sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] informat[ROOT.Char.Custom('DE_END_PRO_S_N')] che [hostage.GetFirstName], il mio ostaggio, è finalmente arrivat[hostage.Custom('DE_END_PRO_S_N')] [hostage_home_court.GetPrimaryTitle.Custom('IT_COU_COL5')][hostage_home_court.GetPrimaryTitle.GetNameNoTierNoTooltip]."
+ bp2_hostage_system.0500.desc: "Sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] informat[ROOT.Char.Custom('DE_END_PRO_S_N')] che [hostage.GetFirstName], il mio ostaggio, è finalmente arrivat[hostage.Custom('DE_END_PRO_S_N')] [hostage_home_court.GetPrimaryTitle.Custom('IT_NAM_COL3')][hostage_home_court.GetPrimaryTitle.GetNameNoTierNoTooltip]."
  bp2_hostage_system.0500.anxious: "[hostage.Custom('DE_ART_DEF_P_D')] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage_home_court.Custom('IT_NAM_COL2')][hostage_home_court.GetTitledFirstName] sarà senza dubbio preoccupat[hostage_home_court.Custom('DE_END_PRO_S_N')] per la nuova vita che l'attende in [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]."
  bp2_hostage_system.0500.home: "\n\n"Abbiate fiducia in vostr[hostage_home_court.Custom('DE_END_PRO_S_N')] [hostage.Custom2('RelationToMe', SCOPE.sC('hostage_home_court'))]," [hostage.Custom('DE_PRO_DEM')] dico per rassicurarl[hostage.Custom('DE_END_PRO_S_N')]. "Qui sarete trattat[hostage.Custom('DE_END_PRO_S_N')] bene.""
  bp2_hostage_system.0500.away: "\n\nNon ho dubbi che i miei servitori l[hostage.Custom('DE_END_PRO_S_N')] faranno sentire come fosse a casa sua."
@@ -180,7 +180,7 @@
  bp2_hostage_system.0502.a: "Molto bene."
 
  bp2_hostage_system.0510.intro: "Sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] informat[ROOT.Char.Custom('DE_END_PRO_S_N')] dalla guardia che mi[hostage.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], sta per arrivare a [ROOT.Char.GetCapitalLocation.GetNameNoTooltip],"
- bp2_hostage_system.0510.duration_short: "anche se sembra solo ieri che [hostage.GetSheHe] è partit[hostage.Custom('DE_END_PRO_S_N')] per  [warden.GetPrimaryTitle.Custom('IT_COU_COL4')][warden.GetPrimaryTitle.GetNameNoTierNoTooltip]."
+ bp2_hostage_system.0510.duration_short: "anche se sembra solo ieri che [hostage.GetSheHe] è partit[hostage.Custom('DE_END_PRO_S_N')] per [warden.GetPrimaryTitle.Custom('IT_NAM_COL3')][warden.GetPrimaryTitle.GetNameNoTierNoTooltip]."
  bp2_hostage_system.0510.duration_long: "dopo molti anni trascorsi in [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip]. $bp2_hostage_system.0510.older$"
  bp2_hostage_system.0510.duration: "di ritorno dal suo soggiorno in [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip]. $bp2_hostage_system.0510.older$"
  bp2_hostage_system.0510.older: "[hostage.GetSheHe|U] è ora più grande, ma io l[hostage.Custom('DE_END_PRO_S_N')] riconosco immediatamente."

@@ -464,20 +464,20 @@
  # Groups
  hunt_animal_group_herd:0 "mandria"
  hunt_animal_group_pack:0 "branco"
- hunt_animal_group_sloth:0 "bradipo" #da cambiare
+ hunt_animal_group_sloth:0 "pigrizia"  
  hunt_animal_group_sounder:0 "branco di maiali selvatici"
- hunt_animal_group_skulk:0 "appostarsi" #da cambiare
- hunt_animal_group_husk:0 "pula" #da cambiare
+ hunt_animal_group_skulk:0 "muta"
+ hunt_animal_group_husk:0 "muta"
  hunt_animal_group_pride:0 "branco"
- hunt_animal_group_mustering:0 "radunata" #da cambiare
- hunt_animal_group_sedge:0 "gruppo di aironi" #da cambiare
- hunt_animal_group_siege:0 "gruppo di aironi" #da cambiare
- hunt_animal_group_stand:0 "stare in piedi" #da cambiare
+ hunt_animal_group_mustering: "adunata"  
+ hunt_animal_group_sedge: "stormo"       
+ hunt_animal_group_siege: "assedio"      
+ hunt_animal_group_stand: "colonia"
  hunt_animal_group_pod:0 "branco"
  hunt_animal_group_gaggle:0 "stormo"
  hunt_animal_group_bevy:0 "stormo"
  hunt_animal_group_raft:0 "mucchio"
- hunt_animal_group_wedge:0 "incuneare" #da cambiare
+ hunt_animal_group_wedge:0 "cuneo"
  hunt_animal_group_flock:0 "gregge"
  hunt_animal_group_group:0 "gruppo"
  # Groups
@@ -485,13 +485,13 @@
  hunt_animal_group_pack_plural:0 "branchi"
  hunt_animal_group_sloth_plural:0 "bradipi"
  hunt_animal_group_sounder_plural:0 "branchi di maiali selvatici"
- hunt_animal_group_skulk_plural:0 "appostarsi" #da cambiare
- hunt_animal_group_husk_plural:0 "pule" #da cambiare
+ hunt_animal_group_skulk_plural:0 "muta"
+ hunt_animal_group_husk_plural:0 "muta" 
  hunt_animal_group_pride_plural:0 "branchi"
- hunt_animal_group_mustering_plural:0 "radunati" #da cambiare
- hunt_animal_group_sedge_plural:0 "gruppi di aironi" #da cambiare
- hunt_animal_group_siege_plural:0 "gruppi di aironi" #da cambiare
- hunt_animal_group_stand_plural:0 "stare in piedi" #da cambiare
+ hunt_animal_group_mustering_plural:0 "adunate" 
+ hunt_animal_group_sedge_plural:0 "stormi" 
+ hunt_animal_group_siege_plural:0 "assedi" 
+ hunt_animal_group_stand_plural:0 "colonie" 
  hunt_animal_group_pod_plural:0 "branchi"
  hunt_animal_group_gaggle_plural:0 "stormi"
  hunt_animal_group_bevy_plural:0 "stormi"

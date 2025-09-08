@@ -30,7 +30,7 @@
  
  # Scientific Experiments, by Petter Vilberg
  learning_scholarship.3001.t:0 "Visioni del Divino"
- learning_scholarship.3001.desc:0 "Faccio cenno al mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('chaplain'))], [chaplain.GetTitledFirstName], di unirsi a me nel cerchio di sfere d'ottone e candele disposte sui bastoni in tutta la stanza buia. L'incenso impregna l'aria per allontanare i vapori cattivi facendoci ben presto lacrimare gli occhi. "È così che, con la coda dell'occhio, scruteremo la forma imperscrutabile degli angeli."\n\nTuttavia, [chaplain.GetFirstNameNoTooltip] si ferma. "Tutto ciò sembra sbagliato. Essi sono creature divine, non sono fatti per essere visti da occhi mortali.""
+ learning_scholarship.3001.desc:0 "Faccio cenno al mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('chaplain'))], [chaplain.GetTitledFirstName], di unirsi a me nel cerchio di sfere d’ottone e candele disposte sui bastoni che illuminano la stanza oscura. L’incenso impregna l’aria, scacciando i miasmi e velandoci gli occhi di lacrime. «È così che, con la coda dell’occhio, scorgeremo l’imperscrutabile forma degli angeli.»\n\nEppure, [chaplain.GetFirstNameNoTooltip] si arresta. «Tutto questo è sbagliato. Sono creature divine, non destinate a essere contemplate da sguardi mortali.»"
  learning_scholarship.3001.a:0 "Puoi andare, ma in un modo o nell'altro io saprò."
  learning_scholarship.3001.b:0 "Si, questa è una cosa da stupidi, se non un peccato di per sé."
  learning_scholarship.3001.c:0 "Le mie intenzioni sono pure, ve lo assicuro!"
@@ -77,7 +77,7 @@
  book_translation_toast.less_good:0 "La #V Qualità della traduzione#! migliorerà"
  book_translation_toast.finish_faster:0 "La traduzione avverrà più velocemente"
 
- learning_scholarship_special.2011.desc:0 "La mia traduzione del libro [ROOT.Char.Custom('TranslationBook')] sta andando avanti, ma una sezione, nella versione dalla quale sto traducendo, mi blocca.\n\nI miei scriba insistono sul fatto che le parole sulla pagina significhino "come noi abbiamo due piedi, così lo spirito del cacciatore sale verso la cima"\n\nNon può essere così, giusto?"
+ learning_scholarship_special.2011.desc:0 "La mia traduzione del libro [ROOT.Char.Custom('TranslationBook')] procede, ma una sezione della versione di riferimento mi lascia perplesso.\n\nI miei scribi sostengono che le parole sulla pagina significhino: \"Come noi abbiamo due piedi, così lo spirito del cacciatore sale verso la vetta\".\n\nEppure… non può essere davvero questo il senso, giusto?"
  learning_scholarship_special.2011.a:0 "Posso modificarlo con qualcosa di più appropiato."
  learning_scholarship_special.2011.a.success:0 "Miglioro il testo"
  learning_scholarship_special.2011.a.failure:0 "Perdo il significato"
@@ -98,15 +98,15 @@
 
  learning_scholarship_special.2014.desc:0 "Mi faccio rileggere le note per la mia traduzione del manoscritto [ROOT.Char.Custom('TranslationBook')], quando...\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]? Ti prego di perdonarmi, ma... ti sei addormentat[ROOT.Char.Custom('DE_END_PRO_S_N')]?!"\n\nCielo, questo "classico" è di una banalità assoluta!"
  learning_scholarship_special.2014.a:0 "Ciononostante, mi sforzerò di continuare!"
- learning_scholarship_special.2014.b:0 "I miei scriba possono assumersi maggiori responsabilità."
+ learning_scholarship_special.2014.b:0 "I miei scribi possono assumersi maggiori responsabilità."
  learning_scholarship_special.2014.c:0 "Ho bisogno di una pausa da tutto questo."
 
- learning_scholarship_special.2015.desc:0 "Mi ritrovo a lavorare alla traduzione di [ROOT.Char.Custom('TranslationBook')] per ore sotto la luce tremolante di una candela. Spesso mi accorgo a malapena del tempo che passa. I miei scriba però me lo ricordano.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], Ormai sarà passata la mezzanotte. Non sarà ora di riposare?""
+ learning_scholarship_special.2015.desc:0 "Mi ritrovo a lavorare alla traduzione di [ROOT.Char.Custom('TranslationBook')] per ore sotto la luce tremolante di una candela. Spesso mi accorgo a malapena del tempo che passa. I miei scribi però me lo ricordano.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], Ormai sarà passata la mezzanotte. Non sarà ora di riposare?""
  learning_scholarship_special.2015.a:0 ""No, dobbiamo andare avanti fin quando non mi sentirò soddisfatt[ROOT.Char.Custom('DE_END_PRO_S_N')]!""
  learning_scholarship_special.2015.b:0 ""Si, dormire un po' ci farà bene.""
  learning_scholarship_special.2015.c:0 ""Potete continuare a lavorare mentre io riposo.""
 
- learning_scholarship_special.2016.desc:0 "Uno dei miei scriba ha modificato a mia insaputa la traduzione di [ROOT.Char.Custom('TranslationBook')]!\n\n"Volevo semplicemente renderla migliore! Ti piaceva tutte le volte che credevi fosse il tuo lavoro!""
+ learning_scholarship_special.2016.desc:0 "Uno dei miei scribi ha modificato a mia insaputa la traduzione di [ROOT.Char.Custom('TranslationBook')]!\n\n"Volevo semplicemente renderla migliore! Ti piaceva tutte le volte che credevi fosse il tuo lavoro!""
  learning_scholarship_special.2016.a:0 "Non copierai mai più il testo per nessuno!"
  learning_scholarship_special.2016.b:0 "Te la farò pagare!"
  learning_scholarship_special.2016.b.flavor:0 ""E al resto di voi ,scriba, che questo vi sia di lezione!""
@@ -260,10 +260,10 @@
  learning_scholarship.6000.t:0 "L[illiterate.Custom('DE_PRO_PER_S_3P_N')][illiterate.GetWomanMan|U] di Poche Parole"
 
  learning_scholarship.6000.desc:0 "Sembra che, nonostante tutti gli sforzi di [teacher.Custom2('HerHisCharacterIntroduction',illiterate)], [illiterate.GetName] rimanga alfabetizzato quanto lo scemo medio del villaggio.\n\n"Saggissim[ROOT.Char.Custom('DE_END_PRO_S_N')] ed illuminat[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleTierName]," adula [teacher.GetFirstNameNoTooltip]. "Come posso ispirare [illiterate.Custom('DE_ART_DEF_P_A')] mi[illiterate.Custom('DE_END_PRO_S_N')] Signor[illiterate.Custom('DE_END_ADJ_IND_S_A')] ad imparare a leggere?""
- learning_scholarship.6000.willing_pupil:0 "\n\n[teacher.GetSheHe|U] sospira, esasperat[teacher.Custom('DE_END_PRO_S_N')].\n\n"[illiterate.Custom('DE_ART_DEF_P_D')] [illiterate.GetTitleAsNameNoTooltip] non si dedicherà a ore di studio solo per il piacere di leggere...""
- learning_scholarship.6000.holy_book_insult:0 "\n\n[teacher.GetSheHe|U] esita, poi borbotta:\n\n"Ciò che [illiterate.Custom('DE_ART_DEF_P_D')] [illiterate.GetTitleAsNameNoTooltip] ha detto dopo aver faticato sulle prime sacre righe del/della [illiterate.GetFaith.ReligiousText]... non è stato né sacro #EMP né#! illuminato...""
+ learning_scholarship.6000.willing_pupil:0 "\n\n[teacher.GetSheHe|U] sospira, esasperat[teacher.Custom('DE_END_PRO_S_N')].\n\n"[illiterate.Custom('IT_NAM_COL3')][illiterate.GetTitleAsNameNoTooltip] non si dedicherà a ore di studio solo per il piacere di leggere...""
+ learning_scholarship.6000.holy_book_insult:0 "\n\n[teacher.GetSheHe|U] esita, poi borbotta:\n\n"Ciò che [illiterate.Custom('IT_NAM_COL3')][illiterate.GetTitleAsNameNoTooltip] ha detto dopo aver faticato sulle prime sacre righe del/della [illiterate.GetFaith.ReligiousText]... non è stato né sacro #EMP né#! illuminato...""
  learning_scholarship.6000.poetry_insult:0 "\n\nL'insegnante fa una smorfia.\n\n"Quello che [illiterate.GetTitledFirstNameNoTooltip] ha detto dopo aver faticato sulla più elegante poesia [illiterate.GetCulture.GetNameNoTooltip]... non è stato né elegante #EMP né#! illuminato...""
- learning_scholarship.6000.very_willing_pupil:0 "\n\n[teacher.GetSheHe|U] indica la conoscenza che ho accumulato.\n\n"[illiterate.Custom('DE_ART_DEF_P_D')] [illiterate.GetTitleTierName] teme di dover continuare a faticare su migliaia di righe e non raggiungere mai una saggezza pari alla la vostra.""
+ learning_scholarship.6000.very_willing_pupil:0 "\n\n[teacher.GetSheHe|U] indica la conoscenza che ho accumulato.\n\n"[illiterate.Custom('IT_NAM_COL3')][illiterate.GetTitleTierName] teme di dover continuare a faticare su migliaia di righe e non raggiungere mai una saggezza pari alla la vostra.""
 
  learning_scholarship.6000.a:0 "[illiterate.Custom('DE_ART_DEF_P_D')] mi[illiterate.Custom('DE_END_PRO_S_N')] [illiterate.GetCouncilTitle] ha bisogno di un racconto di popoli lontani."
  learning_scholarship.6000.b:0 "[illiterate.Custom('DE_ART_DEF_P_D')] mi[illiterate.Custom('DE_END_PRO_S_N')] [illiterate.GetCouncilTitle] ha bisogno di una cronaca ricca di pettegolezzi di corte."

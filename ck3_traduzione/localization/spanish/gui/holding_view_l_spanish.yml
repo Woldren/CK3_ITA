@@ -230,7 +230,7 @@
  HOLDING_VIEW_HERD_FROM_COUNTY_VALUE: "[County.GetHerdFromCounty|=+0]"
  DOMAIN_SUB_ENTRY_FERTILITY: "([county_fertility_i][county_fertility|E]) Base"
  DOMAIN_SUB_ENTRY_CONTROL_MULT: "[control_i][county_control|E]"
- DOMAIN_SUB_ENTRY_NON_NOMAD_HOLDING_MALUS: "Il [holding|E] non è Nomadico o Mandriano"
+ DOMAIN_SUB_ENTRY_NON_NOMAD_HOLDING_MALUS: "Il [holding|E] non è Nomadico o Pastorale"
  HOLDING_VIEW_STEPPE_SEASON_LABEL: "[steppe_season|E]:"
  HOLDING_VIEW_CONTROL_LABEL: "[control|E]:"
  HOLDING_VIEW_DEVELOPMENT_LABEL: "[development|E]:"

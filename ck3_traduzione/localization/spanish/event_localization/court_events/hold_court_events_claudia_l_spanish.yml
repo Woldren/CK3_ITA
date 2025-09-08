@@ -249,7 +249,7 @@
  hold_court.6190.e:0 "[physician.GetFirstNameNoTooltip], falla finita."
  #A Land of Foreigners
  hold_court.6210.t:1 "Una Terra di Stranieri"
- hold_court.6210.desc:1 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], mi dispiace informarvi che sono al capolinea!" [6210_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] è chiaramente esasperat[6210_vassal.Custom('DE_END_PRO_S_N')].\n\n"Il popolo su cui dovrei governare è al di là della mia comprensione, con costumi ridicoli e un #EMP pessimo#! gusto per il cibo! Tutti i miei sforzi fin ora sono stati vani, sembra semplicemente impossibile fare di loro dei buoni servi della gleba.\n\n"Temo che un forte intervento dall'alto sia l'unica soluzione disponibile.""
+ hold_court.6210.desc:1 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], mi dispiace informarvi che sono al capolinea!" [6210_vassal.Custom('IT_NAM_COL3')][6210_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] è chiaramente esasperat[6210_vassal.Custom('DE_END_PRO_S_N')].\n\n"Il popolo su cui dovrei governare è al di là della mia comprensione, con costumi ridicoli e un #EMP pessimo#! gusto per il cibo! Tutti i miei sforzi fin ora sono stati vani, sembra semplicemente impossibile fare di loro dei buoni servi della gleba.\n\n"Temo che un forte intervento dall'alto sia l'unica soluzione disponibile.""
  hold_court.6210.a:1 "[steward.GetFirstNameNoTooltip], mostragli i nostri modi."
  hold_court.6210.b:0 "Mostriamo loro la nostra grandezza, cambieranno idea!"
  hold_court.6210.b.tt:0 "Tu mandi il tuo $royal_architect_court_position$ a sviluppare le infrastrutture delle contee."

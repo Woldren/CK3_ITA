@@ -954,10 +954,12 @@
  # [CHARACTER.Custom('IT_NAM_COL3')]  il conte        [CHARACTER.Custom('IT_NAM_COL3')|U]   all'inizio delle frasi per far comparire "Il" in maiuscolo anziché "il"
  # [CHARACTER.Custom('IT_NAM_COL4')]  al conte
  # [CHARACTER.Custom('IT_NAM_COL5')]  dal conte
+
+#------------------------------------------------------------------------------
  
  # Codici da mettere davanti ai titoli
- # [titolo.Custom('IT_COU_COL4')]     il titolo                 #      esempio: "Conquista [TITLE.Custom('IT_COU_COL4')|U][TITLE.GetBaseName]" ossia   " Conquista il Regno di Scozia" 
- # [titolo.Custom('IT_COU_COL')]       del titolo
+ # [titolo.Custom('IT_COU_COL4')]     il titolo                 #      esempio: "Conquista La Contea di Cosenza, l'Earldom del Wessex" 
+ # [titolo.Custom('IT_COU_COL')]       del titolo              #   2ndo esempio: "Jon possiede una rivendicazione sulla Contea di Cosenza            [exceptional_guest.GetShortUIName|U] possiede una [claim|E] [guest_claim.Custom('IT_COU_COL3')][guest_claim.GetName]"
  # [titolo.Custom('IT_COU_COL2')]     nel titolo
  # [titolo.Custom('IT_COU_COL3')]     sul titolo
  # [titolo.Custom('IT_COU_COL5')]     dal titolo
@@ -1007,14 +1009,16 @@
  #          [CHARACTER.Custom('IT_NAM_COL3')]  il conte        [CHARACTER.Custom('IT_NAM_COL3')|U]   all'inizio delle frasi per far comparire "Il" in maiuscolo anziché "il"
  #          [CHARACTER.Custom('IT_NAM_COL4')]  al conte
  #          [CHARACTER.Custom('IT_NAM_COL5')]  dal conte
+
+#------------------------------------------------------------------------------
  
  # Codici da mettere davanti ai titoli
- #          [TITLE.Custom('IT_COU_COL4')]     il titolo                 #      esempio: "Conquista [TITLE.Custom('IT_COU_COL4')|U][TITLE.GetBaseName]" ossia   " Conquista il Regno di Scozia" 
- #          [TITLE.Custom('IT_COU_COL')]       del titolo
- #          [TITLE.Custom('IT_COU_COL2')]     nel titolo
- #          [TITLE.Custom('IT_COU_COL3')]     sul titolo
- #          [TITLE.Custom('IT_COU_COL5')]     dal titolo
- #          [TITLE.Custom('IT_COU_COL7')]     al titolo
+ # [titolo.Custom('IT_COU_COL4')]     il titolo                 #      esempio: "Conquista La Contea di Cosenza, l'Earldom del Wessex" 
+ # [titolo.Custom('IT_COU_COL')]       del titolo              #   2ndo esempio: "Jon possiede una rivendicazione sulla Contea di Cosenza            [exceptional_guest.GetShortUIName|U] possiede una [claim|E] [guest_claim.Custom('IT_COU_COL3')][guest_claim.GetName]"
+ # [titolo.Custom('IT_COU_COL2')]     nel titolo
+ # [titolo.Custom('IT_COU_COL3')]     sul titolo
+ # [titolo.Custom('IT_COU_COL5')]     dal titolo
+ # [titolo.Custom('IT_COU_COL7')]     al titolo 
  
 
   # PREPOSIZIONI (Ricorda di mettere )|U] alla fine del codice se la preposizione è all'inizio del rigo. Esempio [ROOT.Char.Custom('DE_END_ADJ_DEF_P_A')|U]

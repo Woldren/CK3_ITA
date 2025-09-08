@@ -37,7 +37,7 @@
  bp2_yearly.7002.b: "Divorzieremo immediatamente."
  bp2_yearly.7002.c: "Forse possiamo convenire di dimenticarcene...?"
  bp2_yearly.parental_neglect_effect: "[nursed_child.GetFirstNameNoTooltip] è furios[nursed_child.Custom('DE_END_PRO_S_N')]"
- bp2_yearly.7003.title: "Prime parole di [nursed_child.GetFirstNamePossessiveNoTooltip]"
+ bp2_yearly.7003.title: "Prime parole di [nursed_child.GetFirstNamePossessiveNoTooltip]:"
  bp2_yearly.7003.t: "$bp2_yearly.7003.title$"
  bp2_yearly.7003.desc: ""Presto, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], dovete sentire questa cosa!"\n\nLa balia, [wet_nurse.GetFirstName], mi trascina nella [ROOT.Char.Custom('GetChamber')] di [ROOT.Char.Custom2('RelationToMePossessive', nursed_child)]. [wet_nurse.GetFirstNameNoTooltip] indica [nursed_child.GetFirstName] n preda all'eccitazione, così mi chino verso di [nursed_child.GetSheHe] e ascolto.\n\n"
  bp2_yearly.7003.desc_gold: "[nursed_child.GetFirstNameNoTooltip] mi offre una moneta sbavata e dice:\n\n"O-oh, o-o-ro...""
