@@ -1,7 +1,7 @@
 ﻿l_spanish: 
  game_concept_nomadic_government: "Governo Nomade"
  game_concept_nomadic: "Nomade"
- game_concept_nomadic_desc: "I [rulers|E] Nomadi consumano della [county_fertility|E] per accrescere la loro [herd|E]. Possono utilizzare la loro Mandria come [horde|E], che può essere migliorata negli [men_at_arms|E]. Hanno una [yurt|E].\n\nI nomadi possono [migrate|E] al fine di trovare delle terre più fertili, sebbene i grandi [realms|E] nomadi possono far crescere la loro mandria attraverso i [tributaries|E] o raggiungendo un alto livello di [fertility_equilibrium|E].\n\nI nomadi hanno una [dread|E] massima più alta."
+ game_concept_nomadic_desc: "I [rulers|E] Nomadi consumano della [county_fertility|E] per accrescere la loro Mandria. Possono usare la loro Mandria come [horde|E], che può essere migliorata a [men_at_arms|E]. Hanno una [yurt|E].\n\nI nomadi possono [Concept( 'migrate', 'migrare' )|E] al fine di trovare delle terre più fertili, sebbene i grandi [realms|E] nomadi possono far crescere la loro mandria attraverso i [tributaries|E] o raggiungendo un alto livello di [fertility_equilibrium|E].\n\nI nomadi hanno una [dread|E] massima più alta."
  game_concept_nomad_i: "@government_type_nomad!"
  game_concept_nomads: "Nomadi"
  game_concept_nomads_desc: "$game_concept_nomadic_desc$"

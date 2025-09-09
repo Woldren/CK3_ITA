@@ -19,5 +19,3 @@
  ACHIEVEMENT_DESC_mpo_confedup_achievement: "Forma una [confederation|E]"
  ACHIEVEMENT_mpo_shut_up_nerge_achievement: "Una Caccia e-Nerge-tica" # adattamento
  ACHIEVEMENT_DESC_mpo_shut_up_nerge_achievement: "Organizza una eccellente [GetActivityType( 'activity_hunt').GetName] di tipo Nerge"
- 
- 

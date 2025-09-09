@@ -464,7 +464,7 @@
  # Groups
  hunt_animal_group_herd:0 "mandria"
  hunt_animal_group_pack:0 "branco"
- hunt_animal_group_sloth:0 "pigrizia"  
+ hunt_animal_group_sloth:0 "bradipo"  
  hunt_animal_group_sounder:0 "branco di maiali selvatici"
  hunt_animal_group_skulk:0 "muta"
  hunt_animal_group_husk:0 "muta"

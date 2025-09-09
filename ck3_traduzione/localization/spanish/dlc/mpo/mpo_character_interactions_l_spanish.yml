@@ -1,11 +1,11 @@
 ﻿l_spanish:
  interrogate_interaction: "Interrogate"
- interrogate_interaction_desc: "Chiedere a [recipient.GetShortUIName|U] cosa sa della lettera misteriosa"
+ interrogate_interaction_desc: "Chiedi a [recipient.GetShortUIName|U] cosa sa della lettera misteriosa"
  interrogate_interaction_tt: "Potresti scoprire delle informazioni sulla lettera misteriosa"
  interrogate_interaction_recipient_tt: "Dovrà offrire una spiegazione"
  
  action_can_interrogate: "@icon_scheme_challenge_status! Puoi $interrogate_interaction$"
- action_can_interrogate_label: "@icon_scheme_challenge_status! You can $interrogate_interaction$ [recipient.GetShortUIName]"
+ action_can_interrogate_label: "@icon_scheme_challenge_status! Puoi $interrogate_interaction$ [recipient.GetShortUIName]"
  action_can_interrogate_desc: "Chiedi della lettera misteriosa."
  action_can_interrogate_click: "#I Clicca per visualizzare#!"
  action_can_interrogate_combined_group_name: "$action_can_interrogate$"
