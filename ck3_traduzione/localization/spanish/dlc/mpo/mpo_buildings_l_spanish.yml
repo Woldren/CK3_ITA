@@ -1,11 +1,11 @@
 ﻿l_spanish:
  
- building_type_nomadic_camp_01: "Nomadic Settlement"
- building_type_nomadic_camp_01_desc: "A cluster of yurts breaks the monotony of the steppe. Everything here can be packed and moved to a new and more fertile location."
+ building_type_nomadic_camp_01: "Insediamento Nomade"
+ building_type_nomadic_camp_01_desc: "Un gruppo di yurte rompe la monotonia delle Steppe. Tutto ciò che si trova qui può essere impacchettato e spostato in un luogo nuovo e più fertile."
  building_nomadic_camp_01: "$building_type_nomadic_camp_01$"
  building_nomadic_camp_01_desc: "$building_type_nomadic_camp_01_desc$"
 
- building_type_herder_camp_01: "Herder Pens"
- building_type_herder_camp_01_desc: "A couple of small yurts clench anxiously, surrounded by a makeshift wall made out of dirt and animal feces that shields the herd from the harsh wind and serves as a fuel source for the fire."
+ building_type_herder_camp_01: "Recinti dell'Allevatore"
+ building_type_herder_camp_01_desc: "Un paio di piccole yurte si stringono ansiose, circondate da un muro di fortuna fatto di terra e feci di animali che ripara la mandria dal vento impetuoso e serve come fonte di combustibile per il fuoco."
  building_herder_camp_01: "$building_type_herder_camp_01$"
  building_herder_camp_01_desc: "$building_type_herder_camp_01_desc$"

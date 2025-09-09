@@ -24,7 +24,7 @@
  travel_events_mpo.0010.b_flavor: "Con cosa potrebbe benedirmi Allah?"
  travel_events_mpo.0010.c: "I miei bisogni li prenderò con la forza."
  travel_events_mpo.0010.c_tt: "Tenti di rubare i beni di [camel_rider.GetNamePossessive]"
- travel_events_mpo.0010_win: "Sconfiggi"
+ travel_events_mpo.0010_win: "L[camel_rider.Custom('DE_END_PRO_S_N')] Sconfiggi"
  travel_events_mpo.0010_lose: "[camel_rider.GetSheHe|U] a la meglio su di te"
 
  mpo_islam_conversion_modifier: "Inchiesta islamica"
