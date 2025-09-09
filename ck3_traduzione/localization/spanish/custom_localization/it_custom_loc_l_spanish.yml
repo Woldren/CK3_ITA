@@ -1104,4 +1104,4 @@
 #              [Select_CString(Or(first.IsLocalPlayer, second.IsLocalPlayer),'avete', 'hanno')] mangiato bene
 
 # Codice Nome e Cognome = [ROOT.Char.GetFirstNameNoTooltip] [ROOT.Char.GetHouse.GetNameNoTooltip] (ossia nome e casata)
-
+# Si possono usare gli operatori logici Or(condizione1, condizione2) e And(condizione1, condizione2) 
