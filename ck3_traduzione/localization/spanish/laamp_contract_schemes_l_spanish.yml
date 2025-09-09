@@ -50,7 +50,7 @@
 
  laamp_base_0011_contract_scheme: "Migliora la Reputazione del Sovrano"
  laamp_base_0011_contract_scheme_action: "Migliora la Reputazione di"
- laamp_base_0011_contract_scheme_desc: "Un [contractor|E] trova carente la propria posizione: o il suo nome è infangato, o ci sono troppi [vassals|E] che lo odiano, o semplicemente gli manca il [prestige|E] per giustificare ciò che desidera. Ciò di cui ha bisogno è una terza parte "neutrale" che lo aiuti a... #EMP rafforzare#! la sua reputazione.$laamp_contract_scheme_desc_general_boilerplate$"
+ laamp_base_0011_contract_scheme_desc: "Un [contractor|E] trova carente la propria posizione: o il suo nome è infangato, o ci sono troppi [vassals|E] che lo odiano, o semplicemente gli manca del [prestige|E] per giustificare ciò che desidera. Ciò di cui ha bisogno è una terza parte "neutrale" che lo aiuti a... #EMP rafforzare#! la sua reputazione.$laamp_contract_scheme_desc_general_boilerplate$"
  laamp_base_0011_contract_scheme_desc_general: "$laamp_base_0011_contract_scheme_desc$"
  laamp_base_0011_contract_scheme_desc_success: "$laamp_contract_scheme_desc_success_boilerplate$"
  laamp_base_0011_desc_title: "Si cercano emissari eloquenti,"
