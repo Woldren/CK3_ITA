@@ -149,7 +149,7 @@
  hunt.skull_tt:3 "Riceveranno un teschio di [activity.Custom('GetAnimalType')] come [court_artifact|E]"
  hunt.trinket_tt:1 "Riceveranno un ninnolo di [activity.Custom('GetAnimalType')] come [artifact|E]"
  hunt_location_no_game_tt:0 "Non c'è una selvaggina adatta in questa contea"
- activity_every_attendee_tt:2 "Tutti I partecipanti all'attività [activity.GetShortName]"
+ activity_every_attendee_tt:2 "Tutti I partecipanti all'attività [activity.GetShortName]" #controllare_modifica
  hunt_every_hunter_attendee_tt:0 "Tutti I partecipanti [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]" #da controllare
  every_other_attendee_tt:0 "Ogni altro [activity_guest|E]"
  hunt_ends_tt:2 "La [GetActivityType('activity_hunt').GetName] termina"
@@ -348,8 +348,8 @@
  hunt_completed_host_xp_log_title:0 "Esperienza acquisita"
  hunt_completed_host_xp_log:0 "[CHARACTER.GetShortUIName|U] ha acquisito una significativa esperienza di caccia"
 
-  # Animals
-  # Pursuit
+ # Animals
+ # Pursuit
  animal_type_antelope:0 "antilope"
  animal_type_antelope_plural:0 "antilopi"
  animal_type_gazelle:0 "gazzella"
@@ -695,7 +695,7 @@
  hunt_success_memory_desc_second_perspective: "Hai partecipato alla fruttuosa [GetActivityType('activity_hunt').GetName] organizzata da [host.GetTitledFirstName]  di un/una [SCOPE.Custom('GetAnimalType')] a [ROOT.Var('location').Province.GetBaronyNameExplicitly]"
  hunt_success_memory_desc_host_third_perspective: "[owner.GetTitledFirstName] ha organizzato una fruttuosa [GetActivityType('activity_hunt').GetName] di un/una [SCOPE.Custom('GetAnimalType')] a [ROOT.Var('location').Province.GetBaronyNameExplicitly]"
  hunt_success_memory_desc_third_perspective: "[owner.GetTitledFirstName] ha partecipato alla fruttuosa [GetActivityType('activity_hunt').GetName] organizzata da [host.GetTitledFirstName] di un/una [SCOPE.Custom('GetAnimalType')] a [ROOT.Var('location').Province.GetBaronyNameExplicitly]"
-
+ 
  adventurer_3_courtiers: "Ti servono almeno #V 3#! [followers|E] capaci di cacciare"
  activity_huntmaster_desc_adventurer: "[GetCourtPositionType('huntperson_camp_officer').GetNameNoTooltip()]"
  activity_huntmaster_desc_regular: "Maestro della Caccia"

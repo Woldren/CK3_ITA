@@ -21,7 +21,7 @@
  hold_court.3010.t:0 "Un Insolito Predicatore"
  hold_court.3010.desc.opening:0 ""[ROOT.Char.Custom2('RelationToMeAddress', religious_vassal)|U]", la voce [religious_vassal.Custom('REL_TO_ME3')][religious_vassal.GetTitledFirstNamePossessive] è severa. "Chiedo di avviare un'indagine su un famigerato predicatore che si trova a [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. Vedete, questo predicatore è... be'... "
  hold_court.3010.desc.preacher_gender:0 "È un[unconventional_preacher.Custom('DE_PRO_POS_P_2P')] #EMP [unconventional_preacher.GetWomanMan]!#! "
- #hold_court.3010.desc.preacher_marriage: "Il problema con questo predicatore è che è sposat[unconventional_preacher.Custom('DE_END_PRO_S_N')] con qualcun altro a parte [ROOT.Char.GetFaith.HighGodName]!"
+ #hold_court.3010.desc.preacher_marriage: "The problem with this preacher is that [unconventional_preacher.GetSheHe] married to someone else than [ROOT.Char.GetFaith.HighGodName]!" 
  hold_court.3010.desc.closing:0 "Questa cosa non è in accordo con la nostra fede!"\n\n[tolerant_vassal.Custom('DE_ART_DEF_P_D')] [tolerant_vassal.GetTitledFirstName] interviene nel discorso di [religious_vassal.GetFirstNamePossessiveNoTooltip] alzando una mano e facendo un passo avanti. "[ROOT.Char.Custom2('RelationToMeAddress', tolerant_vassal)|U], sebbene l'affermazione di [religious_vassal.GetFirstNameNoTooltip] sia corretta, quello è #EMP l'unico#! difetto di quest[unconventional_preacher.Custom('DE_END_PRO_S_N')] predica[unconventional_preacher.Custom('DE_END_NOU_S_GS_N')]. Ogni cosa che [unconventional_preacher.Custom('DE_ART_IND_A')] insegna è in accordo con la nostra fede.""
  hold_court.3010.a:1 "[Select_CString(unconventional_preacher.IsFemale,'Questa predicatrice','Questo predicatore')] deve unirsi alla mia corte!"
  hold_court.3010.b:1 "Fate sparire [Select_CString(unconventional_preacher.IsFemale,'questa predicatrice','questo predicatore')] dalla mia vista!"
@@ -39,7 +39,7 @@
  3020_multicultural_monument_desc: "Un importante monumento culturale è stato recentemente rinnovato per includere elementi di un'altra cultura, sfumando le linee che dividono le due culture.\n\n#P +10%#! Velocità di Conversione Culturale"
  3020_own_culture_monument: "Monumento Dominante"
  3020_own_culture_monument_desc: "Un importante monumento culturale è stato recentemente abbattuto e sostituito con uno appartenente a un'altra cultura, sconvolgendo i locali e sfidando la loro identità culturale.\n\n#P +10%#! Velocità di Conversione Culturale"
- 
+
  hold_court.3030.t:0 "Restaurazione del Monumento"
  hold_court.3030.desc:0 "Davanti a me vi è un[different_culture_peasant.Custom('DE_PRO_POS_P_2P')] contadin[different_culture_peasant.Custom('DE_END_PRO_S_N')], che sta informando la corte della sua supplica.\n\n"La recente guerra ha avuto ripercussioni sulle campagne, e non siamo sicuri di chi sia stato il colpevole, ma hanno saccheggiato un importante sito culturale per noi [different_culture_peasant.GetCulture.GetCollectiveNounNoTooltip] di [province.GetName]. Per favore, vi supplichiamo, risparmiate un po' delle vostre risorse così da poterlo vedere restaurato!"\n\n[different_culture_peasant.Custom('DE_ART_DEF_P_D')] contadin[different_culture_peasant.Custom('DE_END_PRO_S_N')] termina la sua richiesta con un goffo inchino, un chiaro segno del suo status di bassi natali."
  hold_court.3030.a:0 ""Devi ricevere i fondi necessari alla restaurazione.""
@@ -54,7 +54,7 @@
  hold_court.3040.d:0 "Questo NON è un mercato di contadini! Un giullare non ha posto in questa corte!"
  hold_court.3040.e:0 "Forse esaminerò la cosa un'altra volta."
  generic_cp_discount_tt: "Dare un impiego per questa  [court_position|E] costerà il #P 50%#! in meno"
- 
+
  hold_court.3060.t:0 "Affrontare la Corruzione"
  hold_court.3060.desc.opening:0 "([county_petitioner.Custom('DE_ART_DEF_P_D')]) mi[county_petitioner.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('county_petitioner'))], [county_petitioner.Custom('DE_ART_DEF_P_A')] [county_petitioner.GetTitledFirstName], [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('county_petitioner'))] prima di farsi avanti per esporre la sua richiesta. "[ROOT.Char.Custom2('RelationToMeAddress', county_petitioner)|U], necessito del vostro aiuto per combattere il problema "
  hold_court.3060.desc.thieves:0 "dei ladri che stanno derubando la gente di [corrupt_county.GetNameNoTier]!"
@@ -71,7 +71,7 @@
  hold_court.3060.c:1 "Ahimè, la tesoreria è quasi vuota."
  hold_court.3060.d:0 "Il mio [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('cp_steward_replacement'))], [cp_steward_replacement.GetFirstName], sarebbe un Amministratore migliore."
  every_low_county_control: "Ogni [county|E] del [realm|E] con 33 di [control|E] o meno"
- 
+
  hold_court.3080.t:0 "Esibire la Collezione di [ROOT.GetCharacter.GetTitledFirstNamePossessive]"
  hold_court.3080.desc:0 "Il mio [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('antiquarian'))], [antiquarian.GetTitledFirstName], si avvicina a me come se avesse una molla sotto ai piedi.\n\n"[ROOT.Char.Custom2('RelationToMeAddress', antiquarian)|U]!" dice [antiquarian.GetFirstNameNoTooltip], molto emozionat[antiquarian.Custom('DE_END_PRO_S_N')]. "Ho una grande idea che potrebbe portarvi soldi o fama! Avete accumulato una bella collezione di manufatti, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], dunque perché non metterli in mostra? Potresti chiedere un pagamento per verdere la tua collezione, oppure potresti farla vedere gratuitamente così che più persone la vedano."\n\n[antiquarian.GetSheHe|U] si schiarisce la voce prima di continuare, "La gente ha la tendenza a volere le cose che vede, quindi il lato negativo potrebbe essere che più persone cercheranno di rivendicare i tuoi manufatti.""
  hold_court.3080.a:0 "Voglio che la gente paghi per essere testimone solo di uno scorcio della mia gloria!"

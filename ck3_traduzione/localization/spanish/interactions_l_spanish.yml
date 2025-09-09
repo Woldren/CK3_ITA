@@ -35,7 +35,7 @@
  NOMEN_ANSWER_DESC:0 "Sarà rifiutata a causa del trucco 'nomen'"
  BASE_RELUCTANCE:0 "Riluttanza: $VALUE|+0$"
  INTERACTION_COST:0 "Costo:"
- 
+
  # Custom Character Sorting Options
  candidate_score_sort_name: "$game_concept_candidate_score$"
  governor_efficiency_sort_name: "$game_concept_governor_efficiency$"
@@ -67,7 +67,7 @@
 
  start_bribe:0 "Inizia a Corrompere"
  end_bribe:0 "Termina Corruzione"
- 
+
  snoop_around_court:0 "Curiosare per la Corte"
  end_scheme:0 "#D Termina Complotto#!"
  lower_scheme_secrecy:0 "#D Minor Segretezza del Complotto#!"
@@ -259,7 +259,7 @@
  recipient_secondary_educate_child_interaction:0 "[ward|E]"
  educate_child_interaction_notification:0 "Educa Bambino"
 
- 
+
  offer_ward_interaction:0 "Offri un Pupillo"
  offer_ward_interaction_desc:0 "Offri a [recipient.GetShortUIName] un [ward|E], rendendo [recipient.GetSheHe], o qualcuno alla sua [court|E], il [guardian|E] del bambino scelto"
  offer_ward_interaction_extra_icon:0 "$hook_extra_icon$"
@@ -368,12 +368,12 @@
  IS_ALLOWED_TO_REVOKE_VASSAL_DESC:1 "[recipient.GetShortUIName|U] [Select_CString( actor.IsLocalPlayer, 'sono', 'è' )] un noto [criminal|E] #weak ([recipient.GetRevokeReasons( actor.Self )])#!, il che permette di revocare un [Select_CString( recipient.IsLocalPlayer, 'tuo', recipient.GetHerHis )] [vassals|E] senza essere visto come un [tyrant|E]"
  IS_ALLOWED_TO_REVOKE_TITLE_FOR_CLAIM_DESC:1 "Hai una [claim|E] sul [title|E], il che ti permette di revocarlo senza essere visto come un [tyrant|E]"
  IS_ALLOWED_TO_REVOKE_EVIL_INFIDEL_TITLE:1 "Siccome consideri i fedeli [recipient.GetFaith.GetAdherentNamePlural] $hostility_evil_tooltippable$, puoi revocare i titoli di [recipient.GetShortUIName] senza che gli altri ti vedano come un [tyrant|E]."
- IS_ALLOWED_TO_REVOKE_ADMIN_GOVERNMENT: "Siccome [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei', 'è' )] un [governor|E], [CHARACTER.GetShortUIName] può revocare i [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tuoi', 'suoi' )] titoli senza essere visto come un [tyrant|E]"
  IS_ALLOWED_TO_REVOKE_HOSTILE_INFIDEL_TITLE:0 "Siccome consideri i fedeli [recipient.GetFaith.GetAdherentNamePlural] $hostility_hostile_tooltippable$, puoi revocare i titoli di [recipient.GetShortUIName] senza che gli altri ti vedano come un [tyrant|E]."
  IS_ALLOWED_TO_REVOKE_EVIL_INFIDEL_VASSAL:0 "Siccome consideri i fedeli [recipient.GetFaith.GetAdherentNamePlural] $hostility_evil_tooltippable$, puoi revocare i vassalli di [recipient.GetShortUIName] senza che gli altri ti vedano come un [tyrant|E]."
  IS_ALLOWED_TO_REVOKE_HOSTILE_INFIDEL_VASSAL:0 "Siccome consideri i fedeli [recipient.GetFaith.GetAdherentNamePlural] $hostility_hostile_tooltippable$, puoi revocare i vassalli di [recipient.GetShortUIName] senza che gli altri ti vedano come un [tyrant|E]."
+ IS_ALLOWED_TO_REVOKE_ADMIN_GOVERNMENT: "Siccome [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei', 'è' )] un [governor|E], [CHARACTER.GetShortUIName] può revocare i [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tuoi', 'suoi' )] titoli senza essere visto come un [tyrant|E]"
  INFIDEL_REVOCATION_OPINION:0 "Ogni vassallo [recipient.GetFaith.GetAdjective]"
- #[GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V] solo""
+ #[GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V] only""
  IS_ALLOWED_TO_REVOKE_TITLE_BARONY_DESC:0 "Revocare [baronies|E] non comporta [tyranny|E]"
  IMPRISONMENT_RELATIVES_EFFECT_DUNGEON:1 "I membri della [family|E] di [THIS.GetCharacter.GetShortUINamePossessive|U] che non sono [close_family|E] di [imprisoner.GetShortUIName] perdono #N 30#! di [opinion|E] nei confronti di [CharYouHerHim(imprisoner)]"
  IMPRISONMENT_RELATIVES_EFFECT_HOUSE_ARREST:1 "I membri della [family|E] di [THIS.GetCharacter.GetShortUINamePossessive|U] che non sono [close_family|E] di [imprisoner.GetShortUIName] perdono #N 15#! di [opinion|E] nei confronti di [CharYouHerHim(imprisoner)]"
@@ -383,7 +383,7 @@
  CANNOT_DEMAND_CONVERSION_FROM_RELIGIOUS_HEAD:1 "Non puoi Richiedere la Conversione di un [head_of_faith|E]"
  CANNOT_DEMAND_HOLY_ORDER_MASTER_CONVERSION:0 "Non puoi Richiedere la Conversione del Capo di un [holy_order|E]"
  CANNOT_DEMAND_CONVERSION_FROM_UNSUBORDINATE_LANDED_RULER:0 "Non puoi richiedere la Conversione di un [ruler|E] che non è un tuo [vassal|E]"
- 
+
  RELEASE_RENOUNCE_CLAIMS:0 "Rinuncia alle [claims|E]"
  RELEASE_RENOUNCE_CLAIMS_DESC:0 "[recipient.GetShortUIName] perde tutte le [claims|E] sui Titoli nel tuo Reame"
  RELEASE_RENOUNCE_CLAIMS_CONDITION:0 "[CHARACTER.GetShortUIName] non ha [claims|E] su Titoli nel tuo Reame a cui [renounced|E]"
@@ -703,7 +703,7 @@
  I_AM_WAGING_AN_OFFENSIVE_HOLY_OR_EXCOMMUNICATION_WAR:0 "Stai combattendo una [holy_war|E] offensiva o una guerra di [excommunication|E]: $VALUE|=+0$"
  I_AM_ATTACKING_A_CORELIGIONIST:0 "Stai combattendo una guerra contro qualcuno della tua stessa [faith|E]: $VALUE|=+0$"
  ASK_FOR_GOLD_OVERFLOWING_COFFERS:0 "Tesoro considerevole: $VALUE|=+0$"
- 
+
  hof_ask_for_claim_interaction:0 "Domanda Rivendicazione"
  hof_ask_for_claim_interaction_extra_icon:0 "$hook_extra_icon$"
  hof_ask_for_claim_interaction_desc:0 "Presenta una petizione a [recipient.GetShortUIName] per concederti una [claim|E] su un [title|e], in cambio di [piety|E]"
@@ -734,7 +734,6 @@
  ask_for_conversion_courtier_interaction_extra_icon:0 "$hook_extra_icon$"
  ask_for_conversion_courtier_interaction.tt:0 "Il [recipient.Custom('GetCourtier')|U] accetta la Conversione"
  ask_for_conversion_decline_notification:0 "[recipient.GetShortUINameNoTooltip] rifiuta la Conversione"
- 
  ASK_FOR_CONVERSION_RECIPIENT_INTRIGUE: "Differenza tra l’[intrigue_skill|E] di [recipient.GetShortUINamePossessive] e la tua: $VALUE|=+0$" 
  ASK_FOR_CONVERSION_RECIPIENT_LEARNING:0 "Differenza tra l'[learning_skill|E] di [recipient.GetShortUIName] e la tua: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_DIPLOMACY:0 "Differenza tra la [diplomacy_skill|E] di [recipient.GetShortUIName] e la tua: $VALUE|=+0$"
@@ -742,7 +741,7 @@
  ASK_FOR_CONVERSION_CAN_CREATE_CADET_BRANCH:0 "[recipient.GetShortUIName] è in grado di creare un [cadet_branch|E]: $VALUE|=+0$"
  IS_PROTECTED_VIA_CONTRACT:1 "Il contratto di [CHARACTER.GetShortUIName] vieta la conversione forzata"
  IS_PROTECTED_VIA_CONTRACT_SELF_OR_LIEGE:1 "Questo contratto di [vassals_possessive] protegge le loro terre dalla conversione"
- #ASK_FOR_CONVERSION_ACTOR_LEARNING:0 "La mia [learning_skill|E]: $VALUE|=+0$"
+ #ASK_FOR_CONVERSION_ACTOR_LEARNING:0 "My [learning_skill|E]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_FERVOR:0 "Differenza tra il [fervor|E] [recipient.GetFaith.GetAdjective|U] e quello [actor.GetFaith.GetAdjective|U]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_TAQIYA:1 "[recipient.GetFaith.GetAdjective|U] [core_tenet|E] — $tenet_temporal_condemnation_taqiya$: $VALUE|=+0$"
  ASK_FOR_CONVERSION_SANCTIONED_FALSE_CONVERSION:1 "[recipient.GetFaith.GetAdjective|U] [core_tenet|E] — $tenet_false_conversion_sanction_name$: $VALUE|=+0$"
@@ -774,6 +773,7 @@
  RELIGIOUS_HEAD_INTERACTION_PARAGON:0 "Sei il [GetTrait('paragon').GetName( GetPlayer )] di [actor.GetFaith.GetName]: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_CONSECRATED_BLOOD:0 "Hai [GetTrait('consecrated_blood').GetName( GetPlayer )]: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_UNPLEDGED_GHW:0 "Hai infranto la tua promessa a [actor.GetFaith.Custom('GHWName')]: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_CORONATION_BONUS: "[actor.GetShortUIName|U] have been anointed to proselytize: $VALUE|=+0$"
  demand_conversion_vassal_ruler_interaction:0 "Richiedi Conversione"
  demand_conversion_vassal_ruler_does_not_convert:0 "[recipient.GetShortUIName|U] non si converte"
  might_ask_for_something_in_return_warning:1 "@warning_icon! #X [recipient.GetShortUIName|U] potrebbe chiedere qualcosa in cambio#!"
@@ -909,11 +909,11 @@
 
  char_interaction.0002.desc:0 "Non ho bisogno della tua protezione e preferisco tenere per me le ricchezze del mio Regno."
  char_interaction.0002.a:0 "Dovrò esplorare altre opzioni..."
- 
+
  char_interaction.0010.opening:0 "[recipient.Custom2('AppropriateGreetingPositive', actor )]"
  char_interaction.0010.desc: "[actor.GetFirstName], penso che questo sia l'inizio di un bellissimo vassallaggio!"
  char_interaction.0010.a: "Mio signore!"
-
+ 
  char_interaction.0011.desc: "Sebbene io apprezzi la vostra offerta di fedeltà, non posso accettare."
  char_interaction.0011.a:0 "È un peccato."
 
@@ -927,7 +927,7 @@
 
  char_interaction.0040.desc:1 "Come Capo della Dinastia, con la presente ti denuncio come reprobo e vergogna per l'intera Dinastia [actor.GetDynastyName]!"
  char_interaction.0040.a:0 "Cosa? Perché!?"
- 
+
  char_interaction.0041.desc:0 "Il tuo comportamento [recipient.Custom('InsultBehavior')] e decadente getta vergogna su tutta la casata [actor.GetHouse.GetBaseName] — e come Capo della Casata ritengo sia mio dovere di informare il resto del clan dei tuoi modi [recipient.Custom('InsultAdjective')].\n\nPossa la luce di [actor.GetFaith.HighGodName] ricondurti su un cammino virtuoso... sebbene io ne dubiti."
  char_interaction.0041.a:0 "Calunnia!"
 
@@ -946,7 +946,7 @@
 
  char_interaction.0071.desc:2 "Questa lotta all'interno della Dinastia [actor.GetDynastyName] è inopportuna e deve finire immediatamente. Come Capo della Dinastia, ho ordinato a [recipient.GetFullName] di accettare una Pace Bianca con te."
  char_interaction.0071.a:0 "Te ne sono grat[ROOT.Char.Custom('DE_END_PRO_S_N')]!"
- 
+
  char_interaction.0078.desc_them:0 "Lo so che avevamo concordato che [ward.GetTitledFirstName] venisse educat[ward.Custom('DE_END_PRO_S_N')] da me, ma ecco come stanno le cose... sono già molto impegnat[ROOT.Char.Custom('DE_END_PRO_S_N')] con altri pupilli. Mi spiace."
  char_interaction.0078.desc:0 "Lo so che avevamo concordato che [ward.GetTitledFirstName] venisse educato da [guardian.GetTitledFirstName], ma ecco come stanno le cose... [guardian.GetSheHe|U] è già molto impegnato con altri guardiani. Mi spiace."
  char_interaction.0078.a:0 "Di tutti gli insulti...!"
@@ -963,13 +963,13 @@
 
  char_interaction.0081.desc:0 "Sfortunatamente, non troviamo di nostro gradimento l'accordo educativo proposto."
  char_interaction.0081.a:0 "Che peccato."
- 
+
  char_interaction.0082.t:0 "Un Mentore per Me"
  char_interaction.0082.intro:0 "[guardian.GetTitledFirstName] è finalmente arrivat[guardian.Custom('DE_END_PRO_S_N')] da [guardian_liege.GetPrimaryTitle.GetNameNoTierNoTooltip], caric[guardian.Custom('DE_END_PRO_S_N')] di tomi e pergamene."
  char_interaction.0082.desc.liege:0 "\n\n[guardian.Custom('DE_ART_IND_A')|U] mi informa che le lezioni di [ward.GetFirstNameNoTooltip] inizieranno a breve!"
  char_interaction.0082.desc:0 "\n\n[guardian.Custom('DE_ART_IND_A')|U] mi informa che le mie lezioni inizeranno a breve!"
  char_interaction.0082.a:0 "Molto bene."
- 
+
  char_interaction.0083.t:0 "Una Mente da Plasmare"
  char_interaction.0083.intro: "[Select_CString(ward.IsFemale, 'La', 'Il' )] Giovane [ward.GetTitledFirstName],"
  char_interaction.0083.not_related: "[ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))] di [ward_liege.GetTitledFirstName],"
@@ -981,8 +981,6 @@
 
  char_interaction.0084.desc:0 "Tu[ward.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('ward'))], [ward.GetTitledFirstName], è arrivat[ward.Custom('DE_END_PRO_S_N')] san[ward.Custom('DE_END_PRO_S_N')] e salv[ward.Custom('DE_END_PRO_S_N')] a [guardian_liege.GetPrimaryTitle.GetNameNoTierNoTooltip], ed io inizierò subito le sue lezioni."
  char_interaction.0084.a:0 "Molto bene."
- 
-
 
  char_interaction.0090.from_ward.desc:0 "Temo che la mia educazione alla tua corte non soddisfi più le mie esigenze. Ritornerò a [capital.GetNameNoTierNoTooltip] immediatamente."
  char_interaction.0090.two_wards.desc:0 "Temo che l'educazione di [ward.GetTitledFirstName] e [ward_2.GetTitledFirstName] alla tua corte non soddisfi più le nostre esigenze. Con ciò sono richiamati alla nostra cura."
@@ -999,7 +997,7 @@
 
  char_interaction.0120.desc:0 "Dopo le dovute considerazioni, ho deciso di farti diventare il mio erede legale. Non deludermi, perché non è troppo tardi per cambiare idea."
  char_interaction.0120.a:0 "È più che giusto !"
-                                                                                                                                          
+
  char_interaction.0130.a:0 "Un buon accordo."
 
  char_interaction.0131.opening:0 "[recipient.Custom2('AppropriateGreetingNegative', actor )]"
@@ -1011,7 +1009,7 @@
 
  char_interaction.0141.desc:0 "Trovo la tua offerta di riscatto piuttosto deludente. Penso che tratterò [secondary_recipient.GetShortUIName] per ora."
  char_interaction.0141.a:0 "Che sia maledett[actor.Custom('DE_END_PRO_S_N')] quel [actor.Custom('InsultAdjective')] [actor.Custom('InsultNoun')]!"
- 
+
  char_interaction.0150.desc:0 "Molto bene, ti libererò, anche se devo ammettere che mi sono affezionato alla tua compagnia."
 
  char_interaction.0151.desc:0 "Temo di dover rifiutare la tua offerta di riscatto. Dovrai sopportare ancora per un po' la mia ospitalità."
@@ -1021,7 +1019,7 @@
  char_interaction.0160.a.courtier:0 "Attent[recipient.Custom('DE_END_PRO_S_N')] a come ti muovi ora, [recipient.GetFirstNameNoTooltip]..."
 
  char_interaction.0161.desc:0 "Preferirei marcire nella tua prigione piuttosto che accettare le tue richieste irragionevoli."
- 
+
  char_interaction.0170.t:0 "Un Momento Difficile"
  char_interaction.0170.desc:0 "Sono stato svegliato nelle prime ore del mattino da due guardie insolite. Essendo stato condotto fuori, non avevo illusioni su ciò che stava per accadere. Mentre mi inginocchio davanti al boia di [actor.GetShortUIName], vivo un momento di serena e perfetta chiarezza."
  char_interaction.0170.desc_burned:0 "Proprio mentre finivo il mio misero pasto, la porta si spalancò con violenza e fui afferrato e malmenato fuori. Non sarà una morte facile per me: la pira è accesa e posso già sentire il calore sulle gambe. Un silenzio scende sulla folla mentre guarda i miei ultimi momenti, con un espressione instabile sui volti."
@@ -1098,12 +1096,12 @@
  marriage_interaction.0010.ending.a_actor_desc:0 "\n\nPossa [recipient.GetFaith.HighGodName] concedervi una vita lunga e molti figli!"
  marriage_interaction.0010.ending.a_recipient_desc:0 "\n\nPossa [recipient.GetFaith.HighGodName] concederci una vita lunga e molti figli!"
  marriage_interaction.0010.ending.a_both_desc:0 "\n\nPossa [recipient.GetFaith.HighGodName] concederci una vita lunga e molti figli, mi[secondary_actor.Custom('DE_END_PRO_S_N')] [secondary_actor.Custom('ComplimentAdjective')] [secondary_actor.Custom('WifeHusband')]!"
-# May HighGod bless the union 
+# May HighGod bless the union
  marriage_interaction.0010.ending.b_desc:0 "\n\nPossa [recipient.GetFaith.FertilityGodName] benedire la loro unione!"
  marriage_interaction.0010.ending.b_actor_desc:0 "\n\nPossa [recipient.GetFaith.FertilityGodName] benedire la vostra unione!"
  marriage_interaction.0010.ending.b_recipient_desc:0 "\n\nPossa [recipient.GetFaith.FertilityGodName] benedire la nostra unione!"
  marriage_interaction.0010.ending.b_both_desc:0 "\n\nPossa [recipient.GetFaith.FertilityGodName] benedire la nostra unione, mi[secondary_actor.Custom('DE_END_PRO_S_N')] [secondary_actor.Custom('ComplimentAdjective')] [secondary_actor.Custom('WifeHusband')]!"
- # Happy and fulfilling marriage
+# Happy and fulfilling marriage
  marriage_interaction.0010.ending.c_desc:0 "\n\nPossa la loro unione portare felicità e soddisfazione!"
  marriage_interaction.0010.ending.c_actor_desc:0 "\n\nPossa la vostra unione portare felicità e soddisfazione!"
  marriage_interaction.0010.ending.c_recipient_desc:0 "\n\nPossa la nostra unione portare felicità e soddisfazione!"
@@ -1151,7 +1149,7 @@
 
  marriage_interaction.0041.desc:0 "Ho rilasciato vostra [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('recipient'))] dalla mia prigione affinché serva come mia concubina."
  marriage_interaction.0041.a:0 "Che ripugnante demonio!"
- 
+
  marriage_interaction.0042.desc:0 "Ho deciso di darti a [recipient.GetTitledFirstName] come su[recipient.Custom('DE_END_PRO_S_N')] concubina."
  marriage_interaction.0043.desc_concubine:0 "Ho rilasciato [secondary_actor.Custom('DE_ART_DEF_P_A')] tu[secondary_actor.Custom('DE_END_PRO_S_N')] concubina dalla mia prigione affinché serva come concubina di [recipient.GetTitledFirstNamePossessive]."
  marriage_interaction.0043.desc_spouse:0 "Ho rilasciato tu[secondary_actor.Custom('DE_END_PRO_S_N')] [secondary_actor.Custom('WifeHusband')] dalla mia prigione affinché serva come concubina di [recipient.GetTitledFirstNamePossessive]."
@@ -1184,7 +1182,7 @@
  IS_PLEDGED_GHW_ATTACKER_TRIGGER:0 "Ha giurato fedeltà alla parte attaccante"
  GHW_DEFENDERS_STRENGTH_TRIGGER:0 "La Forza Militare dei Difensori"
  is_directed_ghw_trigger:0 "È una Grande Guerra Santa diretta"
- 
+
  hof_redirect_great_holy_war_interaction:0 "Proponi Obiettivo"
  recipient_secondary_hof_redirect_great_holy_war_interaction:0 "Obiettivo"
  hof_redirect_great_holy_war_interaction_desc:0 "Spendendo abbastanza [piety|E], un sovrano può convincere il leader della [actor.GetFaith.Custom('GHWName')] a prendere di mira un regno diverso durante la fase di preparazione."
@@ -1237,9 +1235,9 @@
  CHARCTER_HAS_A_WITCH_SECRET_NOT_KNOWN_BY_CHARACTER:0 "[CHARACTER.GetShortUIName|U] ha un [secret|E] Strega non conosciuto da [TARGET_CHARACTER.GetShortUIName]"
  HAS_A_WITCH_SECRET_KNOWN_BY_CHARACTER:0 "Ha un [secret|E] Strega conosciuto da [TARGET_CHARACTER.GetShortUIName]"
  convert_to_witch:0 "Converti alla Stregoneria"
- I_PROMISED_NOT_TO_REVEAL_SECRET:0 "Hai promesso di non rivelare il segreto"
  I_CANNOT_BLACKMAIL_ANOTHER_WITCH:1 "Non puoi ricattare un'altra [GetTrait('witch').GetName( CHARACTER.Self )] per essere una Strega"
  I_ALREADY_HAVE_A_SUPERIOR_HOOK:1 "Hai già un gancio superiore su [TARGET_CHARACTER.GetShortUIName]"
+ I_PROMISED_NOT_TO_REVEAL_SECRET:0 "Hai promesso di non rivelare il segreto"
  I_CANNOT_BLACKMAIL_OVER_MY_OWN_LOVER_SECRET:1 "Non puoi ricattare il tuo stesso Amante per quel [secret|E]"
  I_CANNOT_BLACKMAIL_OVER_MY_OWN_BASTARD:1 "Non puoi ricattare il tuo stesso [bastard|E]"
  CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER:0 "[CHARACTER.GetShortUIName|U] ha un [secret|E] Cripto-religioso conosciuto da [TARGET_CHARACTER.GetShortUIName]"
@@ -1264,7 +1262,7 @@
  torture_interaction_desc:1 "[torture|E] [recipient.GetShortUINameNoTooltip]"
  I_RECENTLY_TORTURED_SOMEONE:0 "Di recente hai torturato qualcuno"
  CHARACTER_WAS_RECENTLY_TORTURED:0 "[CHARACTER.GetShortUIName|U] è stato recentemente torturato"
- 
+
  torture_interaction_actor_effects.secrets.tt:0 "Potrebbe scoprire un [secret|E], se [recipient.GetShortUIName] ne ha o ne conosce uno"
 
  blind_interaction:0 "Acceca"
@@ -1336,6 +1334,10 @@
  I_AM_INCESTOUS: "Sono incestuos[ROOT.Char.Custom('DE_END_PRO_S_N')]: $VALUE|=+0$"
  THEY_ARE_INCESTOUS: "[secondary_recipient.GetShortUINameNoTooltip] is Incestous: $VALUE|=+0$"
  I_AM_MURDERER: "Sono un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] Assassin[ROOT.Char.Custom('DE_END_PRO_S_N')]: $VALUE|=+0$"
+ I_AM_SODOMITE: "I am a Sodomite: $VALUE|=+0$"
+ I_AM_DEVIANT: "I am a Deviant: $VALUE|=+0$"
+ I_AM_WITCH: "I am a Witch: $VALUE|=+0$"
+ I_AM_LIEGE_TOP_LIEGE: "I am [recipient.GetShortUINamePossessive] [liege|E] or [top_liege|E]: $VALUE|=+0$"
  THEY_ARE_MURDERER: "[secondary_recipient.GetShortUINameNoTooltip] è un[secondary_recipient.Custom('DE_PRO_POS_P_2P')] Assassin[secondary_recipient.Custom('DE_END_PRO_S_N')]: $VALUE|=+0$"
  I_AM_ADULTERER: "I am un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] Adulter[ROOT.Char.Custom('DE_END_PRO_S_N')] o Fornica[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]: $VALUE|=+0$"
  THEY_ARE_ADULTERER: "[secondary_recipient.GetShortUINameNoTooltip] è un[secondary_recipient.Custom('DE_PRO_POS_P_2P')] Adulter[secondary_recipient.Custom('DE_END_PRO_S_N')] o Fornica[secondary_recipient.Custom('DE_END_NOU_S_GS_N')]: $VALUE|=+0$"
@@ -1355,7 +1357,6 @@
  AI_INSPIRED:0 "[inspired|E]: $VALUE|=+0$"
  AI_SPONSORED_INSPIRATION:0 "[inspiration|E] Finanziata: $VALUE|=+0$"
  WASTREL_ACCOLADE_BONUS:0 "Il tuo [acclaimed_knight|E] fa sembrare allettante la vita a corte: $VALUE|=+0$"
- 
 
  #Send child to holy order
  take_vows_interaction:0 "Chiedi di Prendere i Voti"
@@ -1364,7 +1365,7 @@
  not_rival_leader_check:1 "[CHARACTER.GetSheHe|U] è un Rivale del leader dell'Ordine Sacro"
  character_will_leave_court_holy_order:0 "Lascerà la corte di [actor.GetTitledFirstNameNoTooltip] per un Ordine Sacro"
  take_vows_interaction_extra_icon:0 "$hook_extra_icon$"
- 
+
  send_to_holy_order_interaction:0 "Chiedi di entrare in un Ordine Sacro"
  send_to_holy_order_interaction_extra_icon:0 "$hook_extra_icon$"
  send_to_holy_order_interaction_desc:0 "Chiedi a [recipient.GetShortUINameNoTooltip] di prendere i voti e entrare a far parte di un Ordine Sacro"
@@ -1376,7 +1377,6 @@
 
  perk_alliance_interaction:0 "Proporre Alleanza"
  perk_alliance_interaction_extra_icon: "$hook_extra_icon$"
- 
  perk_alliance_interaction_desc:0 "Usa strategicamente la diplomazia per forgiare un'alleanza con [recipient.GetTitledFirstNameNoTooltip] — non con il sangue, ma con le parole!"
 
 
@@ -1469,7 +1469,7 @@
  tribalize_holding_interaction: "Tribalize Holding"
  tribalize_holding_interaction_desc: "$feudalize_holding_interaction_desc$"
  tribalize_holding_interaction_notification: "Holding Tribalized"
-
+ 
  support_feudalize_tribal_holding_interaction: "Aiuta lo Sviluppo Tribale"
  support_feudalize_tribal_holding_interaction_desc: "Aiuta [recipient.GetShortUIName] a sviluppare la sua terra [tribal|E] e trasforma uno dei suoi [holdings|E] [Concept( 'tribal', 'tribali' )|E] in un [castle|E]"
 
@@ -1491,6 +1491,7 @@
  NOT_character_can_not_target_self:1 "Non puoi avere come bersaglio te stesso"
 
 
+
  #Sun Trial
  sun_trial_interaction:0 "Prova del Sole"
  sun_trial_interaction.success.tt:0 "[recipient.GetTitledFirstName] muore nel sole"
@@ -1507,7 +1508,7 @@
  literalist_debate_timing:1 "Non hai preso parte a un dibattito di recente"
  not_literalist_debate_timing:0 "Di recente hai preso parte a un dibattito"
 
-#Exaltation of Pain
+ #Exaltation of Pain
  revel_in_pain_interaction: "Revel in Carnal Pain"
  revel_in_pain_interaction_desc: "You and [recipient.GetShortUIName] attempt to reach transcendence by adhering to the [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName]"
  REVEL_IN_PAIN_INTERACTION_NOTIFICATION: "The time has come. Let us embrace the [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] and reach higher levels of transcendence together."
@@ -1545,7 +1546,7 @@
  SEND_DEMAND:0 "Invia Richiesta"
 
  modify_vassal_contract_interaction_SEND:1 "Modifica il Contratto del Vassallo"
- 
+
  char_interaction.0250.desc:1 "[actor.Custom2('PositiveSupplimentaryGreeting', recipient)]\nMi dispiace informarti che ho deciso di aumentare i tuoi obblighi contrattuali.\n\nComprenderai di certo la mia situazione, [actor.GetPrimaryTitle.GetNameNoTierNoTooltip] ha un disperato bisogno di protezione e il tuo contributo gioca un ruolo enorme.\n\nE, oltretutto, tu #emphasis me lo devi!#!"
  char_interaction.0250.a:0 "Sembra che io abbia poca scelta..."
  char_interaction.0251.desc:1 "[actor.Custom2('PositiveSupplimentaryGreeting', recipient)]\nSono stato un buon vassallo per voi, ma di certo capite che ho anche io i miei sudditi!\n\nIl mio attuale contratto è molto restrittivo, di certo converrete che sarebbe una scelta saggia renderlo più permissivo.\n\nE, oltretutto, voi #emphasis me lo dovete!#!"
@@ -1566,7 +1567,7 @@
  claim_throne_interaction_toast:0 "Complotta per Rivendicare il Trono"
  fabricate_hook_interaction_toast:0 "Fabbricazione di un Gancio"
  deposed_and_become_wanderer:0 "[recipient.GetShortUINameNoTooltip] è [deposed|E] e diventa un [wanderer|E]"
- 
+
  IS_CHARACTER_INTERACTION_VALID_TRIGGER:0 "L'interazione con i personaggi è valida"
  IS_CHARACTER_INTERACTION_POTENTIALLY_ACCEPTED_TRIGGER:0 "L'interazione con i personaggi può potenzialmente essere accettata"
 
@@ -1574,9 +1575,9 @@
  TAKE_VOWS_INTERACTION_MARTIAL_EDUCATION:0 "ha un [education_trait|E] [martial|E] e può unirsi ad un [holy_order|E]"
 
  release_pow_at_end_of_war:1 "I [valuable_prisoners|EU] presi da tutti i partecipanti alla guerra verranno rilasciati."
- 
+
  mpo_retrieve_land_migration_tt: "$ra_migration_1$ $recipient_secondary_hof_ask_for_gold_interaction$"
- 
+
  INTERACTION_MARTIAL_EDUCATION:0 "[recipient.GetSheHe|U] ha una [education|E] [martial|E]: $VALUE|=+0$"
  INTERACTION_CRAVEN:0 "[GetTrait('craven').GetName( recipient )]: $VALUE|=+0$"
  INTERACTION_BRAVE:0 "[GetTrait('brave').GetName( recipient )]: $VALUE|=+0$"
@@ -1608,8 +1609,7 @@
 
  INTERACTION_ACTOR_INTRIGUE: "[intrigue_i][intrigue|E] di [actor.GetShortUIName|U]: $VALUE|=+0$"
  INTERACTION_RECIPIENT_INTRIGUE: "[intrigue_i][intrigue|E] di [recipient.GetShortUIName|U]: $VALUE|=+0$"
- 
- 
+
  gift_artifact_interaction:0 "Regala Manufatto"
  gift_artifact_interaction_desc:0 "Dai un manufatto a [recipient.GetShortUINameNoTooltip] per aumentare la sua opinione su di te"
  gift_artifact_interaction_notification:0 "Manufatto Regalato"
@@ -1746,6 +1746,7 @@
  court_amenities_interactions.0004.desc:0 "sembra che la violazione della legge di [victim.GetNameNoTooltip] sia un crimine punibile nella misura massima della legge di [debate_locale.GetNameNoTierNoTooltip]! Questo significa che potrei imprigionare [victim.GetNameNoTooltip]! Anche se questo non è il risultato che mi aspettavo, certamente mi mette in una posizione di forza!"
  court_amenities_interactions.0004.a:0 "Forse sorvolerò su questa violazione, per un favore..."
  court_amenities_interactions.0004.b:0 "Starebbe meglio con gli stracci della prigione!"
+
  make_child_learn_language_interaction:0 "Fai Studiare la Lingua al Bambino"
  make_child_learn_language_interaction_desc:0 "Fai iniziare a tuo [child|E] un [scheme|E] [GetScheme('learn_language').GetTypeName] contro uno dei tuoi [courtiers|E] o [vassals|E], con l'assistenza del tuo [GetCourtPositionType('court_tutor_court_position').GetName()]"
  study_language:0 "Studiare la Lingua"
@@ -1789,8 +1790,7 @@
  artifact_gift_useless_banner_tt:0 "@warning_icon! #X [house|E] non correlata o stendardo della [dynasty|E]#!"
  artifact_gift_claimed_tt:0 "#positive_value [recipient.GetTitledFirstName] ha una [artifact_claim|E] su [target.GetName]#!"
  can_be_granted_titles_interaction_tt:0 "[recipient.Custom('DE_PRO_DEM')|U] [recipient.GetWomenMen|U] devono essere un genere dominante, paritario o clericale all'interno della tua [faith|E] ([actor.GetFaith.GetName])"
- #AGGIORNAMENTO 1.9.0
- 
+
  diarch_imprison_reason_for_player.tt:1 "@portrait_punishment_icon! #weak Crimine — Sei autorizzato a imprigionare legittimamente [recipient.GetShortUIName], se se ne presenta l'occasione#!"
 
  char_interaction.0261.desc:0 "In virtù dell'autorità conferitami [intermediary.Custom('IT_NAM_COL5')][intermediary.GetTitledFirstName], con il presente atto vi spoglio del vostro illegittimo titolo di [landed_title.GetName]. Dovete cedere a me il titolo, in custodia per conto della Corona, con effetto immediato."
@@ -1893,6 +1893,7 @@
  msg_remove_migration_cb_invalidated_message: "[defender.GetShortUIName] is no longer [GetGovernment( 'nomad_government' ).GetName]"
 
  AI_GUARDIAN_FEUD_HESITANCE:0 "Non darà un bambino a una [house|E] [Concept( 'house_feud', 'nemica' )|E]: $VALUE|=+0$" 
+
  DIARCH_SHOULD_EDUCATE_DIARCH_TO_LIEGE:0 "Appropriato come [regent|E]"
  DIARCH_SHOULD_EDUCATE_LIEGE_TO_DIARCH:0 "Responsabilità da [regent|E]"
 
@@ -1900,7 +1901,7 @@
  destroy_artifact_interaction_desc:0 "Questo manufatto verrà distrutto"
 
  interactions_general.tt.must_select_one_option:0 "Devi selezionare almeno una opzione"
- 
+
  AI_REASON_LEGITIMIST_HIGHER_PRESTIGE: "Il tuo [prestige_level|E] è più alto di quello dell'Usurpatore: $VALUE|=+0$" 
 
  find_suitable_accolade_successor_interaction:0 "Cerca un Degno Successore per Encomio"
@@ -1912,7 +1913,6 @@
  adoption.0001.a: "Ti prego, chiamami "[actor.Custom('GetMumDad')].""
  adoption.0002.desc: "Accetto la vostra offerta di adozione. Sono orgoglioso di definirmi un membro della Dinastia [actor.GetDynasty.GetBaseName], e prometto che guiderò [actor.GetPrimaryTitle.GetName] alla gloria!"
  adoption.0002.a: "Ho un buon presentimento al riguardo."
-
 
  ward_invalidated_during_travel_title:0 "Pupillo Invalidato"
  guardian_invalidated_during_travel_title:0 "Tutore Invalidato"
@@ -1933,7 +1933,7 @@
  ward_nearing_adulthood_tt:0 "@warning_icon! #X [TARGET_CHARACTER.GetShortUIName] presto sarà un[TARGET_CHARACTER.Custom('DE_PRO_POS_P_2P')] adult[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')]#!"
  ward_travelling_tt:0 "[THIS.Char.GetShortUIName|U] sta viaggiando per diventare un [ward|E]"
  guardian_travelling_tt:0 "[THIS.Char.GetShortUIName|U] sta viaggiando per diventare un [guardian|E]"
- 
+
  offer_vassalization_interaction_aibehavior_rival_tt_2:0 "[secondary_recipient.GetSheHe|U] è [secondary_recipient.Custom('DE_ART_DEF_P_A')] tu[secondary_recipient.Custom('DE_END_PRO_S_N')] [rival|E]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_nemesis_tt_2:0 "[secondary_recipient.GetSheHe|U] è la tua [nemesis|E]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_dynasty_tt_2:0 "[secondary_recipient.GetSheHe|U] appartiene alla tua [dynasty|E]: $VALUE|=+0$"
@@ -1966,7 +1966,7 @@
 
  distrust_laamps_for_marriage_tt: "[actor.GetGovernment.GetName|E]: $VALUE|=+0$"
  laamp_has_soldiers_negotiate_settlement_tt: "$SORT_MILITARY_STRENGTH$: $VALUE|=+0$"
-
+ 
  # MPO
  migration_interaction: "Migrate"
  migration_interaction_desc: "As a [GetGovernment( 'nomad_government' ).GetName] [ruler|E] you should [migrate|E] if your [domain_fertility|E] is low.\n\n[realms|E] with a large [domain|E] and high [dominance|E] no longer need to Migrate, as their [fertility_equilibrium|E] will be high enough to support growth.\n\n#I Click to plan a [migration|E]#!"
@@ -2048,7 +2048,7 @@
  ALLY_MILITARY_POWER_REASON: "Military Power including Allies: $VALUE|0+=$"
  DIPLOMACY_NOT_A_THREAT_REASON: "Not considered threatening: $VALUE|0+=$"
  DIPLOMACY_FRIEND_REASON: "Friendly diplomatic stance: $VALUE|0+=$"
-
+ 
  REFILL_MAA_AT_WAR_TT: "You are in hostile territory"
 
  nomad_title_name_001: "$nomad_title_name$"

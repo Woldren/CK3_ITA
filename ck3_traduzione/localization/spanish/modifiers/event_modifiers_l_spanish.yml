@@ -153,7 +153,7 @@
  football_cup:0 "Coppa di Calcio"
  participation_trophy:0 "Trofeo di Partecipazione"
  perfume_bottle:0 "Profumo di [ROOT.Char.GetFirstName]"
- 
+
  crushing_charge_modifier:0 "Carica Schiacciante"
  church_burner_modifier:0 "Bruciatore di Luoghi di Culto"
  war_guilt_modifier:0 "Senso di Colpa per la Guerra"
@@ -219,7 +219,7 @@
  respect_for_the_dead_modifier_desc:0 "Questo personaggio è noto per rispettare le pratiche di sepoltura dei regni stranieri"
  phallic_mountain_modifier:0 "Montagna dal Nome Suggestivo"
  phallic_mountain_modifier_desc:0 "Un'intera montagna è stata soprannominata come il fallo di questo personaggio. Il mondo si interroga sulla verità delle voci."
- 
+
  performance_enhancers_modifier:0 "Pozione per Migliorare le Prestazioni"
  performance_enhancers_modifier_desc:0 "Questo personaggio ha ottenuto un liquido che aumenta le sue capacità fisiche"
  footballer_modifier:0 "Calciatore di Talento"
@@ -239,4 +239,3 @@
 
  artifact_physician_aptitude_1_modifier: "Collezione di medicina"
  artifact_physician_aptitude_1_modifier_desc: "Questo manufatto incrementa l'[aptitude|e] di [GetCourtPositionType('court_physician_court_position').GetName()]."
- 

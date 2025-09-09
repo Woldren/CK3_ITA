@@ -92,4 +92,3 @@
  struggle_ending_decision_correct_involvement_tt:0 "Tu sei [struggle_involved|E] nella [persian_struggle|E]"
  struggle_ending_decision_correct_involvement_spain_tt:0 "Tu sei [struggle_involved|E] nella [iberian_struggle|E]" 
  must_not_be_persia_involved_tt:0 "Non devi essere [struggle_involved|E] nella [persian_struggle|E]"
-

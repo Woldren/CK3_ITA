@@ -66,7 +66,7 @@
  knight_champion_no_tooltip_lowercase_plural_possessive:0 "campioni"
  knight_champion_no_tooltip_lowercase_adjective:0 "campione"
 
-  #Game Concept versions
+ #Game Concept versions
  knight_default:0 "[Concept( 'knight', '$knight_default_no_tooltip|q$' )|E]"
  knight_default_plural:0 "[Concept( 'knight', '$knight_default_no_tooltip_plural|q$' )|E]"
 
@@ -87,3 +87,6 @@
 
  knight_champion:0 "[Concept( 'knight', '$knight_champion_no_tooltip|q$' )|E]"
  knight_champion_plural:0 "[Concept( 'knight', '$knight_champion_no_tooltip_plural|q$' )|E]"
+
+
+

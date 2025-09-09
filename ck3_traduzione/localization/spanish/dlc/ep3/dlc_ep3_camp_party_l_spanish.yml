@@ -42,7 +42,6 @@
  camp_party_drinks_abundant_desc: "#indent_newline:4 $EFFECT_LIST_BULLET$ Tutti i partecipanti aumentano la loro [opinion|E] nei tuoi confronti#!\n#indent_newline:4 $EFFECT_LIST_BULLET$ Punti esperienza per il [trait|E] [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]#!\n#indent_newline:4 $EFFECT_LIST_BULLET$ Ottieni il modificatore [GetModifier( 'ep3_master_of_ceremonies' ).GetNameWithTooltip|L] alla fine della $activity_camp_party$#!\n\n#weak Nessun uomo, donna o bambino dovrà patire la sete durante questa festa!#!"
  camp_party_drinks_abundant_invalid: "Hai bisogno del [camp_building|E] [GetDomicileBuilding('mess_tent_brewers').GetName]"
 
-
  phase_camp_party: "Festa da Campo"
  phase_camp_party_desc: "Storie e bagordi attorni al fuoco, cosa potrebbe esserci di meglio?"
 

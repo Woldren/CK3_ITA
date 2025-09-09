@@ -128,6 +128,4 @@
  
  petition_liege_debt_tt:0 "#X Il tuo [liege|E] è in [debt|E]#!"
  petition_liege_council_no_petition_valid_tt:0 "#X Non c'è nulla che tu possa chiedere al tuo signore#!"
- 
  petition_liege_city_planning_innovation_tt:0 "#X Sia tu che il tuo [liege|E] dovete appartenere a [cultures|E] con l'[innovation|E] Pianificazione Urbana #!" 
-

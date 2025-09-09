@@ -1,6 +1,7 @@
 ﻿l_spanish:
  possessed_vision:0 "visione"
  possessed_episode:0 "episodio"
+
  age_young:0 "giovane"
  age_middle_aged:0 "di mezza età"
  age_old:0 "anzian[ROOT.Char.Custom('DE_END_PRO_S_N')]"

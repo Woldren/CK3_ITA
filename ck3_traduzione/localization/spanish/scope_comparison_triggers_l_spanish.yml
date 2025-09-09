@@ -45,7 +45,6 @@
  FATHER_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] è il padre di [CHARACTER.GetShortUIName]"
  NOT_FATHER_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] #bold non#! è il padre di [CHARACTER.GetShortUIName]"
  REAL_FATHER_EQUAL_FIRST:1 "[TARGET_CHARACTER.GetShortUIName|U] è il tuo vero padre"
- NOT_REAL_FATHER_EQUAL_FIRST:1 "[TARGET_CHARACTER.GetShortUIName] #bold non#! è il tuo vero padre" 
  NOT_REAL_FATHER_EQUAL_FIRST:1 "[TARGET_CHARACTER.GetShortUINamePossessive] #bold non#! è il tuo vero padre"
  REAL_FATHER_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] è il vero padre di [CHARACTER.GetShortUIName]"
  NOT_REAL_FATHER_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] #bold non#! è il vero padre di [CHARACTER.GetShortUIName]"
@@ -116,5 +115,6 @@
  NOT_FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName] #bold non#! è una [faith|E] [RELIGION.GetAdjective]"
  FAITH_RELIGION_EQUAL_GLOBAL:0 "È una [faith|E] [RELIGION.GetAdjective]"
  NOT_FAITH_RELIGION_EQUAL_GLOBAL:0 "#bold Non#! è una [faith|E] [RELIGION.GetAdjective]"
+
  ACCOLADE_TYPE_EQUAL_GLOBAL:0 "This [accolade_type|e] is invalid"
  ACCOLADE_TYPE_EQUAL_NONE:0 "This [accolade_type|e] is invalid"

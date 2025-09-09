@@ -42,10 +42,10 @@
  gender_man:0 "uomo"
  gender_woman:0 "donna"
  gender_person:0 "persona"
- concubine:0 "concubina"
  gender_mans: "dell'uomo"
  gender_womans: "della donna"
  gender_persons: "della persona" 
+ concubine:0 "concubina"
  concubines:0 "concubine"
  mama:0 "mamma"
  papa:0 "papà"
@@ -56,6 +56,7 @@
  relation_nemesis:0 "nemesi"
  relation_rival:0 "rivale"
  relation_grudge: "oggetto del risentimento" #controllare
+
 
  # Peasant Professions:
  peasant_profession_miller:0 "mugnaio"
@@ -81,7 +82,6 @@
  peasant_profession_farmers_wife:0 "moglie del contadino"
  peasant_profession_prioress:0 "priora"
  peasant_profession_prior:0 "priore"
- 
  peasant_profession_farrier:0 "maniscalco"
  peasant_profession_farriers_wife:0 "moglie del maniscalco"
  peasant_profession_farriers_husband:0 "marito del maniscalco"
@@ -117,7 +117,7 @@
  peasant_profession_masons_husband:0 "marito del muratore"
  peasant_profession_weaver:0 "tessitore"
  peasant_profession_washwoman:0 "lavandaia"
- 
+
  # stress desires
  drunkard_desire:0 "chiedere la mia bottiglia di [ROOT.Char.Custom('RegionalAlcoholicDrink')] and lose myself in it"
  hashishiyah_desire:0 "ritirarmi e chiudere le tende, da sol[ROOT.Char.Custom('DE_END_PRO_S_N')] con il mio hashish"
@@ -138,7 +138,7 @@
  councillor_prop_sword:0 "spada"
  councillor_prop_purse:0 "portamonete"
  councillor_prop_robe:1 "tunica"
-
+ 
  #random rooms
  room_library:0 "biblioteca"
  room_garden:0 "giardino"
@@ -159,4 +159,3 @@
  laugh_type_wheeze:0 "#EMP *respira affannosamente*#!"
  laugh_type_wheeze_long:0 "#EMP *respiro sibilante*#!"
  laugh_type_snort:0 "#EMP *sbuffa*#!" 
- 

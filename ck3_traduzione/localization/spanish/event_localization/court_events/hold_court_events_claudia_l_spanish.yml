@@ -1,6 +1,6 @@
 ﻿l_spanish:
 
- #Empty Granaries questo file ha bisogno di una revisione
+ #Empty Granaries
  hold_court.6000.t:0 "Granai vuoti"
  hold_court.6000.desc_intro:0 "Al mio cospetto vi è [6000_poor.Custom2('MyCharacterIntroduction', ROOT.Char)], con il capo chino.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], [6000_province.GetNameNoTooltip] è stata colpita duramente"
  hold_court.6000.desc_occupation:0 "dalla recente occupazione nemica."

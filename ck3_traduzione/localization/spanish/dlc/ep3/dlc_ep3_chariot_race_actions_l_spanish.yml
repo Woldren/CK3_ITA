@@ -1,4 +1,4 @@
-﻿l_spanish: 
+﻿l_spanish:
  
  apa_cheering_on_competitors_title: "[first.GetShortUIName|U] e [second.GetShortUIName|U] hanno legato grazie ai loro aurighi preferiti"
  apa_thunderous_applause_title: "[first.GetShortUIName|U], ispirat[first.Custom('DE_END_PRO_S_N')] dall'applauso scrosciante della folla, supera [second.GetShortUIName|U]"

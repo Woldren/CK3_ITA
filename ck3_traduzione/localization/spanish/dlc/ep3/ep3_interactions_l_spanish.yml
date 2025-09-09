@@ -167,7 +167,7 @@
  AI_POWERFUL_FAMILY: "Appartieni a una [powerful_family|E]: $VALUE|=+0$"
  AI_GOVERNOR_EFFICIENCY: "La tua [governor_efficiency|E]: $VALUE|=+0$"
  AI_SAME_HOUSE: "Sei membro della [house|E] di [recipient.GetShortUIName]: $VALUE|=+0$"
-
+ 
  transfer_county_interaction: "Trasferisci Contea"
  transfer_county_interaction_desc: "Trasferisci una [county|E] a un Governatore"
  have_no_valid_county_to_assign_trigger: "Non hai nessuna [county|E] valida da assegnare"
@@ -491,7 +491,7 @@
  ep3_laamps.0401.death: "Quel[target.Custom('DE_END_ADJ_NUL_S_N')] [target.Custom('InsultAdjective')] fals[target.Custom('DE_END_PRO_S_N')]-[ROOT.Char.GetTitleAsNameNoTooltip], [target.GetFirstName] — troppo debole per la sua corona — giace mort[target.Custom('DE_END_PRO_S_N')]."
  ep3_laamps.0401.outro: "Quel[target.Custom('DE_END_ADJ_NUL_S_N')] maledett[target.Custom('DE_END_PRO_S_N')] [target.Custom('InsultAdjective')] fals[target.Custom('DE_END_PRO_S_N')]-[ROOT.Char.GetTitleAsNameNoTooltip], [target.GetFirstName], è riuscit[target.Custom('DE_END_PRO_S_N')] a fuggire — una minaccia alla mia posizione finché [target.GetSheHe] resta liber[target.Custom('DE_END_PRO_S_N')]."
  ep3_laamps.0401.a: "Il titolo di [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] è #EMP mio#!!"
-
+ 
  ep3_laamps.0402.t: "$seize_realm$: Speranze Infrante"
  ep3_laamps.0402.desc: "Quasi fin dall’inizio, i miei piani migliori andarono terribilmente storti. Prendere la corona è più difficile di quanto immaginassi...\n\nAppena entrati nella sua [target.Custom('ResidenceBuilding')|l], le guardie ci circondarono sbucando dal nulla, i nostri intenti ostili erano stati subito svelati."
  ep3_laamps.0402.imprison: "Abbiamo combattuto duramente, ma siamo stati subito circondati.\n\nLegat[ROOT.Char.Custom('DE_END_PRO_S_N')] in catene, vengo trascinat[ROOT.Char.Custom('DE_END_PRO_S_N')] davanti a [target.GetTitledFirstName], che mostra apertamente la sua furia..."
@@ -518,7 +518,7 @@
  ep3_laamps.0411.a: "Me la #EMP pagherai#!."
  ep3_laamps.0411.b: "[owner.GetSheHe|U] ha ormai imparato cosa succede agli usurpatori!"
  ep3_laamps.0411.c: "Maledett[owner.Custom('DE_END_PRO_S_N')] [owner.Custom('InsultNoun')]!"
- 
+
  refill_maa_interaction: "Rinforza la Milizia"
  refill_maa_interaction_desc: "Gli [adventurers|E] non dispongono di fonti affidabili di manodopera come i [rulers|E] [landed|E], e devono [reinforce_soldiers|E] per completare i [regiments|E] di [men_at_arms|E] e rimpiazzare le perdite."
  reinforce_soldiers_interaction: "Setaccia il Fondo"
@@ -552,7 +552,7 @@
  refill_maa_effect_tt: "Ogni [regiment|E] idoneo di [men_at_arms|E] guadagna fino a [THIS.Char.MakeScope.ScriptValue('replenishable_troops_value')|0V] [soldiers|E]"
  reinforce_soldiers_skill_success: "Seguaci Ispirati"
  reinforce_soldiers_skill_failure: "Non Ispirati"
- 
+
  hire_laamp_mercenaries_interaction: "Assolda come Mercenari"
  hire_laamp_mercenaries_interaction_desc: "Offri [gold|E] per far sì che [recipient.GetName] si unisca a tutte le [wars|E] in cui sei il [war_leader|E]"
  hire_laamp_mercenaries_interaction_notification: "Sarebbe un onore se ti unissi a me nelle mie guerre!"
@@ -831,7 +831,7 @@
  MY_CHILDS_HOUSE: "[secondary_recipient.GetHouse.GetBaseName] è la [house|E] di uno dei miei [childs|E]: $VALUE|=+0$"
  TARGET_IS_MY_CLOSE_FAMILY: "[secondary_recipient.GetFirstName] è un mio [close_family|E]: $VALUE|=+0$"
  raid_estate_already_remit_tt: "[actor.GetTopLiege.GetShortUIName|U] ti ha già concesso il permesso di razziare la [house|E] [actor.MakeScope.Var('raid_estate_permission').House.GetBaseName|V]"
- 
+
  # Request Co-Emperor
  request_co_emperor_interaction: "Dichiarami Co-Imperatore"
  request_co_emperor_interaction_desc: "Chiedi a [recipient.GetShortUINameNoTooltip] di dichiararti [co_emperor|E] [recipient.GetPrimaryTitle.Custom('IT_COU_COL')][recipient.GetPrimaryTitle.GetDefinitiveNameNoTooltip|l]"
@@ -842,12 +842,12 @@
  valid_co_emperor_candidate_family_trigger: "Solo i [close_family|E] e i [house_heads|E] delle [powerful_families|E] del [top_liege|E] possono essere [co_emperors|E]"
  declare_me_co_emperor_interaction.tt.effect: "[recipient.GetShortUIName|U] entrerà in un [duumvirate|E] con [actor.GetShortUIName] come su[recipient.Custom('DE_END_PRO_S_N')] [co_emperor|E]"
  YOU_ARE_MY_DESIGNATED_HEIR: "[Select_CString(actor.IsLocalPlayer, 'Tu', actor.GetShortUIName)|U] [Select_CString(actor.IsLocalPlayer, 'sei', 'è')] [Select_CString(actor.IsFemale, 'la mia', 'il mio')] [designated_heir|E]: $VALUE|=+0$"
- 
+
  support_candidate_friend_progress_toast: "Il tuo sostegno è molto apprezzato"
  harm_candidate_rival_progress_toast: "La tua opposizione accende l’ira"
  support_candidacy_success_reward_tt: "Se [secondary_recipient.GetSheHe] ottiene [target.GetNameNoTier], [secondary_recipient.GetShortUIName] potrà premiare i suoi migliori sostenitori al di fuori della sua [house|E]"
  player_supporter_agree_tt: "@alert_icon! #alert_trial [supporter.GetShortUIName] deve acconsentire#!"
- 
+
  ep3_interactions_events.0600.t: "[supporter.Custom('DE_ART_DEF_P_D')] Mi[supporter.Custom('DE_END_PRO_S_N')] Sosteni[supporter.Custom('DE_END_NOU_S_GS_N')] Attende"
  ep3_interactions_events.0600.desc: "La mia candidatura per ottenere un mandato su [ROOT.Char.GetPrimaryTitle.GetNameNoTier] ha dato grandi frutti. Ora, come [ROOT.Char.GetTitleAsName], mi ritrovo circondat[ROOT.Char.Custom('DE_END_PRO_S_N')] da nuovi consiglieri, ministri e controllori... figure che mi spingono a ricompensare generosamente amici e benefattori.\n\n[supporter.GetName] — pur non appartenendo alla Casata [ROOT.Char.GetHouse.GetName] — è stat[supporter.Custom('DE_END_PRO_S_N')] un[supporter.Custom('DE_PRO_POS_P_2P')] fervente sosteni[supporter.Custom('DE_END_NOU_S_GS_N')] della mia candidatura e [supporter.Custom('DE_ART_DEF_P_A')] mi[supporter.Custom('DE_END_PRO_S_N')] principale credi[supporter.Custom('DE_END_NOU_S_GS_N')] politic[supporter.Custom('DE_END_PRO_S_N')]. Ignorare la sua generosità equivarrebbe a un insulto."
  ep3_interactions_events.0600.a: "Dobbiamo sempre sostenerci a vicenda."
@@ -860,7 +860,7 @@
  ep3_interactions_events.0600.d: "Un dono il cui valore cresce: la mia amicizia."
  ep3_interactions_events.0600.e: "Manda[supporter.Custom('DE_PRO_DEM')] qualcosa di luccicoso."
  ep3_interactions_events.0600.f: "Chi?"
- 
+
  ep3_interactions_events.0601.opening: "Mi[supporter.Custom('DE_END_PRO_S_N')] [new_landed_admin.Custom2('RelationToMeShort', SCOPE.sC('supporter'))] e sosteni[supporter.Custom('DE_END_NOU_S_GS_N')],"
  ep3_interactions_events.0601.desc: "Alcuni dicono che, senza il vostro fervente sostegno, non avrei mai ottenuto il governo di [new_landed_admin.GetPrimaryTitle.GetNameNoTier].\n\n"
  ep3_interactions_events.0601.desc_repay: "Hanno ragione."
@@ -871,7 +871,7 @@
  ep3_interactions_events.0601.desc_friendship: "Nel consolidare la mia posizione [new_landed_admin.GetPrimaryTitle.Custom('IT_COU_COL2')][new_landed_admin.GetPrimaryTitle.GetTierAsNameNoTooltip], vi offro un dono dal valore crescente: la mia amicizia."
  ep3_interactions_events.0601.desc_gift: "Possa questo dono, in qualche misura, ripagare il mio debito con voi. E possa [new_landed_admin.GetFaith.WealthGodName] vegliare su di voi."
  ep3_interactions_events.0601.desc_ignore: "Ho faticato #EMP duramente#! per ottenere questo incarico, l’ho guadagnato con il sudore e il merito, e sono... piuttosto offes[ROOT.Char.Custom('DE_END_PRO_S_N')] dalle insinuazioni contrarie."
- 
+
  ep3_interactions_events.0601.a_repaid: "Un incarico degno di un[new_landed_admin.Custom('DE_PRO_POS_P_2P')] [new_landed_admin.GetWomanMan] degn[new_landed_admin.Custom('DE_END_PRO_S_N')]!"
  ep3_interactions_events.0601.a_scorned: "La politica non funziona così, #EMP ingrat[new_landed_admin.Custom('DE_END_PRO_S_N')]#!"
  ep3_interactions_events.0601.b: "Sono un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] benefat[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]! Un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] mecenate! Non [ROOT.Char.Custom('DE_ART_DEF_P_A')] su[ROOT.Char.Custom('DE_END_PRO_S_N')] pari."
@@ -949,7 +949,7 @@
  hh_has_personal_maa_size: "I tuoi reggimenti di [milizia|E] personale sono già al massimo"
  hh_recipient_has_personal_maa: "[Select_CString(recipient.IsLocalPlayer, 'tu', recipient.GetShortUIName)] #bold non#! [Select_CString(recipient.IsLocalPlayer, 'possiedi', 'possiede')] alcun reggimento di [milizia|E] personale"
  hh_recipient_has_valid_courtier: "[Select_CString(recipient.IsLocalPlayer, 'tu', recipient.GetShortUIName)] [Select_CString(recipient.IsLocalPlayer, 'hai', 'ha')] un cortigiano o un ospite disoccupato interessante con un'abilità elevata, una buona educazione o esperienza in stili di vita rilevanti"
-
+ 
  # Request title troops interactions
  request_ally_title_troops_interaction: "Richiedi Truppe"
  request_ally_title_troops_interaction_desc: "Chiedi a [recipient.GetShortUIName] di prestarti il suo [GetPlayer.Custom('GetProvincialArmyConcept')] e tutti i relativi [title_men_at_arms|E]"
@@ -1019,7 +1019,7 @@
  ep3_interactions_events.0630.a: "#EMP Sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] derubat[ROOT.Char.Custom('DE_END_PRO_S_N')]! Umiliat[ROOT.Char.Custom('DE_END_PRO_S_N')]!#!"
  ep3_interactions_events.0630.b: "Ieri nominat[ROOT.Char.Custom('DE_END_PRO_S_N')], oggi destituit[ROOT.Char.Custom('DE_END_PRO_S_N')]."
  ep3_interactions_events.0630.c: "[actor.GetPrimaryTitle.Custom('IT_COU_COL2')][actor.GetPrimaryTitle.GetTierAsNameNoTooltip], la ruota del destino continua a girare..."
-
+ 
  support_candidacy_cap_reached_tt: "Hai raggiunto la tua [investment_cap|E] ([actor.MakeScope.ScriptValue('appointment_investment_cap')|0V]) per la candidatura di [secondary_recipient.GetShortUIName] a questo [title|E] ([target.GetNameNoTier|V])"
 
  #Force to Step Down
@@ -1049,7 +1049,7 @@
  scheme_critical_moments.1164.desc_discovered: "\n\nSo che nessun'altro che [owner.GetTitledFirstName] può aver complotatto per la mia caduta. Forse non oggi, ma un giorno avrò la mia vendetta."
  scheme_critical_moments.1164.desc_secret: "\n\nPochi potrebbero esercitare un’influenza così forte sull’opinione pubblica, quindi ho i miei sospetti su chi sia la mente dietro la mia caduta, ma non ho prove per sostenerli."
  scheme_critical_moments.1164.a: "Tornerò."
-
+ 
  scheme_interaction_tt_force_step_down_approved: "Tenta di costringere [recipient.GetShortUINameNoTooltip] a dimettersi da un [governorship|E]"
 
  # Join Faction War
@@ -1086,9 +1086,9 @@
  ep3_interactions_events.0810.a: "Eccellente."
  ep3_interactions_events.0811.desc: "Non sono un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] tradi[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]! Entrambi abbiamo fatto la nostra scelta, e dobbiamo accettarne le conseguenze.\n\nSottomettiti a [secondary_recipient.GetTitledFirstName], prima che sia troppo tardi..."
  ep3_interactions_events.0811.a: "Dannazione."
-
+ 
  adventurer_not_nf_head_trigger_tt: "Non devi essere il [house_head|E] di una [noble_family|E]"
-
+ 
  ep3_governor_request_war_permission_interaction: "Chiedi Permesso per Dichiarare Guerra"
  ep3_governor_request_war_permission_interaction_desc: "Chiedi a [recipient.GetShortUIName] il permesso di dichiarare una singola [war|E] per espandere i confini del [realm|E]"
  ep3_governor_request_war_permission_interaction_extra_icon: "$hook_extra_icon$"
@@ -1099,7 +1099,7 @@
  admin_declined_war_permission_title: "Richiesta di Guerra Rifiutata"
  admin_declined_war_permission_desc: "La tua richiesta di dichiarare [war|E] è stata rifiutata"
  request_war_permission_notification_text: "Desidero espandere il nostro glorioso reame e portare la guerra ai nostri nemici! Considerereste di concedermi l’approvazione per tale impresa?"
-
+ 
  ep3_mass_arrests_interaction: "Ordina Arresti di Massa"
  ep3_mass_arrests_interaction_desc: "Ordina l’arresto di ogni membro della [family|E] [recipient.GetHouse.GetName], poiché c’è un solo modo per essere certi che non possano agire contro di te: #EMP metterli tutti in catene.#!"
  estate_is_in_capital_desc: "La [estate|E] di [recipient.GetShortUIName|U] deve trovarsi nella [realm_capital|E]"

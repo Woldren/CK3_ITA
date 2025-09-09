@@ -44,7 +44,7 @@
  stewardship_wealth.1022.a:0 "Le nostre casse ne avevano bisogno... cercate solo di non rifarlo."
  stewardship_wealth.1022.b:0 "Non sarò visto come un macellaio! Li spenderemo in risarcimenti."
  stewardship_wealth.1022.c:0 "Ottimo lavoro! Continueremo a fare come ci aggrada."
-
+ 
  # Wealthy free farmer wants to buy land, by Sean Hughes
  stewardship_wealth.1051.t:0 "La Sorte degli Uomini Liberi"
  stewardship_wealth.1051.desc:0 "[freeman.GetFirstName], un mezzadro che ha in affido alcuni dei miei terreni [target_county.Custom('IT_COU_COL2')][target_county.GetName], ha ottenuto un raccolto eccezionale in questa stagione, grazie ad una meticolosa pianificazione.\n\n[freeman.Custom('DE_ART_IND_D')] desidera utilizzare alcuni dei suoi profitti per acquistare da me un pezzo della mia proprietà, così da incrementare il suo successo e far crescere più raccolti l'anno prossimo."
@@ -97,8 +97,8 @@
  stewardship_wealth.5002.a.religious_sculptor:0 "Investi nella bottega di uno sculture."
  stewardship_wealth.5002.a.jeweler:0 "Investi nella bottega di un gioielliere."
  stewardship_wealth.5002.c:0 "Ottieni un piccolo profitto da alcune contrattazioni intelligenti."
- 
- #Roadside Stall selling carvings by Daniel Moore
+
+#Roadside Stall selling carvings by Daniel Moore
  stewardship_wealth.6001.t:0 "Bancarella sulla Strada"
  stewardship_wealth.6001.desc:0 "Mentre attraversavo le [stall_county.Custom('TerrainTypeCountyScope')] di [stall_county.GetName], trovo una bancarella dall'aspetto improvvisato sul lato della strada.\n\nQuando mi fermo ad osservare, un[stall_owner.Custom('DE_PRO_POS_P_2P')] contadin[stall_owner.Custom('DE_END_PRO_S_N')] chiamat[stall_owner.Custom('DE_END_PRO_S_N')] [stall_owner.GetFirstName] entra in azione, cercando di convincermi a comprare una delle piccole sculture a forma di [stall_owner.GetFaith.ReligiousSymbol] che ha in vendita.\n\n"Le ho fatte a mano, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], ognuna di esse mi richiede ore di lavoro.""
  stewardship_wealth.6001.a:0 "Ne comprerò una."
@@ -133,7 +133,6 @@
  stewardship_wealth.7001.a.tt:0 "Manda i tuoi sgherri nei villaggi!"
  stewardship_wealth.7001.b:0 "Le mie faide personali non sono quelle del mio popolo."
  stewardship_wealth.7001.b.tt:0 "Esenta le vittime di [thieving_rival.GetFirstNameNoTooltip] dalla tassazione"
-
 
  stewardship_wealth.2000.t:0 "Valutando le Opportunità"
  stewardship_wealth.2000.desc:0 "Cammino per le strade di [loc_capital_county.GetNameNoTier] assieme al mio amministratore, alla ricerca di opportunità per rimpinguare i miei forzieri pressoché vuoti. Quando arriviamo alle sale del peso del mercato, [loc_steward.GetFirstName] inizia a parlare a bassa voce:\n\n"Potremmo tranquillamente ottenere maggiori entrate se solo fossimo un po' più... #EMP creativi#! con le tasse sulle merci che vengono portate qui. Posso far produrre un'altra serie di pietre per pesare, leggermente modificate nel peso, ma che sembrino uguali a quelle regolari. Così, a parità di merce, i mercanti pagherebbero di più! Nessuno sospetterebbe nulla!\n\nSe voi lo vorrete, quindi, potremmo sostituire i pesi e vedere più denaro confluire nelle vostre casse!""

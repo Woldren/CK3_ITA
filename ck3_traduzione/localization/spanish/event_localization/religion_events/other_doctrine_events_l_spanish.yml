@@ -20,7 +20,7 @@
  false_conversion.0031.desc:0 "Mio Signore, [ROOT.Char.GetLiege.GetTitledFirstName] ha emesso un comunicato generale valido in tutto il [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier], dove auspica che tutti possano adorare il divino apertamente, indipendentemente dalla natura della loro fede. [ROOT.Char.GetLiege.GetSheHe|U] sta offrendo l'aministia a coloro che praticano la loro religione in segreto."
  false_conversion.0031.a:0 "Finalemnte, emergiamo dall'ombra!"
  false_conversion.0031.b:0 "Abbiamo già sentito bugie sulla tolleranza..."
- 
+
  false_conversion.1000.t:0 "Fine della Fede [ROOT.Char.GetFaith.GetAdjective]"
  false_conversion.1000.desc_intro:0 "[actor.Custom('DE_ART_DEF_P_A')|U] [actor.Custom2('MyCharacterIntroduction', ROOT.Char)] alla fine ha preteso da me"
  false_conversion.1000.desc_has_family:0 "e dal resto della mia famiglia"
@@ -91,7 +91,7 @@
  false_convert_modifier_desc:0 "Si pensa che molte comunità in questa contea esercitino ancora in segreto la loro vecchia fede."
  relieved_cryptos_modifier:0 "Cripto-Religiosi Grati"
  relieved_cryptos_modifier_desc:0 "La popolazione è grata per il permesso di praticare ancora una volta la propria fede pubblicamente."
- 
+
  # Spreading the crypto-faith events
  convert_to_crypto_religion_key:0 "Conversione alla Crypto-[ROOT.Char.GetSecretFaith.GetNameNoTooltip]"
  convert_to_crypto_religion_interaction_key:0 "Conversione alla Crypto-[actor.GetSecretFaith.GetNameNoTooltip]"

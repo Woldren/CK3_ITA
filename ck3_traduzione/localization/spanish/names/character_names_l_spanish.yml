@@ -30248,7 +30248,7 @@
  Berengariu:0 "Berengariu"
  Ledegundia:0 "Ledegundia"
  Rodrigue:0 "Rodrigue"
- 
+
  #Assyrian
  Adlai:0 "Adlai"
  Akha_d_abuh:0 "Akha d'abuh'"
@@ -30750,7 +30750,7 @@
  Cedric:0 "Cedric"
  Merlin:0 "Merlin"
  Howell:0 "Howell"
- 
+
  # Improved Nordic
  ## Male
  A_li:0 "Áli"
@@ -30898,7 +30898,7 @@
  ## Female, Christian
  BrigI_D_a:0 "Brigíða"
  ElI_sabet:0 "Elísabet"
- 
+
  Jairam:0 "Jairam"
  Lav:0 "Lav"
  MahipalMalla:0 "MahipalMalla"
@@ -31740,7 +31740,8 @@
  Caelestinus:0 "Caelestinus"
  Innocentius:0 "Innocentius"
  Nicolaus:0 "Nicolaus"
- 
+
+
  #Iberian, feminine isms 
  al-Shura:0 "al-Shura"
  Amat_al_Aziz:0 "Amat al-Aziz"
@@ -31901,6 +31902,7 @@
  #New Iberian for bookmark
 
  # FP2
+
  Adanis:0 "Adanis"
  Ihtizaz:0 "Ihtizaz"
  Daw_al_sabah:0 "Daw' al-Sabah"
@@ -31911,6 +31913,7 @@
  Al-Tarassi:0 "Al-Tarrasi"
  Khali:0 "Khali"
  Nuwayra:0 "Nuwayra"
+
  Aban:0 "Aban"
  Abd-al-Wahhad:0 "Abd al-Wahhad"
  Ablavel:0 "Ablavel"
@@ -32204,6 +32207,7 @@
  Tellu:0 "Tellu"
  Teobaldu:0 "Teobaldu"
  Teodo:0 "Teodo"
+
  Teodogonzia:0 "Teodogonzia"
  Teodoredo:0 "Teodoredo"
  Teto_n:0 "Tetón"
@@ -32277,7 +32281,6 @@
  Ibn_Naghrela:0 "Joseph ibn Naghrela"
  Rahel:0 "Rahel"
 
-
  # Arabic
  al-Hawas:0 "al-Hawas"
  at-Timnah:0 "at-Timnah"
@@ -32288,7 +32291,7 @@
  Fabrice:0 "Fabrice"
  Ascanius:0 "Ascanius"
 
-# FP3 Scripted Character Names
+ # FP3 Scripted Character Names
  Mu_adal:0 "Mu'adal"
  Mahan:0 "Mahan"
  al-Layth:0 "al-Layth"
@@ -32570,7 +32573,7 @@
  Gaumet:0 "Gaumet"
  Geronte:0 "Geronte"
  Guayasen:0 "Guayasen"
-#Guanche names (female)
+ #Guanche names (female)
  Absnchara:0 "Absnchara"
  Aquejata:0 "Aquejata"
  Arimgua:0 "Arimgua"

@@ -1,4 +1,4 @@
-﻿l_spanish: 
+﻿l_spanish:
  message_filter: "Filtro Messaggi"
  message_filter_generic_interface_message_good: "@catch_all_icon! Messaggi Generici Positivi"
  message_filter_generic_interface_message_good_desc: "Un effetto positivo che non rientra in una categoria specifica"
@@ -6,7 +6,7 @@
  message_filter_generic_interface_message_bad_desc: "Un effetto negativo che non rientra in una categoria specifica"
  message_filter_generic_interface_message_neutral: "@catch_all_icon! Messaggi Generici Neutri"
  message_filter_generic_interface_message_neutral_desc: "Un effetto neutro che non rientra in una categoria specifica"
- # PERSONAGGI
+ # CHARACTER
  message_filter_heir_change: "@heir_icon! Nuovo Erede"
  message_filter_heir_change_desc: "Il tuo [player_heir|E] cambia"
  message_filter_character_level_change: "@prestige_level_5_icon! Livello di Fama/[GetLocalPlayerPietyTextIcon]Devozione"
@@ -25,7 +25,7 @@
  message_filter_relationship_gained_desc: "Inizi o concludi una [relationship|E] con un altro personaggio"
  message_filter_character_health: "@health_icon! Salute"
  message_filter_character_health_desc: "La tua [health|E] cambia"
- # FAMIGLIA
+ # FAMILY
  message_filter_child_born: "@child_icon! Bambino Nato"
  message_filter_child_born_desc: "Diventi padre o partorisci un [child|E]"
  message_filter_child_language: "@child_icon! Lingue del Bambino"
@@ -38,7 +38,7 @@
  message_filter_court_contracted_epidemic_desc: "Un [courtier|E] si ammala a causa di un'[epidemic|E]"
  message_filter_court_recover_epidemic: "@epidemic_icon! Guarigione a Corte"
  message_filter_court_recover_epidemic_desc: "Un [courtier|E] guarisce da una [epidemic|E]"
- # CONSIGLIO
+ # COUNCIL
  message_filter_councillor_ongoing: "@council_icon! Effetti Secondari del Consigliere"
  message_filter_councillor_ongoing_desc: "Effetti degli [councillor_task_possible_side_effects|E] del [councillor|E]"
  message_filter_council_task: "@council_icon! Incarichi del Consigliere"
@@ -47,7 +47,7 @@
  message_filter_councillor_desc: "Uno dei tuoi [councillors|E] viene nominato o si dimette"
  message_filter_councillor_liege: "@council_icon! Seggio nel Consiglio"
  message_filter_councillor_liege_desc: "Vieni nominato o rimosso dal [council|E] di [liege|E]"
- # CORTE
+ # COURT
  message_filter_courtier_arrived: "@guest_icon! Ospite Giunge a Corte"
  message_filter_courtier_arrived_desc: "Un [guest|E] giunge alla tua [court|E]"
  message_filter_courtier_arrived_notable: "@guest_icon! Ospite Illustre"
@@ -70,12 +70,12 @@
  message_filter_court_position_desc: "La persona impiegata nella [court_position|E] cambia"
  message_filter_court_inspiration: "@inspiration_icon! Ispirazioni"
  message_filter_court_inspiration_desc: "Un membro della tua [court|E] riceve un'[inspiration|E]"
- # RICATTO
+ # HOOK
  message_filter_hook_on_me: "@weak_hook_icon! Ganci su di Me"
  message_filter_hook_on_me_desc: "Un altro personaggio ottiene o perde un [hook|E] su di me"
  message_filter_hook_on_other: "@weak_hook_icon! Ganci su Altri"
  message_filter_hook_on_other_desc: "Ottengo o perdo un [hook|E] su un altro personaggio"
- # MATRIMONIO
+ # MARRIAGE
  message_filter_marriage_ended: "@marriage_icon! Fine del Matrimonio"
  message_filter_marriage_ended_desc: "Il tuo [marriage|E] o [betrothal|E] termina"
  message_filter_marriage_ended_heir: "@marriage_icon! Fine del Matrimonio dell'Erede"
@@ -84,7 +84,7 @@
  message_filter_marriage_started_desc: "Ti [Concept( 'marry', 'sposi' )|E] con un altro personaggio"
  message_filter_family_marriage_started: "@marriage_icon! Matrimonio di un Parente Stretto"
  message_filter_family_marriage_started_desc: "Un dei tuoi [close_family|E] si [marries|E]"
- # DINASTIA
+ # DYNASTY
  message_filter_dynasty_cadet_created: "@dynasty_icon_alt! Rami Cadetti"
  message_filter_dynasty_cadet_created_desc: "Viene creato un [cadet_branch|E] nella tua [dynasty|E]"
  message_filter_dynasty_head_change: "@dynasty_icon_alt! Nuovo Capo della Dinastia"
@@ -107,8 +107,8 @@
  message_filter_death_family: "@death_icon! Morte in Famiglia"
  message_filter_death_family_desc: "Un membro della tua [close_family|E] è morto"
  message_filter_death_councillor: "@death_icon! Morte di un Consigliere"
- message_filter_death_prisoner: "@death_icon! Morte di un Prigioniero"
  message_filter_death_councillor_desc: "Un [councillor|E] è morto"
+ message_filter_death_prisoner: "@death_icon! Morte di un Prigioniero"
  message_filter_death_prisoner_desc: "Un [prisoner|E] è morto"
  message_filter_death_relation: "@death_icon! Morte di un Parente"
  message_filter_death_relation_desc: "Un [relation|E] è morto"
@@ -307,7 +307,6 @@
  message_filter_laamp_contracts_desc: "Appare un nuovo [task_contract|E]"
  message_filter_laamp_follower_event: "@followers_icon! Vita nel Campo"
  message_filter_laamp_follower_event_desc: "Accade qualcosa di importante a uno dei tuoi [followers|E]"
- 
  # MPO
  message_filter_migration_into_realm: "@government_type_nomad! Migration into your Realm"
  message_filter_migration_into_realm_desc: "A [nomad|E] [migrates|E] into your [realm|E], or your [suzerain_possessive|E] Realm"
@@ -329,7 +328,7 @@
  message_filter_tributary_war_desc: "Your [tributary|E] breaks free due to a [war|E]"
  message_filter_raid_intent_invalidated: "@raid_icon! Raid Intent Invalidated"
  message_filter_raid_intent_invalidated_desc: "Your [raid_intent|E] invalidates"
-  
+ 
  # ADMIN
  message_filter_governance_contracts: "@catch_all_icon! Appare una Questione Politica" #controllare è Questione di Gestione
  message_filter_governance_contracts_desc: "Sorge una [governance_issue|E] nelle terre sotto il tuo governo"

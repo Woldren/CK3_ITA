@@ -28,7 +28,8 @@
  major_decisions.0001.a:0 "Lunga vita [ROOT.Char.Custom('IT_NAM_COL4')][ROOT.Char.GetTitleAsNameNoTooltip]!" 
 
  major_decisions.0002.opening:0 "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
- 
+
  major_decisions.0200.t:0 "Ritorno alle Radici"
  major_decisions.0200.desc:0 "Sebbene sia abituato a un sistema gerarchico rigido e a contadini che non fanno domande quando coltivano i campi, mi ritrovo a governare solo tribù indisciplinate. Queste persone non mi rispettano, rispettano solo la forza.\n\nMostrerò loro la forza! Mi libererò degli orpelli della maestà che i miei sudditi detestano e mi impadronirò dei loro cuori con la spada alzata!"
  major_decisions.0200.a:0 "Dimostrerò il mio valore!"
+

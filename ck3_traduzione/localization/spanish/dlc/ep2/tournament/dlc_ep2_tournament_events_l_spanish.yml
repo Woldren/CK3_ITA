@@ -189,7 +189,7 @@
  tournament_events.1150.a.success:0 "Sconfiggi [pas_darmes_instigator.GetTitledFirstNameNoTooltip]"
  tournament_events.1150.a.failure:0 "[pas_darmes_instigator.GetTitledFirstNameNoTooltip] ti sconfigge"
  tournament_events.1150.b:0 "Tieniti il tuo pezzo di stoffa, buon [pas_darmes_instigator.Custom('MountedWarriorTerm')]."
- # FLAVOR   #192 - 292
+ # FLAVOR
  tournament_events.1200.t:2 "Rimprovero religioso"
  tournament_events.1200.desc:0 "Mentre i nobili e i plebei si preparano con eccitazione per le competizioni e l'intrattenimento ormai prossimi, [angry_clergy.GetTitledFirstName] rende evidente la disapprovazione nei confronti dei/delle [angry_clergy.GetFaith.AltPriestTermPlural].\n\n"Questo torneo è un mezzo del peccato; i/le buoni/e [angry_clergy.GetFaith.GetAdherentNamePluralNoTooltip] moriranno per inseguire l'orgoglio; verseranno il sangue dell'altro per dei gingilli; rinunceranno al [angry_clergy.GetFaith.PositiveAfterLife] per la fama."\n\n"Queste inclinazioni devono essere sfruttate,  rivolte contro i nemici di [angry_clergy.GetFaith.HighGodName], non alimentate e spente nella vanagloria.""
  tournament_events.1200.a:0 "non possono difendere i/le [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] senza un po' di pratica!"

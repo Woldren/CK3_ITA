@@ -1,4 +1,4 @@
-﻿l_spanish: 
+﻿l_spanish:
 
  bm_story_content_available_icon: "@story_content_icon!"
  bm_story_content_available_copy: "#font:TitleFont #size:15 Contenuto Speciale della Storia Disponibile#!#!#!"
@@ -25,6 +25,7 @@
  bookmark_laamps_robert_crispin_desc: "In quanto secondogenito senza diritto di eredità, Roberto Crispin abbracciò lo spirito normanno dell’avventura.\n\nGià veterano esperto del conflitto in Iberia, Roberto entrò al servizio dell’Imperatore bizantino e ora guida un contingente di mercenari normanni contro i Turchi.\n\n#bold Roberto troverà la gloria che cerca come grande comandante, o cadrà vittima del nido di vipere che è la corte bizantina?#!"
  bookmark_laamps_alt_konstantinos_x: "Konstantinos X"
  bookmark_laamps_alt_roussel_de_baeilleul: "Roussel de Bailleul"
+
 
  bookmark_laamps_wallada_bint_al_mustakfi: "Wallada bint al-Mustakfi"
  bookmark_laamps_wallada_bint_al_mustakfi_desc: "[Concept( 'story_content_wallada', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_wallada', '$bm_story_content_available_copy|q$' )|E]\nFiglia del Califfo di Cordova e una delle ultime degli Omayyadi, Wallada dedicò la sua vita agli studi e alla conoscenza. Curandosi poco delle aspettative di una donna nella società andalusa, Wallada camminava a capo scoperto in un mondo austero, affinando le menti delle donne di ogni ceto.\n\nLa vita di Wallada non conosce confini, e il suo potenziale è infinito.\n\n#bold Accogli e forma donne intelligenti da ogni parte del mondo alla tua causa. Puoi spezzare i vincoli della tradizione ed ereditare il lascito del Califfato Omayyade?#!"

@@ -116,7 +116,7 @@
 
  hunt.0520.a:0 "Non c'è tempo da perdere."
 
- hunt_header:1 "Battuta di Caccia:"
+ hunt_header:1 "Battuta di Caccia:" #controllare_modifica
  hunt.1001.t:4 "Mettere all'angolo il/la [activity.Custom('GetAnimalType')|U]"
  hunt.1001.desc_opening_courtier:1 "[hunt_participant.Custom('DE_ART_DEF_P_D')] mi[hunt_participant.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)], [hunt_participant.GetTitledFirstName], è il primo a individuare il/la suo/a [activity.Custom('GetAnimalFeature')]."
  hunt.1001.desc_opening:1 "Scrutando il paesaggio, improvvisamente guardo una seconda volta. Eccolo/a lì, [activity.Custom('GetAnimalFeature')] e tutto il resto!"
@@ -153,7 +153,7 @@
  hunt.1002.alone:0 "Mentre mi avvicino al sentiero, sento solo il rumore degli zoccoli, l'abbaiare dei cani, le grida degli uomini...\n\nL'eccitazione mi attraversa mentre ci avviciniamo lentamente alla nostra preda!"
  hunt.1002.a:1 "Vieni [hunt_participant.GetFirstNameNoTooltip], più veloce!"
  hunt.1002.a.alone:0 "C'ero così vicin[ROOT.Char.Custom('DE_END_PRO_S_N')], ti avevo quasi pres[hunt_participant.Custom('DE_END_PRO_S_N')]!"
- 
+
  hunt.1003.desc:1 "Dopo ore di cavalcata, finalmente riusciamo a mettere all'angolo la scaltra bestia: il nostro inseguimento non è stato vano!\n\n"
  hunt.1003.bay:1 "L'animale, esausto e spaventato, si sforza di rimanere in piedi e [activity.Custom('GetAnimalSoundParticiple')] in preda al panico."
  hunt.1003.dogs:1 "Lo stanco [activity.Custom('GetAnimalMale')] è spossato: già morso da un cane da caccia, si accovaccia terrorizzato mentre i cani si avvicinano, tenuti a bada dai pochi cacciatori."
@@ -365,7 +365,7 @@
  hunt.1080.t:0 "Quasi da solo/a"
  hunt.1080.opening_lone:0 "[Select_CString(murderer.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', murderer)], [murderer.Custom('IT_NAM_COL3')][murderer.GetTitledFirstName], e io siamo più avanti degli altri,"
  hunt.1080.opening_accomplice:0 "[Select_CString(murderer.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', murderer)], [murderer.Custom('IT_NAM_COL3')][murderer.GetTitledFirstName], [ROOT.Char.Custom2('RelationToMeShort', accomplice)], [accomplice.Custom('IT_NAM_COL3')][accomplice.GetTitledFirstName], e io siamo più avanti degli altri,"
-
+ 
  hunt.1080.chase:0 "Guidati dalle grida incessanti e dai richiami di [murderer.GetFirstNameNoTooltip] nell’inseguimento del/della [activity.Custom('GetAnimalType')] in fuga.\n\nMi accorgo che la pista è ormai avvolta da un silenzio innaturale, isolata, e che il resto del gruppo si è via via assottigliato — degli altri non c’è più traccia.\n\n"
  hunt.1080.bow:0 "Guidati dalle grida incessanti e dai richiami di [murderer.GetFirstNameNoTooltip] nell’inseguimento del/della [activity.Custom('GetAnimalType')] in fuga.\n\nMi accorgo che la pista è ormai avvolta da un silenzio innaturale, isolata, e che il resto del gruppo si è via via assottigliato — degli altri non c’è più traccia.\n\n"
 
@@ -1636,8 +1636,7 @@ hunt.7102.hunter:0 "$hunt.7101.reply_hunter$\n\nNon posso fare a meno di rabbriv
  hunt.1337.c: "Acquisterò i diritti."
  hunt.1337.d: "Bah, torniamo al campo..."
  hunt.1337.e: "È un bene che io abbia già pagato per questi diritti!"
-
-#Nuovo dlc del grande khan
+ 
  mpo_hunt.0001.t: "Dalla Culla"
  mpo_hunt.0001.desc: "Avanziamo nella [ROOT.Char.GetCurrentLocation.Custom('GetTerrainType')] alla ricerca della nostra preda.  [Select_CString(child.IsFemale,'Mia figlia','Mio figlio')], [child.GetFirstName], ha dimostrato di essere più forte di quanto pensassi, tenendo saldamente in mano il suo arco.\n\n"Fermi," sussurro, notando un movimento nell'erba. Un piccolo [ROOT.Char.Custom('SmallAnimal')] sta mangiando alcune radici, senza accorgersi della nostra presenza."
  mpo_hunt.0001.a: "Questo è mio!"

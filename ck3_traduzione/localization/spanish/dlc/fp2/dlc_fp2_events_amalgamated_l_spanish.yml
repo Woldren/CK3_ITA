@@ -153,7 +153,7 @@
  fp2_yearly.1002.b:0 "Sento odore di materiale da ricatto."
  fp2_yearly.1002.c:0 "Sembra divertente!"
  fp2_yearly.1002.a:0 "Andrò via e basta."
-  
+ 
 
  fp2_yearly.1003.t:0 "Inclinazione ai... Giganti?"
  fp2_yearly.1003.desc:0 "Un fermento nel mio cortile attira la mia attenzione mentre [injured_knight.Custom2('MyCharacterIntroduction', ROOT.Char)] viene trasportato da alcuni contadini. [injured_knight.GetSheHe|U] è ovviamente gravemente ferit[injured_knight.Custom('DE_END_PRO_S_N')].\n\nQuando chiedo di sapere che cosa è successo, i contadini mi dicono che hanno trovato [injured_knight.GetHerHim] in un campo dove [injured_knight.Custom('DE_ART_IND_A')] ha dichiarato di aver combattuto a fatica un gigante.\n\nIl suo scudiero mi prende in disparte dopo la fine della storia, "La verità è che [injured_knight.GetSheHe] ha cercato di giostrare con un mulino a vento e ha perso, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], ma questi abitanti del villaggio sembrano piuttosto presi dalla sua storia.""
@@ -225,7 +225,7 @@
  fp2_struggle.1000.b:0 "Confido in te per gestire la cosa"
  fp2_struggle.1000.c:0 "No, cercherò di allentare la tensione."
  fp2_struggle.1000.d:0 "Se non riuscissi a fermare questa follia, forse un governante di fede [minority_courtier.GetFaith.GetAdherentNameNoTooltip] potrà."
-  
+ 
  
  not_my_problem_toast:0 "Le madri single e i bambini del tuo regno moriranno di fame negli anni a venire."
 
@@ -485,7 +485,7 @@
  fp2_order_of_the_hachet_modifier_desc:0 "Gli uomini e le donne della contea la difenderanno in modo equo."
  fp2_punished_order_of_the_hachet_modifier:0 "Donzelle Costrette al Pericolo"
  fp2_punished_order_of_the_hachet_modifier_desc:0 "In queste contee, coloro che difendono le loro terre senza l'approvazione del loro signore ricevono punizioni più dure dei loro aggressori.."
-
+ 
  fp2_struggle.3021.t:0 "L'Ira del Cielo"
  fp2_struggle.3021.desc:0 "Il volto di [struggle_3021_knight.Custom2('MyCharacterIntroduction', ROOT.Char)|U] è distorto dalla paura quando faccio visita alle caserme. [struggle_3021_courtier.GetTitledFirstName] sta cercando di aiutarl[struggle_3021_knight.Custom('DE_END_PRO_S_N')] e alza un sopracciglio quando mi vede.\n\n"Potresti almeno dire al[ROOT.Char.Custom('DE_END_ADJ_NUL_S_N')] tu[ROOT.Char.Custom('DE_END_PRO_S_N')] signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] cosa è successo?"\n\n[struggle_3021_knight.GetFirstNameNoTooltip] solleva immediatamente la testa. "M-Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]... quello che ho visto non sarebbe dovuto accadere. Dai merli si lanciavano pietre fatte di polvere nera. Le pietre si incendiavano e tuonavano quando colpivano i nemici. Hanno tagliato in due un uomo, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!"\n\n[struggle_3021_courtier.GetFirstNameNoTooltip] annuisce con interesse. "Forse... se anche noi potessimo avere questo potere...""
  fp2_struggle.3021.a:0 "Vale sicuramente la pena di fare delle ricerche."

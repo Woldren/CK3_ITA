@@ -1,4 +1,4 @@
-﻿l_spanish: 
+﻿l_spanish:
  DOMICILE_BUILDING_INTERNAL_BUILDINGS_LIST: "#T Edifici Interni:\n#!"
  DOMICILE_BUILDING_COOLTIP_NAME: "$EFFECT_LIST_BULLET$[GetDomicileBuilding('$KEY|q$').GetName]"
  DOMICILE_BUILDING_COOLTIP_NAME_AND_LEVEL: "#T [DOMICILE_BUILDING_TYPE.GetNameNoTooltip]#! #weak (Levello $LEVEL$)#!"

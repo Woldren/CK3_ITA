@@ -109,6 +109,7 @@
  yearly.5020.councillor.stewardship.tt:1 "[helpful_councillor.GetFirstName] farà migliorare l'[stewardship|E] di [scoped_heir.GetFirstName]"
  yearly.5020.councillor.intrigue.tt:1 "[helpful_councillor.GetFirstName] farà migliorare l'[intrigue|E] di [scoped_heir.GetFirstName]"
  yearly.5020.councillor.learning.tt:1 "[helpful_councillor.GetFirstName] farà migliorare l'[learning|E] di [scoped_heir.GetFirstName]" 
+
  yearly.5021.deceitfulcouncillor.desc:0 "Avevo ragione a sospettare le intenzioni di [helpful_councillor.GetFirstName]! Dopo averl[helpful_councillor.Custom('DE_END_PRO_S_N')] tenut[helpful_councillor.Custom('DE_END_PRO_S_N')] sotto sorveglianza per qualche giorno, è ormai chiaro che [helpful_councillor.GetSheHe] è interessata solo ad appoggiare [scoped_heir.Custom('DE_ART_DEF_P_A')] mi[scoped_heir.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_heir'))] contro di me."
  yearly.5021.honestcouncillor.desc:0 "Nonostante il rigoroso controllo [helpful_councillor.GetFirstName] la mia spia non è riuscita a trovare nulla che potesse convincermi a credere che le sue intenzioni non siano altro che pure.\n\n[helpful_councillor.GetSheHe|U] sembra davvero interessato solo ad aiutare [scoped_heir.Custom('DE_ART_DEF_P_A')] mi[scoped_heir.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_heir'))] a diventare un sovrano migliore."
  yearly.5021.a:0 "Non c'è niente di male a lasciar[bickering_winner.Custom('DE_PRO_DEM')] fare da mentore a [scoped_heir.GetFirstNameNoTooltip]!"
@@ -116,6 +117,7 @@
  yearly.5021.b.b:0 "Ma ancora non mi fido di [helpful_councillor.GetHerHim]!"
  yearly.5021.c:0 "L[helpful_councillor.Custom('DE_END_PRO_S_N')] voglio fuori dal Consiglio!"
  yearly.5022.a:0 "Allora non c'è niente di male a lasciarl[helpful_councillor.Custom('DE_END_PRO_S_N')] continuare!"
+
  yearly.5023.desc:0 "Quella spia inutile che ho messo a tenere d'occhio il mio [helpful_councillor.Custom('CouncilPosition')] [helpful_councillor.GetTitledFirstName] si è fatto catturare! [helpful_councillor.GetFirstNameNoTooltip] era furios[helpful_councillor.Custom('DE_END_PRO_S_N')] per la mia mancanza di fiducia e ha ritirato la sua offerta di tutela."
  yearly.5023.a:0 "Come potevo supporre che [helpful_councillor.GetSheHe] fosse genuin[helpful_councillor.Custom('DE_END_PRO_S_N')]?"
  yearly.5024.deceitfulcouncillor.desc:0 "C'è qualcosa che non va. Ho permesso che il mio [helpful_councillor.Custom('CouncilPosition')] [helpful_councillor.GetFirstName] facesse da tutore a mi[scoped_heir.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_heir'))] in modo che [scoped_heir.GetFirstName] imparasse qualcosa sul governare. Tuttavia, sembra che [helpful_councillor.Custom('DE_ART_IND_A')] sia più interessat[helpful_councillor.Custom('DE_END_PRO_S_N')] ad insegnar[scoped_heir.Custom('DE_PRO_DEM')] a mettere in discussione e disapprovare ogni mia decisione."
@@ -125,6 +127,7 @@
  yearly.5024.a.b:0 "Come può farmi questo?!"
  yearly.5024.a.c:0 "Questo non può essere!"
  yearly.5024.b:0 "Non posso crederci. Ci sei tu dietro a tutto questo!"
+ 
  tooltip_yearly_5022_a:0 "Permettere a [helpful_councillor.GetFirstName] di continuare il suo tutoraggio"
 
  yearly.5030.opening:0 "[squealing_vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
@@ -141,6 +144,7 @@
  yearly.5025.desc.b:0 "Purtroppo, i miei recenti tentativi di fare da tutore a [scoped_heir.GetFirstName] per colmare alcune delle lacune nella sua educazione sono stati infruttuosi.\n\nForse non avrei dovuto rifiutare l'offerta di [helpful_councillor.GetTitledFirstNamePossessive]..."
  yearly.5025.a:0 "Sono orgoglioso dei suoi risultati."
  yearly.5025.b:0 "[scoped_heir.Custom('DE_ART_DEF_P_D')] [scoped_heir.Custom('GirlBoy')] è solo un po' lento."
+
  yearly.5040.t:0 "Una Discussione Losca"
  yearly.5040.desc:0 "Sto attraversando il giardino del Palazzo per una passeggiata mattutina, quando una leggera brezza porta al mio orecchio le voci di [whisperer_1.GetFirstName] e [whisperer_2.GetFirstName]. \n\nI due cortigiani stanno parlando tra loro in un luogo appartato nelle vicinanze, spesso si guardano intorno per assicurarsi che nessuno li ascolti. Anche se mi è difficile distinguere la maggior parte delle loro parole da lontano, è chiaro che la loro discussione si riferisce a [scoped_vassal.GetTitledFirstName]."
  yearly.5040.a.a:0 "Li farò legare e consegnare a [scoped_vassal.GetFirstNameNoTooltip]."
@@ -155,11 +159,12 @@
  yearly.5040.c.success.tt:0 "Strappo l'informazione a [whisperer_1.GetFirstNameNoTooltip] e [whisperer_2.GetFirstNameNoTooltip]"
  yearly.5040.c.failure.tt:0 "[whisperer_1.GetFirstName] e [whisperer_2.GetFirstNameNoTooltip] sono poco collaborativi"
  yearly.5040.d:0 "Eh, sono sicuro che probabilmente non sia niente di importante..."
+
  yearly.5041.desc.a:0 "Riesco ad avvicinarmi ai due cortigiani senza che si accorgano di me.\n\nStanno discutendo di un complotto orchestrato da [scoped_vassal.GetTitledFirstName] contro di me!"
  yearly.5041.desc.b:0 "Riesco ad avvicinarmi ai due cortigiani senza che si accorgano di me.\n\nStanno discutendo di un complotto orchestrato da [scoped_vassal.GetTitledFirstName] nella mia Corte!"
  yearly.5041.desc.c:0 "Riesco ad avvicinarmi ai due cortigiani senza che si accorgano di me.\n\nSembra che stiano discutendo della vita privata di [scoped_vassal.GetTitledFirstNamePossessive] e di qualche sua sgradevole abitudine."
  yearly.5041.a:0 "Interessante..."
- 
+
  yearly.5042.desc.safetorture:1 "Ci vuole un po' di tempo per sciogliere la lingua ai due prigionieri, ma il mio carceriere è un[dummy_jailor_gender.Custom('DE_PRO_POS_P_2P')] [dummy_jailor_gender.GetWomanMan] paziente. Dopo diverse ore di interrogatorio, i due complottisti sono pronti a confessare il loro segreto."
  yearly.5042.desc.deadlytorture:1 "Le labbra dei prigionieri sono sigillate più saldamente di quanto mi aspettassi. Dopo una lunga notte di interrogatorio, la frustrazione del carceriere ha la meglio su di [dummy_jailor_gender.GetSheHe], e i due cortigiani sono morti entro il mattino, ma non prima di aver rivelato il loro segreto."
  yearly.5042.desc.a:0 "\n\nSembra che [scoped_vassal.GetTitledFirstName] sta complottando contro di me!"

@@ -128,45 +128,45 @@
  dlc_fp2_old_vasconia:0 "Vecchia Vasconia"
  dlc_fp2_old_vasconia_pushed:0 "Vecchia Vasconia"
  dlc_fp2_dlc_fp2_caucasian_iberia:0 "Iberia Caucasica"
- 
+
  #FP3
  dlc_fp3_eastern_persian_frontier_regions:0 "Frontiera orientale"
  dlc_fp3_greater_persian_frontier_regions:0 "Frontiera della Grande Persia"
-  
+
  #EP1
  dlc_ep1_achievement_rise_of_the_ghurids:0 "Impero Ghurid Storico"
- 
+
  # Seazones
  sea_atlantic_ocean:0 "l'Oceano Atlantico"
  sea_north_atlantic:0 "l'Oceano Atlantico settentrionale"
  sea_baltic_sea:0 "il Mar Baltico"
- #sea_north_sea: "il Mare del Nord" Entry in map_items_l_english
- #sea_english_channel: "il Canale della Manica" Entry in map_items_l_english
+ #sea_north_sea: "the North Sea" Entry in map_items_l_english
+ #sea_english_channel: "the English Channel" Entry in map_items_l_english
  sea_irish_sea:0 "il Mare d'Irlanda"
  sea_bay_of_biscay:0 "il Golfo di Biscaglia"
  sea_macaronesia:0 "Macaronesia"
  sea_mediterranean_sea:0 "il Mediterraneo"
  sea_western_mediterranean_sea:0 "il Mediterraneo occidentale"
  sea_ionian_sea:0 "il Mar Ionio"
- #sea_adriatic_sea: "il Mar Adriatico" Entry in map_items_l_english
+ #sea_adriatic_sea: "the Adriatic Sea" Entry in map_items_l_english
  sea_aegean_sea:0 "il Mar Egeo"
  sea_black_sea:0 "il Mar Nero"
  sea_south_atlantic:0 "l'Oceano Atlantico meridionale"
  sea_gulf_of_guinea:0 "il Golfo di Guinea"
  sea_indian_ocean:0 "l'Oceano Indiano"
  sea_bay_of_somalia:0 "la baia della Somalia"
- #sea_red_sea: "il Mar Rosso" Entry in map_items_l_english
+ #sea_red_sea: "the Red Sea" Entry in map_items_l_english
  sea_gulf_of_aden:0 "il Golfo di Aden"
- #sea_persian_gulf: "il Golfo Persico" Entry in map_items_l_english
- #sea_arabian_sea: "il Mar Arabico" Entry in map_items_l_english
- #sea_bay_of_bengal: "il Golfo del Bengala" Entry in map_items_l_english
+ #sea_persian_gulf: "the Persian Gulf" Entry in map_items_l_english
+ #sea_arabian_sea: "the Arabian Sea" Entry in map_items_l_english
+ #sea_bay_of_bengal: "the Bay of Bengal" Entry in map_items_l_english
  sea_inland_steppe_seas:0 "i mari di Aral e Caspio"
  sea_caspian_sea:0 "il Mar Caspio"
  sea_aral_sea:0 "il Mare di Aral"
 
  #EP3
  custom_theodosian_ere: "Impero d'Oriente Teodosiano"
- 
+
  #MPO
  custom_eastern_balkans: "Balcani Orientali"
  ghw_region_northern_russia: "Russia Settentrionale"
@@ -176,4 +176,3 @@
  dlc_mpo_steppe_caucasus_expansion: "Caucaso"
  dlc_mpo_steppe_persia_expansion: "Persia"
  dlc_mpo_steppe_siberia_further_expansion: "Siberia Settentrionale"
- 

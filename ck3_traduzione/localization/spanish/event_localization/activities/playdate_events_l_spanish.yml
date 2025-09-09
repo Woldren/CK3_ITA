@@ -177,7 +177,7 @@
  playdate.3014.a.tt_participant:0 "Tu e [participant.GetFirstNameNoTooltip] proseguite i vostri studi nell'arte del [ROOT.Char.Custom('education_focus_child')]"
  playdate.3014.a.failure:0 "Non impari nulla"
  playdate.3014.b:0 "No, ciò che mi interessa che è tu ci raccondi delle avventure!"
- 
+
 # Learning your child drowned - by Isabella Welch
 
  playdate.4000.t:0 "Bagnato dalle Lacrime"
@@ -185,7 +185,7 @@
  playdate.4000.a:0 "Spero che [participant.GetSheHe] giocherà in [ROOT.Char.GetFaith.PositiveAfterLife]."
  playdate.4000.b:0 "L'innocenza è un veleno mortale."
  playdate.4000.c:0 "Auguro lo stesso destino a [host.GetTitledFirstNameNoTooltip]."
- 
+
  playdate.4001.t:1 "La barriera linguistica"
  playdate.4001.desc.rowdy:0 ""Ho detto #EMP "bambola"#! non #EMP "vongola!"#! Caspita!" [participant.GetTitledFirstName] è ovviamente in agitazione a causa della nostra barriera linguistica. Il gesto di alzare le mani in aria dipinge l'immagine di uno scatto d'ira che sta per iniziare."
  playdate.4001.desc.pensive:0 ""Scusa... #EMP Abitazione#!. Lei ritorna alla sua umile abitazione, non alla sua utile agitazione." Nonostante le sue buone maniere, le sopracciglia di [participant.GetTitledFirstNamePossessive] sono aggrottate dalla frustrazione."
@@ -193,7 +193,7 @@
  playdate.4001.a:0 "Parlerò lentamente e a voce alta! Questo dovrebbe essere d'aiuto!"
  playdate.4001.b:0 "Forse posso chiedere a [participant.GetFirstNameNoTooltip] di insegnarmi un po' della lingua [participant.GetCulture.GetLanguage.GetNameNoTooltip]?"
  playdate.4001.c:0 "Bleh, perché dovrei preoccuparmene? Io voglio solo divertirmi!"
- 
+
  playdate.5001.t: "Usciamo a giocare?"
  playdate.5001.desc: "Un pallone rimbalza davanti a me e viene recuperato tra le braccia in attesa di [participant.GetFirstName].\n\n"Vuoi unirti a noi? Abbiamo una palla e potremmo avere bisogno di altri giocatori."\n\nLa piccola folla di bambini si raccoglie in attesa intorno a noi."
  playdate.5001.a: "Mi unirò a voi!"
@@ -308,7 +308,7 @@
  playdate.9002.t:1 "Ritorno a Casa"
  playdate.9002.desc:0 "Quanto ci siamo divertiti! Ricorderò le giornate trascorse con [host.GetTitledFirstName] per tanto tempo.\n\nOra mi è stato detto che è tempo di fare i bagagli e tornare a casa ai miei doveri, ma mi auguro che presto potremo rifarlo."
  playdate.9002.a:0 "Arrivederci [host.GetFirstNameNoTooltip]!"
- 
+
  playdate_saved_from_bully_log_title: "Insieme Contro la Rabbia"
  playdate_saved_from_bully_log: "[CHARACTER.GetTitledFirstName] ha salvato [TARGET_CHARACTER.GetTitledFirstName] da un aggressore di bassa lega e i due sono diventati amici"
 

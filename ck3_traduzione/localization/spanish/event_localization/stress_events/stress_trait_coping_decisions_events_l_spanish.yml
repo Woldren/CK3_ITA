@@ -33,7 +33,7 @@
  stress_trait_coping_decisions.2002.desc_ending:0 "Oh, maledett[rival.Custom('DE_END_PRO_S_N')]!"
  stress_trait_coping_decisions.2002.a:0 "Per favore... qualcuno... mi porti dei vestiti!"
  stress_trait_coping_decisions.2002.b:0 "[rival.GetFirstNameNoTooltip]! Tu serpe!"
- 
+
  stress_trait_coping_decisions.2004.t: "Stress Coping: Consequences"
  stress_trait_coping_decisions.2004.desc: "I am approached out-of-the-blue one afternoon by a peasant woman clutching a babe, tears streaming down [prostitute.GetHerHis] cheeks.\n\n"[ROOT.Char.GetTitledFirstNameNoTooltip]!" she chides, "Your antics are not without consequence! This little [baby.Custom('GirlBoy')] is #EMP yours#!!"\n\nI almost choke — but do I recall [prostitute.GetHerHis] face, [prostitute.GetHerHis] body, glowing dimly by candle in some den of iniquity...?"
  stress_trait_coping_decisions.2004.a: "A [baby.Custom('GetDaughterSon')]! #EMP My#! [baby.Custom('GetDaughterSon')]!"
@@ -85,7 +85,7 @@
  stress_trait_coping_decisions.5502.desc_landless: "Girovagando per il campo mentre aspetto che il mio pasto venga preparato, incontro un giovane di uno degli insediamenti vicini.\n\nSi scusa perché il dovere chiama, ma non possiamo permetterlo, vero? Mi sono appena imbattuto nel miglior pasto immaginabile!\n\nLo conduco al limite del bosco, dove un paio di urla non faranno differenza. E poi, faccio un #EMP banchetto#!!"
  stress_trait_coping_decisions.5502.a:0 "E ho ancora il dolcetto che mi aspetta di sopra!"
  stress_trait_coping_decisions.5502.a_landless: "Questo #EMP sì#! che mi rilassa."
- 
+
  stress_trait_coping_decisions.6001.t:0 "Affrontare lo Stress: Rinuncia al Cibo"
  stress_trait_coping_decisions.6001.desc:0 ""Informate il cuoco che non parteciperò, per il prossimo futuro, ai pasti."\n\nNon appena le parole hanno lasciato la mia bocca mi sono sentito subito più leggero - niente più distrazioni, niente più ingozzamenti! Ora posso concentrarmi su ciò che è importante!"
  stress_trait_coping_decisions.6001.a:0 "Si, così va bene."
@@ -105,7 +105,7 @@
  stress_trait_coping_decisions.7501.t:1 "$stress_trait_coping_decisions.activity$ Sudare"
  stress_trait_coping_decisions.7501.desc:0 "Mentre finisco il mio giro di corsa attorno al [ROOT.Char.Custom('ResidenceBuilding')|l], riesco a sentire le mie preoccupazioni gocciolare via insieme al sudore.\n\nAlcune persone dicono che scappo dai miei problmi, ma io rispondo che invece corro verso le soluzioni!"
  stress_trait_coping_decisions.7501.a:0 "Un altro giro!"
- #tradurre da qui in poi
+
  stress_trait_coping_decisions.7502.t:0 "$stress_trait_coping_decisions.activity$ Più Pesante è Meglio è"
  stress_trait_coping_decisions.7502.desc:0 "'Non è abbastanza!' penso, mentre poso [ROOT.Char.Custom('signature_weapon')] d'addestramento. Mi sono addestrato senza sosta ma non sono affatto stanco, ho bisogno di mettermi alla prova più duramente!\n\nSì... qualcosa di più grande... o magari più pesante!\n\nQualcosa che di certo mi sfinisca dalla stanchezza!"
  stress_trait_coping_decisions.7502.a:0 "Il/La [random_artifact.GetNameNoTooltip] dovrebbe andare!"

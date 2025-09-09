@@ -1,6 +1,6 @@
 ﻿l_spanish:
 
- #Pillow Talk, by Sean Hughes di spettro da revisionare
+ #Pillow Talk, by Sean Hughes
  intrigue_temptation.2201.t:0 "Conversazioni Intime"
  intrigue_temptation.2201.desc:0 "Dopo il nostro ultimo incontro, [my_lover.GetFirstName] ed io siamo sdraiati insieme, impegnati in una pigra conversazione.\n\n"E non crederesti mai—" [my_lover.GetSheHe] improvvisamente si interrompe e arrossisce. "Mi dispiace amore mio; dev'essere terribilmente noioso per te...""
  intrigue_temptation.2201.a:0 "No affatto. Per favore dimmi di più..."

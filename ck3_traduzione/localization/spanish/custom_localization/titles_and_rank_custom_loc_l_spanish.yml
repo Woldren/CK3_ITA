@@ -54,4 +54,3 @@
  current_situation_blank:0 ""
  GetIncumbentOrNone.holder:0 "[ROOT.Title.GetHolder.GetShortUIName]"
  GetIncumbentOrNone.uncreated:0 "[ROOT.Title.GetBaseName]"
- 

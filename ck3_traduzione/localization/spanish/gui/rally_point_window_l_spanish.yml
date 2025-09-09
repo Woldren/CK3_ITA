@@ -30,4 +30,3 @@
  RP_MOVE_RALLY_POINT:1 "#T Sposta Punto di Adunata\n#! #I In alternativa, fai clic con il pulsante destro del mouse direttamente sulla mappa#!"
  RP_CANNOT_MOVE_RALLY_POINT: "#X I personaggi Senza Terra non possono spostare il loro [rally_point|E]#!" 
  RP_RAISE_BLOCK_AT_WAR:0 "@warning_icon! #X Non puoi radunare [raiders|E] mentre sei in [war|E]#!"
- 

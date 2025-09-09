@@ -57,7 +57,7 @@
  artifact.3001.t:0 "Ispirazione: Riutilizzo"
  artifact.3001.desc:0 "È con un balzo che oggi [inspiration_owner.GetFirstName] si avvicina a me.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]! stavo rovistando tra gli oggetti scartati e i soprammobili rotti nelle tue stanze del legname in cerca di ispirazione quando mi sono imbattut[inspiration_owner.Custom('DE_END_PRO_S_N')] in un tesoro inaspettato. Sembra che tu abbia lasciato alcuni materiali di scorta di un manufatto smantellato in magazzino, per il futuro... Beh, il futuro è ora!\n\nSe potessi usare questi pezzi di scorta per il mio progetto, la qualità non ne soffrirebbe, e potrei restituirti una parte dell'oro che hai messo da parte per comprare i materiali!""
  artifact.3001.a:0 "Questa è un'ottima notizia!"
- 
+
  artifact.3010.t:0 "Manufatto Degradato: Vendere"
  artifact.3010.desc.antiquarian:0 "\n\n"Forse, un commerciante di ferraglie potrebbe essere interessato a comprare le parti per un prezzo ragionevole...""
  artifact.3010.desc.servant:0 "\n\n"Ora è completamente inutile e irriconoscibile! Tanto vale venderlo/a a un collezionista di rottami e ricavarne delle monete d'oro...""

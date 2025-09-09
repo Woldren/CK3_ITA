@@ -6,10 +6,10 @@
  #############
  #HASHISHIYAH#
  #############
+ stress_trait_ongoing.0501.t:0 "Una Serata Rilassante"
  stress_trait_ongoing.0501.desc:0 "Il compito di governare il regno è stato così stressante, di recente. Se non è questo, è quello, se non è quello, è questo. Un'infinita parata di contadini, preti e problemi, tutti che si aspettano che #EMP io#! risolva ogni loro infima preoccupazione.\n\nMi merito una giornata per me stesso, senza supplicanti o postulanti, diplomatici o magistrati. Solo io e questi grandi piatti di torte all'hashish..."
  stress_trait_ongoing.0501.adventurer: "The business of leading a camp has been so stressful, recently. If it's not this, it's that, if it's not that, it's this. An endless list of petty tasks, issues, and questions, all waiting for #EMP my#! solutions.\n\nI deserve a day to myself, with no pep-talks or speeches, no training or meetings. Just me and this large plate of hashish cakes..."
  stress_trait_ongoing.0501.administrative: "The business of leading house [ROOT.Char.GetDynastyHouse.GetBaseNameNoTooltip] has been so stressful, recently. If it's not this, it's that, if it's not that, it's this. An endless list of petty tasks, issues, and questions, all waiting for #EMP my#! solutions.\n\nI deserve a day to myself, with no plotting or preening, no fawning or fabricating. Just me and this large plate of hashish cakes..."
- stress_trait_ongoing.0501.t:0 "Una Serata Rilassante"
  stress_trait_ongoing.0501.a:0 "A lavoro!"
  stress_trait_ongoing.0501.b:0 "È solo un giorno di riposo-.."
  overworking_diplomacy_modifier:0 "Oberato dalla Diplomazia"

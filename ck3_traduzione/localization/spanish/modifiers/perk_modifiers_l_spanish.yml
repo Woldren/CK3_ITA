@@ -48,7 +48,7 @@
 
  sell_titles_shameful_behavior_modifier:0 "Comportamento Vergognoso"
  sell_titles_shameful_behavior_modifier_desc:0 "Questo personaggio è stato scoperto per la disonorevole pratica di vendere titoli."
- 
+
  friendly_counsel_martial_gain:0 "$friendly_counsel_perk_name$"
  friendly_counsel_martial_gain_desc:0 "Puoi sempre contare su un amico per dare buoni consigli."
  friendly_counsel_diplomacy_gain:0 "$friendly_counsel_perk_name$"
@@ -59,13 +59,13 @@
  friendly_counsel_stewardship_gain_desc:0 "$friendly_counsel_martial_gain_desc$"
  friendly_counsel_learning_gain:0 "$friendly_counsel_perk_name$"
  friendly_counsel_learning_gain_desc:0 "$friendly_counsel_martial_gain_desc$"
-
+ 
  decentralized_rule_perk_modifier:0 "Governo Decentralizzato"
  decentralized_rule_perk_modifier_desc:0 "Amici leali assicurano un reame leale!"
 
  of_the_people_perk_modifier: "Un Sovrano del Popolo"
  of_the_people_perk_modifier_desc: "Il sovrano ha visitato questa provincia, lasciando una buona impressione tra la gente del posto."
-
+ 
  mustered_skirmishers: "Fanteria Leggera Radunata"
  mustered_skirmishers_desc: "Il sovrano di questa provincia ha radunato di recente la fanteria leggera qui stanziata."
  mustered_archers: "Arcieri Radunati"
@@ -100,4 +100,3 @@
  no_stone_unturned_perk_modifier_desc: "Il detentore di questa contea ha di recente ospitato un’attività qui, portando a un temporaneo incremento dello sviluppo e mantenendo uno sguardo vigile per tenere in riga i funzionari locali."
  no_stone_unturned_boosted_perk_modifier: "$no_stone_unturned_perk_modifier$"
  no_stone_unturned_boosted_perk_modifier_desc: "$no_stone_unturned_perk_modifier_desc$"
-

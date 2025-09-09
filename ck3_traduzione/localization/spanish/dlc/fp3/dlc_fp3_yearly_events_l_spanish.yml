@@ -1,4 +1,4 @@
-﻿l_spanish: 
+﻿l_spanish:
  ##################################################
  # IRANIAN INTERMEZZO FRONTIER FLAVOR EVENTS 
  ##################################################
@@ -596,7 +596,7 @@
  fp3_yearly.8052.a: "Dovrei accontentarmi della fiamma di un orafo."
  fp3_yearly.8052.b: "È meglio che mi accontenti di un fuoco di minore purezza."
  fp3_give_up_the_quest.flavor: "Abbandoni la ricerca del Fuoco della Vittoria... per ora."
-    
+  
  fp3_yearly.8053.t: "Il Fuoco della Vittoria"
  fp3_yearly.8053.desc: "Passano giorni, poi settimane, durante le quali i miei esploratori setacciano il regno alla ricerca di un incendio appiccato da un fulmine, senza però alcun risultato. Ma, proprio quando comincio a scoraggiarmi, all'improvviso appaiono dei nuvoloni scuri in lontananza e risuona un tuono. Mi precipito fuori dal mio [ROOT.Char.Custom('ResidenceBuilding')] verso la tempesta, con i servi al seguito, e in effetti il temporale si avvicina, come se fosse il cenno di una mano invisibile.\n\nPoi, proprio di fronte a me, un bagliore accecante trafigge le nuvole e colpisce come una lancia del [ROOT.Char.GetFaith.DivineRealm] un albero solitario. Il legno secco si incendia immediatamente, bruciando con una fiamma pura come gli spiriti #italic fravashi#!. Ho trovato il Fuoco della Vittoria! È venuto da me!" 
  fp3_yearly.8053.a: "Incredibile! Quasi non riesco a crederci..."
@@ -724,8 +724,8 @@
  fp3_story_cycle_seljuks_invasion_events.0001.a_liege: "Finché risponderete alla chiamata [ROOT.Char.Custom('DE_PRO_PER_P_3P_A')] vostr[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_PRO_PER_S_3P_G')], potrete dimorare in [fp3_seljuk_settle_target.GetNameNoTierNoTooltip]."
  fp3_story_cycle_seljuks_invasion_events.0001.a: "Miei nuovi vicini, da oggi [fp3_seljuk_settle_target.Custom('IT_COU_COL4')][fp3_seljuk_settle_target.GetNameNoTierNoTooltip] vi appartiene!"
  fp3_story_cycle_seljuks_invasion_events.0001.b: "Mai! Non permetterò che le mie terre siano occupate da sporchi [lead_seljuk.GetCulture.GetCollectiveNounNoTooltip]!"
- 
- # Zanj Rebellion
+
+# Zanj Rebellion
  fp3_story_cycle_zanj_rebellion_events.0002.t: "[outspoken_rebel.Custom('DE_ART_DEF_P_D')] Ribelle Dichiarat[outspoken_rebel.Custom('DE_END_PRO_S_N')]"
  fp3_story_cycle_zanj_rebellion_events.0002.desc: "[outspoken_rebel.Custom('IT_COU_COL3')|U][outspoken_rebel.GetName], un[outspoken_rebel.Custom('DE_PRO_POS_P_2P')] carismatic[outspoken_rebel.Custom('DE_END_PRO_S_N')] ribelle, che in passato ha cercato di provocare una rivolta in Bahrain, è stat[outspoken_rebel.Custom('DE_END_PRO_S_N')] vist[outspoken_rebel.Custom('DE_END_PRO_S_N')] in [outspoken_rebel.GetCurrentLocation.GetCounty.GetName].\n\n[Select_CString(outspoken_rebel.IsFemale,'Questa sedicente santona','Questo sedicente santone')] si aggira nelle paludi salmastre fomentando la popolazione locale. Tra loro ci sono gli Zanj, una popolazione originaria dell'Africa orientale, molti dei quali lavorano in quelle zone come schiavi, altri come uomini liberi. Questa potrebbe essere la vostra occasione per fermarl[outspoken_rebel.Custom('DE_END_PRO_S_N')] e punirl[outspoken_rebel.Custom('DE_END_PRO_S_N')]."
  fp3_story_cycle_zanj_rebellion_events.0002.a: "Prepariamo una trappola per catturarl[outspoken_rebel.Custom('DE_END_PRO_S_N')]."

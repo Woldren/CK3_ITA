@@ -11,7 +11,6 @@
  small_animal_plural_hedgehog: "ricci"
  small_animal_plural_bird: "uccelli"
  
- 
  demonic_chant_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Eseguito un Canto Demoniaco"
  
  recited_witchcraft_treatise_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Recitato un Trattato di Stregoneria"

@@ -77,7 +77,7 @@
  fp1_major_decisions.1002.d:0 "Che mare insolente! Passami quella frusta!"
  fp1_major_decisions.1002.d.tt:0 "Sferzi l'acqua finché non si sottomette"
  fp1_major_decisions.1002.e:0 "Forse c'è qualcosa in più per me da padroneggiare oltre che da governare..."
- 
+
  # The True King of Norway
  fp1_major_decisions.1011.t:0 "Un Re per la $k_norway$"
  fp1_major_decisions.1011.desc.intro:0 "Molti anni fa, ho fatto il voto di non tagliarmi mai i capelli, non prima di aver ottenuto l'alto titolo di Re di $k_norway$."
@@ -89,4 +89,3 @@
  fp1_major_decisions.1011.c:0 "I miei capelli rimangono; sono il segno di tutte le lotte che ho vissuto."
  fp1_major_decisions.1011.c.tt:0 "Continuerai ad essere conosciuto come $nick_tanglehair$"
  fp1_major_decisions.1012.t:0 "[king_of_norway.GetTitledFirstNameNoTooltip] ha reclamato la $k_norway$ per primo"
- 

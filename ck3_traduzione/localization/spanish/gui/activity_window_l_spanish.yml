@@ -64,7 +64,6 @@
  activity_waiting_for_guests:0 "In attesa degli [activity_guests|E], [Activity.GetNumWaitingForCharacters] rimanenti"
  activity_waiting_for_phase:0 "In attesa dell'inizio un'Attività: [Activity.GetCurrentPhase.GetPhase.GetName]"
 
-
  activity_travel_state_short:0 "[Concept( 'travel', 'In Viaggio' )|E]"
  activity_travel_state_full:0 "[Select_CString(Character.IsLocalPlayer,'',Character.GetShortUIName)] [Select_CString( Character.IsLocalPlayer, 'Sei', 'è' )] [Concept( 'travel', 'In Viaggio' )|E] per l'Attivita [Activity.GetShortNameNoTooltip]" 
  activity_passive_state_short:0 "Attesa"
@@ -115,7 +114,7 @@
  activity_window_character_travel_spouse_2:0 "[Character.Custom('GetBrideGroom')|U]\n[Character.GetShortUINameNoTooltip|U]\n[Concept( 'traveling', 'In Viaggio' )|E] a [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]"
  activity_window_character_guest:1 "[activity_guest_short|E]\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_player:0 "[SelectLocalization( IsActivityHost( Activity, Character ), 'activity_window_character_host', 'activity_window_character_guest' )]"
-
+ 
  activity_window_character_travel_noble_student: "Studente Nobile\n[Character.GetShortUINameNoTooltip|U]\n[traveling|E] a [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]"
  activity_window_character_noble_student: "Studente Nobile\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_student: "Studente\n[Character.GetShortUINameNoTooltip|U]"

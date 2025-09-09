@@ -103,7 +103,6 @@
  contest_bg_archery:0 "Torneo Tiro con l'Arco"
  contest_bg_horseracing:0 "Torneo Corse di Cavalli"
  contest_bg_boardgames:0 "Torneo Giochi da Tavolo"
- 
  bp2_courtyard: "Cortile Interno Occidentale"
  bp2_study_indian: "Studio Indiano"
  bp2_indian_garden: "Giardino Indiano"
@@ -162,5 +161,4 @@ mpo_steppe_evening: "Sera nella Steppa"
 mpo_temple_steppe: "Luogo di Culto Tengri"
 mpo_tent_interior_mongol: "Tenda Nomade"
 mpo_frontend_nomad: "Sala del Trono Nomade"
-
  

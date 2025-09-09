@@ -63,7 +63,6 @@
  CV_TAB_COURT:2 "[Character.Custom('GetCourtierPlural')|U]"
  CV_TAB_SECRETS:0 "Segreti"
  CV_TAB_SUBJECTS: "Sudditi"
- CV_TAB_VASSALS:0 "Vassalli"
  CV_NO_SECRETS:0 "#weak Nessun segreto noto#!"
  CV_NO_RELATIONS:0 "#weak Non ha Relazioni#!"
  CV_NO_COURT:0 "#weak Non ha una [court|E]#!"
@@ -158,7 +157,7 @@
  TT_HOUSE_HEAD_DESC:0 "[CHARACTER.LocalPlayerString( 'Sei', 'THIRD_IS' )] il [house_head|E] [CHARACTER.GetHouse.GetBaseName]"
  TT_DYNAST_DESC:0 "[CHARACTER.LocalPlayerString( 'Sei', 'THIRD_IS' )] il [dynast|E] [CHARACTER.GetHouse.GetDynasty.GetName], oltre ad essere il [house_head|E] [CHARACTER.GetHouse.GetBaseName]"
  THIRD_IS:0 "[CHARACTER.GetUIName] è"
- 
+
  CV_COURTIER_SPONSOR_INSPIRATION:0 ", o se tu [sponsor|E] la sua [Character.GetCurrentInspiration.GetName]"
  CV_COURTIER_STAY_REASON:0 "come un impiego come $knight_culture_player$ o un [councillor|E][SelectLocalization( CHARACTER.HasInspiration, 'CV_COURTIER_SPONSOR_INSPIRATION', '' )]"
  CV_COURTIER_WANTS_TO_LEAVE_COURT:2 "[CHARACTER.GetShortUINameNoTooltip] potrebbe lasciare la [TARGET_CHARACTER.LocalPlayerString( 'tua ', '' )][CHARACTER.Custom('GetCourtConcept')][TARGET_CHARACTER.LocalPlayerString( '', 'Loc_FR_du_GetName' )]. [CHARACTER.GetSheHe|U] rimarrà se ne avrà motivo, $CV_COURTIER_STAY_REASON$."
@@ -185,7 +184,7 @@
  CV_CHILDREN_HEADING:0 "Figli #weak ([GetDataModelSize(CharacterWindow.GetChildren)])#!"
  CV_SIBLINGS_HEADING:0 "Fratelli e Sorelle #weak ([GetDataModelSize(CharacterWindow.GetSiblings)])#!"
  CHARACTER_RELATION_COMBINE:0 "$FIRST$ • $SECOND$"
- 
+
  FAITH_CHARACTER_WINDOW:0 "[Faith.GetAdherentNameNoTooltip]"
  CULTURE_CHARACTER_WINDOW:0 "[Culture.GetNameNoTooltip]"
  VASSAL_SORT_POWER:0 "$CLAIMANT_SORT_STRENGTH$"

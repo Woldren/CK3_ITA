@@ -8,6 +8,7 @@
  murdered_close_relation_opinion:0 "Ha Assassinato una Persona Cara"
  murdered_someone_close_to_me_crime:0 "Ha Assassinato una Persona Cara"
 
+
  executed_close_family:0 "Ha Giustiziato un Mio Parente Stretto"
  executed_close_family_crime:0 "Ha Giustiziato un Mio Parente Illegalmente"
  executed_vassal:0 "Ha Giustiziato il Mio Vassallo"
@@ -30,7 +31,7 @@
  blinded_me:0 "Mi Ha Accecato"
  castrated_family_member:0 "Ha Castrato un Membro della Famiglia"
  castrated_me:0 "Mi Ha Castrato"
- 
+
  abducted_me_crime:0 "Mi Ha Rapito"
  abducted_close_family:0 "Familiare Rapito"
  abducted_close_family_crime:0 "$abducted_close_family$"

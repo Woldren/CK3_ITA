@@ -232,11 +232,11 @@ ep3_governor_yearly.3050.c: "#EMP Silenzio!#! Nessuno può calunniare [Select_CS
  ep3_governor_yearly.3050.c.flavor: "Sia noto: considero coloro che diffondono queste menzogne stravaganti assolutamente spregevoli!"
 ep3_governor_yearly.3050.d: "La rovina del dovere è il guadagno del politicante."
 
-ep3_governor_yearly.3060.t: "Una Splendida Incoronazione"
+ep3_governor_yearly.3060.t: "Una Splendida Incoronazione" #controllare_modifica
 ep3_governor_yearly.3060.intro_usurper: "La corona è stata strappata dal capo [Select_CString(previous_holder.IsFemale,'della nostra sovrana','del nostro sovrano')] — [previous_holder.GetTitledFirstNameRegnal] non regna più su [emperor.GetPrimaryTitle.GetTierAsName]."
 ep3_governor_yearly.3060.intro_deceased: "Il custode di [emperor.GetPrimaryTitle.GetTierAsName], nostro pastore e sovrano, ha lasciato questo mondo mortale. [previous_holder.GetTitledFirstNameRegnal] è [Select_CString(previous_holder.IsFemale,'morta','morto')]."
 ep3_governor_yearly.3060.desc_afield: "\n\nAccampato a [emp_location.GetName], tra stendardi splendenti, un nuovo [emperor.GetTitleAsNameNoTooltip] viene elevato su un grande scudo brunito."
-ep3_governor_yearly.3060.desc_temple: "\n\nNella somma [emperor.GetFaith.HouseOfWorship] di [emperor.GetCurrentLocation.GetTitle.GetNameNoTierPossessive], tra dignitari e prelati, [Select_CString(emperor.IsFemale,'una nuova','un nuovo')] [emperor.GetTitleAsNameNoTooltip] riceve i riti di incoronazione."
+ep3_governor_yearly.3060.desc_temple: "\n\nNella somma [emperor.GetFaith.HouseOfWorship] di [emperor.GetCurrentLocation.GetTitle.GetNameNoTierPossessive], tra dignitari e prelati, [Select_CString(emperor.IsFemale,'una nuova','un nuovo')] [emperor.GetTitleAsNameNoTooltip] riceve i riti di incoronazione." #controllare_modifica
 ep3_governor_yearly.3060.desc_byzantine: "\n\n#EMP "Salute a [emperor.GetFirstNameRegnal]!"#! gridano gli astanti. #EMP "Per grazia di Cristo, fedele [emperor.GetTitleAsNameNoTooltip] e #EMP [Glossary( 'Autokrator', 'AUTOKRATOR_GLOSS')]#! dei Romani; la casata [emperor.GetHouse.GetName], per sempre [Glossary( 'Augoustos', 'AUGOUSTOS_GLOSS')]!"#!"
 ep3_governor_yearly.3060.desc_byzantine_femme: "\n\n#EMP "Salute a [emperor.GetFirstNameRegnal]!"#! gridano gli astanti. #EMP "Per grazia di Cristo, fedele [emperor.GetTitleAsNameNoTooltip] e #EMP [Glossary( 'Autokrator', 'AUTOKRATOR_GLOSS')]#! dei Romani; la casata [emperor.GetHouse.GetName], per sempre [Glossary( 'Augousta', 'AUGOUSTUS_GLOSS')]!"#!"
 AUGOUSTOS_GLOSS: "Un onorifico che significa "venerabile" o "maestoso", concesso ai successori del primo imperatore di Roma. Nel VII secolo, il titolo greco Basileus lo soppiantò nel suo significato imperiale."
@@ -253,6 +253,7 @@ ep3_governor_yearly.3060.c.flavor_high_legit: "Chi potrebbe fare altrimenti?"
 ep3_governor_yearly.3060.c.flavor_low_legit: "Anche se ciò mi porterà solo ridicolo."
 ep3_governor_yearly.3060.c.flavor_med_legit: "Una tale fedeltà è attesa."
 ep3_governor_yearly.3060.d: "Ho poche opinioni sul mio nuovo signore."
+admin_coronation_still_req_tt: "[emperor.GetShortUIName] has gained [emperor.GetPrimaryTitle.GetName], but retains the [GetLaw('uncrowned').GetName] [law_i][law|E] until [emperor.GetSheHe] holds a [coronation|E]"
 
 ep3_head_of_opposition_modifier: "Centro dell’Opposizione"
 ep3_head_of_opposition_modifier_desc: "I detrattori di un potente sovrano si radunano attorno a questo personaggio; è un noto campione dei malcontenti."
@@ -352,4 +353,3 @@ msg_governor_upset_about_insolvency.t: "[root_scope.GetTitleAsNameNoTooltip] Cri
 msg_governor_upset_about_insolvency.desc: "Il tuo [vassal|E] è stato colpito dal tuo debito in [gold|E]."
 msg_governor_upset_about_bad_govs.t: "[root_scope.GetTitleAsNameNoTooltip] Disprezza i Ministri Incompetenti"
 msg_governor_upset_about_bad_govs.desc: "Il tuo [vassal|E] si lamenta della bassa [governor_efficiency|E] tra i suoi pari."
-

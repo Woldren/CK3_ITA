@@ -40,7 +40,7 @@
 
  pilgrimage_miracle_witness_modifier:0 "Testimone di un Miracolo"
  pilgrimage_miracle_witness_modifier_desc:0 "Questo personaggio è stato testimone di un miracolo." 
-                 
+
  pilgrimage_religion_spread_modifier:0 "Ha Diffuso la Religione"
  pilgrimage_religion_spread_modifier_desc:0 "This character has successfully spread religion to other people."
  pilgrimage_flogging_spread_modifier:0 "Ha Diffiso la Fusticazione"
@@ -177,4 +177,3 @@
 
  pilgrim_protection_modifier:0 "Protezione dei Pellegrini"
  pilgrim_protection_modifier_desc:0 "Questo gruppo di pellegrini ha ottenuto una protezione supplementare da parte degli uomini forti locali."
- 

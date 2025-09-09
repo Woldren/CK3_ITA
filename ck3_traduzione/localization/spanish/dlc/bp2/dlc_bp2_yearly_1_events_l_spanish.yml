@@ -330,7 +330,6 @@
  the_temple_builder_modifier: "Costruttore di Templi"
  the_temple_builder_modifier_desc: "Questo personaggio è un famoso costruttore di templi."
 
-
  #PROVINCE MODIFIERS
  economical_improvements_modifier: "Espansione Economica"
  economical_improvements_modifier_desc: "L'economia di questo possedimento è migliorata."
@@ -344,7 +343,6 @@
  improved_by_the_castle_builder_modifier_desc: "Il Costruttore di castelli ha rafforzato le strutture militari di questo possedimento."
  improved_by_the_temple_builder_modifier: "Miglioramenti Costruttore di Templi"
  improved_by_the_temple_builder_modifier_desc: "Il Costruttore di templi ha rinnovato la fede in questo possedimento."
-
 
  #EFFECTS
  UPON_HOLDING_COMPLETION:0 "Al completamento del possedimento:"

@@ -19,7 +19,7 @@
  treat_baked_banana:0 "banana al forno"
  treat_koptoplakous: "koptoplakous"
  treat_plakountas: "plakountas tetyromenous" 
- 
+
  treat_comfit_uppercase:0 "Confetto"  
  treat_roasted_almonds_uppercase:0 "Mandorle Tostate"
  treat_nougat_uppercase:0 "Torrone"
@@ -38,7 +38,7 @@
  treat_baked_banana_uppercase:0 "Banana al Forno"
  treat_koptoplakous_uppercase: "Koptoplakous"
  treat_plakountas_uppercase: "Plakountas Tetyromenous" 
- 
+
  education_learning_loc:0 "erudizione"
  education_stewardship_loc:0 "amministrazione"
  education_martial_loc:0 "guerra"
@@ -100,7 +100,7 @@
  an_animal_skin:0 "la pelle di un animale"
  a_candle:0 "una candela"
  a_razor_blade:0 "la lama di un rasoio"
- 
+
  capitalized_whip:0 "Frusta" #tradurre da qui
  capitalized_shoe:0 "Scarpa"
  capitalized_rope:0 "Fune"

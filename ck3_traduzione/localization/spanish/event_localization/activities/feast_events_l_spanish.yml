@@ -1,5 +1,5 @@
 ﻿l_spanish:
-
+  
  ### OPTIONS
  feast_option_type:0 "Motivi per ospitare un Banchetto"
  feast_type_generic:0 "Banchetto"
@@ -55,7 +55,7 @@
  feast.2001.t_murder:0 "Un vile incontro"
  feast.2001.desc_intro:0 "Gli ospiti, signori e dame provenienti da ogni angolo del regno, sono riuniti nella sala grande."
  feast.2001.desc_fallback:0 "$feast.2001.desc_intro$$feast.2001.desc_outro$"
- feast.2001.desc_gregarious:0 "$feast.2001.desc_intro$ Avevo proprio #EMP bisogno#! di un'occasione come questa.$feast.2001.desc_outro$"
+ feast.2001.desc_gregarious:0 "$feast.2001.desc_intro$ Avevo proprio #EMP bisogno#! di un'occasione come questa.$feast.2001.desc_outro$" #controllare_modifica
  feast.2001.desc_shy:0 "$feast.2001.desc_intro$ Mi sistemo i vestiti. Questa non è #EMP esattamente#! la mia idea di una serata ideale, ma dovrà andare bene.$feast.2001.desc_outro$"
  feast.2001.desc_ambitious:0 "$feast.2001.desc_intro$ Ah, una delle mie cose preferite è guardare la gente che si ubriaca... e sentirla parlare molto più di quanto dovrebbe.$feast.2001.desc_outro$"
  feast.2001.desc_nerd:0 "$feast.2001.desc_intro$ Di solito preferisco la compagnia dei libri a quella delle persone, ma il dovere è dovere.$feast.2001.desc_outro$"
@@ -72,7 +72,7 @@
  feast.2001.e:0 "Sono tutti ospiti nella mia dimora. Non gli sarà arrecato alcun danno."
  feast.2001.c.people_to_spare:0 "Chiunque mi sia caro verrà avvertito"
  feast.2001.e.tt:0 "Il Banchetto inizia — e nessuno si farà male"
- 
+
  feast.2002.t:0 "$feast_header$ Doveri Disattesi"
  feast.2002.desc:1 "Che disastro!\n\nDopo tutti i miei preparativi, i miei ospiti sono arrivati ​​a una festa senza padrone di casa!\nSono tornati a casa e ho lasciato loro una terribile impressione di me."
  feast.2002.a:0 "Potrei arrivare a pentirmene."
@@ -86,12 +86,12 @@
  feast.2010.desc:0 "Mi è arrivata notizia che il mio ospite #EMP molto speciale#!, [ROOT.Var('murder_guest_host_var').GetCharacter.GetTitledFirstName], ha trovato la propria fine prima di quanto ci si aspettasse. Tutti noi dovremmo piangere la sua morte, e annullare la festa per rispettare la sua memoria.\n\n#EMP Avrei solo voluto fosse stato per mano mia.#!"
  feast.2010.a:0 "Un vero peccato."
  feast.2010.a.tt:0 "Il Banchetto per Uccidere è stato annullato"
-
+ 
  feast.2011.t:0 "$feast_header$ Morte Imprevista"
  feast.2011.desc:0 "L'improvvisa morte di [host.Var('murder_guest_host_var').GetCharacter.GetTitledFirstName] è stata una sorpresa per tutti noi, e [host.GetTitledFirstName] ha deciso di annullare la festa per rispettare la sua memoria. Dopotutto, questo banchetto era stato organizzato in suo onore."
  feast.2011.a:0 "$feast.2010.a$"
  feast.2011.a.tt:0 "Il Banchetto è stato annullato"
-
+ 
  feast.2020.t:0 "$feast_header$ Invito Rifiutato"
  feast.2020.desc:0 "Non posso crederci! [ROOT.Var('murder_guest_host_var').GetCharacter.GetTitledFirstName] ha declinato il mio invito, assolutamente non sospetto, al banchetto! Anche nel ruolo di #EMP ospite molto speciale#!. Assolutamente inaccettabile!"
  feast.2020.a:0 "Ti prenderò prima o poi, [ROOT.Var('murder_guest_host_var').GetCharacter.GetFirstNameNoTooltip]..."
@@ -111,7 +111,7 @@
  feast.2501.a.shy:0 "Ci sono molte persone qui..."
  feast.2501.a:0 "Non vedo l'ora!"
  feast.2501.b:0 "È meglio che valga il mio tempo."
- 
+
  feast.5003.t:0 "Fine dei Festeggiamenti"
  feast.3601.desc:1 "Con la morte [host.Custom('REL_TO_ME3')][host.Custom2('MyCharacterIntroduction', ROOT.Char)], la sua festa giunge al termine.\n\nMentre gli ospiti sommessamente se ne vanno, prego [ROOT.Char.GetFaith.HighGodNameAlternate] affinché accolga [host.GetFirstName] nelle sale di [ROOT.Char.GetFaith.PositiveAfterLife] tanto calorosamente quanto [host.GetSheHe] ci ha accolto nelle sue sale."
  feast.3601.a:0 "È stata una festa così divertente!"
@@ -201,4 +201,29 @@
  feast.0800.desc.ruler:0 "[host.Custom('DE_ART_DEF_P_D')] pover[host.Custom('DE_END_PRO_S_N')] [host.GetTitleAsName] non meritava di morire in questo modo."
  feast.0800.a:0 "$activity_system.1010.a$"
  feast.0800.tt:0 "L'evento [GetActivityType('activity_feast').GetName] organizzato da [host.GetShortUINameNoTooltip] è stato annullato"
+ 
+ feast_events_flavor.0001.t: "I Have Heard of You"
+ feast_events_flavor.0001.desc.intro: ""[ROOT.Char.GetTitledFirstName]!" My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('guest'))] [guest.GetTitledFirstName|U] calls my name.\n\n"
+ feast_events_flavor.0001.desc.good: ""My dear [guest.Custom2('RelationToMeShort', SCOPE.sC('relation_target'))] [relation_target.GetFirstName] speaks fondly of you." [guest.GetSheHe|U] proudly says, taking a sip of [guest.GetHerHis] [guest.Custom('RegionalDrink')]. "I have been looking forward to feasting with you.""
+ feast_events_flavor.0001.desc.bad: ""My dear [guest.Custom2('RelationToMeShort', SCOPE.sC('relation_target'))] [relation_target.GetFirstName] tells me that you are a #EMP [ROOT.Char.Custom('InsultAdjective')]#! [ROOT.Char.GetWomanMan]. I surely hope that the rumors are false and all a simple misunderstanding.""
+ feast_events_flavor.0001.aa: ""May the [ROOT.Char.GetDynasty.GetBaseNameNoTooltip] and [guest.GetDynasty.GetBaseNameNoTooltip] families join forces!""
+ feast_alliance_effect_tooltip: "[guest.GetTitledFirstName] and I enter a mutual [alliance|E]"
+ feast_events_flavor.0001.a: ""Let's toast to [relation_target.GetFirstNameNoTooltip]! And to the [guest.GetDynasty.GetBaseNameNoTooltip]!""
+ feast_events_flavor.0001.b: ""And I only have equally fond words for [relation_target.GetHerHim].""
+ feast_events_flavor.0001.c: ""I shall never trust a [guest.GetDynasty.GetBaseNameNoTooltip].""
+ feast_events_flavor.0001.d: ""I apologize for my past mistakes.""
+ feast_events_flavor.0001.e: ""I'm not here to talk about [relation_target.GetHerHim]!""
+
+ feast_events_flavor.0002.t: "To Forgive, Divine"
+ feast_events_flavor.0002.desc: "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('former_rival'))] and [Concept('rival','once-rival')|E], [former_rival.GetTitledFirstName] walks up to my table, two cups in hand, [former_rival.Custom('quirk_pos_pp')] before [former_rival.GetSheHe] [former_rival.Custom('quirk_pos_adverb')] drops down into an empty chair besides me. Before long we are both deep in conversation, recounting our past feuds."
+ feast_events_flavor.0002.a: "I don't entirely miss your prodding, dear [former_rival.GetTitledFirstName]..."
+ feast_events_flavor.0002.b: "Once opposed, let us be closer than ever!"
+ feast_events_flavor.0002.c: "Thank you for reminding me - begone, [former_rival.Custom('InsultAdjective')] [former_rival.Custom('InsultNoun')]!"
+ feast_events_flavor.0002.c.vengeful_sinful.tt: "You will lose [piety|E] because your [THIS.GetCharacter.GetFaith.GetAdjective] [faith|E] considers the [GetTrait('forgiving').GetName( GetNullCharacter )] [trait|E] as [virtuous|E] or [GetTrait('vengeful').GetName( GetNullCharacter )] [sinful|E]"
+ feast_events_flavor.0002.c.forgiving_sinful.tt: "You will gain [piety|E] because your [THIS.GetCharacter.GetFaith.GetAdjective] [faith|E] considers the [GetTrait('vengeful').GetName( GetNullCharacter )] [trait|E] as [virtuous|E] or [GetTrait('forgiving').GetName( GetNullCharacter )] [sinful|E]"
+ feast_events_flavor.0002.d: "More [former_rival.Custom('RegionalAlcoholicDrink')] for this [former_rival.Custom('ComplimentAdjective')] [former_rival.Custom('InsultNoun')]!"
+ feast_events_flavor.0002.d.virtuous: "It is truly [ROOT.Char.GetFaith.GetReligion.GetAdjective] to turn the other cheek!"
+ feast_events_flavor.0002.d.virtuous.tt: "This option is available because your [THIS.GetCharacter.GetFaith.GetAdjective] [faith|E] considers the [GetTrait('forgiving').GetName( GetNullCharacter )] [trait|E] as [virtuous|E] or [GetTrait('vengeful').GetName( GetNullCharacter )] [sinful|E]"
+ feast_turning_the_other_cheek_modifier: "Turning the Other Cheek"
+ feast_turning_the_other_cheek_modifier_desc: "This character is renowned for their ability to move on from past grudges"
  

@@ -82,7 +82,7 @@
  spymaster_task.0311.secret_bastard:1 "\n\n[bastard.GetTitledFirstName] è in realtà [bastard.Custom('DE_ART_DEF_P_A')] figli[bastard.Custom('DE_END_PRO_S_N')] bastard[bastard.Custom('DE_END_PRO_S_N')] di [mother.GetTitledFirstName] e [actual_father.GetTitledFirstName]!"
  spymaster_task.0350.a.related:0 "Come hai potuto tenermelo nascosto, [mother.GetFirstNameNoTooltip]?"
  spymaster_task.0350.a:0 "Incredibile!"
- #TWR
+
  spymaster_task.0353.t: "Spionaggio: Crypto-[secret_holder.GetSecretFaith.GetAdherentNameNoTooltip]"
  spymaster_task.0311.secret_crypto_religionist.cynical_uncompassionate: "\n\nQuindi, [secret_holder.Custom('DE_ART_IND_A')] pratica ancora la fede [secret_holder.GetSecretFaith.GetName] in segreto. Che stupido da parte sua aggrapparsi al suo idolo persino di fronte alla morte! Questi stolti impareranno mai?"
  spymaster_task.0311.secret_crypto_religionist.cynical_compassionate: "\n\nSembra che [secret_holder.Custom('DE_ART_IND_A')] pratichi ancora la fede [secret_holder.GetSecretFaith.GetName] in segreto. Che strano vedere qualcuno che si aggrappa a una fede piuttosto che all'altra. Non vedono come questo li metta così in pericolo?"

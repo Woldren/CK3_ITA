@@ -270,7 +270,7 @@
  SUCCESSION_RELATION_DYNASTY:0 "Membro della [dynasty|E]"
  SUCCESSION_DYNASTY_INFO:0 "[Dynasty.GetName]\n[SuccessionEventWindow.GetStartDate.GetYear] - [SuccessionEventWindow.GetEndDate.GetYear]\n[Dynasty.GetNumberOfMembers] Membri ([SuccessionEventWindow.GetNumberOfPlayed] Played)\n[Dynasty.GetPrestigeLevelName]\n[GetDataModelSize( Dynasty.GetDynastyHouses )] [Select_CString( EqualTo_int32( GetDataModelSize( Dynasty.GetDynastyHouses ), '(int32)1' ), 'Casata', 'Casate' )]"
  SUCCESSION_NO_HEIR:2 "Senza nessun [player_heir|E], la tua linea si è estinta dopo [SuccessionEventWindow.GetPlayedLength]."
- 
+
  SUCCESSION_EVENT_WINDOW_SELECT_DESTINY: "Scegli una Nuova Dinastia..."
  SUCCESSION_EVENT_WINDOW_SELECT_DESTINY_TT: "#T Seleziona la tua Dinastia\n#!Gioca come un altro personaggio della tua [dynasty] che non sia il tuo erede!"
  SUCCESSION_EVENT_WINDOW_SELECT_DESTINY_NO_OPTIONS_TT: "#T Seleziona la tua Dinastia\n#!Non ci sono personaggi idonei della [dynasty] disponibili."

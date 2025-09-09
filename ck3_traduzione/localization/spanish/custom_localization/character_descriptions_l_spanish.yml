@@ -5,8 +5,6 @@
  negative_desc_debug:0 "cattivo"
  test_case_desc_in_event:1 "Mio [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('other'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other'))], [other.GetTitledFirstName]."
 
- #in questo file le parole andrebbero cambiate per adattarsi agli articoli determinativi il/la, quindi...
- #bisognerebbe modificare tutte le parole che richiedono lo la oppure l', come amichevole, entusiasta ecc..e bisogna mettere maschili e femminili
  positive_desc_loyal:0 "leale" 
  positive_desc_faithful:0 "fedele" 
  positive_desc_principled:0 "di sani principi"

@@ -44,3 +44,4 @@
  guest_description.vassal_stewardship.desc:0 "(#V [ROOT.Char.GetSkill( 'stewardship' )]#! [stewardship|E])"
  guest_description.vassal_martial.desc:0 "(#V [ROOT.Char.GetSkill( 'martial' )]#! [martial|E])"
 
+

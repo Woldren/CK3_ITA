@@ -2,16 +2,16 @@
  DECISION_ON_COOLDOWN:0 "@warning_icon! #X $DECISION_NAME$ non disponibile fino a [DATE.GetStringLong]#!"
  ALREADY_PLANNING_ACTIVITY:0 "Stai già pianificando un'altra [activity|E]"
  ALREADY_IN_ACTIVITY_FIRST_NOT:0 "Sei attualmente impegnato nel [CHARACTER.Custom('GetActivityName')]"
- ALREADY_IN_ACTIVITY_THIRD_NOT:0 "[CHARACTER.GetSheHe|U] è attualmente impegnat[CHARACTER.Custom('DE_END_PRO_S_N')] in un/a [CHARACTER.Custom('GetActivityName')]"
+ ALREADY_IN_ACTIVITY_THIRD_NOT:0 "[CHARACTER.GetSheHe|U] è attualmente impegnat[CHARACTER.Custom('DE_END_PRO_S_N')] in un/a [CHARACTER.Custom('GetActivityName')]" #controllare_modifica
  unavailable_activity:0 "partecipare ad un/a [ROOT.Char.GetInvolvedActivity.GetName]"
  unavailable_pay_homage:0 "porgere omaggio al tuo signore"
  unavailable_meditation:0 "meditare"
  unavailable_petition_liege:0 "fare una supplica al tuo signore"
  unavailable_hold_court:0 "indire un'udienza"
  unavailable_tour_stop:0 "preparare per il tuo [tour|E] del signore"
-
- GENERIC_CHOOSE_OPTION:0 "Scegli Opzione" 
  
+ GENERIC_CHOOSE_OPTION:0 "Scegli Opzione" 
+
  start_hunt_decision:0 "Indici una Battuta di Caccia"
  start_hunt_decision_tooltip:2 "Sarà indetta una [GetActivityType('activity_hunt').GetName]"
  start_hunt_decision_desc:0 "#F La natura selvaggia e indomita sta chiamando, ogni sorta di bestia è in attesa della mia lancia e della mia freccia!#!"
@@ -232,7 +232,7 @@
  cancel_holy_order_lease_decision_desc:0 "#F L'Ordine Sacro si è stabilito in [barony.GetName] ha fatto un buon lavoro, ma la tenuta è ora necessaria per altre cose.#!"
  cancel_holy_order_lease_hostile_decision_desc:0 "#F Al Sacro Ordine di stanza nella [barony.GetName] non sarà più permesso di diffondere menzogne e discordia - il possedimento d'ora in poi sarà usato per cose più virtuose.#!"
  cancel_holy_order_lease_decision_confirm:0 "Revoca Concessione"
- 
+
  commission_artifact_decision:0 "Commissiona Manufatto"
  commission_artifact_decision_effect:0 "Un artigiano locale con un [project|E] finanziato arriva alla tua corte"
  commission_artifact_decision_warning_effect:0 "#weak Gli artigiani locali producono manufatti di qualità inferiore rispetto ad un ospite [inspired|E] alla [royal_court|E]#![SelectLocalization( HasDlcFeature( 'khans_of_the_steppe' ), '\n\nI manufatti creati con materiali preziosi proveniente dall'esterno della steppa saranno di qualità maggiore', 'blank_line' )]"
@@ -338,7 +338,6 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  HARRYING_ENDED: "La Devastazione del Nord è Finita" #controllare
  HIGH_PACIFICATION: "La [harrying_pacification|E] della Devastazione del Nord è stata:\n$EFFECT_LIST_BULLET$Più alta della [harrying_resistance|E]\n$EFFECT_LIST_BULLET$Maggiore di #V 14#! per almeno #V 1#! anno"
 
-
  restore_dumnonia_decision:0 "Ripristina il Regno di Cornovaglia"
  restore_dumnonia_decision_desc:0 "Lo spirito dell'antica Dumnonia brucia nei nostri seni da quando Bruto approdò per la prima volta sulle nebbiose coste della Britannia. Brucerà ancora più luminoso."
  restore_dumnonia_decision_tooltip:0 "La Cornovaglia diventa un [de_jure|E] [kingdom|E]."
@@ -371,7 +370,7 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  mend_the_great_schism_decision_tooltip:0 "Riunirò la Cristianità"
  mend_the_great_schism_decision_effect_tooltip:0 "La Chiesa [THIS.Char.GetFaith.GetAdjective] sanerà lo scisma e si affermerà come l'unico ramo legittimo del Cristianesimo."
  every_ecumenical_christian_faith.tt:0 "$EFFECT_LIST_BULLET$ Ogni [faith|E] Cristiana con [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName]"
-
+ 
  set_capital_constantinople_decision:0 "Reclama Costantinopoli"
  set_capital_constantinople_decision_confirm:0 "Ripristina la vera sede dell'Impero!"
  set_capital_constantinople_decision_desc:0 "Costantinopoli è la capitale dell'Impero d'Oriente e come tale mi appartiene di diritto."
@@ -452,7 +451,7 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  convert_to_feudalism_liege_converted_decision_desc:1 "Mentre il mio regno cresce, cresce anche la sfida di controllarlo. Il mio signore segue già il sistema [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip]; Potrei chiedere il suo aiuto per ristrutturare il mio regno in modo simile."
  convert_to_feudalism_liege_converted_decision_confirm:1 "Adotta la Forma di Governo [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|U]"
  convert_to_feudalism_liege_converted_decision_tooltip:0 "Cambia tipo di [government|E] diventando [feudal|E] o [clan|E]"
-
+ 
  convert_clan_to_feudalism_through_liege_decision: "Adotta i Modi [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip] attraverso il Signore"
  convert_clan_to_feudalism_through_liege_decision_desc: "La mia forma di governo [ROOT.Char.GetGovernment.GetNameNoTooltip] è antiquata rispetto al sistema [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip] [Select_CString(ROOT.Char.GetLiege.IsFemale,'della mia Signora','del mio Signore')]; potrei chieder[ROOT.Char.GetLiege.Custom('DE_PRO_DEM')] aiuto per modernizzare il mio regno in modo simile."
  convert_clan_to_feudalism_through_liege_decision_confirm: "Adotta i Modi [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|U]"
@@ -635,7 +634,7 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  no_built_university:0 "L'[holding|E] non ha una [special_building|E]"
  no_special_building_slot:0 "L'[holding|E] non presenta già uno Spazio per un [special_building|E]"
  decision_found_university_custom:0 "Tutti le Capitali di Contea senza un [GetBuilding('generic_university').GetName]"
-
+ 
  empower_sicilian_parliament_decision:0 "Potenziare il Parlamento Siciliano"
  empower_sicilian_parliament_decision_desc:0 "Bilanciando il rappresentante della nobiltà, del clero e dei borghesi con le vecchie infrastrutture romane, si potrebbe organizzare un nuovo organo consultivo, a beneficio sia del monarca che dei sudditi."
  empower_sicilian_parliament_decision_tooltip:0 "Istituire l'assemblea consultiva delle Proprietà"
@@ -769,7 +768,7 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  form_portugal_decision_confirm:0 "Forma Portogallo"
  form_portugal_decision_tooltip:0 "Forma il [kingdom|E] del Portogallo e stabilisci la [culture|E] Portoghese"
  form_portugal_decision_effects_de_jure_tt:1 "[title_d_porto.GetNameNoTier], [title_d_coimbra.GetNameNoTier], [title_d_beja.GetNameNoTier], e [title_d_algarve.GetNameNoTier] diventano parte [de_jure|E] del #V [title_k_portugal.GetName]#! "
- 
+
  #FORM CANARIAS
  declare_canarias_decision:0 "Consolida le Canarie"
  declare_canarias_decision_desc:0 "Da tempo immemore, ognuna delle isole si è definita un “regno”, ma ora i nostri orizzonti si stanno espandendo e il mondo comincia a dispiegarsi alle Canarie. Finalmente è giunto il momento di unire questi tanti regni sotto un'unica corona."
@@ -829,7 +828,7 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  minor_decisions.0002.desc:0 "[claimant.Custom('REL_TO_ME')|U][claimant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha ascoltat[claimant.Custom('DE_END_PRO_S_N')] la mia convocazione ed è arrivato a corte come mio ospite"
  invite_claimants_decision_tooltip:1 "I [claimants|E] sono chiamati a visitare la tua corte"
 
- 
+
  scrape_the_barrel_decision:0 "Raschia il Fondo"
  scrape_the_barrel_decision_desc:0 "La mia Corte Reale è priva di individui qualificati per riempire le molte posizioni di corte necessarie per mantenere un fiorente [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]!\n\nLa mia dimora manca della grandezza che merita, ma forse la soluzione si trova nel più improbabile dei posti..."
  scrape_the_barrel_decision_tooltip:0 "Recluteremo un personaggio [lowborn|E] per riempire una [court_position|E] casuale"
@@ -855,7 +854,7 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  minor_decisions.0003.b:0 "Solo la professione di boia si addice a questa #EMP creatura#!."
  minor_decisions.0003.c:0 "[ROOT.Char.GetFaith.HighGodName], portami qualcun altro!"
  minor_decisions.0003.d:0 "Uhhh, non siamo ancora così disperati..."
-
+ 
  #False Conversion decisions
  revoke_false_conversion_decision:0 "Rivela la Vera Fede"
  revoke_false_conversion_decision.tt:0 "Riconvertiti pubblicamente alla tua vecchia [faith|E]"
@@ -876,7 +875,6 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  abandon_crypto_faith_decision.tt:0 "Smetti di praticare la tua vecchia fede in segreto"
  abandon_crypto_faith_decision.desc:0 "#F Tutte queste prediche segrete e preghiere sussurrate stanno stancando la mia pazienza. Nel frattempo, mi sono trovato a mio agio con la mia vita pubblica nella fede [ROOT.Char.GetFaith.GetName]. Forse è giunto il momento di mettere a riposo la mia vecchia fede, una volta per tutte.#!"
  abandon_crypto_faith_decision_confirm:0 "Abbandona la #EMP crypto-fede#!"
- 
 
  #Restore the Holy Roman Empire
  restore_holy_roman_empire_decision:0 "Ripristina il Sacro Romano Impero"
@@ -908,7 +906,7 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  establish_norman_culture_decision_effect.tt:0 "Tutti le contee e i personaggi [old_culture_1.GetName] e [old_culture_2.GetName] in Francia Settentrionale diventano [new_culture.GetName]"
  establish_norman_culture_decision_effect.tt.2:0 "[normandy_title.GetName] viene rinominato in $d_normandy$"
 
-
+ # Found the Kingdom of Aragon
  form_the_kingdom_of_aragon_decision:0 "Fonda il Regno di Aragona"
  form_the_kingdom_of_aragon_decision_desc:1 "I figli del grande fiume Ebro hanno trascorso secoli in ombra. Dai Romani, dai Visigoti, dai Franchi e dagli Arabi. Finché lavorano per conquistatori stranieri e capitali lontane, le loro terre non sono veramente loro e la gente chiede a gran voce un proprio regno locale."
  form_the_kingdom_of_aragon_decision_confirm:0 "La nostra casa, il nostro regno!"
@@ -1029,7 +1027,7 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  stress_loss_athletic_decision_confirm:0 "Andiamo!"
 
  DECISION_COOLDOWN_WARNING:1 "@alert_icon! #alert_trial $DECISION_NAME$ non sarà disponibile per i prossimi $COOLDOWN$#!"
-
+ 
  all_courtiers_except_confidant:0 "Tutti i [courtiers|E] eccetto il confidente"
 
  found_kingdom_of_bosnia_decision:0 "Fonda il Regno di Bosnia"
@@ -1169,7 +1167,7 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  convert_whole_realm_to_feudalism_west_african_pagan_decision.tt.vassal_count:0 "Hai almeno [EmptyScope.ScriptValue('convert_whole_realm_to_feudalism_west_african_pagan_decision_vassal_count_value')|0] [vassals|E] con un [rank|E] di [count|E] o superiore"
  convert_whole_realm_to_feudalism_west_african_pagan_decision.tt.wa_capital_development:0 "La tua [capital|E] è a [GetGeographicalRegion('world_africa_west').GetName] e ha almeno [EmptyScope.ScriptValue('convert_whole_realm_to_feudalism_west_african_pagan_decision_wa_capital_development_value')|0] di [development|E]"
  faith_qualifies_for_west_african_pagan_feudalisation_trigger.tt:0 "La tua [faith|E] è [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseName]"
- 
+
  appoint_a_righteous_caliph_decision:0 "Nominare un Califfo Giusto"
  appoint_a_righteous_caliph_decision_desc:0 "[ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] è una figura distante e indegna, mal preparata a guidare la Umma. Essendo [ROOT.Char.GetFaith.GetReligiousHead.GetFaith.GetAdjective], [ROOT.Char.GetFaith.GetReligiousHead.Custom('DE_ART_IND_A')] semplicemente non #EMP comprende#! molte delle sottili verità del pensiero della fede [ROOT.Char.GetFaith.GetAdjective].\n\n[ROOT.Char.GetFaith.GetReligiousHead.GetSheHe|U] potra anche non comprenderle, ma #EMP io#! sì..."
  appoint_a_righteous_caliph_decision_confirm:0 "Io sono guidato da [ROOT.Char.GetFaith.PositiveAfterLife|U]!"
@@ -1256,21 +1254,21 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  can_execute_decision:0 "Puoi prendere questa [decision|E] al momento"
  NO_DECISION_OPTIONS_SELECTED:0 "@warning_icon! #X Seleziona un'opzione#!"
  revive_taltoism_decision_before_last_date:0 "La data è il 1.1.1100 o prima"
- 
+
+ I_CREATE_CADET_BRANCH_DECISION_IN_ANOTHER_REALM:0 "Tu #bold non#! sei nello stesso [realm|E] del tuo [house_head|E]"
+ I_NOT_CREATE_CADET_BRANCH_DECISION_IN_ANOTHER_REALM:0 "Tu #bold sei#! nello stesso [realm|E] del tuo [house_head|E]"
+
  call_for_acclaimed_knight_candidates_decision:0 "Ripristina Encomi"
  call_for_acclaimed_knight_candidates_decision_desc:0 "Le dignità marziali del mio seguito sono sopite. Spargete la voce ai $knight_culture_player_plural_no_tooltip_lowercase$ delle lande: [ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetTitleAsNameNoTooltip] di [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] chiama!\n\nI degni rampolli per le mie antiche cariche d'onore troveranno un caloroso benvenuto."
  call_for_acclaimed_knight_candidates_decision_tooltip:0 "Appaiono potenziali [acclaimed_knights|e] per ogni [inactive_accolade|e]"
  call_for_acclaimed_knight_candidates_decision_confirm:0 "Invia l'araldo"
  call_for_acclaimed_knight_candidates_decision.tt:0 "I candidati eleggibili per ogni [inactive_accolade|e] appariranno entro il prossimo anno e diverranno [knights|e]"
- I_CREATE_CADET_BRANCH_DECISION_IN_ANOTHER_REALM:0 "Tu #bold non#! sei nello stesso [realm|E] del tuo [house_head|E]"
- I_NOT_CREATE_CADET_BRANCH_DECISION_IN_ANOTHER_REALM:0 "Tu #bold sei#! nello stesso [realm|E] del tuo [house_head|E]"
 
  accolade.0013.notification:0 "Arriva l'Acclamato Candidato $knight_culture_player_no_tooltip$"
  accolade_call_acclaimed_knight_tooltip:0 "Il degno [chosen_knight.GetUIName] può essere nominato [accolade_in_need.GetName]"
  accolade.0013.notification_fail:0 "Nessun Candidato Degno di Encomio"
  accolade_call_acclaimed_knight_fail_notification_tooltip:0 "Uno dei tuoi Encomi rimarrà inattivo, giacché nessun degno $knight_culture_player_no_tooltip_lowercase$ si è fatto avanti"
  you_have_empty_accolades:0 "Possiedi almeno un [inactive_accolade|e] e nessun [knight|e] che possa essere Nominato con esso"
- 
  break_with_the_old_ways_decision:0 "Rompi Con Le Vecchie Usanze"
  break_with_the_old_ways_decision_desc:0 "La fede $kabarism_adj$ è stata a lungo praticata insieme alle tradizioni locali, ma ora non più. Dobbiamo rifiutare i vecchi metodi e abbracciare l'ebraismo nella sua interezza."
  break_with_the_old_ways_decision_tooltip:0 "Basta con la religione popolare!"
@@ -1298,7 +1296,6 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  at_least_10_jewish_counties_tt:0 "Devi detenere almeno 10 [counties|E] ebraiche della tua [culture|E]"
  
  DECISION_TOOLTIP_TITLE:0 "$EFFECT_LIST_BULLET$ [Decision.GetName]"
- 
  clear_ground_legendary_shrine_desc: "Una [barony|E] detenuta otterà uno Slot per un [special_building|E] [GetBuilding('legendary_shrine').GetName]"
  clear_ground_legendary_shrine: "$building_type_legendary_shrine$"
  clear_ground_legendary_statue_desc: "Una [barony|E] detenuta otterà uno Slot per un [special_building|E] [GetBuilding('legendary_statue').GetName]"
@@ -1338,6 +1335,7 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  clear_ground_for_legendary_building_custom_tt: "Adesso scegli una [barony|E] in tuo possesso per un [building|E] leggendario\n#weak Dev'essere la capitale della sua [county|E], non dev'essere [leased|E], e non deve avere già uno Slot per un [special_building|E]#!"
  PICK_LEGENDARY_BARONY_DECISION_LABEL: "Località:"
  
+
  isolate_family_decision: "Entra in Isolamento"
  isolate_family_decision_tooltip: "Rendi te e i tuoi [close_family|E] più resistenti alle [epidemics|E]"
  isolate_family_decision_desc: "Una grande e mortale epidemia è all'orizzonte e, anche se molti moriranno, non posso permettere a me o ai miei cari di essere annoverati tra i morti. Dobbiamo ritirarci in isolamento nella periferia della capitale, al sicuro dai miasmi dell'epidemia e delle malattie."
@@ -1361,7 +1359,7 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  epidemic_events.0101.b: "Chiudete la porta! C'è uno spiffero!"
 
  SELECT_ACTION: "Seleziona un'azione"
- #TWR DA TRADURRE
+
  restore_old_vasconia_decision: "Ricrea la Veccia Vasconia"
  restore_old_vasconia_decision_desc: "The Basque's ancient homelands have been pressed by foreign invaders for far too long, it is high time our claim to the lands of our forefathers was made clear to them."
  restore_old_vasconia_decision_tooltip: "[GetTitleByKey('k_navarra').GetNameNoTier] becomes the Kingdom of Vasconia."
@@ -1604,4 +1602,3 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  set_de_jure_capital_hold_current_capital_tooltip: "L'attuale [de_jure_capital|E] di [current_de_jure.GetName] #weak (#color_white [title_check.GetName]#!)#! fa parte del [realm|E]"
  set_de_jure_capital_effect_tooltip: "[current_capital_scope.GetName] sarà la nuova [de_jure_capital|E] di [current_de_jure_scope.GetName]"
  set_de_jure_capital_warning: "$set_de_jure_capital_effect_tooltip$\n@warning_icon! #color_red Distruggerà l’attuale [duchy_building|E]#!"
-

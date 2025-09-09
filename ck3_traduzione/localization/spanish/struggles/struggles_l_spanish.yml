@@ -5,12 +5,12 @@
  struggle_iberia_phase_opportunity_desc:0 "$game_concept_struggle_phase_iberia_opportunity_desc$"
  struggle_iberia_phase_hostility:0 "Ostilità"
  struggle_iberia_phase_hostility_desc:0 "$game_concept_struggle_phase_iberia_hostility_desc$"
- #struggle_iberia_phase_tension:0 "Tensione"
+ #struggle_iberia_phase_tension:0 "Tension"
  struggle_iberia_phase_compromise:0 "Compromesso"
  struggle_iberia_phase_compromise_desc:0 "$game_concept_struggle_phase_iberia_compromise_desc$"
  struggle_iberia_phase_conciliation:0 "Conciliazione"
  struggle_iberia_phase_conciliation_desc:0 "$game_concept_struggle_phase_iberia_conciliation_desc$"
- 
+
  persian_struggle:0 "$game_concept_persian_struggle$"
  persian_struggle_desc:0 "$game_concept_persian_struggle_desc$"
  struggle_persia_phase_stabilisation:0 "$game_concept_struggle_persia_phase_stabilisation$"
@@ -24,7 +24,7 @@
 
  persian_struggle_central_title_transfer.t:0 "#bold $persian_struggle$:#! Modifica del Titolo Pertinente"
  persian_struggle_central_title_transfer.desc:0 "Il titolo di #high [title.GetName]#! è ora detenuto da [title.GetHolder.GetShortUIName]!"
- 
+
  CURRENT_PHASE:0 "Fase attuale"
  PHASE_EFFECTS_HEADER:0 "Effetti della Fase"
  PHASE_EFFECTS_LOWER:0 "effetti della fase"
@@ -35,7 +35,7 @@
  ENDING_DECISION_MULTIPLE:0 "#I Clicca per visualizzare i finali disponibili#!"
  ENDING_DECISION_AVAILABLE:0 "Puoi porre fine alla [struggle|E]"
  ENDING_DECISION_UNAVAILABLE:0 "Non puoi porre fine alla [struggle|E]"
- #ENDING_DECISION_AREA_HEADER:0 "#high Porre fine alla Disputa:#! [StrugglePhase.GetNameNoTooltip] for the [Struggle.GetNameNoTooltip]\n#I Select one of the following Ending Decisions to put an end to the [Struggle.GetNameNoTooltip]#!"
+ #ENDING_DECISION_AREA_HEADER:0 "#high Ending the Struggle:#! [StrugglePhase.GetNameNoTooltip] for the [Struggle.GetNameNoTooltip]\n#I Select one of the following Ending Decisions to put an end to the [Struggle.GetNameNoTooltip]#!"
  ENDING_DECISION_AREA_HEADER:1 "#high Porre fine alla Disputa:#! [StrugglePhase.GetNameNoTooltip] per la [Struggle.GetNameNoTooltip]"
  ENDING_DECISION_AREA_DESCRIPTION:0 "#I Seleziona una delle seguenti Decisioni Finali per porre fine alla [Struggle.GetNameNoTooltip]#!"
  ENDING_PHASE_AREA_LABEL:0 "Tutte le fasi Conclusive nella Disputa"
@@ -176,7 +176,7 @@
  STRUGGLE_EFFECT_LABEL_FAITH:0 "Fede"
  STRUGGLE_EFFECT_LABEL_CULTURE:0 "Cultura"
  STRUGGLE_EFFECT_LABEL_OTHER:0 "Altro"
- 
+
  STRUGGLE_INVOLVED_NO_CONCEPT:0 "$game_concept_struggle_involved$"
  STRUGGLE_INTERLOPER_NO_CONCEPT:0 "$game_concept_struggle_interloper$"
  STRUGGLE_UNINVOLVED_NO_CONCEPT:0 "$game_concept_struggle_uninvolved$"
@@ -187,7 +187,7 @@
  STRUGGLE_END_EVENT_DESC:0 "Hai posto fine alla [Struggle.GetName], ottenendo un Finale [StrugglePhase.GetName]."
  no_call_ally_for_this_war_tt:0 "Non puoi chiamare i tuoi alleati per questa [war|E]"
  STRUGGLE_EFFECT_TT_CHARACTER_INVOLVEMENT:0 "[Character.GetNameNoTooltip|U], [Select_CString( Character.IsLocalPlayer, 'tu sei uno', 'uno ' )] uno dei personaggi [Character.GetStruggleInvolvementType( Struggle.Self )] nella [Struggle.GetNameNoTooltip]"
- 
+
  STRUGGLE_INVOLVEMENT_SORT_FAITH:0 "Fede"
  STRUGGLE_INVOLVEMENT_SORT_CULTURE:0 "Cultura"
  
@@ -206,4 +206,3 @@
  WAR_EFFECTS_NAME:0 "(Guerra)"
  OTHER_EFFECTS_NAME:0 "(Altro)"
  STRUGGLE_STAGE_DECISIONS_TITLE:0 "Decisioni [StrugglePhase.GetName] Conclusiva"
- 

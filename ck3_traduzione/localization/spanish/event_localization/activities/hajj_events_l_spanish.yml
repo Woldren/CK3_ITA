@@ -1,4 +1,5 @@
 ﻿l_spanish:
+
  ###Hajj Activity Log Keys
  #Hajj Departed
  hajj_departed_log_title:0 "$pilgrimage_departed_log_title$"
@@ -131,4 +132,3 @@
  hajj.3001.desc.equal:0 "Tradizionalmente ci si deve rasare completamente, ma occasionalmente viene concesso di tagliarli solo in parte."
  hajj.3001.a:0 "Rasati completamente!"
  hajj.3001.b:0 "Taglia solo una ciocca di capelli."
-

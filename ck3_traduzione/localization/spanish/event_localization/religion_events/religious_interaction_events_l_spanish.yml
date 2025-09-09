@@ -194,7 +194,7 @@
  religious_interaction.2500.a:0 "Sia lode a [ROOT.Char.GetFaith.HighGodName]!"
 
  religious_interaction.2501.desc:0 "Stai scherzando? I tuoi trasparenti tentativi di fuga politica non potranno mai scoraggiare l'ira di [recipient.GetFaith.HighGodName]!"
-
+ 
  #########################
  # Exaltation of Pain tenet
  #########################

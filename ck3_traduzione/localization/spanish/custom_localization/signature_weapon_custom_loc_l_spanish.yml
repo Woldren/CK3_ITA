@@ -2,7 +2,7 @@
  # Standard Signature Weapon Loc
  signature_weapon_name:0 "[ROOT.Var('signature_weapon_scope').Artifact.GetName]"
  signature_weapon_type:0 "[ROOT.Char.Custom('signature_weapon')]"
- 
+
  signature_weapon_sword:0 "la spada"
  signature_weapon_sword_draw:0 "brandisco"
  signature_weapon_sword_draws:0 "brandisce"
@@ -20,7 +20,7 @@
  signature_weapon_axe_hefts:0 "solleva"
  signature_weapon_axe_hefting:0 "sollevando"
  signature_weapon_axe_hefted:0 "sollevata"
- 
+
  signature_weapon_hammer:0 "il martello"
  signature_weapon_hammer_raise:0 "alzo"
  signature_weapon_hammer_raises:0 "alza"
@@ -42,15 +42,15 @@
  signature_weapon_a_quick_slash:0 "un rapido fendente"
  signature_weapon_a_mighty_heave:0 "un colpo possente"
  signature_weapon_a_fast_thrust:0 "un veloce affondo"
- 
- 
+
  signature_weapon_slash:0 "provocare un profondo squarcio"
  signature_weapon_crush:0 "frantumare le ossa"
  signature_weapon_pierce:0 "affondare in profondità"
- 
+
  signature_weapon_slash_present:0 "provoca un profondo squarcio"
  signature_weapon_crush_present:0 "frantuma le ossa"
  signature_weapon_pierce_present:0 "affondare in profondità"
+
  article_a:0 "una"
  article_an:0 "una"
 

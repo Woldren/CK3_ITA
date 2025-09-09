@@ -145,7 +145,7 @@
  clan_harmonious_partition_succession_law_effects: "\n#V Sotto la $clan_harmonious_partition_succession_law$, al tuo [player_heir|E] è garantita la ricezione di una certa porzione dei tuoi [titles|E] – il resto verrà diviso tra i tuoi restanti figli.#!\n\n#weak $partition_base_desc$\n#!L'Erede del Giocatore erediterà #emp sempre#! almeno tre quarti dei Titoli del vecchio Governante.\n#!"
 
  SUCCESSION_TITLE_LAW_WARNING:0 "@alert_icon! Qualsiasi titolo con una [Concept( 'title_succession', 'successione' )|E] speciale avrà la precedenza sulla [succession_law|E] del tuo regno"
- 
+
  #EP3:
  noble_family_succession_law: "Successione nelal Famiglia Nobile"
  noble_family_succession_law_subname: "[player_heir|E] eredita"

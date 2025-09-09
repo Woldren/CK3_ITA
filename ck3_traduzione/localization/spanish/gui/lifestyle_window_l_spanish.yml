@@ -58,6 +58,7 @@
  INTRIGUE_LIFESTYLE_PERK_POINTS_TRIGGER:0 "Punti vantaggio per lo Stile di Vita Intrigo: $NUM|V0$"
  LEARNING_LIFESTYLE_PERK_POINTS_TRIGGER:0 "Punti vantaggio per lo Stile di Vita Erudizione: $NUM|V0$"
  WANDERER_LIFESTYLE_PERK_POINTS_TRIGGER: "Punti vantaggio per lo Stile di Vita Viandante: $NUM|V0$" #controllare
-
+ 
  LIFESTYLE_BREAKDOWN_PASSIVE_GAIN: "#bold Guadagno Passivo#!"
  LIFESTYLE_BREAKDOWN_MONTHLY_GAIN: "#bold Guadagno Mensile#!"
+

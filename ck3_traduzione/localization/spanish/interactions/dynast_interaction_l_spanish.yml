@@ -39,7 +39,7 @@
  dynast_end_dynasty_wars_interaction_notification:0 "Guerra Dinastica Finita"
 
  recipient_secondary_legitimize_bastard_interaction:0 "Bastardo"
- 
+
  send_to_varangian_guard_interaction:0 "Manda nella Guardia Varangiana #weak (Dinastia)#!"
  send_to_varangian_guard_interaction_desc:0 "$dynasty_interaction_header$Manda [recipient.GetShortUINameNoTooltip] a guadagnarsi gloria e fortuna nella Guardia Variaga. Chissà, potrebbe anche essere d'aiuto per rafforzare il carattere!"
  send_to_varangian_guard_interaction_toast:0 "[recipient.GetShortUIName] se n'è andat[recipient.Custom('DE_END_PRO_S_N')] per entrare nella Guardia Variaga"

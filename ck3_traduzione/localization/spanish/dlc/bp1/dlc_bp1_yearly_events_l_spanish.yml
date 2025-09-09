@@ -85,7 +85,7 @@
  bp1_yearly.5102.a.success:0 "I due hanno trovato una buona intesa."
  bp1_yearly.5102.a.failure:0 "Fra i due non è scattata la scintilla"
 
- # Il tuo amico è preoccupato per il tuo peso
+ # Your friend is concerned about your weight
  bp1_yearly.5301.t:0 "Un Serio Problema"
  bp1_yearly.5301.start:0 "Mi sono accort[ROOT.Char.Custom('DE_END_PRO_S_N')] che [concerned_friend.GetFirstName], per tutta la sera, mi ha guardat[ROOT.Char.Custom('DE_END_PRO_S_N')] mentre mangiavamo, "
  bp1_yearly.5301.thicc:0 "ma è quando accetto felicemente una terza porzione di [ROOT.Char.Custom('GetExpensiveDessert')] che il suo pugno si abbatte improvvisamente sul tavolo.\n\n"Non posso permettere che tutto ciò vada avanti ancora a lungo!" mi urla. "Non posso stare qui a guardare mentre vi ingozzate fino a questo punto, [ROOT.Char.GetFirstName]!"\n\nIo mormoro qualcosa, ma è difficile mostrarsi indignati quando si ha la bocca piena. Forse ho #EMP effettivamente#! una leggera tendenza a concedermi qualche spuntino di troppo, ma è un lavoro davvero stressante governare un [ROOT.Char.GetPrimaryTitle.GetTierAsName]!"
@@ -653,7 +653,7 @@
  bp1_yearly.8162.desc:1 "Ho l'orribile sensazione che la battuta non sia stata capita.\n\nLe mie paure sono poi confermate quando, pochi istanti dopo, [jealous_scope.GetFirstNameNoTooltip] emette un lungo sospiro, alza gli occhi al cielo e si allontana.\n\n[sycophant_scope.GetFirstName] scrolla le spalle: "Ma dai, che puritan[jealous_scope.Custom('DE_END_PRO_S_N')]...""
  bp1_yearly.8162.a:0 "Ma perché tutto ciò, [sycophant_scope.GetFirstNameNoTooltip]?"
  bp1_yearly.8162.a.flavor:0 "Continuate con le storielle della servitù..."
-  # Sycophant's friend
+ # Sycophant's friend
  bp1_yearly.8170.t:0 "L'amic[friendly_scope.Custom('DE_END_PRO_S_N')] di [sycophant_scope.GetFirstNameNoTooltip]"
  bp1_yearly.8170.desc:0 "Vedo sempre meno [sycophant_scope.Custom('DE_ART_DEF_P_A')] mi[sycophant_scope.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', sycophant_scope)], [sycophant_scope.GetFirstName]. Sembra che [sycophant_scope.GetSheHe] abbia invece passato molto tempo con [friendly_scope.Custom('DE_ART_DEF_P_A')] mi[friendly_scope.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', friendly_scope)], [friendly_scope.GetTitledFirstName]...\n\nLi incrocio mentre scherzano fra loro e, alla mia vista, ridacchiano complici.\n\nNon so cosa pensare di questa situazione..."
  bp1_yearly.8170.a:0 "Sono superiore a tutto ciò."

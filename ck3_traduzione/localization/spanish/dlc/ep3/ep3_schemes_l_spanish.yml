@@ -19,7 +19,7 @@
  scheme_critical_moments.1132.a: "Quante deliziose oscenità sono riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] ad accumulare!" 
  slander_nickname_given_tt: "Soprannome Diffamatorio Assegnato" 
  receive_slanderous_nickname_tt: "Compare un [nickname|e] negativo per [target.GetShortUINameNoTooltip]"
- 
+
  scheme_critical_moments.1133.t: "[scheme.GetNameNoTooltip]: Fallimento" 
  scheme_critical_moments.1133.desc: "Niente. Mesi di pianificazione e intrighi, diffusione di voci e pagamento di tangenti, eppure la reputazione di [target.GetTitledFirstName] resta più inviolata che mai!" 
  scheme_critical_moments.1133.desc_discovered: "\n\nPer peggiorare ulteriormente la situazione, non ho solo sprecato tempo e risorse, ma [target.GetFirstNameNoTooltip] è anche venut[target.Custom('DE_END_PRO_S_N')] a conoscenza delle mie maldestre cattive intenzioni!" 
@@ -101,7 +101,7 @@
  FABRICATE_HOOK_HOLDER_TRUSTING: "L'attuale [governor|E] è [GetTrait('trusting').GetName( target )]: $VALUE|=+0$"
  HOSTILE_FAMILY_FEUD_SCHEMER_TITLE_BONUS: "La [house|E] del rivendicante è in faida con chi detiene il titolo contestato: $VALUE|=+0$"
  actor_secondary_start_generate_claim_interaction: "Ricevente [claim|E]"
-#Challenge Status
+ #Challenge Status
  challenge_status: "Sfida allo Status"
  challenge_status_action: "Sfidare"
  challenge_status_desc: "Cercherò di sfidare lo status e l'influenza a corte di [SCHEME.GetTargetCharacter.GetShortUIName] mostrando a tutti le sue carenze e mettendo in mostra le mie #EMP migliori#! qualità."
@@ -155,7 +155,7 @@
  start_depose_notification: "Deporre [recipient.GetShortUINameNoTooltip]"
  house_head_powerful_dominant_family_trigger: "[actor.GetShortUIName|U] non è il [house_head|E] di una [dominant|E] o una [powerful_family|E]"
 
- # Foster legitimacy
+# Foster legitimacy
  foster_legitimacy_scheme: "Favorire la Legittimità"
  foster_legitimacy_scheme_desc: "Cercherò di aumentare la [legitimacy|E] del mio [liege|E] e la sua [opinion|E] di me"
  foster_legitimacy_scheme_desc_general: "Il [scheme|E] $foster_legitimacy_scheme$ è un [personal_scheme|E] in cui cerchi di aumentare la [legitimacy|E] del tuo [liege|E] e la sua [opinion|E] di te, con la possibilità di ottenere un [hook|E] su di lui con una [success_chance|E] superiore al #high 75%#!.\nQuesto complotto si basa principalmente sulla tua [diplomacy|E].\n\nLa [success_chance|E] è influenzata da molti fattori, ma principalmente dalla tua [diplomacy_skill|E], dalla [diplomacy_skill|E] del tuo [liege|E] e dalla [county_opinion|E] della [capital|E] del tuo [liege|E]."
@@ -170,7 +170,7 @@
  foster_legitimacy_positive_outcome_actor_tt: "Se ha successo, potresti ottenere un [hook|E] Favore su [recipient.GetShortUIName]"
  foster_legitimacy_positive_outcome_recipient_tt: "Se ha successo, aumenta la [legitimacy_i][legitimacy|E] di #P [EmptyScope.ScriptValue('medium_legitimacy_gain')]#!"
  foster_legitimacy_negative_outcome_tt: "Se fallisce, spendi #N [EmptyScope.ScriptValue('minor_prestige_gain')]#! [prestige_i][prestige|E]"
-
+ 
  scheme_critical_moments.4001.t: "$foster_legitimacy_scheme$: Successo!"
  scheme_critical_moments.4001.desc.intro: "Porto alle labbra un calice di [ROOT.Char.Custom('RegionalAlcoholicDrink')] con espressione soddisfatta. Ho protetto la legittimità del[target.Custom('DE_END_ADJ_NUL_S_N')] mi[target.Custom('DE_END_PRO_S_N')] [target.GetTitleAsNameNoTooltip]... e la sua opinione di me.\n\n"
  scheme_critical_moments.4001.desc.byzantium: "I mosaici brillano alla prima luce del mattino, e mi alzo dal mio posto:"
@@ -179,14 +179,14 @@
  scheme_critical_moments.4001.a: "Sempre un piacere, mi[target.Custom('DE_END_PRO_S_N')] [target.GetLadyLord]."
  scheme_critical_moments.4001.tt: "Legittimità Favorita!"
  foster_legitimacy_scheme_toast_desc: "[owner.Custom('DE_ART_DEF_P_D')] tu[owner.Custom('DE_END_PRO_S_N')] [target.Custom2('RelationToMeShort', SCOPE.sC('owner'))], [owner.GetShortUINameNoTooltip|U], ha favorito la tua [legitimacy|E]"
-
+ 
  scheme_critical_moments.4002.t: "$foster_legitimacy_scheme$: Fallimento"
  scheme_critical_moments.4002.desc: "Una delusione. Sospirando, getto via la lettera appena arrivata dalla capitale: "[owner.Custom('IT_NAM_COL3')|U][target.GetTitleAsNameNoTooltip] ti ringrazia calorosamente per i tuoi sforzi."\n\nUn ringraziamento vale quanto il nulla. E un ringraziamento da parte [owner.Custom('IT_NAM_COL2')|U][target.GetTitleAsNameNoTooltip] vale quanto un calcio nello stinco.\n\n"Mi hai deluso," avrebbe potuto semplicemente dire. Senza mezzi termini."
  scheme_critical_moments.4002.a: "Beh, dovevo quantomeno provarci."
-
+ 
  fostered_legitimacy_opinion: "Favorita la mia Legittimità"
  damaged_legitimacy_opinion: "Danneggiata la mia Legittimità"
-
+ 
  # Damage legitimacy
  damage_legitimacy_scheme: "Danneggiare la Legittimità"
  damage_legitimacy_scheme_desc: "Cercherò di diminuire la [legitimacy|E] del mio [liege|E]"
@@ -202,13 +202,13 @@
  SCHEME_LIEGE_INTRIGUE: "L'[intrigue|E] del tuo [liege|E] è: $VALUE|+=0$"
  damage_legitimacy_positive_outcome_tt: "Se ha successo:\n$EFFECT_LIST_BULLET$ Perde #N [EmptyScope.ScriptValue('minor_legitimacy_gain')]#! [legitimacy_i][legitimacy|E]\n$EFFECT_LIST_BULLET$ Perde [opinion|E] verso di [actor.GetShortUIName]"
  damage_legitimacy_negative_outcome_tt: "Se fallisce, spendi #N [EmptyScope.ScriptValue('medium_influence_gain')]#! [influence_i][influence|E]"
-
+ 
  scheme_critical_moments.4011.t: "$damage_legitimacy_scheme$: Successo!"
  scheme_critical_moments.4011.desc: "Osservo la lettera che uno dei miei servitori ha appena posato. La pergamena è pregiata, persino profumata. Una lettera dalla capitale, senza dubbio.\n\n"[target.Custom('IT_NAM_COL3')][target.GetTitleAsNameNoTooltip], vostr[ROOT.Char.Custom('DE_END_PRO_S_N')] signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], sta affrontando una situazione assai spiacevole..."\n\nUn sorriso mi attraversa il viso. Non ho bisogno di leggere oltre. La sua [legitimacy|E] è stata danneggiata — un'opportunità perfetta per attaccare."
  scheme_critical_moments.4011.a: "Portatemi l'inchiostro."
  scheme_critical_moments.4011.tt: "Legittimità Danneggiata!"
  damage_legitimacy_scheme_toast_desc: "[target.Custom('DE_ART_DEF_P_D')] tu[target.Custom('DE_END_PRO_S_N')] [target.Custom2('RelationToMeShort', SCOPE.sC('owner'))], [owner.GetShortUINameNoTooltip|U], ha danneggiato la tua [legitimacy|E]"
-
+ 
  scheme_critical_moments.4012.t: "$damage_legitimacy_scheme$: Fallimento"
  scheme_critical_moments.4012.desc.intro: "Ci sono stati momenti — pochi — in cui sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] felice che qualcosa fosse andato storto. Questo non è uno di quelli.\n\n[target.GetTitledFirstName] probabilmente è sedut[target.Custom('DE_END_PRO_S_N')] tutt[target.Custom('DE_END_PRO_S_N')] tronfi[target.Custom('DE_END_PRO_S_N')] sul suo trono in questo preciso istante, "
  scheme_critical_moments.4012.desc.byzantium: "forse chiedendo a qualche cortigian[target.Custom('DE_END_ADJ_DEF_P_D')] di intrattenerl[target.Custom('DE_END_PRO_S_N')]."
@@ -315,6 +315,7 @@
  TARGET_GOVERNOR_EFFICIENCY_DESC: "[governor_efficiency|E] di [target.GetShortUIName]: $VALUE|+=0$"
  TARGET_HOLDER_GOVERNOR_EFFICIENCY_DESC: "[governor_efficiency|E] di [target.GetHolder.GetShortUIName]: $VALUE|+=0$"
  HOUSE_HEAD_SCHEME_SUPPORT_DESC: "$house_head_request_interaction$: $VALUE|+=0$"
+ coronation_spouse_despised_modifier: "[owner.GetShortUINamePossessive|U] Coronation vow to be rid of [target.GetShortUIName]: $VALUE|+=0$"
  #Found Despotate
  found_despotate: "Eleva il Governatorato"
  found_despotate_action: "Eleva il Governatorato a"
@@ -569,4 +570,3 @@
  scheme_critical_moments.8062.t: "[scheme.GetNameNoTooltip]: Fallimento"
  scheme_critical_moments.8062.desc: "Incendio! Incendio!\n\nUn fuoco infernale incontrollabile inghiotte un'altra nave armata di sifoni. Mentre il suo equipaggio urla, arrostito vivo, mi trovo a riflettere su tutte le caotiche misture, i sifoni che perdono, i marinai morti coinvolti in questa impresa...\n\nCome si è #EMP mai#! riusciti a controllare una sostanza così malvagia? Come?!?!"
  scheme_critical_moments.8062.a: "Suppongo che non lo saprò mai..."
-

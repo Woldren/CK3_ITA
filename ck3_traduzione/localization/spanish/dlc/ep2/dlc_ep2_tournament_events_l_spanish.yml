@@ -59,7 +59,7 @@
  ep2_tournament_events.0007.a:0 "Cento monete, avete detto?"
  ep2_tournament_events.0007.b:0 "Supponiamo di fare a meno dell'oro, ma di aggiungere un'obbligazione..."
  ep2_tournament_events.0007.c:0 "Non potete comprare la vostra via d'uscita da questa situazione, [versus_contestant.GetFirstNameNoTooltip]."
-
+ 
  ep2_tournament_events.0010.t:0 "$tournament_versus_header$ Rischio Calcolato"
  ep2_tournament_events.0010.desc:0 "Il tempo rallenta mentre la spada di [versus_contestant.GetFirstName] si inarca sopra la testa, la lama risuona nell'aria. Non è un colpo insignificante, se rimarrò dove sono mi ferirà più del dovuto.\n\nLa questione dovrebbe essere semplice, perché un attacco così selvaggio lascia il suo istigatore aperto a una controffensiva, ma c'è una sensazione fastidiosa in fondo alla mia mente. La smorfia che [versus_contestant.GetFirstNameNoTooltip] ha fatto mentre sferrava il colpo era comprensibile, dato lo sforzo, ma mi è parso di scorgervi anche un piccolo barlume di soddisfazione. Anche i suoi occhi sembrarono quasi dardeggiare verso il mio fianco mentre preparava la mossa. È tutta una finta?\n\nIl colpo si avvicina. È il momento di agire."
  ep2_tournament_events.0010.a:0 "Siete mi[Select_CString(versus_contestant.IsFemale,'a','o')] adesso!"
@@ -261,7 +261,7 @@
  ep2_tournament_events.1501.b:0 "Oh, cielo. Sento che mi sta venendo il solletico alla gola."
  ep2_tournament_events.1501.b.tt:0 "#EMP Cough!#! #EMP COUGH!#!"
  ep2_tournament_events.1501.c:0 "Meglio lasciare che sia [competitor.Custom('DE_END_PRO_S_N')] ad occuparsene."
- 
+
  ep2_tournament_events.1502.t:0 "$tournament_contest_header$ Freccia in Movimento"
  ep2_tournament_events.1502.desc:0 "Gli stendardi svolazzano e si agitano intorno a me mentre mi avvicino per effettuare il mio tiro, sballottat[ROOT.Char.Custom('DE_END_PRO_S_N')] dal vento. La polvere mi passa accanto mentre incocco la freccia nell'arco, mentre il vento pungente mi fa lacrimare gli occhi.\n\nAspetto che si plachi.\n\nContinuo ad aspettare.\n\nNon credo che si fermerà."
  ep2_tournament_events.1502.secret:0 "\n\nLascio che la mia mente torni a ripensare a quello che mi sembrava di aver sentito dal chiacchiericcio della folla. Sembrava piuttosto #EMP salace#!, per non dire altro..."
@@ -600,7 +600,7 @@
  ep2_tournament_events.5505.getout:0 "...no, lasciamo perdere."
  ep2_tournament_events.5505.opinion.tt:0 "Ogni familiare stretto non sadico:"
  
- # Horse Archery
+ # Honse Anchery
 
  ep2_tournament_events.6501.t:1 "$tournament_contest_header$ Fama e Fortuna"
  ep2_tournament_events.6501.desc:1 "Una leggera brezza soffia sul campo mentre un altro concorrente effettua il suo tiro. Il pubblico è in rispettoso silenzio. Onestamente, un po' #EMP troppo#! silenzioso per i miei gusti. Mi sembra persino di sentire uno sbadiglio in mezzo ai garbati applausi quando la corda dell'arco scocca la freccia e questa colpisce il bersaglio.\n\nMi sposto avanti per il mio turno. Seguono acclamazioni gentili ma sparse. Non è certo un pubblico che sprizza energia.\n\nMentre incocco una freccia, mi è balenata un'idea, non particolarmente oculata ma stimolante.\n\nVediamo se qualcuno sbadiglierà ancora!"

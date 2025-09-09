@@ -1,4 +1,4 @@
-﻿l_spanish: 
+﻿l_spanish:
  DOMICILE_WINDOW_MAIN_LEVEL: "#high [DOMICILE_TYPE.GetNameNoTooltip] #! #weak (Livello $LEVEL$) #! $LOCATION$"
  DOMICILE_WINDOW_BUILDING_LEVEL: "Livello $LEVEL$"
  DOMICILE_WINDOW_BUILDING_LEVEL_SHORT: "$LEVEL$"

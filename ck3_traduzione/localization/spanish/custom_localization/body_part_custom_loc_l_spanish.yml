@@ -7,7 +7,7 @@
 
  armarms_arm:0 "braccio"
  armarms_arms:0 "braccia"
- 
+
  footfeet_foot:0 "piede"
  footfeet_feet:0 "piedi"
 
@@ -20,13 +20,14 @@
  # Grammatical Stuff
  articleblank_article:0 "uno/una "
  articleblank_articlevowel:0 "un/un' "
+
  articleblank_blank:0 ""
  articletwo_two: "due"
 
  maskface_behind:0 "dietro"
  maskface_in:0 "sulla"
  maskface_across:0 "attraverso"
- 
+
  # Substitution Stuff
  senseobserve_eye:0 "vedere"
  senseobserve_taste:0 "assaporare"
@@ -51,7 +52,7 @@
  saying_3p_aware: "prende coscienza"
  saying_3p_sight: "vede" 
 
-#frostbite event
+ #frostbite event
  bodypart_nose:0 "naso"
  bodypart_ear:0 "orecchio"
  bodypart_ears:0 "orecchie"

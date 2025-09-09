@@ -18,4 +18,3 @@
  mpo_flavor_events_settled.0010.b_perk_tt: "Your [GetPerk('defensive_measures_perk').GetName( GetNullCharacter )] [perk|E] allows you to negotiate a better price"
  mpo_flavor_events_settled.0010.c: "#EMP Spit on the ground.#!"
  mpo_flavor_events_settled.0010.d: ""Send my respects to your [nomad_lord.GetLadyLord].""
-

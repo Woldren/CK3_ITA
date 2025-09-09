@@ -19,4 +19,4 @@
  lobby_landless_government_filter_tt: "Clicca per selezionare un [government|e] [unlanded|e] giocabile per filtrare la lista."
  lobby_landless_government_filter: "Filtro Governo Senza Terra"
  lobby_more_domiciles_count: "+[Subtract_int32( LobbyHelperWindow.CountFilteredDomicilesInProvince( Province.Self ), '(int32)1')]"
- 
+

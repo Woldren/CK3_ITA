@@ -70,7 +70,7 @@
  fp3_blessed_me_opinion: "Mi ha benedetto"
  fp3_built_a_dakhma_opinion: "Ha sostenuto la mia fede"
 
- #Culture Opinions
+#Culture Opinions
  sogdian_opinion: "Opinione $sogdian$"
  saka_opinion: "Opinione $saka$"
  han_opinion: "Opinione $han$"
@@ -79,11 +79,11 @@
  tajik_opinion: "Opinione $tajik$"
  khwarezmian_opinion: "Opinione $khwarezmian$"
  afghan_opinion: "Opinione $afghan$"
- 
- #Faith Opinions
+
+#Faith Opinions
  imami_opinion: "Opinione $imami$"
 
- #Clan Opinions
+#Clan Opinions
  clan_government_opinion: "Opinione del [clan|E]"
 
  fp3_split_the_muslim_world_in_two_caliphates: "Dividi i Califfati"

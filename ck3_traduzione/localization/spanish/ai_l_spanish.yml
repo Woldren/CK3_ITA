@@ -1,4 +1,5 @@
 ﻿l_spanish:
+# debug
  AI_UNIT_TOOLTIP_WAR:0 "$ROLE$ in $WAR$"
  AI_UNIT_TOOLTIP_UNIT_STACK:0 "Pila di Unità ($ID$):"
  AI_UNIT_TOOLTIP_UNIT_STACK_ORDER:0 " Ordina a"

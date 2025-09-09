@@ -212,8 +212,8 @@
  east_europe.0143.desc.outro:0 "Pare che [mogyer_invader.GetShortUIName], un $ mogyer $ signore della guerra, stia radunando tutta la forza del regno [mogyer_invader.GetHerHis] per lanciare un'invasione su vasta scala della Pannonia.\n\nAnche ora, le orde di $mogyer$ si stanno radunando, pronti a raggiungere le valli pianura in sella ai loro destrieri demoniaci per ribaltare l'intero ordine locale!"
  east_europe.0143.a:0 "Attraverseranno mai i Carpazi?"
  east_europe.0143.a.tt:0 "$east_europe.0142.a.tt$"
- 
- #LIVONIAN DECISIONS
+
+#LIVONIAN DECISIONS
  east_europe.0200.t:0 "[founder.Custom('IT_NAM_COL3')|U][founder.GetTitleAsNameNoTooltip] di Livonia"
  east_europe.0200.desc.christian:0 "I Baltici sono stati per secoli terre primitive e selvagge, meramente casa di varie fedi eretiche e adoratrici del diavolo, ma con il coronamento di un [founder.GetTitleAsNameNoTooltip] di Livonia di fede [ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip], il potere di [founder.GetFaith.HighGodName] riscalda ora questa terra umida e gelida.\n\nCon la missione [ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip] che ha avuto successo nei Baltici, sono pronto a proclamare la Livonia; un titolo per unire tutti i baltici nella nostra comune missione di diffondere la parola di [founder.GetFaith.random_GoodGodNames]."
  east_europe.0200.desc.nonchristian:0 "Per secoli ai Balti è mancato un regno per il proprio popolo, mentre i vichinghi hanno devastato i nostri villaggi costieri e i missionari stranieri di terre lontane ci hanno chiamato primitivi e selvaggi, ma ora basta. I disparati popoli baltici ora si inginocchiano insieme di fronte alla corona di Livonia.\n\nCon la mia incoronazione come [founder.GetTitleAsNameNoTooltip], inauguro un'epoca d'oro non solo per il popolo [founder.GetCulture.GetName], ma per tutti i Balti che si affacciano sulla costa."

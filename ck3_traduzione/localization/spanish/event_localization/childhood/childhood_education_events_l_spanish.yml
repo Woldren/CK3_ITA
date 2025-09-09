@@ -6,7 +6,6 @@
  childhood_education.0004.desc_fallback:0 "[ward.Custom('DE_ART_IND_A')] persegue la conoscenza in [ward.Custom('education_focus_child')]."
  childhood_education.0004.a:0 "[ward.GetTitledFirstNameNoTooltip] ora sta studiando [ward.Custom('education_focus_child')]!"
 
-
  childhood_education.1011.t:0 "È Quello che Sono"
  childhood_education.1011.desc:0 "[guardian.GetTitledFirstName] mi ha insegnato molto sulle usanze della sua gente — #EMP della nostra#! gente, poiché non solo io professo la fede [guardian.GetFaith.GetAdjective], per quanto mi veda totalmente come un [guardian.GetCulture.GetName]."
  childhood_education.1011.a:0 "È l'unico modo in cui vorrei vivere."

@@ -147,7 +147,7 @@
  child_personality.7071.change.vengeful:0 "Non essere così mite! #EMP Vendicati!#!"
  child_personality.7071.change.deceitful:0 "La vendetta è un piatto che va servito... #EMP indirettamente.#!"
  child_personality.7071.change.calm:0 "Porgi l'altra guancia, [child.Custom('GirlBoy')] mi[child.Custom('DE_END_PRO_S_N')]."
-
+ 
  child_personality.7080.t:0 "Una lezione di carità"
  child_personality.7080.desc_1:0 ""Guarda i poveri e gli oppressi, [child.GetFirstNameNoTooltip]. Ce ne sono molti e alcuni sono veramente bisognosi, altri sono semplici ciarlatani in cerca di carità.""
  child_personality.7080.desc_name_1:0 "[teacher.GetTitledFirstName] $child_personality.7080.desc_2$"

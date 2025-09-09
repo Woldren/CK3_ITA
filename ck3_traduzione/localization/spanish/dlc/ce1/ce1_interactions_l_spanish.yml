@@ -17,3 +17,5 @@
  REASON_ILLUSTRIOUS_LEGEND: "$game_concept_legend_illustrious$ $game_concept_legend$: $VALUE|+0=$"
  REASON_MYTHICAL_LEGEND: "$game_concept_legend_mythical$ $game_concept_legend$: $VALUE|+0=$"
  IS_CONTACT_REASON: "È il tuo [contact_list_contact|E]: $VALUE|+0=$"
+
+

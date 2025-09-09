@@ -78,6 +78,7 @@
  dungeon_ongoing.0014.desc:0 "Ho sentito le guardie sussurrare. [letter_recipient.Custom('DE_ART_DEF_P_D')] [letter_recipient.Custom2('MyCharacterIntroduction', ROOT.Char)] ha evidentemente ricevuto le mie lettere e provato a intercedere a mio favore presso [imprisoner.Custom('IT_NAM_COL3')][imprisoner.GetTitledFirstName]. Purtroppo, quel[imprisoner.Custom('DE_END_ADJ_NUL_S_N')] [imprisoner.Custom('InsultNoun')] ha un cuore di pietra e ha respinto le richieste [letter_recipient.Custom('IT_NAM_COL2')][letter_recipient.GetTitledFirstNameNoTooltip]. E io mi ritrovo ancora dentro questa cella."
  dungeon_ongoing.0014.a:0 "Quanto meno, [Select_CString(letter_recipient.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', letter_recipient )], [letter_recipient.Custom('IT_NAM_COL3')][letter_recipient.GetTitledFirstNameNoTooltip], è stat[letter_recipient.Custom('DE_END_PRO_S_N')] buon[letter_recipient.Custom('DE_END_PRO_S_N')] con me."
  dungeon_ongoing.0014.b:0 "Non c'è nessuno che possa aiutarmi?" 
+ 
 
  dungeon_ongoing.9001.t:0 "Dentro"
  dungeon_ongoing.9001.desc:0 ""Non ricordo l'ultima volta che ho visto il sole. Non ricordo l'ultima volta che ho mangiato cibo solido, o qualsiasi altra cosa solida.\n\nÈ come se l'umidità dell'aria si fosse fissata nei miei polmoni. Se un dente mi fa male, lo estraggo semplicemente dalle mie gengive in decomposizione."

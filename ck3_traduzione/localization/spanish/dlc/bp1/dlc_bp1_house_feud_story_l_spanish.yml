@@ -381,7 +381,6 @@
  action_ongoing_house_feud_click:0 "#I Clicca per visualizzare il Capo della Casata [house_feud|E]#!"
  action_ongoing_house_feud_unimportant:0 "@warning_icon! #N La tua Casata sta attualmente perdendo la [house_feud|E]#!"
  swap_feud_tt:0 "Temina la [house_feud|E] con la [house|E] [house_feud_existing.GetBaseName]"
- 
  # Tweaks
  house_feud_cooldown_tt:1 "La tua [house|E] non sarà in grado di avviare un'altra [house_feud|E] per 25 anni"
  house_reward_modifier_tt:1 "#italic Questo modificatore si basa sul tuo attuale punteggio della [house_feud|E]#!" 

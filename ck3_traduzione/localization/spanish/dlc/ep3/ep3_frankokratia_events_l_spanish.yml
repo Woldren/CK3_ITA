@@ -10,7 +10,6 @@ ep3_frankokratia_events.0001.a.flavor: "Questi cristiani sfidano l’autorità d
 ep3_frankokratia_events.0001.b: "Farò giurare ai Crociati fedeltà personale a questa causa."
 ep3_frankokratia_events.0001.b.flavor: "I condottieri degli eserciti di Dio possono decidere da sé. Poiché loro, non il Papa, saranno i primi a mettere piede a Bisanzio."
 ep3_frankokratia_events.0001.c: "Un’idea disastrosamente stolta."
-
 ep3_frankokratia_events.0001.c.flavor: "E un tradimento più empio difficilmente si potrebbe immaginare!"
 abandon_crusade_tooltip: "@alert_icon! #alert_trial Quando la [great_holy_war|E] inizierà, tu e gli altri Attaccanti volontari ne sarete rimossi#!"
 byz_claimant_crusade_tooltip: "@warning_icon! #X Guiderai una #high $CRUSADING_CLAIM_CB_NAME$#! contro [byz_emperor.GetShortUIName], in nome di [byz_claimant.GetShortUIName]#!"
@@ -185,7 +184,6 @@ ep3_frankokratia_events.0060.desc_paid: "[Select_CString(claimant.IsFemale,'Una 
 ep3_frankokratia_events.0060.desc_leave_unpaid: "[Select_CString(claimant.IsFemale,'Una nuova sovrana','Un nuovo sovrano')] siede tra gli inimitabili lussi di [claimant.GetCapitalLocation.GetTitle.GetNameNoTier], [Select_CString(claimant.IsFemale,'posta','posto')] lì dalle armi latine e [Select_CString(claimant.IsFemale,'obbedita','obbedito')] malvolentieri — per il momento — dai suoi sudditi: [claimant.GetName].\n\nCon una convinzione degna dei suoi antenati, [Select_CString(claimant.IsFemale,'questa nuova','questo nuovo')] [claimant.GetTitleAsNameNoTooltip] ha #EMP rifiutato#! le richieste dei Crociati. I mastini che hanno combattuto e ringhiato per [Select_CString(claimant.IsFemale,'lei','lui')] sono stati mandati via affamati.\n\nUn nuovo monarca regna, sì... ma ci si chiede ancora perché i Crociati erranti abbiano scelto un simile cammino, cercando salvezza...?"
 ep3_frankokratia_events.0060.desc_loss: "#EMP "Lode a [defender.GetTitledFirstName], [Select_CString(defender.IsFemale,'portatrice','portatore')] di vittoria! [defender.GetTitleAsNameNoTooltip]! [defender.GetTitleAsNameNoTooltip]!"#!\n\nQuesto ritornello echeggia in tutto [defender.GetPrimaryTitle.GetNameNoTier] — [Select_CString(defender.IsFemale,'la loro sovrana','il loro sovrano')] i Crociati latini in mare. Per la pretesa di [claimant.GetNamePossessive] sulla potente Bisanzio, sembra che il favore di Dio si sia dimostrato piuttosto limitato.\n\nUn grave imbarazzo per gli avventurieri che osarono presumere la volontà dell’Onnipotente..."
 ep3_frankokratia_events.0060.a: "Proprio una riunione di cristiani orientali e occidentali."
-
 latin_emp_title_gain_tooltip: "[latin_emperor.GetShortUIName|U] ha creato [latin_emperor.GetPrimaryTitle.GetName]"
 latin_emp_lesser_gains_tooltip: "[latin_emperor.GetShortUIName|U] ha ottenuto [latin_kingdom_1.GetName] e [titles|E] minori"
 byzantium_is_destroyed_tooltip: "[GetTitleByKey('e_byzantium').GetName|U] è stato distrutto"

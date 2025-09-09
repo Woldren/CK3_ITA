@@ -12,7 +12,7 @@
  TRAVEL_PLAN_DANGER_HIGH:0 "#T Alta probabilità di pericolo: luoghi [TravelPlanner.GetVeryLikelyDangers]#!"
  TRAVEL_PLAN_DANGER_MEDIUM:0 "#T Probabilità di pericolo media: luoghi [TravelPlanner.GetLikelyDangers]#!"
  TRAVEL_PLAN_DANGER_LOW:0 "#T Bassa probabilità di pericolo: luoghi [TravelPlanner.GetUnlikelyDangers]#!"
- 
+
  TRAVEL_ENTOURAGE_HEADER:0 "Seguito"
  TRAVEL_ENTOURAGE_BUTTON_LABEL:0 "[TravelPlanData.GetEntourageSize] nel seguito"
  CARAVAN_MASTER_HEADER:0 "Capo Carovana"
@@ -62,7 +62,6 @@
  TRAVEL_PLANNER_PROVISIONS_BREAKDOWN_FROM_TERRAIN: "#bold Dal Terreno#!"
  TRAVEL_PLANNER_PROVISIONS_BREAKDOWN_FROM_MAA: "#bold Dagli Uomini d'Arme#!"
 
- 
  APPOINT_CARAVAN_MASTER:0 "#T Nomina il Capo Carovana#!"
  CHANGE_CARAVAN_MASTER:0 "#T Cambia il Capo Carovana#!"
 
@@ -95,7 +94,6 @@
  START_TRAVEL_MOVE_TO_CONTRACT: "Spostati a [Domicile.GetType.GetNameNoTooltip] per Accettare il Contratto"
  START_TRAVEL_MOVE_DOMICILE: "Inizia a spostare [Domicile.GetType.GetNameNoTooltip]" #controllare il/la?
 
-
  TRAVEL_OPTION_ADD_COMPANIONS_DESC_SINGLE:0 "Aggiungerai un cortigiano al tuo seguito: $CHARACTER_LIST$"
  TRAVEL_OPTION_ADD_COMPANIONS_DESC_MULTIPLE:0 "Aggiungerai fino a $MAX_CHARACTERS$ cortigiani al tuo seguito: $CHARACTER_LIST$"
  TRAVEL_OPTION_ADD_COMPANIONS_DESC_NONE_FOUND:0 "#X Non sono stati trovati cortigiani che corrispondono ai criteri.#!"
@@ -109,13 +107,13 @@
  PROVINCE_TRAVEL_DANGER_TOOLTIP:0 "#T [Province.GetBaronyNameExplicitly]#!"
 
  INVALID_TRAVEL_ROUTE_DEVIATION_TOO_LARGE:0 "@warning_icon! #X Deviazione del percorso di viaggio eccessiva: $PATH_DURATION_DIFF|0$ giorni oltre al massimo#!"
- 
+
  TRAVEL_PLANNER_ACCEPT_TRAVEL_PLAN:0 "Accetta Piano di Viaggio"
 
  TRAVEL_PLANNER_INVITED_ACTIVITY_START:0 "Inizio dell'attività: [Activity.GetActiveStartDate.GetString]"
  TRAVEL_PLANNER_INVITED_ACTIVITY_ESTIMATED_ARRIVAL:0 "Arrivo previsto: [TravelPlanDraft.GetData.GetNextDestination.GetEstimatedArrivalDate.GetString]"
  TRAVEL_PLANNER_INVITED_WILL_NOT_ARRIVE_IN_TIME:0 "@warning_icon! #X Non arriverai alla [Activity.GetShortNameNoTooltip] in tempo#!"
- 
+
  TRAVEL_POINT_OF_INTEREST_TT_ON_VISIT_EFFECT_HEADER:0 "#S Quando viene visitato/a#!"
  TRAVEL_POINT_OF_INTEREST_TT_ON_VISIT_EFFECT_VISITED_HEADER:0 "#S Quando viene visitato/a#! #I (già visitato/a)#!"
  TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings:0 "[Province.GetHolding.GetCurrentSpecialBuildingType.GetName]"
@@ -133,4 +131,3 @@
  TRAVEL_POINT_OF_INTEREST_TT_poi_grand_city:0 "Grande città di [Province.GetBaronyNameExplicitly]"
  poi_grand_city_visit_event_tt:0 "Innescherà un Evento di Osservazione"
  TRAVEL_POINT_OF_INTEREST_TT_poi_legend_capitals: "Origine di [Province.GetTitle.GetHolder.GetPromotedLegend.GetName]"
- 

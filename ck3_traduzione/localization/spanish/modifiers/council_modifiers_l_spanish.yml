@@ -41,9 +41,9 @@
 
  marshal_task_increase_control_increased_opinion_modifier:0 "Supervisione del Maresciallo"
  marshal_task_increase_control_increased_opinion_modifier_desc:0 "Questa contea beneficia enormemente delle attenzioni del maresciallo del regno."
- 
+
  task_manage_guards_disorganized_modifier_desc:0 "La disorganizzazione tra i ranghi delle Guardie Reali rende più difficile catturare in tempo i cospiratori ostili."
- 
+
  tax_collector_free_rein_modifier:0 "A Briglia Sciolta"
  tax_collector_free_rein_modifier_desc:0 "Questo personaggio ha concesso all'esattore delle tasse un ampio margine di manovra nel calcolo del reddito dovuto."
  tax_collector_fair_arbiter_modifier:0 "Arbitro Imparziale"
@@ -136,7 +136,7 @@
  task_court_intrigue_modifier:0 "Sposa — Intrighi di Corte"
  task_manage_domain_modifier:0 "Sposa — Gestione del Dominio"
  task_patronage_modifier:0 "Sposa — Mecenatismo"
- 
+
  task_vizier_default_diplomacy_modifier:0 "Assistenza da parte del [confidant|E]"
  task_vizier_default_martial_modifier:0 "Assistenza da parte del [confidant|E]"
  task_vizier_default_stewardship_modifier:0 "Assistenza da parte del [confidant|E]"
@@ -184,7 +184,7 @@
 
  chancellor_task_county_resisting_integration_modifier:0 "Resistenza all'Integrazione"
  chancellor_task_county_endorsing_integration_modifier:0 "Sostegno dell'Integrazione"
- 
+
  chancellor_task_bestow_royal_favor_vassal_modifier:0 "Favore Reale Concesso"
  chancellor_task_bestow_royal_favor_vassal_boosted_modifier:0 "$chancellor_task_bestow_royal_favor_vassal_modifier$"
  task_bestow_royal_favor_prestige_modifier:0 "Concedere un Favore Reale"

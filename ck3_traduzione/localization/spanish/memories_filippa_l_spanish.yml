@@ -113,7 +113,7 @@
  abandoned_crypto_faith_memory_desc:0 "ho abbandonato definitivamente la mia fede [ROOT.Var('old_faith_to_reminisce').Faith.GetAdjective]"
  abandoned_crypto_faith_memory_desc_second_perspective:0 "hai definitivamente abbandonato la tua fede [ROOT.Var('old_faith_to_reminisce').Faith.GetAdjective]"
  abandoned_crypto_faith_memory_desc_third_perspective:0 "[owner.Custom('IT_NAM_COL3')][owner.GetName] ha definitivamente abbandonato la sua fede [ROOT.Var('old_faith_to_reminisce').Faith.GetAdjective]"
- 
+
  treasure_map_memory: "seguito una mappa del tesoro e scoperto un magnifico tesoro"
  treasure_map_historical_artifact_memory_desc: "scoperto lo storico e magnifico manufatto [ROOT.Var('treasure_map_historical_artifact').Artifact.GetName] nel/nella [ROOT.Var('treasure_map_historical_artifact_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('treasure_map_historical_artifact_location').GetProvince.GetName]"
  treasure_map_historical_artifact_memory_desc_second_perspective: "hai scoperto lo storico e magnifico manufatto [ROOT.Var('treasure_map_historical_artifact').GetName] nel/nella [ROOT.Var('treasure_map_historical_artifact_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('treasure_map_historical_artifact_location').GetProvince.GetName]"

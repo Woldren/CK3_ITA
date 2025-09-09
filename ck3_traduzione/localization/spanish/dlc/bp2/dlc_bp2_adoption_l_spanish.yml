@@ -20,7 +20,6 @@
  we_are_NOT_alike_tt:0 "Non abbiamo tratti [traits|E] in comune: $VALUE|=+0$"
  ambition_tt:0 "Ho l'ambizione di realizzare di più: $VALUE|=+0$"
  every_non_content_child:0 "Ciascun [child|E] che non è [GetTrait('content').GetName( actor )]"
- 
  adventurer_adopt_interaction: "Adotta come Successore"
  adventurer_adopt_interaction_desc: "Essendo un avventuriero, puoi [adopt|E] [recipient.GetTitledFirstNameNoTooltip] nella tua [dynasty|E] e renderl[recipient.Custom('DE_END_PRO_S_N')] il tuo [designated_heir|E]"
  adventurer_adoption_child_tt: "[recipient.GetShortUIName] diventa parte della tua [dynasty|E] ma creerà una nuova [house|E]"

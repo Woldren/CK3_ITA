@@ -7,7 +7,7 @@
  remove_domicile_building_global_past: "[DomicileBuilding.GetName] di [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] è stato distrutto"
  remove_domicile_building_third: "$remove_domicile_building_global$"
  remove_domicile_building_third_past: "$remove_domicile_building_global_past$"
-
+ 
  lower_domicile_building_global: "[DomicileBuilding.GetName] di [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] è stato ridotto di livello"
  lower_domicile_building_global_past: "[DomicileBuilding.GetName] di [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] è stato ridotto di livello"
  lower_domicile_building_third: "$lower_domicile_building_global$"

@@ -71,6 +71,7 @@
  commission_epic.0002.d:0 "Racconta la storia nel modo più veritiero possibile."
  commission_epic.more_piety:0 "Guadagnerò anche un po di [piety|E] quando l'epica sarà finita"
 
+
  commission_epic.1001.t:0 "Epica di Famiglia: Una Questione di Tempo"
  commission_epic.1001.opening:0 "Sono settimane che non mi vengono presentati nuovi lavori sull'epopea familiare e l'intero processo sta richiedendo troppo tempo, oppure"
  commission_epic.1001.composer:0 "[composer.GetSheHe] finisce per fare un lavoro scadente! È davvero troppo pretendere che [composer.GetSheHe] mi offra l'eccellenza e che la offra ora??"
@@ -171,7 +172,7 @@
  commission_epic.2006.b.flavor:0 "Abbiamo sempre aperto la strada ai [ROOT.Char.GetFaith.AltPriestTermPlural]."
  commission_epic.2006.c:0 "Sappiamo entrambi che la famiglia viene prima di tutto."
  commission_epic.2006.c.same_dynasty:0 "Questa opzione è disponibile perché [court_chaplain.GetFirstNameNoTooltip] è della mia stessa [dynasty|E]"
- #tradurre da qui fino a 218
+
  commission_epic.6001.t:0 "Alcuni Piccoli Abbellimenti"
  commission_epic.6001.writerservant:0 "Dopo aver lavorato per qualche tempo sulla mia cronaca, [composer.GetName] viene a cercarmi.\n\n"[Select_CString(ROOT.Char.IsFemale,'Mia Signora','Sire')]", dice, "devo confessare che, sebbene la vostra dinastia sia davvero grandiosa, le rivendicazioni ancestrali che speravate di trovare potrebbero non essere così facili da corroborare. Ho bisogno di più tempo e di più risorse per scavare più a fondo nei vecchi testi. Altrimenti, dovrò fare dei piccoli #italic abbellimenti#! alle storie e le vostre rivendicazioni potrebbero risultare meno convincenti...""
  commission_epic.6001.scribes:0 "I miei scribi hanno lavorato giorno e notte scavando nei vecchi manoscritti alla ricerca di rivendicazioni territoriali dei miei antenati da mettere in risalto nella cronaca.\n\n"Purtroppo", dicono, "potremmo dover fare alcuni piccoli abbellimenti per quanto riguarda... alla verità in questa faccenda, agli atti di proprietà, ai domini dei vostri avi, e così via. Di certo potete capirne il motivo, [Select_CString(ROOT.Char.IsFemale,'mia Signora','sire')]"."
@@ -215,8 +216,7 @@
  
  half_baked_propaganda_chronicle_name:0 "Cronaca Propagandistica Incompiuta"
  half_baked_propaganda_chronicle_desc:0 "Questo libro avrebbe potuto esistere nell'infamia, se fosse stato completato. Così com'è, invece, non riesce a convincere alcun lettore riguardo le rivendicazioni territoriali che il suo mecenate cercava, anche se ingrandisce liricamente le presunte virtù della dinastia [ROOT.Char.GetDynastyNameNoTooltip]."
-
-
+ 
 
 
 
@@ -240,7 +240,6 @@
  commission_epic.9101.c:0 "Anch'io ho bisogno di te. Qui."
  commission_epic.9101.d:0 "Finchè mi scriverai!"
  commission_epic.9101.d.tt: "[composer.GetTitledFirstName] lascerà la tua corte"
-
 
  commission_epic.9102.t:0 "Epica di Famiglia: Servitù"
  commission_epic.9102.desc:0 "[composer.GetTitledFirstName] ha dimostrato di essere molto più capace di quanto mi sarei aspettato da un semplice servitore. Se non l'avessi conosciuto meglio, avrei potuto pensare che provenisse da una stirpe di poeti!\n\nDopo tutto il tempo che abbiamo passato insieme, sembra strano che debba tornare a zappare la terra, o qualunque cosa facessse prima di comporre la mia opera."

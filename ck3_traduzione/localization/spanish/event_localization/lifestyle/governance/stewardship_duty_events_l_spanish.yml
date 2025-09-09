@@ -139,7 +139,7 @@
  stewardship_duty.4020.desc:0 "[faction_member.Custom('DE_ART_DEF_P_A')] [faction_member.GetTitledFirstName] non è più in una fazione."
  stewardship_duty.4020.desc.switch:0 "[faction_member.Custom('DE_ART_DEF_P_A')] [faction_member.GetTitledFirstName] ha cambiato fazione."
 
- # Altering the Deal -  Persuade a vassal to accept a contract change, by Sean Hughes
+ # Altering the Deal - Persuade a vassal to accept a contract change, by Sean Hughes
  stewardship_duty.4040.t:0 "Cambiare l'Accordo"
  stewardship_duty.4040.desc:0 "([my_vassal.Custom('DE_ART_DEF_P_D')]) mi[my_vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', my_vassal)] [my_vassal.GetTitledFirstName] ha un contratto con me che è abbastanza permissivo, e l[my_vassal.Custom('DE_END_PRO_S_N')] esenta da molti degli obblighi che normalmente mi aspetterei da uno dei miei vassalli.\n\nSe potessi convincerl[my_vassal.Custom('DE_END_PRO_S_N')] ad acconsentire ad aumentare le sue tasse, il regno ne trarrebbe grandi benefici a lungo termine..."
  stewardship_duty.4040.a:0 "Un incentivo sufficiente comprerà il suo consenso."
@@ -249,7 +249,7 @@
  # Special Events #
  ##################
 
- #  Map Painting Journey, by Petter Vilberg
+ # Map Painting Journey, by Petter Vilberg
  stewardship_duty_special.1201.t:0 "Mappare le Terre"
  stewardship_duty_special.1201.desc:0 "[steward.Custom('DE_ART_DEF_P_D')] mi[steward.Custom('DE_END_PRO_S_N')] [steward.GetCouncilTitle], [steward.GetTitledFirstName], mi sta proponendo un'impresa che secondo [steward.GetSheHe] sarà di beneficio a [ROOT.Char.Custom('RealmType')].\n\nCrede che dovrei viaggiare con il mio seguito per mappare i territori [painting_land_owner.Custom('DE_PRO_PER_P_3P_A')] [painting_land_owner.GetTitledFirstName]. Conoscerei meglio il mio reame, inoltre [steward.GetFirstNameNoTooltip] crede che trarrei una comprensione più profonda del mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('painting_land_owner'))]."
  stewardship_duty_special.1201.a:0 "Un'impresa che vale la pena tentare."

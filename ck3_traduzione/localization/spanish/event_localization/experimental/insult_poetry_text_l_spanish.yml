@@ -23,9 +23,9 @@
  insult_poetry_recipient_line_1_c_02:0 "\nUn emarginato, indegno anche di un [ROOT.Char.Custom('rhyme_group_c_one')]"
 
  insult_poetry_recipient_line_2_a_01:0 "\nCome nessuno nemmeno [recipient.Custom('rhyme_group_a_two')]"
- #insult_poetry_recipient_line_2_a_02: "\nPiù di Dio [recipient.Custom('rhyme_group_a_two')]"
+ #insult_poetry_recipient_line_2_a_02: "#EMP \nMore than even God [recipient.Custom('rhyme_group_a_two')]#!"
  insult_poetry_recipient_line_2_b_01:0 "\nStare intorno a te è un [recipient.Custom('rhyme_group_b_two')]"
- #insult_poetry_recipient_line_2_b_02: "\nPiù di nostro Signore [recipient.Custom('rhyme_group_b_two')]"
+ #insult_poetry_recipient_line_2_b_02: "#EMP \nMore than even the Lord's [recipient.Custom('rhyme_group_b_two')]#!"
  insult_poetry_recipient_line_2_c_01:0 "\nNemmeno degno di essere [recipient.Custom('rhyme_group_c_two')]"
  insult_poetry_recipient_line_2_c_02:0 "\nSicuramente siete solito essere [recipient.Custom('rhyme_group_c_two')]"
  

@@ -1,9 +1,9 @@
 ﻿l_spanish:
  LEGENDS_TITLE: "Leggende"
-  
+ 
  CREATE_LEGEND_TOOLTIP: "[LegendSeed.GetDescription( Character.Self )][AddLine( Character.GetCanCreateLegendDesc( LegendSeed.Self ) )][AddParagraph( GetLongCostString( LegendSeed.GetCreationCost( Character.Self ) ) )]"
  CREATE_TRIGGERED_LEGEND_TOOLTIP: "[TriggeredLegendSeed.GetDescription( Character.Self )][AddParagraph( GetLongCostString( TriggeredLegendSeed.GetSeed.GetCreationCost( Character.Self ) ) )][AddLine( Character.GetCanCreateTriggeredLegendDesc( TriggeredLegendSeed.Self ) )]"
-  
+ 
  LEGEND_HEADER_TT: "#T [Legend.GetName]#![AddLine( Legend.GetDescription )]\n\n#i Clicca per selezionare e aprire la Cronaca\nClicca con il destro per selezionare e scorrere la leggenda sulla mappa#!"
  SEED_LEGEND_HEADER_TT: "#T [LegendSeed.GetName( Character.Self )]#![AddLine( LegendSeed.GetDescription( Character.Self ) )]"
  TRIGGERED_LEGEND_SEED_HEADER_TT: "#T [TriggeredLegendSeed.GetName( Character.Self )]#![AddLine( TriggeredLegendSeed.GetDescription( Character.Self ) )]"
@@ -14,7 +14,7 @@
 
  OPEN_CHRONICLE_BUTTON_TT: "#T Apri Cronoca#!"
  PAN_TO_LEGEND_TT: "#T Vai alla leggenda sulla mappa#!"
- 
+
  LEGEND_HEADER_SUBTITLE: "[Legend.GetType.GetName] su [Legend.GetProtagonist.GetName]"
 
  PROMOTED_LEGEND: "Promozione di una Leggenda"
@@ -81,7 +81,6 @@
  DISTANT_COMPLETED_LEGENDS: "Leggende Completate #weak ([GetDataModelSize( LegendsWindow.GetDistantCompletedLegends )])#!"
  NO_DISTANT_ACTIVE_LEGENDS: "Non ci sono [legends|e] che si stanno formando al di fuori del tuo [realm|e], per ora"
  NO_DISTANT_COMPLETED_LEGENDS: "Non sei a conoscenza di alcuna [legend|e] completata al di fuori del tuo [realm|e]"
-
 
  LEGEND_SPREAD_UPGRADE_: "#weak (Upgrade [Concept( 'legend_quality', 'Qualità' )|E] a [Legend.GetMaxNumProvinces|V])#!"
  LEGEND_SPREAD_UPGRADE: ""

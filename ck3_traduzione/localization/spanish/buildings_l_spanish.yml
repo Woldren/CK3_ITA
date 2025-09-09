@@ -506,7 +506,6 @@
  building_type_great_megalith_01_desc:0 "Versione estremamente ambiziosa di struttura megalitica, il progetto del Grande Megalite prevede di coprire il paesaggio con un gran numero di piccole costruzioni megalitiche, tutte intorno a un'unica costruzione gigantesca."
  building_great_megalith_01:0 "Grande Megalite"
  building_great_megalith_01_desc:0 "Il Grande Megalite è un vasto e stupefacente cerchio di pietre che si estende a coprire tutto il paesaggio, con innumerevoli siti più piccoli sparsi per la campagna. Aperto e accessibile a tutti, avvicina al divino adoratori e pellegrini di tutto il mondo."
-
  building_type_hospices_01: "Ospizi"
  building_type_hospices_01_desc: "Un ospizio offre un luogo di riposo per i malati e gli stanchi, dove possono essere assistiti da religiosi dediti a tale compito."
  building_hospices_01: "Alloggio del Pellegrino"
@@ -872,7 +871,7 @@
  building_type_london_bridge_01_desc: "There have been bridges over the River Thames since time immemorial, but this one — made of mighty stone — stands grander than all prior. The churning currents below have led to the common acceptance that the bridge is for wise men to pass over, and for fools to pass under."
  building_london_bridge_01: "London Bridge"
  building_london_bridge_01_desc: "Enlarged $building_type_london_bridge_01_desc$"
- 
+
  building_type_citadel_of_aleppo_01:1 "$building_citadel_of_aleppo_01$"
  building_type_citadel_of_aleppo_01_desc:0 "La Cittadella di Aleppo è un'antica fortificazione, utilizzata da numerose potenze sin dalla sua costruzione. La cittadella funge da residenza reale, rifugio fortificato, tempio e prigione."
  building_citadel_of_aleppo_01:0 "Cittadella di Aleppo"
@@ -1091,13 +1090,13 @@
  building_rammelsberg_mines_03_desc:1 "Man mano che le operazioni minerarie crescono, crescono anche le miniere stesse. Vengono costruiti più ingressi e scavati grandi pozzi per consentire l'estrazione dei minerali profondi."
  building_rammelsberg_mines_04:1 "Complesso Minerario di Rammelsberg"
  building_rammelsberg_mines_04_desc:1 "Con l'aumento della produzione di minerale, diverse fucine e fonderie vengono installate intorno all'insediamento. La lavorazione del metallo è diventata una cosa naturale per gli abitanti e la loro abilità è rinomata in tutto il mondo conosciuto."
- #building_rammelsberg_mines_05:0 "Miniere di Rammelsberg V"
+ #building_rammelsberg_mines_05:0 "Rammelsberg Mines V"
  #building_rammelsberg_mines_05_desc:0 "$building_type_rammelsberg_mines_01_desc$"
- #building_rammelsberg_mines_06:0 "Miniere di Rammelsberg VI"
+ #building_rammelsberg_mines_06:0 "Rammelsberg Mines VI"
  #building_rammelsberg_mines_06_desc:0 "$building_type_rammelsberg_mines_01_desc$"
- #building_rammelsberg_mines_07:0 "Miniere di Rammelsberg VII"
+ #building_rammelsberg_mines_07:0 "Rammelsberg Mines VII"
  #building_rammelsberg_mines_07_desc:0 "$building_type_rammelsberg_mines_01_desc$"
- #building_rammelsberg_mines_08:0 "Miniere di Rammelsberg VIII"
+ #building_rammelsberg_mines_08:0 "Rammelsberg Mines VIII"
  #building_rammelsberg_mines_08_desc:0 "$building_type_rammelsberg_mines_01_desc$"
 
  building_type_falun_mines_01:0 "Le Miniere del Falun"
@@ -1110,13 +1109,13 @@
  building_falun_mines_03_desc:1 "$building_rammelsberg_mines_03_desc$"
  building_falun_mines_04:1 "Complesso Minerario del Falun"
  building_falun_mines_04_desc:1 "$building_rammelsberg_mines_04_desc$"
- #building_falun_mines_05:0 "Miniere di Falun V"
+ #building_falun_mines_05:0 "Falun Mines V"
  #building_falun_mines_05_desc:0 "$building_type_falun_mines_01_desc$"
- #building_falun_mines_06:0 "Miniere di Falun VI"
+ #building_falun_mines_06:0 "Falun Mines VI"
  #building_falun_mines_06_desc:0 "$building_type_falun_mines_01_desc$"
- #building_falun_mines_07:0 "Miniere di Falun VII"
+ #building_falun_mines_07:0 "Falun Mines VII"
  #building_falun_mines_07_desc:0 "$building_type_falun_mines_01_desc$"
- #building_falun_mines_08:0 "Miniere di Falun VIII"
+ #building_falun_mines_08:0 "Falun Mines VIII"
  #building_falun_mines_08_desc:0 "$building_type_falun_mines_01_desc$"
 
  building_type_kutna_hora_mines_01:0 "Miniera di Kutná Hora"
@@ -1129,13 +1128,13 @@
  building_kutna_hora_mines_03_desc:1 "$building_rammelsberg_mines_03_desc$"
  building_kutna_hora_mines_04:1 "Complesso Minerario di Kutná Hora"
  building_kutna_hora_mines_04_desc:1 "$building_rammelsberg_mines_04_desc$"
- #building_kutna_hora_mines_05:0 "Miniere di Kutná Hora V"
+ #building_kutna_hora_mines_05:0 "Kutná Hora Mines V"
  #building_kutna_hora_mines_05_desc:0 "$building_type_kutna_hora_mines_01_desc$"
- #building_kutna_hora_mines_06:0 "Miniere di Kutná Hora VI"
+ #building_kutna_hora_mines_06:0 "Kutná Hora Mines VI"
  #building_kutna_hora_mines_06_desc:0 "$building_type_kutna_hora_mines_01_desc$"
- #building_kutna_hora_mines_07:0 "Miniere di Kutná Hora VII"
+ #building_kutna_hora_mines_07:0 "Kutná Hora Mines VII"
  #building_kutna_hora_mines_07_desc:0 "$building_type_kutna_hora_mines_01_desc$"
- #building_kutna_hora_mines_08:0 "Miniere di Kutná Hora VIII"
+ #building_kutna_hora_mines_08:0 "Kutná Hora Mines VIII"
  #building_kutna_hora_mines_08_desc:0 "$building_type_kutna_hora_mines_01_desc$"
  
  building_type_schwaz_mines_01:0 "Miniere di Schwaz"
@@ -1203,7 +1202,6 @@
  building_kremnica_mines_03_desc:0 "$building_rammelsberg_mines_03_desc$"
  building_kremnica_mines_04:0 "Complesso Minerario di Kremnica"
  building_kremnica_mines_04_desc:0 "$building_rammelsberg_mines_04_desc$"
-
 
  building_type_ratnapura_mines_01:0 "Le miniere di Ratnapura"
  building_type_ratnapura_mines_01_desc:0 "Ratnapura, la città delle gemme, è una delle fonti più importanti al mondo di rubini e zaffiri. Per centinaia di anni queste ricchezze sono state estratte e commerciate con i mercanti del subcontinente indiano, del Sud-Est asiatico e della Cina."
@@ -1543,7 +1541,7 @@
  building_type_ananda_temple_01_desc:0 "Pagan ha migliaia di pagode, templi e santuari disseminati in tutta la città e nelle pianure circostanti, ed il Tempio di Ananda ne rappresenta la massima espressione. La struttura perfettamente dimensionata contiene molte targhe uniche e immagini di pietra. È un luogo di culto e un centro di apprendimento per educare le persone all'ethos religioso."
  building_ananda_temple_01:0 "$building_type_ananda_temple_01$"
  building_ananda_temple_01_desc:0 "$building_type_ananda_temple_01_desc$"
-
+ 
  building_type_hotin_fort_01:0 "Fortificazione di Hotin"
  building_type_hotin_fort_01_desc:0 "Il Forte Hotin è un piccolo forte costruito sulle rive del fiume Dniester. La sua posizione gli permette di proteggere le vie commerciali locali e garantisce al proprietario il controllo del fiume."
  building_hotin_fort_01:0 "Forte Hotin"
@@ -1612,7 +1610,7 @@
  building_type_holy_site_basilica_santiago_01_desc:0 "Costruito sulla tomba di Giacomo il Grande, questo splendido edificio è il punto di arrivo del Cammino di Santiago e il coronamento di uno dei grandi siti della cristianità. I pellegrini provenienti da tutta l'Europa Occidentale e Settentrionale arrivano numerosi e parlano decine di lingue, anche se molti diventano muti per lo stupore."
  building_holy_site_basilica_santiago_01:0 "$building_type_holy_site_basilica_santiago_01$"
  building_holy_site_basilica_santiago_01_desc:0 "$building_type_holy_site_basilica_santiago_01_desc$"
- 
+
  building_type_charnel_grounds_01: "Ossari"
  building_type_charnel_grounds_01_desc: "Questi terreni all'aperto sono sia un luogo di purificazione spirituale che un luogo di riposo per i morti, in cui i corpi terreni dei defunti vanno a decomporsi."
 
@@ -1740,7 +1738,7 @@
  building_type_event_tower_of_silence_01_desc: "$building_tower_of_silence_01_desc$"
  building_event_tower_of_silence_01: "Torre del Silenzio"
  building_event_tower_of_silence_01_desc: "$building_type_tower_of_silence_01_desc$"
- 
+
  building_church_of_the_theotokos: "Tempio della Theotokos"
  building_church_of_the_theotokos_desc: "La Santa Croce ha conquistato da tempo questa magnifica struttura, sconfiggendo il culto pagano alla dea vergine Atena.\nOggi, ospita i santuari di Maria Parthenos, Madre di Dio e unica Vergine degna dell'appellativo di #EMP Santa#!."
  building_type_church_of_the_theotokos: "$building_church_of_the_theotokos$"
@@ -1853,6 +1851,7 @@
  building_burkhan_khaldun_01: "$building_type_burkhan_khaldun_01$"
  building_burkhan_khaldun_01_desc: "$building_type_burkhan_khaldun_01_desc$"
 
+
  TERRAIN_NOT_FARMLANDS: "Questi terreni non sono $farmlands$"
 
  building_pleasure_dome: "Cupola del piacere"
@@ -1878,7 +1877,6 @@
  building_murex_farm_07_desc: "Il laboratorio imperiale si concentra nella produzione di massa di tessuti tinti con la porpora di Tiro, incrementando in modo significativo le entrate derivanti dalla vendita di questi prestigiosi capi."
  building_murex_farm_08: "Palazzo Reale di Porpora"
  building_murex_farm_08_desc: "Questo magnifico palazzo, adornato con decorazioni a tema porpora di Tiro, è un simbolo di ricchezza e potere. Testimonia la maestria nella produzione della porpora raggiunta dalla città di Tiro."
- 
 
  building_type_generic_copper_mines_01: "Miniere di Rame"
  building_type_generic_copper_mines_01_desc: "Un'importante miniera di rame, che fornisce minerale di rame incredibilmente redditizio a chiunque sia abbastanza fortunato da possederla."
@@ -1955,3 +1953,64 @@
 
  brewery_effect_desc: "#low Sblocca:#!\n[court_position|E]: [GetCourtPositionType('court_brewmaster_court_position').GetName()]"
 
+ #ACH
+ building_type_oath_warriors_building_01: "Martial Grants"
+ building_type_oath_warriors_building_01_desc: "The sovereign of these lands has sworn a coronation oath to provide for the warriors."
+ building_oath_warriors_building_01: "Veterans' Smallholdings"
+ building_oath_warriors_building_01_desc: "Aristocratic fighters of long service have been given generous local plots, and interest in serving loyally has increased here accordingly."
+ building_oath_warriors_building_02: "Martial Estates"
+ building_oath_warriors_building_02_desc: "Those of the aristocratic warrior class who do not die on the battlefield live in comfort, their granted holdings allowing them to recruit and arm themselves amply."
+ building_oath_warriors_building_03: "Village Fiefdoms"
+ building_oath_warriors_building_03_desc: "Many local villages are given over to knightly officers as personal holdings, allowing them to gather strength and wealth at the expense of the other classes."
+ building_oath_warriors_building_04: "Vast Martial Holdings"
+ building_oath_warriors_building_04_desc: "A sizeable share of local taxes are delivered unto minor warrior aristocrats, the title-holders to field and settlement alike. Their mighty retinues, however, still serve."
+
+ building_type_oath_faithful_building_01: "Religious Monuments"
+ building_type_oath_faithful_building_01_desc: "The sovereign of these lands has sworn a coronation oath to provide for the faithful."
+ building_oath_faithful_building_01: "Wayside Shrines"
+ building_oath_faithful_building_01_desc: "Small shelters by the roadsides house simple sacred icons."
+ building_oath_faithful_building_02: "Sacred Gates"
+ building_oath_faithful_building_02_desc: "Above the entrances to and throughout this settlement, detailed religious artworks inspire awe and promise safe passage."
+ building_oath_faithful_building_03: "Temple Sanctuaries"
+ building_oath_faithful_building_03_desc: "The local temple complexes have been expanded with vaulted gardens, serene places which house freshwater wells."
+ building_oath_faithful_building_04: "Monumental Squares"
+ building_oath_faithful_building_04_desc: "Great investment has gone into massive central squares that abound with religious artwork, are kept bare of excess waste and usury, and supply water to locals."
+
+ building_type_oath_poor_building_01: "Official Almshouses"
+ building_type_oath_poor_building_01_desc: "The sovereign of these lands has sworn a coronation oath to provide for the poor."
+ building_oath_poor_building_01: "Charitable Customs"
+ building_oath_poor_building_01_desc: "People with means are encouraged by authorities to give surplus food and wealth to the less fortunate, typically during holy days."
+ building_oath_poor_building_02: "Poorhouses"
+ building_oath_poor_building_02_desc: "The very poor, widows and the elderly are given modest boarding and some care in simple accommodations."
+ building_oath_poor_building_03: "Benevolent Ministries"
+ building_oath_poor_building_03_desc: "Almshouses and other civic needs that serve the wretched are well-serviced by official ministers of some means."
+ building_oath_poor_building_04: "Charitable Institutions"
+ building_oath_poor_building_04_desc: "All through the land, the needy want for nought. Gracious accommodations house would-be vagrants, hospitals tend to the sick and elderly, and generous allowances are made for poor peasants."
+
+ oath_warriors_building_01_tooltip_high_medieval: "At least #V 6#! of your [knights|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_warriors_building_01_high_medieval_value')|0]#!):\n Has at least #V 14#! [prowess|E] and at least one [commander_trait|E]"
+ oath_warriors_building_01_tooltip_early_medieval: "At least #V 3#! of your [knights|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_warriors_building_01_early_medieval_value')|0]#!):\n Has at least #V 10#! [prowess|E] and at least one [commander_trait|E]"
+ oath_warriors_building_02_tooltip_late_medieval: "You have at least #V 6#! [men_at_arms|E] [regiments|E] of different #V Type#! and of at least #V 8 Size#!each"
+ oath_warriors_building_02_tooltip_high_medieval: "You have at least #V 5#! [men_at_arms|E] [regiments|E] of different #V Type#! and of at least #V 6 Size#! each"
+ oath_warriors_building_02_tooltip_early_medieval: "You have at least #V 4#! [men_at_arms|E] [regiments|E] of different #V Type#! and of at least #V 4 Size#! each"
+ oath_warriors_building_02_tooltip_default: "You have at least #V 3#! [men_at_arms|E] [regiments|E] of different #V Type#! and of at least #V 4 Size#! each"
+ oath_warriors_building_03_tooltip_late_medieval: "At least #V 8#! of your [knights|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_warriors_building_03_late_medieval_value')|0]#!):\n Has at least #V 16#! [prowess|E] and [martial|E] [skills|E]"
+ oath_warriors_building_03_tooltip_high_medieval: "At least #V 6#! of your [knights|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_warriors_building_03_high_medieval_value')|0]#!):\n Has at least #V 14#! [prowess|E] and [martial|E] [skills|E]"
+ oath_warriors_building_03_tooltip_default: "At least #V 4#! of your [knights|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_warriors_building_03_early_medieval_value')|0]#!):\nHas at least #V 12#! [prowess|E] and [martial|E] [skills|E]"
+ oath_warriors_building_04_tooltip: "You have fulfilled the #V Provide for the Warriors#! [oath|E] and this [barony|E] has a [GetModifier('oath_provide_for_the_warriors_province').GetNameWithTooltip] [modifier|E]"
+
+ oath_faithful_building_01_tooltip_high_medieval: "At least #V 6#! of your [courtiers|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_faithful_building_01_high_medieval_value')|0]#!):\n Has at least #V 16#! [learning|E]"
+ oath_faithful_building_01_tooltip_default: "At least #V 3#! of your [courtiers|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_faithful_building_01_early_medieval_value')|0]#!):\n Has at least #V 14#! [learning|E]"
+ oath_faithful_building_02_tooltip_high_medieval: "At least #V 4#! of your [close_family|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_faithful_building_02_tooltip_value')|0]#!):\n Has [GetTrait('devoted').GetName(GetNullCharacter)] [trait|E]"
+ oath_faithful_building_02_tooltip_default: "At least #V 2#! of your [close_family|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_faithful_building_02_tooltip_value')|0]#!):\n Has [GetTrait('devoted').GetName(GetNullCharacter)] [trait|E]"
+ oath_faithful_building_03_tooltip_high_medieval: "At least #V 8#! of your [vassals|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_faithful_building_03_tooltip_value')|0]#!):\n Has at least #V $piety_level_3$#! [piety_level|E]"
+ oath_faithful_building_03_tooltip_default: "At least #V 4#! of your [vassals|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_faithful_building_03_tooltip_value')|0]#!):\n Has at least #V $piety_level_3$#! [piety_level|E]"
+ oath_faithful_building_04_tooltip: "You have fulfilled the #V Provide for the Faithful#! [oath|E] and this [barony|E] has a [GetModifier('oath_provide_for_the_faithful_province').GetNameWithTooltip] [modifier|E]"
+
+ oath_poor_building_01_tooltip_late_medieval: "At least #V 12#! of your [courtiers|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_poor_building_01_tooltip_value')|0]#!):\n Is [lowborn|E]"
+ oath_poor_building_01_tooltip_high_medieval: "At least #V 8#! of your [courtiers|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_poor_building_01_tooltip_value')|0]#!):\n Is [lowborn|E]"
+ oath_poor_building_01_tooltip_default: "At least #V 6#! of your [courtiers|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_poor_building_01_tooltip_value')|0]#!):\n Is [lowborn|E]"
+ oath_poor_building_02_tooltip_high_medieval: "At least #V 8#! of your [vassals|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_poor_building_02_tooltip_value')|0]#!):\n Has [GetTrait('compassionate').GetName(GetNullCharacter)] [trait|E]"
+ oath_poor_building_02_tooltip_default: "At least #V 4#! of your [vassals|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_poor_building_02_tooltip_value')|0]#!):\n Has [GetTrait('compassionate').GetName(GetNullCharacter)] [trait|E]"
+ oath_poor_building_03_tooltip_high_medieval: "At least #V 4#! of your [councillors|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_poor_building_03_tooltip_value')|0]#!):\n Has [GetTrait('compassionate').GetName(GetNullCharacter)] [trait|E] and is your [vassal|E]"
+ oath_poor_building_03_tooltip_default: "At least #V 2#! of your [councillors|E] (currently: #P [GetPlayer.MakeScope.ScriptValue('oath_poor_building_03_tooltip_value')|0]#!):\n Has [GetTrait('compassionate').GetName(GetNullCharacter)] [trait|E] and is your [vassal|E]"
+ oath_poor_building_04_tooltip: "You have fulfilled the #V Provide for the Poor#! [oath|E] and this [barony|E] has a [GetModifier('oath_provide_for_the_poor_province').GetNameWithTooltip] [modifier|E]"

@@ -25,7 +25,6 @@
  SUCCESSION_APPOINTMENT_SCORE_INVESTED_TRIGGER_THIRD: "L'investimento di [CHARACTER.GetShortUIName|U] per la nomina di [TARGET_CHARACTER.GetShortUIName] a [TARGET_TITLE.GetName] è $COMPARATOR$ $NUM|V0$"
  NOT_SUCCESSION_APPOINTMENT_SCORE_INVESTED_TRIGGER_THIRD: "L'investimento di [CHARACTER.GetShortUIName|U] per la nomina di [TARGET_CHARACTER.GetShortUIName] a [TARGET_TITLE.GetName] #bold non#! è $COMPARATOR$ $NUM|V0$"
 
-
  PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER:0 "La posizione nella linea di successione è in mezzo a $MINVALUE|V0$ e $MAXVALUE|V0$"
  NOT_PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER:0 "La posizione nella linea di successione #bold non#! è in mezzo a $MINVALUE|V0$ e $MAXVALUE|V0$"
  PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER_THIRD:0 "[CHARACTER.GetShortUINamePossessive|V] posizione nella linea di successione è in mezzo a $MINVALUE|V0$ e $MAXVALUE|V0$"
@@ -61,7 +60,8 @@
 
  FAITH_NOT_HAVE_RITE: "[CHARACTER.GetFaith.GetName|U] ha il principio fondamentale [GetFaithDoctrine('tenet_rite').GetBaseName]"
  FAITH_HAS_RITE: "[CHARACTER.GetFaith.GetName|U] non ha il principio fondamentale [GetFaithDoctrine('tenet_rite').GetBaseName]"
-    
+
+
  HRE_HOLDER_IS_OF_MY_DYNASTY:0 "Il sovrano del Sacro Romano Impero appartiene alla dinastia [CHARACTER.GetDynastyName]"
  HRE_HOLDER_IS_NOT_OF_MY_DYNASTY:0 "Il sovrano del Sacro Romano Impero non appartiene alla dinastia [CHARACTER.GetDynastyName]"
 
@@ -72,7 +72,7 @@
  CHARACTER_HAS_THE_TITLE:0 "[CHARACTER.GetShortUIName|U] ha il [title|E] [TARGET_TITLE.GetNameNoTier]"
  CHARACTER_DOES_NOT_HAVE_THE_TITLE:0 "[CHARACTER.GetShortUIName|U] #bold non#! ha il [title|E] [TARGET_TITLE.GetNameNoTier]"
 
- 
+
 
  MY_PRIMARY_TITLE_IS:1 "Il tuo [primary_title|E] è [TARGET_TITLE.GetNameNoTier]"
  MY_PRIMARY_TITLE_IS_NOT:1 "Il tuo [primary_title|E] #bold non#! è [TARGET_TITLE.GetNameNoTier]"
@@ -97,7 +97,7 @@
 
  CONSECRATE_BLOODLINE_ENOUGH_HOLY_SITES:1 "Controlli uno o più [holy_sites|E] della fede [CHARACTER.GetFaith.GetAdjective]"
  CONSECRATE_BLOODLINE_NOT_ENOUGH_HOLY_SITES:1 "#bold Non#! controlli nessuno dei [holy_sites|E] della fede [CHARACTER.GetFaith.GetAdjective]"
- 
+
  HAS_REVOCABLE_LEASE_TRIGGER:0 "Ha un contratto di locazione revocabile"
  HAS_ORDER_OF_SUCCESSION_TRIGGER:0 "Ha ordine di successione"
  HAS_TITLE_LAW_FLAG_TRIGGER:0 "Ha la legge del titolo: $LAW$"
@@ -107,7 +107,7 @@
  TITLE_HELD_YEARS:0 "$TITLE$ posseduto per $VALUE|V0$ anni"
  TITLE_NOT_HELD_YEARS:0 "$TITLE$ #bold NON#! è stato posseduto per $VALUE|V0$ anni"
  LANDED_TITLE_THIS_EQUAL:0 "È $TITLE$" 
- 
+
  appointment_candidate_score_greater_or_equal: "Nomina di [CHARACTER.GetShortUIName|U] per [TARGET_TITLE.GetName] è almeno $NUM|V0$"
  appointment_candidate_score_less_than: "Nomina di [CHARACTER.GetShortUIName|U] per [TARGET_TITLE.GetName] è meno di $NUM|V0$"
  appointment_candidate_accumulated_score_greater_or_equal: "L'investimento accumulato da [CHARACTER.GetShortUIName|U] per la nomina a [TARGET_TITLE.GetName] è almeno $NUM|V0$"

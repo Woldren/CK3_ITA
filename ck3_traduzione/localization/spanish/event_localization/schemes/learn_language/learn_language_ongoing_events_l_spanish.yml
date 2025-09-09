@@ -147,7 +147,7 @@
  learn_language_ongoing.1140.a:0 "Potreste aiutarmi a dare un senso a questa frase?"
  learn_language_ongoing.1140.b:0 "Vuoi partecipare alle mie lezioni, d'ora in poi?"
  helpful_assistance_modifier:0 "Assistenza Utile"
- 
+
  learn_language_ongoing.1300.t:0 "$learn_language$: Piacevoli Chiacchiere"
  learn_language_ongoing.1300.desc:0 "Mentre attraversiamo il [ROOT.Char.GetCurrentLocation.GetTitle.GetName], un[interlocutor.Custom('DE_PRO_POS_P_2P')] locale particolarmente allegr[interlocutor.Custom('DE_PRO_POS_P_2P')] si avvicina al mio seguito. Il suo sorriso va da un orecchio all'altro. Capisco che [interlocutor.GetSheHe] ci sta offrendo un caloroso benvenuto, ma certe sfumature del suo discorso mi sfuggono.\n\nComunque sia, faccio un gesto di distensione verso i miei compagni di viaggio, che sono sempre all'erta, e ricambio il festoso saluto del locale. Non riesco a immaginare un'occasione migliore per mettere in pratica il mio [interlocutor.GetCulture.GetLanguage.GetName]!"
  learn_language_ongoing.1300.a:0 "Faciamo semplicemente una piacevole conversazione."

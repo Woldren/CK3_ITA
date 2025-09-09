@@ -1,4 +1,4 @@
-﻿l_spanish: 
+﻿l_spanish:
  
  # MAINTENANCE
  ep2_wedding.0001.t: "[GetActivityType('activity_wedding').GetName]: Promessa di Matrimonio Scaduta"

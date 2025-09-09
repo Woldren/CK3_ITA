@@ -60,7 +60,6 @@
  feudal_levies_high_short:0 "Alto"
  feudal_levies_extortionate:0 "Contributo in Leve Enorme"
  feudal_levies_extortionate_short:0 "Enorme"
-
  feudal_vassal: "Feudale"
  feudal_vassal_desc: "$game_concept_feudal_desc$"
 
@@ -116,7 +115,7 @@
  succession_rights_forced_partition:0 "Partizione Forzata"
  succession_rights_forced_partition_desc:0 "#emphasis #bold Restrizioni del [vassal|E]:#!#!\nIl [vassal|E] non può avere nessun'altra [succession_law|E] ad eccezione della Partizione\nIl [vassal|E] cambia la propria [succession_law|E] in quella di Partizione\nIl [vassal|E] paga il #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%#! in più di [prestige|E] per cambiare le [laws|E]\n\n#flavor Il [vassal|E] è costretto a non avere mai nessun'altra forma di successione ad eccezione della Partizione per il proprio [realm|E]. L'ostacolo amministrativo di ciò aumenta inoltre i costi delle leggi dei [vassals] del #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%.#!#!"
  succession_rights_forced_partition_short:0 "Partizione Forzata"
-
+ 
  coinage_rights:0 "Diritti di Conio"
  coinage_rights_none:0 "Nessun $coinage_rights$"
  coinage_rights_none_short:0 "Nessuno"
@@ -130,7 +129,7 @@
  war_declaration_rights_allowed:0 "$war_declaration_rights$ Sanzionata"
  war_declaration_rights_allowed_desc:1 "#emphasis #bold Privilegi del [vassal|E]:#!#!\nIl [vassal|E] può dichiarare [war|E] indipendentemente dell'[crown_authority|E] del proprio [liege|E] \nIl [vassal|E] paga il #high [EmptyScope.ScriptValue('war_declaration_rights_allowed_cost_reduction_tooltip')|0]%#! in meno per i [casus_bellis|E] all'interno del [realm|E]\n\n#flavor Il [vassal] non deve spendere un [hook] se l'[crown_authority] del proprio signore gli impedisce di dichiarare guerra. Questo trattamento speciale rende anche più facile per il [vassal] dichiarare delle guerre all'interno del [realm|E], riducendo il costo del #high [EmptyScope.ScriptValue('war_declaration_rights_allowed_cost_reduction_tooltip')|0]%#!.#!"
  war_declaration_rights_allowed_short:0 "Sanzionata"
-
+ 
  council_rights:0 "Diritti del Consiglio"
  council_rights_none:0 "Nessun Diritto del Consiglio"
  council_rights_none_desc:0 "#flavor Al [vassal] non è concesso alcun privilegio fuori dall'ordinario per quanto concerne il [council].#!"
@@ -138,14 +137,14 @@
  council_rights_guaranteed:0 "$council_rights$ Garantiti"
  council_rights_guaranteed_desc:0 "#emphasis #bold Privilegio del [vassal|E]:#!#!\nL'[interaction|E] #high $force_onto_council$#! può essere usata a piacimento\n\n#flavor Al [vassal] sono concessi privilegi speciali del [council], e si aspetterà un seggio permanente nel [council]. Concedere questo privilegio a troppi [vassals] finirà per infastidire i [powerful_vassals] del [realm|E].#!"
  council_rights_guaranteed_short:0 "Garantiti"
-
+ 
  title_revocation_rights:0 "Revoca del Titolo"
  title_revocation_rights_default:0 "$title_revocation_rights$ Predefinita"
  title_revocation_rights_default_short:0 "Predefinita"
  title_revocation_rights_protected:0 "$title_revocation_rights$ Protetta"
  title_revocation_rights_protected_desc:0 "#emphasis #bold Privilegio del [vassal|E]:#!#!\nIl [liege|E] non può revocare i [titles|E] del vassallo \n\n#flavor Al [vassal] viene garantita la proprietà dei propri [titles], impedendo al [liege|E] di revocarli, indipendentemente dal fatto che il [liege|E] abbia una [revoke_title_reason] o meno.#!"
  title_revocation_rights_protected_short:0 "Protetta"
-
+ 
  clan_government:0 "Clan"
  clan_government_with_icon: "@government_type_clan! $clan_government$" 
  clan_government_adjective:0 "Clan"
@@ -176,7 +175,7 @@
  tribal_government_adjective:0 "Tribale"
  tribal_government_realm:0 "Tribù"
  tribal_government_desc:0 "\n$game_concept_tribal_desc$\n\n#F Nella tribù, la forza significa tutto. Un capo tribù dipende dal rispetto e dalla fama, piuttosto che dalla moneta, per sviluppare il proprio regno e rafforzare i propri eserciti.#!"
- 
+
  tribal_government_obligations:0 "Dal [prestige_level|E] del [liege|E]"
  tribal_government_vassals_label:1 "Le [obligations|E] Tribali sono basate sul [prestige_level|E] del [liege|E]"
  tribal_liege_inefficiency_plus_perk:0 "Il [liege|E] è [tribal|E] e possiede il tratto [GetPerk( 'detailed_ledgers_perk' ).GetName( GetPlayer )]"
@@ -208,6 +207,7 @@
  mercenary_government_realm:0 "Compagnia Mercenaria"
  mercenary_government_desc:1 "\nLe compagnie di mercenari vagano per le terre in cerca di lavoro e imbracciano le armi per il miglior offerente. La lealtà è essenziale per una buona reputazione, ma dura solo fino alla fine del contratto. Il capo dei mercenari viene scelto tra i ranghi della compagnia."
  mercenary_government_adjective:0 "Compagnia Mercenaria"
+
  default_tributary_taxes: "[taxes|U] del [tributary|U]"
  tributary_tax_none: "Nessuna [tax|E]"
  tributary_tax_none_short: "Nessuna"
@@ -224,7 +224,6 @@
  tributary_levies_low_short: "Basse"
  tributary_levies_high: "[levies|E] Alte"
  tributary_levies_high_short: "Alte"
- 
 
  create_cadet_branches_trigger:0 "Creazione di [cadet_branches|E]"
  create_cadet_branches_rule:0 "Creare [cadet_branches|E]"
@@ -252,12 +251,6 @@
  may_appoint_viziers: "Puoi nominare i [viziers|E]"
  
  government_is_not_republic_or_admin_desc: "Il [government|E] #bold non#! è [GetGovernment('republic_government').GetName] o [GetGovernment('administrative_government').GetName]"
-
- CHARACTER_WINDOW_MILITARY_STRENGTH_TOOLTIP: "[CharacterWindow.GetMilitaryStrengthTooltip][AddLocalizationIf(Not(StringIsEmpty(CharacterWindow.GetMenAtArmsSubjectRecruitmentPotentialTooltip)),'MAA_SUBJECT_ACCESS_POTENTIAL')]"
- SUBJECT_MAA_HINT: "You could recruit @[MenAtArmsType.GetIconKey]_icon![Nbsp][MenAtArmsType.GetName] from the following [realms|E] if they were your [tributary|E] or [vassal|E]:#indent_newline:2 \n$BREAKDOWN$#!"
- SUBJECT_MAA_HINT_ENTRY: "[CHARACTER.GetPrimaryTitle.GetBaseNameNoTier] ([CHARACTER.GetShortUIName])"
- MAA_SUBJECT_ACCESS_POTENTIAL: "\n\n#EMP Would provide access to new [men_at_arms|E] if they were your [tributary|E] or [vassal|E]:#! #indent_newline:2 \n[CharacterWindow.GetMenAtArmsSubjectRecruitmentPotentialTooltip]#!"
- MAA_SUBJECT_ACCESS_POTENTIAL_ENTRY: "@[MEN_AT_ARMS_TYPE.GetIconKey]_icon![Nbsp][MEN_AT_ARMS_TYPE.GetName]"
 
  CHARACTER_WINDOW_MILITARY_STRENGTH_TOOLTIP: "[CharacterWindow.GetMilitaryStrengthTooltip][AddLocalizationIf(Not(StringIsEmpty(CharacterWindow.GetMenAtArmsSubjectRecruitmentPotentialTooltip)),'MAA_SUBJECT_ACCESS_POTENTIAL')]"
  SUBJECT_MAA_HINT: "Potresti reclutare @[MenAtArmsType.GetIconKey]_icon![Nbsp][MenAtArmsType.GetName] dai seguenti [realms|E] se fossero tuoi [tributaries|E] o [vassals|E]:#indent_newline:2 \n$BREAKDOWN$#!"
@@ -477,6 +470,7 @@
  jizya_special_rights_granted_desc:0 "$jizya_special_rights_tax_collector_desc$" 
  jizya_special_rights_granted_short:0 "Garantito"
 
+
  iqta_special_rights_tax_collector: "Contributo Iqta"
  iqta_special_rights_tax_collector_desc: "Il [vassal|E] ha meno obbligazioni ma aiuta a contribuire con [men_at_arms|E] al [liege|E]."
  iqta_special_rights_tax_collector_flavor_desc: "Iqta è un sistema di tassazione agricola in cui ai magnati locali viene data ampia autorità di riscuotere le tasse per conto dello Stato. In cambio devono fornire quantità significative di soldati al loro signore."
@@ -503,7 +497,7 @@
 
  has_house_unity_parameter: "Ha $PARAMETER_NAME$"
  not_has_house_unity_parameter: "Non ha accesso a $PARAMETER_NAME$"
- 
+
  # Administrative
  administrative_government: "Amministrativo"
  administrative_government_with_icon: "@government_type_administrative! $administrative_government$"
@@ -561,7 +555,7 @@
  mercenary_rule: "essere assunti per servire come [mercenaries|E] dai [rulers|E] [landed|E]"
  adult_rulers_only: "#N Può essere governato solo da [adults|E]#!"
  
- # Nomadi
+ # Nomads
  nomad_government: "Nomade"
  nomad_government_with_icon: "@government_type_nomad! $nomad_government$"
  nomad_government_adjective: "Nomade"
@@ -631,7 +625,7 @@
 
  CB_CONFEDERATION_VASSALS: "Attaccare un altro membro della [confederation|E]"
 
- # Pastori
+# Herders
  herder_government: "Pastore"
  herder_government_with_icon: "@government_type_herder! $herder_government$"
  herder_government_adjective: "Pastorale"
@@ -642,5 +636,3 @@
  herder_government_vassals_label: "Le [obligations|E] dei Pastori non possono essere modificate"
 
  nomad_government_vassals_label: "Le [obligations|E] dei Nomadi si basano sul [vassal_contract|E] di ciascun [vassal|E]"
-
-

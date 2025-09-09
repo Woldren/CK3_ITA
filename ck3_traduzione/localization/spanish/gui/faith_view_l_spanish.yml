@@ -25,8 +25,8 @@
  RULER_DESIGNER_RELIGION: "[Religion.GetNameNoTooltip]"
  STRUGGLE_CULTURE_CHARACTER_NAME: "[Character.GetCulture.GetName]"
  SITUATION_CULTURE_CHARACTER_NAME: "[Character.GetCulture.GetName]"
-
-
+ 
+ 
  TOGGLE_RELIGION_VIEW:1 "Altre Fedi"
  RELIGION_WINDOW_TITLE:2 "Altre Fedi"
  FAITH_ITEM_TOOLTIP:1 "#I Clicca per visualizzare#!"
@@ -86,7 +86,7 @@
  FAITH_CREATION_REFORM:1 "Riforma la Fede"
  FAITH_CONVERSION_CONVERT:1 "Convertiti alla Fede"
  FAITH_MUST_BE_DIFFERENT_FROM_OLD:0 "@warning_icon! #X La nuova [faith|E] e quella vecchia non possono avere gli stessi [core_tenets|E] e le stesse [doctrines|E]#!" [GetHostilityLevelName( FaithConversionWindow.GetHostilityLevel )]"
- 
+
  FAITH_CREATION_TOTAL_COST:1 "Costo: [GetLocalPlayerPietyTextIcon][FaithCreationWindow.CalcPietyCost]"
  FAITH_CONVERSION_TOTAL_COST:1 "Costo toale: [GetLocalPlayerPietyTextIcon][FaithConversionWindow.CalcPietyCost]"
  FAITH_CONVERSION_COST_MISSING:1 "#X Mancano: [GetLocalPlayerPietyTextIcon][FaithConversionWindow.CalcPietyMissing]#!"

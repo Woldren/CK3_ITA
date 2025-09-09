@@ -48,7 +48,7 @@
  hostile_scheme_discovery.3002.t:0 "Piano Scoperto"
  hostile_scheme_discovery.3002.desc:0 "L'esistenza del mio complotto per [scheme.GetFullActionName] è stata scoperta!\n\nAnche se il mio coinvolgimento non è ancora noto, questo renderà molto più difficile realizzare i miei piani."
  hostile_scheme_discovery.3002.a:0 "Maledizione!"
-  
+
  hostile_scheme_discovery.3003.t:0 "Coinvolgimento Scoperto"
  hostile_scheme_discovery.3003.desc:0 "[target.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha scoperto che io sono la mente dietro al complotto"
  hostile_scheme_discovery.3003.murder:0 "per ucciderl[target.Custom('DE_END_PRO_S_N')]!"

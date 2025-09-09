@@ -16,6 +16,7 @@
  skip_to_next_topic:1 "Passa al prossimo argomento"
  tutorial_lesson_button_finish_tutorial: "Inizia"
 
+
  lesson_step_1_of_2:0 "1/2"
  lesson_step_2_of_2:0 "2/2"
  lesson_step_1_of_3:0 "1/3"
@@ -100,15 +101,14 @@
  lesson_warscore:0 "Punteggio di guerra"
  lesson_winning_wars:0 "Vincendo le Guerre"
  lesson_losing_wars:0 "Perdendo le Guerre"
- 
+
 
  quick_tutorial_desc: "Avvia Tutorial"
  full_tutorial_desc: "Avvia Tutorial Avanzato" 
-
  # Basics
  lesson_basics_welcome:1 "Benvenuto su Crusader Kings III"
  lesson_welcome_desc:3 "@tutorial_screenshot_1!\nSei un sovrano medievale! Il tuo regno potrebbe essere breve, ma tramite i tuoi eredi potrai portare la tua dinastia alla ribalta.\n\nLa terra è a portata di mano, che sia attraverso la spada o il matrimonio, e un'astuta diplomazia può far sì che la tua portata si estenda ben oltre i sogni più sfrenati di qualsiasi conquistatore...\n\n#TUT Non esiste un modo per "vincere" in Crusader Kings III, solo modi diversi per goderti la tua storia mentre si svolge.#!"
-
+ 
  full_tutorial_explanation_desc: "\n#TUT 2 Ore#!"
  quick_tutorial_explanation_desc: "\n#TUT 13 Minuti#!"
 
@@ -207,6 +207,7 @@
  lesson_basics_quick_done: "Buona Fortuna!"
  lesson_basics_quick_done_desc: "Congratulazioni per aver completato il Tutorial rapido! Il gioco non è più in pausa e il tempo sta avanzando. Da questo momento in poi, spetta a te plasmare il futuro della Casata [GetPlayer.GetHouse.GetName].\n\n#TUT Sei libero di fare quello che vuoi, ma tieni d'occhio l'icona @reactive_advice_icon! Consigli Reattivi che appare nella parte superiore del tuo schermo.\n\nChissà, forse potrai anche diventare il Re d'Irlanda?#!"
 
+ 
  #Camera & Map
  lesson_basics_camera:0 "Visuale ($lesson_basics$)"
  lesson_basics_camera_desc:1 "Usa i tasti W, A, S, e D per muovere la visuale attraverso la mappa. Puoi inoltre muovere il cursore verso il limitare dello schermo per spostarti. Premere il tasto 'Home' ti riporta sulla tua [realm_capital|E].\n\nPer ingrandire o rimpicciolire la visuale della mappa, usa la rotella.\n\n#TUT Differenti informazioni sono mostrate a livelli di ingrandimento differente: [detail_zoom|E], [political_zoom|E], e [paper_zoom|E].\n\nIngrandendo la visuale, hai la possibilità di selezionare e gestire i tuoi [holdings|E]. Rimpicciolire la visuale ti dà una panoramica di tutti i [realms|E].#!"
@@ -322,7 +323,7 @@
  lesson_basics_dynasty_and_house:0 "Dinastia e Casata ($lesson_basics_titles$)"
  lesson_basics_dynasty_and_house_desc:0 "La Famiglia è importante! L' [player_heir|E] proverrà sempre dalla tua [dynasty|E], e la maggior parte delle volte dalla tua [house|E].\n\n#TUT In futuro, non ti farà male tenere d'occhio la tua famiglia — e #EMP la loro #! [line_of_succession|E]. In base alle loro [succession_laws|E], potresti finire per ereditare [titles|E] (insieme alla terra e ai [vassals|E]) dei tuoi parenti.#!"
 
- # Titles & Holdings
+# Titles & Holdings
  lesson_basics_landed_titles:0 "Terra e Titoli ($lesson_basics_titles$)"
  lesson_basics_landed_titles_desc:2 "Non tutti nella tua [dynasty|E] saranno possessori di terre, ma ogni pezzo di terra sulla mappa #EMP ha#! un proprietario.\n\nA volte quel proprietario sei tu, a volte è uno dei tuoi [vassals|E], e a volte è totalmente di un altro [realm|E] (molti dei quali inoltre hanno, o sono, $game_concept_vassals$)."
  lesson_basics_de_jure_titles:0 "Titoli ($lesson_basics_titles$)"

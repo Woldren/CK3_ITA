@@ -53,7 +53,7 @@
 
  every_losing_charioteer_xp_gain: "Tutti gli altri aurighi guadagnano #high 3#! [trait_level_track_xp|E]"
 
- ### INTENTI ###
+ ### INTENTS ###
  increase_influence_intent: "Accrescere l’Influenza"
  increase_influence_intent_desc: "Con tutti gli [strategoi|E] e le [noble_families|E] riuniti nell’Ippodromo, ti concentrerai sul coltivare contatti e accrescere la tua [influence|E]."
  sow_discord_intent: "Seminare Discordia"
@@ -71,7 +71,7 @@
  DEMES_GLOSS: "Organizzazioni sportive e politiche incentrate sulle corse delle bighe. Un tempo i #EMP demi#! avevano un grande peso nella vita civica, ma col tempo sono decaduti e ricondotti sotto il controllo imperiale."
  QUADRIGA_GLOSS: "Un carro trainato da quattro cavalli. Veloce, pericoloso e costoso, i #EMP téthrippa#! o #EMP quadrigae#! sono stati i veicoli preferiti da re, imperatori e dèi fin dall’antichità."
 
- ### SCOMMESSE ###
+ ### BETTING ###
  chariot_race.0100.t: "Si Aprono le Scommesse"
  chariot_race.0100.desc: "#EMP Ding! Ding! Ding!#!\n\nLa campanella del [GetCourtPositionType('bookmaker_court_position').GetName()] segnala che ora si possono piazzare scommesse sulle squadre storiche delle corse.\n\n"
  chariot_race.0100.desc.emperor: "In conformità al mio altissimo ufficio, il [GetCourtPositionType('bookmaker_court_position').GetNameNoTooltip] mi viene presentato e si prostra mentre considero la mia puntata. Questa decisione non è cosa da poco: le conseguenze del mio sostegno a un auriga o a una squadra sono sia finanziarie che piuttosto politiche."
@@ -95,31 +95,31 @@
  chariot_win_desc: "L’obiettivo della tua scommessa deve arrivare #HIGH primo#!"
  chariot_place_desc: "L’obiettivo della tua scommessa deve arrivare #HIGH primo#! o #HIGH secondo#!"
  chariot_show_desc: "L’obiettivo della tua scommessa deve arrivare #HIGH primo#!, #HIGH secondo#!, o #HIGH terzo#!"
- 
+
  GLOSS_WIN: "Un concorrente vince solo se arriva primo."
  GLOSS_PLACE: "Un concorrente si piazza se arriva primo o secondo."
  GLOSS_SHOW: "Un concorrente si mostra se arriva primo, secondo o terzo."
- 
+
  chariot_race.influence_from_employed_charioteer: "Poiché impiego [my_charioteer.GetFirstName] come mio [GetCourtPositionType('charioteer_court_position').GetName], otterrò @influence_icon![influence|E] aggiuntiva vincendo questa scommessa"
- 
+
  chariot_race.0110.a: "[faction_1.GetFirstNameNoTooltip] ha una certa scintilla."
  chariot_race.0110.a.flavor: "Scommetti sul successo di [faction_1.GetFirstNamePossessive]"
  chariot_race.0110.a.odds_to_win: "#V [faction_1.MakeScope.Var('percent_chance_to_win').GetValue|1]%#! $chariot_chance_to_win$ #weak ([faction_1.MakeScope.Var('odds_win_a').GetValue]:[faction_1.MakeScope.Var('odds_win_b').GetValue] quote)#!\n$chariot_win_desc$\n$chariot_payout$ #P [faction_1.MakeScope.Var('win_payout').GetValue|1]x#!"
  chariot_race.0110.a.odds_to_place: "#V [faction_1.MakeScope.Var('percent_chance_to_place').GetValue|1]%#! $chariot_chance_to_place$ #weak ([faction_1.MakeScope.Var('odds_place_a').GetValue]:[faction_1.MakeScope.Var('odds_place_b').GetValue] quote)#!\n$chariot_place_desc$\n$chariot_payout$ #P [faction_1.MakeScope.Var('place_payout').GetValue|1]x#!"
  chariot_race.0110.a.odds_to_show: "#V [faction_1.MakeScope.Var('percent_chance_to_show').GetValue|1]%#! $chariot_chance_to_show$ #weak ([faction_1.MakeScope.Var('odds_show_a').GetValue]:[faction_1.MakeScope.Var('odds_show_b').GetValue] quote)#!\n$chariot_show_desc$\n$chariot_payout$ #P [faction_1.MakeScope.Var('show_payout').GetValue|1]x#!"
- 
+
  chariot_race.0110.b: "Non si può sbagliare con [faction_2.GetFirstNameNoTooltip]!"
  chariot_race.0110.b.flavor: "Scommetti sul successo di [faction_2.GetFirstNamePossessive]"
  chariot_race.0110.b.odds_to_win: "#V [faction_2.MakeScope.Var('percent_chance_to_win').GetValue|1]%#! $chariot_chance_to_win$ #weak ([faction_2.MakeScope.Var('odds_win_a').GetValue]:[faction_2.MakeScope.Var('odds_win_b').GetValue] quote)#!\n$chariot_win_desc$\n$chariot_payout$ #P [faction_2.MakeScope.Var('win_payout').GetValue|1]x#!"
  chariot_race.0110.b.odds_to_place: "#V [faction_2.MakeScope.Var('percent_chance_to_place').GetValue|1]%#! $chariot_chance_to_place$ #weak ([faction_2.MakeScope.Var('odds_place_a').GetValue]:[faction_2.MakeScope.Var('odds_place_b').GetValue] quote)#!\n$chariot_place_desc$\n$chariot_payout$ #P [faction_2.MakeScope.Var('place_payout').GetValue|1]x#!"
  chariot_race.0110.b.odds_to_show: "#V [faction_2.MakeScope.Var('percent_chance_to_show').GetValue|1]%#! $chariot_chance_to_show$ #weak ([faction_2.MakeScope.Var('odds_show_a').GetValue]:[faction_2.MakeScope.Var('odds_show_a').GetValue] quote)#!\n$chariot_show_desc$\n$chariot_payout$ #P [faction_2.MakeScope.Var('show_payout').GetValue|1]x#!"
- 
+
  chariot_race.0110.c: "Sono [Select_CString(ROOT.Char.IsFemale,'certa','certo')] che [faction_3.GetFirstNameNoTooltip] vincerà!"
  chariot_race.0110.c.flavor: "Scommetti sul successo di [faction_3.GetFirstNamePossessive]"
  chariot_race.0110.c.odds_to_win: "#V [faction_3.MakeScope.Var('percent_chance_to_win').GetValue|1]%#! $chariot_chance_to_win$ #weak ([faction_3.MakeScope.Var('odds_win_a').GetValue]:[faction_3.MakeScope.Var('odds_win_b').GetValue] quote)#!\n$chariot_win_desc$\n$chariot_payout$ #P [faction_3.MakeScope.Var('win_payout').GetValue|1]x#!"
  chariot_race.0110.c.odds_to_place: "#V [faction_3.MakeScope.Var('percent_chance_to_place').GetValue|1]%#! $chariot_chance_to_place$ #weak ([faction_3.MakeScope.Var('odds_place_a').GetValue]:[faction_3.MakeScope.Var('odds_place_b').GetValue] quote)#!\n$chariot_place_desc$\n$chariot_payout$ #P [faction_3.MakeScope.Var('place_payout').GetValue|1]x#!"
  chariot_race.0110.c.odds_to_show: "#V [faction_3.MakeScope.Var('percent_chance_to_show').GetValue|1]%#! $chariot_chance_to_show$ #weak ([faction_3.MakeScope.Var('odds_show_a').GetValue]:[faction_3.MakeScope.Var('odds_show_b').GetValue] quote)#!\n$chariot_show_desc$\n$chariot_payout$ #P [faction_3.MakeScope.Var('show_payout').GetValue|1]x#!"
- 
+
  chariot_race.0110.d: "Credo che coprirò le mie scommesse..."
  chariot_race.0110.d.flavor: "Scommetti su uno o più degli Aurighi dei [root_scope.Custom('GetChariotTeamColorPluralGlossed')]"
  # BLUE
@@ -142,7 +142,7 @@
  chariot_race.0110.d.red_odds_to_place: "#V [activity.MakeScope.Var('red_percent_chance_to_place').GetValue|1]%#! $chariot_chance_to_place$ #weak ([activity.MakeScope.Var('red_odds_place_a').GetValue]:[activity.MakeScope.Var('red_odds_place_b').GetValue] quote)#!\n$chariot_place_desc$\n$chariot_payout$ #P [activity.MakeScope.Var('red_place_payout').GetValue|1]x#!"
  chariot_race.0110.d.red_odds_to_show: "#V [activity.MakeScope.Var('red_percent_chance_to_show').GetValue|1]%#! $chariot_chance_to_show$ #weak ([activity.MakeScope.Var('red_odds_show_a').GetValue]:[activity.MakeScope.Var('red_odds_show_b').GetValue] quote)#!\n$chariot_show_desc$\n$chariot_payout$ #P [activity.MakeScope.Var('red_show_payout').GetValue|1]x#!"
  chariot_race.0110.number_betting_red: "[activity.MakeScope.Var('characters_betting_red').GetValue] partecipanti scommettono sui [Glossary( 'Rhousioi', 'RHOUSIOI_GLOSS' )]"
- 
+
  chariot_race.0120.t: "$chariot_race.0100.t$"
  chariot_race.0120.desc: ""Una prospettiva davvero intrigante..." mormora il [GetCourtPositionType('bookmaker_court_position').GetName()], "e che tipo di scommessa desiderate fare sul veloce [ROOT.Var('wager_target').GetCharacter.GetFirstName]?""
  chariot_race.0120.desc.team: ""Saggio, molto saggio..." mormora il [GetCourtPositionType('bookmaker_court_position').GetName()], "e che tipo di scommessa desiderate associare ai carri vestiti di [ROOT.Char.Custom('GetChariotTeamColor')|l]?""
@@ -154,7 +154,7 @@
  chariot_race.0120.c: "Semplicemente mostrarsi è già abbastanza."
  chariot_race.0120.c.tt: "L’obiettivo della tua scommessa deve arrivare primo, secondo o terzo"
  chariot_race.0120.c.info: "#V [root_scope.MakeScope.Var('wager_target').Var('percent_chance_to_show').GetValue|1]%#! $chariot_chance_to_show$ #weak ([root_scope.MakeScope.Var('wager_target').Var('odds_show_a').GetValue]:[root_scope.MakeScope.Var('wager_target').Var('odds_show_b').GetValue] quote)#!\n$chariot_show_desc$\n$chariot_payout$ #P [root_scope.MakeScope.Var('wager_target').Var('show_payout').GetValue|1]x#!"
- 
+
  chariot_race.0130.t: "$chariot_race.0100.t$"
  chariot_race.0130.desc: "Le mie previsioni sono state annotate, una testimonianza della qualità del mio giudizio... e, si spera, anche della mia preveggenza e conoscenza dello sport. Forse tutte le recenti discussioni sull’argomento mi hanno messo in buona posizione.\n\n"Infine, nobile [ROOT.Char.GetTitleAsNameNoTooltip]: quale somma desiderate puntare?""
  chariot_race.0130.a: "@gold_icon!200"
@@ -306,14 +306,12 @@ discredited_claimant_support_tooltip: "Gli spettatori aumenteranno ulteriormente
  chariot_race.3020.d.placement_bad: "C’è ancora tempo. [wager_target.GetSheHe|U] ha ancora una possibilità."
  chariot_race.3020.d.placement_last: "È l’ultima volta che scommetto sui [wager_target.Custom('GetChariotTeamColorPluralGlossed')]..."
 
-
  chariot_race.3030.t: "[trailing_charioteer.GetShortUINameNoTooltip] Sorpassa [leading_charioteer.GetShortUINameNoTooltip]!"
  chariot_race.3030.desc: "In una sorpresa clamorosa, [trailing_charioteer.GetFirstName] [trailing_charioteer.Custom('GetVictoriousChariotMovement')], superando [leading_charioteer.GetFirstName] e conquistando il [trailing_charioteer.Custom('GetChariotRacePlacement')] posto!\n\nLa folla impazzisce!"
  chariot_race.3030.desc_teams: "I sostenitori dei [trailing_charioteer.Custom('GetChariotTeamColorPluralGlossed')] sventolano i loro colori e alzano un grande coro... quelli dei [leading_charioteer.Custom('GetChariotTeamColorPluralGlossed')], invece, mugugnano sconsolati."
  chariot_race.3030.a: "Brindiamo al successo di [trailing_charioteer.GetFirstNamePossessiveNoTooltip]."
  chariot_race.3030.b: "Se non puoi batterli... rendili tuoi."
  chariot_race.3030.c: "Sfortuna, [leading_charioteer.GetFirstNameNoTooltip]."
-
 
  chariot_race.3040.t: "Un Groviglio Traditore"
  chariot_race.3040.desc: "[charioteer_1.GetName|U] e [charioteer_2.GetName] lottano per la posizione, i loro carri si urtano e rimbalzano l’uno sull’altro. Afferano le redini mentre si avvicinano alla curva. I carri non riescono a liberarsi l’uno dall’altro!\n\nLa ruota di [charioteer_1.GetFirstNamePossessive|U] si frantuma in pezzi. Il suo carro sbandando va a schiantarsi contro quello di [charioteer_2.GetFirstNamePossessive]. Le urla dei cavalli e il fetore del loro sangue si levano dalle macerie. Nessuno dei due aurighi sembra muoversi."
@@ -326,7 +324,6 @@ discredited_claimant_support_tooltip: "Gli spettatori aumenteranno ulteriormente
  chariot_race.3040.b.no_survivors: "Nessuno dei due aurighi sopravvive"
  chariot_race.3040.c: "Che spettacolo! QUESTA sì che è una corsa di carri!"
  chariot_race.3040.d: "Che orrore... Pregherò per loro."
-
 
  chariot_race.3050.t: "Un Trionfo Improbabile"
  chariot_race.3050.desc: "L’aria crepita di tensione.\n\n[last_place_charioteer.GetFirstName], un auriga un tempo trascurato, sfida ogni probabilità, [last_place_charioteer.Custom('GetChariotComebackMovement')] in una vera [Glossary( 'aristeia', 'GLOSS_ARISTEIA')].\n\nUn mormorio corre tra gli spalti mentre i vividi colori dei [last_place_charioteer.Custom('GetChariotTeamColorPluralGlossed')] si lanciano in avanti. La folla, inizialmente muta per l’incredulità, esplode in un fragoroso boato!"
@@ -587,6 +584,7 @@ chariot_race.4051.a: "Una scommessa fallimentare..."
  attendee_hurled_off_stands_fail_secret_log: "[CHARACTER.GetShortUIName|U] è stato assalit[Select_CString(CHARACTER.IsFemale,'a','o')] e quasi uccis[Select_CString(CHARACTER.IsFemale,'a','o')] da un gruppo di aggressori senza nome, nessuno dei quali ha rivelato il proprio mandante."
  attendee_hurled_off_stands_fail_log_title: "Tentativo di Assassinio Fallito"
  attendee_hurled_off_stands_fail_log: "[TARGET_CHARACTER.GetShortUIName|U] ha evitato per un soffio di essere scagliat[Select_CString(CHARACTER.IsFemale,'a','o')] incontro a una morte violenta. I potenziali assassini hanno indicato [CHARACTER.GetShortUIName] come loro mandante."
+
 
 ### CHARIOTEER TRAIT AND COURT POSITION
  trait_charioteer_blue: "Auriga dei Venetoi"

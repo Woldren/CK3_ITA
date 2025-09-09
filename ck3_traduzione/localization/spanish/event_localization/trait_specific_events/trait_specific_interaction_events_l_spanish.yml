@@ -1,5 +1,4 @@
 ﻿l_spanish:
- #TODO_CD_ERCC_FP1; localise the below.
  send_poem_interaction:0 "Invia Poema"
  send_poem_interaction_desc:0 "Invia una toccante opera personale a [recipient.GetTitledFirstNameNoTooltip]"
  send_poem_interaction.positive_auto_accept.tt:0 "Dato che questa poesia è positiva, [recipient.GetFirstNameNoTooltip] potrebbe accettarla immediatamente se ha un'[opinion|E] abbastanza alta di te"

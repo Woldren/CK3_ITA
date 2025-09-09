@@ -44,7 +44,6 @@
  rich_presence_holding_court:0 "Tiene un'udienza come"
  rich_presence_house_feud:0 "Ha una Faida con la Casata [house.GetNameNoTooltip]"
  rich_presence_councillor:0 "[ROOT.Char.GetActiveCouncilTask.GetPositionName] del proprio signore come"
-
  rich_presence_house_unity_harmonious:0 "Ha la Casata [ROOT.Char.GetHouse.GetNameNoTooltip] in armonia come"
  rich_presence_house_unity_antagonistic:0 "Ha la Casata [ROOT.Char.GetHouse.GetNameNoTooltip] nel caos come"
  rich_presence_house_modifier_rebuilding_efforts:0 "Ricostruisce in un mondo postbellico come"
@@ -77,4 +76,3 @@
  rich_presence_landless_travel: "È senza terra e sta vagando in [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetDefinitiveNameNoTooltip] come"
  rich_presence_nomad: "Guida i [ROOT.Char.GetDomicile.GetCulture.GetCollectiveNounNoTooltip] [ROOT.Char.GetDomicile.GetFaith.GetAdherentNamePluralNoTooltip] come"
  rich_presence_world_conquest: "Sta conquistando il mondo come"
- 

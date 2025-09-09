@@ -231,6 +231,5 @@
  action_can_recall_hostage_combined_group_label:0 "@hostage! Puoi Richiamare degli Ostaggi"
  action_can_recall_hostage_combined_group_description:0 "Diversi [hostages|E] possono essere richiamati dai loro [warden|E]."
  action_can_recall_hostage_combined_label:0 "[recipient.GetUINameNoTooltip]"
- 
+
  halved_hostage_prestige_tt:0 "L'introito di [prestige_i|E][prestige|E] di [THIS.Char.GetShortUIName|U] dagli [hostages|E] è ridotto per [SCOPE.ScriptValue('hostage_adulthood_retained_halved_prestige_duration_value')|0V] anni"
- 

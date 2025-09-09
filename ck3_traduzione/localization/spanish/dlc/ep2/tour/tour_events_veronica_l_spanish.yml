@@ -216,7 +216,8 @@
  cultural_festival.2110.e:0 "Devo restare al mio posto."
  cultural_festival_2110_d_tt:0 "Dai un calcio al cane"
  cultural_festival_2110_d_opinion_tt:0 "Ogni personaggio non Crudele o Sadico presente"
- available_because_intent_tt:0 "Questa opzione è disponibile grazie al tuo [intent|e] [THIS.Char.GetInvolvedActivityIntent.GetName]"
+ available_because_intent_tt:0 "Questa opzione è disponibile grazie al tuo [intent|e] [THIS.Char.GetInvolvedActivityIntent.GetName]" #controllare_modifica
+ event_triggered_because_intent_tt: "#EMP #low This option is available because of your [THIS.Char.GetInvolvedActivityIntent.GetName] Intent#!#!"
  
  #Tour Cultural Festival Events - Bilateral 
  cultural_festival.3000.t:0 "Il Grande Spettacolo"
@@ -352,7 +353,7 @@
  regional_farm_animal_sheep_plural:0 "pecore"
  regional_farm_animal_pig_plural:0 "maiali"
  regional_farm_animal_yak_plural:0 "yak"
- 
+
  regional_farm_animal_bleating_goat: "$regional_farm_animal_goat$ belante"
  regional_farm_animal_clucking_chicken: "$regional_farm_animal_chicken$ che chioccia"
  regional_farm_animal_bellowing_cow: "$regional_farm_animal_cow$ che muggisce"
@@ -361,7 +362,6 @@
  regional_farm_animal_grunting_yak: "$regional_farm_animal_yak$ che grugnisce"
  regional_farm_animal_grunting_camel: "$regional_farm_animal_camel$ che grugnisce"
  regional_farm_animal_whinnying_horse: "$regional_farm_animal_horse$ che nitrisce"
- 
  
  cultural_festival.3040.t:0 "La Lama nella Roccia"
  cultural_festival.3040.desc:0 "Sento una voce familiare mentre mi aggiro per le strade festive di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]: "Cosa dovrei fare con questa roccia, eh? Vuoi che mi ci sieda sopra?"\n\n [marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] sta indicando un grande masso che un muratore ha lasciato davanti a [marshal.GetHerHim].\n\n"È per la competizione di forza," spiega il muratore, scrollando le spalle. "Quale competizione di forza? Questo masso è impossibile da sollevare!" ribatte [marshal.GetTitledFirstNameNoTooltip]."
@@ -385,7 +385,7 @@
  cultural_festival.3042.desc.pretended:0 ""Ah, che sfortuna," dice [visiting_liege.GetSheHe], facendo un cenno nella mia direzione, "Ti piacerebbe provare, amic[ROOT.Char.Custom('DE_END_PRO_S_N')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')]?""
  cultural_festival.3042.a:0 "#EMP Io#! la tirerò fuori dalla pietra!"
  cultural_festival.3042.b:0 "Perché rischiare un'umiliazione pubblica?"
-  
+ 
  cultural_festival.3050.t:0 "Uno spettacolo rilassante"
  cultural_festival.3050.desc:0 "Un gruppo di persone del posto è salito sul palco in quello che sembra essere il sermone più lungo e insipido che abbia mai sentito.\n\nCerco di tenere gli occhi aperti, ma ben presto i mucchi di fieno all'angolo della strada mi sembrano un po' troppo comodi, un po' troppo allettanti..."
  cultural_festival.3050.a:0 "#EMP Devo#! rimanere svegli[ROOT.Char.Custom('DE_END_PRO_S_N')]."
@@ -398,7 +398,7 @@
  cultural_festival.3051.a:0 "Come può trovarlo noiso!?"
  cultural_festival.3051.a.toast:0 "[stop_host_scope.GetShortUIName] ti ha vist[ROOT.Char.Custom('DE_END_PRO_S_N')] dormire"
  cultural_festival.3051.b:0 "Forse non è adatto a tutti..."
-  
+ 
  cultural_festival.3060.t:0 "Posso...?"
  cultural_festival.3060.desc.intro:0 "Il suono di flauti e tamburi è rapidamente accompagnato da un gruppo di ospiti danzanti, che seguono la musica con movimenti gioiosi e risate. Una coppia si allontana di nascosto in un vicolo, dei bambini saltano in cerchio, un vecchio solitario si sforza di muovere i fianchi.\n\n"
  cultural_festival.3060.desc.spouse:0 "Mi rivolgo al[my_spouse.Custom('DE_END_ADJ_NUL_S_N')] mi[my_spouse.Custom('DE_END_PRO_S_N')] coniuge, [my_spouse.GetTitledFirstName], e ammiro il suo sorriso gentile, mentre batte le mani a ritmo di musica."

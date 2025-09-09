@@ -1,4 +1,4 @@
-﻿l_spanish: 
+﻿l_spanish:
  SITUATION_WINDOW_SUB_GROUP_SUBTITLE: "Participanti nella Regione: [GetDataModelSize( SituationSubRegion.GetParticipatingCharacters )]"
  SITUATION_WINDOW_CURRENT_PHASE: "[SituationPhase.GetName]"
  SITUATION_WINDOW_CURRENT_PHASE_ENDS: "Fine: [SituationPhase.GetEndDate.GetStringLong]"

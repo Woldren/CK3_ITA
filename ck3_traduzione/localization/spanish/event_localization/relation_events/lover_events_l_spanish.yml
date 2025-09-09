@@ -397,7 +397,7 @@
  lover.3221.desc_smallclothes:0 "La frustrazione di essere così raramente in tua compagnia sarà più facile da sopportare con un tuo oggetto così intimo da ricordarmi ciò che condividiamo."
  lover.3221.desc_object:0 "La frustrazione di essere così raramente in tua compagnia sarà più facile da sopportare con un ricordo del passato che condividiamo insieme."
  lover.3221.a:0 "Sono felice che [lover.GetSheHe] abbia apprezzato il regalo!"
- 
+
  lover.3222.desc_opening:0 "Il regalo che mi hai mandato è stato davvero... personale."
  lover.3222.desc_hair:0 "Mi chiedo: cosa dovrei fare con questi capelli? Sono per qualche rituale arcano?"
  lover.3222.desc_smallclothes:0 "Mi chiedo — cosa ti ha spinto a mandarmi un vestito così volgare?"
@@ -439,6 +439,7 @@
  lover.7006.a:0 "Anche io sono incuriosit[proposing_family.Custom('DE_END_PRO_S_N')] da [proposing_family.GetSheHe]!"
  lover.7006.a.tt:0 "#F Ma non ne verrà fuori niente... Immagina lo scandalo!#!"
  lover.7006.b:0 "Non è nient'altro che amore da parte di [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('proposing_family') )] ne sono sicuro."
+
  lover.8102.t:0 "$pilgrimage_header$ Conseguenze"
  lover.8102.desc:0 ""Mi scusi," Un[brothel_worker.Custom('DE_PRO_POS_P_2P')] contadin[brothel_worker.Custom('DE_END_PRO_S_N')] dall'aspetto familiare compare di fronte a me. Mentre mi scervello cercando di capire dove l'ho incontrat[brothel_worker.Custom('DE_END_PRO_S_N')] prima d'ora, [brothel_worker.GetSheHe] risponde come se mi stesse leggendo nel pensiero.\n\n"Ci siamo conosciuti in un bordello a [brothel_location.GetName]. Voi avete pagato per i miei servigi." Una sfumatura di rosa compare sulle sue guance.\n"Affinché ci ricongiungessimo... dev'essere stato il destino che"
  lover.8102.desc.puppy_love:0 "Io mi sono innamorat[brothel_worker.Custom('DE_END_PRO_S_N')] di voi. Tutto sembrava così giusto tra le vostre braccia... c'è dello spazio nel vostro cuore per qualcuno come me?""

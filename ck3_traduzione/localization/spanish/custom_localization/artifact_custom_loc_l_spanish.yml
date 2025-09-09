@@ -34,7 +34,7 @@
  damage_artifact_unspeakable:0 "ha fatto cose indicibili a"
  evidence_artifact_unspeakable:0 "I pantaloni sbottonati del capitano e le ciocche di capelli che spuntano dal suo elmo mi portano a chiedermi #EMP chi#! ha fatto cose indicibili al [ROOT.Artifact.GetName]..."
  damage_artifact_fallback:0 "ha causato danni a"
- 
+
  #Marco Polo quotes
  marco_polo_quote_intro_1: "Lo sentirete con le vostre orecchie e sicuramente vi riempirà di meraviglia."
  marco_polo_quote_intro_2: "Il mondo è un immenso arazzo, tessuto con i fili di culture e tradizioni diverse."
@@ -59,4 +59,6 @@
  marco_polo_quote_artifact_desc_7: "$marco_polo_quote_desc_7$ (...)"
  marco_polo_quote_artifact_end_1: "$marco_polo_quote_end_1$"
  marco_polo_quote_artifact_end_2: "$marco_polo_quote_end_2$"
+
+
 

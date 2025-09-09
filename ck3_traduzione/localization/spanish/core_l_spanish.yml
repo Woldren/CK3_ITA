@@ -99,8 +99,8 @@
  WEALTH_POOR:0 "Povero"
  ARMY_NAME:1 "$NUM|O$ Esercito di [PROVINCE.GetNameNoTooltip]"
  ARMY_NAME_RAIDER:1 "$NUM|O$ Razziatori di [PROVINCE.GetNameNoTooltip]"
- GATHERING_ARMY_NAME:0 "Sta radunando l'armata in questo luogo: $LOCATION$"
  ARMY_NAME_LANDLESS: "$NUM|O$ Esercito di [CHARACTER.GetPrimaryTitle.GetNameNoTooltip]" 
+ GATHERING_ARMY_NAME:0 "Sta radunando l'armata in questo luogo: $LOCATION$"
  DEAD:0 "Morto"
  DEAD_SINCE:0 "Morto da [DATE.GetStringShort|V]"
  DIED_AT_AGE:1 "all'età di $AGE|V$ anni"
@@ -779,7 +779,6 @@
  GAME_DATE_STRING_SHORT:0 "$DAY$ $MONTH_SHORT$ $YEAR$"
  GAME_DATE_STRING_SHORT_NO_YEAR:0 "$DAY$ $MONTH_SHORT$"
  GAME_DATE_STRING_LONG:2 "$DAY$ $MONTH$, $YEAR$ d.C."
- CONCEPT_TEXT:0 "[$KEY$|E]"
  CONCEPT_TEXT:0 "[ConceptByKey('$KEY|q$')|E]"
  NOT_IN_DIPLOMATIC_RANGE:0 "Non è nel Raggio Diplomatico"
  FIND_CHARACTER:0 "Trova Personaggio"
@@ -820,7 +819,7 @@
  CHARACTER_INTERACTION_NOT_ALLOWED_IN_VARANGIAN_GUARD:0 "Non gli è consentito servire come [Concept( 'knight', 'cavalieri' )|E] nella [court|E] bersaglio"
  SET_CHARACTER_CONTROLLER_TITLE:0 "$TITLE$"
  SET_CHARACTER_CONTROLLER_TEXT:0 "$TEXT$"
- 
+
  TRAIT_FLAG_DESC_can_dismiss_hooks_interaction:0 "Sblocca l'[dismiss_strong_hook_interaction|E]"
  TRAIT_FLAG_DESC_can_abandon_hooks_interaction:0 "Sblocca l'[abandon_hook_interaction|E]"
  TRAIT_FLAG_DESC_can_duel_criminals_interaction:0 "Sblocca l'[force_duel_criminals_interaction|E]"
@@ -830,14 +829,15 @@
  TRAIT_FLAG_DESC_can_improve_capital_decision:0 "Sblocca la Decisione [Concept( 'diligent_development_focus_decision', 'Sviluppa Capitale' )|E]"
  TRAIT_FLAG_DESC_can_accelerate_schemes_decision:0 "Sblocca la Decisione [Concept( 'impatient_rushing_all_schemes_decision', 'Accelera i tuoi Piani' )|E]"
  TRAIT_FLAG_DESC_can_fabricate_hooks_on_rivals:2 "Permetti il [scheme|E] [GetScheme('fabricate_hook').GetTypeName] contro i tuoi [rivals|E]"
- 
+
  INVALID:0 "Non valido"
+
  RENAME_STRING_STARTS_WITH_SPACE:0 "@warning_icon! #X Il nome inizia con uno spazio#!"
  RENAME_STRING_STARTS_WITH_SPACE_NAMED:0 "@warning_icon! #X $NAME$ inizia con uno spazio#!"
  RENAME_STRING_ENDS_WITH_SPACE:0 "@warning_icon! #X Il nome termina con uno spazio#!"
  RENAME_STRING_ENDS_WITH_SPACE_NAMED:0 "@warning_icon! #X $NAME$ termina con uno spazio#!"
  DEFAULT_TEXT:0 "#D TESTO DI DEFAULT#!"
- 
+
  MUSIC_PLAYER_NAME: "Lettore Musicale" 
  MUSIC_PLAYER_VOLUME_VALUE: "[MusicPlayer.GetVolumeString]"
  MUSIC_PLAYER_SETTING_MUSIC_DENSITY_VALUE: "[MusicPlayer.GetMusicDensityString]"
@@ -855,8 +855,6 @@
  MUSIC_PLAYER_SELECT_CATEGORY_TT: "Seleziona per vedere le tracce musicali nel/nella #bold [MusicPlayerCategory.GetName]#!"
  MUSIC_PLAYER_OPEN_PLAYER_TT: "#T $MUSIC_PLAYER_OPEN_PLAYER$#!" 
 
- SCOPE_ARTIFACT:0 "[ROOT.Artifact.GetName]:"
- 
  OR:0 " oppure "
  OR_LIST:0 ", oppure "
 
@@ -870,13 +868,13 @@
  num_suffix_7:0 "$num_suffix_0$"
  num_suffix_8:0 "$num_suffix_0$"
  num_suffix_9:0 "$num_suffix_0$"
- 
+
  aptitude_terrible: "#aptitude_terrible @aptitude:1:inherit_color!Terribile#!"
  aptitude_poor: "#aptitude_poor @aptitude:2:inherit_color!Scarsa#!"
  aptitude_average: "#aptitude_average @aptitude:3:inherit_color!Nella Media#!"
  aptitude_good: "#aptitude_good @aptitude:4:inherit_color!Buona#!"
  aptitude_excellent: "#aptitude_excellent @aptitude:5:inherit_color!Eccellente#!"
- 
+
  compare_date_trigger_operator_greater_than: "dopo" #controllare
  compare_date_trigger_operator_greater_or_equal: "in o dopo"
  compare_date_trigger_operator_less_than: "prima"
@@ -914,7 +912,7 @@
  CONFIRM_COMMAND_TITLE: "Conferma Azione"
  CONFIRM_COMMAND_TEXT: "Sei sicuro di volerlo fare?"
  CONFIRM_COMMAND_ACCEPT: "Accettare"
- 
+
  secrecy.num_agents: "Numero di [agents|E]"
  secrecy.scheme_owner.diplomacy: "La tua [diplomacy|E]"
  secrecy.scheme_owner.martial: "La tua [martial|E]"
@@ -933,7 +931,7 @@
  tooltipped_camp_purpose_explorers: "[GetLaw('camp_purpose_explorers').GetName]"
  tooltipped_camp_purpose_brigands: "[GetLaw('camp_purpose_brigands').GetName]"
  tooltipped_camp_purpose_legitimists: "[GetLaw('camp_purpose_legitimists').GetName]"
-
+ 
  #MPO
  GAIN_FROM_ALL_TRIBUTARIES: "[tributaries|E]"
  GAIN_FROM_TRIBUTARY: "[CHARACTER.GetShortUIName]"

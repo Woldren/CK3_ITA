@@ -6,7 +6,7 @@
  government_authority_crown:0 "[crown_authority|E]"
  government_authority_revoke_retract_tribe:0 "alta"
  government_authority_revoke_retract_crown:0 "limitata"
- 
+
  feudal_icon_concept: "[feudal_i|E]"
  clan_icon_concept: "[clan_i|E]"
  administrative_icon_concept: "[administrative_i|E]"

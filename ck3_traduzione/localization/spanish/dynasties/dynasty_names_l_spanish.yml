@@ -508,7 +508,6 @@
  dynn_Aspa:0 "Aspa"
  dynn_asparukhid:0 "Asparukid"
  dynn_AspenA_s:0 "Aspenäs"
- dynn_Asperger:0 "Asperger"
  dynn_Aspietes:0 "Aspietes"
  dynn_Assabi:0 "Assabi"
  dynn_Assel:0 "Assel"
@@ -3740,7 +3739,6 @@
  dynn_Lopukhin:0 "Lopukhin"
  dynn_Lorc:0 "Lorc"
  dynn_Loredano:0 "Loredano"
-                       
  dynn_Loritello:1 "Rotellu"
  dynn_Lorraine:0 "Lorena"
  dynn_Lortkipanidze:0 "Lortkipanidze"
@@ -5384,9 +5382,7 @@
  dynn_Saint-Abraham:0 "Saint-Abraham"
  dynn_Saint-Clair:0 "Saint-Clair"
  dynn_Saint-Denis:0 "Saint-Denis"
-                                   
  dynn_Saint-Menehould:0 "Saint-Menehould"
-                               
  dynn_Saint-Pol:0 "Saint-Pol"
  dynn_Saint-ValE_ry:0 "Saint-Valéry"
  dynn_Saint-Valery:0 "Saint-Valery"
@@ -10160,12 +10156,12 @@
  dynn_Lutici:0 "Lutici"
  dynn_Deols:0 "Déols"
  dynn_Dragosevic:0 "Dragosević"
- 
+
  dynn_skolti:0 "Skolti"
  dynn_suontile:0 "Suontile"
  dynn_vuovi:0 "Vuovi"
  dynn_kittali:0 "Kittali"
- 
+
  # Outremer additions
  dynn_Agapite:0 "Agapite"
  dynn_Agot:0 "Agot"
@@ -10542,7 +10538,6 @@ dynn_d__Lyon:0 "d'Lyon"
  # Sicily
  dynn_at-Timnahid:0 "at-Timnahid"
  dynn_al-Hawasid:0 "al-Hawasid"
- 
 
  #FP3
  dynn_Kumiji: "Kumiji"
@@ -10601,7 +10596,7 @@ dynn_d__Lyon:0 "d'Lyon"
  dynn_Njole: "Njole"
  dynn_Pilika: "Pilika"
  dynn_Suupa: "Suupa"
-
+ 
 #EP3
  dynn_Abenberg: "Abenberg"
  dynn_Asinelli: "Asinelli"
@@ -10755,4 +10750,3 @@ dynn_d__Lyon:0 "d'Lyon"
  dynn_BoseH: "Bose Holmqvist"
  dynn_Kopparvall: "Kopparvall"
  dynn_freddi: "Freddi"
- 

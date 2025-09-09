@@ -123,7 +123,7 @@
  infantry:0 "fanteria"
  cavalry:0 "cavalleria"
  ep1_flavor.2000.tradition_tt:0 "A causa della tua [traditions|E] [culture|E]"
- 
+
  # Court of Vipers
  ep1_flavor.2010.t:0 "Corte di Vipere"
  ep1_flavor.2010.desc:0 "Ogni notte, una volta che le candele sono spente e l'oscuro [ROOT.Char.Custom('FortifiedBuilding')] tace, sussurri di un complotto per [real_plot.GetSchemeType.GetTypeNameNoTooltip|l] infestano le stanze."
@@ -336,7 +336,7 @@
  ep1_flavor.2070.e:0 "Fuori, blasfem[symposium_scholar.Custom('DE_END_PRO_S_N')]!"
  scholar_type_monk:0 "[ROOT.Char.Custom('NunMonk')]"
  scholar_type_fallback:0 "studente"
- 
+
  detractor_of_courtly_love_modifier: "Detrattore dell'Amore Cortese"
  detractor_of_courtly_love_modifier_desc: "Questo personaggio non crede nell'amore platonico e nella poesia gentile."
  promoter_of_courtly_love_modifier: "Promotore dell'Amore Cortese"
@@ -354,4 +354,3 @@
  more_work_less_fun_modifier: "Più Lavoro Meno Divertimento"
 feasts_more_expensive_tt: "[GetActivityType('activity_feast').GetName] @gold_icon!l'[gold|E] è aumentato#!"
 feasts_more_expensive_modifier_tt: "Incremento del costo in [GetActivityType('activity_feast').GetName] @gold_icon![gold|E]#!"
-

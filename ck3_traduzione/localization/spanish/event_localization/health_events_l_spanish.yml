@@ -53,7 +53,7 @@
  health.1001.court_physician.desc:0 ""Ho sentito quel respiro sibilante dall'altra parte del/della [ROOT.Char.Custom('GetCourt')], mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!" [physician.GetFirstName], il mio medico, fa capolino nel/nella mio/a [ROOT.Char.Custom('GetChamber')]. "Doveste richiederlo, conosco un discreto numero di rimedi adatti.""
  health.1001.a:0 "Tutto ciò che voglio è restare a letto..."
  health.1001.b:0 "Devo ritornare #EMP subito!# a casa!"
- 
+
  health.1002.t:1 "[SCOPE.Custom('EventTitleDisease')]: Affilato come un coltello"
  health.1002.desc:0 "Respirare è una cosa così facile e meravigliosa - un piccolo miracolo a cui raramente uno pensa. Ora, mentre faccio fatica a trattenere il respiro e gli attacchi di tosse sono seguiti da un dolore lancinante al petto, è costantemente nella mia mente."
  health.1002.court_physician.desc:0 "\n\nIl mio medico [physician.GetFirstName] mi guarda dall'alto in basso. "È polmonite, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Da non prendere alla leggera. Come dobbiamo procedere?""
@@ -322,8 +322,8 @@
  health.3102.t:1 "[SCOPE.Custom('EventTitleDisease')]: La Malattia di Mi[sick_character.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))|U]"
  health.3102.preamble: "L'oscurità della stanza è respinta in qualche modo dalle fiamme guizzanti. Sul tavolo del medico giace [sick_character.GetFirstName], la sua figura irrigidita dall'impaurita attesa.\n\n"
  health.3102.start.desc:0 "È tempo di decidere come trattare [sick_character.GetFirstName]"
- health.3102.treatment: "Sono disponibili diversi trattamenti potenziali, da quelli tipici a quelli non ortodossi. Spetta a me decidere quale si adatta meglio alle specifiche esigenze di [sick_character.GetFirstNameNoTooltip]."
  health.3102.start.desc_sick_physician:0 "È tempo di decidere come trattare"
+ health.3102.treatment: "Sono disponibili diversi trattamenti potenziali, da quelli tipici a quelli non ortodossi. Spetta a me decidere quale si adatta meglio alle specifiche esigenze di [sick_character.GetFirstNameNoTooltip]."
  health.3102.a:0 "Sii prudente. Non fare più del necessario."
  health.3102.b:0 "È giunto il momento per misure drastiche."
  health.3102.c:0 "Solo un potere più alto può salvarl[sick_character.Custom('DE_END_PRO_S_N')] adesso."
@@ -418,7 +418,7 @@
  health.3110.t:1 "[SCOPE.Custom('EventTitleDisease')]: Nell'Oscurità"
  health.3110.end.desc:0 "\n\nLa mia mente deve essere stata alterata, contorta da qualche oscuro trucco. Non l'avrei mai accettato volentieri. I ricordi mi perseguitano..."
 
- # Punishment for mistreating important people, by Mathilda Bjarnehed
+ # Punishment for mistreating important people
  health.3200.death.desc:0 "Anche se posso chiaramente vedere che è la faccia di [sick_character.GetTitledFirstName], non assomiglia ancora a [sick_character.GetHerHim]. [sick_character.GetSheHe|U] non è più... lì. Il resto del corpo è avvolto in uno spesso velo, che copre i dettagli macabri del fallimento di [physician.GetTitledFirstName]."
  health.3200.failure.desc:0 "Mi ci vuole un momento per riconoscere [sick_character.GetTitledFirstName]. [sick_character.GetSheHe|U] è così livid[sick_character.Custom('DE_END_PRO_S_N')] e gonfi[sick_character.Custom('DE_END_PRO_S_N')], sembra a malapena uman[sick_character.Custom('DE_END_PRO_S_N')]. Mentre afferro la sua mano, mi[sick_character.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))] tenta di parlare, ma nessun suono esce dalle sue labbra."
  health.3200.failure.desc_2:0 "Mentre mi avvicino alla [ROOT.Char.Custom('GetChambersOrTent')] del[sick_character.Custom('DE_END_ADJ_NUL_S_N')] mi[sick_character.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstNamePossessive] sento un orribile urlo; appena umano e pieno di dolore. Entro nella stanza solo per trovare [sick_character.GetFirstNameNoTooltip] collassat[sick_character.Custom('DE_END_PRO_S_N')] sul pavimento, #EMP copert[sick_character.Custom('DE_END_PRO_S_N')]#! di sangue."
@@ -581,7 +581,7 @@
 
  health.6210.desc:0 "Sto aspettando. Quello che riesco a ricordare nonostante la nebbia nella mia mente, sto aspettando la liberazione che [close_person.GetTitledFirstName] può concedermi, ma non arriva. Perché...? Perché [close_person.GetSheHe] non viene?"
  health.6210.a:0 "Anche [close_person.GetSheHe] mi ha abbandonato...?"
- 
+
  # Infirm events
  health.7000.t:0 "Prigioniero nel Mio Stesso Corpo"
  health.7000.desc:0 "Sapevo che invecchiare avrebbe significato fare tutto più lentamente, ma non pensavo che tutto si sarebbe fermato fino alla mia morte. Ultimamente provo un malessere costante e tutto richiede più impegno di prima. Ho paura che se mi sdraiassi, potrei non riuscire a rialzarmi. Non c'è dubbio che il mio tempo stia per scadere."
@@ -591,4 +591,3 @@
  health.7000.a.lazy:0 "Almeno riesco a stare a letto tutto il giorno ..."
  health.7100.desc:0 "Che giorno è? Quanto tempo ho riposato questa volta?\n\nMi ritrovo a cercare sui volti dei miei frequenti visitatori #bold qualsiasi cosa#! - rughe o cicatrici - che serva come prova che il tempo passa ancora. In qualche modo, quando interagisco con gli altri, mi sembra come se loro stessero parlando #bold di#! me, non #bold con#! me.\n\nSono ancora io o solamente un'anima rimossa dal mio corpo? Sto vivendo o semplicemente esisto?"
  health.7100.a:0 "La mia esistenza è una tortura."
-

@@ -31,7 +31,7 @@
  befriend_ongoing_dislike.2002.desc:0 "È risaputo che [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] è piuttosto timido, raramente desideroso di passare più tempo con le persone di quanto [target.GetSheHe] ritenga necessario.\n\nOra [target.GetSheHe] ha smesso di rispondere alle mie lettere, e non sono sicuro di come procedere."
  befriend_ongoing_dislike.2002.a:0 "Devo dar[target.Custom('DE_PRO_DEM')] del tempo."
  befriend_ongoing_dislike.2002.b:0 "Farò in modo che lo senta da me. Tanto!"
-  
+ 
  befriend_ongoing_dislike.5001.t:0 "Stringere una Nuova Amicizia: Un Cinico e uno Zelante"
  befriend_ongoing_dislike.5001.desc:0 "I miei sforzi per allentare la tensione tra [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] e me stesso, sono ostacolati dalla sua insensata ossessione per la mia mancanza di pietà. \n\nEppure, per tutte le sue lamentele, [target.GetTitledFirstName] non riesce ancora a spiegare perché valga la pena preoccuparsi di [ROOT.GetCharacter.GetFaith.HighGodName] più di quanto non faccia già, naturalmente."
  befriend_ongoing_dislike.5001.a:0 "Suppongo che potrei visitare [ROOT.Char.GetFaith.HouseOfWorship2] più spesso."

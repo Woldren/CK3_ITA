@@ -1,4 +1,4 @@
-﻿l_spanish: #1.14
+﻿l_spanish:
 
  ep3_powerful_families.8000.t: "Nei posti importanti"
  ep3_powerful_families.8000.desc: "Oggi ho aperto una lettera inviatami da [influential_family_member.Custom2('MyCharacterIntroduction', ROOT.Char)]. Il suo atteggiamento meschino e la sua natura intrigante si manifestano in tutta la loro evidenza quando ci propone di approfittare della sua posizione per accedere e modificare i documenti in possesso [liege.Custom('IT_NAM_COL2')][liege.GetTitleAsNameNoTooltip].\n\nLa nomina di [influential_family_member.GetNameNoTooltip|U] alla corte [CHARACTER.Custom('IT_NAM_COL2')][liege.GetName] è stata finora una risorsa fondamentale per portare avanti gli interessi della famiglia, e sebbene la sua proposta possa essere ancora più vantaggiosa per la nostra Casata, tuttavia potrebbe mettere a repentaglio la sua posizione per sempre..."

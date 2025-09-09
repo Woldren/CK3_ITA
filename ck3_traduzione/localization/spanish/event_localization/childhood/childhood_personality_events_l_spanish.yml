@@ -206,9 +206,10 @@
  child_personality.0061.a:0 "Potrebbe essere la cura per la mia timidezza?"
  child_personality.0061.a.tt:0 "#EMP TC'è una possibilità di migliorare la tua diplomazia e di acquisire una propensione al bere.#!"
  child_personality.0061.b:0 "No, la mia timidezza è una prova di [ROOT.Char.GetFaith.HighGodName]! Questo dev'essere il [ROOT.Char.GetFaith.DevilName] che mi tenta!"
- 
+
  my_ward_or_child:0 "Mi[child.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))] "
  child_personality.101.desc:0 "[child.GetTitledFirstName] è venut[child.Custom('DE_END_PRO_S_N')] a lamentarsi del fatto che [bully.GetTitledFirstName] l[child.Custom('DE_END_PRO_S_N')] bullizza."
+ child_personality.101.desc_no_bully:0 "[child.GetTitledFirstName] è venut[child.Custom('DE_END_PRO_S_N')] da me lamentandosi riguardo al[child.Custom('DE_END_ADJ_NUL_S_N')] [child.Custom('GetDaughterSon')] di un [child.Custom('lowly_servant_type')] che l[child.Custom('DE_END_PRO_S_N')] sta bullizzando."
  child_personality.101.craven:0 "\n\n[child.GetSheHe|U] si sta nascondendo in ogni angolo del castello per evitare di incontrare l'altr[bully.Custom('DE_END_PRO_S_N')] bambin[bully.Custom('DE_END_PRO_S_N')]."
  child_personality.101.lazy:0 "\n\n[child.GetSheHe|U] ha trascorso intere giornate a letto per evitare di incontrare l'altr[bully.Custom('DE_END_PRO_S_N')] bambin[bully.Custom('DE_END_PRO_S_N')]."
  child_personality.101.arbitrary:0 "\n\nHa iniziato a chiedere come far si che qualcuno venga impiccato, qualora [child.GetSheHe] ritenga che debba esserlo."
@@ -219,7 +220,6 @@
  child_personality.101.confirm_lazy:0 "Non devi affrontare il mondo se non vuoi."
  child_personality.1013.confirm_arbitrary:0 "Il tuo volere è l'unica legge che conta."
  child_personality.101.lazy_change:0 "Perché non nasconderti nella tua stanza invece?"
- child_personality.101.desc_no_bully:0 "[child.GetTitledFirstName] è venut[child.Custom('DE_END_PRO_S_N')] da me lamentandosi riguardo al[child.Custom('DE_END_ADJ_NUL_S_N')] [child.Custom('GetDaughterSon')] di un [child.Custom('lowly_servant_type')] che l[child.Custom('DE_END_PRO_S_N')] sta bullizzando."
  child_personality.101.arbitrary_change:0 "Un bullo merita qualunque punizione tu possa immaginare."
  child_personality.101.craven_change:0 "Assicurati di rimanere nascosto ovunque tu vada!"
  child_personality.1021.t:0 "Indegni Contadini"
@@ -519,6 +519,7 @@
  child_personality.4015.desc:0 "Quando guardo un[dummy_opposite_gender.Custom('DE_PRO_POS_P_2P')] giovane [ROOT.Char.Custom('OppositeGenderedLowlyServantType')] che cammina, con il volto sudato per il lavoro e con il rossore sulle guance, sono estasiato. Cos'è questa sensazione? Questo desiderio?"
  child_personality.4015.a:0 "Sono così affascinanti [dummy_opposite_gender.Custom('DE_PRO_POS_S_1P')] [dummy_opposite_gender.Custom('GirlBoyPlural')|U]!"
  child_personality.4015.b:0 "So che [crush.GetSheHe] è solo un[crush.Custom('DE_PRO_POS_P_2P')] plebe[crush.Custom('DE_END_PRO_S_N')].... ma oh, il mio cuore!"
+
 
  #Reincarnation, by Mathilda Bjarnehed
  child_personality.9900.t:0 "L'immagine sputata"

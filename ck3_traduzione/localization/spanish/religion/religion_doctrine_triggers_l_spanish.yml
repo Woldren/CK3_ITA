@@ -26,7 +26,7 @@
  INCOMPATIBLE_TENET_SHARED_HOF_WORLD_VS_HUMSAC_GRUFES:0 "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$ i sacrifici umani"
  INCOMPATIBLE_TENET_SHARED_HOF_MONOGAMY_VS_POLYGAMY:0 "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$ la poligamia"
  INCOMPATIBLE_TENET_SHARED_HOF_WORLD_VS_UNRESTRICTED_INCEST:0 "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$ l'incesto senza restrizioni"
-
+ 
  INCOMPATIBLE_TENET_ARMED_PILGRIMAGES_VS_FORBIDDEN_PILGRIMAGES:0 "Incompatibile con la [doctrine|E] $doctrine_pilgrimage_name$: [GetFaithDoctrine('doctrine_pilgrimage_forbidden').GetBaseName]"
 
  INCOMPATIBLE_DOCTRINE_MUMMIFICATION: "Incompatibile con la [doctrine|E] $doctrine_funeral_name$: [GetFaithDoctrine('doctrine_funeral_mummification').GetBaseName]"
@@ -56,7 +56,7 @@
  NOT_I_HAVE_DOCTRINE:1 "La tua [faith|E] #bold non#! ha la [doctrine|E] [FAITH_DOCTRINE.GetName(FAITH.Self)]"
  THEY_HAS_DOCTRINE:0 "La fede [FAITH.GetAdjective] ha la [doctrine|E] [FAITH_DOCTRINE.GetName(FAITH.Self)]"
  NOT_THEY_HAS_DOCTRINE:0 "La fede [FAITH.GetAdjective] non ha la [doctrine|E] [FAITH_DOCTRINE.GetName(FAITH.Self)]"
- 
+
  HAS_DOCTRINE_PARAMETER:0 "Ha una [doctrine|E] con $PARAMETER_NAME$"
  NOT_HAS_DOCTRINE_PARAMETER:0 "#bold Non#! ha una [doctrine|E] con $PARAMETER_NAME$"
  I_HAVE_DOCTRINE_PARAMETER:1 "La tua [faith|E] ha una [doctrine|E] con $PARAMETER_NAME$"

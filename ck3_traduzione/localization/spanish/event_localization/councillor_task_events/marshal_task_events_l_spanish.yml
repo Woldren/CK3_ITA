@@ -10,7 +10,7 @@
  marshal_task.0302.desc.unknown:0 "Anche se non sono pratico in quell'area, potrei comunque cercare di aiutarl[commander.Custom('DE_END_PRO_S_N')] ad affinare le sue competenze."
  marshal_task.0302.a:0 "Insegnateglielo, in qualsiasi modo."
  marshal_task.0302.b:0 "No, [commander.GetFirstNameNoTooltip] dovrebbe concentrarsi sul combattimento personale."
- #TWR
+
  marshal_task.0304.t: "Comandante Promosso?"
  marshal_task.0304.desc: "Il mio [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], con molta esitazione conduce [beneficiary_of_nepotism.GetName] da me.\n\n"[advocate_of_nepotism.GetTitledFirstName|U] mi ha chiesto di promuovere [beneficiary_of_nepotism.GetTitledFirstNameNoTooltip] all'onore della posizione di comandante. Ma ho ritenuto che voi avreste voluto dire la vostra in merito..."\n\n[beneficiary_of_nepotism.GetTitledFirstNameNoTooltip] [beneficiary_of_nepotism.Custom('quirk_neg_present')]."
  marshal_task.0304.a_clan: "Tutti i figli della casata [ROOT.Char.GetHouse.GetBaseNameNoTooltip] sono benvenuti nell'esercito."
@@ -50,7 +50,6 @@
  marshal_task.1102.a:0 "I miei sudditi possono sempre sentirsi al sicuro."
  marshal_task.1102.notification:0 "Presenza Militare Aumentata"
  marshal_task.1103.notification:0 "Leve Pronte alla Battaglia"
-
 
  marshal_task.2001.t:0 "Comandante Ferito"
  marshal_task.2001.opening:0 "Durante un duello d'esercitazione, [commander.GetTitledFirstName] è stato colpito!"
@@ -109,8 +108,8 @@
  marshal_task.3102.desc:0 "Mi[baron.Custom('DE_END_PRO_S_N')] [baron.Custom2('RelationToMe', ROOT.Char)],\n Il tuo [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], ha lavorato senza sosta per riorganizzare [county.Custom('IT_COU_COL4')][county.GetName], e stiamo già raccogliendo i frutti.\nDesidero ringraziarla personalmente per averci inviato un così capace [councillor.GetWomanMan] per aiutarci!"
  marshal_task.3102.a:0 "Continua così, [councillor.GetFirstNameNoTooltip]."
  marshal_task.3102.notification:0 "[councillor.GetCouncilTitle] Vassallo Impressionato"
- 
+
  marshal_task.3103.notification:0 "Il [acclaimed_knight] Sottomette i Contadini"
- 
+
  marshal_task.4002.notification:0 "Guardie Reali Disorganizzate"
  task_manage_guards_disorganized_modifier:0 "$marshal_task.4002.notification$"

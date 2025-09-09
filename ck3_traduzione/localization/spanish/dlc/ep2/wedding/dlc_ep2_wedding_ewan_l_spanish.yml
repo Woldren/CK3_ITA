@@ -320,6 +320,7 @@
  ep2_wedding_ewan.0053.a.alive:0 "Dannazione, voglio quell'idiota in catene!"
  ep2_wedding_ewan.0053.a.dead:0 "Peccato che quell'idiota sia già mort[dolt.Custom('DE_END_PRO_S_N')], l'avrei strangolat[dolt.Custom('DE_END_PRO_S_N')] volentieri con le mie stesse mani."
  ep2_wedding_ewan.0053.b:0 "Probabilmente, dovevo aspettarmelo."
+
  ep2_wedding_ewan.0061.t:0 "Al[relative.Custom('DE_END_ADJ_NUL_S_N')] Mi[relative.Custom('DE_END_PRO_S_N')] Amat[relative.Custom('DE_END_PRO_S_N')] [oldling.Custom2('RelationToMeShort', relative )|U]!"
  ep2_wedding_ewan.0061.desc.intro:0 "Nonostante i festeggiamenti, [relative.Custom('IT_NAM_COL3')][relative.GetTitledFirstName] viene improvvisamente colt[relative.Custom('DE_END_PRO_S_N')] da un puro e abietto orrore, mentre ([oldling.Custom('DE_ART_DEF_P_A')]) su[oldling.Custom('DE_END_PRO_S_N')] [relative.Custom2('RelationToMeShort', oldling )], ([oldling.Custom('DE_ART_DEF_P_A')]) [oldling.GetTitledFirstName], inizia ad alzarsi tremando, col bicchiere in mano.\n\n"
  ep2_wedding_ewan.0061.desc.arrogant: "Spavaldo e vanaglorioso come sempre, [oldling.GetFirstNameNoTooltip] si lancia in una diatriba riguardo al suo ruolo nell'educazione dell[relative.Custom('DE_END_PRO_S_N')] [relative.Custom('GetBrideGroom')], condita da imbarazzanti aneddoti d'infanzia e battute inopportune."

@@ -16,6 +16,6 @@
  is_scheme_exposed_trigger:0 "È un [scheme|E] rivelato"
 
  NOT_WANTS_TO_BE_SOULMATES:0 "[TARGET_CHARACTER.GetShortUIName] non vuole essere l'anima gemella"
-
+ 
  IS_SCHEMING_AGAINST_TRIGGER: "Sta [scheming|E] contro questo personaggio"
  AGENT_SLOT_CONTRIBUTION_TRIGGER: "Contributo dell'Agente"

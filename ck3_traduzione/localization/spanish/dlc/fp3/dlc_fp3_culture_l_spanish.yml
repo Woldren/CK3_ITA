@@ -38,7 +38,7 @@
  building_sar_i_sang_mines_03_desc: "Con l'espandersi delle operazioni minerarie, lo stesso fanno le miniere. Vengono aperti altri ingressi e l'antico pozzo si estende sempre più in profondità."
  building_sar_i_sang_mines_04: "Complesso Minerario di Sar-i Sang"
  building_sar_i_sang_mines_04_desc: "L'estrazione dei lapislazzuli ha raggiunto una scala quasi industriale, impiegando migliaia di lavoratori. Questa antica montagna, un tempo isolata, è oggi il centro di una vivace economia."
- 
+
  ###################################
  # Innovations
  ###################################
@@ -50,29 +50,29 @@
  # Turko-Iranian
  tradition_fp3_frontier_warriors_name: "Guerrieri di Frontiera"
  tradition_fp3_frontier_warriors_desc: "Questa cultura è in continua lotta per dominare la frontiera selvaggia, utilizzando una miscela esplosiva di soldati d'elite, mercenari tribali e fanatici volontari."
- 
+
  tradition_fp3_irrigation_experts_name: "Esperti d'Irrigazione"
  tradition_fp3_irrigation_experts_desc: "Questa cultura padroneggia le tecnologie idrologiche e, grazie alla sua inventiva e allo sforzo comunitario, è in grado di far fiorire anche i deserti più aridi."
- 
+
  tradition_fp3_beacon_of_learning_name: "Faro della Conoscenza"
  tradition_fp3_beacon_of_learning_desc: "Questa cultura, che è il punto d'incontro tra l'erudizione greca, indiana e araba, fa un gran vanto dei suoi progressi scientifici."
  culture_parameter_can_appoint_court_scholar:0 "Può nominare la [court_position|e] #high $court_scholar_court_position$#!"
  culture_parameter_guardian_education_better_outcomes: "I [guardians|E] di questa cultura hanno una maggiore probabilità di fornire [education_traits|E] migliori ai propri [wards|E]"
- 
+
  tradition_fp3_jirga_name: "Jirga"
  tradition_fp3_jirga_desc: "Gli anziani e i capi di questa cultura possono tenere assemblee secondo il loro antico codice tribale per risolvere dispute e incoronare i re delle loro terre."
- 
+
  tradition_fp3_pragmatic_creed_name: "Credo Pragmatico"
  tradition_fp3_pragmatic_creed_desc: "I guerrieri di questa cultura non apprezzano lo sfarzo e danno enfasi al valore e all'adattabilità del soldato comune, a discapito della tradizionale élite dei cavalieri."
- 
+
  tradition_fp3_fierce_independence_name: "Feroce Indipendenza"
  tradition_fp3_fierce_independence_desc: "Nel corso degli anni, molti tiranni hanno cercato di schiacciare questa cultura, ma è sopravvissuta grazie alla sua resistenza e ai successi militari."
- 
+
  not_of_central_asian_heritage_desc: "La [culture|E] non è un [heritage|E] iraniano, tocario, turco o mongolo."
  culture_on_eastern_frontier_desc: "La [culture|E] non ha il #V 20%#! delle sue [counties|E] in [GetGeographicalRegion('world_transoxiana').GetName], [GetGeographicalRegion('world_khorasan').GetName] o [GetGeographicalRegion('world_steppe_tarim').GetName]."
  culture_not_iranian_desc: "La [culture|E] non è un [heritage|E] iraniana."
  steppe_or_desert_percentage_desc: "La [culture|E] non ha il #V 30%#! delle sue [counties|E] nella steppa o nel deserto."
- 
+
  culture_parameter_unlock_maa_tarkhan: "Può reclutare [GetMaA('tarkhan').GetName] come [men_at_arms|E]"
  culture_parameter_faith_warrior_traits_more_valued: "I [traits|E] [GetTrait('faith_warrior').GetName( GetNullCharacter )] e [GetTrait('order_member').GetName( GetNullCharacter )] sono ritenuti [prestige_i][Concept( 'prestigious', 'prestigiosi' )|E]"
  culture_parameter_tribal_elective_enabled: "Può promulgare la [succession_law|E] #high $tribal_elective_succession_law$#!"

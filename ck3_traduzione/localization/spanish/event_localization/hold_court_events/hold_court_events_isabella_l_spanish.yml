@@ -16,8 +16,6 @@
  hold_court.4001.c:0 "Per mia esperienza, [preferred_heir.GetTitledFirstNameNoTooltip] è altrettanto insopportabile!"
  hold_court.4001.d:0 "Essere imperfetti significa che i soldati l[annoying_heir.Custom('DE_END_PRO_S_N')] vedono come uno di loro!"
 
-## Vassals are prejudiced about your disabilities by Isabella Welch
-
  disabled_fallback:0 "disabilitato"
 
  ## Inspired Poet appears at court and makes demands by Isabella Welch

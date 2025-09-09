@@ -91,17 +91,21 @@
  mazdayasna_adherent_plural:0 "Mazdeisti"
  mazdayasna_desc:1 "Gli umani aiutano nella disputa contro #italic Aka Manah#! attraverso pensieri e vite buone. Ciò avviene attraverso la purezza rituale, la conservazione della natura e la distruzione delle creature malvagie."
 
- #Zurvanism
+ #Behafaridism
  zurvanism:0 "Behafaridismo"
  zurvanism_adj:1 "Behafaridi"
  zurvanism_adherent:1 "Behafaridita"
  zurvanism_adherent_plural:1 "Behafariditi"
  zurvanism_desc:1 "Seguaci degli insegnamenti di Behafarid, i $zurvanism_adherent_plural$ ricercano la collaborazione con il mondo Islamico, operando numerose riforme alla loro fede in risposta alle critiche musulmane dello zoroastrismo principale. Tra queste riforme vi sono il divieto del consumo di alcol, la rigida opposizione al matrimonio interfamiliare e l'incoraggiamento alla carità come misura di utilizzo della propria ricchezza per il bene pubblico."
+ 
+
  #Zurvanism doctrine - FP3 update: removed from doctrine_asceticism and saved for possible future Fatalism tenet. 
  tenet_zurvanism_name:0 "Zurvanismo"
  tenet_zurvanism_desc:1 "Gli Zurvanisti credono che Ohrmazd e Ahriman siano gemelli uguali ma opposti, nati da Zurvan, il Creatore di tutto. Lo Zurvanismo enfatizza fortemente l'aiuto ad Ahura Mazda, sradicando il male e la falsità."
  zurvanism_creator_god_name:0 "Zurvān"
  zurvanism_creator_god_name_possessive:0 "di Zurvān"
+
+
 
  #Gayomarthianism
  gayomarthianism:0 "Gayomarzianismo"
@@ -129,6 +133,7 @@
  khurmazta_fate_god_name_possessive: "di Parn"
  khurmazta_devil_name: "Shimnu"
  khurmazta_devil_name_possessive: "di Shimnu"
+
  
  #Mazdakism
  mazdakism:0 "Mazdakismo"
@@ -188,4 +193,3 @@
  doctrine_heretic_branch_zandik_desc: "La fede $doctrine_major_branch_behdin_name$ ci chiama eretici, reietti e sovversivi. Sebbene nulla ci unisca se non il loro disprezzo, la rettitudine impone la nostra resistenza e il loro disprezzo indurisce i nostri cuori."
  doctrine_parameter_hostility_override_doctrine_major_branch_behdin: "Considera le altre [faiths|E] Behdin come [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]."
  doctrine_parameter_hostility_override_doctrine_heretic_branch_zandik: "Considera le altre [faiths|E] Korramdin come [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
-

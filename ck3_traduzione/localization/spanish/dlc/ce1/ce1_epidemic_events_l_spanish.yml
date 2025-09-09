@@ -305,7 +305,6 @@
  epidemic_events.2005.b.failure: "Il vaso si rompe!"
  epidemic_events.2005.c: "Se lo dici tu. Per favore, procedi."
 
-
  epidemic_events.2006.t: "Mania del Ballo"
  epidemic_events.2006.desc: "Un contadino danzante sulla soglia di casa mia? Con una folla di curiosi intorno?\n\n"Perdonate [dance_victim.GetFirstName], mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]." Uno degli spettatori prende la parola." [dance_victim.Custom('DE_ART_IND_A')|U] ha iniziato a ballare alcuni giorni fa e da allora non ha più smesso. Poi altri si sono aggiunti a [dance_victim.GetHerHim] in questo ballo contorto!". Lo spettatore sputa a terra e continua a guardare, affascinato e terrorizzato. Il suo viso si contorce con un gemito, chiaramente sull'orlo della follia, eppure la danza continua."
  epidemic_events.2006.a: "Danza senza tregua? #EMP Eccellente!#!"
@@ -501,13 +500,13 @@
 
  epidemic_events.5906.t: "In viaggio, in Delirio"
  epidemic_events.5906.desc: "Le guardie di solito non sono così schiette quando si tratta di disturbarmi nelle mie sale del consiglio, ma oggi hanno fatto irruzione prontamente, con il mio maresciallo [marshal.GetFirstName] a capo. Dietro di loro, trascinato senza tanti complimenti, c'è una figura pietosa con gli occhi spalancati e quella che sembra essere una frusta stretta tra le mani.\n\n"L'abbiamo trovat[flagellant.Custom('DE_END_PRO_S_N')] a [doomsday_province.GetName], che vagava per le strade, mentre si colpiva a sangue con quell'affare." [marshal.GetFirstNameNoTooltip|U] indica la frusta. "[flagellant.GetSheHe|U] sta spaventando a morte gli abitanti del luogo, farneticando che la potente pestilenza sta arrivando da noi e che dobbiamo tutti pentirci.""
- epidemic_events.5906.d.tt: "Tutte le baronie attorno a [doomsday_province.GetName] hanno un #color_white 25%#! di probabilità di guadagnare lo stesso modificatore"
  epidemic_events.5906.a: ""Tu e quelli come te stanno distruggendo la fede [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]!""
  epidemic_events.5906.a.tt.success: "Argomenti con successo il tuo punto di vista"
  epidemic_events.5906.a.tt.failure: "Il flagellante rimane risoluto"
  epidemic_events.5906.b: "Forse [flagellant.GetSheHe] ha ragione..."
  epidemic_events.5906.c: ""Rinchiudil[flagellant.Custom('DE_END_PRO_S_N')], [marshal.GetFirstNameNoTooltip].""
  epidemic_events.5906.d: "Lasciatel[flagellant.[flagellant.Custom('DE_END_PRO_S_N')] andare. Non sta facendo niente di male."
+ epidemic_events.5906.d.tt: "Tutte le baronie attorno a [doomsday_province.GetName] hanno un #color_white 25%#! di probabilità di guadagnare lo stesso modificatore"
  fervor_loss_flagellants: "I flagellanti vagano liberamente"
 
  epidemic_events.5907.t: "Un po' di Solletico"

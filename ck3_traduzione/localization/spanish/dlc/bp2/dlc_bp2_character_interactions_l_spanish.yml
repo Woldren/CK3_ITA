@@ -96,7 +96,6 @@
  bp2_character_interaction.1001.a: "Questo è [recipient.Custom('DE_ART_DEF_P_A')] mi[recipient.Custom('DE_END_PRO_S_N')] [recipient.Custom('GirlBoy')]!"
  bp2_character_interaction.1001.a.tt: "Trasmesso il tratto [target_trait.GetNameNoTooltip(GetPlayer)|l]"
  bp2_character_interaction.1001.a.flavor: "Iniziate a capirvi e [recipient.GetSheHe] inizia a diventare più simile a te."
- bp2_character_interaction.1002.t: "$influence_child_personality_interaction$: [target_trait.GetNameNoTooltip(GetPlayer)] — Fallimento" 
  bp2_character_interaction.1002.t: "$bp2_character_interaction.1001.t$"
  bp2_character_interaction.1002.desc_intro: "$bp2_character_interaction.1001.desc_intro$"
  bp2_character_interaction.1002.desc_lustful: "$bp2_character_interaction.desc_lustful$"Oh..." borbotta [recipient.GetSheHe]. "Ma ci sono tante #EMP cose migliori#! da fare...""
@@ -151,4 +150,3 @@
  influence_child_personality_interaction_trait_limit: "[CHARACTER.GetShortUINameNoTooltip] ha già #V 4#! [personality_traits|E]"
  influence_child_personality_interaction_all_same_traits: "[CHARACTER.GetShortUINameNoTooltip] ha già gli stessi [personality_traits|E] o i tratti opposti"
  crusading_claim_cb_reason: "$crusading_claim_cb$: $VALUE|=+0$"
- 

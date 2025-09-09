@@ -123,7 +123,7 @@
  tooltip_gaelic_vote_strength_current_dynast:0 "Attuale [dynast|E]: $VALUE|=+0$"
  tooltip_gaelic_vote_strength_current_house_head:0 "Attuale [house_head|E]: $VALUE|=+0$"
 
- #Imperial Elective, Voting Strength
+#Imperial Elective, Voting Strength
  tooltip_imperial_vote_strength_emperor_influence:0 "Dinastia imperiale: $VALUE|=+0$"
  tooltip_imperial_vote_strength_emperor_unpurpled:0 "[ROOT.Char.GetSheHe|U] non è [GetTrait('born_in_the_purple').GetName( Root.Char )]: $VALUE|=+0$"
  tooltip_imperial_vote_strength_emperor_deformed:0 "[ROOT.Char.GetSheHe|U] è deforme: $VALUE|=+0$"
@@ -150,7 +150,7 @@
  tooltip_imperial_vote_strength_greek_intrigue:0 "[ROOT.Char.GetSheHe|U] è un politico molto astuto [intrigue|E]: $VALUE|=+0$"
  tooltip_imperial_vote_strength_roman_diplomacy:0 "[ROOT.Char.GetSheHe|U] è un manipolatore demagogo [diplomacy|E]: $VALUE|=+0$"
 
-#Imperial Elective, Voting Behavior
+ #Imperial Elective, Voting Behavior
  tooltip_feudal_elector_vote_rome_child:0 "Roma non può essere governata da un bambino: $VALUE|=+0$"
  tooltip_feudal_elector_vote_despot:0 "[candidate.GetSheHe|U] è un Despota: $VALUE|=+0$"
  tooltip_feudal_elector_vote_commander_martial:0 "[candidate.GetSheHe|U] è un generale brillante: $VALUE|=+0$"
@@ -165,7 +165,7 @@
  tooltip_elective_current_ruler:0 "Governante attuale: $VALUE|=+0$"
  tooltip_feudal_vote_strength_parliament:0 "Sostegno parlamentare: $VALUE|=+0$"
  tooltip_feudal_vote_strength_pope:0 "Influenza Papale: $VALUE|=+0$"
-
+ 
  #Saxon Elective, Voting Behavior
  tooltip_saxon_elector_vote_stewardship:0 "[candidate.GetSheHe|U] è considerato come un sovrano premuroso [stewardship|E]: $VALUE|=+0$"
  tooltip_saxon_elector_vote_military_strength:1 "[holder.GetShortUIName] non ha molte leve: $VALUE|=+0$"
@@ -186,12 +186,12 @@
  tooltip_tribal_elector_vote_elder: "[candidate.GetSheHe|U] è [Select_CString(candidate.IsFemale,'una venerabile anziana','un venerabile anziano')]: $VALUE|=+0$"
  tooltip_tribal_elector_vote_stranger: "[candidate.GetSheHe|U] non è della mia tribù: $VALUE|=+0$"
  tooltip_tribal_elector_vote_relative: "[candidate.GetSheHe|U] partiene al mio clan: $VALUE|=+0$"
- 
+
  tooltip_feudal_elector_player_opt_out_50_percent: "Le azioni con i titoli parlano più delle parole: $VALUE|=+0$"
  tooltip_feudal_elector_player_opt_out_33_percent: "Il Vassallo Enorme non desidera l'elezione: $VALUE|=+0$"
  tooltip_feudal_elector_player_opt_out_25_percent: "Il Grande Vassallo non desidera l'elezione: $VALUE|=+0$"
  tooltip_feudal_elector_player_opt_out_minor_realm: "[candidate.GetFirstNameNoTooltip] non desidera l'elezione: $VALUE|=+0$"
- 
+
  #Confederation Elective
 tooltip_confederation_elective_vassals: "Vassalli di tipo [count|E] Non - Votanti: $VALUE|=+0$"
 tooltip_confederation_elective_prestige_levels: "[prestige_level|E]: $VALUE|=+0$"

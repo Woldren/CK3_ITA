@@ -90,7 +90,7 @@
  SELECT_RAISE_TROOPS_AT_LOCATION: "Raduna gli [armies|E] disponibili in una località, ignorando i [rally_points|E]"
  SELECT_RAISE_TROOPS_CHOOSE_LOCATION: "Scegli una Località sulla Mappa"
  SELECT_RAISE_TROOPS_MAP_INSTRUCTION: "#I Clicca per scegliere una località\nClicca Ctrl per #bold non#! dividere gli [armies|E] in base al [Concept( 'supply_limit', 'Numero di Rifornimenti')|E]\nTasto destro per annullare#!"
- 
+
  DE_JURE_DRIFT_TARGET_DESCRIPTION:1 "#high Cambiamento De Jure:#! [TITLE.GetNameNoTooltip] diventerà parte di [TARGET_TITLE.GetNameNoTooltip] approssimativamente tra $DURATION$"
  DE_JURE_DRIFT_PROGRESS_DESCRIPTION:0 "[TITLE.GetNameNoTooltip] ha in corso una deriva De Jure verso [TARGET_TITLE.GetNameNoTooltip] di $DURATION$"
  MAP_TOP_REALM_MAIN_TEXT: "Regno Maggiore: [TITLE.GetDeFactoTopLiege.GetNameNoTooltip|V]"
@@ -155,7 +155,7 @@
  PROVINCE_WINTER_LEVEL_NORMAL:0 "Normale"
  PROVINCE_WINTER_LEVEL_HARSH:0 "Rigido"
  MAP_MODE:0 "Map Mode"
- 
+
  EPIDEMICS_MAP_MODE_TOOLTIP: "[ROOT.Province.GetEpidemicMapTooltip]"
  EPIDEMIC_PROVINCE_NO_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNon infettata da alcuna epidemia"
  EPIDEMIC_PROVINCE_ALL_INFECTIONS_TOOLTIP: "#T Infezioni a [Province.GetNameNoTooltip]#!\n$EPIDEMIC_NAMES$"
@@ -188,7 +188,7 @@
  ADMIN_VASSAL_TYPES_MAP_MODE_TT_TOP_REALM: "Regno Principale: [TITLE.GetName]"
  ADMIN_VASSAL_TYPES_MAP_MODE_TT_LEFT_CLICK: "#I Tasto sinistro per aprire i dettagli#!"
  ADMIN_VASSAL_TYPES_MAP_MODE_TT_RIGHT_CLICK: "#I Tasto destro per vedere [CHARACTER.GetShortUINameNoTooltip]#!"
- 
+
  MIGRATION_COUNTIES_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GetDeJureLiege.GetNameNoTooltip]#!\nFertilità: [ROOT.Province.GetTitle.GetDeJureLiege.GetAverageFertility|0]"
  MIGRATION_DUCHIES_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureDriftTooltip]\nFertilità Media: [ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureLiege.GetAverageFertility|0]"
  MIGRATION_KINGDOMS_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureDriftTooltip]\nFertilità Media: [ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetAverageFertility|0]"

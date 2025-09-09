@@ -14,7 +14,7 @@
  take_stewardship_of_the_sacred_river_decision_confirm:0 "Chiama i [ROOT.Char.GetFaith.AltPriestTermPlural] al fiume"
  capital_province_in_ganges_region:0 "La tua [realm_capital|E] si trova nella [region|E] della [GetGeographicalRegion('custom_ganges_plain').GetName] "
  MY_VASSAL_OR_LIEGE_MUST_NOT_BE_RULER_OF_GANGES:0 "L'autorità come amministratore delle Acque Sacre non può essere sottratta da un vassallo o da un signore"
- 
+
  form_bene_israel_decision:0 "Consolida $k_bene_israel$"
  form_bene_israel_decision_desc:0 "Le nostre comunità sono lontane dalle tribù originarie di Israele, e le nostre possibilità di tornare nella terra santa sono scarse. Dobbiamo forgiare una nuova casa per il popolo ebraico, qui nel Deccan."
  form_bene_israel_decision_tooltip:0 "ufficializza il regno di $k_bene_israel$."

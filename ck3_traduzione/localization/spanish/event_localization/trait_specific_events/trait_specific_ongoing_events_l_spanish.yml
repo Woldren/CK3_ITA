@@ -55,7 +55,7 @@
  trait_specific_ongoing.1012.a:0 "Cosa mi sta succedendo?..."
  trait_specific_ongoing.1012.b:0 "Oh, sarò preparato quando arriveranno!"
 
- ### VISIONI DIVINE O STREGONERIA? ###
+ ### DIVINE OR WITCHY VISIONS? ###
  trait_specific_ongoing.2001.t:0 "Un Messaggio dall'Aldilà"
  trait_specific_ongoing.2001.start.desc:0 "So che stanno arrivando ancor prima di vederli. Un'improvvisa scarica di"
  trait_specific_ongoing.2001.dread.desc:0 "paura,"
@@ -101,7 +101,7 @@
  trait_specific_ongoing.2003.desc:0 "Ho trovato una grande quantità di tomi interessanti durante la mia ricerca della conoscenza occulta, ma niente di veramente speciale.\n\nTemo di aver interpretato male la volontà di quegli strani esseri — o di aver immaginato tutto!"
  trait_specific_ongoing.2003.a:0 "La mia mente mi sta giocando brutti scherzi"
 
- ### QUALE DIO/SANTO MI STA PARLANDO? ###
+ ### WHICH GOD/SAINT IS SPEAKING TO ME? ###
  trait_specific_ongoing.2010.t:0 "Focalizzare il Divino"
  trait_specific_ongoing.2010.possessed_start.desc:0 "Ho ricevuto frequenti messaggi da tre esseri sacri. Vengono da me quasi ogni notte, i loro volti sono avvolti dalla luce divina. Credo che siano gli spiriti di"
  trait_specific_ongoing.2010.zeal_start.desc:0 "Da circa un mese a questa parte, faccio un sogno ricorrente, in cui parlo di teologia con"
@@ -131,7 +131,7 @@
  trait_specific_ongoing.2010.fallback:0 "Non posso avere la presunzione di essere stato scelto."
 
 
- ### IL CAPPELLANO DI CORTE VUOLE CURARTI ###
+ ### COURT CHAPLAIN WANTS TO TREAT YOU ###
  trait_specific_ongoing.2015.t:0 "In nome di [ROOT.Char.GetFaith.HighGodName] guarisci"
  trait_specific_ongoing.2015.desc:0 "I pilastri della [ROOT.Char.GetFaith.HouseOfWorship] cominciano a piegarsi quando mi si presenta un'altra vicenda. Non faccio alcun rumore, ma so che il [chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)] dirà che qualcosa non va.\n\nDopo il [ROOT.Char.Custom('GetReligiousRite')], [chaplain.GetSheHe] si avvicina con uno sguardo preoccupato sulla faccia. "Deve essere il [ROOT.Char.GetFaith.DevilName] e i suoi servitori che prendono possesso del tuo corpo, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Devi rivolgerti a [ROOT.Char.GetFaith.HighGodName] per salvarti, prima che sia troppo tardi!""
  trait_specific_ongoing.2015.physician.desc:0 "\n\n[physician.Custom2('MyCharacterIntroduction', ROOT.Char)|U] deve averl[chaplain.Custom('DE_END_PRO_S_N')] sentito. "Ciò di cui [ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip] ha bisogno è pace e tranquillità, non minacce di dannazione!""
@@ -168,7 +168,7 @@
  trait_specific_ongoing.2019.b:0 "Non posso fallire — ci sono troppe cose in gioco!"
 
 
- ### EVENTO RICORRENTE DI POSSESSO ### 
+ ### POSSESSED REOCCURANCE EVENT ### 
  trait_specific_ongoing.2020.t:0 "Una Sensazione Familiare"
  trait_specific_ongoing.2020.a:0 "Non di nuovo! mi #EMP rifiuto#!! Questo #EMP non può#! accadere..."
  trait_specific_ongoing.2020.start.desc:0 "Un'improvvisa ondata di"
@@ -193,7 +193,6 @@
  trait_specific_ongoing.2025.e:0 "Potrei far finta che sia una visione da parte di [ROOT.Char.GetFaith.HighGodName]..."
  trait_specific_ongoing.2025.e.failure:0 "I tuoi [ROOT.Char.Custom('GetCourtierPlural')] capiscono cosa stai cercando di fare"
  trait_specific_ongoing.2025.every_courtier:0 "Ogni [actor.Custom('GetCourtier')]"
-
 
 
 
@@ -233,7 +232,7 @@
  trait_specific_ongoing.3009.desc:0 "Un giorno segue l'altro, inesorabilmente, anche se la mia mente annega nella spossatezza e nella disperazione.\n\nA volte anche alzarmi da letto la mattina è troppo per me."
  trait_specific_ongoing.3009.a:0 "Devo solo sdraiarmi..."
 
- ### Qualcuno pensa che tu sia pigro ###
+ ### Someone thinks you're slothful ###
  trait_specific_ongoing.3015.t:0 "Osservazioni Sprezzanti"
  trait_specific_ongoing.3015.start.desc:0 "Che si tratti di un commento sarcastico o di uno sguardo di disapprovazione, [unsympathetic.Custom2('MyCharacterIntroduction', ROOT.Char)] mostra costantemente il suo disprezzo per la mia condizione. Quando"
  trait_specific_ongoing.3015.council.desc:0 "mi affretto alla riunione del consiglio, ancora una volta in ritardo,"

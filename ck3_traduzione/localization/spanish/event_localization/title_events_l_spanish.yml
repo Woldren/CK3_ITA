@@ -4,7 +4,7 @@
  title_event_francia_name_change.a:0 "Una nuova era ha inizio!"
  title_event_francia_name_change.a_tt_1:0 "Il [francia_title.GetName] cambia nome in #high $k_france$#!"
  title_event_francia_name_change.a_tt_2:0 "Il [francia_title.GetName] cambia nome in #high $k_germany$#!"
- 
+
  title_event.0012.t:0 "Dividere la Corona"
  title_event.0012.desc:0 "Con la creazione del/della [castille.GetName], e il trono del vecchi[asturias.Custom('DE_END_PRO_S_N')] [asturias.GetBaseNameNoTier] vacante, il Regno di Pelagio è stato finalmente superato. Le sue vestigia saranno per per sempre conosciute come [leon.GetBaseNameNoTier], almeno fino a quando anche questa non sarà eclissato dall'ascesa di [castille.GetBaseNameNoTierNoTooltip]."
  title_event.0012.a:0 "Come dovrebbe essere."
@@ -24,4 +24,3 @@
  title_event.0015.a:0 "Il potere è tornato dove avrebbe dovuto sempre essere."
  title_event.0015.b:0 "Oggi, Castiglia. Domani, #EMP Leone#!."
  title_event.0015.c:0 "Possiamo essere divisi nel governo, ma siamo uniti dal sangue!"
-

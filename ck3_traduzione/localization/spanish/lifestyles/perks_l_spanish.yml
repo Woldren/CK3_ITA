@@ -1,5 +1,5 @@
 ﻿l_spanish:
- # Intrigue: Seduction                                 aggiunte stringa 192 e 210
+ # Intrigue: Seduction
  like_weed_in_a_garden_perk_name:0 "Come Erbacce in un Giardino"
  unshackled_lust_perk_name:0 "Lussuria senza Freni"
  subtle_desire_perk_name:0 "Sottile Desiderio"
@@ -193,7 +193,7 @@
  travel_logs_perk_name: "Diari di Viaggio"
  realm_charts_perk_name: "Carte e Itinerari"
  surveyor_perk_name: "Ispettore"
- 
+
  # Other
  groomed_to_rule_msg_title:0 "Pronto a Governare"
  LOYALTY_AND_RESPECT_PERK_STATS_EFFECT:1 "[skills|E] da [councillor_tasks|E] o [vizier|E] del [spouse|E]: #p +25%#!"

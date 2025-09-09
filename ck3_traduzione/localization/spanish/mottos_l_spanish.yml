@@ -45,7 +45,7 @@
  motto_x_guides_us:0 "$1$ Ci Guida"
  motto_house_was_forged_by_x:0 "La Casata [CHARACTER.GetHouse.GetBaseNameNoTooltip] fu Forgiata da $1$"
  motto_founder_shares_x:0 "[CHARACTER.GetFirstName] Condivide $1$"
-
+ 
  # Unique Pool (too cool to skip, but no good to randomize)
  motto_unique_pool:0 "$1$"
  motto_thus_should_law_be_followed:0 "Così Dovrebbe Essere Seguita la Legge"
@@ -414,7 +414,7 @@
  motto_mimirs_knowledge:0 "La Conoscenza di Mimir"
  motto_hodurs_trustiness:0 "La Fiducia di Hodur"
  motto_ratatoskrs_two_front_teeth:0 "I Due Denti Anteriori di Ratatoskr"
-
+ 
  # Scripted
  dynn_Briain_motto:0 "La Forte Mano dall'Alto"
  dynn_Habsburg_motto:0 "A.E.I.O.U."
@@ -422,7 +422,7 @@
  dynn_Hauteville_motto:0 "La destra del Signore ha fatto meraviglie, la destra del Signore mi ha esaltato."
  dynn_Renart_motto:0 "Astuto come la Volpe"
  dynn_Tengil_motto:0 "All makt åt Tengil, vår befriare!"
- #Paraphrasing Alfred the Great:
+ 	#Paraphrasing Alfred the Great:
  dynn_Wessex_motto:0 "Quali punizioni ci possono capitare quando non apprezziamo né trasmettiamo l'apprendimento?"
  dynn_normandie_motto: "Fa' che il Fulmine della Tua Gloria Risplenda" 
  
@@ -504,7 +504,7 @@
  dynn_andriamasinavalona_motto:0 "Il confine delle mie risaie è il mare"
  dynn_Shefket_vanity_motto:0 "In Vino Veritas"
  dynn_Strom_motto:0 "Vorrei che fossi Birra"
- 
+
  dynn_brantevik_vanity_motto:0 "Coloro che abitano tra le bellezze e i misteri della terra non sono mai soli o stanchi della vita"
 
 
@@ -520,7 +520,7 @@
  dynn_Berg_Hulthen_vanity_motto:0 "Va bene"
  dynn_Stokic_motto:1 "L'orecchio attento supera la bocca loquace."
  dynn_markovic_motto:0 "La vita è breve, mangia prima il dolce... e poi il secondo." 
- 
+
  dynn_Uhl_motto:0 "Mi appoggio alla mia lancia e bevo"
  dynn_Cantalini_motto:0 "Abbiamo Commesso un Grave Errore"
  dynn_Melosso_motto:0 "La vita migliorerà, ma non sarà mai bella"
@@ -535,10 +535,9 @@
  dynn_Versekys_motto:0 "Al diavolo!"
  dynn_Drake_motto:1 "Aquila Non Captat Muscas"
  dynn_Husen_motto:0 "Tieni la testa alta e vai al trotto"
- 
  dynn_Lopez_motto:0 "Niente Idromele per Me, per Favore!"
- dynn_Velasquez_motto: "Ogni stronzo ha le sue mosche"
  dynn_verdugo_motto: "Siamo più vicini di quanto pensi"
+ dynn_Velasquez_motto: "Ogni stronzo ha le sue mosche"
  dynn_Passoni_motto: "Mangia e Banchetta Sempre"
  dynn_Mannetje_motto: "Cras Est Alius Dies"
  dynn_Le_Jensen_motto: "Impegnati a fondo, va' lontano, alla fine conterà"

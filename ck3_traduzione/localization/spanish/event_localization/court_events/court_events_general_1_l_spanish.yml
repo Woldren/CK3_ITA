@@ -24,4 +24,3 @@ court_events.1010.d: "#EMP "Tornate a casa, scarafaggi traditori!"#!"
 court_events.1011.opening: "[Select_CString(ROOT.Char.IsFemale,'Mia vecchia padrona','Mio vecchio padrone')],"
 court_events.1011.desc: "Io, [defector.GetName], e molti dei vostri servi oppressi siamo fuggiti dal vostro servizio. Senza la nostra competenza, la vostra corte cadrà presto nel caos che meritate.\n\nSiete sempre [Select_CString(ROOT.Char.IsFemale,'stata una','stato un')] [grander_ruler.Custom('InsultNoun')] più che [Select_CString(ROOT.Char.IsFemale,'una','un')] governante [Select_CString(ROOT.Char.IsFemale,'degna','degno')]. E così il vostro sostituto, [root_scope.GetName], assaporerà le comodità e le glorie che un tempo conoscevate."
 court_events.1011.a: "#EMP [Select_CString(defector.IsFemale,'Traditrice','Traditore')]!#!"
-

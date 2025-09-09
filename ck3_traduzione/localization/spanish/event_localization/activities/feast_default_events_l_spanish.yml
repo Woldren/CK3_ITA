@@ -162,7 +162,7 @@
  feast_default.1020.tt:0 "Manufatto Deturpato"
  GUESTS_LIKED_DEFACING:0 "#z [CHARACTER.MakeScope.Var('num_unhappy_guests').GetValue|0]#! ospiti apprezzano questa azione:"
  feast_default.1020.tt_guests: "#z [THIS.Var('num_unhappy_guests').GetValue|0]#! ospite(i) apprezza/apprezzano questa azione e l'opinione che ha/hanno di te migliora" 
- 
+
  feast_default.1030.t:0 "Eroi dei Nostri Tempi"
  feast_default.1030.desc:0 "Un colpo di scena conclude la prima appassionata esibizione di [minstrel.GetFirstName]. Il pubblico asciuga le lacrime e applaude battendo sui tavoli.\n\n"Un'altra storia!" propone [minstrel.GetSheHe]. "Volete che vi canti di come [knight_1.Custom('DE_ART_DEF_P_A')] grande $knight_culture_player_no_tooltip_lowercase$ [knight_1.GetFirstName]"
  feast_default.1030.ethical:0 "abbia nobilmente difeso i miti?"
@@ -206,7 +206,7 @@
 
 
 #feared by all enemies
- 
+
  feast_default.2001.t:1 "Impazienza Imbarazzante"
  feast_default.2001.desc:0 "[host.GetTitledFirstName] ha annunciato un leggero ritardo nel servire il cibo, e [glutton.GetTitledFirstName] sembra pront[glutton.Custom('DE_END_PRO_S_N')] a scoppiare dalla frustazione!\n\nTra un brontolio del suo stomaco e l'altro ci sono solo brontolii di dispiacere."
  feast_default.2001.a:0 "Si sta mettendo in ridicolo."
@@ -236,9 +236,9 @@
  feast_default.2006.d:0 "Ti prego, lasciami in pace!"
 
  feast_default.2007.t:1 "Relazione Esposta!"
- feast_default.2007.desc:0 "Un forte schianto risuona attraverso la grande sala, mentre una delle porte della zona di servizio si rompe.\n\nCon indosso a malapena i vestiti, [lover_guest_1.Custom('DE_ART_DEF_P_A')] mi[lover_guest_1.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1'))] [lover_guest_1.GetTitledFirstName] e [lover_guest_2.Custom('DE_ART_DEF_P_A')] mi[lover_guest_2.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2'))] [lover_guest_2.GetTitledFirstName] ruzzolano sul pavimento di fronte a tutti."
+ feast_default.2007.desc:0 "Un forte schianto risuona attraverso la grande sala, mentre una delle porte della zona di servizio si rompe.\n\nCon indosso a malapena i vestiti, [lover_guest_1.Custom('DE_ART_DEF_P_A')] mi[lover_guest_1.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1'))] [lover_guest_1.GetTitledFirstName] e [lover_guest_2.Custom('DE_ART_DEF_P_A')] mi[lover_guest_2.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2'))] [lover_guest_2.GetTitledFirstName] ruzzolano sul pavimento di fronte a tutti." #controllare_modifica
  feast_default.2007.a_chaste:0 "Non riesco a guardare!"
- feast_default.2007.a_lustful:0 "Provate solo ad #EMP immaginare#! cosa stessero facendo...!"
+ feast_default.2007.a_lustful:0 "Provate solo ad #EMP immaginare#! cosa stessero facendo...!" #controllare_modifica
  feast_default.2007.a_sadistic:0 "Ahahah! Tutto ciò è uno spasso!"
  feast_default.2007.a_compassionate:0 "Nessuno merita una tale vergogna..."
  feast_default.2007.b:0 "Chi l'avrebbe mai detto che #EMP loro#! avessero un tale segreto!"
@@ -265,7 +265,7 @@
  feast_default.2012.a:0 "Che cosa avete #EMP fatto#!?!"
  feast_default.2012.b:0 "Tutti sapranno del vostro crimine!"
  feast_default.2012.c:0 "Il mio silenzio ha un prezzo."
- 
+
  feast_default.2013.t:1 "Il Leccapiedi"
  feast_default.2013.desc:0 "Le voci che sono circolate sul fatto che [bootlicker.GetFirstName] volesse ingraziarsi [shared_liege.GetTitledFirstName] vengono confermate quando [bootlicker.GetSheHe] [shared_liege.Custom('DE_PRO_DEM')] porge un dono.\n\n"Mi[shared_liege.Custom('DE_END_PRO_S_N')] carissim[shared_liege.Custom('DE_END_PRO_S_N')] [bootlicker.Custom2('RelationToMeShort', SCOPE.sC('shared_liege'))], è così bello vedervi! Sapendo che ci saremmo incontrati qui, vi ho portato questa meravigliosa pelle, come segno di apprezzamento."\n\n[shared_liege.GetTitledFirstName] sorride mentre studia la pelle di animale. Vedendo quanto [shared_liege.GetSheHe] sia felice nel ricevere il dono, realizzo che sto rischiando di perdere questa opportunità di migliorare anche io la mia posizione nei suoi confronti!"
  feast_default.2013.a:0 ""Mi[shared_liege.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('shared_liege'))]! Anche io ho un dono per voi!""
@@ -572,7 +572,7 @@
  feast_default.8061.desc.death_alone:1 "L'atmosfera è più cupa di quanto avrei sperato, quando ci prepariamo a lasciare il banchetto di [host.GetTitledFirstName]. Il corpo [murder_guest.Custom('DE_PRO_PER_P_3P_A')] mi[murder_guest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('murder_guest'))] [murder_guest.GetTitledFirstName] è stato rinvenuto ancora caldo sul pavimento.\n\nLa morte ha tormentato queste mura ed è impossibile scrollarsi di dosso una certa amarezza."
  feast_default.8061.a:2 "Immagino che il banchetto sia ormai finito."
  feast_default.8061.a.good:0 "[murder_guest.GetFirstNameNoTooltip]... che morte ingiusta."
- 
+
  feast_default.9001.t:1 "Mentre gli Ospiti se ne Vanno"
  feast_default.9001.desc_exotic:0 "Adesso che tutti fanno ritorno alla propria dimora con la pancia piena di esotiche prelibatezze, sono orgoglioso di dire che il banchetto è stato un successo!"
  feast_default.9001.desc_lavish:0 "Adesso che tutti i miei ospiti lasciano il mio castello con l'intero contenuto della mia vasta dispensa nelle loro pance, sono orgoglioso di dire che il banchetto è stato un successo!"
@@ -589,7 +589,6 @@
  feast_default.9002.desc:0 "Che banchetto! Ricorderò le giornate passate nelle sale [host.Custom('IT_NAM_COL2')][host.GetTitledFirstName] per molto tempo a venire."
  feast_default.9002.desc_ending:1 "\n\nOra è il momento di lavare via le tracce dell'allegria e del vino, e di riprendere i miei doveri di Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] del reame."
  feast_default.9002.a:0 "Arrivederci, car[host.Custom('DE_END_PRO_S_N')] [host.GetFirstName]!"
- 
  feast_default.5010.t: "Un Silenzio Leggendario"
  feast_default.5010.desc: "Nel bel mezzo delle celebrazioni e dei festeggiamenti, c'è una pausa nelle conversazioni di tutti i partecipanti. [rando_guest.Custom('IT_NAM_COL3')|U][rando_guest.GetName] e io siamo gli unici a scambiarci ancora delle parole, ma mi sento costrett[ROOT.Char.Custom('DE_END_PRO_S_N')] al silenzio quando gli occhi di tutti i presenti si rivolgono verso di me.\n\nQuesto momento di calma è forse l'occasione giusta per parlare [ROOT.Char.GetPromotedLegend.Custom('IT_NAM_COL2')][ROOT.Char.GetPromotedLegend.GetName]."
  feast_default.5010.a: "[rando_guest.GetFirstName|U], permettetemi di raccontarvi una storia."

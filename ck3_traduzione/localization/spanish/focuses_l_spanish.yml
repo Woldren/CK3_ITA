@@ -112,7 +112,7 @@
  learning_scholarship_focus_effect_desc:0 "Concentrarsi sull'Erudizione fornisce:"
  scholarship_name:1 "Studioso"
 
-  #Wanderer
+ #Wanderer
  wanderer_lifestyle_name: "Viandante"
  wanderer_lifestyle_desc: "Concentrati sul viaggiare verso gli angoli edl mondo, vedendo luoghi fantastici di cui altri possono solo sognare, e sopravvivi per raccontarlo."
  wanderer_lifestyle_highlight_desc: "[GetPlayer.Custom('GetWandererLifestyleXPHighlight')]"
@@ -138,7 +138,7 @@
  wayfarer_name: "Wayfarer"
  voyager_name: "Voyager"
  surveyor_name: "Inspector"
-
+ 
  #Adventurers
  diplomacy_adventurer_focus: "Araldo"
  diplomacy_adventurer_focus_modifier: "[GetFocus('diplomacy_adventurer_focus').GetName]"
@@ -210,7 +210,6 @@
  education_intrigue_tt.affinity:0 "\n\n#P I bambini con il tratto [ROOT.Char.Custom('ChildhoodPersonalityTrait')] spesso ottengono buoni risultati da un'Educazione nella materia dell'Intrigo.#!"
  education_intrigue_tt.disaffinity:0 "\n\n#N I bambini con il tratto [ROOT.Char.Custom('ChildhoodPersonalityTrait')] possono avere difficoltà ad affrontare un'Educazione nella materia dell'Intrigo.#!"
  education_intrigue_effect_desc:0 "Scegliere questo [education_focus|E] avrà anche i seguenti effetti:"
-
 #Other bonuses for Education Focus
  education_martial_tt.huntperson: "\n\n#P [GetCourtPositionType('huntperson_camp_officer').GetName()] assoldato migliora i risultati dell'Educazione Marziale.#!"
  education_any_tt.court_tutor: "\n\n#P [GetCourtPositionType('court_tutor_court_position').GetName()] assoldato migliora tutti i risultati dell'Educazione.#!"

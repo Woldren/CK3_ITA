@@ -49,7 +49,7 @@
  bookmark.0101.b.tt:1 "#warning @warning_icon! Questa opzione potrebbe lasciarti senza un [heir|E] [dynastic|E]!#!"
  bookmark.0101.c:0 "I Magajiya non hanno bisogno di uomini per potare avanti la loro eredità!"
  bookmark.0101.c.tt:1 "Tua sorella [shawata.GetUIName] rimarrà il tuo [heir|E] [dynastic|E]"
- 
+
  # Credit to Stu Taylor of Dead Good Comics for the title line and entire lead-in to this event.
  bookmark.0211.t: "In Ricordo del Vostro Buon Gusto"
  # Historically, both of Michael's hands were severed — we don't have a portrait modifier for that, I'm afraid, so we pretend it was just the one.

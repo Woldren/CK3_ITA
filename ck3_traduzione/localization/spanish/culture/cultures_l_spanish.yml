@@ -310,9 +310,9 @@
  wolof_collective_noun:0 "Wolofi"
  #Akan group
  akan_group:0 "Akan"
- akan_prefix:0 "Akano"
  akan_group_collective_noun:0 "Akani"
  akan:0 "Akano"
+ akan_prefix:0 "Akano"
  akan_collective_noun:0 "Akani"
  guan:0 "Guan"
  guan_prefix:0 "Guano"
@@ -466,9 +466,9 @@
  cisalpine_collective_noun:1 "Cisalpini"
  #Frankish group
  frankish_group:0 "Franca"
- frankish_prefix:0 "Franco"
  frankish_group_collective_noun:0 "Franchi"
  frankish:0 "Franca"
+ frankish_prefix:0 "Franco"
  frankish_collective_noun:1 "Franchi"
  french:0 "Francese"
  french_prefix:0 "Franco"
@@ -481,9 +481,9 @@
  occitan_collective_noun:1 "Occitani"
  #Magyar group
  magyar_group:2 "Magyara"
- mogyer_prefix:0 "Mogyëro"
  magyar_group_collective_noun:0 "Magyari"
  mogyer:0 "Mogyëra"
+ mogyer_prefix:0 "Mogyëro"
  mogyer_collective_noun:0 "Mogyëri"
  hungarian:0 "Ungherese"
  hungarian_prefix:0 "Ungaro"
@@ -634,9 +634,9 @@
  maghrebi_collective_noun:1 "Maghrebini"
  #Mongolic
  mongolic_group:0 "Mongola"
- mongol_prefix:0 "Mongolo"
  mongolic_group_collective_noun:0 "Mongoli"
  mongol:0 "Mongolo"
+ mongol_prefix:0 "Mongolo"
  mongol_collective_noun:1 "Mongoli"
  buryat:0 "Buriata"
  buryat_prefix:0 "Buryato"
@@ -770,4 +770,3 @@
  albanian: "Albanese"
  albanian_prefix: "Albanese"
  albanian_collective_noun: "Albanesi"
- 

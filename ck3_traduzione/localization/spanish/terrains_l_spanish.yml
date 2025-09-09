@@ -40,4 +40,4 @@
  TERRAIN_DANGER:1 "[travel_danger|E]: $VALUE|=-0$"
  TERRAIN_PROVISIONS_BASE_COST: "Costo Base"
  TERRAIN_PROVISIONS_COST: "Costo [provisions|E]" 
- 
+

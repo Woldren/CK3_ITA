@@ -5,13 +5,14 @@
  tribal_holding:0 "Insediamento Tribale"
  nomad_holding: "Insediamento Nomade"
  herder_holding: "Campo Mandriano" 
+ 
  city_holding_concept_key:0 "[city|E]"
  church_holding_concept_key:0 "[temple|E]"
  castle_holding_concept_key:0 "[castle|E]"
  tribal_holding_concept_key:0 "[tribe|E]"
  nomad_holding_concept_key: "[nomadic_holding|E]"
  herder_holding_concept_key: "[herder_holding|E]"
-  
+ 
  GARRISON_TOOLTIP:1 "#T [garrison|E]: $CURRENT_VALUE|V$/$MAX_VALUE|V$#!"
  BUILDING_VALUE: "$BUILDING$"
  DOMAIN_LIMIT_OVERRUN_LEVY_PENALTY:0 "@warning_icon! #X Ridotto del $VALUE|-%0$ per essere sopra il [domain_limit|E]#!"
@@ -43,17 +44,17 @@
  SUPPLY_MINIMUM:0 "Rifornimenti minimi"
  SUPPLY_MULT_SITUATION: "[situation|E]"
  SUPPLY_ADD_SITUATION: "[situation|E]"
- 
+
  HOLDING_TT_CONSTRUCTING:1 "[BUILDING.GetName|V] in costruzione (terminato il [DATE.GetString])"
  HOLDING_TT_CONSTRUCTING_HOLDING:0 "Costruendo $BUILDING|V$ (conclusione [DATE.GetString])"
  HOLDING_TT_UNDER_SIEGE:0 "Sotto [siege|E] di [CHARACTER.GetPrimaryTitle.GetName]"
  HOLDING_TT_OCCUPIED:0 "[occupied|E] da [CHARACTER.GetPrimaryTitle.GetName]"
  HOLDING_TT_FORT:0 "[fort_level|E]: @fort_icon! $VALUE|V$"
+ HOLDING_TT_GARRISON:2 "[garrison|E]: @garrison_icon! [HOLDING.GetCurrentGarrisonSize]/[HOLDING.GetMaxGarrisonSize|0]"
  HOLDING_TT_GARRISON_BASE:0 "Base"
  HOLDING_TT_GARRISON_REINFORCEMENT:0 "#T [garrison_reinforcement|E]#!"
  HOLDING_TT_GARRISON_UNDER_SIEGE:0 "#N [siege|E]#!"
  HOLDING_TT_GARRISON_UNDER_SIEGE_DESC:1 "@warning_icon! #X L'[holding|E] è sotto [siege|E]#!"
- HOLDING_TT_GARRISON:2 "[garrison|E]: @garrison_icon! [HOLDING.GetCurrentGarrisonSize]/[HOLDING.GetMaxGarrisonSize|0]"
  HOLDING_TT_TAX:0 "[taxes|E]: @gold_icon! [HOLDING.GetIncome|1V]"
  HOLDING_TT_LEVIES:0 "[levies|E]: @soldier_icon! [HOLDING.GetMaxLevySize|0]"
  HOLDING_TT_TITLE:0 "[title|E]: [Holding.GetProvince.GetTitle.GetName]"

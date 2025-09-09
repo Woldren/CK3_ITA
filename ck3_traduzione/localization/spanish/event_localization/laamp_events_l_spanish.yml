@@ -1,4 +1,4 @@
-﻿l_spanish: 
+﻿l_spanish:
  ep3_laamps.0001.t.female: "Un tempo e già [lost_primary_title.Custom('GetTierBaseTitleFemale')]" #stringa 17 modificata
  ep3_laamps.0001.t.male: "Un tempo e già [lost_primary_title.Custom('GetTierBaseTitleMale')]"
  ep3_laamps.0001.intro: "Sporca, ignominiosa sconfitta!"
@@ -87,7 +87,7 @@
  ep3_laamps.0102.opening: "[recipient.Custom2('AppropriateGreetingNegative', actor)]"
  ep3_laamps.0102.desc: "Che offerta ridicola. Pensi davvero che venderei i miei titoli? E a un[Select_CString(actor.IsFemale,'una donna','un uomo')] come #EMP te?!#!"
  ep3_laamps.0102.a: "Non c’è bisogno di essere scortese."
- 
+
 
  ep3_laamps.0200.opening: "[recipient.Custom2('AppropriateGreeting', actor)]"
  ep3_laamps.0200.desc: "Bene, ti aiuterò nella tua invasione [secondary_recipient.Custom('IT_COU_COL')][secondary_recipient.GetTitledFirstNamePossessive] [secondary_recipient.GetPrimaryTitle.GetTierAsNameNoTooltip], a condizione che tu mi giuri fedeltà se ne uscirai vittorios[Select_CString(ROOT.Char.IsFemale,'a','o')]."
@@ -116,7 +116,7 @@
  ep3_laamps.0302.opening: "[recipient.Custom2('AppropriateGreetingNegative', actor)]"
  ep3_laamps.0302.desc: "Credi davvero che io possa essere comprat[Select_CString(ROOT.Char.IsFemale,'a','o')] con questi miseri titoli così facilmente? Se devo averli, li prenderò da te con la spada."
  ep3_laamps.0302.a: "Oh! Questo miserabile nessuno!"
-
+ #
  ep3_laamps.0800.t: "Bivio sulla Strada"
 
  ep3_laamps.0800.inherited: "È giunto un araldo recando la pesante rivelazione della mia eredità [new_title.Custom('IT_COU_COL')][new_title.GetBaseNameNoTier], e dei territori associati, da [previous_holder.GetFullName]..."
@@ -311,14 +311,14 @@
  ep3_laamps.5045.b: "Beh, l’oro non è mai di troppo..."
  ep3_laamps.5045.c: "Un po’ di questo cibo basterebbe."
  ep3_laamps.5045.d: "Tutto ciò di cui ho bisogno è lavoro per servire queste terre."
-
+ 
  world_africa_sahara_provisions_usage_multiplier_modifier: "Provincia Sahariana"
  world_africa_sahara_provisions_usage_multiplier_modifier_desc: "Questa provincia è soggetta all’intera furia del possente Sahara (o di una delle catene montuose che lo fiancheggiano) — solo un folle o un esperto tenterebbe di attraversarla."
 
  duel_to_the_death.tt: "@death_icon! #X Entri immediatamente in un [single_combat_duel|E] fino alla [character_death_death|E]#!"
 
  ##################################################
- # GIOIE SEMPLICI
+ # SIMPLE JOYS
 
  ep3_laamp_flavour_ewan.0001.t: "Toni Rosati"
  ep3_laamp_flavour_ewan.0001.desc.intro.preamble: "Il tardo pomeriggio è un momento di intensa attività per il campo, persone e provviste spostate qua e là mentre la nostra dimora portatile viene di nuovo allestita. Di solito è anche il momento in cui faccio una passeggiata per schiarirmi le idee e"
@@ -668,7 +668,7 @@
  ep3_laamp_flavour_ewan.0071.d: "Procedi al trotto, lasciandol[Select_CString(hanger.IsFemale,'a','o')] alla sua miseria."
 
  ##################################################
- # CRESCITA DEI FIGLI
+ # CHILDREARING
 
  ep3_laamp_flavour_ewan.1001.t: "Amici di Umili Condizioni"
  ep3_laamp_flavour_ewan.1001.desc: ""[ROOT.Char.GetMotherFather|U], [ROOT.Char.GetMotherFather]!" grida mi[Select_CString(own_child.IsFemale,'a','o')] [own_child.Custom('GetDaughterSon')] mentre corre verso di me, "Voglio presentarti qualcuno!"\n\n[Select_CString(own_child.IsFemale,'La','Il')] [own_child.Custom('GirlBoy')] si volta per presentarmi un altro bambino, spalancando le braccia come se stesse offrendo il dono di [ROOT.Char.GetFaith.HighGodNamePossessive] ai fedeli, piuttosto che qualcuno che sembra un povero di bassa nascita.\n\n"Questo è [other_child.GetFirstName], [Select_CString(other_child.IsFemale,'la mia nuova compagna','il mio nuovo compagno')] di giochi. #EMP Un giorno#!, [other_child.GetSheHe] mi aiuterà a gestire questo campo.""
@@ -679,7 +679,7 @@
  ep3_laamp_flavour_ewan.1001.a: "Ahah, andate pure, voi due."
  ep3_laamp_flavour_ewan.1001.b: "Credo che ti sia fatt[Select_CString(own_child.IsFemale,'a','o')] [Select_CString(other_child.IsFemale,'un'amica','un amico')] per la vita, [own_child.Custom('GetDaughterSon')]."
  ep3_laamp_flavour_ewan.1001.c: "[own_child.GetFirstNameNoTooltip], [other_child.GetSheHe] non è al tuo livello."
-
+ 
  ep3_laamp_flavour_ewan.1011.t: "Imparare con l’Esempio"
  ep3_laamp_flavour_ewan.1011.desc: "[child.GetFirstName|U] è in quell’età in cui un bambino assorbe tutto ciò che lo circonda come una spugna che assorbe l’acqua.\n\nSebbene le circostanze attuali mi impediscano di offrir[child.Custom('DE_PRO_DEM')] la migliore istruzione, [Select_CString(child.IsFemale,'la','il')] giovane [child.Custom('GetLassLad')] non sembra meno desideros[Select_CString(child.IsFemale,'a','o')] di imparare. Invece di precettori e libri cui qualcuno con una ricchezza più... stabile potrebbe sentirsi autorizzato, [child.GetSheHe] gira per il campo, seguendo i miei ufficiali e aiutandoli con entusiasmo nelle loro mansioni.\n\nUn piccolo indirizzamento verso qualcuno in particolare farebbe probabilmente miracoli per focalizzare i suoi sforzi."
  ep3_laamp_flavour_ewan.1011.a: "Il mio Vicecomandante."
@@ -706,7 +706,7 @@
  ep3_laamp_flavour_ewan.1021.c: "Sarà di certo una cotta di stagione, ti passerà."
  ep3_laamp_flavour_ewan.1021.c.crush_endures: "La cotta di [child.GetFirstNamePossessiveNoTooltip] arde ancora"
  ep3_laamp_flavour_ewan.1021.c.crush_fades: "La cotta svanisce"
-
+ 
  ep3_laamp_flavour_ewan.1031.t: "Crescita"
  ep3_laamp_flavour_ewan.1031.desc.intro: "Si dice che i bambini reagiscano più di chiunque altro ai luoghi in cui si trovano.\n\nÈ una fortuna per mi[Select_CString(child.IsFemale,'a','o')] [child.Custom('GetDaughterSon')] [child.GetFirstName] che [child.GetSheHe] si trovi in compagnia dei più"
  ep3_laamp_flavour_ewan.1031.desc.purpose.wanderers: "leali compagni, interessanti conoscenze e utili servitori"
@@ -1622,7 +1622,7 @@
  every_county: "Ogni [county|E]"
 
  ep3_laamps.6021.desc: "La mia legittima ascesa al trono d’Inghilterra è bastata a spezzare la corda già logora che teneva unito il reame. Rivolte locali, alimentate e fomentate dagli sconfitti e risentiti [Glossary( 'Æthelings', 'AETHELINGS_GLOSS' )] anglosassoni, si diffondono nel paese come un incendio.\n\nCon la mia base di potere nel sud consolidata, devo ora volgere lo sguardo al nord per pacificare coloro abbastanza coraggiosi e stolti da opporsi a me. Ovunque cada il mio sguardo, seguiranno morte e distruzione, a meno che non mi ritrovi spodestat[Select_CString(ROOT.Char.IsFemale,'a','o')] dai complotti dei locali.\n\nDevo camminare su una sottile linea tra guanto di velluto e pugno di ferro. Un tocco troppo lieve mi costerà il regno, ma una rappresaglia eccessivamente brutale lascerà ben poco regno da governare. Quanto agli Ætheling...\n\nNon ci deve essere misericordia per chi non presterà fedeltà."
- 
+
  ep3_laamps.7000.t: "Un’Altra Strada"
  ep3_laamps.7000.desc: "Con tale sconvolgimento che travolge le terre d'[england.GetName], a volte mi chiedo se il mio destino non risieda altrove.\n\nI disordini sono già iniziati, dopo la presa del potere da parte di [william.GetTitledFirstNamePossessive]. Sospetto che la situazione non potrà che peggiorare, e una vita sulla strada seguendo le orme di mio padre ha un certo fascino.\n\nForse potrei andare a nord, in Scozia? O magari a sud, in Italia, tra le colline dell’Apulia?"
  ep3_laamps.7000.a: "La Scozia sembra un buon piano."

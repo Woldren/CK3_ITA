@@ -41,7 +41,8 @@
  HAS_CULTURAL_TRADITION_GLOBAL_NOT:0 "La [culture|E] [CULTURE.GetName|U] non ha la [tradition|E] [CULTURE_TRADITION.GetName]"
  HAS_CULTURAL_TRADITION_NONE:0 "La [culture|E] ha la [tradition|E] [CULTURE_TRADITION.GetName]"
  NOT_HAS_CULTURAL_TRADITION_NONE:0 "La [culture|E] non ha la [tradition|E] [CULTURE_TRADITION.GetName]"
- 
+
+
 
  LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_COASTAL_WARRIORS_NOT:0 "Incompatibile con la [tradition|E] $tradition_fp1_coastal_warriors_name$ "
  LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_NORTHERN_STORIES_NOT:0 "Incompatibile con la [tradition|E] $tradition_fp1_northern_stories_name$"

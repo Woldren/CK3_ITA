@@ -38,7 +38,7 @@
  action_can_take_concubine_label:0 "$action_can_take_concubine$"
  action_can_take_concubine_desc:2 "Attualmente sei al di sotto del numero appropriato di [concubines|E] per uno del tuo rango.\n\n#help Prendi più [concubines|E] per annullare la penalità al [prestige|E] che stai attualmente subendo.#!"
  action_can_take_concubine_click:0 "#I Clicca per trovare una concubina idonea#!"
- 
+
  action_too_few_spouses:1 "@cs_arrange_marriage_icon! Troppo Pochi Coniugi"
  action_too_few_spouses_label:0 "$action_too_few_spouses$"
  action_too_few_spouses_desc:0 "Non hai il numero appropriato di [spouses|E] per uno della tua [faith|E].\n\n#help Dovresti sposarti per annullare la penalità alla [piety|E] che stai attualmente subendo.#!"
@@ -82,7 +82,7 @@
  action_lifestyle_stewarship_label:0 "$action_can_spend_perk_point_label$"
  action_lifestyle_stewarship_desc:0 "$action_can_spend_perk_point_desc$"
  action_lifestyle_stewarship_click:0 "$action_can_spend_perk_point_click$"
- 
+
  action_lifestyle_wanderer: "$action_can_spend_perk_point$"
  action_lifestyle_wanderer_label: "$action_can_spend_perk_point_label$"
  action_lifestyle_wanderer_desc: "$action_can_spend_perk_point_desc$"
@@ -217,12 +217,12 @@
  military_strength_green_current_situation:0 "#P @soldier_icon![second.GetMilitaryStrengthText]#!"
  military_strength_red_current_situation:0 "#color_light_red @soldier_icon![second.GetMilitaryStrengthText]#!"
  military_strength_gray_current_situation:0 "#low @soldier_icon![second.GetMilitaryStrengthText]#!"
- 
+
  action_dangerous_faction_targeting_me:0 "Fazione Pericolosa"
  action_dangerous_faction_targeting_me_label:1 "Sei il bersaglio di una Fazione pericolosa"
  action_dangerous_faction_targeting_me_desc:3 "Una [faction|E] ha abbastanza [military_power|E] e presto invierà un Ultimatum.\n\n#help Quando la fazione è abbastanza forte, il loro [discontent|E] aumenta fino a quando finalmente inviano un Ultimatum. Devi accettare le loro richieste o prepararti per una [civil_war|E]!#!"
  action_dangerous_faction_targeting_me_click:1 "#I Clicca per visualizzare la Fazione#!"
- 
+
  action_county_in_dangerous_populist_faction:1 "@faction_icon! Contea nella Fazione Populista"
  action_county_in_dangerous_populist_faction_label:1 "@faction_icon! [landed_title.GetNameNoTooltip] nella Fazione Populista"
  action_county_in_dangerous_populist_faction_desc:2 "[landed_title.GetNameNoTooltip] si è unito ad una [popular_faction|E] contro il tuo signore.\n\nIncrementa l'[Concept( 'county_opinion', 'opinione' )|E] di questa contea, o rischierai di perderla quando la fazione presenterà le sue richieste!"
@@ -231,7 +231,7 @@
  action_county_in_dangerous_populist_faction_combined_group_name:0 "$action_county_in_dangerous_populist_faction_combined_group_label$"
  action_county_in_dangerous_populist_faction_combined_group_description:0 "I Contadini di molte delle tue contee si sono riuniniti in una [popular_faction|E] contro il tuo signore.\n\nIncrementa l'[Concept( 'county_opinion', 'opinione' )|E] di queste contee, o rischierai di perderle completamente quando essi presenteranno le loro richieste!"
  action_county_in_dangerous_populist_faction_combined_label:1 "[landed_title.Custom('GetTierIcon')] [landed_title.GetNameNoTierNoTooltip]"
- 
+
  action_can_send_faction_demand:0 "Invia una Richiesta della Fazione"
  action_can_send_faction_demand_label:1 "Puoi inviare una Richiesta della Fazione"
  action_can_send_faction_demand_desc:1 "La tua [faction|E] è diventata abbastanza forte da essere una minaccia. Dovresti considerare di insistere con le tue richieste."
@@ -248,7 +248,7 @@
  action_no_player_heir_but_replacement_exists_gameover_risk_label:0 "$action_no_player_heir_but_replacement_exists_gameover_risk$"
  action_no_player_heir_but_replacement_exists_gameover_risk_desc:0 "Non hai [titles|E] giocabili che i membri della tua [dynasty|E] possano ereditare alla tua morte!\n\n#help Questo significa che il tuo gioco finirà se muori! Tuttavia, ci sono membri della tua $game_concept_dynasty$ in basso nella [line_of_succession|E] di almeno uno dei tuoi $game_concept_titles$. Dovresti assicurarti che uno di loro erediti un $game_concept_title$ di [title_rank|E] [count|E] o superiore, modificando le [succession_laws|E] o tramando un [GetScheme('murder').GetTypeName]...#!"
  action_no_player_heir_but_replacement_exists_gameover_risk_click:0 "#I Clicca per visualizzare il $game_concept_title$#!"
- 
+
  action_no_heir:1 "Nessun [player_heir|E]"
  action_no_heir_label:2 "Non hai un valido [player_heir|E]"
  action_no_heir_desc:5 "Nessuno dei tuoi [titles|E] sta per essere ereditato da un [heir|E] della tua [dynasty|E]!\n\n#help Se non hai Eredi della tua Dinastia, il gioco terminerà! Tu (o uno dei tuoi parenti stretti [dynastic|E]) devi generare un figlio legittimo e assicurarti che la [succession_laws|E] e la [gender_laws|E] del tuo [realm|E] gli permetta di ereditare!#!"
@@ -262,7 +262,7 @@
  action_title_lost_from_realm_on_succession_combined_group_name:1 "@bad_icon! Il regno perderà terre se i Vassalli moriranno"
  action_title_lost_from_realm_on_succession_combined_group_description:2 "Alcuni dei tuoi [vassals|E] possegono [titles|E] che saranno ereditati da [rulers|E] che non sono tuoi [vassals|E].\n\n$TLFR_CROWN_AUTHORITY_TIP$"
  TLFR_CROWN_AUTHORITY_TIP:1 "#help Il modo più affidabile per evitare questo è aumentare la tua [crown_authority|E] a [GetLaw('crown_authority_2').GetName]. Detto questo, potrebbe semplicemente essere che il vassallo in questione non ha figli legittimi. Se sono [married|E] e fertili, il problema potrebbe risolversi da solo.#!"
- 
+
  action_title_lost_from_realm_on_foreign_ruler_succession:1 "@bad_icon! Il regno perderà territori se il Vassallo erediterà il Titolo straniero"
  action_title_lost_from_realm_on_foreign_ruler_succession_label:1 "@bad_icon! Il Regno perderà delle terre se [recipient.GetPrimaryTitle.Custom('GetTierIcon')][recipient.GetUINameNoTooltip] erediterà [landed_title.Custom('GetTierIcon')][landed_title.GetBaseNameNoTooltip]"
  action_title_lost_from_realm_on_foreign_ruler_succession_desc:1 "Il tuo [vassal|E] [recipient.GetShortUIName] è l'[heir|E] di [landed_title.GetBaseName], un [title|E] straniero di un [Concept( 'title_tier', 'Livello' )|E] più alto del suo attuale [primary_title|E].\n\n$TLFR_FOREIGN_RULER_SUCCESSION_TIPS$"
@@ -272,7 +272,7 @@
  action_title_lost_from_realm_on_foreign_ruler_succession_combined_group_name:1 "@bad_icon! Il regno perderà territori quando i Vassalli erediteranno i titoli stranieri"
  action_title_lost_from_realm_on_foreign_ruler_succession_combined_group_description:1 "Alcuni dei tuoi [vassals|E] sono gli [heirs|E] di titoli stranieri di un [Concept( 'title_tier', 'Livello' )|E] più alto del loro attuale [primary_title|E].\n\n$TLFR_FOREIGN_RULER_SUCCESSION_TIPS$"
  TLFR_FOREIGN_RULER_SUCCESSION_TIPS:1 "#help Se un Vassallo ottiene un titolo in un regno straniero di un [title_rank|E] più elevato del suo [primary_title|E] attuale non sarà più tuo Vassallo.\n\nPotrebbe essere possibile impedire ai territori del tuo Vassallo di lasciare il tuo regno:\n$BULLET_WITH_TAB$[Concept( 'revoke', 'Revocando' )|E] il Titolo del tuo Vassallo\n$BULLET_WITH_TAB$Concedendo al tuo Vassallo un Titolo di [Concept('title_tier', 'Livello')|E] uguale a quello che erediterà#!"
- 
+
  action_disabled_building:1 "@building_icon! Edificio disabilitato in [landed_title.GetNameNoTierNoTooltip]"
  action_disabled_building_label:1 "@building_icon! Edificio disabilitato in [landed_title.GetNameNoTooltip]"
  action_disabled_building_combined_label:1 "[landed_title.Custom('GetTierIcon')] [landed_title.GetNameNoTooltip]"
@@ -315,7 +315,7 @@
  action_take_decision_label:1 "[decision.GetTitleForPlayer]"
  action_take_decision_desc:2 "[decision.GetDescriptionForPlayer]\n\n#help Questa Decisione è impostata per avvisarti non appena sarà disponibile. Puoi attivare o disattivare questa modalità per ogni decisione#!"
  action_take_decision_click:0 "#I Clicca per visualizzare le tue Decisioni#!"
-
+ 
  action_can_host_activity:0 "Attività Disponibile: [activity_type.GetNameNoTooltip]"
  action_can_host_activity_label:0 "[activity_type.GetName]"
  action_can_host_activity_desc:0 "[activity_type.GetDescription]\n\n#help Questa attività è configurata in modo da avvisare l'utente non appena è disponibile. È possibile abilitare e disabilitare questa opzione per ogni attività#!"
@@ -378,11 +378,11 @@
  action_send_yourself_to_university_click:1 "#I Clicca per frequentare l'Università#!"
  action_send_yourself_to_university_desc:0 "Puoi frequentare l'Università\n\n#help Esiste un [building|E] di tipo Università nel tuo [realm|E]! Frequentare l'Univesità come parte della tua [education|E] è vantaggioso poiché ciò migliorerà i risultati dei tuoi studi.#!"
  action_send_yourself_to_university_unimportant:0 "$action_send_child_to_university_unimportant$"
- 
+
  action_war_declared:0 "Dichiarazione di Guerra!"
  action_war_declared_desc:0 "[war.GetName]"
  action_war_declared_click:0 "#I Clicca per visualizzare#!"
- 
+
  is_defender_in_war_trigger:0 "È il Difensore nella [war.GetName]"
  is_attacker_in_war_trigger:0 "È l'Attacante nella [war.GetName]"
  is_leader_in_war_trigger:0 "È un [war_leader|E] nella [war.GetName]"
@@ -414,7 +414,7 @@
  action_not_endorsed_by_realm_priest_label:3 "@bishop_icon! Non approvato dal tuo [GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName ] ([recipient.GetOpinionOf( GetPlayer )|+=])"
  action_not_endorsed_by_realm_priest_desc:4 "Il tuo [recipient.GetCouncilTitle], [recipient.GetUIName], non ti approva. Attualmente la sua [opinion|E] di te è [recipient.GetOpinionOf( GetPlayer )|+=].\n\n#help Dovresti assicurarti che [recipient.Custom('DE_ART_IND_A')] abbia un'[opinion|E] #P positiva#! di te, altrimenti non ti fornirà né [levies|E] né [taxes|E]! Il miglior modo per rimediare a ciò è usare il [scheme|E] per [GetScheme('sway').GetTypeName].\n\nSe la sua Opinione nei tuoi confronti è uguale o inferiore a #N -10#!, [recipient.Custom('DE_ART_IND_A')] potrebbe inizare ad interferire nei tuoi affari.#!"
  action_not_endorsed_by_realm_priest_click:2 "#I Clicca per visualizzare il tuo [GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] e dai inizio ad un Complotto per Influenzare#!"
- 
+
  action_not_endorsed_by_realm_priest_no_holding:0 "$action_not_endorsed_by_realm_priest$"
  action_not_endorsed_by_realm_priest_no_holding_label:0 "$action_not_endorsed_by_realm_priest_label$"
  action_not_endorsed_by_realm_priest_no_holding_desc:0 "Il tuo [recipient.GetCouncilTitle], [recipient.GetUIName], non ti approva.\n\n#help Dovresti assicurarti che [recipient.GetSheHe] abbia un'[opinion|E] #P positiva#!  di te. Se la sua Opinione nei tuoi confronti è uguale o inferiore a #N -10#!, [recipient.Custom('DE_ART_IND_A')] potrebbe iniziare ad interferire nei tuoi affari.#!"
@@ -535,7 +535,7 @@
  action_can_propose_alliance_to_family_member_click:0 "#I Clicca per Negoziare un'Alleanza#!"
  action_can_propose_alliance_to_family_member_combined_unimportant: "@warning_icon! #X Non avrai la possibilità di chiamarli in Guerra#!"
  action_can_propose_alliance_to_family_member_unimportant: "@warning_icon! #X Non avrai la possibilità di chiamarl[recipient.Custom('DE_END_PRO_S_N')] in Guerra#!"
-  
+ 
  action_can_potentially_propose_alliance_to_family_member:0 "@alliance_icon! Potenziale Alleanza Negoziabile"
  action_can_potentially_propose_alliance_to_family_member_combined_group_label:0 "@alliance_icon! Potenziale Alleanza Negoziabile"
  action_can_potentially_propose_alliance_to_family_member_combined_group_name:0 "$action_can_potentially_propose_alliance_to_family_member_combined_group_label$"
@@ -556,7 +556,7 @@
  action_can_demand_payment_combined_label:1 "([recipient.Custom('DE_ART_DEF_P_D')]) tu[recipient.Custom('DE_END_PRO_S_N')] [actor.Custom2('RelationToMe', recipient)], [recipient.GetUINameNoTooltip], @gold_icon!#V [recipient.MakeScope.ScriptValue('golden_obligation_value_check_current_situation')|0]/[recipient.MakeScope.ScriptValue('golden_obligation_value')|0]#!"
  action_can_demand_payment_click:0 "#I Clicca per Richiedere un Pagamento#!"
  action_can_demand_payment_HELP:1 "\n\n#help Puoi farlo perché hai un [GetPerk('golden_obligations_perk').GetName(GetPlayer)] [perk|E].\n\nEsigere il pagamento consumera il [hook|E] che hai su di lui, quindi assicurati che questo sia lo scopo per cui vuoi usarlo!#!"
-
+ 
  action_hook_expiring:1 "@cs_weak_hook_icon! Il Gancio scadrà a breve"
  action_hook_expiring_combined_group_label:1 "@cs_weak_hook_icon! I ganci scadranno a breve"
  action_hook_expiring_combined_group_name:0 "$action_hook_expiring_combined_group_label$"
@@ -565,7 +565,7 @@
  action_hook_expiring_label:1 "@cs_weak_hook_icon! Il tuo [hook|E] [recipient.Custom('IT_NAM_COL')][actor.Custom2('RelationToMe', recipient)] [recipient.GetShortUINameNoTooltip] scadrà presto"
  action_hook_expiring_combined_label:1 "([recipient.Custom('DE_ART_DEF_P_D')]) tu[recipient.Custom('DE_END_PRO_S_N')] [actor.Custom2('RelationToMe', recipient)], [recipient.GetUINameNoTooltip]"
  action_hook_expiring_click:0 "#I Clic per aprire la Schermata dei Personaggi#!"
- 
+
  action_can_use_hook_to_change_contract:1 "@cs_weak_hook_icon! Puoi Modificare un Contratto"
  action_can_use_hook_to_change_contract_combined_group_label:1 "@cs_weak_hook_icon! Puoi Modificare i Contratti"
  action_can_use_hook_to_change_contract_combined_group_name:0 "$action_can_use_hook_to_change_contract_combined_group_label$"
@@ -611,10 +611,8 @@
  action_can_reforge_artifact_click:0 "#I Clicca per aprire la schermata dell'Inventario#!"
  action_can_reforge_artifact_combined_group_name:1 "@artifact_icon! I Manufatti hanno bassa Durabilità"
  action_can_reforge_artifact_combined_group_label:0 "$action_can_reforge_artifact_combined_group_name$"
-
  action_can_reforge_artifact_combined_group_description:2 "Diversi dei tuoi [artifacts|E] hanno una bassa [durability|E]. I manufatti che perdono tutta la loro durabilità si rompono e non possono più essere usati.\n\n#help [reforge|E] o [repair|E] Manufatti con una bassa Durabilità con l'aiuto di un [GetCourtPositionType('antiquarian_court_position').GetName()] per evitare che vengano distrutti!#!"
  action_can_reforge_artifact_combined_label:0 "[artifact.GetName]"
-
  is_white_peace_possible_trigger:0 "È possibile una Pace Bianca?"
  WAR_DAYS_TRIGGER:0 "Giorni trascorsi in [war|E] $COMPARATOR$ $NUM|V0$"
  USING_CB_TRIGGER:0 "Il [casus_belli|E] è $CASUS_BELLI$"
@@ -624,6 +622,7 @@
  RAID_LOOT_TRIGGER:0 "Il [raid_loot|E] è: $COMPARATOR$ $NUM|V0$"
  IS_OCCUPIED_TRIGGER: "L'Insediamento è [occupied|E]"
  ARMY_SUPPLY_TRIGGER: "I [supply|E] sono: $COMPARATOR$ $NUM|V0$"
+
  action_has_unopened_court_event:2 "Evento a Corte Disponibile"
  action_has_unopened_court_event_label:2 "Hai un nuovo Evento a Corte"
  action_has_unopened_court_event_desc:2 "Una certa questione su cui puoi intervenire è emerso alla tua [royal_court|E]."
@@ -633,7 +632,7 @@
  action_has_open_court_event_label:1 "Hai un Evento a Corte non terminato"
  action_has_open_court_event_desc:1 "Hai un affare in sospeso alla tua [royal_court|E], dovresti tornare e prendere provvedimenti."
  action_has_open_court_event_click:0 "#I Clicca per visualizzare#!"
-
+ 
  action_can_pardon:1 "@law_icon! Un Criminale può essere Graziato"
  action_can_pardon_label:1 "@law_icon! Puoi Graziare [recipient.Custom('GetPrimaryTitleTierIcon')][recipient.GetShortUINameNoTooltip] - [actor.Custom2('RelationToMe', recipient)|U]"
  action_can_pardon_combined_label:1 "([recipient.Custom('DE_ART_DEF_P_D')]) tu[recipient.Custom('DE_END_PRO_S_N')] [actor.Custom2('RelationToMe', recipient)] [recipient.Custom('GetPrimaryTitleTierIcon')][recipient.GetShortUINameNoTooltip]"
@@ -645,7 +644,6 @@
  action_can_pardon_combined_unimportant:1 "@warning_icon! #X Nessuno dei Criminali è importante per te#!"
  action_can_pardon_unimportant:1 "@warning_icon! #X [recipient.GetSheHe|U] non è importante per te#!"
 
- #TODO_CD_EP1 Remove this comment meant to help translators: The string below will display as "Inspired Person can be Sponsored" in the game. 
  action_has_courtier_or_guest_with_inspiration:1 "Una personaggio [Concept('inspiration','Ispirato')|E] può ricevere un [Concept('sponsor','Finanziamento')|E]"
  action_has_courtier_or_guest_with_inspiration_label:0 "Uno dei tuoi cortigiani o ospiti ha un'[inspiration|E]"
  action_has_courtier_or_guest_with_inspiration_desc:0 "Uno dei tuoi cortigiani o ospiti ha un'[inspiration|E] che può essere commissionata per creare un [artifact|E]"
@@ -661,7 +659,7 @@
  action_can_hire_court_physician_label:1 "@court_physician_icon! Non stai impiegando un $court_physician_court_position$"
  action_can_hire_court_physician_desc:1 "Non hai un Medico di Corte, dovresti [Concept('court_position','assumerne')|E] uno.\n\n#help Un Medico di Corte curerà [diseases|E] e ferite sia tue che dei tuoi [courtiers|E], il che li rende inestimabili per rimanere in vita.#!"
  action_can_hire_court_physician_click:0 "#I Clicca per visualizzare#!"
- 
+
   action_can_form_hybrid_culture: "@culture_icon! Puoi formare una $game_concept_hybrid_culture$"
  action_can_form_hybrid_culture_label: "@culture_icon! Puoi formare una $game_concept_hybrid_culture$ con i [culture.GetCollectiveNounNoTooltip]"
  action_can_form_hybrid_culture_desc: "Le tue due [cultures|E] hanno abbastanza [cultural_acceptance|E] per formare una [hybrid_culture|E]\n\n$hybrid_culture_benefit_tt$"
@@ -697,7 +695,7 @@
  action_recent_hunt_sighting_combined_group_name:0 "$action_recent_hunt_sighting$"
  action_recent_hunt_sighting_combined_group_description:0 "Ci sono stati diversi [hunt_sightings_no_prefix|E] nel tuo [realm|E] che aumenterebbero la tua [hunt_success_chance|E]."
  action_recent_hunt_sighting_click:0 "#I Clicca per visualizzare#!"
- 
+
  action_can_ask_hof_for_claim:0 "@hof_icon! Puoi chiedere al tuo Capo della Fede una Rivendicazione."
  action_can_ask_hof_for_claim_combined_group_label:0 "@hof_icon! Puoi chiedere al tuo Capo della Fede delle rivendicazioni"
  action_can_ask_hof_for_claim_combined_group_name:0 "@hof_icon! Il tuo Capo della Fede ti concederà le rivendicazioni"
@@ -773,7 +771,7 @@
  action_swing_scales_liege_entrenched_dangerous_desc:0 "[recipient.GetUIName]  sta iniziando ad avere un controllo preoccupante sul tuo [realm|E],dandogli accesso a potenti [diarch_powers|E].\n\nDovresti considerare di limitare la sua ascesa al potere.$action_swing_scales_liege_entrenched_dangerous_help$"
  action_swing_scales_liege_entrenched_dangerous_help:0 "\n\n#help  Se [recipient.GetFirstNameNoTooltip] diventa troppo potente, sarà difficile rimuoverlo dal [actor.GetDiarchTitle].#!"
  action_swing_scales_liege_entrenched_dangerous_click:0 "#I Clicca per aprire Interazione Personaggio#!"
- 
+
  action_regent_revoke:0 "Revoca il Titolo in qualità di [actor.GetLiege.GetDiarchTitle]"
  action_regent_revoke_label:0 "@revoke_title! Puoi Revocare i Titoli [recipient.Custom('DE_PRO_PER_P_3P_A')] tu[recipient.Custom('DE_END_PRO_S_N')] [actor.Custom2('RelationToMe', recipient)], [recipient.GetUINameNoTooltip], #low @soldier_icon![recipient.GetMilitaryStrengthText]#!, in qualità di [actor.GetLiege.GetDiarchTitle]"
  action_regent_revoke_combined_label:0 "([recipient.Custom('DE_ART_DEF_P_D')]) tu[recipient.Custom('DE_END_PRO_S_N')] [actor.Custom2('RelationToMe', recipient)], [recipient.GetUINameNoTooltip], #low @soldier_icon![recipient.GetMilitaryStrengthText]#!"
@@ -783,7 +781,7 @@
  action_regent_revoke_combined_group_name:0 "$action_regent_revoke$"
  action_regent_revoke_combined_group_label:0 "@revoke_title! Hai dei Titoli che puoi Revocare in qualità di [actor.GetLiege.GetDiarchTitle]"
  action_regent_revoke_combined_group_description:0 "$action_regent_revoke_desc$"
- 
+
  action_regent_retract:0 "Ritira il Vassallo in qualità di [actor.GetLiege.GetDiarchTitle]"
  action_regent_retract_label:0 "@vassal_icon! Puoi Ritirare i vassalli [recipient.Custom('DE_END_ADJ_DEF_P_A')] tu[recipient.Custom('DE_END_PRO_S_N')] [actor.Custom2('RelationToMe', recipient)], [recipient.GetUINameNoTooltip], #low @soldier_icon![recipient.GetMilitaryStrengthText]#!, in qualità di [actor.GetLiege.GetDiarchTitle]"
  action_regent_retract_combined_label:0 "([recipient.Custom('DE_ART_DEF_P_D')]) tu[recipient.Custom('DE_END_PRO_S_N')] [actor.Custom2('RelationToMe', recipient)], [recipient.GetUINameNoTooltip], #low @soldier_icon![recipient.GetMilitaryStrengthText]#!"
@@ -803,7 +801,7 @@
  action_regent_imprison_combined_group_name:0 "$action_regent_imprison$"
  action_regent_imprison_combined_group_label:0 "@prison_icon! Hai dei personaggi che puoi imprigionare in qualità di [actor.GetLiege.GetDiarchTitle]"
  action_regent_imprison_combined_group_description:0 "$action_regent_imprison_desc$"
- 
+
  action_legal_meddling:0 "Acquisisci le Rivendicazioni all'interno del Regno del tuo Signore in qualità di [actor.GetLiege.GetDiarchTitle]"
  action_legal_meddling_label:0 "@unpressed_claim! Puoi rivendicare le terre detenute dal[recipient.Custom('DE_END_ADJ_NUL_S_N')] tu[recipient.Custom('DE_END_PRO_S_N')] [actor.Custom2('RelationToMe', recipient)], [recipient.GetUINameNoTooltip], #low @soldier_icon![recipient.GetMilitaryStrengthText]#!, in qualità di [actor.GetLiege.GetDiarchTitle]"
  action_legal_meddling_combined_label:0 "([recipient.Custom('DE_ART_DEF_P_D')]) tu[recipient.Custom('DE_END_PRO_S_N')] [actor.Custom2('RelationToMe', recipient)], [recipient.GetUINameNoTooltip], #low @soldier_icon![recipient.GetMilitaryStrengthText]#!"
@@ -813,13 +811,13 @@
  action_legal_meddling_combined_group_name:0 "$action_legal_meddling$"
  action_legal_meddling_combined_group_label:0 "@unpressed_claim! Si possono creare rivendicazioni all'interno del Regno del proprio Signore in qualità di [actor.GetLiege.GetDiarchTitle]"
  action_legal_meddling_combined_group_description:0 "$action_legal_meddling_desc$"
- 
+
  action_syphon_treasury:0 "Ruba dell'Oro al tuo Signore, in qualità di [actor.GetLiege.GetDiarchTitle]"
  action_syphon_treasury_label:0 "[gold_i] Puoi rubare l'oro posseduto dal tuo Signore in qualità di [actor.GetLiege.GetDiarchTitle]"
  action_syphon_treasury_desc:0 "In qualità di [actor.GetLiege.GetDiarchTitle],  hai libero accesso alla tesoreria, ai conti e alla ricchezza generale del tuo [liege|E].Sarebbe molto facile prenderne un po'.$action_syphon_treasury_help$"
  action_syphon_treasury_help:0 "\n\n#help Attenzione: se [recipient.GetTitledFirstName] scopre il tuo furto, [recipient.GetSheHe] potrebbe costringerti a restituire il denaro.#!"
  action_syphon_treasury_click:0 "#I Clicca per aprire un'interazione del personaggio#!"
- 
+
  action_shift_privileges:0 "Ruba oro ai Vassalli in qualità di [actor.GetLiege.GetDiarchTitle]"
  action_shift_privileges_label:0 "[gold_i] Puoi rubare l'oro posseduto dal[recipient.Custom('DE_END_ADJ_NUL_S_N')] tu[recipient.Custom('DE_END_PRO_S_N')] [actor.Custom2('RelationToMe', recipient)], [recipient.GetUINameNoTooltip], #low @soldier_icon![recipient.GetMilitaryStrengthText]#!, in qualità di [actor.GetLiege.GetDiarchTitle]"
  action_shift_privileges_combined_label:0 "([recipient.Custom('DE_ART_DEF_P_D')]) tu[recipient.Custom('DE_END_PRO_S_N')] [actor.Custom2('RelationToMe', recipient)], [recipient.GetUINameNoTooltip], #low @soldier_icon![recipient.GetMilitaryStrengthText]#!"
@@ -835,13 +833,13 @@
  action_subsidise_liege_authority_desc:0 "Il controllo del [realm|E] [recipient.GetTitledFirstName] è debole, questo ti impedisce di usare alcuni dei tuoi [diarch_powers|E].\n\nAiutandol[recipient.Custom('DE_END_PRO_S_N')] a consolidare la sua autorità, puoi scambiare la popolarità con il potere.$action_subsidise_liege_authority_help$"
  action_subsidise_liege_authority_help:0 "\n\n#help I tuoi [vassals|E]  ti rimprovereranno per questo.#!"
  action_subsidise_liege_authority_click:0 "#I Clicca per aprire un'interazione del personaggio#!"
- 
+
  action_designate_regent_for_hook:0 "Assicura la Futura Reggenza di [recipient.GetFirstNameNoTooltip]"
  action_designate_regent_for_hook_label:0 "@declare_regent_icon! Designare un [actor.GetLiege.GetDiarchTitle] #P Disinteressato#! ora può aiutare ([recipient.Custom('DE_ART_DEF_P_A')]) tu[recipient.Custom('DE_END_PRO_S_N')] [actor.Custom2('RelationToMe', recipient)] [recipient.GetFirstNameNoTooltip] se muori troppo presto"
  action_designate_regent_for_hook_desc:0 " La tua [health|E] sta cominciando a venir meno - potresti morire presto, e il tuo erede [recipient.Char.Custom('DE_ART_DEF_P_D') [recipient.Char.Custom('DE_END_PRO_S_N')] [recipient.GetTitledFirstName] è molto giovane.\n\nNominando in anticipo un #P Reggente#!, questi continuerà a servire lealmente [recipient.GetFirstNameNoTooltip] anche dopo la tua [character_death_death|E].$action_designate_regent_for_hook_help$"
  action_designate_regent_for_hook_help:0 "\n\n#help [recipient.GetFirstNameNoTooltip] riceverà un [strong_hook|E] su qualsiasi Reggente #P Disinteressato#! designerai, a patto che sia ancora #P Disinteressato#! quando morirai. Il [hook|E] scadrà quando compirà 21 anni.#!"
  action_designate_regent_for_hook_click:0 "#I Clicca per aprire la finestra Diarchia#!"
- 
+
   action_appoint_co_emperor_junior: "Concedi lo status di $game_concept_junior_emperor$"
  action_appoint_co_emperor_junior_label: "@declare_regent_icon! $action_appoint_co_emperor_junior$"
  action_appoint_co_emperor_junior_desc: "Stai raggiungendo una veneranda età, e nominare uno dei tuoi [Concept( 'children', 'figli' )|E] [Concept( 'duumvirate', 'Co-Imperatore Nominale' )|E] potrebbe aiutare ad assicurare il trono per la tua dinastia nell'eventualità di una tua [Concept( 'character_death', 'sfortunata dipartita' )|E].$action_appoint_co_emperor_junior_help$"
@@ -868,7 +866,7 @@
  action_can_hire_wet_nurse_desc:0 "Non stai impiegando una $wet_nurse_court_position$ nella [court_position|E].\n\n#help $wet_nurse_court_position_desc$#!"
  action_can_hire_wet_nurse_click:0 "#I Clicca per visualizzare#!"
  action_can_hire_wet_nurse_unimportant:0 "@warning_icon! #X La decisione $find_wet_nurse_decision$ non è disponibile#!" 
- 
+
  action_inherit_legend: "Eredita una leggenda"
  action_inherit_legend_label: "Hai una leggenda da poter ereditare"
  action_inherit_legend_desc: "Potresti ereditare una [legend|E].\n\n#help Le [legends|E] sono utili per ottenere [legitimacy|E], [dynasty_prestige|E], [prestige|E], [piety|E], [traits|E] e [claims|E]. Il tuo antenato è deceduto e puoi ora diffondere la sua [legend|E].#!"
@@ -1066,7 +1064,7 @@
  action_invested_candidate_not_inheriting_admin_title_combined_label: "[landed_title.Custom('GetTierIcon')] [landed_title.GetNameNoTooltip]"
  action_invested_candidate_not_inheriting_admin_title_combined_unimportant: "$action_invested_candidate_not_inheriting_admin_title_unimportant$"
  action_invested_candidate_not_inheriting_admin_title_HELP: "#help Se desideri che il tuo candidato investito venga nominato per il [title|E], usa l'interazione $influence_candidacy_interaction$ per supportarlo o opporti agli altri contendenti, o rimuovi gli avversari con altri mezzi.#!"
-
+ 
  action_offer_submission_or_ruin: "@vassal_icon! Il Confinante Deve Sottomettersi"
  action_offer_submission_or_ruin_combined_group_label: "@vassal_icon! I Confinanti Devono Sottomettersi"
  action_offer_submission_or_ruin_combined_group_name: "$action_offer_submission_or_ruin_combined_group_label$"
@@ -1092,3 +1090,96 @@
  action_join_tributary_war_click: "#I Clicca per unirti a una guerra#!"
  action_join_tributary_war_combined_group_label: "Puoi Unirti a delle Guerre"
  action_join_tributary_warcombined_label: "$action_can_start_join_war_contract_label$"
+
+ action_awaiting_coronation: "$action_awaiting_coronation_label$"
+ action_awaiting_coronation_label: "@activity_coronation! You have not held a Coronation"
+ action_awaiting_coronation_desc: "Until a [ruler|E] holds a [coronation|E], they will be considered illegitimate by their [vassals|E] and peers.$action_awaiting_coronation_HELP$"
+ action_awaiting_coronation_HELP: "\n\n#help Consider holding a [coronation_i][coronation|E] [activity|E], as it will remove the [GetLaw('uncrowned').GetName] [law_i][law|E] and replace it with [GetLaw('crowned_king').GetName] or [GetLaw('crowned_emperor').GetName]#!."
+ action_awaiting_coronation_click: "#I Click to view#!"
+
+
+ 
+ action_active_diplomacy_oath_1: "Active [oath|E]"
+ action_active_diplomacy_oath_1_label: "[coronation_i] Oath: $GetAllianceOathText$ [CoronationTimer('diplomacy_oath_1_decision','diplomacy_oath_1_decision_timer')]"
+ action_active_diplomacy_oath_1_desc: "During your [coronation|E], you have sworn the #V $GetAllianceOathText$#! [oath|E]. You have [RemainingTime('diplomacy_oath_1_timer')] years left to fulfill it."
+ action_active_diplomacy_oath_1_click: "#I Click to open the [decision|E] view#!"
+
+ action_active_diplomacy_oath_2: "$action_active_diplomacy_oath_1$"
+ action_active_diplomacy_oath_2_label: "[coronation_i] Oath: $GetChildrenOathText$ [CoronationTimer('diplomacy_oath_2_decision','diplomacy_oath_2_decision_timer')]"
+ action_active_diplomacy_oath_2_desc: "During your [coronation|E], you have sworn the #V $GetChildrenOathText$#! [oath|E]. You have [RemainingTime('diplomacy_oath_2_timer')] years left to fulfill it."
+ action_active_diplomacy_oath_2_click: "$action_active_diplomacy_oath_1_click$"
+
+ action_active_martial_oath_1: "$action_active_diplomacy_oath_1$"
+ action_active_martial_oath_1_label: "[coronation_i] Oath: $GetReconquerOathText$ [CoronationTimer('martial_oath_1_decision','martial_oath_1_decision_timer')]"
+ action_active_martial_oath_1_desc: "During your [coronation|E], you have sworn the #V $GetReconquerOathText$#! [oath|E]. You have [RemainingTime('martial_oath_1_timer')] years left to fulfill it."
+ action_active_martial_oath_1_click: "$action_active_diplomacy_oath_1_click$"
+
+ action_active_martial_oath_2: "$action_active_diplomacy_oath_1$"
+ action_active_martial_oath_2_label: "[coronation_i] Oath: $GetConquestOathText$ [CoronationTimer('martial_oath_2_decision','martial_oath_2_decision_timer')]"
+ action_active_martial_oath_2_desc: "During your [coronation|E], you have sworn the #V $GetConquestOathText$#! [oath|E]. You have [RemainingTime('martial_oath_2_timer')] years left to fulfill it."
+ action_active_martial_oath_2_click: "$action_active_diplomacy_oath_1_click$"
+
+ action_active_stewardship_oath_1: "$action_active_diplomacy_oath_1$"
+ action_active_stewardship_oath_1_label: "[coronation_i] Oath: $GetPeaceOathText$ [CoronationTimer('stewardship_oath_1_decision','stewardship_oath_1_decision_timer')]"
+ action_active_stewardship_oath_1_desc: "During your [coronation|E], you have sworn the #V $GetPeaceOathText$#! [oath|E]. You have [RemainingTime('stewardship_oath_1_timer')] years left to fulfill it."
+ action_active_stewardship_oath_1_click: "$action_active_diplomacy_oath_1_click$"
+
+ action_active_stewardship_oath_2: "$action_active_diplomacy_oath_1$"
+ action_active_stewardship_oath_2_label: "[coronation_i] Oath: $GetBuildingOathText$ [CoronationTimer('stewardship_oath_2_decision','stewardship_oath_2_decision_timer')]"
+ action_active_stewardship_oath_2_desc: "During your [coronation|E], you have sworn the #V $GetBuildingOathText$#! [oath|E]. You have [RemainingTime('stewardship_oath_2_timer')] years left to fulfill it."
+ action_active_stewardship_oath_2_click: "$action_active_diplomacy_oath_1_click$"
+
+ action_active_learning_oath_1: "$action_active_diplomacy_oath_1$"
+ action_active_learning_oath_1_label: "[coronation_i] Oath: $GetUniversityOathText$ [CoronationTimer('learning_oath_1_decision','learning_oath_1_decision_timer')]"
+ action_active_learning_oath_1_desc: "During your [coronation|E], you have sworn the #V $GetUniversityOathText$#! [oath|E]. You have [RemainingTime('learning_oath_1_timer')] years left to fulfill it."
+ action_active_learning_oath_1_click: "$action_active_learning_oath_1_click$"
+
+ action_active_purge_pretenders_oath: "$action_active_diplomacy_oath_1$"
+ action_active_purge_pretenders_oath_label: "[coronation_i] Oath: $GetPurgePretendersOathText$ [CoronationTimer('purge_pretenders_oath_decision','purge_pretenders_oath_decision_timer')]"
+ action_active_purge_pretenders_oath_desc: "During your [coronation|E], you have sworn the #V $GetPurgePretendersOathText$#! [oath|E]. You have [RemainingTime('purge_pretenders_oath_timer')] years left to fulfill it."
+ action_active_purge_pretenders_oath_click: "$action_active_diplomacy_oath_1_click$"
+
+ action_active_end_the_struggle_oath: "$action_active_diplomacy_oath_1$"
+ action_active_end_the_struggle_oath_label: "[coronation_i] Oath: $GetEndTheStruggleOathText$ [CoronationTimer('end_the_struggle_oath_decision','end_the_struggle_oath_decision_timer')]"
+ action_active_end_the_struggle_oath_desc: "During your [coronation|E], you have sworn the #V $GetEndTheStruggleOathText$#! [oath|E]. You have [RemainingTime('end_the_struggle_oath_timer')] years left to fulfill it."
+ action_active_end_the_struggle_oath_click: "$action_active_diplomacy_oath_1_click$"
+
+ action_active_greatest_hunter_oath: "$action_active_diplomacy_oath_1$"
+ action_active_greatest_hunter_oath_label: "[coronation_i] Oath: $GetGreatestHunterOathText$ [CoronationTimer('greatest_hunter_oath_decision','greatest_hunter_oath_decision_timer')]"
+ action_active_greatest_hunter_oath_desc: "During your [coronation|E], you have sworn the #V $GetGreatestHunterOathText$#! [oath|E]. You have [RemainingTime('greatest_hunter_oath_timer')] years left to fulfill it."
+ action_active_greatest_hunter_oath_click: "$action_active_diplomacy_oath_1_click$"
+
+ action_active_heir_preparation_oath: "$action_active_diplomacy_oath_1$"
+ action_active_heir_preparation_oath_label: "[coronation_i] Oath: $GetHeirPreparationOathText$ [CoronationTimer('heir_preparation_oath_decision','heir_preparation_oath_decision_timer')]"
+ action_active_heir_preparation_oath_desc: "During your [coronation|E], you have sworn the #V $GetHeirPreparationOathText$#! [oath|E]. You have [RemainingTime('heir_preparation_oath_timer')] years left to fulfill it."
+ action_active_heir_preparation_oath_click: "$action_active_diplomacy_oath_1_click$"
+
+ action_active_install_claimants_oath: "$action_active_diplomacy_oath_1$"
+ action_active_install_claimants_oath_label: "[coronation_i] Oath: $GetInstallClaimantsOathText$ [CoronationTimer('install_claimants_oath_decision','install_claimants_oath_decision_timer')]"
+ action_active_install_claimants_oath_desc: "During your [coronation|E], you have sworn the #V $GetInstallClaimantsOathText$#! [oath|E]. You have [RemainingTime('install_claimants_oath_timer')] years left to fulfill it."
+ action_active_install_claimants_oath_click: "$action_active_diplomacy_oath_1_click$"
+
+ action_active_mend_the_fracture_oath: "$action_active_diplomacy_oath_1$"
+ action_active_mend_the_fracture_oath_label: "[coronation_i] Oath: $GetMendTheFractureOathText$ [CoronationTimer('mend_the_fracture_oath_decision','mend_the_fracture_oath_decision_timer')]"
+ action_active_mend_the_fracture_oath_desc: "During your [coronation|E], you have sworn the #V $GetMendTheFractureOathText$#! [oath|E]. You have [RemainingTime('mend_the_fracture_oath_timer')] years left to fulfill it."
+ action_active_mend_the_fracture_oath_click: "$action_active_diplomacy_oath_1_click$"
+
+ action_active_provide_for_the_warriors_oath: "$action_active_diplomacy_oath_1$"
+ action_active_provide_for_the_warriors_oath_label: "[coronation_i] Oath: $GetProvideForTheWarriorsOathText$ [CoronationTimer('provide_for_the_warriors_oath_decision','provide_for_the_warriors_oath_decision_timer')]"
+ action_active_provide_for_the_warriors_oath_desc: "During your [coronation|E], you have sworn the #V $GetProvideForTheWarriorsOathText$#! [oath|E]. You have [RemainingTime('provide_for_the_warriors_oath_timer')] years left to fulfill it."
+ action_active_provide_for_the_warriors_oath_click: "$action_active_diplomacy_oath_1_click$"
+
+ action_active_provide_for_the_faithful_oath: "$action_active_diplomacy_oath_1$"
+ action_active_provide_for_the_faithful_oath_label: "[coronation_i] Oath: $GetProvideForTheFaithfulOathText$ [CoronationTimer('provide_for_the_faithful_oath_decision','provide_for_the_faithful_oath_decision_timer')]"
+ action_active_provide_for_the_faithful_oath_desc: "During your [coronation|E], you have sworn the #V $GetProvideForTheFaithfulOathText$#! [oath|E]. You have [RemainingTime('provide_for_the_faithful_oath_timer')] years left to fulfill it."
+ action_active_provide_for_the_faithful_oath_click: "$action_active_diplomacy_oath_1_click$"
+
+ action_active_provide_for_the_poor_oath: "$action_active_diplomacy_oath_1$"
+ action_active_provide_for_the_poor_oath_label: "[coronation_i] Oath: $GetProvideForThePoorOathText$ [CoronationTimer('provide_for_the_poor_oath_decision','provide_for_the_poor_oath_decision_timer')]"
+ action_active_provide_for_the_poor_oath_desc: "During your [coronation|E], you have sworn the #V $GetProvideForThePoorOathText$#! [oath|E]. You have [RemainingTime('provide_for_the_poor_oath_timer')] years left to fulfill it."
+ action_active_provide_for_the_poor_oath_click: "$action_active_diplomacy_oath_1_click$"
+
+ action_active_repent_oath: "$action_active_diplomacy_oath_1$"
+ action_active_repent_oath_label: "[coronation_i] Oath: $GetRepentOathText$ [CoronationTimer('repent_oath_decision','repent_oath_decision_timer')]"
+ action_active_repent_oath_desc: "During your [coronation|E], you have sworn the #V $GetRepentOathText$#! [oath|E]. You have [RemainingTime('repent_oath_timer')] years left to fulfill it."
+ action_active_repent_oath_click: "$action_active_diplomacy_oath_1_click$"

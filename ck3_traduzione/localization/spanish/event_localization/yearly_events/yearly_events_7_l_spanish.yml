@@ -19,7 +19,6 @@
  yearly.7002.c:0 "Posso difendermi da [Select_CString(ROOT.Char.IsFemale,'sola','solo')]!"
  yearly.7002.b.tt.2:0 "Confidi in due delle tue guardie"
  yearly.7002.c.tt:0 "Tieni la cosa segreta"
-
 #### Traitor knights carry you off in a sack
  yearly.7004.desc:0 ""Presto! Si sta svegliando!"\n\nQuando mi sveglio, il mio cuscino sembra più ruvido del solito. La testa mi gira e il resto del mio corpo fa altrettanto nell'oscurità totale. Non sono nel mio letto, bensì vengo trascinato sul terreno all'interno di un sacco.\n\n"Si sta contorcendo troppo! Continuo a perdere la presa."\n\nMentre le voci battibeccano, mi dimeno abbastanza facilmente perché lascino cadere la borsa. Quando mi libero, mi rendo conto che sono arrivati a malapena a qualche passo oltre i giardini del/della [ROOT.GetCharacter.Custom('FortifiedBuilding')]."
  yearly.7004.tt:0 "I complotti della fazione sono stati sventati"
@@ -27,9 +26,7 @@
  yearly.7004.b:0 "Traditori! Languirete entrambi dentro a dei sacchi nelle mie segrete!"
  yearly.7004.c:0 "Riportatemi subito nel mio letto!"
  yearly.7004.c.tt:0 "Vieni rimesso nel sacco e trasportato nella tua camera"
-
 #### Assassination attempt
-
  yearly.7005.preparation:0 "È quasi emozionante, sedersi e aspettare che la [coup_faction.GetName] colpisca."
  yearly.7005.preparation_poor:1 "[ROOT.Char.Custom('SignatureWeaponNameOrType')] che impugno è l'unico compagno di cui ho deciso di fidarmi, ed andremo all'[ROOT.Char.Custom('GetAfterLifeDestination')] insieme, se dobbiamo."
  yearly.7005.preparation_good:0 "È ridicolo che pensino che dei semplici assassini possano uccidermi."
@@ -190,8 +187,8 @@
  yearly.7045.a:0 "Congratulazioni ai vincitori!"
  yearly.7045.b:0 "Bah! Avremmo dovuto vincere!"
  yearly.7045.c:0 "Mi merito lo stesso un trofeo!"
- ##Collina Nebbiosa
- #Una volta c’era un buco qui
+ ##Foggy Hill
+ #There used to be a hole here
  yearly.7050.t: "C’era un Buco?"
  yearly.7050.desc: "Incontro [unfortunate_soul.GetTitledFirstName] nel corridoio, [Select_CString(personaggio.IsFemale,'intenta','intento')] a fissare il muro. Chiedo incuriosito cosa stia facendo.\n\nIl suo sguardo scatta su di me con un fremito sinistro: "Una volta qui c’era un buco, sai," esclama [unfortunate_soul.GetTitledFirstNameNoTooltip] con ferma convinzione.\n\nGuardo il muro davanti a [unfortunate_soul.GetSheHe], incapace di trovare qualsiasi traccia del buco a cui si riferisce."
  yearly.7050.a: "Dov’è il... buco?"
@@ -200,7 +197,7 @@
  yearly.7050.b: "Sono sciocchezze."
  yearly.7050.b.flavor: "[unfortunate_soul.GetShortUIName] deve essere in delirio."
  yearly.7050.c: "Smettila di farmi perdere tempo!"
- #Un brutto sogno?
+ #A bad dream?
  yearly.7051.t: "Collina Nebbiosa"
  yearly.7051.desc: "La nebbia è così fitta da poter essere tagliata con un coltello e guardo attorno in un debole tentativo di orientarmi. Sono già stato qui? È forse... un campo di battaglia?\n\nLe mani mi tremano mentre cerco di dare un senso alla situazione, e faccio alcuni passi avanti. Sento un suono in lontananza; una voce che chiama: "Avete visto un ragazzino?"\n\nImprovvisamente comincio a distinguere volti nella nebbia. Sono forse... persone che ho ucciso? Sembrano bloccati in una smorfia di terrore."
  yearly.7051.a: "È tutta colpa mia..."
@@ -208,20 +205,20 @@
  yearly.7051.b: "Se lo meritavano. TUTTI."
  yearly.7051.b_conviction.desc: "Riesci a convincerti"
  yearly.7051.b_unconvinced.desc: "Hai un crollo"
- #Risveglio
+ #Waking up
  yearly.7052.t: "Come un Sogno"
  yearly.7052.desc_unconvinced: "Mi sveglio, madido di sudore. Quello è stato, se non il peggiore sogno in assoluto, certamente uno dei più orribili che ricordi.\n\nLe mani mi tremano ancora per lo stress causato dall’incubo, mentre ne rievoco i contenuti. "Di certo le cose non possono peggiorare più di così," mormoro, rigirandomi in un patetico tentativo di riaddormentarmi."
  yearly.7052.desc: "Mi sveglio, sorprendentemente sereno. È stato un sogno interessante — pur non essendo particolarmente piacevole, ho fatto incubi peggiori nella mia vita.\n\nRifletto attentamente sui suoi contenuti e poi mi giro dall’altro lato, addormentandomi presto in un sonno rilassante."
  yearly.7052.a: "È stato tutto un brutto sogno."
  yearly.7052.a_positive: "Che strano sogno."
- #Negazione
+ #Denial
  yearly.7053.t: "Che Buco è?"
  yearly.7053.desc: "Il corridoio è inondato dalla luce del giorno, mentre mi incammino verso la cucina. Improvvisamente, con la coda dell’occhio — c’è un #EMP buco#! nel muro.\n\nMi blocco fissandolo con un occhio curioso ma attento. Non è un buco grande, forse della dimensione di un braccio. Ma è completamente nero.\n\nMi avvicino con cautela e cerco di sbirciare dentro, confuso sulla sua origine e sul suo scopo."
  yearly.7053.a: "Il giardiniere dovrebbe saperne di più."
  yearly.7053.b: "Credo di vedere qualcosa..."
  yearly.7053.b_pouch.desc: "Tiri fuori una sacca di monete d’oro dal buco"
  yearly.7053.b_scratch.desc: "Qualcosa ti graffia il braccio"
- #Ripresa
+ #Coming to
  yearly.7054.t: "Un Brusco Risveglio"
  yearly.7054.intro: "Uno dei servi mi scuote delicatamente per svegliarmi. [7054_servant.GetSheHe|U] mi guarda con ansia ed esclama: "[Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')]! State bene?" mentre osservo il corridoio, stordito.\n\nSono svenuto?"
  yearly.7054.desc_pouch: "Ho ancora in mano la sacca d’oro che sono riuscito a tirare fuori dal... buco?"
@@ -232,10 +229,9 @@
  yearly.7054.a.flavor_pouch: "Stringo forte la sacca."
  yearly.7054.a.flavor_scratch: "Il bruciore che emana dal graffio al braccio si intensifica."
  yearly.7054.a.flavor: "Mi accorgo del servo che ora, cauto, mi osserva."
- #Era il cane, dopotutto
+ #It was the dog all along
  yearly.7055.t: "Un Ricovero per un Cane"
  yearly.7055.desc: "Attraversando il cortile, un randagio sbuca dal nulla e si ferma proprio davanti a me. Alcuni strani pezzi di metallo sono attaccati al suo collare.\n\nIl cane mi guarda aspettandosi qualcosa mentre io lo fisso negli occhi marroni, un po’ infastidito dall’interruzione. L’irritazione però svanisce rapidamente, e ho la strana sensazione che il cane stia controllando... le cose?\n\nSto davvero perdendo il senno, penso, mentre afferro il collare e rimuovo i ridicoli pezzi di metallo. Quando mi volto per andarmene, il cane mi guarda severo. Suppongo che... ora appartenga a me?"
  yearly.7055.a: "Vieni qui, cane."
  yearly.7055.b: "Vattene #EMP via#!, lurido randagio!"
  yearly.7055.b.flavor: "Il cane ti guarda con occhi pieni di dolore."
-

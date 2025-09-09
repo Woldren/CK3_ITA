@@ -64,6 +64,8 @@
  travel_mild_frostbite_modifier:0 "Lieve Congelamento"
  travel_mild_frostbite_modifier_desc:0 "Questo personaggio ha subito un congelamento durante il viaggio."
  travel_severe_frostbite_modifier:0 "Congelamento Grave"
+
+
  travel_severe_frostbite_modifier_desc:0 "Questo personaggio ha sofferto di congelamento durante un viaggio e i sintomi sono peggiorati."
  travel_brought_home_new_dessert:0 "Dolci Esotici"
  travel_brought_home_new_dessert_desc:0 "Questo personaggio ha portato a casa un dolce che ha scoperto durante un viaggio in una terra lontana."

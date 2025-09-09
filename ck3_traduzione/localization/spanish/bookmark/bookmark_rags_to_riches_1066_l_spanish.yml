@@ -116,4 +116,3 @@
  armies_unhampered: "Eserciti Non Ostacolati"
  intrigue_duel_on_attack_effect.success: "[attacker.Custom('IT_NAM_COL3')|U][attacker.GetShortUIName] ostacola gli [armies|El] [defender.Custom('IT_NAM_COL2')][defender.GetShortUIName]"
  intrigue_duel_on_attack_effect.failure: "[attacker.Custom('IT_NAM_COL3')|U][attacker.GetShortUIName] non riesce a ostacolare gli [armies|El] [defender.Custom('IT_NAM_COL2')][defender.GetShortUIName]"
- 

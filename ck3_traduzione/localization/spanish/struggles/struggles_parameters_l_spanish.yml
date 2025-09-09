@@ -48,7 +48,6 @@
  prestige_from_granting_title.tt:0 "Nobile Locale promosso"
  cultural_acceptance_gain_from_phase_effects:0 "Lo [county_development|E] è aumentato in una [county|E] della [culture|E] [current_culture.GetName]"
  struggle_parameter_gain_acceptance_when_developing_other_culture_county:0 "Incrementare lo [county_development|E] di una contea con una [culture|E] differente fa aumentare l'[cultural_acceptance|E]"
-
  struggle_parameter_struggle_high_impact_on_terrain_danger:0 "Il [travel_danger|E] quando stai [traveling|E] all'interno della [struggle_region|E] è marcatamente aumentato"
 
  # FP3: Persian Struggle

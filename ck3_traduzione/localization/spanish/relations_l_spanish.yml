@@ -315,7 +315,6 @@
  relation_travel_leader:0 "capo della carovana"
  relation_hostage: "ostaggio"
  relation_warden: "protettore"
-
  #Possessive
  relation_mother_possessive:0 "della madre"
  relation_grandmother_possessive:0 "della nonna"
@@ -440,10 +439,10 @@
  relation_daughter_concubine_possessive:0 "della figlia-concubina"
  relation_father_consort_possessive:0 "del padre-concubino"
  relation_brother_consort_possessive:0 "del fratello-concubino"
+ relation_son_consort_possessive:0 "del figlio-concubino"
  relation_hostage_possessive: "dell'ostaggio"
  relation_warden_possessive: "del protettore"
  relation_you: "te"
- relation_son_consort_possessive:0 "del figlio-concubino"
  ###CharacterIntroduction###
 
  #Perspective specific NoComma
@@ -454,7 +453,7 @@
  MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_mother:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetMother.Custom2('RelationToMe', ROOT.Char)] di [ROOT.Char.GetMother.Custom2('MyCharacterIntroductionNoComma', second)]"
  MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_councillor:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetCouncilTitle] di [ROOT.Char.GetLiege.Custom2('MyCharacterIntroductionNoComma', second)]"
  MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_knight:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetLiege.Custom('KnightCultureNoTooltip')] di [ROOT.Char.GetLiege.Custom2('MyCharacterIntroductionNoComma', second)]"
- 
+
  YourCharacterIntroductionNoComma_your_counciltitle_firstname:0 "[ROOT.Char.Custom('DE_ART_DEF_P_A')] tuo [ROOT.Char.GetCouncilTitle] [ROOT.Char.GetFirstName]"
  YourCharacterIntroductionNoComma_your_relation_titledfirstname:0 "[second.Custom2('FR_RelationToMe_OnA2', ROOT.Char)] [ROOT.Char.GetTitledFirstName]"
  YourCharacterIntroductionNoComma_the_relation_of_YourCharacterIntroductionNoComma_primaryspouse:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetPrimarySpouse.Custom2('RelationToMe', ROOT.Char)] di [ROOT.Char.GetPrimarySpouse.Custom2('YourCharacterIntroductionNoComma', second)]"
@@ -463,7 +462,6 @@
  YourCharacterIntroductionNoComma_the_relation_of_YourCharacterIntroductionNoComma_councillor:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetCouncilTitle] di [ROOT.Char.GetLiege.Custom2('YourCharacterIntroductionNoComma', second)]"
  YourCharacterIntroductionNoComma_the_relation_of_YourCharacterIntroductionNoComma_knight:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetLiege.Custom('KnightCultureNoTooltip')] di [ROOT.Char.GetLiege.Custom2('YourCharacterIntroductionNoComma', second)]"
 
- 
  HerHisCharacterIntroductionNoComma_herhis_counciltitle_firstname:0 "il suo [ROOT.Char.GetCouncilTitle] [ROOT.Char.GetFirstName]"
  HerHisCharacterIntroductionNoComma_herhis_relation_titledfirstname:0 "[second.Custom2('FR_RelationToMe_OnA3', ROOT.Char)] [ROOT.Char.GetTitledFirstName]"
  HerHisCharacterIntroductionNoComma_the_relation_of_HerHisCharacterIntroductionNoComma_primaryspouse:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetPrimarySpouse.Custom2('RelationToMe', ROOT.Char)] di [ROOT.Char.GetPrimarySpouse.Custom2('HerHisCharacterIntroductionNoComma', second)]"
@@ -472,7 +470,6 @@
  HerHisCharacterIntroductionNoComma_the_relation_of_HerHisCharacterIntroductionNoComma_councillor:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetCouncilTitle] di [ROOT.Char.GetLiege.Custom2('HerHisCharacterIntroductionNoComma', second)]"
  HerHisCharacterIntroductionNoComma_the_relation_of_HerHisCharacterIntroductionNoComma_knight:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetLiege.Custom('KnightCultureNoTooltip')] di [ROOT.Char.GetLiege.Custom2('HerHisCharacterIntroductionNoComma', second)]"
 
- 
  NamePossessiveCharacterIntroductionNoComma_namepossessive_counciltitle_firstname:0 "[ROOT.Char.GetFirstName], il [ROOT.Char.GetCouncilTitle] di [second.GetTitledFirstNameNoTooltip]"
  NamePossessiveCharacterIntroductionNoComma_namepossessive_relation_titledfirstname:0 "[ROOT.Char.GetTitledFirstName], [second.Custom2('RelationToMe', ROOT.Char)] di [second.GetTitledFirstNameNoTooltip]"
  NamePossessiveCharacterIntroductionNoComma_the_relation_of_NamePossessiveCharacterIntroduction_primaryspouse:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetPrimarySpouse.Custom2('RelationToMe', ROOT.Char)] di [ROOT.Char.GetPrimarySpouse.Custom2('NamePossessiveCharacterIntroductionNoComma', second)]"
@@ -481,8 +478,8 @@
  NamePossessiveCharacterIntroductionNoComma_the_relation_of_NamePossessiveCharacterIntroductionNoComma_councillor:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetCouncilTitle] di [ROOT.Char.GetLiege.Custom2('NamePossessiveCharacterIntroductionNoComma', second)]"
  NamePossessiveCharacterIntroductionNoComma_the_relation_of_NamePossessiveCharacterIntroductionNoComma_knight:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetLiege.Custom('KnightCultureNoTooltip')] di [ROOT.Char.GetLiege.Custom2('NamePossessiveCharacterIntroductionNoComma', second)]"
 
- 
- #Perspective specific Comma 
+
+ #Perspective specific Comma
  MyCharacterIntroductionNoCommaPlusComma:0 "[ROOT.Char.Custom2('MyCharacterIntroductionNoComma', SCOPE.sC('second'))],"
  YourCharacterIntroductionNoCommaPlusComma:0 "[ROOT.Char.Custom2('YourCharacterIntroductionNoComma', SCOPE.sC('second'))],"
  HerHisCharacterIntroductionNoCommaPlusComma:0 "[ROOT.Char.Custom2('HerHisCharacterIntroductionNoComma', SCOPE.sC('second'))],"
@@ -507,7 +504,7 @@
  CharacterIntroductionSupportNoComma_firstnamedynastyname_a_nobleman:0 "[ROOT.Char.GetFullName], un nobiluomo"
  CharacterIntroductionSupportNoComma_firstname_a_commoner:0 "[ROOT.Char.GetFirstName], un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] popolan[ROOT.Char.Custom('DE_END_PRO_S_N')]"
  CharacterIntroductionSupportNoComma_fallback:0 "[ROOT.Char.Custom2('CharacterIntroductionSupportNoComma', SCOPE.sC('second'))]"
- 
+
 
  #Relation_to_me with MY
  relation_my:0 "mi[second.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('second'))]"
@@ -524,7 +521,7 @@
 
  #Relation_to_me with NAME
  relation_name:0 "[second.Custom('DE_ART_DEF_P_A')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('second'))] di [ROOT.Char.GetNamePossessive]"
- 
+
  #Scripted relations
  friend:1 "[friend|E]"
  best_friend:1 "[best_friend|E]"
@@ -551,7 +548,7 @@
  old_flame: "#D Vecchia Fiamma (Segreta)#!"
  grudge: "[grudge|E]"
  blood_brother: "[blood_brother|E]" 
- 
+
  friend_desc:0 "[friend|E] di [CHARACTER.GetNameNoTooltip]"
  best_friend_desc:0 "[best_friend|E] di [CHARACTER.GetNameNoTooltip]"
  rival_desc:0 "[rival|E] di [CHARACTER.GetNameNoTooltip]"
@@ -610,7 +607,7 @@
  FRAME_HEAD_OF_HOUSE:0 "#T Capo della [house|E]#!\n$TT_HOUSE_HEAD_DESC$"
  FRAME_HOUSE_BASTARD:0 "#T [bastard|E]#!"
  FRAME_LEGITIMIZED_HOUSE_BASTARD:0 "#T [bastard|E] Legittimato#!"
- 
+
  title_council_name:0 "[ROOT.Char.GetCouncilTitle]"
  title_landed_name:0 "[ROOT.Char.GetTitleAsName]"
  title_council_name_possessive:0 "[ROOT.Char.GetCouncilTitlePossessive]"
@@ -632,7 +629,7 @@
  lad:0 "ragazzo"
 
  my:0 "mio/a"
- 
+
  abbreviated_er: "lei" #controllare
  abbreviated_im: "lui" #controllare
 
@@ -644,14 +641,14 @@
  consort_soulmate: "anima gemella"
  consort_lover: "amante"
  consort_good_friend: "buon amico/a" 
- 
+
 # BP custom loc
  relation_chum:0 "amico"
  relation_pal:0 "amico"
  relation_mucker:0 "amico"
  relation_habibi:0 "habibi"
  relation_habiba:0 "habiba"
- 
+
  #EP2 custom loc
  relation_sister_plural:0 "sorelle"
  relation_brother_plural:0 "fratelli"

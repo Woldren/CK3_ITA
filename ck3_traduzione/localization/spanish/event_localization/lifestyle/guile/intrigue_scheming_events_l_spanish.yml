@@ -392,7 +392,6 @@
  intrigue_scheming.1801.b:0 "Questa non è altro che una mera estorsione."
  intrigue_scheming.1801_landed: "Il mio [spymaster.GetCouncilTitle] [spymaster.GetFirstName] irrompe nella stanza"
  intrigue_scheming.1801_laamp: "Il mio [GetCourtPositionType('second_camp_officer').GetNameNoTooltip] [spymaster.GetFirstName] irrompe nella tenda"
- 
 
  intrigue_scheming.1802.intro_desc:0 "[spymaster.GetFirstName] è tornato dall'incontro con l'informatore anonimo. Con uno sguardo severo in viso, [spymaster.Custom('DE_ART_IND_A')] srotola un foglio di pergamena sul quale sono scritte quelle che sembrano essere le tattiche di difesa del mio nemico."
  intrigue_scheming.1802.g_high_skill_desc:0 "$intrigue_scheming.1802.intro_desc$\n\nPer quel che posso capire, questi schemi dei piani difensivi di [enemy.GetFirstNamePossessive] sembrano autentici."

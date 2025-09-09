@@ -17,7 +17,7 @@
  bp2_yearly.5001.b.flavor:0 "Con la giusta quantità di monete d'oro, getterò delle solide basi per il mio colpo di stato!"
  bp2_yearly.5001.b.bypass:0 "#WEAK Questo ti permetterà di bypassare qualsiasi requisito di durata della [regency|E] prima di poter tentare il colpo di stato"
  bp2_yearly.5001.c:0 "Lo rilascerò, sempre che [tower_prince.GetSheHe] sostenga la mia rivendicazione."
-
+ 
  bp2_yearly.5005.t:0 "Uno Straniero [foreign_hostage.Custom('GetPrettyAdjective')|U]"
  bp2_yearly.5005.desc:0 "Più conosco [foreign_hostage.GetFirstName], più rimango affascinat[ROOT.Char.Custom('DE_END_PRO_S_N')] dalla sua presenza.\n\n[foreign_hostage.GetSheHe|U] si gira di scatto e si mette in posizione per cercare di sfuggirmi mentre ci inseguamo nel giardino, la luce filtrata dal sole che si posa sul suo viso.\n\nIl mio cuore, indipendentemente dalla stanchezza, inizia a battere sempre più forte.\nInizio a rallentare fino a fermarmi, cosa mi sta succedendo?\n\n"[ROOT.Char.GetFirstNameNoTooltip]? Cosa c'è che non va?" [foreign_hostage.GetFirstName] ora si è fermat[foreign_hostage.Custom('DE_END_PRO_S_N')] e mi fissa preoccupat[foreign_hostage.Custom('DE_END_PRO_S_N')] per la mia costernazione.\n\nSono #EMP così#! nervos[ROOT.Char.Custom('DE_END_PRO_S_N')]..."
  bp2_yearly.5005.a:0 "Io..."

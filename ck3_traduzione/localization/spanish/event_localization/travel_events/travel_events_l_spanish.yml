@@ -326,7 +326,7 @@
  travel_events.4033.d:0 "[witch_scope.Custom('MagicPracticeTerm')|U]! [witch_scope.Custom('DE_ART_IND_A')|U] si pentirà, oppure brucerà!"
  travel.burned_witch:0 "Hai catturato e bruciato [witch_scope.Custom('DE_ART_DEF_P_A')] praticante di [witch_scope.Custom('MagicPracticeTerm')]"
  travel.beaten_by_locals:0 "Sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] fermat[ROOT.Char.Custom('DE_END_PRO_S_N')] dalla gente del posto"
-
+ 
  travel_events.4034.t:0 "Dalle ceneri ai tesori"
  travel_events.4034.desc.intro:0 "[witch_scope.Custom('DE_ART_DEF_P_D')] malvagi[witch_scope.Custom('DE_END_PRO_S_N')] [witch_scope.Custom('MagicUserTerm')] di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] è stat[witch_scope.Custom('DE_END_PRO_S_N')] giustamente bruciat[witch_scope.Custom('DE_END_PRO_S_N')] per i suoi crimini contro [ROOT.Char.GetFaith.HighGodName], e quando il fumo si dirada, vedo che quest[witch_scope.Custom('DE_PRO_PER_S_3P_N')][witch_scope.GetWomanMan] [witch_scope.Custom('InsultAdjective')] ha lasciato qualcosa dietro di sé.\n\n"
  travel_events.4034.desc.mid.bones:0 "Tra le ceneri sono sepolte le sue ossa, conservate immacolate nonostante l'intensità delle fiamme. Senza dubbio si è trattato di un ultimo atto di turpe magia."
@@ -464,7 +464,7 @@
  insisting_on_norms_modifier_desc: "I cortigiani sono tenuti sotto stretta osservazione e ogni comportamento estraneo o non ortodosso è limitato."
 
  custom.every_same_culture_courtier: "Ogni [courtier|E] della stessa [culture|E]"
- 
+
  travel_events.5001.t: "Storie Sussurrate"
  travel_events.5001.desc: "Oggi è la terza volta che sento un abitante del luogo chiacchierare di una certa storia mentre gli passiamo accanto. [travelling_character.GetFirstName] vede la mia confusione.\n\n"È una storia regionale, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. [potential_legend.GetName], la chiamano." confida [travelling_character.GetSheHe|U].\n\nBeh. Di certo sembra molto interessante..."
  travel_events.5001.a: "Farò tesoro di questo racconto!"

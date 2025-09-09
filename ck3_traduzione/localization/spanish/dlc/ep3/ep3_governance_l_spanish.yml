@@ -35,7 +35,6 @@
  governor_contract_event.1001.b.success: "Ispeziono il villaggio e apprendo ciò di cui ho bisogno"
  governor_contract_event.1001.b.failure: "Non riesco a ottenere ciò di cui ho bisogno dal villaggio"
  governor_contract_event.1003.t: "Tasse Arretrate: Successo"
- 
  governor_contract_event.1003.desc_diplomacy: "Parlare con i paesani si è rivelato inaspettatamente fruttuoso!\n\nI capifamiglia erano ansiosi di elencare i membri delle loro famiglie e hanno volentieri elogiato la produttività dei loro terreni. Alcuni persino #EMP si sono vantati#! del loro bestiame! I contadini mi hanno mostrato i loro campi, spiegando quanto potevano aspettarsi di guadagnare dal raccolto."
  governor_contract_event.1003.desc_stewardship: "Prendere accuratamente nota di ogni [ROOT.Char.Custom('RegionalFarmAnimal')], di ogni spiga d’orzo, di ogni coperta fatta in casa e di ogni vaso di terracotta ha fornito una buona stima delle tasse che questi servi #EMP dovrebbero#! pagare."
  governor_contract_event.1003.desc_outro: "\n\nQualche inspiegabile svista, volontaria o involontaria, sembra essere la causa del mancato pagamento di questo villaggio. Ma rimane un compito: decidere il modo migliore per rimediare alla situazione..."
@@ -48,7 +47,7 @@
  governor_contract_event.1004.t: "Tasse Arretrate: Fallimento"
  governor_contract_event.1004.desc: "Pur scrutando cantine e granai, pur percorrendo i campi, pur blandendo i capivillaggio... non c’è alcun segno di ricchezza trattenuta in questo borgo. I paesani, a tutti gli effetti, sono veramente e completamente poveri e incapaci di fornire ciò che devono.\n\nSenza prove di frode, resta ben poco da fare qui. I miei registri dovranno semplicemente assorbire la perdita."
  governor_contract_event.1004.a: "#EMP Maledizione!#!"
-
+ 
  governor_contract_event.1010.t: "Sindaco Accaparratore"
  governor_contract_event.1010.desc: "Ho ricevuto diversi rapporti secondo cui [hoarding_mayor.GetTitledFirstName], che sovrintende a [mayor_destination.GetName], trattiene la gran parte delle tasse della città per sé.\n\nSebbene sia previsto che un sindaco possa trattenere eventuali tasse residue, le somme riportate sono #EMP eccessive#!. Sono ai limiti della corruzione. A peggiorare la situazione: le sue azioni si riflettono molto male su #EMP me#!!"
  governor_contract_event.1010.a: "Dovrò risolvere la questione personalmente."
@@ -68,7 +67,7 @@
  governor_contract_event.1012.desc: "Non potrò fare molto riguardo alla questione attuale senza recarmi sul posto. Ci si aspetta che io gestisca direttamente questo tipo di problemi, ma forse devo voltare lo sguardo e concentrarmi su questioni più urgenti..."
  governor_contract_event.1012.a: "A pensarci meglio, andiamo!"
  governor_contract_event.1012.b: "Ho questioni più importanti di cui occuparmi."
-
+ 
  governor_contract_event.1020.t: "Raccolto Abbondante"
  governor_contract_event.1020.desc: "[ROOT.Char.GetFaith.FertilityGodName] è stato benevolo con noi! In molti villaggi di [ROOT.Char.GetPrimaryTitle.GetNameNoTierPossessive], quantità apparentemente infinite di covoni di grano vengono raccolte da campi ben irrigati dalle piogge costanti. E che [ROOT.Char.Custom('RegionalRootVegetablePlural')]! Un raccolto significativamente più grande rispetto al precedente è atteso con gioia.\n\nQuesta è, ovviamente, un’ottima notizia. Devo organizzare subito una forza lavoro straordinaria e occuparmi della logistica.\n\nOra, dove dovranno trasportare i miei carri queste grandi quantità di prodotti di [ROOT.Char.Custom('GetSeason')]...?"
  governor_contract_event.1020.a: "Distribuiscilo equamente in tutta la provincia."

@@ -1,4 +1,4 @@
-﻿l_spanish: 
+﻿l_spanish:
  choose_favorite_interaction: "Scegli Figlio Preferito"
  choose_favorite_interaction_desc: "Pre-seleziona un personaggio da mettere in evidenza tra i tuoi potenziali prossimi personaggi giocabili."
  choose_favorite_interaction_notification: "Figlio Preferito Scelto"
@@ -16,4 +16,3 @@
  cant_be_hostage_tt: "#X Non può essere un [hostage|E]#!"
  cant_be_another_player_tt: "#X Non può essere un altro Giocatore#!"
  must_be_direct_descendant_tt: "#X Deve essere un tuo discendente diretto: figlio, nipote o pronipote#!"
-

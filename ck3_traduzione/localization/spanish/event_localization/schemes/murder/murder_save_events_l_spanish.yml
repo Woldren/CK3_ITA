@@ -22,6 +22,7 @@
  murder_save.0002.opening:0 "[target.Custom('DE_ART_DEF_P_D')] [target.GetTitledFirstName] è ancora in vita!\n\nIl [SCOPE.Custom('VenomousCreature')] è stato messo nel letto [target.Custom('DE_PRO_PER_P_3P_A')] [target.GetTitleTierName], ma ha colpito il bersaglio sbagliato! Invece è"
  murder_save.0002.rel_to_me:0 "—[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] mi[lover.Custom('DE_END_PRO_S_N')]—"
  murder_save.0002.end:0 "[lover.GetTitledFirstName], [lover.Custom('DE_ART_DEF_P_D')] [target.GetHerHis] amante, giace a terra morto!"
+
  murder_save.1002.desc:1 ""Torna a letto, [lover.Custom('LoverPetName')] mi[lover.Custom('DE_END_PRO_S_N')]..."\n\nSto per giacere con [lover.Custom('DE_ART_DEF_P_A')] mi[lover.Custom('DE_END_PRO_S_N')] amante quando [lover.GetSheHe] inizia ad urlare."Cosa c'è?!". La mia domanda trova risposta non appena [lover.GetSheHe] si contorce e si agita abbastanza da rivelare una creatura velenosa che striscia tra le lenzuola. All' arrivo di un medico, [lover.GetFirstName] è già diventat[lover.Custom('DE_END_PRO_S_N')] rigid[lover.Custom('DE_END_PRO_S_N')] e congelat[lover.Custom('DE_END_PRO_S_N')], anche a me si gela il sangue nelle vene. Ero io l'obbiettivo di quella bestia."
 
  murder_save.0003.t:1 "$murder_save_header$ Assassino"
@@ -123,10 +124,10 @@
  murder_save.0013.desc:0 "[target.GetTitledFirstName] vive ancora!\n\nIl veleno, [target.Custom('GetExpensiveMeal')]... Tutto stava andando secondo i piani finché [target.GetSheHe] non ha notato che qualcosa non andava. Abbiamo provato ad avvelenare il suo piatto preferito, ed [target.Custom('DE_ART_IND_A')] si è accorto subito che aveva un odore differente e l'ha gettato via."
 
  murder_save.1013.desc:0 "Mentre mangio la mia cena preferita, un odore curioso colpisce il mio naso. Accenni di acidità indugiano sotto il suo solito aroma, l'equilibrio delle spezie sembra spento... Dopo aver interrogato il cuoco, che ha detto che tutto è stato preparato normalmente, un solo pensiero mi passa per la mia mente: qualcuno ha cercato di avvelenarmi!"
- 
+
  murder_save.0014.t:0 "$murder_save_header$ Comprensione della tomba"
  murder_save.0014.desc:0 "Il mio attentato alla vita di [target.GetTitledFirstNamePossessive] è stato scoperto!\n\nA quanto pare gli sciocchi assassini non si erano resi conto che [target.GetSheHe] sapesse parlare [owner.GetCulture.GetLanguage.GetNameNoTooltip], e stavano parlando del piano proprio davanti al suo naso."
- #tradotto da akirak e revisionato da Woldren da qui in poi
+
  murder_save.1014.desc:0 "Una sera, mentre mi preparo per andare a letto, sento due dei miei servitori parlare a bassa voce. Mi ci vuole solo un momento per realizzare che stanno parlando in [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] invece che in [owner.GetCulture.GetLanguage.GetNameNoTooltip]. Loro, chiaramente, non si rendono conto che posso capirli.\n\n"Aspetta che si addormenti, poi vedi come [ROOT.Char.Custom('DE_PRO_DEM')] taglio la gola".\n\nRapidamente esco dalle mie stanze per informare le guardie che ci sono degli assassini nella mia camera da letto. Grazie a [ROOT.Char.GetFaith.HighGodName] parlo [owner.GetCulture.GetLanguage.GetNameNoTooltip]!"
 
  murder_save.1014.a:0 "Ora chi manderebbe degli assassini che parlano [owner.GetCulture.GetLanguage.GetNameNoTooltip]?"

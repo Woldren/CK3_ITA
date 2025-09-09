@@ -206,7 +206,6 @@
  nomadic_war_victory_desc: "Rebelling [counties|E] become independent [GetGovernment( 'nomad_government' ).GetName] [realms|E]."
  nomadic_war_white_peace_desc: "Rebelling [counties|E] and [vassals|E] remain part of the realm."
  nomadic_war_defeat_desc: "Rebelling [counties|E] and [vassals|E] remain part of the realm. [attacker.GetShortUIName] is imprisoned. All rebelling [counties|E] have their [county_opinion|E] forcibly increased."
-
  populist_war:0 "Ribellione"
  populist_war_victory_desc:0 "Le [counties|E] ribelli diventano un regno indipendente con [attacker.GetShortUIName] come sovrano."
  populist_war_white_peace_desc:1 "Le [counties|E] e i [vassals|E] ribelli rimangono parte del reame."
@@ -286,7 +285,6 @@
  cease_tribute_landless_suzerain: "[suzerain|E] [unlanded|E]: $VALUE|0+=$"
  must_neighbor_or_neighbor_tributary_tt: "#bold Non#! confina con il tuo [realm|E] o quello dei tuoi [tributaries|E]"
 
-
  diarch_vassalisation_cb:0 "Confisca del [diarch|E]"
  DIARCH_VASSALIZATION_CB_NAME:0 "Confisca da parte del [diarch|E] delle terre di [DEFENDER.GetShortUIName]"
  DIARCH_VASSALIZATION_CB_SPECIFIC_NAME:0 "Confisca delle terre di [DEFENDER.GetShortUIName]"
@@ -298,7 +296,7 @@
  diarch_vassalization_cb_white_peace_desc_defender:0 "Non cedi nulla a [attacker.GetShortUIName]."
  diarch_vassalization_cb_white_peace_desc:0 "[defender.GetShortUIName|U] non cede nulla a [attacker.GetShortUIName]."
  diarch_vassalization_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] non ti cede nulla."
-
+ 
  CONQUEST_CB_TITLE:3 "Ti impossesserai di tutto il territorio all'interno del [realm|E] di [defender.GetShortUINamePossessive] che fa parte [THIS.GetLandedTitle.Custom('IT_COU_COL')][THIS.GetLandedTitle.GetBaseName]"
  duchy_conquest_cb:0 "Conquista del Ducato"
  county_conquest_cb:0 "Conquista della Contea"
@@ -375,8 +373,8 @@
  mongol_invasion_war_victory_desc:0 "[attacker.GetShortUIName|U] si impadronisce tutti i titoli all'interno del reame di [defender.GetShortUINamePossessive] che appartengono [de_jure|E] al titolo bersaglio."
  invasion_war_victory_desc:0 "[attacker.GetShortUIName|U] si impadronisce tutti i titoli all'interno del reame di [defender.GetShortUINamePossessive] che appartengono [de_jure|E] al titolo bersaglio, e tutte le contee occupate al di fuori di essa."
  invasion_war_white_peace_desc_defender:0 "Mantieni i tuoi titoli."
- CLAN_INVASION_CB_NAME: "Soggioga [kingdom|E]"
  invasion_war_white_peace_desc:0 "[defender.GetShortUIName|U] mantiene i suoi titoli."
+ CLAN_INVASION_CB_NAME: "Soggioga [kingdom|E]"
  clan_invasion_war_victory_desc_attacker:0 "Rendi vassalli tutti i titoli all'interno del reame di [defender.GetShortUINamePossessive] che appartengono [de_jure|E] al titolo bersaglio."
  clan_invasion_war_victory_desc:0 "[attacker.GetShortUIName|U] rende vassalli tutti i titoli all'interno del reame di [defender.GetShortUINamePossessive] che appartengono [de_jure|E] al titolo bersaglio."
  invasion_war_warning_desc:1 "\n\n#X Puoi tentare una sola [war|E] d'invasione contro un [title|E] di livello [kingdom|E] nel corso della tua vita#!"
@@ -434,7 +432,6 @@ pax_romana_invasion_war_victory_desc: "[attacker.GetShortUIName|U] confisca tutt
  norman_conquest_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] si impadronisce del Regno d'Inghilterra, di tutti i titoli che possiedi e di tutti i titoli vassalli dell'Inghilterra Meridionale."
  norman_conquest_cb_victory_desc_attacker:0 "Ti impadronisci del Regno d'Inghilterra e prendi personalmente tutti i titoli dell'Inghilterra Meridionale."
  norman_conquest_cb_victory_desc:0 "[attacker.GetShortUIName|U] si impadronisce del Regno d'Inghilterra e prende personalmente tutti i titoli dell'Inghilterra Meridionale."
- norwegian_invasion_cb_victory_with_tostig_desc:0 "Se in vita e alla corte di [attacker.GetShortUIName], [tostig.GetShortUIName] riceve [northumberland.GetName], [york.GetName], e [lancaster.GetName] in cambio di un [strong_hook|E]."
 
  norwegian_invasion_cb:0 "Invasione"
  norwegian_invasion_cb_defeat_desc:0 "[defender.GetShortUIName|U] mantiene il Regno d'Inghilterra. [attacker.GetShortUIName|U] perde la sua [claim|E] su di esso."
@@ -493,7 +490,7 @@ pax_romana_invasion_war_victory_desc: "[attacker.GetShortUIName|U] confisca tutt
  enemy_gained_new_ally:1 "Il Nemico Forma un'Alleanza: [other_character.GetShortUINameNoTooltip]"
  enemy_gained_new_ally_tt:1 "Il nuovo alleato di [this_character.GetShortUIName], [other_character.GetShortUIName], potrebbe unirsi alla [this_war.GetName|V] come tuo nemico"
  PREVIOUS_VARANGIAN_ADVENTURES_COST:0 "Avventure precedenti"
- 
+
  debug_artifact_war_victory_desc:0 "L'attaccante ottiene tutti i manufatti appartenenti al difensore."
  debug_artifact_war_white_peace_desc:0 "L'attaccante non prende nulla."
  debug_artifact_war_defeat_desc:0 "$debug_artifact_war_white_peace_desc$"
@@ -567,17 +564,17 @@ pax_romana_invasion_war_victory_desc: "[attacker.GetShortUIName|U] confisca tutt
  CB_COST_STRUGGLE_PHASE_HOSTILITY:0 "[struggle_phase_iberia_hostility|E]"
  CB_COST_STRUGGLE_PHASE_COMPROMISE:0 "[struggle_phase_iberia_compromise|E]"
  CB_COST_STRUGGLE_PHASE_CONCILIATION:0 "[struggle_phase_iberia_conciliation|E]"
- 
- #claim_cb:0 "Rivendica"
- #claim_cb_victory_desc_attacker_claimant:1 "Ottieni il [title|E] contestato."
- #claim_cb_victory_desc_attacker:1 "[claimant.GetShortUIName|U] ottiene il [title|E] contestato."
- #claim_cb_victory_desc:1 "[claimant.GetShortUIName|U] ottiene il [title|E] contestato."
- #claim_cb_white_peace_desc_defender:1 "Conservi il [title|E] contestato."
- #claim_cb_white_peace_desc:1 "[defender.GetShortUIName|U] conserva il [title|E] contestato."
- #claim_cb_defeat_desc_defender:1 "Conservi il [title|E] contestato. [claimant.GetShortUIName|U] perde la sua [claim|E]."
- #claim_cb_defeat_desc_attacker_claimant:1 "[defender.GetShortUIName|U] conserva il [title|E] contestato. Tu perdi la tua [claim|E]."
- #claim_cb_defeat_desc_attacker:1 "[defender.GetShortUIName|U] conserva il [title|E] contestato. [claimant.GetShortUIName|U] perde la sua [claim|E]."
- #claim_cb_defeat_desc:1 "[defender.GetShortUIName|U] conserva il [title|E] contestato. [attacker.GetShortUIName|U] perde la sua [claim|E]."
+
+ #claim_cb:0 "Claim"
+ #claim_cb_victory_desc_attacker_claimant:1 "You gain the contested [title|E]."
+ #claim_cb_victory_desc_attacker:1 "[claimant.GetShortUIName|U] gains the contested [title|E]."
+ #claim_cb_victory_desc:1 "[claimant.GetShortUIName|U] gains the contested [title|E]."
+ #claim_cb_white_peace_desc_defender:1 "You keep the contested [title|E]."
+ #claim_cb_white_peace_desc:1 "[defender.GetShortUIName|U] keeps the contested [title|E]."
+ #claim_cb_defeat_desc_defender:1 "You keep the contested [title|E]. [claimant.GetShortUIName|U] loses [attacker.GetHerHis] [claim|E]."
+ #claim_cb_defeat_desc_attacker_claimant:1 "[defender.GetShortUIName|U] keeps the contested [title|E]. You lose your [claim|E]."
+ #claim_cb_defeat_desc_attacker:1 "[defender.GetShortUIName|U] keeps the contested [title|E]. [claimant.GetShortUIName|U] loses [claimant.GetHerHis] [claim|E]."
+ #claim_cb_defeat_desc:1 "[defender.GetShortUIName|U] keeps the contested [title|E]. [attacker.GetShortUIName|U] loses [attacker.GetHerHis] [claim|E]."
 
  REMOVE_REGENT_WAR_NAME:0 "$ORDER$ Guerra per deporre [DEFENDER.GetShortUIName] dal ruolo di [regent|E]"
  remove_regent_cb:0 "Rimuovi il Reggente"
@@ -588,7 +585,7 @@ pax_romana_invasion_war_victory_desc: "[attacker.GetShortUIName|U] confisca tutt
  remove_regent_cb_defeat_desc_defender:0 "[attacker.GetShortUIName|U] viene imprigionat[attacker.Custom('DE_END_PRO_S_N')] e multat[attacker.Custom('DE_END_PRO_S_N')] "
  remove_regent_cb_defeat_desc:0 "[attacker.GetShortUIName|U] viene imprigionat[attacker.Custom('DE_END_PRO_S_N')] e multat[attacker.Custom('DE_END_PRO_S_N')]"
  remove_regent_cb_temporary_fort:0 "[defender.GetPrimaryTitle.GetBaseName] perde il [GetModifier( 'temporary_fort_province_modifier' ).GetNameWithTooltip]"
-
+ 
  zealous_personality:0 "Zelo"
  bold_personality:0 "Audacia"
  high_fervor:0 "Il [fervor|E] della [faith|E] che sta Difendendo"
@@ -596,7 +593,7 @@ pax_romana_invasion_war_victory_desc: "[attacker.GetShortUIName|U] confisca tutt
  friends_with_defender:0 "Sono [friends|E] con il Difensore"
  dislikes_defender:0 "Non apprezzano il Difensore"
  strongly_dislikes_defender:0 "Non apprezzano affatto il Difensore"
- 
+
  subjugation_war_warning_desc:0 "\n\n#X Puoi tentare una sola [war|E] di Sottomissione per ogni vita#!"
 
  fp3_install_loyalist_cb:0 "Insedia Lealista"
@@ -626,7 +623,7 @@ pax_romana_invasion_war_victory_desc: "[attacker.GetShortUIName|U] confisca tutt
  invasion_title_transfer_tt:0 "Ogni [county|E] [de_jure|E] viene trasferita a [attacker.GetShortUIName]"
  invasion_title_transfer_2_tt:0 "Ogni [county|E] [occupied|E] al di vuori del titolo bersaglio viene trasferita a [attacker.GetShortUIName]"
  invasion_titles_destroyed_tt:0 "Ogni titolo bersaglio"
-# TWR------------------- 9 novembre tradurre da 569 in poi ----------------------
+
  fp3_free_house_member_cb: "$fp3_free_house_member_cb_name$"
  fp3_free_house_member_cb_name: "Salvataggio dei membri della Casata"
  fp3_free_house_member_war_name: "Guerra [ATTACKER.GetPrimaryTitle.GetAdjective] per salvare i membri della [house|E] [ATTACKER.GetHouse.GetBaseNameNoTooltip]"
@@ -674,7 +671,7 @@ pax_romana_invasion_war_victory_desc: "[attacker.GetShortUIName|U] confisca tutt
  fp3_zanj_rebellion_name_adj: "Zanj"
  fp3_zanj_rebellion_cb_victory_desc: "I $fp3_zanj_Rebel_army_title$ diventano indipendenti e conquistano Basra."
  fp3_zanj_rebellion_cb_defeat_desc: "I $fp3_zanj_Rebel_army_title$ sono stati sconfitti e sottomessi."
- 
+
  ANCESTOR_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Rivendicazione Ancestrale su [TITLE.GetBaseName]"
  ANCESTOR_WAR_NAME_BASE: "[DEFENDER.GetPrimaryTitle.GetName][ATTACKER.GetPrimaryTitle.GetAdjective]"
  ANCESTOR_CB_NAME: "Rivendicazione Ancestrale"
@@ -837,5 +834,3 @@ NOMAD_CB_UNREFORMED_COST: "Your [faith|E] is [GetFaithDoctrine('west_african_unr
  sovereignty_war_tributary_switch: "I [tributaries|E] di [defender.GetShortUIName] che possono formare un [realm|E] continuo pagheranno un [tribute|E] a [attacker.GetShortUIName]"
 
  at_least_one_non_nomad_county_tt: "Il bersaglio deve avere almeno una [county|E] non [nomadic|E]"
-
-

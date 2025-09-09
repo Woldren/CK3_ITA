@@ -191,7 +191,7 @@
  ep3_laamps.8107.desc: "Le parole non possono esprimere la mia delusione nei vostri confronti. #EMP Verme#! Avevamo un futuro così brillante davanti a noi e voi avete deciso di rinunciare a tutto.\nConsiderate che sono profondamente scontent[petitioned_ruler.Custom('DE_END_PRO_S_N')] di voi e che voi non siete altro che la più spregevole delle persone. Abbiate almeno il tatto di lasciare questo mondo pietosamente in silenzio."
  ep3_laamps.8107.a: "Il destino aveva altri piani."
  ep3_laamps.8107.a.desc: "Hai fallito nel garantirti la tua rivendicazione [claimed_title.Custom('IT_COU_COL3')][claimed_title.GetName]"
- 
+
  ep3_laamps.8108.t: "$laamp_legitimist_support_contract$ — Il Pagamento"
  ep3_laamps.8108.desc: "Che gioia il mio arrivo vittorioso in [claimed_title.GetName]! Dopo aver viaggiato a lungo per strade inospitali, da ospite in terra straniera, senza una casa, senza ciò che mi apparteneva di diritto, ora ho il mio dolce titolo di [claimed_title.GetTierAsNameNoTooltip]. Tutto è bene ciò che finisce bene, come doveva essere fin dall'inizio. Ora sono un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] potente [ROOT.Char.GetTitleAsNameNoTooltip].\n\nTuttavia, questa rosa non è priva di spine. [petitioned_ruler.Custom('IT_NAM_COL3')|U][petitioned_ruler.GetTitledFirstName], che mi ha aiutat[ROOT.Char.Custom('DE_END_PRO_S_N')] enormemente per raggiungere questo obiettivo, pretende che io paghi quanto concordato tanti anni fa. L'onorevole casata [ROOT.Char.GetHouse.GetNameNoTooltip] paga sempre i suoi debiti, no?"
  ep3_laamps.8108.a: "[Glossary( 'Pacta Sunt Servanda', 'PACTA_SUNT_SERVANTA_GLOSS' )]"
@@ -205,12 +205,12 @@
  ep3_laamps.8108.c: "[petitioned_ruler.GetShortUINameNoTooltip], imbecille senza speranza!"
  ep3_laamps.8108.c.desc: "@warning_icon! Non pagherai una singola moneta bucata [petitioned_ruler.Custom('IT_NAM_COL4')][petitioned_ruler.GetTitledFirstName]. Avrebbe dovuto saperlo."
  ep3_laamps.8108.legitimist_too_poor: "#italic A causa delle tue magre [income|e], paghi ogni volta solo l'importo preciso di #color_yellow 300 #! [gold_i]"
- 
+
  ep3_laamps.8109.t: "[ROOT.Char.Custom('IT_NAM_COL4')|U][ROOT.Char.GetTitledFirstNameNoTooltip]"
  ep3_laamps.8109.desc: "Che [Select_CString(previous_ruler.IsFemale,'la nostra cara','il nostro caro')] [previous_ruler.GetTitledFirstName] non sieda più sul trono è qualcosa che mi spezza il cuore, che [petitioned_ruler.GetFaith.HighGodName] benedica la sua anima. Purtroppo, non ho ancora ricevuto il pagamento per il mio sostegno alla sua ascesa al trono. Mi auguro che siate stat[ROOT.Char.Custom('DE_END_PRO_S_N')] mess[ROOT.Char.Custom('DE_END_PRO_S_N')] al corrente dei dettagli e che siate tanto onorevole da ottemperare alla vostra parte dell'accordo."
  ep3_laamps.8109.a: "$ep3_laamps.8108.a$"
  ep3_laamps.8109.a.desc: "[petitioned_ruler.Custom('IT_NAM_COL3')|U][petitioned_ruler.GetShortUIName] si attende di ricevere, tra un anno, un pagamento pari alla metà delle entrate annuali del regno"
- 
+
  ep3_laamps.8110.t: "$laamp_legitimist_support_contract$ — Conclusione Inaspettata"
  ep3_laamps.8110.desc_intro: "Molto tempo fa, venne stipulato un accordo: [petitioned_ruler.Custom('IT_NAM_COL3')][petitioned_ruler.GetTitledFirstName] fornì sostegno per la rivendicazione [claimed_title.Custom('IT_COU_COL')][claimed_title.GetName], sotto forma di soldati e oro in anticipo, in cambio di una parte sostanziale delle entrate del mio regno.\n\nTuttavia, [petitioned_ruler.GetSheHe] non poteva prevedere "
  ep3_laamps.8110.desc_war: "che sarebbe stat[petitioned_ruler.Custom('DE_END_PRO_S_N')] impegnat[petitioned_ruler.Custom('DE_END_PRO_S_N')] in una guerra contro di me"
@@ -242,3 +242,10 @@
  ep3_laamps.8200.b: "Vi prego di andarvene!"
  ep3_laamps.8200.c: "Andatevene e spargete la voce: state tutti alla larga dal mio campo!"
  ep3_laamps.8200.c.tt: "Nessuno cercherà di unirsi al vostro campo per i prossimi 20 anni"
+
+
+
+
+
+
+

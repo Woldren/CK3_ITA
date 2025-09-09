@@ -290,7 +290,6 @@ ACHIEVEMENT_wily_as_the_fox_achievement:0 "Astuto Come una Volpe"
  NOT_ACHIEVEMENT_DESC_fp2_iberian_compromise:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_fp2_holiday_in_iberia:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_fp2_el_cid_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
-
  NOT_ACHIEVEMENT_DESC_ep2_01_the_grandest_tour_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_ep2_02_your_eternal_reward_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_ep2_03_imperial_march_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
@@ -321,9 +320,6 @@ ACHIEVEMENT_wily_as_the_fox_achievement:0 "Astuto Come una Volpe"
  NOT_ACHIEVEMENT_DESC_fp3_challenger_caliphate_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_fp3_vassalize_the_caliph_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_fp3_rekindle_iran_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$" 
-
- rd_character_blocked_from_achievement:1 "Potrebbe non essere disponibile per i personaggi creati nel Ruler Designer."
- 
  NOT_ACHIEVEMENT_DESC_ce1_not_today_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_ce1_divine_right_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_ce1_youll_never_take_me_alive_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
@@ -335,7 +331,7 @@ ACHIEVEMENT_wily_as_the_fox_achievement:0 "Astuto Come una Volpe"
  NOT_ACHIEVEMENT_DESC_ce1_f_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_ce1_local_legend_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_ce1_neverending_story_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
-
+ 
  NOT_ACHIEVEMENT_DESC_mpo_the_stallion_that_mounts_the_world_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_mpo_nobodys_business_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_mpo_tribute_band_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
@@ -347,3 +343,4 @@ ACHIEVEMENT_wily_as_the_fox_achievement:0 "Astuto Come una Volpe"
  NOT_ACHIEVEMENT_DESC_mpo_confedup_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_mpo_shut_up_nerge_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
 
+ rd_character_blocked_from_achievement:1 "Potrebbe non essere disponibile per i personaggi creati nel Ruler Designer."

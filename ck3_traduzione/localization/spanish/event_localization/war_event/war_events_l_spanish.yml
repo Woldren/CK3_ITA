@@ -1,12 +1,10 @@
 ﻿l_spanish:
-
  war_event.1901:1 "Il tuo [liege|E], [attacker_winner.GetUIName], ha vinto la sua [war|E] contro [defender_loser.Custom('IT_NAM_COL3')][defender_loser.GetShortUIName]!"
  war_event.1902:1 "Il tuo [liege|E], [defender_loser.GetUIName], ha perso la sua [war|E]rra contro [attacker_winner.Custom('IT_NAM_COL3')][attacker_winner.GetShortUIName]!"
  war_event.1903:1 "Il tuo [liege|E], [attacker_white_peace.GetUIName], ha firmato una [white_peace|E] con [defender_white_peace.Custom('IT_NAM_COL3')][defender_white_peace.GetShortUIName]!"
  war_event.1904:1 "Il tuo [liege|E], [defender_white_peace.GetUIName], ha firmato una [white_peace|E] con [attacker_white_peace.Custom('IT_NAM_COL3')][attacker_white_peace.GetShortUIName]!"
  war_event.1905:1 "Il tuo [liege|E], [attacker_loser.GetUIName], ha perso la guerra contro [defender_winner.Custom('IT_NAM_COL3')][defender_winner.GetShortUIName]!"
  war_event.1906:1 "Il tuo [liege|E], [defender_winner.GetUIName], ha vinto la guerra contro [attacker_loser.Custom('IT_NAM_COL3')][attacker_loser.GetShortUIName]!"
-
  war_event.notification_liege_win.t:0 "Il tuo Signore ha vinto la Guerra"
  war_event.notification_liege_loss.t:0 "Il tuo Signore ha perso la Guerra"
 
@@ -24,7 +22,6 @@
  war_event.2001.b:0 "Questa non è più la migliore linea d'azione."
  war_event.2001.c: "Possiamo, forse, trovare un accordo?"
  war_event.2001.c.tt: "Richiedere una grossa somma d'oro [defender.Custom('IT_NAM_COL4')][defender.GetTitledFirstName] in cambio della fine della guerra"
-
 
  war_event.2002.t:0 "[invalidator.Custom2('AppropriateGreeting', ROOT.Char)]"
  war_event.2002.desc:0 "Purtroppo ci siamo trovati su parti opposte in questo conflitto. Non è mai stata mia intenzione, quindi ritirerò le mie truppe."

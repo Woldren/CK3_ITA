@@ -78,8 +78,8 @@
  trait_specific.9001.a:0 "Un bel verso! Su cosa mi soffermerò dopo?"
  trait_specific.9001.b:0 "Scrivere è divertente, ma non conosco le #EMP rime#!."
  trait_specific.9001.c:0 "Forse, invece, mi farò preparare un bagno..."
- 
- 
+
+
  trait_specific.8501.t:0 "Risatina Sospetta"
  trait_specific.8501.desc:0 "Sto parlando con alcuni dei miei [ROOT.Char.Custom('GetCourtierPlural')] di un argomento piuttosto serio, quando non posso fare a meno di notare che [mean_courtier.Custom('IT_NAM_COL3')][mean_courtier.GetTitledFirstName] sta ridacchiando sotto i baffi.\n\nÈ solo quando [mean_courtier.Custom('DE_PRO_DEM')] chiedo spiegazioni e [mean_courtier.GetSheHe] mi chiede di ripetere la parola 'sospettoso' che mi rendo conto che [mean_courtier.GetSheHe] sta ridendo della mia blesità."
  trait_specific.8501.a:0 "È maleducat[mean_courtier.Custom('DE_END_PRO_S_N')], ma cosa posso farci?"

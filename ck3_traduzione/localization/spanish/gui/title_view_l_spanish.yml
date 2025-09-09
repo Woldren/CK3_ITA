@@ -44,7 +44,8 @@
  DESTROY_TITLE_BLOCKER_PRIMARY_TITLE:1 "@warning_icon! #X Non puoi distruggere il tuo [primary_title].#!"
  DESTROY_TITLE_REASON_CONTESTED:0 "@warning_icon! #X Non può essere distrutto mentre è contestato in una guerra#!"
  CREATE_TITLE_TOOLTIP_TITLE:1 "#T Crea il [TITLE.GetBaseNameNoTooltip]#!"
- CREATE_TITLE_TEXT: "Otterrai [prestige_i]$PRESTIGE|0V$ e [legitimacy_i]$LEGITIMACY|0V$\n\nCosto: [gold_i]$GOLD|0V$"
+ CREATE_TITLE_TEXT: "Otterrai [prestige_i]$PRESTIGE|0V$ e [legitimacy_i]$LEGITIMACY|0V$\n\nCosto: [gold_i]$GOLD|0V$" #controllare_modifica
+ UNCROWNED_TITLE_GAIN_WARNING: "#EMP @alert_icon! When increasing your [title|E] [title_tier|E] to [kingdom|E] or [empire|E], you become [GetLaw('uncrowned').GetName] until you hold a [coronation|E]#!"
  CREATE_TITLE_ACCEPT: "$CREATE$"
  CREATE_TITLE_HAS_HOLDER:0 "Titolo già posseduto da [CHARACTER.GetUIName]"
  CREATE_TITLE_NO_DEJURE_COUNTIES:0 "@warning_icon! #X [TITLE.GetName] non ha nessuna [counties|E] [de_jure|E].#!"
@@ -63,7 +64,7 @@
  USURP_TITLE_ACCEPT:0 "Usurpa"
  CREATE_TITLE_HOLDER_HAS_LAND:3 "@warning_icon! #X Non puoi usurpare un [title|E] a qualcuno che considera la tua [faith|E] [Concept( 'faith_hostility', 'Ostile' )|E] o peggio mentre controlla una qualsiasi delle sue terre [de_jure|E]#!"
  DESTROY_TITLE_VASSAL_OPINION:2 "$BULLET$ L'opinione dei [vassals|E] [de_jure|E] di [TITLE.GetName] nei tuoi confronti diminuirà di $OPINION_CHANGE|N$ per $TIME|V$ anni"
- CREATE_TITLE_TOOLTIP_GAIN:1 "Una volta creato ottieni [prestige_i]$PRESTIGE|0V$ e [legitimacy_i]$LEGITIMACY|0V$"
+ CREATE_TITLE_TOOLTIP_GAIN:1 "Una volta creato ottieni [prestige_i]$PRESTIGE|0V$ e [legitimacy_i]$LEGITIMACY|0V$" #controllare_modifica
  CREATE_TITLE_COST:0 "Costo: [gold_i]$GOLD|0V$"
  CREATE_TITLE_WOULD_GO_INDEPENDENT:1 "Il Titolo ha un livello uguale o superiore al titolo principale del tuo [liege|E]"
  USURP_TITLE_TOOLTIP_PRESTIGE_GAIN:0 "Quando usurpato:\nOttieni [prestige_i]$PRESTIGE|0V$"
@@ -111,8 +112,8 @@
  CAN_ATTACK_NOT_LANDED:0 "[CHARACTER.GetShortUIName|U] è senza terra"
  STRONG_CLAIM:0 "[pressed_claim_i][pressed_claim|E]"
  WEAK_CLAIM:0 "[unpressed_claim_i][unpressed_claim|E]"
- TITLE_HISTORY:0 "Storia del Titolo"
  IMPLICIT_CLAIM:0 "[implicit_claim_i][implicit_claim|E]"
+ TITLE_HISTORY:0 "Storia del Titolo"
  SHOW_TITLE_HISTORY:0 "#T Visualizza Storia del Titolo#!"
  HIDE_TITLE_HISTORY:0 "#T Nascondi Storia del Titolo#!"
  TITLE_VIEW_MAKE_PRIMARY:0 "Rendi Titolo Primario"
@@ -184,17 +185,14 @@
  TITLE_VIEW_FACTION:0 "[faction|E] [Faction.GetName]"
  CREATE_TITLE_MIN_COST:0 "Costo minimo"
  grant_title_info_text:0 "Oppure scegli un Personaggio nel tuo Reame..."
- 
+
  CREATE_TITLE_PERCENTAGE_BASE_DUCHY_KINGDOM: "Base per il titolo [duchy|E] / [kingdom|E]"
  CREATE_TITLE_PERCENTAGE_BASE_EMPIRE: "Base per il titolo di [empire|E]"
  CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_EXTRA_REDUCED: "Sconto maggiore per il [legitimacy_level|E]"
  CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_VERY_REDUCED: "Sconto per il [legitimacy_level|E]"
  CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_REDUCED: "Sconto minore per il [legitimacy_level|E]"
  CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_NONE: "Sconto per il [legitimacy_level|E]"
- 
  TITLE_VIEW_APPOINTMENT: "Osserva Successione"
  TITLE_VIEW_APPOINTMENT_TOOLTIP: "#T Visualizza la successione della nomina#!\nIl titolo seguirà [Title.GetHolder.GetPrimaryTitle.GetName]" #controllare
  ADD_LAWS_TOOLTIP: "#T Aggiungi Legge sulla Successione"
  CREATE_TITLE_FAIL_REASON_ADMIN_VASSAL: "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip|U] [Select_CString( CHARACTER.IsLocalPlayer, 'sei', 'è' )] un [governor|e] [administrative|e]#!"
- 
-

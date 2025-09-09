@@ -41,7 +41,6 @@
  became_grudge_desc: "Ho iniziato a serbare rancore contro [grudge.GetFullName]"
  became_grudge_desc_second_perspective: "Hai iniziato a serbare rancore contro [grudge.GetFullName]"
  became_grudge_desc_third_perspective: "[owner.GetFullName] ha iniziato a serbare rancore contro [grudge.GetName] ed è [Select_CString(owner.IsFemale,'diventata sua','diventato suo')] rivale"
- became_soulmates_desc:1 "Ho capito che [new_soulmate.GetFullName] era la mia anima gemella"
  became_soulmates_desc:1 "ho capito che [new_soulmate.GetFullName] era la mia anima gemella"
  became_soulmates_desc_second_perspective:1 "hai realizzato che [new_soulmate.GetFullName] era la tua anima gemella"
  became_soulmates_desc_third_perspective:1 "[owner.GetName] ha realizzato che [new_soulmate.GetFullName] era la sua anima gemella"
@@ -62,7 +61,6 @@
  child_born_desc_mother: "ho dato alla luce mi[child.Custom('DE_END_PRO_S_N')] [child.Custom('GetDaughterSon')], [child.GetFirstName]"
  child_born_desc_bastard: "Mia [owner.Custom2('RelationToMeShort', SCOPE.sC('child').GetMother)], [child.GetMother.GetFirstName], ha dato alla luce mi[child.Custom('DE_END_PRO_S_N')] [child.Custom('GetDaughterSon')], [child.GetFirstName], fuori dal matrimonio"
  child_born_desc_1:1 "Mia [owner.Custom2('RelationToMeShort', SCOPE.sC('child').GetMother)], [child.GetMother.GetFirstName], ha dato alla luce mi[child.Custom('DE_END_PRO_S_N')] [child.Custom('GetDaughterSon')], [child.GetFirstName]"
-
  child_born_desc_second_perspective_mother_bastard: "hai dato alla luce tu[child.Custom('DE_END_PRO_S_N')] [child.Custom('GetDaughterSon')], [child.GetFirstName], fuori dal matrimonio"
  child_born_desc_second_perspective_mother: "hai dato alla luce tu[child.Custom('DE_END_PRO_S_N')] [child.Custom('GetDaughterSon')], [child.GetFirstName]"
  child_born_desc_second_perspective_bastard: "tua [owner.Custom2('RelationToMeShort', SCOPE.sC('child').GetMother)], [child.GetMother.GetFirstName], ha dato alla luce tu[child.Custom('DE_END_PRO_S_N')] [child.Custom('GetDaughterSon')], [child.GetFirstName], fuori dal matrimonio"
@@ -71,7 +69,6 @@
  child_born_desc_third_perspective_mother: "[owner.Custom('IT_NAM_COL3')][owner.GetName] ha dato alla luce su[child.Custom('DE_END_PRO_S_N')] [child.Custom('GetDaughterSon')], [child.GetFirstName]"
  child_born_desc_third_perspective_bastard: "[child.Custom('DE_ART_DEF_P_D')][child.Custom('GetDaughterSon')] [child.Custom('IT_NAM_COL2')][owner.GetName], [child.GetFirstName], è nat[child.Custom('DE_END_PRO_S_N')] fuori dal matrimonio da sua [owner.Custom2('RelationToMeShort', SCOPE.sC('child').GetMother)], [child.GetMother.GetFirstName]"
  child_born_desc_third_perspective_1:2 "[child.Custom('DE_ART_DEF_P_D')][child.Custom('GetDaughterSon')] [child.Custom('IT_NAM_COL2')][owner.GetName], [child.GetFirstName], è nat[child.Custom('DE_END_PRO_S_N')] da sua [owner.Custom2('RelationToMeShort', SCOPE.sC('child').GetMother)], [child.GetMother.GetFirstName]"
-
  childless_soulmate_memory_desc:0 "la mia anima gemella [childless_soulmate.GetName] ed io abbiamo contemplato il fatto di passare la vita insieme, con o senza figli"
  childless_soulmate_memory_desc_second_perspective:0 "tu e la tua anima gemella [childless_soulmate.GetName] avete contemplato il fatto di passare la vita insieme, con o senza figli"
  childless_soulmate_memory_desc_third_perspective:0 "[owner.GetName] e la sua anima gemella [childless_soulmate.GetName] hanno contemplato il fatto di passare la vita insieme, con o senza figli"
@@ -102,6 +99,9 @@
  dog_died_desc_1:0 "il mio amato cane è morto"
  dog_died_desc_second_perspective_1:0 "il tuo amato cane è morto"
  dog_died_desc_third_perspective_1:0 "l'amato cane di [owner.GetName] è morto"
+ cat_died_desc_1: "my beloved cat died"
+ cat_died_desc_second_perspective_1: "your beloved cat died"
+ cat_died_desc_third_perspective_1: "[owner.GetNamePossessive] beloved cat died"
  doppelganger_claimed_my_throne_desc:0 "[doppelganger.GetName] ha usato la sua somiglianza con me per reclamare il mio trono"
  doppelganger_claimed_my_throne_desc_second_perspective:0 "[doppelganger.GetName] ha usato la sua somiglianza con te per reclamare il tuo trono"
  doppelganger_claimed_my_throne_desc_third_perspective:0 "[doppelganger.GetName] ha usato la sua somiglianza con [owner.GetName] per reclamare il suo trono"
@@ -117,7 +117,6 @@
  failed_assassination_by_desc:0 "sono a malapena riuscito a sfuggire ad un tentativo di assassinio da parte di [killer.GetFirstName]"
  failed_assassination_by_desc_second_perspective:0 "sei a malapena riuscito a sfuggire ad un tentativo di assassinio da parte di [killer.GetFirstName]"
  failed_assassination_by_desc_third_perspective:0 "[owner.GetName] è a malapena riuscito a sfuggire ad un tentativo di assassinio da parte di [killer.GetFirstName]"
-
  first_born_desc_mother_bastard: "Ho dato alla luce [child.Custom('DE_ART_DEF_P_A')] mi[child.Custom('DE_END_PRO_S_N')] prim[child.Custom('DE_END_PRO_S_N')] figli[child.Custom('DE_END_PRO_S_N')], [child.GetFirstName], un[child.Custom('DE_PRO_POS_P_2P')] bellissim[child.Custom('DE_END_PRO_S_N')] bambin[child.Custom('DE_END_PRO_S_N')], fuori dal matrimonio"
  first_born_desc_mother: "Ho dato alla luce [child.Custom('DE_ART_DEF_P_A')] mi[child.Custom('DE_END_PRO_S_N')] prim[child.Custom('DE_END_PRO_S_N')] figli[child.Custom('DE_END_PRO_S_N')], [child.GetFirstName], un[child.Custom('DE_PRO_POS_P_2P')] bellissim[child.Custom('DE_END_PRO_S_N')] bambin[child.Custom('DE_END_PRO_S_N')]"
  first_born_desc_bastard: "[child.Custom('DE_ART_DEF_P_A')] mi[child.Custom('DE_END_PRO_S_N')] prim[child.Custom('DE_END_PRO_S_N')] figli[child.Custom('DE_END_PRO_S_N')], [child.GetFirstName], un[child.Custom('DE_PRO_POS_P_2P')] bellissim[child.Custom('DE_END_PRO_S_N')] bambin[child.Custom('DE_END_PRO_S_N')], è nat[child.Custom('DE_END_PRO_S_N')] fuori dal matrimonio da mia [owner.Custom2('RelationToMeShort', SCOPE.sC('child').GetMother)], [child.GetMother.GetFirstName]"
@@ -130,7 +129,6 @@
  first_born_desc_third_perspective_mother: "[owner.Custom('IT_NAM_COL3')][owner.GetName] ha dato alla luce [child.Custom('DE_ART_DEF_P_A')] su[child.Custom('DE_END_PRO_S_N')] prim[child.Custom('DE_END_PRO_S_N')] figli[child.Custom('DE_END_PRO_S_N')], [child.GetFirstName], un[child.Custom('DE_PRO_POS_P_2P')] bellissim[child.Custom('DE_END_PRO_S_N')] bambin[child.Custom('DE_END_PRO_S_N')]"
  first_born_desc_third_perspective_bastard: "[child.Custom('DE_ART_DEF_P_A')] prim[child.Custom('DE_END_PRO_S_N')] figli[child.Custom('DE_END_PRO_S_N')] [owner.Custom('IT_NAM_COL2')][owner.GetName], un[child.Custom('DE_PRO_POS_P_2P')] bellissim[child.Custom('DE_END_PRO_S_N')] bambin[child.Custom('DE_END_PRO_S_N')], è nat[child.Custom('DE_END_PRO_S_N')] fuori dal matrimonio da sua [owner.Custom2('RelationToMeShort', SCOPE.sC('child').GetMother)], [child.GetMother.GetFirstName]"
  first_born_desc_third_perspective_1:2 "[child.Custom('DE_ART_DEF_P_A')] prim[child.Custom('DE_END_PRO_S_N')] figli[child.Custom('DE_END_PRO_S_N')] [owner.Custom('IT_NAM_COL2')][owner.GetName], un[child.Custom('DE_PRO_POS_P_2P')] bellissim[child.Custom('DE_END_PRO_S_N')] bambin[child.Custom('DE_END_PRO_S_N')], è nat[child.Custom('DE_END_PRO_S_N')] da sua [owner.Custom2('RelationToMeShort', SCOPE.sC('child').GetMother)], [child.GetMother.GetFirstName]"
-
  met_friend_first_time_desc_1:0 "[friend.GetFirstName] ed io siamo diventati buoni amici"
  met_friend_first_time_desc_second_perspective_1:0 "tu e [friend.GetFirstName] siete diventati buoni amici"
  met_friend_first_time_desc_third_perspective_1:0 "[friend.GetFirstName] e [owner.GetName] sono diventati buoni amici"
@@ -167,12 +165,12 @@
  friend_granted_my_claim_desc:0 "[friend.GetName] ha riconosciuto la mia legittima rivendicazione su [ROOT.Var('title_granted').GetProvince.GetName] e l'ha concessa a me"
  friend_granted_my_claim_desc_second_perspective:0 "[friend.GetName] ha riconosciuto la tua legittima rivendicazione su [ROOT.Var('title_granted').GetProvince.GetName] e l'ha concessa a te"
  friend_granted_my_claim_desc_third_perspective:0 "[friend.GetName] ha riconosciuto la legittima rivendicazione di [owner.GetName] su [ROOT.Var('title_granted').GetProvince.GetName] e l'ha concessa a [owner.GetSheHe]"
- ganged_up_on_three_memory_desc:0 "sono stato aggredito da tre dei miei consorti, guidati dal malizioso [consort_1.GetName]"
- ganged_up_on_three_memory_desc_second_perspective:0 "sei stato aggredito da tre dei tuoi consorti, guidati dal malizioso [consort_1.GetName]"
- ganged_up_on_three_memory_desc_third_perspective:0 "[owner.GetName] è stato aggredito da tre dei suoi consorti, guidati dal malizioso [consort_1.GetName]"
- ganged_up_on_four_memory_desc:0 "sono stato aggredito da quattro dei miei consorti, guidati dal malvagio [consort_1.GetName]"
- ganged_up_on_four_memory_desc_second_perspective:0 "sei stato aggredito da 4 dei tuoi consorti, guidati dal malizioso [consort_1.GetName]"
- ganged_up_on_four_memory_desc_third_perspective:0 "[owner.GetName] è stato aggredito da quattro dei suoi consorti, guidati dal malizioso [consort_1.GetName]"
+ ganged_up_on_three_memory_desc:0 "sono stato aggredito da tre dei miei consorti, guidati dal malizioso [consort_1.GetName]" #controllare_modifica
+ ganged_up_on_three_memory_desc_second_perspective:0 "sei stato aggredito da tre dei tuoi consorti, guidati dal malizioso [consort_1.GetName]" #controllare_modifica
+ ganged_up_on_three_memory_desc_third_perspective:0 "[owner.GetName] è stato aggredito da tre dei suoi consorti, guidati dal malizioso [consort_1.GetName]" #controllare_modifica
+ ganged_up_on_four_memory_desc:0 "sono stato aggredito da quattro dei miei consorti, guidati dal malvagio [consort_1.GetName]" #controllare_modifica
+ ganged_up_on_four_memory_desc_second_perspective:0 "sei stato aggredito da 4 dei tuoi consorti, guidati dal malizioso [consort_1.GetName]" #controllare_modifica
+ ganged_up_on_four_memory_desc_third_perspective:0 "[owner.GetName] è stato aggredito da quattro dei suoi consorti, guidati dal malizioso [consort_1.GetName]" #controllare_modifica
  had_a_threesome_memory_desc:0 "ho fatto l'amore con [partner_1.GetName] e [partner_2.GetName] contemporaneamente"
  had_a_threesome_memory_desc_second_perspective:0 "hai fatto l'amore con [partner_1.GetName] e [partner_2.GetName] contemporaneamente"
  had_a_threesome_memory_desc_third_perspective:0 "[owner.GetName] ha fatto l'amore con [partner_1.GetName] e [partner_2.GetName] contemporaneamente"
@@ -266,7 +264,7 @@
  met_a_nice_witch_memory_desc:0 "Ho incontrato una strega gentile di nome [witch.GetName]"
  met_a_nice_witch_memory_desc_second_perspective:0 "hai contrato una strega gentile di nome [witch.GetName]"
  met_a_nice_witch_memory_desc_third_perspective:0 "[owner.GetName] ha incontrato una strega gentile di nome [witch.GetName]"
- 
+
  nemesis_died_desc:3 "la mia odiata nemesi [dead_relation.GetFullName] ha fatalmente [dead_relation.GetDeathReasonHideKiller]"
  nemesis_died_desc_second_perspective:3 "la tua odiata nemesi [dead_relation.GetFullName] [dead_relation.GetDeathReasonHideKiller]"
  nemesis_died_desc_third_perspective:3 "L'odiata nemesi di [owner.GetFirstName] [dead_relation.GetFullName] [dead_relation.GetDeathReasonHideKiller]"
@@ -376,7 +374,7 @@
  war_lost_desc_defender_third_perspective_fallback:0 "la guerra di [winner.GetTitledFirstName] si è conclusa con la sconfitta di [owner.GetTitledFirstName]"
  war_lost_desc_crusade_third_perspective:0 "la [ROOT.Var('war_faith_attacker').Faith.GHWName] [ROOT.Var('war_faith_attacker').Faith.GetAdjective] di [owner.GetTitledFirstName] per la [ROOT.Var('war_title').Title.GetBaseNameNoTier] è stata sconfitta"
  war_lost_desc_crusade_defender_third_perspective:0 "[owner.GetTitledFirstName] non è riuscit[owner.Custom('DE_END_PRO_S_N')] a respingere la [ROOT.Var('war_faith_attacker').Faith.GHWName] [ROOT.Var('war_faith_attacker').Faith.GetAdjective] di [winner.GetTitledFirstName] per la [ROOT.Var('war_title').Title.GetBaseNameNoTier]"
- 
+
  war_won_desc_1:2 "La mia [ROOT.Var('war_cb').GetFlagName] contro [loser.GetTitledFirstName] si è conclusa con la vittoria"
  war_won_desc_defender:2 "Sono stat[owner.Custom('DE_END_PRO_S_N')] vittorios[owner.Custom('DE_END_PRO_S_N')] nella [ROOT.Var('war_cb').GetFlagName] di [loser.GetTitledFirstName]"
  war_won_desc_defender_fallback:1 "Sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] vittorios[ROOT.Char.Custom('DE_END_PRO_S_N')] contro [loser.GetTitledFirstName]"
@@ -406,11 +404,11 @@
  war_white_peace_defender_second_perspective:0 "[attacker.GetTitledFirstName] ha concordato una pace bianca per porre fine alla sua guerra contro di te"
  war_white_peace_defender_crusade_third_perspective:0 "$war_white_peace_defender_desc_crusade$"
  war_white_peace_defender_third_perspective:0 "[attacker.GetTitledFirstName] ha concordato una pace bianca per porre fine alla sua guerra contro [defender.GetTitledFirstName]"
- 
+
  married_desc:0 "ho sposato [spouse.GetTitledFirstName]"
  married_desc_second_perspective:0 "hai spostato [spouse.GetTitledFirstName]"
  married_desc_third_perspective:0 "[owner.GetFirstName] ha sposato [spouse.GetTitledFirstName]"
- 
+
  spouse_died:0 "coniuge morto"
  spouse_died_desc:0 "mi[dead_relation.Custom('DE_END_PRO_S_N')] [dead_relation.Custom('WifeHusband')], [dead_relation.GetFirstName], [dead_relation.GetDeathReasonHideKiller]"
  spouse_died_desc_second_perspective:0 "tu[dead_relation.Custom('DE_END_PRO_S_N')] [dead_relation.Custom('WifeHusband')], [dead_relation.GetFirstName], [dead_relation.GetDeathReasonHideKiller]"
@@ -466,7 +464,7 @@
  joined_allys_war_desc_crusade_defensive_third_perspective:0 "[owner.GetTitledFirstNameRegnal] si è unit[owner.Custom('DE_END_PRO_S_N')] alla difesa [ROOT.Var('war_faith').Faith.GetAdjective] di [ally.GetTitledFirstNameRegnal] contro la [ROOT.Var('war_faith_attacker').Faith.GHWName] [ROOT.Var('war_faith_attacker').Faith.GetAdjective] per la [ROOT.Var('war_title').Title.GetBaseNameNoTier] guidati da [enemy.GetTitledFirstNameRegnal]"
 
  defensive_war:0 "guerra difensiva"
- 
+
  defensive_war_desc:2 "[other_party.GetFullName] ha iniziato una [ROOT.Var('war_cb').GetFlagName] contro di me"
  defensive_war_desc_title:0 "[other_party.GetFullName] ha iniziato la [ROOT.Var('war_cb').GetFlagName] per la [ROOT.Var('war_title').Title.GetBaseNameNoTier] contro di me"
  defensive_war_desc_claimant:0 "[other_party.GetFullName] ha fatto valere la rivendicazione di [ROOT.Var('war_claimant').Char.GetName] sul/sulla mio/a [ROOT.Var('war_title').Title.GetBaseName]"
@@ -504,11 +502,11 @@
  stopped_being_friends_desc:0 "io e [old_friend.GetName] ci siamo allontanati"
  stopped_being_friends_desc_second_perspective:0 "tu e [old_friend.GetName] vi siete allontanati"
  stopped_being_friends_desc_third_perspective:0 "[owner.GetName] e [old_friend.GetName] si sono allontanati"
- 
+
  stopped_being_rivals:0 "non più rivali"
- stopped_being_rivals_desc:0 "io e [old_rival.GetName] abbiamo messo da parte le nostre divergenze e abbiamo smesso di essere rivali"
- stopped_being_rivals_desc_second_perspective:0 "tu e [old_rival.GetName] avete messo da parte le vostre divergenze e avete smesso di essere rivali"
- stopped_being_rivals_desc_third_perspective:0 "[owner.GetName] e [old_rival.GetName] hanno messo da parte le loro divergenze e hanno smesso di essere rivali"
+ stopped_being_rivals_desc:0 "io e [old_rival.GetName] abbiamo messo da parte le nostre divergenze e abbiamo smesso di essere rivali" #controllare_modifica
+ stopped_being_rivals_desc_second_perspective:0 "tu e [old_rival.GetName] avete messo da parte le vostre divergenze e avete smesso di essere rivali" #controllare_modifica
+ stopped_being_rivals_desc_third_perspective:0 "[owner.GetName] e [old_rival.GetName] hanno messo da parte le loro divergenze e hanno smesso di essere rivali" #controllare_modifica
 
  stopped_being_grudge: "ha smesso di serbare rancore"
  stopped_being_grudge_desc: "Ho smesso di serbare rancore contro [old_grudge.GetName]"
@@ -562,6 +560,7 @@
  detestable_family:0 "è diventato il rivale di un membro di una famiglia rivale"
  deviant_defiled_my_object:0 "questo deviante ha profanato un oggetto"
  dog_died:0 "cane morto"
+ cat_died: "cat died"
  doppelganger_claimed_my_throne:0 "un sosia ha reclamato il mio trono"
  doppelganger_claimed_my_throne_failed:0 "un sosia non è riuscito a reclamare il mio trono"
  endured_storm:0 "colto da una terribile tempesta"
@@ -632,7 +631,7 @@
  witnessed_death_battle_bad:0 "$witnessed_death_battle_good$"
  witnessed_death_battle_bad_killer:0 "$witnessed_death_battle_good$"
  married:0 "sposato"
- ascended_throne_memory:0 "asceso al trono"
+ ascended_throne_memory:0 "asceso al trono" #controllare_modifica
  ascended_throne_memory_desc_intro: "Ho ottenuto il titolo di [ROOT.Var('landed_title').Title.GetBaseName]"
  ascended_throne_memory_desc_intro_conquest: "Ho conquistato il titolo di [ROOT.Var('landed_title').Title.GetBaseName]"
  ascended_throne_memory_desc_intro_inheritance: "Ho ereditato il titolo di [ROOT.Var('landed_title').Title.GetBaseName]"
@@ -750,7 +749,6 @@
  feud_vengeance_cuckold_desc:0 "[relation_victim.Custom('DE_ART_DEF_P_A')] cornifica[relation_victim.Custom('DE_END_NOU_S_GS_N')] di [relation_victim.GetFirstName], [relation_cuckolder.GetFirstName], ha ricevuto lo stesso trattamento da parte di [relation_avenger.GetFirstNamePossessive]"
 
  twins_born:0 "nascita dei gemelli"
-
  twins_born_desc_mother_bastard: "ho dato alla luce i miei gemelli, [child.GetFirstName] e [child_2.GetFirstName], fuori dal matrimonio"
  twins_born_desc_mother: "ho dato alla luce i miei gemelli, [child.GetFirstName] e [child_2.GetFirstName]"
  twins_born_desc_bastard: "i miei gemelli, [child.GetFirstName] e [child_2.GetFirstName], sono nati fuori dal matrimonio da mia [owner.Custom2('RelationToMeShort', SCOPE.sC('child').GetMother)], [child.GetMother.GetFirstName]"
@@ -807,22 +805,22 @@
  grand_wedding_got_married_desc_1:1 "mi sono sposat[ROOT.Char.Custom('DE_END_PRO_S_N')] in [GetActivityType('activity_wedding').GetName] con [spouse.GetTitledFirstName]"
  grand_wedding_got_married_desc_second_perspective_1:1 "ti sei sposat[ROOT.Char.Custom('DE_END_PRO_S_N')] in [GetActivityType('activity_wedding').GetName] con [spouse.GetTitledFirstName]"
  grand_wedding_got_married_desc_third_perspective_1:1 "[owner.GetName] si è sposat[owner.Custom('DE_END_PRO_S_N')] in [GetActivityType('activity_wedding').GetName] con [spouse.GetTitledFirstName]"
- 
+
  murder_feast_massacre:0 "Massacro alla festa"
  murder_feast_massacre_desc_1:0 "ho ucciso [victim.GetTitledFirstName] e il suo seguito durante una $feast_type_murder$"
  murder_feast_massacre_desc_second_perspective_1:0 "hai ucciso [victim.GetTitledFirstName] e il suo seguito durante una $feast_type_murder$"
  murder_feast_massacre_desc_third_perspective_1:0 "[owner.GetName] ha ucciso [victim.GetTitledFirstName] e il suo seguito durante una $feast_type_murder$"
- 
+
  murder_feast_solo_kill:0 "Assassinio alla festa"
  murder_feast_solo_kill_desc_1:0 "ho ucciso [victim.GetTitledFirstName] durante una $feast_type_murder$"
  murder_feast_solo_kill_second_perspective_1:0 "hai uciso [victim.GetTitledFirstName] durante una $feast_type_murder$"
  murder_feast_solo_kill_third_perspective_1:0 "[owner.GetName] ha ucciso [victim.GetTitledFirstName] durante una $feast_type_murder$"
- 
+
  murder_feast_goh_survivor:0 "Sopravvissuto all'assassinio"
  murder_feast_goh_survivor_desc_1:0 "sono sopravvissut[ROOT.Char.Custom('DE_END_PRO_S_N')] ad un tentativo di assassinio durante la festa di [host.GetTitledFirstName]"
  murder_feast_goh_survivor_second_perspective_1:0 "sei sopravvissut[ROOT.Char.Custom('DE_END_PRO_S_N')] ad un tentativo di assassinio durante la festa di [host.GetTitledFirstName]"
  murder_feast_goh_survivor_third_perspective_1:0 "[owner.GetName] è sopravvissut[owner.Custom('DE_END_PRO_S_N')] ad un tentativo di assassinio durante la festa di [host.GetTitledFirstName]"
- 
+
  murder_feast_entourage_survivor:0 "$murder_feast_goh_survivor$"
  murder_feast_entourage_survivor_desc_1:0 "$murder_feast_goh_survivor_desc_1$"
  murder_feast_entourage_survivor_second_perspective_1:0 "$murder_feast_goh_survivor_second_perspective_1$"
@@ -857,7 +855,7 @@
  grand_wedding_massacre_survivor_desc_1:0 "sono sopravvissut[ROOT.Char.Custom('DE_END_PRO_S_N')] al $wedding_type_bloody$ organizzato da [host.GetTitledFirstName] per [spouse_1.GetTitledFirstName] e [spouse_2.GetTitledFirstName]"
  grand_wedding_massacre_survivor_desc_second_perspective_1:0 "sei sopravvissut[ROOT.Char.Custom('DE_END_PRO_S_N')] al $wedding_type_bloody$ organizzato da [host.GetTitledFirstName] per [spouse_1.GetTitledFirstName] e [spouse_2.GetTitledFirstName]"
  grand_wedding_massacre_survivor_desc_third_perspective_1:0 "[owner.GetName] è sopravvissut[owner.Custom('DE_END_PRO_S_N')] al $wedding_type_bloody$ organizzato da [host.GetTitledFirstName] per [spouse_1.GetTitledFirstName] e [spouse_2.GetTitledFirstName]"
- 
+
  grand_wedding_massacre_spouse_survivor:0 "$grand_wedding_massacre_survivor$"
  grand_wedding_massacre_spouse_survivor_desc_1:0 "sono sopravvissut[ROOT.Char.Custom('DE_END_PRO_S_N')] al $wedding_type_bloody$ organizzato da [host.GetTitledFirstName] per [spouse_1.GetTitledFirstName] e me stess[ROOT.Char.Custom('DE_END_PRO_S_N')]"
  grand_wedding_massacre_spouse_survivor_second_perspective_1:0 "sei sopravvissut[ROOT.Char.Custom('DE_END_PRO_S_N')] al $wedding_type_bloody$ organizzato da [host.GetTitledFirstName] per [spouse_1.GetTitledFirstName] e te stess[ROOT.Char.Custom('DE_END_PRO_S_N')]"
@@ -867,17 +865,17 @@
  grand_wedding_massacre_desc_1:1 "ho ospitato un $wedding_type_bloody$ per [spouse_1.GetShortUIName] e [spouse_2.GetShortUIName], e ho massacrato tutta la famiglia di [spouse_2.GetTitledFirstNamePossessiveNoTooltip]"
  grand_wedding_massacre_desc_second_perspective_1:1 "hai ospitato un $wedding_type_bloody$ per [spouse_1.GetShortUIName] e [spouse_2.GetShortUIName], e hai massacrato tutta la famiglia di [spouse_2.GetTitledFirstNameNoTooltip]"
  grand_wedding_massacre_desc_third_perspective_1:1 "[owner.GetName] ha ospitato un $wedding_type_bloody$ per [spouse_1.GetShortUIName] e [spouse_2.GetShortUIName], e ha massacrato tutta la famiglia di [spouse_2.GetTitledFirstNameNoTooltip]"
- 
+
  grand_wedding_solo_kill:0 "$grand_wedding_massacre$"
  grand_wedding_solo_kill_desc_1:1 "ho ospitato un $wedding_type_bloody$ per [spouse_1.GetShortUIName] e [spouse_2.GetShortUIName], e ho ucciso [spouse_2.GetTitledFirstName]"
  grand_wedding_solo_kill_desc_second_perspective_1:1 "hai ospitato un $wedding_type_bloody$ per [spouse_1.GetShortUIName] e [spouse_2.GetShortUIName], e hai ucciso [spouse_2.GetTitledFirstName]"
  grand_wedding_solo_kill_desc_third_perspective_1:1 "[owner.GetName] ha ospitato un $wedding_type_bloody$ per [spouse_1.GetShortUIName] e [spouse_2.GetShortUIName], e ha ucciso [spouse_2.GetTitledFirstName]"
- 
+
  grand_wedding_massacre_guest:0 "partecipato ad un $wedding_type_bloody$"
  grand_wedding_massacre_guest_desc_1:0 "ho partecipato ad un $wedding_type_bloody$ per [spouse_1.GetTitledFirstName] e [spouse_2.GetTitledFirstName] e sono sopravvissut[ROOT.Char.Custom('DE_END_PRO_S_N')]"
  grand_wedding_massacre_guest_desc_second_perspective_1:0 "hai partecipato ad un $wedding_type_bloody$ per [spouse_1.GetTitledFirstName] e [spouse_2.GetTitledFirstName] e sei sopravvissut[ROOT.Char.Custom('DE_END_PRO_S_N')]"
  grand_wedding_massacre_guest_desc_third_perspective_1:0 "[owner.GetName] ha partecipato ad un $wedding_type_bloody$ per [spouse_1.GetTitledFirstName] e [spouse_2.GetTitledFirstName] ed è sopravvissut[owner.Custom('DE_END_PRO_S_N')]"
- 
+
  wedding_night_trinket:1 "ricevuto un gingillo affettuoso"
  wedding_night_trinket_desc:1 "ho ricevuto un gingillo affettuoso da [spouse_2.GetTitledFirstName] durante la nostra prima notte di nozze"
  wedding_night_trinket_desc_second_perspective_1:0 "hai ricevuto un gingillo affettuoso da [spouse_2.GetTitledFirstName] durante la vostra prima notte di nozze"
@@ -987,7 +985,7 @@
  house_feud_ended_memory_desc:0 "ho messo fine alla faida della mia famiglia con la Casata [house_head.GetHouse.GetBaseName]"
  house_feud_ended_memory_desc_second_perspective:0 "hai messo fine alla faida della mia famiglia con la Casata [house_head.GetHouse.GetBaseName]"
  house_feud_ended_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] ha messo fine alla faida della sua famiglia con la Casata [house_head.GetHouse.GetBaseName]"
- 
+
  tournament_improved_blade_memory:0 "Lama migliorata"
  tournament_improved_blade_memory_desc:1 "un abile armaiolo ha migliorato la mia lama poco prima di un importante torneo"
  tournament_improved_blade_memory_second_perspective:1 "un abile armaiolo ha migliorato la tua lama poco prima di un importante torneo"
@@ -1025,7 +1023,7 @@
  big_city_visited_desc:0 "ho visitato la grande città di [ROOT.Var('city_location').GetProvince.GetName] durante i miei viaggi"
  big_city_visited_desc_second_perspective:0 "hai visitato la grande città di [ROOT.Var('city_location').GetProvince.GetName] durante i tuoi viaggi"
  big_city_visited_desc_third_perspective:0 "[owner.GetName] ha visitato la grande città di [ROOT.Var('city_location').GetProvince.GetName] durante i suoi viaggi"
- 
+
  tournament_won_contest_memory:0 "Competizione vinta"
  tournament_won_contest_memory_desc_team_host:0 "La mia squadra ha vinto la competizione di [ROOT.Var('contest_type').GetFlagName] durante il mio [GetActivityType( 'activity_tournament' ).GetName]"
  tournament_won_contest_memory_desc_team:1 "La mia squadra ha vinto la competizione di [ROOT.Var('contest_type').GetFlagName] durante il [GetActivityType( 'activity_tournament' ).GetName] di [host.GetTitledFirstName]"
@@ -1062,7 +1060,7 @@
  underwhelming_tour_desc:0 "ho fatto un grande viaggio"
  underwhelming_tour_desc_second_perspective:0 "hai fatto un grande viaggio e l'hai trovato alquanto insoddisfacente"
  underwhelming_tour_desc_third_perspective:0 "[owner.GetTitledFirstName] ha fatto un deludente grande viaggio"
- 
+
  board_games_on_horseback:0 "Giochi da Tavolo a Cavallo"
  board_games_on_horseback_desc:0 "Ho giocato un gioco da tavolo a cavallo con [friend.GetFirstName]"
  board_games_on_horseback_desc_second_perspective:0 "hai giocato un gioco da tavolo a cavallo con [friend.GetFirstName]"
@@ -1109,11 +1107,11 @@
  became_promising_poet_desc:0 "viaggiando per le terre in cui i locali conoscono le storie del mio popolo, ho fatto colpo su [court_owner.GetTitledFirstName] e altri adulti con la mia passione per le nostre canzoni"
  became_promising_poet_desc_second_perspective:0 "viaggiando per le terre in cui i locali conoscono le storie del tuo popolo, hai fatto colpo su [court_owner.GetTitledFirstName] e altri adulti con la tua passione per le canzoni"
  became_promising_poet_desc_third_perspective:0 "viaggiando per le terre in cui i locali conoscono le storie del suo popolo, [owner.GetTitledFirstName] ha fatto colpo su [court_owner.GetTitledFirstName] e altri adulti con la sua passione per le canzoni"
- developed_crush:0 "Si è Pres[owner.Custom('DE_END_PRO_S_N')] una Cotta"
+ developed_crush:0 "Si è Pres[owner.Custom('DE_END_PRO_S_N')] una Cotta" #controllare_modifica
  developed_crush_desc:0 "Ho sviluppato sentimenti romantici per [new_relation.GetTitledFirstName]"
  developed_crush_desc_second_perspective:0 "Hai sviluppato sentimenti romantici per [new_relation.GetTitledFirstName]"
  developed_crush_desc_third_perspective:0 "[owner.GetTitledFirstName|U] ha sviluppato sentimenti romantici per [new_relation.GetTitledFirstName]"
- 
+
  hostage_created_hostage:0 "è diventat[owner.Custom('DE_END_PRO_S_N')] un ostaggio"
  hostage_created_hostage_desc_1:0 "([home_court.Custom('DE_ART_DEF_P_D')]) mi[home_court.Custom('DE_END_PRO_S_N')] [owner.Custom2('RelationToMeShort', SCOPE.sC('home_court'))], [home_court.GetTitledFirstName], mi ha inviato [warden.Custom('IT_NAM_COL5')][warden.GetTitledFirstName] come ostaggio"
  hostage_created_hostage_desc_second_perspective_1:0 "([home_court.Custom('DE_ART_DEF_P_D')]) tu[home_court.Custom('DE_END_PRO_S_N')] [owner.Custom2('RelationToMeShort', SCOPE.sC('home_court'))], [home_court.GetTitledFirstName], ti ha inviato [warden.Custom('IT_NAM_COL5')][warden.GetTitledFirstName] come ostaggio"
@@ -1156,7 +1154,7 @@
  hostage_died_desc_second_perspective_1_known_killer:0 "il tuo ostaggio, [hostage.GetFirstName], [hostage.GetDeathReason]"
  hostage_died_desc_third_perspective_1:3 "l'ostaggio di [owner.GetName], [hostage.GetFirstName], [hostage.GetDeathReasonHideKiller]"
  hostage_died_desc_third_perspective_1_known_killer:0 "'ostaggio di [owner.GetName], [hostage.GetFirstName], [hostage.GetDeathReason]"
- 
+
  became_hostage: "È Diventat[owner.Custom('DE_END_PRO_S_N')] un Ostaggio"
  became_hostage_desc_1: "([home_court.Custom('DE_ART_DEF_P_D')]) mi[home_court.Custom('DE_END_PRO_S_N')] [owner.Custom2('RelationToMeShort', SCOPE.sC('home_court'))], [home_court.GetTitledFirstName], mi ha inviato [warden.Custom('IT_NAM_COL5')][warden.GetTitledFirstName] come ostaggio"
  became_hostage_desc_second_perspective_1: "([home_court.Custom('DE_ART_DEF_P_D')]) tu[home_court.Custom('DE_END_PRO_S_N')] [owner.Custom2('RelationToMeShort', SCOPE.sC('home_court'))], [home_court.GetTitledFirstName], ti ha inviato [warden.Custom('IT_NAM_COL5')][warden.GetTitledFirstName] come ostaggio"
@@ -1230,12 +1228,12 @@
  escaped_from_prison_desc_second_perspective: "sei scappat[owner.Custom('DE_END_PRO_S_N')] dalla prigionia di [imprisoner.GetName]"
  escaped_from_prison_desc_third_perspective: "[owner.GetName] è scappat[owner.Custom('DE_END_PRO_S_N')] dalla prigionia di [imprisoner.GetName]"
 
- became_acclaimed: "È Diventato un [liege.Custom('KnightCultureNoTooltip')|U] Acclamato"
+ became_acclaimed: "È Diventato un [liege.Custom('KnightCultureNoTooltip')|U] Acclamato" #controllare_modifica
  became_acclaimed_desc: "Ho preso il mantello di un encomio distinto e sono diventat[owner.Custom('DE_END_PRO_S_N')] conosciut[owner.Custom('DE_END_PRO_S_N')] tra i [liege.Custom('KnightCulturePluralNoTooltip')|l]"
  became_acclaimed_desc_second_perspective: "hai preso il mantello di un encomio distinto e sei diventat[owner.Custom('DE_END_PRO_S_N')] conosciut[owner.Custom('DE_END_PRO_S_N')] tra i [liege.Custom('KnightCulturePluralNoTooltip')|l]"
  became_acclaimed_desc_third_perspective: "[owner.GetTitledFirstName] ha preso il mantello di un encomio distinto ed è diventat[owner.Custom('DE_END_PRO_S_N')] conosciut[owner.Custom('DE_END_PRO_S_N')] tra i [liege.Custom('KnightCulturePluralNoTooltip')|l]"
 
- accolade_created: "Fondatore dell'Encomio"
+ accolade_created: "Fondatore dell'Encomio" #controllare_modifica
  accolade_created_desc: "Sono stato acclamato [liege.Custom('IT_NAM_COL5')][liege.GetTitledFirstName] come [liege.Custom('KnightCultureNoTooltip')|l] distinto tra gli altri"
  accolade_created_desc_second_perspective: "sei stato acclamato [liege.Custom('IT_NAM_COL5')][liege.GetTitledFirstName] come [liege.Custom('KnightCultureNoTooltip')|l] distinto tra gli altri"
  accolade_created_desc_third_perspective: "[owner.GetTitledFirstName] è stato acclamato [liege.Custom('IT_NAM_COL5')][liege.GetTitledFirstName] come [liege.Custom('KnightCultureNoTooltip')|l] distinto tra gli altri"
@@ -1245,7 +1243,7 @@
  stripped_of_accolade_desc_second_perspective: "sei stat[owner.Custom('DE_END_PRO_S_N')] formalmente privat[owner.Custom('DE_END_PRO_S_N')] del tuo encomio, del tuo titolo d'onore, [liege.Custom('IT_NAM_COL5')][liege.GetTitledFirstName]"
  stripped_of_accolade_desc_third_perspective: "[owner.GetTitledFirstName] è stat[owner.Custom('DE_END_PRO_S_N')] formalmente privat[owner.Custom('DE_END_PRO_S_N')] del suo encomio, del suo titolo d'onore, [liege.Custom('IT_NAM_COL5')][liege.GetTitledFirstName]"
 
- accolade_ranked_up: "Ottenuto Rango dell'Encomio"
+ accolade_ranked_up: "Ottenuto Rango dell'Encomio" #controllare_modifica
  accolade_ranked_up_desc: "Le mie imprese marziali sono state riconosciute [liege.Custom('IT_NAM_COL5')][liege.GetTitledFirstName] che mi ha concesso l'autorità tra i suoi [liege.Custom('KnightCulturePluralNoTooltip')|l]"
  accolade_ranked_up_desc_second_perspective: "Le tue imprese marziali sono state riconosciute [liege.Custom('IT_NAM_COL5')][liege.GetTitledFirstName] che ti ha concesso l'autorità tra i suoi [liege.Custom('KnightCulturePluralNoTooltip')|l]"
  accolade_ranked_up_desc_third_perspective: "Le imprese marziali di [owner.GetTitledFirstName] sono state riconosciute [liege.Custom('IT_NAM_COL5')][liege.GetTitledFirstName] che [owner.Custom('DE_PRO_DEM')] ha concesso l'autorità tra i suoi [liege.Custom('KnightCulturePluralNoTooltip')|l]"
@@ -1293,55 +1291,46 @@
  ce1_contracted_black_death_desc_third_perspective: "[owner.GetTitledFirstName] è stat[owner.Custom('DE_END_PRO_S_N')] afflitt[owner.Custom('DE_END_PRO_S_N')] dalla [GetTrait('bubonic_plague').GetNameNoTooltip( GetNullCharacter )]"
 
  byz_held_triumph: "Trionfo"
- byz_held_triumph_desc: "Ho celebrato un trionfo imperiale a [ROOT.Var('triumph_location').GetProvince.GetNameNoTier]"
- byz_held_triumph_desc_second_perspective: "Hai celebrato un trionfo imperiale a [ROOT.Var('triumph_location').GetProvince.GetNameNoTier]"
- byz_held_triumph_desc_third_perspective: "[owner.GetTitledFirstName] ha celebrato un trionfo imperiale a [ROOT.Var('triumph_location').GetProvince.GetNameNoTier]"
-
+ byz_held_triumph_desc: "Ho celebrato un trionfo imperiale a [ROOT.Var('triumph_location').GetProvince.GetNameNoTier]" #controllare_modifica
+ byz_held_triumph_desc_second_perspective: "Hai celebrato un trionfo imperiale a [ROOT.Var('triumph_location').GetProvince.GetNameNoTier]" #controllare_modifica
+ byz_held_triumph_desc_third_perspective: "[owner.GetTitledFirstName] ha celebrato un trionfo imperiale a [ROOT.Var('triumph_location').GetProvince.GetNameNoTier]" #controllare_modifica
  byz_theodosian_border_memory: "Confini Teodosiani Restaurati"
  byz_theodosian_border_memory_desc: "Ho restaurato i confini dell'Impero d'Oriente di Teodosio"
  byz_theodosian_border_memory_desc_second_perspective: "Hai restaurato i confini dell'Impero d'Oriente di Teodosio"
  byz_theodosian_border_memory_desc_third_perspective: "[owner.GetTitledFirstName] ha restaurato i confini dell'Impero d'Oriente di Teodosio"
-
  refounded_pandidakterion_memory: "Rifondato il Pandidakterion"
  refounded_pandidakterion_memory_desc: "Ho rifondato l'Università di Costantinopoli, il Pandidakterion"
  refounded_pandidakterion_memory_desc_second_perspective: "Hai rifondato l'Università di Costantinopoli, il Pandidakterion"
  refounded_pandidakterion_memory_desc_third_perspective: "[owner.GetTitledFirstName] ha rifondato l'Università di Costantinopoli, il Pandidakterion"
-
  western_help_pope: "Incitata una Guerra Santa"
  western_help_pope_desc: "Ho ricevuto aiuto da [pope.GetTitledFirstName] sotto forma di una Guerra Santa contro [enemy.Custom('IT_NAM_COL3')][enemy.GetTitledFirstName]"
  western_help_pope_desc_second_perspective: "Hai ricevuto aiuto da [pope.GetTitledFirstName] sotto forma di una Guerra Santa contro [enemy.Custom('IT_NAM_COL3')][enemy.GetTitledFirstName]"
  western_help_pope_desc_third_perspective: "[owner.Custom('IT_NAM_COL3')][owner.GetTitledFirstName] ha ricevuto aiuto da [pope.GetTitledFirstName] sotto forma di una Guerra Santa contro [enemy.Custom('IT_NAM_COL3')][enemy.GetTitledFirstName]"
-
  western_help_ally: "Aiuto Ricevuto"
  western_help_ally_desc: "Ho ricevuto aiuto militare [ally.Custom('IT_NAM_COL5')][ally.GetTitledFirstName] nella mia guerra contro [enemy.Custom('IT_NAM_COL3')][enemy.GetTitledFirstName]"
  western_help_ally_desc_second_perspective: "Hai ricevuto aiuto militare [ally.Custom('IT_NAM_COL5')][ally.GetTitledFirstName] nella tua guerra contro [enemy.Custom('IT_NAM_COL3')][enemy.GetTitledFirstName]"
  western_help_ally_desc_third_perspective: "[owner.GetTitledFirstName] ha ricevuto aiuto militare [ally.Custom('IT_NAM_COL5')][ally.GetTitledFirstName] nella sua guerra contro [enemy.Custom('IT_NAM_COL3')][enemy.GetTitledFirstName]"
-
  evangelized_memory: "Conversione Riuscita"
  evangelized_memory_desc: "Il mio missionario, [missionary.Custom('IT_NAM_COL3')][missionary.GetTitledFirstName] ha convertito [pagan.Custom('IT_NAM_COL3')][pagan.GetTitledFirstName] alla fede [missionary.GetFaith.GetNameNoTooltip]"
  evangelized_memory_desc_second_perspective: "Il tuo missionario, [missionary.Custom('IT_NAM_COL3')][missionary.GetTitledFirstName] ha convertito [pagan.Custom('IT_NAM_COL3')][pagan.GetTitledFirstName] alla fede [missionary.GetFaith.GetNameNoTooltip]"
  evangelized_memory_desc_third_perspective: "Il missionario di [owner.GetTitledFirstNamePossessive], [missionary.Custom('IT_NAM_COL3')][missionary.GetTitledFirstName], ha convertito [pagan.Custom('IT_NAM_COL3')][pagan.GetTitledFirstName] alla fede [missionary.GetFaith.GetNameNoTooltip]"
-
  was_evangelized_memory: "Conversione"
  was_evangelized_memory_desc: "Sono [Select_CString(owner.IsFemale,'stata convertita','stato convertito')] a [missionary.GetFaith.GetNameNoTooltip] dal missionario di [sender.GetTitledFirstNamePossessive], [missionary.GetTitledFirstName]"
  was_evangelized_memory_desc_second_perspective: "Sei [Select_CString(owner.IsFemale,'stata convertita','stato convertito')] a [missionary.GetFaith.GetNameNoTooltip] dal missionario di [sender.GetTitledFirstNamePossessive], [missionary.GetTitledFirstName]"
  was_evangelized_memory_desc_third_perspective: "[owner.GetTitledFirstName] è [Select_CString(owner.IsFemale,'stata convertita','stato convertito')] alla fede [missionary.GetFaith.GetNameNoTooltip] dal missionario di [sender.GetTitledFirstNamePossessive], [missionary.GetTitledFirstName]"
-
  reformed_ere_memory: "Ricreato [GetTitleByKey('e_byzantium').GetName]"
  reformed_ere_memory_desc: "Ho ricreato [GetTitleByKey('e_byzantium').GetName] dopo la sua distruzione"
  reformed_ere_memory_desc_second_perspective: "Hai ricreato [GetTitleByKey('e_byzantium').GetName] dopo la sua distruzione"
  reformed_ere_memory_desc_third_perspective: "[owner.GetTitledFirstName] ha ricreato [GetTitleByKey('e_byzantium').GetName] dopo la sua distruzione"
-
  found_varangian_memory: "Fondata la Guardia Variaga"
  found_varangian_memory_desc: "Ho fondato la Guardia Variaga"
  found_varangian_memory_desc_second_perspective: "Hai fondato la Guardia Variaga"
  found_varangian_memory_desc_third_perspective: "[owner.GetTitledFirstName] ha fondato la Guardia Variaga"
-
  grain_dole_memory: "Reintrodotta la Distribuzione del Grano a Costantinopoli"
  grain_dole_memory_desc: "Ho reintrodotto la Distribuzione del Grano a Costantinopoli"
  grain_dole_memory_desc_second_perspective: "Hai reintrodotto la Distribuzione del Grano a Costantinopoli"
  grain_dole_memory_desc_third_perspective: "[owner.GetTitledFirstName] ha reintrodotto la Distribuzione del Grano a Costantinopoli"
-
+ 
  seized_realm_memory: "Reame Usurpato"
  seized_realm_memory_desc: "Ho usurpato il [ROOT.Var('realm').GetLandedTitle.GetName] a [deposed.GetTitledFirstNameRegnal]"
  seized_realm_memory_desc_second_perspective: "Hai usurpato il [ROOT.Var('realm').GetLandedTitle.GetName] a [deposed.GetTitledFirstNameRegnal]"
@@ -1391,26 +1380,11 @@
  procured_estate_memory_desc: "with [benefactor.GetTitledFirstNamePossessive] aid, I gave up adventuring for a fine estate and a life of administrative politics"
  procured_estate_memory_desc_second_perspective: "with [benefactor.GetTitledFirstNamePossessive] aid, you gave up adventuring for a fine estate and a life of administrative politics"
  procured_estate_memory_desc_third_perspective: "with [benefactor.GetTitledFirstNamePossessive] aid, [owner.GetFirstName] gave up adventuring for a fine estate and a life of administrative politics"
-
+ 
  found_exotic_animal: "Found Exotic Animal"
  found_exotic_animal_desc_1: "I found the [owner.Custom('DistantLandsLoc')] in [owner.Custom('DistantLandsRegionLoc')], an exotic animal I had been searching for"
  found_exotic_animal_desc_second_perspective_1: "you found the [owner.Custom('DistantLandsLoc')] in [owner.Custom('DistantLandsRegionLoc')], an exotic animal you had been searching for"
  found_exotic_animal_desc_third_perspective_1: "[owner.GetFirstName] found the [owner.Custom('DistantLandsLoc')] in [owner.Custom('DistantLandsRegionLoc')], an exotic animal [owner.GetSheHe] had been searching for"
-
- wedding_infidelity_spouse: "Caught coupling with [owner.Custom2('RelationToMeShort', SCOPE.sC('other_spouse'))]'s [other_spouse.Custom2('RelationToMeShort', SCOPE.sC('in_law'))]"
- wedding_infidelity_spouse_desc: "at our wedding, my [owner.Custom2('RelationToMeShort', SCOPE.sC('other_spouse'))] caught me making love to [in_law.GetTitledFirstName], [other_spouse.GetHerHis] [other_spouse.Custom2('RelationToMeShort', SCOPE.sC('in_law'))]"
- wedding_infidelity_spouse_desc_second_perspective: "at your wedding, your [owner.Custom2('RelationToMeShort', SCOPE.sC('other_spouse'))] caught you making love to [in_law.GetTitledFirstName], [other_spouse.GetHerHis] [other_spouse.Custom2('RelationToMeShort', SCOPE.sC('in_law'))]"
- wedding_infidelity_spouse_desc_third_perspective: "at their wedding, [owner.GetFirstNamePossessive] [owner.Custom2('RelationToMeShort', SCOPE.sC('other_spouse'))] caught [owner.GetHerHim] making love to [in_law.GetTitledFirstName], [other_spouse.GetHerHis] [other_spouse.Custom2('RelationToMeShort', SCOPE.sC('in_law'))]"
-
- wedding_infidelity_kin: "Caught coupling with [owner.Custom2('RelationToMeShort', SCOPE.sC('kin_spouse'))]'s [kin_spouse.Custom2('RelationToMeShort', SCOPE.sC('sex_spouse'))]"
- wedding_infidelity_kin_desc: "at my [owner.Custom2('RelationToMeShort', SCOPE.sC('kin_spouse'))] [kin_spouse.GetFirstNamePossessive] wedding, [kin_spouse.GetSheHe] caught me making love to [sex_spouse.GetTitledFirstName], [kin_spouse.GetHerHis] [kin_spouse.Custom2('RelationToMeShort', SCOPE.sC('sex_spouse'))]"
- wedding_infidelity_kin_desc_second_perspective: "at your [owner.Custom2('RelationToMeShort', SCOPE.sC('kin_spouse'))] [kin_spouse.GetFirstNamePossessive] wedding, [kin_spouse.GetSheHe] caught you making love to [sex_spouse.GetTitledFirstName], [kin_spouse.GetHerHis] [kin_spouse.Custom2('RelationToMeShort', SCOPE.sC('sex_spouse'))]"
- wedding_infidelity_kin_desc_third_perspective: "at [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('kin_spouse'))] [kin_spouse.GetFirstNamePossessive] wedding, [owner.GetFirstName] was caught you making love to [sex_spouse.GetTitledFirstName], [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('kin_spouse'))] [kin_spouse.Custom2('RelationToMeShort', SCOPE.sC('sex_spouse'))]"
-
- wedding_infidelity_victim: "Caught [owner.Custom2('RelationToMeShort', SCOPE.sC('other_spouse'))] coupling with [owner.Custom2('RelationToMeShort', SCOPE.sC('in_law'))]"
- wedding_infidelity_victim_desc: "at our wedding, I caught my [owner.Custom2('RelationToMeShort', SCOPE.sC('other_spouse'))] [other_spouse.GetFirstName] making love to my [owner.Custom2('RelationToMeShort', SCOPE.sC('in_law'))], [other_spouse.GetTitledFirstName]"
- wedding_infidelity_victim_desc_second_perspective: "at your wedding, you caught your [owner.Custom2('RelationToMeShort', SCOPE.sC('other_spouse'))] [other_spouse.GetFirstName] making love to your [owner.Custom2('RelationToMeShort', SCOPE.sC('in_law'))], [other_spouse.GetTitledFirstName]"
- wedding_infidelity_victim_desc_third_perspective: "at [owner.GetHerHis] wedding, [owner.GetFirstName] caught [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('other_spouse'))] [other_spouse.GetFirstName] making love to [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('in_law'))], [other_spouse.GetTitledFirstName]"
 
  sent_predecessors_head_memory: "Sent Predecessor's Head"
  sent_predecessors_head_memory_desc: "I was sent the bloody head of my [owner.Custom2('RelationToMeShort', victim)], [victim.GetTitledFirstName], by the malevolent [executioner.GetTitledFirstName]"
@@ -1457,7 +1431,7 @@
  wedding_infidelity_victim_desc: "at our wedding, I caught my [owner.Custom2('RelationToMeShort', SCOPE.sC('other_spouse'))] [other_spouse.GetFirstName] making love to my [owner.Custom2('RelationToMeShort', SCOPE.sC('in_law'))], [other_spouse.GetTitledFirstName]"
  wedding_infidelity_victim_desc_second_perspective: "at your wedding, you caught your [owner.Custom2('RelationToMeShort', SCOPE.sC('other_spouse'))] [other_spouse.GetFirstName] making love to your [owner.Custom2('RelationToMeShort', SCOPE.sC('in_law'))], [other_spouse.GetTitledFirstName]"
  wedding_infidelity_victim_desc_third_perspective: "at [owner.GetHerHis] wedding, [owner.GetFirstName] caught [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('other_spouse'))] [other_spouse.GetFirstName] making love to [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('in_law'))], [other_spouse.GetTitledFirstName]"
- became_blood_brother: "Became blood brother"
+ became_blood_brother: "Became blood brother" #controllare_modifica
  became_blood_brother_desc: "I swore an oath of blood kinship with [blood_brother.GetFullName]"
  became_blood_brother_desc_second_perspective: "you swore an oath of blood kinship with [blood_brother.GetFullName]"
  became_blood_brother_desc_third_perspective: "[owner.GetName] swore an oath of blood kinship with [blood_brother.GetFullName]"
@@ -1516,3 +1490,173 @@
  gok_won_defiance_war_attackers_desc: "I stood in the coalition against [gurkhan.GetNamePossessive] claim to being Khan of all, but fell beneath [gurkhan.GetHerHis] onslaught"
  gok_won_defiance_war_attackers_desc_second_perspective: "you stood in the coalition against [gurkhan.GetNamePossessive] claim to being Khan of all, but fell beneath [gurkhan.GetHerHis] onslaught"
  gok_won_defiance_war_attackers_desc_third_perspective: "[owner.GetName] stood in the coalition against [gurkhan.GetNamePossessive] claim to being Khan of all, but fell beneath [gurkhan.GetHerHis] onslaught"
+
+ calmed_the_coronation_crowd_memory: "Calmed the Mob"
+ calmed_the_coronation_crowd_memory_desc: "I averted a catastrophe by talking down a riotous crowd at my coronation"
+ calmed_the_coronation_crowd_memory_desc_second_perspective: "You averted a catastrophe by talking down a riotous crowd at your coronation"
+ calmed_the_coronation_crowd_memory_desc_third_perspective: "[owner.GetTitledFirstName] averted a catastrophe by talking down a riotous crowd at [owner.GetHerHis] coronation"
+
+ injured_in_crowd_crush_at_coronation_memory: "Nearly Trampled to Death by a Mob"
+ injured_in_crowd_crush_at_coronation_memory_desc: "I was nearly crushed in a panicked mob at the [GetActivityType('activity_coronation').GetName] of my [owner.Custom2('RelationToMeShort', SCOPE.sC('coronation_host'))], [coronation_host.GetTitledFirstName]"
+ injured_in_crowd_crush_at_coronation_memory_desc_second_perspective: "You were nearly crushed in a panicked mob at the [GetActivityType('activity_coronation').GetName] of your [owner.Custom2('RelationToMeShort', SCOPE.sC('coronation_host'))], [coronation_host.GetTitledFirstName]"
+ injured_in_crowd_crush_at_coronation_memory_desc_third_perspective: "[owner.GetTitledFirstName] was nearly crushed in a panicked mob at the [GetActivityType('activity_coronation').GetName] of [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('coronation_host'))], [coronation_host.GetTitledFirstName]"
+
+ defeated_detractor_in_drinking_contest_memory: "Defeated Detractor in a Drinking Contest"
+ defeated_detractor_in_drinking_contest_memory_desc: "I defeated my [owner.Custom2('RelationToMeShort', SCOPE.sC('detractor'))] [detractor.GetShortUIName] in a drinking competition during my coronation, proving my mettle to the realm"
+ defeated_detractor_in_drinking_contest_memory_desc_second_perspective: "You defeated your [owner.Custom2('RelationToMeShort', SCOPE.sC('detractor'))] [detractor.GetShortUIName] in a drinking competition during your coronation, proving your mettle to the realm"
+ defeated_detractor_in_drinking_contest_memory_desc_third_perspective: "[owner.GetTitledFirstName] defeated [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('detractor'))] [detractor.GetShortUIName] in a drinking competition during [owner.GetHerHis] coronation, proving [owner.GetHerHis] mettle to the realm"
+
+ was_caught_cheating_in_drinking_contest_memory: "Was Caught Cheating in a Drinking Contest"
+ was_caught_cheating_in_drinking_contest_memory_desc: "I was caught poisoning my [owner.Custom2('RelationToMeShort', detractor)], [detractor.GetTitledFirstName] to win a drinking competition"
+ was_caught_cheating_in_drinking_contest_memory_desc_second_perspective: "You were caught poisoning your [owner.Custom2('RelationToMeShort', detractor)], [detractor.GetTitledFirstName] to win a drinking competition"
+ was_caught_cheating_in_drinking_contest_memory_desc_third_perspective: "[owner.GetTitledFirstName] was caught poisoning [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('detractor'))], [detractor.GetTitledFirstName] to win a drinking competition"
+
+ got_the_city_drunk_memory: "Got the City Drunk"
+ got_the_city_drunk_memory_desc: "I convinced my [owner.Custom2('RelationToMeShort', SCOPE.sC('baron'))], [baron.GetTitledFirstName], to help me buy enough drinks to get all of [ROOT.Var('drunk_city_location').GetProvince.GetName] drunk for [coronation_host.GetTitledFirstNamePossessive] coronation feast"
+ got_the_city_drunk_memory_desc_second_perspective: "You convinced your [owner.Custom2('RelationToMeShort', SCOPE.sC('baron'))], [baron.GetTitledFirstName], to help you buy enough drinks to get all of [ROOT.Var('drunk_city_location').GetProvince.GetName] drunk for [coronation_host.GetTitledFirstNamePossessive] coronation feast"
+ got_the_city_drunk_memory_desc_third_perspective: "[owner.GetTitledFirstName] convinced [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('baron'))], [baron.GetTitledFirstName], to help [owner.GetHerHim] buy enough drinks to get all of [ROOT.Var('drunk_city_location').GetProvince.GetName] drunk for [coronation_host.GetTitledFirstNamePossessive] coronation feast"
+
+ promised_to_defend_confederation_memory: "Promised to Defend the Confederation"
+ promised_to_defend_confederation_memory_desc: "I swore to [liege.GetName] to always raise my warbands in defense of our confederation"
+ promised_to_defend_confederation_memory_desc_second_perspective: "You swore to [liege.GetName] to always raise your warbands in defense of your confederation"
+ promised_to_defend_confederation_memory_desc_third_perspective: "[owner.GetName] swore to [liege.GetName] to always raise [owner.GetHerHis] warbands in defense of their confederation."
+
+ offered_realm_to_confederation_memory: "Devoted Realm to the Confederation"
+ offered_realm_to_confederation_memory_desc: "In a pledge to [liege.GetName], I promised my lands to the confederation for all eternity"
+ offered_realm_to_confederation_memory_desc_second_perspective: "In a pledge to [liege.GetName], you promised your lands to the confederation for all eternity"
+ offered_realm_to_confederation_memory_desc_third_perspective: ""In a pledge to [liege.GetName], [owmer.GetName] promised [owner.GetHerHis] lands to the confederation for all eternity""
+
+ held_a_coronation_memory: "Held a Coronation"
+ held_a_coronation_memory_desc: "I was properly crowned by [coronator.GetTitledFirstName] as the rightful [owner.GetTitleAsNameNoTooltip] of the [owner.GetPrimaryTitle.GetName]"
+ held_a_coronation_memory_desc_second_perspective: "You were properly crowned by [coronator.GetTitledFirstName] as the rightful [owner.GetTitleAsNameNoTooltip] of the [owner.GetPrimaryTitle.GetName]"
+ held_a_coronation_memory_desc_third_perspective: "[owner.GetTitledFirstName] was properly crowned by [coronator.GetTitledFirstName] as the rightful [owner.GetTitleAsNameNoTooltip] of the [owner.GetPrimaryTitle.GetName]"
+
+ crowned_by_hof_memory: "Crowned by [hof.GetTitleAsNameNoTooltip]"
+ crowned_by_hof_memory_desc: "I was crowned and blessed by [hof.GetTitledFirstName] as the rightful [owner.GetTitleAsNameNoTooltip] of the [owner.GetPrimaryTitle.GetName]"
+ crowned_by_hof_memory_desc_second_perspective: "You were crowned and blessed by [hof.GetTitledFirstName] as the rightful [owner.GetTitleAsNameNoTooltip] of the [owner.GetPrimaryTitle.GetName]"
+ crowned_by_hof_memory_desc_third_perspective: "[owner.GetTitledFirstName] was crowned and blessed by [hof.GetTitledFirstName] as the rightful [owner.GetTitleAsNameNoTooltip] of the [owner.GetPrimaryTitle.GetName]"
+
+ coronation_coup_memory: "Suffered a Coup During Coronation"
+ coronation_coup_memory_desc: "I suffered a foul coup by [plotter.GetTitledFirstName] while I was in my Coronation"
+ coronation_coup_memory_desc_second_perspective: "You suffered a foul coup by [plotter.GetTitledFirstName] while you were in your Coronation"
+ coronation_coup_memory_desc_third_perspective: "[owner.GetTitledFirstName] suffered a foul coup by [plotter.GetTitledFirstName] while [owner.GetSheHe] was in [owner.GetHerHis] Coronation"
+
+ reconquest_oath_memory: "Swore a Reconquest Oath"
+ reconquest_oath_memory_desc: "I swore a Reconquest Oath during my Coronation"
+ reconquest_oath_memory_desc_second_perspective: "You swore a Reconquest Oath during your Coronation"
+ reconquest_oath_memory_desc_third_perspective: "[owner.GetTitledFirstName] swore a Reconquest Oath during [owner.GetHerHis] Coronation"
+
+ conquest_oath_memory: "Swore a Conquest Oath"
+ conquest_oath_memory_desc: "I swore a Conquest Oath during my Coronation"
+ conquest_oath_memory_desc_second_perspective: "You swore a Conquest Oath during your Coronation"
+ conquest_oath_memory_desc_third_perspective: "[owner.GetTitledFirstName] swore a Conquest Oath during [owner.GetHerHis] Coronation"
+
+ held_coronation_object_memory: "Had an Important Role in [host.GetTitledFirstNamePossessiveNoTooltip] Coronation"
+ held_coronation_object_memory_desc: "I had an important role in [host.GetTitledFirstNamePossessive] Coronation"
+ held_coronation_object_memory_desc_second_perspective: "You had an important role in [host.GetTitledFirstNamePossessive] Coronation"
+ held_coronation_object_memory_desc_third_perspective: "[owner.GetTitledFirstName] had an important role in [host.GetTitledFirstNamePossessive] Coronation"
+
+ coronation_highlighted_memory: "Was Highlighted at the Dance on [host.GetTitledFirstNamePossessiveNoTooltip] Coronation"
+ coronation_highlighted_memory_desc: "I was highlighted at the dance on [host.GetTitledFirstNamePossessive] Coronation"
+ coronation_highlighted_memory_desc_second_perspective: "You were highlighted at the dance on [host.GetTitledFirstNamePossessive] Coronation"
+ coronation_highlighted_memory_desc_third_perspective: "[owner.GetTitledFirstName] were highlighted at the dance on [host.GetTitledFirstNamePossessive] Coronation"
+
+ found_coronation_token_memory: "Found a Token Inside [host.GetTitledFirstNamePossessiveNoTooltip] Coronation Cake"
+ found_coronation_token_memory_desc: "I managed to find the hidden token inside [host.GetTitledFirstNamePossessive] Coronation Cake"
+ found_coronation_token_memory_desc_second_perspective: "You managed to find the hidden token inside [host.GetTitledFirstNamePossessive] Coronation Cake"
+ found_coronation_token_memory_desc_third_perspective: "[owner.GetTitledFirstName] managed to find the hidden token inside [host.GetTitledFirstNamePossessive] Coronation Cake"
+ 
+ witnessed_a_coronation_memory: "Witnessed [host.GetTitledFirstNamePossessiveNoTooltip] Coronation"
+ witnessed_a_coronation_memory_desc: "I witnessed [host.GetTitledFirstNamePossessive] Coronation"
+ witnessed_a_coronation_memory_desc_second_perspective: "You witnessed [host.GetTitledFirstNamePossessive] Coronation"
+ witnessed_a_coronation_memory_desc_third_perspective: "[owner.GetTitledFirstName] witnessed [host.GetTitledFirstNamePossessive] Coronation"
+
+ coronation_cultural_acceptance_memory: "Coronation Cultural Endeavor Succeeded"
+ coronation_cultural_acceptance_memory_desc: "I successfully improved the relation between [owner.GetCulture.GetCollectiveNoun] and [host.GetCulture.GetCollectiveNoun] during [host.GetTitledFirstNamePossessive] Coronation"
+ coronation_cultural_acceptance_memory_desc_second_perspective: "You successfully improved the relation between [owner.GetCulture.GetCollectiveNoun] and [host.GetCulture.GetCollectiveNoun] during [host.GetTitledFirstNamePossessive] Coronation"
+ coronation_cultural_acceptance_memory_desc_third_perspective: "[owner.GetTitledFirstName] successfully improved the relation between [owner.GetCulture.GetCollectiveNoun] and [host.GetCulture.GetCollectiveNoun] during [host.GetTitledFirstNamePossessive] Coronation"
+
+ coronation_piety_memory: "Wished Blessings Upon [host.GetTitledFirstNamePossessiveNoTooltip] Coronation"
+ coronation_piety_memory_desc: "I went to [host.GetTitledFirstNamePossessive] Coronation and spread the blessings of [owner.GetFaith.HighGodName]"
+ coronation_piety_memory_desc_second_perspective: "You went to [host.GetTitledFirstNamePossessive] Coronation and spread the blessings of [owner.GetFaith.HighGodName]"
+ coronation_piety_memory_desc_third_perspective: "[owner.GetTitledFirstName] went to [host.GetTitledFirstNamePossessive] Coronation and spread the blessings of [owner.GetFaith.HighGodName]"
+
+ coronation_legitimacy_memory: "Got Honored at [host.GetTitledFirstNamePossessive] Coronation"
+ coronation_legitimacy_memory_desc: "I went to [host.GetTitledFirstNamePossessive] Coronation and was honored by the host [host.GetHerselfHimself]"
+ coronation_legitimacy_memory_desc_second_perspective: "You went to [host.GetTitledFirstNamePossessive] Coronation and was honored by the host [host.GetHerselfHimself]"
+ coronation_legitimacy_memory_desc_third_perspective: "[owner.GetTitledFirstName] went to [host.GetTitledFirstNamePossessive] Coronation and was honored by the host [host.GetHerselfHimself]"
+
+ coronation_opinion_memory: "Was Well Received by [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+ coronation_opinion_memory_desc: "I went to [host.GetTitledFirstNamePossessive] Coronation and was well received by the host [host.GetHerselfHimself]"
+ coronation_opinion_memory_desc_second_perspective: "You went to [host.GetTitledFirstNamePossessive] Coronation and was well received by the host [host.GetHerselfHimself]"
+ coronation_opinion_memory_desc_third_perspective: "[owner.GetTitledFirstName] went to [host.GetTitledFirstNamePossessive] Coronation and was well received by the host [host.GetHerselfHimself]"
+
+ coronation_friend_memory: "Made Friends With [host.GetTitledFirstNameNoTooltip] At [host.GetHerHis] Coronation"
+ coronation_friend_memory_desc: "I made friends with [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+ coronation_friend_memory_desc_second_perspective: "You made friends with [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+ coronation_friend_memory_desc_third_perspective: "[owner.GetTitledFirstName] made friends with [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+
+ coronation_alliance_memory: "Became Allies With [host.GetTitledFirstNameNoTooltip] At [host.GetHerHis] Coronation"
+ coronation_alliance_memory_desc: "I became allies with [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+ coronation_alliance_memory_desc_second_perspective: "You became allies with [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+ coronation_alliance_memory_desc_third_perspective: "[owner.GetTitledFirstName] became allies with [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+
+ coronation_development_memory: "Encouraged the Development of [owner.GetPrimaryTitle.GetNameNoTierNoTooltip] at [host.GetTitledFirstNamePossessiveNoTooltip] Coronation"
+ coronation_development_memory_desc: "I encouraged the development of [owner.GetPrimaryTitle.GetNameNoTier] at [host.GetTitledFirstNamePossessive] Coronation"
+ coronation_development_memory_desc_second_perspective: "You encouraged the development of [owner.GetPrimaryTitle.GetNameNoTier] at [host.GetTitledFirstNamePossessive] Coronation"
+ coronation_development_memory_desc_third_perspective: "[owner.GetTitledFirstName] encouraged the development of [owner.GetPrimaryTitle.GetNameNoTier] at [host.GetTitledFirstNamePossessive] Coronation"
+
+ coronation_control_memory: "Encouraged the Law Enforcement of [owner.GetPrimaryTitle.GetNameNoTierNoTooltip] at [host.GetTitledFirstNamePossessiveNoTooltip] Coronation"
+ coronation_control_memory_desc: "I encouraged the law enforcement of [owner.GetPrimaryTitle.GetNameNoTier] at [host.GetTitledFirstNamePossessive] Coronation"
+ coronation_control_memory_desc_second_perspective: "You encouraged the law enforcement of [owner.GetPrimaryTitle.GetNameNoTier] at [host.GetTitledFirstNamePossessive] Coronation"
+ coronation_control_memory_desc_third_perspective: "[owner.GetTitledFirstName] encouraged the law enforcement of [owner.GetPrimaryTitle.GetNameNoTier] at [host.GetTitledFirstNamePossessive] Coronation"
+
+ coronation_popular_opinion_memory: "Encouraged Attention to the People of [owner.GetPrimaryTitle.GetNameNoTierNoTooltip] at [host.GetTitledFirstNamePossessive] Coronation"
+ coronation_popular_opinion_memory_desc: "I encouraged attention to the people of [owner.GetPrimaryTitle.GetNameNoTier] at [host.GetTitledFirstNamePossessive] Coronation"
+ coronation_popular_opinion_memory_desc_second_perspective: "You encouraged attention to the people of [owner.GetPrimaryTitle.GetNameNoTier] at [host.GetTitledFirstNamePossessive] Coronation"
+ coronation_popular_opinion_memory_desc_third_perspective: "[owner.GetTitledFirstName] encouraged attention to the people of [owner.GetPrimaryTitle.GetNameNoTier] at [host.GetTitledFirstNamePossessive] Coronation"
+
+ coronation_hook_memory: "Gained the Favor of [host.GetTitledFirstNameNoTooltip] at [host.GetHerHis] Coronation"
+ coronation_hook_memory_desc: "I gained the favor of [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+ coronation_hook_memory_desc_second_perspective: "You gained the favor of [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+ coronation_hook_memory_desc_third_perspective: "[owner.GetTitledFirstName] gained the favor of [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+
+ coronation_vassal_levies_memory: "Reduced Military Obligations at [host.GetTitledFirstNamePossessiveNoTooltip] Coronation"
+ coronation_vassal_levies_memory_desc: "I reduced my military obligations to [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+ coronation_vassal_levies_memory_desc_second_perspective: "You reduced your military obligations to [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+ coronation_vassal_levies_memory_desc_third_perspective: "[owner.GetTitledFirstName] reduced [owner.GetHerHis] military obligations to [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+
+ coronation_vassal_taxes_memory: "Reduced Taxes at [host.GetTitledFirstNamePossessiveNoTooltip] Coronation"
+ coronation_vassal_taxes_memory_desc: "I was granted a tax reduction to [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+ coronation_vassal_taxes_memory_desc_second_perspective: "You were granted a tax reduction to [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+ coronation_vassal_taxes_memory_desc_third_perspective: "[owner.GetTitledFirstName] was granted a tax reduction to [host.GetTitledFirstName] at [host.GetHerHis] Coronation"
+
+ coronation_gold_memory: "Gained Financial Advantages at [host.GetTitledFirstNamePossessiveNoTooltip] Coronation"
+ coronation_gold_memory_desc: "[host.GetTitledFirstName|U] has granted me a grand gift of gold at [host.GetHerHis] Coronation"
+ coronation_gold_memory_desc_second_perspective: "[host.GetTitledFirstName|U] has granted you a grand gift of gold at [host.GetHerHis] Coronation"
+ coronation_gold_memory_desc_third_perspective: "[host.GetTitledFirstName|U] has granted [owner.GetTitledFirstName] a grand gift of gold at [host.GetHerHis] Coronation"
+
+ coronation_prestige_memory: "Lifted to a Prestigious Standing at [host.GetTitledFirstNamePossessiveNoTooltip] Coronation"
+ coronation_prestige_memory_desc: "[host.GetTitledFirstName|U] has lifted me to a prestigious standing at [host.GetHerHis] Coronation"
+ coronation_prestige_memory_desc_second_perspective: "[host.GetTitledFirstName|U] has lifted you to a prestigious standing at [host.GetHerHis] Coronation"
+ coronation_prestige_memory_desc_third_perspective: "[host.GetTitledFirstName|U] has lifted [owner.GetTitledFirstName] to a prestigious standing at [host.GetHerHis] Coronation"
+
+ coronation_claim_memory: "Got a Claim at [host.GetTitledFirstNamePossessiveNoTooltip] Coronation"
+ coronation_claim_memory_desc: "[host.GetTitledFirstName|U] has granted me a claim at [host.GetHerHis] Coronation"
+ coronation_claim_memory_desc_second_perspective: "[host.GetTitledFirstName|U] has granted you a claim at [host.GetHerHis] Coronation"
+ coronation_claim_memory_desc_third_perspective: "[host.GetTitledFirstName|U] has granted [owner.GetTitledFirstName] a claim at [host.GetHerHis] Coronation"
+
+ coronation_faction_discontent_memory: "Got Faction Recognition at [host.GetTitledFirstNamePossessiveNoTooltip] Coronation"
+ coronation_faction_discontent_memory_desc: "I managed to get [host.GetTitledFirstName] to recognize an important faction at [host.GetHerHis] Coronation"
+ coronation_faction_discontent_memory_desc_second_perspective: "You managed to get [host.GetTitledFirstName] to recognize an important faction at [host.GetHerHis] Coronation""
+ coronation_faction_discontent_memory_desc_third_perspective: "[owner.GetTitledFirstName] managed to get [host.GetTitledFirstName] to recognize an important faction at [host.GetHerHis] Coronation""
+
+ coronation_faction_members_memory: "Got Faction Members Recognition at [host.GetTitledFirstNamePossessiveNoTooltip] Coronation"
+ coronation_faction_members_memory_desc: "I managed to get [host.GetTitledFirstName] to recognize the importance of the members of a faction at [host.GetHerHis] Coronation"
+ coronation_faction_members_memory_desc_second_perspective: "You managed to get [host.GetTitledFirstName] to recognize the importance of the members of a faction at [host.GetHerHis] Coronation"
+ coronation_faction_members_memory_desc_third_perspective: "[owner.GetTitledFirstName] managed to get [host.GetTitledFirstName] to recognize the importance of the members of a faction at [host.GetHerHis] Coronation"
+
+ coronation_magnificence_loss_memory: "Made [host.GetTitledFirstNamePossessiveNoTooltip] Realize [host.GetSheHe] Is a Farce During [host.GetHerHis] Coronation"
+ coronation_magnificence_loss_memory_desc: "I managed to get [host.GetTitledFirstName] to recognize how much of a farce [host.GetSheHe] is during [host.GetHerHis] Coronation"
+ coronation_magnificence_loss_memory_desc_second_perspective: "You managed to get [host.GetTitledFirstName] to recognize how much of a farce [host.GetSheHe] is during [host.GetHerHis] Coronation"
+ coronation_magnificence_loss_memory_desc_third_perspective: "[owner.GetTitledFirstName] managed to get [host.GetTitledFirstName] to recognize how much of a farce [host.GetSheHe] is during [host.GetHerHis] Coronation"

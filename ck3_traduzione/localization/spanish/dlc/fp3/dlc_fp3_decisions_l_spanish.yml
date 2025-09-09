@@ -250,7 +250,7 @@ sponsor_civil_research_tooltip: ""
  favour_skilled_outsiders_decision.tt.promote_minorities_from_within_realm: "Assumi [characters|E] competenti che non appartengono a una delle [cultures|E] dominanti nel tuo [council|E]"
  favour_skilled_outsiders_decision.tt.two_batches_to_choose_from: "Potrai scegliere tra due gruppi di potenziali reclute"
  favour_skilled_outsiders_decision.tt.upset_elites.courtly_non_heritage: "Ogni [vassal|E] [GetVassalStance( 'courtly' ).GetName][GetVassalStance( 'courtly' ).GetTextIcon] che non ha alcun [heritage|E] in comune"
-#È implicito che si tratti di tutti i consiglieri senza terra, altrimenti non si potrebbe prendere la decisione, ma lo diciamo per chiarezza/coerenza.
+ # It's implicit that this'd be every landless councillor or you couldn't take the decision, but we say it for clarity/consistency.
  favour_skilled_outsiders_decision.tt.upset_elites.landless_councillor_non_heritage: "Ogni [councillor|E] senza terra che non ha alcun [heritage|E] in comune"
  favour_skilled_outsiders_decision.tt.upset_elites.non_courtly_non_heritage: "Ogni [vassal|E] non-[GetVassalStance( 'courtly' ).GetName] che non ha alcun [heritage|E] in comune"
 

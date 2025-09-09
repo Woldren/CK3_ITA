@@ -118,7 +118,6 @@
  ACTIVITY_GUEST_CHARIOTEER_REASON: "[ROOT.Char.GetSheHe|U] è un cocchiere: $VALUE|=+0$"
  ACTIVITY_GUEST_EUNUCH_REASON: "[ROOT.Char.GetSheHe|U] è un Eunuco: $VALUE|=+0$"
  ACTIVITY_GUEST_BORN_IN_THE_PURPLE_REASON: "[ROOT.Char.GetSheHe|U] è [GetTrait('born_in_the_purple').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
- 
 
  # Tournament Options
  ACTIVITY_GUEST_OPTIONS_TOURNAMENT_ACCOMMODATIONS_BAD:0 "$tournament_accommodations_bad$: $VALUE|=+0$"
@@ -153,15 +152,21 @@
  ACTIVITY_GUEST_OPTION_FEAST_COURSES_BAD:0 "$feast_courses_bad$: $VALUE|=+0$"
  ACTIVITY_GUEST_OPTION_FEAST_COURSES_NORMAL:0 "$feast_courses_normal$: $VALUE|=+0$"
  ACTIVITY_GUEST_OPTION_FEAST_COURSES_GOOD:0 "$feast_courses_good$: $VALUE|=+0$"
- 
+
  # Chariot Race Options
  ACTIVITY_GUEST_OPTIONS_CHARIOT_RACE_ENTERTAINMENT_BAD: "$chariot_entertainment_bad$: $VALUE|=+0$"
  ACTIVITY_GUEST_OPTIONS_CHARIOT_RACE_ENTERTAINMENT_NORMAL: "$chariot_entertainment_normal$: $VALUE|=+0$"
  ACTIVITY_GUEST_OPTIONS_CHARIOT_RACE_ENTERTAINMENT_GOOD: "$chariot_entertainment_good$: $VALUE|=+0$"
- 
+
  # Plagues
  ACTIVITY_GUEST_EPIDEMIC_REASON: "[ROOT.Char.Custom('DE_ART_IND_A')|U] non viaggerà durante un $travel_danger_type_epidemic$: $VALUE|=+0$"
  ACTIVITY_GUEST_EPIDEMIC_APOCALYPTIC_REASON: "[ROOT.Char.Custom('DE_ART_IND_A')|U] non viaggerà durante un $game_concept_plague_apocalyptic$ $travel_danger_type_epidemic$: $VALUE|=+0$"
- 
+
  # Camp Party
  ACTIVITY_GUEST_LANDLESS_REASON: "[ROOT.Char.GetSheHe|U] non considera il tuo $activity_camp_party$ abbastanza per [ROOT.Char.GetSheHe]: $VALUE|=+0$"
+
+ ACTIVITY_GUEST_SHORT_TRIP: "[ROOT.Char.GetSheHe|U] has a short travel: $VALUE|=+0$"
+ ACTIVITY_GUEST_VERY_SHORT_TRIP: "[ROOT.Char.GetSheHe|U] has a very short travel: $VALUE|=+0$"
+ ACTIVITY_GUEST_NO_TRAVEL: "[ROOT.Char.GetSheHe|U] lives at the location: $VALUE|=+0$"
+
+ ACTIVITY_GUEST_COURTIER: "Your [courtier|E]: $VALUE|=+0$"

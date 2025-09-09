@@ -732,12 +732,12 @@
  #Ushi-darena
  pilgrimage.5601.t:0 "La Coscienza Divina"
  pilgrimage.5601.desc:0 "Mentre mi trovo sulle pendici del monte Ushi-darena, la vista del corso inferiore si estende davanti a me. Di fronte a questo spettacolo impressionante, non posso fare a meno di pensare a come Zoroastro raggiunse qui la sua illuminazione, ricevendo la Conoscenza da Ahura Mazda per diffonderla nel mondo 'sottostante'. Come la maggior parte dei pellegrini qui presenti, non riesco ad avvertire alcuna scintilla divina di profezia, ma tuttavia non posso fare a meno di meravigliarmi per ciò che posso ammirare dinnanzi a me."
- ###Norse germaniche
+ ###Norse Germanic
  #Paderborn
  pilgrimage.5901.t:0 "Paderborn!"
  pilgrimage.5901.desc:0 "Nelle profondità delle foreste di Paderborn un tempo si trovava Irminsul, la Grande Colonna. Eretta in onore del dio Odino, il monumento fu distrutto da Carlo Magno durante le guerre sassoni, ma il nostro popolo continua comunque ad affollare questo luogo nel quale la colonna si ergeva in onore della sua memoria. Ora anch'io posso dire di esser stat[ROOT.Char.Custom('DE_END_PRO_S_N')] in pellegrinaggio in questo luogo sacro."
  ###Tengri
- #Cieli Blu Aperti
+ #Open Blue Skies
  pilgrimage.5911.t:0 "Cieli Limpidi"
  pilgrimage.5911.desc:1 "Il mondo è il tempio [ROOT.Char.GetFaith.HighGodNamePossessive] e il grande cielo azzurro, più grande del tetto di qualsiasi moschea o chiesa. Qui, nelle stermiante steppe di [ROOT.Char. GetCurrentLocation.GetNameNoTooltip], mi sento particolarmente vicin[ROOT.Char.Custom('DE_END_PRO_S_N')] a [ROOT.Char.GetFaith.PantheonTerm] e mi ritrovo a riflettere sul viaggio che ho intrapreso per poter raggiungere questo luogo sacro."
  ###Sanctity of Nature
@@ -887,7 +887,7 @@
  pilgrimage.6790.a:0 ""Lo sono. Lo #EMP sono#!""
  pilgrimage.6790.b:0 ""Sono più interessat[ROOT.Char.Custom('DE_END_PRO_S_N')] ai tuoi insegnamenti""
  pilgrimage.6790.c:0 ""Non ho proprio bisogno di cambiare #EMP nulla#! di me stess[ROOT.Char.Custom('DE_END_PRO_S_N')].""
-#Entourage member feels The Calling
+ #Entourage member feels The Calling
  pilgrimage.6800.t:0 "La Chiamata"
  pilgrimage.6800.desc:0 "Quando entro nel luogo sacro trovo ([called_member.Custom('DE_ART_DEF_P_A')]/[called_member.Custom('DE_PRO_POS_P_3P')]) [called_member.GetTitledFirstName] che fissa l'altare con un'espressione assente. "[called_member.GetFirstNameNoTooltip]...". [called_member.Custom('DE_PRO_POS_S_3P')] chiamo affinchè possa rinvenire tra noi.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]", risponde [called_member.GetSheHe] imperturbabile, "Ho qualcosa da chiedervi, spero che possiate perdonarmi. Questo luogo ha smosso la mia anima e agitato il mio spirito in un modo che non credevo concepibile.\n\n[called_member.GetFaith.HighGodName] mi ha parlato e la Sua voce è stata chiara, severa, precisa. Continua a parlarmi a parlarmi e a parlarmi ancora — è l'unico suono che riesco a udire ora; tutto il mondo è diventato improvvisamente silenzioso.\n\nSe potessi restare qui, potrei dedicargli/le la mia vita.""
  pilgrimage.6800.a:0 ""Capisco. Fa ciò che devi.""
@@ -911,7 +911,7 @@
  pilgrimage.6820.c:0 "[ROOT.Char.GetFaith.HighGodName] mi guiderà."
  pilgrim_guide_artifact:0 "La Guida del Pellegrino"
  pilgrim_guide_artifact_desc:0 "Un libro che descrive i percorsi più sicuri per un pellegrino, nonchè i punti di interesse nel luogo sacro."
-#Admire the holy site in a religious way
+ #Admire the holy site in a religious way
  pilgrimage.6830.t:0 "Silenzio"
  pilgrimage.6830.desc:0 "L'eco dei miei passi è l'unico suono udibile all'interno della [ROOT.Char.GetFaith.HouseOfWorship]. Sono sol[ROOT.Char.Custom('DE_END_PRO_S_N')].\n\nL'ultima cosa che ricordo del mondo esterno è il volto di quei mendicanti vicino ai cancelli e il cielo azzurro, azzurro. Così distante ora.\n\nCammino verso l'altare e nonostante sia consapevole di essere sol[ROOT.Char.Custom('DE_END_PRO_S_N')], mi sento come fossi sotto esame — gli occhi severi di [ROOT.Char.GetFaith.HighGodName] sono sempre spalancati."
  pilgrimage.6830.a:0 "È ora di pregare."
@@ -987,7 +987,7 @@
  pilgrimage.9010.a_interrupted:0 "Almeno siamo a casa e tutti sani e salvi."
  pilgrimage.9010.a_adventurer: "Perlomeno siamo tornati tutti interi."
  pilgrimage.9010.a.flavor:0 "$pilgrimage.4020.a.flavor$"
-#Follow-up to exotic wares event
+ #Follow-up to exotic wares event
  pilgrimage.9100.t:0 "$pilgrimage_header$ Merci Esotiche"
  pilgrimage.9100.desc_intro:0 "Dopo aver trasportato i miei oggetti esotici da [ROOT.Var('6540_exotic_wares_location').GetProvince.GetName],"
  pilgrimage.9100.desc:0 "devo ora decidere cosa farne.\n\nDovrei venderli per ricavarne un profitto, o magari tenerli come regalo per il mio prossimo complotto personale...?"

@@ -4,13 +4,12 @@
  major_decisions.1001.desc_landless: "\"Servire i nostri simili; cosa significa davvero?\" domando retoricamente, mentre il mio sguardo tagliente scorre sui volti dei miei seguaci attorno alla tavola colma. \"Non è forse amare e prendersi cura di ogni aspetto dell’essere umano?\""
  major_decisions.1001.desc_outro: "\n\n\"Accettando il dono della carne, accettate anche l’amore di [ROOT.Char.GetFaith.HighGodHerHis|U].\"\n\nI servi — quelli che sono ancora con noi — hanno fatto un lavoro meraviglioso; banchettiamo fino a notte fonda, ubriachi di [ROOT.Char.Custom('RegionalDrink')] e del sapore della divinità umana."  
  major_decisions.1001.a:0 "Dammi una mano e passami ancora [ROOT.Char.Custom('RegionalDrink')]!"
- 
- 
- major_decisions.1002.desc_cannibal_landless: "[cannibal.GetName] e il suo [cannibal.Custom('GetCourt')|l] hanno abbracciato pubblicamente le meraviglie del cannibalismo.\n\nNon ignoriamolo — sono estasiato nel sapere che il gusto per la carne si sta diffondendo più che mai!"
+
  major_decisions.1002.t:0 "Festino macrabo"
  major_decisions.1002.desc:0 "Non posso credere a quello che sento: tutta la corte di [cannibal.GetName], persino il [court_chaplain.GetCouncilTitle], si è data al cannibalismo! Il sangue scorre per le strade mentre il gruppo infernale banchetta."
  major_decisions.1002.desc_landless: "Fatico a credere a ciò che sento: l’intero [cannibal.Custom('GetCourt')|l] di [cannibal.GetName] ha abbracciato il cannibalismo!\n\nLe campagne si tingeranno di rosso mentre il suo gruppo infernale banchetterà nel sangue."
  major_decisions.1002.desc_cannibal:0 "[cannibal.GetName] ha convinto il suo [court_chaplain.GetCouncilTitle] ad adottare pubblicamente il cannibalismo. Sono lieto di sapere che il gusto per la carne si sta diffondendo più che mai!"
+ major_decisions.1002.desc_cannibal_landless: "[cannibal.GetName] e il suo [cannibal.Custom('GetCourt')|l] hanno abbracciato pubblicamente le meraviglie del cannibalismo.\n\nNon ignoriamolo — sono estasiato nel sapere che il gusto per la carne si sta diffondendo più che mai!"
  major_decisions.1002.a:0 "Non vedo l'ora di cenare con [ROOT.Char.GetHerHim]!"
  major_decisions.1002.b:0 "Che [ROOT.Char.GetFaith.HighGodName] abbia pietà delle loro anime malvagie!"
 
@@ -37,11 +36,12 @@
  major_decisions.1104.blessed_by_religious_head:0 "\n\n\n\nMentre [religious_figure.GetTitledFirstName] pone la nuova corona di [founder.GetTitledFirstNamePossessive] sulla sua testa,"
  major_decisions.1104.end:0 "[founder.GetFirstName] proclama questa come l'origine del suo nuovo reame. I suoi servi si inchinano con deferenza davanti a lui."
  major_decisions.1104.a:0 "[new_title.GetNameNoTierNoTooltip] vivrà per sempre!"
- 
+
  major_decisions.1105.t:0 "Un Reame Usurpatore"
  major_decisions.1105.desc:0 ""[founder.GetTitleAsNameNoTooltip]" [founder.GetFirstName] di [new_title.GetNameNoTierNoTooltip] ha dichiarato un nuovo Regno, e che parte del #EMP mio#! territorio legittimo fa parte di esso!"
  major_decisions.1105.a:0 "Quel pretendente non durerà a lungo..."
 
+ 
  major_decisions.2001.t:0 "Università"
  major_decisions.2001.desc_first:0 "Una nuova era della conoscenza è alle porte! Ho incontrato un flusso costante di costruttori e studiosi, e i piani per la magnifica università stanno prendendo forma.\n\n"
  major_decisions.2001.desc_more:0 "Il maestro di costruzione mi informa che i mattoni per l'università sono pronti per essere posati - tutto ciò che resta da decidere è un luogo e un nome"
@@ -84,4 +84,3 @@
  major_decisions.3100.tt_opinion_thing:1 "Vassalli di [cultures|E] di [heritage|E] $heritage_north_germanic_name$"
  major_decisions.3100.tt_opinion_tanistry:1 "Vassalli di [cultures|E] di [heritage|E] $heritage_goidelic_name$"
  major_decisions.3100.tt_opinion_jirga:0 "Vassalli delle [cultures|E] con la [culture_tradition|E] $tradition_fp3_jirga_name$"
-

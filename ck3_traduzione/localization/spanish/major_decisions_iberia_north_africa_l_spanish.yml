@@ -57,7 +57,7 @@
  iberia_north_africa.9101.desc.outro:0 "\n\nIl futuro rimane ancora incerto per [title_k_canarias.GetNameNoTierNoTooltip], ma la dichiarazione di un nuovo [title_k_canarias.GetTierAsNameNoTooltip] inaugurerà senza dubbio un'era completamente nuova per le isole e per il futuro del Nord Africa."
  iberia_north_africa.9101.a:0 "È nato un nuovo Regno!"
  iberia_north_africa.9101.b:0 "Il futuro di [title_k_canarias.GetNameNoTierNoTooltip] è in Iberia!"
-
+ 
  iberia_north_africa.0101.t:0 "Fedeltà al trono di San Pietro"
  iberia_north_africa.0101.desc:0 "Non è stata un'impresa da poco, ma la mia famiglia ha saputo raccogliere abbastanza terre della fede [religious_leader.GetFaith.GetAdjective] e abbastanza autorità spirituale da poter invocare un conclave dei nostri più alti ecclesiastici. Finalmente il nostro sangue, il nostro sudore e la nostra fatica hanno dato i loro frutti.\n\nNell'assemblea a [religious_leader.GetCapitalLocation.GetTitle.GetBaseNameNoTier], i/le [religious_leader.GetFaith.PriestNeuterPlural] battibeccano di politica con foga, affollando le sale e i corridoi del mio palazzo con decine di proposte e occasionali scazzottate di stampo teologico. Sappiamo di volerci unire a Roma e a [pope.GetTitledFirstName], ma sono d'accordo solo su questo e poco altro.\n\nDopo settimane di stallo, è toccato a me, in qualità di ospite e loro [religious_leader.GetTitleAsNameNoTooltip], fare da arbitro."
  iberia_north_africa.0101.a:0 "Un solo popolo, una sola fede!"

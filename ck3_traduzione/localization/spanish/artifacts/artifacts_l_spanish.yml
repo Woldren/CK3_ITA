@@ -322,7 +322,6 @@
  gem_emerald:0 "smeraldo"
  gem_emerald_plural:0 "smeraldi"
 
- ###SOTITUITE LE GEMME "FEMMINILI" CON ALCUNE "MASCHILI" PER FAR COMBACIARE L'ARTICOLO NELLA DESCRIZIONE DEI MANUFATTI
  feature_decoration_material_gem_rock_crystal:0 "$gem_rock_crystal$"
  feature_decoration_material_gem_jet:0 "$gem_jet$"
  feature_decoration_material_gem_agate:0 "$gem_agate$"
@@ -889,7 +888,7 @@
 
  #bp1_yearly.7200
  perfume_bottle_description:0 "[ROOT.Char.GetFirstNameNoTooltip] ha raccolto gli ingredienti per questa fragranza."
- 
+
  # travel_events.4005
  maritime_trading_handbook:0 "Manuale di Commercio Marittimo"
  maritime_trading_handbook_description:0 "Un manuale scritto con competenza sulla natura delle pratiche commerciali marittime [merchant_character_scope.GetCulture.GetName]."
@@ -1141,7 +1140,7 @@
  # Blessed Junk
  fp2_blessed_junk:0 "[ROOT.Char.Custom('TrinketLookAdjective')|U] $blessed_artifact_modifier$"
  fp2_blessed_junk_desc:0 "Un [ROOT.Char.Custom('TrinketLookAdverbFollowup')] [ROOT.Char.Custom('TrinketLookAdjective')] sebbene altrimenti inutile. $blessed_artifact_modifier_desc$."
-   
+ 
  local_artisan_modifier:0 "Artigiano Locale"
  local_artisan_modifier_desc:0 "Questo personaggio è un artigiano locale persuaso da un nobile sovrano a mettersi al suo servizio.\n#weak Tutte le [inspirations|E] che produrrà saranno di minore qualità.#!"
 
@@ -1169,6 +1168,7 @@
  artifact_crossbow:0 "Balestra"
  artifact_crossbow_name:0 "Balestra $artifact_name_prefix$"
  artifact_crossbow_description:0 "Una balestra [SCOPE.Custom('ArtifactQuality')] in [newly_created_artifact.GetFeatureText( 'bow_wood' )], con intelaiatura in ferro e incordatura in tendine. Estremamente potente e in grado di essere tenuto pronto all'uso, ma lento nella ricarica."
+ create_artifact_bow_tooltip: "[inspiration_owner.GetShortUIName] produced [SCOPE.Custom('ArtifactBowType')] of [SCOPE.Custom('ArtifactQuality')] craftsmanship"
  feature_longbow_wood_elm:0 "$feature_bow_wood_elm$"
  feature_longbow_wood_yew:0 "$feature_bow_wood_yew$"
  feature_composite_wood_bamboo:1 "$feature_bow_wood_bamboo$"
@@ -1226,7 +1226,7 @@
  feature_generic_material_earthware_terracotta:0 "$earthware_terracotta$"
  feature_generic_material_earthware_stone:0 "$earthware_stone$"
  feature_generic_material_earthware_porcelain:0 "$earthware_porcelain$"
- 
+
  # FP3 artifacts
  artifact_oxus_bracelet_name:0 "Bracciale Oxus"
  artifact_oxus_bracelet_description:0 "Si dice che questo bracciale di meravigliosa fattura provenda dalle terre di $k_transoxiana$. Sebbene l'intarsio di smalto e pietre semipreziose sia andato perduto da tempo, l'oro conserva ancora la sua lucentezza. Bracciali come questo erano doni di grande pregio alle corti del Re dei Re nell'antichità, quindi è probabile che un tempo sia stato indossato da uno dei grandi Signori di Babilonia."
@@ -1252,7 +1252,6 @@
 
  medicine_jar: "Vasetto Medicinale"
  medicine_jar_desc: "Questa sottile terracotta smaltata contiene erbe rare e potenti, minerali curativi e varie parti di animali essicate, tutti materiali utilizzati dai medici per il trattamento delle malattie e per il bilanciamento degli umori."
-
  whale_fat_candles_name: "Candele di Grasso di Balena"
  whale_fat_candles_description: "Queste candele sono state ricavate dal grasso di un terribile leviatano. Minacciano con spuntoni di grasso di balena."
 
@@ -1261,6 +1260,6 @@
 
  traitors_head: "Testa del Traditore"
  traitors_head_description: "Una testa mozzata, tagliata con precisione dal suo proprietario. È più un messaggio che un souvenir."
-
+ 
  artifact_: "Manufatto Distrutto"
  artifact_slot_untyped: "Manufatto Distrutto             " # Yes the tabs are intended

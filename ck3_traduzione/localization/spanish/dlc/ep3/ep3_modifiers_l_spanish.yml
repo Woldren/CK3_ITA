@@ -471,13 +471,10 @@
 
  ep3_unlocked_silk: "Diritti di Produzione della Seta"
  ep3_unlocked_silk_desc: "Questa casata ha ottenuto una dispensa imperiale per produrre la propria seta."
-
  improve_de_jure_integration_modifier: "Integrazione Giuridica Promossa"
  improve_de_jure_integration_modifier_desc: "Un magnate locale sta investendo grandi risorse per agevolare l’integrazione di questo titolo da parte del suo signore.\nBonus all'[councillor_task|E] [integrate_title]."
-
  improve_promote_culture_modifier: "Integrazione Culturale Promossa"
  improve_promote_culture_modifier_desc: "Un magnate locale sta investendo grandi risorse per agevolare la conversione culturale di questa contea al retaggio del suo signore.\nBonus all'[councillor_task|E] [promote_culture]."
-
  ep3_integration_promoter_modifier: "Promotore dell’Integrazione"
  ep3_integration_promoter_modifier_desc: "Questo personaggio è molto attivo nel promuovere l’integrazione dell’area attorno alla sua tenuta.\nAumenta il [candidate_score|E] per il [governorship|E] in cui si trova la [family_estate|E]."
 

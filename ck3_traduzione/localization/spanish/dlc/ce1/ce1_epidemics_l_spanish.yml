@@ -148,7 +148,7 @@
  ravaged_by_plague_tt: "Tutte le [counties|E] con uno [development|E] tra #high 20#! e #high 30#!"
  blighted_by_plague_tt: "Tutte le [counties|E] con uno [development|E] tra #high 15#! e #high 20#!"
  struck_by_plague_tt: "Tutte le [counties|E] con uno [development|E] tra #high 10#! e #high 15#!"
- 
+
  epidemic_saint_veronica_evil: "Demonio di Santa Veronica"
  epidemic_penge_plague: "Epidemia di Penge"
  epidemic_twin_cods_revenge: "Vendetta dei Merluzzi Gemelli"
@@ -163,3 +163,6 @@
  epidemic_raqguul_plague: "Peste di Raqguul"
  epidemic_saturday_night_fever: "Febbre del Sabato Sera"
  epidemic_cooties: "Pidocchi"
+
+
+

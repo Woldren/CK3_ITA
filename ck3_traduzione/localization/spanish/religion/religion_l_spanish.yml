@@ -28,7 +28,7 @@
  FERVOR_GAIN_FROM_HOLY_SITES:0 "Dai [holy_sites|E]"
  PIETY_HEAD_OF_FAITH:0 "[head_of_faith|E]"
  FERVOR_GAIN_SIZE_MODIFIER:0 "Dimensione della [faith|E]"
- 
+
  #One-time fervor changes
  fervor_gain_built_temple_holding:0 "Nuova Proprietà Religiosa a [temple_location.GetName]"
  fervor_gain_upgraded_temple_holding_culture_parameter:0 "Proprietà Religiosa Migliorata #weak (dalla [tradition|E])#!"
@@ -118,6 +118,7 @@
  faith_conversion_cost_conversion_blocked_till_nebulous_circumstances:0 "Questa [faith|E] deve essere sbloccata tramite #EMP circostanze misteriose#!"
  faith_conversion_cost_unreformed_to_organized:0 "La [faith|E] [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] si converte ad una [faith] [organized|E]"
  faith_reformation_via_decision:0 "Questa [faith|E] può essere riformata solo tramite la [decision|E]"
+
  MINIMUM_FAITH_CONVERSION_PIETY_COST:0 "Costo Minimo: [GetLocalPlayerPietyTextIcon]$VALUE|V$"
 
  faith_conversion_cost_fervor_difference:0 "Differenza di [fervor|E]"
@@ -252,6 +253,7 @@
  holy_site_hamadan_effect_name:0 "Dal [holy_site|E] di #weak ($holy_site_hamadan_name$)#!"
  holy_site_babylon_name:0 "Babilonia"
  holy_site_babylon_effect_name:0 "Dal [holy_site|E] di #weak ($holy_site_babylon_name$)#!"
+
  #Holy Sites: Dualism
  holy_site_khozistan_name:0 "Khozistan"
  holy_site_khozistan_effect_name:0 "Dal [holy_site|E] di #weak ($holy_site_khozistan_name$)#!"
@@ -469,7 +471,7 @@
  holy_site_ob_effect_name:0 "Dal [holy_site|E] #weak ($holy_site_ob_name$)#!"
  holy_site_olkhon_name:0 "Olkhon"
  holy_site_olkhon_effect_name:0 "Dal [holy_site|E] #weak ($holy_site_olkhon_name$)#!"
-
+ 
  #Holy Sites: Basque
  holy_site_viscaya_name:0 "$c_viscaya$"
  holy_site_viscaya_effect_name:0 "Dal [holy_site|E] #weak ($holy_site_viscaya_name$)#!"
@@ -477,7 +479,7 @@
  holy_site_aneto_effect_name:0 "Dal [holy_site|E] #weak ($holy_site_aneto_name$)#!"
  holy_site_bordeaux_name:0 "$c_bordeaux$"
  holy_site_bordeaux_effect_name:0 "Dal [holy_site|E] #weak ($holy_site_bordeaux_name$)#!"
- 
+
  #Holy Sites: Hellenic
  holy_site_athens_name:0 "Atene"
  holy_site_athens_effect_name:0 "Dal [holy_site|E] di #weak ($holy_site_athens_name$)#!"
@@ -886,7 +888,7 @@
  unreformed_faith_doctrine_desc:1 "Una Fede non riformata manca di un clero organizzato e di dottrine canoniche stabilite; comunità diverse possono nominalmente seguire la stessa fede pur avendo pratiche e credenze religiose estremamente diverse."
  doctrine_parameter_unreformed:1 "Impedisce ai [rulers|E] Tribali di cambiare forma di [government|E] \n$EFFECT_LIST_BULLET$Fornisce il [unreformed_pagan_combat_bonus|E]"
  doctrine_parameter_hostility_override_tenet_unreformed_syncretism:2 "Le [faiths|E] non-Pagane con la dottrina $tenet_unreformed_syncretism_name$ sono considerate [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
- 
+
  west_african_unreformed_faith_doctrine_name:0 "$unreformed_faith_doctrine_name$"
  west_african_unreformed_faith_doctrine_desc:0 "$unreformed_faith_doctrine_desc$"
  
@@ -898,7 +900,7 @@
  divine_destiny_doctrine_name:0 "Legittimi Sovrani del Mondo"
  divine_destiny_doctrine_desc:0 "Siamo quelli che inaugureranno un'era di pace e prosperità per tutti i popoli. Siamo i legittimi Sovrani del mondo."
  doctrine_parameter_divine_destiny_holy_war_cost_reduction:0 "Costo in [piety|e] per una Guerra Santa: #P -50%#!"
-
+ 
  adoptionist_school_name:0 "Credo Adozionista"
  special_doctrine_adoptionist_school_elipandic_doctrine_name:0 "Scuola Elipandica"
  special_doctrine_adoptionist_school_elipandic_doctrine_desc:0 "Preferendo concentrarsi sulle variazioni sottili della Cristologia, la variante elipandica del $adoptionist$ sottolinea l'importanza delle differenze #EMP precise#! rispetto al dogma della Trinità. Una distinzione complessa ben fatta è considerata infinitamente meglio rispetto a una spiegazione semplice e mal giustificata."
@@ -906,7 +908,7 @@
  special_doctrine_adoptionist_school_felicitous_doctrine_desc:0 "L'$adoptionist$ feliciano crede nella praticità al di sopra della purezza, capendo che deve lavorare all'interno dei sistemi ostili per poterli indebolire. Si pensa che, al servizio di una nobile causa, una atroce menzogna valga quanto mille schiette verità."
  special_doctrine_adoptionist_school_radical_doctrine_name:0 "Scuola Radicale"
  special_doctrine_adoptionist_school_radical_doctrine_desc:0 "Gli $adoptionist_adherent_plural$ radicali non ammettono altro Dio che il Padre, non accettano la divinità della carne mortale e non riconoscono altri $christianity_religion_adherent_plural$ oltre loro stessi. Ricevere Cristo senza accettare ogni #EMP lettera#! del canone significa ammettere l'apostasia."
- 
+
  special_doctrine_is_christian_faith_name:0 "Insegnamenti di Gesù"
  is_christian_faith_name:0 "$special_doctrine_is_christian_faith_name$"
  special_doctrine_is_christian_faith_desc:0 "Ci sono quelli nel mondo che aderiscono agli insegnamenti di Gesù senza riconoscere la sua divinità. Anche se blasfemi, dovremmo comunque mostrare compassione per queste anime sviate, poiché un giorno potrebbero convertirsi alla vera fede."
@@ -928,6 +930,7 @@
  prophecy_of_malachi_desc:0 "Secondo la dottrina Ebraica tradizionale, un nuovo Sommo Sacerdote può essere nominato solo con la venuta del Profeta o se si trova un discendente di Aronne adatto a servire come sacerdote."
  special_doctrine_not_allowed_to_hof_desc:0 "Il Sommo Sacerdozio di questa fede è stato completamente smantellato. Qualsiasi tentativo di nominare un Sommo Sacerdote richiederebbe prima una ricostruzione completa della struttura tradizionale della Chiesa."
  doctrine_parameter_block_from_create_hof_parameter:0 "Questa fede non può ricreare il suo [head_of_faith|E] in circostanze normali."
+
  special_doctrine_is_eastern_faith_name:0 "Mescolanza Religiosa"
  is_eastern_faith_name:0 "$special_doctrine_is_eastern_faith_name$"
  special_doctrine_is_eastern_faith_desc:0 "Insieme siamo legati non da una sola fede, ma dalle molte fedi che compongono il tessuto religioso della nostra società. Anche se possiamo chiamarci con nomi diversi e seguire percorsi diversi, alcuni al di fuori del nostro sistema di credenze hanno imparato a coesistere nella nostra società come se fossero uno di noi."
@@ -1049,12 +1052,11 @@
  mandatory_hajj_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_mandatory_name$"
  doctrine_parameter_mandatory_hajj:1 "Il [trait|E] [GetTrait('hajjaj').GetName( GetNullCharacter )] [trait|E] garantisce ulteriori vantaggi e l'[activity|E] dell'[hajj|E] grantisce della [piety|E] supplementare al suo completamento"
  doctrine_parameter_basic_pilgrimage_rewards:0 ""
- 
+
  special_doctrine_has_jizya_doctrine_name: "$tenet_tax_nonbelievers_jizya_name$"
  special_doctrine_jizya_name: "$tenet_tax_nonbelievers_jizya_name$"
  special_doctrine_jizya_desc: "$tenet_tax_nonbelievers_desc$"
  has_jizya_doctrine_name: "$tenet_tax_nonbelievers_jizya_name$"
- 
  doctrine_funeral_name: "Tradizione Funebre"
  doctrine_funeral_stoic_name: "Sepoltura Stoica"
  doctrine_funeral_stoic_desc: "Il corpo è morto, ma l'anima continua a vivere. La morte non è un momento di dolore e di lamento, lo scopo del funerale è onorare il defunto affidando il suo corpo alla terra con una cerimonia umile e tranquilla."
@@ -1071,10 +1073,7 @@
  doctrine_parameter_bewailment_funeral: "L'[activity|E] del [funeral|E] offre maggiori opportunità di ridurre lo [stress|E]"
  doctrine_parameter_cremation_funeral: "L'[activity|E] del [funeral|E]  ha un costo d'[gold|E] notevolmente ridotto"
  doctrine_parameter_mummification_funeral: "L'[activity|E] del [funeral|E] costa più [gold|E] e produce potenti [artifacts|E] al termine dell'attività"
-
  doctrine_parameter_unlock_voluntary_laampdom_faith: "[SelectLocalization( HasDlcFeature( 'landless_playable' ), 'doctrine_parameter_unlock_voluntary_laampdom_faith_DLC', 'doctrine_parameter_unlock_voluntary_laampdom_faith_NO_DLC' )]"
  doctrine_parameter_unlock_voluntary_laampdom_faith_DLC: "$culture_parameter_unlock_voluntary_laampdom_DLC$"
  doctrine_parameter_unlock_voluntary_laampdom_faith_NO_DLC: "$culture_parameter_unlock_voluntary_laampdom_NO_DLC$"
  unlock_voluntary_laampdom_faith_name: "[GetFaithDoctrine('tenet_struggle_submission').GetBaseName], [GetFaithDoctrine('tenet_fp3_fedayeen').GetBaseName], [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName], [GetFaithDoctrine('tenet_vows_of_poverty').GetBaseName], o [GetFaithDoctrine('tenet_asceticism').GetBaseName]"
-
-

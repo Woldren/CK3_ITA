@@ -48,7 +48,7 @@
  fp1_jomsvikings.0021.b.tt:0 "L'[army|E] includerà degli [men_at_arms|E] recrutabili, i $bondi$"
  fp1_jomsvikings.0021.c:0 "Preferisco che i miei soldati siano un po' più... disciplinati."
 
- # Jomsvikings challenge a Dishonourable Norse Pagan Ruler to Holmgang
+ # Jomsvikings challenge a Dishonorable Norse Pagan Ruler to Holmgang
  fp1_jomsvikings.0041.t:0 "Una Vergogna per gli Dei"
  fp1_jomsvikings.0041.desc:0 ""#EMP [ROOT.Char.GetFirstNameNoTooltip]#!!" urla [leader.GetTitledFirstName] irrompendo nella mia sala del trono, mezzo vestito.\n\n"I tuoi modi peccaminosi e il tuo sfacciato disonore sono una vergogna per tutti i/gli [leader.GetFaith.GetAdherentNamePlural], ed il [leader.GetPrimaryTitle.GetNameNoTier] non lo tollererà più! Niente scuse, niente trucchi, ti sfido a holmgang, #EMP qui#! e #EMP ora#!!"\n\nPerplesse, le mie guardie stringono le armi, pronte ad intervenire in qualsiasi momento.\n\nQualunque sia la mia decisione, le mie azioni saranno note al mondo intero."
  fp1_jomsvikings.0041.a:0 "Ti manderò nel Valhöll con piacere!"

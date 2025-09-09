@@ -82,5 +82,5 @@
  holy_order.2005.t:0 "Un Ritorno a Casa"
  holy_order.2005.desc:0 "La visita di [child.GetTitledFirstName] è durata più a lungo del solito. Solo quando mi[child.Custom('DE_END_PRO_S_N')] [child.Custom('DaughterSon')] si è stabilit[child.Custom('DE_END_PRO_S_N')] nella mia [ROOT.Char.Custom('GetCourt')] — ingozzandosi con il mio cibo e infastidendo i miei servitori — ho affrontato l'argomento del suo ritorno nel/nella [holy_order.GetName]. La sua risposta è stata sfortunatamente entusiasta.\n\n"Non l'avete saputo, [ROOT.Char.Custom('MotherFather')]? [grandmaster.GetTitledFirstName] è stato così generos[grandmaster.Custom('DE_END_PRO_S_N')] da sciogliermi dai miei doveri verso il/la [child.GetFaith.GetName]! Sono finalmente a casa, con la mia famiglia.""
  holy_order.2005.a:0 "Oh, tu... sei qui per restare?"
- 
+
  holy_order.destroyed_title:0 "Ordine Sacro sciolto"

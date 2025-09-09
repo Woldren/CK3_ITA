@@ -1,7 +1,7 @@
 ﻿l_spanish:
  broke_betrothal_opinion:0 "Fidanzamento Rotto"
  refused_alliance_opinion:0 "Alleanza Rifiutata"
- # Make sure this is removed from everywhere  concubine_marriage_opinion: "Faith Does Not Allow For Concubines" 
+ # Make sure this is removed from everywhere concubine_marriage_opinion: "Faith Does Not Allow For Concubines" 
 
  polygamous_marriage_opinion:0 "Non in un [marriage|E] [GetFaithDoctrine('doctrine_monogamy').GetBaseName]"
  former_polygamous_marriage_opinion:0 "Hai sconsacrato il nostro [marriage|E] avendo altri [spouses|E]"
@@ -21,7 +21,6 @@
  
  same_sex_with_no_acceptance_opinion:0 "Mi ha costretto ad avere una relazione omosessuale"
  former_same_sex_with_no_acceptance_opinion:0 "Precedentemente costretto ad avere una relazione omosessuale"
-
  married_lowborn_opinion:0 "Il [liege|E] ha sposato un Coniuge di [lowborn|E]"
 
  broke_betrothal_grand_wedding_opinion:0 "Infranto Fidanzamento per un Matrimonio in Grande"

@@ -14,7 +14,7 @@
  glory_hound_tax_contribution_mult:0 "$glory_hound_vassal$ [modifier_contribution|E] in [taxes|E]"
  glory_hound_levy_contribution_add:0 "$glory_hound_vassal$ [modifier_base_contribution|E] in [levies|E]"
  glory_hound_levy_contribution_mult:0 "$glory_hound_vassal$ [modifier_contribution|E] in [levies|E]"
-  
+ 
  courtly:0 "Cortese"
  courtly_desc:2 "I [vassals|E] di tipo $courtly$ credono nella nobiltà e nella tradizione e desiderano preservare le gerarchie esistenti. I Vassalli sociali o compassionevoli spesso adottano questa [vassal_stance|E].\n\n#low I vassalli $courtly$ apprezzano quando il loro signore:#!\n$EFFECT_LIST_BULLET$ Gli assegna una [court_positions|E]\n$EFFECT_LIST_BULLET$ Crea dei nuovi [titles|E]\n$EFFECT_LIST_BULLET$Gli invita alle [activities|E] di [GetActivityType('activity_feast').GetName]\n\n#low I vassalli $courtly$ non apprezzano quando il loro signore:#!\n$EFFECT_LIST_BULLET$ Concede dei [titles|E] a personaggi di [lowborn|E]\n$EFFECT_LIST_BULLET$ [marries|E] un personaggio di [lowborn|E] come [primary_spouse|E]\n$EFFECT_LIST_BULLET$ [disinherits|E] [heirs|E] non contesi\n\nPreferiscono [heirs|E] sociali e compassionevoli con un'alta abilità [diplomacy_i][diplomacy|E]."
  courtly_filter_option:0 "$courtly$"
@@ -30,7 +30,7 @@
  courtly_tax_contribution_mult:0 "$courtly_vassal$ [modifier_contribution|E] in [taxes|E]"
  courtly_levy_contribution_add:0 "$courtly_vassal$ [modifier_base_contribution|E] in [levies|E]"
  courtly_levy_contribution_mult:0 "$courtly_vassal$ [modifier_contribution|E] in [levies|E]"
-  
+ 
  parochial:0 "Parrocchiali"
  parochial_desc:0 "I [vassals|E] $parochial$ vogliono stabilità, decentramento e pace, e che il regno resti fuori dagli affari esteri. I Vassalli onorevoli o riservati spesso adottano questa [vassal_stance|E].\n\n#low I vassalli $parochial$ apprezzano quando il loro signore:#!\n$EFFECT_LIST_BULLET$ Costruisce o migliora i [holdings|E]\n$EFFECT_LIST_BULLET$ Li nomina [guardians|E] di un [close_family|E]\n$EFFECT_LIST_BULLET$ Usa il [councillor_task|E] $task_domestic_affairs$\n\n#low I vassalli $parochial$ non apprezzano quando il loro signore:#!\n$EFFECT_LIST_BULLET$ Ha un'alta [crown_authority|E]\n$EFFECT_LIST_BULLET$ Dichiara [wars|E] non banali\n\nPreferiscono [heirs|E] onorevoli e razionali con un'alta abilità di [stewardship_i][stewardship|E]."
  parochial_filter_option:0 "$parochial$"
@@ -46,7 +46,7 @@
  parochial_tax_contribution_mult:0 "$parochial_vassal$ [modifier_contribution|E] in [taxes|E]"
  parochial_levy_contribution_add:0 "$parochial_vassal$ [modifier_base_contribution|E] in [levies|E]"
  parochial_levy_contribution_mult:0 "$parochial_vassal$ [modifier_contribution|E] in [levies|E]"
-  
+ 
  zealot:0 "Zeloti"
  zealot_desc:0 "I [vassals|E] $zealot$ si concentrano su questioni di fede e sono influenzati da azioni pie. I Vassalli zelanti o vendicativi spesso adottano questa [vassal_stance|E], come pure il [clergy|E].\n\n#low I vassalli $zealot$ apprezzano quando il loro signore:#!\n$EFFECT_LIST_BULLET$ Costruisce o migliora i [holdings|E] di tipo [temple|E]\n$EFFECT_LIST_BULLET$ Riesce a portare a termine il [scheme|E] [GetScheme('learn_language').GetTypeName] \n$EFFECT_LIST_BULLET$ Ha i [traits|E] [virtuous|E]\n$EFFECT_LIST_BULLET$ Va in [activities|E] di [pilgrimage|E] \n\n#low I vassalli $zealot$ non apprezzano quando il loro signore:#!\n$EFFECT_LIST_BULLET$ Chiede al [head_of_faith|E] dell'[gold_i][gold|E]\n$EFFECT_LIST_BULLET$ Ha [traits|E] [sinful|E]\n\nPreferiscono [heirs|E] zelanti e virtuosi con un'alta [learning_i][learning|E]."
  zealot_filter_option:0 "$zealot$"
@@ -62,7 +62,7 @@
  zealot_tax_contribution_mult:0 "$zealot_vassal$ [modifier_contribution|E] in [taxes|E]"
  zealot_levy_contribution_add:0 "$zealot_vassal$ [modifier_base_contribution|E] in [levies|E]"
  zealot_levy_contribution_mult:0 "$zealot_vassal$ [modifier_contribution|E] in [levies|E]"
-  
+ 
  minority:0 "Minoritari"
  minority_desc:0 "I [vassals|E] $minority$ sentono che la loro [faith|E] o [culture|E] sono emarginate dal loro [liege|E]. I vassalli delle [faiths|E] ostili o delle [cultures|E] con meno del 30% di [cultural_acceptance|E] spesso adottano questa [vassal_stance|E].\n\n#low I vassalli $minority$ apprezzano quando il loro signore:#!\n$EFFECT_LIST_BULLET$ Usa il [councillor_task|E] $task_accept_culture$\n#weak (perché spesso cambiano posizione quando superano il 30% di accettazione culturale.)#!\n\n#low I vassalli $minority$ non apprezzano quando il loro signore:#!\n$EFFECT_LIST_BULLET$ Converte la fede o la cultura di una [county|E]\n$EFFECT_LIST_BULLET$ Ha un'alta [crown_authority|E]\n\nPreferiscono [heirs|E] onorevoli e compassionevoli, preferibilmente di un'altra fede o cultura rispetto a quella del loro attuale Signore."
  minority_filter_option:0 "$minority$"
@@ -78,7 +78,7 @@
  minority_tax_contribution_mult:0 "$minority_vassal$ [modifier_contribution|E] in [taxes|E]"
  minority_levy_contribution_add:0 "$minority_vassal$ [modifier_base_contribution|E] in [levies|E]"
  minority_levy_contribution_mult:0 "$minority_vassal$ [modifier_contribution|E] in [levies|E]"
-  
+ 
  barons_and_minor_landholders:0 "Proprietari terrieri minori"
  barons_and_minor_landholders_desc:0 "I [vassals|E] $barons_and_minor_landholders$ desiderano la libertà e tasse basse. Ogni [rulers|E] di livello baroni adotternanno questa [vassal_stance|E].\n\n#low I vassalli $barons_and_minor_landholders$ apprezzano quando il loro signore:#!\n$EFFECT_LIST_BULLET$ Ha una bassa [crown_authority|E]\n\n#low I vassalli $barons_and_minor_landholders$ non apprezzano quando il loro signore:#!\n$EFFECT_LIST_BULLET$ Revoca le [baronies|E]\n$EFFECT_LIST_BULLET$ Ha un'alta [crown_authority|E]\n\nPreferiscono [heirs|E] generosi e compassionevoli."
  barons_and_minor_landholders_filter_option:0 "$barons_and_minor_landholders$"
@@ -130,7 +130,7 @@
  minority_disapproves_conversion:0 "L'[opinion|E] di tutti i $minority_vassals$ di [councillor_liege.GetName] ([councillor_liege.MakeScope.ScriptValue('number_of_minority_vassals')|V0]) diminuisce di #N 20#! nei suoi confronti #V 10 anni#! #weak (Disapprovano la conversione)#!"
  minority_disapproves_conversion_tooltip:0 "\n$TAB$ L'[opinion|E] di tutti i $minority_vassals$ [councillor_liege.GetName] ([councillor_liege.MakeScope.ScriptValue('number_of_minority_vassals')|V0]) diminuisce di #N 20#! nei suoi confronti $TAB$$TAB$ per #V 10 anni#! #weak (Disapprovano la conversione)#!"
  barons_and_minor_landholders_disapproves_baron_revocations:1 "L'[opinion|E] di tutti i $barons_and_minor_landholders_vassals$ di [actor.GetName] ([actor.MakeScope.ScriptValue('number_of_barons_and_minor_landholders_vassals')|V0]) diminuisce di #N 20#! nei suoi confronti per #V 10 anni#! #weak (Disapprovano la revoca delle baronie)#!"
-  
+ 
  more_glory_hounds:0 "I $glory_hound_vassals$ sono più comuni"
  more_parochial:0 "I $parochial_vassals$ sono più comuni"
  more_zealot:0 "I $zealot_vassals$ sono più comuni"
