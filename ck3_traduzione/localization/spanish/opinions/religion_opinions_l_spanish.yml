@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  tenet_excommunicated_crime:0 "[GetTrait('excommunicated').GetName( GetNullCharacter )]"
  tenet_divine_marriage_opinion:0 "Ha un Matrimonio Divino"
  tenet_fellow_pacifist_opinion:0 "Compagno Pacifista"
@@ -33,5 +33,4 @@
  muwalladi_opinion:0 "Opinione [GetFaithByKey('muwalladi').GetAdherentName]"
  maturidi_opinion:0 "Opinione [GetFaithByKey('maturidi').GetAdherentName]"
  mutazila_opinion:0 "Opinione [GetFaithByKey('mutazila').GetAdherentName]"
-  
-
+ 

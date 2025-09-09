@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  mpo_temujin_flavor.0001.t: "Abandoned, No Longer"
  mpo_temujin_flavor.0001.desc: "The night darkens. It is only [jamukha.GetTitledFirstName] and I left in the camp.\n\n"[ROOT.Char.GetFirstNameNoTooltip]," [jamukha.GetFirstNameNoTooltip] points at me with [jamukha.GetHerHis] dagger. "In the days of war, I fought by your side to get your lady wife back. In days of peace, I shall listen to your counsel, trade gifts with you, and follow you until my legs serve me no more."\n\nThe dagger touches his palm and cuts a deep wound: "Let the blood swear what the tongue cannot.""
  mpo_temujin_flavor.0001.a: ""I will be with you until my eyes are white.""

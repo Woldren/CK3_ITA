@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  
  #Transcribe texts for a local ruler
  laamp_base_4001_request: "Questo [task_contract|E] richiede di trascrivere un manoscritto attraverso #BOLD 3#! sfide di [skill|E] di [learning|E]; affidandosi, in alternativa, ai [lifestyle_traits|E] per produrre un manoscritto ancora più grande"
@@ -76,7 +76,7 @@
  laamp_base_learning_contract_events.4011.tt.destination_list.4_destinations: "Inizi immediatamente a [traveling|E] verso [employer_location_destination.GetName], poi verso [destination_1.GetNameNoTier], poi verso [destination_2.GetNameNoTier], poi verso [destination_3.GetNameNoTier], poi verso [destination_4.GetNameNoTier] e infine di nuovo a [employer_location_destination.GetName]"
  laamp_base_learning_contract_events.4011.tt.destination_list.3_destinations: "Inizi immediatamente a [traveling|E] verso [employer_location_destination.GetName], poi verso [destination_1.GetNameNoTier], poi verso [destination_2.GetNameNoTier], poi verso [destination_3.GetNameNoTier] e infine di nuovo a [employer_location_destination.GetName]"
  laamp_base_learning_contract_events.4011.tt.explanation: "#TUT Per completare il [task_contract|E]:\n$EFFECT_LIST_BULLET$Supera una sfida di [learning|E], attingi dal tuo [piety_level|E], attingi dai [fame_traits|E] religiosi o convinci il titolare della destinazione con mezzi #EMP empi#!\n$EFFECT_LIST_BULLET$Vinci un terzo delle tue sfide per ottenere un #P Successo Qualificato#!\n$EFFECT_LIST_BULLET$Vinci due terzi delle tue sfide per ottenere un #P Successo#!\n$EFFECT_LIST_BULLET$Vinci tutte le tue sfide per ottenere un #P Successo Eccezionale#!\n\n@alert_icon! #alert_trial Annullare il [travel|E] invaliderà il [task_contract|E]#!#!"
-
+ 
  laamp_base_learning_contract_events.4014.t: "$laamp_base_learning_contract_events_prefix.4011$: La Mano che Guida"
  laamp_base_learning_contract_events.4014.desc: ""... e in quel momento [dummy_gender.GetSheHe] iniziò a #EMP sghignazzare!#!" L'indignazione di [employer.GetTitledFirstNamePossessive] è palpabile.\n\n"Ho avuto #EMP molte#! discussioni teologiche nella mia vita, e [employer.GetFaith.HighGodNameAlternate|l] sa che cerco di essere paziente. Tuttavia, alcuni dei miei clienti potrebbero aver bisogno di un'#EMP ulteriore spinta#! per vedere la luce. Forse #EMP tu#! potresti essere quella guida spirituale."\n\nAnnuisce fra sé, apparentemente soddisfatt[employer.Custom('DE_END_PRO_S_N')] della sua soluzione: "[employer.GetFaith.HighGodName] ti benedica nei tuoi viaggi. Ora vai.""
  laamp_base_learning_contract_events.4014.a: ""Farò del mio meglio.""
@@ -216,7 +216,7 @@
  laamp_base_learning_contract_events.4025.tt.progress_towards_success: "$laamp_base_contract_schemes.2781.tt.progress_towards_success$"
  laamp_base_learning_contract_events.4025.tt.guaranteed_success: "#P +2#! al punteggio verso il completamento con successo del [task_contract|E]"
  laamp_base_learning_contract_events.4025.tt.no_progress: "$laamp_base_learning_contract_events.4001.tt.no_progress$"
-
+ 
  laamp_base_learning_contract_events.4025.tt.prefered_topic: "Questo [task_contract|E] ha delle ricompense extra per l'argomento [SCOPE.Custom('GetPreferedTopicConcept')]"
 
 
@@ -304,7 +304,7 @@
  laamp_base_learning_contract_events.4100.desc.topic.intrigue: "e mentre percorriamo il sentiero, tengo d’occhio con attenzione l’ambiente circostante — un’abilità che [child_to_educate.GetFirstNameNoTooltip] dovrebbe apprendere."
  laamp_base_learning_contract_events.4100.desc.topic.learning: "e individuo [ROOT.Char.Custom('GetScientificObjects')] che sarebbe utile far conoscere a [child_to_educate.GetFirstNameNoTooltip]."
  laamp_base_learning_contract_events.4100.desc.topic.prowess: "e comincio subito a individuare i vari angoli pericolosi da cui potremmo subire un’imboscata — qualcosa di cui dovrei istruire [child_to_educate.GetFirstNameNoTooltip]."
- #Distraction    [Select_CString(child_to_educate.IsFemale,'a','o')]
+ #Distraction
  laamp_base_learning_contract_events.4100.desc.distraction.stress: "\n\nIl bambin[Select_CString(child_to_educate.IsFemale,'a','o')] cammina dietro di me, distogliendo decisamente lo sguardo e ignorandomi ogni volta che lo osservo, preparandosi al mio prossimo scatto d’impazienza. Con la fronte corrugata, rifletto sulla situazione."
  laamp_base_learning_contract_events.4100.desc.distraction.hobbyhorse: "\n\nDietro di me, [Select_CString(child_to_educate.IsFemale,'la mia pupilla','il mio pupillo')]  si trascina raccogliendo il suo cavallino di legno da un banco vicino. [child_to_educate.GetSheHe|U] inizia a cavalcare in giro, correndo gioiosamente in tondo nell’area."
  laamp_base_learning_contract_events.4100.desc.distraction.attention: "\n\nQuando mi volto, però, [Select_CString(child_to_educate.IsFemale,'la bambina','il bambino')] si è fermato di colpo, osservando con attenzione un bastone grande quanto un braccio trovato a terra, mentre [child_to_educate.GetSheHe] non risponde affatto alle mie chiamate."

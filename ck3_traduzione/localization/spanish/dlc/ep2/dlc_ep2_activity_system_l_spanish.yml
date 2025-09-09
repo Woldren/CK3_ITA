@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  invite_to_activity_interaction:1 "Invito all'Attività"
  invite_to_activity_accepted:0 "Invito Accettato"
@@ -50,4 +50,3 @@
 
  NOT_activity_invite_max_num_guests:0 "Impossibile aggiungere [CHARACTER.GetShortUIName] all'attività, è al completo!"
  REASON_NOT_A_WITCH: "Non sei una Strega"
- 

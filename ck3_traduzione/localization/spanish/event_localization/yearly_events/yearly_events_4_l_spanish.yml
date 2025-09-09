@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  yearly.4001.opening:0 "[neighboring_ruler.Custom2('AppropriateGreeting', ROOT.Char)]"
  yearly.4001.desc:0 "([vassal.Custom('DE_ART_DEF_P_A')|U]) [vassal.Custom2('YourCharacterIntroduction', ROOT.Char)], "
  yearly.4001.desc_opinion:0 "mi ha insultato gravemente. Ha avuto l'ardire di chiamarmi [neighboring_ruler.Custom('InsultAdjectiveArticle')] [neighboring_ruler.Custom('InsultNoun')] davanti alla mia corte."

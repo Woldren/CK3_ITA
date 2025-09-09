@@ -1,11 +1,10 @@
-﻿l_spanish:
+l_spanish:
  childhood_education.0004.t:0 "La Versatilità della Giovinezza"
  childhood_education.0004.opening:0 "[ward.Custom('DE_ART_DEF_P_D')] mi[ward.Custom('DE_END_PRO_S_N')] pupill[ward.Custom('DE_END_PRO_S_N')], [ward.GetTitledFirstName], ha cambiato la materia dei suoi studi.\n\n"
  childhood_education.0004.desc1:0 "Credo che adesso desideri approfondire le sue conoscenze in [ward.Custom('education_focus_child')], una materia in cui eccello... Questo mi scalda il cuore!"
  childhood_education.0004.desc2:0 "Credo che abbandonerebbe il nostro interesse comune per gli studi in [ROOT.Char.Custom('education_focus')]!"
  childhood_education.0004.desc_fallback:0 "[ward.Custom('DE_ART_IND_A')] persegue la conoscenza in [ward.Custom('education_focus_child')]."
  childhood_education.0004.a:0 "[ward.GetTitledFirstNameNoTooltip] ora sta studiando [ward.Custom('education_focus_child')]!"
-
 
  childhood_education.1011.t:0 "È Quello che Sono"
  childhood_education.1011.desc:0 "[guardian.GetTitledFirstName] mi ha insegnato molto sulle usanze della sua gente — #EMP della nostra#! gente, poiché non solo io professo la fede [guardian.GetFaith.GetAdjective], per quanto mi veda totalmente come un [guardian.GetCulture.GetName]."

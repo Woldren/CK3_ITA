@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  marriage_effect.0001.t:0 "Fare ciò che è giusto"
  marriage_effect.0001.desc.multiple:0 "Finalmente le cose sono come avrebbero sempre dovuto essere. Il segreto che aleggia sui miei figli non può più farci del male, ora che il loro padre [new_spouse.GetTitledFirstName] ed io siamo legalmente sposati."
  marriage_effect.0001.desc.child:0 "Ho passato molte notti insonni a preoccuparmi di mi[illegitimate_child.Custom('DE_END_PRO_S_N')] [illegitimate_child.Custom('GetDaughterSon')] [illegitimate_child.GetTitledFirstName] e di cosa ci accadrebbe se venisse fuori la verità sui suoi genitori.\n\nOra che suo padre [new_spouse.GetTitledFirstName] ed io siamo legittimamente sposati, le mie vecchie paure possono finalmente scomparire."

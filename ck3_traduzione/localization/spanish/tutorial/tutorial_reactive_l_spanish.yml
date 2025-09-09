@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  open_tutorial_lesson:1 "Consigli: "
  click_to_open_lesson:1 "#I Clicca per saperne di più#!"
  reactive_advice_mercenaries:0 "$reactive_advice_mercenaries_step_1$"
@@ -141,6 +141,7 @@
  action_reactive_advice_court_positions_click:0 "$click_to_open_lesson$"
  reactive_advice_court_positions: "$ra_court_pos_open_view$"
  
+
  ra_court_pos_open_view:0 "Posizioni di Corte"
  ra_court_pos_open_view_desc:0 "Questo è un buon momento per passare alle [court_positions|E]. Esse sono incarichi e riconoscimenti che puoi assegnare ai tuoi [courtiers|E] e [vassals|E].\n\nCiascuno ti dà un beneficio, al costo di uno stipendio mensile. Per esempio, il [GetCourtPositionType('court_physician_court_position').GetName()] manterrà te e la tua [corte|E] in salute."
  ra_court_pos_open_view_trigger:0 "Apri la scheda Posizioni della Corte (evidenziata)"
@@ -154,7 +155,7 @@
  action_reactive_advice_artifact_inventory_desc:0 "Apri qui per un introduzione sui Manufatti dell'Inventario"
  action_reactive_advice_artifact_inventory_click:0 "$click_to_open_lesson$"
  reactive_advice_artifact_inventory: "$ra_artifact_inventory_general$"
- 
+
  ra_artifact_inventory_general:0 "Inventario"
  ra_artifact_inventory_general_desc:0 "Hai acquisito il tuo primo [inventory_artifact|E]. Questi [artifacts|E] sono indossati sulla tua persona e ti forniscono vari benefici."
  ra_artifact_inventory_open_step:0 "$ra_artifact_inventory_general$"
@@ -176,7 +177,6 @@
  ra_maa_stationing_finished:0 "$ra_maa_stationing_open_card_step$"
  ra_maa_stationing_finished_desc:0 "Il [regiment|E] di [men_at_arms|E] ora è [stationed|E], puoi vedere quanto è migliorato sotto il suo ritratto (la parte evidenziata).\n\nRicordati di controllare di tanto in tanto, in modo che i tuoi Reggimenti siano dislocati nel [holdings|E] ottimale.\n\nQuesto è particolarmente importante se si conquistano o si ereditano nuovi territori, o se si decide di specializzare un Possedimento con [buildings|E] come il [GetBuilding('smiths_01').GetName] oppure le [GetBuilding('stables_01').GetName]."
  reactive_advice_station_maa: "$ra_maa_stationing_open_card_step$"
- 
 
 
 # Tours
@@ -600,13 +600,14 @@
 
  ra_agent_scheme_rework_4: "Segretezza dei Complotti Complessi"
  ra_agent_scheme_rework_4_desc: "Un [scheme|e] complesso ha un certo livello di [secrecy|e] associato. Questo valore rappresenta quanto è probabile che il $game_concept_scheme$ venga scoperto.\n\nAll’avvio di un $game_concept_scheme$, ci sarà un periodo di grazia di alcuni mesi durante il quale non potrà essere scoperto in nessun caso. Dopo questo periodo, il $game_concept_scheme$ rischia di essere scoperto tramite [scheme_breaches|e].\n\nPuoi comunque eseguire un complotto anche se ha delle $game_concept_scheme_breaches$, ma con una [success_chance|e] inferiore. Se il tuo $game_concept_scheme$ accumula sette $game_concept_scheme_breaches$, verrà annullato.\n\n#TUT Inoltre, alcuni complotti di base, come [GetScheme('seduce').GetTypeName], possono anch’essi essere considerati segreti e avere un periodo di grazia associato.#!"
-
+ 
  ra_agent_scheme_rework_5: "Agenti nei Complotti Complessi"
  ra_agent_scheme_rework_5_desc: "I [schemes|e] complessi hanno cinque slot per [agent|e] che possono essere riempiti con potenziali cospiratori. In generale, è una buona idea riempire quanti più slot $game_concept_agent$ possibile, poiché possono fornire bonus utili a [scheme_speed|e], [secrecy|e] o [scheme_potential|e].\n\nTipi diversi di $game_concept_agent$ privilegiano [skills|e] diverse. Per esempio, un [GetAgentSlotType( 'agent_infiltrator' ).GetName] trae vantaggio da [intrigue_i|e] [intrigue|e] e [diplomacy_i|e] [diplomacy|e], oltre a certi [traits|e]."
 
  ra_agent_scheme_rework_6: "Esecuzione di un Complotti"
  ra_agent_scheme_rework_6_desc: "Quando ritieni di aver pianificato a sufficienza, potrebbe essere il momento di considerare l’esecuzione del tuo [scheme|e]. Per farlo, puoi sfruttare [EmptyScope.ScriptValue('multi_ending_scheme_charge_to_advance_threshold_t1_value')], [EmptyScope.ScriptValue('multi_ending_scheme_charge_to_advance_threshold_t2_value')], [EmptyScope.ScriptValue('multi_ending_scheme_charge_to_advance_threshold_t3_value')] o [EmptyScope.ScriptValue('multi_ending_scheme_charge_to_advance_threshold_t4_value')] delle tue [scheme_opportunity_opportunities|e] accumulate.\n\nInoltre, se sospetti che qualcuno stia tramando contro di te, potrebbe valere la pena cambiare la tua [scheme_countermeasure|e] attiva per evitare possibili contrattempi.\n\nBuona fortuna e... buon complotto!"
 
+# fallback to generic name if there is no GetPlayer i.e. we are in frontend
  TUTORIAL_PROVINCIAL_ARMIES: "[SelectLocalization( GetPlayer.IsValid, 'TUTORIAL_PROVINCIAL_ARMIES_INGAME', 'PROVINCIAL_ARMIES_CONCEPT' )]"
  TUTORIAL_PROVINCIAL_ARMIES_INGAME: "[GetPlayer.Custom('GetProvincialArmiesConcept')]"
  TUTORIAL_PROVINCIAL_ARMIES_NO_TOOLTIP: "[SelectLocalization( GetPlayer.IsValid, 'TUTORIAL_PROVINCIAL_ARMIES_INGAME_NO_TOOLTIP', 'PROVINCIAL_ARMIES_CONCEPT_NO_TOOLTIP' )]"
@@ -630,7 +631,7 @@
 
  ra_admin_gov_troops_5: "Sulla Strada verso il Potere"
  ra_admin_gov_troops_5_desc: "@ra_admin_troops_5! Sebbene un [realm|e] [administrative|e] si basi sull’azione politica e sull’intrigo, avere un esercito forte e ben gestito non solo migliorerà le tue difese, ma ti assisterà anche nelle tue iniziative diplomatiche.\n\nDopotutto, la forza militare è solo una delle tante Strade verso il Potere..."
-
+ 
  action_reactive_advice_laamp_contract_move: "$open_tutorial_lesson$ Trovare Contratti"
  action_reactive_advice_laamp_contract_move_desc: "Le tue opportunità di [task_contract|E] locali scarseggiano? Apri qui per un’introduzione su come trovare nuovi Contratti."
  action_reactive_advice_laamp_contract_move_click: "$click_to_open_lesson$"
@@ -663,7 +664,7 @@
  reactive_advice_lesson_winning_wars: "$lesson_winning_wars$"
  reactive_advice_lesson_losing_wars: "$lesson_losing_wars$"
 
- #CE2 Khans of the Steppe
+ #CE2
 action_reactive_advice_migration: "Consiglio: Migrazione"
 action_reactive_advice_migration_desc: "Come Nomade nella Grande Steppa puoi Migrare verso nuove terre. Apri per saperne di più sulla Migrazione."
 action_reactive_advice_migration_click: "$click_to_open_lesson$"
@@ -696,6 +697,7 @@ action_reactive_advice_migration_click: "$click_to_open_lesson$"
 
  ra_migration_8: "Migrazione"
  ra_migration_8_desc: "Se tutto va bene con la [migration|E], avrai vaste nuove terre da pascolare, nuove possibilità di affrontare una [settlement_issue|E] che ti darà l’opportunità di gestire conflitti e aumentare il [county_control|E] locale nel nuovo [domain|E].\n\nNella [the_great_steppe|E] le terre cambiano spesso padrone, quindi assicurati di bilanciare bene il tuo [dread|E] con l’[opinion|E] per mantenere tutte le porte aperte. Un titolo perso per un [nomad|E] significa che tre volte tanto possono essere conquistati, finché continui a far crescere la tua [herd|E] e la tua [dominance|E]."
+
 
 action_reactive_advice_great_steppe: "Consiglio: La Grande Steppa"
 action_reactive_advice_great_steppe_desc: "La Grande Steppa è una Situazione in cui dovrai tenere conto della Fertilità delle terre. Apri per scoprire di più sugli effetti che questo comporta."

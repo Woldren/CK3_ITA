@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  HOUSE_VIEW_FOUNDED:0 "Fondata nel [DynastyHouse.GetFoundYear] d.C. da [DynastyHouse.GetFounder.GetName]"
  DYNASTY_VIEW_CONCEPT:3 "[dynasty|E] della Casata [DynastyHouse.GetBaseNameNoTooltip]"
  HOUSE_VIEW_CONCEPT:3 "[SelectLocalization( DynastyHouse.IsPlayerMember, 'HOUSE_VIEW_PLAYER_IS_MEMBER', 'HOUSE_VIEW_NOT_YOUR_HOUSE')]"
@@ -26,7 +26,7 @@
  DYNASTY_PRESTIGE_PROGRESS:0 "Progressi verso [DYNASTY.GetNextPrestigeLevelName]: $CURRENT|0$/$NEXT|0$"
  DYNASTY_PRESTIGE_AT_MAX_LEVEL:0 "[DYNASTY.GetBaseName] è il più alto Livello di Fama"
  HOUSE_VIEW_NAME_WITH_HOUSE:1 "Casata [DynastyHouse.GetBaseNameNoTooltip]"
-  #COOLTIP_HOUSE_NAME:0 "" delete this
+ #COOLTIP_HOUSE_NAME:0 "" delete this
  HOUSE_TT_NAME:0 "Casata [DynastyHouse.GetBaseNameNoTooltip]"
  HOUSE_VIEW_MOTTO:1 ""[DynastyHouse.GetMotto]""
  HOUSE_VIEW_PLAYER_IS_MEMBER:1 "La Tua [house|E]"
@@ -75,7 +75,6 @@
  HOUSE_VIEW_MAX_MILITARY_STRENGTH:1 "Forza Militare Massima: @soldier_icon! #high [Character.GetMaxMilitaryStrengthWithoutHires|0]#!"
  HOUSE_LIST_HEAD_MAX_MILITARY_STRENGTH:0 "@soldier_icon! [DynastyHouse.GetHeadOfHouse.GetMaxMilitaryStrengthWithoutHires|0]"
  HOUSE_LIST_MILITARY_STRENGTH_TT:0 "Forza Militare Massima del [house_head|E]"
- 
  HOUSE_UNITY_VALUE: "[DynastyHouse.GetHouseUnityValue|V]"
  HOUSE_UNITY_BUTTON: "Unità della Casata"
  HOUSE_UNITY_LABEL: "Unità della Casata"
@@ -95,7 +94,6 @@
  HOUSE_UNITY_AFFECT_UNITY_INCREASE_LEVEL: "Per raggiungere questo livello, compi [house_unity_unifying_actions|E] verso i membri della tua [house|E] per incrementare l'[house_unity|E]"
  HOUSE_UNITY_AFFECT_UNITY_DECREASE_LEVEL: "Per raggiungere questo livello, compi [house_unity_devisive_actions|E] verso i membri della tua [house|E] per ridurre l'[house_unity|E]"
  HOUSE_UNITY_AFFECT_UNITY_CHANGE_GOVERNMENT: "Per raggiungere questo livello, devi cambiare la tua forma di governo"
- 
  HOUSE_VIEW_POWERFUL_FAMILY_ATTRIBUTE: "[powerful_family_bonus_short|E]: [DynastyHouse.GetHousePowerBonus.GetName]"
  HOUSE_VIEW_POWERLESS_FAMILY: "#X @warning_icon! Non è considerata una [powerful_family|E]#!"
  HOUSE_VIEW_POWER_BONUS: "[SelectLocalization( HousePowerBonus.IsValid, HousePowerBonus.GetName )]"

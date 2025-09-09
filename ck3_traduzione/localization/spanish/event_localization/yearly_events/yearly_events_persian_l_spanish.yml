@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  yearly_persian.1002.t:0 "Nowruz"
  yearly_persian.1002.desc:1 "Mentre la mia corte celebra ogni anno il festival [iranian.GetName] di Nowruz, i miei doveri come [ROOT.Char.GetTitleAsNameNoTooltip] spesso mi rendono difficile partecipare ai festeggiamenti.\n\nCon l'avvicinarsi dell'equinozio e il mio regno in uno stato prospero e stabile, Mi chiedo se quest'anno dovrei prendermi un po' di tempo in più per uscire dalla [ROOT.Char.Custom('ResidenceBuilding')] ed entrare nello spirito della vacanza?"
  yearly_persian.1002.a:0 "Onorerò Jamshid con generosi doni di gemme e oro!"

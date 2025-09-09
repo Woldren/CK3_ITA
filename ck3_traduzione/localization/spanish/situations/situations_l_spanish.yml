@@ -1,4 +1,4 @@
-﻿l_spanish: 
+l_spanish:
  SITUATION_TOOLTIP_INVOLVEMENT: "[Character.Custom('IT_NAM_COL3')|U][Character.GetShortUINameNoTooltip|U] [Select_CString( Character.IsLocalPlayer, 'fai', 'fa' )] parte del gruppo #EMP [Situation.GetParticipantGroupByCharacter( Character.Self ).GetNameNoTooltip]#! in questa [situation|e].\n$SITUATION_START_DATE$"
  SITUATION_START_DATE: "#weak Data di Inizio della Situazione: #! [Situation.GetStartDate.GetStringLong]"
  SITUATION_TOOLTIP_CURRENT_PHASE: "Fase Attuale: [SituationPhase.GetName]"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ##################################################
  # #Misc
  from_diarch_domain_limit_bonus:0 "Supporto dal [regent|E]"
@@ -14,7 +14,7 @@
  civil_servant_salary_and_corruption:0 "Arricchimento Funzionario Pubblico"
  regency_for_personal_reasons_trigger.tt.cannot_govern_by_themselves: "Non può governare da solo"
  SPACE4: "    " 
- 
+
  ##################################################
  # #Swing Update Strings
  update_diarchy_swing_with_perspective_effect.preamble: "Gli [scales_of_power|E] della [liege_loc.GetDiarchyTypeName] di [liege_loc.GetName|U] si spostano di" #frase modificata da GetShortUIName a GetName
@@ -60,7 +60,7 @@
  update_diarchy_swing_with_perspective_effect.neutral_perspective.massive_sop_swing_liege_gain.tt: "$update_diarchy_swing_with_perspective_effect.preamble$ [EmptyScope.ScriptValue('massive_sop_swing_diarch_gain')|0V] $update_diarchy_swing_with_perspective_effect.postamble.liege$"
  update_diarchy_swing_with_perspective_effect.neutral_perspective.monumental_sop_swing_liege_gain.tt: "$update_diarchy_swing_with_perspective_effect.preamble$ [EmptyScope.ScriptValue('monumental_sop_swing_diarch_gain')|0V] $update_diarchy_swing_with_perspective_effect.postamble.liege$"
 
- ################################################## 
+ ##################################################
  # #Invalid Strings
  ## Nouns
  invalid_child:0 "bambino"
@@ -123,7 +123,7 @@
  mandate_aptitude.promote_authority.bonus_trait.just:0 "[GetTrait('just').GetName( ROOT.Char )] eccelle"
  mandate_aptitude.promote_authority.malus_trait.wrathful:0 "[GetTrait('wrathful').GetName( ROOT.Char )] è senza speranza"
  mandate_aptitude.promote_authority.malus_trait.arbitrary:0 "[GetTrait('arbitrary').GetName( ROOT.Char )] è senza speranza"
- 
+
  ranching_mandate: "Gestire il Bestiame"
  ranching_mandate_desc: "#BOL Possibili Effetti del [mandate|E]:#!\n$EFFECT_LIST_BULLET$ [herd|E] Supplementare\n$EFFECT_LIST_BULLET$ [fertility|E] [Concept('county','Conteale')|E] Gratuita\n$EFFECT_LIST_BULLET$ [vassal_contracts|E] Adattati A Favore del [liege|E]\n\n#WEAK Al [regent|E] è stato ordinato di incrementare le entrate per il proprio $game_concept_liege$, ad ogni costo.#!"
  horde_mustering_mandate: "Radunare l'Orda"
@@ -135,7 +135,6 @@
  mandate_aptitude.promote_obedience.category: "$promote_obedience_mandate$"
  mandate_aptitude.nomadic_regency.generic_score.no_nomadic_philosophy: "Non ha la [GetTrait('nomadic_philosophy').GetName( ROOT.Char )]"
  nomadic_regency_disliked: "Disapprova i regnanti in una [regency|E]"
- 
 
  ##################################################
  # #Parameters
@@ -225,7 +224,7 @@
  diarch_succession_score.category.traits.noble_ambitions: "Tratti #WEAK (Nobile Ambizioso)#!"
  diarch_succession_score.category.traits.civil_service: "Tratti #WEAK (Funzionario Pubblico)#!"
  diarch_succession_score.category.circumstances:0 "Circostanze"
- #TWR -----------------------------------------------------------------------------------------------
+
  # Diarchy Specific
  diarch_succession_score.diarchy_specific.regency.close_or_extended_family_of_invalid.ruler:0 "[extended_family|E] di [ROOT.Char.GetLiege.Custom('GetChildInvalid')] che possiede delle [Concept( 'landed', 'terre' )|E]"
  diarch_succession_score.diarchy_specific.regency.close_or_extended_family_of_invalid.non_ruler:0 "[extended_family|E] di [ROOT.Char.GetLiege.Custom('GetChildInvalid')] senza [Concept( 'landed', 'terre' )|E]"
@@ -415,7 +414,8 @@
  diarch_loyalty_score.co_rulership.your_time_is_up: "#EMP [ROOT.Char.GetLiege.Custom('GetLiegeYour')|U] Tempo Scaduto#!"
  diarch_loyalty_score.co_rulership.you_are_too_fit: "Anzian[ROOT.Char.GetLiege.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLiege.GetWomanMan|U] Troppo [Concept( 'healthy', 'in salute' )|E]"
  diarch_loyalty_score.co_rulership.showing_no_signs_of_slowing: "L'Età Per [ROOT.Char.GetLiege.Custom('GetLiegeYou')] È Solo Un Numero"
- 
+
+
  raise_diarch_opinion_with_loyalty_update_effect.tt.self_interested.overflow_edgecase: "La [diarch_loyalty|E] del tuo [diarch|E] probabilmente rimarrà $DIARCHY_WINDOW_UNKNOWN_LOYALTY$"
  raise_diarch_opinion_with_loyalty_update_effect.tt.self_interested.remains_static: "La [diarch_loyalty|E] del tuo [diarch|E] rimarrà $DIARCHY_WINDOW_VISIBLY_DISLOYAL$"
  raise_diarch_opinion_with_loyalty_update_effect.tt.self_interested.to_selfless: "La [diarch_loyalty|E] del tuo [diarch|E] andrà da $DIARCHY_WINDOW_UNKNOWN_LOYALTY$ a $DIARCHY_WINDOW_VISIBLY_LOYAL$"
@@ -427,7 +427,7 @@
  raise_diarch_opinion_with_loyalty_update_effect.tt.selfless.remains_static: "La [diarch_loyalty|E] del tuo [diarch|E] rimarrà $DIARCHY_WINDOW_VISIBLY_LOYAL$"
  raise_diarch_opinion_with_loyalty_update_effect.tt.selfless.to_self_interested: "La [diarch_loyalty|E] del tuo [diarch|E] andrà da $DIARCHY_WINDOW_VISIBLY_LOYAL$ a $DIARCHY_WINDOW_VISIBLY_DISLOYAL$"
  raise_diarch_opinion_with_loyalty_update_effect.tt.selfless.to_situational: "La [diarch_loyalty|E] del tuo [diarch|E] andrà da $DIARCHY_WINDOW_VISIBLY_LOYAL$ a $DIARCHY_WINDOW_UNKNOWN_LOYALTY$"
-#TWR ----------
+
  ##################################################
  # #Tax Collection
  diarchy_tax_collector_boost.scales_of_power: "[scales_of_power|E]"
@@ -436,7 +436,7 @@
  diarchy_tax_collector_boost.diarch_aptitude.t3: "#V +#![EmptyScope.ScriptValue('diarch_aptitude_helps_tax_collectors_t3_value')|%V0] dell'[aptitude|e] del [diarch|e]"
  diarchy_tax_collector_boost.diarch_aptitude.t4: "#V +#![EmptyScope.ScriptValue('diarch_aptitude_helps_tax_collectors_t4_value')|%V0] dell'[aptitude|e] del [diarch|e]"
 
- ################################################## 
+ ##################################################
  # #Schemes
  overthrow_regent_scheme_interaction_actor_stress_effect.tt.loyal.remove_loyal:0 "#WEAK [GetTrait('loyal').GetName(actor)]: [recipient.GetTitledFirstName] è un buon servitore di [actor.GetLiege.GetTitledFirstName] e dovrebbe restare#!"
  overthrow_regent_scheme_interaction_actor_stress_effect.tt.loyal.remove_disloyal:0 "#WEAK [GetTrait('loyal').GetName(actor)]:[recipient.GetTitledFirstName] è un mascalzone e deve essere rimosso per il bene del regno#!"

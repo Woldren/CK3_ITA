@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  HYBRIDIZE_CULTURE_EXECUTE_LABEL:0 "Forma Cultura Ibrida"
  HYBRIDIZE_CULTURE_EXECUTE_TOOLTIP:0 "#T $HYBRIDIZE_CULTURE_EXECUTE_LABEL$#!\nForma una nuova [hybrid_culture|E], creando una combinazione degli aspetti delle Culture [GetPlayer.GetCulture.GetNameNoTooltip] e [Culture.GetNameNoTooltip]\n\n[HybridizationWindow.GetHybridizeBlockers]"
  HYBRIDIZE_CULTURE_WINDOW_TITLE:0 "Forma Cultura Ibrida"

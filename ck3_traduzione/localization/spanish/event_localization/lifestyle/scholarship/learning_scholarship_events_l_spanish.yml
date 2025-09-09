@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  learning_zealous_path_tt:0 "#F Questa scelta può portare a diventare zeloti#!"
  learning_cynical_path_tt:0 "#F Questa scelta può portare a diventare cinici#!"
  learning_scholarship_focus_point_clear_gain:1 "La mia conoscenza del [learning_lifestyle|E] aumenta"
@@ -172,7 +172,7 @@
  learning_scholarship_special.3006.desc_alchemist:0 "Dopo aver mescolato lo zucchero di piombo alla cenere d'alga bollita, la miscela è diventata improvvisamente di un giallo vibrante.\n\nSebbene non siamo riusciti a produrre dell'oro vero, abbiamo scoperto che la nostra soluzione può essere usata come un colorante capace di rivaleggiare in brillantezza con lo zafferano. La vendita di questa tintura mi permetterà di recuperare una parte dei costi."
  learning_scholarship_special.3006.desc:0 "Dopo aver mescolato lo zucchero di piombo alla cenere d'alga bollita, la miscela è diventata improvvisamente di un giallo vibrante.\n\nAnche se non sono riuscito a produrre dell'oro vero, ho scoperto che la mia soluzione può essere utilizzata come un colorante capace di rivaleggiare in brillantezza con lo zafferano. La vendita di questa tintura mi permetterà di recuperare una parte dei miei costi."
  learning_scholarship_special.3006.a:0 "Graziosa, anche se costosa da produrre."
- 
+
  learning_scholarship_special.3007.desc_alchemist:0 "Dopo aver bruciato le alghe e averle mescolate con l'acqua, ci siamo ritrovati con una quantità allarmante di disgustosa melma marrone. Incerti su cosa fare a questo punto, abbiamo mescolato lo zucchero di piombo nella soluzione, ma non si è verificato nessun cambiamento osservabile.\n\nPurtroppo l'unico uso a cui posso pensare per l'esperimento è quello di fertilizzante."
  learning_scholarship_special.3007.desc:0 "Dopo aver bruciato le alghe e averle mescolate con l'acqua, mi sono ritrovato con una quantità allarmante di disgustosa melma marrone. Incerto su cosa fare a questo punto, ho mescolato lo zucchero al piombo nella soluzione, ma non si è verificato nessun cambiamento osservabile.\n\nPurtroppo l'unico uso a cui posso pensare per il mio esperimento è quello di fertilizzante."
  learning_scholarship_special.3007.a:0 "Suppongo che le coltivazioni cresceranno sane quest'anno?"
@@ -189,8 +189,8 @@
  learning_scholarship.4000.c:0 "Devo lavorare fino a tardi per preparare le lezioni per il car[child_educated.Custom('DE_END_PRO_S_N')] [child_educated.GetFirstNameNoTooltip]."
  learning_scholarship.4000.c.tt:0 "[spouse_uninterested_in_study.GetFirstName] non è [spouse_uninterested_in_study.Custom('DE_ART_DEF_P_A')] [spouse_uninterested_in_study.GetMotherFather] di [child_educated.GetFirstNameNoTooltip]."
  learning_scholarship.4000.d:0 "Non ho bisogno di giacere con te, possiedo già il caldo abbraccio della conoscenza!"
- 
- # Bibliomancy by Chad Uhl
+
+# Bibliomancy by Chad Uhl
  bibliomancy_chain_header:0 "Un Testo Sacro:"
 
  learning_scholarship.5000.t:0 "Un Testo Sacro"

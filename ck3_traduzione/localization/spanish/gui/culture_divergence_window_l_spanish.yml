@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  DIVERGE_CULTURE_EXECUTE_LABEL:0 "Divergi dalla Cultura"
  DIVERGE_CULTURE_EXECUTE_TOOLTIP:1 "#T Divergi dalla Cultura#!\nDivergi dalla Cultura [Culture.GetName], creando una nuova [divergent_culture|E].\n\n[DivergenceWindow.GetDivergeBlockers]"
  DIVERGE_CULTURE_WINDOW_TITLE:0 "Divergi dalla Cultura [Culture.GetNameNoTooltip]"

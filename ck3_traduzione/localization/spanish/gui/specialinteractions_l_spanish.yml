@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  INHERITABLE_TRAITS:1 "[congenital_traits|E]"
  NO_INHERITABLE_TRAITS:1 "Nessun [Concept( 'congenital_traits', 'Tratto Congenito' )|E]"
  CHANCE_OF_CHILDREN:0 "Possibilità di avere Figli: $VALUE|V$"
@@ -253,7 +253,7 @@ AI_CONTRACT_BALANCE: "Benefici del contratto: $VALUE|=+0$"
  runestone_grant_title_warning:0 "@warning_icon! #X La pietra runica a [target.GetNameNoTier] verrà distrutta poiché [recipient.GetShortUIName] non è della tua [dynasty|E]!#!"
  grant_title_nomad_and_at_vassal_limit: "@warning_icon! #X Al [vassal_limit|E]! Concedere un titolo a questo [character|E] lo farà diventare un [tributary|E]!#!"
 
-
+ 
  revoke_title:0 "Revoca Titolo"
  revoke_title_interaction:0 "Revoca Titolo"
  revoke_title_interaction_desc:0 "Prendi un [title|E] da [recipient.GetShortUINameNoTooltip]\n\n@warning_icon! #weak Potrebbe portarti [tyranny|E] a meno che tu non abbia una causa per la revoca#!"
@@ -404,10 +404,10 @@ AI_CONTRACT_BALANCE: "Benefici del contratto: $VALUE|=+0$"
  REVOKE_TITLE_CANT_REVOKE_REASON_BARONY_WITHOUT_COUNTY:1 "@warning_icon! #X Devi revocare tutti i titoli di [TITLE_2.GetName] invece del solo [TITLE.GetName]#!"
  REVOKE_TITLE_CANT_REVOKE_REASON_NON_DOMAIN_BARONY:0 "@warning_icon! #X [TITLE.GetName] è una [barony|E] che non fa parte del tuo [domain|E] e pertanto non può essere revocata a [CHARACTER.GetShortUIName]#!"
  REVOKE_TITLE_CANT_REVOKE_NOBLE_FAMILY: "#X [TITLE.GetName] è un titolo di [noble_family|E] e pertanto non può essere revocato#!"
+
  create_noble_family_title:0 "Crea un titolo di casata nobile per [THIS.GetCharacter.GetNameNoTooltip]"
  create_noble_family_tt:0 "Diventa capofamiglia di una nuova [noble_family|E]"
  create_noble_family_tt_past:0 "È diventato capofamiglia di una nuova [noble_family|E]"
-
 
  REVOKE_TITLE_SELECT:0 "@warning_icon! #X Non c'è nessun titolo selezionato#!"
  REVOKE_TITLE_REVOKE:0 "#T Revoca il Titolo selezionato a [CHARACTER.GetShortUIName]#!"
@@ -453,6 +453,7 @@ AI_CONTRACT_BALANCE: "Benefici del contratto: $VALUE|=+0$"
  THEY_ARE_VIRTUOUS:0 "[secondary_recipient.GetShortUINameNoTooltip] ha un [trait|E] [virtuous|E]: $VALUE|=+0$"
  I_AM_SINFUL:1 "Hai un [trait|E] [sinful|E]: $VALUE|=+0$"
  THEY_ARE_SINFUL:0 "[secondary_recipient.GetShortUINameNoTooltip] ha un [trait|E] [sinful|E]: $VALUE|=+0$"
+ I_HAVE_LOW_PIETY: "Your [piety_level|E] is [GetModifier( 'piety_level_0' ).GetNameWithTooltip]: $VALUE|=+0$"
  WE_ARE_RIVALS:0 "Siete rivali: $VALUE|=+0$"
  WE_ARE_NEMESES:0 "Siete nemesi: $VALUE|=+0$"
  WE_ARE_LOVERS:0 "Siete amanti: $VALUE|=+0$"
@@ -462,7 +463,6 @@ AI_CONTRACT_BALANCE: "Benefici del contratto: $VALUE|=+0$"
  YOU_ARE_MY_RELATIVE:0 "Siete parenti: $VALUE|=+0$"
  THEY_ARE_MY_CLOSE_KIN:0 "[secondary_recipient.GetShortUINameNoTooltip] è un parente: $VALUE|=+0$"
  THEY_ARE_MY_CLOSE_FAMILY: "[secondary_recipient.GetShortUINameNoTooltip] è della [recipient.GetHerHis] [close_family|E]: $VALUE|=+0$"
-
  YOU_ARE_MY_HOUSE_MEMBER:0 "Tu sei della [recipient.GetHerHis] [house|E]: $VALUE|=+0$"
  YOU_ARE_MY_DYNASTY_MEMBER:0 "Tu sei della [recipient.GetHerHis] [dynasty|E]: $VALUE|=+0$"
  THEY_ARE_MY_HOUSE_MEMBER:0 "[secondary_recipient.GetShortUINameNoTooltip] è della [recipient.GetHerHis] [house|E]: $VALUE|=+0$"
@@ -471,7 +471,6 @@ AI_CONTRACT_BALANCE: "Benefici del contratto: $VALUE|=+0$"
  THEY_ARE_A_KINSLAYER:0 "[secondary_recipient.GetShortUINameNoTooltip] è un [kinslayer|E]: $VALUE|=+0$"
  SECONDARY_RECIPIENT_GOVERNOR_EFFICIENCY: "[secondary_recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E]: $VALUE|=+0$"
  RECIPIENT_GOVERNOR_EFFICIENCY: "[recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E]: $VALUE|=+0$"
-
  # Divorce interaction loc
  DIVORCE_GIVEN_CHILDREN:0 "[secondary_recipient.GetShortUINameNoTooltip] ti ha dato diversi bambini sani: $VALUE|=+0$"
  I_DIVORCED_X:0 "[recipient.GetShortUINameNoTooltip] ha garantito [actor.GetShortUINameNoTooltip] un divorzio da[secondary_recipient.GetShortUINameNoTooltip]!"
@@ -493,10 +492,10 @@ AI_CONTRACT_BALANCE: "Benefici del contratto: $VALUE|=+0$"
  temporal_condemnation_opinion:0 "Condanna Temporale"
  temporal_condemnation_condemned_me_opinion:0 "Mi ha condannato"
 
-  #Faction Interactions
+ #Faction Interactions
  FACTION_CANT_JOIN_CREATE_ADULT_INT:0 "Non è possibile unirsi o creare una fazione poichè minorenni"
  FACTION_CANT_JOIN_CREATE_ADULT:0 "$FACTION_CANT_JOIN_CREATE_ADULT_INT$"  
- 
+
  CREATE_HOLY_ORDER_DECISION_NAME_LABEL:0 "Nome:"
  CREATE_HOLY_ORDER_DECISION_CAPITAL_LABEL:0 "Quartier Generale:"
  REVOKE_HOLY_ORDER_DECISION_BARONY_LABEL:0 "Contea:"
@@ -556,8 +555,8 @@ AI_CONTRACT_BALANCE: "Benefici del contratto: $VALUE|=+0$"
  grant_title_modifier_stack_kingdoms:3 "[recipient.GetShortUIName|U] ottiene [SCOPE.ScriptValue('grant_title_opinion_sum_kingdoms')|+0] di [opinion|E] nei [actor.LocalPlayerString( 'tuoi ', '' )]confronti[actor.LocalPlayerString( '', ' di ' )][actor.LocalPlayerString( '', 'Loc_FR_le_GetShortUIName_U_est' )] per #V 50 anni#! #weak (Ha Ricevuto un Regno)#!"
  grant_title_modifier_stack_empires:3 "[recipient.GetShortUIName|U] ottiene [SCOPE.ScriptValue('grant_title_opinion_sum_empires')|+0] di [opinion|E] nei [actor.LocalPlayerString( 'tuoi ', '' )]confronti[actor.LocalPlayerString( '', ' di ' )][actor.LocalPlayerString( '', 'Loc_FR_le_GetShortUIName_U_est' )] per #V 50 anni#! #weak (Ha Ricevuto un Impero)#!"
  grant_title_modifier_courtly_lowborn_grant_penalty:0 "Ogni [vassal|E] [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) guadagna [SCOPE.ScriptValue('courtly_vassal_lowborn_grant_penalty')|+0] [opinion|E] nei confronti di [actor.GetShortUIName] per #V 10 anni#! #weak (Disapprova le Concessioni ai Popolani)#!"
-
- #grant_title_modifier_stack_discontent:2 "La [faction|E] a cui appartiene [recipient.GetShortUIName] perde #V [SCOPE.ScriptValue('grant_title_opinion_sum_discontent_calc')|V0]#! di [discontent|E]"
+ 
+ #grant_title_modifier_stack_discontent:2 "The [faction|E] that [recipient.GetShortUIName] belongs to loses #V [SCOPE.ScriptValue('grant_title_opinion_sum_discontent_calc')|V0]#! [discontent|E]"
  grant_title_modifier_stack_discontent:3 "La [faction|E] a cui appartiene [recipient.GetShortUIName] ha perso del [discontent|E]"
 
  GRANT_TITLE_WARNING:0 "Perderai un vassallo"
@@ -573,15 +572,15 @@ AI_CONTRACT_BALANCE: "Benefici del contratto: $VALUE|=+0$"
  PLEDGE_GHW_ALREADY_AT_WAR_ACCEPT:0 "Partecipa Comunque"
  END_WAR_INVALIDATED_MESSAGE_TITLE:0 "La Guerra finisce in modo inconcludente"
  END_WAR_INVALIDATED_MESSAGE_DESC:0 "[war.GetName|V] finisce in modo inconcludente"
- 
+
  CULTURE_TRANSF_VASSAL:0 "[Culture.GetNameNoTooltip]" 
- 
+
  grant_title_clerical_gender_tt:0 "Gli Insediamenti Tempio possono essere concessi solo al Genere Clericale della tua [faith|E]"
  VASSAL_CONTRACT_MARRIAGE_FAVOR_BONUS:0 "$marriage_favor_rights$: $VALUE|=+0$"
  VASSAL_WITH_MARRIAGE_FAVOR:0 "$marriage_favor_rights$ Incompiuto"
  UNITY_PERK_BONUS:0 "$fp2_coterie_legacy_3_name$: $VALUE|=+0$"
  AI_RELEVANT_TRAITS:0 "Tratti Rilevanti: $VALUE|=+0$"
- 
+
  # based on grand_wedding_timeout script value
  GRAND_WEDDING_PROMISE_INFO:5 "#T Attiva Promessa di Matrimonio in Grande\n#!Prometti di organizzare un [GetActivityType( 'activity_wedding' ).GetName], rendendo più probabile l'accettazione dell'offerta di [marriage|E]\n\nCosto medio: [gold_i] [actor.MakeScope.ScriptValue('ui_avg_wedding_cost')|0V]\n\n@alert_icon! #alert_trial Se entrambi i [spouses|E] sono [adults|E], hai 3 anni per mantenere la tua promessa, o ci saranno pesanti conseguenze!#!"
  grand_wedding_already_promised_tt:1 "Puoi promettere un solo [GetActivityType( 'activity_wedding' ).GetName] alla volta"
@@ -597,14 +596,14 @@ AI_CONTRACT_BALANCE: "Benefici del contratto: $VALUE|=+0$"
  AI_I_AM_A_CHILD:0 "Sono solo un [child|E]: $VALUE|=+0$"
  AI_I_AM_INFIRM:0 "Io sono [GetTrait('infirm').GetName(GetNullCharacter)]: $VALUE|=+0$"
  # Note: this is actually a parameter on a trait and not this specific trait itself, but that's a bit of an edge case. This should be fine.
- 
+
  DIPLOMACY_SKILL_REASON:0 "Abilità Diplomatica: $VALUE|=+0$"
  MARTIAL_SKILL_REASON:0 "Abilità Marziale: $VALUE|=+0$"
  STEWARDSHIP_SKILL_REASON:0 "Abilità Amministrativa: $VALUE|=+0$"
  INTRIGUE_SKILL_REASON:0 "Abilità Intrigo: $VALUE|=+0$"
  LEARNING_SKILL_REASON:0 "Abilità Erudizione: $VALUE|=+0$"
- SCHEME_TARGET_LEARNING: "[learning|E] di [target.GetShortUIName|U]: $VALUE|+=0$" 
  PROWESS_SKILL_REASON:0 "Abilità Maestria: $VALUE|=+0$" 
+ SCHEME_TARGET_LEARNING: "[learning|E] di [target.GetShortUIName|U]: $VALUE|+=0$" 
  AI_I_AM_INCAPABLE:0 "Io sono [GetTrait('incapable').GetName(GetNullCharacter)]: $VALUE|=+0$"
  AI_I_AM_IMPRISONED:0 "Io sono [imprisoned|E]: $VALUE|=+0$"
  AI_LACKS_POLITICAL_CAPITAL:0 "Non ho il [prestige|E] per opporre resistenza: $VALUE|=+0$"
@@ -622,7 +621,7 @@ AI_CONTRACT_BALANCE: "Benefici del contratto: $VALUE|=+0$"
  
 LOW_LEGITIMACY_REASON: "Bassa [legitimacy|E] di [actor.GetShortUIName|U]: $VALUE|=+0$"
 HIGH_LEGITIMACY_REASON: "Alta [legitimacy|E] di [actor.GetShortUIName|U]: $VALUE|=+0$"
-
+ 
  INFLUENCE_REASON: "Esercitando [influence|E]: $VALUE|=+0$ #weak (in base al tuo [influence_level])#!"
  RECIPIENT_SECRET: "Usando il [secret|E] di [recipient.GetShortUIName]: $VALUE|=+0$"
  SECONDARY_RECIPIENT_SECRET: "Usando il [secret|E] di [secondary_recipient.GetShortUIName]: $VALUE|=+0$"
@@ -656,3 +655,15 @@ HIGH_LEGITIMACY_REASON: "Alta [legitimacy|E] di [actor.GetShortUIName|U]: $VALUE
  HAS_WET_NURSE_REASON: "[GetCourtPositionType( 'wet_nurse_court_position' ).GetName]: $VALUE|=+0$"
  HAS_CHAMPION_REASON: "[GetCourtPositionType( 'champion_court_position' ).GetName]: $VALUE|=+0$"
 NOMADIC_BASE_MALUS: "[GetGovernment( 'nomad_government' ).GetName] [government|E]: $VALUE|=+0$"
+
+I_HAVE_CRUSADER_KING_TRAIT: "[GetTrait('crusader_king').GetName(GetPlayer)]: $VALUE|=+0$"
+I_HAVE_SAINT_TRAIT: "[GetTrait('saint').GetName(GetPlayer)]: $VALUE|=+0$"
+I_HAVE_SAOSHYANT_TRAIT: "[GetTrait('saoshyant').GetName(GetPlayer)]: $VALUE|=+0$"
+I_HAVE_SAOSHYANT_DESCENDANT_TRAIT: "[GetTrait('saoshyant_descendant').GetName(GetPlayer)]: $VALUE|=+0$"
+I_HAVE_SAYYID_TRAIT: "[GetTrait('sayyid').GetName(GetPlayer)]: $VALUE|=+0$"
+I_HAVE_ORDER_MEMBER_TRAIT: "[GetTrait('order_member').GetName(GetPlayer)]: $VALUE|=+0$"
+I_HAVE_FAITH_WARRIOR_TRAIT: "[GetTrait('faith_warrior').GetName(GetPlayer)]: $VALUE|=+0$"
+I_HAVE_THEOLOGIAN_TRAIT: "[GetTrait('theologian').GetName(GetPlayer)]: $VALUE|=+0$"
+I_HAVE_DESPOILER_OF_BYZANTIUM_TRAIT: "[GetTrait('despoiler_of_byzantium').GetName(GetPlayer)]: $VALUE|=+0$"
+I_HAVE_GALLOWSBAIT_TRAIT: "[GetTrait('gallowsbait').GetName(GetPlayer)]: $VALUE|=+0$"
+I_HAVE_DECADENT_TRAIT: "[GetTrait('decadent').GetName(GetPlayer)]: $VALUE|=+0$"

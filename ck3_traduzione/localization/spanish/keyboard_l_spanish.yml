@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  PDX_TOOLTIP_SHORTCUT:1 "#bold $MODS$$SHORTCUT$#!"
  SHORTCUT_KEY:0 "$KEY$"
  SHORTCUT_KEY_MOD_shift:0 "Shift+"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  court_new.0001.t: "La Spada di Damocle"
  court_new.0001.desc.intro: "Sento un'improvvisa frattura quando una sezione dell'impalcatura si rompe e cade a terra, mancando per un soffio un servitore, ma per il rapido istinto di [bodyguard_candidate.GetFirstName]."
  court_new.0001.desc.murdered: "Mi viene in mente il macabro assassinio di [murdered_person.GetName], realizzato prima del suo tempo."

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  chancellor_task_foreign_affairs_opinion:0 "Affari Esteri"
  chancellor_task_domestic_affairs_opinion:0 "Affari Interni"
  chancellor_task_neighbor_decreased_opinion:0 "Incidente Diplomatico"
@@ -22,8 +22,7 @@
  spouse_martial_display_of_force_opinion:0 "Manifestazione di Forza"
 
  spouse_coerced_gift_opinion:0 "Dono Forzato"
- 
+
  steward_convince_dejure_upset_modifier:0 "Errore Diplomatico"
- 
  steward_taxed_me_opinion:0 "Mi ha Tassato"
  steward_doubted_my_accounting_opinion:0 "Ha Dubitato dei Miei Conti" 

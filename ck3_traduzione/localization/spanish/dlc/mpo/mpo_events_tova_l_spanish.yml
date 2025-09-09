@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  mpo_events_tova.0001.t: "A Cold Reception"
  mpo_events_tova.0001.desc: "Not long after my return, I notice [demanding_relation.GetTitledFirstName] trails after me with an expectant look on [demanding_relation.GetHerHis] face. We have not seen each other in a while, as [demanding_relation.GetSheHe] remained in court during my latest journey, but it is clear that [demanding_relation.GetSheHe] wishes for more than my company. \n\n[demanding_relation.GetSheHe|U] peers up at me with bright eyes and asks, "Did you bring me something from your trip?" \n\nI fumble over my pockets but find nothing except a [ROOT.Char.Custom('RandomWeirdObject')]. I have no memory of how it got there."
  mpo_events_tova.0001.a: "Let me tell you about my travels instead."

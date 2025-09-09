@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ep3_emperor_yearly.8000.t: "Condividere il Carico"
  ep3_emperor_yearly.8000.intro_byz: "[ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip], la luce imperitura dell'Impero, è messa a dura prova in questi tempi difficili."
  ep3_emperor_yearly.8000.intro: "[ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip], la nostra grande capitale, geme sotto il peso delle molte richieste che [ROOT.Char.Custom('DE_ART_DEF_P_A')] [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] ha imposto al suo popolo."

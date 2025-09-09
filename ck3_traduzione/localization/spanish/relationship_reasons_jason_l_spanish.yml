@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  rival_looted_tournament:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)|U] [Select_CString(CHARACTER.IsLocalPlayer,'hai','ha')] scatenato una terribile rivolta che ha trasformato la sfida [TARGET_CHARACTER.Custom('IT_NAM_COL2')][TARGET_CHARACTER.GetShortUIName] in un bagno di sangue."
  rival_looted_tournament_corresponding:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'hai','ha')] scatenato una terribile rivolta che ha trasformato la sfida [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetShortUIName] in un bagno di sangue."
 

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  excellent_food_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUINameNoTooltip)] [Select_CString( first.IsLocalPlayer, 'Sei', 'è' )] Felicissimo della quantità di [root_scope.Custom('GetExpensiveDessert')|U]"
  
  hook_trusting_guest_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUINameNoTooltip)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Promesso Ingenuamente un Favore a [second.GetShortUINameNoTooltip|U]"

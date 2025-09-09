@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  culture_notification.0010.t:0 "Tradizione Abbandonata"
  culture_notification.0010.desc:2 "La Cultura [this_player.GetCulture.GetNameNoTooltip] ha abbandonato la tradizione [tradition.GetName]"
  culture_notification.0011.t:1 "Tradizione Abbracciata"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
 # Travel Danger Event Prefix
  travel_danger_prefix:0 "Pericolo:"
@@ -72,7 +72,6 @@
  dehydrated_modifier: "Disidratato"
  dehydrated_modifier_desc: "Questo personaggio è disidratato dopo aver viaggiato nel deserto."
  travel_danger_events.1007.d: "Per fortuna abbiamo portato dell'acqua in più!"
- 
 
  travel_danger_events.1008.t:1 "$travel_danger_prefix$ Conseguenze"
  travel_danger_events.1008.desc:0 "Il nostro viaggio ci ha portato ad attraversare [current_location.GetName]. Ciò che una volta era un amabile territorio di [current_location_barony.Custom('BaronyTownType')] si è ridotto ad uno spettro di quello che era un tempo.\n\nCumuli di macerie che un tempo erano case rilasciano fumo, devastati per mano di un esercito spietato. Piangente e coperto di sporcizia, un[zombie.Custom('DE_PRO_POS_P_2P')] [zombie.GetWomanMan] cerca in quella che poteva essere una fattoria qualsiasi cosa possa essere rimasta dei suoi averi.\n\n[zombie.GetSheHe|U] ci nota, chiaramente fuori posto in questa terra desolata, e si dirige verso il nostro seguito!"

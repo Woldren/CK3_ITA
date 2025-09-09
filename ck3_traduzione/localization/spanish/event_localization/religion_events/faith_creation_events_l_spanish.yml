@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  faith_creation.1001.t.schism:0 "Lo Scisma della Fede [reformed_faith.GetAdjectiveNoTooltip]"
  faith_creation.1001.t.reformation:0 "La riforma del [reformed_faith.GetAdjectiveNoTooltip]"
  faith_creation.1001.desc.schism:0 "Un nuovo scisma all'interno della fede [reformed_faith.GetReligion.GetName] si è verificato quando [reformer.GetTitledFirstName] e i suoi seguaci si sono separati dalla fede [old_faith.GetAdjective] per formare un nuovo movimento religioso."

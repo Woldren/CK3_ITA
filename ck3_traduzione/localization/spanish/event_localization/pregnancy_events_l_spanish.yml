@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  pregnancy.1001.t:0 "Gravidanza!"
  pregnancy.1001.d:0 "Un bambino sta crescendo nel mio grembo. Mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], ne sarà orgoglioso!"
  pregnancy.1001.a:0 "Bene!"
@@ -68,7 +68,7 @@
  pregnancy.2007.t:0 "Il Passaggio"
  pregnancy.2007.desc:0 "Tutto è stato sfocato ed annebbiato da quando il preparato di [ROOT.Char.Custom('Abortifacient')]. Figure che si muovono silenziose mormorando parole incomprensibili accanto al mio letto, si fondono con la mia vista annebbiata fino a diventare tenebra. Man mano che i sussurri si fanno più intensi, aumenta anche il bruciore nel mio petto."
  pregnancy.2007.a:0 "Chi mi accoglierà?"
- 
+
  pregnancy.2050.t:0 "Di un Altro"
  pregnancy.2050.desc.polyamorous:0 "Questo mi sta tormentando, ma i segni sono chiari. Sono incinta!\n\nNon ho dubbi che [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)] sia il vero padre."
  pregnancy.2050.desc:0 "Questo mi sta tormentando, ma i segni sono chiari. Sono incinta!\n\nNon è un motivo di gioia perché tutti ora sanno che sono stata infedele al mio [spouse.Custom2('MyCharacterIntroduction', ROOT.Char)]. Non ho dubbi che sia [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)] il vero padre..."

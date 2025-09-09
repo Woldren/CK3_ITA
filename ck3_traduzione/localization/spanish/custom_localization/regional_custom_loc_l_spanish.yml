@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #MountedWarriorTerm
  knight:1 "$knight_culture_player_no_tooltip_lowercase$"
  #MountedWarriorTermPlural
@@ -16,7 +16,7 @@
  mansions:0 "palazzi"
  temple:0 "tempio"
  temples:0 "templi"
- 
+
  residence: "residenza"
  residences: "residenze"
  yurt_residence: "yurt"
@@ -214,9 +214,8 @@
  mead:0 "idromele"
  palm_wine:0 "vino di palma" #tradurre da qui
  slivovitz:0 "slivovitz"
- byzantine_cypriot:0 "Commandaria Cipriota"
- byzantine_cypriots: "Vini Commandaria Ciprioti" 
  byzantine_cypriot:0 "Cipriota Bizantino"
+ byzantine_cypriots: "Vini Commandaria Ciprioti" 
  shiraz_white:0 "Shiraz bianco"
  prunelle_liquer:0 "Liquore di Prunella"
  sack_wine:0 "vino da sacco"
@@ -254,7 +253,7 @@
  sand_dune:0 "duna di sabbia"
  boulder:0 "macigno"
  tree:0 "albero"
- 
+
  #Curses (should not be translated, but remain the same in every language of the game)
  curse_helvete:0 "helvete"
  curse_helvetes_javla_skit:0 "helvetes jävla skit"
@@ -298,7 +297,7 @@
  curse_morbleu:0 "morbleu"
  curse_diantre:0 "diantre"
  curse_peste:0 "peste"
- curse_mortecouille:0 "mortecouille "
+ curse_mortecouille:0 "mortecouille " #controllare_modifica
  curse_ventre_dieu:0 "ventre-dieu"
  curse_puterelle:0 "puterelle"
  curse_proklyatie:0 "proklyatie"
@@ -393,7 +392,6 @@
  durga:0 "durga"
  kastron:0 "[Glossary( 'kástron', 'KASTRON_GLOSS' )]"
  KASTRON_GLOSS: "Originariamente riferito ad una fortezza o cittadella, il #bold kástron#! servì a dare risalto alla città Bizantina nel suo complesso."
- 
  stronghold:0 "forte"
  #Mythical Horned Creatures
  horned_mythical_creature_tarasque:0 "tarasque"
@@ -419,7 +417,7 @@
  mythical_creature_north_europe_antero_vipunen:0 "Antero Vipunen"
  mythical_creature_north_europe_tjelvar:0 "Tjelvar"
  mythical_creature_north_europe_fin:0 "Fin"
- #Gotland
+ ##Gotland
  mythical_creature_north_europe_bysn: "Bysn"
  mythical_creature_north_europe_disma: "Di Sma Undar Jårdi" 
  #South Europe
@@ -533,7 +531,7 @@
  root_vegetable_kokoro_plural:0 "kokoro"
  root_vegetable_ginger_plural:0 "zenzeri"
  root_vegetable_taro_plural:0 "tari"
- #RegionalFerociousAnimal
+#RegionalFerociousAnimal
  regional_ferocious_animal_bear:0 "un orso"
  regional_ferocious_animal_wolf:0 "un lupo"
  regional_ferocious_animal_boar:0 "un cinghiale"
@@ -690,7 +688,8 @@
  fish_arowana: "arowana"
  fish_barramundi: "barramundi"
  fish_croaker: "croaker"
- 
+
+
  #TerrainInspirationLoc
  TerrainInspirationMountains: "alte vette montuose"
  TerrainInspirationHills: "colline ondulate, che si alzano e si abbassano come onde"
@@ -703,4 +702,3 @@
  TerrainInspirationFarmlands: "campi rigogliosi e ondulati"
  TerrainInspirationSteppe: "steppa selvaggia, che si estende per miglia senza interruzione"
  TerrainInspirationdrylands: "vasti territori aridi e il loro orizzonte color sabbia"
- 

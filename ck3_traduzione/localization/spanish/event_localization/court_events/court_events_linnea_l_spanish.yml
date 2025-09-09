@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  court.5001.t:0 "Giorni di Solitudine"
  court.5001.desc:0 "[friend.Custom('REL_TO_ME')|U][friend.Custom2('MyCharacterIntroduction', ROOT.Char)] è terribilmente annoiat[friend.Custom('DE_END_PRO_S_N')]; posso notarlo dalla sua faccia e nel modo con cui, a tutte le ore, cerca la mia attenzione.\n\nSo che i miei doveri occupano molto del mio tempo e che, per questo, a volte [friend.Custom('DE_ART_IND_A')] rimane da sol[friend.Custom('DE_END_PRO_S_N')]..."
@@ -63,7 +63,7 @@
  court.5041.option_3:0 "Farò in modo che nei suoi alloggi vengano liberati tanti serpenti!"
  court.5041.option_4:0 "[prank_target.Custom('DE_PRO_POS_S_3P')] spaventerò con della polvere infiammabile!"
  court.5041.option_5:0 "Una sorpresa [prank_target.Custom('DE_PRO_POS_P_3P')] attenderà in cima alla porta dei suoi alloggi!"
-#da qui
+
  court.5042.desc_chastiser:0 "\n\n però [chastiser.Custom2('MyCharacterIntroduction', ROOT.Char)|U] non riesce a vederne l'umorismo.\n\n"So che sei tu che fai questi scherzi infernali a corte."
  court.5042.desc_chastiser_snake:0 "[prank_target.Custom('DE_ART_DEF_P_D')] pover[prank_target.Custom('DE_END_PRO_S_N')] [prank_target.GetTitledFirstName] salta ad ogni ombra, e quello che i serpenti hanno fatto alla sua faccia... è una disgrazia. Vostra grazia.""
  court.5042.desc_chastiser_no_snake:0 "[prank_target.Custom('DE_ART_DEF_P_D')] pover[prank_target.Custom('DE_END_PRO_S_N')] [prank_target.GetTitledFirstName] salta ad ogni ombra! È una disgrazia... vostra grazia.""

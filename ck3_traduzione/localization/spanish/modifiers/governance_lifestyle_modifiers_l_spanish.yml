@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  rulership_playful_experimentation_modifier:0 "Sperimentazione Divertente"
  rulership_playful_experimentation_modifier_desc:0 "I tentativi di essere creativi e di divertirsi nella ricerca di soluzioni spesso forniscono buoni risultati."
  rulership_mudraking_river_banks_modifier:0 "Aggiungere terre"
@@ -100,7 +100,7 @@
  stewardship_domain_crown_lands_modifier:0 "Locande organizzate"
  stewardship_domain_pecuniary_oversight_modifier:0 "Vigilanza finanziaria"
  stewardship_domain_expanded_public_works_modifier:0 "Lavori pubblici ampliati"
- 
+
  stewardship_general_bartering_strategies_modifier:0 "Strategie di Baratto"
  stewardship_general_bartering_strategies_modifier_desc:0 "Questo personaggio sa come contrattare con una certa serietà."
 
@@ -117,7 +117,7 @@
 
  extorted_courtiers_modifier:0 "Cortigiani Estorti"
  extorted_courtiers_modifier_desc:0 "Questo personaggio ha estorto i suoi cortigiani al meglio delle sue capacità."
- 
+
  supported_local_business_modifier:0 "Attività Locali Supportate"
  supported_local_business_modifier_desc:0 "Questo personaggio ha sostenuto un'attività locale."
 

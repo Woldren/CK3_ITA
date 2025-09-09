@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  test_opinion_modifier:0 "Test Modifier"
  rude_opinion:0 "Maleducato"
  publicly_ridiculed:0 "Mi ha Ridicolizzato Pubblicamente"
@@ -83,7 +83,7 @@
  respect_opinion:0 "Rispetto"
  disrespect_opinion: "Mancanza di Rispetto"
  refusal_opinion:0 "Rifiuto"
- kindness_opinion:0 "Ha Mostrato Gentilezza"
+ kindness_opinion:0 "Ha Mostrato Gentilezza" #controllare_modifica
  reputation_opinion:0 "Reputazione"
  cruelty_opinion:0 "Crudele"
  upset_opinion: "Contrariato"
@@ -125,7 +125,13 @@
  amazed_opinion: "Stupore"
  honesty_opinion: "Onestà"
  charmed_opinion: "Ammaliato"
- 
+ apologized_opinion: "Apologized"
+ unimpressed_opinion: "Unimpressed"
+ holy_anointment_opinion: "Holy Anointment"
+ heathen_anointment_opinion: "Heathen Anointment"
+ self_crowning_opinion: "Self-Crowning"
+ ach_synergy_culture_opinion: "$oath_mend_the_fracture_tradition_name$"
+
  plotting_against_vassals_opinion:0 "Sta Complottando Contro i Miei Vassalli"
  loved_one_dungeon_death:0 "Ha Causato la Morte di una Persona Cara"
  helped_me_in_time_of_need:0 "Mi ha Aiutato nel Momento del Bisogno"
@@ -195,7 +201,6 @@
  helped_me_against_tyrant_opinion:0 "Mi ha Aiutato Contro il Tiranno"
  sided_with_tyrant_opinion:0 "Si è Schierato con il Tiranno"
  opinion_of_predecessor:0 "Opinione del Predecessore"
- 
  promise_to_predecessor:0 "Promessa al Predecessore"
  upset_elites_opinion:0 "Ha fatto Arrabbiare l'Elite"
  courtly_title_creation_opinion:0 "[GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] Approva la creazione del [title|E]"
@@ -220,7 +225,6 @@
  zealot_disapproves_of_cynicism_opinion:0 "[GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName] Disapprova il Cinismo"
  minority_disapproves_of_conversion_opinion:0 "[GetVassalStance( 'minority' ).GetTextIcon][GetVassalStance( 'minority' ).GetName] disapprova la Conversione"
  barons_and_minor_landholders_disapproves_baron_revocations_opinion:0 "[GetVassalStance( 'barons_and_minor_landholders' ).GetTextIcon][GetVassalStance( 'barons_and_minor_landholders' ).GetName] Disapprova la Revoca delle Baronie"
- 
  kicked_me_from_court:0 "Mi ha Allontanato dalla Corte"
  kicked_follower_from_camp_opinion: "Cacciato [follower|E] dal [camp|E]"
  kicked_rival_from_camp_opinion: "Cacciato [rival|E] dal [camp|E]" 
@@ -269,6 +273,7 @@
  proper_jokes_opinion: "Anima della Festa"
  lost_weak_hook_opinion:0 "Gancio Debole Perso"
  lost_strong_hook_opinion:0 "Gancio Forte Perso"
+
  attempted_to_steal_artifact_from_me:0 "Ha Cercato di Rubarmi un Manufatto"
  stole_artifact_from_me:0 "Mi ha Rubato un Manufatto"
  revoked_court_position_opinion:0 "Ha Revocato la mia Posizione a Corte"
@@ -294,11 +299,10 @@
  surgically_maimed:0 "Mutilato Chirurgicamente"
  bizarre_claims_opinion:0 "Ha fatto delle Rivendicazioni Bizzarre"
  wounded_me:0 "Mi ha Ferito"
-
  absorbed_de_jure_opinion:0 "Terre De Jure Assorbite"
  disgruntled_opinion:0 "Contrariato"
  mollified_opinion:0 "Addolcito"
- 
+
  strife_opinion:0 "Ha causato [strife|E]"
 
  rebuffed_opinion:0 "Mi ha Respinto"
@@ -320,23 +324,20 @@
  designated_bad_regent_opinion:0 "Designato Cattivo Reggente"
  designated_me_regent_opinion:0 "Mi ha Designato Reggente"
  emulating_culture_opinion:0 "Sta Emulando la mia Cultura"
- 
+
  declined_ward_opinion:0 "Pupillo Rifiutato"
 
  turncoat_opinion:0 "Voltagabbana"
- 
- uncertain_opinion: "Incerto" 
- 
  uncertain_opinion: "Incerto"
  stolen_land_opinion: "Terra Rubata"
  stole_hostage_opinion: "Ha Rapito il mio Ostaggio"
  castration_opinion: "Mi ha Castrato"
  attempted_castration_opinion: "Ha Cercato di Castrarmi"
- 
+
  impeccable_guest_opinion: "Ospite Impeccabile"
  gracious_host_opinion: "Ospite Grazioso"
  dishonest_opinion: "Disonesto"
- 
+
  coup_plotter_opinion: "Complottato per Rovesciarmi"
  support_opinion: "Supporta il Mio Regno"
  opposition_opinion: "Si Oppone al Mio Regno"
@@ -359,7 +360,7 @@
  one_of_us_opinion: "Uno di Noi"
  saviour_opinion: "Salvatore"
  practical_opinion: "Pratico"
- # As in, opinion _of_ you being callous: "Non posso credere che tu abbia affogato quel cane solo per vincere una scommessa!"
+ # As in, opinion _of_ you being callous: "I can't believe you drowned that dog just to win a bet!"
  callous_opinion: "Insensibile"
  outraged_opinion: "Indignato"
  butcher_opinion: "Macellaio"
@@ -383,11 +384,15 @@
 
  requested_influence_opinion: "Supporto dell'Influenza Richiesto"
  unjust_patriarch_opinion: "Patriarca Ingiusto"
- 
  respected_camp_leader_opinion: "Leader del Campo Rispettato"
- 
  destroyed_confederation_opinion: "Ha posto Fine alla nostra Confederazione"
  disapproval_opinion: "Disapprovazione"
 
  blood_brother_close_family_opinion: "Fratellanza di Sangue tra i Parenti Stretti"
  sent_herd_opinion: "Ha Ricevuto una Mandria in Dono"
+
+ fellow_supporter_opinion: "Fellow Supporter"
+ rival_supporter_opinion: "Misguided Supporter"
+ fellow_detractor_opinion: "Fellow Detractor"
+ rival_detractor_opinion: "Disloyal Detractor"
+ crowned_consort_opinion: "Regal Consort"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  conqueror.0001.t: "Governare il Mondo"
  conqueror.0001.desc: "È sempre più chiaro. Dal più umile contadino al più nobile dei miei vassalli, tutti sussurrano il mio nome, sussurrano della mia potenza, sussurrano di #EMP guerra!#! C'è sostegno per la mia causa, perché il mio popolo mi vede come un sovrano degno del mondo.\n\nLa forza di [ROOT.Char.GetPrimaryTitle.GetBaseName] è mia da esercitare, ed io lo farò. Colpire verso l'esterno è ciò che ci si aspetta da me, reclamare con la forza ciò che dovrebbe appartenermi. Sono destinato a governare, a sottomettere coloro che mi circondano e farli parte del/della mio/a [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip].\n\nCon il mio popolo che mi sostiene non posso fallire."
  conqueror.0001.desc.temujin: "\n\nDa un lupo grigio-azzurro e una cerva fulva, non offrirò altro che rovina o sottomissione."

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  vassal.1001.t:0 "Come [ROOT.Char.GetFaith.HighGodName|U] Vuole"
  vassal.1001.desc:0 "[religious_liege.Custom('DE_ART_DEF_P_A')] mi[religious_liege.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_liege'))], [religious_liege.Custom('DE_ART_DEF_P_A')] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('religious_liege'))] [religious_liege.GetTitledFirstName], sta passando attraverso i miei domini. Nell'esaminare gli edifici, [religious_liege.GetSheHe] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('religious_liege'))] e aggrotta le sopracciglia.\n\n"Sai cos'è che non si vede? Un [religious_liege.GetFaith.HouseOfWorship] - un glorioso tributo a [religious_liege.GetFaith.HighGodName]!""
  vassal.1001.a:0 "Verrà costruita una [ROOT.Char.GetFaith.HouseOfWorship], promesso!"

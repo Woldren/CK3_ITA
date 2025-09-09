@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ep3_laamp_flavor.0001.t1: "Mangiatori di carogne"
  ep3_laamp_flavor.0001.t2: "Mangiare i corvi"
  ep3_laamp_flavor.0001.desc1: "Avvoltoi volteggiano sopra di noi mentre il sole cocente infierisce sul mio stomaco vuoto. Frugo tra le razioni rimaste: ci restano solo gallette dure, e anche quelle stanno rapidamente finendo. Dovremo rifornirci presto o affrontare la fame.\n\nHo esposto la nostra situazione disperata agli altri. Nessuna delle opzioni sembrava allettante, per usare un eufemismo. Flettendo il braccio dell'arco, [vulture_shooter.GetFirstName] si offre volontari[vulture_shooter.Custom('DE_END_PRO_S_N')] per abbattere alcuni degli avvoltoi e rifornire le nostre scarse provviste."
@@ -17,7 +17,7 @@
  no_vulture_eating_corresponding: "[TARGET_CHARACTER.GetShortUIName] e [CHARACTER.GetShortUIName|U] hanno litigato sull’idea di mangiare carogne."
  ep3_laamp_flavor.0001.sick: "La carne degli avvoltoi non fa per me"
  ep3_laamp_flavor.0001.notsick: "Appena commestibile, ma sufficiente a sopravvivere"
-
+ 
  ep3_laamp_flavor.0020.t: "Al ladro!"
  ep3_laamp_flavor.0020.intro: "Mi affretto a tornare nella piazza cittadina appena apprendo la notizia: hanno colto [thieving_follower.Custom('IT_NAM_COL3')][thieving_follower.GetFirstName] con le mani nel sacco mentre rubava a una bancarella del mercato. Dall'alto presiede nientemeno che [town_leader.Custom('IT_NAM_COL3')][town_leader.GetTitledFirstName|l], che mi trafigge con uno sguardo glaciale. In contrasto, [thieving_follower.Custom('IT_NAM_COL3')][thieving_follower.GetFirstNameNoTooltip] sembra assai più tranquill[thieving_follower.Custom('DE_END_PRO_S_N')] nel vedermi, nonostante la situazione critica.\n\n"La pena per il furto a [town_location.GetName]…", proclama [town_leader.Custom('IT_NAM_COL3')][town_leader.GetTitledFirstName|l],"
  ep3_laamp_flavor.0020.desc1: ""è di solito una serie di frustate severe se non si può pagare la consueta ammenda. Tuttavia, con un[thieving_follower.Custom('DE_PRO_POS_P_2P')] membro not[thieving_follower.Custom('DE_END_PRO_S_N')] di una banda di criminali vagabondi, non sono incline a mostrare clemenza.""
@@ -31,7 +31,7 @@
  ep3_laamp_flavor.0020.d.tt.fail: "Abbiamo perso il combattimento e [thieving_follower.Custom('IT_NAM_COL3')][thieving_follower.GetFirstName] dovrà pagare il prezzo."
  thievery_helper_opinion: "[CHARACTER.GetUIName|U] e [TARGET_CHARACTER.GetUIName] hanno legato quando [CHARACTER.GetShortUIName] ha aiutato [TARGET_CHARACTER.GetShortUIName] a sfuggire alle conseguenze delle sue azioni."
  thievery_helper_opinion_corresponding: "[TARGET_CHARACTER.GetUIName|U] e [CHARACTER.GetUIName] avete legato quando [CHARACTER.GetShortUIName] ha aiutato [TARGET_CHARACTER.GetShortUIName] a sfuggire alle conseguenze delle sue azioni."
- 
+
  ep3_laamp_flavor.0030.t: "Dolci sogni"
  ep3_laamp_flavor.0030.desc: "Le tavolate del banchetto si estendono a perdita d’occhio! Il mio trono elevato brilla di rubini e zaffiri! Ospiti dai quattro angoli del mondo giungono per celebrare il ventesimo anniversario del mio regno benedetto.\n\n"Un’altra coppa di dolce ambrosia, [Select_CString(ROOT.Char.IsFemale, 'gloriosa imperatrice', 'glorioso imperatore')]?", mi chiede [dream_friend.Custom('DE_ART_DEF_P_A')] mi[dream_friend.Custom('DE_END_PRO_S_N')] fidatissim[dream_friend.Custom('DE_END_PRO_S_N')] [dream_friend.GetFirstName], porgendomi una coppa splendente che svuoto con fervore.\n\n"Danzate per me, buffone!", tuono verso [dream_rival.Custom('IT_NAM_COL3')][dream_rival.GetFirstName], [Select_CString(dream_rival.IsFemale, 'screditata e umiliata', 'screditato e umiliato')]. Questo è il destino di chi osa sfidarmi. Chiudo gli occhi per un momento.\n\nQuando li riapro, mi trovo in un letto di paglia fin troppo familiare. Sospiro. Era solo un sogno."
  ep3_laamp_flavor.0030.a: "Renderò il sogno realtà."
@@ -40,7 +40,7 @@
  dream_ambitious: "Ambizioni regali"
  dream_envious: "Invidia di terre"
  dream_content: "Libertà dalla responsabilità"
- 
+
  ep3_laamp_flavor.0040.t: "Giovane disperso"
  ep3_laamp_flavor.0040.desc: "Mentre esploriamo [location_scope.GetTerrain.GetNameNoTooltip|l] di [ROOT.Char.GetCurrentLocation.GetName], noto qualcuno che abbevera un cavallo sul bordo della strada. Avvicinandomi, riconosco [runaway_child.GetFullName], [runaway_child.Custom('GetDaughterSon')] [local_ruler.Custom('IT_NAM_COL3')][local_ruler.GetTitledFirstName|l]. I suoi occhi riflettono paura e confusione, e i suoi eleganti abiti sono sporchi e strappati.\n\nDopo una breve e tesa conversazione, scopro che [runaway_child.Custom('IT_NAM_COL3')][runaway_child.GetFirstNameNoTooltip] è fuggit[runaway_child.Custom('DE_END_PRO_S_N')] da casa per una lite familiare della quale fatico a comprendere i dettagli. Non ci è voluto molto perché [Select_CString(runaway_child.IsFemale, 'la ragazza', 'il ragazzo')] si perdesse nella boscaglia. Con le lacrime agli occhi, [runaway_child.Custom('IT_NAM_COL3')][runaway_child.GetFirstNameNoTooltip] ci implora di lasciar[runaway_child.Custom('DE_END_PRO_S_N')] venire con noi o almeno di scortarl[runaway_child.Custom('DE_END_PRO_S_N')] a casa."
  ep3_laamp_flavor.0040.a: "Vieni con noi, ti riporteremo a casa."
@@ -48,7 +48,7 @@
  ep3_laamp_flavor.0040.c: "Non vedo l'ora di scrivere la lettera di riscatto."
  stole_my_child_opinion: "Ha rapito il mio erede"
  returned_my_child_opinion: "Ha riportato a casa il mio erede sano e salvo"
- 
+
  ep3_laamp_flavor.0050.t: "Il negromante"
  ep3_laamp_flavor.0050.desc: "Incapace di dormire, una passeggiata notturna per [location_scope.GetTerrain.GetNameNoTooltip|l] mi porta a vagare senza meta finché non odo... #EMP canti#!?\n\nSeguo il suono fino alla sua origine e trovo un cerchio di torce che illumina una scena curiosa e inquietante.\n\nUn uomo avvolto in una tunica, con lo sguardo fisso sul suo grimorio, evoca i nomi dei demoni che cerca di sottomettere alla sua volontà. Davanti a lui, un cerchio rituale di gesso, complesso, elegante e assolutamente folle; è evidente che si tratta di un [Glossary('negromante', 'NECROMANCER_GLOSS' )]!\n\nNell’agitazione, inciampo e annuncio rumorosamente la mia presenza."
  ep3_laamp_flavor.0050.a: "Metterete fine a questa abietta stregoneria immediatamente!"
@@ -59,7 +59,7 @@
  ep3_laamp_flavor.0050.d.tt.success: "Il vile negromante viene scacciato"
  ep3_laamp_flavor.0050.d.tt.fail: "Il negromante ti sovrasta e ti costringe a ritirarti"
  NECROMANCER_GLOSS: "Nonostante il nome, la negromanzia storica comprendeva un miscuglio di esoterismo abramitico che spesso coinvolgeva preghiere a spiriti considerati #EMP impuri#! dalla Chiesa, che fossero demoni, morti o figure bibliche oscure."
- 
+
  ep3_laamp_flavor.0060.t: "Peso morto"
  ep3_laamp_flavor.0060.desc: ""Basta con i piagnistei! Anche io non mangio da giorni e non ho il lusso di essere trasportato come un principe!"; [follower.Custom('IT_NAM_COL3')][follower.GetFirstName] batte un pugno contro le sbarre di ferro della gabbia [prisoner.Custom('IT_NAM_COL3')][prisoner.GetFirstName], trascinata da un cavallo.\n\n"Stiamo morendo di fame, e quella canaglia è uno spreco di razioni. Dovremmo impiccarl[prisoner.Custom('DE_END_PRO_S_N')] e finirla una volta per tutte". [follower.Custom('IT_NAM_COL3')][follower.GetFirstNameNoTooltip] indica un albero secco poco più avanti."
  ep3_laamp_flavor.0060.a: "[prisoner.Custom('IT_NAM_COL3')][prisoner.GetFirstNameNoTooltip] ha vissuto abbastanza."
@@ -74,7 +74,7 @@
  ep3_camp_temperament.0001.c: "Potrei venderle in cambio di oro…"
  ep3_camp_temperament.0001.d: ""#EMP Voi#!, amic[potential_friend.Custom('DE_END_PRO_S_N')], siete un autentico tesoro.""
  ep3_camp_temperament.0001.e: ""Grazie per i vostri sforzi.""
-
+ 
  ep3_camp_temperament.0010.t: "In ogni angolo"
  ep3_camp_temperament.0010.desc.intro: "La pioggia ha spinto la maggior parte dei miei seguaci a cercare riparo sotto lo stesso tronco di [ROOT.Char.GetCurrentLocation.Custom('GetRandomAppropriateTree')], [enemy.Custom('IT_NAM_COL3')][enemy.GetTitledFirstNameNoTooltip|l] vocifera con veemenza tra la folla, mentre io cerco di nascondermi.\n\n"Quella specie di [ROOT.Char.Custom('InsultNoun')|l], totale incapace e inutile! Non vedete che è incapace persino di gestire il proprio accampamento? Come possiamo sperare che governi qualcosa di più grande di una pozzanghera?".\n\n"
  ep3_camp_temperament.0010.desc.spouse: "Non ci posso credere. [enemy.Custom('DE_ART_DEF_P_D')] mi[enemy.Custom('DE_END_PRO_S_N')] coniuge."

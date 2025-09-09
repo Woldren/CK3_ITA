@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  CULTURE_WINDOW_TITLE:0 "[Culture.GetNameNoTooltip]"
  CULTURE_RELATION_MY_CULTURE:1 "La tua [culture|E]"
  CULTURE_RELATION_MY_REALM:0 "[culture|E] nel tuo [realm|E]"
@@ -192,6 +192,3 @@
  ESTABLISHMENT_TIME_TOOLTIP_PILLAR:0 "#T Tempo per istituire:[Culture.GetTotalReformTimeForPillar]#!\n[Culture.GetTotalReformTimeBreakdownForPillar]"
  ESTABLISHMENT_TIME_TOOLTIP_NEW_TRADITION:0 "#T Tempo per istituire:[GetPlayer.GetCulture.GetTotalReformTimeForNewTradition]#!\n[GetPlayer.GetCulture.GetTotalReformTimeBreakdownForNewTradition]"
  ESTABLISHMENT_TIME_TOOLTIP_REPLACING_TRADITION:0 "#T Tempo per istituire:[GetPlayer.GetCulture.GetTotalReformTimeForReplacingTradition]#!\n[GetPlayer.GetCulture.GetTotalReformTimeBreakdownForReplacingTradition]"
- 
- 
- 

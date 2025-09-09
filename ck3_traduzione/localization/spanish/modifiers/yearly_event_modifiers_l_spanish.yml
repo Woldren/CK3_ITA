@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  yearly_0001_improved_diplomacy:0 "Lezioni di Etichetta"
  yearly_0001_improved_martial:0 "Lezioni di Strategia"
  yearly_0001_improved_stewardship:0 "Lezioni di Finanza"
@@ -46,7 +46,7 @@
  impressive_flowers_desc:0 "Questo personaggio sta coltivando una moltitudine di fiori colorati e impressionanti."
  useful_herbs:0 "Coltivazione di Erbe Medicinali"
  useful_herbs_desc:0 "Questo personaggio sta coltivando diverse erbe medicinali. Sicuramente torneranno utili."
- 
+
  7051_repentance_modifier: "Pentimento"
  7051_repentance_modifier_desc: "Questo personaggio si è pentito."
  MODIFIER_DEFINITION_VALUE_BASED_ON_KILL_LIST: " \t#weak Incrementa per numero di personaggi uccisi (massimo #V 4#! passi)#!"

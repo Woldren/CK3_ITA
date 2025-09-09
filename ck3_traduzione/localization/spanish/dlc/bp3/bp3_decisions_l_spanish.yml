@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
   enact_legacy_of_adventurer_decision: "Perpetuare il Retaggio della Casata [GetPlayer.GetHouse.GetBaseNameNoTooltip]"
   enact_legacy_of_adventurer_decision_desc: "Nel corso degli anni, il mio umile campo ha continuato a crescere, sia in termini di dimensioni che di spirito.\n\nOgni volta che portiamo a termine un compito, il nostro legame con questa terra e la sua gente si rafforza. Per le generazioni a venire, le nostre imprese saranno cantate nelle taverne e i nostri nomi continueranno a essere pronunciati, anche nei luoghi più remoti della terra."
   enact_legacy_of_adventurer_decision_confirm: "Per [GetPlayer.GetPrimaryTitle.GetName]!"

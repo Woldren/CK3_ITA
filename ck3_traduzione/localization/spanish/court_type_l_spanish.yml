@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  CHANGE_COURT_TYPE_HIDE:0 "#I Nascondi la finestra di cambio del Tipo di Corte#!"
  CHANGE_COURT_TYPE_SHOW:0 "#I Clicca per cambiare il Tipo di Corte#!"
  COURT_TYPE_NOT_VALID:0 "@warning_icon! #X Non è possibile passare a questo tipo di corte:#!"

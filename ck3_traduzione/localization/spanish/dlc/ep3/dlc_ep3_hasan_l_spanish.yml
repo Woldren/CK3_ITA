@@ -1,4 +1,4 @@
-﻿l_spanish: 
+l_spanish:
  # Decisions
  hasan_evangelize_the_faith: "Evangelizza la Fede"
  hasan_evangelize_the_faith_desc: "Il mio mandato divino è quello di diffondere la parola di Allah e del Suo profeta prescelto."
@@ -76,7 +76,6 @@
  unlock_evangelize_decision_tt: "Ottieni l'accesso alla decisone [GetDecisionWithKey('hasan_evangelize_the_faith').GetName]"
  advance_to_the_assassins_tt: "Questa opzione ti fa #P avanzare#! sul sentiero degli Assassini"
  chance_to_advance_to_the_assassins_tt: "Possibilità di #P avanzare#! sul tuo sentiero degli Assassini"
- 
  unlock_final_hasan_decisions_1_tt: "Ottieni l'accesso alla [decision|E] [GetDecisionWithKey('hasan_agitate_the_populace').GetName]"
  unlock_final_hasan_decisions_2_tt: "Ottieni l'accesso alla [decision|E] [GetDecisionWithKey('hasan_found_the_assassins').GetName]"
  unlock_final_hasan_decisions_3_tt: "Ottieni l'accesso alla [decision|E] [GetDecisionWithKey('hasan_ignite_the_flames').GetName]"
@@ -90,8 +89,7 @@
  look_for_another_enemy_tt: "Potresti cercare un altro nemico altrove"
  character_camp_is_at_targets_realm: "Il [camp|E] di [CHARACTER.GetShortUINamePossessive|U] deve trovarsi nel [realm|E] di [TARGET_CHARACTER.GetNamePossessive]"
  hasan_stroy_cycle_ultimate_foe: "Devi avanzare sul sentiero degli Assassini almeno #V 15#! volte oppure [caliph.GetName] dev’essere mort[caliph.Custom('DE_END_PRO_S_N')], e devi aver scelto un nemico giurato della fede [hasan.GetFaith.GetName] #weak (progresso attuale: [radical_points])#!"
-  
-  # Misc
+ # Misc
  HASAN_KINGDOM: "$b_alamut$"
  HASAN_KINGDOM_adj: "Alamuti"
  ASSASSIN_NATION_FRACTURING_WAR_NAME: "Dissoluzione [ATTACKER.GetPrimaryTitle.GetAdjective] di [DEFENDER.GetPrimaryTitle.GetName]"

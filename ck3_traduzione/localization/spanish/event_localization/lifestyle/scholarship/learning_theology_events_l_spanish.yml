@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 # Your realm priest asks for books, by Linnéa Thimrén
  learning_theology.1301.t:0 "Letteratura Ambita"
  learning_theology.1301.desc_opening:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!" [bishop.Custom('REL_TO_ME')][bishop.Custom2('MyCharacterIntroduction', ROOT.Char)|U] si avvicina rapidamente.\n\n"

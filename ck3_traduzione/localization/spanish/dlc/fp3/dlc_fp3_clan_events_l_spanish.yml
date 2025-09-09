@@ -1,10 +1,10 @@
-﻿l_spanish:
+l_spanish:
 
  ##################################################
  #  /|\ ^._.^ /|\  CLAN EVENTS  /|\ ^._.^ /|\
  ##################################################
 
- #Usury against Unity, by Ola Jentzsch
+#Usury against Unity, by Ola Jentzsch 
  fp3_clan.8000.t: "L'Usuraio Contro l'Unità"
  fp3_clan.8000.desc: "[concerned_one.Custom('IT_NAM_COL3')|U][concerned_one.GetName] si avvicina a me, apparentemente preoccupat[concerned_one.Custom('DE_END_PRO_S_N')]. "Ho sentito dire che [usurer.Custom('IT_NAM_COL3')][usurer.GetTitledFirstName] presta denaro ai cortigiani che ne sono a corto e che approfitti delle loro disgrazie applicando tassi di interesse esorbitanti. Tutti dicono che è [Select_CString( usurer.IsFemale, 'un'usuraia', 'un usuraio' )] e pensano che dovrebbe essere richiamat[usurer.Custom('DE_END_PRO_S_N')] all'ordine".\n\nQuando chiedo conto al[usurer.Custom('DE_END_ADJ_NUL_S_N')] mi[usurer.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('usurer'))] di queste accuse, [usurer.GetSheHe] si difende con veemenza. "È una pura calunnia! Alcuni amici mi hanno chiesto un aiuto finanziario, è vero, ma non ho avuto cattive intenzioni, né ho chiesto d'interessi più di quanto fosse giusto.\n\nLa verità è che [concerned_one.Custom('IT_NAM_COL3')][concerned_one.GetTitledFirstNameNoTooltip] mi deve dei soldi, ecco perché si sta intromettendo in queste faccende.""
  fp3_clan.8000.a: "Un po' di tempo nelle segrete vi schiarirà le idee, [usurer.GetFirstName]."
@@ -12,7 +12,7 @@
  fp3_clan.8000.c: "Risolvete la questione tra di voi."
  fp3_relations_reaction_to_imprisonment.tt: "I membri del clan e i vassalli che apprezzano [usurer.Custom('IT_NAM_COL3')][usurer.GetTitledFirstNameNoTooltip] reagiranno negativamente."
 
- #Clan Quarrel, by Ola Jentzsch
+ #Clan Quarrel, by Ola Jentzsch 
  fp3_clan.8001.t: "Litigio in Seno al Clan"
  fp3_clan.8001_beginning: "[bicker_1.Custom('IT_NAM_COL3')|U][bicker_1.GetTitledFirstName] e [bicker_2.Custom('IT_NAM_COL3')][bicker_2.GetTitledFirstName] hanno recentemente litigato durante una festa privata ed entramb[Select_CString(And(bickerer_1.IsFemale, bickerer_2.IsFemale),'e','i')] insistono affinché io prenda le loro parti."
  fp3_clan.8001_faith_schism: "Il loro disaccordo sembra derivare da un'accesa discussione sulla natura di [bickerer_1.GetFaith.PantheonTerm].\n\n"Le opinioni di [bickerer_1.GetFirstNameNoTooltip] rasentano l'eresia", afferma [bickerer_2.GetFirstNameNoTooltip]. "Se fossi in voi, l[bickerer_1.Custom('DE_END_PRO_S_N')] farei cacciare dalla corte!".\n\n"Vi risparmierò i dettagli disgustosi delle argomentazioni che [bickerer_2.GetFirstNameNoTooltip] sostiene", obietta [bickerer_1.GetFirstNameNoTooltip], "ma credetemi, non sono #EMP io#! a essere sacrileg[bickerer_1.Custom('DE_END_PRO_S_N')]...""
@@ -32,7 +32,7 @@
  fp3_clan.8001.a.failure.tt: "La tua mediazione è fallita"
 
 
- #Bonds of Faith, by Ola Jentzsch
+ #Bonds of Faith, by Ola Jentzsch 
  fp3_clan.8002.t: "Legami di Fede"
  fp3_clan.8002.desc: "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]", dice con apprensione [chaplain.GetFirstName], [chaplain.Custom('DE_ART_DEF_P_A')] mi[chaplain.Custom('DE_END_PRO_S_N')] [chaplain.GetCouncilTitle] "dobbiamo parlare di questioni spirituali." Fa una pausa per assicurarsi che siamo sol[Select_CString(And(chaplain.IsFemale, ROOT.Char.IsFemale),'e','i')].\n\n"Ho sentito [clan_member.Custom('IT_NAM_COL3')][clan_member.GetName] parlare di quanto raramente visitate [ROOT.Char.GetFaith.HouseOfWorship2].\n\nNon mi permetterei mai di speculare sul vostro rapporto persolane con il divino,  abbasserei mai a speculare sulla vostra relazione personale con il divino, oh [ROOT.Char.GetTitleTierName], m il modo in cui la vostra pietà viene #EMP percepita#! è fondamentale per i vostri sudditi.""
  fp3_clan.8002.a: "Forse non ho frequentato abbastanza i luoghi sacri e ho trascurato i miei doveri?"
@@ -55,7 +55,7 @@
  fp3_clan.8003.b: "Basterà leggerlo una volta sola."
  fp3_clan.8003.c: "Questo è qualcosa di cui non sono degno."
 
- #Bonds of Fear, by Ola Jentzsch                           
+ #Bonds of Fear, by Ola Jentzsch
  fp3_clan.8004.t: "Le Catene della Paura"
  fp3_clan.8004.desc: "[murder_enthusiast.Custom('DE_ART_DEF_P_D')] mi[murder_enthusiast.Custom('DE_END_PRO_S_N')] [murder_enthusiast.Custom('GetCouncilOrCourtPosition')] [murder_enthusiast.GetFirstName] mi ha chiesto un incontro privato. Sembrava davvero preoccupat[murder_enthusiast.Custom('DE_END_PRO_S_N')].\n\n"Ascoltatemi, oh [ROOT.Char.GetTitleTierName]», dice, quasi sussurrando. "[clan_member.Custom('IT_NAM_COL3')|U][clan_member.GetName] sta tramando qualcosa, probabilmente una nuova cospirazione contro di voi. Forse, potrebbe essere il momento giusto per agire contro qualcuno vicino a [clan_member.GetSheHe], per mandare un messaggio. Si dice che uno dei suoi servitori abbia conquistato i suoi favori...""
  fp3_clan.8004.a: "Capisco. Fatelo, ma con molta discrezione."
@@ -81,7 +81,7 @@
  fp3_empowered_child.tt: "Tra qualche anno, se [empowered_child.GetFirstNameNoTooltip] deterrà ancora questo titolo, migliorerà le sue [skill|e], in base ai suoi [traits|e] attuali."
  fp3_8007_studies_pay_off_toast: "[empowered_child.GetFirstName] promette bene"
 
- #Smaller Spies, by Ola Jentzsch
+#Smaller Spies, by Ola Jentzsch
  fp3_clan.8006.t: "Spie Più Piccole"
  fp3_clan.8006.desc: "In questi giorni, [paranoia_enthusiast.Custom('IT_NAM_COL3')][paranoia_enthusiast.GetName], [paranoia_enthusiast.Custom('DE_ART_DEF_P_A')] mi[paranoia_enthusiast.Custom('DE_END_PRO_S_N')] [paranoia_enthusiast.Custom('GetCouncilOrCourtPosition')], sembra particolarmente interessat[paranoia_enthusiast.Custom('DE_END_PRO_S_N')] a mi[sneaky_child.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sneaky_child'))] [sneaky_child.GetFirstName].\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], la situazione della casata [ROOT.Char.GetDynastyHouseNameNoTooltip] si fa ogni giorno sempre più precaria. Le persone a voi più vicine non smettono di cospirare ai vostri danni", mi spiega [paranoia_enthusiast.GetSheHe], incoraggiando con la mano [sneaky_child.GetFirstNameNoTooltip] affinché faccia un passo avanti. \n\n«Tuttavia, ho organizzato una rete di giovani informatori, in modo che possiate aveve un vantaggio, poiché le giovani spie possono essere estremamente utili. Benché tali giovani siano solo dei popolani, anche [sneaky_child.Custom('DE_ART_DEF_P_A')] giovane [sneaky_child.GetFirstNameNoTooltip] qui presente ha notevoli talenti e potrebbe risultarvi molto utile...""
  fp3_clan.8006.a: "Mi[sneaky_child.Custom('DE_END_PRO_S_N')] [sneaky_child.Custom('GetDaughterSon')] è di nobile stirpe, non una delle vostre misere spie!"
@@ -187,3 +187,4 @@
  fp3_clan.3000.c: "E se ne ripiantassimo alcuni insieme?"
  fp3_clan.3000.c.flavor: "Approfitti di questa opportunità per far comprendere a [ fp3_clan_3000_bad_child.GetFirstNameNoTooltip] il piacere del giardinaggio"
  fp3_clan.3000.d: "Ne ho abbastanza. #italic Ti trasformerò in concime per i miei fiori.#!"
+

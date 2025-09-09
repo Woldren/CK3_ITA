@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # # Stifled Commerce
  hold_court.8001.t:0 "Commercio soffocato"
  hold_court.8001.desc:0 "Un mercante provinciale si fa avanti, visibilmente a disagio nelle mie sontuose sale. Con un cenno lo invito: "Avanti, non abbiamo tutto il giorno." \n\n"S-sì, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!" balbetta. "Mi chiamo [merchant.GetFirstName], rappresento i commercianti insoddisfatti e gli uomini liberi di [town.GetNameNoTier], la più grande [town.GetTierAsNameNoTooltip] sotto il dominio di [town.GetDeJureLiege.GetNameNoTier]." \n\n"[mayor.GetFirstName], [mayor.Custom('DE_ART_DEF_P_A')] nostr[mayor.Custom('DE_END_PRO_S_N')] [mayor.GetTitleTierName], [mayor.Custom('get_hold_court_8001_flaw')]… chiediamo umilmente che venga sostituit[mayor.Custom('DE_END_PRO_S_N')] da qualcun altro..."
@@ -72,10 +72,8 @@
  holiness_cathedral_3:0 "Il [ROOT.Char.Custom('GetFaithGrandTemple')] appartiene alla fede [ROOT.Char.GetFaith.HighGodName]."
  holiness_holy_site_3:0 "[ROOT.Var('holy_site_var').Title.GetNameNoTierNoTooltip] dovrebbe essere in mano ai/alle [ROOT.Char.GetFaith.PriestNeuterPlural]."
  holiness_fallback_3:0 "Non rifiuterò i/le [ROOT.Char.GetFaith.PriestNeuterPlural] di [ROOT.Char.GetFaith.HighGodNameAlternatePossessive]."
- # # Civic Rivalry
  hold_court.8031.t:0 "[sc_victor.GetTitledFirstNameNoTooltip] vince il duello"
  hold_court.8221.imprison_alone:0 "[assassin.GetTitledFirstName] viene imprigionat[assassin.Custom('DE_END_PRO_S_N')]"
-
  # # Special Treatment
  hold_court.8040.t:0 "Trattamento Speciale"
  hold_court.8040.desc:0 "L'impenitente [infidel_vassal.GetTitledFirstName] ti onora della sua presenza. \n\nCon esitazione, [infidel_vassal.Custom('DE_ART_IND_A')] inizia a parlare: "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], [ROOT.Char.GetTitleTierName], sono un suddito fedele e disponibile, lasciami praticare la mia fede in pace." \n\n"
@@ -490,7 +488,7 @@
  hold_court.8160.d.fallback:0 "La malizia non è un crimine di per sé, [victim.GetFirstNameNoTooltip]."
  # Custom loc, root is the character it is used on
  get_victim:0 "[ROOT.Char.GetTitledFirstNamePossessive]"
- # # Personal Matter DA QUI
+ # # Personal Matter
  hold_court.8161.t:0 "Questione Personale"
  hold_court.8161.desc.intro:0 "Mi[victim.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('victim'))] [victim.GetTitledFirstName] si fa avanti, scortat[victim.Custom('DE_END_PRO_S_N')] apprensivamente dal suo coniuge [victim.GetPrimarySpouse.GetFirstName] che sembra di cattivo umore. \n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], [accused.GetFirstName] sta cercando di sedurre mi[victim.Custom('DE_END_PRO_S_N')] [victim.GetWifeHusband], un affronto a [victim.GetPrimarySpouse.GetFaith.HighGodName]!"
  hold_court.8161.desc.nemesis:0 "Quel[ROOT.Char.Custom('DE_END_ADJ_NUL_S_N')] [accused.Custom('InsultAdjective')] e [accused.Custom('InsultNoun')] non si fermerà davanti a niente pur di rovinarmi la vita!""
@@ -1003,35 +1001,35 @@
  master_of_spoils_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'master_of_spoils_camp_officer' ) )]"
  master_of_spoils_old_holder_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'master_of_spoils_camp_officer' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'master_of_spoils_camp_officer' ) )])#!"
  master_of_spoils_salary_tooltip: "[GetCourtPositionType( 'master_of_spoils_camp_officer' ).GetName()] ha un salario mensile di [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"
-# court_astrologer
+ # court_astrologer
 court_astrologer_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'court_astrologer_court_position' ) )]"
 court_astrologer_old_holder_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'court_astrologer_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'court_astrologer_court_position' ) )])#!"
 court_astrologer_salary_tooltip: "[GetCourtPositionType( 'court_astrologer_court_position' ).GetName()] ha un salario mensile di [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"
-# Boyan
+ # Boyan
 boyan_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'boyan_court_position' ) )]"
 boyan_old_holder_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'boyan_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'boyan_court_position' ) )])#!"
 boyan_salary_tooltip: "[GetCourtPositionType( 'boyan_court_position' ).GetName()] ha un salario mensile di [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"
-# Siege Engineer
+ # Siege Engineer
 siege_engineer_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'siege_engineer_court_position' ) )]"
 siege_engineer_old_holder_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'siege_engineer_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'siege_engineer_court_position' ) )])#!"
 siege_engineer_salary_tooltip: "[GetCourtPositionType( 'siege_engineer_court_position' ).GetName()] ha un salario mensile di [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"
-# Yurtchi
+ # Yurtchi
 yurtchi_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'yurtchi_court_position' ) )]"
 yurtchi_old_holder_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'yurtchi_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'yurtchi_court_position' ) )])#!"
 yurtchi_salary_tooltip: "[GetCourtPositionType( 'yurtchi_court_position' ).GetName()] ha un salario mensile di [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"
-# Cherbi
+ # Cherbi
 cherbi_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'cherbi_court_position' ) )]"
 cherbi_old_holder_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'cherbi_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'cherbi_court_position' ) )])#!"
 cherbi_salary_tooltip: "[GetCourtPositionType( 'cherbi_court_position' ).GetName()] ha un salario mensile di [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"
-# Yeke Jarquchi
+ # Yeke Jarquchi
 yeke_jarquchi_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'yeke_jarquchi_court_position' ) )]"
 yeke_jarquchi_old_holder_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'yeke_jarquchi_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'yeke_jarquchi_court_position' ) )])#!"
 yeke_jarquchi_salary_tooltip: "[GetCourtPositionType( 'yeke_jarquchi_court_position' ).GetName()] ha un salario mensile di [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"
-# Foreign Emissary
+ # Foreign Emissary
 foreign_emissary_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'foreign_emissary_court_position' ) )]"
 foreign_emissary_old_holder_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'foreign_emissary_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'foreign_emissary_court_position' ) )])#!"
 foreign_emissary_salary_tooltip: "[GetCourtPositionType( 'foreign_emissary_court_position' ).GetName()] ha un salario mensile di [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"
-# Keeper of the Horses
+ # Keeper of the Horses
 keeper_of_the_horses_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'keeper_of_the_horses_court_position' ) )]"
 keeper_of_the_horses_old_holder_aptitude_tooltip: "[Select_CString( candidate.IsLocalPlayer, 'La mia', 'La sua' )] [aptitude|E] è [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'keeper_of_the_horses_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'keeper_of_the_horses_court_position' ) )])#!"
 keeper_of_the_horses_salary_tooltip: "[GetCourtPositionType( 'keeper_of_the_horses_court_position' ).GetName()] ha un salario mensile di [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"

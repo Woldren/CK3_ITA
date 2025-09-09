@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  HOLDING_TAX:0 "[tax|E]:"
  HOLDING_TAX_VALUE:1 "@gold_icon! [Holding.GetIncome|2]"
  HOLDING_LOOT:1 "[raid_loot|E]:"

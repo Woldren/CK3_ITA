@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 #Travel Start Events
 #Generic start (no activity)
  travel_start_event.1000.t_murder:0 "Un Inizio Raccapricciante"
@@ -10,6 +10,7 @@
  travel_start_event.1000.desc_sick:0 "Sono ben consapevole del fatto che, nelle mie condizioni, la malattia è da considerarsi un rischio aggiuntivo rispetto ai normali pericoli che si corrono in viaggio. Tuttavia, anche in questo mio stato poco rassicurante, lo spettacolo deve continuare..\n\nPartiamo per  [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] e lasciamo che [ROOT.Char.GetFaith.HighGodName] vegli sul nostro viaggio."
  travel_start_event.1000.desc:0 "Con tutti i bagagli preparati, abbiamo finalmente raggiunto il punto in cui possiamo iniziare il nostro viaggio da [ROOT.Char.GetCurrentLocation.GetName] alla nostra prossima destinazione in  [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName].\n\nMan mano che ci allontaniamo dalla proprietà e le nostre cavalcature iniziano a calpestare nuovi terreni, sono sicuro che torneremo presto e tutti interi."
 travel_start_event.1000.desc_migrating: "Tutto l'accampamento riecheggia come una cascata fragorosa: bambini che corrono ovunque, animali che protestano e grugniscono, adulti che terminano i preparativi.\n\nDecine e decine di ricordi disordinatamente organizzati in fasci e carichi.\n\nDo un ultimo sguardo a [ROOT.Char.GetCurrentLocation.GetName] mentre batto il fianco del mio cavallo. Posso solo sperare che [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] ci accolga bene quanto ha fatto questo luogo."
+
  travel_start_event.1010.tt.tournament.every_knight:2 "Poiché stai partecipando a un [GetActivityType( 'activity_tournament' ).GetName],tutti i [knight|E] [unlanded|E] disponibili di cui disponi ti accompagneranno nella competizione"
  travel_start_event.1000.a:0 "Non vedo l'ora!"
  travel_start_event.1000.a_cynical:0 "Suppongo che dobbiamo..."

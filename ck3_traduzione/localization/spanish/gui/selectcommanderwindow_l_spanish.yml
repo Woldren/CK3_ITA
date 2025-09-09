@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  DETACH_COMMANDER:0 "Rimuovi Comandante"
  CANT_COMMAND_TITLE:0 "#T [CHARACTER.GetUIName] non può comandare nessun esercito#!"
  CANT_COMMAND_REASON_DEAD:0 " -E' morto"

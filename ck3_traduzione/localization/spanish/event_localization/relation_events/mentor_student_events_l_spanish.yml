@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  mentor_student.0001.t:0 "Ciò che era una volta"
  mentor_student.0001.desc:1 ""Questa cosa non può andare avanti [ROOT.Char.GetFirstNameNoTooltip]!" esclama [mentor_to_lose.Custom('DE_ART_DEF_P_A')] mi[mentor_to_lose.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose'))] [mentor_to_lose.GetTitledFirstName], [mentor_to_lose.Custom('quirk_neg_pp')].\n\n"Il nostro rapporto è finito, siamo troppo diversi perché questo possa funzionare. Ora sei da sol[ROOT.Char.Custom('DE_END_PRO_S_N')].""
  mentor_student.0001.a:0 "Molto bene."

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  fabricate_hook_ongoing.0001.t:0 "$fabricate_hook_header$ Parente"
  fabricate_hook_ongoing.0001.desc:1 "[target.GetTitledFirstNamePossessive] [target.Custom2('RelationToMe', SCOPE.sC('family_member'))], [family_member.GetTitledFirstName], è stato insolitamente disponibile. Pur sapendo che potrei non avere intenzioni benevole [target.GetFirstName], [family_member.GetSheHe] è disposto a rispondere alle domande"
  fabricate_hook_ongoing.0001.a:0 ""[target.GetSheHe] ha qualche punto debole in particolare di cui dovrei essere a conoscenza?""

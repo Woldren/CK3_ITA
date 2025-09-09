@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  I_HAS_ANY_CB_ON_TRIGGER:1 "Hai un [casus_belli|E] [TARGET_CHARACTER.Custom('IT_NAM_COL')][TARGET_CHARACTER.GetShortUIName|V]"
  I_HAS_NOT_ANY_CB_ON_TRIGGER:1 "#bold Non#! hai un [casus_belli|E] [TARGET_CHARACTER.Custom('IT_NAM_COL')][TARGET_CHARACTER.GetShortUIName|V]"

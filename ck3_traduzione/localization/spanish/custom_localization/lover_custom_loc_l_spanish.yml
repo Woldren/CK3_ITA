@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  pet_name_darling:0 "car[ROOT.Char.Custom('DE_END_PRO_S_N')]"
  pet_name_darling_possessive:0 "mi[ROOT.Char.Custom('DE_END_PRO_S_N')] car[ROOT.Char.Custom('DE_END_PRO_S_N')]"
  pet_name_darling_uppercase:0 "Car[ROOT.Char.Custom('DE_END_PRO_S_N')]"
@@ -84,5 +84,4 @@
  insultnounsexual_copulator:0 "copula[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]"
  insultnounsexual_libidinist:0 "libidinos[ROOT.Char.Custom('DE_END_PRO_S_N')]"
  insultnounsexual_roue:0 "dissoluto"
- 
 

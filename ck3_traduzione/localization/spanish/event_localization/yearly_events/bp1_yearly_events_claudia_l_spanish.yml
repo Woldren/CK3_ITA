@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #A New Hobby
  bp1_yearly.1000.t:0 "Un Nuovo Passatempo"
  bp1_yearly.1000.desc:0 "[friend.Custom('DE_ART_DEF_P_D')] mi[friend.Custom('DE_END_PRO_S_N')] miglior amic[friend.Custom('DE_END_PRO_S_N')] [friend.GetTitledFirstName] si avvicina a me con grande sorriso in viso.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] carissim[ROOT.Char.Custom('DE_END_PRO_S_N')] amic[ROOT.Char.Custom('DE_END_PRO_S_N')], finalmente ci vediamo! Mi sembra come se non passassimo mai del tempo di qualità insieme ultimamente... Forse saresti disposto a provare qualcosa di nuovo con me? Conosco la cosa giusta per distrarre la tua mente, ritemprare il tuo corpo e sollevare il tuo spirito!"

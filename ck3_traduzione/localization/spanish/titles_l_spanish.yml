@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  TITLE_NAME:1 "$NAME|U$"
  TITLE_TIERED_NAME:0 "$TIER|U$ di $NAME$"
  TITLE_DEFINITIVE_NAME:0 "$TIER|U$ di $NAME$"
@@ -1151,7 +1151,6 @@
  b_bambuk:0 "Bambuk"
  b_bamburgh:0 "Bamburgh"
  b_bamian:1 "Bamian"
- b_bamiyan:0 "Bamiyan"
  b_bamm:0 "Bamm"
  b_bampur:0 "Bampur"
  b_ban:0 "Bán"
@@ -12562,8 +12561,6 @@
  c_gostyninska_adj:0 "Gostyniana"
  c_gotland:0 "Gotland"
  c_gotland_adj:0 "Gotlandese"
- c_gottingen:0 "Goslar"
- c_gottingen_adj:0 "Goslariana" 
  c_gottingen:0 "Göttingen"
  c_gottingen_adj:0 "Göttingiana"
  c_gowrie:0 "Gowrie"
@@ -16298,6 +16295,7 @@ c_talava_adj:0 "Talavana"
  e_chagatai:0 "Chagatai"
  e_deccan:0 "Impero Deccan"
  e_deccan_adj:0 "Deccana"
+ e_deccan_article: "the "
  e_france:0 "Francia"
  e_france_adj:0 "Francese"
  e_france_pre:0 "Franco"
@@ -16898,7 +16896,7 @@ c_talava_adj:0 "Talavana"
  d_khurramism_adj:0 "Khurramita"
  d_urartuism:1 "Alto Prelato Arewordik"
  d_urartuism_adj:1 "Areworda"
- 
+
  d_manichean:0 "$manichean_adj$ $manichean_religious_head_title_name$"
  
  c_dinawar:0 "Dinawar"
@@ -20217,8 +20215,6 @@ c_talava_adj:0 "Talavana"
  d_togina_adj:0 "Toginana"
  d_tannu_ola:0 "Tannu-Ola"
  d_tannu_ola_adj:0 "Tannu-Olana"
- d_western_sayan:1 "Aksayan"
- d_western_sayan_adj:1 "Aksayanina" 
  d_western_sayan:0 "Sayan Occidentale"
  d_western_sayan_adj:0 "Sayani Occidentale"
  d_khakass_hollow:0 "Khakass Hollow"
@@ -24185,7 +24181,7 @@ b_suraparaka:1 "Dahanu"
  b_gangyu:0 "Gangyu"
  b_namarche:0 "Namarché"
  b_tarok:0 "Tarok"
-
+ 
  #1.3 Update
  c_ennis:0 "Ennis"
  c_ennis_adj:0 "Ennisiana"
@@ -24267,7 +24263,7 @@ b_suraparaka:1 "Dahanu"
  b_peliza:0 "Peliza"
  b_varsiga:0 "Varsiga"
  b_cascarena:0 "Cascarena"
- 
+
  c_kangra:0 "Kangra"
  c_kangra_adj:0 "Kangran"
 
@@ -24291,13 +24287,13 @@ b_suraparaka:1 "Dahanu"
  b_seu_d_urgell:0 "Seu d'Urgell"
 
  k_mediterranean_sea:0 "Baleo-Tyrrhenia" # Baleo-Tyrrhenian
- 
+
  d_lesser_poland_late:0 "Piccola Polonia"
  d_lesser_poland_late_adj:0 "Piccola Polacca"
 
  k_toledo:0 "Toledo"
  k_toledo_adj:0 "Toledana"
- 
+
  d_nizari: "Imamato Nizari"
  d_nizari_adj: "Nizari"
  d_zayidi: "Imamato Zayidi"
@@ -24306,10 +24302,10 @@ b_suraparaka:1 "Dahanu"
  d_ismaili_adj: "Ismaili"
  d_ghulat: "Imamato Ikhtilafi"
  d_ghulat_adj: "Ikhtilafi"
- 
+
  k_vasconia: "Vasconia"
  k_vasconia_adj: "Vasconiana"
-
+ 
  #mpo
  #Renamed
  #Ctrl+F the following renamed titles :
@@ -24551,7 +24547,7 @@ b_suraparaka:1 "Dahanu"
  c_uzgend_adj: "Uzgendiana"
  c_zamakhshar: "Zamakhshar"
  c_zamakhshar_adj: "Zamakhshariana"
- 
+
  # Noble families
  d_nf_ampelas: "Famiglia $dynn_Ampelas$"
  d_nf_ampelas_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

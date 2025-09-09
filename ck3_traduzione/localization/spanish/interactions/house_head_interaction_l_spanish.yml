@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  house_head_interaction_header:0 "[house_head_interaction|E]\n"
  demand_conversion_interaction:0 "Richiedi Conversione"
  demand_conversion_interaction_desc:0 "$house_head_interaction_header$ $ask_for_conversion_interaction_desc$"
@@ -12,3 +12,4 @@
  extoll_virtuousness_interaction_desc:0 "$house_head_interaction_header$Celebra la virtuosità [recipient.Custom('IT_NAM_COL2')][recipient.GetShortUINameNoTooltip] al fine di rafforzare la sua reputazione e spingere l'[house_unity|E] verso #V $harmonious$#! @dynasty_house_unity_harmonious!"
  extoll_interaction_notification:0 "Membro della Casata Celebrato"
  accuse_of_decandence_interaction_notification:0 "Membro della Casata Accusato"
+

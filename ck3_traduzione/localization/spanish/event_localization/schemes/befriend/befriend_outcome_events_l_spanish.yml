@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  befriend_outcome.1001.t:0 "Fare Amicizia: Una Serata Fuori" #lo sta revisionando Bruca
  befriend_outcome.1001.desc:0 "Dopo aver saputo che [target.GetTitledFirstName] sarebbe stat[target.Custom('DE_END_PRO_S_N')] ospite in un maniero nella [barony.Custom('BaronyTownType')] di [barony.GetNameNoTier], ho capito che sarebbe stata l'occasione perfetta per incontrar[target.Custom('DE_PRO_POS_P_3P')].\n\n"
  befriend_outcome.1002.t:0 "Fare Amicizia: Al Ballo"

@@ -1,4 +1,4 @@
-﻿l_spanish: 
+l_spanish:
  # Estate Decisions
  estate_hire_agents_decisions: "Assumi Agenti" #modificati 1135 - 1158
  estate_hire_agents_decisions_desc: "Quando la posizione e l'influenza politica non sono sufficienti a farmi ottenere ciò che voglio, devo semplicemente cercare #EMP altre#! alternative. Tuttavia, ho bisogno di agenti che lo facciano in modo più efficiente."
@@ -230,7 +230,7 @@
  ep3_decisions_event.2011.desc_theme_balanced: ""Il tuo incarico è conferito da [confirmation_liege.GetFaith.HighGodName] e dal tuo [confirmation_liege.GetTitleAsNameNoTooltip]," dice [confirmation_liege.GetSheHe], "Ricordalo, e governa bene [confirmation_vassal.GetPrimaryTitle.GetNameNoTier].""
  ep3_decisions_event.2011.desc_outro: "\n\nPronuncio tutte le risposte corrette e, inchinandomi profondamente davanti al mio sovrano, impugno infine lo scettro dell’autorità provinciale."
  ep3_decisions_event.2011.a: "Salute a te, [confirmation_liege.GetTitleAsNameNoTooltip]."
- 
+
  # Invalidated event
  ep3_decisions_event.2080.t: "$admin_confirmation_event_header$ Invalidato"
  ep3_decisions_event.2080.desc.court: "Adesso che sono [ROOT.Char.GetTitleAsNameNoTooltip] di [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], il mio viaggio non è più necessario..."
@@ -489,7 +489,7 @@ visit_local_settlement_decision_desc: "Nessun[Select_CString(ROOT.Char.IsFemale,
  found_varangian_guard_decision_confirm: "Inizia il reclutamento"
  unlocked_varangian_guard_desc: "Sblocca la [court_position|E] $akolouthos_court_position$ e gli [men_at_arms|E] [GetMaA('varangian_guards').GetName] per [GetTitleByKey('e_byzantium').GetName]."
  unlocked_varangian_guard_desc_tt: "Guardia Variaga Fondata"
-#Grain Dole
+ #Grain Dole
 reinstitute_grain_dole_decision: "Reinstaura la Distribuzione del Grano"
 reinstitute_grain_dole_decision_desc: "Per secoli, i cittadini di Roma, e in seguito di Costantinopoli, hanno goduto del massimo beneficio di vivere nella Capitale del Mondo: distribuzioni regolari di pane gratuito o a prezzo controllato. La tradizione andò perduta insieme al Granaio di Roma — l’Egitto — ma qualunque Imperatore la ristabilisse aumenterebbe immediatamente la propria popolarità tra le masse."
 reinstitute_grain_dole_decision_tooltip: "Introduci distribuzioni di pane al popolo della capitale"
@@ -508,8 +508,8 @@ reconfirm_grain_dole_decision_desc: "Dopo la sua formale reintroduzione, i citta
 reconfirm_grain_dole_decision_tooltip: "Riconferma le distribuzioni di pane al popolo della capitale"
 reconfirm_grain_dole_decision_confirm: "$reinstitute_grain_dole_decision_confirm$"
 reconfirm_grain_dole_decision_tt: "Distribuzione del Grano Riconfermata"
-
-# Consolidate Rule
+ 
+ # Consolidate Rule
 consolidate_rule_decision: "Consolida il Potere"
 consolidate_rule_decision_desc: "Chiedi al tuo [head_of_faith|E] di ribadire la tua pretesa al trono. In fondo, sei il suo più grande patrono."
 consolidate_rule_decision_tooltip: "Petizione al tuo [head_of_faith|E] per aumentare la tua [legitimacy|E]"
@@ -538,7 +538,7 @@ adopt_state_faith_decision_selection_tooltip: "Adotta la [state_faith|E] di [ROO
 adopt_state_faith_confirm: "Anche nella fede, servirò [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTooltip|l]."
 every_governor_of_state_faith: "Ogni [vassal|E] [THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('state_faith').Faith.GetAdjective]"
 
-# Found Salon
+ # Found Salon
 found_salon_decision: "Fondare un Salone"
 found_salon_decision_desc: "Stabilisci un salone di poesia permanente a [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitly], per coltivare le menti migliori e più brillanti."
 found_salon_decision_tooltip: "Stabilisci un salone di poesia permanente"
@@ -551,7 +551,7 @@ ep3_decisions_event.4080.wallada: "Il mio sogno,"
 ep3_decisions_event.4080.heir: "Il sogno del mio mentore,"
 ep3_decisions_event.4080.desc.outro: "un centro prospero e brulicante di arti qui a [location.GetName], si sta finalmente realizzando.\n\nMentre vengono fissate le ultime assi del pavimento, l’odore del mattone appena dipinto si diffonde nel cortile. Un applauso si leva dalla folla quando accolgo gli orfani locali per iniziare le loro lezioni.\n\nTutto ciò che desidero ora è che duri per generazioni a venire."
 ep3_decisions_event.4080.a: "Il culmine del mio lavoro, e di tanti altri."
-
+ 
 mass_arrests_decision: "Ordinare Arresti di Massa"
 mass_arrests_decision_desc: "Quando una [powerful_family|E] diventa un po’ #EMP troppo potente#!, può essere necessario ricorrere a misure più estreme. Assicurarsi che una casata potente non possa agire contro di me è un affare complicato e c’è solo un modo sicuro: #EMP metterli tutti in catene.#!"
 mass_arrests_decision_tooltip: "Dai ordine che tutti i membri di una [powerful_family|E] siano arrestati contemporaneamente"
@@ -618,6 +618,7 @@ ep3_mass_arrests_house_power_malus: "Recentemente Imprigionata dal [liege|E]"
  small_realm_size_tt: "Il tuo [realm|E] comprende #EMP più#! di #V [EmptyScope.ScriptValue('small_empire_size_value')|0]#! [counties|E] #! #weak (#color_white [root_scope.MakeScope.ScriptValue('current_size_empire_value')|0]#!)#!"
  all_powerful_vassals_required_tt: "Tutti i [powerful_vassals|E] devono avere un’[opinion|E] di almeno 50 nei tuoi confronti."
 
+
  dukes_become_governors: "Ogni [vassal|E] di [title_tier|E] [duchy|E] diventerà un [governor|E]"
  vassals_can_become_administrative: "\nOgni [vassal|E] [feudal|E] o [clan|E] all’interno del tuo [realm|E] [de_jure|E] e della tua [faith|E] può cambiare il proprio [government|E] in [administrative|E], se soddisfa uno dei seguenti requisiti:"
  powerful_vassals_become_administrative: "È un [powerful_vassal|E]"
@@ -659,7 +660,6 @@ ep3_mass_arrests_house_power_malus: "Recentemente Imprigionata dal [liege|E]"
 
  ep3_decisions_event.4075.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
  ep3_decisions_event.4075.a: "$ep3_decisions_event.4065.a$"
-
  # Gather Provisions
  gather_provisions_decision: "Raccogli Provviste"
  gather_provisions_decision_desc: "Proprio come un esercito, un accampamento marcia con lo stomaco pieno. Se necessario, le terre selvagge di [ROOT.Char.GetCurrentLocation.GetName] possono essere perlustrate in cerca di cibo."
@@ -751,7 +751,7 @@ ep3_mass_arrests_house_power_malus: "Recentemente Imprigionata dal [liege|E]"
  zealous_missionary_start_decision_tooltip: "Devo essere uno dei buoni [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]"
  zealous_missionary_start_decision_reward_desc: "$zealous_missionary_prep_decision_reward_desc$"
  zealous_missionary_start_decision_confirm: "Sii pronto, anima mia, a rispondere alla sua chiamata!"
-
+ 
  ep3_laamp_decision_event.1102.t: "$zealous_missionary_start_decision$" #Hai iniziato a diffondere la buona parola
  ep3_laamp_decision_event.1102.desc: "Lontane sono le terre sacre di [ROOT.Var('holy_site_ascension').Province.GetName]. Eppure sento ancora la potenza di [ROOT.Char.GetFaith.HighGodName] dentro di me, più forte che mai.\n\nÈ il mio destino, lo è sempre stato, compiere la sua opera, riempiere queste terre e le anime che vi abitano con la sua luce. La salvezza li attende, e io sono il suo umile strumento."
  ep3_laamp_decision_event.1102.a: "E conosceranno il nome di [ROOT.Char.GetFaith.HighGodName]!"
@@ -805,7 +805,7 @@ ep3_mass_arrests_house_power_malus: "Recentemente Imprigionata dal [liege|E]"
  ep3_laamp_decision_event.1110.desc.hasnt_kill: "È un pensiero strano, davvero. Non ho un ricordo vivido della prima persona uccisa per mio ordine, tanto meno per mia mano. Uno potrebbe pensare che sia una cosa che ti resta impressa, ma non mi sono mai curato molto dei volti o dei nomi dei morti.\n\nNon saprei contare quanti ne ho mandato nelle loro tombe, figuriamoci ricordare esattamente #EMP chi#!."
  ep3_laamp_decision_event.1110.desc.outro: "Per molti, un simile massacro sarebbe abbastanza — ma non per me.\n\nNon posso fare a meno di sorridere guardando l’orizzonte. Non per quelli che sono morti. Sorrido per quelli che moriranno."
  ep3_laamp_decision_event.1110.desc: "Anni fa, uccisi [first_kill.GetName] in battaglia. Il ricordo mi accompagna da allora. Il suo petto squarciato dal mio colpo, i suoi occhi spalancati per l’incredulità, il suo sangue che gocciolava a terra, rendendo fertile il suolo.\n\nMolti altri si sono uniti a [first_kill.GetSheHe] da allora. Per molti, un simile massacro sarebbe abbastanza. Ma non per me.\n\nNon posso fare a meno di sorridere guardando l’orizzonte. Non per quelli che sono morti. Sorrido per quelli che moriranno."
- #ep3_laamp_decision_event.1110.desc: "Anni fa, uccisi [first_kill.GetName] in battaglia. Il ricordo mi accompagna da allora. Il suo petto squarciato dal mio colpo, i suoi occhi spalancati per l’incredulità, il suo sangue che gocciolava a terra, rendendo fertile il suolo.\n\nMolti altri si sono uniti a [first_kill.GetSheHe] da allora. Per molti, un simile massacro sarebbe abbastanza. Ma non per me.\n\nNon posso fare a meno di sorridere guardando l’orizzonte. Non per quelli che sono morti. Sorrido per quelli che moriranno."
+ #ep3_laamp_decision_event.1110.desc: "Years ago, I slew [first_kill.GetName] in battle. The memory has stayed with me since. [first_kill.GetHerHis|U] chest ripped apart by my blow, [first_kill.GetHerHis] eyes wide open in disbelief, [first_kill.GetHerHis] blood dripping to the ground, making the soil fertile.\n\nMany more have joined [first_kill.GetHerHim] since. For most, such slaughter would be enough. But not for me.\n\nI cannot help but smile as I look to the horizon. Not for those who died. I smile for those that will."
  ep3_laamp_decision_event.1110.a: "Conquistare il mondo a cavallo è facile..."
  ep3_laamp_decision_event.1110.a.flavor: "...è smontare e governare che è difficile."
  ep3_laamp_decision_event.1110.a.desc: "$become_conqueror_decision_reward$"
@@ -901,7 +901,7 @@ ep3_mass_arrests_house_power_malus: "Recentemente Imprigionata dal [liege|E]"
  ep3_decisions_event.4090.t: "Un Passo Indietro"
  ep3_decisions_event.4090.desc: "Oltre le mura della tenuta, i bambini gridano giocando, i carri inciampano sulle rocce più grandi, un mercante urla le sue merci.\n\nHo servito [liege.GetTitledFirstName] abbastanza a lungo.\n\nQueste mura non si costruiranno da sole — e una casa ha bisogno soprattutto di fondamenta solide."
  ep3_decisions_event.4090.a: "Attenderò."
-
+ 
  # Change Imperial Aspirations
  change_imperial_aspirations_decision: "Cambia le Aspirazioni da [GetPlayer.GetTopLiege.Custom('GetRoyalCourtRank')|U]"
  change_imperial_aspirations_decision_desc: "Non tutti sono adatti, o desiderano, salire abbastanza in alto da sedersi sul trono. Perché rischiare quando sono perfettamente soddisfatto della mia posizione attuale? Che siano altri a combattersi in questo covo di vipere!"
@@ -1005,7 +1005,7 @@ ep3_mass_arrests_house_power_malus: "Recentemente Imprigionata dal [liege|E]"
  THEOTOKOS_GLOSS: "La "Madre di Dio", Maria. Nell’iconografia, questa definizione identifica una scena di cui l’arte bizantina è molto devota: Maria che allatta o tiene generalmente in braccio il Bambino Gesù."
  PANTOKRATOR_GLOSS: ""Cristo Onnipotente" o "Sovrano di Ogni Cosa". Molto comune nell’iconografia bizantina, è una raffigurazione di Gesù che tiene un Nuovo Testamento in una mano e benedice gli osservatori con l’altra."
  
-  # Hire Chief Eunuch
+ # Hire Chief Eunuch
  hire_eunuch_decision: "Cerca un $chief_eunuch_court_position$"
  hire_eunuch_decision_desc: "[GetCourtPositionType('chief_eunuch_court_position').GetDescription|U]"
  hire_eunuch_decision_tooltip: "I tuoi servitori suggeriranno alcuni candidati idonei per la posizione di [GetCourtPositionType('chief_eunuch_court_position').GetName()]"
@@ -1157,14 +1157,13 @@ ep3_mass_arrests_house_power_malus: "Recentemente Imprigionata dal [liege|E]"
  legitimize_latin_holder_influence_tt: "Otterrai @influence_icon![influence|E] oppure [opinion|E] con il [holder|E] del [kingdom|E]"
  legitimize_latin_holder_legitimacy_tt: "Otterrai [GetLocalPlayerLegitimacyTextIcon][legitimacy|E] oppure [opinion|E] con il [holder|E] del [kingdom|E]"
 
- # Andare a Pesca
+ # Go Fishing
  go_fishing_decision: "Andare a Pesca"
  go_fishing_decision_desc: "Tutti meritano una pausa ogni tanto. Prenditi un momento e lancia la lenza sulla riva di [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitly], lasciando che le preoccupazioni del mondo scorrano via. Chissà, potresti anche trovare qualcosa di buono."
  go_fishing_decision_tooltip: "Concediti una pausa e riduci lo [stress_loss_i|E][stress|E]"
  go_fishing_decision_confirm: "È una buona giornata per pescare!"
  go_fishing_decision_effect_tt: "Perdi [stress_loss_i|E][stress|E] e hai la possibilità di ottenere delle [provisions|E]"
  go_fishing_decision_unlock_tt: "Richiede che il tuo campo sia in un [barony|E] costiero o fluviale"
-
  ep3_decisions_event.9001.t: "A Pesca"
  ep3_decisions_event.9001.desc: "Mentre mi avvicino alla riva, il profumo di sale e pesce mi riempie le narici. Alcune persone stanno terminando, lasciandomi tutta la costa a disposizione. Una giornata così non capita tutti i giorni, devo approfittarne al massimo."
  ep3_decisions_event.9001.friend: "\n\n[Select_CString(potential_friend.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', potential_friend)] [potential_friend.GetName] ha deciso di unirsi a me oggi. È un’occasione per legare, oppure potrei scegliere di pescare da solo."
@@ -1183,7 +1182,7 @@ ep3_mass_arrests_house_power_malus: "Recentemente Imprigionata dal [liege|E]"
  ep3_decisions_event.9010.b: "Lascia che la canna scivoli tra le dita."
  ep3_decisions_event.9010.b.trait: "La pace avvolge la tua mente"
  ep3_decisions_event.9010.b.nothing: "La canna scivola via e galleggia lontano"
-
+ 
  ep3_decisions_event.9020.t: "Legami in Pesca"
  ep3_decisions_event.9020.desc: "Io e [potential_friend.GetNameNoTooltip] ci stiamo trovando bene ultimamente. Ridiamo delle stesse battute, condividiamo le stesse preoccupazioni, e il legame tra noi sembra andare oltre quello tra un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip|U] e il suo [ROOT.Char.Custom2('RelationToMeShort', potential_friend)].\n\nLanciamo le lenze in acqua e aspettiamo pazientemente un abbocco, chiacchierando e ridendo tutto il tempo.\n\nQuesto viaggio ha dimostrato che funzioniamo bene insieme, e vorrei passare ancora più tempo con lui/lei in futuro."
  ep3_decisions_event.9020.a: "Ti diverti così tanto da quasi dimenticare il motivo della tua presenza qui."
@@ -1297,7 +1296,7 @@ ep3_mass_arrests_house_power_malus: "Recentemente Imprigionata dal [liege|E]"
  ep3_laamp_decision_event.1205.a.tt: "Non sarai mai più in grado di utilizzare efficacemente gli elefanti"
  ep3_laamp_decision_event_1205_modifier: "Gli Elefanti Non Dimenticano Mai"
  ep3_laamp_decision_event_1205_modifier_desc: "E non perdonano neanche."
-
+ 
  ascendant_byz_reclaimant_ortho_modifier: "Riconquistatore Bizantino Ascendente"
  ascendant_byz_reclaimant_ortho_modifier_desc: "Le preghiere dei fedeli, le speranze di coloro che vorrebbero vedere Bisanzio restaurata, riposano su questo sovrano deciso."
  ascendant_byz_reclaimant_modifier: "Riconquistatore Bizantino Ascendente"

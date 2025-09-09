@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # Holding a grand sacrifice.
  fp1_other_decisions.0001.t:0 "Il Grande [blotter.Custom('GruesomeFestivalName')|U]"
  fp1_other_decisions.0001.desc:0 "Anche se piccoli [blotter.Custom('GruesomeFestivalNamePlural')] si tengono per molte occasioni durante l'anno, una volta al decennio i [gf_faith.GetAdherentNamePlural] di [blotter.GetPrimaryTitle.GetNameNoTierNoTooltip] si riuniscono per una grande festa e, soprattutto, un grande #EMP sacrificio#!.\n\nAnche se viene versato molto sangue per gli [gf_faith.PantheonTerm], la carne delle offerte va ai fedeli. Una festa così ricca di solito è una festa incredibile.\n\nNaturalmente, un tale evento è costoso, e certamente non #EMP tutti#! i [gf_faith.GetAdherentNamePluralNoTooltip] devono essere invitati..."

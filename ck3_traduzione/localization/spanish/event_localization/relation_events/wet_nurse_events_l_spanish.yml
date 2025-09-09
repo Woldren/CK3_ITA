@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  bp2_decision.0001.t: "$find_wet_nurse_decision$"
  bp2_decision.0001.desc: "Con l'intento di fornire le migliori cure ai nostri [ROOT.Char.Custom('GetChildChildren')]$bp2_decision.0001.desc_candidates$"
  bp2_decision.0001.desc_widower: "Dato che crescere un figlio di status è tutt'altro che un compito solitario$bp2_decision.0001.desc_candidates$"

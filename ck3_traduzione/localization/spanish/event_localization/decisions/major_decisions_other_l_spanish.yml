@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  major_decisions.0100.t:0 "Sacro Lignaggio"
  major_decisions.0100.desc.temporal:0 "Grazie alla mia pura devozione e al mio lavoro incessante, ho inestricabilmente vincolato i più sacri uffici della fede [scoped_ruler.GetFaith.GetAdjective] alla Dinastia [scoped_ruler.GetDynasty.GetBaseName].\n\nUn numero crescente di persone nel clero e tra i fedeli è arrivato a pensare alla mia famiglia come ai custodi prescelti delle sante reliquie e ai messaggeri della volontà divina."
  major_decisions.0100.desc.spiritual:0 "La mia incrollabile devozione verso i rappresentanti di [scoped_ruler.GetFaith.HighGodName] sulla Terra non è passata inosservata. \n\n[scoped_pope.GetTitledFirstName] ha ufficialmente riconosciuto i contributi della mia famiglia e consacrato il nostro nome come eterni difensori della fede [scoped_ruler.GetFaith.GetAdjective]."
@@ -28,7 +28,8 @@
  major_decisions.0001.a:0 "Lunga vita [ROOT.Char.Custom('IT_NAM_COL4')][ROOT.Char.GetTitleAsNameNoTooltip]!" 
 
  major_decisions.0002.opening:0 "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
- 
+
  major_decisions.0200.t:0 "Ritorno alle Radici"
  major_decisions.0200.desc:0 "Sebbene sia abituato a un sistema gerarchico rigido e a contadini che non fanno domande quando coltivano i campi, mi ritrovo a governare solo tribù indisciplinate. Queste persone non mi rispettano, rispettano solo la forza.\n\nMostrerò loro la forza! Mi libererò degli orpelli della maestà che i miei sudditi detestano e mi impadronirò dei loro cuori con la spada alzata!"
  major_decisions.0200.a:0 "Dimostrerò il mio valore!"
+

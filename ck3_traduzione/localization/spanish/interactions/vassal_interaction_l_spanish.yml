@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  grant_vassal_interaction:0 "Concedi Vassallo"
  grant_vassal_interaction_desc:0 "Fai diventare uno dei tuoi [vassals|E] un Vassallo di [recipient.GetShortUINameNoTooltip]\n\nI Vassalli Concessi devono essere di un [rank|E] inferiore rispetto a [recipient.GetShortUINameNoTooltip]"
  grant_vassal_interaction_notification:0 "Vassallo Concesso"
@@ -34,7 +34,7 @@
  force_join_faction_interaction_notification:0 "Costretto ad Unirsi alla Fazione"
 
  stop_attacker_vassal_war_decline_summary:1 "[recipient.GetShortUINameNoTooltip] potrebbe chiedere qualcosa in cambio"
- 
+
  IS_FIGHTING_AGAINST_ME:1 "Stai combattendo [TARGET_CHARACTER.GetShortUIName]"
  I_HAVE_RECENTLY_ASKED_TO_STOP_WAR:1 "Di recente hai chiesto a [TARGET_CHARACTER.GetShortUIName] di fermare una guerra"
  interfere_in_war:0 "Ferma la Guerra tra Vassalli"
@@ -51,13 +51,13 @@
  force_onto_council.actor.tt.duration:2 "Non puoi essere licenziato per [SCOPE.ScriptValue('council_position_locked_value')|0] anni"
 
  arrange_marriage_interaction_extra_icon:0 "@weak_hook_icon!Puoi usare il tuo [hook|E] per farli accettare"
- 
+
  ask_for_pardon_interaction:0 "Chiedi la Grazia"
  ask_for_pardon_interaction_desc:0 "Chiedi al tuo [top_liege|E] di perdonare i tuoi [crimes|E] e di eliminare qualsiasi [imprisonment_reason|E], [banish_reason|E], [revoke_title_reason|E] o [execute_reason|E] nei tuoi confronti"
  ask_for_pardon_interaction_accept_toast:0 "Grazia Concessa"
  ask_for_pardon_interaction_decline_toast:0 "Grazia Rifiutata"
  ask_for_pardon_interaction_accept_decline:0 "[recipient.GetShortUIName|U] ha rifiutato la tua richiesta di grazia"
- 
+
  vassal_claim_liege_title_interaction:0 "Rivendica il Titolo del Sovrano"
  vassal_claim_liege_title_interaction_desc:0 "Se controlli la maggioranza #weak (51%)#! delle [counties|E] che fanno parte [de_jure|E] di uno dei [titles|E] dei tuoi [lieges|E], puoi spendere [prestige|E] per ottenere una [unpressed_claim|E] su di essi!"
  NOT_FAMILY_OR_ADVENTURER_TITLE: "Non puoi rivendicare il [title|E] di una [noble_family|E] o di un [adventurer|E]!"
@@ -73,7 +73,7 @@
  NOT_HAS_41_PERCENT_OF_A_DE_JURE_TITLE: "NON controlli almeno il #V 41%#! #weak (Livello di [legitimacy|E] 2)#! delle [counties|E] che compongono [de_jure|E] questo [title|E]" 
  higher_prestige_level_than_liege:0 "[prestige_level|E] più alto di quello del [liege|E]"
  lower_prestige_level_than_liege:0 "[prestige_level|E] più basso di quello del [liege|E]"
-
+ 
  give_vassal_directive_interaction: "Dai Direttive al Vassallo"
  give_vassal_directive_interaction_desc: "Dato che [recipient.GetFullName] è un tuo [vassal|E], puoi impartirgli una [directive|E] affinché [recipient.GetSheHe] si concentri su uno specifico incarico"
  subrealm_has_county_of_other_culture: "[recipient.GetFullName] #bold non#! ha  un [county|E] di un'altra [culture|E]"
@@ -90,9 +90,9 @@
  building_focus_economy: "@directive_economical! Costruisci un [economic_buildings|E]"
  manage_fertility: "@county_fertility_icon! Incrementa la [county_fertility|E]"
  explore_cultures: "@explore_cultures_icon! Esplora le [cultures|E]"
- remove_directive: "@directive_refusal! Rimuovi la [directive|E] esistente"
  raid_innovation_intent: "@culture_icon! Imposta l'[raid_intent|E] sulle [innovations|E]"
  raid_herd_intent: "@herd_icon! Imposta l'[raid_intent|E] su [herd|E]"
+ remove_directive: "@directive_refusal! Rimuovi la [directive|E] esistente"
  improve_development_icon: "@task_develop_county!"
  train_commanders_icon: "@task_train_commanders!"
  build_maa_icon: "@directive_maa!"
@@ -159,10 +159,9 @@
  must_not_have_landed_relatives_tt:0 "[CHARACTER.GetNameNoTooltip] non deve avere parenti con titoli"
  must_be_one_county_count_tt:0 "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip] deve essere l'unica contea di [CHARACTER.GetShortUINameNoTooltip]"
  appoint_podesta_interaction_notification:0 "Assegna Supervisore Repubblicano"
- 
+
  request_court_position: "Richiedi Posizione di Corte"
  request_court_position_desc: "Richiedi una [court_position|E] da [recipient.GetShortUINameNoTooltip]"
  grant_court_position: "Concedi Posizione di Corte"
  grant_court_position_desc: "Concedi una [court_position|E] a [recipient.GetShortUINameNoTooltip]"
  request_court_position_extra_icon: "$hook_extra_icon$"
-

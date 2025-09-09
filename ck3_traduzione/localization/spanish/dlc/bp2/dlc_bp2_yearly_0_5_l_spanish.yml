@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ##################################################
  # #Misc
  teeming_horde_of_cats_modifier: "Orda brulicante di gatti" 
@@ -44,8 +44,8 @@
  bp2_yearly_0641_mercenary_cost_reduction_modifier_desc: ""
  bp2_yearly_0641_raid_speed_modifier: "Signori del Saccheggio" 
  bp2_yearly_0641_raid_speed_modifier_desc: "Gli eserciti di questo personaggio sono conditi con alcuni dei ladri più esperti in tempo di guerra del mondo."
- 
-##################################################
+
+ ##################################################
  # #Flavour Events
  bp2_yearly.0601.t: "Governare Correttamente" 
  bp2_yearly.0601.desc.intro: "In qualità di mi[regent.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetDiarchTitle], [regent.Custom2('MyCharacterIntroduction', ROOT.Char)] sembra determinat[regent.Custom('DE_END_PRO_S_N')] a insegnarmi i suoi metodi preferiti di governo." 

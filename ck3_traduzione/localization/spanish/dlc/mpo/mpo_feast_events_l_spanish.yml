@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  feast_type_tsagaan_sar: "Tsagaan Sar"
  feast_type_tsagaan_sar_desc: "$EFFECT_LIST_BULLET$ The Final Toast is a time to receive gifts, like [herd|E] and [gold|E]\n$EFFECT_LIST_BULLET$ Events will provide occasions to gain [opinion|E]\n$EFFECT_LIST_BULLET$ Certain options will allow for [stress|E] loss\n\n#weak A new White Moon rises - and we rejoice!#!"
  feast_type_tsagaan_sar_valid_tt: "You have hosted a Tsagaan Sar [GetActivityType('activity_feast').GetName] in the past 5 years"

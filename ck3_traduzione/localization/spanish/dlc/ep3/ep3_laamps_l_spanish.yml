@@ -1,4 +1,4 @@
-﻿l_spanish: 
+l_spanish:
  domicile_name: "[DOMICILE_TYPE.GetNameNoTooltip] [CHARACTER.GetDynastyHouseNameNoTooltip]"
  unowned_domicile_name: "[TITLE.GetNameNoTooltip] [DOMICILE_TYPE.GetNameNoTooltip]" 
  domicile_name_possessive: "[DOMICILE_TYPE.GetNameNoTooltip] di [CHARACTER.GetDynastyHouseNameNoTooltip]"
@@ -36,7 +36,7 @@
  library_estate_building: "Libreria"
  observatory_estate_building: "Osservatorio"
  scholars_office_estate_building: "Ufficio degli Eruditi"
- 
+
  nearby_landless_adventurer_created_message_title: "Nuovo Avventuriero"
  nearby_landless_adventurer_created_message_conquest_tt: "Il [realm|E] [new_landless_adventurer.Custom('IT_NAM_COL2')][new_landless_adventurer.GetShortUIName] è stato conquistato [adventurer_flavor_char.Custom('IT_NAM_COL5')][adventurer_flavor_char.GetUIName]"
  nearby_landless_adventurer_created_message_deposition_tt: "[new_landless_adventurer.Custom('IT_NAM_COL3')|U][new_landless_adventurer.GetShortUIName] è stat[new_landless_adventurer.Custom('DE_END_PRO_S_N')] depost[new_landless_adventurer.Custom('DE_END_PRO_S_N')] [adventurer_flavor_char.Custom('IT_NAM_COL5')][adventurer_flavor_char.GetUIName]"
@@ -48,7 +48,7 @@
  nearby_landless_adventurer_created_message_runaway_forbidden_tt: "[new_landless_adventurer.Custom('IT_NAM_COL3')|U][new_landless_adventurer.GetShortUIName] ha lasciato la sua casa contro il volere di su[adventurer_flavor_char.Custom('DE_END_PRO_S_N')] [new_landless_adventurer.Custom2('RelationToMeShort', SCOPE.sC('adventurer_flavor_char'))], [adventurer_flavor_char.Custom('IT_NAM_COL3')][adventurer_flavor_char.GetUIName]"
  nearby_landless_adventurer_created_message_wanderer_tt: "[new_landless_adventurer.Custom('IT_NAM_COL3')|U][new_landless_adventurer.GetShortUIName] ha raccolto intorno a sé una banda di seguaci ed è diventat[new_landless_adventurer.Custom('DE_END_PRO_S_N')] un[new_landless_adventurer.Custom('DE_PRO_PER_P_3P_G')][Concept('adventurer',Select_CString(new_landless_adventurer.IsFemale,'avventuriera','avventuriero'))|E]"
  nearby_landless_adventurer_created_message_fallback_tt: "[new_landless_adventurer.Custom('IT_NAM_COL3')|U][new_landless_adventurer.GetShortUIName] è diventat[new_landless_adventurer.Custom('DE_END_PRO_S_N')] un[new_landless_adventurer.Custom('DE_PRO_PER_P_3P_G')][Concept('adventurer',Select_CString(new_landless_adventurer.IsFemale,'avventuriera','avventuriero'))|E]"
- 
+
  nearby_landed_ruler_created_message_title: "L'Avventurier[landed.Custom('DE_END_PRO_S_N')] Diventa Proprietari[landed.Custom('DE_END_PRO_S_N')] Terrier[landed.Custom('DE_END_PRO_S_N')]"
  nearby_landed_ruler_created_message_purchased_tt: "[landed.Custom('IT_NAM_COL3')|U][landed.GetShortUIName] ha comprato [landed_flavor_title.Custom('IT_COU_COL4')][landed_flavor_title.GetName] [landed_flavor_char.Custom('IT_NAM_COL5')][landed_flavor_char.GetUIName]"
  nearby_landed_ruler_created_message_negotiated_tt: "[landed.Custom('IT_NAM_COL3')|U][landed.GetShortUIName] ha ottenuto [landed_flavor_title.Custom('IT_COU_COL4')][landed_flavor_title.GetName] dopo una negoziazione con [landed_flavor_char.Custom('IT_NAM_COL3')][landed_flavor_char.GetUIName]"

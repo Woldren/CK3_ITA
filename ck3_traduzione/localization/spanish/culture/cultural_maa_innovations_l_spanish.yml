@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  # Tribal Era
  culture_parameter_unlock_maa_ayyar:0 "È possibile reclutare [GetMaA('ayyar').GetName] come [men_at_arms|E]"
@@ -48,8 +48,8 @@
  innovation_zweihanders:0 "Zweihanders"
  innovation_zweihanders_desc:1 "Queste massicce spade a due mani sono così abili nell'abbattere la carica di $knight_culture_player_plural_no_tooltip_lowercase$ come lo sono nel rompere le formazioni di picchieri nemici, rendendole una formidabile aggiunta ai nostri reggimenti di picchieri."
 
- #innovation_longbows:0 "Arco Lungo"
- #innovation_longbows_desc:0 "Sfruttando il forte legno di tasso che cresce qui, i nostri arcieri hanno imparato a costruire archi lunghi così potenti da richiedere una formazione specializzata fin da piccoli per poterli utilizzare in modo efficace. Questo investimento ne vale la pena, dato che i nostri arcieri possono tirare frecce che viaggiano più lontano e penetrano più in profondità rispetto a quelle lanciate da altri arcieri."
+ #innovation_longbows:0 "Longbow"
+ #innovation_longbows_desc:0 "Taking advantage of the strong yew wood that grows here, our bowyers have learned to make longbows so powerful they require specialized training from an early age to use effectively. This investment is worth it, as our longbowmen can shoot arrows which travel further and penetrate deeper than those fired by other archers."
 
  innovation_adaptive_militia:0 "Milizia Adattiva"
  innovation_adaptive_militia_desc:1 "Armi come la goedendag sono economiche e facili da produrre, ma sorprendentemente efficaci contro le cariche della cavalleria. La loro esistenza ci permette di adattare le nostre milizie per avere probabilità molto migliori quando si combattono corazzati $knight_culture_player_plural_no_tooltip_lowercase$."
@@ -98,7 +98,7 @@
  tradition_futuwaa_desc:0 "$innovation_futuwaa_desc$"
  innovation_futuwaa:0 "Futuwaa"
  innovation_futuwaa_desc:0 "I nostri giovani hanno iniziato a formare dei club che promuovono l'abilità, il vigore e il comportamento morale. Appoggiando e sostenendo questi club, ci assicureremo una scorta di soldati in grado di sostenere la nostra causa."
- 
+
  tradition_land_of_the_bow_name:0 "La Terra dell'Arco"
  tradition_land_of_the_bow_desc:0 "In una terra di abbondanza, arricchita dal Nilo e dal loro stesso ingegno, i nubiani hanno prosperato per generazioni. Per quasi lo stesso tempo, l'arco è stato l'arma scelta per scoraggiare i razziatori e briganti dei deserti circostanti."
 
@@ -143,7 +143,7 @@
  
  innovation_bamboo_bows:0 "Arco di Bambù"
  innovation_bamboo_bows_desc:0 "Una delle più antiche armi tradizionali per i fanti indiani è l'arco di bambù, che è sia economico da realizzare che facile da trasportare e mantenere. Poiché l'arco è anche l'arma preferita di molti cacciatori, non mancano arcieri esperti negli eserciti indiani."
- 
+
  innovation_zbrojnosh:0 "Zbrojnosh"
  innovation_zbrojnosh_desc:0 "Le colline e le montagne boscose della nostra patria richiedono un approccio diverso alla guerra. I nostri uomini armati, gli Zbrojnosh, sono addestrati a trasformare il terreno a loro vantaggio e hanno dimostrato di essere bravi combattenti in grado di sconfiggere eserciti molto più grandi."
 
@@ -170,6 +170,6 @@
 
  innovation_men_at_arms:0 "Uomini d'Arme"
  innovation_men_at_arms_desc:0 "L'addestramento e l'equipaggiamento di eserciti permanenti che rimangono sotto la diretta disposizione dei nostri sovrani saranno un trampolino di lancio sulla strada per centralizzare il nostro potere."
- 
+
  innovation_pole_vault:0 "Pertica"
  innovation_pole_vault_desc:0 "La pertica è un'invenzione semplice che richiede molto allenamento e pratica per essere padroneggiata. Un abile saltatore è in grado di spingersi in avanti superando grandi spazi e alte rocce, nonché alcune fortificazioni."

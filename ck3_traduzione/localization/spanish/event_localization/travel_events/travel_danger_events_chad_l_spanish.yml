@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  
  travel_danger_events.5000.t:0 "$travel_danger_prefix$ Un Gruppo Litigioso"
  travel_danger_events.5000.intro.land:0 "Mentre stiamo percorrendo [location.GetName], la nostra carovana si è fermata in una radura delimitata da [location.Custom('GetProvinceFoliageDesc')]. Mi dirigo verso il trambusto solo per trovare [entourage_member_one.GetFirstName] e [entourage_member_two.GetFirstName] nel mezzo di una lite furiosa.\n\n"

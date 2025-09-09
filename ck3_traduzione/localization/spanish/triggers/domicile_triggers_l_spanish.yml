@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  has_domicile_first: "Hai una Residenza"
  not_has_domicile_first: "#bold non hai#! una Residenza"
  has_domicile_third: "[CHARACTER.GetName] ha una residenza"

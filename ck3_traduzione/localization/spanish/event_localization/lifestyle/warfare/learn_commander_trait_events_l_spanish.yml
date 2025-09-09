@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #Random Trait Acquisition Events
  #Choose whether to become aggressive_attacker, unyielding_defender or flexible_leader
  learn_commander_trait.0002.t:0 "Un Buon Equilibrio"

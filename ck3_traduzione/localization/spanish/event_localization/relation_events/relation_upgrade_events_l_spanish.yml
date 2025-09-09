@@ -1,6 +1,6 @@
-﻿l_spanish:
+l_spanish:
  # Tourney Troubles
- # Initial Event:
+ #  Initial Event:
  relation_upgrade.0001.t:0 "Problemi del Torneo"
  relation_upgrade.0001.desc.opening:0 "In quanto [ROOT.Char.GetTitleAsNameNoTooltip], sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] obbligat[ROOT.Char.Custom('DE_END_PRO_S_N')] a partecipare ad un torneo locale che consiste in un [ROOT.Char.Custom('MartialTournamentAdjective')], ma i concorrenti sono in ritardo, il torneo non inizierà per almeno un'altra ora.\n\n"
  relation_upgrade.0001.desc.rival:0 "[rival.Custom2('MyCharacterIntroduction', ROOT.Char)|U] è qui e, come sempre, è un insopportabile zoticone. Le sue continue lamentele rendono tutto #EMP ancora più#! miserabile del normale."
@@ -27,7 +27,7 @@
  relation_upgrade.0001.opt_out:0 "Ho sprecato troppo tempo per questo disastro..."
 
  # Tourney Troubles
- # Follow-Up Event:
+ #  Follow-Up Event:
  relation_upgrade.0011.t:0 "$relation_upgrade.0001.t$"
  relation_upgrade.0011.desc.opening:0 "$relation_upgrade.0001.desc.opening$"
  relation_upgrade.0011.desc.rival:0 "Mentre mi lamento di quanto sia mal organizzato il torneo, [source.Custom2('MyCharacterIntroduction', ROOT.Char)] si avvicina a me e improvvisamente mi spinge dritto negli abbeveratoio per i cavalli, facendo scoppiare a ridere tutti quelli che sono intorno!"

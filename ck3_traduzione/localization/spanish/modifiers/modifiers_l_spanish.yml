@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  MOD_DIPLOMACY:0 "[diplomacy|E]"
  MOD_INTRIGUE:0 "[intrigue|E]"
  MOD_STEWARDSHIP:0 "[stewardship|E]"
@@ -14,7 +14,7 @@
  MOD_MARTIAL_PREFIX:0 "[martial_i]"
  MOD_LEARNING_PREFIX:0 "[learning_i]"
  MOD_PROWESS_PREFIX:0 "[prowess_i]"
- 
+
  MOD_DIPLOMACY_PER_PIETY_LEVEL:0 "[diplomacy|E] per [piety_level|E]"
  MOD_MARTIAL_PER_PIETY_LEVEL:0 "[martial|E] per [piety_level|E]"
  MOD_STEWARDSHIP_PER_PIETY_LEVEL:0 "[stewardship|E] per [piety_level|E]"
@@ -44,17 +44,17 @@
  MOD_PIETY_LEVEL_IMPACT_MULT:1 "[piety_level_impact|E]"
  MOD_PRESTIGE_LEVEL_IMPACT_MULT:1 "[prestige_level_impact|E]"
  MOD_INFLUENCE_LEVEL_IMPACT_MULT: "Impatto Livello di Influenza"
- 
+
  MOD_DIPLOMACY_NEGATE_PENALTY:0 "Penalità in [diplomacy|E] annullata"
  MOD_INTRIGUE_NEGATE_PENALTY:0 "Penalità in [intrigue|E] annullata"
  MOD_STEWARDSHIP_NEGATE_PENALTY:0 "Penalità in [stewardship|E] annullata"
  MOD_MARTIAL_NEGATE_PENALTY:0 "Penalità in [martial|E] annullata"
  MOD_PROWESS_NEGATE_PENALTY:1 "Resistenza alle Ferite ([prowess|E])"
  MOD_LEARNING_NEGATE_PENALTY:0 "Penalità in [learning|E] annullata"
- 
+
  MOD_FERTILITY:0 "[fertility|E]"
  MOD_FERTILITY_NEGATE_PENALTY:0 "Resistenza alle malattie ([fertility|E])"
- 
+
  MOD_PROVISIONS_GAIN_MULT: "Guadagno di [provisions|E]"
  MOD_PROVISIONS_LOSS_MULT: "Perdita di [provisions|E]"
  MOD_PROVISIONS_CAPACITY_ADD: "Capacità di [Concept( 'provisions', 'approviggionamento' )|E]"
@@ -129,7 +129,7 @@
  MOD_SAME_CULTURE_HOLY_ORDER_HIRE_COST_ADD:0 "Costo di Reclutamento dell'[holy_order|E] della stessa [culture|E]"
  MOD_SAME_CULTURE_HOLY_ORDER_HIRE_COST_MULT:0 "$MOD_SAME_CULTURE_HOLY_ORDER_HIRE_COST_ADD$"
  holy_order_government_levy_contribution_add:0 "[modifier_contribution|E] in [levies|E] del [vassal|E] per l'[holy_order|E]"
- 
+
  desert_advantage:1 "[command_modifier_i|E][advantage|E] nel Deserto"
  desert_attrition_mult:1 "[command_modifier_i|E][attrition|E] subito nel Deserto"
  desert_cancel_negative_supply:1 "[command_modifier_i|E]Penalità al [supply_limit|E] nel Deserto annullata"
@@ -200,7 +200,7 @@
  wetlands_cancel_negative_supply:1 "[command_modifier_i|E]Penalità al [supply_limit|E] nelle Zone Umide annullata"
  wetlands_max_combat_roll:1 "[command_modifier_i|E][combat_roll|E] massimo nelle Zone Umide"
  wetlands_min_combat_roll:1 "[command_modifier_i|E][combat_roll|E] minimo nelle Zone Umide"
- 
+
  siege_weapon_siege_value_mult:0 "Efficacia delle [siege_weapons|E]"
  siege_weapon_toughness_add:0 "[toughness|E] dell'[siege_weapon|E]"
  siege_weapon_max_size_add:0 "Grandezza massima dei [regiments|E] dell'[siege_weapon|E]"
@@ -322,7 +322,6 @@
 
 
  MOD_COUNTY_FERTILITY_PREFIX: "@county_fertility_icon!" 
- 
  MOD_MOVEMENT_SPEED_PREFIX:0 "@movement_speed_icon!"
  MOD_DREAD_PREFIX:0 "@dread_icon!"
  MOD_DISCOVERY_PREFIX:0 "@exposed_icon!"
@@ -478,7 +477,6 @@
  MOD_INTIMIDATED_VASSAL_LEVY_CONTRIBUTION_MULT:1 "[modifier_contribution|E] in [levies|E] del [vassal|E] [intimidated|E]"
  MOD_COWED_VASSAL_LEVY_CONTRIBUTION_ADD:1 "[modifier_base_contribution|E] in [levies|E] del [vassal|E] [cowed|E]"
  MOD_COWED_VASSAL_LEVY_CONTRIBUTION_MULT:1 "[modifier_contribution|E] in [levies|E] del [vassal|E] [cowed|E]"
-
  MOD_VASSAL_HERD_CONTRIBUTION_ADD: "[vassal|E] [herd|E] [modifier_base_contribution|E]"
  MOD_VASSAL_HERD_CONTRIBUTION_MULT: "[vassal|E] [herd|E] [modifier_contribution|E]"
  MOD_VASSAL_HERDER_CONTRIBUTION_ADD: "[vassal|E] [herd|E] [modifier_base_contribution|E]"
@@ -493,15 +491,14 @@
  MOD_COWED_VASSAL_HERD_CONTRIBUTION_MULT: "[cowed|E] [vassal|E] [herd|E] [modifier_contribution|E]"
  MOD_COWED_VASSAL_PRESTIGE_CONTRIBUTION_ADD: "[cowed|E] [vassal|E] [prestige|E] [modifier_base_contribution|E]"
  MOD_COWED_VASSAL_PRESTIGE_CONTRIBUTION_MULT: "[cowed|E] [vassal|E] [prestige|E] [modifier_contribution|E]"
- MOD_HAPPY_POWERFUL_VASSAL_HERD_CONTRIBUTION_ADD: "[powerful_vassal|E] [councillor|E] [herd|E] [modifier_base_contribution|E]"
- MOD_HAPPY_POWERFUL_VASSAL_HERD_CONTRIBUTION_MULT: "[powerful_vassal|E] [councillor|E] [herd|E] [modifier_contribution|E]"
- MOD_HAPPY_POWERFUL_VASSAL_PRESTIGE_CONTRIBUTION_ADD: "[powerful_vassal|E] [councillor|E] [prestige|E] [modifier_base_contribution|E]"
- MOD_HAPPY_POWERFUL_VASSAL_PRESTIGE_CONTRIBUTION_MULT: "[powerful_vassal|E] [councillor|E] [prestige|E] [modifier_contribution|E]"
- 
  MOD_HAPPY_POWERFUL_VASSAL_TAX_CONTRIBUTION_ADD:2 "[modifier_base_contribution|E] nella [taxes|E] del [powerful_vassal|E] e del [councillor|E]"
  MOD_HAPPY_POWERFUL_VASSAL_TAX_CONTRIBUTION_MULT:1 "[modifier_contribution|E] in [taxes|E] del [powerful_vassal|E] e del [councillor|E]"
  MOD_HAPPY_POWERFUL_VASSAL_LEVY_CONTRIBUTION_ADD:2 "[modifier_base_contribution|E] in [levies|E] del [powerful_vassal|E] e del [councillor|E]"
  MOD_HAPPY_POWERFUL_VASSAL_LEVY_CONTRIBUTION_MULT:1 "[modifier_contribution|E] in [levies|E] del [powerful_vassal|E] e del [councillor|E]"
+ MOD_HAPPY_POWERFUL_VASSAL_HERD_CONTRIBUTION_ADD: "[powerful_vassal|E] [councillor|E] [herd|E] [modifier_base_contribution|E]"
+ MOD_HAPPY_POWERFUL_VASSAL_HERD_CONTRIBUTION_MULT: "[powerful_vassal|E] [councillor|E] [herd|E] [modifier_contribution|E]"
+ MOD_HAPPY_POWERFUL_VASSAL_PRESTIGE_CONTRIBUTION_ADD: "[powerful_vassal|E] [councillor|E] [prestige|E] [modifier_base_contribution|E]"
+ MOD_HAPPY_POWERFUL_VASSAL_PRESTIGE_CONTRIBUTION_MULT: "[powerful_vassal|E] [councillor|E] [prestige|E] [modifier_contribution|E]"
  republic_government_tax_contribution_add:1 "[modifier_base_contribution|E] in [taxes|E] del [vassal|E] [republican|E]"
  republic_government_tax_contribution_mult:1 "[modifier_contribution|E] in [taxes|E] del [vassal|E] [republican|E]"
  theocracy_government_tax_contribution_add:1 "[modifier_base_contribution|E] in [taxes|E] del [vassal|E] [theocracy|E]"
@@ -532,9 +529,9 @@
  MOD_MONTHLY_INCOME_MULT:0 "[income|E] Mensili"
  MOD_MONTHLY_WAR_INCOME_ADD:0 "[income|E] in tempo di [war|E]"
  MOD_MONTHLY_WAR_INCOME_MULT:0 "[income|E] Mensili in tempo di [war|E]"
- MOD_MONTHLY_INCOME_FROM_HERD_MULT: "[income|E] dalla [herd|E]" 
  MOD_MONTHLY_INCOME_PER_STRESS_LEVEL_ADD:0 "[income|E] per [stress_level|E]"
  MOD_MONTHLY_INCOME_PER_STRESS_LEVEL_MULT:0 "[income|E] Mensili per [stress_level|E]"
+ MOD_MONTHLY_INCOME_FROM_HERD_MULT: "[income|E] dalla [herd|E]" 
  MOD_MONTHLY_PIETY:0 "[piety|E]"
  MOD_MONTHLY_PIETY_GAIN_MULT:0 "[piety|E] Mensile"
  MOD_MONTHLY_PIETY_GAIN_PER_HAPPY_POWERFUL_VASSAL_ADD:1 "[piety|E] per ogni [powerful_vassal|E] nel [council|E]"
@@ -584,13 +581,13 @@
  MOD_MONTHLY_HERD_PREFIX:0 "[herd_i]"
  MOD_MONTHLY_HERD_MULT_PREFIX:0 "[herd_i]" 
  MOD_DEVELOPMENT_PREFIX:0 "[development_i]"
+ MOD_LEGEND_PREFIX: "[legend_i]"
+ MOD_PLAGUE_PREFIX: "[epidemic_i]"
+ MOD_LEGITIMACY_PREFIX: "[legitimacy_i]" 
  MOD_KNIGHT_PREFIX:0 "[knight_i]" 
  MOD_GOLD_PREFIX:0 "[gold_i]"
  MOD_PIETY_PREFIX:0 "[piety_i]"
  MOD_PRESTIGE_PREFIX:0 "[prestige_i]"
- MOD_LEGEND_PREFIX: "[legend_i]"
- MOD_PLAGUE_PREFIX: "[epidemic_i]"
- MOD_LEGITIMACY_PREFIX: "[legitimacy_i]" 
  MOD_SOLDIER_PREFIX:0 "[soldier_i]" 
  MOD_MONTHLY_PIETY_PREFIX:0 "[piety_i]"
  MOD_MONTHLY_PIETY_GAIN_MULT_PREFIX:0 "[piety_i]"
@@ -602,9 +599,9 @@
  MOD_MONTHLY_DREAD_PREFIX:0 "@dread_icon!"
  MOD_MONTHLY_POSTFIX:0 "/mese"
  MOD_MAX_PERSONAL_SCHEMES_ADD:0 "Numero massimo di [personal_schemes|E]"
- MOD_MAX_HOSTILE_SCHEMES_ADD:0 "Numero massimo di [hostile_schemes|E]"
  MOD_MAX_POLITICAL_SCHEMES_ADD: "Numero massimo di [political_schemes|E]"
  MOD_MAX_CONTRACT_SCHEMES_ADD:0 "Numero massimo di [contract_schemes|E]" 
+ MOD_MAX_HOSTILE_SCHEMES_ADD:0 "Numero massimo di [hostile_schemes|E]"
  MOD_OWNED_PERSONAL_SCHEME_SUCCESS_ADD:0 "[success_chance|E] iniziale del [personal_scheme|E]"
  MOD_OWNED_POLITICAL_SCHEME_SUCCESS_ADD:0 "[success_chance|E] iniziale del proprio [political_scheme|E]"
  MOD_OWNED_CONTRACT_SCHEME_SUCCESS_ADD: "[success_chance|E] iniziale del [contract_scheme|E]"
@@ -832,6 +829,8 @@
  COUNTY_CAPITAL_PROVINCE_MODIFIER: "$COUNTY_PROVINCE_MODIFIER$ ([county_capital|E])"
  MOD_MONTHLY_COUNTY_CONTROL_GROWTH:0 "Aumento del [control|E]"
  MOD_MONTHLY_COUNTY_CONTROL_GROWTH_EVEN_IF_BARON:0 "$MOD_MONTHLY_COUNTY_CONTROL_GROWTH$"
+ MOD_MONTHLY_COUNTY_CONTROL_GROWTH_FACTOR:1 "Aumento del [control|E]"
+ MOD_MONTHLY_COUNTY_CONTROL_GROWTH_FACTOR_EVEN_IF_BARON:0 "$MOD_MONTHLY_COUNTY_CONTROL_GROWTH_FACTOR$"
  MOD_MONTHLY_COUNTY_CONTROL_GROWTH_AT_WAR:0 "Crescita del [control|E] quando si è in [war|E]"
  MOD_MONTHLY_COUNTY_CONTROL_GROWTH_FACTOR_AT_WAR:0 "Crescita del [control|E] quando si è in [war|E]"
  MOD_MONTHLY_COUNTY_CONTROL_DECLINE: "Declino del [control|E]"
@@ -840,8 +839,6 @@
  MOD_MONTHLY_COUNTY_CONTROL_DECLINE_FACTOR_EVEN_IF_BARON: "$MOD_MONTHLY_COUNTY_CONTROL_DECLINE_FACTOR$"
  MOD_MONTHLY_COUNTY_CONTROL_DECLINE_AT_WAR: "Declino del [control|E] quando si è in [war|E]"
  MOD_MONTHLY_COUNTY_CONTROL_DECLINE_FACTOR_AT_WAR: "Declino del [control|E] quando si è in [war|E]"
- MOD_MONTHLY_COUNTY_CONTROL_GROWTH_FACTOR:1 "Aumento del [control|E]"
- MOD_MONTHLY_COUNTY_CONTROL_GROWTH_FACTOR_EVEN_IF_BARON:0 "$MOD_MONTHLY_COUNTY_CONTROL_GROWTH_FACTOR$"
  MOD_CONSTRUCTION_PRESTIGE_COST:1 "Costo di Costruzione dell'[building|E]"
  MOD_CONSTRUCTION_HERD_COST: "Costo di costruzione dell'[building|E]" 
  MOD_DOMAIN_LIMIT:0 "[domain_limit|E]"
@@ -1071,7 +1068,7 @@
  MOD_HOLDING_FORT_LEVEL_PREFIX:0 "@fort_icon!"
  MOD_MAX_LOOT_MULT:1 "Capacità del [raid_loot|E] dell'[army|E]"
  MOD_EXTERNAL_SLOTS_PREFIX: "@external_slots_icon!"
- 
+
  city_holding_build_speed:1 "Tempo di Costruzione degli [buildings|E] della Città"
  church_holding_build_speed:0 "Tempo di Costruzione degli [buildings|E] del Tempio"
  castle_holding_build_speed:0 "Tempo di Costruzione degli [buildings|E] del Castello"
@@ -1081,7 +1078,7 @@
  church_holding_build_gold_cost:0 "Costo di Costruzione degli [buildings|E] del Tempio"
  castle_holding_build_gold_cost:0 "Costo di Costruzione degli [buildings|E] del Castello"
  tribal_holding_build_gold_cost:0 "Costo di Costruzione degli [buildings|E] Tribali"
- 
+
  city_holding_holding_build_speed:0 "Tempo di Costruzione di un [holding|E] Città"
  church_holding_holding_build_speed:0 "Tempo di Costruzione di un [holding|E] Tempio"
  castle_holding_holding_build_speed:0 "Tempo di Costruzione di un [holding|E] Castello"
@@ -1091,7 +1088,7 @@
  church_holding_holding_build_gold_cost:0 "Costo di Costruzione di un [holding|E] Tempio"
  castle_holding_holding_build_gold_cost:0 "Costo di Costruzione di un [holding|E] Castello"
  tribal_holding_holding_build_gold_cost:0 "Costo di Costruzione di un [holding|E] Tribale"
- 
+
  plains_tax_mult:0 "$MOD_TAX_MULT$ nel Terreno Pianure"
  farmlands_tax_mult:0 "$MOD_TAX_MULT$ nei Terreni Agricoli"
  hills_tax_mult:0 "$MOD_TAX_MULT$ nel Terreno Colline"
@@ -1158,7 +1155,7 @@
  county_base_modifier:0 "Valore di Base"
  reclaim_britannia_culture_modifier:0 "Britannia Reclamata"
  reclaim_britannia_culture_modifier_desc:0 "Velocità alla [promote_culture|E] (solo culture del $celtic_group$): #P +75%#!"
- 
+
  #Tier modifiers
  unlanded_modifier:0 "Senza Terre"
  baron_modifier:0 "Barone"
@@ -1185,7 +1182,7 @@
  piety_level_4_desc: "$piety_level_4$ è il quarto [piety_level|E]. Il livello successivo è [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L].\nEffetti:\n[GetPietyLevelDesc( '(int32)4' )]"
  piety_level_5: "Icona Religiosa"
  piety_level_5_desc: "$piety_level_5$ è il quinto e più alto [piety_level|E] possibile.\nEffetti:\n[GetPietyLevelDesc('(int32)5')|=+]"
- 
+
  prestige_level_0: "Disonorato"
  prestige_level_0_desc: "$prestige_level_0$ è il più basso [prestige_level|E] possible. Il livello successivo è [GetModifier( 'prestige_level_1' ).GetNameWithTooltip|L].\nEffetti:\n[GetPrestigeLevelDesc( '(int32)0' )]"
  prestige_level_1: "Affermato"
@@ -1224,6 +1221,7 @@
 
  recently_looted_modifier:0 "Saccheggiata Recentemente"
  recently_looted_modifier_desc:0 "Questo [holding|E] è stato recentemente saccheggiato durante un [raid|E] o un [siege|E] e non può esserlo di nuovo prima della fine di questo modificatore."
+
  shattered_defenses_modifier: "Difese Infrante"
  shattered_defenses_modifier_desc: "Le difese di questo [holding|E] sono recentemente state fatte a pezzi da razziatori violenti."
 
@@ -1231,7 +1229,6 @@
  hard_difficulty_player: "$hard_difficulty$"
  very_hard_difficulty: "Molto Difficile"
  very_hard_difficulty_player: "$very_hard_difficulty$"
-
  very_easy_difficulty:0 "Molto facile"
  easy_difficulty:0 "Facile"
  game_rule_base_value: "Base: $VALUE|=+0$"
@@ -1245,11 +1242,13 @@
 
  # Informs players about the stress loss decisions enabled by coping mechanism traits.
  CUSTOM_MOD_ENABLES_STRESS_LOSS_DECISIONS:0 "Permette una [decision|E] speciale che #P riduce#! lo [stress|E]"
- 
+
  # RoCo
  world_innovation_elephants_development_growth_factor:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ nella [region|E] [GetGeographicalRegion('world_innovation_elephants').GetName]"
+
  # FP3
  world_persian_empire_development_growth_factor:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ nella [region|E] [GetGeographicalRegion('world_persian_empire').GetName]"
+
  # Travel
  MOD_TRAVEL_SPEED:1 "Velocità di [travel|E]"
  MOD_TRAVEL_SPEED_MULT:0 "$MOD_TRAVEL_SPEED$"
@@ -1277,22 +1276,21 @@
  plains_travel_danger: "[travel_danger|E] nelle [GetTerrain( 'plains' ).GetName]"
  farmlands_travel_danger: "[travel_danger|E] nei [GetTerrain( 'farmlands' ).GetName] [travel_danger|E]"
  oasis_travel_danger: "[travel_danger|E] nelle [GetTerrain( 'oasis' ).GetName]"
- 
+
  MOD_STRIFE_OPINION_GAIN_MULT:0 "Ottieni [strife|E]"
  MOD_STRIFE_OPINION_LOSS_MULT:0 "[strife|E] Persa"
 
  # Accolades
  MOD_ACTIVE_ACCOLADES:0 "[accolades|E] Disponibili"
  MOD_ACCOLADE_GLORY_GAIN_MULT:0 "[glory|E] ottenuta per l'[accolade|e]"
+
  MOD_EPIDEMIC_RESISTANCE: "[epidemic_resistance|E]"
  MOD_OWNED_LEGEND_SPREAD_ADD: "Probabilità di Diffusione della [legend|E]"
  MOD_OWNED_LEGEND_SPREAD_MULT: "$MOD_OWNED_LEGEND_SPREAD_ADD$"
 
- MOD_LEGITIMACY_BASE: "Linea Base della [legitimacy|E]"
  MOD_LEGITIMACY_GAIN_MULT: "Guadagno di [legitimacy|E]"
  MOD_LEGITIMACY_LOSS_MULT: "Perdita di [legitimacy|E]"
  MOD_LEGITIMACY_MONTHLY_CHANGE: "[legitimacy|E]"
-
 
  MOD_LEVY_MAINTENANCE:0 "Mantenimento delle [levies|E]"
  MOD_UNCONTROLLED_PROVINCE_ADVANTAGE:0 "Uncontrolled Territory Attacker [advantage|E]"
@@ -1322,7 +1320,7 @@
  trait_track_falconer_xp_gain_mult:0 "Guadagno d'[Concept( 'trait_level_track_xp', 'esperienza' )|E] in Falconeria #weak ([GetTrait('lifestyle_hunter').GetName( GetNullCharacter )])#!"
 
  lifestyle_mystic_xp_gain_mult:0 "Guadagno d'[Concept( 'trait_level_track_xp', 'esperienza' )|E] per il tratto [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]"
- 
+
  trait_track_travel_xp_gain_mult: "Guadagno d'[Concept( 'trait_level_track_xp', 'esperienza' )|E] per il tratto Viandante #weak ([GetTrait('lifestyle_traveler').GetName( GetNullCharacter )])#!"
  trait_track_danger_xp_gain_mult: "Guadagno d'[Concept( 'trait_level_track_xp', 'esperienza' )|E] per il tratto Veterano #weak ([GetTrait('lifestyle_traveler').GetName( GetNullCharacter )])#!"
 
@@ -1349,17 +1347,16 @@
  MODIFIER_DEFINITION_VALUE_PER_HOUSE_UNITY_MEMBER:0 " \t#weak Incrementa in base al numero di membri della [house|E] [landed|E]#!"
  MODIFIER_DEFINITION_MAIN_DESC_HOUSE_UNITY:0 "Questo modificatore aumenta in base al numero di membri della [house|E] [landed|E] (#bold $MULTIPLIER|0$#!/#bold 10#!)"
  MODIFIER_DEFINITION_BASE_VALUE:0 "Valore base"
- 
  avalanche_impact:0 "Impatto della Valanga"
  avalanche_impact_desc:0 "Questo insediamento è stato colpito dal recente passaggio di un'enorme valanga."
 
  convert_to_witchcraft_scheme_speed_mult: "[scheme_speed_single|E] [GetScheme('convert_to_witchcraft').GetTypeName]"
- 
+
  MOD_HOSTAGE_PRESTIGE_MULT:0 "[prestige|E] mensile derivante dagli [hostages|E]"
  MOD_HOSTAGE_PIETY_MULT:0 "[piety|E] mensile derivante dagli [hostages|E]"
  MOD_HOSTAGE_RENOWN_MULT:0 "[dynasty_prestige|E] mensile derivante dagli [hostages|E]"
  MOD_HOSTAGE_INCOME_MULT:0 "Entrate mensili derivanti dagli [hostages|E]"
- 
+
  player_facing_ai_energy:0 "Energia"
  player_facing_ai_honor:0 "Onore"
  player_facing_ai_vengefulness:0 "Vendicatività"
@@ -1380,13 +1377,13 @@
  minority_ai_energy:0 "[personality|E] [GetVassalStance( 'minority' ).GetTextIcon][GetVassalStance( 'minority' ).GetName] $player_facing_ai_energy$"
  MOD_NUM_TAX_SLOTS:0 "[tax_jurisdictions|E] Disponibili"
  clan_tax_slot_add:0 "$MOD_NUM_TAX_SLOTS$" # Can re-localize if we re-use tax slots in other governments
- 
+
  AFFECTING_MODIFIERS_LABEL: "Modificatori influenzati:"
  PROVINCE_MODIFIERS: "Modificatori della [barony|E]"
  COUNTY_MODIFIERS: "Modificatori della [county|E]"
  PROVINCE_AND_COUNTY_MODIFIERS: "Modificatori della [barony|E] e della [county|E]"
  OWNER_MODIFIERS: "Modificatori del Detentore"
- 
+
  ai_conqueror_modifier: "Conquistatore"
  ai_conqueror_modifier_desc: "$struggle_parameter_unlocks_forced_vassalization_casus_belli$\nRemoves [prestige_i|E][prestige|E] Costs from [casus_bellis|E]\nRemoves [piety_i|E][piety|E] Costs from [casus_bellis|E]\n[armies|e] will #bold flock#! to their banners\n[claimants|e] will #bold crowd #!their [court|e]\n[vassals|e] will #bold fall in line#!\n\n#low The world lies before me, ripe for the taking. It will be mine.#!"
 
@@ -1573,5 +1570,3 @@ specialized_herds_modifier_camel: "$building_camel_farms_01$"
 specialized_herds_modifier_sheep: "$goat_yurt_01_domicile_building$, $sheep_yurt_01_domicile_building$"
 specialized_herds_modifier_hunting: "$mpo_hunt_steppe$"
 specialized_herds_modifier_horses: "$building_type_horse_pastures_01$"
-
-

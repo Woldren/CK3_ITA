@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  murder_event_title:0 "Assassinio:"
  murder_ongoing.3010.t:0 "$murder_event_title$ Agente ubriacone"
  murder_ongoing.3010.desc_opening:0 "[agent_in_question.GetTitledFirstName] è ogni giorno ubriaco."

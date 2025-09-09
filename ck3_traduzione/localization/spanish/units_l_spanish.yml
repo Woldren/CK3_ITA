@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  UNIT_TYPE:0 "[army|E] $TYPE|U$"
  UNIT_TYPE_MY:0 "tuo"
  UNIT_TYPE_ALLY:0 "alleato"
@@ -46,3 +46,4 @@
  SUPPLY_LOSS_AT_SEA:0 "In mare"
  SUPPLY_BREAKDOWN_PENALTY:0 "Penalità rifornimenti"
  SUPPLY_BREAKDOWN_BONUS:0 "Bonus rifornimenti"
+ 

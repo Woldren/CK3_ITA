@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  prison_notification.0001.t:0 "Imprigionat[ROOT.Char.Custom('DE_END_PRO_S_N')]!"
  prison_notification.0001.desc:0 "Sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] catturat[ROOT.Char.Custom('DE_END_PRO_S_N')] e detenut[ROOT.Char.Custom('DE_END_PRO_S_N')] contro la mia volontà da [imprisoner.GetTitledFirstName]!\n\nNon sono più liber[ROOT.Char.Custom('DE_END_PRO_S_N')] di tornare nella mia [ROOT.Char.Custom('GetCourt')] o di viaggiare come desidero."
  prison_notification.0001.a:0 "Spero che questa situazione non duri troppo."

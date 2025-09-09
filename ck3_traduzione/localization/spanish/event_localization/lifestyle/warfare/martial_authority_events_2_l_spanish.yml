@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #You visit some baronies or go partying, by Ewan Cowhig Croft
  martial_authority.5000.t:0 "Tour per le Acque Torbide"
  martial_authority.5000.authoritative_religion.desc:1 "Mi strofino le tempie pulsanti mentre un funzionario mi legge il decimo comunicato di quest'anno da [baron_1_lands.GetNameNoTier]. Diversi feudi molto importanti, hanno visto diminuire il mio controllo negli ultimi mesi...\n\nUn piccolo tour di queste terre remote, come mio dovere assegnatomi da [ROOT.Char.GetFaith.HighGodName], potrebbe metterli un po' più fermamente sotto il mio controllo. D'altra parte, [party_vassal.Custom('REL_TO_ME')][party_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] mi ha invitato ad una festa privata..."

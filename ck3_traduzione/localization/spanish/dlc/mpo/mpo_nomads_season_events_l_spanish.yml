@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  mpo_nomads_season_events.0001.t: "Riding the Storm"
  mpo_nomads_season_events.0001.desc: ""Do you see the shape of the clouds? They appear as if clawed by a falcon's talons," my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('storm_chaser'))] [storm_chaser.GetTitledFirstName] says, gesturing toward the sky. \n\n"It heralds a dread storm. I say we use it to our advantage. Let us take our horses and bows into the raging gale, catch [raid_target.GetTitledFirstName] unaware, and steal [raid_target.GetHerHis] herd.""
  mpo_nomads_season_events.0001.a: "Tomorrow, we ride!"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  imprisoned_me:0 "In Prigione"
  imprisoned_me_dungeon: "$imprisoned_me$"
  imprisoned_me_past: "Mi ha Imprigionato"
@@ -14,4 +14,3 @@
  escaped_from_prison_opinion:0 "Scappato di Prigione"
  escaped_from_prison_crime:0 "Scappato di Prigione"
  tried_to_escape_from_prison_opinion: "Ha Tentato di Scappare dalla Prigione"
-

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  apa_won_at_dice_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Battuto [second.GetShortUIName|U] a Dadi"
  
  apa_good_manners_title:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUIName)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] Mostrato Buone Maniere"

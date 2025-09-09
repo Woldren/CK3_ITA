@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  seduce_outcome.permanent_block:0 "[owner.GetTitledFirstName] non tenterà mai più di sedurmi"
  seduce_outcome.cooldown:0 "[owner.GetTitledFirstName] non cercherà più di sedurmi, per qualche tempo"
 
@@ -210,7 +210,7 @@
  seduce_outcome.4900.desc:0 "Mi sto dirigendo verso le mie stanze per godermi un sonno beato quando sento un debole fruscio da una finestra. "Solo il vento" penso, finché il vento inizia a parlare.\n\n"[target.GetFirstNameNoTooltip]! Apri tesor[target.Custom('DE_END_PRO_S_N')] mi[target.Custom('DE_END_PRO_S_N')]! Sono io, [owner.GetFirstNameNoTooltip]!" Spingo le persiane, ed ecco, un[owner.Custom('DE_PRO_POS_P_2P')] [owner.GetWomanMan] è alla finestra di [target.GetFirstName]! È [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
  seduce_outcome.4900.a.family:0 "Come hai appena chiamato mi[target.Custom('DE_END_PRO_S_N')] [target_liege.Custom2('RelationToMeShort', SCOPE.sC('target'))], [owner.Custom('InsultNounSexual')]?!"
  seduce_outcome.4900.a.courtier:0 "In nome del [ROOT.Char.GetFaith.DevilName], non ti vergogni? Guardie!"
-
+  
  seduce_outcome.8101.t:1 "[ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('owner') )|U] Amore"
  seduce_outcome.8101.desc:0 "Non ci sono più dubbi. [owner.GetTitledFirstName] – mi[owner.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner') )] - vuole essere più che una famiglia...\n\n"
  seduce_outcome.8101.desc_positive:0 "Anche se non posso dire che il pensiero non mi sia mai passato per la mente, la realizzazione è ancora uno shock."

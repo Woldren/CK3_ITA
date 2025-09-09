@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  lifestyle_soldier_source_modifier:0 "Soldato Informatore"
  lifestyle_soldier_source_modifier_desc:0 "Un soldato della capitale è disposto a condividere informazioni."
 
@@ -34,7 +34,7 @@
 
  intrigue_scheme_messenger_pigeon_modifier:0 "Piccione Viaggiatore"
  intrigue_scheme_messenger_pigeon_modifier_desc:0 "Il piccione viaggiatore addestrato è pronto a consegnare messaggi segreti."
- 
+
  intrigue_scheme_secret_code_modifier:0 "Codice Segreto Multi-Lingua"
  intrigue_scheme_secret_code_modifier_desc: "Un codice complesso composto da molti linguaggi è stato creato appositamente per questo piano."
 

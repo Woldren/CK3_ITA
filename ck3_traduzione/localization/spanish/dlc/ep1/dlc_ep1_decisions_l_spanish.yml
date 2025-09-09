@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  order_mass_eviction_decision:0 "Ordina lo Sfratto di Massa" #tradotto da Woldren
  order_mass_eviction_decision_desc:0 "Non è un segreto che non abbiamo stanze libere qui alla corte di [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], né il fatto che abbiamo più di qualche "ospite" scroccone che si sta avvantaggiando della mi- #EMP nostra#! ospitalità.\n\nDi norma, sarebbe scortese esigere che questi perdigiorno se ne vadano, ma se dovessi affermare che semplicemente non possiamo ospitarli..."
  order_mass_eviction_decision.tt.courtier_option:0 "A causa della tua grave mancanza di alloggi, puoi anche scegliere di sfrattare i cortigiani poco importanti"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  HEALTH_VALUE_FORMAT_ALREADY_DEAD: "#N Il Mietitore si Avvicina#!"
  HEALTH_VALUE_FORMAT_CATASTROPHIC_PENALTY:0 "#N Penalità Catastrofica#!"
  HEALTH_VALUE_FORMAT_EXTREME_PENALTY:0 "#N Penalità Estrema#!" # Replaced with Critical

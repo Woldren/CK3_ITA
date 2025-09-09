@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  GOVERNMENT_HAS_FLAG_TRIGGER:1 "[government|E] $FLAG$"
  GOVERNMENT_HAS_FLAG_TRIGGER_FIRST:0 "La tua forma di [government|E] $FLAG$"

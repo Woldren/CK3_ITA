@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  seduce_tapestry_gift_modifier:0 "Arazzo della dinastia"
  seduce_tapestry_gift_modifier_desc:0 "Un arazzo che racconta le grandi vittorie e il momento importante della dinastia."
  seduce_horse_gift_modifier:0 "Cavallo di razza"
@@ -35,6 +35,7 @@
  seduce_obvisouly_courted_modifier_desc:0 "L'intera corte sa che qualcuno è sulla via dell'amore."
  seduce_figting_modifier:0 "Ha eccelso in un combattimento"
  seduce_figting_modifier_desc:0 "Nocche sbucciate e labbra spaccate; niente mi rallenta!"
+
  seduce_bold_start_modifier:0 "Incoraggiato dal Tentativo di Seduzione"
  seduce_bold_start_modifier_desc:0 "Sentirsi coraggiosi dopo aver fatto avances audaci durante un incontro romantico."
  seduce_gentle_start_modifier:0 "Addolcito dal Tentativo di Seduzione"

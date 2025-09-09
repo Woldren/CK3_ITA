@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  sex_scene_text:0 "[ROOT.Char.Custom2('sex_scene_part_1' , SCOPE.sC('second') )] [ROOT.Char.Custom2('sex_scene_part_2' , SCOPE.sC('second') )]\n\n[ROOT.Char.Custom2('sex_scene_part_3' , SCOPE.sC('second') )]\n\n[ROOT.Char.Custom2('sex_scene_ending' , SCOPE.sC('second') )]"
 

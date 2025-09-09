@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  peasant_war_lost_county_modifier:0 "Autonomia Incrementata"
  county_increased_opinion_modifier:0 "Abitanti Pacificati"
  county_listened_to_locals_modifier:0 "Ascoltato dalla Gente del Posto"
@@ -9,7 +9,7 @@
  oasis_modifier:0 "Oasi"
  county_shuubiyya_modifier:0 "Shu'ubiyya"
  county_forced_assimilation_modifier:0 "Assimilazione Forzata"
- 
+
  nine_fingered_peasants_modifier:0 "Contadini con Nove Dita"
  nine_fingered_peasants_modifier_desc:0 "Il lavoro in questa contea è rallentato, poiché le dita tendono a scomparire..."
 
@@ -32,7 +32,7 @@
  hold_court_ploughs_to_swords_desc:0 "Le fattorie di questa contea sono vuote; i contadini si sono arruolati per combattere invece di seminare."
 
  promote_culture_modifier:0 "Cultura Celebrata"
- 
+
  small_investment_in_revolt_modifier:0 "Protesta dei Contadini"
  small_investment_in_revolt_modifier_desc: "[county_corruption|E]\nI contadini esprimono le loro preoccupazioni per l'influenza straniera in questa Contea" 
  medium_investment_in_revolt_modifier:0 "Indignazione Contadina"
@@ -49,7 +49,7 @@
 
  lost_holy_order_modifier:0 "Ordine Sacro Perso"
  lost_holy_order_modifier_desc:0 "Il malcontento è stato alimentato dallo scioglimento dell'Ordine Sacro che un tempo reggeva queste terre."
- 
+
  helped_construct_makeshift_temple:0 "Tempio improvvisato"
  helped_construct_makeshift_desc:0 "Un tempio improvvisato è stato costruito qui per dare alla gente del posto un luogo in cui pregare."
 

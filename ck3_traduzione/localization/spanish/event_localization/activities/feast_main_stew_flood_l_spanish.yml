@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  feast_main_stew_flood.0002.t:1 "Un Mare di Stufato"
  feast_main_stew_flood.0002.stew_introduction_blamed:0 "Avevo bevuto un po' troppo quando sono sbattuto all'enorme calderone appeso sopra il focolare al centro della sala in festa. Si è sganciato e ed è caduto, e il suo brodo saporito si è rovesciato sul pavimento in un mare di stufato!"
  feast_main_stew_flood.0002.stew_introduction_blame:0 "Inciampando da ubriaco, [stew_sea_blamed.Custom('DE_ART_DEF_P_A')] mi[stew_sea_blamed.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('stew_sea_blamed'))], [stew_sea_blamed.GetTitledFirstName], ha sganciato l'enome calderone che pendeva sopra il focolare al centro della sala delle feste ! Il brodo saporito si è rovesciato riricoprendo metà della stanza con un mare di stufato!"
@@ -53,4 +53,3 @@
  stew_flood_fallback_adjective:0 "ignaro"
  feast_stew_flood_log_title:0 "Stufato"
  feast_stew_flood_log:0 "[TARGET_CHARACTER.GetTitledFirstName] era ricopert[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] di stufato caldo dopo un enorme incidente nel quale si è rovesciato a terra."
-

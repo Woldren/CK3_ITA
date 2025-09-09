@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  MILITARY:0 "Militare" #aggiunta stringa finale 182
  CREATE_BANNER:0 "Crea un Punto di Adunata"
  SOLDIERS_INFO:0 "$CURRENT$/$MAX$"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  rival_race_sabotage_accusation:0 "[CHARACTER.GetShortUIName|U] ha accusato [TARGET_CHARACTER.GetShortUIName] di un sabotaggio a tradimento dopo un incidente di gara."
  rival_race_sabotage_accusation_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] ha accusato [CHARACTER.GetShortUIName] di un sabotaggio a tradimento dopo un incidente di gara."
 

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  stress_threshold_special.1001.t:0 "Crollo Mentale: Dolore Torrenziale"
  stress_threshold_special.1001.desc_intro_standard:0 "La vita non è mai stata facile, ma sembra che la perdita di mi[deceased_character.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', deceased_character)] [deceased_character.GetFirstName] mi abbia spinto oltre il limite.\n\n "
  stress_threshold_special.1001.desc_intro_lover:0 "Una luce si è spenta nella mia vita.\n\nCon il mio [deceased_character.Custom('LoverPetName')] [deceased_character.GetFirstName] andato, la vita improvvisamente sembra molto più desolata."

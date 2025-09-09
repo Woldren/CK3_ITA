@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # General Loc Strings
  petition_liege_header:0 "Richiesta d'Udienza:"
 
@@ -258,7 +258,7 @@
  petition_liege.9999.shy:0 "Non vedo l'ora di tornare nei miei alloggi..."
  petition_liege.9999.gregarious:0 "Questa sembra una buona occasione per socializzare con la mia corte."
  petition_liege.9999.every_guest_and_courtier:0 "Tutti gli Ospiti e i Cortigiani:"
- #Aggiornamento 1.9.0
+
  petition_liege.9001.t:0 "$petition_liege_header$ Cambiare Tattica"
  petition_liege.9001.desc:0 "Non posso più supplicare [petition_liege.GetTitledFirstName] per [ROOT.Char.Custom( 'GetPetitionType' )|l]. Ciononostante, ho viaggiato fino a qui a [petition_liege.GetCapitalLocation.GetName] affinché mi prestasse ascolto e non mi lascerò sfuggire un'opportunità del genere. Potrei chieder[petition_liege.Custom('DE_PRO_DEM')] di..."
  petition_liege.9001.gold: "$petition_liege_gold$."
@@ -283,7 +283,6 @@
  petition_liege.9001.development:0 "Spostare alcuni dei suoi sudditi nel mio regno."
  petition_liege.9001.fallback:0 "Riempire semplicemente i miei forzieri."
  petition_liege.0101.accept.fallback:0 "Molto bene, i vostri forzieri verranno riempiti."
-
 
  petition_liege_block_firing_councillor_effect_tt:0 "Non può essere rimoss[petition_vassal.Custom('DE_END_PRO_S_N')] dal [council|E] per altri 5 anni"
 
@@ -316,5 +315,5 @@
  petition_liege_title_courtier:0 "cortigiano"
 
  petition_liege_second_if_tt:0 "#bold Se [TARGET_CHARACTER.Custom('DE_ART_DEF_P_A')] [TARGET_CHARACTER.GetTitledFirstNameRegnal] accetta:#!"
-
+ 
  petition_liege_costs_refunded:0 "$petition_liege_decision$ costi rimborsati"

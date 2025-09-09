@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  
  travel_events_bp3.1.t: "Le Stagioni del Cambiamento" #questo è il dlc Wandering Nobles
  travel_events_bp3.1.desc: "Mentre ci prepariamo a partire al mattino, vedo [friendly_character.GetFirstName] fuori dall'accampamento, tutto sol[friendly_character.IsFemale,'a','o')]. Mentre mi avvicino, noto un cambiamento nel vento.\n\n"

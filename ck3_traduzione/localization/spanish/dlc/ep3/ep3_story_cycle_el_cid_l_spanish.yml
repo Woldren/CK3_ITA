@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  cid_loyalty_counter_positive: "Questo #positive_value dimostrerà#! la [cid_loyalty|E] verso [liege.Custom('DE_ART_DEF_P_A')] [liege.GetTitleAsNameNoTooltip]"
  cid_loyalty_counter_very_positive: "Questo #positive_value dimostrerà chiaramente#! la [cid_loyalty|E] verso [liege.Custom('DE_ART_DEF_P_A')] [liege.GetTitleAsNameNoTooltip]"
  cid_loyalty_counter_negative: "Questo #negative_value metterà in discussione#! la [cid_loyalty|E] verso [liege.Custom('DE_ART_DEF_P_A')] [liege.GetTitleAsNameNoTooltip]"

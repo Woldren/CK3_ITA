@@ -1,4 +1,4 @@
-﻿l_spanish: 
+l_spanish:
  camp_domicile_title: "$game_concept_camp$ di [CHARACTER.GetFirstNameNoTooltip]"
  estate_domicile_title: "La $game_concept_estate$ di [CHARACTER.GetHouse.GetBaseNameNoTooltip]"
  yurt_domicile_title: "La $game_concept_yurt$ di [CHARACTER.GetHouse.GetBaseNameNoTooltip]"

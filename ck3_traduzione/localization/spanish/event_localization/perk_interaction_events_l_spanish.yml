@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  perk_interaction.0002.t:0 "Una Rivendicazione sulle mie Terre!"
  perk_interaction.0002.same_faith:0 "Per qualche motivo inspiegabile, i [actor.GetFaith.AltPriestTermPlural] hanno sanzionato le rivendicazioni totalmente infondate di [actor.GetTitledFirstNamePossessive] su [target.GetName]!"
  perk_interaction.0002.other_faith:0 "I sacerdoti ciarlatani della fede [actor.GetFaith.GetAdjective] hanno dichiarato pubblicamente il loro supporto alle rivendicazioni totalmente infondate di [actor.GetTitledFirstNamePossessive] su [target.GetName]!"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  greeting_lover_object:0 "[second.GetTitledFirstName|U], mi[second.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('second'))],"
  greeting_lover_fallback:0 "[second.GetTitledFirstName|U], mi[second.Custom('DE_END_PRO_S_N')] car[second.Custom('DE_END_PRO_S_N')] [second.Custom('LoverPetName')],"
 
@@ -66,4 +66,3 @@
  greeting_supplimentary.positive.flattery.4:0 "Possiate voi vivere in armonia e contentezza."
  greeting_supplimentary.positive.flattery.5:0 "La vostra spietatezza è invidiabile."
  greeting_supplimentary.positive.flattery.6:0 "I vostri grandi appetiti sono rinomati in tutto il mondo."
- 

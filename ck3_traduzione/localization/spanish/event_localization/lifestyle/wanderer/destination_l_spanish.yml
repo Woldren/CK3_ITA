@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  destination_events.10.t: "Girovag[provider_character.Custom('DE_END_PRO_S_N')] Espert[provider_character.Custom('DE_END_PRO_S_N')]"
  destination_events.10.desc: ""[Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')]," iniza [Select_CString(provider_character.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('provider_character'))], [provider_character.GetFirstName], mentre entra nel mio studio. "Recentemente ho avuto a che fare con un capo carovana che potrebbe essere interessante per i vostri viaggi. [travel_leader_character.Custom('DE_ART_IND_A')|U] ha viaggiato in lungo e in largo e ha l'esperienza che cercavamo."\n\nAbbiamo avuto problemi a trovare qualcuno che si occupasse dei miei viaggi, quindi forse questa è una buona opportunità?"
  destination_events.10.a: "Assumiamo allora quest[provider_character.Custom('DE_END_PRO_S_N')] girovag[provider_character.Custom('DE_END_PRO_S_N')]."

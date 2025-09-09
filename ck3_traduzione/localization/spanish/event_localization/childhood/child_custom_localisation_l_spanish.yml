@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  a_spinning_top:0 "una trottola"
  a_ragdoll:0 "una bambola di pezza"
  a_wooden_knight:1 "un soldatino di legno"
@@ -13,7 +13,6 @@
  a_doll:0 "una bambola"
  child_object_of_interest_indefinite_set:0 "[ROOT.Char.Custom('child_favorite_toy_indefinite')]"
  child_object_of_interest_indefinite_random:0 "[ROOT.Char.Custom('child_object_of_interest_indefinite_random')]"
- 
  child_children_singular: "bambino"
  child_children_plural: "bambini" 
 

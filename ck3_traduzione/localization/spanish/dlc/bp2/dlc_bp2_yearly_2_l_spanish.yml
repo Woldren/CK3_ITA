@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  
  bp2_yearly.2000.t: "Seguendo le loro orme"
  bp2_yearly.2000.desc_dynasty: ""… e così, car[ROOT.Char.Custom('DE_END_PRO_S_N')] [story_teller.Custom2( 'RelationToMeShort', ROOT.Char )], nacque la grande casata [ROOT.Char.GetHouse.GetBaseName|U]! [Select_CString(root_house_founder.IsFemale,'La tua','Il tuo')] [ROOT.Char.Custom2( 'RelationToMeShort', root_house_founder )], [root_house_founder.Custom('IT_NAM_COL3')|U][root_house_founder.GetTitledFirstName|l], era celebre per essere [target_trait.GetName( ROOT.Char )|l]".\n\n[Select_CString(story_teller.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2( 'RelationToMeShort', story_teller )], [story_teller.Custom('IT_NAM_COL3')][story_teller.GetTitledFirstName|l], conclude il racconto delle origini ancestrali della nostra casata. Ama insegnarmi la storia di [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], ma oggi la nostra conversazione è stata piena di racconti ispiratori [Select_CString(root_house_founder.IsFemale,'sulla mia','sul mio')] [ROOT.Char.Custom2( 'RelationToMeShort', root_house_founder )], [Select_CString(root_house_founder.IsFemale,'fondatrice','fondatore')] della nostra casata."
@@ -15,6 +15,7 @@
 
  bp2_yearly.2002.desc: "[artificer.Custom('DE_ART_DEF_P_A')|U] mi[artificer.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', artificer )], [artificer.Custom('IT_NAM_COL3')][artificer.GetFirstName], ha completato il manufatto [newly_created_artifact.GetNameNoTooltip] che [ancestor.Custom('DE_PRO_DEM')] avevo commissionato! Me lo presenta:\n\n"[Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')], qui abbiamo [newly_created_artifact.GetDesc|l]"."
  bp2_yearly.2002.a: "Un lavoro brillante, [artificer.Custom('IT_NAM_COL3')][artificer.GetFirstNameNoTooltip]!"
+
 
  house_founder_ring_name: "$artifact_ring$ della casata [ROOT.Char.GetHouse.GetBaseNameNoTooltip]"
  house_founder_ring_desc: "Un anello elegante di raffinata fattura. Mostra in modo prominente l'emblema della casata [ROOT.Char.GetHouse.GetBaseName]. $house_founder_artifact_motto_desc$"
@@ -100,7 +101,6 @@
  bp2_yearly.2018.b: "Proverò a mettere insieme i miei pensieri in una composizione…"
  bp2_yearly.2018.c: "Quello di cui ho veramente bisogno è un buon regime di allenamento!"
 
-
  bp2_yearly.2019.t: "Eccentricità"
  bp2_yearly.2019.desc.intro: "[target_councilor.Custom('DE_ART_DEF_P_A')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', target_councilor )], [target_councilor.Custom('IT_NAM_COL3')][target_councilor.GetTitledFirstName|l], si avvicina [ROOT.Var('imaginary_friend_name').Custom('DE_END_ADJ_DEF_P_A')] mi[ROOT.Var('imaginary_friend_name').Char.Custom('DE_END_PRO_S_N')] amic[ROOT.Var('imaginary_friend_name').Char.Custom('DE_END_PRO_S_N')] [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip] e a me mentre siamo nel pieno di una conversazione.\n\n[target_councilor.Custom('IT_NAM_COL3')][target_councilor.GetFirstNameNoTooltip] mi interroga, con la fronte corrugata in segno di riflessione. "[Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')], se posso rubarvi un momento, vorrei parlare"
  bp2_yearly.2019.desc.chaplain: "dello stato dei [ROOT.Char.Custom('GetFaithTemple')] del regno.""
@@ -119,7 +119,7 @@
  bp2_yearly.2019.a.tt: "Accetti con le braccia aperte la tua relazione con [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
  bp2_yearly.2019.b: "#EMP Ehm…#! mi sono espresso male. Discutiamone in privato."
  bp2_yearly.2019.b.tt: "Rifiuti la tua relazione con [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
- 
+
  bp2_yearly.2020.t: "Il Ritorno di Un Amico Misterioso"
  bp2_yearly.2020.desc: ""[ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetFirstNameNoTooltip]… Che gioia rivederti… è passato un po' di tempo dall'ultima volta che abbiamo parlato." Una voce familiare echeggia lungo il corridoio oscuro.\n\nCon un sussulto, finalmente mi rendo conto a chi appartiene questa voce. Ma no… non può essere! #EMP [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]?!#! [ROOT.Char.Custom('DE_ART_DEF_P_A')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [Select_CString( ROOT.Char.IsFemale, 'amico immaginario', 'amica immaginaria' )] dell'infanzia?\n\n"Sono io, [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetFirstNameNoTooltip]. Ci siamo sostenuti a vicenda anni fa e ora ne abbiamo di nuovo bisogno."\n\n"Ho bisogno che tu faccia qualcosa per me… #EMP per noi#! Devi uccidere [murder_target.Custom('DE_ART_DEF_P_A')] tu[murder_target.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMeShort', murder_target )], [murder_target.Custom('IT_NAM_COL3')][murder_target.GetFirstName]. Porterà solo a cose buone… vedrai""
  bp2_yearly.2020.a: "Se insisti…"
@@ -210,13 +210,12 @@
  bp2_yearly.2120.a: ""Avete ragione. Devo moderare la mia golosità""
  bp2_yearly.2120.b: ""I banchetti sono ciò che #EMP fanno#! un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip|l]""
 
-
  bp2_yearly.2130.t: "[GetTrait('generous').GetNameNoTooltip( ROOT.Char )] o [GetTrait('greedy').GetNameNoTooltip( ROOT.Char )|l]?"
  bp2_yearly.2130.desc: "Sono rare le occasioni in cui riesco a passare inosservat[ROOT.Char.Custom('DE_END_PRO_S_N')] tra tutti i miei accompagnatori e avere momenti preziosi per me. Un'opportunità di sentirmi finalmente come gli altri bambini.\n\nAfferrando il mio [ROOT.Char.Custom( 'child_favorite_toy' )], cammino per le strade di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] godendomi le viste e gli odori. La gente va e viene, i mercanti reclamano le loro merci.\n\nMi imbatto in un bambino contadino dall'aspetto malaticcio nascosto in un angolo di un vicolo."
  bp2_yearly.2130.a: ""Tieni, possa tu avere cura del mio [ROOT.Char.Custom( 'child_favorite_toy' )] come ho fatto io""
  bp2_yearly.2130.a.flavor: "Dai il tuo giocattolo al bambino"
  bp2_yearly.2130.b: ""I meno fortunati non meritano la mia generosità""
- 
+
  bp2_yearly.2140.t: "[GetTrait('honest').GetNameNoTooltip( ROOT.Char )] o [GetTrait('deceitful').GetNameNoTooltip( ROOT.Char )|l]?"
  bp2_yearly.2140.desc: "Cammino in punta di piedi lungo il corridoio con il mio dolcetto notturno in mano. Nelle cucine ne hanno sempre pronti fino a tarda notte. Non c'è niente come assaporare un po' di [ROOT.Char.Custom( 'FavoriteTreat' )], soprattutto se appena fatto.\n\nQuando giro l'angolo, mi imbatto [Select_CString(interlocutor.IsFemale,'nella mia','nel mio')] [ROOT.Char.Custom2( 'RelationToMeShort', interlocutor )], [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName], mezz[interlocutor.Custom('DE_END_PRO_S_N')] addormentat[interlocutor.Custom('DE_END_PRO_S_N')], che si strofina gli occhi. "[ROOT.Char.GetFirstNameNoTooltip]! Avete saccheggiato le cucine #EMP di nuovo#!?".\n\nNascondo [ROOT.Char.Custom('DE_ART_DEF_P_A')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom( 'FavoriteTreat' )] con senso di colpa."
  bp2_yearly.2140.a: ""Sì, [ROOT.Char.Custom2( 'RelationToMeShort', interlocutor )]. Non ho potuto farne a meno""

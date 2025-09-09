@@ -1,5 +1,5 @@
-﻿l_spanish:
- # Murder save: food taster tradotto da ZeXoGod e revisionato da Woldren
+l_spanish:
+ # Murder save: food taster
  court_position.9001.t:0 "$murder_save_header$ $food_taster_court_position$"
  court_position.9001.desc:0 "Il mio attentato alla vita di [target.GetFirstName] è stato sventato!\n\nI miei agenti non hanno tenuto conto dell'assaggia[food_taster.Custom('DE_END_NOU_S_GS_N')] di [target.GetFirstName], e il veleno non ha mai raggiunto il suo piatto."
  court_position.9001.food_taster_dies:0 "\n\nPerlomeno l'assaggia[food_taster.Custom('DE_END_NOU_S_GS_N')] è stat[food_taster.Custom('DE_END_PRO_S_N')] uccis[food_taster.Custom('DE_END_PRO_S_N')] dal veleno. [food_taster.GetFirstName] non si metterà più sulla mia strada."

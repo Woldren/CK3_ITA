@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ### COURT POSITION
  petition_liege_court_position: "Posizione di Corte"
  petition_liege_court_position_desc: "Chiedi [ROOT.Char.GetLiege.Custom('IT_NAM_COL4')][ROOT.Char.GetLiege.GetTitledFirstName] che ti conceda una [court_position|E]"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  CE1_ADVENTURER_WAR: "$ORDER$ Avventura Leggendaria [ATTACKER.GetPrimaryTitle.GetAdjective] di [TITLE.GetBaseName]"
  CE1_ADVENTURER_WAR_BASE: "[DEFENDER.GetPrimaryTitle.GetName] [ATTACKER.GetPrimaryTitle.GetAdjective]"
  CE1_ADVENTURER_CB_NAME: "Avventura Leggendaria"

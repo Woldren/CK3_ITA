@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ep3_governor_yearly.8010.opening: "[governor.Custom2('AppropriateGreeting', ROOT.Char)]"
  ep3_governor_yearly.8010.desc: "Nobilissim[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('ComplimentAdjective')] [ROOT.Char.GetTitledFirstNameNoTooltip], vedo un’opportunità per promuovere tanto gli interessi della casata [ROOT.Char.GetHouse.GetBaseName] quanto quelli della mia casata [governor.GetHouse.GetBaseName].\n\nIn cambio di"
  ep3_governor_yearly.8010.hook: "una promessa a cui potrei ricorrere in futuro,"

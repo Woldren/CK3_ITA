@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  DIARCHY_WINDOW_HEADER:0 "$game_concept_diarchy$"
  DIARCHY_WINDOW_STATUS_ACTIVE_DIARCHY:0 "Stai [Concept( 'sharing_power', 'Condividendo il Potere' )|E] in una [Character.Custom('GetDiarchyArticle')] [Character.GetDiarchyTypeName]"
  DIARCHY_WINDOW_STATUS_INACTIVE_DIARCHY:0 "Non stai [Concept( 'sharing_power', 'condividendo il potere' )|e]"

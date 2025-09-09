@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  start_hunt_mystical_animal_story_cycle_effect.tt:1 "#EMP Non mi fermerò finché non l'avrò trovato!#!"
 
  hunt_mystical_animal.1001.t:1 "[ROOT.Char.Custom('GetAnimalType')|U] [ROOT.Char.Custom('GetLegendaryColor')|U]"

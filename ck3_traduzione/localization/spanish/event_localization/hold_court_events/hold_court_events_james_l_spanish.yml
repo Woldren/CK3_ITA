@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  hold_court.7000.t: "Un'Equa Ripartizione"
  hold_court.7000.desc: "[local_leader.Custom2('MyCharacterIntroduction', ROOT.Char)|U] si aggira per la corte con lo sguardo pieno di ammirazione viste le ricchezze che possiamo permetterci nella capitale.\n\n"Non è un segreto che [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip|U] sia l’invidia del mondo, [Select_CString(ROOT.Char.IsFemale,'mia Signora','mio Signore')], ma non tutto il vostro dominio gode di tale fortuna. Per esempio, a [low_dev_county.GetNameNoTier] i campi sono incolti perché nessuno se ne prende cura. Non sarebbe meraviglioso se tutto il dominio fosse magnifico come [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]?"."
  hold_court.7000.a: ""Lo sarebbe, sì"."

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  BARBERSHOP_TITLE:0 "Barbiere"
  BARBERSHOP_APPLY:0 "Applica Modifiche"
  BARBERSHOP_UNSAVED_CHANGES:0 "Cambiamenti Non Salvati"
@@ -42,7 +42,6 @@
  BARBERSHOP_COA_TOGGLE_TEXT_TT:0 "#T Toggle Text#!\n#I Clicca per mostrare o nascondere il testo del tuo Stemma#!"
  BARBERSHOP_CLOSE_DIALOG_DESC:0 "Sei sicuro di voler annullare le tue modifiche?"
  BARBERSHOP_EDIT_DIALOG_DESC:0 "Vuoi applicare le attuali modifiche all'aspetto?"
- 
  BARBERSHOP_COLOR_CHANNEL_0:0 "Colore Primario 1"
  BARBERSHOP_COLOR_CHANNEL_1:0 "Colore Primario 2"
  BARBERSHOP_COLOR_CHANNEL_2:0 "Colore Primario 3"

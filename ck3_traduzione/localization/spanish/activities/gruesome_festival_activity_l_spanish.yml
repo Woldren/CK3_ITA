@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
 ############## 
 # OPTIONS
@@ -37,9 +37,9 @@
 # Animals Help Text
  gruesome_festival_sacrifice_animals_only.regular.opinion:1 "$EFFECT_LIST_BULLET$ Il guadagno di [opinion|E] e di [county_opinion|E] con i/gli [GetPlayer.GetFaith.GetAdherentNamePlural] sarà inferiore rispetto a quello ottenuto coi sacrifici umani"
  gruesome_festival_sacrifice_animals_only.appeased_humsac_haters:1 "$EFFECT_LIST_BULLET$ I sudditi che non approvano i sacrifici umani non perderanno [opinion|E] o [county_opinion|E]"
- #gruesome_festival_sacrifice_animals_only.regular.piety: "#positive_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_regular_animal_piety_value')|0]#! [piety_i] sarà guadagnata $gruesome_festival_activity.piety_gain.rump$"
+ #gruesome_festival_sacrifice_animals_only.regular.piety: "#positive_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_regular_animal_piety_value')|0]#! [piety_i] will be gained $gruesome_festival_activity.piety_gain.rump$"
  gruesome_festival_sacrifice_animals_only.regular.piety:1 "#positive_value Piccolo#! guadagno di [piety|E][piety_i]"
- #gruesome_festival_sacrifice_animals_only.regular.piety.loss: "#negative_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_regular_animal_piety_value')|0]#! [piety_i] sarà persa $gruesome_festival_activity.piety_gain.rump$"
+ #gruesome_festival_sacrifice_animals_only.regular.piety.loss: "#negative_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_regular_animal_piety_value')|0]#! [piety_i] will be lost $gruesome_festival_activity.piety_gain.rump$"
  gruesome_festival_sacrifice_animals_only.regular.piety.loss:1 "#negative_value Piccola#! perdita di [piety|E][piety_i]"
 
 
@@ -58,9 +58,9 @@
 
 # Magnificent Animals Help Text
  gruesome_festival_sacrifice_animals_only.magnificent.opinion:1 "$EFFECT_LIST_BULLET$ Il guadagno di [opinion|E] e di [county_opinion|E] con i/gli [GetPlayer.GetFaith.GetAdherentNamePlural] sarà alla pari rispetto a quello ottenuto coi sacrifici umani"
- #gruesome_festival_sacrifice_animals_only.magnificent.piety: "#positive_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_magnificent_animal_piety_value')|0]#! [piety_i] sarà guadagnata $gruesome_festival_activity.piety_gain.rump$"
+ #gruesome_festival_sacrifice_animals_only.magnificent.piety: "#positive_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_magnificent_animal_piety_value')|0]#! [piety_i] will be gained $gruesome_festival_activity.piety_gain.rump$"
  gruesome_festival_sacrifice_animals_only.magnificent.piety:1 "#positive_value Piccolo#! guadagno di [piety|E][piety_i]"
- #gruesome_festival_sacrifice_animals_only.magnificent.piety.loss: "#negative_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_magnificent_animal_piety_value')|0]#! [piety_i] sarà persa $gruesome_festival_activity.piety_gain.rump$"
+ #gruesome_festival_sacrifice_animals_only.magnificent.piety.loss: "#negative_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_magnificent_animal_piety_value')|0]#! [piety_i] will be lost $gruesome_festival_activity.piety_gain.rump$"
  gruesome_festival_sacrifice_animals_only.magnificent.piety.loss:1 "#negative_value Piccola#! perdita di [piety|E][piety_i]"
 
 
@@ -79,9 +79,9 @@
 # Humans Help Text
  gruesome_festival_sacrifice_human_sacrifice.regular.opinion:0 "Il guadagno di [opinion|E] e di [county_opinion|E] con i/gli [GetPlayer.GetFaith.GetAdherentNamePlural] sarà equivalente a quello ottenuto con magnifici sacrifici animali"
  gruesome_festival_sacrifice_animals_only.offended_humsac_haters:1 "I sudditi che non approvano i sacrifici umani perderanno [opinion|E] e [county_opinion|E]"
- #gruesome_festival_sacrifice_human_sacrifice.regular.piety: "#positive_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_regular_human_piety_value')|0]#! [piety_i] sarà guadagnata $gruesome_festival_activity.piety_gain.rump$"
+ #gruesome_festival_sacrifice_human_sacrifice.regular.piety: "#positive_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_regular_human_piety_value')|0]#! [piety_i] will be gained $gruesome_festival_activity.piety_gain.rump$"
  gruesome_festival_sacrifice_human_sacrifice.regular.piety:1 "#positive_value Grande#! guadagno di [piety|E][piety_i]"
- #gruesome_festival_sacrifice_human_sacrifice.regular.piety.loss:0 "#negative_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_regular_human_piety_value')|0]#! [piety_i] sarà persa $gruesome_festival_activity.piety_gain.rump$"
+ #gruesome_festival_sacrifice_human_sacrifice.regular.piety.loss:0 "#negative_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_regular_human_piety_value')|0]#! [piety_i] will be lost $gruesome_festival_activity.piety_gain.rump$"
  gruesome_festival_sacrifice_human_sacrifice.regular.piety.loss:1 "#negative_value Grande#! perdita di [piety|E][piety_i]"
  gruesome_festival_sacrifice_human_sacrifice.optional_victim_picker:0 "Facoltativamente, [designate_chief_sacrifice_article|E] fra i tuoi [prisoners|E]"
  gruesome_festival_sacrifice_human_sacrifice.become_cannibal:1 "\n$EFFECT_LIST_BULLET$ Diventi un[ROOT.Char.Custom('DE_END_PRO_S_N')] [GetTrait('cannibal').GetName( GetNullCharacter )] $gruesome_festival_activity.piety_gain.rump$"
@@ -101,9 +101,9 @@
 
  # Magnificent Humans Help Text 
  gruesome_festival_sacrifice_human_sacrifice.magnificent.opinion:1 "$EFFECT_LIST_BULLET$ Guadagno di [opinion|E] e [county_opinion|E] con i/gli [GetPlayer.GetFaith.GetAdherentNamePlural] sarà il più alto possibile"
- #gruesome_festival_sacrifice_human_sacrifice.magnificent.piety: "#positive_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_magnificent_human_piety_value')|0]#! [piety_i] sarà guadagnata $gruesome_festival_activity.piety_gain.rump$"
+ #gruesome_festival_sacrifice_human_sacrifice.magnificent.piety: "#positive_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_magnificent_human_piety_value')|0]#! [piety_i] will be gained $gruesome_festival_activity.piety_gain.rump$"
  gruesome_festival_sacrifice_human_sacrifice.magnificent.piety:1 "#positive_value Major#! Guadagno di [piety_i][piety|E]"
- #gruesome_festival_sacrifice_human_sacrifice.magnificent.piety.loss: "#negative_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_magnificent_human_piety_value')|0]#! [piety_i] sarà persa $gruesome_festival_activity.piety_gain.rump$"
+ #gruesome_festival_sacrifice_human_sacrifice.magnificent.piety.loss: "#negative_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_magnificent_human_piety_value')|0]#! [piety_i] will be lost $gruesome_festival_activity.piety_gain.rump$"
  gruesome_festival_sacrifice_human_sacrifice.magnificent.piety.loss:1 "#negative_value Major#! Perdita di [piety_i][piety|E]"
 
  gruesome_festival_activity.piety_gain.rump:0 "al/alla  [Select_CString( Character.IsLocalPlayer, 'GetPlayer.Custom('GruesomeFestivalName')', gruesomefestivalname_festival )]"

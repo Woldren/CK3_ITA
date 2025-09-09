@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  court.0101.t:0 "Malvivente a Corte"
  court.0101.desc.opening:1 "Un[lowborn_criminal.Custom('DE_PRO_POS_P_2P')] prigionier[lowborn_criminal.Custom('DE_END_PRO_S_N')] di nome [lowborn_criminal.GetName] è stat[lowborn_criminal.Custom('DE_END_PRO_S_N')] condott[lowborn_criminal.Custom('DE_END_PRO_S_N')] al cospetto di [executioner.GetName] "
  court.0101.desc.murderer:0 "per un omicidio indicibile!\n\n"

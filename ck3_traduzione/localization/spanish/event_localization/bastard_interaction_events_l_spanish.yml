@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  legitimize_bastard_interaction:1 "Bastardo Legittimato #weak (Casata)#!"
  legitimize_bastard_interaction_extra_icon:0 "$hook_extra_icon$"
  legitimize_bastard_interaction_desc_house_head:1 "$house_head_interaction_header$Dichiara [secondary_recipient.GetShortUINameNoTooltip] come [legitimized_bastard|E]\n\n#weak Questo è possibile in quanto [secondary_recipient.GetSheHe] è un [bastard|E] della mia [house|E]#!"

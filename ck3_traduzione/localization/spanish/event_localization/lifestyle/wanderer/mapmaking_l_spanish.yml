@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  mapmaking.0001.t: "Itinerari e Mappe"
  mapmaking.0001.desc: "È arrivato il momento di documentare ciò che ho imparato durante i miei viaggi, in modo che altri possano attingere alla mia esperienza. Un itinerario dettagliato, supportato da mappe e carte, mi permetterà di condividere con gli altri le mie conoscenze.\n\nLa prima decisione che devo prendere è con quale viaggio intendo iniziare."
  mapmaking.0001.a: "Il dominio [ROOT.Char.GetPrimaryTitle.Custom('IT_COU_COL')][ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]"

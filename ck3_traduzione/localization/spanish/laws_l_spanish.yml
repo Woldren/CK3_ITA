@@ -1,7 +1,7 @@
-﻿l_spanish:
+l_spanish:
 
  PASS_LAW_TOOLTIP_TITLE: "[SelectLocalization( GuiLaw.IsEnacted, Law.GetNameNoTooltip, Law.GetPassLawPhrase)]"
- PASS_LAW_TITLE_DEFAULT: "Pass [Law.GetNameNoTooltip]"
+ PASS_LAW_TITLE_DEFAULT: "Pass [Law.GetNameNoTooltip]" #controllare_modifica
 
  ADD_LAW_CONFIRMATION_TITLE: "[Law.GetAddLawConfirmationTitle]"
  ADD_LAW_CONFIRMATION_TITLE_DEFAULT: "Pass [Law.GetNameNoTooltip] Law"
@@ -73,7 +73,7 @@
  camp_purpose_legitimists: "Legittimisti"
  camp_purpose_legitimists_effects: "$EFFECT_LIST_BULLET$Uguale probabilità di trovare [task_contracts|E] di ogni tipo\n$EFFECT_LIST_BULLET$Puoi usare l'interazione $request_laamp_legitimist_support$ su Re e Imperatori\n$EFFECT_LIST_BULLET$Puoi usare il [casus_belli|E] $claim_cb$\n$EFFECT_LIST_BULLET$Trovare [task_contract|E] $laamp_legitimist_support_contract$ unici\n$EFFECT_LIST_BULLET$Sbloccare gli [camp_buildings|E]:\n$BULLET_WITH_TAB$#high [GetDomicileBuilding('camp_fire_future_dreams').GetName]#!\n$BULLET_WITH_TAB$#high [GetDomicileBuilding('proving_grounds_bodyguard_drills').GetName]#!\n$BULLET_WITH_TAB$#high [GetDomicileBuilding('proving_grounds_martial_study').GetName]#!\n$BULLET_WITH_TAB$#high [GetDomicileBuilding('proving_grounds_lockwagon').GetName]#!\n$BULLET_WITH_TAB$#high [GetDomicileBuilding('baggage_train_scribes').GetName]#!\n$BULLET_WITH_TAB$#high [GetDomicileBuilding('baggage_train_proof_of_claims').GetName]#!\n$BULLET_WITH_TAB$#high [GetDomicileBuilding('baggage_train_ransom_cages').GetName]#!\n$EFFECT_LIST_BULLET$Dà accesso ad alcuni [officers|E] speciali:\n$BULLET_WITH_TAB$[GetCourtPositionType('witness_camp_officer').GetName()] #weak (Sbloccato via $baggage_train_proof_of_claims_domicile_building$)#!\n$BULLET_WITH_TAB$[GetCourtPositionType('master_of_spoils_camp_officer').GetName()] #weak (Sbloccato via $proving_grounds_lockwagon_domicile_building$)#!\n\n#WEAK Una rivendicazione, la chiamano. Una semplice rivendicazione. Non è solo una rivendicazione, è una lettera di debito, una dichiarazione di intenti e un segno sicuro della rivendicazione che deve ancora verificarsi.#!"
  ep3_can_have_legitimists_camp_purpose_trigger.tt.explanation: "Devi possedere una [pressed_claim|E] su almeno un [title|E] di [title_tier|E] [kingdom|E]"
-
+ 
  imperial_bureaucracy: "[imperial_bureaucracy|E]"
  imperial_bureaucracy_0: "Regno Decentralizzato"
  imperial_bureaucracy_0_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 I [titles|E] dei Vassalli non possono essere ereditati dai Personaggi al di fuori del [realm|E]#!"
@@ -116,7 +116,7 @@
  admin_law_cooldown_desc: "Una [law|E] è stato modificato di recente - Le [laws] possono essere nuovamente modificate dopo il [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'admin_law_cooldown') )]"
  admin_vassal_wars_permission_only_desc: "Devi chiedere al tuo [liege|E] l'autorizzazione per dichiarare una [war|E]"
  admin_vassal_border_limit_desc: "Le [laws|E] del tuo [liege|E] ti impedisce di utilizzare questo [scheme|E]"
-
+ 
  nomadic_authority: "[nomadic_authority|E]"
  nomadic_authority_1: "Nomadi Indisciplinati"
  nomadic_authority_1_pass_phrase: "Cambia la tua [dominance|E] a Debole"

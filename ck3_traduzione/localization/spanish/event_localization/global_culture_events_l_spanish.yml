@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  global_culture.custom.change_culture:1 "Tutte le contee ed i personaggi di [old_culture.GetName] del tuo reame diventano [new_culture.GetName]"
  global_culture.custom.merge_culture:1 "Tutte le contee ed i personaggi di [old_culture_1.GetName] e [old_culture_2.GetName] nel tuo reame diventano [new_culture.GetName]"
  global_culture.custom.keep_culture:1 "Tutte le contee ed i personaggi [old_culture.GetName] del tuo reame mantengono la loro cultura."

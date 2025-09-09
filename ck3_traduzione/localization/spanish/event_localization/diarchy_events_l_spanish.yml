@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  
  ##################################################
  # #Misc Keys
@@ -606,7 +606,7 @@
 
 
 
- ################################################## 
+ ##################################################
  # #Decisions
  betrayed_by_proxy:0 "Tradimento per procura"
  diarch_attempt_to_overthrow_liege.event.t:0 "Un colpo di stato atteso da tempo:"
@@ -779,6 +779,15 @@
  diarchy.9025.t:0 "$diarchy.9021.t$"
  diarchy.9025.desc:0 "Quasi subito dopo aver fatto irruzione nella sala del trono, un urlo di panico proveniente [liege.Custom('IT_NAM_COL5')][liege.GetTitledFirstName] attira nella stanza un fiume incontenibile di cavalieri armati, desiderosi di morire per il loro [liege.Custom('MistressMaster')].\n\nIo e la mia cricca ci facciamo largo tra le carcasse che stanno per arrivare, ma sono troppe. Dobbiamo ritirarci, tornare indietro, per [usurper.GetFaith.FateGodName], ma sono dietro di noi. Non... non c'è via d'uscita.\n\nNo, no, #EMP no!#! Tanta pianificazione, tanti sforzi, tutti inutili!"
  diarchy.9025.a:0 "Non sarebbe dovuta finire così-#BER AAARGGH!#!"
+
+
+
+
+
+
+
+
+
 
  ##################################################
  # #Vizierate Events

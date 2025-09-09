@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #GetIncidentalDetail
  servant_struggling_with_vase:0 "un servo alle prese con un vaso"
  courtier_passing_by_in_hurry:0 "un cortigiano che passa di fretta"
@@ -7,6 +7,10 @@
  feather_drift_past:0 "una piuma che svolazza"
  cupbearer_pours_drink:0 "il coppiere che versa da bere"
  courtiers_chat:0 "due cortigiani che chiacchierano sottovoce"
+ guests_doing_dance: "some guests dancing the [ROOT.Char.Custom('GetMedievalDance')]"
+ reveler_struggling_to_walk: "a reveler struggling to walk straight"
+ servant_cleaning_spill: "a servant cleaning a spill"
+ seneschal_directing_servants: "the seneschal directing some servants"
  
  servant_struggling_with_vase_pres:0 "un servitore alle prese con un vaso"
  courtier_passing_by_in_hurry_pres:0 "un cortigiano passa di fretta"
@@ -15,3 +19,7 @@
  feather_drift_past_pres:0 "una piuma galleggia nell'aria"
  cupbearer_pours_drink_pres:0 "il coppiere versa da bere"
  courtiers_chat_pres:0 "due cortigiani chiacchierano sottovoce"
+ guests_doing_dance_pres: "some guests dance the [ROOT.Char.Custom('GetMedievalDance')]"
+ reveler_struggling_to_walk_pres: "a reveler struggles to walk straight"
+ servant_cleaning_spill_pres: "a servant cleans a spill"
+ seneschal_directing_servants_pres: "the seneschal directs some servants"

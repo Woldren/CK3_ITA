@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
 mpo_great_war_of_defiance_cb: "Grande Guerra di Ribellione" #rimosse 95 - 96 the golden lineage
 MPO_GREAT_WAR_OF_DEFIANCE_NAME: "$mpo_great_war_of_defiance_cb$ contro [DEFENDER.Custom('IT_NAM_COL3')][DEFENDER.GetShortUINameNotMe]"

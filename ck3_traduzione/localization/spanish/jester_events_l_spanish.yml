@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  court_jester_prefix:0 "Giullare di Corte: "
  jester.100.t:0 "$court_jester_prefix$Il Mio Sciocco Rivale, Coperto di Feci"
  jester.100.desc:0 "Un'altra giornata stressante... mentre mi siedo per avere un po' di pace e tranquillità, le porte della mia camera si aprono improvvisamente.\n\nÈ il mio rivale diventato giullare, [jester.Custom('IT_NAM_COL3')][jester.GetTitledFirstName], vestito con una [jester.Custom('GetClothingArticle')] sporca con un [jester.Custom('GetAccessory')|l] incredibilmente sgargiante!? Ora sembra un escremento all'esterno e so che lo è anche all'interno.!\n\n"[ROOT.Char.Custom('DE_ART_DEF_P_D')] tu[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('GetExpensiveDrink_Singular')]... mi[ROOT.Char.Custom('DE_END_PRO_S_N')] #EMP Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]#!" Dice, con un enorme cipiglio sul viso.\n\nA volte la vita è bella, dopo tutto."

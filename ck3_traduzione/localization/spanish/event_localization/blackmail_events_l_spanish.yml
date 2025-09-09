@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  blackmail.0001.t:0 "Ricatto rifiutato!"
  blackmail.0001.desc:0 "Che si tratti di un errato senso di orgoglio, o di paura di una rappresaglia più grande, [recipient.GetTitledFirstName] afferma che non ho alcun potere su di [recipient.GetHerHim]!"
  blackmail.0001.a:0 "È stata fatta una minaccia e può esserci un solo esito..."

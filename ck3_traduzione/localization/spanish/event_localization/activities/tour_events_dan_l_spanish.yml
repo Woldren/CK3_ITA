@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  tour_travel.3000.t:0 "Niente [ROOT.Char.GetFaith.HouseOfWorshipPlural|U]?"
  tour_travel.3000.desc:0 "Visito un villaggio mentre viaggio attraverso [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] e trascorrono un po' di tempo a discutere di questioni di culto locale con [Select_CString(pious_peasant.IsFemale,'una popolana particolarmente pia','un popolano particolarmente pio')] di nome [pious_peasant.GetName].\n\n"Non abbiamo nemmeno un/una [ROOT.Char.GetFaith.HouseOfWorship], qui. Dobbiamo viaggiare per giorni se vogliamo mettere piede in una casa di [ROOT.Char.GetFaith.HighGodName|U].""
  tour_travel.3000.a:0 "Potremmo aiutare a costruire un/una semplice [ROOT.Char.GetFaith.HouseOfWorship]."

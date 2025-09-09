@@ -1,5 +1,5 @@
-﻿l_spanish:
-#Descriptions for whenever Unity changes
+l_spanish:
+ # Descriptions for whenever Unity changes
  clan_unity_generic_increased_fallback.notarget: "migliorate le relazioni all'interno della [house|E]"
  clan_unity_generic_decreased_fallback.notarget: "peggiorate le relazioni all'interno della [house|E]"
  clan_unity_generic_increased_fallback.desc: "migliorate le relazioni con [unity_target.Custom('IT_NAM_COL3')][unity_target.GetName]"
@@ -215,11 +215,11 @@
  clan_unity_fired_from_court_position.desc: "ha rimosso [unity_target.Custom('IT_NAM_COL3')][unity_target.GetName] da una [Concept('court_position', 'posizione')|e] della sua corte"
  clan_unity_fired_from_muhtasib_position.desc: "ha rimosso [unity_target.Custom('IT_NAM_COL3')][unity_target.GetName] da una posizione minore su richiesta della popolazione"
  clan_unity_protected_muhtasib_position.desc: "ha protetto la posizione [unity_target.Custom('IT_NAM_COL2')][unity_target.GetName] come muhtasib"
-
+ 
  clan_unity_generic_average_yearly_opinion_house_head.desc: "Opinione media dei membri della [house|E] nei riguardi [unity_target.Custom('IT_NAM_COL2')][unity_target.GetName]"
  clan_unity_steer_direction_change.desc: "ha usato la sua posizione di [house_head|E] per influenzare l'[unity|e]"
  clan_unity_steer_direction_passive_change.desc: "continua i suoi sforzi per influenzare l'[unity|e]"
-
+ 
  clan_unity_become_nemesis.desc: "è diventat[unity_character.Custom('DE_END_PRO_S_N')] la [nemesis|e] [unity_target.Custom('IT_NAM_COL2')][unity_target.GetName]"
  clan_unity_become_rival.desc: "è diventat[unity_character.Custom('DE_END_PRO_S_N')] [unity_character.Custom('DE_ART_DEF_P_A')] [rival|e] [unity_target.Custom('IT_NAM_COL2')][unity_target.GetName]"
  clan_unity_become_best_friend.desc: "è diventat[unity_character.Custom('DE_END_PRO_S_N')] [unity_character.Custom('DE_ART_DEF_P_A')] [Concept('best_friend','migliore')|e] amic[unity_character.Custom('DE_END_PRO_S_N')] [unity_target.Custom('IT_NAM_COL2')][unity_target.GetName]"
@@ -227,6 +227,8 @@
  clan_unity_become_friend.desc: "è diventat[unity_character.Custom('DE_END_PRO_S_N')] l'amic[unity_character.Custom('DE_END_PRO_S_N')] [unity_target.Custom('IT_NAM_COL2')][unity_target.GetName]"
  clan_unity_become_lover.desc: "è diventat[unity_character.Custom('DE_END_PRO_S_N')] l'[lover|e] [unity_target.Custom('IT_NAM_COL2')][unity_target.GetName]"
  clan_unity_become_soulmate.desc: "è diventat[unity_character.Custom('DE_END_PRO_S_N')] l'[soulmate|e] [unity_target.Custom('IT_NAM_COL2')][unity_target.GetName]"
-
+ 
  clan_unity_caliph_interfered_with_unity.desc: "[unity_target.Custom('IT_NAM_COL3')][unity_target.GetName] ha interferito su richiesta [unity_character.Custom('IT_NAM_COL2')][unity_character.GetName]"
  clan_unity_seize_realm_attempted.desc: "ha cercato di impadronirsi del regno di [unity_target.GetName]" 
+
+ clan_unity_coronation_reward.desc: "attended [unity_target.GetNamePossessive] [coronation|E]"

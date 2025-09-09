@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  bp2_yearly.4000.t: "Paure del Passato"
  bp2_yearly.4000.desc: "Mentre cullo [first_babby.GetName], [Select_CString(first_babby.IsFemale, "la mia bambina appena nata", "il mio bambino appena nato")], la gioia estatica si mescola alla tristezza e alla paura che si insinua nella mia spina dorsale.\n\nNon è forse vero che mio/a [ROOT.Char.GetMotherFather] mi cullava allo stesso modo prima che [ROOT.Char.GetSheHe]e mia madre morissero quando ero ancora piccol[ROOT.Char.Custom('DE_END_PRO_S_N')], lasciandomi sol[ROOT.Char.Custom('DE_END_PRO_S_N')]?\n\nÈ forse una maledizione? Il [ROOT.Char.GetFaith.FateGodName] priverà [Select_CString(first_babby.IsFemale, "la mia dolcissima bambina", "il mio dolcissimo bambino")] dei suoi genitori così come ha fatto con me?"
  bp2_yearly.4000.a: "Te lo prometto! Non ti abbandonerò!"

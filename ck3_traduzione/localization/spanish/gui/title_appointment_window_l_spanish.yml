@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  TITLE_APPOINTMENT_HEADER: "Successione per [Title.GetName]"
  TITLE_APPOINTMENT_LAW: "Legge di Successione: [SuccessionAppointmentWindow.GetSuccessionLaw.GetName]"
  TITLE_APPOINTMENT_CURRENT_HOLDER: "Attuale detentore: [Title.GetHolder.GetShortUIName]"

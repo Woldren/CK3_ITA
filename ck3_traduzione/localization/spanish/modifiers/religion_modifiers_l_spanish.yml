@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  VIRTUE_MODIFIER:0 "[TRAIT.GetName( GetPlayer )|L] ([virtue|E])"
  SIN_MODIFIER:0 "[TRAIT.GetName( GetPlayer )|L] ([sin|E])"
 

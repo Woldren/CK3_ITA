@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # Missionary, console a local
  pilgrimage_intent.1000.t:0 "$zealotry_intent_header$ Una Crisi di Fede"
  pilgrimage_intent.1000.desc:0 "Mentre continuo il mio viaggio sacro, incontro un[sad_peasant.Custom('DE_PRO_POS_P_2P')] [sad_peasant.GetWomanMan] sul ciglio della strada, sporc[sad_peasant.Custom('DE_END_PRO_S_N')] di sudiciume e bagnata dalle sue lacrime.\n\n"Sei felice ora? Mi hai portato via tutto! Come posso andare avanti in un mondo governato da una creatura crudele come [sad_peasant.GetFaith.HighGodName|U]?"\n\nChiaramente, [sad_peasant.GetSheHe] è disperat[sad_peasant.Custom('DE_END_PRO_S_N')] e in crisi di fede."

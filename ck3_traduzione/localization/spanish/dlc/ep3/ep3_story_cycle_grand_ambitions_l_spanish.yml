@@ -1,16 +1,21 @@
-﻿l_spanish:
+l_spanish:
+
  grand_ambitions_header: "Grandi ambizioni"
- #Starting Event: Powerful Family Coup (grand_ambitions.0001)
+
+# Starting Event: Powerful Family Coup (grand_ambitions.0001)
  grand_ambitions.0001.t: "$grand_ambitions_header$"
  grand_ambitions.0001.desc: "Come cap[ROOT.Char.Custom('DE_END_PRO_S_N')] di una delle famiglie più potenti di [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier|l], la mia influenza si estende in ogni angolo, i miei forzieri sono vasti e la mia ambizione non conosce limiti.\n\n[target_char.Custom('IT_NAM_COL3')|U][target_char.GetTitledFirstName|l] è indegn[target_char.Custom('DE_END_PRO_S_N')] del trono, un semplice filo nel grande arazzo di [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|l]. Con il sostegno della superiorità della casata [ROOT.Char.GetHouse.GetName], sono ben preparat[ROOT.Char.Custom('DE_END_PRO_S_N')] a riportare la gloria al nostro grande impero.\n\n Le mie azioni non solo influenzeranno il futuro della mia casata, ma avranno anche un impatto sugli annali della storia."
  grand_ambitions.0001.a: "che il destino di [target_char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] possa essere forgiato di nuovo nell'acciaio!"
  grand_ambitions.0001.a.flavor: "Riunirò tutto l'impero alla mia causa, perché [target_char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] richiede un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] governante di virtù e forza!"
  grand_ambitions.0001.b: "Il sotterfugio silenzioso, non la guerra, detronizzerà [target_char.Custom('IT_NAM_COL3')][target_char.GetTitleAsNameNoTooltip|l]."
  grand_ambitions.0001.b.flavor: "[target_char.Custom('IT_NAM_COL3')|U][target_char.GetTitleAsNameNoTooltip|l] non cadrà per la spada, ma per mille sussurri infidi."
+ 
  grand_ambitions.0001.b.toast: "Inizia il complotto per deporre"
  grand_ambitions.0001.c: "Non è il momento giusto.."
  grand_ambitions_start_depose_scheme_tt: "Avvia un [scheme|E] per [GetScheme('depose').GetTypeName|l] contro [THIS.Char.GetTopLiege.GetShortUIName] con [GetModifier('scheme_grand_ambitions_modifier').GetNameWithTooltip|l]"
+
  grand_ambitions.0100.powerful_family_joins_faction: "[powerful_family_head.Custom('IT_NAM_COL3')|U][powerful_family_head.GetTitledFirstName|l] giura di unirsi al suo [claimant_faction|E]"
+
  grand_ambitions.0100.t: "$grand_ambitions_header$: una proposta audace"
  grand_ambitions.0100.intro: "Il silenzio del mio studio viene interrotto quando [interlocutor.Custom('DE_ART_DEF_P_A')] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] mi presenta una recente missiva. "Una proposta da oltre i confini di [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|l]", annuncia.\n\n"
  grand_ambitions.0100.claim: "Sulla lettera è impresso l'emblema della casa [foreign_ruler.GetDynastyHouseName]. Le parole all'interno fanno un'offerta audace: un'alleanza contro [target_char.Custom('IT_NAM_COL3')] [target_char.GetTitleAsName|l], condizionata alla cessione di [foreign_claim.GetName]. L'audacia della richiesta è pari solo al suo potenziale.\n\n"
@@ -23,17 +28,20 @@
  grand_ambitions.0100.b.success.tt: "Prometti di concedere [compromise_county.GetName] a [foreign_ruler.GetName] dopo la sua ascesa al trono"
  grand_ambitions.0100.b.failure: "[foreign_ruler.Custom('IT_NAM_COL3')|U][foreign_ruler.GetTitledFirstName|l] rifiuta la tua controproposta"
  grand_ambitions.0100.c: "non venderò le ossa del mio [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|l]!"
+
  grand_ambitions.0110.t: "$grand_ambitions_header$: chiamata alle armi"
  grand_ambitions.0110.desc: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] mi informa: I ricchi mecenati si stanno unendo alla nostra causa e i soldati, stanchi del regno [target_char.Custom('IT_NAM_COL3')][target_char.GetTitleAsNameNoTooltip|l], e sono pronti a unirsi a noi"\n\nQuesti sostenitori, dai loro tesori ai cuori dei più coraggiosi, segnano un punto di svolta. I nostri ranghi sono pronti a crescere e le nostre risorse sono pronte ad espandersi. Questo momento non è solo una testimonianza della rettitudine della mia causa, ma anche una chiara indicazione: l'ora della guerra si sta avvicinando sempre di più."
  grand_ambitions.0110.a: "Mettiamo questi soldati al lavoro."
  grand_ambitions.0110.b: "Con questo afflusso di oro saremo in grado di sovvenzionare i costi di reclutamento."
  grand_ambitions.0110.c: "non permetterò a chiunque di unirsi alla mia causa!"
+
  grand_ambitions.0120.t: "$grand_ambitions_header$: Fondamenta fortificate"
  grand_ambitions.0120.desc: "Mentre i sussurri di ribellione riecheggiano nei terreni della mia tenuta, la triste realtà dell'imminente scontro con l'imperatore oscura i nostri preparativi. La forza tangibile delle difese e delle risorse di [estate.GetName] è di vitale importanza.\n\nIl mio [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] mi presenta dei piani per rafforzare la mia base di potere. "Questo è il momento di fortificare la proprietà", mi esorta, mentre indica i siti di costruzione proposti."
  grand_ambitions.0120.a: "Il mio [maa_flavor.GetNameNoTooltip|l] ha bisogno di un luogo adatto per incontrarsi."
  grand_ambitions.0120.b: "I pascoli forniscono cavalli ben nutriti per il sito [maa_flavor.GetNameNoTooltip|l]."
  grand_ambitions.0120.c: "Sicuramente una torre di guardia migliogrand_ambitions.0120.descrerà il mio [maa_flavor.GetNameNoTooltip|l]."
  grand_ambitions.0120.d: "Assumete tutti i lavoratori che riuscite a trovare, c'è molto da fare!"
+
  grand_ambitions.0130.t: "$grand_ambitions_header$: Sussurri nel Vento"
  grand_ambitions.0130.desc.intro: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )], [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName], mi propone di estendere il mio complotto contro [target_char.Custom('IT_NAM_COL3')][target_char.GetFirstName|l].\n\n"
  grand_ambitions.0130.desc.legitimacy.6: ""Il popolo ama il suo [target_char.GetTitleAsNameNoTooltip|l]", esordisce, "ma l'amore è una cosa fragile e paranoica. Se si lavora abbastanza duramente, può trasformarsi in paura del tradimento e, da lì, in odio.""
@@ -50,6 +58,7 @@
  grand_ambitions.0130.b.crit_failure: "I tuoi sussurri rivelano le tue intenzioni confronti [target_char.Custom('IT_NAM_COL2')][target_char.GetTitleAsNameNoTooltip|l]"
  grand_ambitions.0130.c: "L'oro spesso scioglie la lingua dei popolani.."
  grand_ambitions.0130.d: "Non ricorrerò a #EMP dicerie#!. Non siamo bambini."
+
  grand_ambitions.0131.opening: "[interlocutor.Custom2( 'AppropriateGreeting', ROOT.Char )]"
  grand_ambitions.0131.desc: "Sembra che a [target_char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] si siano diffuse voci scandalose su di te."
  grand_ambitions.0131.desc_secret: "\n\nAbbiamo scoperto che è [schemer.Custom('IT_NAM_COL3')][schemer.GetTitledFirstName|l] a perpetuare queste voci, [Select_CString( schemer.IsFemale, 'la stessa', 'lo stesso' )] che cerca di impossessarsi del tuo trono."
@@ -58,40 +67,47 @@
  grand_ambitions.0131.b: "I pettegolezzi non sono fuori dalla mia portata."
  grand_ambitions.0131.c: "Non mi preoccupo di una cosa così banale."
  grand_ambitions.0131.d: "Accidenti [schemer.Custom('InsultNoun')|l] [schemer.Custom('InsultAdjective')].."
+
  grand_ambitions.0140.t: "$grand_ambitions_header$ altr[target_gov.Custom('DE_END_PRO_S_N')] [target_gov.GetTitleAsNameNoTooltip|l]"
  grand_ambitions.0140.desc: ""Ho detto di non essere disturbat[ROOT.Char.Custom('DE_END_PRO_S_N')]!" grido quando la porta del mio studio si apre. Ma sotto l'architrave c'è [Select_CString( target_gov.IsFemale, 'una ospite inattesa', 'un ospite inatteso' )]: [target_gov.GetFirstName] [target_gov.Custom('IT_NAM_COL3')][target_gov.GetTitleAsNameNoTooltip|l] da [target_gov.GetPrimaryTitle.GetNameNoTier].\n\n"Perdonami se ti disturbo, [ROOT.Char.GetFirstNameNoTooltip], ma sono venuto a offrirti il mio sostegno."
  grand_ambitions.0140.faction: "Desidero unirmi ai vostri sforzi per deporre [target_char.Custom('IT_NAM_COL3')][target_char.GetTitleAsName|l]."
  grand_ambitions.0140.no_faction: "So che stai radunando le tue forze qui a [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], preparandoti a deporre [target_char.GetTitleAsName|l]"."
  grand_ambitions.0140.a: "Più siamo meglio è."
  grand_ambitions.0140.b: "Non ho bisogno del tuo aiuto."
+
  grand_ambitions.0150.t: "$grand_ambitions_header$: Un Agente aggiuntivo"
  grand_ambitions.0150.desc: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] avanza; la gravità della nostra impresa si riflette nei suoi tratti. "I nostri piani per deporre [target_char.Custom('IT_NAM_COL3')][target_char.GetTitledFirstName|l] continuano a ritmo serrato", recita solennemente. Ogni sua parola porta con sé il peso della nostra cospirazione.\n\n"Ma il nostro progetto potrebbe ancora fallire senza un numero sufficiente di alleati in posizioni chiave. Un agente in più ci aiuterebbe a garantire il successo."
  grand_ambitions.0150.a: "Un abile infiltrato accelererebbe sicuramente il complotto."
  grand_ambitions.0150.b: "Utilizziamo un'esca che garantisca la nostra segretezza."
  grand_ambitions.0150.c: "Sarebbe bello avere qualcuno a corte che esalti le mie virtù."
+
  grand_ambitions.0151.t: "$grand_ambitions_header$ un maestro dei sussurri"
  grand_ambitions.0151.desc: "Alla luce fioca del crepuscolo, [interlocutor.Custom('DE_ART_DEF_P_A')] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] si avvicina con un luccichio sornione negli occhi.\n\n "Si è presentata un'opportunità unica", mormora, assicurandosi che nemmeno i muri possano sentirl[interlocutor.Custom('DE_END_PRO_S_N')]. "Il [GetCourtPositionType( 'chief_eunuch_court_position' ).GetNameNoTooltip|l] della corte [target.Custom('DE_PRO_PER_P_3P_A')] [target.GetTitleAsNameNoTooltip|l], un'ombra che si muove silenziosamente nei corridoi del potere, potrebbe unirsi alla nostra causa. La sua influenza è impareggiabile, i suoi segreti sono innumerevoli"\n\n"Potrebbe essere il perno del nostro grande progetto di riforma del [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|l]"."
  grand_ambitions.0151.a: "Che i loro sussurri guidino la nostra causa."
  grand_ambitions.0151.b: "I tuoi talenti sono troppo preziosi per essere presi in prestito."
  ga_0151_b_eunuch_aptitude: "L'[aptitude|E] di [eunuch.GetShortUIName] come [GetCourtPositionType( 'chief_eunuch_court_position' ).GetName|l] è [eunuch.GetCourtPositionAptitude( GetCourtPositionType( 'chief_eunuch_court_position' ) )]"
  grand_ambitions.0151.c: "Ci sono altri modi per tessere la nostra trama."
+
  grand_ambitions.0155.t: "$grand_ambitions_header$: Chiedere Favori"
  grand_ambitions.0155.desc: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] si sta avvicinando; il suo volto è ombreggiato dalla riflessione.\n\n"Il nostro complotto per deporre [target_char.Custom('IT_NAM_COL3')][target_char.GetTitleAsNameNoTooltip|l] richiede un nuovo infiltrato: uno che svolga il ruolo di [agent_slot.GetName|l]. Ho identificato tre possibili risorse che potrebbero far pendere la bilancia a nostro favore", dice.\n\nSi allontana nell'ombra del corridoio, lasciando i nomi davanti a te, ognuno dei quali è una silenziosa promessa di potere o di rischio."
  grand_ambitions.0155.a: "Sicuramente [agent_choice_1.Custom('IT_NAM_COL3')][agent_choice_1.GetFirstNameNoTooltip] ci aiuterà nei nostri sforzi."
  grand_ambitions.0155.b: "Forse [agent_choice_2.Custom('IT_NAM_COL3')][agent_choice_2.GetFirstNameNoTooltip] sarebbe l'opzione migliore."
  grand_ambitions.0155.c: "[agent_choice_3.Custom('IT_NAM_COL3')][agent_choice_3.GetFirstNameNoTooltip] d'altra parte.."
  grand_ambitions.0155.d: "Nessuna di queste persone è accettabile."
+
  grand_ambitions.0160.t: "$grand_ambitions_header$ Trame e Sotterfugi"
  grand_ambitions.0160.desc: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] si avvicina con la notizia del nostro piano per deporre [target_char.Custom('IT_NAM_COL3')][target_char.GetTitledFirstName|l]. "Le basi per la nostra grande ambizione sono state gettate", esordisce, con voce ferma e sicura.\n\n"Abbiamo alleati in alto e in basso, tutti pronti a fare la loro parte nel nostro grande progetto. In chi dobbiamo riporre la nostra fiducia?"
  grand_ambitions.0160.a: "I funzionari di palazzo saranno alleati fondamentali."
  grand_ambitions.0160.b: "I commercianti porteranno le nostre parole in modo rapido e sicuro."
  grand_ambitions.0160.c: "Gli scribi imperiali si assicureranno che non veniamo scoperti."
+
  grand_ambitions.0170.t: "$grand_ambitions_header$: Una Potente Alleanza"
  grand_ambitions.0170.desc: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] mi si avvicina con moderata urgenza.\n\n"Una proposta", esordisce, "dal capo di una delle più illustri famiglie di [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|l]. Ha sentito parlare delle nostre aspirazioni e vede un'opportunità di mutuo beneficio". Srotola una pergamena, il sigillo della casata [powerful_house.GetName].\n\n"Il loro sostegno potrebbe far pendere la bilancia a nostro favore. Tuttavia, questo sostegno ha un prezzo: un compenso commisurato al pericolo che corri."
  grand_ambitions.0170.a: "Soddisferemo il tuo prezzo, costi quel che costi."
  grand_ambitions.0170.b: "Saranno legati a noi con la promessa di una futura ricompensa."
  grand_ambitions.0170.c: "Uniamo le nostre case in una sacra unione."
  grand_ambitions.0170.d: "La mia ambizione non sarà limitata dai debiti."
+
  grand_ambitions.0180.t: "$grand_ambitions_header$: Una Vera Incoronazione"
  grand_ambitions.0180.intro_hagia_sofia: "Qui, sotto l'immensa e intimidatoria cupola dorata di Santa Sofia,"
  grand_ambitions.0180.desc: "mi trovo davanti a [hof.GetTitleAsName|l], [hof.Custom('IT_NAM_COL3')] cap[hof.Custom('DE_END_PRO_S_N')] spirituale del mio popolo. L'aria è densa di incenso e del peso dei secoli.\n\nOttenere il suo favore non solo legittimerebbe i miei diritti su [target_title.GetName], ma convincerebbe anche i fedeli di tutto l'impero. Deve incoronarmi.\n\n[hof.Custom('IT_NAM_COL3')|U][hof.GetTitleAsNameNoTooltip|l] non è una semplice figura spirituale; è ben consapevole delle macchinazioni terrene di [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|l]."
@@ -106,6 +122,7 @@
  grand_ambitions.0180.d: "Anche [hof.Custom('IT_NAM_COL3')] [hof.GetPrimaryTitle.GetNameNoTierNoTooltip|l] non è immune dalla mia influenza."
  grand_ambitions.0180.e: ""Voi #EMP mi incoronerete#! come [target.GetTitleAsNameNoTooltip|l], [hof.GetFirstNameNoTooltip].""
  grand_ambitions.0180.f: "Forse tornerò più tardi."
+
  grand_ambitions.0190.t: "Tieni gli amici vicini.."
  grand_ambitions.0190.desc: ""... ma i nemici ancora più vicini", termina [interlocutor.Custom('DE_ART_DEF_P_A')] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', interlocutor)] descrivendo [secret_owner.Custom('IT_NAM_COL3')][secret_owner.GetTitledFirstName|l] recentemente scoperto a reclamare [ROOT.Char.GetPrimaryTitle.GetName|l] per sé.\n\nChe #EMP audacia#! quest[secret_owner.Custom('DE_END_PRO_S_N')] [secret_owner.GetWomanMan]! Non posso lasciare che questo rimanga senza risposta!"
  grand_ambitions.0190.a: "Forse [secret_owner.GetSheHe] si accontenterebbe di un posto a tavola.."
@@ -117,12 +134,14 @@
  grand_ambitions.0190.b: "che possa marcire nelle segrete!"
  every_family_member_of_secret_owner: "Ogni membro della famiglia [secret_owner.Custom('IT_NAM_COL2')][secret_owner.GetFirstName]"
  grand_ambitions.0190.c: "Tutto finisce prima o poi."
+
  grand_ambitions.0191.t: "$grand_ambitions_header$: Un'Offerta Trascendentale"
  grand_ambitions.0191.desc: ""#EMP Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip|l]!#!".\n\n[interlocutor.Custom('IT_NAM_COL3')|U][interlocutor.GetTitledFirstName|l], irrompe nel mio studio e respira pesantemente. "Si è appena presentata un'opportunità epocale!" ansima. "[emperor.Custom('IT_NAM_COL3')|U][emperor.GetTitledFirstNameRegnal|l] ha scoperto i tuoi piani per impadronirti del trono!"\n\n"Ma ti fa un'offerta: #EMP di co-governare.#! Desidera che tu abbandoni le cospirazioni e assuma un posto al suo fianco per guidare il nostro grande [emperor.GetPrimaryTitle.GetTierAsNameNoTooltip|l] dalla gloriosa città di [emperor.GetCapitalLocation.GetBaronyNameExplicitly]"."
  grand_ambitions.0191.a: "#EMP Sono tentato..#!"
  grand_ambitions.0191.a.tt.1: "Diventa [co_emperor|E] del [emperor.GetShortUINamePossessive]."
  grand_ambitions.0191.a.tt.2: "Abbandona le cospirazioni"
  grand_ambitions.0191.b: "non condividerò mai il potere con quel [emperor.Custom( 'InsultNoun' )|l]!"
+
  grand_ambitions.0200.t: "$grand_ambitions_header$: La Fatidica Notte"
  grand_ambitions.0200.opening: "Oggi le fondamenta stesse del [target.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] tremano sotto il peso della casata [ROOT.Char.GetHouse.GetName]. Una rivoluzione silenziosa ha fatto crollare [target.Custom('IT_NAM_COL3')][target.GetTitleAsNameNoTooltip|l], segnando l'alba di una nuova era.\n\n"
  grand_ambitions.0200.eunuch: "[GetAgentSlotType( 'agent_eunuch' ).GetName|l], signore dei segreti di palazzo, ha svolto il suo ruolo alla perfezione. I suoi sussurri hanno gettato i semi della discordia e i suoi segnali silenziosi nei corridoi bui hanno preparato il terreno per il nostro trionfo.\n\n"
@@ -134,10 +153,12 @@
  grand_ambitions.0200.desc: "Piccoli atti di ribellione - ogni porta socchiusa, ogni messaggio fuori posto - tessono l'arazzo del nostro trionfo, per dimostrare che le mani più umili possono influenzare il potere di un impero."
  grand_ambitions.0200.conclusion: "\n\nSiamo sull'orlo di una nuova era. Domani, l'impero si sveglierà non con un'eredità vecchia ed esaurita, ma con la promessa del mio regno.\n\n"Tu, [target.Custom('IT_NAM_COL3')][target.GetFirstName], non sei che l'eco sbiadita del #EMP mio#! impero!"."
  grand_ambitions.0200.a: "[target.GetPrimaryTitle.GetNameNoTooltip] volerà con le ali della casa [ROOT.Char.GetHouse.GetNameNoTooltip]!"
+
  grand_ambitions.0201.t: "$grand_ambitions_header$: La Strada Verso il Potere"
  grand_ambitions.0201.desc: ""La divina provvidenza che dirige il destino degli imperi ha scelto [Select_CString( ROOT.Char.IsFemale, 'una nuova  sovrana', 'un nuovo  sovrano' )]". La voce [ROOT.Char.GetFaith.GetReligiousHead.Custom('IT_NAM_COLw')][ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName|l] riecheggia in tutta la sala del trono, intrisa di una gravità che si addice all'occasione.\n\nIl suo sguardo incontra il mio, un riconoscimento silenzioso dell'alleanza che ci ha portato a questo momento. "Per grazia di [ROOT.Char.GetFaith.HighGodNamePossessive], ti incorono [ROOT.Char.GetName]".\n\nMentre il peso della corona si posa sulla mia tempia, sento il peso dei secoli posarsi sulle mie spalle. Il mio percorso verso il potere può essere stato poco convenzionale, ma mi ha portato qui, a questo momento di gloria.\n\n"
  grand_ambitions.0201.conc_greek: ""[Glossary( 'Kýrie, eléison', 'KYRIE_ELEISON_GLOSS' )]!", grido con fiducia."
  grand_ambitions.0201.a: "[ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitly] attende."
+
  grand_ambitions.0202.t: "$grand_ambitions_header$: Il Destino dei Caduti"
  grand_ambitions.0202.desc: "Davanti a me, [Select_CString( old_emp.IsFemale, 'la depuesta', 'el depuesto' )] [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip|l] attende il suo destino all'ombra del cuore che arde di [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|l].\n\nIl modo in cui scelgo di trattare la persona che ho davanti non è solo una questione di punizione o di magnanimità; è la prima pietra delle fondamenta della mia eredità.\n\nSarà una vendetta e una discordia senza fine o una clemenza e una speranza? Gli occhi della corte, del popolo e della storia sono puntati su di me."
  grand_ambitions.0202.a: "Vai in pace, [old_emp.Custom('IT_NAM_COL3')][old_emp.GetFirstNameNoTooltip]."
@@ -148,9 +169,11 @@
  grand_ambitions.0202.c.flavor: "Mentre [old_emp.GetSheHe] vaga per la terra, anche [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitly] si allontanerà dal suo passato alla ricerca di un nuovo percorso."
  grand_ambitions.0202.d: "Non ho finito con te."
  grand_ambitions.0202.d.tt: "[old_emp.Custom('IT_NAM_COL3')|U][old_emp.GetFirstName] rimarrà [Concept( 'imprisoned', Select_CString(old_emp.IsFemale, 'imprigionata', 'imprigionato' ) )|E] nelle mie segrete"
+
  grand_ambitions.0250.t: "$grand_ambitions_header$: La Fine del Viaggio"
  grand_ambitions.0250.desc: "Non è l'accoglienza che avevamo sperato; [interlocutor.Custom('DE_ART_DEF_P_A')] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] mi si avvicina fuori dalle porte della città.\n\n"Abbiamo camminato sul filo della spada e sembra che siamo caduti dalla parte sbagliata", dice solennemente.\n\nLa capitale, con i suoi edifici torreggianti e le sue ombre profonde, sembra immutata dai nostri sforzi. [target.Custom('IT_NAM_COL3')|U][target.GetTitleAsNameNoTooltip|l] rimane sul suo trono, forse ignaro di quanto i nostri venti di cambiamento siano arrivati vicini a spazzare via [target.GetCapitalLocation.GetBaronyNameExplicitly]."
  grand_ambitions.0250.a: "La strada verso il potere si sta oscurando.."
+
  grand_ambitions.0300.t: "$grand_ambitions_header$: Raccogli ciò che Semini"
  grand_ambitions.0300.desc: "[foreign_ruler.Custom('IT_NAM_COL3')|U][foreign_ruler.GetTitledFirstName|l] è davanti a me, appena nominat[foreign_ruler.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip|l] di [ROOT.Char.GetPrimaryTitle.GetNameNoTier]. Ed è, in parte, grazie al mio sostegno...\n\nDi conseguenza, sono venuto a ritirare ciò che aveva promesso: [demand.GetName]."
  grand_ambitions.0300.a: "Sono un [ROOT.Char.GetWomanMan] di parola. [demand.GetNameNoTierNoTooltip] appartiene a te."
@@ -158,18 +181,23 @@
  grand_ambitions.0300.b.success: "[foreign_ruler.Custom('IT_NAM_COL3')|U][foreign_ruler.GetTitledFirstName|l] è persuas[foreign_ruler.Custom('DE_END_PRO_S_N')]"
  grand_ambitions.0300.b.failure: "[foreign_ruler.Custom('IT_NAM_COL3')|U][foreign_ruler.GetTitledFirstName|l] non è convint[foreign_ruler.Custom('DE_END_PRO_S_N')]"
  grand_ambitions.0300.c: "La tua ingenuità è affascinante."
+
  grand_ambitions_ally_joins_war: "L'alleato si unisce alla guerra: [joiner.GetTitledFirstName|l]"
+
  grand_ambitions.0500.opening: "[interlocutor.Custom2('AppropriateGreeting', ROOT.Char)]"
  grand_ambitions.0500.dead: "Sono lieto di informarti che [[story.MakeScope.Var('target_char').Char.GetTitledFirstName|l] è morto. I nostri piani per deporre [ROOT.Char.GetTopLiege.Custom('IT_NAM_COL3')][ROOT.Char.GetTopLiege.GetTitledFirstName|l] devono andare avanti?"
  grand_ambitions.0500.wrong_title: "Sono lieto di informarti che [previous_story_target.Custom('IT_NAM_COL3')][previous_story_target.GetTitledFirstName|l] non possiede più [story.Var('target_title').GetName]. I nostri piani per deporre [ROOT.Char.GetTopLiege.Custom('IT_NAM_COL3')][ROOT.Char.GetTopLiege.GetTitledFirstName|l] dovrebbero andare avanti?"
  grand_ambitions.0500.a: "non mi fermerò finché #EMP non saro [ROOT.Char.GetTopLiege.Custom('IT_NAM_COL3')][ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip|l]!#!"
  grand_ambitions.0500.b: "cessate i preparativi e gioite!"
  grand_ambitions.0500.b.tt: "Cessa il tuo lavoro per [depose|E]  [THIS.Char.GetTopLiege.GetTitleAsName|l]"
+
  ### CHARACTER MODIFIERS
  ep3_grand_ambitions_cheaper_maa_modifier: "Reclutamento di soldati disillusi"
  ep3_grand_ambitions_local_labor_modifier: "Lavoro locale"
  ep3_grand_ambitions_rioting_county_modifier: "Voci imperiali"
  ep3_grand_ambitions_hushed_rumors: "Voci messe a tacere"
+
+
  ### SCHEME MODIFIERS
  scheme_grand_ambitions_modifier: "Formidabili Ambizioni"
  scheme_grand_ambitions_modifier_desc: "Questo personaggio si è posto l'obiettivo di ottenere un grande premio."

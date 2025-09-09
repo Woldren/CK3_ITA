@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  tutorial.0001.t: "Avvenimenti Inquietanti a Ennis"
  tutorial.0001.desc: "A notte fonda, [potential_ally.Custom('DE_ART_DEF_P_A')] mi[potential_ally.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_ally'))] [potential_ally.GetFirstName] bussa alla porta della mia camera. L[potential_ally.Custom('DE_END_PRO_S_N')] e [potential_ally.GetSheHe] borbotta qualcosa di molto preoccupante, con un'espressione terribilmente seria sul viso.\n\n"[GetPlayer.GetFirstNameNoTooltip], avete sentito la notizia? [bad_guy.Custom('IT_NAM_COL3')|U][bad_guy.GetTitledFirstName] sta cercando di creare una falsa rivendicazione sulle vostre terre. Temo che [bad_guy.GetSheHe] si stia preparando alla guerra.""
  tutorial.0001.a: "Parlerò con [bad_guy.Custom('IT_NAM_COL3')][bad_guy.GetTitledFirstNameNoTooltip]."

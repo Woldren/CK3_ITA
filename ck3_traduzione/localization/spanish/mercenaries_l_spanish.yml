@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  mercenary_company_bitter_winter_band:0 "Banda Bitter-Winter Band"
  mercenary_company_knE_z_evi_of_the_road:0 "Knéževi della Strada"
  mercenary_company_forest_wolves:0 "Lupi della Foresta"
@@ -486,4 +486,3 @@
  hireable_ruler_is_mercenary_company_captain_blocker: "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip] è il capitano di una[mercenary_company|e]#!"
  hireable_ruler_no_mercenary_government_rule_blocker: "@warning_icon! #X La forma di [government|e] di [CHARACTER.GetName] #bold non#! consente di assoldare mercenari.#!"
  hireable_ruler_you_are_not_at_war_blocker: "@warning_icon! #X $NOT_I_AM_AT_WAR_TRIGGER$#!"
- 

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  FLEET_PREDICTION_HEADER:0 "#T Imbarco il $DATE|V$#!"
  FLEET_PREDICTION_BREAKDOWN_ENTRY:0 "[ARMY.GetName]"
  FLEET_PREDICTION_BASE_COST:0 "Originale"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  feast_main_live_fowl.0002.t:1 "Il pollame di [fowl_dinner_target.GetFirstName]"
  feast_main_live_fowl.0002.entremets_served:0 "I servi stanno portando degli antipasti decorati in modo spettacolare: diversi pavoni, spellati, cotti e farciti, infine ricoperti delle loro magnifiche piume. Tuttavia, quando [fowl_dinner_target.GetTitledFirstName] ha avvicinato il coltello a uno di loro, l'uccello ha ripreso conoscenza con un urlo! Il volatile non era stato affatto cucinato! Gli ha beccato il naso, prima di correre tra gli ospiti che urlavano e ridevano."
  feast_main_live_fowl.0002.bird_killed:0 "\n\nLa fuga del [ROOT.GetCharacter.Custom('exotic_fowl_type')] è durata poco, [fowl_bird_killer.GetTitledFirstName] si è alzat[fowl_bird_killer.Custom('DE_END_PRO_S_N')] dalla sedia e con fredda efficienza e lo ha afferrato per il collo. Con un movimento delle mani, uno schiocco rumoroso ha fatto tacere l'intera sala. Il silenzio è stato rotto soltanto dai gemiti di dolore di [fowl_dinner_target.GetFirstName] mentre si stringeva il naso sanguinante."

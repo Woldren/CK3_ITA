@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 # Captured prisoner notifications, by Mathilda Bjarnehed
  siege.0002.one_captured.t:1 "Prigionier[prisoner_1.Custom('DE_END_PRO_S_N')] Catturat[prisoner_1.Custom('DE_END_PRO_S_N')] Durante l'Assedio"
  siege.0002.several_captured.t:1 "Prigionieri Catturati Durante l'Assedio"

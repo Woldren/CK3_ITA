@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  
  COUNCIL_SAME_CHARACTER:0 "[CHARACTER.GetShortUIName|U] non può essere consigliere e capo del consiglio allo stesso tempo."
  COUNCIL_NOT_LIEGE:0 "[CHARACTER.GetShortUIName|U] deve essere il signore di [TARGET_CHARACTER.GetShortUIName] per poterlo assegnare come Consigliere."
@@ -39,7 +39,6 @@
  COUNCILLOR_MISSING_SPYMASTER:0 "Non hai un [spymaster|E]"
  COUNCILLOR_MISSING_COURT_CHAPLAIN:0 "Non hai un [court_chaplain|E]"
 
-
  learn_on_the_job_modifier:0 "$learn_on_the_job_perk_name$"
 
  councillor_coregent:0 "Coreggente"
@@ -67,7 +66,6 @@
  councillor_kurultai_3_possessive: "$councillor_kurultai_possessive$"
  councillor_kurultai_4: "$councillor_kurultai$"
  councillor_kurultai_4_possessive: "$councillor_kurultai_possessive$"
- 
 
 #Flavor localization for Court Chaplains, sorted by Religion.
 
@@ -126,8 +124,8 @@
  councillor_court_chaplain_ismaili_kingdom_possessive:0 "del Ayatollah"
  councillor_court_chaplain_ismaili_empire:0 "Grande Ayatollah"
  councillor_court_chaplain_ismaili_empire_possessive:0 "del grande Ayatollah"
- 
- # Yazidi 
+
+# Yazidi 
  councillor_court_chaplain_yazidi_county:0 "Peshimam"
  councillor_court_chaplain_yazidi_county_possessive:0 "del Peshimam"
  councillor_court_chaplain_yazidi_duchy:0 "Pîr"
@@ -309,8 +307,8 @@
  councillor_spouse_duke_possessive:0 "del Duca"
  councillor_spouse_count_possessive:0 "del Conte"
  councillor_spouse_baron_possessive:0 "del Barone"
-
+ 
  councillor_leaving_court_message_title:0 "Il Consigliere ha Lasciato la Corte"
- councillor_leaving_court_marriage_notification:0 "Il tuo [council_task.GetPositionName], [councillor.GetShortUINameNoTooltip|U], ha abbandonato la sua posizione e la tua [old_employer.Custom('GetCourtConcept')] in seguito al suo [marriage|E] con un coniuge che possiede una [Concept( 'landed', 'terra' )|E]. #weak ([councillor.GetPrimarySpouse.GetShortUIName|U])#!"
+ councillor_leaving_court_marriage_notification:0 "Il tuo [council_task.GetPositionName], [councillor.GetShortUINameNoTooltip|U], ha abbandonato la sua posizione e la tua [old_employer.Custom('GetCourtConcept')] in seguito al suo [marriage|E] con un coniuge che possiede una [Concept( 'landed', 'terra' )|E]. #weak ([councillor.GetPrimarySpouse.GetShortUIName|U])#!" #controllare_modifica
  councillor_leaving_court_landed_notification:0 "Il tuo [council_task.GetPositionName], [councillor.GetShortUINameNoTooltip|U], ha lasciato la sua posizione e la tua [old_employer.Custom('GetCourtConcept')] dopo aver ottenuto un [title|E]. #weak ([councillor.GetPrimaryTitle.GetBaseName|V])#!"
  councillor_leaving_court_generic_fallback_notification:0 "Il tuo [old_employer.Custom2('RelationToMeShort', councillor)], [councillor.GetShortUINameNoTooltip|U], ha lasciato la sua posizione nel [council|E] e la tua [old_employer.Custom('GetCourtConcept')]."

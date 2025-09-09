@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  
  ep3_yearly.1010.t: "Hippomania"
  ep3_yearly.1010.intro: "#EMP Clip, clop. Clip, clop.#!\n\nIn sella al suo destriero, [horse_owner.Custom('WarhorseStoryName')], [Select_CString(horse_owner.IsFemale,'la governatrice','il governatore')] [horse_owner.GetTitledFirstName], trotta [Select_CString(horse_owner.IsFemale,'orgogliosa','orgoglioso')] nel mio cortile. Il/La [horse_owner.Custom('HorseStoryMareStallion')] si pavoneggia con orgoglio, sempre consapevole del suo illustre pedigree.\n\n[horse_owner.GetFirstNameNoTooltip] è l'invidia di ogni governatore di Bisanzio, e io non faccio eccezione."
@@ -25,4 +25,3 @@
  ep3_yearly.1010.d.dead_horse: "[horse_owner.Custom('WarhorseStoryName')] muore"
 
  HIPPEROS_GLOSS: "L'#bold Hipperos#! è un'antica parola Greca che descrive l'ossessione per i cavalli."
-

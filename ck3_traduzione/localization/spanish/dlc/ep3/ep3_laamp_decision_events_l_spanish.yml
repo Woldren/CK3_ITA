@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  #Visit Local Settlement
  ep3_laamp_decision_event.return.tt: "Ritorni al/alla [THIS.Char.Custom('GetMainsquareCommons')]" #sono state modificate le stringhe 276,277,291
@@ -275,7 +275,7 @@
  ep3_laamp_decision_event.1020.d: "$ep3_laamp_decision_event.1010.e$"
  ep3_laamp_decision_event.1020.eagle.tt: "Vendi la tua aquila da caccia, al posto di un manufatto"
  ep3_laamp_decision_event.1020.eagle.price_tt: "Offerta #V attuale#! per l’aquila: [gold_i] [GetPlayer.MakeScope.ScriptValue('hunting_eagle_sell_value')|0]"
- 
+
  #Actual sell screen
  ep3_laamp_decision_event.1021.t: "[visiting_location.GetBaronyNameExplicitlyNoTooltip]: Tempo di Separarsi"
  ep3_laamp_decision_event.1021.t_success: "[visiting_location.GetBaronyNameExplicitlyNoTooltip]: Mio!"
@@ -400,7 +400,7 @@
  ep3_laamp_decision_event.1030.desc_mid_reused_spouse: "$ep3_laamp_decision_event.1030.desc_mid_storyteller_intro$ Scorgo [Select_CString(laamp_spouse_material.IsFemale,'la','il')] [laamp_spouse_material.Custom('RandomPositiveShallowAdjective')] [laamp_spouse_material.GetFirstName] [Select_CString(laamp_spouse_material.IsFemale,'seduta','seduto')], chiaramente [Select_CString(laamp_spouse_material.IsFemale,'annoiata','annoiato')]."
  ep3_laamp_decision_event.1030.desc_mid_spouse: "$ep3_laamp_decision_event.1030.desc_mid_storyteller_intro$ [laamp_spouse_material.Custom('RandomPositiveShallowAdjectiveWithArticle')] [laamp_spouse_material.Custom('RaunchyComplimentNoun')] è [Select_CString(laamp_spouse_material.IsFemale,'seduta','seduto')], apparentemente [Select_CString(laamp_spouse_material.IsFemale,'annoiata','annoiato')]."
  ep3_laamp_decision_event.1030.desc_nomad_mid_spouse: "$ep3_laamp_decision_event.1030.desc_nomad_mid_storyteller_intro$ [laamp_spouse_material.Custom('RandomPositiveShallowAdjectiveWithArticle')] [laamp_spouse_material.Custom('RaunchyComplimentNoun')] è [Select_CString(laamp_spouse_material.IsFemale,'seduta','seduto')], apparentemente [Select_CString(laamp_spouse_material.IsFemale,'annoiata','annoiato')]."
- 
+
  ep3_laamp_decision_event.1030.desc_mid_return_reused_spouse: "\n\nLì al bancone, [laamp_spouse_material.GetFirstName] se ne sta ancora [Select_CString(laamp_spouse_material.IsFemale,'seduta','seduto')], facendo scorrere un dito sottile sul bordo della sua coppa."
  ep3_laamp_decision_event.1030.desc_mid_return_spouse: "\n\nLì al bancone, [Select_CString(laamp_spouse_material.IsFemale,'la','il')] [laamp_spouse_material.Custom('RandomPositiveShallowAdjective')] [laamp_spouse_material.Custom('RaunchyComplimentNoun')] di prima se ne sta ancora [Select_CString(laamp_spouse_material.IsFemale,'seduta','seduto')] a sorseggiare dalla sua coppa."
 
@@ -638,7 +638,7 @@
  ep3_laamp_decision_event.1040.e: "$ep3_laamp_decision_event.1010.e$"
  ep3_laamp_decision_event.1040.e_second: "Abbiamo finito qui."
 
-#Healer
+ #Healer
  ep3_laamp_decision_event.1041.return.tt: "Ritorni ai terreni del/della [visiting_location.GetCounty.GetFaith.HouseOfWorship]"
  ep3_laamp_decision_event.1041.t: "[visiting_location.GetBaronyNameExplicitlyNoTooltip]: il Guaritore"
  ep3_laamp_decision_event.1041.desc_returned_sickly_minor: "[1040_sickly_minor.GetFirstName] sta riposando su un giaciglio morbido accanto alla stufa d’angolo nella capanna [Select_CString(laamp_healer_character.IsFemale,'della guaritrice','del guaritore')], in attesa del mio ritorno. Istintivamente, mi chino per controllare il suo respiro e le accarezzo i capelli.\n\n[laamp_healer_character.GetFirstName] posa il suo [ROOT.Char.Custom('WritingInstrument')] e mi rivolge uno sguardo cupo: "Cosa avevamo deciso?""
@@ -712,7 +712,7 @@
  ep3_laamp_decision_event.1043.c.thievery_critical_failure.t: "Guardie Convocate" 
  ep3_laamp_decision_event.1043.c.thievery_critical_failure.desc: "$ep3_laamp_decision_event.1010.a_martial.critical_failure$" 
  ep3_laamp_decision_event.1043.d: "$ep3_laamp_decision_event.1021.d$"
-#Post-Donation
+ #Post-Donation
  ep3_laamp_decision_event.1044.desc_epiphany: "Mentre consegno la donazione, gli occhi di [laamp_clergy_character.GetFirstNamePossessive] si spalancano per lo shock: "Tu... tu sembri proprio su[Select_CString(ROOT.Char.IsFemale,'a','o')]... su[Select_CString(ROOT.Char.IsFemale,'a','o')]... lo giuro..." [laamp_clergy_character.GetSheHe] mi fissa per un momento, muovendo le labbra senza emettere suono, come un pesce fuor d’acqua.\n\nPoi, rendendosi conto di ciò che sta facendo, [laamp_clergy_character.GetFirstNameNoTooltip] si ricompone e si schiarisce la gola: "Sarei onorat[Select_CString(ROOT.Char.IsFemale,'a','o')] di donare #EMP la mia#! vita alla tua causa.""
  ep3_laamp_decision_event.1044.desc: "Il sorriso di [laamp_clergy_character.GetFirstNamePossessive] si allarga mentre si china, posando una mano sulla mia spalla: "Sei davvero generos[Select_CString(ROOT.Char.IsFemale,'a','o')], [Select_CString(ROOT.Char.IsFemale,'figlia mia','figlio mio')]. Capisco che il denaro non sia sempre facile da ottenere per un[ROOT.Char.Custom('DE_PRO_PER_P_3P_G')] avventurier[Select_CString(ROOT.Char.IsFemale,'a','o')] come te."\n\n[laamp_clergy_character.GetSheHe|U] annuisce con gravità, lasciando ricadere la mano lungo il fianco mentre posa i suoi occhi su di me."
  ep3_laamp_decision_event.1044.a: ""Forse [visiting_location.GetCounty.GetFaith.HighGodName] potrebbe benedire il nostro viaggio?"" 
@@ -733,19 +733,19 @@
  ep3_laamp_decision_event.1045.a: "Mi sento in pace."
  ep3_laamp_decision_event.1045.a_convert: "Forse [visiting_location.GetCounty.GetFaith.GetNameNoTooltip] non è poi una cosa così negativa, dopotutto."
  ep3_laamp_decision_event.1045.a.cooldown.tt: "Hai già contemplato questo giardino di recente — torna il [GetCurrentDateWithDiff( GetVarTimeRemaining( THIS.Char.MakeScope, '1045_contemplated_garden_recently') )]"
- 
+
  ep3_laamp_decision_event.1045.b: "Sarebbe un peccato sprecare queste delizie."
  ep3_laamp_decision_event.1045.b_partner: ""[visiting_partner.GetFirstNameNoTooltip], che ne dici di fare un po’ di raccolta?"" 
  ep3_laamp_decision_event.1045.b_flavor: "È tempo di raccogliere!"
  ep3_laamp_decision_event.1045.b.cooldown.tt: "Hai già raccolto in questo giardino di recente — torna il [GetCurrentDateWithDiff( GetVarTimeRemaining( THIS.Char.MakeScope, '1045_has_harvested_recently') )]"
- 
+
  ep3_laamp_decision_event.1045.c: ""...così tanti angoli e fessure nascoste, #EMP [visiting_partner.GetFirstNameNoTooltip]#!..."" 
  ep3_laamp_decision_event.1045.c.flavor: "Davvero divino."
  ep3_laamp_decision_event.1045.c.cooldown.tt: "Ti sei già rilassato in questo giardino di recente — torna il [GetCurrentDateWithDiff( GetVarTimeRemaining( THIS.Char.MakeScope, '1045_garden_unwinded_recently') )]"
- 
+
  ep3_laamp_decision_event.1045.d: "$ep3_laamp_decision_event.1021.d$"
 
-#Physician
+ #Physician
  ep3_laamp_decision_event.1047.t: "[visiting_location.GetBaronyNameExplicitlyNoTooltip]: il Medico"
  ep3_laamp_decision_event.1047.desc_returned_01: "La porta dello studio di [laamp_physician_recruit.GetFirstNamePossessive] è socchiusa, e attraverso la fessura osservo [laamp_physician_recruit.GetFirstNameNoTooltip] che taglia i capelli a un cliente, seduto immobile, usando delle forbici sottili e spaventosamente affilate.\n\nBusso alla porta ed entro, attirando l’attenzione del medico su di me: "Molto furtivo. Che cosa volevi?""
  ep3_laamp_decision_event.1047.desc_returned_02: "[laamp_physician_recruit.GetFirstName] si trova fuori dalla porta del suo studio, ispezionando la spalla di [Select_CString(ROOT.Char.IsFemale,'una donna','un uomo')], apparentemente dolorante.\n\n[laamp_physician_recruit.GetSheHe|U] conclude la visita, fornendo istruzioni su come guarire al meglio l’articolazione, poi si gira verso di me: "Sei tornat[Select_CString(ROOT.Char.IsFemale,'a','o')]. Volevi qualcosa stavolta?""
@@ -761,7 +761,7 @@
  ep3_laamp_decision_event.1047.c.failure.tt: "[laamp_physician_recruit.GetShortUIName] inizia a ignorarti" 
  ep3_laamp_decision_event.1047.d: "$ep3_laamp_decision_event.1021.d$"
 
-#Option: Visit the local castle grounds
+ #Option: Visit the local castle grounds
  ep3_laamp_decision_event.1050.t: "[visiting_location.GetBaronyNameExplicitlyNoTooltip]: il Castello"
  ep3_laamp_decision_event.1050.desc_returned_01: "Rientro dai cancelli del [visiting_location.GetHolding.GetType.GetName|l], osservando i motivi e i colori dello stendardo che raffigura lo stemma della casata [visiting_location.GetTitle.GetHolder.GetHouse.GetName]."
  ep3_laamp_decision_event.1050.desc_returned_02: "Al ritorno dalla piazza principale di [visiting_location.GetTitle.GetNameNoTierPossessiveNoTooltip], una brezza fa ondeggiare dolcemente lo stendardo della casata [visiting_location.GetTitle.GetHolder.GetHouse.GetNameNoTooltip], ben visibile sul camminamento di ronda."
@@ -784,7 +784,7 @@
  ep3_laamp_decision_event.1050.desc_outro_return_01: "\n\nIn un angolo della piazza, un gruppo di bambini armati di spade di legno imita con inquietante precisione quelli che sembrano essere esercizi da [visiting_location.GetTitle.GetHolder.Custom('KnightCulturePluralNoTooltipLowercase')].\n\nLi osservo attentamente mentre considero la mia prossima meta."
  ep3_laamp_decision_event.1050.desc_outro_return_02: "\n\nUna processione a cavallo sta appena uscendo dai cancelli, a giudicare dall’aspetto appartenente a [Select_CString(ROOT.Char.IsFemale,'una nobildonna','un nobiluomo')] locale, e considero lo spettacolo mentre rifletto su dove dirigermi."
  ep3_laamp_decision_event.1050.desc_outro_return_03: "\n\nAll’ingresso del cortile e del [visiting_location.GetHolding.GetType.GetName|l], nuove guardie prendono posizione, sostituendo quelle smontanti al cambio turno. Osservo distrattamente l’avvicendamento mentre rifletto sul da farsi."
- 
+
  ep3_laamp_decision_event.1050.a: "Visitiamo il campo di addestramento locale."
  ep3_laamp_decision_event.1050.a_second: "Un’altra visita al campo di addestramento potrebbe essere utile."
  ep3_laamp_decision_event.1050.a.tt: "Vai al campo di addestramento"
@@ -810,7 +810,7 @@
  ep3_laamp_decision_event.1050.e: "$ep3_laamp_decision_event.1010.e$"
  ep3_laamp_decision_event.1050.e_second: "$ep3_laamp_decision_event.1040.e_second$"
 
-#Training
+ #Training
  ep3_laamp_decision_event.1051.return.tt: "Ritorni ai terreni del/della [visiting_location.GetHolding.GetType.GetName|l]"
  ep3_laamp_decision_event.1051.t: "[visiting_location.GetBaronyNameExplicitlyNoTooltip]: il Campo d'Addestramento"
  ep3_laamp_decision_event.1051.desc_returned_01: "Di ritorno al campo d'addestramento, il maestro d’armi, [laamp_disgruntled_moa.GetFirstName], si aggira impilando l’equipaggiamento e borbottando sottovoce tra sé e sé sullo stato delle cose.\n\nCercando di non sembrare #EMP troppo#! apertamente insoddisfatto, [laamp_disgruntled_moa.GetSheHe] mi lancia un’occhiata scontrosa mentre mi avvicino a [laamp_disgruntled_moa.GetSheHe], ancora una volta."
@@ -829,7 +829,7 @@
  ep3_laamp_decision_event.1051.c_wounded.desc: "$martial_authority.8000_injury$"
  ep3_laamp_decision_event.1051.d: "$ep3_laamp_decision_event.1021.d$"
 
-#Garrison
+ #Garrison
  ep3_laamp_decision_event.1053.t: "[visiting_location.GetBaronyNameExplicitlyNoTooltip]: la Guarnigione"
  ep3_laamp_decision_event.1053.desc_returned_01: "Quando ritorno alla guarnigione, [laamp_plain_guard.GetFirstName] si sta massaggiando con delicatezza il labbro gonfio.\n\nAccanto a un tavolo improvvisato ricavato da una botte, una partita a carte si sta appena concludendo e [laamp_talented_guard.GetFirstName] brontola soddisfatto dei suoi guadagni.\n\nLa coppia mi squadra mentre mi avvicino al gruppo di guardie."
  ep3_laamp_decision_event.1053.desc_returned_02: "Di nuovo all’ombra della guarnigione, [laamp_plain_guard.GetFirstName] sta facendo un breve pisolino mentre [laamp_talented_guard.GetFirstName] conta le proprie monete. Quando la guardia più esperta mi nota, [laamp_talented_guard.GetSheHe] fa un cenno col gomito a [laamp_plain_guard.GetFirstNameNoTooltip].\n\nLa guardia meno esperta si risveglia di soprassalto e si mette a sedere, cercando di strofinarsi via gli ultimi resti del sonno dagli occhi.\n\nEntrambi mi guardano con aria inquisitiva."
@@ -859,32 +859,32 @@
  ep3_laamp_decision_event.1055.prestige_partial_60.tt: "$ep3_laamp_decision_event.1055.prestige_level$$ep3_laamp_decision_event.1055.all_regiments$$ep3_laamp_decision_event.1055.positive_partial.tt$ (#V 60#!%)#!"
  ep3_laamp_decision_event.1055.prestige_partial_40.tt: "$ep3_laamp_decision_event.1055.prestige_level$$ep3_laamp_decision_event.1055.all_regiments$$ep3_laamp_decision_event.1055.alert_partial.tt$ (#V 40#!%)#!"
  ep3_laamp_decision_event.1055.prestige_partial_20.tt: "$ep3_laamp_decision_event.1055.prestige_level$$ep3_laamp_decision_event.1055.all_regiments$$ep3_laamp_decision_event.1055.alert_partial.tt$ (#V 20#!%)#!"
- 
+
  ep3_laamp_decision_event.1055.b: ""Unitevi a me, al servizio di [ROOT.Char.GetFaith.GetNameNoTooltip]!""  
  ep3_laamp_decision_event.1055.b.flavor: "Solo [ROOT.Char.GetFaith.HighGodName] giudicherà la mia devozione."  
  ep3_laamp_decision_event.1055.b.cooldown.tt: "Hai sfruttato di recente il tuo [piety_level|E] — altre truppe zelanti si sono radunate il [GetCurrentDateWithDiff( GetVarTimeRemaining( THIS.Char.MakeScope, '1055_reinforced_with_piety_recently') )]"
- 
+
  ep3_laamp_decision_event.1055.piety_level: "Grazie al tuo [piety_level|E]:"  
  ep3_laamp_decision_event.1055.piety_full.tt: "$ep3_laamp_decision_event.1055.piety_level$$ep3_laamp_decision_event.1055.full.tt$"  
  ep3_laamp_decision_event.1055.piety_partial_80.tt: "$ep3_laamp_decision_event.1055.piety_level$$ep3_laamp_decision_event.1055.all_regiments$$ep3_laamp_decision_event.1055.positive_partial.tt$ (#V 80#!%)#!"  
  ep3_laamp_decision_event.1055.piety_partial_60.tt: "$ep3_laamp_decision_event.1055.piety_level$$ep3_laamp_decision_event.1055.all_regiments$$ep3_laamp_decision_event.1055.positive_partial.tt$ (#V 60#!%)#!"  
  ep3_laamp_decision_event.1055.piety_partial_40.tt: "$ep3_laamp_decision_event.1055.piety_level$$ep3_laamp_decision_event.1055.all_regiments$$ep3_laamp_decision_event.1055.alert_partial.tt$ (#V 40#!%)#!"  
  ep3_laamp_decision_event.1055.piety_partial_20.tt: "$ep3_laamp_decision_event.1055.piety_level$$ep3_laamp_decision_event.1055.all_regiments$$ep3_laamp_decision_event.1055.alert_partial.tt$ (#V 20#!%)#!"  
- 
+
  ep3_laamp_decision_event.1055.c: ""Forse potremmo fare un po’ di baratto?""  
  ep3_laamp_decision_event.1055.c.tt: "Un [regiment|E] di [men_at_arms|E] casuale: \n#P #EMP $BULLET_WITH_TAB$Viene completamente rinforzato!#!#!"  
  ep3_laamp_decision_event.1055.d: ""Questa è la vostra occasione per combattere per la #EMP rettitudine!#!""  
  ep3_laamp_decision_event.1055.d.flavor: "Insieme, per un mondo migliore."  
  ep3_laamp_decision_event.1055.d.tt: "Grazie al tuo [GetTrait('knight_errant').GetName( GetNullCharacter )] [trait_level_track_xp|E]:$refill_maa_regiments_fully_reinforced_tt$"  
  ep3_laamp_decision_event.1055.e: "$ep3_laamp_decision_event.1021.d$"  
- 
+
  ep3_laamp_decision_event.1055.all_regiments: "\n$BULLET_WITH_TAB$Tutti i tuoi [regiments|E] di [men_at_arms|E] (#V [num_damaged_maa_regiments]#!):"  
  ep3_laamp_decision_event.1055.full.tt: "$ep3_laamp_decision_event.1055.all_regiments$$refill_maa_regiments_fully_reinforced_tt$"  
  ep3_laamp_decision_event.1055.positive_partial.tt: "#P #EMP \n$BULLET_WITH_TAB$I reggimenti verranno parzialmente rinforzati!"  
  ep3_laamp_decision_event.1055.alert_partial.tt: "#alert_trial \n$BULLET_WITH_TAB$I reggimenti verranno parzialmente rinforzati!"  
- 
 
-#Bodyguard
+
+ #Bodyguard
  ep3_laamp_decision_event.1057.t: "[visiting_location.GetBaronyNameExplicitlyNoTooltip]: la Guardia del Corpo"
  ep3_laamp_decision_event.1057.desc_returned_01: "Quando ritorno nel vicolo dove avevo lasciato l’ex guardia del corpo, [laamp_bodyguard_recruit.GetFirstName], [laamp_bodyguard_recruit.GetSheHe] sta chiacchierando casualmente con il suo datore di lavoro, il macellaio locale.\n\nAvvicinandomi, concludono la loro conversazione amichevole e il macellaio dà una pacca amichevole a [laamp_bodyguard_recruit.GetFirstName], mentre [laamp_bodyguard_recruit.GetSheHe] rientra.\n\n[laamp_bodyguard_recruit.GetFirstNameNoTooltip], ora con un leggero bagliore di cordialità negli occhi, si gira verso di me: "Oh. Sei tornatSelect_CString(ROOT.Char.IsFemale,'a','o')]. Volevi qualcosa?""
  ep3_laamp_decision_event.1057.desc_returned_02: "L’ex guardia del corpo [laamp_bodyguard_recruit.GetFirstName] alza lo sguardo mentre ritorno nel vicolo dove [laamp_bodyguard_recruit.GetSheHe] esercita il suo nuovo mestiere.\n\nIl coltello danza nell’aria mentre [laamp_bodyguard_recruit.GetSheHe] affetta un altro cadavere animale in filetti ordinati, e io istintivamente faccio un passo indietro per l’intensità della scena.\n\n[laamp_bodyguard_recruit.GetSheHe|U] mi lancia uno sguardo vuoto e con voce priva di emozioni mi rivolge la parola: "...sì?""
@@ -941,7 +941,7 @@
  ep3_laamp_decision_event.1060.e: "$ep3_laamp_decision_event.1010.e$"
  ep3_laamp_decision_event.1060.e_second: "$ep3_laamp_decision_event.1040.e_second$"
 
-#Weaponsmith
+ #Weaponsmith
  ep3_laamp_decision_event.1061.return.tt: "Ritorni al quartiere degli artigiani"
  ep3_laamp_decision_event.1061.t: "[visiting_location.GetBaronyNameExplicitlyNoTooltip]: il Fabbro d’armi"
  ep3_laamp_decision_event.1061.desc_returned_01: "Di ritorno al campo d’addestramento, il fabbro d’armi [laamp_weaponsmith_craftsman.GetFirstName] è ancora accanto alla sua bancarella, intento a lucidare delicatamente una delle armi con un panno morbido.\n\n[laamp_weaponsmith_craftsman.GetSheHe|U] canticchia per [laamp_weaponsmith_craftsman.GetHerselfHimself] mentre lo fa, ma interrompe subito al mio arrivo. "Hai trovato qualcosa da trafiggere, alla fine?" dice [laamp_weaponsmith_craftsman.GetSheHe], senza la minima traccia di cordialità."
@@ -954,7 +954,7 @@
  ep3_laamp_decision_event.1061.c: ""[1061_third_weapon.GetNameNoTooltip] è #EMP proprio#! il mio genere di arma.""
  ep3_laamp_decision_event.1061.d: "$ep3_laamp_decision_event.1021.d$"
 
-#Armorer
+ #Armorer
  ep3_laamp_decision_event.1063.t: "[visiting_location.GetBaronyNameExplicitlyNoTooltip]: l’Armaiolo"
  ep3_laamp_decision_event.1063.desc_returned_01: "[laamp_armorer_craftsman.GetFirstName] si sta concedendo una pausa dal monotono martellare. [laamp_armorer_craftsman.GetSheHe|U] gira per l’officina, come se stesse cercando qualcosa: "Le pinze," brontola [laamp_armorer_craftsman.GetSheHe], "mai dove le lasci." \n\nPoi [laamp_armorer_craftsman.GetFirstNameNoTooltip] volge l’attenzione verso di me e annuisce in direzione dei pezzi d’armatura esposti: "Allora, che mi dici?""
  ep3_laamp_decision_event.1063.desc_returned_02: "La fornace è leggermente meno rovente questa volta, mentre [laamp_armorer_craftsman.GetFirstName] sta riparando un diverso pezzo di metallo, piegando con delicatezza l’acciaio alla sua volontà.\n\nStando attento a non disturbare il suo lavoro, mi avvicino per continuare a osservare i pezzi d’armatura disposti sul banco.\n\n"Ti serve protezione, dopotutto?" commenta [laamp_armorer_craftsman.GetFirstNameNoTooltip] con tono divertito."
@@ -965,8 +965,7 @@
  ep3_laamp_decision_event.1063.c: "Avrebbe senso prendere [1063_third_armor.GetNameNoTooltip]."
  ep3_laamp_decision_event.1063.d: ""Che talento! Dovresti unirti a noi.""
  ep3_laamp_decision_event.1063.e: "$ep3_laamp_decision_event.1021.d$"
- 
-#Jeweler
+ #Jeweler
  ep3_laamp_decision_event.1065.t: "[visiting_location.GetBaronyNameExplicitlyNoTooltip]: il Gioielliere"
  ep3_laamp_decision_event.1065.desc_returned_01: "Nella bottega del gioielliere, [laamp_jeweler_craftsman.GetFirstName] è chinato su una spilla incastonata di gemme a forma di squisito fiore di [visiting_location.Custom('get_region_flower_type')]. Se ascolto bene, posso sentire i suoi sussurri appassionati: "Mio prezioso fiore, davvero..."\n\nFaccio scricchiolare apposta un’asse del pavimento, e [laamp_jeweler_craftsman.GetSheHe] si accorge della mia presenza.\n\nSorpreso, [laamp_jeweler_craftsman.GetFirstNameNoTooltip] si riprende in fretta e proclama: "Ancora tu! Perbacco — hai cambiato idea?""
  ep3_laamp_decision_event.1065.desc_returned_02: "Al mio ritorno, [laamp_jeweler_craftsman.GetFirstName], con in mano un [ROOT.Char.Custom('WritingInstrument')], sta controllando gli scaffali di gioielli e prendendo inventario su un registro logoro.\n\nConcedendomi appena un’occhiata, [laamp_jeweler_craftsman.GetSheHe] dice: "Di nuovo qui? Quale ti interessa?" e si sposta subito a controllare il resto degli scaffali."
@@ -977,7 +976,7 @@
  ep3_laamp_decision_event.1065.c: ""Vorrei comprare il [1065_third_accessory.GetNameNoTooltip].""
  ep3_laamp_decision_event.1065.d: "$ep3_laamp_decision_event.1021.d$"
 
-#Quartermaster
+ #Quartermaster
  ep3_laamp_decision_event.1067.t: "[visiting_location.GetBaronyNameExplicitlyNoTooltip]: il Quartiermastro"
  ep3_laamp_decision_event.1067.desc_returned_01: "[laamp_quartermaster_recruit.GetFirstName] è ancora seduto in un angolo buio della taverna, sorseggiando la sua coppa di [laamp_quartermaster_recruit.Custom('RegionalDrink')] come se fosse il biglietto per la salvezza.\n\n[laamp_quartermaster_recruit.GetSheHe|U] alza a malapena lo sguardo, mentre avanzo con cautela nell’oscurità per avvicinarmi a [laamp_quartermaster_recruit.GetHerHim]. "Ancora tu?" borbotta [laamp_quartermaster_recruit.GetSheHe], e poi si volta dall’altra parte."
  ep3_laamp_decision_event.1067.desc_returned_02: "[laamp_quartermaster_recruit.GetFirstName] è nel mezzo di un’accesa discussione con un altro avventore della taverna — un alto e scuro [ROOT.Char.GetWomanMan] che sembra volesse che [laamp_quartermaster_recruit.GetFirstNameNoTooltip] #EMP "smettesse di lamentarsi una buona volta!"#!\n\nPrima che le cose degenerino, [laamp_quartermaster_recruit.GetFirstNameNoTooltip] mi nota e si tira indietro con uno sbuffo.\n\n"Sei tornato," dichiara [laamp_quartermaster_recruit.GetSheHe] con un’aria sorprendentemente sobria. "Cos’era che volevi di nuovo?""
@@ -993,11 +992,11 @@
  ep3_laamp_decision_event.1067.c.failure.tt: "[laamp_quartermaster_recruit.GetShortUIName] inizia a ignorarti"
  ep3_laamp_decision_event.1067.d: "$ep3_laamp_decision_event.1021.d$"
 
-#Opinion modifiers
+ #Opinion modifiers
  traded_me_away_opinion: "Mi Ha Ceduto"
  traded_away_child_opinion: "Ha Ceduto Mio Figlio"
 
-#Modifiers
+ #Modifiers
  laamp_decision_exotic_story_diplomacy_gain_modifier: "Diplomazia Esotica"
  laamp_decision_exotic_story_diplomacy_gain_modifier_desc: "Questo personaggio ha tratto insegnamenti cortesi da una storia esotica."
  laamp_decision_exotic_story_martial_gain_modifier: "Arte Marziale Esotica"
@@ -1021,7 +1020,7 @@
  divine_springs_modifier: "Sorgenti Divine"
  divine_springs_modifier_desc: "Questo personaggio ha fatto esperienza delle sorgenti divine, scoprendo la bellezza oltre i tesori materiali."
 
-#Custom loc
+ #Custom loc
  local_holding_type_concept_no_holding: "[holding|E]"
  local_holding_type_concept_nomad_holding: "[nomadic_holding|E]"
  local_holding_type_concept_herder_holding: "[herder_holding|E]" 
@@ -1107,7 +1106,7 @@
  criminal_adjective_conniving: "intrigante"
  criminal_adjective_violent: "violento"
  criminal_adjective_barbaric: "barbarico"
-
+ 
  criminal_crier_insult_big_nosed: "nasone"
  criminal_crier_insult_snub_nosed: "naso camuso"
  criminal_crier_insult_weak_chinned: "mento sfuggente"

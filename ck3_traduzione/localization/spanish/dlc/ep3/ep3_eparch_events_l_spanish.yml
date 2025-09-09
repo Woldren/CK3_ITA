@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ep3_eparch_event.0001.t: "$eparch_court_position$: Fortificare la Capitale"
  ep3_eparch_event.0001.desc_intro: "[emperor.GetPrimaryTitle.Custom('IT_COU_COL4')|U][emperor.GetPrimaryTitle.GetTierAsNameNoTooltip] è in guerra. Sotto attacco da parte dei [attacker.GetCulture.GetCollectiveNounNoTooltip] e del[attacker.Custom('DE_END_ADJ_NUL_S_N')] [attacker.Custom('InsultAdjective')] [attacker.GetTitledFirstName].\n\n"
  ep3_eparch_event.0001.desc_winning_war: "[emperor.Custom('IT_NAM_COL3')|U][emperor.GetTitledFirstName] sembra avere la meglio, ma tutti devono stare attenti a non rivendicare la vittoria prima di aver effettivamente vinto la guerra."

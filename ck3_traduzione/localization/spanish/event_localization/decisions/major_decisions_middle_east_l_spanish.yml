@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 # Forming Outremer, by Flavio Verna
  middle_east_decisions.0001.t:0 "L'Impero dei Cieli"
  middle_east_decisions.0001.desc:0 "Dall'ascesa di Maometto, la religione musulmana è stata una forza da non sottovalutare in tutto l'Oriente, e una minaccia incombente per i seguaci di Cristo. Tuttavia, grazie ai miei sforzi per proteggere la Terra Santa, non è più così.\n\nHo respinto gli infedeli dalle coste del Mediterraneo e li ho inseguiti oltre i deserti infuocati dell'Arabia. Ho piantato la santa croce di Nostro Signore da un mare all'altro, e costruito un vero Impero del Cielo sulla Mezzaluna spezzata dal falso Profeta."
@@ -9,7 +9,7 @@
  middle_east_decisions.0002.a:0 "Sia lodato Nostro Signore!"
  middle_east_decisions.0002.b:0 "Mille maledizioni sulla sua famiglia!"
  middle_east_decisions.0002.c:0 "Capisco..."
- 
+
 # Restoring the Sunni Caliphate, by Flavio Verna
  middle_east_decisions.0003.t:0 "Un nuovo Califfato"
  middle_east_decisions.0003.desc:0 "Sin dall'occupazione infedele della Terra Santa, i veri seguaci del Profeta sono stati dispersi ai quattro venti, senza un leader e senza la volontà di riprendere la sacra lotta.\n\nTutto ciò finisce oggi. Per grazia di [reformer.GetFaith.HighGodName], ho rivendicato la Mecca e Medina e fermato la marea di infedeli che invadevano l'Arabia. Con il sostegno di alcuni rispettati studiosi del Libro, sono stato riconosciut[reformer.Custom('DE_END_PRO_S_N')] come [reformer.Custom('DE_ART_DEF_P_A')] nuov[reformer.Custom('DE_END_PRO_S_N')] Califf[reformer.Custom('DE_END_PRO_S_N')] di [reformer.GetFaith.GetName] e sono pront[reformer.Custom('DE_END_PRO_S_N')] a guidare i miei seguaci contro i vili idolatri che ancora inquinano la nostra patria!"
@@ -69,7 +69,7 @@
  middle_east_decisions.0015.desc.others:0 "La ricca provincia dell'Asia Minore, un tempo bastione del Cristianesimo, è ora caduta sotto il dominio di [scoped_ruler.GetTitledFirstName], che ha formato un nuovo Sultanato nella regione."
  middle_east_decisions.0015.a:0 "Come osa!"
  middle_east_decisions.0015.b:0 "Capisco..."
- 
+
  # Revive the Armenian Empire, by Ewan Cowhig Croft
  middle_east_decisions.1001.t:0 "Il Ritorno dell'Aquila"
  middle_east_decisions.1001.desc:0 "Sono passati secoli dall'ultima volta che l'Armenia ha esercitato questo livello di dominio nel Levante e nel Caucaso. La causa della decadenza furono gli attacchi degli imperi gemelli d'Oriente e d'Occidente. A seconda del periodo, quello occidentale parla latino o greco, e quello orientale persiano o arabo, ma questi imperi erano costantemente in lotta e le nostre terre ancestrali sembravano sempre essere il loro campo di battaglia.\n\nDa oggi non più. Ho riunito gli antichi territori di Tigrane II il Grande e lo stendardo dell'aquila della Grande Armenia si sta rialzando!"
@@ -79,7 +79,7 @@
  middle_east_decisions.1002.a:0 "La dignità imperiale richiede più della semplice terra."
  middle_east_decisions.1002.b:0 "Questa volta, nessuno ci separerà."
  middle_east_decisions.1002.c:0 "Questa volta non durerà più a lungo. È inutile."
- 
+
  # Found the Empire of Beth Nahrain, by Anna Johansson
  middle_east_major_decisions.1020.t: "La Casa dei Fiumi"
  middle_east_major_decisions.1020.desc: "Sarebbe possibile unire sotto un unico vessillo i regni che circondano i fiumi Tigri ed Eufrate, formando così un impero tanto vasto da far invidia ai re e alle regine di un tempo?"
@@ -111,8 +111,4 @@
  middle_east_decisions.1020.c: "Credo nella mia fede"
  middle_east_decisions.1020.d: "Mostriamo loro la #EMP vera#! fede!"
  beth_nahrain_crusader_desc: "Una confluenza, Una confluenza che porta a un impero unificato."
- 
- 
- 
- 
  

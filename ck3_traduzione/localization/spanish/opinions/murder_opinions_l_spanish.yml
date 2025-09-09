@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  murdered_close_family:1 "Parente Assassinato"
  murdered_close_family_crime:1 "Parente Assassinato"
  attempted_murder_close_family:1 "Ha Tentato di Assassinare un Parente"
@@ -7,6 +7,7 @@
  attempted_murder_me_crime:0 "Tentato Omicidio"
  murdered_close_relation_opinion:0 "Ha Assassinato una Persona Cara"
  murdered_someone_close_to_me_crime:0 "Ha Assassinato una Persona Cara"
+
 
  executed_close_family:0 "Ha Giustiziato un Mio Parente Stretto"
  executed_close_family_crime:0 "Ha Giustiziato un Mio Parente Illegalmente"
@@ -30,7 +31,7 @@
  blinded_me:0 "Mi Ha Accecato"
  castrated_family_member:0 "Ha Castrato un Membro della Famiglia"
  castrated_me:0 "Mi Ha Castrato"
- 
+
  abducted_me_crime:0 "Mi Ha Rapito"
  abducted_close_family:0 "Familiare Rapito"
  abducted_close_family_crime:0 "$abducted_close_family$"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  fp3_khvarenah_legacy_track_name: "Splendore"
  fp3_khvarenah_legacy_track_desc: "La nostra casata risplenderà della gloria degli antichi re"
@@ -7,7 +7,7 @@
  fp3_khvarenah_legacy_3_name: "Gloria Radiosa"
  fp3_khvarenah_legacy_4_name: "Antica Autorità"
  fp3_khvarenah_legacy_5_name: "Splendore Rigenerato"
- 
+
  LEGACY_DYNASTY_BESTOW_GLORY_DESCRIPTION: "Efficacia dell'[councillor_task|E] [bestow_royal_favor|E]: #P +20%#!"
  LEGACY_DYNASTY_MEMBERS_MARIABILITY_BONUS: "Accettazione del [marriage|E] per i [dynasty_members|E]: #P +[EmptyScope.ScriptValue('khvarenah_legacy_marriage_acceptance')|0]#!"
  LEGACY_DYNASTY_COMPETENT_VIZIERS_DESCRIPTION: "[skills|E] nel compiere gli [councillor_tasks|E] di [vizier|E]: #p +25%#!"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  cn_konstantiniyye:0 "Konstantiniyye"
  cn_konstantiniyye_adj:0 "Konstantiniyyiana"
  
@@ -183,7 +183,7 @@
  cn_monmouth:0 "Monmouth"
  cn_brecknockshire:0 "Brecknockshire"
  cn_brecknock:0 "Brecknock"
- 
+
  #Pomerania
  cn_szczecin:0 "Szczecin"
  cn_szczecin_adj:0 "Szczeciniana"
@@ -1749,7 +1749,7 @@
  cn_sant_malou_adj:0 "Sant-Maloùana"
  cn_roazhon:0 "Roazhon"
  cn_roazhon_adj:0 "Roazhoniana"
-
+ 
  #Iberia
  cn_carthaginensis:0 "Carthaginensis"
  cn_carthaginensis_adj:0 "Carthaginense"
@@ -2559,7 +2559,7 @@
  cn_poprad_HUN_adj:0 "Poprádiana"
  cn_kesmark:0 "Késmárk"
  cn_kesmark_adj:0 "Késmárkiana"
-  
+ 
  #
  cn_ui_maine:0 "Uí Mháine"
  cn_ui_maine_adj:0 "Uí Mháinean"
@@ -2573,7 +2573,7 @@
  cn_ruija_adj:0 "Ruijan"
  cn_leporie:0 "Leporie"
  cn_leporie_adj:0 "Leporieana"
- 
+
  # HRE
  cn_lubsko:0 "Lubsko"
  cn_lubsko_adj:0 "Lubskoan"
@@ -2605,12 +2605,12 @@
  cn_curonia_adj:0 "Curonian"
  cn_kurland:0 "Kurland"
  cn_kurland_adj:0 "Kurlander"
- 
+
  # Semigallia, after much debate
  cn_zemgale: "Zemgale"
  cn_ziemgala: "Žiemgala"
  cn_semgallen: "Semgallen" 
- 
+
  #Iberian names for Canary Islands
  cn_tenerife:0 "Tenerife"
  cn_canaria:0 "Gran-Canaria"
@@ -2628,7 +2628,7 @@
  cn_lower_lorraine_adj: "Bassa Lorenana"
  cn_upper_lorraine: "Alta Lorena"
  cn_upper_lorraine_adj: "Alta Lorenana"
- 
+
  cn_sirista: "Sirista"
  cn_candia: "Candia"
  cn_candia_adj: "Candiana"
@@ -2687,6 +2687,7 @@
  # Dobrudja
  cn_scythia_minor: "Scythia Minor"
  cn_scythia_minor_adj: "Scythian"
+ 
  cn_south_jedisan: "South Jedisan"
  cn_south_jedysan: "South Jedysan"
  cn_south_edisan: "South Edisan"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  physician_epidemic_events.1000.t: "Trattamento Poco Ortodosso"
  physician_epidemic_events.1000.desc: "La mia corte è animata da suoni di voci alzate e pugni sbattuti mentre [physician.Custom2('MyCharacterIntroduction', ROOT.Char)] e [zealous_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] discutono di [epidemic_scope.GetName] e di cosa andrebbe fatto.\n\n"Io sono un medico, [zealous_courtier.GetNameNoTooltip]!" insiste [physician.GetSheHe]. "Lasciatemi fare il mio lavoro e potremo porre fine a questa maledetta epidemia una volta per tutte!"\n\n"Ricoprire i corpi di olio e cantare incantesimi, [physician.GetFirstNameNoTooltip]? Quello che proponete è un'eresia di prim'ordine e non voglio sentirne parlare! Questi corpi meritano un funerale proprio della fede [zealous_courtier.GetFaith.GetAdjective]!""
  physician_epidemic_events.1000.a: "Forse dovremmo semplicemente tenere i corpi lontani dai vivi."

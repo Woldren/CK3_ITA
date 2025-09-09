@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  is_personal_maa_regiment_global: "[REGIMENT.GetName] è un reggimento personale"
  not_is_personal_maa_regiment_global: "[REGIMENT.GetName] #bold non#! è un reggimento personale"
  is_title_maa_regiment_global: "[REGIMENT.GetName] è un reggimento del titolo"

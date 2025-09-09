@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  yearly.9100.t:0 "Problemi in giardino"
  yearly.9100.desc:0 "Quando entro nel giardino, ho a malapena il tempo di compiere un passo prima di sentire qualcuno bestemmiare. "#EMP [gardener.Custom('CulturalCurse')|U]!#!"\n\nCammino intorno ad una siepe alla ricerca della fonte e vedo [gardener.Custom('DE_ART_DEF_P_A')] mi[gardener.Custom('DE_END_PRO_S_N')] giardinier[gardener.Custom('DE_PRO_PER_S_3P_G')] [gardener.GetTitledFirstName] intenta a sgobbare sulla terra con un cipiglio in faccia. [gardener.GetSheHe|U] nota che mi sto avvicinando e subito si mette in piedi.\n\n"Oh! Perdonatemi, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Non mi aspettavo ci fosse qualcun altro qua fuori... qualche stupido animale, un [gardener.Custom('GetAnimalType')] senza dubbio, ha rovinato #EMP tutto#! il mio recente lavoro! Ho piantato queste erbe solo l'altro ieri!""
  yearly.9100.a:0 "Permettimi di aiutarti!"

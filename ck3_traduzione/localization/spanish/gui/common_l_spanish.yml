@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  CHARACTER_IN_ACTIVITY_LOCATION:0 "In Attività: [ACTIVITY.GetBaronyNameExplicitly|V]"
  CHARACTER_IN_LOCATION:0 "Località: [PROVINCE.GetBaronyNameExplicitly|V]"
  CLOSE_TOOLTIP:0 "#T $CLOSE_LABEL$#!"

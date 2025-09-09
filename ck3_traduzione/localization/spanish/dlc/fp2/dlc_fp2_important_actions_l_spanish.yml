@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  action_can_offer_assistance:0 "Può offrire Assistenza a Pagamento"
  action_can_offer_assistance_label:0 "Puoi offrire di unirti volontariamente alla guerra di [recipient.GetShortUINamePossessiveNoTooltip] in cambio di Oro"
  action_can_offer_assistance_combined_label:0 "[recipient.GetShortUINameNoTooltip]"

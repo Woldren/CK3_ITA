@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  MESSAGE_CLICK_TOOLTIP:1 "[SelectLocalization(FeedMessageItem.IsExpanded,'MESSAGE_CLICK_TO_HIDE','MESSAGE_CLICK_TO_SHOW')]\n$MESSAGE_CLICK_TO_DISMISS$"
  MESSAGE_CLICK_TO_HIDE:0 "#I Clicca per nascondere.#!"
  MESSAGE_CLICK_TO_SHOW:0 "#I Clicca per mostrare.#!"
@@ -388,7 +388,7 @@
  
  msg_rival_dethroned:0 "Il tuo rivale [actor.GetTitledFirstName] ha perso un Titolo"
  msg_rival_dethroned_desc:0 "Il tuo [rival|E], [actor.GetTitledFirstName], ha perso [title.Custom('IT_COU_COL4')][title.GetBaseName]"
- 
+
  msg_court_position_gained:0 "Nominato [COURT_POSITION_TYPE.GetNameNoTooltip]"
  msg_court_position_gained_desc:0 "Sei stato nominato [COURT_POSITION_TYPE.GetNameNoTooltip] di [LEFT_CHARACTER.GetShortUIName] "
  msg_court_position_removed:0 "Posizione di [COURT_POSITION_TYPE.GetNameNoTooltip] Revocata"
@@ -440,7 +440,7 @@
  msg_struggle_phase_transitioned:1 "Passaggio di Fase Avvenuto"
  msg_struggle_phase_transitioned_desc:0 "La $STRUGGLE_NAME$ è passata alla \n@$STRUGGLE_PHASE_ICON$! Fase di $STRUGGLE_PHASE$."
  msg_struggle_phase_transitioned_tt:0 "$msg_struggle_phase_transitioned_desc$"
-
+ 
  msg_set_relation_friend_title:1 "@friend_icon! Nuova Amicizia"
  msg_set_relation_friend_desc:0 "[GetRelation( 'friend' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]"
  msg_set_relation_best_friend_title:1 "@best_friend_icon! Diventati Migliori Amici"
@@ -460,11 +460,12 @@
 
  msg_set_relation_blood_brother_title: "@blood_brother_icon! Sono diventati Fratelli di Sangue"
  msg_set_relation_blood_brother_desc: "[GetRelation( 'blood_brother' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]"
- 
+
  msg_house_unity_change_stage:0 "Il Livello di Unità della Casata è Cambiato"
  msg_house_unity_change_stage_desc:0 "Il tuo Livello di [house_unity|E] è Cambiato in $HOUSE_UNITY_STAGE_NAME|U$"
  msg_house_unity_change_stage_tt:0 "$msg_house_unity_change_stage_desc$"
-
+ 
+ 
  msg_start_diarchy_title:0 "Sono entrato in [LEFT_CHARACTER.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')] [LEFT_CHARACTER.GetDiarchyTypeNameNoTooltip]"
  msg_start_diarchy_effect:0 "Ho iniziato a [Concept( 'sharing_power', 'Condividere il Potere' )|E] in [LEFT_CHARACTER.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')] [LEFT_CHARACTER.GetDiarchyTypeName] con [Select_CString(LEFT_CHARACTER.IsFemale,'la mia','il mio')] [LEFT_CHARACTER.Custom2('RelationToMeShort', RIGHT_CHARACTER.Self)], [RIGHT_CHARACTER.GetShortUIName]"
  msg_inherit_diarchy_title:0 "Ho ereditato [LEFT_CHARACTER.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')] [LEFT_CHARACTER.GetDiarchyTypeNameNoTooltip]"
@@ -512,7 +513,6 @@
  msg_diarchy_less_power_effect:1 "Lo spostamento degli [scales_of_power|E] è scesa ad un livello inferiore e [LEFT_CHARACTER.GetLiege.Custom('DE_ART_DEF_P_A')] [LEFT_CHARACTER.GetLiege.GetDiarchTitle] ha meno [diarch_powers|E]"
  grand_wedding_cancelled_by_regency_title:0 "Matrimonio in Grande Annullato"
  grand_wedding_cancelled_by_regency_desc:0 "[diarch.GetTitledFirstName] è diventat[diarch.Custom('DE_END_PRO_S_N')] [diarch.Custom('DE_ART_DEF_P_A')] [regent|E] di [diarch.GetLiege.GetTitledFirstName] e non può più prendere parte al suo [GetActivityType('activity_wedding').GetName] con [betrothed.GetTitledFirstName]"
-
  msg_legend_promoter_join: "Promotore della Leggenda si Unisce"
  msg_legend_promoter_join_desc: "[LEFT_CHARACTER.Custom('DE_ART_DEF_P_D')] tu[LEFT_CHARACTER.Custom('DE_END_PRO_S_N')] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetUINameNoTooltip] ha iniziato a [Concept( 'promoted_legend', 'Promuovere' )|E] la tua [legend|E], [GetPlayer.GetPromotedLegend.GetName]."
  msg_legend_promoter_leave: "Promotore della Leggenda Smette"
@@ -525,14 +525,13 @@
  msg_legend_library_added_desc: "[Legend.GetName] è stata aggiunta alla tua [legend_library|E]." 
  message_consolidation_names: "#T Altri#!\n[PlayerMessageItem.GetConsolidationNames]"
  message_consolidation_others: "#tooltip:message_consolidation_names #L [Subtract_int32( PlayerMessageItem.GetConsolidationCount, '(int32)2' )|V] [Select_CString( GreaterThan_int32( PlayerMessageItem.GetConsolidationCount, '(int32)3' ), 'altri', 'altro' )] #!#!"
-
  msg_raid_completed_title: "[RIGHT_TITLE.GetNameNoTierNoTooltip] Razziato/a"
  msg_raid_completed_desc: "Hai [raided|E] [RIGHT_TITLE.GetName] ([RIGHT_TITLE.GetHolder.GetShortUIName])"
  msg_raid_lost_title: "[RIGHT_TITLE.GetNameNoTierNoTooltip] Razziato/a"
  msg_raid_lost_desc: "[LEFT_CHARACTER.GetUIName] ha [raided|E] [RIGHT_TITLE.GetName] ([RIGHT_TITLE.GetHolder.GetShortUIName])"
- msg_known_pregnancy: "[LEFT_CHARACTER.GetTitledFirstNameNoTooltip] Resta Incinta"
  msg_raid_intent_invalidated_title: "[raiding_army.GetRaidIntent.GetName] invalidato!"
  msg_raid_intent_invalidated_desc: "[raiding_army.GetRaidIntent.GetName] è stato invalidato, dato che questo intento non è più disponibile per [LEFT_CHARACTER.GetName]"
+ msg_known_pregnancy: "[LEFT_CHARACTER.GetTitledFirstNameNoTooltip] Resta Incinta"
  
  msg_government_changed: "Forma di Governo Cambiata"
 

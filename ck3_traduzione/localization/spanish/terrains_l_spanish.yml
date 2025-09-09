@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  plains:0 "Pianure"
  hills:0 "Colline"
  combat_hills:0 "Difesa in Collina"
@@ -40,4 +40,4 @@
  TERRAIN_DANGER:1 "[travel_danger|E]: $VALUE|=-0$"
  TERRAIN_PROVISIONS_BASE_COST: "Costo Base"
  TERRAIN_PROVISIONS_COST: "Costo [provisions|E]" 
- 
+

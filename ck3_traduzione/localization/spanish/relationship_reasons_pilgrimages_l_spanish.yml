@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  pilgrimage_corrective_lecture:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] [Select_CString(CHARACTER.IsLocalPlayer,'hai','ha')] rifilato una severa ramanzina [TARGET_CHARACTER.Custom('IT_NAM_COL4')][TARGET_CHARACTER.GetShortUIName] durante un pellegrinaggio."
  pilgrimage_corrective_lecture_corresponding:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'hai','ha')] ricevuto una severa ramanzina da parte [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetShortUIName] durante un pellegrinaggio."
 

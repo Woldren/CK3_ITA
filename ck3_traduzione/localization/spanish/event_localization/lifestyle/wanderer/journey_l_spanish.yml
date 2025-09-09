@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  journey_events.10.t: "Un Compagno per Attività all'Aperto"
  journey_events.10.desc: ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], ho notato che avete molto bisogno di un compagno per quando svolgete le vostre attività all'aria aperta." dice [provider_character.GetFirstName], [Select_CString(provider_character.IsFemale,'la mia','il mio')] mi[provider_character.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('provider_character'))], mentre entro nel mio studio. [provider_character.GetSheHe|U] mi rivolge uno sguardo complice e mi dice: "Oggi una carovana di mercanti sta passando da [ROOT.Char.GetCapitalLocation.GetName] e ho visto che hanno una vasta scelta di animali in vendita."\n\nQuando [provider_character.Custom('DE_PRO_DEM')] chiedo maggiori dettagli, [provider_character.GetSheHe] mi racconta di aver visto cani, cavalli e falconi di ogni dimensione. Riflettendoci bene, ho pensato che un animale che mi accompagni nelle attività all'aperto è proprio ciò di cui ho bisogno."
  journey_events.10.a: "Un vero e proprio cavallo da guerra sarebbe perfetto."
@@ -96,7 +96,6 @@
  journey_pauper_king_modifier_desc: "Sembra che questo personaggio sia particolarmente popolare tra i suoi contadini e servi, grazie alle numerose storie sulle sue amichevoli frequentazioni dei membri delle classi inferiori."
 
  journey_events.53.desc: "Ordino un giro dopo l'altro, finché tutti si addormentano o vanno a casa. Alla fine, 
-[Select_CString(And(local_gambler.IsFemale, ROOT.Char.IsFemale), 'sedute', 'seduti')] al tavolo rimaniamo solo [local_gambler.GetFirstNameNoTooltip] e io. [local_gambler.GetSheHe|U], nonostante riesca a stare a malapena ancora svegli[local_gambler.Custom('DE_END_PRO_S_N')], continua a fissarmi con la coda dell'occhio.\n\n"Sai, in fin dei conti, non sei poi male per essere un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] nobile." borbotta, prima di finire per crollare anche lui, con la sua testa che fa un bel botto sul tavolo."
  journey_events.53.a: "Hmm, mi chiedo quando l'ha capito che sono un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] nobile."
  journey_events.53.a.tt: "È ora di tornare a casa, prima che qualcuno si preoccupi troppo della mia assenza."
 
@@ -114,7 +113,7 @@
  journey_events.57.desc: "Nonostante i miei sforzi per affibbiare la colpa al mio [threat_1.GetCouncilTitle], [threat_1.GetFirstName], vengo costantemente interrott[ROOT.Char.Custom('DE_END_PRO_S_N')] da voci e commenti sprezzanti [ROOT.Char.Custom('IT_NAM_COL')][ROOT.Char.GetTitledFirstName], ossia su di me.\n\nPrima che me ne renda conto, la serata arriva alla conclusione e tutti se ne vanno con un'opinione sul mio conto ancora più negativa di quando ero arrivat[ROOT.Char.Custom('DE_END_PRO_S_N')]. Dannazione, com'è potuto accadere?"
  journey_events.57.a: "Chi avrebbe mai pensato che fossi così impopolare?"
  journey_events.57.a.tt: "Beh... Non così produttiva come speravo, ma ho trascorso comunque una serata memorabile..."
- 
+
  journey_events.60.t: "Enlightenment"
  journey_events.60.desc_intro: "As of late, I have been burdened with unease. The [journey_province.Custom('TerrainTypeProvincePrefix')] [journey_county.Custom('TerrainTypeCountyScopePlural')] in [journey_county.GetNameNoTierNoTooltip] have been lovely, but it cannot fill the unending sense of emptiness.\n\nWhile going about my usual bidding, "
  journey_events.60.desc_courtly: "I walk into [journey_county.GetHolder.GetNamePossessive] court, and watch [journey_county.GetHolder.GetHerHim] preside over it. The lords and ladies of [journey_county.GetHolder.GetPrimaryTitle.GetNameNoTierNoTooltip] gather around [journey_county.GetHolder.GetHerHim] solemnly, as petitioners begin to arrive. All present themselves to the [journey_county.GetHolder.GetTitleTierName] with dignity, albeit to ask for [journey_county.GetHolder.GetHerHis] gold or support. No matter how dull nor trivial the request, [journey_county.GetHolder.GetSheHe] listens attentively, and offers a fair judgement."

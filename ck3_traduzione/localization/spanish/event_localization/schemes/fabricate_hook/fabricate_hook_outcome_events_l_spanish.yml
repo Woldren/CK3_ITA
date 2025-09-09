@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  fabricate_hook_header:0 "Fabbrica Gancio:"
  fabricate_hook_hook_gained_on_you:0 "@warning_icon [owner.GetShortUIName] ha fabbricato un [hook|E] su di te!"
 

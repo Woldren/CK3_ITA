@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  KILL_LIST:1 "Uccisioni"
  OPEN_KILL_LIST_TOOLTIP:4 "#T Visualizza Uccisioni\n#!Visualizza tutti i Personaggi uccisi da [Character.GetFirstNameNoTooltip], [Character.LocalPlayerString( 'se vuoi abbandonarti ai ricordi...', 'di cui sei a conoscenza...' )]"
  ARTIFACT_KILL_LIST:0 "Uccisioni [ArtifactKillListWindow.GetArtifact.GetName|U]"

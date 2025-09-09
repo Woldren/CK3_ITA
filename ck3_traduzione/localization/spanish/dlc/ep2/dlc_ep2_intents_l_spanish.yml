@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # Intents
  reduce_stress_intent:1 "Svagarsi"
 
@@ -9,7 +9,7 @@
 
  woo_attendee_intent:0 "Sedurre"
  woo_attendee_intent_desc:0 "Hai in mente una sola cosa: sedurre il tuo bersaglio. Questo porta spesso a eventi e opzioni speciali per soddisfare questo tuo desiderio."
-
+ 
  impose_obedience_intent: "Imporre l'Obbedienza"
  impose_obedience_intent_desc: "Una dimostrazione di forza è l'unica cosa che hai in testa. Ciò spesso porta a delle opportunità di guadagnare l'[obedience|E] del tuo bersaglio."
 

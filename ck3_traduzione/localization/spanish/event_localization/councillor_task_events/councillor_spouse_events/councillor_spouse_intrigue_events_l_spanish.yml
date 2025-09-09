@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  councillor_spouse_intrigue.0001.message:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] e il [spymaster.GetCouncilTitle] Cooperano"
 
  councillor_spouse_intrigue.0002.message:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Rivela il Complotto"

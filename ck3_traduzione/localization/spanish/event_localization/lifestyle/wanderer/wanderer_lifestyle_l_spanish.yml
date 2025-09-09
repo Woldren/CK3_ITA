@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  wanderer_lifestyle_events.10.t: "Sogni di un Viaggio"
  wanderer_lifestyle_events.10.desc: "Questa stanza, queste pareti, questa maledetta sedia... Ne ho abbastanza di tutto questo.\n\nHo #emp bisogno#! di andarmene da qui. Di andare da qualche altra parte. Da #emp qualsiasi#! altra parte.\n\nOgni giorno che trascorro qui, in questa orribile stanza, è come se mi venisse portato via un pezzo della mia vita."
  wanderer_lifestyle_events.10.a: "Ho bisogno di una pausa da tutto questo..."
@@ -74,11 +74,8 @@
  wanderer_lifestyle_events.40.language_tt.fail: "The situation becomes more confusing, and you still end up paying a bit more"
  wanderer_lifestyle_events.40.barter_tt: "You attempt to #EMP convince#! [provisions_merchant.GetName] into giving you the local discount"
  wanderer_lifestyle_events.40.barter_tt.success: "[provisions_merchant.GetSheHe|U] is impressed by your efforts, offering you the lower price"
-
-
  wanderer_exotic_animal_modifier: "Animale Esotico"
  wanderer_exotic_animal_modifier_desc: "Non c'è niente di più impressionante di un animale esotico che nessun altro ha mai visto prima!"
-
  wanderer_lifestyle_events.40.success_title: "You successfully barter with [provisions_merchant.GetHerHim]"
  wanderer_lifestyle_events.40.fail_title: "[provisions_merchant.GetFirstNameNoTooltip] isn't impressed"
 

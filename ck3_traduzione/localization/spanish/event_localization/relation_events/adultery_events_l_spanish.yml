@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  adultery.0002.t:0 "Qualcun Altro"
  adultery.0002.consort_start.desc:0 "[lover_spouse.Custom2('MyCharacterIntroduction', ROOT.Char)|U] è ancora una volta assente dalla nostra [ROOT.Char.Custom('GetChamber')|l] al calar della notte. Ultimamente è stat[lover_spouse.Custom('DE_END_PRO_S_N')] lontan[lover_spouse.Custom('DE_END_PRO_S_N')], pers[lover_spouse.Custom('DE_END_PRO_S_N')] nei suoi pensieri e raramente è stata vist[lover_spouse.Custom('DE_END_PRO_S_N')] nella [ROOT.Char.Custom('GetCourt')|l]."

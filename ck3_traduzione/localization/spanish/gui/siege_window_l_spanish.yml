@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  SW_TT_TIMER:1 "#T Prossimo evento di [siege|E]: #V $DAYS$#!#!\nOgni $TOTAL$ si verifica un nuovo Evento d'Assedio"
  SW_TT_TIMER_FROZEN:0 "Non si verificherà nessun Evento d'[siege|E].\n"
  #SW_TT_CLOSE:1 "" delete this
@@ -35,7 +35,6 @@
  SIEGE_ACTION_STARVATION_LEVEL_1:0 "In esaurimento"
  SIEGE_ACTION_STARVATION_LEVEL_2:0 "Carestia"
  SIEGE_ACTION_DISEASE_DESC:2 "$STATE$"
- SIEGE_ACTION_DISEASE_LEVEL_0:0 "Nessuna Malattia"
  SIEGE_ACTION_DISEASE_LEVEL_0:0 "Normale"
  SIEGE_ACTION_DISEASE_LEVEL_1:0 "Malattia in Diffusione"
  SIEGE_ACTION_DISEASE_LEVEL_2:0 "Malattia Dilagante"

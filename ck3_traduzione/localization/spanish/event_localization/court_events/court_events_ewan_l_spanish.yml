@@ -1,9 +1,9 @@
-﻿l_spanish:
+l_spanish:
  ##################################################
  # #Misc
 
  ##################################################
- # CLIENTELA
+ # PATRONAGE
  court.2001.t:0 "Leccapiedi in Competizione"
  court.2001.desc:0 "Né [crony_a.GetFirstName] né [crony_b.GetFirstName] si accorgono di me, mentre mi avvicino lentamente a loro nel corridoio, e sento la loro vivace conversazione.\n\n"La supplica #EMP fisica#! è la chiave! Ogni livido prodotto dallo sfegamento del mio ginocchio sul pavimento è moneta sonante nella mia borsa! Con la prostrazione non puoi davvero fallire."\n\n"Sciocchezze, basta continuare a impilare aggettivi davanti al suo titolo e sarai ricc[crony_b.Custom('DE_END_PRO_S_N')] finché campi. Se hai ancora aria nei polmoni prima di diventare '[ROOT.Char.GetTitleAsNameNoTooltip]' non stai facendo la cosa giusta."\n\nTossisco, I cough, zittendo istantaneamente i mortificati leccapiedi."
  court.2001.a:0 "Onestamente, potreste metterci più impegno."
@@ -15,7 +15,7 @@
  court.2001.d:0 "Non voglio abbassarmi a certe cose."
 
  ##################################################
- # REGALITÀ
+ # MAJESTY
  court.2201.t:0 "Una Fetta della Torta"
  court.2201.desc:0 ""...appartiene a me! Dividere [ROOT.Char.GetPrimaryTitle.GetNameNoTier] fra diversi eredi non ha alcun senso!" urla [eldest_heir.GetFirstName] mentre [eldest_heir.GetSheHe] e [younger_heir.Custom2('HerHisCharacterIntroduction', eldest_heir)] litigano animatamente dall'altra parte della stanza. "Stiamo condannando il regno ai massacri e alla guerra civile. Nostr[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetMotherFather|U] dovrebbe lasciare a #EMP me#! tutte le sue terre!"\n\n"Massacri? Guerra civile? Di preciso, #EMP cosa#! hai pianificato per quando sarai [ROOT.Char.GetTitleAsNameNoTooltip]?" sbuffa [younger_heir.GetFirstNameNoTooltip]. "Saresti davvero un mostro come sovran[younger_heir.Custom('DE_END_PRO_S_N')] se questo è ciò che pensi della tua stessa famiglia prima ancora che la corona abbia anche solo #EMP toccato#! il tuo brutto cranio".\n\nLa loro accesa litigata mi fa venire mal di testa."
  court.2201.a:0 "Diritto ad avere #EMP di più#!, [eldest_heir.GetFirstNameNoTooltip]? Che ne dici, invece, di... #EMP niente#!!"
@@ -24,7 +24,7 @@
  court.2201.d:0 "Figli, volete conoscere il vero significato della parola famiglia?"
 
  ##################################################
- # OSPITI STRANIERI
+ # FOREIGN GUESTS
  court.2401.t:0 "Stile di Seconda Mano"
  court.2401.desc:1 "«I migliori abiti del Paese, buon[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip], soprattutto perché #EMP non sono#! di questo Paese», ridacchia [seller.GetFirstName] mentre passo davanti alla porta aperta della sua camera. La sua voce è ammaliante, ma nonostante questo l'altro mio cortigiano sembra dubitare dell'affare.\n\n«Quasi nuovi, anzi pari al nuovo, arrivano direttamente da chi detta le tendenze alla corte [grander_ruler.Custom('IT_NAM_COL2')][grander_ruler.GetTitledFirstNamePossessive]! Questi abiti sono ciò che #EMP tutti#! [grander_ruler.GetPrimaryTitle.Custom('IT_COU_COL2')][grander_ruler.GetPrimaryTitle.GetName] indosseranno la prossima stagione.»\n\n"
  court.2401.a:0 "Accidenti, quegli abiti sono davvero attraenti..."

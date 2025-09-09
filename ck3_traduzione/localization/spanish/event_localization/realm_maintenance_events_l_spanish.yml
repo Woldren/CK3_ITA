@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  realm_maintenance.1001.t:0 "Un nuovo [liege|E]"
  realm_maintenance.1001.conquest:0 "[new_liege.GetTitledFirstName] è diventat[new_liege.Custom('DE_END_PRO_S_N')] il tuo nuovo [liege|E] per diritto di conquista"
  realm_maintenance.1001.conquest_holy_war:0 "[new_liege.GetTitledFirstName] è diventat[new_liege.Custom('DE_END_PRO_S_N')] il tuo nuovo [liege|E] dopo aver liberato le tue terre dal [old_liege.Custom2('GetUnbelieverTermAdjective', ROOT.Char)] dominio di [old_liege.GetTitledFirstNamePossessive]!"
@@ -22,10 +22,10 @@
  realm_maintenance.1001.appointment_succession: "$realm_maintenance.1001.appointment$"
  realm_maintenance.1001.stepped_down: "[new_liege.Custom('IT_NAM_COL3')][new_liege.GetTitledFirstName] è diventat[new_liege.Custom('DE_END_PRO_S_N')] il tuo nuovo [liege|E] dopo l'abdicazione di [old_liege.GetTitledFirstName]"
  realm_maintenance.1001.error:1 "[new_liege.Custom('IT_NAM_COL3')][new_liege.GetTitledFirstName] è diventat[new_liege.Custom('DE_END_PRO_S_N')] il tuo nuovo [liege|E], ma non sai perché!"
-
+ 
  realm_maintenance.2001.t:0 "[ROOT.Char.Custom('DE_ART_DEF_P_D')] Nuov[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip|U]"
- realm_maintenance.2001.desc_murdered:0 "A seguito della tragica e #EMP sfortunata#! morte di [previous_holder.Custom2('MyCharacterIntroduction', ROOT.Char)] la responsabilità di guidare il vasto [title.GetTierAsNameNoTooltip] ora ricade sulle mie spalle."
- realm_maintenance.2001.desc_dead:0 "Con la morte di [previous_holder.Custom2('MyCharacterIntroduction', ROOT.Char)] la responsabilità di guidare il vasto [title.GetTierAsNameNoTooltip] ora ricade sulle mie spalle."
+ realm_maintenance.2001.desc_murdered:0 "A seguito della tragica e #EMP sfortunata#! morte di [previous_holder.Custom2('MyCharacterIntroduction', ROOT.Char)] la responsabilità di guidare il vasto [title.GetTierAsNameNoTooltip] ora ricade sulle mie spalle." #controllare_modifica
+ realm_maintenance.2001.desc_dead:0 "Con la morte di [previous_holder.Custom2('MyCharacterIntroduction', ROOT.Char)] la responsabilità di guidare il vasto [title.GetTierAsNameNoTooltip] ora ricade sulle mie spalle." #controllare_modifica
  realm_maintenance.2001.desc_alive:0 "Adesso tocca a me guidare il vasto [title.GetTierAsNameNoTooltip] che (il) [previous_holder.Custom2('MyCharacterIntroduction', ROOT.Char)] si è lasciat[previous_holder.Custom('DE_END_PRO_S_N')] alle spalle."
  realm_maintenance.2001.desc:0 "\n\nSono in piedi davanti ai miei vassalli, aggiusto la mia nuova corona, e ammiro. Oh, le cose che realizzerò!"
  realm_maintenance.2001.a:0 "Lunga vita [ROOT.Char.Custom('IT_NAM_COL4')][ROOT.Char.GetTitleAsNameNoTooltip]!"

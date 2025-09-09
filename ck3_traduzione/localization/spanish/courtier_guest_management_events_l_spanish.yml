@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  courtier_guest_management.0001.t:4 "Tu[child.Custom('DE_END_PRO_S_N')] [SCOPE.sC('liege').Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetShortUINameNoTooltip], sta per lasciare La Corte"
  courtier_guest_management.desc:0 "[child.GetTitledFirstName] non ha motivo di restare a corte e presto se ne andrà"
 

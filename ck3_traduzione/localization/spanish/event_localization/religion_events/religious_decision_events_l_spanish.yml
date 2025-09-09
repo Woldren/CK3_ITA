@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  religious_decision.0001.t:0 "Adorcismo"
  religious_decision.0001.desc: "Il mio [ROOT.Char.Custom('MyPriestTitle')] [realm_priest.GetFirstName] mi porta in una tranquilla conca vicino a un piccolo ruscello, dove lo scorrere costante dell'acqua sulle rocce crea un'atmosfera rilassante.\n\n"Agli spiriti piace questo posto, [ROOT.Char.GetFirstNameNoTooltip]. Questo è il luogo migliore per chiedere aiuto."\n\nTenendo in mano due cesti che [realm_priest.GetFirstNameNoTooltip] ha portato con sé, [realm_priest.Custom('DE_ART_IND_A')] aggiunge: "Adesso dobbiamo decidere che tipo di offerta dovremmo lasciare per loro.""
  religious_decision.0001.desc_landless: "Vagando per la natura selvaggia con i miei cesti di offerte, individuo subito un ruscello sereno, nascosto nell'apertura di una grotta.\n\nL'aria è densa della presenza di spiriti.\n\nTuttavia, non sapendo esattamente quali di loro sono presenti, rifletto sul contenuto dei miei cesti. Che cosa dovrei offrirgli?"
@@ -62,7 +62,7 @@
  religious_decision.0102.freyr:0 "Freyr, Signore e Protettore!"
  religious_decision.0102.optout:0 "$religious_decision.0101.flavor$"
  religious_decision.0102.flavor:0 "$religious_decision.0101.flavor$"
- 
+
  religious_decision.0201.t:0 "Meditare in Isolamento"
  religious_decision.0201.desc:0 "Intraprendere un viaggio interiore attraverso la meditazione non è una cosa banale. Saranno necessari molti preparativi, l'ultimo dei quali è decidere dove ritirarmi.\n\nIl luogo in cui sceglierò di meditare influenzerà pesantemente il risultato del mio viaggio."
  religious_decision.0201.home:0 "La comodità del mio stesso [ROOT.Char.Custom('ResidenceBuilding')]."
@@ -114,7 +114,7 @@
  religious_decision.0211.a.failure:0 "Ahimè..."
  religious_decision.0211.experience:0 "Migliori la tua abilità nella meditazione"
  religious_decision.0291.toast:1 "Hai concluso la tua meditazione"
- 
+
  religious_decision.0302.t:0 "Sepoltura in Cielo"
  religious_decision.0302.desc.wilderness:0 ""Come da tradizione, un piccolo gruppo della mia [ROOT.Char.Custom('GetCourt')|l] si è riunito per marciare con il corpo di [ROOT.Var('ancestor_to_bury').Char.GetFirstNamePossessive] nel deserto in modo da poter[ROOT.Var('ancestor_to_bury').Custom('DE_PRO_DEM')] dare una vera e propria sepoltura.\n\nNotando la processione, non è passato molto tempo prima che gli avvoltoi iniziassero a girare in cerchio sopra di lui. Ansiosi ma non impazienti, hanno aspettato che dicessimo le nostre ultime parole e partissimo prima di scendere a banchettare."
  religious_decision.0302.desc.zoroastrian:0 "Nell'interesse di evitare la contaminazione da parte del demone cadavere Nasu, non mi è permesso entrare nella Torre Dakhma dove [ROOT.Var('ancestor_to_bury').Char.GetFirstNamePossessive] corpo sarà asportato.\n\nInvece, diversi/e [ROOT.Char.GetFaith.PriestNeuterPlural] che sono stati specificatamente addestrati nella gestione dei cadaveri prendono il suo cadavere, scortandolo in cima alla torre.\n\nDopo un po' di tempo, i [ROOT.Char.GetFaith.PriestNeuterPlural] ritornano. "È fatta, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip]. Ora gli uccelli carogne setacciano la sua la carne del corpo e i raggi del sole sbiancheranno le sue ossa.""
@@ -129,7 +129,7 @@
  religious_decision.0401.desc.betrayal:0 "i miei alleati non sono chi pensavo fossero."
  religious_decision.0401.desc.new_beginnings:0 "è tempo di nuovi inizi e menti aperte."
  religious_decision.0401.a:0 "Mi chiedo cos'altro ci riserverà il futuro?"
- #tradurre da 124 a 161
+ 
  religious_decision.0501.t:0 "[ROOT.Char.Custom('DE_ART_DEF_P_D')] [ROOT.Char.GetTitleAsNameNoTooltip] e la Fede [ROOT.Char.GetFaith.GetAdherentNameNoTooltip]"
  religious_decision.0501.desc:1 "Per generazioni, la nobilità di [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] ha professato la devozione verso la fede [ROOT.Char.GetFaith.GetAdherentNameNoTooltip], ma il pluralismo relgioso con gli Dei locali è stato una consuetudine nella società [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]. Tuttavia, con la restaurazione del Sommo Sacerdozio, [ROOT.Char.GetFaith.ReligiousHeadTitleName] [ROOT.Char.GetFaith.ReligiousHeadName] insiste affinché questa pratica pagana abbia fine e chiede che tutti coloro che giurano fedeltà al Khan debbano anche giurare fedeltà a Dio e adorarlo nel modo corretto.\n\nTuttavia, in quanto [ROOT.Char.GetTitleAsNameNoTooltip], Tuttavia, sono io che ho l'autorità di decidere sul futuro della fede a [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] e il futuro della Steppa risiede nella mia parola."
  religious_decision.0501.a:0 "Un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] buon[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip] permette alla sua gente di seguire la propria via."
@@ -152,7 +152,7 @@
  religious_decision.0503.a.jewish:0 "L'chaim!"
  religious_decision.0503.a.non_jewish:0 "Sarà meglio che inizi a far pratica."
  religious_decision.0503.b:0 "Non posso parlare una lingua tanto strana!"
- 
+
  religious_decision.0601.t:0 "Dividere l'Umma: [founder.GetFaith.GetAdjectiveNoTooltip] [founder.GetFaith.ReligiousHeadTitleName|U]"
  religious_decision.0601.desc:0 "Senza una #EMP vera#! guida, siamo perduti.\n\n[old_caliph.Custom('DE_ART_DEF_P_D')] [old_caliph.GetTitledFirstName] non ha fornito una tale guida a noi [founder.GetFaith.GetAdherentNamePlural] da quando ha ottenuto il posto, e altri della mia fede hanno sofferto per la sua mancanza di consiglio, autorità e giurisprudenza.\n\nCol cuore pesante, e l'appoggio di alcuni degli ecclesiastici più influenti del mondo [founder.GetFaith.GetAdjectiveNoTooltip], ho dichiarato che è l'instancabile volere di [founder.GetFaith.HighGodName] che io assuma l'incarico di [founder.GetFaith.ReligiousHeadTitleName].\n\nIo e i miei eredi lo terremo da oggi fino al Giorno del Giudizio e, sotto la guida della mia mano ferma, i veri credenti nel mondo prospereranno!"
  religious_decision.0601.a:0 "Adesso porto questo pesante fardello..."
@@ -174,4 +174,3 @@
  religious_decision.0603.a:0 "Maledetto! Bastardo! Bestemmiatore!"
  religious_decision.0603.b:0 "[old_caliph.GetTitledFirstNameNoTooltip] non riesce a tenere in ordine la sua casa..."
  religious_decision.0603.c:0 "Ha! Che grande dramma!"
-

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  designate_gruesome_festivals_sacrifice_interaction:0 "Designa come Sacrificio"
  designate_gruesome_festivals_sacrifice_interaction_desc:0 "Scegli [recipient.GetShortUINameNoTooltip] come tuo [designate_chief_sacrifice_chief_sacrifice|E] personale alla prossima [actor.Custom('GruesomeFestivalName')]"
  designate_gruesome_festivals_sacrifice_interaction.recipient.notification.t:0 "Scelto per il Sacrificio Umano"

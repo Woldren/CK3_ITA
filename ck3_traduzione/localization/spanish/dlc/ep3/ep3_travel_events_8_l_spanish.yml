@@ -1,4 +1,4 @@
-﻿l_spanish: 
+l_spanish:
 
  ep3_travel_events.8000.t: "Appartenere a un Luogo"
  ep3_travel_events.8000.desc.intro: "Fin dal loro incontro casuale a [location.GetName], [romantic_child.Custom('DE_ART_DEF_P_A')] mi[romantic_child.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', romantic_child)] [romantic_child.GetName] e [prospective_prince.GetName] sono diventati assolutamente inseparabili. Anche se siamo privi di terre o titoli, [prospective_prince.Custom('DE_ART_DEF_P_A')] [prospective_prince.Custom('GetDaughterSon')] di [prince_parent.GetTitleAsNameNoTooltip|U] è completamente pres[prospective_prince.Custom('DE_END_PRO_S_N')] dall'infatuazione. Un corteggiamento affascinante da vedere, ma ora è arrivato il momento che i due si separino, mentre noi andiamo avanti per altre imprese.\n\n"Oh, [ROOT.Char.GetMotherFather],"

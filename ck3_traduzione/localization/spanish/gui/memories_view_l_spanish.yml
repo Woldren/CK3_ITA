@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  MEMORIES_WINDOW_HEADING:0 "[Select_CString( MemoriesWindow.GetCharacter.IsValid, 'Ricordi di ', '')][Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetFirstNameNoTooltip, 'Nessun ricordo')]"
  MEMORIES_WINDOW_ENTRY:0 "[CharacterMemory.GetDescription|U]."
  MEMORIES_WINDOW_COPY_ENTRY:0 "[CharacterMemory.GetCreationDate.GetString]\n[CharacterMemory.GetDescription|U].\n\n"

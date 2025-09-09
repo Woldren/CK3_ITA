@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  DEFAULT_NICKNAME_DESC:2 "Amici e nemici in tutto il paese conoscono [CHARACTER.GetShortUINameNoTooltipNoFormat] come '[CHARACTER.GetNicknameNoTooltip]'."
 
  nick_tiny:0 "[CHARACTER.Custom('DE_ART_DEF_P_A')] Piccol[CHARACTER.Custom('DE_END_PRO_S_N')]"
@@ -585,7 +585,6 @@
  nick_the_pagan_desc:1 "Molti intendono prendere in giro [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetShortUINameNoTooltipNoFormat] quando [CHARACTER.Custom('DE_PRO_POS_P_3P')] marchiano in questo modo. Lasciateli fare. [CharYouSheHe(CHARACTER)|U] conosce la verità."
  nick_the_heretic:0 "l'Eretic[CHARACTER.Custom('DE_END_PRO_S_N')]"
  nick_the_heretic_desc:1 "La conversione in [CHARACTER.GetFaith.GetName] [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] è stata così drammatica che è una delle cose che la gente ricorda di più di [CharYouSheHe(CHARACTER)]."
-                               
  nick_the_savage:0 "[CHARACTER.Custom('DE_ART_DEF_P_A')] Selvaggi[CHARACTER.Custom('DE_END_PRO_S_N')]"
  nick_the_savage_desc:1 "Non c’è niente e nessuno che [CharYouSheHe(CHARACTER)] esiterebbe a fare a pezzi. Uomo, donna, bambino, cane — [CharYouSheHe(CHARACTER)] li ucciderà tutti, e che sia [CHARACTER.GetFaith.HighGodName] a giudicarli."
  nick_the_defiant:0 "[CHARACTER.Custom('DE_ART_DEF_P_A')] Ribelle"
@@ -629,7 +628,7 @@
  nick_of_clairvaux:0 "di Clairvaux"
  # I really, sincerely hate the Problem of the Three Bernards.
  ## Not least because there's more than three of them.
- ### I realise that Clairvaux is not in Occitania but I had to slog through dozens of Occitan/Catalan Bernards and now the greater French region's Bernard population are hopelessly tainted for me.
+ ### I realize that Clairvaux is not in Occitania but I had to slog through dozens of Occitan/Catalan Bernards and now the greater French region's Bernard population are hopelessly tainted for me.
  nick_of_clairvaux_desc:1 "La sua origine è importante per distinguerl[CHARACTER.Custom('DE_END_PRO_S_N')] da un numero francamente ridicolo di Bernards concorrenti."
  nick_the_headless:0 "[CHARACTER.Custom('DE_ART_DEF_P_A')] Senza-Testa"
  nick_the_headless_desc:1 "Rapido e diretto. Proprio come la sua fine."
@@ -657,7 +656,6 @@
  nick_health_god_mercy_desc:1 "Nonostante i sordidi inizi, [CharYouSheHe(CHARACTER)] ha trovato la sua strada nel mondo della medicina e si è fatt[CHARACTER.Custom('DE_END_PRO_S_N')] un nome curando i poveri."
  nick_genghis_khan:0 "Genghis Khan"
  nick_genghis_khan_desc:1 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUINameNoTooltipNoFormat)|U] [è la punizione di [CHARACTER.GetFaith.HighGodName] per tutti i peccati del mondo - perché se il mondo non fosse pieno di peccatori, [CHARACTER.GetFaith.HighGodName] non avrebbe mandato uno come #EMP [CharYouSheHe(CHARACTER)]#! per punirli?"
-# 1.16.1
  nick_cengiz_khan: "Cengiz Khan"
  nick_cengiz_khan_desc: "$nick_genghis_khan_desc$"
  nick_yekhe_khagan: "Yekhe Khagan"
@@ -676,7 +674,7 @@
  nick_culture_khagan_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] revered as the greatest of all the [CHARACTER.GetCulture.GetCollectiveNounNoTooltip], and [CharYourHerHis(CHARACTER)] [CHARACTER.GetCulture.GetCollectiveNounNoTooltip] — the children of destiny, the horsemen who trample cities, who wield the swords and whips of empire!"
  nick_akhshunwar: "Akhshunwar"
  nick_akhshunwar_desc: "Long have the masters of the Silk Road bore high titles like #EMP Ikhshid#!, #EMP Shahanshah#!, and #EMP Akhshunwar#!, but none before have been worthy as [CHARACTER.GetShortUINameNoTooltipNoFormat] to hold the honorific 'power-bearer'!"
-# ---------------------------------
+
  nick_fabulous_she_he:0 "[CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetFirstNameNoTooltip|U] Favolos[CHARACTER.Custom('DE_END_PRO_S_N')]"
  nick_fabulous_she_he_desc:2 "Non è raro che gli osservatori occasionali si inginocchino in segno di rispetto al passaggio di questa persona."
  nick_the_wary:0 "[CHARACTER.[CHARACTER.Custom('DE_ART_DEF_P_A')] Prudente"
@@ -789,7 +787,6 @@
  nick_the_smelly_desc:0 "In qualche modo, #EMP persiste#!."
  nick_the_venator:0 "il Venator"
  nick_the_venator_desc:1 "Nessun semplice animale può sottrarsi al suo acuto istinto di caccia ."
-
 
  # EP2
  nick_the_dirty:0 "[CHARACTER.Custom('DE_PRO_POS_P_3P')] Sporc[CHARACTER.Custom('DE_END_PRO_S_N')]"
@@ -1052,7 +1049,7 @@
  nick_the_abominable_desc:1 "L'aspetto [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] abbinato al suo terribile contegno invita a paragonarlo a bestie orribili."
  nick_bloody_hand:0 "la Mano Insanguinata"
 
- #FP3   
+#FP3
  nick_the_coppersmith: "[CHARACTER.Custom('DE_ART_DEF_P_A')] Ramai[CHARACTER.Custom('DE_END_PRO_S_N')]"
  nick_the_eagle_of_arasbaran: "l'Aquila di Arasbaran"
  nick_the_eagle_of_arasbaran_desc: "[CHARACTER.Custom('IT_NAM_COL3')|U][Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUINameNoTooltipNoFormat)|U] ha restaurato una grande fortezza sulle montagne di Arasbaran."
@@ -1107,7 +1104,7 @@
  nick_chief_of_the_zanj_desc: "Essendo stato adottato dai maltrattati braccianti dello Zanj come loro capo nella lotta per la libertà, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CHARACTER.LocalPlayerString( 'sei', 'è' )] conosciuto come il Capo degli Zanj."
  nick_albaghid: "Albaghid"
  nick_albaghid_desc:0 "Sebbene alcuni l[CHARACTER.Custom('DE_END_PRO_S_N')] descrivano come un[CHARACTER.Custom('DE_PRO_POS_P_2P')] rivoluzionari[CHARACTER.Custom('DE_END_PRO_S_N')] idealista, il vagabondare di luogo in luogo [CHARACTER.Custom('IT_NAM_COL2')][Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUINameNoTooltipNoFormat)|U], nel tentativo di sfuggire alle autorità che [CHARACTER.Custom('DE_PRO_DEM')] danno la caccia per le sue numerose rivolte fallite, [CHARACTER.Custom('DE_PRO_DEM')] è vals[CHARACTER.Custom('DE_END_PRO_S_N')] l'epiteto di "Albaghid", l'Abominevole."
-
+ 
  nick_phrangopoulos: "Phrangopoulos"
  nick_phrangopoulos_desc: "Come molti mercenari stranieri provenienti dal lontano Occidente, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CHARACTER.LocalPlayerString( 'sei', 'è' )] not[Select_CString(CHARACTERthe.IsFemale,'a','o')] come "Phrangopoulos" dai Greci: Figli[Select_CString(CHARACTERthe.IsFemale,'a','o')] dei Franchi."
 
@@ -1254,7 +1251,7 @@
  nick_wolf_father_desc: "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUINameNoTooltipNoFormat)|U] [CHARACTER.LocalPlayerString( 'sei', 'è' )] not[Select_CString(CHARACTER.IsFemale,'a','o')] ovunque per aver aiutato una lupa gravida a dare alla luce e a crescere una cucciolata."
  nick_wolf_mother: "la Madre del Lupo"
  nick_wolf_mother_desc: "$nick_wolf_father_desc$"
- 
+
  nick_old_man_of_the_mountain: "il Vecchio della Montagna"
  nick_old_man_of_the_mountain_desc: "Con una lunga barba bianca e un bastone storto, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CHARACTER.LocalPlayerString( 'sei', 'è' )] temut[Select_CString(CHARACTER.IsFemale,'a','o')] dai non credenti per aver organizzato e guidato i temibili Assassini dalla loro fortezza sulla montagna."
 
@@ -1335,8 +1332,8 @@
  nick_lackland_old_desc: "Quanto deve essere stato imbarazzante per [CHARACTER.GetShortUINameNoTooltipNoFormat] entrare in possesso di un patrimonio così consistente, solo per perderne così tanto... e quanto è stato profetico il [CHARACTER.LocalPlayerString( 'tuo', 'suo' )] eponimo."
  nick_curtmantle: "Cortomantello"
  nick_curtmantle_desc: "Un[CHARACTER.Custom('DE_PRO_POS_P_2P')] [CHARACTER.GetWomanMan] pratic[CHARACTER.Custom('DE_END_PRO_S_N')], [CHARACTER.GetShortUINameNoTooltipNoFormat] [CHARACTER.LocalPlayerString( 'sei', 'è' )] not[CHARACTER.Custom('DE_END_PRO_S_N')] per favorire i mantelli da viaggio più corti a scapito di quelli più sgargianti o elaborati."
- nick_the_ploughman: "the Ploughman"
- nick_the_ploughman_desc: "Merely a humble farmer at the time, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] was found at his plough when envoys arrived to summon [CharYouHerHim(CHARACTER)] to take the throne."
+ nick_the_ploughman: "l'Aratore"
+ nick_the_ploughman_desc: "Al tempo a malapena un contadino, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] si trovava al suo aratro quando arrivarono gli inviati per invitarl[CHARACTER.Custom('DE_END_PRO_S_N')] a salire sul trono."
 
  # BP3
  nick_pauper_king: "il Re dei Poveracci"
@@ -1344,9 +1341,6 @@
 
  nick_the_mapmaker: "il Cartografo"
  nick_the_mapmaker_desc: "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUINameNoTooltipNoFormat)|U] [CHARACTER.LocalPlayerString( 'sei', 'è' )] not[CHARACTER.Custom('DE_END_PRO_S_N')] per aver viaggiato molto, ma anche per aver trascorso molto tempo a disegnare mappe delle aree che [CHARACTER.LocalPlayerString( 'hai', 'ha' )] visitato"
-
- nick_the_ploughman: "l'Aratore"
- nick_the_ploughman_desc: "Al tempo a malapena un contadino, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] si trovava al suo aratro quando arrivarono gli inviati per invitarl[CHARACTER.Custom('DE_END_PRO_S_N')] a salire sul trono."
  
  # MPO
  nick_the_dreadful: "the Dreadful"

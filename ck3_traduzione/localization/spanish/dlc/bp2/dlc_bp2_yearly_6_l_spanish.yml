@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 bp2_yearly.6000.t: "Non è il modo di fare della cultura [ROOT.Char.GetCulture.GetNameNoTooltip]"
 bp2_yearly.6000.desc.intro: "Mentre [Select_CString(hosted_child.IsFemale,'mia','mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hosted_child'))] [hosted_child.GetName] si presenta, [tutor.GetName] fa il reseconto di una settimana di insegnamento fallimentare e frustrazioni."
 
@@ -208,7 +208,6 @@ bp2_yearly.6060.different_faith: "Tutte le anime di un regno, con pochi templi e
 
 #My guardian Kopti ensured I knew that, though we share the same faith, with few temples and fewer lettered folk in our land... wisdom slips, like water, through Karluk fingers.
 
-
 bp2_yearly.6060.a: "Ho vissuto solo per questo. Io sono [advanced_culture_faith.GetAdherentNameNoTooltip]."
 bp2_yearly.6060.a.tt: "Chi altro potrebbe unire le nostre fedi? E quale fede migliore per portare ordine spirituale e illuminazione a [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]?"
 
@@ -366,6 +365,7 @@ bp2_yearly.6110.social: "Il mercato. Il modo particolare di parlare in lingua [R
 bp2_yearly.6110.ritual: "Le regole degli dei stranieri differiscono, così mi dicono, quanto quelle degli uomini. E in luoghi diversi, gli uomini godono di cose differenti — mentre i loro dei incoraggiano ciò che vogliono, giusto o sbagliato.\n\nIl [ROOT.Char.GetFaith.HouseOfWorship] è silenziosa, contemplativa.\n\nGli antenati [ROOT.Char.GetCulture.GetHeritage.GetName] di un tempo, e [ROOT.Char.GetFaith.HighGodName], si offenderebbero davvero... se le pratiche del mio popolo cambiassero? Ma quale usanza [advanced_culture.GetName] servì meglio coloro che mi hanno cresciuto?"
 bp2_yearly.6110.regional: "Passeggiando in una sala del trono quasi vuota, lotto con i miei ricordi e i miei sogni.\n\nRivivo le strade di [childhood_location.GetCounty.GetTitle.GetNameNoTier] sovrapposte a una futura [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier], vedo un banchetto [advanced_culture.GetName] su una tavola [ROOT.Char.GetCulture.GetName], guido bande di guerra riorganizzate al loro primo assaggio di vittoria.\n\nCosa rende i [advanced_culture.GetCollectiveNounNoTooltip] così diversi tra i popoli? Una tale usanza può essere adattata, ma inizia dalla mia corte, da me."
 
+
 bp2_yearly.6110.a: "[considered_tradition_1.GetNameNoTooltip]"
 bp2_yearly.6110.b: "[considered_tradition_2.GetNameNoTooltip]"
 bp2_yearly.6110.c: "[considered_tradition_3.GetNameNoTooltip]"
@@ -490,7 +490,7 @@ labored_with_the_commons_modifier_desc: "Conosciuto per aver sgobbato tra stalli
 renowned_knowledge_of_horses_modifier: "Celebre conoscenza dei cavalli"
 renowned_knowledge_of_horses_modifier_desc: "Molti si rivolgono alla saggezza di questo personaggio per curare i mali e rafforzare la salute dei cavalli."
 
-
+ 
 bp2_yearly.6200.t: "Dove i [ROOT.Char.Custom('KnightCulturePluralNoTooltip')] conoscono la pace"
 bp2_yearly.6200.desc: "Mentre il mio consiglio pianifica la difesa di [ROOT.Char.GetPrimaryTitle.GetNameNoTier], il mio ostaggio [hostage.GetName] viene condotto dentro.\n\n"Nobile [ROOT.Char.GetTitleAsName], mi hai trattato bene e con giustizia. Ma con la rovina che incombe, è giusto che a [home_court.GetPrimaryTitle.GetNameNoTier], la mia patria, i [home_court.Custom('KnightCulturePluralNoTooltipLowercase')] restino inattivi, con i loro stendardi ammainati?"\n\n[hostage.GetSheHe|U] si inginocchia.\n\n"Concedimi di viaggiare – porterò il nostro appello di aiuto a [home_court.GetTitledFirstName]! Sono del suo sangue. [home_court.GetSheHe|U] ti sosterrà, per amore mio!""
 bp2_yearly.6200.a: "Va’, e ritorna con il ferro."

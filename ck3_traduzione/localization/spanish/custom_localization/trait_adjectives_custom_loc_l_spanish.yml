@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  trait_desc_wasteful:0 "dispendioso"
  trait_desc_magnanimous:0 "magnanimo"
  trait_desc_munificent:0 "generoso"
@@ -17,3 +17,4 @@
  childhood_trait_activity_curious:0 "impara qualcosa di nuovo"
  childhood_trait_activity_pensive:0 "stai un po' da sol[ROOT.Char.Custom('DE_END_PRO_S_N')]"
  childhood_trait_activity_rowdy:0 "sii l'anima della festa"
+ 

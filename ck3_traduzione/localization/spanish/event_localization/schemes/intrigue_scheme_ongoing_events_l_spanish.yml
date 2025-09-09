@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  intrigue_scheme_ongoing.1001.t:0 "Una Tangente al Momento Giusto"
  intrigue_scheme_ongoing.1001.desc:0 "Sembra che non tutti i servitori alla corte di [scheme.GetTargetCharacter.GetTitledFirstNamePossessive] siano ciecamente leali... [agent.GetFirstName] mi assicura che ha un modo per entrare, e che poche monete nella giusta tasca permettono di fare molta strada."
  intrigue_scheme_ongoing.1001.elope.desc:0 "Sembra che non tutti i servitori alla corte di [scheme.GetTargetCharacter.GetTitledFirstNamePossessive] siano ciecamente leali a [scheme.GetTargetCharacter.GetLiege.GetTitledFirstName]... [agent.GetFirstName] mi assicura di avere un modo per entrare, e che poche monete nella giusta tasca permettono di fare molta strada."
@@ -256,7 +256,7 @@
 
  intrigue_scheme_ongoing.5023.desc:0 ""Non era previsto che tu lo vedessi."\n\nLa voce di [owner.GetTitledFirstNamePossessive] è bassa, ma riesco a sentire la rabbia che c'è in essa. Mentre avvicina la mano alla sua cintura faccio un passo indietro, ma prima di avere il tempo di fare qualcosa [owner.GetSheHe] mi salta addosso, con il coltello in mano."
  intrigue_scheme_ongoing.5023.a:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('owner'))|U], ti prego– Augh!"
- 
+
  intrigue_scheme_ongoing.5024.t:0 "Festeggiamenti nella [province.GetNameNoTooltip|U]"
  intrigue_scheme_ongoing.5024.desc:0 "[agent.GetTitledFirstName] mi dice di una festa locale in [province.GetName], la casa di [target.GetTitledFirstName], è in difficoltà economica.\n\n"Se si facesse, attirerebbe molta gente nella zona, sia alta che bassa; un'opportunità perfetta per un'infiltrazione!""
  intrigue_scheme_ongoing.5024.a:0 "Qui. Assicurati che si faccia."
@@ -274,6 +274,7 @@
  intrigue_scheme_ongoing.5026.b_scholar:0 ""Guardiamo cosa [target.GetFaith.HighGodName] vorrebbe.""
  intrigue_scheme_ongoing.5026.b_scholar_tt:0 "Che coincidenza, quella sarà la stessa cosa che voglio io!"
  intrigue_scheme_ongoing.5026.c:0 "È una cosa tra [target.GetHerHim] e [target.GetFaith.PantheonTerm]."
+
  intrigue_scheme_ongoing.3010.t:0 "[scheme.GetNameNoTooltip]: Segreti [target.GetCulture.GetLanguage.GetNameNoTooltip]"
  intrigue_scheme_ongoing.3010.desc:0 "Come parte del mio piano in corso per [scheme.GetNameNoTooltip|l] [target.GetTitledFirstName], alcuni dei miei tirapiedi intercettano regolarmente le sue lettere. Grazie al fatto che comprendo molto bene la lingua [target.GetCulture.GetLanguage.GetName], potrei leggerli personalmente piuttosto che affidarmi a traduzioni di seconda mano, anche se sicuramente ciò sottrarrà tempo ad alcuni dei miei compiti.\n\nForse così potrei ricavarne delle preziose intuizioni?"
  intrigue_scheme_ongoing.3010.a:0 "Tradurrò la lingua [target.GetCulture.GetLanguage.GetNameNoTooltip] personalmente."
@@ -283,4 +284,3 @@
  intrigue_scheme_ongoing.3011.desc:0 "Nel mio piano per [scheme.GetNameNoTooltip|l] [target.GetFirstName] ho chiesto l'aiuto di [multilingual_agent.GetName] che, a quanto pare, è una specie di enciclopedia quando si tratta di lingue. Usando la sua vasta conoscenza dei vari dialetti, ha creato un codice che afferma essere "inattaccabile".\n\n"Non solo sarebbe necessario un maestro crittografo: avrebbero anche bisogno di capire le sottigliezze della grammatica [language_culture_2.GetLanguage.GetNameNoTooltip], i dettagli dei proverbi della cultura [language_culture.GetLanguage.GetNameNoTooltip], il tutto tenendo presente la struttura delle parole della lingua [multilingual_agent.GetCulture.GetLanguage.GetNameNoTooltip].""
  intrigue_scheme_ongoing.3011.a:0 "Ottima iniziativa."
  intrigue_scheme_ongoing.3011.b:0 "Sembra una perdita di tempo."
-

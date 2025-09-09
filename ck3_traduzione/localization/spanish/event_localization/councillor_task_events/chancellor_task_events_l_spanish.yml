@@ -1,6 +1,7 @@
-﻿l_spanish:
+l_spanish:
  chancellor_task.0991_end_desc:0 "L'opinione di [target_character.GetTitledFirstNamePossessiveNoTooltip] nei tuoi confronti non aumenterà oltre."
  chancellor_task.0991_increase_desc:0 "[target_character.GetTitledFirstNameNoTooltip] è stato colpit[target_character.Custom('DE_END_PRO_S_N')] e onorat[target_character.Custom('DE_END_PRO_S_N')] dal Favore Reale che [target_character.Custom('DE_PRO_DEM')] avete concesso."
+
  chancellor_task.1001.t:0 "Un Nuovo Pretendente"
  chancellor_task.1001.desc:0 "Tra tutte le buffonate a cui io abbia mai dovuto assistere...\n\nNegli inutili tentativi da parte [councillor.Custom('IT_NAM_COL2')][councillor.GetTitledFirstName] di migliorare le mie relazioni con i miei vicini, il mio [councillor.GetCouncilTitle] buono a nulla ha riconosciuto ufficialmente la rivendicazione [neighboring_ruler.Custom('IT_NAM_COL2')][neighboring_ruler.GetTitledFirstName] [target_county.Custom('IT_COU_COL3')][target_county.GetName]"
  chancellor_task.1001.a:0 "Si suppone che tu debba procurarmi degli amici, non dei nemici!"

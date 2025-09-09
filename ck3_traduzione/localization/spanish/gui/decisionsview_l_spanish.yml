@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  DECISIONS_VIEW_TITLE_CONTAINER: "[SelectLocalization( Or( IsAdministrativeRuler( Character ), IsLandlessAdventurer( Character ) ), 'DECISIONS_AND_CONTRACTS_VIEW_TITLE', 'DECISIONS_VIEW_TITLE' )]"
  DECISIONS_VIEW_TITLE:0 "Decisioni"
  DECISIONS_AND_CONTRACTS_VIEW_TITLE: "Decisioni & [GetPlayer.Custom('GetContractOrIssuePlural')]"

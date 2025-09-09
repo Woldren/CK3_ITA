@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  south_asia.0001.t:0 "Una Nuova Era"
  south_asia.0001.desc:0 "Le folle cantano il mio nome mentre sono purificato nelle acque delle sorgenti celesti. Mi alzo come Chakravarti, legittimo e benevolo sovrano del mondo intero.\n\nI miei [ROOT.Char.GetFaith.AltPriestTermPlural] mi dicono che è tempo che il mondo sia guidato dalla mia luce, ma non ho bisogno delle loro rassicurazioni. Mentre guardo attraverso le pianure lo sento nella mia anima."
  south_asia.0001.a:0 "Il mondo chiama il mio nome."
@@ -30,7 +30,7 @@
  south_asia.0013.t:0 "Il Mio Scopo Divino Usurpato"
  south_asia.0013.desc:0 "Con la perdita territoriale, la mia autorità sul Gange non è più rispettata dalle persone e dai/dalle [ROOT.Char.GetFaith.PriestNeuterPlural] del mio reame! Invece [ruler_of_ganges.GetTitledFirstName] ha rivendicato la posizione che una volta era mia come Protettore del Sacro Fiume."
  south_asia.0013.a:0 "Quel nuovo arrivato non è altro che un'impostore!"
- 
+
  south_asia.0021.t:0 "[founder.Custom('DE_ART_DEF_P_D')] [founder.GetTitleAsNameNoTooltip] di $k_bene_israel$"
  south_asia.0021.desc:0 "Costretto a condurre una vita nomade e a vivere in piccole enclave in tutto il mondo, al popolo ebraico è mancata una casa da chiamare propria. I secoli di vagabondaggio, a quanto pare, sono finalmente finiti.\n\n[founder.GetNameNoTooltip] è stato incoronat[founder.Custom('DE_END_PRO_S_N')] [founder.GetTitleAsNameNoTooltip] di $k_bene_israel$. Anche se improbabile, sembra che il popolo ebraico abbia trovato la sua casa lungo la costa occidentale dell'India, con il [founder.GetFaith.ReligiousHeadTitleName] ristabilito e la dichiarazione di una nuova Israele, [founder.Custom('DE_ART_DEF_P_A')] [founder.GetTitledFirstNameNoTooltip] crede di inaugurare [founder.Custom('DE_END_PRO_S_N')] stess[founder.Custom('DE_END_PRO_S_N')] una nuova età dell'oro per i seguaci del giudaismo in tutto il mondo."
  south_asia.0021.a:0 "Una nuova casa per noi!"
@@ -121,6 +121,7 @@
  south_asia.0041.t:0 "Un Regalo dall'Estero"
  south_asia.0041.desc:0 "È il quinto monaco che quest'oggi passa dalla mia corte e che suscita il mio interesse: è raro, infatti, che i membri della Fede agiscano così numerosi alla luce del sole. Un rapido interrogatorio rivela la ragione di questa nuova valanga di fedeli nelle mie terre.\n\n[proselytiser.GetFullName], un[proselytiser.Custom('DE_PRO_POS_P_2P')] Signor[proselytiser.Custom('DE_END_ADJ_IND_S_A')] stranier[proselytiser.Custom('DE_END_PRO_S_N')], ha imposto la Fede [proselytiser.GetFaith.GetAdjective] nel suo regno ed è poi venut[proselytiser.Custom('DE_END_PRO_S_N') a conoscenza delle difficili prove e tribolazioni che i fedeli della nostra comune Fede hanno passato nel mio regno nelle scorse generazioni.\n\nPer questo ha inviato qui molti bhikku, per aiutarci a diffondere e sostenere la Fede nella sua patria ancestrale."
  south_asia.0041.a:0 "Non dimenticherò questo gesto."
+
  
  south_asia.0050.t: "The Realms of Hindustan"
  south_asia.0050.desc: "Mauryas, Kushanas, Guptas, Palas, and Pratiharas, for Millenia the Indo-Gangetic plain has been both the seat and the battleground for many great empires. Some rulers were foreign and many more rose from the subcontinent itself.\n\nThe [founder.GetHouse.GetNameNoTooltip]s are not as ancient but we have carved out a realm of our own where these dynasties all failed. The time has now come for us to build an Empire, and a government apparatus, to rule the myriad of peoples and faiths of that all inhabit these lands."
@@ -135,4 +136,3 @@
  south_asia.0051.c: "Finally a champion of the true faith!"
  south_asia.0051.d: "A concerning development"
  south_asia.0051.e: "$middle_europe_decisions.0016.d$"
-

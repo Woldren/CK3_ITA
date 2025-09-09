@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  steal_back_artifact_outcome.1001.t:0 "$steal_back_artifact_event_title$ Successo!"
  steal_back_artifact_outcome.1001.desc:1 "Provo un grande moto di orgoglio e non posso fare a meno di sorridere quando mi viene presentato il manufatto che ho cercato di recuperare. Il/La [artifact.GetName] ritorna al suo legittimo proprietario!\n\nAnche se forse è un po' ammaccato e sporco per le fatiche del recupero, non posso fare a meno di passare le dita sulla superficie preziosa di questo oggetto rubato... [artifact.GetName], un bel premio!"
  steal_back_artifact_outcome.1001.a:0 "Torna al suo posto, nelle mani giuste."

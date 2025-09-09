@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  MULTIPLAYER_LOBBY_DIFFICULTY_HEADER:0 "Difficoltà:"
  MULTIPLAYER_LOBBY_DIFFICULTY_INFO_TEXT:0 "@warning_icon! #X [Character.GetDifficultyInfoText]#!"
  MULTIPLAYER_LOBBY_CHOOSE_RANDOM_CHARACTER:0 "Personaggio casuale"
@@ -19,4 +19,4 @@
  lobby_landless_government_filter_tt: "Clicca per selezionare un [government|e] [unlanded|e] giocabile per filtrare la lista."
  lobby_landless_government_filter: "Filtro Governo Senza Terra"
  lobby_more_domiciles_count: "+[Subtract_int32( LobbyHelperWindow.CountFilteredDomicilesInProvince( Province.Self ), '(int32)1')]"
- 
+

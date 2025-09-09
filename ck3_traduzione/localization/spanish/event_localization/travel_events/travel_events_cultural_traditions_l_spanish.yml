@@ -1,5 +1,5 @@
-﻿l_spanish:
-
+l_spanish:
+ 
  travel_events.1200.t:0 "Abitanti Amichevoli"
  travel_events.1200.desc:1 "Mentre ci fermiamo per accamparci fuori da un piccolo villaggio di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], gli abitanti del luogo vengono a dare un'occhiata alla nostra carovana. All'inizio penso che vogliano commerciare con noi, ma presto diventa chiaro che sono venuti per farci dei regali e per imparare il più possibile sulla nostra cultura!\n\n[Select_CString(local_peasant.IsFemale, 'Una', 'Un' )] abitante in particolare, [local_peasant.GetNameNoTooltip], ha un milione di domande sulla nostra provenienza."
  travel_events.1200.a:0 "Devo parlare con loro per saperne di più."

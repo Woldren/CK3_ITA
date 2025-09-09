@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # Extort a Powerful Vassal, by Petter Vilberg
  subject_extortion.0001.t:0 "Estorsione ai Sudditi: Vassallo Potente"
  subject_extortion.0001.desc:0 "[extortion_target.Custom('DE_ART_DEF_P_D')] mi[extortion_target.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extortion_target'))] [extortion_target.GetTitledFirstName] — adesso tocca ad un[extortion_target.Custom('DE_PRO_POS_P_2P')] [extortion_target.GetWomanMan] benestante. A giudicare dalla sua espressione, [extortion_target.Custom('DE_ART_IND_A')] sa già a quale scopo mi sto approcciando a [extortion_target.GetSheHe].\n\n"Io sono leale, pago i miei debiti", insiste [extortion_target.GetSheHe]. "Come potete chiedermi di più?""

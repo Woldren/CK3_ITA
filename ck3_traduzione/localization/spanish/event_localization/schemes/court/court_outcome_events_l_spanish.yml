@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #Unused texts for secrecy event
  court_outcome.0001.t:1 "$court_event_title$ Ora o Mai Più"
  court_outcome.0001.desc:0 "Oh, [target.GetFirstName], mi[target.Custom('DE_END_PRO_S_N')] [target.Custom('LoverPetName')]! Anelo il tuo abbraccio! Penso che morirei senza il dolce nettare dei tuoi baci!\n\nAnche se i miei sentimenti sono puri, ci sono molti che ci giudicherebbero. Dovrei andare da [target.GetSheHe]? O dovrei stare lontan[ROOT.Char.Custom('DE_END_PRO_S_N')]?"

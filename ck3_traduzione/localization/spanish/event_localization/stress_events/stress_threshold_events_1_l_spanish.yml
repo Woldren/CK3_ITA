@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  stress_threshold.1701.t:0 "Esaurimento Nervoso: Tornare a Casa a Riposarsi" #da revisionare
  stress_threshold.1701.desc.intro:0 "Mentre attraverso la mia [ROOT.Char.Custom('GetCourt')], frustrat[ROOT.Char.Custom('DE_END_PRO_S_N')], molti dei miei [ROOT.Char.Custom('GetCourtierPlural')|l] sembrano continuare a lamentarsi incessantemente di qualche problema che stanno affrontando in [capital_province.GetNameNoTooltip].\n\n"
  stress_threshold.1701.desc.lazy:0 "Non ho le energie per preoccuparmene, e voglio disperatamente tornare a letto!"

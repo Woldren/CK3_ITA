@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # Level 1 Stress Events
  stress_threshold_prison.1001.t:0 "Crollo Mentale: problemi di prigione"
  stress_threshold_prison.1001.desc:0 "Essere imprigionato, rinchiuso lontano da tutto ciò che era sano e piacevole nella vita..."
@@ -81,4 +81,3 @@
  stress_threshold_prison.3999.t:1 "Crollo Mentale: libertà"
  stress_threshold_prison.3999.desc:0 "Non riesco più a sopportarlo. La mia mente è più lucida di quanto non lo sia stata da settimane, e so che sono spezzato in più di un modo.\n\nIl mio corpo non è altro che dolore, persino respirare fa male. Le [bg_override_char.Custom('GetDungeon')|l] attorno a me non sembrano più oppressive, ma confortanti. Accoglienti.\n\nSono conscio, in cuor mio, che questi sono i miei ultimi respiri."
  stress_threshold_prison.3999.a:0 "[ROOT.Char.GetFaith.PositiveAfterLife|U] accoglimi."
-

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  innovative_strategy_modifier:0 "Strategia Innovativa"
  hightened_troop_morale_modifier:0 "Morale dei Soldati Migliorato"
  increased_levies_modifier:0 "Aumento delle Leve"
@@ -106,12 +106,12 @@
 
  martial_strategy_reduced_capital_levy_modifier:0 "Diserzione"
  martial_strategy_claimed_divine_right_modifier:0 "Autoproclamato Diritto Divino"
- 
+
  repurposed_billhook_halberd:0 "Alabarde Improvvisate"
  repurposed_billhook_halberd_desc:0 "Questo personaggio ha escogitato un modo per creare alabarde economiche da comuni attrezzi agricoli."
  repurposed_billhook_dagger:0 "Pugnali Improvvisati"
  repurposed_billhook_dagger_desc:0 "Questo personaggio ha escogitato un modo per creare pugnali economici da comuni attrezzi agricoli."
  repurposed_billhook_billhook:0 "Investire in Roncole"
  repurposed_billhook_billhook_desc:0 "Questo personaggio ha un interesse per le attrezzature agricole, e investe in esse di conseguenza."
- 
+
  martial_chivalry_stolen_livestock_modifier:0 "Bestiame Rubato"

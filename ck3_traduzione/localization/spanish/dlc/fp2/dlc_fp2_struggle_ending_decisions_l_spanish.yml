@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ##### Hostility #####
  struggle_iberia_ending_hostility_decision:1 "Dominazione [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
  struggle_iberia_ending_hostility_decision_desc:0 "È tempo che un capo forte trascini finalmente fuori questa penisola dal pantano della guerra e della divisione. L'Iberia sarà unita sotto un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.Custom('GetQueenKing')|l] [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] che sventolerà il vessillo!"
@@ -92,4 +92,3 @@
  struggle_ending_decision_correct_involvement_tt:0 "Tu sei [struggle_involved|E] nella [persian_struggle|E]"
  struggle_ending_decision_correct_involvement_spain_tt:0 "Tu sei [struggle_involved|E] nella [iberian_struggle|E]" 
  must_not_be_persia_involved_tt:0 "Non devi essere [struggle_involved|E] nella [persian_struggle|E]"
-

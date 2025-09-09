@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  IS_AT_WAR_WITH_TRIGGER:0 "È in [war|E] con [TARGET_CHARACTER.GetShortUIName|V]"
  NOT_IS_AT_WAR_WITH_TRIGGER:0 "#bold Non#! è in [war|E] con [TARGET_CHARACTER.GetShortUIName|V]"
@@ -8,7 +8,6 @@
  NOT_THEY_ARE_AT_WAR_WITH_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold non#! è in [war|E] con [TARGET_CHARACTER.GetShortUIName|V]"
  NONE_ARE_AT_WAR_WITH_TRIGGER: "È in [war|E] con te"
  NOT_NONE_ARE_AT_WAR_WITH_TRIGGER: "#bold Non#! è in [war|E] con te"
- 
 
  IS_ALLIED_TO_TRIGGER:0 "È [allied|E] con [TARGET_CHARACTER.GetShortUIName|V]"
  NOT_IS_ALLIED_TO_TRIGGER:0 "#bold Non#! è [allied|E] con [TARGET_CHARACTER.GetShortUIName|V]"
@@ -86,6 +85,7 @@
  HAS_ANY_RELATION_WITH_TARGET:0 "Ha qualche relazione con [TARGET_CHARACTER.GetShortUIName]"
  HAS_MOTHER_TRIGGER:0 "Ha una madre"
  HAS_FATHER_TRIGGER:0 "Ha un padre"
- 
+
  HAS_ARTIFACT_TRIGGER:0 "Possiede un qualsiasi manufatto"
  NOT_HAS_ARTIFACT_TRIGGER:0 "Non possiede manufatti"
+ 

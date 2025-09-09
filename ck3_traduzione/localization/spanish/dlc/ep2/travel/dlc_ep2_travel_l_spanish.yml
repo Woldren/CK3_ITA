@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  TRAVEL_NAME:0 "Viaggio di [Character.GetFirstNamePossessiveNoTooltip] a [Province.GetNameNoTooltip]"
  TRAVEL_NAME_FOR_activity_tour:0 "Grande Viaggio di [Character.GetFirstNamePossessiveNoTooltip]"
  TRAVEL_NAME_FOR_activity_tournament:1 "Viaggio di [Character.GetFirstNamePossessiveNoTooltip] a [Activity.GetNameNoTooltip]"
@@ -15,6 +15,7 @@
  TRAVEL_NAME_FOR_activity_roaming: "$TRAVEL_NAME_FOR_activity_tournament$"
  TRAVEL_NAME_FOR_activity_journey: "$TRAVEL_NAME_FOR_activity_tournament$"
  TRAVEL_NAME_FOR_activity_survey: "$TRAVEL_NAME_FOR_activity_tournament$"
+ TRAVEL_NAME_FOR_activity_coronation: "$TRAVEL_NAME_FOR_activity_tournament$"
 
  TRAVEL_SPEED:1 "[travel_speed|E]"
  TRAVEL_SAFETY:1 "[travel_safety|E]"
@@ -70,7 +71,6 @@
  travel_danger_type_occupation_desc:0 "Questa [barony|E] ha recentemente affrontato una guerra."
  travel_danger_type_epidemic: "Epidemia"
  travel_danger_type_epidemic_desc: "Questa [barony|E] è infettata da un'[epidemic|E]."
- 
 
  travel_danger_type_mountains:0 "Montagne"
  travel_danger_type_mountains_desc:0 "Queste montagne sembrano molto insidiose."

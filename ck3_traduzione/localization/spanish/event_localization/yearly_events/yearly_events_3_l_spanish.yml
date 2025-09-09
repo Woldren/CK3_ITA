@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  yearly.3001.t:0 "Un Utile Avvertimento"
  yearly.3001.desc:0 "Ho ricevuto una missiva da [neighbor.GetName]. [neighbor.Custom('DE_ART_IND_D')] afferma che [vassal.GetTitledFirstName], ha chiesto supporto in un complotto contro di me!\n\n"Non c'è niente che apprezzi di più della lealtà", recita la lettera di [neighbor.GetFirstNamePossessive], "ecco perché condivido questo con te.""
  yearly.3001.friend_backs_neighbor:0 "\n\nFortunatamente [friend.Custom('DE_ART_DEF_P_A')] mi[friend.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('friend'))] [friend.GetFirstName] è lì per consigliarmi. "Ho avuto i miei sospetti su [vassal.GetFirstNameNoTooltip] per un po' di tempo. Questo non fa che confermarli.""

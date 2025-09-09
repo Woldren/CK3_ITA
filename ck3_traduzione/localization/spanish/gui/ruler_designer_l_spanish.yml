@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  RULER_DESIGNER: "Creatore del [Select_CString( Not( RulerDesignerWindow.IsDesigningLandless ), 'Governante', 'Personaggio' )]"
  RULER_DESIGNER_FINALIZE:0 "Conferma"
  RULER_DESIGNER_REGENERATE_PORTRAIT:3 "Randomizza Aspetto"

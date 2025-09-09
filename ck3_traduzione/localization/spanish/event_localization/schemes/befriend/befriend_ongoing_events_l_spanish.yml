@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  befriend_ongoing.0901.t:0 "Amicizia: Cosa sarebbe potuto essere"
  befriend_ongoing.0901.desc:0 "Ho ricevuto notizie scioccanti. [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] è morto.\n\nNon potrò mai più godere della sua amicizia, così ha voluto la sorte."
  befriend_ongoing.0901.a:0 "Il mondo è impietoso e violento."
@@ -219,7 +219,7 @@
  befriend_ongoing.4080.t:0 "Amicizia: Notti Selvagge"
  befriend_ongoing.4080.desc:0 "[target.Custom('DE_ART_DEF_P_D')] [target.GetTitledFirstName] è un[target.Custom('DE_PRO_POS_P_2P')] not[target.Custom('DE_END_PRO_S_N')] festaiol[target.Custom('DE_END_PRO_S_N')] proprio come me. Penso che ci divertiremmo molto se organizzassimo un piccolo incontro per far baldoria.."
  befriend_ongoing.4080.a:0 "Dev'essere fatto!"
-
+ 
  befriend_ongoing.4082.t:0 "Notti Selvagge"
  befriend_ongoing.4082.desc:1 "[owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] mi ha chiesto se mi piacerebbe unirmi ad un piccolo evento goliardico per fare baldoria. [owner.GetSheHe|U] è apparentemente un[owner.Custom('DE_END_PRO_S_N')] festaiol[owner.Custom('DE_END_PRO_S_N')] di una certa notorietà."
  befriend_ongoing.4082.a:0 "Sarà divertente."

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  marriage_interaction.0001.desc.start:0 "A [ROOT.Char.GetFullName],\n\nDopo un'attenta considerazione, ho deciso di rompere "
  marriage_interaction.0001.desc.liegetoliege:0 "il fidanzamento tra [rejecting_betrothed.GetTitledFirstName], e [rejected_betrothed.GetTitledFirstName]."
  marriage_interaction.0001.desc.betrothedtobetrothed:0 "il nostro fidanzamento."

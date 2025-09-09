@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  adventurer_embassies_perk_effect: "[adventurer_i] Abilita l'[interaction|e] #V $contact_list_request_interaction$#! con chiunque sia il proprietario del [domain|e] nel quale è installato il tuo [camp|e]"
  adventurer_defensive_negotiations_perk_effect: "[adventurer_i] Accettazione dei [knights|E] o [men_at_arms|E] per l'[interaction|e] #V $contact_list_request_interaction$#!: #P +25#!"
  adventurer_true_ruler_perk_effect: "[adventurer_i] Accettazione derivante dal [prestige_level|E] per l'[interaction|e] #V $contact_list_request_interaction$#!: #P +20%#!"

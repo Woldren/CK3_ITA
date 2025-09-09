@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  bp1_yearly.9001.t:0 "Un Amico di Legno"
  bp1_yearly.9001.opening:0 "Gli amici sono spesso così volubili e inclini al tradimento, ma il mio più caro amico non mi ha mai tradito. Il mio giocattolo preferito è più di un semplice giocattolo per me, [ROOT.Char.GetSheHe] è [ROOT.Char.Custom('DE_ART_DEF_P_A')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] miglior amic[ROOT.Char.Custom('DE_END_PRO_S_N')].\n\n"
  bp1_yearly.9001.desc.bully:0 "Tuttavia, [bp1_yearly_9001_toy_hater.Custom2('MyCharacterIntroduction', ROOT.Char)] mi ha preso in giro senza sosta davanti agli altri bambini, dicendo che sono così patetico da non riuscire a farmi dei veri amici. Potrei mettere da parte il mio giocattolo preferito e il bullismo cesserebbe sicuramente, ma questo significherebbe abbandonare il mio migliore amico!"

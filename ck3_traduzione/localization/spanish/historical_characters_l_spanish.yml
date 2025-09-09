@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  HISTORICAL_CHARACTER_TOOLTIP: "#T Personaggio Storico#!\n\n#high [Character.Custom('HistoricalCharacterDesc')]#!\n\n#weak Questo personaggio è storico, ma potrebbe deviare rispetto alla sua controparte della vita reale in base alla sua [culture|E] e [faith|E] del suo luogo d'origine. [Character.GetSheHe|U] potrebbe inoltre apparire leggermente al di fuori della sua data storica di riferimento di 1-5 anni.#!"
  danger_dynasty_abandon_tt: "#X @warning_icon! Abbandonerai la tua [dynasty|E] e non potrai più riprendere a giocare nei suoi panni!#!"
  will_wander_tt: "[historical_character.GetFullName] diverrà un [wanderer|E]"
@@ -18,7 +18,7 @@
  mass_conversion_tt: "Concede un utilizzo della [decision|E] #V $legendary_conversion$#!"
  religious_inspiration: "Ispirazione Religiosa"
  religious_inspiration_desc: "Un personaggio che ha un'Ispirazione Religiosa è [inspired|E] a riversare il proprio cuore e la propria anima nella ricerca delle complessità e dei misteri della [faith|E]. Spesso sono grandi riformatori o leader di movimenti religiosi. Questa ispirazione è #EMP molto rara.#!"
-  
+ 
  historical_character.karunakara: "Karunakara fu un famoso generale del re Chola Kulottunga e schiacciò sia i nemici sia i traditori della causa Chola. La vita di Karunakara è narrata nel poema Kalinkkattuparani, dove la sua conquista di Kalinga e il successivo omaggio reso a Kulottunga sono celebrati in modo idealizzato."
  historical_character.sekkilhar: "Da bambino prodigio, Sekkilhar fu reclutato in giovane età da Raja Kulothunga come stimato ministro e uomo di stato. Sekkilhar è noto soprattutto per aver scritto il Periya Puranam, la biografia dei 63 Nayanar Shaiviti in 4253 versi. Alla fine, anche Sekkilhar fu deificato e tuttora è venerato come divinità di processione nella regione."
  historical_character.omar_khayyam: "Omar Khayyam fu un poliedrico studioso persiano dell’XI secolo: poeta, matematico e astronomo. Oggi è principalmente conosciuto per la sua poesia, raccolta ne Il Rubaiyat, ma diede importanti contributi anche all’algebra e all’astronomia in Persia. Il suo lavoro accademico sulla classificazione e risoluzione delle equazioni cubiche rappresenta un traguardo monumentale nella storia della matematica."

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ATTRITION_ICON_TITLE:1 "#T L'esercito andrà incontro a [attrition|E]#!"
  ARMY_EMBARKED_PENALTY:0 "[embarked|E]: @advantage_icon!$EFFECT|0+=$ ($DAYS_LEFT$ giorni)"
  ARMY_RECENTLY_DISEMBARKED_PENALTY:1 "[recently_disembarked|E]: @advantage_icon!$EFFECT|0+=$ ($DAYS_LEFT$ giorni)"

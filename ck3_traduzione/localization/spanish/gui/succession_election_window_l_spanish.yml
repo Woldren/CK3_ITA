@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  SUCCESSION_ELECTION_WINDOW_TITLE:1 "Elezione per l'[title_heir|E]"
  SUCCESSION_ELECTION_WINDOW_CANDIDATES:2 "Candidati ([GetDataModelSize( SuccessionElectionWindow.GetCandidates.GetList )])"
  SUCCESSION_ELECTION_WINDOW_ELECTORS:2 "Elettori ([GetDataModelSize( SuccessionElectionWindow.GetElectors.GetList )])"
@@ -50,4 +50,3 @@
  SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_NOT_MY_DYNASTY:0 "@warning_icon! #X Non fa parte della mia [dynasty|E]#!"
  SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_NOT_MY_DYNASTY_NEWLINE:0 "\n$SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_NOT_MY_DYNASTY$"
  NOMINATE_CANDIDATE_TOOLTIP:0 "[Title.GetCanCharacterControlVoteReason( GetPlayer )][SelectLocalization( ObjectsEqual( Character.GetDynasty, GetPlayer.GetDynasty ), '', 'SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_NOT_MY_DYNASTY_NEWLINE' )]"
-

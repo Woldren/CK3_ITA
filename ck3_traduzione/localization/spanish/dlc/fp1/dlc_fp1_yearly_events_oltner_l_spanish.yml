@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  fp1_yearly.2000.t:0 "Voglia di viaggiare"
  fp1_yearly.2000.desc:0 ""Me ne vado, [parent.GetMotherFather]. Io e [lover_of_child.GetFirstNameNoTooltip] siamo #EMP innamorati#!!"\n\nAlzo lo sguardo al cielo rivolt[ROOT.Char.Custom('DE_END_PRO_S_N')] a [child_to_leave.GetFirstNameNoTooltip]. Che cosa ha in mente #EMP adesso#! quell[child_to_leave.Custom('DE_END_PRO_S_N')] stupid[child_to_leave.Custom('DE_END_PRO_S_N')] di mi[child_to_leave.Custom('DE_END_PRO_S_N')] [child_to_leave.Custom('GetDaughterSon')]?\n\n"[lover_of_child.GetFirstNameNoTooltip] ed io andremo alla ricerca di avventure! Il mondo è vasto, e la gloria mi attende! Desidero gridare al mondo #EMP '[child_to_leave.GetHouse.GetMotto]'#! finché esso non ricordi il mio nome!"\n\nÈ evidente che [child_to_leave.Custom('DE_ART_DEF_P_A')] mi[child_to_leave.Custom('DE_END_PRO_S_N')] amat[child_to_leave.Custom('DE_END_PRO_S_N')] [child_to_leave.Custom('GetDaughterSon')] sta parlando seriamente. Dovrò fare qualcosa."
  fp1_yearly.2000.a:0 ""Vieni qui, [child_to_leave.Custom('GetDaughterSon')] car[child_to_leave.Custom('DE_END_PRO_S_N')], credo sia giunto il tempo di ricorrere alle #EMP maniere forti#!.""
@@ -105,3 +105,4 @@
  fp1_yearly.2601.a:0 "Non vedo l'ora della prossima battaglia!"
  fp1_yearly.2601.b:0 "Questa deve essere stata opera di [ROOT.Char.GetFaith.TricksterGodName]..."
  fp1_yearly.2601.c:0 "Oh be'! Almeno mi sento in gran forma!"
+ 

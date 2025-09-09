@@ -1,4 +1,4 @@
-﻿l_spanish: 
+l_spanish:
  decision_group_type_decisions: "Decisioni"
  decision_group_type_major: "Decisioni Principali"
  decision_group_type_debug: "Debug Decisioni"
@@ -13,3 +13,4 @@
  decision_group_type_nomad_major: "Decisioni Nomadiche Principali"
  decision_group_type_nomad_minor: "Decisioni Nomadiche"
  decision_group_type_realm: "Decisioni del Regno"
+ decision_group_type_oaths: "Oath Decisions"

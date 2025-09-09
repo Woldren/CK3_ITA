@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  PRISON_WINDOW:0 "I Miei Prigionieri"
  PRISONER_TOOLTIP:0 "#weak $TYPE$#!"
  CAN_NOT_RANSOM:0 "[CHARACTER.GetUIName] non può essere riscattato."

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 # Join a touring theater company
  intrigue_dread_special.1101.t:0 "Mettere in Scena uno Spettacolo"
  intrigue_dread_special.1101.desc:0 "La prima cosa che vedo sono due cavalli con briglie decorate di piume che trainano un carro carico di casse e persone.\n\nPoco dopo, io e il mio seguito veniamo avvicinati da un gruppo teatrale itinerante, gente vivace che indossa abiti colorati...\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!"grida un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.Custom('RandomWomanMan')] anzian[ROOT.Char.Custom('DE_END_PRO_S_N')] da un carro che passa: "Vedo che il tuo sguardo è triste. Perché non ti unisci a noi per uno spettacolo?"."
@@ -191,7 +191,7 @@
  intrigue_dread.4102.a:0 "Ti ordino di fare la pace all'istante."
  intrigue_dread.4102.b:0 "[petitioner_1.GetFirstNameNoTooltip] ha chiaramente ragione."
  intrigue_dread.4102.c:0 "Le parole di [petitioner_2.GetFirstNameNoTooltip] sembrano vere."
- 
+
  intrigue_dread.4200.t:0 "La Foresta dei Miei Sogni"
  intrigue_dread.4200.desc.intro:0 "A causa dei miei sforzi per diventare una figura veramente temuta e rispettata, un gran numero di persone colpevoli e sleali sono finite nelle mie segrete."
  intrigue_dread.4200.desc.noble_forest:2 "Le mie celle sono piene zeppe di rivali, traditori e criminali comuni. Forse è ora che incontrino il [ROOT.Char.GetFaith.DeathDeityName] all'[ROOT.Char.GetFaith.NegativeAfterLife], e servano gli intressi della corona [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] mentre si trovano lì!"

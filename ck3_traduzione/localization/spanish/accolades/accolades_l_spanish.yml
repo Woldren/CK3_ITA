@@ -1,5 +1,5 @@
-﻿l_spanish:
- ACCOLADE_ADJECTIVE_NOUN:0 "$NOUN$ $ADJECTIVE$"
+l_spanish:
+ ACCOLADE_ADJECTIVE_NOUN:0 "$ADJECTIVE$ $NOUN$"
  ACCOLADE:0 "Encomio"
  ACCOLADES:0 "Encomi"
  CREATE_ACCOLADE:0 "Crea un Encomio"

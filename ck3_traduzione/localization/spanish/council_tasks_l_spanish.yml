@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ACTIVE_COUNCIL_TASK_TT:2 "Il mio [ActiveCouncilTask.GetPositionType.GetName] [ActiveCouncilTask.GetCouncillor.GetUIName] è assegnato a [ActiveCouncilTask.GetTaskType.GetName|V]"
  ACTIVE_COUNCIL_TASK_FROZEN_TT:1 "#T [ActiveCouncilTask.GetTaskType.GetName|V] #!\n@warning_icon! #X Assegna un personaggio a questa posizione nel consiglio per continuare a procedere con l'incarico#!"
  POTENTIAL_COUNCIL_TASK_TT:2 "[ActiveCouncilTask.GetCouncillor.GetUIName] sarà assegnato a [ActiveCouncilTask.GetTaskType.GetName|V]"
@@ -36,11 +36,11 @@
  task_stewardship_good_skilled_notification_tooltip:0 "È successo perché il livello di abilità amministrativa del[active_councillor.Custom('DE_END_ADJ_NUL_S_N')] tu[active_councillor.Custom('DE_END_PRO_S_N')] [active_councillor.GetCouncilTitle] è [active_councillor.Custom('stewardship_skill_level')]."
  task_intrigue_good_skilled_notification_tooltip:0 "È successo perché il livello d'intrigo del[active_councillor.Custom('DE_END_ADJ_NUL_S_N')] tu[active_councillor.Custom('DE_END_PRO_S_N')] [active_councillor.GetCouncilTitle] è [active_councillor.Custom('intrigue_skill_level')]."
  task_learning_good_skilled_notification_tooltip:0 "È successo perché il livello di erudizione del[active_councillor.Custom('DE_END_ADJ_NUL_S_N')] tu[active_councillor.Custom('DE_END_PRO_S_N')] [active_councillor.GetCouncilTitle] è [active_councillor.Custom('learning_skill_level')]."
- 
+
  task_martial_good_acclaimed_knight_notification_tooltip:0 "È successo a causa di un glorioso [acclaimed_knight]."
 
 
- #spouse
+#spouse
  spouse_task_diplomacy_good_skilled_notification_tooltip:0 "È successo perché il livello di abilità diplomatica del tuo coniuge è [councillor.Custom('diplomacy_skill_level')]."
  spouse_task_diplomacy_good_unskilled_notification_tooltip:0 "È successo nonostante il livello di abilità diplomatica del tuo coniuge sia [councillor.Custom('diplomacy_skill_level')]."
  spouse_task_martial_good_unskilled_notification_tooltip:0 "È successo nonostante il livello di abilità marziale del tuo coniuge sia [councillor.Custom('martial_skill_level')]."
@@ -86,13 +86,13 @@
  task_domestic_affairs_family_business_bonus_desc:1 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_family_business_bonus')|2]#!"
  task_domestic_affairs_consulted_house_bonus_desc:0 "\n$TAB$$unity_consulted_house_member_desc$: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_consulted_house_bonus')|2]#!"
  task_domestic_affairs_chains_of_loyalty_bonus_desc:0 "\n$TAB$[GetPerk('chains_of_loyalty_perk').GetName(GetPlayer)]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_chains_of_loyalty_bonus')|2]#!"
-
+ 
  task_domestic_affairs_tyranny_effect_desc:1 "\n\nPerdita di [tyranny|E]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_tyranny_total')|P0]%#!\n$TAB$[diplomacy_i][diplomacy_skill|E] del [councillor.Custom('GetCouncillorKurultaiMember')]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_tyranny_base')|P0]%#!"
  task_domestic_affairs_tyranny_bureaucrats_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_tyranny_erudition_bonus')|P0]%#!"
  task_domestic_affairs_tyranny_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_tyranny_family_business_bonus')|P0]%#!"
  task_domestic_affairs_tyranny_consulted_house_bonus_desc:0 "\n$TAB$$unity_consulted_house_member_desc$: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_tyranny_consulted_house_bonus')|P0]%#!"
  task_domestic_affairs_tyranny_chains_of_loyalty_bonus_desc:0 "\n$TAB$[GetPerk('chains_of_loyalty_perk').GetName(GetPlayer)]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_tyranny_chains_of_loyalty_bonus')|P0]%#!"
-
+ 
  SCALED_COUNCILLOR_DIPLOMACY_VALUE:2 "Abilità Diplomatica del [councillor.GetCouncilTitle] [councillor.GetShortUINamePossessive]"
  BASE_DRIFT_SPEED:0 "Cambiamento Base: $VALUE|=+1$"
 
@@ -106,7 +106,7 @@
  task_integrate_title_notification_tooltip:0 "Dall'incarico $task_integrate_title$"
  INTEGRATE_TITLE_DYNASTY_PERK_BONUS_VALUE:1 "[GetDynastyPerk('erudition_legacy_5').GetName]"
  PASSIVE_INTEGRATION_PROGRESS_VALUE:0 "Integrazione Passiva"
- 
+
  task_bestow_royal_favor:0 "Concedi il Favore Reale"
  task_bestow_royal_favor_prestige_effect_desc:0 "[prestige|E]: [prestige_i|E]#P +[SCOPE.ScriptValue('chancellor_bestow_royal_favor_prestige_total')]#!/mese\n$TAB$[diplomacy_skill|E] del [councillor.Custom('GetCouncillorKurultaiMember')] : #P +[SCOPE.ScriptValue('chancellor_bestow_royal_favor_prestige_gain_base')]#!"
  task_bestoy_royal_favor_effect_desc_bureaucrats_bonus_prestige:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +#![SCOPE.ScriptValue('chancellor_bestow_favor_prestige_gain_erudition_modifier')|P]"
@@ -191,7 +191,7 @@
  task_increase_control_worsen_contract:1 "\n$EFFECT_LIST_BULLET$#N [vassal_contract|E] Peggiorato#!"
  task_increase_control_loss_of_crown_authority:0 "\n$EFFECT_LIST_BULLET$#N Perdita di Autorità della Corona#!"
  task_domestic_affairs_notification_tooltip:0 "Dall'incarico $task_domestic_affairs$"
- 
+
  task_manage_guards:0 "Gestisci le Guardie Reali"
  task_manage_guards_knights_desc:1 "[knight_effectiveness|E]: #P +[SCOPE.ScriptValue('marshal_overtime_boost_scale')|1]%#!\nAumenta di #P +[SCOPE.ScriptValue('marshal_overtime_boost_monthly_increase')]%#!/mese fino a #P +[SCOPE.ScriptValue('marshal_overtime_boost_max')]%#!\n$TAB$[martial_skill|E] del [councillor.Custom('GetCouncillorKurultaiMember')]: #P +[SCOPE.ScriptValue('marshal_overtime_boost_base')|2]#!"
  task_manage_guards_erudition_bonus_knights:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('marshal_manage_guards_max_erudition_bonus')|P]%#!"
@@ -208,7 +208,7 @@
  task_manage_guards_knight_wounded:0 "\n$EFFECT_LIST_BULLET$#N Cavaliere Ferito#!"
  task_manage_guards_disorganized:0 "\n$EFFECT_LIST_BULLET$#N Guardie Reali Disorganizzate#!"
  task_manage_guards_notification_tooltip:0 "Dall'incarico $task_manage_guards$"
- 
+
  SCALED_COUNCILLOR_MARTIAL_VALUE:2 "[martial_skill|E] [councillor.GetCouncilTitle] [councillor.GetShortUIName]"
  INCREASE_CONTROL_BASE:0 "Base"
  INCREASE_CONTROL_PERK_BONUS_VALUE:1 "$strict_organization_perk_name$"
@@ -330,7 +330,7 @@
  task_convince_dejure_notification_tooltip:0 "Dall'incarico $task_convince_dejure$"
  steward_convince_dejure_cg_bonus_desc:0 "Dal tuo [court_grandeur_level|E]"
  steward_convince_dejure_cg_malus_desc:0 "[court_grandeur_level|E] di [county.GetHolder.GetTopLiege.GetShortUIName] "
-  
+ 
  SCALED_COUNCILLOR_STEWARDSHIP_VALUE:2 "[stewardship_skill|E] del [councillor.GetCouncilTitle] di [councillor.GetShortUIName]"
  STEWARD_PROGRESS_BASE:0 "Base"
  DEVELOP_COUNTY_PERK_BONUS_VALUE:1 "$planned_cultivation_perk_name$"
@@ -389,7 +389,7 @@
  task_religious_relations_opinion_loss:0 "\n$EFFECT_LIST_BULLET$#N Opinione del Vassallo Diminuita#!"
  court_chaplain_religious_relations_modifier_desc:0 "Il Cappellano di Corte di questa persona sta lavorando per migliorare la sua reputazione religiosa"
  task_religious_relations_notification_tooltip:0 "Dall'incarico $task_religious_relations$"
- 
+
  ERUDITION_DYNASTY_PERK_BONUS_VALUE:0 "[GetDynastyPerk('erudition_legacy_5').GetName]"
  FAMILY_BUSINESS_BONUS_VALUE:0 "$tradition_family_entrepreneurship_name$"
  CONSULTED_HOUSE_BONUS_VALUE:0 "$unity_consulted_house_member_desc$"
@@ -441,8 +441,8 @@
 
  COURT_CHAPLAIN_FABRICATE_CLAIM_INNOVATION_BONUS_LAND_GRANTS:1 "Cultura del Signore — Concessione delle Terre"
  COURT_CHAPLAIN_FABRICATE_CLAIM_NOT_ADJACENT:1 "Rivendica una Contea non adiacente"
- COURT_CHAPLAIN_FABRICATE_CLAIM_HERETIC_BONUS:0 "Il [holder|E] ha una [faith|E] differente"
  COURT_CHAPLAIN_FABRICATE_CLAIM_VASSAL_COUNTY:0 "Rivendica la Contea di un Vassallo"
+ COURT_CHAPLAIN_FABRICATE_CLAIM_HERETIC_BONUS:0 "Il [holder|E] ha una [faith|E] differente"
 
  #Spouse Councillor
  task_spouse_default:0 "Assisti il Sovrano"
@@ -494,7 +494,7 @@
  task_accept_culture_reduced_development_growth:0 "\n$EFFECT_LIST_BULLET$#N Diminuzione della Crescita dello Sviluppo#!"
 
  SPYMASTER_FIND_SECRETS_CHARACTER_MODIFIERS:0 "[modifier|E] [character|E]"
- 
+
  #Vizier Councillor
  task_vizier_default: "Assisti Governante"
  task_vizier_default_effect_desc: "$task_spouse_default_effect_desc$"
@@ -508,15 +508,15 @@
  task_vizier_manage_domain_effect_desc: "$task_manage_domain_effect_desc$"
  task_vizier_patronage: "$task_patronage$"
  task_vizier_patronage_effect_desc: "$task_patronage_effect_desc$"
- 
+
  liege_converting_county_title: "Il Signore sta Convertendo [county.GetNameNoTierNoTooltip|V]"
  liege_converting_county_desc: "Il [councillor.GetCouncilTitle] di [councillor_liege.GetShortUIName] sta [Concept( 'converting', 'convertendo' )|E] [county.GetName] alla fede [councillor_liege.GetFaith.GetName] #weak ([old_faith.GetAdjective])#!"
  liege_stopped_converting_county_title: "Il Signore Smette di Convertire"
  liege_stopped_converting_county_desc: "[councillor_liege.GetShortUINamePossessive] [councillor.GetCouncilTitle] ha smesso di [Concept( 'converting', 'convertire' )|E] [county.GetName] alla fede [councillor_liege.GetFaith.GetName] #weak ([old_faith.GetAdjective])#!"
  liege_converted_county_title: "Il Signore Ha Convertito [county.GetNameNoTierNoTooltip|V]"
  liege_converted_county_desc: "Il [councillor.GetCouncilTitle] di [councillor_liege.GetShortUIName] ha [Concept( 'converted', 'convertito' )|E] [county.GetName] alla fede [councillor_liege.GetFaith.GetName] #weak ([old_faith.GetAdjective])#!"
- 
-  # Kurultai
+
+ # Kurultai
  task_kurultai_default_1: "Support Herders"
  task_kurultai_default_2: "$task_kurultai_default_1$"
  task_kurultai_default_3: "$task_kurultai_default_1$"

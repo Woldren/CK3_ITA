@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  internal_affairs.10.t: "Una Rivolta in Vista"
  internal_affairs.10.desc: ""E questa è la situazione attuale nella [barony_title.GetName], mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]." mi informa [provider_character.GetFirstName]. Sembra che di recente siano scoppiate delle piccole sommosse nelle strade, a causa "
  internal_affairs.10.desc.control: "della diffusa indignazione per il banditismo dilagante che mette in pericolo i cittadini."

@@ -1,4 +1,4 @@
-﻿l_spanish: 
+l_spanish:
  CHARACTER_IS_PRESSING_TARGET_CHARACTERS_CLAIM:0 "[Select_CString(CHARACTER.IsLocalPlayer,'',CHARACTER.GetShortUIName)] [Select_CString( CHARACTER.IsLocalPlayer, 'Stai', 'sta' )] esercitando la rivendicazione di [TARGET_CHARACTER.GetName]"
 
  GLOBAL_HOSTAGE_OATH_OF_FRIENDSHIP: "Un giuramento eterno di amicizia esiste"

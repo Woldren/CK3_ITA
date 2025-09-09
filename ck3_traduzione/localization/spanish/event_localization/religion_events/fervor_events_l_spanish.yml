@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #Scandal Event Localization
  fervor.1002.t:0 "Il prete scandaloso"
  fervor.1002.desc.start:0 "Il mondo della fede [sinful_theocrat.GetFaith.GetAdjectiveNoTooltip] è stato [sinful_theocrat.Custom('GetShockedExpression')] nell'apprendere che [sinful_theocrat.Custom2('MyCharacterIntroduction', ROOT.Char)]"

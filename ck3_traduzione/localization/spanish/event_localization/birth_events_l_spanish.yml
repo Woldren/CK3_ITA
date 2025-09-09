@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  birth.father_is_former_consort_toast:0 "Nascita"
  birth.father_is_former_consort_toast_tt:0 "[ROOT.Char.Custom('DE_ART_DEF_P_D')] [mother.GetTitledFirstName] ha dato alla luce nostr[child.Custom('DE_END_PRO_S_N')] [child.Custom('GetDaughterSon')]"
@@ -7,7 +7,7 @@
  birth.0002.t:0 "Tutti i Miei Bambini"
  birth.0002.desc:0 "Ad ogni nascita cresce la cordialità dimostrata nei miei confronti; mentre tengo il mio neonato tra le braccia, vengo accolta da più calore e gentilezza che mai. Già immagino di avere una nidiata di bambini attorno a me..."
  birth.0002.a:0 "La bontà trasmessa dalla nascita!"
- 
+
  birth.1001.t:0 "Mi[child.Custom('DE_END_PRO_S_N')] [child.Custom('GetDaughterSon')|U]"
  birth.1001.heir.t:0 "Mi[child.Custom('DE_END_PRO_S_N')] [child.Custom('GetDaughterSon')|U] ed Erede"
  birth.1001.daughters.t:0 "Le Mie Figlie"
@@ -232,4 +232,3 @@
  birth.9004.b.other:0 "In realtà [child.GetFirstNameNoTooltip] è piuttosto bello, dopotutto..."
  birth.9004.b.tt:0 "Tu mantieni il tuo vecchio nome"
  birth.9004.b.tt.other:0 "[child.GetFirstNameNoTooltip] mantiene il suo vecchio nome"
-

@@ -1,5 +1,4 @@
-﻿l_spanish:
-
+l_spanish:
  bell_special_yearly.1000.t:0 "La Campana di [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
  bell_special_yearly.1000.desc:0 "Il mio [steward.GetCouncilTitle] [steward.GetFirstName] mi ha suggerito di fare un sopralluogo in una chiesa abbandonata nelle vicinanze, risalente all'epoca dei Visigoti.\n\nTra le volte a botte e gli archi a ferro di cavallo, c'è un campanile un tempo bellissimo, con diverse campane in rovina prive del batacchio.\n\nMentre mi aggiro tra le rovine, sento uno sferragliare di zoccoli. Sbirciando attraverso un buco, vedo [faction_member_1.Custom('DE_END_PRO_S_N')] [faction_member_1.GetTitledFirstName] che si sta avvicinando. Forse pensa che questo posto possa essere un nascondiglio per la sua fazione traditrice?"
  # [faction_member_1_faction.GetName]

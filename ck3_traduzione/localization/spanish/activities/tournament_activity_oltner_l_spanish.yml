@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  tournament_events.9000.t:0 "Le attrazioni di [tournament_province.GetNameNoTooltip]"
  tournament_events.9000.desc:0 "Passeggiando lungo la periferia del torneo, vengo sopraffatto dalla pura bellezza che mi circonda qui a [tournament_province.GetName].\n\nHo camminato lungo il/la [tournament_province.Custom('TerrainTypeProvince')] disseminato/a di [tournament_province.Custom('get_region_flower_type_plural')], decidendo di fermarmi solo per toccare la corteccia di un albero [tournament_province.Custom('GetRandomAppropriateTree')] incontaminato. Alzo lo sguardo e vedo un gruppo di [ROOT.Char.Custom('GetRandomRegionalWildDaytimeBird')] che vola sopra di me.\n\n"
  tournament_events.9000.desc_home:0 "Dovrei farlo più spesso, dopotutto questa è casa mia."

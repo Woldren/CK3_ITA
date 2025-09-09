@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  friendship.0001.t:0 "Allontanarsi"
  friendship.0001.desc_opening:1 "I tempi e le persone cambiano. A volte quelli che ci sono più vicini sembrano diventare degli estranei.\n\n"[ROOT.Char.GetTitledFirstNameNoTooltip]", [friend_in_question.Custom('DE_ART_DEF_P_A')] [friend_in_question.Custom2('MyCharacterIntroduction', ROOT.Char)] sorride tristemente."
  friendship.0001.desc_murder:0 ""Per te avrei ammazzato... ma sembra che ormai non ci sia più amicizia tra noi.""

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  DLC:0 "DLC"
  DLC_COLON: "DLC:"
  DLC_CONTENT_AVAILABLE:0 "Contenuti disponibili"
@@ -36,6 +36,7 @@
  DLC018_CP4: "Arctic Attire" 
  DLC019_SP4: "Crowns of the World"
  DLC020_CE2: "Khans of the Steppe" 
+ DLC021_BP4: "Coronations"
 
  dlc_001:0 "$DLC001_PREORDER$"
  dlc_001_desc:0 "Immergiti nel Sacro Romano Impero con una collezione di abiti per popolani, guerrieri e governanti dell'Europa Centrale."
@@ -48,9 +49,9 @@
  dlc_005:0 "$DLC005_FP2$"
  dlc_005_desc:0 "Le terre baciate dal sole dell'Iberia attendono il tuo glorioso dominio con il flavor pack Crusader Kings III: The Fate of Iberia. Profondamente ricca di storia, cultura e popolazioni, il destino medievale della penisola è pronto per essere plasmato dalla tua regale mano, sia che tu voglia usare un conciliante guanto di velluto o che invece scateni un brutale pugno di ferro."
  dlc_006:0 "$DLC006_BP1$"
+ dlc_006_desc:0 "Fai attenzione, sovrano... sii cauto con coloro che chiami nemici, ma anche con coloro che ritieni amici: sono due facce della stessa medaglia. Le relazioni che instauri sono più importanti che mai e con Crusader Kings III: Friends & Foes assisterai alla vita delle persone a te più vicine fin nei dettagli più intimi."
  dlc_007:0 "$DLC007_EP2$"
  dlc_007_desc:0 "Riscrivi la storia mentre viaggi attraverso infide terre medievali per crogiolarti nella gloria ottenuta ospitando e partecipando a Tornei, Viaggi e Matrimoni in Grande Stile." 
- dlc_006_desc:0 "Fai attenzione, sovrano... sii cauto con coloro che chiami nemici, ma anche con coloro che ritieni amici: sono due facce della stessa medaglia. Le relazioni che instauri sono più importanti che mai e con Crusader Kings III: Friends & Foes assisterai alla vita delle persone a te più vicine fin nei dettagli più intimi."
  dlc_008:0 "$DLC008_SP2$"
  dlc_008_desc:0 "Vesti i tuoi governanti con la più raffinata eleganza tramite questo pacchetto di abbigliamento. Basato sugli abiti e le regalie dell'imperatore Enrico II e dell'imperatrice Cunigunde, questo pacchetto include non solo nuove vesti e abiti, ma anche corone e altri oggetti storicamente appropriati. Disponibile in esclusiva per i possessori del Capitolo II."
  dlc_009:0 "$DLC009_BP2$"
@@ -77,3 +78,5 @@
  dlc_019_desc: "Conferisci un tocco regale al tuo governo con Crowns of the World, una collezione regale di opzioni cosmetiche per migliorare l'aspetto del tuo sovrano. Disponibile in esclusiva per i possessori del Capitolo IV."
  dlc_020: "$DLC020_CE2$"
  dlc_020_desc: "Governa o Sìì Governato. Migra o Perisci. In Khans of the Steppe, solo il più forte sopravviverà alla dura realtà della vita nella steppa. Ascenderai alla grandezza, lasciando un'eredità di conquista, o il tuo popolo svanirà negli annali della storia? La scelta è tua."
+ dlc_021: "$DLC021_BP4$"
+ dlc_021_desc: "Begin your reign with majesty! Legitimize your power through awe-inspiring ceremonies that command the respect of vassals and rivals alike. From the crown’s first touch, your legacy is forged in grandeur with Coronations."

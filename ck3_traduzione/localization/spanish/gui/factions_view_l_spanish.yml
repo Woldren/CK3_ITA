@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  FACTIONS_WINDOW:0 "Fazioni"
  FACTIONS_WINDOW_MY_FACTIONS:1 "Contro [SelectLocalization( IsLandlessAdventurer( GetPlayer ), 'MY_CONTRACT_TARGET', 'MY_LIEGE')]"
  MY_LIEGE: "il tuo Signore"

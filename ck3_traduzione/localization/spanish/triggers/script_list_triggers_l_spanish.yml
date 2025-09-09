@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  ALL_CLAIMANTS:0 "tutti i [claimants|E]"
  ANY_CLAIMANT:0 "qualsiasi [claimant|E]"
@@ -23,7 +23,6 @@
  AT_LEAST_COURTIERS: "$PARAMETERS$ [courtiers|E]:"
  AT_LEAST_OF_MY_COURTIERS: "$PARAMETERS$ dei [courtiers|E] di [CHARACTER.GetShortUIName]:"
  AT_LEAST_OF_THEIR_COURTIERS: "$PARAMETERS$ dei [courtiers|E] di [CHARACTER.GetShortUIName]:"
- 
 
  ALL_HOOKED_CHARACTERS:0 "Tutti i personaggi con un [Concept( 'hooked', 'gancio nei loro confronti' )|E]"
  ANY_HOOKED_CHARACTER:0 "Qualsiasi personaggio con un [Concept( 'hooked', 'gancio nei suoi confronti' )|E]"
@@ -38,7 +37,7 @@
  ANY_OF_MY_HELD_TITLES_COUNT:0 "$PARAMETERS$ dei [titles|E] che detengo:"
  ANY_HELD_TITLE_PERCENT:0 "$PARAMETERS$ [titles|E] detenuti:"
  ANY_OF_MY_HELD_TITLES_PERCENT:0 "$PARAMETERS$ dei [titles|E] che detengo:"
- 
+
  ANY_WARDEN_HOSTAGE: "Qualsiasi [hostage|E]:"
  ANY_WARDEN_HOSTAGE_FIRST: "Uno qualsiasi dei miei [hostages|E]:"
  ANY_WARDEN_HOSTAGE_THIRD: "Uno qualsiasi degli [hostages|E] di [CHARACTER.GetShortUIName]:"

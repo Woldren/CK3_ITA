@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
 #Grotesque Events
  travel_events.3000.t:0 "Creature grottesche"
@@ -173,7 +173,6 @@
  impending_doom_modifier_desc:0 "Questo personaggio avverte un senso di pericolo dopo aver ignorato un eremita"
  ignored_hermit:0 "Eremita ignorato"
  hermit_tells_your_future_tt:0 "Riceverai una profezia..."
-
  
  travel_events.3061.t:0 "L'Eremita: Una profezia"
  travel_events.3061.intro:0 "L'eremita indugia un momento prima di rispondere, poi si alza con lentezza e mi invita silenziosamente a seguirlo. Intorno a noi, poche erbe crescono sparse e un giaciglio rudimentale occupa un angolo dell’ambiente. [hermit_scope.Custom('DE_ART_IND_A')|U] si volta verso di me, quando ormai siamo lontani dal mio seguito, e con una voce insolitamente più grave rompe il silenzio:\n\n"

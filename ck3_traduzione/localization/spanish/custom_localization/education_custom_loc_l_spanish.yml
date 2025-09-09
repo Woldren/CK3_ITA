@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  martial_good_trait_match_good_outcome:0 "Essendo un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] attiv[ROOT.Char.Custom('DE_END_PRO_S_N')] ed entusiasta, non è una sorpresa che [ROOT.Char.GetFirstName] sia andat[ROOT.Char.Custom('DE_END_PRO_S_N')] bene nei suoi studi di guerra e combattimento."
  martial_bad_trait_match_good_outcome:0 "Dire che l'indisciplinat[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetFirstName] non fosse tagliat[ROOT.Char.Custom('DE_END_PRO_S_N')] per una vita di guerra è un eufemismo. Tuttavia, [ROOT.Char.GetSheHe] ha superato ogni aspettativa."
  martial_neutral_trait_match_good_outcome:0 "Grazie alla supervisione di un insegnante adeguato, persino un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] come [ROOT.Char.GetFirstName], con una scarsa inclinazione naturale per la guerra, è stat[ROOT.Char.Custom('DE_END_PRO_S_N')] in grado di arrivare a comprenderla appieno."

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  DYNASTY_VIEW_CHILDREN_HIDE:0 "#T Nascondi Figli#!"
  DYNASTY_VIEW_CHILDREN_SHOW:0 "#T Mostra Figli#!"
  DYNASTY_VIEW_INFO_TITLE:0 "#T Dinastia [Dynasty.GetBaseNameNoTooltip|U]#!"
@@ -43,7 +43,6 @@
  DYNASTY_VIEW_SHOW_LEGACIES:0 "Retaggi: [DynastyView.GetTotalUnlockedPerks]"
  DYNASTY_VIEW_SHOW_RENOWN:1 "[dynasty_prestige|E]: [dynasty_prestige_i][Dynasty.GetPrestige|V0]"
  DYNASTY_VIEW_SHOW_UNLOCK:0 "Sblocca"
- DYNASTY_VIEW_SHOW_PERK_COST:2 "Costo: @dynasty_prestige_icon![DynastyPerk.GetCostStringOnly( GetPlayer )]"
  DYNASTY_VIEW_SHOW_LEGACY_EXPLANATION_HEAD:2 "$DYNASTY_VIEW_LEGACY_EXPLANATION$.\nIn quanto [dynast|E] puoi spendere [dynasty_prestige|E] per sbloccare i Retaggi."
  DYNASTY_VIEW_SHOW_LEGACY_EXPLANATION_NOT_HEAD:2 "$DYNASTY_VIEW_LEGACY_EXPLANATION$.\n#X Non sei il [dynast|E] quindi non puoi spendere [dynasty_prestige|E] per sbloccare i Retaggi.#!"
  DYNASTY_VIEW_HEADING:0 "Retaggi della Dinastia [Dynasty.GetBaseNameNoTooltip] "
@@ -58,4 +57,3 @@
  DYNASTY_SPLENDOR:0 "Splendore della Dinastia:"
  DYNASTY_LEGACIES:0 "Eredità della Dinastia"
  DYNASTY_HOUSE_VIEW_LEGACY_COST:0 "Eredità Successiva: [dynasty_prestige_i] [Dynasty.GetNextPerkCost|V0]"
-  

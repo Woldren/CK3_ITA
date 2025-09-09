@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # # Trampled Underfoot
  court.8001.t:0 "Calpestata dai piedi"
  court.8001.desc.intro:1 ""Quante volte ti ho detto di stare #EMP lontano#! dai #EMP fiori appena piantati?!#!"\n\n[child_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] compare, ricopert[child_1.Custom('DE_END_PRO_S_N')] di petali e terra, inseguito dal mio giardiniere, [gardener.GetTitledFirstName].\n\n[child_1.GetFirstNameNoTooltip] piange,"
@@ -181,7 +181,7 @@
  court.8090.c:0 "Un architetto della tua fama può fare di meglio, [architect.GetFirstNameNoTooltip]!"
  court.8090.c.tt: "Queste opzioni ono disponibili poiché [architect.GetFirstNameNoTooltip] è il tuo $royal_architect_court_position$"
  court.8090.d:0 "Lascia quei conci stanchi alle persone comuni."
- # Modifiers  
+ # Modifiers
  court_8090_commoners_modifier:0 "Rovine Comuni"
  court_8090_commoners_modifier_desc:0 "La gente comune di questa contea beneficia dello smantellamento delle vecchie rovine per i materiali da costruzione."
  # # Questionable Concoction
@@ -350,3 +350,4 @@
  liege_scrutiny_modifier_desc: "Il signore di questo personaggio tiene d'occhio, molto da vicino, lui e le sue attività segrete."
  court_without_secrets_modifier: "Corte Senza Segreti"
  court_without_secrets_modifier_desc: "Questo personaggio ha la reputazione di andare a caccia di segreti e di punire i crimini implacabilmente." 
+

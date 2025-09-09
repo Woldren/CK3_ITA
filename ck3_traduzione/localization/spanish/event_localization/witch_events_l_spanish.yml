@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  witch.1001.message:0 "Induzione alla Stregoneria"
  child_witch_conversion_success_effect.desc:0 "[child.GetFirstNameNoTooltip] è convinto"
  child_witch_conversion_failure_effect.desc:0 "[child.GetFirstNameNoTooltip] è dubbioso"
@@ -120,7 +120,7 @@
  witch_ritual_phase_desc:0 "Consacra te stess[ROOT.Char.Custom('DE_END_PRO_S_N')] a [GetPlayer.GetFaith.WitchGodName]"
  host_witch_ritual_title:0 "Sommo Rituale"
  host_witch_ritual:0 "Ha onorato [GetPlayer.GetFaith.WitchGodName]"
- 
+
  host_witch_ritual_decision_cooldown:0 "Non potrò organizzare un altro Sommo Rituale per #N 10 years#!"
 
  ### PHASES

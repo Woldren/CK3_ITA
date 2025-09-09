@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  #The Peak of Elegance
  court_events.3000.t: "Il Massimo dell'Eleganza"
@@ -55,7 +55,7 @@
  court_events.3060.a: "Così tante possibilità..."
  court_events.3060.a.tt: "... per pugnalare alle spalle anche me!"
  court_events.3060.b: "Mettiamoli a lavorare!"
- #Rags and not Riches?
+ # Rags and not Riches?
  court_events.3070.t: "Stracci e non Ricchezze?"
  court_events.3070.desc: "Nel corso dei suoi viaggi, [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName] ha colto l'occasione per visitare la mia Corte. Finora, [guest.GetSheHe] non ne è stat[guest.Custom('DE_END_PRO_S_N')] molto impressionat[guest.Custom('DE_END_PRO_S_N')].\n\n"Oh, capisco, questo è ciò che passate per "moda" qui... Perdonatemi, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], ma fatico a distinguervi dai vostri servitori, tanto è umile il vostro abbigliamento! Forse potrei darvi qualche consiglio, se me lo permettete?""
  court_events.3070.a: "Vediamo cosa avete da offrirmi."
@@ -63,7 +63,7 @@
  court_events.3070.c: "#EMP Come osi?!#!"
  cheaper_fashion_for_15_years: "$court_fashion_decent$ costa il #P 20%#! in meno per 15 anni"
  free_fashion_for_15_years: "$court_fashion_acceptable$ è #P gratis#! per 15 anni"
- #Silvertongue
+ # Silvertongue
  court_events.3080.t: "Lingua d'Argento"
  court_events.3080.desc: "[Select_CString(poet.IsFemale,'Una donna','Un uomo')] con uno stile eccentrico e un sorriso che emana carisma e sicurezza di sé si è unit[poet.Custom('DE_END_PRO_S_N')] oggi alla mia Corte.\n\n"Glorios[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], permettetemi di presentarmi: il mio nome è [poet.GetFirstNameNicknamed], e sono [Select_CString(poet.IsFemale,'una poetessa','un poeta')] di grande abilità! La mia fama si estende in tutto il continente, ma in questa occasione speciale, ho deciso di mettere fine ai miei giorni di vagabondaggio e offrendo a voi — [ROOT.Char.Custom('DE_ART_DEF_P_A')] più #EMP benevol[ROOT.Char.Custom('DE_END_PRO_S_N')]#! e #EMP magnific[ROOT.Char.Custom('DE_END_PRO_S_N')]#! di [Select_CString(ROOT.Char.IsFemale,'tutte le Signore','tutti i Signori')]. — i miei inestimabili servigi.""
  court_events.3080.a: "Scriverai i miei discorsi."
@@ -90,7 +90,6 @@
  court_events.3100.b: "Istruitemi, [linguist.GetFirstNameNoTooltip]!"
  court_events.3100.c: "Non ho tempo per queste sciocchezze."
  court_events.3100.a.tt: "Inizio un [scheme|E] per [GetScheme('learn_language').GetTypeName] contro [chancellor.GetShortUIName] con [GetModifier('pressured_to_learn_court_language_modifier').GetNameWithTooltip]"
-
  # The Best Builder
  court_events.3110.t: "Il Miglior Costruttore"
  court_events.3110.desc: ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]", dice [steward.Custom2('MyCharacterIntroduction', ROOT.Char)] avvicinandosi a me con un’aria preoccupata. "Ho brutte notizie."\n\n"In [vassal.GetPrimaryTitle.GetBaseNameNoTier], [vassal.Custom('IT_NAM_COL3')][vassal.GetTitledFirstName] ha costruito una capitale così impressionante che i popolani hanno iniziato a paragonarlo/a a [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitly], osando persino definire quest'ultimo/a carente!"\n\n"Temo che solo una dimostrazione di potere possa permettere di salvare la faccia.""
@@ -124,3 +123,4 @@
  gains_smith_inspiration_tt: "[inspired.GetShortUIName|U] ottiene un'[inspiration|E] Fabbro"
  gains_weaver_inspiration_tt: "[inspired.GetShortUIName|U] ottiene un'[inspiration|E] Tessitore"
  gains_artisan_inspiration_tt: "[inspired.GetShortUIName|U] ottiene un'[inspiration|E] Artigiano"
+

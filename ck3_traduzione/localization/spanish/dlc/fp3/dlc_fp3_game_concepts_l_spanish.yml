@@ -1,11 +1,11 @@
-﻿l_spanish: 
+l_spanish:
 
- #Struggle
+# Struggle
  game_concept_persian_struggle: "Interregno Iraniano"
  game_concept_persian_struggle_desc: "L'$game_concept_persian_struggle$ descrive il tumultuoso declino del califfato abbaside, durante il quale la Mesopotamia fu devastata da ribellioni e lotte per il potere, mentre diversi governanti persiani diventavano indipendenti.\n\nSebbene i [characters|E] [Concept('struggle_involved', 'coinvolti')|E] nella disputa possano avere piani diversi, la maggior parte di loro cercherà di diventare [GetTrait('fp3_struggle_supporter').GetName(GetNullCharacter)] e combattere per ripristinare il potere del califfato, oppure di diventare [GetTrait('fp3_struggle_detractor').GetName(GetNullCharacter)] e cercare di distruggerlo.\n\nLa [struggle|E] oscilla tra due [struggle_phase_phases|E]: [struggle_persia_phase_unrest|E] e [struggle_persia_phase_stabilisation|E]."
 
- #Legacy Track Stuff
- 
+# Legacy Track Stuff
+
  game_concept_kindle_royal_fire_decision: "Decisione di Accendere il Fuoco Reale"
  game_concept_kindle_royal_fire_decision_desc: "Questa [decision|E] permette di accendere un fuoco reale, guadagnando dei bonus in [health|E] e [dynasty_prestige|E]."
  game_concept_fp3_embellish_capital_decision: "Decisione di $fp3_embellish_capital_decision_name$"

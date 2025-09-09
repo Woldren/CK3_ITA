@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  claim_throne_interaction:0 "Rivendicare il Trono #weak (Complotto)#!"
  claim_throne_interaction_message:0 "Trono Rivendicato"
 
@@ -30,7 +30,7 @@
  challenge_to_single_combat_interaction.challenge_rejected.tt:0 "[recipient.Custom('DE_ART_DEF_P_D')] codard[recipient.Custom('DE_END_PRO_S_N')] teme la tua lama"
  UNLOCKS_ABILITY_TO_DUEL_RIVALS:0 "Puoi sfidare i [rivals|E] a [single_combat_fight|E], infliggendo [stress|E] in caso di vittoria"
  CTSC_RELATIVE_PROWESS:0 "[Concept( 'prowess', 'Maestria' )|E] Relativa: $VALUE|=+0$"
-
+ 
  UNLOCKS_ABILITY_TO_DUEL_EVERYONE: "È possibile sfidare [characters|E] che non fanno parte dei [close_family|E], del genere [martial|E], ad un [single_combat_fight|E], infliggendo [stress|E] in caso di vittoria"
 
  buy_artifact_claim_interaction:0 "Comprare una Rivendicazione su un Manufatto"

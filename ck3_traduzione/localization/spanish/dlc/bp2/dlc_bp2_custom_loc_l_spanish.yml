@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #GetPrettyAdjective
  pretty:0 "grazios[Select_CString( ROOT.Char.IsFemale, 'a', 'o' )]"
  comely:0 "avvenente"

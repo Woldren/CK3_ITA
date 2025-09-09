@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  # X Reconquered
  ep3_emperor_yearly.2000.t: "La riconquista [county.Custom('IT_COU_COL')][county.GetNameNoTierNoTooltip]"

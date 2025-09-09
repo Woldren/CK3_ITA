@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 #Tour Travel Events
  tour_travel.1001.title:1 "Un Servo e il suo [ROOT.Char.GetTitleAsNameNoTooltip|U]"
  tour_travel.1001.desc.intro:2 "Entro in una taverna di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], stanc[ROOT.Char.Custom('DE_END_PRO_S_N')] dal viaggio e desideros[ROOT.Char.Custom('DE_END_PRO_S_N')] di birra e riposo.\n\nLa mia tranquilla contemplazione è disturbata dal rumore provocato da un pugno che si abbatte sul legno scheggiato di un tavolo, seguito da uno sputo sprezzante. "Quel[ROOT.Char.Custom('DE_END_ADJ_NUL_S_N')] [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNoun')]!"
@@ -262,6 +262,7 @@
  tour_general.3002.h:0 "Che peccato."
  tour_general.3002.h.tt:0 "[visiting_liege.Custom('IT_NAM_COL3')|U][visiting_liege.GetShortUIName] è contrariat[visiting_liege.Custom('DE_END_PRO_S_N')]"
  tour_general.3002.h.tt.desc:0 "[visiting_liege.Custom('IT_NAM_COL3')|U][visiting_liege.GetShortUIName] non è soddisfatt[visiting_liege.Custom('DE_END_PRO_S_N')] della tua decisione."
+ 
  tour_general.0510.title:0 "Una Richiesta Prima della Partenza"
  tour_general.0510.desc:0 "Ho concluso la mia visita reale a [ROOT.Char.GetCurrentLocation.GetName] e ora il mio corteo si prepara a partire.\n\n[stop_host_scope.Custom('IT_NAM_COL3')|U][stop_host_scope.GetTitledFirstName] e la sua corte si sono tutti allineati ordinatamente per vedermi partire. Ora che tutti sono presenti, è il momento di incassare un tributo per averl[stop_host_scope.Custom('DE_END_PRO_S_N')] onorat[stop_host_scope.Custom('DE_END_PRO_S_N')] della mia presenza."
  tour_general.0510.a:0 "È il momento di riscuotere il tributo."
@@ -1076,8 +1077,8 @@
  host_dinner_events.3000.desc.mid.powerful_vassal:0 "Naturalmente, devo anche riconoscere la sua importanza tra i vassalli di [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip], almeno pubblicamente..."
  host_dinner_events.3000.desc.mid.default:1 "[stop_host_scope.Custom('DE_ART_DEF_P_D')] mi[stop_host_scope.Custom('DE_END_PRO_S_N')] vassall[stop_host_scope.Custom('DE_END_PRO_S_N')] mi riceve con tutta la dovuta deferenza."
  host_dinner_events.3000.desc.mid:2 "\n\n[stop_host_scope.Custom('IT_NAM_COL3')|U][stop_host_scope.GetFirstNameNoTooltip] illustra nei dettagli il banchetto previsto per la serata e promette che gli intrattenimenti e il cibo saranno vicini ai livelli delle cene alla mia corte."
- #host_dinner_events.3000.desc.outro:1 "\n\nSolo il tempo potrà dirlo."
- #host_dinner_events.3000.desc.mid: "Vengo accompagnat[ROOT.Char.Custom('DE_END_PRO_S_N')] all'interno e fatt[ROOT.Char.Custom('DE_END_PRO_S_N')] accomodare a capotavola, già ricca di cibi che scintillano alla luce delle candele."
+ #host_dinner_events.3000.desc.outro:1 "\n\nOnly time will tell."
+ #host_dinner_events.3000.desc.mid: "I am ushered inside and placed at the head of the table, which is already rich with foods glistening in the candlelight."
  host_dinner_events.3000.desc.outro:0 "\n\n[stop_host_scope.Custom('IT_NAM_COL3')|U][stop_host_scope.GetTitledFirstName] mi assicura che si tratta del cibo migliore che potesse offrirmi."
  host_dinner_events.3000.a:0 "Iniziamo!"
 
@@ -1498,7 +1499,6 @@
  cultural_festival.9050.desc:0 "Comodamente sedut[ROOT.Char.Custom('DE_END_PRO_S_N')], sto per godermi un affascinante spettacolo. Le percussioni risuonano nel silenzio dell'attesa, battendo come un battito cardiaco.\n\nDa dietro le tende, appare un[sexy_dancer.Custom('DE_END_PRO_S_N')] splendid[sexy_dancer.Custom('DE_END_PRO_S_N')] [sexy_dancer.GetWomanMan] che si muove in maniera lasciva. [sexy_dancer.GetSheHe|U] si avvicina scandalosamente a me, come per accoccolarsi, poi si allontana ammiccando, tornando verso il pubblico adorante."
  cultural_festival.9050.a:1 "[sexy_dancer.GetSheHe|U] deve essere mi[sexy_dancer.Custom('DE_END_PRO_S_N')]!"
  cultural_festival.9050.b:0 "È tutto molto divertente!"
-
  cultural_festival.9060.t: "Una Performance Leggendaria"
  cultural_festival.9060.desc: "Nella mia allegria, mi aggiro per la festa e alla fine mi imbatto in una compagnia di artisti. Sembra che stiano facendo le prove per qualcosa e dal modo in cui si comportano capisco che mi aspetta un meraviglioso spettacolo.\n\nMi viene in mente che la compagnia potrebbe beneficiare di nuovo materiale. In effetti, [ROOT.Char.GetPromotedLegend.GetName] sarebbe il materiale ideale per un gruppo di teatranti così talentuosi."
  cultural_festival.9060.a: "Dovrebbero rappresentare la mia leggenda!"

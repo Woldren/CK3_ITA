@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  GOTO_CHARACTER:0 "#T Vai alla posizione di [Character.GetShortUINamePossessiveNoTooltip]#!\n[Character.GetLocationDesc]"
  CHARACTER_INTERACTION_ITEM_TOOLTIP_HEADER:0 "$NAME|T$"
  CHARACTER_INTERACTION_ITEM_TOOLTIP_SCHEME_ODDS: "[predicted_difficulty|E]:$NAME$"
@@ -9,6 +9,7 @@
  interaction_category_favorites: "Preferiti" 
  interaction_category_diplomacy:0 "Diplomazia"
  interaction_category_friendly:0 "Personale"
+ interaction_category_friendly_filter_tag_desc: "Personal Interactions"
  interaction_category_laamp: "Avventuriero Senza Terra" 
  interaction_category_hostile:0 "Ostile"
 

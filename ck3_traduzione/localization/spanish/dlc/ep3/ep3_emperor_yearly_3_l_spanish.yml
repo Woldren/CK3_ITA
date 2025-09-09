@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
 
 ep3_emperor_yearly.3000.t: "Il Diritto di Saccheggio del Palazzo"
@@ -36,7 +36,7 @@ ep3_emperor_yearly.3011.commander_attacking: "inviare la flotta [invading_comman
 ep3_emperor_yearly.3011.desc: "tranquilla [army.GetLocation.GetNameNoTooltip], che non bisognava sfidare la città di [ROOT.Char.GetFaith.HighGodName].\n\nI [Glossary( 'dromons', 'DROMONS_GLOSS' )] della mia flotta, con a bordo sifoni di bronzo con bocche di drago, si stanno allontanando dai loro moli. Se le acque saranno calme e i comandanti coordineranno bene il loro attacco... i miei nemici bruceranno.\n\nSe [ROOT.Char.GetFaith.HighGodName] dovesse mai richiedere un prezzo da pagare per i nostri peccati, anche molti difensori [ROOT.Char.GetCapitalLocation.GetCounty.GetCulture.GetCollectiveNoun] saranno immolati. Il fuoco liquido è il caos incarnato!"
 ep3_emperor_yearly.3011.kyrie_eleison: "[Glossary( 'Kýrie, eléison', 'KYRIE_ELEISON_GLOSS' )]!"
 
-KYRIE_ELEISON_GLOSS: "#bold Kýrie, eléison#! — "Signore, abbi pietà di me!", è una preghiera cristiana invocata dalle forze bizantine come grido di battaglia."
+KYRIE_ELEISON_GLOSS: "#bold Kýrie, eléison#! — "Signore, abbi pietà di me!", è una preghiera cristiana invocata dalle forze bizantine come grido di battaglia." #controllare_modifica
 ep3_emperor_yearly.3011.a: "Diamo fuoco all'acqua stessa!"
 ep3_emperor_yearly.3011.a.success: "L'assalto incenerisce il nemico"
 ep3_emperor_yearly.3011.a.fail: "˜Stai subendo forti perdite"

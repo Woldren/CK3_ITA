@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  test_text_to_use_explanation:0 "La parola [primary_title|E] è un concetto di gioco."
  game_concept_vassal:0 "Vassallo"
  game_concept_vassals:0 "Vassalli"
@@ -156,6 +156,7 @@
  game_concept_realm_priest_desc:0 "Un $game_concept_realm_priest$ è un [councillor|E] incaricato degli affari religiosi e spirituali della [faiths|E] con la [doctrine|E] [GetFaithDoctrine('doctrine_theocracy_temporal').GetBaseName].\n\nA differenza del loro [GetFaithDoctrine('doctrine_theocracy_lay_clergy').GetBaseName] equivalente ([court_chaplains|E]), i $game_concept_realm_priests$ [lease|E] automaticamente tutti le [temple_holdings|E] nel [domain|E] di un [ruler|E], e inoltre riceve una porzione di [taxes|E] e [levies|E] dai $game_concept_realm_priests$ [vassals|E] .\n\nI $game_concept_realm_priests$ forniscono al loro [liege|E] Leve e Tasse se hanno una Opinione positiva nei loro confronti. Più è alta l' [opinion|E] nei confronti del loro [liege|E], più ne forniranno.\n\n I $game_concept_realm_priests$ con una Opinione bassa del proprio Signore, non forniranno né Tasse né Leve, e potrebbero causare problemi."
  game_concept_law:0 "Legge"
  game_concept_laws:0 "Leggi"
+ game_concept_law_i: "@law_icon!"
  game_concept_law_desc: "Le Leggi di un Regno sono ciò che determinano il modo in cui è strutturato quel regno. La più fondamentale di queste è l'[crown_authority|E] del regno (o [tribal_authority|E] per le [tribes|E], la [imperial_bureaucracy|E] per la forma di governo [administrative|E] e l'[nomadic_authority|E] per i [nomads|E]), poiché quelle Leggi determinano il modo in cui i [lieges|E] e i [vassals|E] interagiscono regolarmente.\n\nSebbene abbiano un impatto minore sulla vita di tutti i giorni dei sovrani in un regno, le [succession_laws|E] e le [title_laws|E] sono comunque molto importanti da considerare per la [succession|E]."
  game_concept_succession_law:0 "Legge di Successione"
  game_concept_succession_laws:0 "Leggi per la Successione"
@@ -323,6 +324,7 @@
  game_concept_top_realm_desc:0 "Il '$game_concept_top_realm$' è il [realm|E] del [top_liege|E]."
  game_concept_domain:0 "Dominio"
  game_concept_domains:0 "Domini"
+ game_concept_domain_i: "@domain_icon!"
  game_concept_domain_desc:0 "Un $game_concept_domain$ di un [ruler|E] è la collezione di tutti i [Concept( 'holdings', 'possedimenti' )|E] che detiene personalmente.\n\nL'abbastanza statico [domain_limit|E] implica che i Governanti devono fare affidamento sui [vassals|E] per incrementare la grandezza del loro [realm|E] oltre un certo punto."
  game_concept_regiment:0 "Reggimento"
  game_concept_regiments:0 "Reggimenti"
@@ -518,8 +520,8 @@
  game_concept_stress:0 "Stress"
  game_concept_stress_i:0 "@stress_icon!"
  game_concept_stress_gain_i:0 "@stress_gain_icon!"
- game_concept_stress_loss: "Perdita di Stress"
  game_concept_stress_loss_i:0 "@stress_loss_icon!"
+ game_concept_stress_loss: "Perdita di Stress"
  game_concept_stress_critical_i:0 "@stress_critical_icon!"
  game_concept_stress_desc:2 "I personaggi guadagnano Stress quando compiono delle azioni che vanno in conflitto con i loro [personality_traits|E].\n\nI personaggi che guadagnano abbastanza Stress otterranno inoltre un [stress_level|E], che causerà vari effetti negativi sulla loro salute mentale che persisteranno finché non troveranno il modo di ridurre il loro Stress.\n\nUn modo semplice per alleviare lo Stress è quello di partecipare ad [activities|E] come un/una [GetActivityType( 'activity_hunt' ).GetName]."
  game_concept_adult:0 "Adulto"
@@ -644,8 +646,8 @@
  game_concept_education_trait_desc:1 "Raggiunta l'[adulthood|E], ogni personaggio riceve un $game_concept_education_trait$.\n\nCi sono cinque tipi di tratti dell'educazione, ognuno dei quali corrisponde direttamente ad una [skill|E] specifica.\n\nLa qualità del [trait|E] che riceve un personaggio dipenderà da quanto il suo [childhood_trait|E] abbia corrisposto con il suo [education_focus|E] così come con l'Abilità rilevante del loro [guardian|E].\n\nIl $game_concept_education_trait$ di un personaggio migliora la velocità con la quale egli procede nei suoi progressi nel corrispondente [lifestyle|E]."
  game_concept_education_focus:0 "Focus Educativo"
  game_concept_education:0 "Educazione"
- game_concept_educate:0 "Educazione"
  game_concept_educations:0 "Insegnamenti"
+ game_concept_educate:0 "Educazione"
  game_concept_educated:0 "Educato"
  game_concept_education_focus_short:0 "Focus"
  game_concept_education_focus_desc:1 "A tutti i [children|E] di un'età compresa tra #V 6#! e #V 9#! anni può essere dato un $game_concept_education_focus$ incentrato su una delle cinque [Concept( 'skills', 'competenze' )|E].\n\nL'Educazione termina con un [education_trait|E] una volta raggiunta l'[adulthood|E].\n\nLa qualità del $game_concept_education_trait$ che essi ricevono dipenderà da quanto bene il [childhood_trait|E] corrisponda al loro Focus Educativo, così come alla Skill rilevante del loro [guardian|E].\n\nQuando il Focus Educativo viene scelto, puoi inoltre spcificare se il bambino dovrebbe essere cresciuto con la [faith|E] e la [culture|E] del [guardian|E]."
@@ -718,6 +720,7 @@
  game_concept_activity_state_active:0 "Attiva"
  game_concept_activity_state_active_desc:1 "Quando il padrone di casa e gli ospiti sono arrivati e sono impegnati in un'[activity|E] è considerata attiva."
  game_concept_activity_host:0 "Organizzatore dell'Attività"
+ game_concept_activity_host_possessive: "Activity Host's"
  game_concept_activity_host_short:0 "Organizzatore"
  game_concept_activity_host_desc:0 "L'Organizzatore di un'[activity|E] è il [ruler|E] che vi ha dato inizio.\n\nEgli sceglie [activity_type|E], [location|E], [activity_options|E] e quali [activity_guests_short|E] invitare."
  game_concept_activity_guest:0 "Ospite dell'Attività"
@@ -794,7 +797,7 @@
  game_concept_theocracy_government:0 "Governo Teocratico"
  game_concept_theocracy_i: "@government_type_theocracy!"
  game_concept_theocracy_desc:0 "La $game_concept_theocracy$ è [government_form|E] ingiocabile disponibile per alcune [faiths|E] in base alle [doctrines|E]. Essa è generalmente guidata da un [head_of_faith|E] o da un [realm_priest|E] [landed|E] . Un vescovo potrebbe inoltre diventare un governante Teocratico [independent|E] di propria iniziativa."
-
+ 
  game_concept_republic:0 "Repubblica"
  game_concept_republics:0 "Repubbliche"
  game_concept_republican:0 "Repubblicano"
@@ -881,6 +884,7 @@
  game_concept_claims:0 "Rivendicazioni"
  game_concept_claim:0 "Rivendicazione"
  game_concept_claimed:0 "Rivendicato"
+ game_concept_claim_i:1 "@pressed_claim!"
  game_concept_title_claim_desc:1 "Una $game_concept_claim$ su un [title|E] rappresenta un diritto legale a possederlo e fornisce un [casus_belli|E] che permette di conquistarlo tramite la [war|E]. Le Rivendicazioni inoltre forniscono una ragione valida per [revoke|E] i [titles|E] degli [holders|E] di un [vassal|E].\n\nLe Rivendicazioni sono solitamente date ai [rulers|E] ogni qualvolta essi perdono il controllo dei Titoli rispetto a qualcun altro, ma possono essere inoltre create attraverso il compito [fabricate_claim_short|E].\n\nInoltre, ogni bambino (persino i [bastards|E]) di un governante hanno un [implicit_claim|E] su tutti i [titles|E] del governante. Se non ereditano quel titolo dal governante, quando muoiono, quelle [implicit_claims] si convertiranno in [pressed_claims|E], le quali, a quel punto, possono essere ereditate dai loro stessi figli come [unpressed_claims|E]."
  game_concept_pressed_claim:0 "Rivendicazione Esercitata"
  game_concept_pressed_claims:0 "Rivendicazioni Esercitate"
@@ -1406,7 +1410,7 @@
  game_concept_papal_recipient_desc:1 "Se il bersaglio principale di una [great_holy_war|E] è già detenuto o reclamato da un membro della fede dell'aggressore, egli sarà considerato il legittimo ricevente del titolo per il quale si è combattuto, a meno che il princiaple [Concept( 'war_contribution', 'Contributor' )|E] decida di dare precendenza al proprio [beneficiary|E]."
  game_concept_end_date:0 "Data Finale"
  game_concept_end_date_desc:0 "1453 d.C. è la Data Finale, e una volta raggiunta il gioco terminerà."
-
+ 
  game_concept_realm_size:0 "Grandezza del Regno"
  game_concept_realm_size_desc:1 "La $game_concept_realm_size$ di un Presonaggio è il numero di [counties|E] possedute da lui e dai suoi [vassals|E]."
  game_concept_voter_strength:0 "Forza dell'Elettore"
@@ -1421,10 +1425,10 @@
  game_concept_mental_breaks:0 "Crolli Mentali"
  game_concept_mental_break_desc:0 "Quando lo [stress|E] sommerge un personaggio egli sperimenterà un Crollo Mentale — una crisi personale nella quale sentirà di dover fare qualcosa per abbassare il proprio Stress, non importa a quale costo.\n\nI Personaggi che soffrono di un Crollo Mentale avranno diversi modi con i quali affrontare la situazione, sebbene molti di essi avranno conseguenze negative.\n\nA [stress_levels|E] bassi queste conseguenze sono minori e facilmente gestite. Ciononostante, non appena il Livello di Stress aumenta, così fanno le conseguenze, conducendo eventualmente alla pazzia o persino alla morte."
  stress_icon_tooltip:0 "$game_concept_mental_break_desc$"
-
+ 
  game_concept_clergy_opinion:0 "Opinione del Clero"
  game_concept_clergy_opinion_desc:0 "Questo tipo di [opinion|E] riguarda solo il [clergy|E] della tua stessa [faith|E]."
-
+ 
  game_concept_secular_opinion:0 "Opinione Laica"
  game_concept_secular_opinion_desc:0 "Questo tipo di [opinion|E] riguarda tutti i personaggi che #emphasis non#! fanno parte del [clergy|E]."
 
@@ -1469,7 +1473,7 @@
  game_concept_relations:0 "Relazioni Speciali"
  game_concept_relationship:0 "Relazione Speciale"
  game_concept_relation_desc:3 "Le $game_concept_relations$ sono le relazioni che ha un personaggio che non sono legate alla famiglia o al [vassalage|E]. Queste $game_concept_relations$ cadono in diverse categorie, potrebbero portare [character_modifiers|E] per il personaggio coinvolto, e determinare quali cose possono accadere tra di loro.\n\nRelazioni Standard:\n$EFFECT_LIST_BULLET$ [friend|E]\n$EFFECT_LIST_BULLET$ [lover|E]\n$EFFECT_LIST_BULLET$ [rival|E]\n$EFFECT_LIST_BULLET$ [guardian|E]\n$EFFECT_LIST_BULLET$ [ward|E]\n$EFFECT_LIST_BULLET$ [mentor|E]\n$EFFECT_LIST_BULLET$ [student|E]\n\nRelazioni Migliorate:\n$EFFECT_LIST_BULLET$ [best_friend|E]\n$EFFECT_LIST_BULLET$ [soulmate|E]\n$EFFECT_LIST_BULLET$ [nemesis|E]\n\nRelazioni dell'Infanzia:\n$EFFECT_LIST_BULLET$ [bully|E]\n$EFFECT_LIST_BULLET$ [victim|E]\n$EFFECT_LIST_BULLET$ [crush|E]"
-
+ 
  game_concept_lover:0 "Amante"
  game_concept_lovers:0 "Amanti"
  game_concept_lover_possessive:0 "dell'Amante"
@@ -1584,7 +1588,7 @@
 
  game_concept_increase_control:0 "$task_increase_control$"
  game_concept_increase_control_desc:0 "$game_concept_increase_control$ è un [councillor_task|E] svolto dal [marshal|E].\n\nHa come obiettivo una [county|E], nella quale incrementa il [control|E], e rimuove la [county_corruption|E] nel tempo."
- 
+
  game_concept_manage_guards:0 "$task_manage_guards$"
  game_concept_manage_guards_desc:0 "$game_concept_increase_control$ è un [councillor_task|E] svolto dal [marshal|E].\n\nAumenta l'[knight_effectiveness|E] e diminuisce la [success_chance|E] del [hostile_scheme|E] contro il [liege|E] del consigliere."
 
@@ -1624,7 +1628,7 @@
 
  game_concept_domestic_affairs:0 "$task_domestic_affairs$"
  game_concept_domestic_affairs_desc:0 "Un [councillor_task|E] svolto dal [chancellor|E], il quale incrementa l'opinione che i [vassals|E] nel [realm|E] hanno nei confronti del loro [liege|E]."
- 
+
  game_concept_bestow_royal_favor:0 "$task_bestow_royal_favor$"
  game_concept_bestow_royal_favor_desc:0 "Un'[councillor_task|E] svolto dal [chancellor|E], che aumenta l'opinione che i [vassals|E] prescenti nel [realm|E] hanno nei confronti del suo [liege|E]."
 
@@ -1665,7 +1669,7 @@
  game_concept_abandon_celibacy:0 "Abbandona il Celibato"
  game_concept_abandon_celibacy_decision:0 "Decisione di abbandonare il Celibato"
  game_concept_abandon_celibacy_desc:0 "A [decision|E] that allows a character to lose the [GetTrait('celibate').GetName( GetNullCharacter )] [trait|E] at will."
-
+ 
  game_concept_convert_county:0 "$task_conversion$"
  game_concept_convert_county_desc:0 "Un'[councillor_task|E] eseguito dal [court_chaplain|E] il quale ha come bersaglio un [county|E] di una fede differente da quella del [liege|E].\nIl Progresso aumenta ogni mese, e a 100%, la gran parte della Contea del Personaggio avrà cambato fede passando dalla propria a quella del Signore.\n\nLa velocità di conversione è influenzata da molti fattori, inclusa l'[learning_skill|E] del [councillor|E] e il [fervor|E] delle due Fedi."
  game_concept_convert: "Convertire"
@@ -1675,7 +1679,7 @@
  game_concept_commission_epic:0 "$commission_epic_decision$"
  game_concept_commission_epic_decision:0 "Decisione $commission_epic_decision$"
  game_concept_commission_epic_desc:0 "Una [decision|E] che permette ad un personaggio di scambiare [gold|E] per un [artifact|E], commissionando un'Epica Familiare.\nL'epica farà ottenere [dynasty_prestige|E] e altri bonus in base alle tue scelte."
- #tradurre
+
  game_concept_draw_up_new_charts:0 "$draw_up_new_charts_decision$"
  game_concept_draw_up_new_charts_decision:0 "$draw_up_new_charts_decision$ Decision"
  game_concept_draw_up_new_charts_desc:0 "Una [decision|E] che permette ad un personaggio di commerciare in [gold|E] per un [artifact|E], commissionando un viaggiatore itinerante così che descriva i posti che ha visitato.\nIl [artifact|E] dell'itinerario fornirà diversi effetti in base a dove sei stato e a quali scelte tu abbia compiuto."
@@ -1702,8 +1706,8 @@
  game_concept_liberty_faction_desc:1 "L'obiettivo della $game_concept_liberty_faction$ è quello di ridurre l'[crown_authority|E] e, se possibile, i propri [vassal_contracts|E]. In caso di successo, il [liege|E] non potrà cambiare l'Autorità della Corona del [realm|E] per diverso tempo."
 
  game_concept_claimant_faction:0 "$claimant_faction$"
- game_concept_claimant_faction_desc:1 "La $game_concept_claimant_faction$ punta ad installare un particolare [claimant|E] sul trono di un [title|E] detenuto dal proprio [liege|E]. Se avranno successo, il loro signore dovrà cedere il Titolo al Pretendente e la struttura di [Concept( 'vassal', 'vassallaggio' )|E] sarà aggiornata di conseguenza. Tutti i membri della [faction|E] guadagneranno un [hook|E] sul Pretendente."
  game_concept_claimant_factions:0 "Fazioni Pretendenti"
+ game_concept_claimant_faction_desc:1 "La $game_concept_claimant_faction$ punta ad installare un particolare [claimant|E] sul trono di un [title|E] detenuto dal proprio [liege|E]. Se avranno successo, il loro signore dovrà cedere il Titolo al Pretendente e la struttura di [Concept( 'vassal', 'vassallaggio' )|E] sarà aggiornata di conseguenza. Tutti i membri della [faction|E] guadagneranno un [hook|E] sul Pretendente."
 
  game_concept_peasant_faction:0 "$peasant_faction$"
  game_concept_peasant_factions:0 "Fazioni Contadine"
@@ -1736,7 +1740,7 @@
  game_concept_offensive_war_opinion:0 "Opinione per la Guerra Offensiva"
  game_concept_offensive_war_opinion_short:0 "Guerra Offensiva"
  game_concept_offensive_war_opinion_desc:0 "Essere il principale attaccante in una guerra avrà come conseguenza che i tuoi vassalli ti apprezzeranno gradualmente di meno nel corso di [GetDefine('NCharacterOpinion', 'OFFENSIVE_WAR_PENALTY_GRACE_PERIOD')] mesi. Le [civil_wars|E] e le [great_holy_wars|E] sono escluse da ciò. Non appena non sarete più in tale guerra, la penalità diminuirà lentamente."
-
+ 
  game_concept_at_peace_opinion:0 "Opinione per il periodo di Pace"
  game_concept_at_peace_opinion_short:0 "In Pace"
  game_concept_at_peace_opinion_desc:1 "I Personaggi che hanno il [core_tenet|E] [GetFaithDoctrine('tenet_warmonger').GetBaseName] come parte della loro [faith|E] avranno l''$game_concept_at_peace_opinion$' anziché la penalità per [offensive_war_opinion|E].\n\nSe rimani in pace per troppo a lungo, i tuoi [vassals|E] penseranno male di te #weak (se condividono la tua stessa Fede).#!"
@@ -1751,7 +1755,7 @@
  game_concept_highlighted_text_desc:0 "Questa informazione è qui per te, ogni qualvolta non sei sicuro riguardo a un concetto di gioco.\n\n#TUT Puoi persino muovere il tuo cursore in #EMP questo#! suggerimento per ottenere anche altre informazioni! [highlighted_text_example|E]#!"
  game_concept_highlighted_text_example:0 "Perfetto!"
  game_concept_highlighted_text_example_desc:0 "Bel lavoro!"
-
+ 
  game_concept_detail_zoom:1 "$ZOOM_LEVEL_DETAILS$"
  game_concept_detail_zoom_desc:1 "$ZOOM_LEVEL_DETAILS_TOOLTIP$"
  game_concept_political_zoom:0 "$ZOOM_LEVEL_POLITICAL$"
@@ -1793,7 +1797,7 @@
  game_concept_movement_lock:0 "Blocco del Movimento"
  game_concept_movement_locked:0 "Movimento Bloccato"
  game_concept_movement_locked_desc:0 "Dopo che un [army|E] ha completato più di metà del movimento che gli è stato ordinato di fare, non sarà possibile cambiarlo finché essa non raggiunge la propria destinazione."
-
+ 
  game_concept_extramarital_sex:0 " Sesso Extraconiugale"
  game_concept_extramarital_sex_sleeping_with:0 "andare a letto con"
  game_concept_extramarital_sex_desc:1 "Se vengono scoperti, due personaggi impegnati in rapporti sessuali extraconiugali subiranno conseguenze a seconda delle [doctrines|E] della loro [faith|E].\n\n$EFFECT_LIST_BULLET$ Ciascun personaggio diverrà noto come [GetTrait('fornicator').GetName( GetNullCharacter )] o [GetTrait('adulterer').GetName( GetNullCharacter )], in base al proprio status matrimoniale\n$EFFECT_LIST_BULLET$Se un uomo e una donna dormono insieme, potrebbe accadere che lei rimanga incinta di un [bastard|E]\n$EFFECT_LIST_BULLET$Se i personaggi sono dello stesso sesso, le conseguenze sono determinate dalla [doctrine|E] della [faith|E] riguardante le $doctrine_homosexuality_name$\n$EFFECT_LIST_BULLET$Qualsiasi [Concept( 'diseases', 'malattia' )|E] sessualmente trasmissibile posseduta da un personaggio può infettare l'altro"
@@ -1823,7 +1827,7 @@
 
  game_concept_faith_hostility:0 "Ostilità della Fede"
  game_concept_faith_hostility_desc:1 "Tutte le [faiths|E] hanno una relazione verso gli altri tipi di $game_concept_faith$ che è determinata da quanto sono strettamente correlate.\n\nCiò è determinato da diversi fattori, come ad esempio se condividono la [religion|E], la [religious_family|E], o se la Fede ha [doctrines|E] speciali.\n\nSe due Fedi sono distanti, sono spesso in grado di indirsi a vicenda una [holy_war|E].\n\nLe seguenti relazioni esistono: [faith_righteous|L], [faith_astray|L], [faith_hostile|L], e [faith_evil|L]."
-
+ 
  game_concept_command_modifier:0 "Modificatore di Comando"
  game_concept_command_modifier_desc:0 "Questo [modifier|E] è attivo solo per i [commanders|E].\n\nSe un personaggio con un Modificatore di Comando, comanda un [army|E], otterrà questo effetto."
  game_concept_command_modifier_i:0 "@command_modifier_icon!"
@@ -1863,21 +1867,21 @@
  game_concept_modifier_contributions:0 "Contributi"
  game_concept_modifier_contributes:0 "Contribuisce"
  game_concept_modifier_contribution_desc:0 "Un [modifier|E] potrebbe cambiare il $game_concept_modifier_contribution$ per quanto riguarda le [obligations|E] dei tuoi [vassals|E]. Questo non è uguale al [modifier_base_contribution|E].\n\nSe hai un vassallo che ti paga #V 1#! [gold|E] al mese, e ottieni un modificatore che incrementa il $game_concept_modifier_contribution$ del #V 10%#!, allora il vassallo ti paga #V 1.1#! d'oro."
-
+ 
  game_concept_modifier_base_contribution:0 "Contributo Base"
  game_concept_modifier_base_contributions:0 "Contributi Base"
  game_concept_modifier_base_contributes:0 "Contributi Base"
  game_concept_modifier_base_contribution_desc:0 "Un [modifier|E] potrebbe cambiare il $game_concept_modifier_base_contribution$ per quanto riguarda le [obligations|E] dei tuoi [vassals|E]. Questo non è uguale al [modifier_contribution|E].\n\nSe hai un vassallo che ha come [income|E] totali #V 10#! [gold|E] e ti paga #V 1#! d'oro al mese, e ottieni un modificatore che incrementa il $game_concept_modifier_base_contribution$ del #V 10%#!, allora quel vassallo ti paga invece #V 2#! d'oro."
-
+ 
  game_concept_maneuver:0 "Manovra"
  game_concept_maneuver_desc:0 "La fase di $game_concept_maneuver$ si ha all'inizio di una [battle|E] e indica il tempo che ci vuole prima che la [main_phase|E] inizi, e gli [armies|E] ingaggino battaglia."
-
+ 
  game_concept_combat_phase:0 "Fase della Battaglia"
  game_concept_combat_phase_desc:0 "È una parte di una [battle|E]. Le Battaglie hanno tre distinte fasi; [maneuver|E], [main_phase|E], e la [aftermath|E]."
 
  game_concept_unreformed_pagan_combat_bonus:1 "Vantaggio di lotta per i pagani non riformati"
  game_concept_unreformed_pagan_combat_bonus_desc:1 "Le [faiths|E] del tipo [GetReligionFamily('rf_pagan').GetName] [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] ottengono un [advantage|E] in [battle|E] nelle [counties|E] che hanno la loro stessa fede."
-
+ 
  game_concept_personality:0 "Personalità"
  game_concept_character_personality:0 "Personalità del Personaggio"
  game_concept_personalities:0 "Personalità"
@@ -1885,14 +1889,14 @@
  
  game_concept_economical_archetype:0 "Archetipo Economico"
  game_concept_economical_archetype_desc:0 "L'Archetipo Economico di un [ruler|E] influenza il modo in cui egli decide di spendere il proprio [gold_i][gold|E]. Esso è in larga parte basato sui loro [traits|E].\n\n#low Gli Archetipi Economici sono:#!\n$EFFECT_LIST_BULLET$[ai_warlike_personality|E]\n$EFFECT_LIST_BULLET$[ai_cautious_personality|E]\n$EFFECT_LIST_BULLET$[ai_economical_boom_personality|E]\n$EFFECT_LIST_BULLET$[ai_economical_unpredictable_personality|E]\n$EFFECT_LIST_BULLET$[ai_conqueror_personality|E]"
-
+ 
  game_concept_gift:0 "Dono"
  game_concept_gifts:0 "Doni"
  game_concept_send_gift:0 "Invia un Dono"
  game_concept_gift_desc:0 "Inviare un Dono ad un altro personaggio incrementerà la loro [opinion|E] nei tuoi confronti in cambio d'[gold|E][gold_i].\n\nPiù è avido il destinatario, più Oro dovrai inviare, e migliore sarà l'Opinione che ne deriverà.\n\nPiù è alta la tua [diplomacy|E], migliore sarà l'Opinione che ne deriverà."
 
  game_concept_vote_strength:0 "Forza del Voto"
- 
+
  game_concept_valuable_prisoner: "Prigioniero di Valore"
  game_concept_valuable_prisoners: "Prigionieri di Valore"
  game_concept_valuable_prisoner_desc:0 "Un $game_concept_valuable_prisoner$ è un [prisoner|E] che fornisce [war_score|E] quando viene catturato nel corso di una [war|E].\n\nAffinché una persona possa essere considerata un $game_concept_valuable_prisoner$, they deve essere terzo in linea di successione o superiore per ereditare il titolo principale del proprio leader della guerra.\n\nI $game_concept_valuable_prisoners$ vengono rilasciati al termine della guerra, a differenza dei [prisoners_of_war|E]."
@@ -1924,7 +1928,7 @@
  game_concept_de_jure_partition:0 "Ripartizione De Jure"
  game_concept_de_jure_partitioned:0 "Ripartiti De Jure"
  game_concept_de_jure_partition_desc:0 "I [realms|E] che sono $game_concept_de_jure_partitioned$ sono stati divisi in due [titles|E] dello stesso [title_tier|E], ma possono ancora essere riuniti facilmente.\n\nOgni $game_concept_title$ può [de_jure_drift_drift|E] i [duchies|E] [Concept( 'completely_controlled', 'completamente controllati' )|E] dall'altro $game_concept_title$ nel suo titolo [de_jure|E] istantaneamente attraverso una [decision|E].\n\nSe uno dei due titoli viene distrutto o perde l'ultima delle sue [counties|E] $game_concept_de_jure$, allora il $game_concept_title$ rimanente annette tutte le sue contee $game_concept_de_jure$."
- 
+
  game_concept_hybrid_culture:0 "Cultura Ibrida"
  game_concept_hybrid_cultures:0 "Culture Ibride"
  game_concept_hybridize:0 "Ibrida"
@@ -1971,7 +1975,7 @@
 
  game_concept_force_duel_anyone_interaction:0 "Interazione $force_duel_anyone_interaction$"
  game_concept_force_duel_anyone_interaction_desc:0 "Un'[interaction|E] che ti permette di sfidare a [single_combat_duel|E] chiunque quando sei [stressed|E]."
- 
+
  game_concept_artifact_rarity:0 "Rarità del Manufatto"
  game_concept_rarity:0 "Rarità"
  game_concept_artifact_rarity_desc:0 "Alcuni [artifacts|E] sono più rari di altri, il che si riflette sulla loro Rarità.\n\nI livelli sono dal più basso al più alto:\n$BULLET_WITH_TAB$Comune (non viene mai mostrato poiché è l'impostazione predefinita)\n$BULLET_WITH_TAB$$capolavoro$\n$BULLET_WITH_TAB$$celebre$\n$BULLET_WITH_TAB$$illustre$"
@@ -1986,7 +1990,7 @@
  game_concept_buy_artifact_claim:0 "$buy_artifact_claim_interaction$"
  game_concept_buy_artifact_claim_interaction:0 "Interazione $buy_artifact_claim_interaction$"
  game_concept_buy_artifact_claim_desc:0 "Un'Interazione che permette ad un personaggio di comprare le [personal_artifact_claims|E] in cambio di [piety|E] o [prestige|E]."
- 
+
  game_concept_vassal_contract:0 "Contratto del Vassallo"
  game_concept_vassal_contracts:0 "Contratti dei Vassalli"
  game_concept_vassal_contract_desc:0 "I $game_concept_vassal_contracts$ definiscono le [obligations|E] tra un [vassal|E] e il proprio [liege|E].\n\nI vassalli con le $game_concept_government_forms$ [feudal|E], [clan|E], [administrative|E] e [GetGovernment( 'nomad_government' ).GetName] hanno accesso ad [obligations|E] differenti, negoziate individualmente per ogni Vassallo.\n\nTutti i Vassalli pagano una paercetuale delle loro [taxes|E] totali e [levies|E] al proprio Signore, in base alle loro [obligations|E]. #EMP Questi [modifier_contributions|E], in cambio, possono essere modificati da 'clausole in piccolo' come [GetSubjectContractType( 'fortification_rights' ).GetObligationName( 'fortification_rights_granted' )].#!\n\nAlcuni Contratti Speciali sono limitati a determinati Ranghi:\n$EFFECT_LIST_BULLET$[GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_march' )|V] and [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_scutage' )|V]: [duke|E] o superiore\n$EFFECT_LIST_BULLET$[GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_palatinate' )|V]: [count|E] o superiore\n$EFFECT_LIST_BULLET$[GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_castellan' )|V]: solo [count|E]\n\n#weak Nota, le  [obligations|E] del [governor|E] sono anche conosciute come [province_administrations|E].#!"
@@ -2055,7 +2059,8 @@
  game_concept_board_game_type_fidchell:0 "Fidchell"
  game_concept_board_game_type_fidchell_desc:0 "$game_concept_board_game_type_desc_guts$\n\nIn $game_concept_board_game_type_fidchell$:\n$EFFECT_LIST_BULLET$ [learning|E] $game_concept_board_game_type_counters$ [prowess|E]\n$EFFECT_LIST_BULLET$ [prowess|E] $game_concept_board_game_type_counters$ [diplomacy|E]\n$EFFECT_LIST_BULLET$ [diplomacy|E] $game_concept_board_game_type_counters$ [learning|E]"
 
- #### DIARCHY/REGENCIES
+
+#### DIARCHY/REGENCIES
  game_concept_strife:0 "Conflittualità"
  game_concept_strife_opinion:0 "Opinione per la Conflittualità"
  game_concept_strife_desc:2 "La $game_concept_strife$ è una penalità all'[opinion|E] verso il [diarch|E] da parte dei propri [vassals|E] alla pari.\n\nLa conflittualità si ha quando il $game_concept_diarch$ usa i suoi [diarch_powers|E], o eventi a seguito dell'uso dei [mandates|E], dal momento che il $game_concept_diarch$ non ha la stessa autorità del suo [liege|E]"
@@ -2088,7 +2093,7 @@
  game_concept_vizier_desc: "Un $game_concept_vizier$ è un particolare tipo di [diarch|E] che i [rulers|E] di [clan|E] possono nominare volontariamente per rafforzare le loro [income|E]. Hanno meno [diarch_powers|E] ma possono essere molto difficili da destituire.\n\nI $game_concept_viziers$ forniscono al loro [liege|E] un bonus alle [tax_jurisdictions|E] a seconda del loro livello in [stewardship|E], e incrementano l'[aptitude|E] degli [tax_collectors|E] in base a quanto gli [scales_of_power|E] li favoriscono.\n\nIn particolare, i $game_concept_lieges$ possono prendere [gold_i][gold|E] dai $game_concept_viziers$ attraverso l'[interaction|E] $mulct_vizier_interaction$.\n\n#WEAK Essendo funzionari civili con alcuni poteri aggiuntivi, le posizioni di $game_concept_vizier$ non sono considerate prestigiose dai [nobles|E] nonostante la loro influenza. Il loro successore viene scelto in base al [vizier_succession_score|E].#!\n\n$variant_diarchs_replace_regents_boilerplate$"
  game_concept_confidant: "$councillor_vizier$"
  game_concept_confidant_desc: "$councillor_vizier_desc$"
- 
+
  game_concept_vizier_succession_score: "Punteggio di Successione del Visir"
  game_concept_vizier_succession_score_desc: "In un [vizierate|E], il successivo $game_concept_vizier$ viene scelto in base al maggiore $game_concept_vizier_succession_score$ dei candidati.\n\nI candidati potenziali possono occasionalmente tentare di convincere il [ruler|E] di permettere loro di sostituire il titolare in carica in cambio di [gold|E].\n\n#WEAK Questo è permesso solo ai senza terra e ai [characters|E] di [title_tier|E] [baron|E], favorendo quelli con forte [diplomacy|E], [stewardship|E], e [intrigue|E], come pure con [traits|E] che li rendono migliori funzionari pubblici.\n\nLe [relations|E] con gli attuali $game_concept_vizier$ o con i [spouses|E], le [concubines|E], e i [children|E] [adults|E] senza terra del [liege|E] possono influenzare notevolmente il punteggio.#!"
 
@@ -2144,7 +2149,6 @@
  game_concept_diarch_power_power_possessive:0 "del Potere"
  game_concept_diarch_power_powers_possessive:0 "dei Poteri"
  game_concept_diarch_power_desc:2 "Un [diarch|E] che stia attivamente [Concept( 'power_sharing', 'Condividendo il potere' )|E] ha accesso a speciali $game_concept_diarch_powers$.\n\nSono speciali [character_interaction|E] che imitano quelle che ha il suo [liege|E], oppure sono altri abusi di potere. Gli esempi includono la [Concept( 'revoking', 'Revocazione' )|E] dei [titles|E] dei [vassals|E] dello stesso livello, o la sottrazione dell'[gold|E] del proprio Signore.\n\nMolti $game_concept_diarch_powers$ danno al Signore l'opportunità di [veto|E] su di essi."
-
  game_concept_trilateral_interaction: "Interazione Trilaterale"
  game_concept_trilateral_interactions: "Interazioni Trilaterali"
  game_concept_trilateral_interaction_desc: "Le $game_concept_trilateral_interactions$ richiedono l'approvazione di una terza parte, oltre a quella del destinatario.\n\nAd esempio, i [diarch_powers|E], per i quali un [liege|E] può usare il suo [regency_veto|E]."
@@ -2280,11 +2284,11 @@
  game_concept_conqueror_i: "@conqueror_icon!" 
  game_concept_ai_warlike_personality:0 "Bellicoso"
  game_concept_ai_warlike_personality_desc:0 "Un [ruler|E] $game_concept_ai_warlike_personality$ vuole essere pronto a dichiarare [war|E], sempre. Risparmiera l'[gold|E] per la guerra piuttosto che investirlo nello sviluppo del proprio [realm|E]. Se un Governante $game_concept_ai_warlike_personality$ è in pace da molto tempo, userà l'oro nel suo forziere di guerra per costruire degli [buildings|E].\n\nI governanti bellicosi sono più propensi a creare e promuovere [legends|E] eroiche.\n\nI governanti audaci e avidi tendono a essere bellicosi.\nI tratti comuni includono [GetTrait('wrathful').GetName( GetNullCharacter )], [GetTrait('impatient').GetName( GetNullCharacter )], [GetTrait('sadistic').GetName( GetNullCharacter )], [GetTrait('ambitious').GetName( GetNullCharacter )], [GetTrait('vengeful').GetName( GetNullCharacter )], [GetTrait('irritable').GetName( GetNullCharacter )], e [GetTrait('zealous').GetName( GetNullCharacter )]."
+ game_concept_ai_cautious_personality:0 "Cauto
+ game_concept_ai_cautious_personality_desc:0 "Un [ruler|E] $game_concept_ai_cautious_personality$ vuole essere preparato ad una [war|E] dichiarata contro di lui. È piuttosto restio a dichiarare guerre offensive, preferendo invece un lento svilupparsi degli eventi. Tiene da parte un gruzzolo d'[gold|E] per aiutarsi a difendersi e per investirlo negli [buildings|E] e negli [men_at_arms|E] così da sentirsi al sicuro.\n\nI governanti cauti sono meno propensi a creare e promuovere [legends|E].\n\nI governanti riservati e prudenti tendono ad essere $game_concept_ai_cautious_personality$.\nI tratti comuni includono [GetTrait('patient').GetName( GetNullCharacter )], [GetTrait('calm').GetName( GetNullCharacter )], [GetTrait('craven').GetName( GetNullCharacter )], [GetTrait('paranoid').GetName( GetNullCharacter )], e [GetTrait('content').GetName( GetNullCharacter )]. Non sarà mai [GetTrait('fickle').GetName( GetNullCharacter )]."
  game_concept_ai_conqueror_personality: "Conquistatore"
  game_concept_ai_conquerors_personality: "Conquistatori"
  game_concept_ai_conqueror_personality_desc: "Un $game_concept_ai_conqueror_personality$ desidera espandere il proprio [realm|E] mediante la [war|E], ad ogni costo. Investirà tutto il proprio [gold|E] nel [war_chest|E] o per comprare [men_at_arms|E].\n\nQuesti personaggi tendono a dichiarare più [wars|E] del normale, e sono spesso [allies|E] non affidabili. Rinunciano alla maggior parte delle frivolezze della vita come organizzare o partecipare ad [activities|E] e finanziare delle [inspirations|E], per mettere da parte [gold|E] al fine di schiacciare i propri nemici. Useranno le Attività soltanto per guadagnare abbastanza [prestige|E] e [piety|E] per andare in Guerra.\n\nQualsiasi [ruler|E] non-[ai_cautious_personality|E] ha il potenziale per diventare un $game_concept_ai_conqueror_personality$, ma normalmente non ci sono più di una manciata di Governanti nel mondo con questo archetipo."
- game_concept_ai_cautious_personality:0 "Cauto
- game_concept_ai_cautious_personality_desc:0 "Un [ruler|E] $game_concept_ai_cautious_personality$ vuole essere preparato ad una [war|E] dichiarata contro di lui. È piuttosto restio a dichiarare guerre offensive, preferendo invece un lento svilupparsi degli eventi. Tiene da parte un gruzzolo d'[gold|E] per aiutarsi a difendersi e per investirlo negli [buildings|E] e negli [men_at_arms|E] così da sentirsi al sicuro.\n\nI governanti cauti sono meno propensi a creare e promuovere [legends|E].\n\nI governanti riservati e prudenti tendono ad essere $game_concept_ai_cautious_personality$.\nI tratti comuni includono [GetTrait('patient').GetName( GetNullCharacter )], [GetTrait('calm').GetName( GetNullCharacter )], [GetTrait('craven').GetName( GetNullCharacter )], [GetTrait('paranoid').GetName( GetNullCharacter )], e [GetTrait('content').GetName( GetNullCharacter )]. Non sarà mai [GetTrait('fickle').GetName( GetNullCharacter )]."
  game_concept_ai_economical_boom_personality:0 "Costruttore"
  game_concept_ai_economical_boom_personality_desc:0 "Un [ruler|E] $game_concept_ai_economical_boom_personality$ vuole investire tutto il suo [gold|E] nel [realm|E]. Svuotera la propria tesoreria per finanziare gli [buildings|E] e gli [men_at_arms|E], e spesso costruirà altri [economic_buildings|E] e [holdings|E]. Risparmia oro solo nel caso di una minaccia diretta, come ad esempio da parte di una [faction|E] forte.\n\nI governanti costruttori sono leggermente meno propensi a creare e promuovere [legends|E].\n\nI governanti audaci con una propensione alla costruzione e nessuna particolare inclinazione alla guerra tendono ad essere $game_concept_ai_economical_boom_personality$.\nI tratti comuni includono [GetTrait('calm').GetName( GetNullCharacter )], [GetTrait('patient').GetName( GetNullCharacter )], [GetTrait('diligent').GetName( GetNullCharacter )], [GetTrait('generous').GetName( GetNullCharacter )], [GetTrait('stubborn').GetName( GetNullCharacter )], [GetTrait('profligate').GetName( GetNullCharacter )], e [GetTrait('improvident').GetName( GetNullCharacter )]. I governanti con il focus sull'[GetFocus('stewardship_domain_focus').GetName] tendono anche ad essere $game_concept_ai_economical_boom_personality$s."
  game_concept_ai_economical_unpredictable_personality:0 "Imprevedibile"
@@ -2414,7 +2418,6 @@
  game_concept_prestige_level_impact:0 "Impatto del livello di fama"
  game_concept_prestige_level_impact_desc:0 "Il livello di impatto della fama aumenta o diminuisce i [modifiers|E] acquisiti grazie al tuo attuale [prestige_level|E]."
 
-# Aggiornamento 1.10
  game_concept_hostage: "Ostaggio"
  game_concept_hostages: "Ostaggi"
  game_concept_hostages_possessive: "dell'Ostaggio"
@@ -2429,7 +2432,7 @@
  game_concept_wardens: "Protettori"
  game_concept_wardens_possessive: "del Protettore"
  game_concept_warden_desc: "Un [ruler|E] al quale è stato inviato un [hostage|E] da una corte straniera come garanzia di pace o di sottomissione.\n\nUn [warden|E] maturerà [prestige_i|E][prestige|E] nel tempo per ogni [hostage|E] nella propria [court|E]."
-
+ 
  game_concept_goliardic_shenanigans: "Bravate Goliardiche"
  game_concept_goliardic_shenanigans_desc: "Un personaggio in [GetActivityType('activity_adult_education').GetName] può combinare ogni sorta di marachelle quando abbraccia la vita dello studente. Le conseguenze delle sue avventure sono imprevedibili, e includono punti [skill|E], tratti per lo stile di vita e lo stress, esperienza per lo stile di vita, malattie e ferite."
 
@@ -2439,12 +2442,13 @@
  game_concept_adopting: "Adottando"
  game_concept_adopted: "Adottato"
  game_concept_adoption_desc: "L'adozione è l'atto di portare un altro [character|E] all'interno della tua [house|E] e della tua [dynasty|E]."
+
  
  game_concept_legitimacy: "Legittimità"
  game_concept_legitimacy_desc: "$game_concept_legitimacy$ is the representation of the right to reign of a [ruler|E]. [vassals|E] also generate [legitimacy_expectations|E] that the [liege|E] is supposed to meet.\n\nOnly [rulers|E] have $game_concept_legitimacy$, which is calculated at the moment they become rulers and results in their [initial_legitimacy|E]. A fraction of the $game_concept_legitimacy$ of the previous ruler is also inherited by their [heir|E].\n\n$game_concept_legitimacy$ affects many of the game systems, making [marriage|E] proposals, [vassalization|E] and [alliances|E] more likely to be accepted, and [claims|E] cheaper, as well as swinging the [scales_of_power|E] in a [regency|E].\n\n$game_concept_legitimacy$ has 5 [legitimacy_levels|E] and one #weak Illegitimate#! bottom level.[AddLocalizationIf( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_nomadic' ), 'game_concept_legitimacy_desc_nomadic' )]"
  game_concept_legitimacy_i: "[GetLocalPlayerLegitimacyTextIcon]"
  game_concept_legitimacy_desc_nomadic: "\n\n[GetGovernment( 'nomad_government' ).GetName] [rulers|E] have a special $game_concept_legitimacy$ type, independent from their [rank|E]."
-
+ 
  game_concept_legitimacy_level: "Livello di Legittimità"
  game_concept_legitimacy_level_desc: "I $game_concept_legitimacy_levels$ possono essere ottenuti in vari modi: vincendo [wars|E], rilasciando [valuable_prisoners|E], creando [legends|E], tenendo udienze a [court|E], o partecipando a delle [activities|E].\n\nTuttavia, possono anche essere persi: le [epidemics|E] che devastano la [capital|E], perdere le guerre (specialmente le guerre di [faction|E]), perdere [titles|E], o essere esposti a un [hostile_scheme|E] sono alcuni dei principali modi per far diminuire la $game_concept_legitimacy$.[AddLocalizationIf( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_nomadic' ), 'game_concept_legitimacy_level_desc_nomadic' )]"
  game_concept_legitimacy_levels: "Livelli di Legittimità"
@@ -2458,7 +2462,7 @@
  
  game_concept_initial_legitimacy: "Legittimità Iniziale"
  game_concept_initial_legitimacy_desc: "La $game_concept_legitimacy$ che un [character|E] ha quando ottiene delle terre.\n\nÈ calcolata in base a [dynasty_prestige_level|E], relazione con il proprio predecessore, [court_grandeur|E], genere, se si è dei bastardi, gli anni come [ruler|E], ai [dynasty_perk|E] sulla [legitimacy|E], [diplomacy|E], [virtues|E], [sins|E] e altri [traits|E] speciali, come [GetTrait('sayyid').GetName( GetNullCharacter )], [GetTrait('diplomat').GetName( GetNullCharacter )] e [GetTrait('just').GetName( GetNullCharacter )].\n\nGli [heirs|E] erediteranno [GetDefine( 'NCharacter', 'LEGITIMACY_INHERITED' )|V%^] della $game_concept_legitimacy$ del precedente governante se erediteranno un [title|E] di [title_tier|E] più alto."
-
+ 
  game_concept_court_position_task_short: "Incarico"
  game_concept_court_position_task_short_desc: "$game_concept_court_position_task_desc$"
  game_concept_court_position_tasks_short: "Incarichi"
@@ -2473,7 +2477,7 @@
  game_concept_funeral: "Funerale"
  game_concept_funeral_desc: "Un'[activity|E] in cui un [host|E] invita vari [characters|E] a porgere le loro condoglianze dopo un [Concept('character_death','decesso')|E]. I funerali spesso comportano un aumento della [legitimacy|E], una diminuzione dello [stress|E] e l'opportunità di mostrare [piety|E]."
  game_concept_funerals: "Funerali"
- 
+
  game_concept_scheme_group_calculating: "Calcolato"
  game_concept_calculating_schemes: "Complotti Calcolati"
  game_concept_scheme_group_calculating_desc: "I $game_concept_calculating_schemes$ comportano azioni premeditate, generalmente con un incidente finale in cui i cospiratori colpiscono.\n\nIl modo migliore per contrastarli è l'uso di $game_concept_scheme_countermeasure_countermeasures$ armate come le #V $scheme_countermeasure_type_redouble_guards$#!.\n\nEsempi includono:\n$EFFECT_LIST_BULLET$[GetScheme('abduct').GetTypeName]\n$EFFECT_LIST_BULLET$[GetScheme('murder').GetTypeName]\n$EFFECT_LIST_BULLET$[GetScheme('overthrow_regent').GetTypeName]\n$EFFECT_LIST_BULLET$[GetScheme('steal_back_artifact').GetTypeName]"
@@ -2501,7 +2505,7 @@
  game_concept_scheme_breach: "Falla nel Complotto"
  game_concept_scheme_breaches: "Falle nel Complotto"
  game_concept_scheme_breach_desc: "Una $game_concept_scheme_breach_short$ rappresenta una complicazione in un [secret_scheme|e]. Quando un [scheme|e] presenta una falla, la sua [success_chance|e] si riduce. La penalità sulla $game_concept_success_chance$ aumenta con l'aumentare delle falle. Non appena un $game_concept_scheme$ raggiunge le #V 5#! $game_concept_scheme_breaches_short$, fallirà automaticamente.\n\n#WEAK I $game_concept_schemes$ controllano inoltre la loro segretezza quando vengono infine eseguiti e le falle non hanno in alcun modo effetto su ciò.#!"
- #tradurre
+
  game_concept_influence_ward_personality: "Influenza la Personalità del Pupillo"
  game_concept_influence_ward_personality_desc: "Un'[interaction|E] grazie alla quale si può tentare di influenzare un [ward|E] affinché ottenga un [personality_trait|E] simile al proprio. "
 
@@ -2577,7 +2581,7 @@
 
  game_concept_master_terrain: "Terreno Principale"
  game_concept_master_terrain_desc: "Una [decision|E] sbloccata dall'albero dello [wanderer_lifestyle|E], per la quale è possibile scegliere un [terrain|E] nel quale specializzarti, basata sul gruppo che si sceglie nel [designated_terrain|E].\n\nQuesta decisione fornirà vantaggi significativi per il terreno scelto, conferendo bonus come l'aumento del [advantage|E], [combat_roll|E] migliorato, [attrition|E] ridotto, e un incremento di [prestige|E] e [prestige_experience|E] derivante dalle [Concept( 'battle', 'battaglie' )|E]."
-
+ 
  game_concept_story_content_temujin: "La Storia del $bookmark_nomads_temujin$"
  game_concept_story_content_temujin_desc: "#tooltip_heading Stile Narrativo: Leggero#!\n\nNei panni di Temüjin dovrai vendicarti di una tribù rivale che ha imprigionato la tua consorte e mettere alla prova la lealtà del tuo più stretto vassallo e amico, Jamukha.\n\n$game_concept_story_generic_desc_boilerplate$"
  game_concept_story_content_jamukha: "La Storia del $bookmark_nomads_temujin$"

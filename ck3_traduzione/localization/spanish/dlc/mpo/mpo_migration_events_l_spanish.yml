@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  migration_events.0001.t: "A Place to Call Home"
  migration_events.0001.desc.intro: "The cloudless sky is about to turn red as we arrive in [ROOT.Char.GetCurrentLocation.GetName]. The color of a fresh wound.\n\n"

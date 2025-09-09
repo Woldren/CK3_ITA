@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  HAS_GOLD_TRIGGER:0 "Ha [gold_i]$NUM|V0$"
  NOT_HAS_GOLD_TRIGGER:0 "Non ha [gold_i]$NUM|V0$"
@@ -20,7 +20,7 @@
  NOT_PRESTIGE_TRIGGER_FIRST:1 "Tu #bold non#! hai [prestige_i]$NUM|V0$"
  PRESTIGE_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] ha [prestige_i]$NUM|V0$"
  NOT_PRESTIGE_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] non ha [prestige_i]$NUM|V0$"
-
+ 
  HAS_HERD_TRIGGER: "Ha [herd_i]$NUM|V0$"
  NOT_HAS_HERD_TRIGGER: "Non ha [herd_i]$NUM|V0$"
  I_HAVE_HERD_TRIGGER: "Hai [herd_i]$NUM|V0$"
@@ -104,7 +104,7 @@
  NOT_I_AM_IN_CIVIL_WAR:1 "Tu #bold non#! sei in una Guerra Civile"
  THEY_IN_CIVIL_WAR:0 "[CHARACTER.GetUIName] è in una Guerra Civile"
  NOT_THEY_IN_CIVIL_WAR:0 "[CHARACTER.GetUIName] #bold non#! è in una Guerra Civile"
- 
+
  IS_IN_ONGOING_GREAT_HOLY_WAR:0 "È in una [great_holy_war|E] in corso"
  NOT_IS_IN_ONGOING_GREAT_HOLY_WAR:0 "#bold Non#! è in una [great_holy_war|E] in corso"
  I_AM_IN_ONGOING_GREAT_HOLY_WAR:0 "Tu sei in una [great_holy_war|E] in corso"
@@ -229,7 +229,7 @@
  NOT_I_AM_RULER_TRIGGER:1 "#bold Non#! sei un governante"
  THEY_ARE_RULER_TRIGGER:0 "[CHARACTER.GetShortUIName|U] è un governante"
  NOT_THEY_ARE_RULER_TRIGGER:0 "[CHARACTER.GetShortUIName|U] #bold non#! è un governante"
- 
+
  IS_THEOCRATIC_LESSEE_TRIGGER:1 "Sta [Concept( 'leasing', 'affittando' )|E] l'insediamento dal suo [liege|E]"
  NOT_IS_THEOCRATIC_LESSEE_TRIGGER:1 "#bold Non#! sta [Concept( 'leasing', 'affittando' )|E] l'insediamento dal suo [liege|E]"
  I_AM_THEOCRATIC_LESSEE_TRIGGER:1 "Stai [Concept( 'leasing', 'affittando' )|E] l'insediamento dal tuo [liege|E]"
@@ -261,7 +261,7 @@
  NOT_I_AM_ALLOWED_MORE_SPOUSES_TRIGGER:1 "#bold Non#! ti è concesso avere più di un coniuge"
  THEY_ARE_ALLOWED_MORE_SPOUSES_TRIGGER:0 "A [CHARACTER.GetShortUIName|U] è concesso di avere avere più di un coniuge"
  NOT_THEY_ARE_ALLOWED_MORE_SPOUSES_TRIGGER:0 "A [CHARACTER.GetShortUIName|U] #bold non#! è concesso avere più di un coniuge"
- 
+
  is_favorite_child_first: "È già il tuo figlio preferito"
  not_is_favorite_child_first: "#bold Non#! è il tuo figlio preferito"
  is_favorite_child_third: "$is_favorite_child_first$"
@@ -291,7 +291,7 @@
  IS_NOT_COMMANDING_AN_ARMY:0 "#bold Non#! sta comandando un esercito"
  I_AM_NOT_COMMANDING_AN_ARMY:1 "Tu #bold non#! stai comandando un esercito"
  CHARACTER_IS_NOT_COMMANDING_AN_ARMY:0 "[CHARACTER.GetShortUIName|U] #bold non#! sta comandando un esercito"
- 
+
  IS_IN_AN_ARMY:0 "È in un esercito"
  I_AM_IN_AN_ARMY:0 "Tu sei in un esercito"
  CHARACTER_IS_IN_AN_ARMY:0 "[CHARACTER.GetShortUIName|U] è in un esercito"
@@ -320,8 +320,9 @@
  I_IMPRISONED_THEM_TRIGGER:1 "[TARGET_CHARACTER.GetShortUIName|U] è tu[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] prigionier[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')]"
 
  YOU_HAVE_BEEN_CAUGHT_TRYING_TO_MURDER_TARGET:0 "Sei stato recentemente catturato mentre cercavi di uccidere [TARGET_CHARACTER.GetShortUIName]"
- 
+
  YOU_CANNOT_ASSASSINATE_THE_FAITHFUL:0 "Gli Assassini non prenderanno di mira coloro che condividono la tua [faith|E]" 
+
 
  YOU_HAVE_BEEN_CAUGHT_TRYING_TO_ELOPE_WITH_TARGET:0 "Sei stato recentemente catturato mentre cercavi di fuggire csu [TARGET_CHARACTER.GetShortUIName]"
  YOU_HAVE_BEEN_CAUGHT_TRYING_TO_STEAL_ARTIFACT_FROM_TARGET:0 "Sei stato recentemente catturato mentre cercavi di rubare un manufatto a [TARGET_CHARACTER.GetShortUIName]"
@@ -388,7 +389,6 @@
  NOT_I_HAVE_REALM_LAW_TRIGGER:1 "#bold Non#! hai la Legge [LAW.GetName|U]"
  THEY_HAVE_REALM_LAW_TRIGGER:0 "[CHARACTER.GetUIName|U] ha la Legge [LAW.GetName|U]"
  NOT_THEY_HAVE_REALM_LAW_TRIGGER:0 "[CHARACTER.GetUIName|U] NON ha la Legge [LAW.GetName|U]"
-
 
  CLAIMANT_ALREADY_PRESSING_THEIR_CLAIM_THIRD:1 "[CHARACTER.GetShortUIName] è già in [war|E], sta esercitando la sua [claim|E] su [TARGET_TITLE.GetName]"
  CLAIMANT_TITLES_HELD_BY_ATTACKER_VASSALS_FIRST:0 "Questo [title|E] è detenuto dal tuo [vassal|E], e deve essere [revoked|E]"
@@ -612,7 +612,6 @@
  HAS_NUM_SINFUL_TRAITS:0 "Ha $NUM|V0$ [sinful|E] tratti"
  I_HAVE_NUM_SINFUL_TRAITS: "Hai $NUM|V0$ tratti [Concept( 'sinful', 'peccaminosi' )|E]"
 
-
  CHARACTER_HAS_NUM_VIRTUOUS_TRAITS:0 "[CHARACTER.GetShortUIName|U] ha $NUM|V0$ tratti [virtuous|E]"
  HAS_NUM_VIRTUOUS_TRAITS:0 "Ha $NUM|V0$ tratti [virtuous|E]"
  I_HAVE_NUM_VIRTUOUS_TRAITS:0 "Hai $NUM|V0$ tratti [virtuous|E]"
@@ -750,7 +749,7 @@ IS_CLOSE_OR_EXTENDED_FAMILY_OF_CHARACTER:0 "Fa parte dei [close_family|E] o dell
  IS_NOT_A_GUEST_OF_CHARACTER:0 "#bold Non#! è [guest|E] di [TARGET_CHARACTER.GetShortUINamePossessive]"
  CHARACTER_IS_NOT_A_GUEST_OF_CHARACTER:0 "[CHARACTER.GetShortUIName|U] #bold Non#! è [guest|E] di [TARGET_CHARACTER.GetShortUINamePossessive]"
  I_AM_NOT_A_GUEST_OF_CHARACTER:1 "Tu #bold non#! sei [guest|E] di [TARGET_CHARACTER.GetShortUINamePossessive]"
- 
+
  IS_FOREIGN_COURT_OR_POOL_GUEST_TRIGGER:0 "È in una corte straniera oppure un ospite"
  IS_A_COURTIER_TRIGGER:0 "È un [courtier|E]"
  IS_A_COURTIER_OF_CHARACTER:0 "È il suo [courtier|E]"
@@ -800,7 +799,7 @@ IS_CLOSE_OR_EXTENDED_FAMILY_OF_CHARACTER:0 "Fa parte dei [close_family|E] o dell
  IS_NOT_MARRIED_MATRILINEALLY:0 "#bold Non#! è in un matrimonio [matrilineal|E]"
  CHARACTER_IS_NOT_MARRIED_MATRILINEALLY:0 "[CHARACTER.GetShortUIName|U] #bold Non#! è in un matrimonio [matrilineal|E]"
  I_AM_NOT_MARRIED_MATRILINEALLY:1 "Tu #bold non#! sei in un matrimonio [matrilineal|E]"
- 
+
  IS_BETROTHED_PATRILINEALLY:0 "È in un fidanzamento [patrilineal|E]"
  CHARACTER_IS_BETROTHED_PATRILINEALLY:0 "[CHARACTER.GetShortUIName|U] è in un fidanzamento [patrilineal|E]"
  I_AM_BETROTHED_PATRILINEALLY:0 "Tu sei in un fidanzamento [patrilineal|E]"
@@ -856,30 +855,30 @@ IS_CLOSE_OR_EXTENDED_FAMILY_OF_CHARACTER:0 "Fa parte dei [close_family|E] o dell
  AGE_IS_NOT_LESS_THAN:0 "#bold Non#! è sotto i $NUM|V0$ anni"
  MY_AGE_IS_NOT_LESS_THAN:0 "Tu #bold non#! sei sotto i $NUM|V0$ anni"
  THEIR_AGE_IS_NOT_LESS_THAN:0 "[CHARACTER.GetShortUIName|U] #bold Non#! è sotto i $NUM|V0$ anni"
- 
+
  TARGET_IS_DE_JURE_LIEGE_OR_ABOVE_TRIGGER:0 "[TARGET_CHARACTER.GetShortUIName]"
- 
+
  DREAD_TRIGGER_GLOBAL:0 "Ha almeno $NUM|V0$ [dread|E]"
  DREAD_TRIGGER_FIRST:0 "Tu hai almeno $NUM|V0$ [dread|E]"
  DREAD_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] ha almeno $NUM|V0$ [dread|E]"
  NOT_DREAD_TRIGGER_GLOBAL:1 "Ha meno di $NUM|V0$ [dread|E]"
  NOT_DREAD_TRIGGER_FIRST:1 "Hai meno di $NUM|V0$ [dread|E]"
  NOT_DREAD_TRIGGER_THIRD:1 "[CHARACTER.GetShortUIName|U] ha meno di $NUM|V0$ [dread|E]"
- 
+
  TYRANNY_TRIGGER_GLOBAL:0 "Ha almeno $NUM|V0$ [tyranny|E]"
  TYRANNY_TRIGGER_FIRST:0 "Tu hai almeno $NUM|V0$ [tyranny|E]"
  TYRANNY_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] ha almeno $NUM|V0$ di [tyranny|E]"
  NOT_TYRANNY_TRIGGER_GLOBAL:1 "Ha meno di $NUM|E$ di [tyranny|E]"
  NOT_TYRANNY_TRIGGER_FIRST:1 "Hai meno di $NUM|E$ di [tyranny|E]"
  NOT_TYRANNY_TRIGGER_THIRD:1 "[CHARACTER.GetShortUIName|U] ha meno di $NUM|E$ di [tyranny|E]"
- 
+
  WOMENMEN_ARE_ALLOWED_TO_BE_WARRIORS_IN_FAITH:0 "[CHARACTER.GetWomenMen|U] sono autorizzati ad essere combattenti nella fede [TARGET_CHARACTER.GetFaith.GetName]"
  WOMENMEN_ARE_NOT_ALLOWED_TO_BE_WARRIORS_IN_FAITH:0 "[CHARACTER.GetWomenMen|U] #bold non#! sono autorizzati ad essere combattenti nella fede [TARGET_CHARACTER.GetFaith.GetName]"
  WOMENMEN_ARE_ALLOWED_TO_BE_WARRIORS_IN_CULTURE:0 "La [culture|E] [TARGET_CHARACTER.GetCulture.GetName] permette che [CHARACTER.Custom('DE_PRO_DEM')] [CHARACTER.GetWomenMen] siano combattenti"
  WOMENMEN_ARE_NOT_ALLOWED_TO_BE_WARRIORS_IN_CULTURE:0 "La [culture|E] [TARGET_CHARACTER.GetCulture.GetName] #bold non#! permette che [CHARACTER.Custom('DE_PRO_DEM')] [CHARACTER.GetWomenMen] siano combattenti"
  NONE_ARE_ALLOWED_TO_BE_WARRIORS_IN_CULTURE: "La sua [culture|E] gli consente di essere combattenti"
  NONE_ARE_NOT_ALLOWED_TO_BE_WARRIORS_IN_CULTURE: "La sua [culture|E] #bold non#! gli consente di essere combattenti"
- 
+
  #has_imprisonment_reason
  HAS_AN_IMPRISONMENT_REASON_ON_CHARACTER:0 "Ha una valida [imprisonment_reason|E] [TARGET_CHARACTER.GetShortUIName]"
  YOU_HAVE_AN_IMPRISONMENT_REASON_ON_CHARACTER:0 "Tu hai una valida [imprisonment_reason|E] [TARGET_CHARACTER.GetShortUIName]"
@@ -888,7 +887,7 @@ IS_CLOSE_OR_EXTENDED_FAMILY_OF_CHARACTER:0 "Fa parte dei [close_family|E] o dell
  YOU_DO_NOT_HAVE_AN_IMPRISONMENT_REASON_ON_CHARACTER:0 "#bold Non#! hai una valida [imprisonment_reason|E] [TARGET_CHARACTER.GetShortUIName]"
  THEY_DOES_NOT_HAVE_AN_IMPRISONMENT_REASON_ON_CHARACTER:0 "[CHARACTER.GetShortUIName|U] #bold Non#! ha una valida [imprisonment_reason|E] [TARGET_CHARACTER.GetShortUIName]"
  has_imprisonment_reason_no_subject:0 "Hai un valido [imprisonment_reason|E] su questo personaggio"
- 
+
  PARENT_RELATEDNESS_TRIGGER_GLOBAL: "Sono imparentati almeno al $NUM|%0$"
  PARENT_RELATEDNESS_TRIGGER_FIRST: "I tuoi genitori sono imparentati almeno al $NUM|%0$"
  PARENT_RELATEDNESS_TRIGGER_THIRD: "I genitori di [CHARACTER.GetShortUIName|U] sono imparentati almeno al $NUM|%0$"
@@ -899,7 +898,7 @@ IS_CLOSE_OR_EXTENDED_FAMILY_OF_CHARACTER:0 "Fa parte dei [close_family|E] o dell
  character_this_equal:1 "Il Bersaglio [Select_CString( CHARACTER.IsLocalPlayer, 'sei', 'è' )] [Select_CString(CHARACTER.IsLocalPlayer,'tu',CHARACTER.GetShortUIName)]"
  character_scope_equal:1 "Il Bersaglio è [CHARACTER.GetShortUIName]"
  none_this_equal:2 "Il Bersaglio è sconosciuto"
- 
+
  #completely_controls
  YOU_COMPLETELY_CONTROL_TITLE_DESC:0 "Tu [Concept( 'completely_control', 'controlli completamente' )|E] [TARGET_TITLE.GetNameNoTier]"
  YOU_DO_NOT_COMPLETELY_CONTROL_TITLE_DESC:0 "Tu #bold non#! [Concept( 'completely_control', 'controlli completamente' )|E] [TARGET_TITLE.GetNameNoTier]"
@@ -923,7 +922,7 @@ IS_CLOSE_OR_EXTENDED_FAMILY_OF_CHARACTER:0 "Fa parte dei [close_family|E] o dell
  THIRD_IS_COWED:0 "[CHARACTER.GetShortUIName|U] è [cowed|E]"
 
  CANNOT_BE_ORDERED_TO_FIND_SECRETS_AT_OWN_COURT:0 "Ad un Maestro delle Spie non può essere ordinato di cercare Segreti nella propria corte"
- 
+
  CANNOT_BE_ORDERED_TO_LIKE_YOU_MORE:0 "Non si può ordinare ad un Cancelliere di aumentare la propria opinione su di te"
 
  EAGER_FOR_MORE_VASSALS:0 "[CHARACTER.GetShortUIName|U] accettà sempre di ottenere più potere"
@@ -956,7 +955,7 @@ IS_CLOSE_OR_EXTENDED_FAMILY_OF_CHARACTER:0 "Fa parte dei [close_family|E] o dell
  not_subject_can_break_tributary_global: "Non può liberarsi dal suo [suzerain|E]"
  subject_can_break_tributary_third: "[CHARACTER.GetShortUIName] può liberarsi dal suo [suzerain|E]"
  not_subject_can_break_tributary_third: "[CHARACTER.GetShortUIName] non può liberarsi dal suo [suzerain|E]"
-    
+
  IS_CLERGY_TRIGGER:0 "È un membro del [clergy|E]"
  NOT_IS_CLERGY_TRIGGER:0 "#bold Non #! è un membro del [clergy|E]"
  THEY_CLERGY_TRIGGER:0 "[CHARACTER.GetShortUIName|U] è un membro del [clergy|E]"
@@ -1005,7 +1004,7 @@ IS_CLOSE_OR_EXTENDED_FAMILY_OF_CHARACTER:0 "Fa parte dei [close_family|E] o dell
  BELONGS_TO_CULTURE_TRIGGER:0 "È della [culture|E] [CHARACTER.Culture.GetName]"
 
  SAME_SEX_AS_CHARACTER_TRIGGER:0 "È dello stesso sesso di [CHARACTER.GetShortUIName]"
- 
+
  has_any_secrets_trigger:0 "[CHARACTER.GetShortUIName|U] ha dei [secrets|E]"
  has_any_nickname_trigger:0 "Ha un soprannome"
  PRISON_TOTAL_DAYS:0 "Totale dei giorni passati in [prison|E]: $DAYS|V$"
@@ -1126,7 +1125,7 @@ IS_CLOSE_OR_EXTENDED_FAMILY_OF_CHARACTER:0 "Fa parte dei [close_family|E] o dell
  #ACCOLADES
  IS_PLAYERS_ACCLAIMED_KNIGHT:0 "[CHARACTER.GetShortUIName] è un altro [acclaimed_knight|e] del Giocatore"
  HAS_POTENTIAL_ACCOLADE_SUCCESSORS:0 "Questo [accolade|e] ha già dei potenziali successori"
- 
+
  LEGITIMACY_TRIGGER_FIRST: "Hai $COMPARATOR$ $NUM|V2$ [legitimacy|E]"
  NOT_LEGITIMACY_TRIGGER_FIRST: "#bold Non#! hai $COMPARATOR$ $NUM|V2$ [legitimacy|E]"
  LEGITIMACY_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|U] ha $COMPARATOR$ $NUM|V2$ [legitimacy|E]"

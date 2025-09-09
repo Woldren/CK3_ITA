@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  
  tour_grounds_events.6000.t:0 "Un incontro casuale"
  tour_grounds_events.6000.desc:0 "Stare con i vassalli e cambiare scenario è stato piacevole, ma i continui cambiamenti di assetto diventano sempre più confusionari. Quando vengo lasciat[ROOT.Char.Custom('DE_END_PRO_S_N')] sol[ROOT.Char.Custom('DE_END_PRO_S_N')], raramente so dove cercare le necessità più comuni... come ad esempio dove trovare uno spuntino di mezzanotte.\n\nMentre vago a casaccio per il [stop_host_scope.Custom('FortifiedBuilding')] di [stop_host_scope.GetTitledFirstName], mi capita di aprire una porta solo per scoprire "

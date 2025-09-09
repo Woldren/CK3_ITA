@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  tournament_events.8000.t:0 "Un Bel Favore"
  tournament_events.8000.desc.intro:0 "Mentre mi preparo per lo scontro successivo, noto [favor_giver_1.GetName] che mi saluta sventolando [favor_giver_1.Custom('GetRandomFavor')], concedendomi così il suo favore."
  tournament_events.8000.desc.mid.two:0 "\n\nPrima che possa rispondere, spunta [favor_giver_2.GetName] che mi porge con insistenza [favor_giver_2.Custom('GetRandomFavor')] per farmi accettare il suo di favore!"

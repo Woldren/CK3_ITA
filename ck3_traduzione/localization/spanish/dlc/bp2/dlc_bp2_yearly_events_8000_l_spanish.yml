@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  bp2_yearly.8070.t: "Tempo di Gioco"
  bp2_yearly.8070.desc.intro: "Finalmente mi lasciano da [Select_CString(ROOT.Char.IsFemale,'sola','solo')] a giocare e naturalmente tiro fuori dalla scatola dei giocattoli"
  bp2_yearly.8070.desc.mid.horses: "il mio fedele cavallo di legno e sogno di prendere parte a un grande torneo."
@@ -130,4 +130,3 @@
  lifting_the_burden_modifier_desc: "Questo personaggio sta aiutando una consorte incinta nelle faccende quotidiane."
  good_child_wingman: "Adulazione"
  bad_child_wingman: "Diffamazione"
- 

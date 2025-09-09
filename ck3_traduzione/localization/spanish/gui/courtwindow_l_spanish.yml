@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  COURT:0 "Corte di [CourtWindow.GetCharacter.GetUINameNoTooltip]"
  COURTIER_SORT_GUEST:0 "$game_concept_guest$"
  COURTIER_SORT_HOSTAGE: "$game_concept_hostage$"

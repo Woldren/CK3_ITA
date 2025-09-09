@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ### Battle Poi - BP3
  TRAVEL_POINT_OF_INTEREST_TT_poi_battles: "#T La Battaglia di $BattlePoiProvince$#!\n$BattlePoiInfo$\n$BattlePoiDescription$\n\n"
  BattlePoiInfo: "#emp $BattlePoiVictoriousSide$\n$BattlePoiLosingSide$\n$BattlePoiDate$#!"

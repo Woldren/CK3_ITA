@@ -1,6 +1,7 @@
-﻿l_spanish: 
+l_spanish:
  message_settings_tab_settings: "Impostazioni"
  message_settings_tab_log: "Registro Messaggi"
+
  MESSAGE_SETTINGS_WINDOW_NAME: "Impostazioni Messaggi"
  MESSAGE_SETTINGS_WINDOW_SHORTCUT_TT: "#I Clicca per aprire le Impostazioni dei Messaggi#!"
  MESSAGE_SETTINGS_WINDOW_TT: "#T $MESSAGE_SETTINGS_WINDOW_NAME$#!\nModifica la frequenza e la visibilità dei messaggi per gruppi filtrati."
@@ -33,4 +34,3 @@
  MESSAGE_SETTINGS_WINDOW_CUSTOM_MESSAGE_DAY: "Giorno"
  MESSAGE_SETTINGS_WINDOW_CUSTOM_MESSAGE_MONTH: "Mese"
  MESSAGE_SETTINGS_WINDOW_CUSTOM_MESSAGE_YEAR: "Anno"
-

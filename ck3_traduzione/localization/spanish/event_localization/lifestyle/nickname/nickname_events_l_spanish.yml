@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  lifestyle_nicknames.0001.t:0 "La convenzione del nome"
  lifestyle_nicknames.0001.desc:0 "Dopo aver passato innumereveli ore a studiare libri, fare conti e gestire la [ROOT.Char.Custom('GetCourt')], alla fine la mia meticolosità ha dato i suoi frutti. Ho reso il/la mio/a [ROOT.Char.Custom('GetRealmOrDomicile')|l] più prospero di quanto non sia mai stato!\n\nOgni [ROOT.Char.GetTitleAsNameNoTooltip|l] capace, come me, [ROOT.Char.GetFullName], dovrebbe essere conosciuto per i suoi risultati.\n\nOra, come dovrei chiamarmi?"
  lifestyle_nicknames.0001.a:0 "Voglio essere conosciuto per la mia amministrazione!"

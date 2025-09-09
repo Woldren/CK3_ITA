@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  death_natural_causes:1 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] nel sonno"
  death_old_age:0 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] di vecchiaia"
  death_bubonic_plague:1 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] di [GetTrait('bubonic_plague').GetName( CHARACTER.Self )]"
@@ -141,13 +141,12 @@
  death_fall:0 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] dopo una caduta"
  death_fell_bedchamber:0 "è cadut[CHARACTER.Custom('DE_END_PRO_S_N')] dalla finestra della sua camera da letto e ha trovato la morte" 
  death_fell_wilderness: "è cadut[CHARACTER.Custom('DE_END_PRO_S_N')] dal suo cavallo mentre viaggiava, rompendosi il collo" 
- death_poison:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] avvelenat[CHARACTER.Custom('DE_END_PRO_S_N')]"
  death_drowned:0 "è affogat[CHARACTER.Custom('DE_END_PRO_S_N')]"
+ death_poison:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] avvelenat[CHARACTER.Custom('DE_END_PRO_S_N')]"
  death_poison_killer:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] avvelenat[CHARACTER.Custom('DE_END_PRO_S_N')] da [TARGET_CHARACTER.GetUIName]"
  death_crocodile:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] mangiat[CHARACTER.Custom('DE_END_PRO_S_N')] da un coccodrillo"
  death_dog_attack:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] sbranat[CHARACTER.Custom('DE_END_PRO_S_N')] da un cane"
  death_eagle_attack: "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] uccis[CHARACTER.Custom('DE_END_PRO_S_N')] dagli artigli di un'aquila"
-  
  death_cat_attack:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] graffiat[CHARACTER.Custom('DE_END_PRO_S_N')] a morte da un gatto"
  death_murder_known:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] assassinat[CHARACTER.Custom('DE_END_PRO_S_N')] da [TARGET_CHARACTER.GetUIName]"
  death_murder_known_killer:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] assassinat[CHARACTER.Custom('DE_END_PRO_S_N')] da [TARGET_CHARACTER.GetUIName]"
@@ -200,10 +199,9 @@
  death_bell:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] decapitat[CHARACTER.Custom('DE_END_PRO_S_N')] e la sua testa è stata usata come una campana."
  death_bell_killer:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] decapitat[CHARACTER.Custom('DE_END_PRO_S_N')] da [TARGET_CHARACTER.GetUIName] e la sua testa è stata usata come una campana"
  death_bell_revenge:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] consegnat[CHARACTER.Custom('DE_END_PRO_S_N')] alla giustizia dopo aver compiuto una serie di omicidi musicali."
-
+ 
  death_scuffle_with_soldiers:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] uccis[CHARACTER.Custom('DE_END_PRO_S_N')] in una colluttazione con i soldati"
  death_scuffle_with_soldiers_killer:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] uccis[CHARACTER.Custom('DE_END_PRO_S_N')] in una colluttazione con i soldati commissionata da [TARGET_CHARACTER.GetUIName]"
- 
  death_for_corpse_forest:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] impalat[CHARACTER.Custom('DE_END_PRO_S_N')]"
  death_for_corpse_forest_killer:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] impalat[CHARACTER.Custom('DE_END_PRO_S_N')] nella foresta di corpi di [TARGET_CHARACTER.GetUIName]"
 
@@ -235,7 +233,7 @@
  death_flogged_by_censors:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] fustigat[CHARACTER.Custom('DE_END_PRO_S_N')] per la sua ubriachezza"
  death_trampled:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] calpestat[CHARACTER.Custom('DE_END_PRO_S_N')] a morte"
  death_trampled_killer: "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] calpestat[CHARACTER.Custom('DE_END_PRO_S_N')] a morte su ordine di [TARGET_CHARACTER.GetUIName]"
- 
+
  death_lost_in_the_forest:0 "si è pers[CHARACTER.Custom('DE_END_PRO_S_N')] nella foresta e non è più stato visto"
  death_cuteness_overload:0 "ha assistito alla massima carineria e ha proseguito oltre"
  death_maimed_by_wild_beast:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] mutilat[CHARACTER.Custom('DE_END_PRO_S_N')] da una bestia selvaggia"
@@ -333,7 +331,6 @@
  death_hunting_mistakenly_stabbed_killer:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] accidentalmente uccis[CHARACTER.Custom('DE_END_PRO_S_N')] da [TARGET_CHARACTER.GetUIName] mentre cacciava"
  death_hunting_mysterious:0 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] in circostanze misteriose mentre cacciava"
  death_hunting_mysterious_killer:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] uccis[CHARACTER.Custom('DE_END_PRO_S_N')] da [TARGET_CHARACTER.GetUIName] in circostanze misteriose mentre cacciava"
-
  death_slaughtered_by_guards:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] massacrat[CHARACTER.Custom('DE_END_PRO_S_N')] da guardie armate in una mischia"
  death_camp_fever:0 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] per una malattia improvvisa e virulenta mentre era accampat[CHARACTER.Custom('DE_END_PRO_S_N')] con il suo esercito"
  death_march_malaise:0 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] improvvisamente per una lieve malattia mentre era in marcia"
@@ -351,14 +348,13 @@
  death_stampede:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] calpestat[CHARACTER.Custom('DE_END_PRO_S_N')] da una mandria in fuga"
  death_avalanche:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] sepolt[CHARACTER.Custom('DE_END_PRO_S_N')] da una valanga"
  death_poisonous_forage:0 "ha mangiat[CHARACTER.Custom('DE_END_PRO_S_N')] per errore alcune piante velenose"
- 
+
  #BP2
  death_hostage_execution:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] giustiziat[CHARACTER.Custom('DE_END_PRO_S_N')] mentre era un ostaggio"
  death_hostage_execution_killer:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] giustiziat[CHARACTER.Custom('DE_END_PRO_S_N')] mentre era ostaggio di [TARGET_CHARACTER.GetUIName]"
 
  #CE1
  death_peaceful: "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] chiamat[CHARACTER.Custom('DE_END_PRO_S_N')] a sé da [CHARACTER.GetFaith.HighGodName] nel sonno"
-
 
 #EP#
  death_kennel: "è [Select_CString(CHARACTER.IsFemale,'stata mangiata','stato mangiato')] dai cani"
@@ -414,3 +410,7 @@
 death_snake: "è [Select_CString(CHARACTER.IsFemale,'morta','morto')] per il morso di un serpente"
 death_shot_by_arrows: "è [Select_CString(CHARACTER.IsFemale,'stata trafitta','stato trafitto')] da una pioggia di frecce"
 death_shot_by_arrows_killer: "$death_shot_by_arrows$ scoccate dai cavalieri di [TARGET_CHARACTER.GetUIName]"
+
+ # ACH
+ death_crowd_stampede: "was crushed by a stampeding crowd"
+ death_crowd_stampede_killer: "$death_slain_in_riot$ during the coronation of [TARGET_CHARACTER.GetUIName]"

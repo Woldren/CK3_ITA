@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
 story_event_legends.0001.t: "Alla Fine della Leggenda"
 story_event_legends.0001.desc.intro: "Questa è la fine del libro [legend_protagonist.Custom('IT_NAM_COL2')][legend_protagonist.GetTitledFirstName] e delle sue nobili imprese, senza precedenti al mondo. Ed ecco la fine della leggenda [promoted_legend.GetName].\n\n"

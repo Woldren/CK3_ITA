@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  I_CAN_PUNISH_DESCRIPTION:0 "#T Noto Criminale#!\n\n[CHARACTER.GetShortUINameNoTooltip] è un noto [criminal|E], e ciò mi permette di punirlo senza essere visto come un [tyrant|E]"
  POSSIBLE_PUNISHMENTS:0 "Possibili Punizioni:"
  I_CAN_PUNISH_CRIME_HEADER:0 "\n\n#S $NAME$#!\n$POSSIBLE_PUNISHMENTS$"

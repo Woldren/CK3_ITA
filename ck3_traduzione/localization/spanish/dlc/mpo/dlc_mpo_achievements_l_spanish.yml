@@ -1,21 +1,23 @@
-﻿l_spanish:
- ACHIEVEMENT_mpo_the_stallion_that_mounts_the_world_achievement: "The Stallone che Monta il Mondo"
- ACHIEVEMENT_DESC_mpo_the_stallion_that_mounts_the_world_achievement: "Impersonando Temüjin, conquista il mondo."
- ACHIEVEMENT_mpo_nobodys_business_achievement: "Non sono affari di nessuno"
- ACHIEVEMENT_DESC_mpo_nobodys_business_achievement: "Usa il [casus_belli|E] $MPO_NOMAD_INVASION_CB_NAME$ per insediare il tuo popolo al di fuori delle [the_great_steppe|E]."
- ACHIEVEMENT_mpo_tribute_band_achievement: "Banda Tributo" # da rivedere
- ACHIEVEMENT_DESC_mpo_tribute_band_achievement: "Hai 30 [tributaries|E]."
- ACHIEVEMENT_mpo_this_chinggis_everything_achievement: "Questo Chinggis Tutto" # gioco di parole inglese non riproducibile in italiano
- ACHIEVEMENT_DESC_mpo_this_chinggis_everything_achievement: "Diventa il Più Grande dei Khans."
- ACHIEVEMENT_mpo_steppe_by_steppe_achievement: "Dalle Steppe alle Steppe"
- ACHIEVEMENT_DESC_mpo_steppe_by_steppe_achievement: "Impersonando un governante nomade della regione delle Steppe Orientali delle [the_great_steppe|E], migra nelle Steppe Occidentali."
+l_spanish:
+ ACHIEVEMENT_mpo_the_stallion_that_mounts_the_world_achievement: "The Stallion that Mounts the World" #modificata stringa 11
+ ACHIEVEMENT_DESC_mpo_the_stallion_that_mounts_the_world_achievement: "Starting as Temüjin, conquer the world."
+ ACHIEVEMENT_mpo_nobodys_business_achievement: "Nobody's Business"
+ ACHIEVEMENT_DESC_mpo_nobodys_business_achievement: "Use the $MPO_NOMAD_INVASION_CB_NAME$ [casus_belli|E] to settle your people outside of [the_great_steppe|E]."
+ ACHIEVEMENT_mpo_tribute_band_achievement: "Tribute Band"
+ ACHIEVEMENT_DESC_mpo_tribute_band_achievement: "Have 30 [tributaries|E]."
+ ACHIEVEMENT_mpo_this_chinggis_everything_achievement: "This Chinggis Everything"
+ ACHIEVEMENT_DESC_mpo_this_chinggis_everything_achievement: "Become the Greatest of Khans."
+ ACHIEVEMENT_mpo_steppe_by_steppe_achievement: "Steppe by Steppe"
+ ACHIEVEMENT_DESC_mpo_steppe_by_steppe_achievement: "Starting as a nomadic ruler in the Eastern Steppe region of [the_great_steppe|E], migrate to the Western Steppe."
  ACHIEVEMENT_mpo_in_xanadu_achievement: "In Xanadu"
- ACHIEVEMENT_DESC_mpo_in_xanadu_achievement: "Costruisci una Cupola del Piacere."
- ACHIEVEMENT_mpo_settling_in_achievement: "Sedentario" # Insediarsi | Insediamento 
- ACHIEVEMENT_DESC_mpo_settling_in_achievement: "Diventare un [ruler|E] sedentario nelle [the_great_steppe|E]"
- ACHIEVEMENT_mpo_blood_of_my_blood_achievement: "Sangue del mio Sangue"
- ACHIEVEMENT_DESC_mpo_blood_of_my_blood_achievement: "Consegui la [Concept('blood_brothers', 'fratellanza di sangue' )|E]"
- ACHIEVEMENT_mpo_confedup_achievement: "Confederazione" # gioco di parole inglese non riproducibile in italiano
- ACHIEVEMENT_DESC_mpo_confedup_achievement: "Forma una [confederation|E]"
- ACHIEVEMENT_mpo_shut_up_nerge_achievement: "Una Caccia e-Nerge-tica" # adattamento
- ACHIEVEMENT_DESC_mpo_shut_up_nerge_achievement: "Organizza una eccellente [GetActivityType( 'activity_hunt').GetName] di tipo Nerge"
+ ACHIEVEMENT_DESC_mpo_in_xanadu_achievement: "Build a Pleasure Dome."
+ ACHIEVEMENT_mpo_settling_in_achievement: "Settling In"
+ ACHIEVEMENT_DESC_mpo_settling_in_achievement: "Become a settled [ruler|E] in [the_great_steppe|E]"
+ ACHIEVEMENT_mpo_blood_of_my_blood_achievement: "Blood of my Blood"
+ ACHIEVEMENT_DESC_mpo_blood_of_my_blood_achievement: "Become [blood_brothers|E]"
+ ACHIEVEMENT_mpo_confedup_achievement: "Con-fed-up"
+ ACHIEVEMENT_DESC_mpo_confedup_achievement: "Form a [confederation|E]"
+ ACHIEVEMENT_mpo_shut_up_nerge_achievement: "Shut Up, Nerge"
+ ACHIEVEMENT_DESC_mpo_shut_up_nerge_achievement: "Host an Excellent Nerge [GetActivityType( 'activity_hunt').GetName]"
+ 
+ 

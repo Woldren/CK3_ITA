@@ -1,4 +1,3 @@
-﻿
 l_spanish:
 
  #Generic Pagan/Common Pagan Localization
@@ -197,9 +196,9 @@ l_spanish:
  baltic_evil_god_ziburinis:0 "Žiburinis"
  baltic_death_deity_name:0 "Giltinė"
  baltic_death_deity_name_possessive:0 "di Giltinė"
+ baltic_religious_symbol:0 "austras koks"
  baltic_religious_symbol_2:0 "$baltic_religious_symbol$" # Optional translation alt
  baltic_religious_symbol_3:0 "$baltic_religious_symbol$" # Optional translation alt
- baltic_religious_symbol:0 "austras koks"
  baltic_religious_text:0 "inni sacri"
  baltic_religious_text_2:0 "$baltic_religious_text$" # Optional translation alt
  baltic_religious_text_3:0 "$baltic_religious_text$" # Optional translation alt
@@ -456,7 +455,7 @@ l_spanish:
  west_african_pagan_old_adherent:0 "Antico Siguista"
  west_african_pagan_old_adherent_plural:0 "Antichi Siguisti"
 
-# Bida (Part of Mande)
+ # Bida (Part of Mande)
  bidu_high_god_name:1 "Bida"
  bidu_high_god_name_2:0 "$bidu_high_god_name$" # Optional translation alt
  bidu_high_god_name_possessive:1 "di Bida"
@@ -746,7 +745,7 @@ l_spanish:
  akom_pagan_old_adherent:0 "Antico Akomista"
  akom_pagan_old_adherent_plural:0 "Antichi Akanisti"
 
- # Youruba
+ # Yoruba
  west_african_orisha_religion:1 "Yoruba"
  west_african_orisha_religion_adj:1 "Yoruba"
  west_african_orisha_religion_adherent:2 "Yoruba"
@@ -1266,7 +1265,7 @@ magyar_afterlife_2:0 "$magyar_afterlife$" # Optional translation alt
  hellenic_pagan_old_adherent:0 "Antico Ellenista"
  hellenic_pagan_old_adherent_plural:0 "Antichi Ellenisti"
  
-#Siberian shamanism — Ob-Ugric-ish
+ #Siberian shamanism — Ob-Ugric-ish
  siberian_religion:0 "Siberiana"
  siberian_religion_adj:0 "Siberiana"
  siberian_religion_adherent:0 "Siberiano"
@@ -1339,7 +1338,7 @@ magyar_afterlife_2:0 "$magyar_afterlife$" # Optional translation alt
  siberian_pagan_old_adj:1 "Antico Turumica"
  siberian_pagan_old_adherent:1 "Antico Turumista"
  siberian_pagan_old_adherent_plural:2 "Antichi Turumisti"
- # TRADURRE DA QUI IN POI
+
  # Basque Paganism - Era Zaharrak
  ## "Basque Religion"
  basque_religion:0 "Euskal Erlijioa"
@@ -1362,7 +1361,7 @@ magyar_afterlife_2:0 "$magyar_afterlife$" # Optional translation alt
  basque_pagan_old_adherent_plural:0 "Vecchi $basque_pagan_adherent_plural$"
 
  basque_high_god_name:0 "Mari"
- ## The euphemistic nickname "Red Skirt", with red being a colour frequently ascribed to magical creatures and items in certain versions of Basque mythology.
+ ## The euphemistic nickname "Red Skirt", with red being a color frequently ascribed to magical creatures and items in certain versions of Basque mythology.
  basque_high_god_name_2:0 "Ionagorri"
  basque_high_god_name_possessive:0 "di Mari"
  basque_high_god_name_alternate:0 "$basque_high_god_name$"
@@ -1397,7 +1396,7 @@ magyar_afterlife_2:0 "$magyar_afterlife$" # Optional translation alt
  ## Gaueko, the embodiment of the night itself. Occasionally appears as a cow or a bull.
  basque_night_god_name:0 "Gaueko"
  basque_night_god_name_possessive:0 "di Gaueko"
- ## No suitable water god of note, unless you want to  but the Lamia were a popular water monster in Basque mythology.
+ ## No suitable water god of note, unless you want to but the Lamia were a popular water monster in Basque mythology.
  basque_water_god_name:0 "il Lamiak"
  basque_water_god_name_possessive:0 "del Lamiak"
  ## Mari's daughter, Illargia, who led the dead to the underworld. Probably.
@@ -1415,7 +1414,7 @@ magyar_afterlife_2:0 "$magyar_afterlife$" # Optional translation alt
  basque_good_god_st_nicholas:0 "San Nicola"
  basque_good_god_st_john:0 "San Ganix"
  basque_good_god_st_agatha:0 "Sant'Agata"
- ## The old Basque word for the Devil himself, as his syncretised incarnation seems to be the best wide-spread evil spirit. The modern equivalent would be Deabrua.
+ ## The old Basque word for the Devil himself, as his syncretized incarnation seems to be the best wide-spread evil spirit. The modern equivalent would be Deabrua.
  basque_devil_name:0 "Tusuri"
  basque_devil_name_possessive:0 "di Tusuri"
  ## Some assorted nicknames/negative divine creatures:
@@ -1441,7 +1440,7 @@ magyar_afterlife_2:0 "$magyar_afterlife$" # Optional translation alt
  basque_house_of_worship_2:0 "la chiesa"
  ## Shrine isn't an attested term, but it's suitable for both Christianity & most pagans, so it works here.
  basque_house_of_worship_3:0 "chiesa"
- # Honourable mention goes to the Gernikako Arbola, which is more representative but also more of a cultural icon rather than a religious one.
+ # Honorable mention goes to the Gernikako Arbola, which is more representative but also more of a cultural icon rather than a religious one.
  basque_religious_symbol:0 "eguzkilore"
  basque_religious_symbol_2:0 "$basque_religious_symbol$"
  basque_religious_symbol_3:0 "$basque_religious_symbol$"
@@ -1452,7 +1451,7 @@ magyar_afterlife_2:0 "$magyar_afterlife$" # Optional translation alt
  basque_religious_head_title:0 "Arch-Sorgina"
  basque_religious_head_title_name:0 "Chiesa"
  # We don't have good sources on monastic names, so we default to syncretic Christian terms.
- ## Honourable mention to serorak who are super interesting but neither cloistered nor (verifiably) in our period.
+ ## Honorable mention to serorak who are super interesting but neither cloistered nor (verifiably) in our period.
  basque_devotee_male:0 "monaco"
  basque_devotee_male_plural:0 "monaci"
  basque_devotee_female:0 "monaca"
@@ -1468,7 +1467,7 @@ magyar_afterlife_2:0 "$magyar_afterlife$" # Optional translation alt
  basque_divine_realm_2:0 "i Mari Rossi"
  # Mari hangs out in quite a broad variety of caves, changing the weather depending on where she moves to.
  basque_divine_realm_3:0 "Le Cave di $basque_high_god_name$"
- # There aren't any solid positive afterlife names, and the Christian heaven stuff isn't on-brand for a cthonic religion, so we use neutral/cthonian-sounding names.
+ # There aren't any solid positive afterlife names, and the Christian heaven stuff isn't on-brand for a chthonic religion, so we use neutral/cthonian-sounding names.
  basque_positive_afterlife:0 "il Mondo Sotterraneo"
  basque_positive_afterlife_2:0 "l'Aldilà"
  basque_positive_afterlife_3:0 "l'Aldilà"
@@ -1561,7 +1560,3 @@ magyar_afterlife_2:0 "$magyar_afterlife$" # Optional translation alt
  north_african_acham_pagan_old_adj:0 "Vecchio Achamánico"
  north_african_acham_pagan_old_adherent:0 "Vecchio Achamánista"
  north_african_acham_pagan_old_adherent_plural:0 "Vecchi Achamánisti"
-
-
- 
-

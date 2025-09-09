@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  ep3_laamps_provisions.1000.t: "Razioni Ridotte"
  ep3_laamps_provisions.1000.desc: ""[concerned.Custom2('RelationToMeShort', ROOT.Char)|U]," dice [concerned.GetFirstName], "non ho potuto fare a meno di notare che abbiamo esaurito circa la metà delle nostre provviste..."\n\n"Non dovremmo iniziare a ridurre le nostre razioni o, ancora meglio, pianificare una sosta per rifornirci? Non siamo ancora in emergenza, ma questo genere di situazioni non hanno bisogno di molto tempo per prendere una brutta piega. Un semplice ritardo e potremmo trovarci costretti a mangiare le suole dei nostri stivali!""

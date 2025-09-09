@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  mpo_migration_travel_events.0001.t: "[ruler.GetFirstNamePossessiveNoTooltip] 'Gift'"
  mpo_migration_travel_events.0001.desc: "A [messenger.GetWomanMan] herding sheep approaches, saying "Greetings, [ROOT.Char.GetTitledFirstNameNoTooltip]."\n\n"My [ruler.GetTitleAsNameNoTooltip], [ruler.GetFirstName], and I watch as your herd dwindle by the day. Please, take this small flock as a gift. All [ruler.GetTitleAsNameNoTooltip] asks is a small favor in return.""
  mpo_migration_travel_events.0001.a: "I humbly accept [ruler.GetHerHis] gift."

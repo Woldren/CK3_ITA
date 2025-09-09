@@ -1,5 +1,5 @@
-﻿l_spanish:
- # Sospetto riguardo una nascente amicizia
+l_spanish:
+ # Sus about a budding friend(?)ship
  court.3000.t:0 "Diffida dell'Amicizia"
  court.3000.desc.opening:0 "L'ansia mi stringe lo stomaco, mentre la gelosia mostra la sua brutta faccia. Sospiro e fisso la causa del mio tormento.\n\n"
  court.3000.desc.opening.trustful:0 "Sento un'acuta fitta di gelosia nel mio petto mentre guardo verso la fonte delle risate. È una sensazione che conosco, ma non è da me sentirmi così.\n\n"
@@ -18,7 +18,7 @@
  court.3000.friendly_outcome:0 "I due potrebbero diventare amici o persino amanti..."
  court.3000.better_friends_outcome:0 "I due potrebbero diventare migliori amici o anche più di questo..."
 
- # Un/una cortigiano/a, dopo essere stato ispirato/a da altri scrittori, ti mostra il suo manoscritto
+ # A courtier shows you their written work after being inspired by other writers
  court.3010.t:0 "Un Lavoro Ispirato"
  court.3010.desc.opening:1 ""[ROOT.Char.Custom2('RelationToMeAddress', inspired_writer)|U]!" [inspired_writer.GetTitledFirstName] mi si avvicina, stringendo strettamente un manoscritto. "Ho scritto un'opera di narrativa dopo aver letto del materiale letterario che è molto popolare nella vostra corte. Vi prego di farmi l'onore di essere la prima persona a leggere le mie parole!". Accetto il manoscritto e do un'occhiata ad alcune righe.\n\n"
  court.3010.desc.low_learning:0 "Tutte le descrizioni del protagonista lo citano con 'grandi e meravigliose sfere di lapislazzuli' e [inspired_writer.GetFirstNameNoTooltip] pone l'attenzione su di esse perfino in situazioni inopportune."
@@ -52,7 +52,7 @@
  court.3011.c.tt.gain_inspiration:0 "[inspired_writer.GetFirstNameNoTooltip] è ispirat[inspired_writer.Custom('DE_END_PRO_S_N')] per scrivere un capolavoro!"
  court.3011.c.tt.hurt:0 "[inspired_writer.GetFirstNameNoTooltip] è ferit[inspired_writer.Custom('DE_END_PRO_S_N')] dalla mancanza del tuo supporto."
 
- # Eventi catastrofici nelle lattrine
+ #Latrine disaster events
  court.3020.t:0 "Un Odore Disgustoso"
  court.3020.desc.opening:1 ""[ROOT.Char.Custom2('RelationToMeAddress', latrine_chancellor)|U]. Ve ne prego, una parola."\n\nIl mio [latrine_chancellor.GetCouncilTitle], [latrine_chancellor.GetTitledFirstName], mi si avvicina durante una breve pausa mentre disbrigo gli affari di corte. Mi indica un punto meno affollato della stanza e io [latrine_chancellor.Custom('DE_PRO_POS_P_3P')] seguo lì.\n\n"Sono preoccupat[latrine_chancellor.Custom('DE_END_PRO_S_N')] per lo stato "
  court.3020.desc.castle:0 "del castello di [capital.GetNameNoTooltip]."
@@ -75,7 +75,7 @@
  court.3021.c:0 "Mi ritraggo con orrore mentre vedo tutti cadere nelle latrine sottostanti."
  court.3021.latrine_disaster:0 "Il Disastro delle Latrine di [capital.GetNameNoTooltip]"
  
- # Dama di compagnia
+ #Lady-in-waiting 
  court.3030.t:0 "Esigente per la Moda"
  court.3030.desc.intro:0 "Sempre così attenta nei miei confronti, la mia $lady_in_waiting_court_position$, [fussy_liw.GetFirstName], mi sta alle costole per garantire che io mi comporti e mi presenti a corte nel modo più appropriato.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]! Per favore, state ferm[ROOT.Char.Custom('DE_END_PRO_S_N')] un momento, così che possa sistemarvi i vestiti!"\n\n"
  court.3030.desc.lovers:1 "Istintivamente, al suo tocco mi appoggio, prima di ricompormi quando realizzo che siamo in pubblico. Benché non sia raro che la mia carissima [fussy_liw.GetFirstNameNoTooltip] sia così pignola coi miei abiti,"
@@ -93,7 +93,7 @@
  court.3031.c:0 "Desidero migliorare i rapporti con i [reference_county.GetCulture.GetCollectiveNounNoTooltip]."
  court.3031.d:0 "Non m'interessa ciò che pensano gli altri."
 
- # Nostalgia di Casa
+ #Homesickness
  court.3040.t:0 "[homesick_parent.Custom('DE_ART_DEF_P_D')] mi[homesick_parent.Custom('DE_END_PRO_S_N')] Nostalgic[homesick_parent.Custom('DE_END_PRO_S_N')] [homesick_parent.GetMotherFather|U]"
  court.3040.desc:0 "Mentre faccio i miei giri di pubbliche relazioni a corte, sento un grosso sospiro provenire da mi[homesick_parent.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('homesick_parent'))]. Intenzionale o meno che fosse, la solenne presenza di [homesick_parent.GetTitledFirstNamePossessive] non è passata inosservata.\n\n"Oh, salve figli[ROOT.GetCharacter.Custom('DE_END_PRO_S_N')] mi[ROOT.GetCharacter.Custom('DE_END_PRO_S_N')]", dice dopo che svanisce la sorpresa iniziale. Non posso dire con certezza se [homesick_parent.GetTitledFirstNameNoTooltip] si stia comportando in maniera melodrammatica o sincera. "Ti prego, non fare caso a me. Ho solo nostalgia di casa, tutto qui..."\n\nNon faccio nemmeno in tempo a rispondere che [homesick_parent.Custom('DE_ART_IND_A')] emette un altro malinconico sospiro. Andar via senza dire una parola non cambierebbe la situazione, così prendo la decisione di parlare."
  court.3040.a:0 "Semplicemente vi mancano i lussi della cultura [homesick_parent.GetCulture.GetNameNoTooltip]!"
@@ -104,7 +104,7 @@
  court.3040.c.tt: "Un $court_jester_court_position$ della sua cultura lo farà sicuramente ridere."
  court.3040.d:0 "I tuoi sentimenti sono problemi tuoi. Non portarli nella mia corte."
 
- # Capo degli Eunuchi
+ #Chief Eunuch
  court.3050.t:0 "Lettera Diffamatoria"
  court.3050.desc:0 ""Ho un meraviglioso consiglio per [ROOT.Char.Custom('DE_ART_DEF_P_A')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]", dice il mio $chief_eunuch_court_position$, [chief_eunuch.GetFirstName], con fare cospiratorio.\n\n"Uno dei vostri detrattori, [target.GetTitledFirstName], oggi è qui presente. Se è vostro desiderio, potrei realizzare una lettera compromettente ai suoi danni, così che possiamo metterl[target.Custom('DE_END_PRO_S_N')] pubblicamente in ridicolo".\n\n[chief_eunuch.GetFirstNameNoTooltip] disegna sul suo viso un sorriso [chief_eunuch.Custom('quirk_neg_adjective')], mentre soffoca una risata. "Allora, cosa volete che scriva nella lettera?""
  court.3050.a:0 "Ricorda a quell'idiota che conosco il suo segreto e che per questo dovrebbe sudare freddo."
@@ -112,7 +112,7 @@
  court.3050.c:0 "Fabbrica una prova secondo cui [target.GetFirstNameNoTooltip] sta calunniando qualcuno."
  court.3050.d:0 "Non agitiamo le acque, per questa volta."
 
- # Gatto
+ #Cat
  court.3060.t:0 "Un Cacciatore Felino"
  court.3060.desc:0 ""Penso di aver scoperto il motivo per cui in alcuni giorni, più che in altri, non si veda in giro neanche un topo!" dice felice [ROOT.Char.Custom('DE_ART_DEF_P_A')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('cat_finder'))], [cat_finder.GetTitledFirstName], mentre si sposta di lato rivelando la presenza di un servitore che tiene in braccio un gatto #EMP molto#! contrariato.\n\nLa bestiola si dimena nel tentativo di liberarsi dalle braccia del servitore, miagolando in un modo piuttosto accattivante.\n\n"Direi che questo è un cacciatore di ratti di grande successo! Infatti, era nel bel mezzo di una furibonda lotta con uno molto grosso quando lo abbiamo trovato! Cosa ne dite, adottiamo questo gatto?""
  court.3060.a:0 "Mi piacerebbe tanto la compagnia di un felino!"
@@ -120,7 +120,7 @@
  court.3060.c:0 "Non puoi addestrare uno dei cani a cacciare i topi?"
  court.3060.d:0 "Niente gatti questa volta."
  
- # Corte Reale
+ #Royal Court
  court.3070.t:0 "[ROOT.Char.Custom('DE_ART_DEF_P_D')] [ROOT.Char.GetTitleTierName] Sconosciut[ROOT.Char.Custom('DE_END_PRO_S_N')]"
  court.3070.desc.opening:0 ""Oh... e non crederete mai a ciò che accadde dopo!". [court_enjoyer.Custom('DE_ART_DEF_P_D')] mi[court_enjoyer.Custom('DE_END_PRO_S_N')] ospite, [court_enjoyer.GetTitledFirstName], non smette di parlare di sé e di tutte le cose che [court_enjoyer.Custom('DE_PRO_DEM')] sono accadute. Oltre alla sua parlantina senza fine, poi, mi trovo a disagio con quest[court_enjoyer.Custom('DE_END_PRO_S_N')] stranier[court_enjoyer.Custom('DE_END_PRO_S_N')] che mi parla in maniera così informale.\n\nCerco di scusarmi con l'ospite dicendo[court_enjoyer.Custom('DE_PRO_DEM')] che ho altre questioni di cui occuparmi e altre persone da ricevere, ma mi interrompe chiedendomi che lavoro faccio o se sono qui per "
  court.3070.desc.opening_food:0 "gustare il buon cibo come tutti gli altri ospiti."

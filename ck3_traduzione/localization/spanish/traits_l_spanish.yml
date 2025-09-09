@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE:0 "Richiede [TraitLevelTrackEntry.GetXpRequired|V0]+ [trait_level_track_xp|E]\n[TraitLevelTrackEntry.GetModifierDescription( Character.Self )][AddLocalizationIf( GreaterThan_int32( TraitLevelTrackEntry.GetLevel, '(int32)1' ), 'MODIFIER_PREVIOUS_LEVELS_APPLY_NEWLINE' )]"
  TRAIT_LEVEL_TRACK_ENTRY_DESC:2 "#V Livello [TraitLevelTrackEntry.GetLevel]#!\n$TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE$"
  TRAIT_LEVEL_TRACK_ENTRY_DESC_TT:0 "\n\n#S Livello [TraitLevelTrackEntry.GetLevel]#!\n$TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE$"
@@ -131,30 +131,29 @@
  trait_reveler_1_desc:0 "Il Festaiolo Insaziabile ha provato la vita inebriante fatta di gozzoviglie e dissolutezza e ne vuole sempre di più."
  trait_reveler_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha provato la vita inebriante fatta di gozzoviglie e dissolutezza e ne vuole sempre di più."
  trait_reveler_2:0 "Festaiolo Famoso"
- #trait_reveler_2_desc:0 "Il Festaiolo Famoso è l'anima di ogni ricevimento, in grado di attirare sia dissolutezza che fascino."
+ #trait_reveler_2_desc:0 "The Famous Reveler is the life of every gathering, attracting both debauchery and glamor."
  trait_reveler_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è l'anima di ogni ricevimento, in grado di attirare sia dissolutezza che fascino."
  trait_reveler_3:0 "Festaiolo Leggendario"
- #trait_reveler_3_desc:0 ""Cibo, bevande, intossicazione del corpo e della mente: il Festaiolo Leggendario non si nega nulla ed è il fulcro di ogni festa."
+ #trait_reveler_3_desc:0 "Food, drink, intoxication of both body and mind — the Legendary Reveler denies themselves nothing and is the nexus of every feast."
  trait_reveler_3_character_desc:0 "Cibo, bevande, intossicazione del corpo e della mente — [ROOT.GetCharacter.GetFirstNameNoTooltip] non si nega nulla ed è il fulcro di ogni festa."
  trait_blademaster_1:0 "Aspirante Maestro di Lame"
  trait_blademaster_1_desc:0 "Abile nel combattimento personale - l'Aspirante Maestro di Lame sa come portare un attacco."
  trait_blademaster_1_character_desc:0 "Abile nel combattimento personale — [ROOT.GetCharacter.GetFirstNameNoTooltip] sa come portare un attacco."
  trait_blademaster_2:0 "Maestro di Lame"
- #trait_blademaster_2_desc:0 "Il Maestro di Lame è un avversario formidabile che incute rispetto in tutti i tipi di combattimento."
+ #trait_blademaster_2_desc:0 "The Blademaster is a formidable and respected opponent in all kinds of combat."
  trait_blademaster_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è un avversario formidabile che incute rispetto in tutti i tipi di combattimento."
  trait_blademaster_3:0 "Maestro di Lame Leggendario"
- #trait_blademaster_3_desc:0 "La prodezza del Maestro di Lame Leggendario è materia di racconti."
+ #trait_blademaster_3_desc:0 "The prowess of the Legendary Blademaster is the stuff of stories."
  trait_blademaster_3_character_desc:0 "La prodezza di [ROOT.GetCharacter.GetFirstNameNoTooltip] è materia di racconti."
  trait_hunter_1:0 "Cacciatore Novizio"
  trait_hunter_1_desc:0 "Il Cacciatore Novizio risponde abilmente sia al richiamo della natura selvaggia che dell'arco."
  trait_hunter_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] risponde abilmente sia al richiamo della natura selvaggia che dell'arco."
  trait_hunter_2:0 "Cacciatore"
- #trait_hunter_2_desc:0 "Il Cacciatore naviga nella natura selvaggia con straordinaria precisione e conoscenza."
+ #trait_hunter_2_desc:0 "The Hunter navigates the wilds with uncanny precision and knowledge."
  trait_hunter_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] naviga nella natura selvaggia con straordinaria precisione e conoscenza."
  trait_hunter_3:0 "Maestro Cacciatore"
- #trait_hunter_3_desc:0 "Il Maestro Cacciatore vive per l'uccisione."
+ #trait_hunter_3_desc:0 "The Master Hunter lives for the kill."
  trait_hunter_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] vive per l'uccisione."
-
  trait_strategist:0 "Stratega"
  trait_strategist_desc:0 "Uno studioso appassionato dell'arte della guerra, che può ribaltare qualsiasi situazione a proprio vantaggio."
  trait_strategist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è appassionato dell'arte della guerra, e può ribaltare qualsiasi situazione a proprio vantaggio."
@@ -200,19 +199,19 @@
  trait_mystic_1_desc:0 "Questo personaggio è noto per il suo approccio non convenzionale, ma pratico, alla religione."
  trait_mystic_1_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] ha un approccio non convenzionale, ma pratico, alla religione."
  trait_mystic_2:0 "Mistico"
- #trait_mystic_2_desc:0 "Questo personaggio è noto per i suoi metodi insoliti per raggiungere l'ascensione religiosa."
+ #trait_mystic_2_desc:0 "This character is known for their unusual methods for achieving religious ascension."
  trait_mystic_2_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] utilizza dei metodi insoliti per raggiungere l'ascensione religiosa."
  trait_mystic_3:0 "Taumaturgo"
- #trait_mystic_3_desc:0 "Incenso, canti e strani trucchi – questo personaggio fa miracoli con mezzi non convenzionali."
+ #trait_mystic_3_desc:0 "Incense, chants, and odd cantrips – this character works miracles through unconventional means."
  trait_mystic_3_character_desc:0 "Incenso, canti e strani trucchi – [ROOT.Char.GetFirstNameNoTooltip] fa miracoli con mezzi non convenzionali."
  trait_physician_1:0 "Medico Novizio"
  trait_physician_1_desc:1 "Questo personaggio è addestrato nell'arte della guarigione."
  trait_physician_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha terminato l'addestramento nell'arte della guarigione."
  trait_physician_2:0 "Medico"
- #trait_physician_2_desc:1 "Questo personaggio ha molta esperienza nel prendersi cura dei malati e dei feriti."
+ #trait_physician_2_desc:1 "This character has plenty of experience tending to the sick and wounded."
  trait_physician_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha molta esperienza nel prendersi cura dei malati e dei feriti."
  trait_physician_3:0 "Medico Rinomato"
- #trait_physician_3_desc:1 "Le abilità curative di questo personaggio sono ben note nei circoli accademici."
+ #trait_physician_3_desc:1 "This character's healing skills are well known in scholarly circles."
  trait_physician_3_character_desc:0 "Le abilità curative di [ROOT.Char.GetFirstNameNoTooltip] sono ben note nei circoli accademici."
  lifestyle_herbalist:0 "Erborista"
  lifestyle_herbalist_desc:0 "Questo personaggio è esperto di erbe, botanica e pratiche mediche legate alle piante."
@@ -365,7 +364,7 @@
  trait_hashishiyah:0 "Hashishiyah"
  trait_hashishiyah_desc:0 "Questo personaggio dipende dal consumo di hashish per affrontare lo stress della vita quotidiana."
  trait_hashishiyah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] dipende dal consumo di hashish per affrontare lo stress della vita quotidiana."
- 
+
  trait_rakish:0 "Licenzioso"
  trait_rakish_desc:0 "Questo personaggio passa così tanto tempo nel bordello che questo è diventato la sua seconda casa."
  trait_rakish_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] passa così tanto tempo nel bordello che questo è diventato la sua seconda casa."
@@ -782,7 +781,6 @@
  trait_berserker:0 "Berserker"
  trait_berserker_desc:0 "Quando il sangue di questo personaggio inizia a ribollire, solo la morte dei suoi nemici può placarlo."
  trait_berserker_character_desc:0 "Quando il sangue di [ROOT.Char.GetFirstNameNoTooltip] inizia a ribollire, solo la morte dei suoi nemici potrà placarlo."
- trait_varangian:0 "Variago"
  trait_shieldmaiden_female:0 "Fanciulla dello Scudo"
  trait_shieldmaidens_female:0 "Fanciulle dello Scudo"
  trait_shieldmaiden_male:0 "Fanciullo dello Scudo"
@@ -793,6 +791,7 @@
  trait_poet:0 "Poeta"
  trait_poet_desc:0 "Questo personaggio ama passare le sue serate dando rima e versi ai suoi pensieri, sentimenti ed esperienze."
  trait_poet_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ama passare le sue serate dando rima e versi ai suoi pensieri, sentimenti ed esperienze."
+ trait_varangian:0 "Variago"
  trait_varangian_desc:0 "Questo personaggio ha prestato servizio nell'esercito Bizantino come parte della Guardia Variaga."
  trait_varangian_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha prestato servizio nell'esercito Bizantino come parte della Guardia Variaga."
  trait_viking_has_longships:0 "Vichingo"
@@ -824,14 +823,14 @@
  trait_education_republican_knowledge_4_desc:1 "Questo personaggio padroneggia la misteriosa arte dell'amministrazione della città."
  trait_education_republican_knowledge_4_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] padroneggia la misteriosa arte dell'amministrazione della città."
 
- # Female version of Child of Concubine
+ 	# Female version of Child of Concubine
  trait_child_of_concubine:0 "Figlio di una Concubina"
  trait_child_of_concubine_desc:0 "Questo personaggio è nato da una concubina."
  trait_child_of_concubine_character_desc:0 "La madre di [ROOT.GetCharacter.GetFirstNameNoTooltip] è una concubina."
- # Male version of Child of Concubine
+ 	# Male version of Child of Concubine
  trait_child_of_male_concubine_desc:0 "Questo personaggio è stato generato da un concubino."
  trait_child_of_male_concubine_character_desc:0 "Il padre di [ROOT.GetCharacter.GetFirstNameNoTooltip] è un concubino."
- #Witch
+ 	#Witch
  trait_witch:0 "Stregoneria"
  trait_witch_desc:0 "Questo personaggio si cimenta in materie che molti considererebbero occulte."
  trait_witch_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] si cimenta in materie che molti considererebbero occulte."
@@ -846,7 +845,7 @@
  trait_heresiarch_desc:1 "Questo personaggio è il leader locale di una setta eretica."
  trait_heresiarch_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è il leader locale di una setta eretica."
 
- #Commander Traits
+#Commander Traits
  trait_logistician:0 "Esperto di Logistica"
  trait_logistician_1: "Esperto di Logistica con Esperienza"
  trait_logistician_2: "Maestro dei Rifornimenti"
@@ -855,7 +854,7 @@
  trait_logistician_character_desc:0 "Se c'è una cosa che [ROOT.GetCharacter.GetFirstNameNoTooltip] sa, è come far durare le scorte... e farle durare a lungo."
  trait_track_logistician: "Fornitore"
  trait_track_logistician_desc: "#help Con questo tratto si acquisisce esperienza nel guidare un esercito che si sposta sulla mappa.#!\n\nPadroneggiare la logistica dei rifornimenti permette di controllare il corso della guerra. Assicura che un esercito non vacilli nei momenti cruciali."
- 
+
  trait_military_engineer:0 "Ingegnere Militare"
  trait_military_engineer_1: "Ingegnere Militare con Esperienza"
  trait_military_engineer_2: "Maestro d'Assedio"
@@ -909,7 +908,7 @@
  trait_desert_warrior_character_desc:0 "Il sole inclemente e il caldo soffocante del deserto non sono dei nemici per [ROOT.GetCharacter.GetFirstNameNoTooltip]."
  trait_track_desert_warrior: "Specialista del Deserto"
  trait_track_desert_warrior_desc: "#help Con questo tratto si acquisisce esperienza combattendo nel deserto, nelle montagne desertiche, nelle oasi o nelle terre aride.#!\n\nNel vasto e duro deserto, solo chi resiste alla spietatezza della natura può sopravvivere."
- 
+
  trait_jungle_stalker:0 "Cacciatore della Giungla"
  trait_jungle_stalker_1: "Lama Rampicante"
  trait_jungle_stalker_2: "Cacciatore delle Vette"
@@ -954,13 +953,9 @@
  trait_open_terrain_expert_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] si sente perfettamente a proprio agio sui terreni aperti, il che gli conferisce un vantaggio nelle battaglie combattute in campo aperto."
  trait_track_open_terrain_expert: "Specialista nei Terreni Aperti"
  trait_track_open_terrain_expert_desc: "#help Con questo tratto si acquisisce esperienza combattendo nelle pianure, nei terreni agricoli o nelle steppe.#!\n\nIl terreno aperto offre innumerevoli opportunità per superare in astuzia e manovra il nemico."
- 
- trait_rough_terrain_expert:0 "Esperto di Terreni Accidentati"
-                                                           
-                                                                                                                                                                                                                      
 
+ trait_rough_terrain_expert:0 "Esperto di Terreni Accidentati"
  trait_rough_terrain_expert_1: "Pioniere"
-                                            
  trait_rough_terrain_expert_2: "Tattico degli Altipiani"
  trait_rough_terrain_expert_3: "Maestro delle Cime"
  trait_rough_terrain_expert_desc:0 "I terreni accidentati sono di grande utilità per chi sa sfruttarli a proprio vantaggio in battaglia."
@@ -976,7 +971,7 @@
  trait_forest_fighter_character_desc:0 "Laddove alcuni vedono le foreste come degli ostacoli, [ROOT.GetCharacter.GetFirstNameNoTooltip] vi vede delle opportunità."
  trait_track_forest_fighter: "Specialista della Foresta"
  trait_track_forest_fighter_desc: "#help Con questo tratto si acquisisce esperienza combattendo nelle foreste o nelle taighe.#!\n\nTra gli alberi, ogni ombra diventa uno scudo, ogni ramo un alleato."
- 
+
  trait_cautious_leader:0 "Comandante Prudente"
  trait_cautious_leader_1: "Stratega Paziente"
  trait_cautious_leader_2: "Comandante Cauto"
@@ -985,7 +980,7 @@
  trait_cautious_leader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] non corre rischi inutili durante le battaglie, a scapito di un potenziale guadagno."
  trait_track_cautious_leader: "Comandante Attento"
  trait_track_cautious_leader_desc: "#help Con questo tratto si acquisisce esperienza combattendo contro eserciti più grandi del proprio.#!\n\nLa pazienza e la precisione garantiscono che ogni mossa sia importante e che ogni perdita sia ridotta al minimo."
- 
+
  trait_organizer:0 "Organizzatore"
  trait_organizer_1: "Tattico"
  trait_organizer_2: "Pianificatore di Campagne Militari"
@@ -994,7 +989,7 @@
  trait_organizer_character_desc:0 "In mani capaci, un esercito bene organizzato può sventare rapidamente i piani del nemico in qualsiasi situazione."
  trait_track_organizer: "Marciatore"
  trait_track_organizer_desc: "#help Con questo tratto si acquisisce esperienza conducendo un esercito mentre ci si muove sulla mappa.#!\n\nUn esercito ben coordinato si muove rapidamente e colpisce con precisione."
- 
+
  trait_winter_soldier:0 "Soldato d'Inverno"
  trait_winter_soldier_1: "Guardiano del Gelo"
  trait_winter_soldier_2: "Veterano dei Ghiacci"
@@ -1016,7 +1011,7 @@
  trait_denounced:0 "Denunciato"
  trait_denounced_desc:0 "Questo personaggio è stato denunciato dal suo [dynast|E] ed ora può essere imprigionato da qualsiasi altro membro della dinastia."
  trait_denounced_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è stato denunciato dal suo [dynast|E] ed ora può essere imprigionato da qualsiasi altro membro della dinastia."
-
+ 
  trait_decadent: "Accusato di Decadenza"
  trait_decadent_desc: "Questo personaggio è stato accusato di decadenza dal [Concept( 'house_head', 'capo' )|E] della sua Casata. Che tali accuse siano vere o meno, la sua reputazione e credibilità sono notevolmente danneggiate."
  trait_decadent_character_desc: "[ROOT.GetCharacter.Custom('IT_NAM_COL3')][ROOT.GetCharacter.GetFirstNameNoTooltip] è stato accusato di decadenza dal [Concept( 'house_head', 'capo' )|E] della sua Casata. Che tali accuse siano vere o meno, la sua reputazione e credibilità sono notevolmente danneggiate."
@@ -1100,7 +1095,7 @@
  trait_crusader_king_fallback_male:0 "Re Santo"
  trait_crusader_king_fallback_female:0 "Regina Santa"
  trait_crusader_king_fallback_dead:0 "Santo Sovrano"
- 
+
  # Court type traits
  trait_diplomatic_court_1:1 "Cortigiano Diplomatico"
  trait_diplomatic_court_1_desc:1 "Questo personaggio ha trascorso almeno [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] anni vivendo in una vivace [GetCourtType('court_diplomatic').GetName] piena di emissari e diplomatici."
@@ -1174,7 +1169,7 @@
 
  # Fame Groups
  trait_kinslayer:0 "Uccisori di parenti"
- #trait_child_of_concubine:0 "trait_child_of_concubine"
+ #trait_child_of_concubine: "trait_child_of_concubine"
 
 # Court Type Groups
  trait_diplomatic_court:0 "Cortigiani Diplomatici"
@@ -1182,7 +1177,7 @@
  trait_administrative_court:0 "Cortigiani Amministrativi"
  trait_intrigue_court:0 "Cortigiani Complottisti"
  trait_scholarly_court:0 "Cortigiani Eruditi"
- 
+
  # EP2
  trait_tourney_participant:2 "Hastiluder"
  trait_tourney_participant_desc:1 "Questo personaggio ha partecipato a giochi marziali, affinando le proprie abilità in guerra e nel combattimento personale."

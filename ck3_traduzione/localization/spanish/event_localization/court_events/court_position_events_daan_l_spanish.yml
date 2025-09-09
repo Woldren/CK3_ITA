@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  court_position_management_event.0001.t: "Vacante: [court_position_type.GetNameNoTooltip()]"
  court_position_management_event.0001.desc: "La mia posizione di corte [court_position_type.GetName()] è stata lasciata vacante da [employee.GetFullName]."
  court_position_management_event.0001.desc.dead: "[employee.GetSheHe|U] [employee.GetDeathReason]."

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  prison.1001.t:0 "Verità o tormento"
  prison.1001.start.desc:1 "Il mio sogno ad occhi aperti cessa bruscamente quando la porta della cella viene aperta. La sagoma della guardia è familiare, ma [ROOT.Char.Custom('DE_ART_DEF_P_A')] [actor.GetWomanMan] dietro di lui... Oh. Oh no.\n\n"
  prison.1001.rack.desc:0 "[actor.Custom('DE_ART_DEF_P_D')] [actor.GetTitledFirstName] mi lega al cavalletto [actor.Custom('DE_ART_IND_A')] stess[actor.Custom('DE_END_PRO_S_N')], un sorriso compiaciuto compare sulle sue labbra. "Confido tu abbia sentito gli altri. Le urla, lo spezzarsi di ossa e tendini"
@@ -53,11 +53,11 @@
 
  prison.1025.t:0 "Castralo"
  prison.1025.cruel.desc:0 ""Oh, [recipient.GetFirstNameNoTooltip]", sospiro teatralmente. "Non agitarti. Non sono qui per prendere la tua testa - o qualsiasi altra cosa di valore. La tua virilità andrà benissimo..""
- 
+
  prison.1026.cruel.desc:0 "Lo sguardo compiaciuto sul viso di [actor.GetTitledFirstName] mi fa venire i brividi.\n\n"Non agitarti. Non sono qui per prendere la tua testa - o qualsiasi altra cosa di valore. La tua virilità andrà benissimo""
  prison.1026.compassionate.desc:0 ""[recipient.GetFirstNameNoTooltip], voglio che tu sappia che non provo alcun piacere in questo. Sono costretto a farti castrare. Per la stabilità del regno.""
  prison.1026.a:0 "cosa...? lasciatemi andare! #emp Nooo!#!"
- 
+
  prison.1030.t: "Sfigurato"
  prison.1030.cruel.desc: ""Bene, [recipient.GetFirstNameNoTooltip]," dico sospirando teatralmente. "Sembra che sia giunto il momento che l'esterno della tua dimora mortale rifletta la bruttezza che vi si cela all'interno.""
 

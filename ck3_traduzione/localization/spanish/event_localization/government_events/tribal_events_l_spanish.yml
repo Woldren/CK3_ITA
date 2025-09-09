@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  tribal.1001.t:0 "Una Sfida"
  tribal.1001.desc_old:0 ""[ROOT.Char.GetTitledFirstNameNoTooltip] sei diventato vecchio e debole;"
  tribal.1001.desc_weak:0 ""Tu sei #EMP debole#!, [ROOT.Char.GetTitledFirstNameNoTooltip];"

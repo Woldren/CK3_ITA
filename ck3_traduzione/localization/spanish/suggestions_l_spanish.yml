@@ -1,11 +1,11 @@
-﻿l_spanish:
+l_spanish:
  SUGGESTION_TITLE:0 "#T $NAME$#!"
  
  suggestion_recruit_maa_label:0 "Recluta degli Uomini d'Arme"
  suggestion_recruit_maa:0 "Suggerimento: Recluta un reggimento di Uomini d'Arme"
  suggestion_recruit_maa_desc:0 "Hai meno [men_at_arms|E] di quanti ci si aspetterebbe per un [ruler|E] del tuo [rank|E].\n\nReclutarne alcuni rafforzerà i tuoi [armies|E], servendo sia per scoraggiare potenziali nemici che per combattere coloro che insistono a combattere comunque."
  suggestion_recruit_maa_click:0 "#I Clicca per visualizzare le tue Forze Militari#!"
- 
+
  suggestion_declare_war_label:0 "Dichiara una Guerra"
  suggestion_declare_war:0 "Suggerimento: Dichiara una guerra a [recipient.GetShortUINameNoTooltip]"
  suggestion_declare_war_desc:1 "Vincere una guerra contro [recipient.GetShortUIName] ti permetterà di conquistare più terre e far crescere il tuo [realm|E], contribuendo a garantire il successo a lungo termine della tua [house|E]."
@@ -25,9 +25,9 @@
  suggestion_create_title:0 "Suggerimento: Crea il [landed_title.GetNameNoTooltip]"
  suggestion_create_title_desc:1 "Possiedi abbastanza terre [de_jure|E] per [create|E] il [landed_title.GetName]. Questo aumenterebbe notevolmente il tuo [prestige|E] oltre a renderti il [rightful_liege|E] di tutti i titoli sottostanti."
  suggestion_create_title_click:0 "#I Clicca per visualizzare il Titolo#!"
- 
+
  SUGGESTIONS_DEBUG:0 "#D SUGGESTIONS DEBUG:#!"
- 
+
  suggestion_convert_county_label:0 "Converti una Contea"
  suggestion_convert_county:0 "Suggerimento: Converti la Fede in [landed_title.GetNameNoTierNoTooltip]"
  suggestion_convert_county_desc:0 "Inviare il tuo [Concept( 'realm_priest', GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName )|E] per convincere gli abitanti di [landed_title.GetName] ad abbracciare la vera fede stabilizzerà l'area."
@@ -52,7 +52,7 @@
  suggestion_grant_title:0 "Suggerimento: Concedi [landed_title.GetNameNoTierNoTooltip] a [recipient.GetShortUINameNoTooltip]"
  suggestion_grant_title_desc:0 "[recipient.GetShortUIName] è il possessore [de_jure|E] di [landed_title.GetName]. Fare in modo che il tuo reame segua il più possibile la struttura De Jure porta alla stabilità e a meno penalità di opinione."
  suggestion_grant_title_click:0 "#I Clicca per Concedere il Titolo#!"
- 
+
  suggestion_can_hire_court_positions:0 "Assegna Posizioni di Corte"
  suggestion_can_hire_court_positions_label:0 "Suggerimento: Assegna altre Posizioni di Corte"
  suggestion_can_hire_court_positions_desc:0 "Dovresti investire un po' di denaro nell'assegnare altre [court_positions|E] così da ottenerne i bonus."

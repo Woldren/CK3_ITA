@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  court_chaplain_task.0201.opening:0 "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
 
  court_chaplain_task.0301.desc:0 "Stavo frugando tra alcuni documenti, sia antichi che di... provenienza meno certa. Finalmente ho abbastanza materiale per affermare che siete voi [ROOT.Char.Custom('DE_ART_DEF_P_A')] legittim[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] [county.Custom('IT_COU_COL')][county.GetName]!\n\nAdesso manca solo una piccola bustarella..."

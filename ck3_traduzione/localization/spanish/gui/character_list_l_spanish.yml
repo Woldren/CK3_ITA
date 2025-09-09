@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  age_filter_category:0 "Età"
  adult_filter:0 "Adulti"
  any_filter_option:1 "Tutti"
@@ -189,7 +189,7 @@
  has_no_artifact_filter_option:0 "Non ha alcun Manufatto"
  has_no_artifact_filter_option_desc:0 "Mostra solo i personaggi che non hanno [artifacts|E]"
  vassal_stance_filter:0 "Posizione del vassallo"
- 
+
  CHARACTER_LIST_TEXT_FILTER_TOOLTIP:0 "#T Cerca testo\n#!Inserisci parte del nome del Personaggio, Casata della dinastia, tratto, cultura o fede"
  CHARACTER_LIST_TEXT_FILTER_TITLE:0 "Elementi corrispondenti"
  CHARACTER_LIST_TEXT_FILTER_MATCH_NAME:0 "Nome corrispondente '[PatternItem.GetName]'"
@@ -199,7 +199,7 @@
  CHARACTER_FINDER_NO_MATCH:0 "Nessun Personaggio corrispondente al filtro attuale"
  special_filter_category:0 "Speciale"
  CHARACTER_LIST_CLEAR:0 "#T Azzera Ricerca#!"
- 
+
  CULTURE_LISTS_WINDOW:0 "[Culture.GetNameNoTooltip]"
 
 
@@ -244,13 +244,13 @@
  CHARACTER_LIST_OPEN_FILTER_PRESET_BUTTON_SELECT:1 "Preset Filtro Salvato"
  CHARACTER_LIST_OPEN_FILTER_PRESET_BUTTON_CURRENT_SELECTED:1 "Filtri attivi: [CharacterFilterPreset.GetName]"
  CHARACTER_LIST_UNSAVABLE_FILTERS:0 "#low I seguenti filtri non verranno salvati:#indent_newline:2 \n$FILTERS$#!#!"
- 
+
  CHARACTER_LIST_SELECT_TO_OVERWRITE_PRESET_TOOLTIP:0 "#T Seleziona per sovrascrivere le preimpostazione#! \n[CharacterSelectionList.GetApplyFilterPresetTooltip( FilterPresetItem.Self )]"
  CHARACTER_LIST_FILTER_PRESET_TEXT_FILTER_DESC_ILLEGAL:0 "$FILTER_GROUP$: $FILTER$ @warning_icon! #X Incompatibile con questo salvataggio#!"
  CHARACTER_LIST_FILTER_PRESET_TEXT_FILTER_DESC_INVALID_GAME_VERSION:0 "$FILTER_GROUP$: $FILTER$ @warning_icon! #X Incompatibile con questa versione del gioco#!"
 
  INVALID_TEXT_FILTER_TYPE_CULTURE_GROUP:0 "Gruppo Culturale"
- 
+
  dynasty_house_filter:0 "Casata della Dinastia"
  player_dynasty_house_filter:0 "[GetPlayer.GetHouse.GetNameNoTooltip|U]"
  player_dynasty_house_filter_desc:0 "Mostra solo i personaggi della tua stessa [house|E]"
@@ -273,7 +273,7 @@
  landless_adventurer_government_filter_option: "$game_concept_adventurer$"
  nomad_government_filter_option: "$game_concept_nomadic_government$"
  herder_government_filter_option: "$game_concept_herder$"
-  
+ 
  feudal_government_filter_option_desc: "Mostra solo i personaggi con un [government|E] [feudal|E]"
  republic_government_filter_option_desc: "Mostra solo i personaggi con un [government|E] di tipo [republic|E]"
  theocracy_government_filter_option_desc: "Mostra solo i personaggi con un [government|E] di tipo [theocracy|E]"
@@ -285,4 +285,3 @@
  landless_adventurer_government_filter_option_desc: "Mostra solo i personaggi con un [government|E] di tipo [adventurer|E]"
  nomad_government_filter_option_desc: "Mostra solo i personaggi con un [nomadic_government|E]"
  herder_government_filter_option_desc: "Mostra solo i personaggi con un [government|E] [herder|E]"
-

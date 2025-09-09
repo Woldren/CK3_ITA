@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  completed_hajj_memory:0 "compiuto un Hajj"
  completed_first_hajj_desc:0 "ho intrapreso il mio primissimo Hajj a [ROOT.Var('hajj_destination').GetProvince.GetCounty.GetName]"
  completed_first_hajj_desc_second_perspective:0 "hai intrapreso il tuo primissimo Hajj a [ROOT.Var('hajj_destination').GetProvince.GetCounty.GetName]"

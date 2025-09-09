@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  
 ep3_wedding.0001.t: "Non Proprio [other_family_spouse.Custom('DE_END_PRO_S_N')] [other_family_spouse.Custom('GetBrideGroom')]"
 ep3_wedding.0001.desc: "Le danze sono iniziate! La musica scorre come un fiume impetuoso, come un vento che smuove anche il più possente degli alberi. [flirting_in_law.Custom('IT_NAM_COL3')][flirting_in_law.GetTitledFirstName], [other_family_spouse.Custom2('RelationToMeShort', SCOPE.sC('flirting_in_law')] del[other_family_spouse.Custom('DE_END_ADJ_NUL_S_N')] [other_family_spouse.Custom('GetBrideGroom')], danza in mezzo agli altri, il suo corpo è come una foglia nella brezza. Il suo sguardo, però, non si posa sugli altri invitati, no... I suoi occhi sono fissi sui miei. #EMP In maniera invitante.#!\n\nLa notte si fa sempre più fonda. Gli sguardi ardenti di [flirting_in_law.GetFirstNameNoTooltip] si accompagnano a brevi carezze e l'ondeggiare di quei fianchi risveglia qualcosa anche in me."

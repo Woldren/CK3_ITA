@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  held_hunt_modifier:0 "A Caccia di Recente"
  held_hunt_modifier_desc:0 "Questo personaggio ha recentemente organizzato una caccia, e non può farlo di nuovo fino alla data specificata."
  
@@ -23,7 +23,7 @@
 
  hunt_killed_local_madman_modifier:1 "Ucciso una Persona del Posto"
  hunt_killed_local_madman_modifier_desc:0 "Un noto abitante delle paludi di questa contea è stato ucciso da un cacciatore troppo zelante."
-
+ 
  hunt_talked_to_madman_modifier:1 "Ha Ascoltato le Preoccupazioni Locali"
  hunt_talked_to_madman_modifier_desc:0 "Gli abitanti di questa contea sono felici che i loro problemi siano stati ascoltati dalla nobiltà venatoria."
 
@@ -71,13 +71,13 @@
 
  hunt_treated_wound_modifier:0 "Ferite Bendate"
  hunt_treated_wound_modifier_desc:1 "Le ferite di questo personaggio sono state abilmente curate."
-
+ 
  hunt_chose_truth_modifier:0 "Umile Onestà"
  hunt_chose_truth_modifier_desc:1 "Questo personaggio ha detto la verità a discapito di se stesso."
 
  hunt_mystical_animal_modifier:0 "Uccisione di un Animale Mistico"
  hunt_mystical_animal_modifier_desc:0 "Questo personaggio ha cacciato e ucciso una bestia mistica."
- 
+
  hunt_protected_their_secret_modifier:0 "Protettore di Segreti"
  hunt_protected_their_secret_modifier_desc:0 "Questo personaggio mantiene le sue carte vicino al petto."
 
@@ -185,7 +185,7 @@
 
  hunt_dangerous_beast_slain_modifier:0 "Bestia pericolosa uccisa"
  hunt_dangerous_beast_slain_modifier_desc:0 "Le menti della popolazione locale sono alleggerite dalla consapevolezza che ci sia un bestia pericolosa in meno che si aggira per le terre selvagge."
- 
+
  hunt_medicinal_herbs_modifier:0 "$useful_herbs$"
  hunt_medicinal_herbs_modifier_desc:0 "$useful_herbs_desc$"
  hunt_poisonous_herbs_modifier:0 "$poisonous_plants$"

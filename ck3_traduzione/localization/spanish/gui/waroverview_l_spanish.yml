@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  WAR_OVERVIEW_YOUR_PARTICIPANTS:3 "Alleati dell'Attaccante"
  WAR_OVERVIEW_THEIR_PARTICIPANTS:3 "Alleati del Difensore"
  WAR_OUR_FORCES:1 "Le Nostre Forze:"
@@ -52,7 +52,6 @@
  WAR_OVERVIEW_SHOW_ALLIES:0 "#T Attiva/disattiva [allies|E]#!"
  WAR_OVERVIEW_TOTAL_SOLDIERS:0 "[soldiers|E] Totali"
  WAR_PARTICIPANT_SOLDIERS:2 "[soldiers|E]: [soldier_i]$SOLDIERS$\n$knight_culture_player_plural$: [knight_i]$KNIGHTS$"
- 
  WAR_OVERVIEW_HOSTAGE_OFFER: "Offerta"
  WAR_OVERVIEW_HOSTAGE_DEMAND: "Domanda"
  WAR_OVERVIEW_HOSTAGE_INFO: "Scegli un membro della tua famiglia da offrire come [hostage|E], o richiedi che un membro della famiglia dell'avversario si unisca alla tua corte come [hostage|E]. La probabilità di accettazione ne risentirà."

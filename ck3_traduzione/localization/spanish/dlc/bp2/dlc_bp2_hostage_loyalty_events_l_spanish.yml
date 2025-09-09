@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  bp2_yearly.8050.t:0 "Chi sono?"
  bp2_yearly.8050.desc.intro:0 "Oggi trovo [hostage.GetName] con un'aria malinconica e contemplativa, che guarda le persone sotto di noi.\n\nMi avvicino e appoggio la mano sulla sua spalla inclinata, e chiedo cosa lo stia preoccupando così tanto.\n\n"Oh [ROOT.Char.Custom('GetAuntUncle')],"
  bp2_yearly.8050.desc.mid.friendship:0 "sei stato un[ROOT.Char.Custom('DE_PRO_PER_P_3P_G')]amic[ROOT.Char.Custom('DE_END_PRO_S_N')] per me più di chiunque altro nel luogo che una volta chiamavo casa."

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #PrisonType
  prisontype_dungeon:0 "segrete"
  prisontype_house_arrest:0 "arresti domiciliari"
@@ -19,4 +19,5 @@
  prison_contents_rabid_dogs:0 "rabid dogs"
  prison_contents_missed_meals:0 "missed meals"
  prison_contents_screaming_lunatics:0 "screaming lunatics"
+ 
 

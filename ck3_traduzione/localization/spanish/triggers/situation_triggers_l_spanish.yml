@@ -1,4 +1,4 @@
-﻿l_spanish: 
+l_spanish:
  situation_current_phase_first: "$situation_current_phase_global$"
  not_situation_current_phase_first: "$not_situation_current_phase_global$"
  situation_current_phase_third: "$situation_current_phase_global$"

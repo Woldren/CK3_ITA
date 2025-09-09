@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  seduce_ongoing.success.rejection:0 "È stato bello, ma è finita."
  seduce_ongoing.failure.rejection:0 "No, no, mai e poi mai, [owner.GetFirstNameNoTooltip]."
  seduce_ongoing_decline_event.tt:0 "Rinuncio a questa opportunità di impressionare [target.GetTitledFirstName]"

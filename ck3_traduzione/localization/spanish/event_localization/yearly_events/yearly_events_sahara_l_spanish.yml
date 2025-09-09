@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #[Faith] Traders in [County]
  yearly_saharan.0001.t:0 "Mercanti [source_county.GetProvince.GetCounty.GetFaith.GetAdherentNameNoTooltip] [target_county.Custom('IT_COU_COL2')][target_county.GetNameNoTooltip]"
  yearly_saharan.0001.desc:0 "Il commercio transahariano è sempre passato attraverso queste terre, portando ricchezza, idee e ideologie. In genere, un sovrano come me deve semplicemente prendere la sua parte, altrimenti le vie si percorrono da sole.\n\nRecentemente, però, sempre più mercanti [source_county.GetProvince.GetCounty.GetFaith.GetAdherentNameNoTooltip] sono stati di passaggio [target_county.Custom('IT_COU_COL2')][target_county.GetName], portando con sé la loro fede e la loro moneta.\n\nUn consorzio mi chiede il permesso di stabilirsi qui e acquistare una proprietà, e ha raccolto un sostanzioso dono per acquisire le mie buone grazie."

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  #### Your Heir is a Jerk, by Isabella Welch
  hold_court.4001.t:0 "Flagello"
@@ -15,8 +15,6 @@
  hold_court.4001.b:0 "Questa è l'ultima goccia! [preferred_heir.GetTitledFirstNameNoTooltip] lo è."
  hold_court.4001.c:0 "Per mia esperienza, [preferred_heir.GetTitledFirstNameNoTooltip] è altrettanto insopportabile!"
  hold_court.4001.d:0 "Essere imperfetti significa che i soldati l[annoying_heir.Custom('DE_END_PRO_S_N')] vedono come uno di loro!"
-
-## Vassals are prejudiced about your disabilities by Isabella Welch
 
  disabled_fallback:0 "disabilitato"
 

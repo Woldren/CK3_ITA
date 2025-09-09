@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  FACTION_DISCONTENT_POWER_ABOVE_THRESHOLD:0 "[faction_military_power|E] al di sopra della soglia: #V $VALUE|0=-$#!"
  FACTION_DISCONTENT_POWER_BELOW_THRESHOLD:0 "[faction_military_power|E] al di sotto della soglia: #V $VALUE|0=-$#!"
  FACTION_POWER_HARD_RULE:0 "[GetPerk( 'hard_rule_perk' ).GetName( GetPlayer )]: #V +$VALUE|0$#!"
@@ -46,7 +46,7 @@
  FACTION_DEMAND_INDEPENDENCE_SEND_DEMAND_NOTIFICATION:0 "Indipendenza!"
  FACTION_DEMAND_INDEPENDENCE_SEND_DEMAND_NOTIFICATION_DESC:0 "Il momento è giunto! Le voci all'unisono della [faction.GetName] concordano che [faction_target.GetName] ha perso qualsiasi diritto di regnare che un tempo [faction_target.GetSheHe] possa aver avuto. Ci verrà data la nostra indipendenza o ce la prenderemo con la forza!"
  faction_demand.0002.tt:0 "Tutti i Membri della Fazione Ottengono L'Indipendenza!"
-
+ 
  FACTION_DEMAND_BRIBE_CO_EMPEROR: "Di certo donargli una carica potrebbe costringerli a collaborare?"
  FACTION_DEMAND_BRIBE_CO_EMPEROR_REASON: "[faction_leader.GetShortUIName|U] dev'essere il [claimant|E] della [faction|E] #weak ([faction.GetSpecialCharacter.GetTitledFirstName])#!"
  faction_demand.0000.faction_leader_accepts: "Se il loro capo fazione accetta la tua offerta"
@@ -173,6 +173,7 @@
  FACTION_CLAIMANT_INVITE_ACCEPTED:1 "[faction_claimant.Custom2('AppropriateGreeting', ROOT.Char)]"
  FACTION_CLAIMANT_INVITE_ACCEPTED_DESC:0 "Finalmente! [faction_target.GetName] non è altro che è un un buffone che finge di essere un [faction_target.GetTitleAsNameNoTooltip], e sono sicuro che il mio reame insorgerà per la mia causa. Coloro che mi aiutano non saranno dimenticati."
  FACTION_CLAIMANT_INVITE_ACCEPTED_OPT:0 "È solo una questione di tempo..."
+
  FACTION_CLAIMANT_INVITE_REFUSED:1 "[faction_claimant.Custom2('AppropriateGreeting', ROOT.Char)]"
  FACTION_CLAIMANT_INVITE_REFUSED_ALLY_DESC:0 "La mia rivendicazione è giusta, questo lo so. Ma la mia alleanza con [faction_target.GetTitledFirstName] mi impedisce di andare in guerra. Sarò con voi nello spirito."
  FACTION_CLAIMANT_INVITE_REFUSED_HOOK_DESC:0 "Sebbene la mia rivendicazione sia giusta io... non posso proprio unirmi a voi. [faction_target.GetTitledFirstName] ha questo... #emphasis 'fascino innegabile'#! che mi impedisce persino di alzare un mano contro di [faction_target.GetHerHim]. Si, questo è quanto. Vi auguro buona fortuna."
@@ -184,15 +185,15 @@
  FACTION_CLAIMANT_EVERY_FACTION_MEMBER:0 "Ogni Membro Della Fazione"
  FACTION_CLAMAINT_DYNAMIC_NAME:0 "Insedia [ROOT.Faction.GetSpecialCharacter.GetTitledFirstName] sul Trono [ROOT.Faction.GetSpecialTitle.Custom('IT_COU_COL')][ROOT.Faction.GetSpecialTitle.GetName]"
  FACTION_POPULIST_DYNAMIC_NAME:0 "Fazione dei Populisti [ROOT.Var('faction_culture').Culture.GetNameNoTooltip] [ROOT.Var('faction_faith').Faith.GetAdjectiveNoTooltip]"
-
+ 
  FACTION_NOMAD_DYNAMIC_NAME: "Nomadi di cultura [ROOT.Var('faction_culture').Culture.GetNameNoTooltip] e fede [ROOT.Var('faction_faith').Faith.GetAdjectiveNoTooltip]"
 
  WARNING_I_HAVE_ALREADY_JOINED_A_FACTION:1 "@warning_icon! #X Sei già entrato in una [faction|E]#!"
  WARNING_I_AM_ALREADY_AT_WAR_WITH_TARGET:1 "@warning_icon! #X Sei già in guerra con [faction_target.GetTitledFirstName]#!"
  WARNING_I_AM_AT_WAR_WITH_FACTION_LEADER:1 "@warning_icon! #X Sei in guerra con [faction_invite_from.GetTitledFirstName]#!"
  WARNING_INVITE_CANNOT_JOIN:0 "@warning_icon! #X [faction_invite_from.GetTitledFirstName] non può unirsi alla fazione#!"
- 
- # FACTION JOIN/CREATE REASONS
+
+# FACTION JOIN/CREATE REASONS
  FACTION_REASON_AI_PERSONALITY:0 "\n[personality|E]: $RESULT|0+=$"
  FACTION_REASON_DIFFICULTY_HARD: "Difficoltà Difficile: $VALUE|0+=$"
  FACTION_REASON_DIFFICULTY_VERY_HARD: "Difficoltà Molto Difficile: $VALUE|0+=$" 
@@ -243,7 +244,7 @@
  FACTION_REASON_PREFER_POPULIST_FACTION:0 "Preferisce $populist_faction$: $VALUE|0+=$"
  FACTION_REASON_RULING_CASTE:0 "[GetCultureTradition('tradition_ruling_caste').GetName]: $VALUE|0+=$"
  FACTION_REASON_AT_WAR_WITH_TARGET:0 "Si sta già rivoltando contro il [liege|E]: $VALUE|0+=$"
-
+ 
  FACTION_REASON_DISLIKE_NON_NOMADS: "Vuole un [ruler|E] [GetGovernment( 'nomad_government' ).GetName]: $VALUE|0+=$"
 
 #liberty_faction_modifiers
@@ -308,7 +309,6 @@
  FACTION_REASON_NORMAN: "[heritage|E] dei Franca: $VALUE|0+=$"
  FACTION_REASON_BRYTHONIC: "[heritage|E] Brittonica: $VALUE|0+=$"
  FACTION_REASON_LOW_CROWN_AUTHORITY: "Bassa [crown_authority|E]: $VALUE|0+=$" 
- 
 
 #populist_faction
  FACTION_REASON_POWER_MINIMAL:0 "[faction_military_power|E] Debole: $FACTOR|0%+=$"
@@ -316,7 +316,7 @@
 
  FACTION_REASON_REGENT_CULTURAL_REASONS:0 "[culture|E] del [regent|E]: $VALUE|0+=$"
  FACTION_REASON_REGENT_FAITH_REASONS:0 "[faith|E] del [regent|E]: $VALUE|0+=$"
- 
+
 #struggle faction modifiers
  FACTION_FP3_STRUGGLE_FRICTION:0 "[struggle|E] in corso: $VALUE|0+=$"
  FACTION_FP3_STRUGGLE_FRICTION_CALIPHAL:0 "Posizione della [struggle|E] a proposito del [liege|E]: $VALUE|0+=$"
@@ -324,18 +324,16 @@
  FACTION_REASON_unity_significantly_more_likely_claimant_factions:0 "[house_unity_level|E] $antagonistic$: $VALUE|0+=$"
  FACTION_REASON_unity_less_likely_claimant_factions:0 "[house_unity_level|E] $friendly$: $VALUE|0+=$"
  FACTION_REASON_unity_significantly_less_likely_claimant_factions:0 "[house_unity_level|E] $harmonious$: $VALUE|0+=$"
- 
+
  #legitimacy
  FACTION_REASON_LOW_LEGITIMACY: "Bassa [legitimacy|E] del [liege|E]: $VALUE|0+=$"
- FACTION_REASON_HIGH_LEGITIMACY: "[legitimacy|E] del [liege|E]: $VALUE|0+=$"
-
  FACTION_REASON_HIGH_LEGITIMACY: "Alta [legitimacy|E] del [liege|E]: $VALUE|0+=$"
 
  FACTION_REASON_HOUSE_HOSTILITY: "[GetCultureTradition('tradition_ep3_indomitable_azatani').GetName]: $FACTOR|^%+=$"
- 
+
  # Duty Focus
  FACTION_REASON_duty_focus: "[focus|E] sul Dovere del [liege|E]: $VALUE|0+=$"
- 
+
  # Court Position Task
  FACTION_REASON_court_position_task: "[court_position_task|E] del [liege|E]: $VALUE|0+=$"
  
@@ -395,5 +393,4 @@
  FACTION_REASON_CLAIMANT_PRIMARY_HEIR: "Il [claimant|E] è il mio [heir|E]: $VALUE|+0=$"
  FACTION_REASON_ADMINISTRATIVE: "[vassal|E] [administrative|E]: $VALUE|+0=$"
  FACTION_REASON_NOMADIC: "[GetGovernment( 'nomad_government' ).GetName]: $VALUE|+0=$"
-
- 
+ FACTION_REASON_DETRACTOR: "[coronation_detractor|E]: $VALUE|+0=$"

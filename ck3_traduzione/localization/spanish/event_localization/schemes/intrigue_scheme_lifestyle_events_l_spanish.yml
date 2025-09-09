@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  intrigue_scheme_lifestyle.1001.t:0 "Lealtà e Disciplina"
  intrigue_scheme_lifestyle.1001.desc:0 "Sapendo come i soldati si comportano gli uni con gli altri e considerando come si diffondono i pettegolezzi, mi è venuta un'idea.\n\nSe alcuni dei miei soldati si infiltrassero nell'esercito di [target.GetTitledFirstName], potrebbero offrire una visione diversa dei suoi piani."
  intrigue_scheme_lifestyle.1001.a:0 "È tempo che [target.GetFirstNameNoTooltip] trovi nuove reclute."

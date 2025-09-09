@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # Securing the High Kingdom of the North Sea
  fp1_major_decisions.0001.t:0 "L'Alt[founder.Custom('DE_END_PRO_S_N')] [founder.Custom('GetQueenKing')] del Nord"
  fp1_major_decisions.0001.desc:0 "È stata a lungo la mia ambizione quella di riunire i grandi regni del Mare del Nord sotto un'unica corona. Per anni ho lavorato duramente, ottenendo il riconoscimento come grande sovrano di ciascuno dei miei regni, e oggi realizzo il mio sogno.\n\nDopo aver ottenuto giuramenti di fedeltà dai principali vassalli, Sassoni, Norvegesi e Danesi mi hanno riconosciuto come Alt[founder.Custom('DE_END_PRO_S_N')] [founder.Custom('GetQueenKing')], il signore indiscusso del Mare del Nord.\n\nForse i miei discendenti continueranno a governare i regni come uno solo. Forse non lo faranno. Per fortuna, non ha più importanza, dal momento che chiunque indossi queste corone dovrà inchinarsi ai [founder.GetHouse.GetBaseNameNoTooltip] [founder.GetTitleAsNameNoTooltip]!"
@@ -77,7 +77,7 @@
  fp1_major_decisions.1002.d:0 "Che mare insolente! Passami quella frusta!"
  fp1_major_decisions.1002.d.tt:0 "Sferzi l'acqua finché non si sottomette"
  fp1_major_decisions.1002.e:0 "Forse c'è qualcosa in più per me da padroneggiare oltre che da governare..."
- 
+
  # The True King of Norway
  fp1_major_decisions.1011.t:0 "Un Re per la $k_norway$"
  fp1_major_decisions.1011.desc.intro:0 "Molti anni fa, ho fatto il voto di non tagliarmi mai i capelli, non prima di aver ottenuto l'alto titolo di Re di $k_norway$."
@@ -89,4 +89,3 @@
  fp1_major_decisions.1011.c:0 "I miei capelli rimangono; sono il segno di tutte le lotte che ho vissuto."
  fp1_major_decisions.1011.c.tt:0 "Continuerai ad essere conosciuto come $nick_tanglehair$"
  fp1_major_decisions.1012.t:0 "[king_of_norway.GetTitledFirstNameNoTooltip] ha reclamato la $k_norway$ per primo"
- 

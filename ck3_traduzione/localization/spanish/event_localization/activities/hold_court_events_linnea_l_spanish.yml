@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  hold_court.5010.t:0 "[county.GetNameNoTierNoTooltip|U] Fuori controllo"
  hold_court.5010.desc_marshal:0 "[marshal.GetCouncilTitle] [marshal.GetTitledFirstName] si avvicina al trono.\n\n"
  hold_court.5010.desc:0 "A peasant [peasant.GetWomanMan] si avvicina timidamente al mio trono, stringendo il suo cappello.\n\n"

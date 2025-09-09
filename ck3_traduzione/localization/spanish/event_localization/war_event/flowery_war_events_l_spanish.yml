@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  designated_sacrifice_died.t:0 "Il sacrificato prescelto è morto"
  designated_sacrifice_died.desc:0 " il [dead_designated_sacrifice.GetShortUIName|U] è morto prima di essere sacrificato a [ROOT.Char.GetFaith.HighGodName]. il mio [ROOT.Char.GetFaith.AltPriestTermPlural] e il popolo non sono molto felici."

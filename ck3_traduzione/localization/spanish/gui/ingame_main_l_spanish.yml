@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  MY_REALM_BUTTON:0 "#T Regno#!"
  SCHEMES_BUTTON:0 "#T Complotti#!"
  MILITARY_BUTTON:0 "#T Militare#!"
@@ -238,7 +238,7 @@
  PLAYER_CHANGED_CHARACTER_TITLE_JOIN:0 "Nuovo Giocatore"
  PLAYER_CHANGED_CHARACTER_TEXT_JOIN:1 "Il Giocatore $NAME$ ha iniziato a giocare come [LEFT_CHARACTER.GetName]"
  DE_JURE_HIERARCHY:0 "Gerarchia [de_jure|E]"
- 
+
  TT_AWAY_FROM_CAPITAL_WIDGET:1 "#T Lontano da [Character.Custom('GetRealmOrDomicile')|U]#!\nAttualmente ti trovi lontano da [Character.Custom('GetRealmOrDomicileConcept')] a [Character.GetCapitalLocation.GetName], [Concept('traveling','in viaggio')|E] attraverso [Character.GetCurrentLocation.GetName], \n\n#I Clicca per vedere il pianificatore di [travel|E]#!"
  TT_TRAVELING_WITH_DOMICILE_WIDGET:1 "#T In viaggio con [Character.Custom('GetRealmOrDomicile')|U]#!\nAl momento stai viaggiando attraverso [Character.GetCapitalLocation.GetName] con il tuo [Character.Custom('GetRealmOrDomicileConcept')]\n\n#I Clicca per vedere il pianificatore di [travel|E]#!"
  ACTIVITY_VIEW_TRAVEL:0 "Osserva il Viaggio"

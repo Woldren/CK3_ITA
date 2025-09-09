@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  select_council_task_header:1 "Richiesta Posizione del Consiglio"
  COUNCIL_TASK_INTERACTION_NO_SELECTED_TASK:0 "@warning_icon! #X Non è stato selezionato nessun compito#!"
  COUNCIL_TASK_INTERACTION_AUTO_FILLED:0 "@warning_icon! #X [ACTIVE_COUNCIL_TASK.GetPositionName] viene riempito automaticamente#!"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  GAME_RULES:0 "Regole di Gioco"
  GAME_RULES_HEADER:0 "Regole di Gioco"
  GAME_RULE_CATEGORIES:0 "Filtri delle Regole di Gioco"
@@ -24,7 +24,7 @@
  ACHIEVEMENT_FILTER_UNLOCKED_TOOLTIP:0 "Filtra l'elenco degli Achievements per visualizzare quelli sbloccati."
  ACHIEVEMENT_FILTER_LOCKED_TOOLTIP:0 "Filtra la lista degli Achievements per mostrare quelli bloccati."
  ACHIEVEMENT_FILTER_POSSIBLE_TOOLTIP:0 "Filtra l'elenco degli Achievements per mostrare quelli possibili nella partita corrente"
-
+ 
  ACHIEVEMENTS_DISABLED_SAVEGAME:1 "@warning_icon! #X Achievements non disponibili#!\nGli Achievements sono disabilitati per questo salvataggio"
  ACHIEVEMENTS_WILL_BE_DISABLED_SWITCH_CHARACTER:1 "@warning_icon! #X Passare a un altro personaggio o alla modalità osservatore disabilita gli achievements.#!"
  ACHIEVEMENTS_WILL_BE_DISABLED_OBSERVER_MODE:1 "@warning_icon! #X Giocare in modalità osservatore disabilita gli achievements.#!"
@@ -52,7 +52,7 @@
  game_rule_category_none:0 "Tutte"
 
  GAME_RULES_PRESET_DIFFICULTY:0 "Difficoltà: [GameRuleSetting.GetName]"
-
+ 
  ACHIEVEMENT_FILTER_BUTTON_ALL:0 "Tutti"
  ACHIEVEMENT_FILTER_BUTTON_UNLOCKED:0 "Sbloccati"
  ACHIEVEMENT_FILTER_BUTTON_LOCKED:0 "Bloccati"
@@ -83,7 +83,7 @@
  setting_very_hard_difficulty_desc: "AI rulers will receive significant bonuses, such as less stress and more stable realms. @warning_icon! #X This will make AI realms extremely stable and rich, which will make the game less balanced.#!"
  setting_normal_difficulty:0 "Normale"
  setting_normal_difficulty_desc:0 "Si gioca in condizioni di parità, senza bonus significativi."
-
+ 
  rule_culture_conversion_speed:0 "Velocità di Conversione Culturale"
  setting_default_culture_conversion_speed:0 "Predefinita"
  setting_default_culture_conversion_speed_desc:0 "La velocità di conversione non cambia."
@@ -95,12 +95,12 @@
  setting_significantly_slower_culture_conversion_speed_desc:0 "La velocità si riduce significativamente, causando la conversione circa quattro volte più lenta del normale."
  setting_slower_culture_conversion_speed:1 "#high Più Lenta#!"
  setting_slower_culture_conversion_speed_desc:0 "Velocità ridotta, la conversione richiede circa il doppio del tempo."
-
+ 
  GAME_RULE_FASTER_REASON:1 "Regola di gioco: #P x#![SCOPE.ScriptValue('faster_game_rule_value')|P0]"
  GAME_RULE_SIGNIFICANTLY_FASTER_REASON:1 "Regola di gioco: #P x#![SCOPE.ScriptValue('significantly_faster_game_rule_value')|P0]"
  GAME_RULE_SLOWER_REASON:1 "Regola di gioco: #N x#![SCOPE.ScriptValue('slower_game_rule_value')|N]"
  GAME_RULE_SIGNIFICANTLY_SLOWER_REASON:1 "Regola di gioco: #N x#![SCOPE.ScriptValue('significantly_slower_game_rule_value')|N]"
-
+ 
  rule_faith_conversion_speed:0 "Velocità di conversione religiosa"
  setting_default_faith_conversion_speed:0 "Predefinita"
  setting_default_faith_conversion_speed_desc:0 "$setting_default_culture_conversion_speed_desc$"
@@ -112,7 +112,7 @@
  setting_significantly_slower_faith_conversion_speed_desc:0 "$setting_significantly_slower_culture_conversion_speed_desc$"
  setting_slower_faith_conversion_speed:1 "#high Più lenta#!"
  setting_slower_faith_conversion_speed_desc:0 "$setting_slower_culture_conversion_speed_desc$"
-
+ 
  rule_gender_equality:0 "Parità dei Sessi"
  setting_default_gender_equality:0 "Predefinita"
  setting_default_gender_equality_desc:0 "Le regole di genere sono determinate dalle leggi di genere e dalle dottrine delle Fedi."
@@ -138,7 +138,7 @@
  setting_default_same_sex_relations_desc:0 "L'opinione sui rapporti tra personaggi dello stesso sesso dipende dalla dottrina sulle $doctrine_homosexuality_name$ delle diverse Fedi."
  setting_accepted_same_sex_relations:1 "#high Approvati#!"
  setting_accepted_same_sex_relations_desc:0 "I rapporti tra personaggi dello stesso sesso sono totalmente approvati da tutte le Fedi."
- 
+
  rule_same_sex_marriage:0 "Matrimoni tra Personaggi dello Stesso Sesso"
  setting_default_same_sex_marriage:0 "Predefiniti"
  setting_default_same_sex_marriage_desc:0 "Il Matrimonio tra personaggi dello stesso sesso non è disponibile."
@@ -218,7 +218,7 @@
  setting_random_ruler_placement_on_desc:0 "I sovrani sono posizionati in modo casuale sulla mappa. I regni sono in gran parte gli stessi, ma i titoli sono detenuti da sovrani diversi."
  setting_random_ruler_placement_on_conversion:1 "[game_rule_unique_i|e] #high Abilitato (Conversione)#!"
  setting_random_ruler_placement_on_conversion_desc:1 "I sovrani sono posizionati a caso sulla mappa e si convertono alla Fede del detentore storico del regno in cui si trovano."
-
+ 
  rule_diplomatic_range:0 "Portata diplomatica"
  setting_default_diplomatic_range:0 "Predefinita"
  setting_default_diplomatic_range_desc:0 "La portata diplomatica non cambia."
@@ -226,13 +226,13 @@
  setting_restricted_diplomatic_range_desc:0 "La portata diplomatica è ulteriormente ridotta, il che rende le interazioni non locali molto più rare."
  setting_unrestricted_diplomatic_range:1 "[game_rule_unique_i|e] #high Senza Limiti#!"
  setting_unrestricted_diplomatic_range_desc:0 "La portata diplomatica è disattivata, permettendo a chiunque di interagire con chiunque altro sulla mappa."
-
+ 
  rule_minor_disease_frequency:0 "Malattie minori"
  setting_default_minor_disease_frequency:0 "Predefinite"
  setting_default_minor_disease_frequency_desc:0 "Le malattie minori appariranno come al solito."
  setting_fewer_minor_disease_frequency:1 "#high Minime#!"
  setting_fewer_minor_disease_frequency_desc:0 "Le malattie minori appariranno meno spesso."
-
+ 
  rule_conquerors_frequency: "[conqueror_i] Conquistatori: Frequenza"
  setting_default_conquerors_frequency: "Predefinita"
  setting_default_conquerors_frequency_desc: "Ogni #V 5#! anni c'è una piccola probabilità che i [rulers|E] [Concept( 'independent', 'indipendenti' )|E] con determinati [traits|E] e [personalities|E] diventino [conqueror_i] [ai_conquerors_personality|E]."
@@ -272,7 +272,7 @@
  setting_primary_conquerors_inheritance_desc: "La personalità [conqueror_i] [ai_conqueror_personality|E] e i bonus verranno ereditati solo dall'[primary_heir|E] alla [succession|E]."
  setting_no_conquerors_inheritance: "#high Non Ereditata#!"
  setting_no_conquerors_inheritance_desc: "La personalità [conqueror_i] [ai_conqueror_personality|E] non verrà ereditata."
-
+ 
  rule_de_jure_requirement:0 "Requisito De Jure"
  setting_on_de_jure_requirement:1 "#high Abilitato#!"
  setting_on_de_jure_requirement_desc:0 "I titoli con terre De Jure verranno distrutti se un personaggio non possiede terre De Jure di quel titolo all'interno del proprio regno."
@@ -292,7 +292,7 @@
  game_rule.4.desc:0 "Non posso negare che il mio amato impero, l'[falling_empire.GetBaseName], sia caduto, davvero caduto...\n\nA malapena controllo qualcuno dei suoi territori tradizionali. Una mera ombra di se stesso, il mio impero sta lentamente, ma sicuramente, scomparendo nell'oscurità."
  game_rule.4.a:0 "Ho solo bisogno di più tempo!"
  game_rule.4.b:0 "Addio, dolce impero..."
-
+ 
  rule_multiplayer_murder_schemes:1 "Multigiocatore: Complotti d'Omicidio"
  setting_default_multiplayer_murder_schemes:0 "Predefinito"
  setting_default_multiplayer_murder_schemes_desc:0 "Si possono ordire complotti ostili contro i giocatori e le loro famiglie."
@@ -300,7 +300,7 @@
  setting_no_players_multiplayer_murder_schemes_desc:0 "I giocatori non possono ordire complotti ostili contro altri giocatori."
  setting_no_player_families_multiplayer_murder_schemes:1 "#high Tranne Giocatori e Famiglia#!"
  setting_no_player_families_multiplayer_murder_schemes_desc:0 "I giocatori non possono ordire complotti ostili contro altri giocatori o la loro famiglia ristretta."
- 
+
  rule_realm_stability:0 "Stabilità del Regno"
  setting_default_realm_stability:0 "Predefinita"
  setting_default_realm_stability_desc:0 "Si verrà a creare una quantità predefinita di [factions|E]."
@@ -310,7 +310,6 @@
  setting_higher_realm_stability_desc:0 "Si verrà a creare un minor numero di [factions|E]."
  setting_extreme_realm_stability:0 "#high Estrema#!"
  setting_extreme_realm_stability_desc:0 "Si verrà a creare un numero estremamente basso di [factions|E]."
- 
  setting_default_realm_stability_ai_only_desc:1 "Si formerà la quantità predefinita di [factions|E]."
  setting_lesser_realm_stability_ai_only: "#high Solo IA: Minore#!"
  setting_lesser_realm_stability_ai_only_desc: "Si formeranno un numero maggiore di [factions|E], ma solo per i governanti controllati dall’IA."
@@ -336,19 +335,19 @@
  setting_on_custom_kingdoms_desc:0 "È consentita la creazione di regni e imperi personalizzati non storici."
  setting_off_custom_kingdoms:1 "#high Disabilitato#!"
  setting_off_custom_kingdoms_desc:0 "Non è consentita la creazione di regni e imperi personalizzati non storici."
-
+ 
  rule_casus_belli_costs:0 "Costo dei Casus Belli"
  setting_default_casus_belli_costs:0 "Predefinito"
  setting_default_casus_belli_costs_desc:0 "Dichiarare un Casus Belli costa risorse, come prestigio o pietà."
  setting_no_cost_casus_belli_costs:1 "#high Senza Costo#!"
  setting_no_cost_casus_belli_costs_desc:0 "Si possono usare i Casus Belli liberamente, senza costi associati."
-
+ 
  rule_end_date:0 "Data di Fine"
  setting_1453_end_date:0 "1453"
  setting_1453_end_date_desc:0 "Il gioco si concluderà nel 1453."
  setting_no_end_date_end_date:1 "#high Nessuna Data di Fine#!"
  setting_no_end_date_end_date_desc:0 "Il gioco non si concluderà in una data specifica."
-
+ 
  rule_generate_families:0 "Genera Famiglie"
  setting_on_generate_families:0 "Abilitato"
  setting_on_generate_families_desc:0 "Verranno generati un coniuge e fino a tre figli per la maggior parte dei personaggi storici con terre e senza famiglia. Questo riduce il rischio di [game_over|E] prima del tempo."
@@ -387,7 +386,7 @@
  setting_harm_target_player_only_desc:0 "$setting_random_harm_boilerplate$ players only."
  setting_harm_target_ai_only:0 "Solo l'IA"
  setting_harm_target_ai_only_desc:0 "$setting_random_harm_boilerplate$ the AI only."
-
+ 
  rule_name_of_byzantium: "Nome di Byzantium"
  setting_default_name_of_byzantium: "$e_byzantium$"
  setting_default_name_of_byzantium_desc: "Il nome di $e_byzantium$ rimarrà inalterato."
@@ -437,7 +436,7 @@
  setting_launch_random_desc:0 "L'IA cercherà di iniziare la Migrazione Ungherese in un momento qualsiasi tra i 5 anni dall'inizio del gioco e il 910."
  setting_launch_off:1 "#high Giocatore-Soltanto#!"
  setting_launch_off_desc:0 "L'IA non cercherà di iniziare la Migrazione Ungherese."
-
+ 
  rule_matrilineal_marriages:0 "Matrimoni Matrilineari"
  setting_default_matrilineal_marriages:0 "Predefiniti"
  setting_default_matrilineal_marriages_desc:0 "Personaggi IA: matrimoni [Concept( 'matrilineal', 'matrilineari' )|E] se fanno parte della fam. ristretta del giocatore, di una [dynasty|E] [dynasty_prestige_level_4|L], di un reame con legge [GetLaw('equal_law').GetName], o se [rulers|E] potenti. Matrilineare di base se dott. [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]."
@@ -461,7 +460,7 @@
  setting_fp1_scandi_adventurers_apocalyptic_desc:1 "Gli avventurieri scandinavi cercheranno di prendere di mira la Russia e il Mare del Nord ogni anno; ai personaggi dell'IA non è richiesto avere tratti specifici per lanciare [varangian_adventures|E]."
  setting_fp1_scandi_adventurers_off:0 "Disabilitato"
  setting_fp1_scandi_adventurers_off_desc:0 "Gli avventurieri Scandinavi non cercheranno mai di prendere di mira la Russia o il Mare del Nord."
- 
+
  rule_hybrid_culture_ai_frequency:0 "Frequenza di Culture Ibride"
  setting_default_hybrid_culture_ai_frequency:0 "Predefinita"
  setting_default_hybrid_culture_ai_frequency_desc:0 "Apparirà un numero predefinito di [hybrid_cultures|E]."
@@ -497,7 +496,7 @@
  setting_no_hybrid_and_divergence_cooldowns_desc:0 "Non c'è alcun tempo d'attesa perché una [culture|E] possa diventare una [divergent_culture|E] o una [hybrid_culture|E]."
  setting_faster_hybrid_and_divergence_cooldowns:0 "#high Più Veloce#!"
  setting_faster_hybrid_and_divergence_cooldowns_desc:0 "Le [cultures|E] possono diventare [divergent_cultures|E] solo dopo essere esistite per #V 50#! anni e [hybrid_cultures|E] dopo #V 25#! anni."
- 
+
  rule_dissolution_umayyad:0 "La Caduta di Al-Andalus"
  setting_dissolution_unconstrained:1 "Nessuna Limitazione"
  setting_dissolution_unconstrained_desc:0 "La [dissolution_faction|E] può colpire il Regno di Al-Andalus dall'inizio del gioco"
@@ -505,7 +504,7 @@
  setting_dissolution_after_caliph_death_desc:0 "La [dissolution_faction|E] può colpire il Regno di Al-Andalus solo dopo la morte del Sultano Muhammad $Abd-al-Rahman$"
  setting_dissolution_historical_date:0 "#high Tempistica Storica#!"
  setting_dissolution_historical_date_desc:0 "La [dissolution_faction|E] viene attivata solo dopo l'anno 1020 per il Regno di Al-Andalus"
- 
+
  rule_dlc_fp3_seljuk_invasion:0 "Invasione Selgiuchide"
  setting_default_seljuk_invasion:0 "Predefinita"
  setting_default_seljuk_invasion_desc:0 "I Selgiuchidi invaderanno dopo l'anno 945."
@@ -513,7 +512,7 @@
  setting_never_seljuk_invasion_desc:0 "I Selgiuchidi non invaderanno."
  setting_random_seljuk_invasion:0 "#high Casuale#!"
  setting_random_seljuk_invasion_desc:0 "I Selgiuchidi invaderanno in una data casuale."
- 
+
  rule_black_death_occurrence: "Circostanze della Morte Nera"
  setting_bd_occurrence_organic: "#high Organica#!"
  setting_bd_occurrence_organic_desc: "La Morte Nera si verifica in uno scenario storicamente plausibile che reagisce allo stato del gioco."
@@ -545,7 +544,6 @@
  setting_epidemic_frequency_very_rare_desc: "Le epidemie appariranno molto raramente e si diffonderanno con una frequenza molto minore."
  setting_epidemic_frequency_disabled: "#high Disabilitato#!"
  setting_epidemic_frequency_disabled_desc: "Le Epidemie non appariranno."
-
 
  rule_legend_spread_chance: "Probabilità di Diffusione della Leggenda"
  setting_legend_spread_chance_normal: "Normale"
@@ -741,26 +739,27 @@
  game_rule.1133.desc.opposing_army: "$game_rule.1103.desc.opposing_army$"
  game_rule.1134.desc.opposing_army: "$game_rule.1104.desc.opposing_army$"
 
+
  game_rule.1101.desc.stamford_bridge: "a Stamford Bridge, un angusto passaggio in pietra largo a malapena per una persona,"
  game_rule.1101.desc.hastings: "su una collina vicino alla città di Hastings,"
  game_rule.1101.desc.dover: "in cima alle Bianche Scogliere di Dover stesse,"
  game_rule.1101.desc.isle_of_wight: "lungo le rive del fiume Medina, nella isolata Isola di Wight,"
  game_rule.1101.desc.forest_of_dean: "nei boschi cupi della Foresta di Dean,"
  game_rule.1101.desc.london: "proprio fuori dalle mura di Londra,"
-# And by Saxon, we mean Wessex: the only Saxons that count.
-## Everyone else sucks.
-### Someone had to say it & I'm not sorry that it was me.
+ # And by Saxon, we mean Wessex: the only Saxons that count.
+ ## Everyone else sucks.
+ ### Someone had to say it & I'm not sorry that it was me.
  game_rule.1101.desc.winchester: "presso l’antica capitale sassone, Winchester,"
  game_rule.1101.desc.york: "vicino a York, la città-fortezza romana di Eboracum,"
  game_rule.1101.desc.lincoln: "presso l’antica città di Lincoln,"
-# Non-zero chance that there was _some_ kind of teaching tradition here by 1066, but it definitely wasn't anything like the university it came to be.
+ # Non-zero chance that there was _some_ kind of teaching tradition here by 1066, but it definitely wasn't anything like the university it came to be.
  game_rule.1101.desc.oxford: "vicino all’ordinaria cittadina di Oxford,"
  game_rule.1101.desc.cirencester: "attorno alle mura della vecchia Cirencester,"
  game_rule.1101.desc.guildford: "sul crinale dell’Hog’s Back fuori Guildford,"
  game_rule.1101.desc.lindisfarne: "sulla costa di fronte al monastero insulare di Lindisfarne, uno dei luoghi più sacri di Britannia,"
  game_rule.1101.desc.lands_end: "ai piedi di Land’s End, quasi affacciati sull’immensità dell’Atlantico,"
  game_rule.1101.desc.stonehenge: "per l’ampia Salisbury Plain, sotto l’ombra di Stonehenge,"
-# Destroyed in ~1014, rebuilt post-Conquest.
+ # Destroyed in ~1014, rebuilt post-Conquest.
  game_rule.1101.desc.southwark: "vicino alle rovine del London Bridge e del guado da Southwark,"
  game_rule.1101.desc.scotland: "sul terreno ostile della vicina Scozia,"
  game_rule.1101.desc.wales: "tra colline e valli del Galles,"
@@ -803,77 +802,77 @@
  game_rule.1101.desc.outro.present: "Il pensiero svanisce mentre il mondo si fa un turbine di fendenti e colpi; i miei uomini di casa stretti attorno a me mentre travolgiamo l’armata di [loser.GetTitledFirstName]. Sotto la mia lama, il nemico si dà alla fuga."
  game_rule.1101.desc.outro.absent: "Finalmente, le linee nemiche si spezzano e le forze di [loser.GetHerHis] routano: questo giorno appartiene a [winner.GetTitledFirstNameNicknamedNoTooltip]!"
  game_rule.1101.a: "L’Inghilterra non vedrà più un dominio vichingo!"
-
+ 
  game_rule.1102.desc.outro.alive: "Alla fine, però, è tutto vano. Le mie forze cedono, il nemico dilaga nella breccia, e con la loro distruzione le mie ambizioni si frantumano."
  game_rule.1102.desc.outro.dead: "Il dolore mi sale al petto. No, no, #BER no#!… chi… dove… il mondo barcolla mentre crollo a terra, il sangue che fiorisce dalla ferita. Lentamente, la morte mi prende."
  game_rule.1102.a: "Com’è potuto accadere!?"
  game_rule.1102.b: "Io #DIE1 sono…#! #DIE2 perdut…#!"
-
+ 
  game_rule.1103.desc.outro.present: "$game_rule.1101.desc.outro.present$"
  game_rule.1103.desc.outro.absent: "$game_rule.1101.desc.outro.dead$"
  game_rule.1103.a: "Vittoria su quel pretendente bastardo!"
-
+ 
  game_rule.1104.desc.outro.alive: "$game_rule.1102.desc.outro.alive$"
  game_rule.1104.desc.outro.dead: "$game_rule.1102.desc.outro.dead$"
  game_rule.1104.a: "Ma — il Confessore mi aveva promesso l’Inghilterra!"
  game_rule.1104.b: "Possa il tuo regno portare… #DIE1 a te…#! #DIE2 miseria…#!"
-
+ 
  game_rule.1111.desc.outro.present: "$game_rule.1101.desc.outro.present$"
  game_rule.1111.desc.outro.absent: "$game_rule.1101.desc.outro.absent$"
  game_rule.1111.a: "Un’altra vittoria per le saghe!"
-
+ 
  game_rule.1112.desc.outro.alive: "$game_rule.1102.desc.outro.alive$"
  game_rule.1112.desc.outro.dead: "$game_rule.1102.desc.outro.dead$"
  game_rule.1112.a: "No, no, no, NO, #BER NO#!"
  game_rule.1112.b: "Maled… #DIE1 te…#! #DIE2 Tostig…#!"
-
+ 
  game_rule.1113.desc.outro.present: "$game_rule.1101.desc.outro.present$"
  game_rule.1113.desc.outro.absent: "$game_rule.1101.desc.outro.dead$"
  game_rule.1113.a: "[loser.GetSheHe|U] non era un vero [loser.Custom('GetDaughterSon')] del Nord!"
-
+ 
  game_rule.1114.desc.outro.alive: "$game_rule.1102.desc.outro.alive$"
  game_rule.1114.desc.outro.dead: "$game_rule.1102.desc.outro.dead$"
  game_rule.1114.a: "[winner.GetSheHe|U] non ha nemmeno un diritto, maledizione!"
  game_rule.1114.b: "Malediz… #DIE1 a te#!… #DIE2 Harald…#!"
-
+ 
  game_rule.1121.desc.outro.present: "$game_rule.1101.desc.outro.present$"
  game_rule.1121.desc.outro.absent: "$game_rule.1101.desc.outro.absent$"
  game_rule.1121.a: "Fatti da parte, usurpatore."
-
+ 
  game_rule.1122.desc.outro.alive: "$game_rule.1102.desc.outro.alive$"
  game_rule.1122.desc.outro.dead: "Qualcosa sibila dal cielo, diretto, inesorabile, dritto al mio occhio."
  game_rule.1122.a: "Dannato quel ladro bastardo!"
  game_rule.1122.b: "Frecce! Scudi su, salva in arrivo! Salva in—"
-
+ 
  game_rule.1123.desc.outro.present: "$game_rule.1101.desc.outro.present$"
  game_rule.1123.desc.outro.absent: "$game_rule.1101.desc.outro.dead$"
  game_rule.1123.a: "Tornate al gelo, cani del Nord!"
-
+ 
  game_rule.1124.desc.outro.alive: "$game_rule.1102.desc.outro.alive$"
  game_rule.1124.desc.outro.dead: "$game_rule.1102.desc.outro.dead$"
  game_rule.1124.a: "I miei sogni sono cenere…"
  game_rule.1124.b: "Ah, la più grande #DIE1 impresa#! #DIE2 mi attende…#!"
-
+ 
  game_rule.1131.desc.conquest_finished.die_battlefield: "$game_rule.1102.desc.outro.dead$"
  game_rule.1131.desc.conquest_finished.die_home: "Quando mi giunge la notizia della vittoria, esulto! Il cuore mi balza in petto, si contorce, #EMP spasima#!, #BER urla#!\n\nChe cosa… mi sta… accadendo… non… #DIE1 respiro… non…#!"
  game_rule.1131.a: "$game_rule.1101.a$"
  game_rule.1131.b: "Ero… #DIE1 così…#! #DIE2 vicino…#!"
-
+ 
  game_rule.1132.desc.outro.alive: "$game_rule.1102.desc.outro.alive$"
  game_rule.1132.desc.outro.dead: "$game_rule.1102.desc.outro.dead$"
  game_rule.1132.a: "$game_rule.1102.a$"
  game_rule.1132.b: "$game_rule.1102.b$"
-
+ 
  game_rule.1133.desc.conquest_finished.die_battlefield: "$game_rule.1102.desc.outro.dead$"
  game_rule.1133.desc.conquest_finished.die_home: "$game_rule.1131.desc.conquest_finished.die_home$"
  game_rule.1133.a: "$game_rule.1103.a$"
  game_rule.1133.b: "$game_rule.1131.b$"
-
+ 
  game_rule.1134.desc.outro.alive: "$game_rule.1102.desc.outro.alive$"
  game_rule.1134.desc.outro.dead: "$game_rule.1102.desc.outro.dead$"
  game_rule.1134.a: "$game_rule.1104.a$"
  game_rule.1134.b: "$game_rule.1104.b$"
-
+ 
  game_rule.1141.t: "Il Witengamot elegge: [elect.GetFirstNameNoTooltip] of [elect.GetHouse.GetNameNoTooltip]"
  game_rule.1141.intro.battlefield: "[winner.GetTitledFirstName] è caduto sul campo, ucciso combattendo il presunto usurpatore [loser.GetTitledFirstNameNicknamed].\n\n"
  game_rule.1141.intro.home: "[winner.GetTitledFirstName] è morto all’improvviso, stroncato da un infarto alla notizia della sconfitta di [loser.GetTitledFirstNameNicknamedPossessive].\n\n"
@@ -886,7 +885,7 @@
  game_rule.1141.a.edgar: "Il mio diritto di nascita è ristabilito!"
  game_rule.1141.a.svend: "L’ho sempre saputo che sarebbe finita così."
  game_rule.1141.a.aelfwine: "Non ho mai voluto che accadesse!"
-                                    
+ # Geddit geddit GEDDIT d'you geddit
  game_rule.1141.a.cadoc: "Fra cinquecento anni, la gente ricorderà ancora il mio nome!" 
 
  game_rule.1142.t: "$game_rule.1141.t$"
@@ -939,7 +938,7 @@
  setting_advantage_damage_effect_7_desc: "Ogni punto di [advantage|E] che hai sul tuo avversario durante le [battles|E] incrementerà il [damage|E] del #V 7%#!"
  setting_advantage_damage_effect_10: "10"
  setting_advantage_damage_effect_10_desc: "Ogni punto di [advantage|E] che hai sul tuo avversario durante le [battles|E] incrementerà il [damage|E] del #V 10%#!"
- 
+
  rule_custom_duchies: "Ducati Personalizzati"
  setting_on_custom_duchies: "Abilitati"
  setting_on_custom_duchies_player: "Solo Giocatore"
@@ -947,25 +946,25 @@
  setting_on_custom_duchies_desc: "È consentita la creazione di Ducati personalizzati non storici e l’integrazione di Contee al loro interno."
  setting_on_custom_duchies_player_desc: "È consentita ai soli giocatori la creazione di Ducati personalizzati non storici e l’integrazione di Contee al loro interno."
  setting_off_custom_duchies_desc: "Non è consentita la creazione di Ducati personalizzati non storici né l’integrazione di Contee al loro interno."
-
+ 
  rule_situation_the_great_steppe: "[the_great_steppe|E]"
  setting_situation_the_great_steppe_toggle_on: "Abilitata"
  setting_situation_the_great_steppe_toggle_on_desc: "I [GetGovernment( 'nomad_government' ).GetName] della Grande Steppa saranno coinvolti in una [situation|E] con propri [steppe_seasons|E] e nella lotta per divenire il [gurkhan|E]."
  setting_situation_the_great_steppe_toggle_off: "#high Disabilitata#!"
  setting_situation_the_great_steppe_toggle_off_desc: "La [situation|E] di [the_great_steppe|E] non è abilitata all’inizio della partita, per cui la Steppa si comporta come qualunque altra parte della mappa."
-
+ 
  rule_sami_nomad_region: "Regione Nomade Extra: Sápmi e Carelia"
  setting_sami_nomad_region_off: "Predefinito"
  setting_sami_nomad_region_off_desc: "La regione di Sápmi è invariata."
  setting_sami_nomad_region_on: "#high Nomade#!"
  setting_sami_nomad_region_on_desc: "La regione di Sápmi usa meccaniche Nomadi, pensate per i Nomadi delle Steppe. Questa regola non avrà alcun effetto a meno che tu non possieda l’espansione #V $DLC020_CE2$#!."
-
+ 
  rule_tibet_nomad_region: "Regione Nomade Extra: Tibet"
  setting_tibet_nomad_region_off: "Predefinito"
  setting_tibet_nomad_region_off_desc: "La regione tibetana è invariata."
  setting_tibet_nomad_region_on: "#high Nomade#!"
  setting_tibet_nomad_region_on_desc: "La regione tibetana usa meccaniche Nomadi, pensate per i Nomadi delle Steppe. Questa regola non avrà alcun effetto a meno che tu non possieda l’espansione #V $DLC020_CE2$#!."
-
+ 
  situation_game_rule_extra_nomads_tibet: "Changthang"
  situation_game_rule_extra_nomads_tibet_desc: "[SITUATION.GetType.GetDesc]"
  situation_type_game_rule_extra_nomads_tibet: "Changthang"
@@ -1024,7 +1023,7 @@
  setting_arabia_nomad_region_off_desc: "La regione araba è invariata."
  setting_arabia_nomad_region_on: "#high Nomade#!"
  setting_arabia_nomad_region_on_desc: "La regione araba usa meccaniche Nomadi, pensate per i Nomadi delle Steppe. Questa regola non avrà alcun effetto a meno che tu non possieda l’espansione #V $DLC020_CE2$#!."
-
+ 
  situation_game_rule_extra_nomads_arabs: "Al-Bādiya"
  situation_game_rule_extra_nomads_arabs_desc: "[SITUATION.GetType.GetDesc]"
  situation_type_game_rule_extra_nomads_arabs: "Al-Bādiya"
@@ -1050,13 +1049,13 @@
  game_rule_extra_nomads_arabs_situation_steppe_warm_nights_season_situation_phase: "$situation_steppe_warm_nights_season$"
  game_rule_extra_nomads_arabs_situation_steppe_sky_blessing_season_situation_phase: "$situation_steppe_sky_blessing_season$"
  game_rule_extra_nomads_arabs_situation_steppe_havsarsan_zud_season_situation_phase: "$situation_steppe_havsarsan_zud_season$"
-
+ 
  rule_sahel_nomad_region: "Regione Nomade Extra: Sahel"
  setting_sahel_nomad_region_off: "Predefinito"
  setting_sahel_nomad_region_off_desc: "La regione del Sahel è invariata."
  setting_sahel_nomad_region_on: "#high Nomade#!"
  setting_sahel_nomad_region_on_desc: "La regione del Sahel usa meccaniche Nomadi, pensate per i Nomadi delle Steppe. Questa regola non avrà alcun effetto a meno che tu non possieda l’espansione #V $DLC020_CE2$#!."
-
+ 
  situation_game_rule_extra_nomads_sahel: "Tiniri"
  situation_game_rule_extra_nomads_sahel_desc: "[SITUATION.GetType.GetDesc]"
  situation_type_game_rule_extra_nomads_sahel: "Tiniri"
@@ -1083,13 +1082,13 @@
  game_rule_extra_nomads_sahel_situation_steppe_warm_nights_season_situation_phase: "$situation_steppe_warm_nights_season$"
  game_rule_extra_nomads_sahel_situation_steppe_sky_blessing_season_situation_phase: "$situation_steppe_sky_blessing_season$"
  game_rule_extra_nomads_sahel_situation_steppe_havsarsan_zud_season_situation_phase: "$situation_steppe_havsarsan_zud_season$"
-
+ 
  rule_horn_of_africa_nomad_region: "Regione Nomade Extra: Corno d’Africa"
  setting_horn_of_africa_nomad_region_off: "Predefinito"
  setting_horn_of_africa_nomad_region_off_desc: "La regione del Corno d’Africa è invariata."
  setting_horn_of_africa_nomad_region_on: "#high Nomade#!"
  setting_horn_of_africa_nomad_region_on_desc: "La regione del Corno d’Africa usa meccaniche Nomadi, pensate per i Nomadi delle Steppe. Questa regola non avrà alcun effetto a meno che tu non possieda l’espansione #V $DLC020_CE2$#!."
-
+ 
  situation_game_rule_extra_nomads_horn: "Bilād as-Sūmāl"
  situation_game_rule_extra_nomads_horn_desc: "[SITUATION.GetType.GetDesc]"
  situation_type_game_rule_extra_nomads_horn: "Bilād as-Sūmāl"
@@ -1115,5 +1114,13 @@
  game_rule_extra_nomads_horn_situation_steppe_warm_nights_season_situation_phase: "$situation_steppe_warm_nights_season$"
  game_rule_extra_nomads_horn_situation_steppe_sky_blessing_season_situation_phase: "$situation_steppe_sky_blessing_season$"
  game_rule_extra_nomads_horn_situation_steppe_havsarsan_zud_season_situation_phase: "$situation_steppe_havsarsan_zud_season$"
-
+ 
  _sub_region_ERROR_FLAG_INDEX: "un luogo al di fuori della [situation|E]"
+ 
+ rule_coronation_laws: "Coronation Laws"
+ setting_coronation_laws_on: "Default"
+ setting_coronation_laws_no_imperial_uncrowned: "#high Crowned Imperial Accession#!"
+ setting_coronation_laws_no_imperial_uncrowned_desc: "[kings|E] will not become [GetLaw('uncrowned').GetName] when they ascend to [emperor|E]-[title_tier|E]."
+ setting_coronation_laws_off: "#high No Coronation Laws#!"
+ setting_coronation_laws_on_desc: "The [GetLaw('uncrowned').GetName] [law|E] will damage [legitimacy|E] and [opinion|E] for [kings|E] and [emperors|E] until they hold a [coronation|E]."
+ setting_coronation_laws_off_desc: "High-[title_tier|E] [rulers|E] do not have the [GetLaw('uncrowned').GetName] [law|E], and are not required to hold [coronations|E]. AI will hold [coronations|E] less frequently. This makes the game easier."

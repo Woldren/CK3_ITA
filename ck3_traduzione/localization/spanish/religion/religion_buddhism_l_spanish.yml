@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  buddhism_religion:0 "Buddhismo"
  buddhism_religion_adj:0 "Buddhista"
  buddhism_religion_adherent:0 "Buddhista"
@@ -38,7 +38,7 @@
  buddhism_night_god_name_possessive:0 "$buddhism_knowledge_god_name_possessive$"
  buddhism_water_god_name:0 "$buddhism_wealth_god_name$"
  buddhism_water_god_name_possessive:0 "$buddhism_wealth_god_name_possessive$"
- 
+
  buddhism_devil_name:0 "Mara"
  buddhism_devil_name_possessive:0 "Mara"
  buddhism_evil_god_tanha:0 "Tanha"
@@ -71,28 +71,28 @@
  buddhism_death_god_name_possessive:0 "Yama"
  buddhism_witchgod_mara:0 "$buddhism_trickster_god_name$"
  buddhism_witchgod_mara_possessive:0 "$buddhism_trickster_god_name_possessive$"
- 
+
  #Ari
  ari:0 "Ari"
  ari_adj:0 "Ari"
  ari_adherent:0 "Ari"
  ari_adherent_plural:0 "Ari"
  ari_desc:0 "La fede Ari combina elementi dal Buddhismo tantrico, venerazione dell'anima e la tradizionale adorazione dei Nāga come per gli Induisti. I devoti Ari sono considerati Buddhisti, nonostante alcune loro pratiche siano percepite alquanto non ortodosse."
- 
+
  #Theravada
  theravada:0 "Theravada"
  theravada_adj:0 "Theravada"
  theravada_adherent:0 "Theravada"
  theravada_adherent_plural:0 "Theravada"
  theravada_desc:0 "Il cammino per l'illuminazione passa attraverso le proprie esperienze, riflessioni e ragionamenti. Gautama Buddha ha trovato il proprio sentiero al Nirvana, e l'unica via possibile per seguirlo è conoscere, imparare e studiare la propria esistenza."
- 
+
  #Mahayana
  mahayana:0 "Mahayana"
  mahayana_adj:0 "Mahayana"
  mahayana_adherent:0 "Mahayana"
  mahayana_adherent_plural:0 "Mahayana"
  mahayana_desc:0 "Liberarsi dal Samsara non è soltanto qualcosa d'individuale, ma una esperienza condivisa tra esseri senzienti. Raggiungere lo stato di Buddha è solo un passo sul lungo cammino di tutti gli esseri senzienti per giungere al Nirvana, è questo l'obbiettivo virtuoso del Samsara."
- 
+
  #Vajrayana
  vajrayana:0 "Vajrayana"
  vajrayana_adj:0 "Vajrayana"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  improve_city_province_decision:1 "$improve_city_province_decision_name$"
  improve_city_province_decision_name:0 "Espandi le Città"
  improve_city_province_decision_desc:1 "Paga per la costruzione di nuovi quartieri stravaganti nella tua città"
@@ -32,7 +32,7 @@
  fp2_struggle_secure_iberian_foothold_empire_dejure_effect_tt:0 "Ogni [kingdom|E] [de_jure|E] di [GetTitleByKey('e_spain').GetNameNoTier] che soddisfa le seguenti condizioni diventerà parte [de_jure|E] dell'[empire|E] di [THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier]"
 
  fp2_struggle_secure_iberian_foothold_ends_the_struggle_tt:0 "La [iberian_struggle|E] termina"
-  
+
  iberian_footholder_transfer_tt:0 "[THIS] [THIS.Title.GetName] [THIS.GetName]"
 
  fp2_other_decisions.1000.t:0 "$secure_iberian_foothold_decision_title$: Consolidamento [iberian_footholder.GetPrimaryTitle.GetAdjectiveNoTooltip]"
@@ -183,6 +183,6 @@
  fp2_other_decisions.1101.a:0 "Non dureranno a lungo!"
  fp2_other_decisions.1101.b:0 "Qualcosa da tenere d'occhio."
  fp2_other_decisions.1101.c:0 "Interessante."
- 
+
  fp2_form_kingdom_toledo_modifier:0 "$fp2_other_decisions.1100.t$"
  fp2_form_kingdom_toledo_modifier_desc:0 "Questo personaggio ha fondato un nuovo regno con sede nell'antica capitale Visigota."

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # Target is followed by ill omens
  claim_throne_ongoing.1001.t:0 "Cattivi Presagi"
  claim_throne_ongoing.1001.desc:0 "È chiaro che io non sia l'unico con l'ambizione di governare [target_title.GetNameNoTooltip]! I corvi si sono radunati sui tetti del [target.Custom('ResidenceBuilding')] di [target.GetTitledFirstNamePossessive], e qualche sera fa anche le stelle sembravano cadere, per tutta [target_title.GetNameNoTierNoTooltip].\n\nPlebei e nobili sussurrano che questo sia un segno che [target.GetFirstNameNoTooltip] ha perso il favore di [ROOT.Char.GetFaith.PantheonTerm]."

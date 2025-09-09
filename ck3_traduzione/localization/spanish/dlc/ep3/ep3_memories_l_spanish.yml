@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  became_landless_adventurer_memory: "Diventare un avventuriero"
  became_landless_adventurer_memory_desc: "sono diventato un avventuriero"
  became_landless_adventurer_memory_desc_second_perspective: "è diventato un avventuriero"
@@ -30,14 +30,17 @@
  became_landless_adventurer_memory_desc_wanderer: "$became_landless_adventurer_memory_desc$ dopo aver raccolto un seguito come giramondo"
  became_landless_adventurer_memory_desc_wanderer_second_perspective: "$became_landless_adventurer_memory_desc_second_perspective$ dopo aver raccolto un seguito come giramondo"
  became_landless_adventurer_memory_desc_wanderer_third_perspective: "$became_landless_adventurer_memory_desc_third_perspective$ dopo che [owner.GetSheHe] ha raccolto seguaci come giramondo"
+
  endured_greek_fire_memory: "Ha resistito al fuoco greco"
  endured_greek_fire_memory_desc: "Ho visto marinai bruciati vivi durante un terribile attacco di fuoco greco da parte della flotta [attacker.Custom('IT_NAM_COL2')][attacker.flavor_character.GetName]"
  endured_greek_fire_memory_desc_second_perspective: "Ha visto marinai bruciati vivi durante un terribile attacco di fuoco greco da parte della flotta [attacker.Custom('IT_NAM_COL2')][attacker.flavor_character.GetName]"
  endured_greek_fire_memory_desc_third_perspective: "[owner.Custom('IT_NAM_COL3')][owner.GetFirstName] ha visto i marinai bruciare vivi durante un terribile attacco di fuoco greco da parte della flotta [Select_CString( attacker.flavor_character.IsLocalPlayer, 'di Sua Signoria', attacker.flavor_character.GetName )]"
+
  deposed_liege_memory: "[liege.GetName] Depost[liege.Custom('DE_END_PRO_S_N')]"
  deposed_liege_memory_desc: "Ho deposto [liege.GetName]"
  deposed_liege_memory_desc_second_perspective: "Hai deposto [liege.GetName]"
  deposed_liege_memory_desc_third_perspective: "[owner.Custom('IT_NAM_COL3')][owner.GetFirstName] ha deposto [liege.GetName]"
+
  changed_state_faith_memory: "Cambio della fede di Stato di [ROOT.Var('title').GetLandedTitle.GetBaseName]"
  changed_state_faith_memory_desc: "ho cambiato la fede di stato di [ROOT.Var('title').GetLandedTitle.GetBaseName] da [ROOT.Var('old_faith').Faith.GetName|l] a [ROOT.Var('new_faith').Faith.GetName|l]"
  changed_state_faith_memory_desc_second_perspective: "hai cambiato la fede di Stato di [ROOT.Var('title').GetLandedTitle.GetBaseName] da [ROOT.Var('old_faith').Faith.GetName|l] a [ROOT.Var('new_faith').Faith.GetName|l]"

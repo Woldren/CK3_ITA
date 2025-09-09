@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #Reasons
 
  MAA_TOUGHNESS:0 "$EFFECT_LIST_BULLET$[toughness|E]: $VALUE|0V$"
@@ -85,15 +85,13 @@
  REGIMENT_ORIGIN_STAT_ENTRY_ADD:0 "Dal [stationed_holding|E]: $VALUE|+=0$"
  REGIMENT_ORIGIN_STAT_ENTRY_MULT:0 "Dal [stationed_holding|E]: $VALUE|+=%0$"
  BASE_VALUE_SIEGE:0 "Base: $VALUE|V1$"
- 
  REGIMENT_WINTER_NORMAL_MODIFIER_TOOLTIP:2 "#T In un Inverno Normale#!\n[MenAtArmsType.GetWinterNormalModifier.GetEffectString]"
  REGIMENT_WINTER_HARSH_MODIFIER_TOOLTIP:2 "#T In un Inverno Rigido#!\n[MenAtArmsType.GetWinterHarshModifier.GetEffectString]"
- 
+
  TRANSFER_TITLE_MAA_NOT_TITLE_MAA: "@warning_icon! Solo i reggimenti di [men_at_arms|E] del titolo possono essere trasferiti tra i titoli."
  TRANSFER_TITLE_MAA_NOT_ADMINISTRATIVE: "@warning_icon! [TITLE.GetShortUINameNoTooltip] #bold non#! è sotto un [GetGovernment( 'administrative_government' ).GetName]"
  TRANSFER_TITLE_MAA_ALREADY_CONTROLS_MAA: "@warning_icon! [TITLE.GetShortUIName] controlla già uno o più dei reggimenti di uomini d'arme bersaglio."
  TRANSFER_TITLE_MAA_ALREADY_OWNS_MAA: "@warning_icon! [TITLE.GetShortUIName] controlla già uno o più dei reggimenti di uomini d'arme bersaglio."
- 
 
  #MaA types
  skirmishers:2 "[skirmishers|E]"
@@ -170,7 +168,6 @@
  skoutatoi: "Skoutatoi"
  varangian_guards: "Guardie Variaghe"
  handpicked_faithful: "Fedeli Scelti Con Perizia" 
- 
  #Special MaA
  house_guard:0 "Guardia Dinastica"
  house_guard_flavor:0 "#F Questo reggimento d'élite è al servizio di una specifica Dinastia. I guerrieri sono selezionati con cura tra i sudditi più fedeli.#!"
@@ -236,10 +233,10 @@
  varangian_guards_flavor: "#F Questi famosi mercenari Germanici armati di ascia sono il nucleo incrollabile dell'esercito imperiale.\n\n@warning_icon! #X Reclameranno un po' d'[gold|E] dopo la morte del Basileus.#!"
  handpicked_faithful_flavor: "#F Individualmente eccezionali per valore, lealtà e talento, questi combattenti sono pronti a dare la vita per proteggere il loro capo.#!"
 
-
  #Religious MaA
  teutonic_knights:1 "Cavalieri dell'Ordine"
  teutonic_knights_flavor:1 "#F Cavalieri pesantemente corazzati e zelanti, specializzati in battaglie di massa tra fanteria, oltre che nelle loro cariche di cavalleria pesante.#!"
+
  skirmishers_lowercase:0 "schermagliatori"
  light_cavalry_lowercase:0 "cavalieri lggeri"
  heavy_cavalry_lowercase:0 "cavalieri pesanti"
@@ -250,7 +247,7 @@
  camel_cavalry_lowercase:0 "cammelleria"
  horse_archers_lowercase:0 "arcieri a cavallo"
  levies_lowercase:0 "leve"
- 
+
  # Accolade MaA
  accolade_maa_archers:0 "Seguito di Arcieri"
  accolade_maa_archers_flavor:1 "[retinue_maa|E]\n#F Questi arcieri d'élite non sono una marmaglia di bracconieri: sono stati addestrati senza sosta per far piovere frecce con precisione e a grande velocità.#!"
@@ -300,4 +297,3 @@ cataphract_archers_flavor: "#F Arrows and blades ping harmlessly off the lamella
 
 maturkan_warriors: "Maturkan Warriors"
 maturkan_warriors_flavor: "#F These war-princes are the defenders of the cold taiga, and fight well where horses and raiding-parties can scarcely go.#!"
- 

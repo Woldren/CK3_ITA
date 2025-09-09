@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  steal_back_artifact_event_title:1 "Ruba Manufatto:"
  steal_back_artifact_ongoing.1001.t:0 "$steal_back_artifact_event_title$ L'antiquario"
  steal_back_artifact_ongoing.1001.desc:0 "Uno degli ostacoli ovvi al recupero del manufatto, è l'antiquario di [target.GetTitledFirstNamePossessive], [antiquarian.GetTitledFirstName].\n\nCi sono, naturalmente, molteplici modi per... #EMP occuparsi#! di una persona, ma mi chiedo se [antiquarian.GetFirstNameNoTooltip] è il tipo di persona che potrei persuadere a guardare dall'altra parte offrendogli una tangente adeguata."

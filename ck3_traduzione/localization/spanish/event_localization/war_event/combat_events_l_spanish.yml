@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  combat_event.0003.t:0 "Imbattibile"
  combat_event.0003.desc.opening:0 "Cento battaglie, cento vittorie!"
  combat_event.0003.desc.commander:0 "Con la mia ultima vittoria contro [enemy_commander.GetTitledFirstName] ed i suoi soldati,"

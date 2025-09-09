@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  ALL_PROVINCES:0 "Tutti le Baronie:"
  ANY_PROVINCE:0 "Qualsiasi Baronia:"
@@ -9,7 +9,7 @@
  ANY_OF_MY_REALM_PROVINCES:1 "Qualsiasi Tua Baronia del Regno:"
  ALL_OF_THEIR_REALM_PROVINCES:0 "Tutte le Baronie del Regno di [CHARACTER.GetShortUINamePossessive]:"
  ANY_OF_THEIR_REALM_PROVINCES:0 "Una qualsiasi delle Baronie del Regno di [CHARACTER.GetShortUINamePossessive]:"
-
+ 
  ALL_DIRECTLY_OWNED_PROVINCES:0 "Tutte le Baronie Detenute:"
  ANY_OF_MY_DIRECTLY_OWNED_PROVINCES:0 "Qualsiasi tua Baronia Detenuta:"
  ANY_OF_THEIR_DIRECTLY_OWNED_PROVINCES:0 "Qualsiasi Baronia Detenuta da [CHARACTER.GetShortUIName]:"

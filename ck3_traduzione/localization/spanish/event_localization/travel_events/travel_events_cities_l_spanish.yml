@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #Travel City Events
  #Generic:
  travel_city_companion_impressed:0 "\n\nMi[sightseeing_companion.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)] mi mormora mentre assiste a questo spettacolo erudito: "Potrei davvero passare una vita intera qui, [ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)|U]”\n"
@@ -86,4 +86,3 @@
  FALLBACK_COIN: "moneta"
  travel_city_well_supplied: "Ben Fornito"
  travel_city_well_supplied_desc: "Questo personaggio ha recentemente fatto scorta di tutti gli elementi essenziali necessari per viaggiare."
-

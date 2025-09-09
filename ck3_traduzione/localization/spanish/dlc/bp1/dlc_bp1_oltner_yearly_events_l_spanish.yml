@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  bp1_yearly.4000.t:0 "Una Riflessione Familiare" #da controllare
  bp1_yearly.4000.desc:0 "Mi ricordo il giorno in cui (il/la) [family_memory.GetDescription|l], [family_memory_participant.Custom('DE_ART_DEF_P_A')] mi[family_memory_participant.Custom('DE_END_PRO_S_N')] [family_memory_participant.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_memory_participant'))]!\n\n"
  bp1_yearly.4000.desc.alive:0 "Ricordi come questi mi danno conforto. Qualunque cosa accada, so che la mia famiglia è lì per me e che la Casata [ROOT.Char.GetHouse.GetName] è forte."
@@ -71,5 +71,4 @@
  bp1_yearly.4040.dead:0 "Forse mangerò un po' di [ROOT.Char.Custom('FavoriteTreatDemand')] in tuo onore."
  bp1_yearly.4040.family_first:0 "Oh [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))], preferirei piuttosto semplicemente parlare con te per un po'!"
  #XXX: "XXX"
- 
  

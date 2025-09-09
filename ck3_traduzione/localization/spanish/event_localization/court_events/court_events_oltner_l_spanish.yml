@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  court.9000.t:0 "La Dichiarazione di un Cavaliere"
  court.9000.desc:0 "Mentre cammino verso il mio trono, sento il mio $knight_culture_player_no_tooltip_lowercase$ [flirty_knight.GetFirstName] declamare qualcosa a mi[flirty_spouse.Custom('DE_END_PRO_S_N')] [flirty_spouse.GetWifeHusband], [flirty_spouse.GetFirstName].\n\n"[flirty_knight.Custom('GeneratePoem_Intro_Rhyming')]\n[flirty_knight.Custom('GeneratePoem_Outro_Rhyming')]"\n\nSta recitando una poesia romantica? A #EMP mi[flirty_spouse.Custom('DE_END_PRO_S_N')]#! [flirty_spouse.GetWifeHusband]!?"
  court.9000.a:0 "[flirty_knight.GetFirstNameNoTooltip], tu [flirty_knight.Custom('InsultNounSexual')]! Nelle segrete!"
@@ -80,14 +80,25 @@
  court_maintenance.0010.c:0 "Una festa darà loro qualcosa da fare!"
  court_maintenance.0010.c.tooltip:0 "Dai inizio ad una festa a [SCOPE.GetRootScope.GetCharacter.GetCapitalLocation.GetTitle.GetNameNoTier]"
  court_maintenance.0011.t:0 "La Corte [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
- court_maintenance.0011.desc:1 ""In quanto [ROOT.Char.GetTitleTierName], avete nuovi doveri e responsabilità. Adesso ci si aspetta che voi teniate regolarmente delle udienze a corte, risolvendo le controversie del regno e rendendo partecipi i vostri cortigiani alla vostra routine quotidiana."\n\n[messenger.GetName] mi guarda in modo severo e diretto, quasi fosse una lezione. Forse c'è anche un po' di [ROOT.GetCharacter.Custom2('GetPrideEnvy' , SCOPE.sC('messenger'))] nei suoi occhi?\n\n[messenger.Custom('DE_ART_IND_D')] inizia a dispiegare un bellissimo stendardo, recante l'emblema della Casata [ROOT.Char.GetHouse.GetName]. "Uno dei modi attraverso i quali adesso il mondo giudicherà come governerete dipenderà da come adornerete e vi prenderete cura della vostra corte reale. Mi sono preso la libertà di far realizzare questo come regalo per segnare l'inizio del vostro mandato reale.""
+ court_maintenance.0011.desc:1 ""In quanto [ROOT.Char.GetTitleTierName], avete nuovi doveri e responsabilità. Adesso ci si aspetta che voi teniate regolarmente delle udienze a corte, risolvendo le controversie del regno e rendendo partecipi i vostri cortigiani alla vostra routine quotidiana."\n\n[messenger.GetName] mi guarda in modo severo e diretto, quasi fosse una lezione. Forse c'è anche un po' di [ROOT.GetCharacter.Custom2('GetPrideEnvy' , SCOPE.sC('messenger'))] nei suoi occhi?\n\n[messenger.Custom('DE_ART_IND_D')] inizia a dispiegare un bellissimo stendardo, recante l'emblema della Casata [ROOT.Char.GetHouse.GetName]. "Uno dei modi attraverso i quali adesso il mondo giudicherà come governerete dipenderà da come adornerete e vi prenderete cura della vostra corte reale. Mi sono preso la libertà di far realizzare questo come regalo per segnare l'inizio del vostro mandato reale."" #controllare_modifica
+ court_maintenance.0011.desc.ach: "\"This gift will mark the beginning of your royal tenure.\"[messenger.GetName] unfolds a beautiful banner, bearing the emblem of House [ROOT.Char.GetHouse.GetName].\n\n\"You are a [ROOT.Char.GetTitleTierName|l] in name, but still — the realm should convene for a great ceremony of coronation! There, you may cement your authority and pledge yourself to [ROOT.Char.GetFaith.HighGodName] as protector and defender of [ROOT.Char.GetPrimaryTitle.GetNameNoTier].\""
+ court_maintenance.0011.coronation: "Commence preparations immediately."
+ court_maintenance.0011.coronation.tooltip: "You will start preparing your [coronation|E]."
+ court_maintenance.0011.crown_needed.tooltip: "Certain [coronation|E] [activity_options|E] require a #V Crown#! [artifact|E]"
+ court_maintenance.0011.regalia_needed.tooltip: "Certain [coronation|E] [activity_options|E] require a #V Regalia#! [artifact|E]"
+ court_maintenance.0011.artificier_crown.tooltip: "$court_maintenance.0011.crown_needed.tooltip$ Your [GetCourtPositionType('court_artificer_court_position').GetName()] will start making one immediately"
+ court_maintenance.0011.local_artisan_crown.tooltip: "$court_maintenance.0011.crown_needed.tooltip$A local artisan will start making one immediately"
+ court_maintenance.0011.artificier_regalia.tooltip: "$court_maintenance.0011.regalia_needed.tooltip$ Your [GetCourtPositionType('court_artificer_court_position').GetName()] will start making one immediately"
+ court_maintenance.0011.local_artisan_regalia.tooltip: "$court_maintenance.0011.regalia_needed.tooltip$ A local artisan will start making one immediately"
  court_maintenance.0011.a:0 "Lasciate che vedano [ROOT.Char.Custom('DE_ART_DEF_P_A')] loro nuov[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleTierName]!"
- court_maintenance.0011.a.tooltip:0 "Entrerai nella tua Corte Reale"
+ court_maintenance.0011.a.tooltip:0 "Entrerai nella tua Corte Reale" #controllare_modifica
  court_maintenance.0011.b:0 "Altre questioni richiedono la mia attenzione."
- court_maintenance.0011.b.tooltip:0 "Puoi scegliere di entrare nella tua Corte Reale in un momento successivo"
- court_maintenance.0011.banner_tooltip:1 "[messenger.GetName] presenta due nuovi stendardi, uno per la tua casata e uno per la tua dinastia."
+ court_maintenance.0011.b.tooltip:0 "Puoi scegliere di entrare nella tua Corte Reale in un momento successivo" #controllare_modifica
+ court_maintenance.0011.b.tooltip.ach: "You will be able to [host|E] a [coronation|E] at a later time"
+ court_maintenance.0011.banner_tooltip:1 "[messenger.GetName] presenta due nuovi stendardi, uno per la tua casata e uno per la tua dinastia." #controllare_modifica
  court_maintenance.0011.banner_house_tooltip:0 "[messenger.GetName] presenta un nuovo stendardo con l'emblema della tua casata"
  court_maintenance.0011.banner_dynasty_tooltip:0 "[messenger.GetName] presenta un nuovo stendardo con l'emblema della tua dinastia"
+ court_maintenance.0011.coronation_discount: "Next [coronation|E] Cost: #p [gold_i]-50%#!"
  surprise_reaction:0 "sorpresa"
  envy_reaction:0 "invidia"
  scorn_reaction:0 "disprezzo"

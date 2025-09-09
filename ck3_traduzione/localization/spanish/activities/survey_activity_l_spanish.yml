@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ### Setup Work ###
  activity_survey: "Ispezione"
  activity_survey_desc: "Esegui un'ispezione approfondita delle tue terre per assicurarti che il tuo regno sia una macchina ben funzionante e per cercare delle opportunità per migliorare la burocrazia e la situazione attuale."
@@ -126,19 +126,6 @@
  inspection_reward_focused_control_modifier: "Obiettivo dell'Ispezione: il Controllo"
  inspection_reward_focused_control_modifier_desc: "Il reclutamento e la riqualificazione della guarnigione locale hanno migliorato il controllo della contea."
 
-                                                            
-                                                                                                        
-                                                                    
-                                                                                                                             
-                                                                     
-                                                                                                                       
-                                                                                        
-                                                                                                                                                                                  
-                                                                        
-                                                                                                                        
-                                                                                                  
-                                                                                                                                                              
-
  inspection_reward_average_levy_modifier: "Leve Ispezionate"
  inspection_reward_average_levy_modifier_desc: "Le leve locali hanno registrato un aumento di reclute recentemente."
  inspection_reward_focused_levy_modifier: "Obiettivo dell'Ispezione: le Leve"
@@ -174,10 +161,10 @@
  inspection_conclusion_success_opinion_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] gestito in modo eccellente i [Select_CString(host.IsLocalPlayer,'tuoi','suoi')] affari interni e [Select_CString(host.IsLocalPlayer,'hai','ha')] dato prova di [Select_CString(host.IsLocalPlayer,'te','sé')] tra i [Select_CString(host.IsLocalPlayer,'tuoi','suoi')] vassalli."
  inspection_conclusion_success_popular_opinion_key_title: "Sovran[host.Custom('DE_END_PRO_S_N')] Popolare"
  inspection_conclusion_success_popular_opinion_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString(host.IsLocalPlayer,'hai','ha')] registrato un aumento della popolarità dopo che [Select_CString(host.IsLocalPlayer,'hai','ha')] visitato [province.GetName]."
-
+ 
  inspection_conclusion_success_governor_experience_key_title: "[host.Custom('GetGovernorConceptNoTooltip')] Esperienza"
  inspection_conclusion_success_governor_experience_key: "[host.GetShortUIName] ha acquisito della preziosa esperienza nel suo ruolo di [host.Custom('GetGovernorConceptNoTooltip')] dopo aver visitato [province.GetName]."
- 
+
  inspection_retry_desc: "L'ultima volta che quest'area è stata supervisionata dal[host.Custom('DE_END_ADJ_NUL_S_N')] loro signor[host.Custom('DE_END_ADJ_IND_S_A')], il lavoro è terminato in modo inconcludente. Ma il piano di miglioramento della contea è ancora in corso.\n#weak Verrà rimosso da una [inspection|E] di successo#!"
 
  inspection_second_try_modifier: "Ispezione Inconcludente"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  ep3_landless_admin.1000.t: "Sulla Porta"
  ep3_landless_admin.1000.desc: "Un leggero bussare alla porta della tenuta mi sorprende durante la mia passeggiata.\n\n"Avanti."\n\nUn[proposed_councillor.Custom('DE_PRO_POS_P_2P')] [proposed_councillor.GetWomanMan] ben vestit[proposed_councillor.Custom('DE_END_PRO_S_N')] si trova all'ingresso, stringendo la sua borsa.\n\n"Vengo ad offrire i miei servizi alla virtuosa Casata [ROOT.Char.GetHouse.GetBaseNameNoTooltip]. Sono molto competente e vi servirò bene.""

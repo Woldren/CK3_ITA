@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  HAS_FOCUS_TRIGGER:0 "Ha un [focus|E] [FOCUS.GetName]"
  NOT_HAS_FOCUS_TRIGGER:0 " #bold non#! ha un [focus|E] [FOCUS.GetName]"

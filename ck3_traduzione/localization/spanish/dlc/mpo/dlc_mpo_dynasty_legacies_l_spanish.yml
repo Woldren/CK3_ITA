@@ -1,18 +1,18 @@
-﻿l_spanish:
+l_spanish:
 
- mpo_nomad_legacy_track_name: "Nomadica"
- mpo_nomad_legacy_track_desc: "Perché il mondo intero ci appartiene"
+ mpo_nomad_legacy_track_name: "Nomadic"
+ mpo_nomad_legacy_track_desc: "For the whole world is ours to take"
 
- mpo_nomad_legacy_1_name: "Signori delle Steppe"
+ mpo_nomad_legacy_1_name: "Steppe Lords"
  
- mpo_nomad_legacy_2_name: "Terra Bruciata"
- mpo_nomad_legacy_2_effect_raid_intent_global: "Sblocca l'[raid_intent|E] #EMP $raze_intent$#!"
+ mpo_nomad_legacy_2_name: "Scorched Earth"
+ mpo_nomad_legacy_2_effect_raid_intent_global: "Unlocks the #EMP $raze_intent$#! [raid_intent|E]"
  
- mpo_nomad_legacy_3_name: "La Storia Segreta"
- mpo_nomad_legacy_3_effect_peace_acceptance_global: "Accettazione della [peace|E]: #positive_value 10#!"
+ mpo_nomad_legacy_3_name: "The Secret History"
+ mpo_nomad_legacy_3_effect_peace_acceptance_global: "[peace|E] acceptance: #positive_value 10#!"
  
- mpo_nomad_legacy_4_name: "Il Castigo di Dio"
- mpo_nomad_legacy_4_effect_kheshig_maa_global: "Sblocca i [men_at_arms|E] [GetMaA('kheshig').GetName]"
+ mpo_nomad_legacy_4_name: "The Punishment of God"
+ mpo_nomad_legacy_4_effect_kheshig_maa_global: "Unlocks the [GetMaA('kheshig').GetName] [men_at_arms|E]"
  
- mpo_nomad_legacy_5_name: "La pace del Gran Khan"
- mpo_nomad_legacy_5_effect_pax_mongolica_global: "Sblocca la [decision|E] [GetDecisionWithKey('mpo_pax_mongolica_decision').GetName]"
+ mpo_nomad_legacy_5_name: "Peace of the Great Khan"
+ mpo_nomad_legacy_5_effect_pax_mongolica_global: "Unlocks [GetDecisionWithKey('mpo_pax_mongolica_decision').GetName] [decision|E]"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  spouse.0001.t:0 "Le cose che condividiamo"
  spouse.0001.desc:0 "Quando parliamo della vita, [spouse.Custom('DE_ART_DEF_P_A')] mi[spouse.Custom('DE_END_PRO_S_N')] spos[spouse.Custom('DE_END_PRO_S_N')] ed io spesso andiamo d'accordo. So solo che [spouse.GetFirstName] capisce come io vedo il mondo."
  spouse.0001.a:0 "Sono fortunato a stare con qualcuno che mi capisce."

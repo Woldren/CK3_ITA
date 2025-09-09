@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  catholic_god:0 "Dio"
  catholic_god_possessive:0 "di Dio"
  alternativeterm_the_lord:0 "il Signore"
@@ -91,7 +91,7 @@
  rite_prayer:0 "preghiera"
  rite_worship:0 "culto"
 
- # Pilgrimage Name
+ #Pilgrimage name
  pilgrimage_default:0 "Pellegrinaggio"
  pilgrimage_hajj:1 "Hajj"
  
@@ -113,6 +113,6 @@
  ghw_from_which_tenet_armed_pilgrimages:0 "$tenet_armed_pilgrimages_name$"
  ghw_from_which_tenet_struggle_submission:0 "$tenet_struggle_submission_name$"
  ghw_from_which_tenet_warmonger:0 "$tenet_warmonger_name$"
- 
+
  faithtaxexemption_the_church:0 "la Chiesa"
  faithtaxexemption_charities:0 "enti di beneficenza"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # Court Position Boons
  employer_booner_invalidated_tt: "#weak Il modificatore viene rimosso se [position_holder.GetShortUIName|V] perde questa [court_position|E] o non si trova nello stessa [court|E] come [THIS.Char.GetShortUIName|V]#!"
  employer_boon_target_invalidated_title: "Il cortigiano perde il Favore"
@@ -266,4 +266,3 @@
  increased_position_salary_tt: "Il Salario della [court_position|E] #N aumenterà del +50%#! per #V 10#! anni"
  court_position_increased_salary: "Salario della [court_position|E] Aumentato"
  court_position_laamps_free: "Gli [officers|El] non costano nulla"
- 

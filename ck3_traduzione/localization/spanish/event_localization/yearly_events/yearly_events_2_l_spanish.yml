@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  yearly.1001.t:0 "Dietro le Ciglia Abbassate"
  yearly.1001.start.desc:0 "Quando i miei occhi si incontrano con quelli di [married_seducer.GetTitledFirstNamePossessive] per quella che sembra la ventesima volta stasera, so che non mi sto immaginando le cose. Persino dall'altra parte del tavolo, il suo sguardo è intenso come il sole di mezzogiorno.\n\n[married_seducer.GetSheHe|U] mi vuole,"
  yearly.1001.end_hesitation.desc:0 "e sento che il mio corpo risponde, risvegliandosi. Ma anche [seducer_spouse.GetTitledFirstName] – [seducer_spouse.GetHerHis] [seducer_spouse.GetWifeHusband], nonché mi[seducer_spouse.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('seducer_spouse'))] – sono qui stasera..."

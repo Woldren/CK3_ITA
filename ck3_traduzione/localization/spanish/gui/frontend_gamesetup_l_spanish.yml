@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  SELECT_CHARACTER_ON_MAP:0 "Scegli un personaggio sulla mappa."
  PICK_ANY_CHARACTER:5 "Gioca con un Sovrano qualsiasi nel #bold [GameSetup.GetSelectedBookmark.GetDate.GetYear]#!, o #bold crea il tuo!#!"
  BOOKMARK_DISABLED:0 "Questo indicatore è disabilitato"

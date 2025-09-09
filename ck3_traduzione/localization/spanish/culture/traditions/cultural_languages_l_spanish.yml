@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  language_generic_label_desc:0 "La [language|E] dominante di una [culture|E] include un'ampia selezione di dialetti, vernacoli, creoli e lingue minori correlate che sono spesso (ma non necessariamente) reciprocamente intelligibili o più facili da imparare."
  language_anglic_name:0 "Anglica"
  language_arabic_name:0 "Araba"
@@ -88,7 +88,7 @@
  aesthetics_norman_name:0 "Normanna"
  aesthetics_scottish_name:0 "Scozzese"
  aesthetics_sicilian_name:0 "Siciliana"
- 
+
 #Dead Languages - Only used in custom loc
  language_pali_name: "Pali"
  language_avestan_name: "Avestana"

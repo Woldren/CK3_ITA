@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  APPOINT_COURT_POSITION_VIEW_replace_character_header: "Sostituisci [AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.Custom('IT_NAM_COL3')][AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.GetShortUINameNoTooltip] come [AppointCourtPositionView.GetPositionName]"
  APPOINT_COURT_POSITION_VIEW_select_character_header: "Nomina [AppointCourtPositionView.GetPositionName]"
  APPOINT_COURT_POSITION_VIEW_salary:3 "Salario mensile: [CourtPositionType.GetSalaryTextFor( Character.Self )]"
@@ -129,7 +129,7 @@
  COURT_POSITION_TYPE_TOOLTIP_REVOKE_COST:0 "• Ti costa: [CourtPositionType.GetRevokeCostText]"
 
  COURT_POSITION_SALARY_BREAKDOWN_BASE:0 "Salario Base"
- 
+
  COURT_POSITION_TASK_COST_BREAKDOWN_BASE: "Costo dell'[court_position_task_short|E]"
  COURT_POSITION_TASK: "[court_position_task_short|E]"
  COURT_POSITION_TASK_HEADER: "#T [CourtPositionTaskType.GetName]#!"
@@ -341,14 +341,14 @@
  court_position_tradition_caravaneers:0 "[culture_tradition|E] $tradition_caravaneers_name$"
  court_position_tradition_saharan_nomads:0 "[culture_tradition|E] $tradition_saharan_nomads_name$"
  court_position_tradition_desert_nomads:0 "[culture_tradition|E] $tradition_desert_nomads_name$"
- 
+
  court_physician_court_position:0 "Medico Personale"
  
  court_physician_tradition_bonus:0 "Dalla [culture_tradition|E]"
  court_physician_court_position_desc:1 "Il $court_physician_court_position$ è responsabile della salute e del benessere della [court|E] in cui si trova. Curerà le malattie e suturerà le ferite al meglio delle sue capacità."
  court_physician_employer_custom_effect_description:4 "$BULLET$Esegue [medical_treatments|E]"
  court_physician_not_employed_or_away_tt:0 "Non hai un [GetCourtPositionType('court_physician_court_position').GetName()], oppure non è con te"
-
+ 
  hire_physician_decision:0 "Cerca un Medico"
  hire_physician_decision_tooltip:3 "I tuoi servitori ti suggeriranno un certo numero di candidati adatti alla posizione di [GetCourtPositionType('court_physician_court_position').GetName()]"
  hire_physician_decision_desc:1 "Un $court_physician_court_position$ è essenziale per curare i malati e i feriti nella mia [ROOT.Char.Custom('GetCourtLower')]. Chiederò ai miei servitori di proporrmi un certo numero di candidati adatti."
@@ -413,7 +413,7 @@
  court_tutor_teach_kids_notification_desc: "([child.Custom('DE_ART_DEF_P_D')]) Tu[child.Custom('DE_END_PRO_S_N')] [court_owner.Custom2('RelationToMeShort', SCOPE.sC('child') )] è stat[child.Custom('DE_END_PRO_S_N')] istruit[child.Custom('DE_END_PRO_S_N')] da [court_tutor_scope.GetShortUIName]"
  court_tutor_teach_kids_notification_desc_you: "Sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] istruit[ROOT.Char.Custom('DE_END_PRO_S_N')] da [court_tutor_scope.GetShortUIName]"
 court_tutor_teach_kids_tt: "I [children|e] a [court|e] hanno la possibilità di migliorare una delle loro [skills|e] in [diplomacy_i][stewardship_i][learning_i][martial_i] di #p +1#! o #p +2#! ogni anno"
-
+ 
  royal_architect_court_position:0 "Architetto Reale"
  royal_architect_court_position_desc:1 "L'$royal_architect_court_position$ supervisiona tutti i progetti di costruzione di prestigio all'interno del regno; non un mattone viene posato senza il suo esplicito permesso."
  royal_architect_fortify_lands: "Fortificare le Terre"
@@ -427,13 +427,14 @@ court_tutor_teach_kids_tt: "I [children|e] a [court|e] hanno la possibilità di 
  poet_inspired_message:0 "L'ispirazione Colpisce!"
  poet_inspired_effect:0 "Il tuo [GetCourtPositionType('court_poet_court_position').GetName()] [inspired_poet.GetFirstName] ottiene un'[inspiration|E]"
  court_poet_skald: "Court Skald" 
- 
+
  bodyguard_court_position:0 "Guardia del Corpo"
  bodyguard_court_position_nomadic: "Kheshig" 
  bodyguard_employer_custom_effect_description:3 "$BULLET$Ha una possibilità di prevenire i [schemes|E] di [GetScheme('murder').GetTypeName]#!\n#indent_newline:3 $BULLET$Riduce il tuo rischio di morire o di essere catturato nelle [battles|E] in cui state entrambi combattendo#!#!"
  stooge_employer_custom_effect_description: "$BULLET$Sblocca le opzioni speciali durante gli eventi\n#indent_newline:3 $BULLET$Sblocca la [decision|e] $humiliate_the_stooge_decision$#!#!"
  bodyguard_court_position_desc:1 "Una $bodyguard_court_position$ è la linea finale di difesa contro qualsiasi attaccante. Dove va il suo capo, la guardia del corpo lo segue e non esita a frapporsi tra lui e qualsiasi pericolo in agguato."
  bodyguard_court_position_nomadic_desc: "Una $bodyguard_court_position_nomadic$ ha l’onore di difendere il proprio sovrano, sia in battaglia che in tempo di pace. Suddivisi in guardia diurna e notturna, sono sempre pronti a sacrificare la propria vita."
+
  champion_court_position:1 "Campione Personale"
  champion_employer_custom_effect_description:3 "$BULLET$Può prendere il tuo posto in alcuni [single_combat_duel_plural|E]\n[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'champion_employer_custom_effect_description_TOTO_DLC', 'champion_employer_custom_effect_description_NO_TOTO_DLC' )]"
  champion_employer_custom_effect_description_TOTO_DLC:1 "$BULLET$Ti fa guadagnare [prestige|E] quando gareggia in un [GetActivityType( 'activity_tournament' ).GetName]"
@@ -488,7 +489,7 @@ court_tutor_teach_kids_tt: "I [children|e] a [court|e] hanno la possibilità di 
  faith_allows_recruitment_court_position: "#bold Non#! fa parte del [clergy|e] oppure la fede del [liege|E] permette l'assunzione di componenti del [clergy|e]"
  is_imprisoned_court_position_executioner: "È incarcerato e attualmente #bold non#! impiegato come [GetCourtPositionType('executioner_court_position').GetName()]"
  faith_allows_master_assassin: "La sua [faith|e]:\n$BULLET$Ha come [core_tenet|E] [GetFaithDoctrine('tenet_fp3_fedayeen').GetBaseName]\n$BULLET$#bold Non#! ha come [core_tenet|E] [GetFaithDoctrine('tenet_pacifism').GetBaseName] né [GetFaithDoctrine('tenet_dharmic_pacifism').GetBaseName]"
- 
+
  clan_tax_collector_court_position:0 "Esattore delle Imposte"
  clan_tax_collector_court_position_desc:0 "L'$clan_tax_collector_court_position$ è incaricato di organizzare e riscuotere le tasse, assicurandosi che i [vassals|E] del [clan|E] paghino la loro parte diligentemente."
  court_position_khvarenah_legacy_4:0 "La [dynasty|E] del Datore di lavoro ha [GetDynastyPerk( 'fp3_khvarenah_legacy_4' ).GetName]"
@@ -496,7 +497,7 @@ court_tutor_teach_kids_tt: "I [children|e] a [court|e] hanno la possibilità di 
  court_position_innovation_mural_sextant:0 "La [dynasty|E] ha [GetInnovation('fp3_innovation_mural_sextant').GetName]"
  capable_magistrates_modifier:0 "Magistrati Capaci"
  opinion_of_liege:0 "Opinione del [liege|E]"
- 
+
  cave_hermit_court_position:0 "Eremita Ornamentale da Giardino"
  cave_hermit_court_position_desc:0 "L'$cave_hermit_court_position$ è qualcuno che abiterà il verziere annesso al tuo castello e intratterà i convitati con profezie ed enigmi. Si dice che essi siano dei veri e propri mistici."
  cave_hermit_court_position_tt:0 "Hai trovato un #V [GetCourtPositionType( 'cave_hermit_court_position' ).GetName()]#! durante i tuoi [travels|E]"
@@ -523,7 +524,7 @@ court_tutor_teach_kids_tt: "I [children|e] a [court|e] hanno la possibilità di 
  caravan_master_improve_self_desc: "Questo personaggio si sta concentrando sul miglioramento delle proprie abilità come maestro carovaniere."
  caravan_master_improve_self_tt: "Ogni mese questo personaggio ha la possibilità di guadagnare [Concept('trait_level_track_xp','esperienza')|e] per il tratto [GetTrait('lifestyle_traveler').GetName( root_scope )|U1], [martial_skill|E][martial_i] o [stewardship_skill|E][stewardship_i]"
  caravan_master_improve_self_fallback_tt: "Ogni mese questo personaggio ha la possibilità di guadagnare [Concept('trait_level_track_xp','esperienza')|e] per il tratto [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )|U1], [martial_skill|E][martial_i] o [stewardship_skill|E][stewardship_i]"
- 
+
  wet_nurse_court_position:0 "Balia"
  wet_nurse_court_position_desc:0 "Una $wet_nurse_court_position$ è una persona che si prende cura dei tuoi [children|E] e dei bambini in [hostage|E]."
  wet_nurse_employer_custom_effect_description: "$BULLET$Consenso a [Concept('influence_ward_personality','influenzare la personalità del pupillo')|e]: #P +10#!\n$BULLET$Riduce il rischio per i [children|e] di contrarre [illnesses|e]\n$BULLET$Possibilità di eventi evolutivi del [child|e]"
@@ -611,7 +612,7 @@ court_tutor_teach_kids_tt: "I [children|e] a [court|e] hanno la possibilità di 
  court_position_west_germanic: "La sua cultura fa parte del [heritage|e] $heritage_west_germanic_name$"
  court_position_not_same_culture_heritage: "[heritage|E] diverso dalla [culture|e] del [liege|E]"
  court_position_not_same_culture_language: "[language|E] diversa dalla [culture|E] del [liege|E]"
-
+ 
  eparch_court_position: "Eparca"
  eparch_court_position_desc: "L'Eparca è il principale amministratore e l'autorità suprema della capitale, secondo solo al monarca regnante."
  eparch_appease_populace: "Calmare la Popolazione"
@@ -646,7 +647,7 @@ court_tutor_teach_kids_tt: "I [children|e] a [court|e] hanno la possibilità di 
  quartermaster_camp_officer: "Quartiermastro"
  quartermaster_camp_officer_desc: "Il $quartermaster_camp_officer$ è responsabile di assicurare che il campo sia ben nutrito e irrigato. Gestiscono, salvaguardano e distribuiscono le provviste secondo le necessità."
  quartermaster_camp_officer_parameter_tt: "$camp_with_following_buildings_tt$\n$BULLET$[GetDomicileBuilding('supply_tent_01').GetName]"
- 
+
  armorer_camp_officer: "Armiere"
  armorer_camp_officer_desc: "L'$armorer_camp_officer$ è un fabbro specializzato in elmi e armature. È responsabile della realizzazione e della riparazione degli abiti degli uomini d'arme e dei cavalli."
  armorer_camp_officer_parameter_tt: "$camp_with_following_buildings_tt$\n$BULLET$[GetDomicileBuilding('supply_tent_smithy').GetName]"
@@ -762,7 +763,7 @@ court_tutor_teach_kids_tt: "I [children|e] a [court|e] hanno la possibilità di 
  camp_priest_camp_officer: "Sacerdote del Campo"
  camp_priest_camp_officer_desc: "Il $camp_priest_camp_officer$ offre sostegno spirituale al campo."
  camp_priest_camp_officer_parameter_tt: "$camp_with_following_buildings_tt$\n$BULLET$[GetDomicileBuilding('baggage_train_shrine').GetName]"
- 
+
  laureate_camp_officer: "Laureato"
  laureate_camp_officer_desc: "Il $laureate_camp_officer$ è uno scrittore di versi in carne e ossa per tutte le occasioni. Il loro lavoro è conosciuto in lungo e in largo e porta molti poeti desiderosi di imparare ai loro piedi."
  laureate_camp_officer_employer_custom_effect_description: "$master_bard_camp_officer_employer_custom_effect_description$\n$BULLET$Abilita la [decision|E] Invita Poeti"
@@ -774,8 +775,8 @@ court_tutor_teach_kids_tt: "I [children|e] a [court|e] hanno la possibilità di 
  court_position_travel_companion_modifier: "[GetPerk('travel_companion_perk').GetName( GetNullCharacter )]"
  court_position_travel_companion_liege_modifier: "Il datore di lavoro ha il vantaggio [GetPerk('travel_companion_perk').GetName( GetNullCharacter )]"
  gracious_host_impeccable_guest_perk_bonus: "[GetPerk('gracious_host_impeccable_guest_perk').GetName( GetNullCharacter )]"
-
- # MPO aggiunta stringa 785, 868 - 870, 877-879
+ 
+ # MPO
  court_astrologer_court_position: "Stargazer"
  court_astrologer_court_position_desc: "The $court_astrologer_court_position$ searches the skies to predict what fate may be upon us."
  court_astrologer_employer_custom_effect_description: "$BULLET$Enables the #EMP $mpo_divination_decision$#! [decision|E]#!\n$BULLET$Enables the #EMP $mpo_decision_fertility_dance$#! [decision|E]#!"

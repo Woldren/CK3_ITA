@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 #Travel Danger Events
 #Land: Beast of the wild
  travel_danger_events.6000.t:0 "$travel_danger_prefix$ Una Belva Spaventosa!"
@@ -22,8 +22,7 @@
  travel_danger_events.6000.failure:0 "[ROOT.Char.Custom('GetAnimalType')] uccide [beast_victim.GetShortUINameNoTooltipNoFormat]"
  travel_danger_events.6000.success_root: "[ROOT.Char.Custom('GetAnimalType')] muore per mano di [root_scope.GetShortUINameNoTooltipNoFormat]" 
  travel_danger_events.6000.wound_root: "[ROOT.Char.Custom('GetAnimalType')] sbrana [root_scope.GetShortUINameNoTooltipNoFormat]"
- travel_danger_events.6000.failure_root: "[ROOT.Char.Custom('GetAnimalType')] uccide [beast_victim.GetShortUINameNoTooltipNoFormat]"
- 
+ travel_danger_events.6000.failure_root: "[ROOT.Char.Custom('GetAnimalType')] uccide [beast_victim.GetShortUINameNoTooltipNoFormat]" #controllare_modifica
 
  travel_danger_events.6010.t:0 "$travel_danger_prefix$ Fumo in Vista"
  travel_danger_events.6010.raid:0 "Mentre ci avviciniamo a [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip], colonne di fumo si alzano al cielo e gruppi di contadini in fuga rivelano che il luogo è preda dei saccheggiatori. I forti prendono ciò che desiderano…\n\n"

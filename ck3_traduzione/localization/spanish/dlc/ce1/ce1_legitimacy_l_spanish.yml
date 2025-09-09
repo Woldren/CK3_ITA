@@ -1,4 +1,4 @@
-﻿l_spanish: 
+l_spanish:
  legitimacy_gain_toast: "Legittimità Ottenuta"
  legitimacy_loss_toast: "Legittimità Persa"
  base_legitimacy_debug_tt: "#D Fonti#!\n$BULLET_WITH_TAB$[court_grandeur_level|E]: [SCOPE.ScriptValue('base_legitimacy_court_grandeur_value')|0V]\n$BULLET_WITH_TAB$[dynasty_prestige_level|E]: [SCOPE.ScriptValue('base_legitimacy_dynasty_prestige_level_value')|0V]\n$BULLET_WITH_TAB$$ce1_heroic_track_name$ [dynasty_perks|E]: [SCOPE.ScriptValue('base_legitimacy_heroic_track_perks_value')|0V]\n$BULLET_WITH_TAB$[county_opinion|E]: [SCOPE.ScriptValue('base_legitimacy_county_opinion_value')|0V]\n$BULLET_WITH_TAB$Dinastia del Predecessore: [SCOPE.ScriptValue('base_legitimacy_dynasty_of_predecessor_value')|0V]\n$BULLET_WITH_TAB$Relazione del Predecessore: [SCOPE.ScriptValue('base_legitimacy_relation_to_predecessor_value')|0V]\n$BULLET_WITH_TAB$Sesso: [SCOPE.ScriptValue('base_legitimacy_sex_value')|0V]\n$BULLET_WITH_TAB$Bastardaggine: [SCOPE.ScriptValue('base_legitimacy_bastardry_value')|0V]\n$BULLET_WITH_TAB$Anni come Regnante: [SCOPE.ScriptValue('base_legitimacy_years_as_ruler_value')|0V]"
@@ -68,4 +68,3 @@
  married_lowborn_toast: "Ha sposato una persona [lowborn|E]"
  LEGITIMACY_TEXT_ICON: "@legitimacy_icon!"
  LEGITIMACY_TEXT_ICON_nomadic_legitimacy: "@legitimacy_icon_nomadic!" 
- 

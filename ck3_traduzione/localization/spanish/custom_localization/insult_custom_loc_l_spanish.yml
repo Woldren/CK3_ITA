@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #InsultNoun
  witch:0 "strega"
  doxy:0 "prostituta"
@@ -272,7 +272,7 @@
  insult_shunt_female:0 "sgualdrina"
  insult_blunt_female:0 "puttana"
  impotent_female:0 "sterile"
- 
+
  insult_noun_clumsy_oaf: "$oaf_insult$"
  insult_noun_clumsy_buffoon: "$buffoon$"
  insult_noun_clumsy_dimwit: "dimwit"
@@ -281,8 +281,6 @@
  insult_adjective_clumsy_clumsy: "[Select_CString( ROOT.Char.IsFemale, 'goffa', 'goffo' )]"
  insult_adjective_clumsy_stumbling: "inciampante" #???? da controllare
  insult_adjective_clumsy_blundering: "[Select_CString( ROOT.Char.IsFemale, 'sbadata', 'sbadato' )]" #???? da controllare
- insult_adjective_clumsy_fumbling: "incespicante" #???? da controllare
- 
  insult_adjective_clumsy_fumbling: "incespicante"
 
  witch_plural: "streghe"
@@ -331,4 +329,3 @@
  bedswerver_female_plural: "adultere"
  scullion_plural: "fottuti"
  debaucher_plural: "depravati"
- 

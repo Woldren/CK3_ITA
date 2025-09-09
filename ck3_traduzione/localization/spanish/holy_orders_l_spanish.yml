@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  holy_order_default:1 "Compagnia [FAITH.GetAdjectiveNoTooltip] di [TITLE.GetNameNoTierNoTooltip]"
  holy_order_faithful_of_highgod:0 "Seguaci della [FAITH.HighGodName]"
  holy_order_warriors_of_the_symbol:0 "Guerrieri della [FAITH.ReligiousSymbol]"
@@ -86,7 +86,7 @@
  holy_order_downstreamers:0 "Seppellitori" #Siberian_pagan
  holy_order_sylvan_saviors:0 "Salvatori di Sylvan" #Siberian_pagan
  holy_order_company_of_the_caves:0 "Compagnia delle Grotte"
-
+ 
  #Opinions
  holy_order_founder_opinion:0 "Ha fondato il mio ordine militare"
  holy_order_patron_opinion:0 "Protettore del mio ordine"
@@ -104,6 +104,6 @@
  #New lease
  my_holy_order_new_lease_message:0 "L'Ordine Sacro [holy_order.GetName] è stato stabilito nella [barony.GetNameNoTier]. Il suo potere cresce."
  #Joined Great Holy War
- 
+
  is_holy_order_trigger:0 "È un [holy_order|E]"
  CONTROLS_HOLY_SITE_TRIGGER:0 "Controlla un luogo sacro: $TITLE$"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  childhood.0002.t:0 "Compagni di Giochi"
  childhood.0002.opening:0 "Mi diverto molto con [crush.GetTitledFirstName]!\n\n"
  childhood.0002.loud:0 "[crush.GetSheHe|U] spesso richiede molte attenzioni, ma non mi pesa. Ogni volta che [crush.Custom('DE_ART_DEF_P_A')] vedo, la giornata prende un'altra piega!"
@@ -303,11 +303,11 @@
  childhood.2003.d:0 "Mi domando cosa ci sia dentro...!"
 
  childhood.2004.desc:1 "Sono fuori con [ward.GetTitledFirstName] quando [ward.GetSheHe] scompare improvvisamente. Ma, prima che io abbia il tempo di preoccuparmi, [ward.GetSheHe] torna indietro saltellando, stringendo un piccolo cucciolo fra le mani!\n\n"[educator.GetFirstNameNoTooltip], [educator.GetFirstNameNoTooltip]! Guarda cosa ho trovato. È un regalo per te!"
+
  childhood.2005.desc:0 "Sto giocando all'aperto con [ward.GetTitledFirstName] quando ad un certo punto scompare improvvisamente. Che fine ha fatto? Mi guardo intorno, e all'improvviso [ward.GetSheHe] riappare, porgendomi un cucciolo che tiene fra le mani.\n\n"[friend.GetFirstNameNoTooltip]! È per te!"
  childhood.2005.a:0 "Un cucciolo!!!"
  childhood.2005.b:0 "Ew, mettilo via."
 
- 
  childhood.2006.desc:0 "Sto giocando all'aperto con [ward.GetTitledFirstName] quando [ward.GetSheHe] scompare improvvisamente nel [ROOT.Char.Custom('TerrainType')]. Dove è finit[ward.Custom('DE_END_PRO_S_N')]? Mi guardo intorno, ed improvvisamente [ward.GetSheHe] ricompare, porgendomi un piccolo gattino.\n\n"[friend.GetFirstNameNoTooltip]! È per te!""
  childhood.2006.a:0 "Un gattino!!!"
  childhood.2006.b:0 "Ew, mettilo via."
@@ -324,7 +324,7 @@
  childhood.2011.desc:0 "[guardian.Custom('REL_TO_ME')|U][guardian.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha lavorato molto sulla mia istruzione negli ultimi tempi. Gliene sono grat[ROOT.Char.Custom('DE_END_PRO_S_N')], ma [guardian.GetSheHe] ha anche reso chiaro chiaro che si aspetta che io ripaghi il suo duro lavoro più in là; è così che si fa. Sono sicur[ROOT.Char.Custom('DE_END_PRO_S_N')] che [guardian.GetSheHe] abbia ragione."
  childhood.2011.tt:0 "Ciò migliora leggermente la tua educazione"
  childhood.2011.a:0 "[guardian.GetSheHe|U] è [guardian.Custom('DE_ART_DEF_P_A')] mi[guardian.Custom('DE_END_PRO_S_N')] insegnante dopo tutto."
- 
+
  childhood.2100.t:0 "L sta per Lingua"
  childhood.2100.desc:1 "Il mio tutore, [educator.GetTitledFirstName], mi insegna bene. A volte l[educator.Custom('DE_END_PRO_S_N')] sento parlare in [educator.GetCulture.GetLanguage.GetNameNoTooltip] — è ciò che parla a casa sua, credo.\n\nSebbene con me per lo più [educator.Custom('DE_ART_IND_A')] parli [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip], sta cercando di insegnarmi un po' della sua madre lingua.\n\nTenere due lingue in testa è difficile... ma forse ne vale la pena?"
  childhood.2100.a:0 "Dovrei ascoltare e concentrarmi, magari imparerò?"
@@ -344,7 +344,7 @@
  childhood.2300.a:0 "Posso parlare proprio come [parent.Custom('GetMamaPapa')]!"
  childhood.2300.b:0 "Questa cosa è noiosa! Perché dovrei imparare la lingua [parent.GetCulture.GetLanguage.GetNameNoTooltip]!?"
  childhood.2300.a.success_parent_desc:2 "[ward.GetFirstName] ha appreso la [language|E] [parent.GetCulture.GetLanguage.GetName] attraverso l'osservazione."
- 
+
  childhood.2400.t:0 "L'Età della Ragione"
  childhood.2400.desc:0 "Educare [questioning_ward.GetFirstName] è gratificante, ma non sempre facile. Proprio oggi voleva "fare alcune semplici domande su [ROOT.Char.GetFaith.GetName]", ma rapidamente le sue domande si sono trasformate in feroci dubbi contro la nostra fede.\n\n[questioning_ward.GetFirstNameNoTooltip] sta forse mettendo in #EMP discussione#! [ROOT.Char.GetFaith.GetNameNoTooltip]?"
  childhood.2400.a.neutral:0 "Permettetemi di dissipare i vostri dubbi."

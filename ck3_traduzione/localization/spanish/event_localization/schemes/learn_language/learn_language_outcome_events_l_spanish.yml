@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  learn_language_outcome.1000.t:1 "$learn_language$: Successo!"
  learn_language_outcome.1000.desc:3 "Dopo tanto duro lavoro ho finalmente imparato la lingua [scheme.GetTargetCharacter.GetCulture.GetLanguage.GetName]! Ore interminabili a praticare l'accentuazione, notti insonni a imitare l'inflessione, innumerevoli lezioni a padroneggiare l'intonazione... alla fine tutto ne è valso la pena.\n\nDurante i miei sforzi ho cercato di emulare l'accento di [target.GetTitledFirstNamePossessive], sono certo che [target.GetSheHe] sarebbe impressionat[target.Custom('DE_END_PRO_S_N')] dai miei risultati!\n\nE, ovviamente, adesso i contadini di cultura [target.GetCulture.GetNameNoTooltip] mi rispettano molto di più."
  learn_language_outcome.1000.a:0 "Mi sento realizzat[ROOT.Char.Custom('DE_END_PRO_S_N')]!"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  vassal_interaction.0001.opening:0 "[actor.Custom2('GreetingToVassal', ROOT.Char)]"
  vassal_interaction.0001.desc:0 "Ti chiedo di cessare immediatamente la tua guerra contro [defender.GetTitledFirstName] di [defender.GetPrimaryTitle.GetName]!\n\nIl regno perdura quando siamo uniti, non divisi."
  vassal_interaction.0001.a:0 "Ogni tuo desiderio è un ordine."

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  action_can_challenge_to_single_combat:0 "Un Criminale Distante può essere Sfidato"
  action_can_challenge_to_single_combat_label:0 "Puoi sfidare [recipient.GetShortUINameNoTooltip] ad un $game_concept_trial_by_combat$"
  action_can_challenge_to_single_combat_combined_label:0 "[recipient.GetShortUINameNoTooltip]"

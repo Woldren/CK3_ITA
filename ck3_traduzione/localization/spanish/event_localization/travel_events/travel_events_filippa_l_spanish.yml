@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 #Travel Flavor Events
 #Good omen? - Encounter a duck
  travel_events.2000.t:0 "Un'Anatra?"
@@ -95,10 +95,10 @@
  travel_events.2005.a_failure_tt:0 "Consiglio Incompreso"
  travel_events.2005.a_misinterpreted_tt:0 "Il tuo consiglio è stato male interpretato"
  travel_events.2005.b:0 "Vediamo se riusciamo a migliorare le cose qui."
- #travel_events.2005.b_success_tt:0 "Sabotaggio riuscito"
- #travel_events.2005.b_sabotage_tt:0 "Il tuo sabotaggio ha successo ed è rimane segreto."
- #travel_events.2005.b_failure_tt:0 "Sabotaggio evitato"
- #travel_events.2005.b_averted_tt:0 "Il tuo #EMP sabotaggio#! risolve effettivamente alcuni problemi locali"
+ #travel_events.2005.b_success_tt:0 "Sabotage Successful"
+ #travel_events.2005.b_sabotage_tt:0 "Your sabotage is successful and secretive"
+ #travel_events.2005.b_failure_tt:0 "Sabotage Averted"
+ #travel_events.2005.b_averted_tt:0 "Your #EMP sabotage#! actually fixes some local problems"
  travel_events.2005.c:0 "Sono sicuro che [county_liege.GetTitledFirstNameNoTooltip] possa prendersi cura dei propri pascoli."
 #Visit a camel farm - Get defiled by a camel
  travel_events.2006.t:0 "Cammelli, Ancora?"
@@ -627,7 +627,6 @@
  travel_events.2105.a:0 "La vostra nobiltà d'animo vi onora!!"
  travel_events.2105.a_cynical:0 "Apprezzo il sentimento."
  travel_events.2105.a.tt: "[visiting_ruler.GetShortUIName] came to your aid!"
-
 
 #County Liege: You notice a Travelling Ruler coming under attack
  travel_events.2107.t:1 "$travel_danger_prefix$ $travel_events_life_or_death.t$, Rifugio Sicuro"

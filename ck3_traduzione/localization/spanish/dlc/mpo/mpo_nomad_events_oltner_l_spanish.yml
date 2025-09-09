@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  nomad_events_oltner.0001.t: "Fresh Tracks"
  nomad_events_oltner.0001.desc: "There is plenty of game in my lands. Hunters tell me of a [sighting_county_1.Custom('GetAnimalGroup')] of [sighting_county_1.Custom('GetAnimalPlural')] in the [sighting_province_1.Custom('GetTerrainTypePlural')] of [sighting_county_1.GetBaseNameNoTier], and of a particularly [sighting_county_2.Custom('GetAnimalAdjective')] [sighting_county_2.Custom('GetAnimalType')] hiding in the [sighting_county_2.GetBaseNameNoTier] [sighting_province_2.Custom('GetTerrainType')].\n\nAs the [ROOT.Char.GetTitleAsNameNoTooltip], I should pick one to pursue."
  nomad_events_oltner.0001.a: "We shall feast upon [sighting_county_1.Custom('GetAnimalType')] tonight."
@@ -165,7 +165,7 @@
  mpo_chaotic_kurultai_succession.0017.desc_addition: "More than anyone, my [backing_kurultai.Custom('InsultAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('backing_kurultai'))] [backing_kurultai.GetFirstNameNicknamed] fanned the flames, giving them the courage to turn their backs on me."
  mpo_chaotic_kurultai_succession.0017.desc_end: "\n\nOnly the meek remain."
  mpo_chaotic_kurultai_succession.0017.a: "They shall serve me soon again."
-
+ 
  mpo_chaotic_kurultai_succession.1000.t: "Successor Khanates"
  mpo_chaotic_kurultai_succession.1000.desc: "The empire lies divided. Heirs squabble for control, but none strong enough to seize it. Except for..."
  mpo_chaotic_kurultai_succession.1000.a: "Me, of course."

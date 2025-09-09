@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  yearly.0001.opening:0 "[mentor.Custom2('AppropriateGreeting', ROOT.Char)]"
  yearly.0001.desc.default:0 "Per anni le mie abilità in [ROOT.Char.Custom('YearlyEvent0001Skill')] mi sono state utili, e mi viene da pensare che tali conoscenze potrebbero esserlo altrettanto per voi. Sarei felice di condividere ciò che so"
  yearly.0001.desc.arrogant:0 "Come avrete senza dubbio notato, sono abbastanza competente in materia di [ROOT.Char.Custom('YearlyEvent0001Skill')]. Sarei felice di condividere con voi la mia conoscenza di questi argomenti"

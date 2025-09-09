@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  murders_at_court.1001.t:1 "Omicidi a Corte: Prega per i Morti Senza Nome"
  murders_at_court.1001.desc_physician:1 ""Stamattina sono state trovate parti di un corpo, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]", dice [physician.Custom2('MyCharacterIntroduction', ROOT.Char)], gesticolando verso il tavolo davanti a noi. Il sangue si accumula sul tavolo intorno a piccoli cumuli di carne; le stringhe di tessuto riposano in una melma scura.\n\n"Come potete vedere non è un umano... intero. Non abbastanza per identificarlo.""
  murders_at_court.1001.desc:1 ""Stamattina sono state trovate parti di un corpo, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]", dice una guardia, gesticolando verso il tavolo davanti a noi. Il sangue si accumula sul tavolo intorno a piccoli cumuli di carne; le stringhe di tessuto riposano in una melma scura.\n\n"Come potete vedere non è un umano... intero. Non abbastanza per identificarlo.""
@@ -119,6 +119,7 @@
 
  murders_at_court.9989.desc:0 "Tuttavia, non posso fare a meno di notare che gli omicidi sono cessati non appena [murderer.GetTitledFirstName] ha lasciato la corte..."
  murders_at_court.9989.a:0 "Lo terrò d'occhio."
+
  murders_at_court.9999.t:1 "Omicidi a Corte: Una Maledizione Annullata"
  murders_at_court.9999.desc_opening:1 "Con il passare del tempo e l'assenza di nuovi corpi mi rilasso gradualmente di nuovo. L'assassino si è fermato!\n\n"
  murders_at_court.9999.desc:1 "Tuttavia, non posso fare a meno di notare che gli omicidi si sono fermati non appena [murderer.GetTitledFirstName] è morto..."

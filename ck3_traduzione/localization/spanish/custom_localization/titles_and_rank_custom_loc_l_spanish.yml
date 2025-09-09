@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  emperor_lower_case:0 "imperatore"
  emperor_plural_lower_case:0 "imperatori"
  empress_lower_case:0 "imperatrice"
@@ -54,4 +54,3 @@
  current_situation_blank:0 ""
  GetIncumbentOrNone.holder:0 "[ROOT.Title.GetHolder.GetShortUIName]"
  GetIncumbentOrNone.uncreated:0 "[ROOT.Title.GetBaseName]"
- 

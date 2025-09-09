@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  faith_conversion.1001.t:0 "Conversione"
  faith_conversion.1001.start:0 "A seguito della mia decisione di covertirmi alla fede [new_faith.GetAdjectiveNoTooltip], mi sono organizzat[ROOT.Char.Custom('DE_END_PRO_S_N')] con un [new_faith.PriestNeuter] affinché veniss nella mia [ROOT.Char.Custom('GetCourt')|l] e conducesse i riti.\n\n"
  faith_conversion.1001.desc:0 "Con il destino della mia anima immortale messo in discussione, posso solo pregare di aver preso la decisione giusta.\n\nMetafisica a parte,"

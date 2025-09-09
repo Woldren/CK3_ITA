@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  SETTING_DEBUG_SAVES:0 "Numero dei salvataggi debug"
  SETTING_TUTORIAL:0 "Tutorial"
  SETTING_DISABLED_HINTS:0 "Suggerimenti Disabilitati"
@@ -45,6 +45,7 @@
  SETTINGS_CATEGORY_GAME_DLC_MODS:0 "Contenuto Scaricabile"
  SETTING_SHOW_CONTENT_SOURCE:0 "Mostra Evento del DLC"
  SETTING_SHOW_CONTENT_SOURCE_TOOLTIP:0 "#T $SETTING_SHOW_CONTENT_SOURCE$#!\nImposta se gli Eventi mostrano a quale DLC appartengono." 
+
  SETTING_ROYAL_COURT_ANIMATE_CAMERA_IDLE:0 "Panoramica Statica Corte Reale"
  SETTING_ROYAL_COURT_ANIMATE_CAMERA_IDLE_TOOLTIP:0 "#T $SETTING_ROYAL_COURT_ANIMATE_CAMERA_IDLE$#!\nDetermina se la telecamera della Corte Reale deve fare una leggera panoramica sulla tua Corte quando è inattiva. Se Personaggi Animazioni."
  SETTING_ROYAL_COURT_ANIMATE_CAMERA_TRANSITION:0 "Transizioni Graduali in Corte Reale"

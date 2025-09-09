@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # Befriend
  chariot_race_ongoing_jp.0100.t: "Shared Spectacle"
  chariot_race_ongoing_jp.0100.desc.intro: "As the crowd roars impatiently, my eyes are fixed on my [ROOT.Char.Custom2('RelationToMeShort', intent_target)], [intent_target.GetTitledFirstName],"

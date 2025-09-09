@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  grit_type_grit:0 "pietrisco"
  grit_type_dirt:0 "terra"
  grit_type_sand:0 "sabbia"
@@ -15,7 +15,7 @@
  ground_type_wet_grass:0 "l'erba bagnata"
  ground_type_mulch:0 "il pacciame"
  ground_type_grass:0 "l'erba"
- 
+
  rainy_soil_type_thick_mud: "fango denso"
  rainy_soil_type_soft_earth: "terriccio molle"
  rainy_soil_type_rocky_earth: "terra rocciosa"

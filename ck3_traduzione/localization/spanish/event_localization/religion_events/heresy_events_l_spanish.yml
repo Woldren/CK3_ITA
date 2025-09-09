@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  heresy.0010.t:2 "Eresia: [heretic_faith.GetAdherentNamePluralNoTooltip] in [heretic_title.GetNameNoTierNoTooltip]"
  heresy.0010.desc:1 "[heretic_ruler.Custom('IT_NAM_COL3')|U][heretic_ruler.GetTitledFirstName] di [heretic_title.GetNameNoTier] ha annunciato al mondo che [heretic_ruler.GetSheHe] e i suoi vassalli si sono convertiti alla fede [heretic_faith.GetAdjective]."
  heresy.0010.desc.nonexistant:1 "\n\nDisillusi dagli insegnamenti dei preti di fede [origin_faith.GetAdjective], i nobili di [heretic_title.GetNameNoTierNoTooltip] non considerano più il clero come giusto e vero. In quanto [heretic_faith.GetAdherentNamePluralNoTooltip], essi credono che la loro nuova fede si allinei correttamente con il volere di [heretic_faith.HighGodName] e stanno prendendo le distanze dalle loro precedenti istituzioni religiose."

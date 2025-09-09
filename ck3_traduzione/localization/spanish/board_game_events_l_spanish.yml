@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  ##################################################
  # Misc
@@ -87,7 +87,7 @@
  board_games.0001.desc.opponent_winning.other.avlf:0 ""Voi siete un[bg_opponent.Custom('DE_PRO_POS_P_2P')] espert[bg_opponent.Custom('DE_END_PRO_S_N')] del gioco? Non adulatevi troppo, [bg_myself.GetFirstNameNoTooltip]. Non siete neppure un[bg_opponent.Custom('DE_PRO_POS_P_2P')] gioca[bg_opponent.Custom('DE_END_NOU_S_GS_N')].""
 
  ##################################################
- # Player Winning 
+ # Player Winning
  board_games.0001.desc.i_am_winning.diplomacy.low:0 ""Io non... non posso... Andateci piano con me!" urla [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')], chiaramente frustrato e incapace di trovare le parole giuste."
  board_games.0001.desc.i_am_winning.diplomacy.medium:0 "[bg_opponent.Custom('DE_ART_DEF_P_D')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')] non dice nulla, limitandosi a tamburellare le dita sul tavolo in preda alla rabbia."
  board_games.0001.desc.i_am_winning.diplomacy.high:0 ""Sembrerebbe," ringhia [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')], "che mi abbiate messo in una posizione di leggero svantaggio. Per ora.""
@@ -392,7 +392,7 @@
  ##################################################
  # Ending Events
  board_games.0031.t:0 "$board_games.0000.t$"
- 
+
 
  board_games.0031.desc.intro.01:0 "Con un ruggito di trionfo, mi alzo in piedi, sparpagliando [SCOPE.Custom('BG_GamePiecePlural')] ovunque."
  board_games.0031.desc.intro.02:0 "Con un sorriso compiaciuto, posiziono il mio ultimo [SCOPE.Custom('BG_GamePiece')] sulla scacchiera."
@@ -405,8 +405,8 @@
  board_games.0031.desc.end.01:0 "\n\nUn[bg_loser.Custom('DE_PRO_POS_P_2P')] desolat[bg_loser.Custom('DE_END_PRO_S_N')] [bg_loser.GetFirstName] rimane sedut[bg_loser.Custom('DE_END_PRO_S_N')], mani sui fianchi, cercando di capire dove abbia sbagliato."
  board_games.0031.desc.end.02:0 "\n\nDi [bg_loser.GetFirstName] non rimane altro che un'ombra dell[bg_loser.Custom('DE_PRO_PER_S_3P_N')][bg_loser.GetWomanMan] che era. [bg_loser.GetSheHe|U] non riesce a credere che io abbia vinto."
  board_games.0031.desc.end.03:0 "\n\n[bg_loser.GetFirstName] riesce a malapena a mantenere il controllo. L[bg_loser.Custom('DE_PRO_PER_S_3P_N')]ho battut[bg_loser.Custom('DE_END_PRO_S_N')] e umiliat[bg_loser.Custom('DE_END_PRO_S_N')]."
- 
- 
+
+
  board_games.0031.a:0 "Bella partita!"
  board_games.0031.a.a:0 "Un'ottima partita!"
  board_games.0031.b:0 "Cosa si prova a perdere, piccol[bg_loser.Custom('DE_END_PRO_S_N')] [bg_loser.GetWomanMan]?"
@@ -456,4 +456,3 @@
  board_games.0102.a:0 "Una partita normale, per favore."
  board_games.0102.b:0 "Solo l'avversario utilizza le locazioni vincenti, per favore."
  board_games.0102.c:0 "Solo l'avversario utilizza le locazioni perdenti, per favore."
- 

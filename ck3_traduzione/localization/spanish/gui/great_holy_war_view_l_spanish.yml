@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  GREAT_HOLY_WAR_WINDOW_TITLE:0 "[GreatHolyWar.GetName]"
  GREAT_HOLY_WAR_NAME:1 "[GREAT_HOLY_WAR.GetFaith.Custom('GHWName')] per [GREAT_HOLY_WAR.GetTargetTitle.GetBaseName]"
  GREAT_HOLY_WAR_NAME_NO_TOOLTIP: "[GREAT_HOLY_WAR.GetFaith.Custom('GHWName')] per [GREAT_HOLY_WAR.GetTargetTitle.GetBaseNameNoTooltip]" 
@@ -8,7 +8,7 @@
  GHW_ATTACKERS_VS_DEFENDERS:0 "[GreatHolyWar.GetAttackerStrength] vs [GreatHolyWar.GetDefenderStrength]"
  GHW_TT_ATTACKERS_VS_DEFENDERS:0 "#T $GHW_RELATIVE_STRENGTH$\n#!Totale [soldiers|E] Attaccanti : [GreatHolyWar.GetAttackerStrength]\nTotale Soldati Difensori: [GreatHolyWar.GetDefenderStrength]"
  GHW_RELATIVE_STRENGTH:0 "Forza Militare Relativa"
-# GHW_SEE_PARTICIPANTS:0 "Osserva Partecipanti"
+# GHW_SEE_PARTICIPANTS:0 "See Participants"
  GHW_WAR_CHEST_LABEL:0 "[war_chest|E]"
  pledge_attacker:0 "Unisciti alla [great_holy_war.GetFaith.Custom('GHWName')] per [great_holy_war.ghw_target_kingdom.GetName]"
  pledge_defender:0 "Opponiti alla [great_holy_war.GetFaith.Custom('GHWName')] per [great_holy_war.ghw_target_kingdom.GetName]"
@@ -36,7 +36,6 @@
  GHW_MY_BENEFICIARY:0 "Il mio [beneficiary|E]"
  GHW_MY_CONTRIBUTION:0 "Il mio [contribution|E]"
  GHW_TOGGLE_BENEFICIARY:1 "Preferito al Candidato Favorito"
-
  GHW_MAX_WARCHEST:0 "Max!"
  GHW_WARCHEST_SHARE:0 "[war_chest|E] Quota"
  GHW_SCORE:0 "Punteggio"
@@ -86,4 +85,3 @@
  ghw_heir_to_a_title:0 "È l'[heir|E] di un [title|E]"
  ghw_married_to_a_ruler:0 "È [married|E] con un [ruler|E]"
  ghw_devoted_to_their_faith: "È vincolato da impegni religiosi"
- 

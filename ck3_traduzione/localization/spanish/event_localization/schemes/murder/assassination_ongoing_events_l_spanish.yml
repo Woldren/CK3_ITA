@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  do_not_execute_assassination_tooltip:0 "Non tentare l'assassinio"
 
  assassination_ongoing.0001.t:0 "Simpatizzante Segret[secret_sympathizer.Custom('DE_END_PRO_S_N')]"

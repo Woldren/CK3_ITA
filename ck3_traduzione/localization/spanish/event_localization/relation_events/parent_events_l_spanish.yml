@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  parent_meddling_tt:0 "Mi[parent.Custom('DE_END_PRO_S_N')] [parent.Custom('MotherFather')] si aspetta di avere voce in capitolo nelle mie decisioni"
  parent_meddling_decrease_tt:0 "Mi[parent.Custom('DE_END_PRO_S_N')] [parent.Custom('MotherFather')] è content[parent.Custom('DE_END_PRO_S_N')] che io segua il suo consiglio"
  parent.1001.t:0 "Il Consiglio"

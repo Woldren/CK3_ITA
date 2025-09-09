@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  clan.1001.t:0 "Il Figlio promesso"
  clan.1001.desc:0 "[vassal.Custom('DE_ART_DEF_P_D')] [vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] e su[vassal_child.Custom('DE_END_PRO_S_N')] [vassal_child.Custom('GetDaughterSon')] [vassal_child.GetTitledFirstName] si avvicinano a me.\n\n"Non essere alleati è deplorevole mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Lasciate che [child.GetFirstName] sposi mi[vassal_child.Custom('DE_END_PRO_S_N')] [vassal_child.Custom('GetDaughterSon')] e sistemeremo le cose!""
  clan.1001.a:0 "Hai ragione, si sposeranno!"

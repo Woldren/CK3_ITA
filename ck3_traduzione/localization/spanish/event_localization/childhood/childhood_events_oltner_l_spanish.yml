@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  childhood.7000.t:0 "Prendere in giro [stolen_clothes.GetFirstNameNoTooltip]"
  childhood.7000.desc:0 "[stolen_clothes.Custom('DE_ART_DEF_P_D')] mi[stolen_clothes.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('stolen_clothes'))] [stolen_clothes.GetFirstName] sembra un po'... #EMP limitat[stolen_clothes.Custom('DE_END_PRO_S_N')],#! Direi! [stolen_clothes.Custom('DE_ART_IND_A')|U] prende le cose troppo sul serio, gestendo le questioni di corte giorno dopo giorno. Forse dovrei alleggerire un po' l'atmosfera?"\n\n"
  childhood.7000.desc_child:0 "So che [child_helper.GetFirstName] sarebbe disposto ad aiutarmi ad eseguire il mio #EMP piano subdolo#! se mi rivolgessi a [child_helper.GetSheHe].\n\n"
@@ -39,7 +39,6 @@
  death_horse:0 "è stat[child_to_annihilate.Custom('DE_END_PRO_S_N')] uccis[child_to_annihilate.Custom('DE_END_PRO_S_N')] da un cavallo imbizzarrito"
  death_camel:0 "è stat[child_to_annihilate.Custom('DE_END_PRO_S_N')] uccis[child_to_annihilate.Custom('DE_END_PRO_S_N')] da un cammello imbizzarrito"
  death_roof_tile:0 "La sua testa è stata spaccata da una tegola in caduta"
-
  childhood.7100.a:0 "C..cosa!? N... no!"
  childhood.7100.b:0 "...#DIE1 ha#!haHA! L'avete visto tutti!"
  childhood.7100.c:0 "Mah."
@@ -79,7 +78,6 @@
  childhood.7400.b:0 "[bodyguard.GetFirstNameNoTooltip], fagliela pagare!"
  childhood.7400.c:0 "Devi imparare ad essere gentile."
  every_parent_of_bully:0 "Ogni Genitore di [bully.GetFirstName]"
-
  
  childhood.7500.t:0 "Una storia del Passato"
  childhood.7500.desc:0 ""Avvicinati, ho una storia da raccontarti." Mi dice [guardian.Custom('DE_ART_DEF_P_A')] mi[guardian.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guardian'))] [guardian.GetTitledFirstName], facendomi cenno di avvicinarmi al falò.\n\n"
@@ -97,4 +95,3 @@
  childhood.7500.b:0 "#DIE2 ...z#!#DIE1 z#!...zZ"
  culture_tradition_events.2100.t:0 "Una Storia da Focolare."
  culture_tradition_events.2100.b:0 "Le tue storie mi fanno sempre sentire meglio, davvero."
-

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  sell_titles.0001.opening:0 "[vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
  sell_titles.0001.desc.dislike:0 "Non mi interessano le vuote promesse che stai vendendo, ma se hai un disperato bisogno di oro, credo che potremmo arrivare ad un accordo."
  sell_titles.0001.desc.normal:0 "Non cerco maggiori privilegi, mio [vassal.Custom2('RelationToMeShort', ROOT.Char)], ma se hai bisogno di oro, credo che potremmo arrivare a un accordo."

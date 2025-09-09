@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  steward_task.0001.t:0 "Contea De Jure Convinta"
  steward_task.0001.desc:0 "Oggi mi sono giunte notizie gravi: il popolo di [county.GetNameNoTier] reclama la sua appartenenza al/alla più grande e prestigioso/a [councillor_liege.GetPrimaryTitle.GetNameNoTierNoTooltip]!\n\nAmmaliati dalle promesse melliflue di [councillor.GetTitledFirstName] e sedotti dallo splendore della corte di [councillor_liege.GetTitledFirstNamePossessive], ora si aspettano che io ceda semplicemente la contea al mio vicino impiccione!\n\nDovrei valutare attentamente la mia prossima mossa. Perdere una terra non è mai l'ideale, ma la gente del posto sarà estremamente scontenta di me se non li lascio andare."
@@ -125,7 +125,7 @@
  steward_task.3103.desc:0 "È accaduto qualcosa di strano grazie agli sforzi di [councillor.GetTitledFirstNamePossessive] di introdurre coloni appartenenti alla cultura [ROOT.Char.GetCulture.GetName] [county.Custom('IT_COU_COL2')][county.GetNameNoTier].\n\nLa gente del posto sembra aver sviluppato una maggiore comprensione del loro ruolo nel reame, e quando giunge il tempo di combattere per esso, ogni villaggio fa ciò che può per mandare i suoi [ROOT.Char.Custom('LevyMenWomen')] migliori. Infatti, alcuni contadini si arruolano volontariamente!"
  steward_task.3103.a:0 "Ora ho visto di tutto."
  steward_task.3103.notification:0 "Reclute Volontarie della cultura [ROOT.Char.GetCulture]"
- 
+
  steward_task.3201.notification:0 "Aumento dell'Autonomia"
  steward_task.3202.notification:0 "Concessa l'Esenzione Fiscale per la Cultura"
  steward_task.3203.notification:0 "Protezione delle Tradizioni Arcaiche"

@@ -1,11 +1,11 @@
-﻿l_spanish:
+l_spanish:
  target_tier_title: "[recipient.GetSheHe|U] è un[recipient.Custom('DE_PRO_POS_P_2P')] [recipient.GetTitleTierName]"
  your_piety_level: "Il tuo [piety_level|E]"
 
 
  promised_to_not_convert_character: "Hai promesso di non convertire [recipient.Custom('IT_NAM_COL3')][recipient.GetShortUIName] fino al [GetCurrentDateWithDiff( GetVarTimeRemaining( recipient.MakeScope, 'cannot_be_converted_by_value') )]"
  promised_to_not_convert_county: "Hai promesso di non convertire [county.Custom('IT_COU_COL4')][county.GetName] fino al [GetCurrentDateWithDiff( GetVarTimeRemaining( recipient.MakeScope, 'cannot_be_converted_by_value') )]"
- #For translators, all the antagonize stuff should be deleted before it reaches you. But if it does not, let us know. - Hugo
+ # For translators, all the antagonize stuff should be deleted before it reaches you. But if it does not, let us know. - Hugo
  fp3_antagonize_character_interaction: "Influenza un Personaggio"
  fp3_antagonize_character_interaction_desc: "Tenta di influenzare l'opinione [recipient.Custom('IT_NAM_COL2')][recipient.GetShortUINameNoTooltip] riguardo un altro personaggio"
  generic_struggle_interaction_highlight_reason_phase: "Questa [interaction|E] è evidenziata perché è vantaggiosa per la [struggle_phase|E] attuale"

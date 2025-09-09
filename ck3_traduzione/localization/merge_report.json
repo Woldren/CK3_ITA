@@ -1,0 +1,449 @@
+{
+  "new_files": {
+    "spanish\\activities": [
+      "coronation_activity_l_spanish.yml",
+      "coronation_events_1_l_spanish.yml"
+    ],
+    "spanish\\custom_localization": [
+      "ach_custom_loc_l_spanish.yml"
+    ],
+    "spanish\\dlc\\ach": [
+      "dlc_ach_coronation_events_6_l_spanish.yml",
+      "dlc_ach_coronation_events_klank_l_spanish.yml",
+      "dlc_ach_coronation_prelude_events_l_spanish.yml",
+      "dlc_ach_game_concepts_l_spanish.yml",
+      "dlc_ach_guest_intent_coronation_events_l_spanish.yml",
+      "dlc_ach_yearly_events_l_spanish.yml"
+    ],
+    "spanish\\event_localization\\activities": [
+      "coronation_events_l_spanish.yml",
+      "feast_default_events_alex_l_spanish.yml",
+      "feast_default_events_axel_l_spanish.yml",
+      "feast_default_events_jason_l_spanish.yml",
+      "feast_default_events_joe_l_spanish.yml",
+      "feast_events_klank_l_spanish.yml",
+      "feast_events_mkc_l_spanish.yml"
+    ],
+    "spanish\\modifiers": [
+      "activity_coronation_modifiers_l_spanish.yml"
+    ]
+  },
+  "moved_files": [],
+  "deleted_files": [],
+  "added_keys": {
+    "spanish\\artifacts\\artifacts_l_spanish.yml": [
+      921
+    ],
+    "spanish\\buildings_l_spanish.yml": [
+      "1734-1788"
+    ],
+    "spanish\\court_positions_2_l_spanish.yml": [
+      80
+    ],
+    "spanish\\credits\\credits_l_spanish.yml": [
+      297
+    ],
+    "spanish\\culture\\traditions\\cultural_traditions_l_spanish.yml": [
+      "1267-1273"
+    ],
+    "spanish\\custom_localization\\incidental_detail_l_spanish.yml": [
+      "8-11",
+      "19-22"
+    ],
+    "spanish\\custom_localization\\personality_quirks_l_spanish.yml": [
+      31,
+      109,
+      186,
+      260,
+      336
+    ],
+    "spanish\\custom_localization\\pet_custom_loc_l_spanish.yml": [
+      71
+    ],
+    "spanish\\death_reasons_l_spanish.yml": [
+      "374-375"
+    ],
+    "spanish\\debug_l_spanish.yml": [
+      176,
+      "181-182",
+      204,
+      213,
+      503
+    ],
+    "spanish\\decision_group_types_l_spanish.yml": [
+      15
+    ],
+    "spanish\\dlc\\ep1\\dlc_ep1_custom_loc_l_spanish.yml": [
+      "15-16",
+      81,
+      "96-101"
+    ],
+    "spanish\\dlc\\ep1\\dlc_ep1_fund_inspiration_events_l_spanish.yml": [
+      "11-12",
+      "135-147",
+      "151-153",
+      "212-213",
+      980
+    ],
+    "spanish\\dlc\\ep1\\dlc_ep1_inspirations_l_spanish.yml": [
+      "57-58",
+      67
+    ],
+    "spanish\\dlc\\ep2\\dlc_ep2_activity_guest_join_chance_modifiers_l_spanish.yml": [
+      "133-136"
+    ],
+    "spanish\\dlc\\ep2\\tour\\tour_events_veronica_l_spanish.yml": [
+      200
+    ],
+    "spanish\\dlc\\ep2\\travel\\dlc_ep2_travel_l_spanish.yml": [
+      17
+    ],
+    "spanish\\dlc\\ep3\\ep3_governor_yearly_3_l_spanish.yml": [
+      223
+    ],
+    "spanish\\dlc\\ep3\\ep3_schemes_l_spanish.yml": [
+      295
+    ],
+    "spanish\\dlc\\fp3\\dlc_fp3_clan_unity_l_spanish.yml": [
+      227
+    ],
+    "spanish\\dlc\\mpo\\dlc_mpo_game_concepts_l_spanish.yml": [
+      11
+    ],
+    "spanish\\dlc\\mpo\\mpo_decisions_l_spanish.yml": [
+      642
+    ],
+    "spanish\\dlc_l_spanish.yml": [
+      38,
+      "79-80"
+    ],
+    "spanish\\effects_l_spanish.yml": [
+      2035
+    ],
+    "spanish\\event_localization\\activities\\activities_l_spanish.yml": [
+      213,
+      226
+    ],
+    "spanish\\event_localization\\activities\\activity_pulse_actions_l_spanish.yml": [
+      "80-109"
+    ],
+    "spanish\\event_localization\\activities\\feast_events_l_spanish.yml": [
+      "170-192"
+    ],
+    "spanish\\event_localization\\court_events\\court_events_oltner_l_spanish.yml": [
+      "76-84",
+      89,
+      93
+    ],
+    "spanish\\factions_l_spanish.yml": [
+      337
+    ],
+    "spanish\\game_concepts_l_spanish.yml": [
+      158,
+      326,
+      720,
+      879
+    ],
+    "spanish\\game_rules_l_spanish.yml": [
+      "998-1004"
+    ],
+    "spanish\\gui\\activity_list_window_l_spanish.yml": [
+      72
+    ],
+    "spanish\\gui\\activity_planner_l_spanish.yml": [
+      40,
+      56
+    ],
+    "spanish\\gui\\characterinteractionwindow_l_spanish.yml": [
+      10
+    ],
+    "spanish\\gui\\event_window_l_spanish.yml": [
+      8,
+      19,
+      67,
+      84,
+      "117-118"
+    ],
+    "spanish\\gui\\schemewindow_l_spanish.yml": [
+      242,
+      "458-459"
+    ],
+    "spanish\\gui\\specialinteractions_l_spanish.yml": [
+      440,
+      "608-618"
+    ],
+    "spanish\\gui\\title_view_l_spanish.yml": [
+      47
+    ],
+    "spanish\\hook_types_l_spanish.yml": [
+      "31-32"
+    ],
+    "spanish\\important_actions_l_spanish.yml": [
+      "976-1048"
+    ],
+    "spanish\\interactions_l_spanish.yml": [
+      736,
+      "1199-1202"
+    ],
+    "spanish\\memories_l_spanish.yml": [
+      "100-102",
+      541,
+      "1372-1507"
+    ],
+    "spanish\\my_realm_window_l_spanish.yml": [
+      19
+    ],
+    "spanish\\opinions\\general_opinions_l_spanish.yml": [
+      "123-128",
+      "367-371"
+    ],
+    "spanish\\portraits\\portrait_modifiers_l_spanish.yml": [
+      622,
+      638,
+      1323
+    ],
+    "spanish\\relationship_reasons_l_spanish.yml": [
+      554,
+      729,
+      814,
+      "1097-1098",
+      "2185-2260"
+    ],
+    "spanish\\struggles\\struggle_catalysts_l_spanish.yml": [
+      "246-251"
+    ],
+    "spanish\\titles_l_spanish.yml": [
+      16293
+    ]
+  },
+  "deleted_keys": {
+    "spanish\\adventurer_name_sections_l_spanish.yml": [
+      "vault"
+    ],
+    "spanish\\core_l_spanish.yml": [
+      "SCOPE_ARTIFACT"
+    ],
+    "spanish\\custom_localization\\conversation_subjects_l_spanish.yml": [
+      "l_spanish"
+    ],
+    "spanish\\dynasties\\dynasty_names_l_spanish.yml": [
+      "dynn_Asperger"
+    ],
+    "spanish\\gui\\character_window_l_spanish.yml": [
+      "CV_TAB_VASSALS"
+    ],
+    "spanish\\gui\\dynasty_view_l_spanish.yml": [
+      "DYNASTY_VIEW_SHOW_PERK_COST"
+    ],
+    "spanish\\modifiers\\modifiers_l_spanish.yml": [
+      "MOD_LEGITIMACY_BASE"
+    ],
+    "spanish\\religion\\religion_paganism_l_spanish.yml": [
+      "l_spanish"
+    ],
+    "spanish\\titles_l_spanish.yml": [
+      "b_bamiyan"
+    ],
+    "spanish\\tutorial\\ep1_tutorial_reactive_l_spanish.yml": [
+      "lessons_ep1_should_form_hybrid_culture"
+    ]
+  },
+  "modified_keys": {
+    "spanish\\activities\\hunt_activity_l_spanish.yml": {
+      "activity_every_attendee_tt": 152
+    },
+    "spanish\\activities\\journey_activity_l_spanish.yml": {
+      "apa_spotted_by_locals_key": 93,
+      "apa_ate_local_food_key": 102
+    },
+    "spanish\\contracts\\task_contracts_l_spanish.yml": {
+      "ep3_contract_event.0565.desc.critsuccess": 764
+    },
+    "spanish\\council_l_spanish.yml": {
+      "councillor_leaving_court_marriage_notification": 312
+    },
+    "spanish\\culture\\traditions\\cultural_traditions_l_spanish.yml": {
+      "culture_parameter_estate_building_upgrade_development_gain": 1281
+    },
+    "spanish\\custom_localization\\ce1_custom_loc_l_spanish.yml": {
+      "GetRandomExteriorDetail_singing": 5
+    },
+    "spanish\\custom_localization\\lifestyle_custom_loc_l_spanish.yml": {
+      "LifestyleFocus_diplomacy": 2
+    },
+    "spanish\\custom_localization\\regional_custom_loc_l_spanish.yml": {
+      "curse_mortecouille": 300
+    },
+    "spanish\\decisions_l_spanish.yml": {
+      "ALREADY_IN_ACTIVITY_THIRD_NOT": 5
+    },
+    "spanish\\dlc\\ep1\\dlc_ep1_fund_inspiration_events_l_spanish.yml": {
+      "fund_inspiration.0011.tooltip_axe.tt": 24,
+      "fund_inspiration.0011.tooltip_dagger.tt": 26,
+      "fund_inspiration.0011.tooltip_hammer.tt": 28,
+      "fund_inspiration.0011.tooltip_mace.tt": 30,
+      "fund_inspiration.0011.tooltip_spear.tt": 32,
+      "fund_inspiration.0011.tooltip_sword.tt": 34,
+      "fund_inspiration.7100.a.tt": 1006,
+      "fund_inspiration.7100.b.tt": 1008,
+      "fund_inspiration.7100.c.tt": 1010,
+      "fund_inspiration.7100.d.tt": 1012,
+      "fund_inspiration.7100.e.tt": 1014,
+      "fund_inspiration.7110.a.tt": 1017,
+      "fund_inspiration.7110.b.tt": 1019,
+      "fund_inspiration.7110.c.tt": 1021,
+      "fund_inspiration.7110.d.tt": 1023,
+      "fund_inspiration.7110.e.tt": 1025,
+      "fund_inspiration.7110.g.tt": 1027
+    },
+    "spanish\\dlc\\ep2\\tour\\tour_events_veronica_l_spanish.yml": {
+      "available_because_intent_tt": 219
+    },
+    "spanish\\dlc\\ep2\\tournament\\dlc_ep2_tournament_l_spanish.yml": {
+      "tournament_guest_ptv_small_title": 867,
+      "tournament_acclaimed_participant_title": 868,
+      "tournament_entry_fee_title": 869,
+      "tournament_win_memory_title": 870,
+      "tournament_studied_techniques_title": 871,
+      "tournament_knight_skill_title": 872,
+      "tournament_learned_from_knight_title": 873,
+      "tournament_game_of_rhetoric_title": 874,
+      "tournament_equipment_improved_title": 875,
+      "tournament_relaxed_in_tavern_title": 876,
+      "tournament_explored_village_title": 877,
+      "tournament_prayed_temple_title": 878,
+      "tournament_host_feted_title": 881,
+      "tournament_host_gifted_title": 882,
+      "tournament_tilting_demonstration_title": 883,
+      "tournament_archery_arrow_split_title": 884,
+      "tournament_recital_successful_verse_title": 885,
+      "tournament_joust_lance_broken_title": 886,
+      "tournament_joust_unhorsed_title": 887,
+      "tournament_horse_stumbles_title": 888
+    },
+    "spanish\\dlc\\ep3\\ep3_emperor_yearly_3_l_spanish.yml": {
+      "KYRIE_ELEISON_GLOSS": 39
+    },
+    "spanish\\dlc\\ep3\\ep3_governor_yearly_3_l_spanish.yml": {
+      "ep3_governor_yearly.3060.t": 235,
+      "ep3_governor_yearly.3060.desc_temple": 239
+    },
+    "spanish\\dlc\\mpo\\mpo_decisions_l_spanish.yml": {
+      "mpo_decisions_events.0005.desc": 701
+    },
+    "spanish\\dlc\\mpo\\mpo_interactions_l_spanish.yml": {
+      "mpo_interactions_events.0101.desc_forder": 300
+    },
+    "spanish\\effects_l_spanish.yml": {
+      "DYNASTY_GAINS_PRESTIGE_LEVEL_EFFECT": 1534,
+      "DYNASTY_LOSES_PRESTIGE_LEVEL_EFFECT": 1535,
+      "INCREASE_CULTURAL_ACCEPTANCE": 1643,
+      "REDUCE_CULTURAL_ACCEPTANCE": 1644
+    },
+    "spanish\\event_localization\\activities\\activity_system_l_spanish.yml": {
+      "activity_system.0310.desc.intro": 82,
+      "activity_system.0320.desc": 87
+    },
+    "spanish\\event_localization\\activities\\feast_default_events_l_spanish.yml": {
+      "feast_default.2007.desc": 239,
+      "feast_default.2007.a_lustful": 241
+    },
+    "spanish\\event_localization\\activities\\feast_events_l_spanish.yml": {
+      "feast.2001.desc_gregarious": 58
+    },
+    "spanish\\event_localization\\activities\\hunt_events_l_spanish.yml": {
+      "hunt_header": 119
+    },
+    "spanish\\event_localization\\councillor_task_events\\councillor_spouse_events\\councillor_spouse_learning_events_l_spanish.yml": {
+      "councillor_spouse_learning.1601.desc": 17
+    },
+    "spanish\\event_localization\\court_events\\court_events_oltner_l_spanish.yml": {
+      "court_maintenance.0011.desc": 83,
+      "court_maintenance.0011.a.tooltip": 94,
+      "court_maintenance.0011.b.tooltip": 96,
+      "court_maintenance.0011.banner_tooltip": 98
+    },
+    "spanish\\event_localization\\realm_maintenance_events_l_spanish.yml": {
+      "realm_maintenance.2001.desc_murdered": 27,
+      "realm_maintenance.2001.desc_dead": 28
+    },
+    "spanish\\event_localization\\travel_events\\travel_danger_events_joe_l_spanish.yml": {
+      "travel_danger_events.6000.failure_root": 25
+    },
+    "spanish\\gui\\event_window_l_spanish.yml": {
+      "EVENT_WINDOW_OPTION_AVAILABLE_ACTIVITY_INTENT": 8
+    },
+    "spanish\\gui\\title_view_l_spanish.yml": {
+      "CREATE_TITLE_TEXT": 47,
+      "CREATE_TITLE_TOOLTIP_GAIN": 67
+    },
+    "spanish\\laws_l_spanish.yml": {
+      "PASS_LAW_TITLE_DEFAULT": 4
+    },
+    "spanish\\legitimacy_l_spanish.yml": {
+      "LEGITIMACY_TRACK_TITLE": 31
+    },
+    "spanish\\memories_l_spanish.yml": {
+      "ganged_up_on_three_memory_desc": 168,
+      "ganged_up_on_three_memory_desc_second_perspective": 169,
+      "ganged_up_on_three_memory_desc_third_perspective": 170,
+      "ganged_up_on_four_memory_desc": 171,
+      "ganged_up_on_four_memory_desc_second_perspective": 172,
+      "ganged_up_on_four_memory_desc_third_perspective": 173,
+      "stopped_being_rivals_desc": 507,
+      "stopped_being_rivals_desc_second_perspective": 508,
+      "stopped_being_rivals_desc_third_perspective": 509,
+      "ascended_throne_memory": 634,
+      "developed_crush": 1110,
+      "became_acclaimed": 1231,
+      "accolade_created": 1236,
+      "accolade_ranked_up": 1246,
+      "byz_held_triumph_desc": 1294,
+      "byz_held_triumph_desc_second_perspective": 1295,
+      "byz_held_triumph_desc_third_perspective": 1296,
+      "became_blood_brother": 1434
+    },
+    "spanish\\opinions\\general_opinions_l_spanish.yml": {
+      "kindness_opinion": 86
+    },
+    "spanish\\relationship_reasons_l_spanish.yml": {
+      "best_friend_helped_pen_memory": 66,
+      "best_friend_helped_pen_memory_corresponding": 67,
+      "lover_varangian_local": 629,
+      "lover_varangian_local_corresponding": 630,
+      "rival_humiliated_at_nerge_corresponding": 3233
+    }
+  },
+  "removed_malformed": {
+    "spanish\\portraits\\portrait_modifiers_l_spanish.yml": [
+      {
+        "line": 1031,
+        "text": " P PORTRAIT_MODIFIER_custom_special_male_headgear_special_head_bandage_01:0 \"Benda sulla Testa\""
+      }
+    ],
+    "spanish\\relationship_reasons_l_spanish.yml": [
+      {
+        "line": 765,
+        "text": " rival_no_longer_ nemesis_corresponding:0 \"[TARGET_CHARACTER.GetTitledFirstName|U] era [Select_CString(TARGET_CHARACTER.IsFemale,'la Nemica giurata','il Nemico giurato')] di [CHARACTER.GetTitledFirstName].\""
+      },
+      {
+        "line": 1028,
+        "text": " rival_house_feud_no_longer_ nemesis_corresponding:1 \"[TARGET_CHARACTER.GetTitledFirstName|U] ha smesso di considerare [CHARACTER.GetTitledFirstName] un nemico giurato dopo la fine della faida tra Casa [CHARACTER.GetDynastyHouseName] e Casa [TARGET_CHARACTER.GetDynastyHouseName].\""
+      },
+      {
+        "line": 1157,
+        "text": " nemesis_rival_gains_ nemesis_corresponding:0 \"[TARGET_CHARACTER.GetTitledFirstName|U] ha ricevuto una lettera insultante da [CHARACTER.GetTitledFirstName], sebbene fosse originariamente destinata a [TARGET_CHARACTER_2.GetTitledFirstName].\""
+      }
+    ],
+    "spanish\\titles_l_spanish.yml": [
+      {
+        "line": 6311,
+        "text": " b_mansa'l-kharaz:0 \"Mansa'l-Kharaz\""
+      },
+      {
+        "line": 19755,
+        "text": " b_ka'abir:0 \"Ka'abir\""
+      }
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  mystic_lifestyle_communion_header:0 "Comunione mistica: "
  mystic_lifestyle.1001.t:0 "$mystic_lifestyle_communion_header$Disapprovazione"
  mystic_lifestyle.1001.desc:0 "I preparativi per la mia mistica comunione erano ben avviati quando [SCOPE.sC('priest').Custom2('MyCharacterIntroduction', ROOT.Char )] si avvicina a me.\n\n"Non credo che quello che stai facendo sia del tutto... ortodosso," mi dice. "Un buon [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] si asterrebbe da questo tipo di comportamento.""

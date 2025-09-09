@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  sway_ongoing.1001.t:0 "Influenza: Cultura [target.GetCulture.GetNameNoTooltip]"
  sway_ongoing.1001.desc:2 "Un[target.Custom('DE_PRO_POS_P_2P')] plebe[target.Custom('DE_END_PRO_S_N')] di origine [target.GetCulture.GetNameNoTooltip] è stato fermat[target.Custom('DE_END_PRO_S_N')] per le strade di [capital.GetNameNoTooltip] per un'offesa di poco conto.\n\nFacendo una dichiarazione in sua difesa forse potrei riuscire a convincere [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)],  anch'ess[target.Custom('DE_END_PRO_S_N')] di cultura  [target.GetCulture.GetNameNoTooltip], del mio buon carattere, ma potrei rischiare di alienare i [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] miei pari..."
  sway_ongoing.1001.a:1 "[target.GetCulture.GetCollectiveNounNoTooltip], davvero delle brave persone."

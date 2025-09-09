@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # Ethoses
  ethos_bellicose_name:0 "Bellicoso"
  ethos_bellicose_desc:1 "Questa cultura considera il conflitto e la violenza come condizioni necessarie dell'esistenza; nel suo popolo è radicata l'idea che si debba resistere e combattere per se stessi."
@@ -313,8 +313,8 @@
  tradition_caucasian_wolves_desc:0 "Avendo vissuto per secoli intorno alla regione del Caucaso, questa cultura si è adattata a tutto ciò che la guerra di montagna comporta."
  tradition_artisans_name:0 "Artigiani Esperti"
  tradition_artisans_desc:0 "I bambini in questa cultura spesso portano avanti la professione dei loro genitori, accumulando vaste conoscenze e abilità attraverso le generazioni."
- 
-  # Debug Traditions
+
+ # Debug Traditions
  tradition_debug_name:0 "Attitudine Volubile"
  tradition_debug_desc:0 "Questa cultura è nota per le sue numerose posizioni eclettiche e contradditorie."
 
@@ -512,7 +512,7 @@
  culture_parameter_more_parochial_vassals:0 "I $parochial_vassals$ sono più comuni"
  culture_parameter_byzantine_faction_differences:0 "I [vassals|E] di questa [culture|E] sono meno inclini a unirsi alle [dissolution_factions|E] contro il [holder|E] del #V $e_byzantium$#!"
  culture_parameter_byzantine_faction_preffered_claimants:0 "I [vassals|E] di questa [culture|E] sono più inclini a unirsi alle [claimant_factions|E] contro il [holder|E] del #V $e_byzantium$#! se non sono il [preferred_heir|E]"
- 
+
  culture_parameter_blindness_blocks_inheritance:0 "Personaggi con il tratto [GetTrait('blind').GetName( GetNullCharacter )] non possono ereditare [titles|E]"
  culture_parameter_merciful_blinding:1 "Usare l'[interaction|E] '$blind_interaction$' sui [criminals|E] su cui hai una [banish_reason|E] o una [execute_reason|E], fornisce [piety_i][piety|E]"
  culture_parameter_can_make_republican_vassals:1 "I [rulers|E] di questa [culture|E] possono nominare fino a #V [EmptyScope.ScriptValue('republican_vassal_interaction_limit')|0]#! [counts|E] come supervisori locali di una città, trasformandoli in [vassals|E] di tipo [republican|E]"
@@ -575,7 +575,7 @@
  watermills_forestries_unlock_name: "#V $tradition_forest_wardens_name$#!"
  windmills_hill_farms_unlock_name: "#V $tradition_hill_dwellers_name$#!"
  second_caravanserai_name: "#V $tradition_caravaneers_name$#!"
-
+ 
 ### Decision loc
  recruit_terrain_specialist_decision: "Recluta uno Specialista di Terreni"
  CHOOSE_TERRAIN_SPECIALIST_DECISION_NEXT_STEP_BUTTON: "Scegli uno Specialista di Terreni"
@@ -800,7 +800,7 @@
  culture_parameter_craven_trait_costs_prestige:1 "Il [trait|E] [GetTrait('craven').GetName(GetNullCharacter)] riduce mensilmente il [prestige_i][prestige|E]"
  culture_parameter_blademaster_traits_give_learning:1 "Il [trait|E] [GetTrait('lifestyle_blademaster').GetName(GetNullCharacter)] fornisce [learning|E]"
 
- # Triggers e Tooltips
+ # Triggers and Tooltips
  CULTURE_IS_NOT_PRESENT_IN_REALM_FOR_HYBRIDIZATION:0 "La [culture|E] bersaglio #bold non#! è presente in almeno una [county|E] del tuo reame"
  CULTURE_IS_PARENT_CULTURE:0 "La tua [culture|E] è derivata dalla Cultura bersaglio"
  CULTURE_IS_CHILD_CULTURE:0 "La [culture|E] bersaglio è derivata dalla tua Cultura"
@@ -837,8 +837,8 @@
  
  culture_in_winter_geographical_region_trigger_desc:0 "La [culture|E] non è presente in una [region|E] con l'inverno"
  culture_in_non_sedentary_geographical_region_trigger_desc:0 "La [culture|E] non è presente in [GetGeographicalRegion('world_steppe').GetName]"
- #culture_in_britannia_region_trigger_desc: "La [culture|E] non è presente in [GetGeographicalRegion('world_europe_west_britannia').GetName]"
- #culture_in_world_europe_north_region_trigger_desc: "La [culture|E] non è presente in [GetGeographicalRegion('world_europe_north').GetName]"
+ #culture_in_britannia_region_trigger_desc: "The [culture|E] is not present in [GetGeographicalRegion('world_europe_west_britannia').GetName]"
+ #culture_in_world_europe_north_region_trigger_desc: "The [culture|E] is not present in [GetGeographicalRegion('world_europe_north').GetName]"
  culture_in_india_region_trigger_desc:0 "La [culture|E] non è presente in [GetGeographicalRegion('world_india').GetName]"
  culture_in_roman_empire_desc:0 "La [culture|E] non ha il #V 50#! delle sue [counties|E] in [GetGeographicalRegion('custom_eastern_roman_empire').GetName]"
  culture_in_camel_region_desc:0 "La [culture|E] non è presente in [GetGeographicalRegion('world_innovation_camels').GetName]"
@@ -893,7 +893,7 @@
  not_spiritual_or_egalitarian_desc:0 "La [culture|E] non ha l'[ethos|E] $ethos_spiritual_name$ o $ethos_egalitarian_name$"
  requires_tribal_or_clan_government_trigger:0 "Non hai un [tribal_government|E] o [clan_government|E]"
  not_stoic_or_courtly_desc:0 "La [culture|E] non ha gli [ethos|E] $ethos_stoic_name$ o $ethos_courtly_name$"
- 
+
  # Triple lines.
  turkic_or_mongolic_and_capital_in_steppe_trigger:0 "La [culture|E] deve avere un [heritage|E] Turco o Mongolo, o la tua capitale deve essere nella Steppa"
  ## Bellicose.
@@ -919,12 +919,13 @@
  not_bureaucratic_courtly_or_spiritual_desc:0 "La [culture|E] non ha l'[ethos|E] $ethos_bureaucratic_name$, $ethos_courtly_name$ or $ethos_spiritual_name$"
  culture_parameter_can_adopt_administrative_government_as_kingdom_tier: "[SelectLocalization( HasDlcFeature( 'royal_court' ), 'can_adopt_administrative_government_as_kingdom_tier_text', '' )]"
  can_adopt_administrative_government_as_kingdom_tier_text: "I sovrani possono adottare la tipologia di [government|E] [administrative|E] sia da [king|E] che da [emperors|E]"
- 
+
  ## Spiritual.
  culture_parameter_ethos_spiritual_better_consult_the_skies: "[SelectLocalization( HasDlcFeature( 'khans_of_the_steppe' ), 'ethos_spiritual_better_consult_the_skies_effects', '' )]"
  ethos_spiritual_better_consult_the_skies_effects: "$mpo_divination_decision$ [decision|E] ha effetti aggiuntivi"
  culture_parameter_ethos_spiritual_better_court_astrologers: "[SelectLocalization( HasDlcFeature( 'khans_of_the_steppe' ), 'ethos_spiritual_better_court_astrologers_effects', '' )]"
  ethos_spiritual_better_court_astrologers_effects: "[characters|E] of this [culture|E] ha un'[aptitude|E] aumentata per la posizione $court_astrologer_court_position$"
+
 
  ## Courtly.
  not_courtly_communal_or_spiritual_desc:1 "La [culture|E] non ha l'[ethos|E] $ethos_courtly_name$, $ethos_communal_name$ o $ethos_spiritual_name$"
@@ -934,6 +935,7 @@
  ## Egalitarian.
  not_egalitarian_stoic_or_bureaucratic_desc:1 "La [culture|E] non ha l'[ethos|E] $ethos_egalitarian_name$, $ethos_stoic_name$ o $ethos_bureaucratic_name$"
  not_egalitarian_or_courtly_desc:0 "La [culture|E] non ha l'[ethos|E] $ethos_egalitarian_name$ o $ethos_courtly_name$"
+ 
 
 
  ## Communal.
@@ -1077,7 +1079,7 @@
 
  culture_not_female_only_tt:1 "La tua cultura ha una [tradition|E] che permette la [succession|E] [GetLaw('female_only_law').GetName] e la tua [faith|E] non ha la [doctrine|E] [GetFaithDoctrine('doctrine_gender_male_dominated').GetBaseName]"
  culture_not_male_only_tt:0 "La tua cultura ha una [tradition|E] che permette la [succession|E] [GetLaw('male_only_law').GetName] e la tua [faith|E] non ha la [doctrine|E] [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]"
-  
+ 
  female_only_law_faith_or_culture_trigger:0 "La tua [faith|E] non ha la [doctrine|E] [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] e la tua [culture|E] non ha una [culture_tradition|E] che permette la legge [GetLaw('female_only_law').GetName]"
  male_only_law_faith_or_culture_trigger:0 "La tua [faith|E] non ha la [doctrine|E] [GetFaithDoctrine('doctrine_gender_male_dominated').GetBaseName] e la tua [culture|E] non ha una [culture_tradition|E] che permette la legge [GetLaw('male_only_law').GetName]"
  female_preference_law_faith_or_culture_trigger:0 "La tua [faith|E] non ha le [doctrines|E] [GetFaithDoctrine('doctrine_gender_equal').GetBaseName] o [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] e la tua [culture|E] non ha una [culture_tradition|E] che permette la legge [GetLaw('female_preference_law').GetName]"
@@ -1101,7 +1103,7 @@
  lacks_blacksmiths_buildings_desc:0 "La [culture|E] non ha la linea di [duchy_buildings|E] #high $building_type_blacksmiths_01$#!costruita in una delle sue [counties|E]"
  lacks_royal_armory_buildings_desc:0 "La [culture|E] non ha la linea di [duchy_buildings|E] #high $building_type_royal_armory_01$#! costruita in una delle sue [counties|E]"
  has_a_special_mine_desc:0 "La [culture|E] non ha un [special_building|E] Miniera in nessuna delle sue [counties|E]"
- #has_courtier_or_guest_with_inspiration_desc: "La [culture|E] non ha at least #V 3#! [rulers|E] who has a [character|E] with (or had) an [inspiration|E] in their [court|E]"
+ #has_courtier_or_guest_with_inspiration_desc: "The [culture|E] does not have at least #V 3#! [rulers|E] who has a [character|E] with (or had) an [inspiration|E] in their [court|E]"
  has_courtier_or_guest_with_inspiration_desc:0 "La [culture|E] non ha almeno #V 3#! [courts|E] con un [character|E] che ha o ha avuto un'[inspiration|E]"
 
  
@@ -1209,7 +1211,7 @@
  culture_tradition_events.0141.b.tt.success:0 "Tu illumini [mendicant_mystic.GetFirstNameNoTooltip]"
  culture_tradition_events.0141.b.tt.failure:0 "Rimanete in disaccordo"
  culture_tradition_events.0141.c:0 "Quanti soldati ha il tuo [mendicant_mystic.GetFaith.HighGodName]?"
- 
+
  #EP2 Traditions
  tradition_ep2_avid_falconers_name:0 "Appassionati Falconieri"
  tradition_ep2_avid_falconers_desc:0 "L'arte di allevare, addestrare e cacciare con rapaci come i falchi e i falconi è uno dei passatempi più prestigiosi della élite di questa cultura."
@@ -1222,6 +1224,7 @@
  culture_parameter_drylands_hunt_success_chance:0 "Incremento della [hunt_success_chance|E] in [GetTerrain( 'drylands' ).GetName] e [GetTerrain( 'desert' ).GetName]"
  culture_parameter_jungle_hunt_success_chance:0 "Incremento della [hunt_success_chance|E] in [GetTerrain( 'jungle' ).GetName]"
  culture_parameter_wetlands_hunt_success_chance:0 "Incremento della [hunt_success_chance|E] in [GetTerrain( 'wetlands' ).GetName] e [GetTerrain( 'floodplains' ).GetName]"
+ 
  can_host_joust_contests_name:0 "[GetCultureTradition('tradition_chanson_de_geste').GetName] o [GetCultureTradition('tradition_chivalry').GetName]"
  
  #CE1 Traditions
@@ -1235,7 +1238,8 @@
  culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC: ""
  culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC: "I [rulers|E] di questa [culture|E] possono sempre costruire un $building_type_legendary_hunting_lodge$ dopo aver completato una [legend|E]" 
  culture_parameter_less_plague_spread_culture: "I [characters|E] di questa [culture|E] hanno una probabilità più alta che le [epidemics|E] non si diffondano nelle loro terre"
-  
+ 
+
  #BP2 Traditions
  tradition_noble_adoption_name:0 "Adozione Nobiliare"
  tradition_noble_adoption_desc:0 "L'adozione di bambini orfani in case nobiliari è una prassi comune in questa società. Il sangue dell'alleanza è più denso dell'acqua dell'utero."
@@ -1274,7 +1278,7 @@
  capital_province_development_level_desc: "Il [culture_head|E] della capitale non ha uno [county_development|E] pari a #high 30#! o maggiore"
 
  culture_parameter_other_cultures_more_likely_to_hybridize: "I [rulers|E] di una [culture|E] differente hanno maggiori probabilità di [hybridize|E] con questa [culture|E]"
- culture_parameter_estate_building_upgrade_development_gain: "Costruire o migliorare gli [estate_buildings|E] fornisce #P [EmptyScope.ScriptValue('cultivated_sophistication_development_gain')|=+0]#! all'[development_growth|E] alla [county|E] della [estate|E]"
+ culture_parameter_estate_building_upgrade_development_gain: "Costruire o migliorare gli [estate_buildings|E] fornisce #P [EmptyScope.ScriptValue('cultivated_sophistication_development_gain')|=+0]#! all'[development_growth|E] alla [county|E] della [estate|E]" #controllare_modifica
 
  tradition_ep3_cultivated_sophistication_name: "Raffinatezza Coltivata"
  tradition_ep3_cultivated_sophistication_desc: "I barbari guardano con invidia i lussi splendenti di questa cultura, la raffinatezza della loro società. Alimentata da un senso di supremazia, questa cultura rifiuta qualsiasi contraddizione che si trovi al di fuori della sua sfera di influenza cosmopolita."
@@ -1411,3 +1415,14 @@
  mpo_siberian_permafrost_modifier_bad: "$mpo_siberian_permafrost_modifier$"
  mpo_siberian_permafrost_modifier_bad_desc: "$mpo_siberian_permafrost_modifier$"
  cannot_hybridize_northern_tribes: "La [tradition|e] #high $tradition_mpo_northern_tribes_name$#! non può essere scelta per una [hybrid_culture|E]"
+
+
+ # ACH
+
+ oath_mend_the_fracture_tradition_name:0 "Legacy of Oathsworn Concilliation"
+ oath_mend_the_fracture_tradition_desc:0 "From the anger and bloody mistrust, a concilliation emerged. Guided by its oathsworn sovereign, this culture has mended the rift between them and the other peoples of the realm, achieving peace and prosperity."
+ culture_parameter_synergy_cultures_counties_development: "Every three years, [counties|E] of this [culture|E] can gain [GetModifier('oath_mend_the_fracture_county').GetNameWithTooltip] [modifier|E]."
+ culture_parameter_synergy_cultures_maa_spawn: "Every three years, the [culture_head|E] can gain additional special [soldiers|E]."
+ culture_parameter_synergy_cultures_opinion_gain: "Every three years, the [culture_head|E] can gain a [opinion|E] with the [culture_head|E] of the concilliated culture."
+ culture_parameter_synergy_cultures_positive_chance_desc: "The chance and strentgh of the effects above is influenced by the [cultural_acceptance|E] between the concilliated [cultures|E] and [opinion|E] with the other [culture_head|E]"
+ ach_culture_synergy_troops: "Oathsworn Troops"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  #############################################
 #General names:
@@ -234,7 +234,6 @@
  emperor_theocracy_male_christianity_religion_orthodox: "$emperor_clan_male$"
  emperor_theocracy_female_christianity_religion_orthodox: "$emperor_clan_female$"
  empire_theocracy_christianity_religion_orthodox: "Gran Patriarcato"
- 
 
 # Dualism
 #Same as Christianity
@@ -293,7 +292,7 @@
  emperor_theocracy_female_islam_religion:0 "Gran Califa"
  empire_theocracy_islam_religion:0 "Gran Califfato"
 
- # Yazidi 
+# Yazidi 
  baron_theocracy_male_yazidi_religion:0 "Kochek"
  baron_theocracy_female_yazidi_religion:0 "$baron_theocracy_male_yazidi_religion$"
  barony_theocracy_yazidi_religion:0 "Santuario"
@@ -309,7 +308,7 @@
  emperor_theocracy_male_yazidi_religion:0 "Baba Sceicco"
  emperor_theocracy_female_yazidi_religion:0 "$emperor_theocracy_male_yazidi_religion$"
  empire_theocracy_yazidi_religion:0 "Baba Sceiccato"
- 
+
 # Jainism
  baron_theocracy_male_jainism_religion:0 "Nirgrantha"
  baron_theocracy_female_jainism_religion:0 "Nirgrantha"
@@ -607,7 +606,7 @@
  king_feudal_male_grand_duke_independent:0 "Granduca"
  king_feudal_female_grand_duke_independent:0 "Granduchessa"
  kingdom_feudal_grand_duke_independent:0 "Granducato"
- 
+
 ### Taifas ###
 # Feudal / Clan
  duke_feudal_male_andalusian_independent:0 "Emiro"
@@ -697,7 +696,7 @@
  emperor_feudal_male_turkish:1 "Sultano al-Muazzam"
  emperor_feudal_female_turkish:1 "Sultana al-Muazzama"
  empire_feudal_turkish:0 "Impero"
-
+ 
 # Nomadic
  count_nomad_male_turkish: "$count_feudal_male_turkish$"
  count_nomad_female_turkish: "$count_feudal_female_turkish$"
@@ -735,7 +734,7 @@
  emperor_feudal_female_iranian_group:0 "Banebshenan Banebshen"
  empire_feudal_iranian_group:0 "Impero"
 
-# Muslim Feudal/Clan
+ # Muslim Feudal/Clan
  baron_feudal_muslim_male_iranian_group:0 "Nā'ib"
  baron_feudal_muslim_female_iranian_group:0 "Nā'iba"
  barony_feudal_muslim_iranian_group:0 "$barony_feudal_iranian_group$"
@@ -748,7 +747,7 @@
  king_feudal_muslim_male_iranian_group:0 "Amir-e Amiran"
  king_feudal_muslim_female_iranian_group:0 "Amira-e Amiran"
  kingdom_feudal_muslim_iranian_group:0 "Grande Emirato"
- # Muslim Iranian Empire titles are the same as non-Muslim Iranian Imperial titles 
+ # Muslim Iranian Empire titles are the same as non-Muslim Iranian Imperial titles
 
  ### Islamic Clan Generic ###
  #Default Clan tiers
@@ -767,7 +766,7 @@
  emperor_islamic_clan_male:0 "$emperor_feudal_male_arabic_group$"
  emperor_islamic_clan_female:0 "$emperor_feudal_female_arabic_group$"
  empire_islamic_clan:0 "$empire_feudal_arabic_group$" 
- 
+
 ### Sogdian ###
 # Feudal / Clan 
  duke_feudal_male_sogdian:0 "Ikhshid"
@@ -791,7 +790,7 @@
  empire_feudal_altaic_group:0 "Khaganato"
 
 ### Dravidian / Indo-Aryan ###
-# Feudal / Clan / Tribal
+# Feudal / Clan / Tribal 
  baron_republic_male_indo_aryan: "Nagarapati"
  baron_republic_female_indo_aryan: "Nagarapati"
  baron_republic_male_dravidian: "Talāra"
@@ -829,8 +828,8 @@
  emperor_feudal_muslim_male_dravidian_group:0 "Padishah"
  emperor_feudal_muslim_female_dravidian_group:1 "Shahbanu"
  empire_feudal_muslim_dravidian_group:0 "$empire_feudal_arabic_group$"
- 
- ### GUANCHE (Canary Islands) ###
+
+### GUANCHE (Canary Islands) ###
  duchy_guanche:0 "Menceyo"
  kingdom_guanche:0 "High Menceyo"
  count_male_guanche:0 "Coran"
@@ -841,7 +840,6 @@
  duke_female_guanche:0 "Menceyata"
  king_female_guanche:0 "High Menceyata"
  emperor_female_guanche:0 "Mayec Menceyata"
-
 
 ### OBSOLETE with new division ### West-African ###
 # Feudal / Clan / Tribal
@@ -864,7 +862,7 @@
 
 
 ### Tibetan Group ###
-# Feudal / Clan
+# Feudal / Clan 
  baron_feudal_male_tibetan_group: "Rtsis Pa"
  baron_feudal_female_tibetan_group: "Rtsis Pa"
  count_feudal_male_tibetan_group:0 "Ngapo"
@@ -925,7 +923,7 @@
  prince_female_dravidian_group:0 "Rajkumari"
  prince_male_dravidian_group_empire:0 "Rajkumar"
  prince_female_dravidian_group_empire:0 "Rajkumari"
- 
+
  ### Muslim Dravidian / Muslim Indo-Aryan ### 
  ### Uses Iranian Titles
  prince_muslim_male_dravidian_group:0 "$prince_male_iranian_group$"
@@ -1119,12 +1117,12 @@
  king_feudal_female_hausan:1 "Sarkīa"
  emperor_feudal_male_hausan:1 "$emperor$"
  emperor_feudal_female_hausan:1 "$emperor_female$"
- 
- ### Italic 
+
+### Italic 
 # Feudal
  count_republic_latin_male:0 "Podestà"
  count_republic_latin_female:0 "Podestaressa"
- 
+
 ### Administrative
 
  baron_administrative_male_byzantine_group: "Archon"
@@ -1139,7 +1137,7 @@
  count_administrative_female_indo_persian_group: "Shiqdara"
  duke_administrative_male_indo_persian_group: "Wali"
  duke_administrative_female_indo_persian_group: "Waliyya"
- 
+
  count_administrative_male: "Magistrato"
  count_administrative_female: "Magistrata"
  county_administrative: "Magistratura"
@@ -1199,14 +1197,13 @@
  duke_landless_adventurer_camp_explorers: "Capo"
  duke_landless_adventurer_camp_brigands: "Capo"
  duke_landless_adventurer_camp_legitimists: "Signor[Character.Custom('DE_END_ADJ_IND_S_A')]"
- 
+
  duchess_landless_adventurer_camp_mercenaries: "Capitano"
  duchess_landless_adventurer_camp_wanderers: "[Character.Custom('MistressMaster')|U]"
  duchess_landless_adventurer_camp_scholars: "[Character.Custom('MistressMaster')|U]"
  duchess_landless_adventurer_camp_explorers: "Capo"
  duchess_landless_adventurer_camp_brigands: "Capo"
  duchess_landless_adventurer_camp_legitimists: "[Character.GetLadyLord|U]"
- 
 
  ### Estates
  spouse_estate_holder_male: "Signore"
@@ -1237,7 +1234,7 @@
  feudal_castellan_female_german_group: "Burgravia"
  feudal_castellan_title: "Castellania"
  feudal_castellan_title_german_group: "Burgraviato" 
-
+ 
  ### Herders
  count_herder_male: "Pastore"
  count_herder_female: "Pastora"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # TAVERN
  ep2_locale_events.1000.t:0 "$tournament_locale_tavern$: Un Altro Giro"
  ep2_locale_events.1000.independent:0 "Un grande scroscio di risate erompe dal tavolo [drinking_leader.Custom('IT_NAM_COL2')][drinking_leader.GetTitledFirstName] nell'angolo della taverna."
@@ -21,8 +21,8 @@
 
  ep2_locale_events.1010.t:0 "$tournament_locale_tavern$: Un Gioco?"
  ep2_locale_events.1010.desc:0 "L'oscurità della taverna è compensata dal crepitio del fuoco e dalla continua baldoria degli avventori. Passo accanto a due ubriaconi particolarmente chiassosi e mi siedo a un tavolo vicino, vuoto a parte una persona.\n\n"Una bella serata, non è vero?" [gambler.GetFirstName] fa un gesto verso la folla. Annuisco gentilmente. Finisco a malapena di rimettere la testa in posizione quando [gambler.GetFirstNameNoTooltip] porta sul tavolo un set di dadi e tazze.\n\n"Volete fare un gioco semplice? Anche uno sciocco potrebbe giocarci! Entrambi tiriamo i dadi sotto le tazze e voi dovete indovinate se il vostro tiro è più alto o più basso del mio." [gambler.Custom('DE_ART_IND_A')|U] sorride, con un luccichio da giocatore d'azzardo negli occhi. " Vince chi ne indovina due su tre.""
- #ep2_locale_events.1010.a: "Ma come posso fidarmi dei tuoi dadi?"
- #ep2_locale_events.1010.a.tt: "Usiamo il mio set. Il mio set molto equo e non ponderato."
+ #ep2_locale_events.1010.a: "But how can I trust your dice?"
+ #ep2_locale_events.1010.a.tt: "Let's use my set. My very fair and non-weighted set."
  ep2_locale_events.1010.b:0 "Passa i dadi qui!"
  ep2_locale_events.1010.c:0 "Non sono un giocatore d'azzardo."
 
@@ -373,7 +373,7 @@
  ep2_locale_events.4501.desc:0 "Sto osservando [tournament_weaponsmith.GetFirstName] che affila una nuova arma quando sento un piccolo ma evidente #EMP clank#!. Scrutando nella penombra, vedo finalmente [spying_spouse.Custom('DE_ART_DEF_P_A')] mi[spying_spouse.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spying_spouse'))] [spying_spouse.GetFirstName] accovacciat[spying_spouse.Custom('DE_END_PRO_S_N')] dietro un tavolino!\n\n I suoi occhi vagano sulle braccia vigorose di [tournament_weaponsmith.GetFirstNamePossessiveNoTooltip] mentre il sudore cola dai suoi muscoli tesi.  È chiaro che la vampata di calore di [spying_spouse.GetFirstNamePossessiveNoTooltip] non è dovuta solo al caldo...\n\n Faccio un passo verso [spying_spouse.GetSheHe]. E' tutto quello che serve: [spying_spouse.GetFirstNameNoTooltip] soffoca a stento un urlo quando ci troviamo faccia a faccia, cogliend[spying_spouse.Custom('DE_END_PRO_S_N')] in flagrante."
  ep2_locale_events.4501.a:0 "Forse dovremmo vedere se tutti condividono questo interesse?"
  ep2_locale_events.4501.a.tt:0 "Il sorriso che si intravede all'angolo della bocca di quel fabbro dice già molto, direi..."
- #ep2_locale_events.4501.a.custom.tt: "#high [spying_spouse.GetFirstName]#! si lamenta con #high [tournament_weaponsmith.GetFirstName]#!"
+ #ep2_locale_events.4501.a.custom.tt: "#high [spying_spouse.GetFirstName]#! lays with #high [tournament_weaponsmith.GetFirstName]#!"
  ep2_locale_events.4501.b:0 "Beh, sono braffia  #EMP molto#! forti..."
  ep2_locale_events.4501.b.tt:0 "Chiaramente [spying_spouse.Custom('DE_ART_DEF_P_A')] mi[spying_spouse.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spying_spouse'))] ha un gusto superbo!"
  ep2_locale_events.4501.c:0 "Ehi, ce ne andiamo!"
@@ -555,7 +555,7 @@
  improved_artifact_desc:0 "[improved_weapon.GetDesc]\n\nMigliorato da un abile armaiolo poco prima di un importante torneo."
  ep2_locale_events.4530.e:0 ""Mi stavo guardando intorno.""
  
- # TRAINING GROUNDSLa folla ride di voi
+ # TRAINING GROUNDS
  ep2_locale_events.5000.t:0 "Il Richiamo dell'Acciaio"
  ep2_locale_events.5000.desc.intro:1 "Mentre visito il campo del torneo insieme a mi[my_child.Custom('DE_END_PRO_S_N')] figli[CHARACTER.Custom('DE_END_PRO_S_N')]  [my_child.GetFirstName], ci imbattiamo in un gruppo di [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')], che si allenano ferocemente per la prossima gara. Saluto [my_knight.GetTitledFirstName], quasi irriconoscibile sotto quell'elmo.\n\n"Ah, sarebbe un grande onore per la nostra casa se..." ma mi fermo subito, perché noto che gli occhi di [my_child.GetFirstNamePossessiveNoTooltip] sono fissi sulle spade."
  ep2_locale_events.5000.desc.martial:0 " Non sorprende, vista la sua inclinazione per le attività marziali."

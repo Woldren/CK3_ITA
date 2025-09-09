@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  PROMOTE_LEGEND_NOTIFICATION: "Avrai sicuramente sentito parlare della mia leggenda? Sarebbe opportuno che tu la raccontassi ad altri."
  TRADE_GOLD_FOR_BETTER_AI_ACCEPTANCE: "Invia [gold_i][gold|E] per incrementare l'accettazione"
  TRADE_GOLD_FOR_BETTER_AI_ACCEPTANCE_TT: "[gold|E] inviato: $VALUE|+0=$"
@@ -17,3 +17,5 @@
  REASON_ILLUSTRIOUS_LEGEND: "$game_concept_legend_illustrious$ $game_concept_legend$: $VALUE|+0=$"
  REASON_MYTHICAL_LEGEND: "$game_concept_legend_mythical$ $game_concept_legend$: $VALUE|+0=$"
  IS_CONTACT_REASON: "È il tuo [contact_list_contact|E]: $VALUE|+0=$"
+
+

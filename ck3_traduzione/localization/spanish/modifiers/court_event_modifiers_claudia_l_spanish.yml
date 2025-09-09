@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  court_possessed_improved_condition_modifier:0 "Trattamento di Successo della Possessione"
  court_possessed_improved_condition_modifier_desc:1 "Questo personaggio si sente meglio dopo il trattamento, e le altre persone sono meno spaventate."
  6050_juicy_readings_modifier:0 "Letture Suggestive"
@@ -103,4 +103,3 @@
  building_program_county_modifier_desc: "Il sovrano di questa contea sta promuovendo un ambizioso programma edilizio."
  estate_building_program_modifier: "$building_program_county_modifier$"
  estate_building_program_modifier_desc: "Questo personaggio sta promuovendo un ambizioso programma edilizio nelle terre della sua famiglia."
-

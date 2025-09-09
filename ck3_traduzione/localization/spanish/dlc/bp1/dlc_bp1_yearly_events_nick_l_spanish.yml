@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  bp1_yearly.5001.t:0 "Incubi Notturni"
  bp1_yearly.5001.desc:0 "Perché mi sono svegliat[ROOT.Char.Custom('DE_END_PRO_S_N')]? Ancora intontito dal sonno, il mio cervello esamina la situazione. La notte è fredda ma non gelida, il mio letto è caldo e confortevole e...\n\nC'è una sagoma ai piedi del mio letto. Mentre si avvicina a me prende la forma del[sibling_murderer.Custom('DE_END_ADJ_NUL_S_N')] mi[sibling_murderer.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', sibling_murderer)] [sibling_murderer.GetFirstName]. Apro la bocca per indicargli che la sua stanza, in realtà, è quella accanto alla mia quando noto il cuscino nelle sue mani.\n\nÈ solo grazie al livido bagliore del chiaro di luna che riesco a intravedere il luccichio selvaggio, squilibrato e omicida che balena nei suoi occhi."

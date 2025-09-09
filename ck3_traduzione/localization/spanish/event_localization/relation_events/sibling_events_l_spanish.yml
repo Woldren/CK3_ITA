@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  sibling.0001.t:0 "Solo di Diritto"
  sibling.0001.desc:0 "[sibling.GetTitledFirstName] è venuto a richiedere un'udienza ufficiale con me!\n\n"Caro [sibling.Custom2('RelationToMe' , ROOT.GetCharacter )], vi ho servito lealmente. Non è ora che io sia debitamente ricompensato per il mio buon lavoro?""
  sibling.0001.a:0 "Ti concedo un titolo e una terra tutta tua!"

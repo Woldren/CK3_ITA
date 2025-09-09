@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  I_TAKE_HOSTAGE: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'diventi', 'diventa' )] il [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'suo', 'tuo' )] [hostage|E]" #controllare in gioco stringhe 1-6
  THEY_TAKE_HOSTAGE: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'diventi', 'diventa' )] l'[hostage|E] di [CHARACTER.GetName]"
 

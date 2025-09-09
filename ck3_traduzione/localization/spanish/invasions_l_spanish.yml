@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  almohad.1001.t:0 "L'Ascesa degli Almohadi"
  almohad.1001.desc:0 "Sembra che una credenza marginale stia prendendo piede [almohad_county.Custom('IT_COU_COL2')][almohad_county.GetName]. Il movimento religioso si autodefinisce gli Almohadi e parla della necessità di ripulire il Maghreb dagli eretici e dai fuorviati.\n\nI magistrati locali sono preoccupati, ma veramente un gruppo religioso marginale guidato da un teologo caduto in disgrazia è qualcosa di cui preoccuparsi?"
  almohad.1001.a:0 "Perché questo dovrebbe impensierirmi?"

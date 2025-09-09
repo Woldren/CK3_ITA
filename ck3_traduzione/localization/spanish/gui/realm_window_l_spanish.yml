@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  REALM_WINDOW_GOVERNMENT:0 "[realm|E]: [Character.GetGovernment.GetRealmName]"
  REALM_WINDOW_GOVERNMENT_TOOLTIP:0 "#T [government|E]: [Character.GetGovernment.GetName] #! \n[Character.GetGovernment.GetRuleInfo][Character.GetGovernment.GetFlagInfo][Character.GetGovernment.GetHoldingInfo]\n#F [Character.GetGovernment.GetDescription]#!"
  REALM_WINDOW_LIEGE_REALM:0 "Vassalli del Reame a [Character.GetLiege.GetPrimaryTitle.GetNameNoTooltip|V]"

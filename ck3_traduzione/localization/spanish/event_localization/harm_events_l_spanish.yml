@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  ##################################################
  # #Misc Keys
@@ -10,6 +10,7 @@
 
  strong_willed_modifier:0 "Forte volontà"
  strong_willed_modifier_desc:0 "Questo personaggio è abituato a lottare anche contro il dolore più intenso."
+
  harm.0000.tt.spared_for_now:0 "Sei stato risparmiat[ROOT.Char.Custom('DE_END_PRO_S_N')]. Per ora."
  harm.0000.tt.no_permanent_damage:0 "Non hai subito danni permanenti."
 
@@ -18,7 +19,6 @@
  harm.0000.tt.incapable.failure:0 "L'esperienza ti lascia debole"
  harm.0000.tt.death.success:0 "Sopravvivi"
  harm.0000.tt.death.failure:0 "Muori"                                                         
-
 
 
 
@@ -59,7 +59,7 @@
  harm.0003.desc.outro:0 "È difficile immaginare che un tempo la giovinezza scorresse in questa carne, calda e vitale."
  harm.0003.a:0 "Gah, le articolazioni di tutti #EMP scricchiolano#! così?"
  harm.0003.a.tt:0 "Il tuo corpo comincia a rallentare..."
- 
+
  harm.0011.t:0 "Spezzato dalla battaglia"
  harm.0011.desc.default_body:0 "Al termine del conflitto di [battle_location.GetName] i feriti e i mutilati si allontanano dal campo di battaglia, mentre i morti più degni di nota vengono portati via dagli amici e dai fedeli.\n\nPer quanto mi riguarda, sono stato coinvolto in alcuni dei combattimenti più duri: poca finezza, solo botte, urla e uccisioni. La testa mi gira ancora per i colpi e l'adrenalina, le ondate di paura e di rabbia e di esultanza e...\n\nG..gira. La testa mi gira. La vista mi si offusca, poi si sdoppia e comincio a cadere al suolo.\n\n"Trovate un [ROOT.Char.Custom('GetRandomBattlefieldMedic')|U], [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip] è stato colpito!" si sente urlare,"
  harm.0011.desc.medic_present:0 "e l'ultima cosa che vedo è [medic.GetTitledFirstName] che si fa lardo tra la folla."

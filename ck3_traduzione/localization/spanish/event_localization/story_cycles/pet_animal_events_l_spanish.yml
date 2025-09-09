@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 ##############
 ## CAT
 ##############
@@ -73,7 +73,7 @@
  pet_animal.0110.desc:2 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] si avvicina a me, con la rabbia negli occhi e il gatto nella mano, tenuto per la sua collottola. Nel momento in cui [vassal.GetSheHe] mi getta il gatto in faccia noto che è il mio caro [ROOT.Char.Custom('CatStoryName')]!\n\n"Ho trovato questa piccola peste tra le mie cose – ciò che non è stato fatto a pezzi con i graffi è stato ricoperto di piscio!""
  pet_animal.0110.a:0 "Ti risarcirò!"
  pet_animal.0110.b:0 "È solo un gatto..."
- 
+
  pet_animal.0197.t:0 "[ROOT.Char.Custom('CatStoryName')]: Gone"
  pet_animal.0197.desc_court_5020:0 "Sin da quando ho iniziato a limitare l'andirivieni di [ROOT.Char.Custom('CatStoryName')] l'ho visto/a sempre di meno.\n\nSono passate ormai settimane da quando l'ho visto/a l'ultima volta e temo mi abbia abbandonat[ROOT.Char.Custom('DE_END_PRO_S_N')] una volta per tutte.\n\nI miei cortigiani sembrano felici dei loro alloggi privi di peli, ma il mio grembo non si è mai sentito così vuoto..."
  pet_animal.0197.desc:0 "[ROOT.Char.Custom('CatStoryName')] ultimamente si è allontanato/a sempre di più da casa e per lunghi periodi di tempo.\n\nSono passate ormai settimane da quando l'ho visto/a l'ultima volta e temo mi abbia abbandonat[ROOT.Char.Custom('DE_END_PRO_S_N')] una volta per tutte."

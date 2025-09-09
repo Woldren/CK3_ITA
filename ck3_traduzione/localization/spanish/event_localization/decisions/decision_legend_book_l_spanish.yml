@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # Commision Legend Book
  ce1_decision_events.0001.t: "Scrivilo"
  ce1_decision_events.0001.desc: "[chronicler.Custom('DE_ART_DEF_P_D')] mi[chronicler.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('chronicler'))] [chronicler.GetFirstName] mi accoglie con un sorriso compiaciuto. La sua lampada da lettura ha quasi esaurito l'olio.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_AD_IND_S_A')]," dice [chronicler.GetSheHe], mentre posa un libro splendidamente ornato, "ci siamo assicurati di tenere traccia di ogni piccola cosa, ogni gesta, ogni battaglia, ogni avventura e ogni storia d'amore."\n\n"Tutto," continua [chronicler.GetSheHe],"messo per iscritto per i secoli a venire.""

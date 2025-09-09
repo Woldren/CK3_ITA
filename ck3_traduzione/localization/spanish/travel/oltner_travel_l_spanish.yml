@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  travel_events_oltner_2.1000.t: "Sabbie Coltivate"
  travel_events_oltner_2.1000.desc: "Il sole brucia le dune di [location.GetName], rendendo ogni passo una prova di resistenza. Eppure, in mezzo a questa distesa arida, fiorisce un'oasi di verde - una meraviglia agricola nel cuore del deserto.\n\nMentre ammiriamo questa anomalia, [Select_CString(local_character.IsFemale,'la custode','il custode')] di queste terre si avvicina con un sorriso consumato dal sole. "Viaggiatori," inizia il discorso, "venite a vedere i frutti del nostro lavoro. Forse porterete in patria i racconti del nostro trionfo sulle sabbie!""
  travel_events_oltner_2.1000.option.a: "Mostrateci come avete domato il deserto."

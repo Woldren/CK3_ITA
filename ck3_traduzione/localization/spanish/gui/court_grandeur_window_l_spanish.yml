@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  COURT_GRANDEUR_LABEL:1 "[court_grandeur|E]:"
  COURT_AMENITIES_LABEL:0 "[court_amenities|E]"
  MODIFIER_PREVIOUS_LEVELS_APPLY:0 "#weak $EFFECT_LIST_BULLET$Valgono anche tutti i livelli precedenti#!"
@@ -23,7 +23,7 @@
  TOP_ROYAL_COURT_ENTRY:0 "$POSITION$. [CHARACTER.GetUINameNotMe]"
  TOP_ROYAL_COURT_ENTRY_DISPLAYED_COURT:0 "#bold $POSITION$. [CHARACTER.GetUINameNotMe] #weak (questa Corte)#!#!"
  ELLIPSIS:0 "..."
-  
+ 
  COURT_GRANDEUR_TOAST_GRANDEUR_INCREASED_TITLE:0 "Magnificenza della Corte Aumentata"
  COURT_GRANDEUR_TOAST_GRANDEUR_RANK_INCREASED_TITLE:0 "Magnificenza della Corte Aumentata"
  COURT_GRANDEUR_TOAST_GRANDEUR_DECREASED_TITLE:0 "Magnificenza della Corte Ridotta"

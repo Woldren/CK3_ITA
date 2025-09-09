@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  bm_1066_rags_to_riches:0 "Dalle Stalle alle Stelle"
  bm_1066_rags_to_riches_desc:1 "#V #font:TitleFont #size:15 @legends_of_ck_icon! Leggende di Crusader Kings III#!#!#!\n\nIn tutta Europa, le famiglie combattono e tramano per il potere. Molte terre sono contese, battaglie sono vinte e perse, e le dinastie vanno e vengono, mentre i loro sovrani vengono sconfitti.\n\n#bold I Re del passato stanno venendo rimpiazzati, mentre i nuovi arrivati raggiungono le stelle. Quale sarai tu?#!"
 
@@ -116,4 +116,3 @@
  armies_unhampered: "Eserciti Non Ostacolati"
  intrigue_duel_on_attack_effect.success: "[attacker.Custom('IT_NAM_COL3')|U][attacker.GetShortUIName] ostacola gli [armies|El] [defender.Custom('IT_NAM_COL2')][defender.GetShortUIName]"
  intrigue_duel_on_attack_effect.failure: "[attacker.Custom('IT_NAM_COL3')|U][attacker.GetShortUIName] non riesce a ostacolare gli [armies|El] [defender.Custom('IT_NAM_COL2')][defender.GetShortUIName]"
- 

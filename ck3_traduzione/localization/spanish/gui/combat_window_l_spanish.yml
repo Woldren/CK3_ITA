@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  COW_TT_THEIR_COMMANDER:0 "#T [commander|E] Nemico: [CHARACTER.GetUIName]#!\n[martial_skill|E]: #V [CHARACTER.GetSkillWithLevel('martial')]#!"
  COW_TT_MY_COMMANDER:1 "#T Il Tuo [commander|E]: [CHARACTER.GetUIName]#!\n[martial_skill|E]: #V [CHARACTER.GetSkillWithLevel('martial')]#!"
  COW_TT_COMMANDER:0 "#T [commander|E]: [CHARACTER.GetUIName]#!\n[martial_skill|E]: #V [CHARACTER.GetSkillWithLevel('martial')]#!"
@@ -77,4 +77,3 @@
  CW_NO_KNIGHTS:0 "Nessun [knights|E]"
  COMBAT_WINDOW_NO_COMMANDER:0 "Nessun Comandante"
  
-

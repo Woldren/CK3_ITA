@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ep1_decision.0101.t:0 "Via il Vecchio" #tradotto da ZeXoGod e revisionato da Woldren
  ep1_decision.0101.desc:0 "Malandrini! Fannulloni! Nullità!\n\nLa mia corte è #EMP assediata#! da parassiti come afidi in un giardino, ammassati in ogni stanza disponibile, che russano giorno e notte e lasciano i loro vasi da notte in giro per i corridoi angusti.\n\nQuesta cosa non può andare avanti. Semplicemente non abbiamo #EMP spazio#! per tutti questi viandanti stranieri."
  ep1_decision.0101.a:0 "[capital.GetNameNoTierNoTooltip] non è una locanda. Andatevene, sanguisughe!"

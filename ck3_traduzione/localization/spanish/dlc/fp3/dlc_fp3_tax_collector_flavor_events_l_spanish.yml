@@ -1,5 +1,5 @@
-﻿l_spanish:
-
+l_spanish:
+ 
 fp3_clan.1000.t: "Più Prezioso dell'Oro?"
 fp3_clan.1000.desc: "[target_tax_collector.GetFirstName], [Select_CString(target_tax_collector.IsFemale,'la mia esattrice','il mio esattore')] delle tasse, ha fatto ritorno dal suo recente giro nel regno. Ha chiesto udienza, affermando di avermi portato qualcosa di #EMP più prezioso#! dell'oro.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_PRO_PER_S_3P_G')], a [secret_holder.GetCapitalLocation.GetName] ho riscosso quanto dovuto alla corona, ma durante la mia permanenza lì ho anche sentito delle voci che riguardavano [secret_holder.Custom('IT_NAM_COL3')][secret_holder.GetTitledFirstName] [target_secret.Custom('SecretDescriptionThirdPerson')]..."\n\n"...e a seguito di indagini approfondite, ho appurato che tali voci sembrano corrispondere alla realtà dei fatti.""
 fp3_clan.1000.a: "Accettate queste monete d'oro, per la vostra solerzia le avete ben meritate."

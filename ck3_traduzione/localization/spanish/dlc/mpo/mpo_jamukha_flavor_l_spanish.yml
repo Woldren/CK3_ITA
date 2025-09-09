@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  jamukha_choose_blood_brother_tt: "[jamukha.GetShortUIName] will decide whether to go through with becoming [blood_brothers|E]"
  jamukha_warhorse_tt: "#high You#! will give [jamukha.GetShortUIName] a [GetModifier('horse_story_modifier').GetNameWithTooltip]"
  temujin_warhorse_tt: "[jamukha.GetShortUIName] will give you a [GetModifier('horse_story_modifier').GetNameWithTooltip]"

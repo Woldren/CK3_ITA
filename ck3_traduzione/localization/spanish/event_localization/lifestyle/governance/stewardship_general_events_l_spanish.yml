@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  stewardship_lifestyle_rank_up_indication:1 "Potrei ottenere un [perk|E] per lo [stewardship_lifestyle|E] "
  
@@ -62,6 +62,7 @@
  stewardship_general.2002.t_success:0 "Persuasione Riuscita"
  stewardship_general.2002.t_failure:0 "Persuasione Fallita"
  stewardship_general.2002.insulted:0 "Quello che è fatto è fatto."
+
  # Build a fish pond, by Linnéa Thimrén
  stewardship_general.5011.t:0 "Carpe"
  stewardship_general.5011.desc:0 ""Se è un laghetto per carpe ciò che ti interessa posso costruirtene uno stupendo, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!"\n\nIl costruttore davanti a me ha delle ottime credenziali, e i miei cortigiani sembrano entusiati a questa prospettiva..."

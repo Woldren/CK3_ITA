@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ROYAL_COURT_NAME:1 "Corte Reale di [Character.GetPrimaryTitle.GetNameNoTooltip]"
  ROYAL_COURT_WINDOW_HEADER:2 "$ROYAL_COURT_NAME$"
  ROYAL_COURT_WINDOW_GRANDEUR_SUMMERY:2 "[GetCourtGrandeurLevelModifier( CourtGrandeurData.GetCurrentLevel ).GetName]"

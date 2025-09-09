@@ -1,5 +1,5 @@
-﻿l_spanish:
- #Tradotto da ZeXo - revisione Woldren stringa 900
+l_spanish:
+ #TODO_CD_L: remove this after testing
  fund_inspiration.9999.t:0 "Stimolo all'Ispirazione"
  fund_inspiration.9999.desc:0 ""
  fund_inspiration.9999.a:0 "Sento l'ispirazioneeeeee!"
@@ -16,20 +16,22 @@
  fund_inspiration.0011.a:1 "Qualcosa che possa sia tagliare che perforare la carne."
  fund_inspiration.0011.b:0 "Voglio un'arma che sfrutti a pieno la mia forza!"
  fund_inspiration.0011.c:0 "Preferisco tenere i miei nemici a distanza."
+ fund_inspiration.0011.d: "Forget the forge, I want to shoot."
+ fund_inspiration.0011.d.tt: "[inspiration_owner.GetTitledFirstName] will make a bow instead"
 
  fund_inspiration.0011.tooltip_action:0 "[inspiration_owner.GetFirstNameNoTooltip] inizia a lavorare su"
  fund_inspiration.0011.tooltip_axe:0 "$fund_inspiration.0011.tooltip_action$ un'$signature_weapon_axe$"
- fund_inspiration.0011.tooltip_axe.tt:0 "Ottieni un'$signature_weapon_axe$ alla fine dell'ispirazione"
+ fund_inspiration.0011.tooltip_axe.tt:0 "Ottieni un'$signature_weapon_axe$ alla fine dell'ispirazione" #controllare_modifica
  fund_inspiration.0011.tooltip_dagger:0 "$fund_inspiration.0011.tooltip_action$ un $signature_weapon_dagger$"
- fund_inspiration.0011.tooltip_dagger.tt:0 "Ottieni un $signature_weapon_dagger$ alla fine dell'ispirazione"
+ fund_inspiration.0011.tooltip_dagger.tt:0 "Ottieni un $signature_weapon_dagger$ alla fine dell'ispirazione" #controllare_modifica
  fund_inspiration.0011.tooltip_hammer:0 "$fund_inspiration.0011.tooltip_action$ un $signature_weapon_hammer$"
- fund_inspiration.0011.tooltip_hammer.tt:0 "Ottieni un $signature_weapon_hammer$ alla fine dell'ispirazione"
+ fund_inspiration.0011.tooltip_hammer.tt:0 "Ottieni un $signature_weapon_hammer$ alla fine dell'ispirazione" #controllare_modifica
  fund_inspiration.0011.tooltip_mace:0 "$fund_inspiration.0011.tooltip_action$ una $signature_weapon_mace$"
- fund_inspiration.0011.tooltip_mace.tt:0 "Ottieni una $signature_weapon_mace$ alla fine dell'ispirazione"
+ fund_inspiration.0011.tooltip_mace.tt:0 "Ottieni una $signature_weapon_mace$ alla fine dell'ispirazione" #controllare_modifica
  fund_inspiration.0011.tooltip_spear:0 "$fund_inspiration.0011.tooltip_action$ una $signature_weapon_spear$"
- fund_inspiration.0011.tooltip_spear.tt:0 "Ottieni una $signature_weapon_spear$ alla fine dell'ispirazione"
+ fund_inspiration.0011.tooltip_spear.tt:0 "Ottieni una $signature_weapon_spear$ alla fine dell'ispirazione" #controllare_modifica
  fund_inspiration.0011.tooltip_sword:0 "$fund_inspiration.0011.tooltip_action$ una $signature_weapon_sword$"
- fund_inspiration.0011.tooltip_sword.tt:0 "Ottieni una $signature_weapon_sword$ alla fine dell'ispirazione"
+ fund_inspiration.0011.tooltip_sword.tt:0 "Ottieni una $signature_weapon_sword$ alla fine dell'ispirazione" #controllare_modifica
 
 
  fund_inspiration.0012.t:0 "Ispirazione per l'Arma Finanziata"
@@ -93,7 +95,7 @@
  fund_inspiration.0041.option_history:0 "Qualcosa che illustri la storia di [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]."
  fund_inspiration.0041.option_life:0 "Una rappresentazione di come sia la vita nel mio regno."
 
- #fund_inspiration.0042.desc: ""Grazie per aver riposto la vostra fiducia in me, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]! sorride [inspiration_owner.GetTitledFirstName] e continua "L'idea che ho sul/sullo [inspiration_owner.Custom('InspirationTypeDescription')] è difatti gloriosa, e di sicuro farà colpo su tutti i tuoi cortigiani e gli ospiti stranieri!"\n\n"Non appena avrò finito, ve lo comunicherò in modo che possiate essere [ROOT.Char.Custom('DE_ART_DEF_P_A')] prim[ROOT.Char.Custom('DE_END_PRO_S_N')] ad ammirare la mia opera."
+ #fund_inspiration.0042.desc: ""Thank you for putting your trust in me, my [ROOT.Char.GetLadyLord]! [inspiration_owner.GetTitledFirstName] smiles and continues "The idea I have for [inspiration_owner.Custom('InspirationTypeDescription')] is glorious indeed, and is sure to impress all of your courtiers and foreign guests!"\n\n"As soon as I am done, I shall send word to you so that you may be the first to gaze upon my work."
 
  fund_inspiration.0042.t:0 "Ispirazione del Tessitore Finanziata"
 
@@ -141,7 +143,7 @@
  fund_inspiration.0061.scientific_apparatus:0 "Forse uno strumento di apprendimento di apprendimento e conoscenza?"
  fund_inspiration.0061.urn:0 "Un urna decorativa completerebbe le mie sale."
  fund_inspiration.0061.icon: "Un'icona gloriosa adornerà la mia parete." 
- 
+
  fund_inspiration.0062.t:0 "Ispirazione Artigianale Finanziata"
 
 # (Metal)Smith
@@ -152,6 +154,7 @@
  fund_inspiration.0071.goblet:0 "Un calice raffinato."
  fund_inspiration.0071.aquamanile:0 "Un acquamanile ornato, per la pulizia rituale."
  fund_inspiration.0071.incense_burner_sculpture:0 "Un intricato bruciatore di incenso."
+
  fund_inspiration.0072.t:0 "Ispirazione Metallurgica Finanziata"
 
 # Alchemist
@@ -166,11 +169,30 @@
  fund_inspiration.0082.t:0 "Ispirazione Alchemica Finanziata"
 
 
+# Bow
+ fund_inspiration.0091.desc: "[inspiration_owner.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('inspiration_owner'))] before bowing deeply. "Of course I can string you a bow my [ROOT.Char.GetLadyLord]," [inspiration_owner.GetHerHis] enthusiasm shines through [inspiration_owner.GetHerHis] anxious efforts to maintain formality.\n\n"But what's your preferred style to shoot? I wish to carve something that would suit you the best.""
+ fund_inspiration.0091.a: "A good old fashioned bow, nothing more."
+ fund_inspiration.0091.b: "Carve for me a mighty longbow."
+ fund_inspiration.0091.c: "Glue and sinew punch the hardest."
+ fund_inspiration.0091.d: "You must deliver to me a fine contraption."
+ fund_inspiration.0091.tooltip_bow: "$fund_inspiration.0011.tooltip_action$ a bow"
+ fund_inspiration.0091.tooltip_bow.tt: "You gain a bow at the end of the [inspiration|E]"
+ fund_inspiration.0091.tooltip_longbow: "$fund_inspiration.0011.tooltip_action$ a longbow"
+ fund_inspiration.0091.tooltip_longbow.tt: "You gain a longbow at the end of the [inspiration|E]"
+ fund_inspiration.0091.tooltip_composite: "$fund_inspiration.0011.tooltip_action$ a composite bow"
+ fund_inspiration.0091.tooltip_composite.tt: "You gain a composite bow at the end of the [inspiration|E]"
+ fund_inspiration.0091.tooltip_crossbow: "$fund_inspiration.0011.tooltip_action$ a crossbow"
+ fund_inspiration.0091.tooltip_crossbow.tt: "You gain a crossbow at the end of the [inspiration|E]"
+
 ##########################
 #	INSPIRATION COMPLETED
  fund_inspiration.1001.t:0 "Ispirazione Realizzata"
  fund_inspiration.1001.desc:1 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!" [inspiration_owner.Custom('DE_ART_DEF_P_D')] [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)] si avvicina con un ampio sorriso. "Ho faticato molti giorni e molte notti e finalmente la mia opera è conclusa!"\n\nMi presenta un oggetto avvolto in un panno, e mentre svelo ciò che vi è nascosto i miei occhi si spalancano:\n\n"
  fund_inspiration.1001.a:0 "È adorabile!"
+ fund_inspiration.1001.b: "Let the preparations commence."
+ fund_inspiration.1001.b.coronation_ready: "You can now host a [coronation|E]"
+
+ fund_inspiration.1071.coronation: "\n\nMy crown completed, I can now host my coronation and cement my authority as sovereign."
 
  fund_inspiration.1011.desc:0 "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!" [inspiration_owner.Custom('DE_ART_DEF_P_D')] [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)] si avvicina con un ampio sorriso, il sudore che gli scivola lungo la fronte e la fuliggine che [inspiration_owner.Custom2('DE_PRO_DEM')] annerisce il volto. "Ho faticato alla fucina per molti giorni e molte notti, ma finalmente la mia opera è conclusa!"\n\nMi presenta un oggetto avvolto in un panno, e mentre svelo ciò che vi è nascosto i miei occhi si spalancano:\n\n"
 
@@ -207,7 +229,7 @@
  fund_inspiration.1051.desc.goblet:0 "un calice. Chiedo a [inspiration_owner.GetFirstNameNoTooltip] dove l'ha ottenuto, ed [inspiration_owner.Custom('DE_ART_IND_A')] mi racconta di una sfida da far rizzare i capelli che [inspiration_owner.Custom('DE_ART_IND_A')] ebbe con uno sconosciuto e che finì con la sconfitta dell'avversario dopo aver bevuto del veleno."
  fund_inspiration.1051.desc.box:0 "una scatola. Un artigiano locale l'ha data a [inspiration_owner.GetFirstNameNoTooltip] dopo che [inspiration_owner.Custom('DE_ART_IND_A')] l'ha salvat[dummy_gender.Custom('DE_END_PRO_S_N')] da un branco di animali selvaggi. [inspiration_owner.Custom('DE_ART_IND_D')] mi racconta di come ha attirato e superato in astuzia gli animali feroci per farli precipitare verso la morte."
  fund_inspiration.1051.desc.hide:1 "la pelle di [newly_created_artifact.GetFeatureText( 'animal_hide_type' )]. [inspiration_owner.GetFirstNameNoTooltip] mi racconta di come ha abbattuto il feroce animale mentre io continuo ad ammirare la pelle di quello che doveva essere un animale maestoso."
- #fund_inspiration.1051.desc.pillow: "un morbido cuscino a piedistallo. [inspiration_owner.GetFirstNameNoTooltip] mi racconta di come  ha aiutato un maestro tessitore a raccogliere tutti i materiali necessari per fare questo cuscino e tutti i pericoli che ha affrontato nel farlo."
+ #fund_inspiration.1051.desc.pillow: "is a soft pedestal pillow. [inspiration_owner.GetFirstNameNoTooltip] tells me of how [inspiration_owner.GetSheHe] helped a master weaver gather all the required materials to make this pillow and all the dangers [inspiration_owner.GetSheHe] faced while doing so."
  fund_inspiration.1051.desc.tapestry:0 "un arazzo. [inspiration_owner.GetFirstNameNoTooltip] si gonfia il petto mentre mi narra la storia del suo compagno di viaggio che era un mastro sarto. L'avventura che hanno condiviso ha ispirato i motivi scelti su questo arazzo."
  #Epic Artifacts
  fund_inspiration.1051.desc.epic:0 "un manufatto diverso da qualsiasi cosa io abbia visto prima d'ora.\n\n[inspiration_owner.GetFirstNameNoTooltip] sorride con orgoglio: "[epic.GetDesc]""
@@ -240,6 +262,9 @@
  fund_inspiration.1081.metals_fallback_desc:0 ""Ho raccolto in questo tomo tutte le mie intuizioni sui metalli di base e le conoscenze sulle trasmutazioni. Ecco, date un'occhiata."\n\n"
  fund_inspiration.1081.a_elixirs:0 "Ne provo subito un sorso!"
  fund_inspiration.1081.a:0 "Affascinante!"
+
+ fund_inspiration.1091.desc: ""My [ROOT.Char.GetLadyLord]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me with a satisfied smile drawn across [inspiration_owner.GetHerHis] face. "I have toiled over the workbench many days and nights, but finally my work is done!"\n\n[inspiration_owner.GetSheHe|U] presents me with an object wrapped in cloth, and as I unveil what is hidden within my eyes grow wide.\n\n"
+ fund_inspiration.1091.a: "Fine work! Very fine!"
  ###########################
  # INSPIRATION INVALIDATED
  fund_inspiration.9001.t:0 "Ispirazione Finita"
@@ -711,7 +736,7 @@
  fund_inspiration.6100.a:0 "Poni fine a questa farsa, rompi lo scrigno e restituisci la mia pietra!"
  fund_inspiration.6100.b:0 "Dopotutto è affascinante, penso che lo terrò."
 
- # The tiny box 03/09/2022
+ # The tiny box
 
  fund_inspiration.6101.desc:0 "[inspiration_owner.Custom('DE_ART_DEF_P_D')] [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)] porge una piccola scatola sulla quale sono incisi elegantissimi e sottilissimi intagli. "Ecco il prototipo del vostro ultimo ordine. Non voglio che vada sprecato, potremmo trovare un uso adatto per questo prezioso oggetto."\n\n[antiquarian.Custom2('MyCharacterIntroduction', ROOT.Char)|U] si rallegra. "Potremmo metterci dentro una reliquia del nostro tempo e seppellirla da qualche parte, creando così un ricordo che le future generazioni potranno riscoprire!""
  fund_inspiration.6101.a:0 "Al suo interno riporrò un ritratto in miniatura di me stess[ROOT.Char.Custom('DE_END_PRO_S_N')]."
@@ -775,8 +800,8 @@
 
 #Poet sends you a book on same sex love if you requested it, as a side project by Isabella Welch
 
-#fund_inspiration.6301.lover_t: "Mi[inspiration_owner.Custom('DE_END_PRO_S_N')] [ROOT.Custom('LoverPetName')],"
-#fund_inspiration.6301.friend_t: "Mi[inspiration_owner.Custom('DE_END_PRO_S_N')] car[inspiration_owner.Custom('DE_END_PRO_S_N')] alleat[inspiration_owner.Custom('DE_END_PRO_S_N')],"
+#fund_inspiration.6301.lover_t: "My [ROOT.Custom('LoverPetName')],"
+#fund_inspiration.6301.friend_t: "My dearest ally,"
  fund_inspiration.6301.t:0 "$fund_inspiration.title$ Mi[inspiration_owner.Custom('DE_END_PRO_S_N')] car[inspiration_owner.Custom('DE_END_PRO_S_N')] compagn[inspiration_owner.Custom('DE_END_PRO_S_N')],"
  fund_inspiration.6301.lover_desc:0 "La notte in cui mi hai detto di scrivere dal profondo del mio cuore, ho scoperto che potevo scrivere solo di te. Lasciami fare la parte del cattivo, se la fede chiama empio il nostro tipo di amore."
  fund_inspiration.6301.friend_desc:0 "Non ho mai sentito le mie parole scorrere così come dopo che mi hai detto di scrivere un racconto d'amore nel modo in cui lo vivo io."
@@ -978,28 +1003,28 @@
  fund_inspiration.7100.t:0 "$fund_inspiration.title$ Direzione Creativa"
  fund_inspiration.7100.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]! Il lavoro sul vostro prezioso manufatto procede bene!" [inspiration_owner.Custom('DE_ART_DEF_P_D')] [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)] sembra di buon umore oggi.\n\n"Non faccio promesse ma... se riuscissi a produrre un vero capolavoro, quale idea vorreste che guidasse la mia mano?""
  fund_inspiration.7100.a:0 "Causare più vittime a #EMP loro#!, e meno a #EMP noi#!."
- fund_inspiration.7100.a.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di vittime."
+ fund_inspiration.7100.a.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di vittime." #controllare_modifica
  fund_inspiration.7100.b:0 "Instillare paura nelle persone che razzio."
- fund_inspiration.7100.b.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di razzia."
+ fund_inspiration.7100.b.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di razzia." #controllare_modifica
  fund_inspiration.7100.c:0 "Incoraggiare i miei $knight_culture_player_plural_no_tooltip_lowercase$ alla grandezza."
- fund_inspiration.7100.c.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore relativo al cavaliere."
+ fund_inspiration.7100.c.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore relativo al cavaliere." #controllare_modifica
  fund_inspiration.7100.d:0 "Sfruttare meglio i vantaggi del terreno."
- fund_inspiration.7100.d.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore legato al terreno."
+ fund_inspiration.7100.d.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore legato al terreno." #controllare_modifica
  fund_inspiration.7100.e:0 "È indifferente."
- fund_inspiration.7100.e.tt:0 "Il risultato dei modificatori del manufatto sarà casuale."
+ fund_inspiration.7100.e.tt:0 "Il risultato dei modificatori del manufatto sarà casuale." #controllare_modifica
  # Artifact modification: choose modifiers - regalia and crowns
  fund_inspiration.7110.a:0 "Rendere tutti i sovrani gelosi di me!"
- fund_inspiration.7110.a.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di opinione dei sovrani."
+ fund_inspiration.7110.a.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di opinione dei sovrani." #controllare_modifica
  fund_inspiration.7110.b:0 "Portare gloria alla mia dinastia."
- fund_inspiration.7110.b.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di dinastia."
+ fund_inspiration.7110.b.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di dinastia." #controllare_modifica
  fund_inspiration.7110.c:0 "Comandare il rispetto dei miei subalterni."
- fund_inspiration.7110.c.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di paura o tirannia."
+ fund_inspiration.7110.c.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di paura o tirannia." #controllare_modifica
  fund_inspiration.7110.d:0 "Impressionare i miei amanti!"
- fund_inspiration.7110.d.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di attrattiva."
+ fund_inspiration.7110.d.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di attrattiva." #controllare_modifica
  fund_inspiration.7110.e:0 "Impressionare i miei vassalli!"
- fund_inspiration.7110.e.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di opinione del vassallo."
+ fund_inspiration.7110.e.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di opinione del vassallo." #controllare_modifica
  fund_inspiration.7110.g:0 "Impressionare tutta la mia corte."
- fund_inspiration.7110.g.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di opinione dei cortigiani."
+ fund_inspiration.7110.g.tt:0 "Il tuo manufatto potrebbe guadagnare un modificatore di opinione dei cortigiani." #controllare_modifica
  # Artifact modification: choose modifiers - sculptures and thrones
  fund_inspiration.7120.a:0 "Legittimare il mio regno."
 
@@ -1016,7 +1041,7 @@
  fund_inspiration.8001.c.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip] concentrerà i suoi studi sul mercurio"
  fund_inspiration.8001.d:0 "Hai detto Arsenico?"
  fund_inspiration.8001.d.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip] concentrerà i suoi studi sull'arsenico"
-  
+ 
  fund_inspiration.8011.t:0 "$fund_inspiration.title$ Sogni d'Oro"
  fund_inspiration.8011.desc:0 "[inspiration_owner.Custom('DE_ART_DEF_P_D')] [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)] mi ha chiamato nel suo laboratorio, entusiasta di una svolta nella sua ricerca\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], siete qui! Eccellente. Per favore, bevete questo." [inspiration_owner.GetFirstNameNoTooltip] mi spinge nella stanza e verso un tavolo ricoperto di pergamene e bicchieri. È uno di questi beakers, contenente un intruglio dorato, che [inspiration_owner.Custom('DE_ART_IND_A')] che mi ha fatto bere.. "Ebbene, questo è ancora un lavoro incompleto, ovviamente, ma #EMP dovrebbe#! comunque avere un effetto davvero straordinario!"\n\nDopo ore di attesa tutto ciò che sento è un mal di testa martellante, nausea e vertigini."
  fund_inspiration.8011.a:0 "È meglio che questa farsa ti abbia insegnato qualcosa di utile."
@@ -1144,6 +1169,7 @@
  inspiration_type_verb_make:0 "[ROOT.Char.Custom('InspirationMakePresentFuture')]"
  inspiration_type_verb_study:0 "[ROOT.Char.Custom('InspirationStudyPresentFuture')]"
  inspiration_type_verb_research:0 "ricerca"
+ inspiration_type_verb_string: "[ROOT.Char.Custom('InspirationStringPresentFuture')]"
  inspiration_type_object_book:0 "libro"
  inspiration_type_object_weapon:0 "[ROOT.Char.Custom('ArtifactWeaponBaseType')]"
  inspiration_type_object_armor:0 "[ROOT.Char.Custom('ArtifactArmorTypeLowercase')]"
@@ -1193,7 +1219,6 @@
  fund_inspiration.0044.option_tapestry:0 "Un bell'arazzo per la mia sala."
  fund_inspiration.0044.option_banner:0 "Ho bisogno di un nuovo stendardo."
  fund_inspiration.you_decide_tapestry_option_tt:0 "[antiquarian.GetTitledFirstName] troverà un tessitore per realizzare il tuo manufatto"
- 
+
  fashion_industry_county_modifier: "Industria della Moda in Crescita"
  fashion_industry_county_modifier_desc: "Il signore di queste terre ha investito nella produzione e nel commercio di capi d'abbigliamento alla moda."
- 

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ep3_story_cycle_violet_poet.book.tt: "[double_moon_book.GetName] guadagna una nuova poesia"
  double_moon_tome_desc_1: "[double_moon_book.GetDesc]\n$EFFECT_LIST_BULLET$'Un Braccio Teso'"
  double_moon_tome_desc_2: "[double_moon_book.GetDesc]\n$EFFECT_LIST_BULLET$'Ode a una Guardia del Corpo'"

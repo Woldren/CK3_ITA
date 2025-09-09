@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  leg_building_name: "[ROOT.Province.GetLocalizedText( 'leg_b_name' )]"
  checked_leg_b_name: "[ROOT.Province.Custom('GetLegBName')]"
  #building_legendary_shrine: "[ROOT.Province.Custom('LegendaryShrineName')]"

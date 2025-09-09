@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  legend_debug.0001.desc: "#D Questo è un evento di debug#!"
 
@@ -632,7 +632,7 @@
  ancient_culture_tome_desc: "Questo antico tomo sembra suggerire un collegamento tra i/le [promoted_legend.GetProperty('culture').Culture.GetCollectiveNoun] e i/le [ROOT.Char.GetCulture.GetCollectiveNoun]."
  ancient_culture_artifact: "Incisione [promoted_legend.GetProperty('culture').Culture.GetNameNoTooltip|U]"
  ancient_culture_artifact_desc: "Un’antica incisione raffigurante un animale, realizzata da mani appartenenti alla cultura [promoted_legend.GetProperty('culture').Culture.GetName]. È sbiadita e a malapena riconoscibile, ma stringere tra le mani un frammento del passato fa sentire in qualche modo connessi a esso."
- 
+
  legend_chapter_punched_animal_great: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip] corse contro un esemplare di [Localize( beast )] con il pugno pronto e ridusse la bestia in frattaglie con un solo, potente colpo al cranio."
  legend_chapter_punched_animal_good: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip] fu assalito da un esemplare di [Localize( beast )] e lo affrontò corpo a corpo. Nonostante l’effetto sorpresa, [ROOT.Legend.GetProtagonist.GetSheHe] uccise la bestia con le sole mani nude."
  legend_chapter_punched_animal_bad: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip] fu assalito da un esemplare di [Localize( beast )] e lo combatté corpo a corpo. Sebbene [ROOT.Legend.GetProtagonist.GetSheHe] dovette essere salvat[ROOT.Legend.GetProtagonist.Custom('DE_END_PRO_S_N')] dal suo gruppo di caccia, la bestia fu infine uccisa."
@@ -742,7 +742,7 @@
  legend_chain_army_modifier_desc: "Questo personaggio ha ritrovato una nuova motivazione nelle battaglie che verranno."
  legend_chain_marshal_modifier: "Leggenda Marziale"
  legend_chain_marshal_modifier_desc: "Questo personaggio si dedica con ogni forza a diventare [ROOT.Char.Custom('DE_ART_DEF_P_A')] guerrier[ROOT.Char.Custom('DE_END_PRO_S_N')] migliore possibile."
-
+ 
  legend_spread_events.0074.t: "Nelle Caverne della Mente"
  legend_spread_events.0074.desc.intro: "Oscurità e freddo abitano in queste catacombe."
  legend_spread_events.0074.desc.mid.depressed: "La tentazione di restare qui mi assale. Nascondermi, dimenticare tutto il resto. Non è più soltanto una tentazione: è un bisogno.\n\n"

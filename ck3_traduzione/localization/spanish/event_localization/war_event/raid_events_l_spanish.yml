@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  raiding.0002.t:0 "Fuoco e Sangue"
  raiding.0002.desc:0 "L'insediamento di [sacked_barony.GetNameNoTierNoTooltip], un'importante roccaforte [sacked_county.Custom('IT_COU_COL2')][sacked_county.GetNameNoTooltip], è caduta in mano ai miei razziatori. Abbiamo vasti tratti di terra e molti dei popolani tremanti e degli splendidi tesori [sacked_county_owner.Custom('IT_NAM_COL2')][sacked_county_owner.GetTitledFirstName] fra cui scegliere.\n\nLe truppe sono pronte, in attesa che io dia loro istruzioni."
  raiding.0002.a:0 "Cattura schiavi abili per [raider_capital.GetNameNoTooltip]!"

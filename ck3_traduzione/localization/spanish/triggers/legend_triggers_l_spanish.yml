@@ -1,9 +1,9 @@
-﻿l_spanish:
+l_spanish:
  legend_owner_equal_global: "È di [TARGET_CHARACTER.GetName]"
  not_legend_owner_equal_global: "#bold Non#! è di [TARGET_CHARACTER.GetName]"
  legend_owner_equal_third: "[LEGEND.GetName] è di [TARGET_CHARACTER.GetName]"
  not_legend_owner_equal_third: "[LEGEND.GetName] #bold non#! è di [TARGET_CHARACTER.GetName]"
-  
+ 
  promoted_legend_equal_global: "Sta [Concept( 'promoting_legend', 'promuovendo la leggenda' )|E] [LEGEND.GetName]"
  not_promoted_legend_equal_global: "#bold Non#! sta [Concept( 'promoting_legend', 'promuovendo la leggenda' )|E] [LEGEND.GetName]"
  promoted_legend_equal_third: "[CHARACTER.GetName] sta [Concept( 'promoting_legend', 'promuovendo la leggenda' )|E] [LEGEND.GetName]"
@@ -32,7 +32,7 @@
  not_has_triggered_legend_seed_global: "#bold Non#! si qualifica per il [legend_seed|e] [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )]"
  has_triggered_legend_seed_third: "[CHARACTER.GetName] si qualifica per il [legend_seed|e] [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )]"
  not_has_triggered_legend_seed_third: "[CHARACTER.GetName] #bold non#! si qualifica per il [legend_seed|e] [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )]"
-  
+ 
  any_legend_promoter_global: "Qualsiasi promotore di una [legend|E]"
  any_legend_promoter_third: "Qualsiasi promotore della leggenda [LEGEND.GetName]"
  any_legend_promoter_count_global: "$PARAMETERS$ promotori della [legend|E]"
@@ -42,4 +42,4 @@
  not_has_legend_modifier_global: "#bold Non#! ha il Modificatore: $MODIFIER$"
  has_legend_modifier_third: "[LEGEND.GetName] ha il Modificatore: $MODIFIER$"
  not_has_legend_modifier_third: "[LEGEND.GetName] #bold non#! ha il Modificatore: $MODIFIER$"
-  
+ 

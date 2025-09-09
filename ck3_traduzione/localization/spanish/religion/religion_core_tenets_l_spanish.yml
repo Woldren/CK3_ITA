@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  doctrine_core_tenets_name:0 "Dottrine"
  tenets_name:0 "Dottrine"
 
@@ -232,7 +232,7 @@
  doctrine_parameter_healthier_children_active:0 "I bambini hanno #P meno probabilità#! di essere malati o nascere morti"
  doctrine_parameter_piety_from_childbirth_active:0 "Madri e padri ottengono [piety|E] alla nascita del loro figlio"
  piety_from_childbirth_toast:0 "Parto Sacro"
- 
+
  tenet_sanctity_of_nature_name:0 "La Sacralità della Natura"
  tenet_sanctity_of_nature_desc:1 "Il mondo naturale è la creazione del divino, e noi siamo semplicemente ospiti in esso. Dobbiamo rispettare e onorare ogni albero, ogni animale, e anche la terra stessa."
  # This parameter does nothing; it's just here to flag the tenet's nature silently so we can reference it without directly tagging the tenet.
@@ -320,7 +320,7 @@
  doctrine_parameter_adoptionists_are_mutual_evil:0 "Considera (da loro ricambiato) tutti gli altri $christianity_religion_adherent_plural$ come $hostility_evil_tooltippable$"
  doctrine_parameter_adoptionist_school_removed_on_reformation:0 "Le sottili sfumature di questa scuola sono #EMP permanentemente#! perse a causa della [reformation|E]"
  doctrine_parameter_adoptionists_attractively_intuitive_theology:0 "[EmptyScope.ScriptValue('fp2_lyonese_monk_conversion_bonus_root_value')|=+%0] di velocità di conversione contro altre [faiths|E] [GetReligionByKey('christianity_religion').GetAdjective]"
- 
+
  tenet_islamic_syncretism_name:0 "Sincretismo Islamico" 
  tenet_islamic_syncretism_desc:0 "Le parole del Profeta sono indiscutibilmente sagge e giuste, e qualsiasi siano i nostri dubbi, dovremmo prestare attenzione ai suoi pensieri e alle sue azioni."
  doctrine_parameter_hostility_override_special_doctrine_is_islamic_faith:1 "Considera le [faiths|E] Islamiche, ed è considerato dalle $game_concept_faiths$ Islamiche, come [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
@@ -358,6 +358,7 @@
  tenet_sacred_shadows_desc:0 "Mentire è l'arte più profonda in assoluto. Quelli che possono convincere gli altri con le loro bugie sono sacri. Quelli che possono mentire a loro stessi sono inarrestabili."
  doctrine_parameter_piety_gain_from_successful_intrigue_schemes:0 "I Credenti guadagnano pietà dopo aver completato con successo i [schemes|E] di tipo [intrigue|E]"
  doctrine_parameter_adherents_more_likely_to_join_schemes:0 "I Credenti sono più propensi a diventare Agenti in [schemes|E] altrui."
+
  tenet_pursuit_of_power_name:0 "Ricerca del Potere"
  tenet_pursuit_of_power_desc:0 "Quello che è giusto e non è passeggero, definito da quelli che attualmente detengono il potere. Questo significa che la ricerca del potere è l'unica vera e giusta causa."
 
@@ -371,6 +372,7 @@
  doctrine_parameter_natural_primitivism_law_cost_increase:0 "Costo della Legge: #N +50%#!"
  doctrine_parameter_unlock_jizya_contract:1 "Sblocca il [vassal_contract|E] Jizya  e il [tax_decree|E]"
  
+
  #FP3 tenets
 
  tenet_communal_possessions_name: "Possedimenti in comune"
@@ -392,10 +394,10 @@
  doctrine_parameter_master_assassin_court_position_unlocked: "Sblocca la #V [GetCourtPositionType( 'master_assassin_court_position' ).GetName()]#! [master_assassin|E]"
  doctrine_parameter_death_is_glory: "Probabilità di morte o lesioni in [battle|E]: #N +10%#!"
  doctrine_parameter_sanctioned_assassinations: "Nessuna perdita della [piety|e] per aver ucciso personaggi di un'altra [faith|E] per mezzo dei [schemes|E] [GetScheme('murder').GetTypeName]"
+ 
  # EP3 Tenets
  tenet_household_gods_name: "Dei della Casata"
  tenet_household_gods_desc: "Veneriamo i nostri #EMP Lari#! e i #EMP Genii#! — gli spiriti protettori che vegliano sulle nostre dimore. Sopra ogni cosa, onoriamo il nostro glorioso imperatore, la cui anima è investita della protezione dell’intero regno."
-
 
  # BP3 Parameter
  doctrine_parameter_allows_brewery: "$allows_brewery$ per le [temple_holdings|E]"

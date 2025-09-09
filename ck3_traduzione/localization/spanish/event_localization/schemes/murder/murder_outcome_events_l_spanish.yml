@@ -1,10 +1,10 @@
-﻿l_spanish:
+l_spanish:
  do_not_execute_murder_tooltip:0 "Non tentare l'omicidio"
  murder_child_really_tooltip:1 "Uccidere un bambino. Sei cert[ROOT.Char.Custom('DE_END_PRO_S_N')] di volerlo fare?"
  murder_outcome_murdered_rival_tt: "Hai ottenuto [prestige_i][EmptyScope.ScriptValue('rival_outlived_prestige_value')|P0] per essere sopravvissuto al tuo [rival|E]"
  murder_unknown_murder_against_you_was_successful:0 "#X Sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] assassinato da un assalitore sconosciuto!#!"
  murder_unknown_murder_against_you_was_successful_other:0 "#X [THIS.Char.GetShortUIName] è stat[THIS.Char.Custom('DE_END_PRO_S_N')] assassinat[THIS.Char.Custom('DE_END_PRO_S_N')] da un assalitore sconosciuto!#!"
- 
+
  murder_outcome.1001.t:0 "Assassino!"
  murder_outcome.1001.d:0 "Il tempo è giunto. I miei agenti sono in posizione. Uno di loro pagherà l'assassino la notte stessa in cui accadrà il fatto. Un altro si assicurerà che le mura non siano sorvegliate. Un terzo lascerà una sottile scia di candele che conduce alla camera da letto del[target.Custom('DE_END_ADJ_NUL_S_N')] [target.GetTitledFirstNamePossessive].\n\nTutto è pronto."
  murder_outcome.1001.a:0 "Fallo."
@@ -43,7 +43,7 @@
  murder_outcome.1007.desc_ending:0 "\n\nSebbe facile per i miei agenti inzuppare con del liquido infiammabile la barchetta a remi destinata a traghettar[target.Custom('DE_PRO_POS_P_3P')], aspettare fino a quando non abbia lasciato il porto, lanciare una freccia incendiaria, e poi semplicemente... lasciare che l'acqua [target.Custom('DE_PRO_POS_P_3P')] reclami."
  murder_outcome.1007.desc_ending_travel:0 "\n\nSarebbe una tragedia se i miei agenti inzuppassero il legno della nave con del liquido infiammabile e, fuggendo con l'unica barca, la incendiassero... assicurando così la morte di [target.GetFirstNamePossessive] e di tutto il suo seguito."
  murder_outcome.1007.a:0 "Metti in azione il piano."
- 
+
  murder_outcome.1008.t:0 "Bevanda della Vita"
  murder_outcome.1008.desc:0 "I miei agenti hanno acquisito una polvere discreta che non lascia traccia quando viene disciolta nella bevanda. I servitori incaricati di riempire e maneggiare la coppa di [target.GetTitledFirstNamePossessive] sono stati corrotti per guardare dall'altra parte e tutto ciò che rimane da fare è dare la mia approvazione per introdurre il veleno nella sua prossima bevanda rinfrescante."
  murder_outcome.1008.a:0 "Un brindisi alla salute di [target.GetShortUINamePossessiveNoTooltip]!"
@@ -110,8 +110,9 @@
  murder_outcome.2001.no_awareness_2:0 "\n\nHo coperto bene le mie tracce, e qualora qualcuno sospettasse di me come responsabile dell'attacco, non oserebbe dirlo ad alta voce."
  murder_outcome.2001.a.discovered:0 "Il mio assassino era lì solo per protegger[target.Custom('DE_PRO_POS_P_3P')] dal #EMP vero#! assassino! Sul serio!"
  murder_outcome.2001.a:0 "Amo le visite a sorpresa."
- 
+
  murder_outcome.2001.memories:0 "\n\nIo mi ricordo di quando [bad_memory.GetDescription], [ROOT.Char.Custom('MurderMemoryEnding')]" 
+
  
  murder_outcome.2002.t:0 "Viaggi Pericolosi"
  murder_outcome.2002.opening_1:0 "Grazie al mio brillante piano e ai miei scagnozzi, [target.Custom('DE_ART_DEF_P_A')] [target.GetTitledFirstName] è finalmente mort[target.Custom('DE_END_PRO_S_N')]!"
@@ -168,7 +169,7 @@
  murder_outcome.2007.a.discovered:0 "Io...io pensavo che sapesse nuotare!"
  murder_outcome.2007.a:0 "Che tragedia!"
  every_entourage_member:0 "Tutti i membri del seguito del[target.Custom('DE_END_ADJ_NUL_S_N')] [target.GetTitledFirstNameNoTooltip]:"
- 
+
  murder_outcome.2008.desc_drunkard:0 "[target.GetTitledFirstName] è mort[target.Custom('DE_END_PRO_S_N')], uccis[target.Custom('DE_END_PRO_S_N')] dal/dalla [target.Custom('RegionalAlcoholicDrink')] che amava così tanto!"
  murder_outcome.2008.desc_not_drunkard:0 "[target.GetTitledFirstName] è mort[target.Custom('DE_END_PRO_S_N')], ucciso da un sorso profondo di [target.Custom('RegionalDrink')]!"
  murder_outcome.2008.desc:0 "\n\nI miei agenti hanno introdotto il veleno nel suo calice e l'hanno osservato dissolversi senza lasciare traccia. Solo quando la sua gola si è gonfiata e chiusa [target.GetSheHe] ha realizzato che qualcosa non andava, ma ormai era troppo tardi.\n\n"
@@ -283,7 +284,7 @@
  murder_outcome.4007.scheme_unkown:0 "Fortunatamente l'arciere è riuscito a scappare e non si è trovata traccia del mio coinvolgimento."
  murder_outcome.4007.a.discovered:0 "Volevo solo che facesse pratica con il nuoto!"
  murder_outcome.4007.a:0 "Quanto potrà mai essere difficile colpire una barca?!"
- 
+
  murder_outcome.4008.desc:0 "[target.GetTitledFirstName] è sopravvissut[target.Custom('DE_END_PRO_S_N')] al veleno!\n\nSfortunatamente una delle sguattere di [target.GetTitledFirstName] si è concessa un sorso della bevanda prima di servirla al[target.Custom('DE_END_ADJ_DEF_P_A')] propri[target.Custom('DE_END_PRO_S_N')] Signor[target.Custom('DE_END_ADJ_IND_S_A')], e una serva morta a quanto pare è un deterrente.\n\n"
  murder_outcome.4008.scheme_owner_known:0 "E come se non bastasse, uno degli altri domestici non ha esitato a indicarmi come il colpevole dell'attentato!"
  murder_outcome.4008.scheme_unkown:0 "Perlomeno nessuno dei domestici ha confessato il mio coinvolgimento. Almeno quello."
@@ -408,10 +409,10 @@
  murder_outcome.5002.child:0 "Quale adulto sarebbe così crudele?"
  murder_outcome.5002.infant:0 "Piango un altro po'."
  murder_outcome.5002.option_incapable:0 "Cosa sta succedendo?"
- 
+
  murder_outcome.5002.memories_death:0 "\n\nMentre svanisco, una voce freddamente dice:\n#EMP "Il contratto è concluso. Vendetta per il tempo [bad_memory.GetThirdPerspectiveDescription], verificato. È ora di incassare la ricompensa"#!"
  murder_outcome.5002.memories:1 "\n\nVicino alla scena viene trovato un biglietto accartocciato: #EMP "Pagamento ricevuto per intero. Contratto emesso per quando [bad_memory.GetThirdPerspectiveDescription]."#!"
- # Feudo familiare
+ # Family Feud
  murder_outcome.5002.house_feud:0 "\n\nLa casata [owner_to_reveal.GetHouse.GetBaseName]! Avrei dovuto saperlo!"
  murder_outcome.4301.house_feud:0 "\n\n[target.GetHouse.GetBaseName] bastardi!"
  murder_outcome.2001.house_feud:0 "\n\nIn ogni caso c'è un [target.GetHouse.GetBaseName] in meno di cui preoccuparsi!"
@@ -590,4 +591,3 @@
  # Strangling Incapable
  murder_outcome_reworked.8001.desc: "[target.GetFirstNamePossessiveNoTooltip] days of glory have long been behind [target.GetHerHim]. Yet [target.GetSheHe] clinged to life so long, so desperately, so #EMP vainly#!... I believe that what my agent did was nothing more than an act of mercy. [target.GetFirstNameNoTooltip] was just an empty shell. Is that really even murder?"
  murder_outcome_reworked.8003.desc: "It is outrageous how wildly incompetent an agent can be. How hard can it be to strangle a fragile person whose mind is not present anymore and who is barely alive at all?! And yet, I am only met with failure."
- 

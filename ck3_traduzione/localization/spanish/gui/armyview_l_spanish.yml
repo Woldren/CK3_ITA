@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  ARMY_HEADER:0 "Esercito"
  SPLIT_ARMY_IN_HALF:0 "#T Dividi a metà#!\nDividi questo esercito in due [armies|E] più o meno uguali"
  SPLIT_ARMY_IN_HALF_DISABLED:0 "\n$DESC$"

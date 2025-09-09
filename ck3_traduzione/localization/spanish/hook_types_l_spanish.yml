@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  weak_blackmail_hook:0 "Ricatto"
  strong_blackmail_hook:0 "Ricatto"
  favor_hook:0 "Favore"
@@ -22,7 +22,7 @@
  strong_obligation_hook: "$obligation_hook$"
  liege_favour_strong_hook:0 "Grazia Concessa"
  caliphal_submission_hook:0 "Sottomissione Califfale"
- 
+
  weak_prostitute_blackmail_hook: "Ricatto Licenzioso"
  strong_prostitute_blackmail_hook: "Ricatto Licenzioso"
  follower_oath_hook: "Giuramento del Seguace"
@@ -30,3 +30,6 @@
  contact_list_weak_hook: "Eccelso nel Contratto"
  blood_brother_hook: "Fratello di Sangue"
  blood_sister_hook: "Sorella di Sangue"
+
+ oath_claimant_hook: "Indebted Claimant"
+ oath_claimant_heir_hook: "Heir of Indebted Claimant"

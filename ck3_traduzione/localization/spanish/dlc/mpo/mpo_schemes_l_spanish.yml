@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 #Steal Herd
  scheme_odds.misc_is_herder: "[target.GetFirstName] is a [herder|E]"
  scheme_agent_aptitude.is_herder: "Is a [herder|E]"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  IS_CULTURE_INVOLVED_IN_STRUGGLE_TRIGGER:0 "La cultura [CULTURE.GetName] è coinvolta nella [STRUGGLE.GetName]"
  IS_FAITH_INVOLVED_IN_STRUGGLE_TRIGGER:0 "La [faith|E] [FAITH.GetName] è coinvolta in una [STRUGGLE.GetName]"

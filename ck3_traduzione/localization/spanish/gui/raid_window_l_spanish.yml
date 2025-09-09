@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  RW_TT_RAIDING_REALM_TOOLTIP:0 "#T Razziatore: [Character.GetPrimaryTitle.GetName|V]#!\n#I Clicca per visualizzare#!"
  RW_TT_DEFENDING_REALM_TOOLTIP:0 "#T Difensore: [Character.GetPrimaryTitle.GetName|V]#!\n#I Clicca per visualizzare#!"
  RW_TIME_LEFT:0 "Rimangono [Raid.GetEta.GetTimeDiffFromNow|V]"

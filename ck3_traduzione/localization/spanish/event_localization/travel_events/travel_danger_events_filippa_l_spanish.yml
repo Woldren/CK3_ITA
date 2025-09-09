@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 #Travel Danger Events
 #Sea: Someone falls overboard
  travel_danger_events.4000.t:0 "$travel_danger_prefix$ [overboard_character.GetWomanMan|U] In Mare!"

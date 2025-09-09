@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # Mercenaries are being assholes at an inn, by Linnéa Thimrén
  martial_authority.1031.t:0 "Clemenza per i Mercenari"
  martial_authority.1031.desc:0 "Il trambusto di una locanda, un buon sidro, una serata tranquilla dopo una lunga giornata di addestramento... Il boccale mi viene fatto cadere di mano da un mercenario che lo urta mentre vacilla, e ogni speranza di rilassarmi svanisce, insieme al mio sidro..\n\n"La prego, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]." Il locandiere implora, "gli sgherri di [scoped_mercenary.GetFirstNamePossessive] hanno bevuto tutto, senza pagare, per giorni! E le risse che fanno scoppiare, spaventano il personale e gli ospiti!""

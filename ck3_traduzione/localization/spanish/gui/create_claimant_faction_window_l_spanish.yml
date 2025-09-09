@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  CREATE_CLAIMANT_FACTION_NO_CLAIMANT_IN_REALM:0 "@warning_icon! #X non è nel regno di [CHARACTER.GetShortUINamePossessive]#!"
  CREATE_CLAIMANT_FACTION_NO_CLAIMANT_UNLANDED:0 "@warning_icon! #X Non è senza terra#!"
  CREATE_CLAIMANT_FACTION_INVITE:0 "#T Invita come pretendente#!"

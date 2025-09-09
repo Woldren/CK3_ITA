@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  # 
  CULTURAL_ACCEPTANCE_IS:0 "L'[cultural_acceptance|E] tra la cultura [CULTURE.GetName|U] e la cultura [TARGET_CULTURE.GetName|U] è $NUM|V0$"
  CULTURAL_ACCEPTANCE_IS_NOT:0 "L'[cultural_acceptance|E] tra la cultura [CULTURE.GetName|U] e la cultura [TARGET_CULTURE.GetName|U] #bold non#! è $NUM|V0$"

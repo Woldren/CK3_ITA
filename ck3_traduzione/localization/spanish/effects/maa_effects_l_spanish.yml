@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  transfer_title_maa_global: "Trasferisci il reggimento [Regiment.GetName] a [TARGET_TITLE.GetName]"
  transfer_title_maa_ownership_global: "Trasferisci il possesso di tutti gli [title_men_at_arms|E] di [TITLE.GetNameNoTier] a [TARGET_TITLE.GetNameNoTier]" 
  destroy_maa_regiment_global: "Il reggimento [REGIMENT.GetName] viene distrutto"

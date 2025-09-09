@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  EPIDEMICS_TITLE: "Epidemie"
  EPIDEMIC_BACK_LABEL: "#T Torna a tutte le $EPIDEMICS_TITLE$#!"
 
@@ -33,7 +33,7 @@
  EPIDEMIC_INFECTION_LEVEL_EXPLANATION: "In base al [infection_rate|E] in una data [barony|E] verranno applicati diversi effetti all'[holding|E], a chi lo detiene [holder|E], e ai suoi [lieges|E]."
  EPIDEMIC_INFECTION_FIRST_LEVEL_NAME: "Sotto il [EpidemicInfectionLevel.GetThreshold|%/^]"
  EPIDEMIC_INFECTION_LEVEL_NAME: "Sopra al [EpidemicInfectionLevel.GetThreshold|%/^]"
-  
+ 
  EPIDEMIC_MODIFIER_HEADING_REALM: "Modificatori del [realm|E]"
  EPIDEMIC_PROVINCE_MODIFIER: "#S $PROVINCE_MODIFIERS$#!\n[EpidemicInfectionLevel.GetProvinceModifierDesc]"
  EPIDEMIC_COUNTY_MODIFIER: "#S $COUNTY_MODIFIERS$#!\n[EpidemicInfectionLevel.GetCountyModifierDesc]"

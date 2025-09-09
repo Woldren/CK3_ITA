@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  MOD_ARTIFACT_DECAY_REDUCTION_ADD:0 "Riduzione del Decadimento del [artifact|E]"
  MOD_ARTIFACT_DECAY_REDUCTION_MULT:0 "$MOD_ARTIFACT_DECAY_REDUCTION_ADD$"
 
@@ -71,7 +71,7 @@
  artifact_slot_wall_small:0 "Ornamento Piccolo da Parete"
  artifact_slot_book:0 "Libro"
  artifact_slot_journal: "Diario"
- 
+
  artifact_crown:0 "Corona"
  artifact_helmet:0 "Copricapo"
  artifact_helmet_simple: "$artifact_helmet$"
@@ -219,7 +219,7 @@
  CHARACTER_CANNOT_DECLARE_WAR:0 "[Character.GetShortUINameNoTooltip|U] non può attualmente dichiarare guerra per questo [artifact|e]"
  CHARACTER_CANNOT_DECLARE_WAR_SHORT:0 "Non può dichiarare guerra"
  CHARACTER_CAN_DECLARE_WAR:0 "[Character.GetShortUINameNoTooltip|U] può dichiarare guerra per questo [artifact|e]"
- #DECLARE_WAR_FOR_ARTIFACT_TOOLTIP:0 "#T Dichiara Guerra per il Manufatto#!" #<DELETE THIS KEY>
+ #DECLARE_WAR_FOR_ARTIFACT_TOOLTIP:0 "#T Declare War for Artifact#!" #<DELETE THIS KEY>
  DUEL_FOR_ARTIFACT_TOOLTIP:0 "#T Duello per il Manufatto#!"
  ARTIFACT_SORT_ORDER_TOOLTIP:0 "#T Cambia l'ordinamento dei Manufatti#!"
  ARTIFACT_CLAIM_SORT_ORDER_TOOLTIP:0 "#T Cambia l'ordinamento della [artifact_claim|e]#!"

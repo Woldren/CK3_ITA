@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  RP_CANNOT_PLACE_INVALID_PROVINCE:0 "#X @warning_icon! La posizione è al di fuori del tuo [realm|E] #!"
  RP_CANNOT_PLACE_ALREADY_THERE:0 "#X @warning_icon! Qui c'è già un [rally_point|E]#!"
  RP_CANNOT_PLACE_OCCUPIED:0 "#X @warning_icon! La località è [occupied|E]#!"

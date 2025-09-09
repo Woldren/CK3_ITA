@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #Positive or Negative selection
  quirk_present_positive:0 "[second.Custom('quirk_pos_present')]"
  quirk_present_negative:0 "[second.Custom('quirk_neg_present')]"
@@ -38,6 +38,7 @@
  humble_quirk:0 "abbassa lo sguardo"
  deceitful_quirk:0 "sorride sensualmente"
  honest_quirk:0 "mantiene il contatto visivo"
+ honest_quirk_blind: "listens with unwavering focus"
  generous_quirk:0 "apre una mano"
  craven_quirk:0 "mi guarda timidamente"
  craven_2_quirk:0 "si sposta da un piede all'altro"
@@ -107,7 +108,7 @@
 
 
  ######################
- #	Personal Present  #
+ #	Personal Present #
  ######################
  #Example: "While awaiting a response, I QUIRK." "I QUIRK while telling her."
 
@@ -129,6 +130,7 @@
  humble_quirk_personal:0 "abbasso lo sguardo"
  deceitful_quirk_personal:0 "sorrido sensualmente"
  honest_quirk_personal:0 "mantengo il contatto visivo"
+ honest_quirk_personal_blind: "listen with unwavering focus"
  generous_quirk_personal:0 "apro una mano"
  craven_quirk_personal:0 "mi sposto da un piede all' altro"
  brave_quirk_personal:0 "gonfio il petto"
@@ -194,7 +196,7 @@
 
 
  ########################
- #	Present standalone  #
+ #	Present standalone #
  ########################
  #Example: ""Blah blah," another character says. STANDALONE.
 
@@ -216,6 +218,7 @@
  humble_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] guarda in basso"
  deceitful_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] sorride sensualmente"
  honest_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] mantiene il contatto visivo"
+ honest_quirk_standalone_blind: "[ROOT.GetCharacter.GetSheHe|U] listens with unwavering focus"
  generous_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] apre una mano"
  craven_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] passa da un piede all'altro"
  brave_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] gonfia il petto"
@@ -277,7 +280,7 @@
  forgiving_2_neg_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] sembra esitare"
 
  ########################
- #	Present Participle  #
+ #	Present Participle #
  ########################
  #Example: "I look at her PP." or "He is PP right now."
 
@@ -298,6 +301,7 @@
  humble_quirk_pp:0 "sorride serenamente"
  deceitful_quirk_pp:0 "sorride sensualmente"
  honest_quirk_pp:0 "mantiene il contatto visivo"
+ honest_quirk_pp_blind: "listening with unwavering focus"
  generous_quirk_pp:0 "allarga le braccia"
  craven_quirk_pp:0 "sposta il peso da un piede all'altro"
  brave_quirk_pp:0 "gonfia il petto"
@@ -362,7 +366,7 @@
 
 
  #################################
- #	Personal Present Participle  #
+ #	Personal Present Participle #
  #################################
  #Example: "I say, PP." or "I am PP right now."
 
@@ -383,6 +387,7 @@
  humble_quirk_personal_pp:0 "sorrido serenamente"
  deceitful_quirk_personal_pp:0 "sorrido sensualmente"
  honest_quirk_personal_pp:0 "mantengo il contatto visivo"
+ honest_quirk_personal_pp_blind: "listening with unwavering focus"
  generous_quirk_personal_pp:0 "allargo le braccia"
  craven_quirk_personal_pp:0 "sposto il peso da un piede all'altro"
  brave_quirk_personal_pp:0 "gonfio il petto"
@@ -449,9 +454,9 @@
 
 
  ##########
- #	Noun  #
+ #	Noun #
  ##########
- #Esempio: ""Blah blah," ha detto con la sua solita NOUN"
+ #Example: ""Blah blah," he said with his usual NOUN"
 
  #POSITIVE
  arrogant_quirk_noun_1:0 "confidenza"
@@ -536,9 +541,9 @@
 
 
  ############
- #	Adverb  #
+ #	Adverb #
  ############
- #Example: "He smiles ADVERB. Sorride, in che modo?"
+ #Example: "He smiles ADVERB."
 
  #POSITIVE
  arrogant_quirk_adverb_1:0 "confidenzialmente"
@@ -638,9 +643,9 @@
 
 
  ###############
- #	Adjective  #
+ #	Adjective #
  ###############
- #Example: "As always, she seemed very ADJECTIVE. E' sembrato davvero come?"
+ #Example: "As always, she seemed very ADJECTIVE."
 
  #POSITIVE
  arrogant_quirk_adjective_1:0 "sicuro"

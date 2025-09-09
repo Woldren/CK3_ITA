@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  event_window_widget_name_child_after_father:0 "Come [Select_CString( Character.GetFather.IsLocalPlayer, 'me', Character.GetFather.GetShortUINameNoTooltip )]"
  event_window_widget_name_child_after_mother:0 "Come [Select_CString( Character.GetMother.IsLocalPlayer, 'me', Character.GetMother.GetShortUINameNoTooltip )]"
  event_window_widget_name_child_after_fathers_father:0 "Come [Select_CString( Character.GetFather.IsLocalPlayer, 'mio ', '' )][Select_CString( Character.GetFather.IsLocalPlayer, '', 'il padre di ' )][Select_CString( Character.GetFather.IsLocalPlayer, 'padre', '' )][Select_CString( Character.GetFather.IsLocalPlayer, '', Character.GetFather.GetShortUINamePossessiveNoTooltip )]"
@@ -21,4 +21,3 @@
  event_window_widget_peasant_leader: "$event_window_widget_peasant_leader_support$: [Character.MakeScope.Var('support_gui').GetValue|0]/[Character.MakeScope.Var('num_of_corrupt_counties_gui').GetValue|0]\n$event_window_widget_peasant_leader_control$: [Character.MakeScope.Var('control_gui').GetValue|0]/[Character.MakeScope.Var('num_of_corrupt_counties_gui').GetValue|0]"
  event_window_widget_peasant_leader_tooltip: "I contadini locali sono in costante lotta contro i loro signori. In quanto [adventurer|E], sei solo uno spettatore. Tuttavia, se lo desideri, puoi prendere in mano la situazione. Decidi chi ha ragione e chi ha torto, scegli una parte e sostienila."
  event_window_widget_peasant_leader_tooltip_widget: "Promemoria riguardo a quante [counties|E] hai deciso di supportare o controllare. Se si dovesse arrivare a una guerra, i contadini di tutte le contee sostenute si uniranno ai tuoi vessilli!"
- 

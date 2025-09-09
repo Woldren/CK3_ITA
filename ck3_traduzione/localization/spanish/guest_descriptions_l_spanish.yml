@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  guest_description.outstanding_skill.desc:0 "Un eccezionale"
  guest_description.experienced_skill.desc:0 "Un esperto"
  guest_description.competent_skill.desc:0 "Un competente"
@@ -43,4 +43,5 @@
  guest_description.vassal_trusting.desc:0 "([GetTrait('trusting').GetName( ROOT.Char )])"
  guest_description.vassal_stewardship.desc:0 "(#V [ROOT.Char.GetSkill( 'stewardship' )]#! [stewardship|E])"
  guest_description.vassal_martial.desc:0 "(#V [ROOT.Char.GetSkill( 'martial' )]#! [martial|E])"
+
 

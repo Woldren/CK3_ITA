@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #GetSmallFood
  #GetSmallFoodIndef
  food_word_apple:0 "mela"
@@ -57,7 +57,6 @@
  expensive_dessert_entremets_face:0 "un dolce alla crema"
  expensive_dessert_quince_tarts_face:0 "una crostata di mele cotogne"
  expensive_dessert_honey_pudding_face: "cucchiaio di budino di riso e miele"
-
  #GetExpensiveDrink
  expensive_drink_hippocras:0 "ippocrasso pregiato"
  expensive_drink_imported_wine:0 "vini d'importazione"
@@ -71,7 +70,6 @@
  expensive_drink_mead:0 "idromele pregiati"
  expensive_drink_invigorating_herbal_infusions:0 "infusi di erbe tonificanti"
  expensive_drink_violet_sharbah:0 "sharbah viola" 
-                                                  
  #GetExpensiveDrink_Singular
  expensive_drink_singular_hippocras:0 "$expensive_drink_hippocras$"
  expensive_drink_singular_imported_wine:0 "vino d'importazione"
@@ -84,7 +82,6 @@
  expensive_drink_singular_mead:0 "idromele pregiato"
  expensive_drink_singular_herbal_infusions:0 "infuso di erbe tonificanti"
  expensive_drink_singular_violet_sharbah:0 "$expensive_drink_violet_sharbah$"
-                                                                             
  #GetShockedExpression
  shocked_expression_shocked:0 "scandalizzato"
  shocked_expression_appalled:0 "inorridito"

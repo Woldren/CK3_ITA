@@ -1,4 +1,4 @@
-﻿l_spanish: 
+l_spanish:
  the_great_steppe_participant_group_nomad_rulers_capital: "Governanti Nomadi nella Regione"
  the_great_steppe_participant_group_nomad_rulers_capital_desc: "Tutti i [rulers|e] [GetGovernment( 'nomad_government' ).GetName] con la propria [capital|e] in questa [situation_sub_region|E]."
  the_great_steppe_participant_group_nomad_rulers_realm: "Governanti Nomadi Parzialmente nella Regione"

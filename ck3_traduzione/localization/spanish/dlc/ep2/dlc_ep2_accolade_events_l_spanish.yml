@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  
  ep2_accolade_events.0100.t:0 "L'Arte del Cacciatore"
  ep2_accolade_events.0100.desc:0 "Inseguire alla cieca una creatura selvaggia, lanciando una freccia dopo l'altra o sferzare sempre più forte?\n\n"Futile!" ride [huntsmaster.GetName], [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] di gran fama.\n\nLe bestie possono essere astute. Fiutano il cacciatore quando si avvicina, si disperdono davanti al branco di cacciatori e diventano violente quando vengono messe alle strette. Abbattere le fiere significa conoscere a fondo loro e la loro natura selvaggia e, una volta suonato il corno — non cedere mai.\n\nIl più abile tra i cacciatori è [huntsmaster.GetFirstNameNoTooltip]. In sua compagnia,"

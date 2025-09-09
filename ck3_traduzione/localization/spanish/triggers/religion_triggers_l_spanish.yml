@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  RELIGION_TAG_TRIGGER:0 "È parte della religione $RELIGION|V$"
 
@@ -42,12 +42,12 @@
  I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH:2 "Il tuo [realm|E] o la tua [confederation|E] #bold non#! contiene almeno $VALUE|0V$ [holy_sites|E] di fede [FAITH.GetName] con [holders|E] di fede [FAITH.GetAdjectiveNoTooltip] #weak (Attualmente: [GetPlayer.MakeScope.ScriptValue('holy_site_reform_tracker_value')|V0])#!"
  I_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH_DIRECTLY: "Il tuo [realm|E] contiene almeno $VALUE|0V$ [holy_site|E] di fede [FAITH.GetName] con [holders|E] di fede [FAITH.GetAdjectiveNoTooltip]"
  I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH_DIRECTLY: "Il tuo [realm|E] #bold non#! contiene almeno $VALUE|0V$ [holy_site|E] di fede [FAITH.GetName] con [holders|E] di fede [FAITH.GetAdjectiveNoTooltip]"
-
+ 
  NOT_RELIGION_TAG_TRIGGER:0 "La tua [faith] #bold non#! fa parte del $RELIGION|V$"
 
  CAN_LEGITIMIZE_BASTARDS_IN_FAITH:0 "[CHARACTER.GetFaith.GetName] permette ai [bastards|E] di essere [legitimized|E]"
  CANNOT_LEGITIMIZE_BASTARDS_IN_FAITH:0 "[CHARACTER.GetFaith.GetName] #EMP non#! permette ai [bastards|E] di essere [legitimized|E]"
- 
+
  CANNOT_CREATE_HOF_TITLE_AT_OR_ABOVE_LIEGE_TIER:0 "Non puoi diventare [head_of_faith|E] se ciò ti rende uguale o superiore al [title_rank|E] del tuo [liege|E]"
  CHAR_CAN_ONLY_CREATE_ONE_FAITH:0 "Hai già riformato o creato una nuova [faith|E] con questo personaggio!"
 
@@ -55,6 +55,7 @@
  has_pledged_attacker:0 "Sei un attaccante giurato"
  they_have_pledged_as_attacker:0 "Loro sono attaccanti giurati nella tua [GREAT_HOLY_WAR.GetName] della fede"
  has_pledged_defender:0 "Sei un difensore giurato"
- 
+
  ANY_FAITH_RULER_GLOBAL:0 "Qualsiasi [ruler|E] [FAITH.GetAdjectiveNoTooltip]"
- 
+
+

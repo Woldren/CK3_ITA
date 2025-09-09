@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  travel_danger_events.9000.t:1 "$travel_danger_prefix$ Un Flagello Ronzante"
  travel_danger_events.9000.desc:0 "I/gli/le [location.Custom('GetTerrainTypePlural')] di [location.GetName] #EMP brulicano#! di piccoli insetti neri e succhiasangue. Non importa cosa facciamo o dove andiamo, loro sono lì, a succhiare il nostro sangue,  — come una nube malefica inviata dal [ROOT.Char.GetFaith.DevilName] in persona!\n\nNon solo i cavalli stanno diventando irascibili, ma anche il mio seguito... Soprattutto ([mosquito_victim.Custom('DE_ART_DEF_P_A')]) mi[mosquito_victim.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('mosquito_victim'))] [mosquito_victim.GetFirstName], che agita furiosamente le braccia ricoperte di sangue."
  travel_danger_events.9000.deviant:0 "#EMP Fantastico!#! Spogliamoci tutti!"
@@ -7,13 +7,13 @@
  travel_danger_events.9000.b:0 "[mosquito_victim.GetFirstNameNoTooltip]! Spogliati, camminerai davanti."
  drained_by_mosquitoes_modifier:0 "Prosciugato dalle zanzare"
  drained_by_mosquitoes_modifier_desc:0 "Questo personaggio è stato assalito da uno sciame di insetti succhiasangue, che hanno succhiato una quantità significativa del suo sangue."
-  
+ 
  travel_danger_events.9010.t:1 "$travel_danger_prefix$ Ostacolo sul Cammino"
  travel_danger_events.9010.desc:0 ""[location.Custom('GetRandomRegionalDanger')|U]!" Sento [irritated_character.GetFirstName] gridare in preda al panico. Poco dopo, sento uno scricchiolio. Se non è il legno a cedere, è la mia pazienza.\n\nEsco dalla [location.Custom('GetProvinceGroundDesc')] per vedere i resti frantumati di una ruota del carro... Del #EMP mio#! carro!\n\n"Mi dispiace, [irritated_character.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))]. Era il mio turno di guidare, ma mi sono addormentato...""
  travel_danger_events.9010.strong:0 "#EMP *Sospiro mentre sollevo il carro da terra*#!"
  travel_danger_events.9010.a:0 "[root_scope.Custom('CulturalCurse')|U]... Faremo tardi."
  travel_danger_events.9010.b:0 "Distribuite le provviste, d'ora in poi sarò brusco..."
-  
+ 
  travel_danger_events.9020.t:1 "$travel_danger_prefix$ Emaciazione Emergente"
  travel_danger_events.9020.desc.first:0 ""Noi... Noi siamo #EMP completamente#! a corto di [ROOT.Char.Custom('GetExpensiveDessert')]!"Balbetta nervosamente ([mosquito_victim.Custom('DE_ART_DEF_P_A')]) mi[mosquito_victim.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('emaciated_character'))]. "E senza [ROOT.Char.Custom('GetExpensiveMeal')], [ROOT.Char.Custom('GetExpensiveMealAlt')],  [ROOT.Char.Custom('GetLocalStreetFoodPlural')], e perfino senza #EMP [ROOT.Char.Custom('get_region_root_vegetable_plural')]!#!"\n\n"
  travel_danger_events.9020.desc.war:0 ""I soldati in cerca di cibo hanno preso tutto nella notte! Non ci è rimasta nemmeno #EMP una briciola!#!" grida [emaciated_character.GetSheHe]. "Moriremo di Fame!""

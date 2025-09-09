@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  OPINION_REASON_SELF:0 "Opinione di se: $VALUE|=+0$"
  OPINION_REASON:0 "$MODIFIER$: $VALUE|=+0$"
  OPINION_REASON_EXTRA_REASON:0 "$MODIFIER$: $VALUE|=+0$ #weak ($EXTRA_REASON$)#!"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  #PartnerOpinionDescription
  partner_opinion_high:0 "[ROOT.Char.Custom2('PartnerOpinionHighDescription', SCOPE.sC('second') )]"
  partner_opinion_low:0 "[ROOT.Char.Custom2('PartnerOpinionLowDescription', SCOPE.sC('second') )]"

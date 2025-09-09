@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  religious_interaction.1.opening:0 "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]"
  religious_interaction.1.desc:0 "Dopo molte preghiere e riflessioni, ho deciso di accogliere la tua richiesta di divorzio da tu[secondary_recipient.Custom('DE_END_PRO_S_N')] [secondary_recipient.GetWifeHusband], [secondary_recipient.GetFirstNameNoTooltip],"
  religious_interaction.1.consanguinity:0 "per motivi di consanguineità."
@@ -194,7 +194,7 @@
  religious_interaction.2500.a:0 "Sia lode a [ROOT.Char.GetFaith.HighGodName]!"
 
  religious_interaction.2501.desc:0 "Stai scherzando? I tuoi trasparenti tentativi di fuga politica non potranno mai scoraggiare l'ira di [recipient.GetFaith.HighGodName]!"
-
+ 
  #########################
  # Exaltation of Pain tenet
  #########################

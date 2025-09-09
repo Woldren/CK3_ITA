@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  death_management.1000.killed.tt:1 "[dead_character.GetTitledFirstName] è stat[dead_character.Custom('DE_END_PRO_S_N')] uccis[dead_character.Custom('DE_END_PRO_S_N')] da [killer.GetTitledFirstName]."
  death_management.1000.t:0 "Finché Morte Non Ci Separi"
  death_management.1000.murder:0 "[dead_character.GetTitledFirstName] è stat[dead_character.Custom('DE_END_PRO_S_N')] uccis[dead_character.Custom('DE_END_PRO_S_N')]!\n\n"

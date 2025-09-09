@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  mpo_events_anna.0001.t: "Train Them Young"
  mpo_events_anna.0001.desc: "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('pushy_adult'))] [pushy_adult.GetFirstName] and I are observing my [child.Custom('GetDaughterSon')] [child.GetFirstName], as [child.GetSheHe] skips happily across the encampment with a few rocks at hand, ready to be played with. [pushy_adult.GetFirstNameNoTooltip] eagerly turns to me with a huge smile.\n\n"Don't you think it is time for [child.GetFirstNameNoTooltip] to learn how to ride a horse instead of playing childish games? I've prepared a most gentle colt and some rope that should keep [child.GetHerHim] safe during [child.GetHerHis] first ride.""

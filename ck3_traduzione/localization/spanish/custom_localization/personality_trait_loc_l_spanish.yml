@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  #NEGATIVE
  personality_traitdesc.negative.arrogant:0 "presuntuos[ROOT.Char.Custom('DE_END_PRO_S_N')]"
@@ -132,3 +132,4 @@
  TRAIT_CATEGORY_BASE:0 "[trait|E]"
  ANY_OPPOSITE_TRAIT_ALL: "Non hanno alcun [personality_traits|E] opposto"
  NOT_ANY_OPPOSITE_TRAIT_ALL: "Ha già il [personality_traits|E] opposto" 
+ 

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
   legend_quality_famed: "[legend_famed|E]"
   legend_quality_illustrious: "[legend_illustrious|E]"
   legend_quality_mythical: "[legend_mythical|E]"
@@ -25,7 +25,7 @@
   legend_can_not_promote_tt: "Hai bisogno di una delle seguenti cose:#!\n@warning_icon! #X Condividi una lingua con [legend.GetOwner.GetName]#!\n@warning_icon! #X [legend.GetName] è presente in una provincia confinante con il tuo regno#!\n@warning_icon! #X Tu e [legend.GetOwner.GetName] siete $game_concept_lovers$#!\n@warning_icon! #X Tu e [legend.GetOwner.GetName] siete $game_concept_friends$#!"
   legend_no_legend: "Non stai promuovendo nessuna [legend|E]"  
   CHARACTER_CANNOT_REACH_LEGEND: "@warning_icon! #X La leggenda non è nel tuo [realm|e], ed inoltre tu non sei attualmente presente nell'area di diffusione della leggenda#!"
-  
+ 
   LEGEND_PROMOTER_MODIFIERS: "Modificatori del [legend_promoter|E]"
 
   LEGEND_PROVINCE_MODIFIERS_SUBTEXT: "#S $PROVINCE_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'province' )]"
@@ -84,7 +84,6 @@
   game_concept_legend_library: "Libreria della Leggenda"
   game_concept_legend_library_i: "@legend_icon!"
   game_concept_legend_library_desc: "La [legend_library|E] contiene le [legends|E] completate che si sono diffuse nel tuo [domain|E], che tu hai creato, o che stavi attivamente promuovendo.\nPuoi inoltre aggiungere attivamente delle [legends|E] completate se stai viaggiando attraverso l'area di diffusione della leggenda.\n\nPuoi rimuovere le [legends|E] dalla tua libreria a piacimento."
-  
 
   game_concept_ancestral_claim: "Rivendicazione Ancestrale"
   game_concept_ancestral_claim_desc: "Il [casus_belli|E] Rivendicazione Ancestrale ti consente di annettere tutte le terre all'interno di un titolo su cui hai un diritto acquisito attraverso una [legend|E] Legittimante."
@@ -427,7 +426,6 @@
  legend_chronicle_opening_raised_by_animals: "Senza cibo né speranza di salvezza, [ROOT.Legend.GetProtagonist.GetNameNoTooltip] giaceva smarrit[ROOT.Legend.GetProtagonist.Custom('DE_END_PRO_S_N')] come un[ROOT.Legend.GetProtagonist.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Legend.GetProtagonist.Custom('DE_END_PRO_S_N')] accanto a un fiume, finché la madre di un possente esemplare di [ROOT.Legend.GetProperty( 'beast' ).GetFlagName] non l'ha trovat[ROOT.Legend.GetProtagonist.Custom('DE_END_PRO_S_N')]. L'ha allattat[ROOT.Legend.GetProtagonist.Custom('DE_END_PRO_S_N')], facendol[ROOT.Legend.GetProtagonist.Custom('DE_END_PRO_S_N')] diventare un[ROOT.Legend.GetProtagonist.Custom('DE_PRO_POS_P_2P')] [ROOT.Legend.GetProtagonist.GetWomanMan] ercule[ROOT.Legend.GetProtagonist.Custom('DE_END_PRO_S_N')] con tutta la forza e il coraggio di un esemplare di [ROOT.Legend.GetProperty( 'beast' ).GetFlagName]."
  legend_chapter_motivation_raised_by_animals: "Dopo aver fatto ritorno alla civiltà, [ROOT.Legend.GetProtagonist.GetFirstName] ha scoperto come il caos si fosse impadronito della terra. Il vicino si accanisce sul vicino come un esemplare di [ROOT.Legend.GetProperty( 'beast' ).GetFlagName] sulla sua preda, e [ROOT.Legend.GetProtagonist.GetFirstName] ha capito che il suo popolo aveva bisogno di un leader forte che li unisse attorno alla loro causa comune."
  legend_chapter_conclusion_raised_by_animals: "[ROOT.Legend.GetProtagonist.GetFirstName|U] ha governato proprio come farebbe un'esemplare di [ROOT.Legend.GetProperty( 'beast' ).GetFlagName], con forza e orgoglio. Sebbene [ROOT.Legend.GetProtagonist.GetSheHe] non abbia mai più visto sua madre, l'esemplare di [ROOT.Legend.GetProperty( 'beast' ).GetFlagName], [ROOT.Legend.GetProtagonist.GetSheHe] non aveva dubbi sul fatto che questo messaggero [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm3] avrebbe guardato al suo regno con grande orgoglio. Le terre sono rimaste tranquille e pacifiche, e nessuno dei suoi nemici ha osato superare i limiti, per non dover affrontare la sua furia."
-#da tradurre 1.12.4
  legend_chapter_extra_deed_recent_battle: "On [ROOT.Legend.GetProtagonist.GetHerHis] return home, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] valiantly fought [ROOT.Legend.GetProtagonist.GetHerHis] enemies, leading with unmatched courage and strategic brilliance. With [ROOT.Legend.GetProtagonist.GetHerHis] sword held high and his unwavering determination, he inspired victory against [ROOT.Legend.GetProtagonist.GetHerHis] foes."
  legend_chapter_extra_deed_recent_siege: "On [ROOT.Legend.GetProtagonist.GetHerHis] return home, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] spearheaded the siege of an enemy stronghold with unyielding determination, shattering the city like the finest glass. With [ROOT.Legend.GetProtagonist.GetHerHis] forces marshaled and banners unfurled, [ROOT.Legend.GetProtagonist.GetSheHe] launched a relentless charge, breaching the defenses and claiming victory."
  legend_chapter_extra_deed_recent_imprisonment: "In the depths of the darkest dungeon, deprived of food and water, shackled and surrounded by shadows, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] found the determination necessary to escape. With gritted teeth and a heart ablaze with defiance, [ROOT.Legend.GetProtagonist.GetSheHe] plotted [ROOT.Legend.GetProtagonist.GetHerHis] getaway, night after night. Through cunning manipulation and sheer force of will, [ROOT.Legend.GetProtagonist.GetSheHe] followed secret passages out into the morning light."
@@ -447,7 +445,7 @@
  legend_chapter_winner_change_toast: "[winner.GetPromotedLegend.GetName] changes"
  legend_chapter_change_toast: "[ROOT.Char.GetPromotedLegend.GetName] changes"
  legend_chapter_change_culture_toast: "[founder.GetPromotedLegend.GetName] changes"
-
+ 
  spread_legend_intent: "Diffondi la Leggenda"
  spread_legend_intent_desc: "Userai questa attività come un'opportunità per diffondere la tua [legend|E]."
  spread_legend_intent_not_valid_desc: "#X Attualmente non possiedi una [legend|E]"
@@ -478,7 +476,7 @@
 
  legend_chronicle_accolade_chronicle: "[first_accolade_knight.Custom('DE_ART_DEF_P_D')] più Valoros[first_accolade_knight.Custom('DE_END_PRO_S_N')] dei [founder.Custom( 'KnightCulturePluralNoTooltip' )]"
  legend_chronicle_accolade_chronicle_desc: "[founder.GetName|U] ha avuto molti grandi [founder.Custom( 'KnightCulturePluralNoTooltipLowercase' )], ma nessuno fu mai più grande di [first_accolade_knight.GetName] di [first_accolade.GetName]."
-
+ 
  legend_conqueror_chronicle: "$legend_chronicle_conqueror_chronicle$"
  legend_conqueror_chronicle_desc: "$legend_chronicle_conqueror_chronicle_desc$"
  legend_chronicle_conqueror_chronicle: "Il Più Grande Conquistatore"
@@ -567,4 +565,3 @@
  
  legend_spread_notification_title: "La leggenda si diffonde nel tuo regno!"
  legend_spread_notification_desc: "La leggenda [spread_legend.GetName] si diffonde in [spread_county.GetName]"
- 

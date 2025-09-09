@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  hunt_type_nerge: "Nerge"
  hunt_type_nerge_desc: "$BULLET$ Hunt hundreds of animals to show prowess and strength\n$BULLET$ Gain [legitimacy_i][legitimacy|E], [gold_i][gold|E], [dread_i][dread|E], and [prestige_i][prestige|E] based on outcome\n$BULLET$ May gain [martial_i][martial|E], [command_modifier_i][commander_traits|E], or [trait_level_track_xp|E]\n$hunt_type_nerge_flavor$"
  hunt_type_nerge_flavor: "#weak The Nerge is a a great hunt where hundreds, if not thousands, of animals are slaughtered. It is an opportunity for the [GetPlayer.GetTitleAsNameNoTooltip] to impress both vassals and tributaries with [GetPlayer.GetHerHis] strength.#!"

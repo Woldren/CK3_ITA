@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  bp1_yearly.6000.t:0 "Per i peccati di un[my_rival.Custom('DE_PRO_POS_P_2P')] [my_rival.GetMotherFather|U]"
  bp1_yearly.6000.desc:0 "Un urlo fortissimo si fa largo nel trambusto del/della mio/a [ROOT.Char.Custom('ResidenceBuilding')].\n\n"Odiat[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('InsultNoun')|U]! Io sono [rivals_child.Custom('DE_ART_DEF_P_A')] [rivals_child.Custom('GetDaughterSon')] di [my_rival.GetTitledFirstName] ed è giunto per voi il tempo di rispondere delle vostre vili malefatte.\nAffrontatemi, o il mondo saprà che non siete dispost[ROOT.Char.Custom('DE_END_PRO_S_N')] a difendere il vostro onore!"\n\nNel voltarmi incontro gli occhi ardenti di un[rivals_child.Custom('DE_PRO_POS_P_2P')] [rivals_child.GetWomanMan] consumat[rivals_child.Custom('DE_END_PRO_S_N')] dal desiderio di difendere l'onore di [rivals_child.GetHerHis] [my_rival.GetMotherFather].\n\nLe mie guardie sono ancora nelle vicinanze - se volessi potrei far cacciare questa testa calda, umiliata e impotente."
  bp1_yearly.6000.a:0 "La mia disputa è con tu[my_rival.Custom('DE_END_PRO_S_N')] [my_rival.GetMotherFather], non con te."

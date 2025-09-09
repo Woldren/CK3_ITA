@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  activity_roaming: "Escursione"
  activity_roaming_desc: "Parti per una spedizione solitaria negli angoli nascosti del regno. Questa avventura offre una pausa dalle pressioni della vita di corte, offrendoti l'opportunità di riposare un po' tra le foreste secolari e le dolci colline."
  activity_roaming_host_desc: "$BULLET_WITH_TAB$[opinion_i|E][opinion|E]\n$BULLET_WITH_TAB$[stress_loss_i|E][stress_loss|E]\n$BULLET_WITH_TAB$[prestige_experience_i|E][prestige_experience|E]\n$BULLET_WITH_TAB$Possibilità di guadagnare il [trait|E] [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] oppure [trait_level_track_xp|E]"

@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  poi_special_buildings.visit:0 "Visitato/a [province.GetHolding.GetSpecialBuildingType.GetName]"
  poi_capitals.visit:0 "Visitata la capitale di [province.GetTitle.GetDeFactoTopLiege.GetBaseName]"
  poi_mausoleum_at_halicarnassus.visit:0 "Visitato il Mausoleo di Halicarnassus"

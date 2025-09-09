@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  IS_TRAVELLING_TRIGGER:0 "Sta viaggiando"
  I_AM_TRAVELLING_TRIGGER:0 "Sto viaggiando"
  THEY_ARE_TRAVELLING_TRIGGER:0 "[CHARACTER.GetShortUIName|V] sta viaggiando"

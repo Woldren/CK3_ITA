@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  bp2_hostage_system.0100.t: "Con Qualunque Mezzo"
  bp2_hostage_system.0100.intro: "Con la mia [war.Custom('WarCasusBelliShort')] ormai avviata, resta da decidere la sorte del mio ostaggio, [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage_home_court.Custom('IT_NAM_COL2')][hostage_home_court.GetTitledFirstName], [hostage.GetFirstName].\n\n"
  bp2_hostage_system.0100.desc: "Qualsiasi danno io riesca a infliggere alle [hostage_home_court.GetPrimaryTitle.GetAdjectiveNoTooltip] canaglie è utile e [hostage_home_court.GetFirstNameNoTooltip] può biasimare solo se stess[hostage_home_court.Custom('DE_END_PRO_S_N')] per tutto ciò."

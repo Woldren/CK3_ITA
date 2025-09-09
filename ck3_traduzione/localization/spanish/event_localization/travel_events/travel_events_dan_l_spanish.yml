@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  
  travel_danger_events.2000.t:1 "$travel_danger_prefix$ Gli Occhi della Giungla"
  travel_danger_events.2000.desc:0 "Qualcosa continua a osservarmi da quando abbiamo messo piede nelle giungle di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]. Ho visto il luccichio degli occhi, il fruscio delle foglie.\n\nMi segue, mi pedina, #EMP mi dà la caccia#!.\n\nGli uomini che ho mandato a cercarla non sono tornati. Che cos'è questa creatura che si nasconde nelle profondità smeraldine della giungla?"

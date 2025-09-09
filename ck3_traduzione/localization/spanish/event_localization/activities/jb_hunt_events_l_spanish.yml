@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
  hunt.8000.t:0 "Fier[ROOT.Char.Custom('DE_END_PRO_S_N')] Come un Pavone"
  hunt.8000.desc:0 "Sin da quando siamo partiti per la battuta di caccia, [swooning_attendee.GetName] ha ammirato il mio uccello da preda. E non posso certo biasimarl[swooning_attendee.Custom('DE_END_PRO_S_N')], visto che effettivamente si tratta di una bestia magnifica.\n\nQuando ci troviamo vicino a un piccolo fiume, ricco di pesci di dimensioni generose, sento che è giunta l'occasione perfetta per mostrare ciò di cui il mio [activity.Custom('GetRaptorType')] è capace!"
  hunt.8000.a:0 "La mia abillità di falconiere l[swooning_attendee.Custom('DE_END_PRO_S_N')] impressionerà!"

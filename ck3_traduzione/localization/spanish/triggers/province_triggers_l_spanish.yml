@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  DEVELOPMENT_LEVEL_TRIGGER:0 "Il livello di [development|E] a [TITLE.GetName] è $COMPARATOR$ $NUM|V$"
  NOT_DEVELOPMENT_LEVEL_TRIGGER:0 "Il livello di [development|E] a [TITLE.GetName] non è $COMPARATOR$ $NUM|V$"

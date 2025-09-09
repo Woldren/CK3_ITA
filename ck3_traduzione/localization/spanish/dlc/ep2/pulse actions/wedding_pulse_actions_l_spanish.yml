@@ -1,4 +1,4 @@
-﻿l_spanish:
+l_spanish:
 
  dynasty_blessing_title:0 "$activity_pulse_action_dynasty_blessing$"
  activity_pulse_action_dynasty_blessing:0 "[Select_CString(first.IsLocalPlayer,'',first.GetShortUINameNoTooltip)] [Select_CString( first.IsLocalPlayer, 'Hai', 'ha' )] offerto gli ossequi della Dinastia [first.GetDynasty.GetBaseNameNoTooltip]"
