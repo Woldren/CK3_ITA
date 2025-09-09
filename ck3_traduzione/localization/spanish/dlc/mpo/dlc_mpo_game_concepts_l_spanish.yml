@@ -1,28 +1,28 @@
 ﻿l_spanish: 
- game_concept_nomadic_government: "Nomadic Government" # modificata la stringa 112
- game_concept_nomadic: "Nomadic"
- game_concept_nomadic_desc: "Nomadic [rulers|E] graze [county_fertility|E] to grow their [herd|E]. They can use Herd as [horde|E], which can be upgraded to [men_at_arms|E]. They have a [yurt|E].\n\nNomads can [migrate|E] to find more fertile lands, though large nomadic [realms|E] can grow their herd through [tributaries|E] or by reaching a high [fertility_equilibrium|E].\n\nNomads have a higher maximum [dread|E]."
+ game_concept_nomadic_government: "Governo Nomade"
+ game_concept_nomadic: "Nomade"
+ game_concept_nomadic_desc: "I [rulers|E] Nomadi consumano della [county_fertility|E] per accrescere la loro [herd|E]. Possono utilizzare la loro Mandria come [horde|E], che può essere migliorata negli [men_at_arms|E]. Hanno una [yurt|E].\n\nI nomadi possono [migrate|E] al fine di trovare delle terre più fertili, sebbene i grandi [realms|E] nomadi possono far crescere la loro mandria attraverso i [tributaries|E] o raggiungendo un alto livello di [fertility_equilibrium|E].\n\nI nomadi hanno una [dread|E] massima più alta."
  game_concept_nomad_i: "@government_type_nomad!"
- game_concept_nomads: "Nomads"
+ game_concept_nomads: "Nomadi"
  game_concept_nomads_desc: "$game_concept_nomadic_desc$"
- game_concept_nomad: "Nomad"
+ game_concept_nomad: "Nomade"
  game_concept_nomad_desc: "$game_concept_nomadic_desc$"
 
 
- game_concept_confederation_government: "Confederation Government"
- game_concept_confederation: "Confederation"
- game_concept_confederation_desc: "A relation that binds [tribal|E] or [GetGovernment( 'nomad_government' ).GetName] [rulers|E] in mutual defense, similar to an [alliance|E]. Formed through the #high $call_for_confederation_decision$#! [decision|E], a confederation requires its members to join each other's Defensive [wars|E]. Confederations are visible in the Diplomacy tab.\n\nFellow [confederates|E] also may not attack or [raid|E] one another. They are restricted from high levels of [tribal_authority|E] and [nomadic_authority|E], and may not create new [titles|E].\n\n[confederates|E] may use the #high $leave_confederation_decision$#! [decision|E] or [migrate|E] to become [independent|E]. If a confederation is left with only one member, it is destroyed."
+ game_concept_confederation_government: "Governo della Confederazione"
+ game_concept_confederation: "Confederazione"
+ game_concept_confederation_desc: "Una relazione che lega i [rulers|E] [Concept('tribal', 'tribali')|E] o di tipo [GetGovernment( 'nomad_government' ).GetName] in una mutua difesa, simile a un'[alliance|E]. Si costituisce attraverso la [decision|E] #high $call_for_confederation_decision$#!, una confederazione richiede ai suoi membri di aderire alle rispettive [wars|E] difensive. Le confederazioni sono visibili nella scheda della Diplomazia.\n\nGli altri [confederates|E] inoltre non possono né attaccarsi né [Concept('raid', 'saccheggiarsi')|E] tra di loro. Non possono raggiungere i più alti livelli di [tribal_authority|E] e di [nomadic_authority|E], e non possono creare dei nuovi [titles|E].\n\nI [confederates|E] potrebbero usare la [decision|E] #high $leave_confederation_decision$#! o decidere di [migrate|E] per diventare [Concept('independent', 'indipendenti')|E]. Se una confederazione rimanesse con un solo membro, allora si dissolverà."
 
- game_concept_confederate: "Confederate"
- game_concept_confederates: "Confederates"
- game_concept_confederate_desc: "A [ruler|E] who is in a [confederation|E]. They will automatically join the Defensive [wars|E] of their fellow Confederates, and are restricted from attacking or [raiding|E] them."
+ game_concept_confederate: "Confederato"  # Confederato(a)
+ game_concept_confederates: "Confederati" # Confederati(e)"
+ game_concept_confederate_desc: "Un [ruler|E] che fa parte di una [confederation|E]. Si unirà automaticamente alle [wars|E] difensive degli altri membri confederati che non possono né attaccarsi né [Concept('raid', 'saccheggiarsi')|E] tra di loro."
 
- game_concept_county_fertility: "County Fertility"
- game_concept_county_fertility_desc: "$game_concept_county_fertility$ exists in [counties|E] located within the [the_great_steppe|E], and can be grazed by [GetGovernment( 'nomad_government' ).GetName] [rulers|E] to increase their [herd|E].\n\nA County's Fertility represents the quality of its pastures.\n\nFertility stabilizes around the [fertility_equilibrium|E], allowing Nomadic Rulers with a large [domain_limit|E] to sustain their Herd growth. Fertility is affected by the [steppe_seasons|E] and slowly replenished by [herders|E].\n\nWhen a [realm|E]'s fertility is low, it is a sign to [migrate|E].\n\n[county_control|E] slows down the rate at which Fertility grows by a percentage equal to the current control."
+ game_concept_county_fertility: "Fertilità della Contea"
+ game_concept_county_fertility_desc: "La $game_concept_county_fertility$ esiste nelle [counties|E] all'interno delle [the_great_steppe|E], e può essere utilizzata dai [rulers|E] di tipo [GetGovernment( 'nomad_government' ).GetName] per aumentare la loro [herd|E].\n\nLa fertilità di una contea rappresenta la qualità dei suoi pascoli.\n\nLa fertilità si stabilizza intorno all'[fertility_equilibrium|E], permettendo ai governanti nomadi che abbiano un grande [domain_limit|E] di sostenere la crescita della loro mandria. La fertilità è influenzata dalle [steppe_seasons|E] e i [herders|E] la ripristinano lentamente.\n\nQuando la fertilità di un [realm|E] è bassa, è il momento di [migrate|E].\n\nIl [county_control|E] rallenta la velocità di crescita della Fertilità di una percentuale pari al controllo attuale."
  game_concept_county_fertility_i: "@county_fertility_icon!"
 
  # TODO_MPO
- game_concept_fertility_equilibrium: "Fertility Equilibrium"
+ game_concept_fertility_equilibrium: "Equilibrio della fertilità"
  game_concept_fertility_equilibrium_desc: "Fertility Equilibrium is a prediction of how fertile the [county|E] will become over a longer time. It is a value toward which [county_fertility|E] will arrive over time.\n\nIf the current [county_fertility|E] is below the Equilibrium, it will grow, and decline if it's above it.\n\nThe Fertility Equilibrium and the speed of change are mostly dependent on the ratio of Growth and Consumption modifiers for the [county|E]. If both Growth and Consumption are relatively small, any change will have a much greater effect on the Equilibrium."
  game_concept_equilibrium: "Equilibrium"
 
