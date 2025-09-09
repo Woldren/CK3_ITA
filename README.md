@@ -1,5 +1,5 @@
 <img src="asset/banner.jpeg" alt="CK3 banner" width="800">
----
+
 
 <p align="center">
   <a href="https://steamcommunity.com/workshop/filedetails/?id=2262243033">
@@ -16,7 +16,7 @@
   </a>
 </p>
 
----
+
 
 > **Traduzione realizzata dal gruppo di traduttori amatoriali TWR**
 
