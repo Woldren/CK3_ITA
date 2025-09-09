@@ -11,7 +11,6 @@
  empire_plural: "Imperi"
  unlanded: "Senza Terra"
  unlanded_plural: "Senza Terra"
-
  concept_unlanded: "[unlanded|E]"
  concept_barony: "[barony|E]"
  concept_county: "[county|E]"
