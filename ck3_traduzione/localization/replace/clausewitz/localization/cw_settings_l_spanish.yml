@@ -58,6 +58,7 @@
  OPTION_LOW:0 "Basso"
  OPTION_MEDIUM:0 "Medio"
  OPTION_HIGH:0 "Alto"
+ OPTION_VERY_HIGH: "Molto Alto"                            
  OPTION_ULTRA:1 "Ultra"
  OPTION_CUSTOM:0 "Personalizzato"
  OPTION_DEFAULT:1 "Predefinito"

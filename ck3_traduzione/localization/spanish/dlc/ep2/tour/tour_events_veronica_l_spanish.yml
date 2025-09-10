@@ -216,7 +216,8 @@
  cultural_festival.2110.e:0 "Devo restare al mio posto."
  cultural_festival_2110_d_tt:0 "Dai un calcio al cane"
  cultural_festival_2110_d_opinion_tt:0 "Ogni personaggio non Crudele o Sadico presente"
- available_because_intent_tt:0 "Questa opzione è disponibile grazie al tuo [intent|e] [THIS.Char.GetInvolvedActivityIntent.GetName]"
+ available_because_intent_tt:0 "#EMP #low Questa opzione è disponibile per via del tuo Intento [THIS.Char.GetInvolvedActivityIntent.GetName]#!#!"
+ event_triggered_because_intent_tt: "#EMP #low Questa opzione è disponibile per via del tuo Intento [THIS.Char.GetInvolvedActivityIntent.GetName]#!#!"
  
  #Tour Cultural Festival Events - Bilateral 
  cultural_festival.3000.t:0 "Il Grande Spettacolo"

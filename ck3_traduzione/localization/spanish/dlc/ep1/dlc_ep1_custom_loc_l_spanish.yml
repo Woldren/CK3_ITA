@@ -14,6 +14,8 @@
  inspiration_desc_make_future:0 "realizzare"
  inspiration_desc_study_present:0 "studiando"
  inspiration_desc_study_future:0 "studiare"
+ inspiration_desc_string_present: "tendendo"
+ inspiration_desc_string_future: "tendere"
 
  book_inspiration_description:0 "[ROOT.Char.Custom('InspirationWritePresentFuture')] un libro magnifico"
  book_subject_inspiration_description:0 "[ROOT.Char.Custom('InspirationWritePresentFuture')] riguardo l'argomento [ROOT.Char.Custom('ArtifactBookSubject')]"
@@ -77,11 +79,11 @@
  inspiration_alchemy_type_immortality:0 "[ROOT.Char.Custom('InspirationStudyPresentFuture')] l'immortalità"
  
  research_inspiration_description:0 "setacciando biblioteche e vecchi tomi"
- research_inspiration_description_past:0 "ha svolto attività di ricerca per [ROOT.Var('created_artifact_for').Char.GetUIName]"
+ research_inspiration_description_past: "ha svolto attività di ricerca per [ROOT.Var('created_artifact_for').Char.GetUIName]"
 
  religious_inspiration_description: "[ROOT.Char.Custom('InspirationWritePresentFuture')] riforme religiose e tesi"
  religious_inspiration_description_past: "ha scritto riforme religiose e tesi per [ROOT.Var('created_artifact_for').Char.GetUIName]"
- 
+
  weapon_inspiration_description_past:0 "ha forgiato un'arma per [ROOT.Var('created_artifact_for').Char.GetUIName]"
  armor_inspiration_description_past:0 "ha fatto un'armatura per [ROOT.Var('created_artifact_for').Char.GetUIName]"
  book_inspiration_description_past:0 "ha scritto un libro per [ROOT.Var('created_artifact_for').Char.GetUIName]"
@@ -90,6 +92,7 @@
  artisan_inspiration_description_past:0 "ha creato qualcosa per [ROOT.Var('created_artifact_for').Char.GetUIName]"
  smith_inspiration_description_past:0 "ha forgiato qualcosa per [ROOT.Var('created_artifact_for').Char.GetUIName]"
  alchemy_inspiration_description_past:0 "ha creato qualcosa per [ROOT.Var('created_artifact_for').Char.GetUIName]"
+ bow_inspiration_description_past: "ha teso un arco per [ROOT.Var('created_artifact_for').Char.GetUIName]" 
  imperial_court:0 "imperiale"
  royal_court:0 "reale"
  petty_court:0 "piccola"
@@ -106,3 +109,10 @@
  weaver_inspiration_banner_house_description:0 "lo stendardo di una casata"
  weaver_inspiration_banner_dynasty_description:0 "lo stendardo di una dinastia"
  weaver_inspiration_banner_fallback_description:0 "uno stendardo"
+
+ bow_inspiration_description: "[ROOT.Char.Custom('InspirationStringPresentFuture')] un arco magnifico"
+ bow_set_type_inspiration_description: "[ROOT.Char.Custom('InspirationStringPresentFuture')] [ROOT.Char.Custom('ArtifactBowType')]"
+ bow_longbow_inspiration_description: "un arco lungo"
+ bow_composite_inspiration_description: "un arco composito"
+ bow_crossbow_inspiration_description: "una balestra"
+ bow_bow_inspiration_description: "un arco"

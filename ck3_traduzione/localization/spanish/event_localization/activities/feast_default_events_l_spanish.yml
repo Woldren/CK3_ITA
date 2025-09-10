@@ -235,13 +235,13 @@
  feast_default.2006.c:0 "Non posso accettare che qualcuno mi venga dietro in questo modo!"
  feast_default.2006.d:0 "Ti prego, lasciami in pace!"
 
- feast_default.2007.t:1 "Relazione Esposta!"
- feast_default.2007.desc:0 "Un forte schianto risuona attraverso la grande sala, mentre una delle porte della zona di servizio si rompe.\n\nCon indosso a malapena i vestiti, [lover_guest_1.Custom('DE_ART_DEF_P_A')] mi[lover_guest_1.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1'))] [lover_guest_1.GetTitledFirstName] e [lover_guest_2.Custom('DE_ART_DEF_P_A')] mi[lover_guest_2.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2'))] [lover_guest_2.GetTitledFirstName] ruzzolano sul pavimento di fronte a tutti."
+ feast_default.2007.t:1 "Relazione Smascherata!"
+ feast_default.2007.desc:0 "Un forte tonfo risuona nella grande sala quando una delle porte dei quartieri di servizio si rompe.\n\nIn un groviglio senza vestiti, [Select_CString(lover_guest_1.IsFemale,'la','il')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1'))], [lover_guest_1.Custom('IT_NAM_COL3')][lover_guest_1.GetTitledFirstName], e [Select_CString(lover_guest_2.IsFemale,'la','il')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2'))], [lover_guest_2.Custom('IT_NAM_COL3')][lover_guest_2.GetTitledFirstName], cadono a terra davanti a tutti."
  feast_default.2007.a_chaste:0 "Non riesco a guardare!"
- feast_default.2007.a_lustful:0 "Provate solo ad #EMP immaginare#! cosa stessero facendo...!"
+ feast_default.2007.a_lustful:0 "Basta #EMP immaginare#! cosa stessero facendo..."
  feast_default.2007.a_sadistic:0 "Ahahah! Tutto ciò è uno spasso!"
- feast_default.2007.a_compassionate:0 "Nessuno merita una tale vergogna..."
- feast_default.2007.b:0 "Chi l'avrebbe mai detto che #EMP loro#! avessero un tale segreto!"
+ feast_default.2007.a_compassionate:0 "Nessuno merita una simile vergogna..."
+ feast_default.2007.b:0 "Chi l’avrebbe mai detto che #EMP loro#! avessero un tale segreto!"
 
  feast_default.2008.t:1 "Dietro una Porta Chiusa"
  feast_default.2008.desc:1 "Mentre [homosexual_character.Custom2('MyCharacterIntroduction', ROOT.Char )] cercava di sgattaiolare via inosservato dal banchetto, ho pensato di aver intravisto la sua mano scivolare nella mano di un[romance_target.Custom('DE_PRO_POS_P_2P')] serv[romance_target.Custom('DE_END_PRO_S_N')]!\n\nI miei sospetti sono stati confermati quando li ho sorpresi in una stanza appartata, mezzi svestiti!"

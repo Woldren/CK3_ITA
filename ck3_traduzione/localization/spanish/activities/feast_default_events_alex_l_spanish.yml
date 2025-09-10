@@ -1,0 +1,14 @@
+﻿l_spanish:
+ feast_default_alex.100.t: "Ricordi Condivisi"
+ feast_default_alex.100.desc: "[Select_CString(guest.IsFemale,'La mia','Il mio')] [root_scope.Custom2('RelationToMeShort', SCOPE.sC('guest'))], [guest.GetTitledFirstName], [guest.Custom('quirk_pos_present')] mentre mi si avvicina.\n\n\«Mio [root_scope.Custom('ComplimentAdjective')] [guest.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))], stavo gustando questo [host.Custom('RegionalDrink')] quando mi è venuto in mente il giorno in cui [guest_memory.GetName].» [guest.GetSheHe|U] sorride [guest.Custom('quirk_pos_adverb')]. «Ci penso continuamente — oh, come vorrei che ogni giorno fosse così [root_scope.Custom('RandomPositiveLookAdjective')]!»"
+ feast_default_alex.100.a: "Possa questo essere il primo di tanti altri ricordi!"
+ feast_default_alex.100.b: "Ah, davvero una giornata meravigliosa!"
+ feast_default_alex.200.t: "Un'Epidemia di Voci"
+ feast_default_alex.200.desc: "«[Select_CString(root_scope.IsFemale,'Mia','Mio')] [guest.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))], ho sentito voci di una piaga chiamata [epidemic.GetName]...» dice [guest.GetTitledFirstName] preoccupat[Select_CString(guest.IsFemale,'a','o')].\n\n«Si dice che dilaghi nel [afflicted_top_liege.GetPrimaryTitle.GetBaseName], con le vittime che sono [sick_peasant.Custom('disease_desc_short')]... nemmeno il [root_scope.Custom('GetExpensiveMeal')] riesce a distrarmi da questo pensiero.»"
+ feast_default_alex.200.a: "Hm, dovremmo prepararci a [root_scope.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]..."
+ feast_default_alex.200.b: "Vieni qui, calmati."
+ feast_default_alex.200.c: "Preghiamo per il [afflicted_top_liege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]."
+ feast_default_alex.200.d: "Non preoccuparti, non arriverà mai qui!"
+ plague_preparations_modifier: "Preparativi Contro l'Epidemia"
+ plague_preparations_modifier_desc: "Questa località è ben preparata per qualsiasi epidemia in arrivo."
+

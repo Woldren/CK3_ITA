@@ -165,3 +165,9 @@
  
  # Camp Party
  ACTIVITY_GUEST_LANDLESS_REASON: "[ROOT.Char.GetSheHe|U] non considera il tuo $activity_camp_party$ abbastanza per [ROOT.Char.GetSheHe]: $VALUE|=+0$"
+
+ ACTIVITY_GUEST_SHORT_TRIP: "[ROOT.Char.GetSheHe|U] fa un viaggio breve: $VALUE|=+0$"
+ ACTIVITY_GUEST_VERY_SHORT_TRIP: "[ROOT.Char.GetSheHe|U] fa un viaggio brevissimo: $VALUE|=+0$"
+ ACTIVITY_GUEST_NO_TRAVEL: "[ROOT.Char.GetSheHe|U] vive in quella località: $VALUE|=+0$"
+
+ ACTIVITY_GUEST_COURTIER: "Il tuo [courtier|E]: $VALUE|=+0$"

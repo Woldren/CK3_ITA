@@ -125,7 +125,13 @@
  amazed_opinion: "Stupore"
  honesty_opinion: "Onestà"
  charmed_opinion: "Ammaliato"
- 
+ apologized_opinion: "Si è scusato"
+ unimpressed_opinion: "Non è impressionato"
+ holy_anointment_opinion: "Unzione Sacra"
+ heathen_anointment_opinion: "Unzione Pagana"
+ self_crowning_opinion: "Auto-Incoronazione"
+ ach_synergy_culture_opinion: "$oath_mend_the_fracture_tradition_name$"
+
  plotting_against_vassals_opinion:0 "Sta Complottando Contro i Miei Vassalli"
  loved_one_dungeon_death:0 "Ha Causato la Morte di una Persona Cara"
  helped_me_in_time_of_need:0 "Mi ha Aiutato nel Momento del Bisogno"
@@ -391,3 +397,9 @@
 
  blood_brother_close_family_opinion: "Fratellanza di Sangue tra i Parenti Stretti"
  sent_herd_opinion: "Ha Ricevuto una Mandria in Dono"
+ 
+ fellow_supporter_opinion: "Sostenitore Alleato"
+ rival_supporter_opinion: "Sostenitore Malguidato"
+ fellow_detractor_opinion: "Dissidente Alleato"
+ rival_detractor_opinion: "Dissidente Sleale"
+ crowned_consort_opinion: "Consorte Reale"

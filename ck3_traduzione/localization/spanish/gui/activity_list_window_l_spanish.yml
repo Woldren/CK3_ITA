@@ -26,7 +26,7 @@
  SHOW_ACTIVITY_TOOLTIP:3 "#T [ActivityType.GetNameNoTooltip]#!\n[JoinText( '\n', ActivityType.GetCanPlanActivityTooltip( GetPlayer ), ActivityType.GetLocalizedText( 'selection_tooltip' ) )]\n\n#I Clicca per selezionare#!"
  JOIN_ACTIVITY_TOOLTIP:0 "#T [Activity.GetNameNoTooltip]#!\n\n#I Clicca per Selezionare#!"
 
- ACTIVITY_LIST_DETAIL_HOST_TITLE:0 "Ospita un/una [ActivityType.GetNameNoTooltip]" # We added the an/a for English readability, doesn't necessarily need a translation to other languages
+ ACTIVITY_LIST_DETAIL_HOST_TITLE:0 "Ospita [ActivityType.GetNameNoTooltip]" # We added the an/a for English readability, doesn't necessarily need a translation to other languages
  ACTIVITY_LIST_DETAIL_DESC:0 "[ActivityType.GetDescription]"
  ACTIVITY_LIST_DETAIL_HOST_CONFIRM:0 "Organizza [ActivityType.GetNameNoTooltip]"
  ACTIVITY_LIST_DETAIL_HOST_COOLDOWN:0 "\n\n$ACTIVITY_COOLDOWN$"
@@ -74,3 +74,5 @@
  activity_chariot_race_host_an_a: "$host_activity_a$"
  activity_playdate_host_an_a: "$host_activity_a$"
  activity_witch_ritual_host_an_a: "$host_activity_a$"
+ activity_coronation_host_an_a: "$host_activity_a$"
+ 

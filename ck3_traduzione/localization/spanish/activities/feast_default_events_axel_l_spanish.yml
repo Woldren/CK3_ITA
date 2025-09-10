@@ -1,0 +1,12 @@
+﻿l_spanish:
+ 
+ feast_default_axel.1001.t: "Follie di gioventù"
+ feast_default_axel.1001.desc: "«Io — #EMP HIC#! — te lo giuro, è qui che [Select_CString(ROOT.Char.IsFemale,'la nostra buona','il nostro buon')] [ROOT.Char.GetTitleAsNameNoTooltip] tiene la sua bevanda migliore,» sento [Select_CString(youngster_1.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('youngster_1'))] [youngster_1.GetTitledFirstName] dire a [youngster_2.GetTitledFirstName] mentre saccheggiano la mia cantina.\n\nÈ chiaro che i due hanno trovato affinità l’uno con l’altro e mancano di rispetto alla mia ospitalità."
+ feast_default_axel.1001.a: "Sfortunatamente per loro, ho già svuotato le riserve."
+ feast_default_axel.1001.b: "Venite, lasciate che vi mostri..."
+ feast_default_axel.1001.c: "Fuori, o vi farò frustare!"
+
+ drunk_high_spirits: "Euforia alcolica"
+ drunk_high_spirits_desc: "Questo personaggio si sta abbandonando all’alcol, svuotando ogni deposito di liquori che riesce a trovare."
+ bad_influence_modifier: "Cattiva influenza"
+ bad_influence_modifier_desc: "Questo personaggio è noto come un malvagio furfante che spesso porta gli altri sulla cattiva strada."

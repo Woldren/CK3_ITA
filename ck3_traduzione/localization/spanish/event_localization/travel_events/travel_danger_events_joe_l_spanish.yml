@@ -17,12 +17,12 @@
  travel_danger_events.6000.b_seriously:0 "Questo è #EMP tuo#!, [beast_victim.GetFirstNameNoTooltip]!"
  travel_danger_events.6000.b_travel_leader:0 "[travel_leader.GetFirstNameNoTooltip], fai qualcosa!"
  travel_danger_events.6000.c:0 "#EMP CORRETE#!! CORRETE PER LE VOSTRE #EMP VITE#!!"
- travel_danger_events.6000.success:0 "[ROOT.Char.Custom('GetAnimalType')] muore per mano [Select_CString(beast_victim.IsLocalPlayer, 'tua', beast_victim.GetShortUINameNoTooltipNoFormat)]"
- travel_danger_events.6000.wound:0 "[ROOT.Char.Custom('GetAnimalType')] sbrana [beast_victim.GetShortUINameNoTooltipNoFormat]"
- travel_danger_events.6000.failure:0 "[ROOT.Char.Custom('GetAnimalType')] uccide [beast_victim.GetShortUINameNoTooltipNoFormat]"
+ travel_danger_events.6000.success: "[ROOT.Char.Custom('GetAnimalType')] muore per mano [Select_CString(beast_victim.IsLocalPlayer, 'tua', beast_victim.GetShortUINameNoTooltipNoFormat)]"
+ travel_danger_events.6000.wound: "[ROOT.Char.Custom('GetAnimalType')] sbrana [beast_victim.GetShortUINameNoTooltipNoFormat]"
+ travel_danger_events.6000.failure: "[ROOT.Char.Custom('GetAnimalType')] uccide [beast_victim.GetShortUINameNoTooltipNoFormat]"
  travel_danger_events.6000.success_root: "[ROOT.Char.Custom('GetAnimalType')] muore per mano di [root_scope.GetShortUINameNoTooltipNoFormat]" 
  travel_danger_events.6000.wound_root: "[ROOT.Char.Custom('GetAnimalType')] sbrana [root_scope.GetShortUINameNoTooltipNoFormat]"
- travel_danger_events.6000.failure_root: "[ROOT.Char.Custom('GetAnimalType')] uccide [beast_victim.GetShortUINameNoTooltipNoFormat]"
+ travel_danger_events.6000.failure_root: "[ROOT.Char.Custom('GetAnimalType')] uccide [root_scope.GetShortUINameNoTooltipNoFormat]"
  
 
  travel_danger_events.6010.t:0 "$travel_danger_prefix$ Fumo in Vista"

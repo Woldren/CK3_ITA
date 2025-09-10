@@ -30,3 +30,7 @@
  contact_list_weak_hook: "Eccelso nel Contratto"
  blood_brother_hook: "Fratello di Sangue"
  blood_sister_hook: "Sorella di Sangue"
+ 
+ oath_claimant_hook: "Pretendente Indebitato"
+ oath_claimant_heir_hook: "Erede di un Pretendente Indebitato"
+ 

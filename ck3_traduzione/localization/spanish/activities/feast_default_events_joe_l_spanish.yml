@@ -1,0 +1,12 @@
+﻿l_spanish: 
+ feast_default_joe.1010.t: "Trame Intessute"
+ feast_default_joe.1010.desc: "Con così tante persone potenti in un solo luogo, poche parole sparse possono avere implicazioni di vasta portata...\n\nHo notato che [Select_CString(agent.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('agent'))], [agent.GetTitledFirstName], sembra particolarmente simpatizzante con le mie cause."
+ feast_default_joe.1010.a: "Innumerevoli semi possono dare frutto, se coltivati adeguatamente..."
+ feast_default_joe.1010.a.trigger: "Sei un [GetTrait('schemer').GetName( GetNullCharacter )] o hai almeno [SCOPE.ScriptValue('decent_skill_rating')|0V] di [intrigue|E]"
+ feast_default_joe.1010.b: "[agent.GetTitledFirstNameNoTooltip] sarà facile da portare dalla mia parte."
+ feast_default_joe.1010.c: "Dove la gente si raduna, abbondano le opportunità."
+ feast_default_joe.1010.d: "I miei piani si stanno realizzando, devo solo avere pazienza."
+ agent_more_likely_join_scheme_tt: "Per 6 mesi, la disponibilità di [agent.GetShortUINamePossessive|E] a unirsi al tuo [scheme|E] [scheme.GetName|V] contro [scheme.GetTargetCharacter.GetShortUIName]: #P +25#!"
+ all_guests_agent_more_likely_join_scheme_tt: "Per 6 mesi, la disponibilità di tutti i partecipanti validi di [activity.GetName] a unirsi al tuo [scheme|E] [scheme.GetName|V] contro [scheme.GetTargetCharacter.GetShortUIName]: #P +25#!"
+ agent_more_likely_join_scheme_reason: "Eventi: $VALUE|=+0$"
+

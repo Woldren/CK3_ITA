@@ -1117,3 +1117,11 @@
  game_rule_extra_nomads_horn_situation_steppe_havsarsan_zud_season_situation_phase: "$situation_steppe_havsarsan_zud_season$"
 
  _sub_region_ERROR_FLAG_INDEX: "un luogo al di fuori della [situation|E]"
+ 
+ rule_coronation_laws: "Leggi di Incoronazione"
+ setting_coronation_laws_on: "Predefinite"
+ setting_coronation_laws_no_imperial_uncrowned: "#high Successione Imperiale Incoronata#!"
+ setting_coronation_laws_no_imperial_uncrowned_desc: "I [kings|E] non diventeranno [GetLaw('uncrowned').GetName] quando ascendono a un titolo di [title_tier|E]-[emperor|E]."
+ setting_coronation_laws_off: "#high Nessuna Legge di Incoronazione#!"
+ setting_coronation_laws_on_desc: "La [law|E] [GetLaw('uncrowned').GetName] ridurrà la [legitimacy|E] e l’[opinion|E] per [kings|E] ed [emperors|E] finché non celebreranno un’[coronation|E]."
+ setting_coronation_laws_off_desc: "I [rulers|E] di alto [title_tier|E] non hanno la [law|E] [GetLaw('uncrowned').GetName] e non sono obbligati a celebrare le [coronations|E]. L’IA terrà [coronations|E] meno frequentemente. Questo rende il gioco più facile."
