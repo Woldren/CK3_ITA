@@ -980,7 +980,8 @@
  # Il codice per un personaggio qualsiasi -->                           [CHARACTER.Custom('DE_END_PRO_S_N')] o/a           [Select_CString(personaggio.IsFemale,'a','o')]
  #                                                                                                                                                                                                        [Select_CString(personaggio.IsFemale,'mia','mio')]
  ####################################################################################################################
-
+ #                «         » 
+ 
  # Lei/lui                   [personaggio.GetSheHe]
  # egli/lei                  [personaggio.Custom('DE_ART_IND_A')]
  # oppure Egli          [personaggio.Custom('DE_ART_IND_A')|U]
