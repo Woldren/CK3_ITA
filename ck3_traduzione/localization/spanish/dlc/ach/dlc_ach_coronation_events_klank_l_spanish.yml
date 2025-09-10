@@ -1,21 +1,21 @@
 ﻿l_spanish: 
- coronation_events_klank.1001.t: "A Suspiciously Cultured Crowd"
+ coronation_events_klank.1001.t: "Una Corona Sospettosamente Acculturata"
  coronation_events_klank.1001.desc: "Scoundrels, vagabonds, fiends, all of them... circling like vultures, waiting for the moment to snatch their pound of flesh. But they cannot escape my watchful eye.\n\nThere they are. My deceitful [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('first_culture_char'))] [first_culture_char.GetFullName], dressed in the finest [first_culture_char.GetCulture.GetName] clothes, and my devious [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('second_culture_char'))] [second_culture_char.GetFullName], in equally impressive [second_culture_char.GetCulture.GetName] garb. An idle conversion or a brewing plot?\n\nAt least their colorful appearance enriches the day, like a flock of mischievous birds."
  coronation_events_klank.1001.a: ""You both! Kneel before your [ROOT.Char.GetTitleAsNameNoTooltip].""
- coronation_events_klank.1001.b: "Those foreigners do not deserve my attention."
+ coronation_events_klank.1001.b: "Questi stranieri non meritano la mia attenzione."
 
- coronation_events_klank.1002.t: "A Wonderfully Cultured Crowd"
+ coronation_events_klank.1002.t: "Una Corona Meravigliosamente Colta"
  coronation_events_klank.1002.desc: "[ROOT.Char.GetPrimaryTitle.GetName] is vast and brims with loyal subjects of every stripe. Not all of them so loyal, of course, but enough to ensure stability for years to come.\n\nThere they are, deep in conversation: surely, speaking to the benevolence of my rule, the prosperity of my realm. My loyal [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('first_culture_char'))] [first_culture_char.GetFullName], dressed in the finest [first_culture_char.GetCulture.GetName] clothes, and my trusted [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('second_culture_char'))] [second_culture_char.GetFullName], in equally impressive [second_culture_char.GetCulture.GetName] garb.\n\nTheir colorful appearance enriches the day, like a flock of beauteous birds."
- coronation_events_klank.1002.a: "Nod to them in acknowledgment."
- coronation_events_klank.1002.b: "Welcome the dignitaries cordially."
+ coronation_events_klank.1002.a: "Annuisco in segno di riconoscimento."
+ coronation_events_klank.1002.b: "Accogli cordialmente i dignitari."
 
- coronation_events_klank.1003.t: "New Dawns, Old Dungeons"
+ coronation_events_klank.1003.t: "Nuove Albe, Vecchie Prigioni"
  coronation_events_klank.1003.desc: "Ah, my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child_of_executee'))], [child_of_executee.GetName]... this is not the first time a [child_of_executee.GetHouse.GetName] stands before a [ROOT.Char.GetHouse.GetName], uncertain about [child_of_executee.GetHerHis] fate.\n\nThe previous [executed_previous_holder.GetTitleAsNameNoTooltip] of [child_of_executee.GetPrimaryTitle.GetNameNoTier], [executed_previous_holder.GetFirstName], [executed_previous_holder.GetDeathReason]. The exact reason for the execution has been sealed in [executed_previous_holder.GetHerHis] grave since my [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('executor_ancestor'))] death. For years, instead of their motto, #weak [child_of_executee.GetHouse.GetMotto]#!, House [child_of_executee.GetHouse.GetNameNoTooltip] had shame and anger written in blood on their banners.\n\n[child_of_executee.GetFirstNamePossessiveNoTooltip] presence here today could be seen as a humble act of submission, or a move of defiance."
- coronation_events_klank.1003.a: ""Like a good [ROOT.Char.GetFaith.GetAdherentNameNoTooltip], I forgive you.""
- coronation_events_klank.1003.b: "The fear runs deep in our blood."
- coronation_events_klank.1003.c: ""This is a start of a marvelous tradition. Guards!""
+ coronation_events_klank.1003.a: ""Poiché sono un/una [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] di buon cuore, Vi perdono.""
+ coronation_events_klank.1003.b: "La paura scorre profonda nel nostro sangue."
+ coronation_events_klank.1003.c: ""È l'inizio di una meravigliosa tradizione. Guardie!""
 
- coronation_events_klank.1004.t: "A Crowned Crowd"
+ coronation_events_klank.1004.t: "Una Folla Incoronata" #
  coronation_events_klank.1004.desc.intro: "It is an extraordinary pleasure to see my fellow rulers:"
  coronation_events_klank.1004.desc.intro_many_kings: "My coronation is truly the event of the year, of the decade! It is an extraordinary pleasure to see my many fellow rulers, among them:"
  coronation_events_klank.1004.desc.second_king: "[first_king.GetName] and [second_king.GetName]."
