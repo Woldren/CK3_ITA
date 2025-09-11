@@ -1,6 +1,5 @@
 ﻿l_spanish:
- SETTING_ANIMATED_PORTRAITS:0 "Personaggi Animati"
- SETTING_ANIMATED_PORTRAITS_TOOLTIP:0 "#T $SETTING_ANIMATED_PORTRAITS$\n#!Determina se i Personaggi debbano essere animati.\n\nDisabilitarlo incrementa le prestazioni."
- SETTING_PORTRAITS_SSAO:0 "SSAO dei Personaggi"
- SETTING_PORTRAITS_SSAO_TOOLTIP:0 "#T $SETTING_PORTRAITS_SSAO$\n#!Determina se l'occlusione ambientale debba essere applicata ai ritratti.\n\nDisabilitarlo potrebbe incrementare le prestazioni."
- 
+SETTING_ANIMATED_PORTRAITS:0 "Personaggi Animati"
+SETTING_ANIMATED_PORTRAITS_TOOLTIP:0 "#T $SETTING_ANIMATED_PORTRAITS$\n#!Determina se i Personaggi debbano essere animati.\n\nDisabilitarlo incrementa le prestazioni."
+SETTING_PORTRAITS_SSAO:0 "SSAO (Occlusione ambientale dello spazio dello schermo) dei Personaggi"
+SETTING_PORTRAITS_SSAO_TOOLTIP:0 "#T $SETTING_PORTRAITS_SSAO$\n#!Determina se l’occlusione ambientale debba essere applicata ai ritratti.\n\nDisabilitarlo potrebbe incrementare le prestazioni."

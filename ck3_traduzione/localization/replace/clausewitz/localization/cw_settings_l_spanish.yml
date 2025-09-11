@@ -183,4 +183,3 @@ SETTING_CONSOLE_AUTOCOMPLETE_MODE_PARTIAL_EXPAND:0 "Partial expand until differe
 SETTINGS_CATEGORY_ACCESSIBILITY:0 "Accessibilità"
 SETTING_COLOR_BLIND_MODE:0 "Modalità per daltonici"
 SETTING_COLOR_BLIND_MODE_TOOLTIP:0 "#T $SETTING_COLOR_BLIND_MODE$\n#!Cambia i colori usati nel testo in tutto il gioco in un gruppo di colori che è più facile da distinguere per diversi tipi di daltonismo."
- 
