@@ -1,5 +1,5 @@
 ﻿l_spanish:
- SETTING_VALUE_WARNING:0 "$VALUE|0X$"
- SETTING_VALUE_PERCENTAGE_WARNING:0 "$VALUE|%0X$"
- RECOMMENDED_GUI_SCALE_TOO_HIGH:1 "#X Ridimensionare oltre il $VALUE|%0$ farà apparire le interfacce fuori dallo schermo#!"
- RECOMMENDED_GUI_SCALE:1 "Ridimensionare oltre il $VALUE|%0$ farà apparire le interfacce fuori dallo schermo"
+SETTING_VALUE_WARNING:0 "$VALUE|0X$"
+SETTING_VALUE_PERCENTAGE_WARNING:0 "$VALUE|%0X$"
+RECOMMENDED_GUI_SCALE_TOO_HIGH:1 "#X Un ridimensionamento superiore a $VALUE|%0$ farà apparire le interfacce al di fuori dello schermo#!"
+RECOMMENDED_GUI_SCALE:1 "Un ridimensionamento superiore a $VALUE|%0$ farà apparire le interfacce al di fuori dello schermo"
