@@ -304,14 +304,7 @@
  supporter_and_detractor: "un [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] e un [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
  supporter_and_detractor_caps: "Un [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] e un [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
 
- catalyst_revealed_secret_faith_non_islam: "[struggle_catalyst_catalyst|E] - Rivelato la [faith|E] Segreta non-[GetReligionByKey('islam_religion').GetAdjective]"
- catalyst_revealed_secret_faith_non_islam_desc: "Rivela la [faith|E] Segreta non-[GetReligionByKey('islam_religion').GetAdjective]"
- catalyst_revealed_secret_faith_islam: "[struggle_catalyst_catalyst|E] - Rivelato la [faith|E] Segreta [GetReligionByKey('islam_religion').GetAdjective]"
- catalyst_revealed_secret_faith_islam_desc: "Rivela la [faith|E] Segreta [GetReligionByKey('islam_religion').GetAdjective]"
-
- catalyst_coronation_event_unrest: "Una rumorosa proclamazione di insoddisfazione durante un’incoronazione"
- catalyst_coronation_event_unrest_desc: "Un’accesa discussione tra $supporter_and_detractor$ durante un'[coronation|E] si è conclusa con un forte sostegno a sconvolgere lo status quo"
- catalyst_coronation_event_concession: "Una rumorosa proclamazione di insoddisfazione durante un’incoronazione"
- catalyst_coronation_event_concession_desc: "Un’accesa discussione tra $supporter_and_detractor$ durante un'[coronation|E] si è conclusa con un forte sostegno a trovare un compromesso"
- catalyst_coronation_event_stabilization: "$catalyst_coronation_event_unrest$"
- catalyst_coronation_event_stabilization_desc: "Un’accesa discussione tra $supporter_and_detractor$ durante un'[coronation|E] si è conclusa con un forte sostegno alla stabilità"
+ catalyst_revealed_secret_faith_non_islam: "[struggle_catalyst_catalyst|E] - Rivelato il Segreto [faith|E] non-[GetReligionByKey('islam_religion').GetAdjective]"
+ catalyst_revealed_secret_faith_non_islam_desc: "Rivela il Segreto [faith|E] non-[GetReligionByKey('islam_religion').GetAdjective]"
+ catalyst_revealed_secret_faith_islam: "[struggle_catalyst_catalyst|E] - Rivelato il Segreto [faith|E] [GetReligionByKey('islam_religion').GetAdjective]"
+ catalyst_revealed_secret_faith_islam_desc: "Rivela il Segreto [faith|E] [GetReligionByKey('islam_religion').GetAdjective]"

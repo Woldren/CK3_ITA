@@ -1,13 +1,13 @@
 ﻿l_spanish:
 
  PASS_LAW_TOOLTIP_TITLE: "[SelectLocalization( GuiLaw.IsEnacted, Law.GetNameNoTooltip, Law.GetPassLawPhrase)]"
- PASS_LAW_TITLE_DEFAULT: "[AddLocalizationIf( Not(Law.GetLawGroup.HasFlag( 'realm_no_pass' ) ), 'Approva ' )][Law.GetNameNoTooltip]"
+ PASS_LAW_TITLE_DEFAULT: "Pass [Law.GetNameNoTooltip]"
 
  ADD_LAW_CONFIRMATION_TITLE: "[Law.GetAddLawConfirmationTitle]"
- ADD_LAW_CONFIRMATION_TITLE_DEFAULT: "Approva [Law.GetNameNoTooltip] Law"
+ ADD_LAW_CONFIRMATION_TITLE_DEFAULT: "Pass [Law.GetNameNoTooltip] Law"
 
  ADD_LAW_CONFIRMATION_ACCEPT: "[Law.GetAddLawConfirmationButtonText]"
- ADD_LAW_CONFIRMATION_ACCEPT_DEFAULT: "Approva Legge"
+ ADD_LAW_CONFIRMATION_ACCEPT_DEFAULT: "Pass Law"
 
  ADVENTURER_LAW_SELECTED: "Siamo [Law.GetNameNoTooltip]!"
  LAW_TOOLTIP_TITLE:1 "[Law.GetNameNoTooltip]"

@@ -79,12 +79,12 @@
  activity_system.0301.desc:0 "#EMP "Alla guerra! Alla guerra!"#! invocano i [knights|l] di [target_activity_host.GetTitledFirstName] mentre passano tuonando, i loro corni che ruggiscono e gli stendardi che sventolano brillanti contro il cielo.\n\nSembra proprio che quel[war_opponent.Custom('DE_END_ADJ_NUL_S_N')] [war_opponent.Custom('InsultNoun')] [war_opponent.GetNameRegnal] non abbia rispetto per il nostro evento [target_activity_type.GetNameNoTooltip]! L'evento deve essere cancellato, mentre [target_activity_host.GetTitleAsNameNoTooltip] chiama a raccolta le sue leve e prega [target_activity_host.GetFaith.WarGodName] per la vittoria.\n\nUn evento [target_activity_type.GetNameNoTooltip] è un divertimento nobile e piacevole, ma una chiamata alle armi suona più forte di qualsiasi altro evento."
  activity_system.0301.a:0 "Che farsa..."
 
- activity_system.0310.desc.intro:0 "Il fragore dei corni di guerra mi ha raggiunto anche qui a [target_activity_location.GetName] mentre sto partecipando all'evento [target_activity_type.GetNameNoTooltip] di [target_activity_host.GetName|U]. Sono stato chiamato in aiuto nella guerra tra [attacker.GetTitledFirstName|U] e [defender.GetTitledFirstName|U]."
+ activity_system.0310.desc.intro:0 "Il fragore dei corni di guerra mi ha raggiunto anche qui a [target_activity_location.GetName] mentre sto partecipando all'evento [target_activity_type.GetNameNoTooltip] di [target_activity_host.GetNameRegnal|U]. Sono stato chiamato in aiuto nella guerra tra [attacker.GetTitledFirstName|U] e [defender.GetTitledFirstName|U]."
  activity_system.0310.a.tt:0 "Continui a partecipare all'evento [target_activity_type.GetNameNoTooltip]"
  activity_system.0310.b.tt:0 "Lasci l'evento [target_activity_type.GetNameNoTooltip] e cominci il viaggio di ritorno verso casa"
 
  activity_system.0320.t:0 "Una Conclusione Inattesa"
- activity_system.0320.desc:1 "Il nostro padrone di casa, [host.GetName], ha perso i suoi possedimenti quindi l'evento [activity_type.GetNameNoTooltip()] è giusto ad una fine prematura.\n\nNon è certo questo il modo in cui mi aspettavo che si concludesse, dopo tutta la fanfara di inviti e preparativi. Suppongo che a me e al mio seguito non resti altro da fare che tornare a casa a [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]..."
+ activity_system.0320.desc:1 "Il nostro padrone di casa, [host.GetName], ha perso il suo possesso di [province.GetNameNoTooltip()] quindi l'evento [activity_type.GetNameNoTooltip()] è giusto ad una fine prematura.\n\nNon è certo questo il modo in cui mi aspettavo che si concludesse, dopo tutta la fanfara di inviti e preparativi. Suppongo che a me e al mio seguito non resti altro da fare che tornare a casa a [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]..."
  activity_system.0320.a:0 "Ciò che è fatto è fatto."
 
  # If you have gained the incapable trait

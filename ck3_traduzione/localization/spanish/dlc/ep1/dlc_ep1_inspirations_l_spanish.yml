@@ -61,8 +61,6 @@
  alchemy_inspiration_desc:0 "Un personaggio che ha un'Ispirazione da Alchimista è [inspired|E] a esplorare, purificare e creare sostanze e metalli, realizzare elisir e, infine, migliorare il corpo e l'anima umana."
  research_inspiration:0 "Ispirazione alla Ricerca"
  research_inspiration_desc:0 "Un personaggio che ha un'Ispirazione alla Ricerca è [inspired|E] a scoprire nuova conoscenza per il bene del suo [sponsor|E]. In caso di successo, migliorerà l'apprendimento all'interno della [dynasty|E] del suo finanziatore oppure scoprirà persino una nuova [innovation|E] per la propria cultura."
- bow_inspiration: "Ispirazione per un Arco"
- bow_inspiration_desc: "Un personaggio con un’Ispirazione per un Arco è [inspired|E] a tendere un [artifact|E] 'Arco'. Questo può includere qualsiasi cosa, dagli archi compositi alle balestre, e verrà portato in mano."
 
  weapon_inspiration_cost_tt:0 "Le Ispirazioni per un'Arma si basano sulla [martial|E] e la [prowess|E]"
  armor_inspiration_cost_tt:0 "Le Ispirazioni per un'Armatura si basano sulla [martial|E] e [prowess|E]"
@@ -72,7 +70,6 @@
  artisan_inspiration_cost_tt:0 "Le Ispirazioni da Artigiano si basano sull'[stewardship|E]"
  smith_inspiration_cost_tt:0 "Le Ispirazioni da Fabbro si basano sull'[stewardship|E], la [prowess|E] e la [diplomacy|E]"
  alchemy_inspiration_cost_tt:0 "Le Ispirazioni da Alchimista si basano sull'[learning|E]"
- bow_inspiration_cost_tt: "Le Ispirazioni per un Arco sono basate su [martial|E] e [prowess|E]"
 
  ttc_inspired_guest_arrival_title:0 "È Giunto un Ospite Ispirato"
  ttc_inspired_guest_arrival_desc:0 "[ttc_inspired_character.GetTitledFirstName] è arrivato in cerca di finanziamenti per la sua [ttc_inspiration.GetName]"

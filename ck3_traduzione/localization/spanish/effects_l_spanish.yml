@@ -1530,11 +1530,11 @@
 
  I_CREATE_CADET_BRANCH:1 "Crei un [cadet_branch|E] della tua attuale [house|E]"
  CREATE_CADET_BRANCH: "Crea un [cadet_branch|E] della Casata attuale"
- DYNASTY_NO_NAME_GAINS_PRESTIGE_LEVEL_EFFECT:0 "Incrementa il proprio [dynasty_prestige_level|E] di $VALUE|+0$"
+ DYNASTY_NO_NAME_GAINS_PRESTIGE_LEVEL_EFFECT:0 "Aumenta il proprio [dynasty_prestige_level|E] di $VALUE|+0$"
  DYNASTY_NO_NAME_LOSES_PRESTIGE_LEVEL_EFFECT:0 "Diminuisce il proprio [dynasty_prestige_level|E] di $VALUE|-0$"
 
- DYNASTY_GAINS_PRESTIGE_LEVEL_EFFECT:1 "La [dynasty|E] [DYNASTY.GetBaseName] incrementa il proprio [dynasty_prestige_level|E] di $VALUE|+0$"
- DYNASTY_LOSES_PRESTIGE_LEVEL_EFFECT:1 "La [dynasty|E] [DYNASTY.GetBaseName] diminuisce il proprio [dynasty_prestige_level|E] di $VALUE|-0$"
+ DYNASTY_GAINS_PRESTIGE_LEVEL_EFFECT:1 "La [dynasty|E] [DYNASTY.GetBaseName] aumenta il suo livello di Splendore di $VALUE|+0$"
+ DYNASTY_LOSES_PRESTIGE_LEVEL_EFFECT:1 "La [dynasty|E] [DYNASTY.GetBaseName] diminuisce il suo livello di Splendore di $VALUE|-0$"
  DYNASTY_GAINS_PRESTIGE_EFFECT:1 "La [dynasty|E] [DYNASTY.GetBaseName] guadagna [dynasty_prestige_i]$VALUE|+0$ [dynasty_prestige|E]"
  DYNASTY_LOSES_PRESTIGE_EFFECT:1 "La [dynasty|E] [DYNASTY.GetBaseName] perde [dynasty_prestige_i]$VALUE|-0$ [dynasty_prestige|E]"
  DYNAST_GAINED_PRESTIGE_EFFECT:1 "La [dynasty|E] [DYNASTY.GetBaseName] ha guadagnato [dynasty_prestige_i]$VALUE|+0$ [dynasty_prestige|E]"
@@ -1642,8 +1642,8 @@
  YOU_MUST_DECIDE_ON_CULTURE_CONVERSION:0 "Dovrai decidere se convertire o meno la cultura"
  THEY_MUST_DECIDE_ON_CULTURE_CONVERSION:0 "[CHARACTER.GetShortUIName|U] deciderà se convertire o meno la cultura"
  
- INCREASE_CULTURAL_ACCEPTANCE:1 "L'[cultural_acceptance|E] per la Cultura [TARGET_CULTURE.GetName] aumenta del $VALUE|+^/%$"
- REDUCE_CULTURAL_ACCEPTANCE:1 "L'[cultural_acceptance|E] per la Cultura [TARGET_CULTURE.GetName] diminuisce del $VALUE|-^/%$"
+ INCREASE_CULTURAL_ACCEPTANCE:1 "L'[cultural_acceptance|E] per la Cultura [CULTURE.GetName] aumenta del $VALUE|+^/%$"
+ REDUCE_CULTURAL_ACCEPTANCE:1 "L'[cultural_acceptance|E] per la Cultura [CULTURE.GetName] diminuisce del $VALUE|-^/%$"
  INCREASED_CULTURAL_ACCEPTANCE:1 "L'[cultural_acceptance|E] per la Cultura [CULTURE.GetName] è aumentata del $VALUE|+^/%$"
  REDUCED_CULTURAL_ACCEPTANCE:1 "L'[cultural_acceptance|E] per la Cultura [CULTURE.GetName] è diminuita del $VALUE|-^/%$"
  INCREASE_CULTURAL_ACCEPTANCE_WITH:1 "L'[cultural_acceptance|E] tra la cultura [CULTURE.GetName] e quella [TARGET_CULTURE.GetName] aumenta del $VALUE|+^/%$"
@@ -2407,7 +2407,6 @@
  custom.every_other_follower: "Ogni altro [follower|E]"
  custom.every_contact_with_positive_opinion: "Ogni [contact_list_contact|E] con [opinion|E] positiva"
  custom.every_contact_with_negative_opinion: "Ogni [contact_list_contact|E] con [opinion|E] negativa"
- custom.every_activity_guest_with_gregarious_trait: "Ogni [activity_guest_short|E] con [trait|E] [GetTrait('gregarious').GetName( GetNullCharacter )]"
 
  guest_and_family_move_to_specific_pool_effect.tt.family:0 "Il [character|E] e la [family|E] che viaggia con lui"
 

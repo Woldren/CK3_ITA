@@ -1,9 +1,0 @@
-﻿l_spanish:
- feast_mkc.0001.t: "Da Sol[Select_CString(guest_lost_loved_pet.IsFemale,'a','o')] Con un Ricordo"
- feast_mkc.0001.desc: "Nonostante i festeggiamenti e l’allegria nella sala, noto uno dei miei ospiti, [guest_lost_loved_pet.GetShortUIName], da sol[Select_CString(guest_lost_loved_pet.IsFemale,'a','o')] in un angolo con il mio gatto, [ROOT.Char.Custom('CatStoryName')]. [ROOT.Char.Custom('CatStorySheHe')|U] è serenamente rannicchiato/a sulle ginocchia di [guest_lost_loved_pet.GetShortUINamePossessiveNoTooltipNoFormat], facendo le fusa, mentre [guest_lost_loved_pet.GetFirstNameNoTooltip] accarezza dolcemente il pelo [ROOT.Char.Custom('CatFurColor')] del gatto.\n\n«[ROOT.Char.Custom('CatStorySheHe')|U] mi ricorda così tanto il mio vecchio gatto,» mormora [guest_lost_loved_pet.GetSheHe]. Le lacrime [guest_lost_loved_pet.Custom('DE_PRO_DEM')] rigano gli occhi."
- feast_mkc.0001.a: "Trascorri del tempo a piangere insieme per il gatto di [guest_lost_loved_pet.GetFirstNameNoTooltip]"
- feast_mkc.0001.b: "Devo apprezzare ancora di più il tempo con [ROOT.Char.Custom('CatStoryName')]"
- feast_helped_overcome_loss_opinion: "Ha aiutato a piangere la perdita del mio animale"
- feast_sympathy_over_loss_opinion: "Ha aiutato a superare la perdita del mio animale"
- bonus_to_petting_pet_tt: "Quando accarezzi il tuo gatto, perderai più [stress|E]"
-

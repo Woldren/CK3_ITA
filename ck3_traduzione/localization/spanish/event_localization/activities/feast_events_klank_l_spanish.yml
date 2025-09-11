@@ -1,7 +1,0 @@
-﻿l_spanish:
- feast_events_klank.1001.t: "Metodi di Tortura"
- feast_events_klank.1001.desc: "«Da dove conviene iniziare a tagliare?» chiede [Select_CString(fellow_torturer.IsFemale,'la','il')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('fellow_torturer'))] [fellow_torturer.GetName], con un pugnale in mano e un tono pieno di meraviglia. Davvero [Select_CString(fellow_torturer.IsFemale,'una donna',' un uomo')] proprio come piace a me. Un banchetto può essere un incontro di menti, un’occasione per perfezionare un’arte, non solo una noiosa occasione di gozzoviglie.\n\n«Per mia esperienza, urlano di più se si rimuove per primo/a il/la [ROOT.Char.Custom('GetRandomBodyPart')]. Ne sono convint[Select_CString(ROOT.Char.IsFemale,'a','o')]... è il modo più delizioso di cominciare.»\n\n[terrified_onlooker.GetName] fissa in silenzio dall’angolo."
- feast_events_klank.1001.a: "Per prima cosa, agita il/la [ROOT.Char.Custom('DeviantObjectArticle')] davanti a loro."
- feast_events_klank.1001.b: "Hai proprio ragione!"
- feast_events_klank.1001.c: "Un libro come #EMP [SCOPE.Custom('RandomEntertainmentTextName')]#! è fonte d’ispirazione."
-

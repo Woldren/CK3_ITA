@@ -1274,7 +1274,7 @@
  capital_province_development_level_desc: "Il [culture_head|E] della capitale non ha uno [county_development|E] pari a #high 30#! o maggiore"
 
  culture_parameter_other_cultures_more_likely_to_hybridize: "I [rulers|E] di una [culture|E] differente hanno maggiori probabilità di [hybridize|E] con questa [culture|E]"
- culture_parameter_estate_building_upgrade_development_gain: "Ottieni #V [EmptyScope.ScriptValue('cultivated_sophistication_development_gain')|0]#! di [development_growth|E] nella tua [realm_capital|E] quando costruisci o migliori un [estate_building|E] nella stessa [county|E]"
+ culture_parameter_estate_building_upgrade_development_gain: "Costruire o migliorare gli [estate_buildings|E] fornisce #P [EmptyScope.ScriptValue('cultivated_sophistication_development_gain')|=+0]#! all'[development_growth|E] alla [county|E] della [estate|E]"
 
  tradition_ep3_cultivated_sophistication_name: "Raffinatezza Coltivata"
  tradition_ep3_cultivated_sophistication_desc: "I barbari guardano con invidia i lussi splendenti di questa cultura, la raffinatezza della loro società. Alimentata da un senso di supremazia, questa cultura rifiuta qualsiasi contraddizione che si trovi al di fuori della sua sfera di influenza cosmopolita."
@@ -1411,13 +1411,3 @@
  mpo_siberian_permafrost_modifier_bad: "$mpo_siberian_permafrost_modifier$"
  mpo_siberian_permafrost_modifier_bad_desc: "$mpo_siberian_permafrost_modifier$"
  cannot_hybridize_northern_tribes: "La [tradition|e] #high $tradition_mpo_northern_tribes_name$#! non può essere scelta per una [hybrid_culture|E]"
-
-# ACH
-
- oath_mend_the_fracture_tradition_name:0 "Eredità della Conciliazione Giurata"
- oath_mend_the_fracture_tradition_desc:0 "Dalla rabbia e dalla sanguinosa sfiducia emerse una conciliazione. Guidata dal suo sovrano vincolato da giuramento, questa cultura ha ricucito la frattura tra sé e gli altri popoli del regno, raggiungendo pace e prosperità."
- culture_parameter_synergy_cultures_counties_development: "Ogni tre anni, le [counties|E] di questa [culture|E] possono ottenere il [modifier|E] [GetModifier('oath_mend_the_fracture_county').GetNameWithTooltip]"
- culture_parameter_synergy_cultures_maa_spawn: "Ogni tre anni, il [culture_head|E] può ottenere ulteriori [soldiers|E] speciali"
- culture_parameter_synergy_cultures_opinion_gain: "Ogni tre anni, il [culture_head|E] può ottenere un [opinion|E] con il [culture_head|E] della [culture|E] conciliata"
- culture_parameter_synergy_cultures_positive_chance_desc: "La probabilità e l’intensità degli effetti sopra descritti sono influenzate dall’[cultural_acceptance|E] tra le [cultures|E] conciliate e dall’[opinion|E] con l’altro [culture_head|E]"
- ach_culture_synergy_troops: "Truppe Giurate"

@@ -1,5 +1,5 @@
 ﻿l_spanish:
- JOMINI_MSGRDK_SIGNIN_FAILED_TITLE:0 "C'era un problema"
- JOMINI_MSGRDK_SIGNIN_FAILED_TEXT:0 "Non possiamo farti accedere con il tuo account Microsoft. Alcune funzionalità del gioco potrebbero non essere disponibili."
- JOMINI_MSGRDK_NO_PERMISSION_TITLE:0 "Permesso dell'Account"
- JOMINI_MSGRDK_NO_UGC_TEXT:0 "Non hai il permesso di accedere ai contenuti creati dagli utenti. Le Mods saranno disabilitate."
+JOMINI_MSGRDK_SIGNIN_FAILED_TITLE:0 "C’era un problema"
+JOMINI_MSGRDK_SIGNIN_FAILED_TEXT:0 "Non possiamo farti accedere con il tuo account Microsoft. Alcune funzionalità del gioco potrebbero non essere disponibili."
+JOMINI_MSGRDK_NO_PERMISSION_TITLE:0 "Permesso dell’Account"
+JOMINI_MSGRDK_NO_UGC_TEXT:0 "Non hai il permesso di accedere ai contenuti creati dagli utenti. Le Mod saranno disabilitate."

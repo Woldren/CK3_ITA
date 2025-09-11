@@ -411,10 +411,6 @@
  death_slain_in_riot_killer: "$death_slain_in_riot$ a causa [CHARACTER.Custom('IT_NAM_COL2')][TARGET_CHARACTER.GetUIName]"
 
  #MPO
- death_snake: "è [Select_CString(CHARACTER.IsFemale,'morta','morto')] per il morso di un serpente"
- death_shot_by_arrows: "è [Select_CString(CHARACTER.IsFemale,'stata trafitta','stato trafitto')] da una pioggia di frecce"
- death_shot_by_arrows_killer: "$death_shot_by_arrows$ scoccate dai cavalieri di [TARGET_CHARACTER.GetUIName]"
-
- # ACH
- death_crowd_stampede: "è [Select_CString(CHARACTER.IsFemale,'stata travolta','stato travolto')] da una folla in fuga"
- death_crowd_stampede_killer: "$death_slain_in_riot$ durante l’incoronazione di [TARGET_CHARACTER.GetUIName]"
+death_snake: "è [Select_CString(CHARACTER.IsFemale,'morta','morto')] per il morso di un serpente"
+death_shot_by_arrows: "è [Select_CString(CHARACTER.IsFemale,'stata trafitta','stato trafitto')] da una pioggia di frecce"
+death_shot_by_arrows_killer: "$death_shot_by_arrows$ scoccate dai cavalieri di [TARGET_CHARACTER.GetUIName]"

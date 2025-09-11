@@ -1,3 +1,3 @@
 ﻿l_spanish:
- FILE_WRITE_ERROR:1 "Fallimento nel creare il salvataggio"
- FILE_WRITE_ERROR_DESC:1 "Il gioco ha fallito nel creare un salvataggio. Ciò potrebbe essere dovuto a:\n- Spazio insufficiente sul disco\n- Problemi con i permessi del file\n- Antivirus or ransomware protection software\n- File di gioco corrotto\n- Errori causati dalle Mods installate"
+FILE_WRITE_ERROR:1 "Errore nel salvataggio del gioco"
+FILE_WRITE_ERROR_DESC:1 "Il gioco non è riuscito a creare un salvataggio. Ciò potrebbe essere dovuto a:\n- Spazio insufficiente sul disco\n- Problemi con i permessi del file\n- Software di protezione antivirus o antiransomware\n- File del gioco corrotto\n- Problemi causati dalle Mod installate"

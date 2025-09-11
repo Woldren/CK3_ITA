@@ -315,7 +315,6 @@
  TARGET_GOVERNOR_EFFICIENCY_DESC: "[governor_efficiency|E] di [target.GetShortUIName]: $VALUE|+=0$"
  TARGET_HOLDER_GOVERNOR_EFFICIENCY_DESC: "[governor_efficiency|E] di [target.GetHolder.GetShortUIName]: $VALUE|+=0$"
  HOUSE_HEAD_SCHEME_SUPPORT_DESC: "$house_head_request_interaction$: $VALUE|+=0$"
- coronation_spouse_despised_modifier: "L'Incoronazione di [owner.GetShortUINamePossessive|U] per liberarsi di [target.GetShortUIName]: $VALUE|+=0$"
  #Found Despotate
  found_despotate: "Eleva il Governatorato"
  found_despotate_action: "Eleva il Governatorato a"

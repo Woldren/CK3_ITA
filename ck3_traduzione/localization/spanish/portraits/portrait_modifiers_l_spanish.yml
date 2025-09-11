@@ -473,7 +473,7 @@
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ccp4_sami_lo_nob_01:0 "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp4_sami_lo_nob_01$"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ccp4_sami_hi_nob_01:0 "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp4_sami_hi_nob_01$"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ccp4_sami_travel_01:0 "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp4_sami_travel_01$"
-
+ 
 ###################
 ### CCP4 Khanty ###
 ###################
@@ -2020,7 +2020,6 @@
  bribing: "Corrompe"
  chess_certain_win: "Scacchi, Vince"
  chess_cocky: "Scacchi, Presuntuoso"
- crowning: "Incoronazione" 
  dancing: "Danza"
  dancing_plague: "Peste del Ballo"
  debating: "Dibattendo"

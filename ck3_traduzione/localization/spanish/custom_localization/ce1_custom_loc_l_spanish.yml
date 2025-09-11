@@ -2,7 +2,7 @@
  GetRandomExteriorDetail_small_bird: "Vedo un piccolo [ROOT.Char.Custom('GetRandomRegionalWildDaytimeBird')], che si nasconde tra gli alberi"
  GetRandomExteriorDetail_birdsong: "Sento il cinguettio degli uccelli"
  GetRandomExteriorDetail_wildflower: "Noto un/una [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')] solitario/a, in contrasto con la natura"
- GetRandomExteriorDetail_singing: "Sento una voce lontana provenire dal castello, che sta cantando una canzone deliziosa"
+ GetRandomExteriorDetail_singing: "Sento una voce lontana provenire dal castello, immersa in una canzone deliziosa"
  GetRandomExteriorDetail_banquet: "Guardo le finestre del castello e sento il profumo del cibo delizioso"
  GetRandomExteriorDetail_praying: "Sento delle preghiere provenire dal tempio"
  GetRandomExteriorDetail_bells: "Sento le campane che suonano"

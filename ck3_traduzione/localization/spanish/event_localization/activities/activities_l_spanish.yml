@@ -248,7 +248,6 @@
  activity_invite_spouses_close_family:0 "Parenti stretti del Coniuge"
  activity_invite_spouses_extended_family:0 "Membri della Famiglia Allargata del Coniuge"
  activity_invite_mp:0 "Altri Giocatori"
- activity_invite_rule_councillors: "Consiglieri"
 
  ##### PILGRIMAGE #####
  activity_pilgrimage.is_location_valid.hajj_mecca:0 "L'Hajj può essere diretto solo a La Mecca"
@@ -267,7 +266,6 @@
  activity_pilgrimage.is_valid.hajjed_recently:0 "Puoi intraprendere l'Hajj una volta ogni [EmptyScope.ScriptValue('hajj_cooldown_value')|0] anni"
 
  ACTIVITY_TYPE_ON_COOLDOWN:0 "@warning_icon! #X Questa attività non può essere intrapresa per [DATE.GetTimeToDate()]#!"
- is_activity_type_on_cooldown: "Questa attività non può essere organizzata per [DATE.GetTimeToDate()]"
 
  is_healthy_tt:0 "E' in salute"
 

@@ -311,6 +311,6 @@
  councillor_spouse_baron_possessive:0 "del Barone"
 
  councillor_leaving_court_message_title:0 "Il Consigliere ha Lasciato la Corte"
- councillor_leaving_court_marriage_notification:0 "Il tuo [council_task.GetPositionName], [councillor.GetShortUINameNoTooltip|U], ha abbandonato la sua posizione e la tua [old_employer.Custom('GetCourtConcept')] in seguito al suo [marriage|E] con un coniuge che possiede [Concept( 'landed', 'un titolo' )|E]. #weak ([councillor.GetPrimarySpouse.GetShortUIName|U])#!"
+ councillor_leaving_court_marriage_notification:0 "Il tuo [council_task.GetPositionName], [councillor.GetShortUINameNoTooltip|U], ha abbandonato la sua posizione e la tua [old_employer.Custom('GetCourtConcept')] in seguito al suo [marriage|E] con un coniuge che possiede una [Concept( 'landed', 'terra' )|E]. #weak ([councillor.GetPrimarySpouse.GetShortUIName|U])#!"
  councillor_leaving_court_landed_notification:0 "Il tuo [council_task.GetPositionName], [councillor.GetShortUINameNoTooltip|U], ha lasciato la sua posizione e la tua [old_employer.Custom('GetCourtConcept')] dopo aver ottenuto un [title|E]. #weak ([councillor.GetPrimaryTitle.GetBaseName|V])#!"
  councillor_leaving_court_generic_fallback_notification:0 "Il tuo [old_employer.Custom2('RelationToMeShort', councillor)], [councillor.GetShortUINameNoTooltip|U], ha lasciato la sua posizione nel [council|E] e la tua [old_employer.Custom('GetCourtConcept')]."
