@@ -1,6 +1,6 @@
 ﻿l_spanish: 
  prelude_events.0001.t: "Una mano amica"
- prelude_events.0001.desc: ""«[ROOT.Char.GetLadyLord] [ROOT.Char.GetTitledFirstName], ho sentito dalla bocca [regent.Custom('IT_NAM_COL2')]rispettabile [regent.GetTitledFirstName], [regent.Custom('DE_ART_DEF_P_A')] vostr[regent.Custom('DE_END_PRO_S_N')] buon[regent.Custom('DE_END_PRO_S_N')] reggente, che avete grande potenziale.» dice [guest.GetShortUIName], [guest.Custom('quirk_pos_pp')]. «[guest.Custom2('DescriptorPositive', ROOT.Char)|U] e [guest.Custom2('DescriptorPositive', ROOT.Char)], [ROOT.Char.Custom('DE_ART_DEF_P_A')] migliore [ROOT.Char.GetTitleAsNameNoTooltip] che potremmo mai sperare di avere!»"
+ prelude_events.0001.desc: "«[ROOT.Char.GetLadyLord] [ROOT.Char.GetTitledFirstName], ho sentito dalla bocca [regent.Custom('IT_NAM_COL2')]rispettabile [regent.GetTitledFirstName], [regent.Custom('DE_ART_DEF_P_A')] vostr[regent.Custom('DE_END_PRO_S_N')] buon[regent.Custom('DE_END_PRO_S_N')] reggente, che avete grande potenziale.» dice [guest.GetShortUIName], [guest.Custom('quirk_pos_pp')]. «[guest.Custom2('DescriptorPositive', ROOT.Char)|U] e [guest.Custom2('DescriptorPositive', ROOT.Char)], [ROOT.Char.Custom('DE_ART_DEF_P_A')] migliore [ROOT.Char.GetTitleAsNameNoTooltip] che potremmo mai sperare di avere!»"
  prelude_events.0001.a: ""Fantastico! [regent.GetSheHe|U] sta facendo tutto il lavoro al posto mio!""
  prelude_events.0001.b: ""Accetto volentieri il tuo dono.""
  prelude_events.0001.b.tt.supporter: "[guest.GetShortUIName] diventa [Select_CString(personaggio.IsFemale,'una tua #high Sostenittrice#!','una tua #high Sostenitore#!')]"
@@ -15,7 +15,7 @@
  silent_coronation_modifier_desc: "Questo personaggio lascia che siano le sue azioni a parlare."
  
  prelude_events.0010.t: "Notizie da casa"
- prelude_events.0010.desc: ""«Avete sentito le notizie riguardo [Select_CString(ROOT.Cha.IsFemale,'alla nostra','al nostro')] [ROOT.Char.GetTitledFirstName]?» [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName] a stento riesce a contenere la propria gioia parlando con [guest_2.Custom('IT_NAM_COL3')][guest_2.GetTitledFirstName].\n\n«Pare che, a detta [Select_CString(regent.IsFemale,'della sua stessa','del suo stesso')] reggente, [regent.Custom('IT_NAM_COL3')][regent.GetTitledFirstName], che [ROOT.Char.GetSheHe] a malapena riesca a restare svegli[ROOT.Char.Custom('DE_END_PRO_S_N')] durante le riunioni del consiglio. Come ci si aspetta che governi questo reame se non riesce nemmeno a governare se stess[ROOT.Char.Custom('DE_END_PRO_S_N')]?»"
+ prelude_events.0010.desc: "«Avete sentito le notizie riguardo [Select_CString(ROOT.Cha.IsFemale,'alla nostra','al nostro')] [ROOT.Char.GetTitledFirstName]?» [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName] a stento riesce a contenere la propria gioia parlando con [guest_2.Custom('IT_NAM_COL3')][guest_2.GetTitledFirstName].\n\n«Pare che, a detta [Select_CString(regent.IsFemale,'della sua stessa','del suo stesso')] reggente, [regent.Custom('IT_NAM_COL3')][regent.GetTitledFirstName], che [ROOT.Char.GetSheHe] a malapena riesca a restare svegli[ROOT.Char.Custom('DE_END_PRO_S_N')] durante le riunioni del consiglio. Come ci si aspetta che governi questo reame se non riesce nemmeno a governare se stess[ROOT.Char.Custom('DE_END_PRO_S_N')]?»"
  prelude_events.0010.a: "#EMP Immaginavo#! che [regent.Custom('IT_NAM_COL3')][regent.GetTitledFirstNameNoTooltip] tramava contro di me!"
  prelude_events.0010.b: "Farò infiltrare i miei agenti alla [guest.GetFirstNamePossessiveNoTooltip] corte."
  prelude_events.0010.c: "Dobbiamo sconfigger[regent.Custom('DE_END_PRO_S_N')] dall'interno."
@@ -26,7 +26,7 @@
  prelude_events.0010.e: "[regent.GetFirstNameNoTooltip] può dire ciò che preferisce."
  
  prelude_events.0020.t: "Cospiratori a corte"
- prelude_events.0020.desc.intro: ""«…via via che il suo governo si indebolisce, quella testa resterà senza corona.» [faction_member.Custom('IT_NAM_COL3')][faction_member.GetTitledFirstName] si china verso [faction_member_2.Custom('IT_NAM_COL3')][faction_member_2.GetTitledFirstName], la voce bassa e tagliente. «Questa incoronazione è il luogo perfetto per scovare nobili degni che la pensino come noi.»\n\nNaturalmente, sono ben consapevole delle intenzioni della"
+ prelude_events.0020.desc.intro: "«…via via che il suo governo si indebolisce, quella testa resterà senza corona.» [faction_member.Custom('IT_NAM_COL3')][faction_member.GetTitledFirstName] si china verso [faction_member_2.Custom('IT_NAM_COL3')][faction_member_2.GetTitledFirstName], la voce bassa e tagliente. «Questa incoronazione è il luogo perfetto per scovare nobili degni che la pensino come noi.»\n\nNaturalmente, sono ben consapevole delle intenzioni della"
  prelude_events.0020.desc.faction_member: "[faction.GetName], guidata [faction_member.Custom('IT_NAM_COL5')][faction_member.GetTitledFirstNameNoTooltip] in persona."
  prelude_events.0020.desc.faction_member_2: "[faction.GetName], guidata [faction_member_2.Custom('IT_NAM_COL5')][faction_member_2.GetTitledFirstNameNoTooltip] in persona."
  prelude_events.0020.desc.no_leader: "[faction.GetName]."
