@@ -126,7 +126,7 @@
  
  prelude_events.0090.t: "Degno di un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip]"
  prelude_events.0090.desc.intro: "«Piano!» sento la voce di un[guest.Custom('DE_PRO_POS_P_2P')] [guest.GetWomanMan] e mi volto per trovare [CHARACTER.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l] che dà lievi colpetti al fianco del suo cavallo.\n\n"
- prelude_events.0090.desc.blood_brother: "[Select_CString( guest.IsFemale, 'Un’amica', 'Un amico' )] come nessun[guest.Custom('DE_PRO_POS_P_2P')] altr[guest.Custom('DE_END_PRO_S_N')]; fatico a trattenere un sorriso quando apre le braccia."
+ prelude_events.0090.desc.blood_brother: "Un[personaggio.Custom('DE_PRO_PER_P_3P_G')][Select_CString( guest.IsFemale, 'amica', 'amico' )] come nessun[guest.Custom('DE_PRO_POS_P_2P')] altr[guest.Custom('DE_END_PRO_S_N')]; fatico a trattenere un sorriso quando apre le braccia."
  prelude_events.0090.desc.bad_opinion: "Quest[guest.Custom('DE_END_PRO_S_N')] [guest.Custom('InsultNoun')] [guest.Custom('InsultAdjective')] è riuscit[guest.Custom('DE_END_PRO_S_N')] chissà come ad arrivare all’incoronazione. A stento riesco a trattenere una smorfia quando si avvicina."
  prelude_events.0090.desc.fallback: "([guest.Custom('DE_ART_DEF_P_A')]|U) [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))] [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l] si avvicina a me con un ampio sorriso."
  prelude_events.0090.desc.outro: "\n\n«Che ne dite?» indicando un gruppo di pecore alle proprie spalle. «Un dono sufficientemente degno?»."
