@@ -1,6 +1,6 @@
 ﻿l_spanish:
  feast_default_alex.100.t: "Ricordi Condivisi"
- feast_default_alex.100.desc: "[Select_CString(guest.IsFemale,'La mia','Il mio')] [root_scope.Custom2('RelationToMeShort', SCOPE.sC('guest'))], [guest.GetTitledFirstName], [guest.Custom('quirk_pos_present')] mentre mi si avvicina.\n\n\«Mio [root_scope.Custom('ComplimentAdjective')] [guest.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))], stavo gustando questo [host.Custom('RegionalDrink')] quando mi è venuto in mente il giorno in cui [guest_memory.GetName].» [guest.GetSheHe|U] sorride [guest.Custom('quirk_pos_adverb')]. «Ci penso continuamente — oh, come vorrei che ogni giorno fosse così [root_scope.Custom('RandomPositiveLookAdjective')]!»"
+ feast_default_alex.100.desc: "[Select_CString(guest.IsFemale,'La mia','Il mio')] [root_scope.Custom2('RelationToMeShort', SCOPE.sC('guest'))], [guest.GetTitledFirstName], [guest.Custom('quirk_pos_present')] mentre mi si avvicina.\n\n«Mio [root_scope.Custom('ComplimentAdjective')] [guest.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))], stavo gustando questo [host.Custom('RegionalDrink')] quando mi è venuto in mente il giorno in cui [guest_memory.GetName].» [guest.GetSheHe|U] sorride [guest.Custom('quirk_pos_adverb')]. «Ci penso continuamente — oh, come vorrei che ogni giorno fosse così [root_scope.Custom('RandomPositiveLookAdjective')]!»"
  feast_default_alex.100.a: "Possa questo essere il primo di tanti altri ricordi!"
  feast_default_alex.100.b: "Ah, davvero una giornata meravigliosa!"
  feast_default_alex.200.t: "Un'Epidemia di Voci"

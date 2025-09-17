@@ -24,7 +24,7 @@
 
  abduct_outcome.2002.desc:0 "Prima ancora che [target.GetTitledFirstName] potesse accorgersi di cosa stava accadendo, fu pres[target.Custom('DE_END_PRO_S_N')] dai miei agenti! [target.GetSheHe|U] è finalemnte nelle mie mani."
 
- abduct_outcome.2003.desc:1 "Non posso credere che abbia funzionato! È stato semplice fa entrare alcuni miei alleati nel [target.Custom('ResidenceBuilding')] nel cuore della notte. \n\n[target.GetTitledFirstName] si sta rodendo sicuramente il fegato per la scarsa sicurezza. Per fortuna è molto più sicuro dove si trova adesso."
+ abduct_outcome.2003.desc:1 "Non posso credere che abbia funzionato! È stato semplice fa entrare alcuni miei alleati nel [target.Custom('ResidenceBuilding')] nel cuore della notte.\n\n[target.GetTitledFirstName] si sta rodendo sicuramente il fegato per la scarsa sicurezza. Per fortuna è molto più sicuro dove si trova adesso."
 
  abduct_outcome.4001.opening:0 "Dannazione! [target.GetTitledFirstName] è sfuggit[target.Custom('DE_END_PRO_S_N')] ai banditi che ho assoldato e ha fatto ritorno in sucurezza a [departure.GetNameNoTier]."
  abduct_outcome.4001.owner_discovered:0 "\n\nChe disfatta, uno dei briganti è stato catturato e ha confessato tutto, compreso il mio coinvolgimento!"

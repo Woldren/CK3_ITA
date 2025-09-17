@@ -73,7 +73,7 @@
  lifestyle_nicknames.0009.d:0 "..."
  lifestyle_nicknames.0009.tt:0 "Non adotti un [cognomen|E], ti vergogni che tu abbia avuto un pensiero cosi orgoglioso."
  
- lifestyle_nicknames.0010.desc:1 ""Mio signore, è ora." [my_chaplain.GetCouncilTitle|U] [my_chaplain.GetFirstName] si inchina alla porta delle mie stanze.\n\nRaccolgo i miei appunti in una pila sulla mia scrivania; Dovrei tenere un discorso sulle recenti realizzazioni culturali del regno, di fronte a emissari e ambasciatori. \n\nIl mio [my_chaplain.GetCouncilTitle] mi ferma prima di entrare nel corridoio:\n"Tutti loro sanno #EMP of#! you, of course — but how would you like me to introduce you?""
+ lifestyle_nicknames.0010.desc:1 ""Mio signore, è ora." [my_chaplain.GetCouncilTitle|U] [my_chaplain.GetFirstName] si inchina alla porta delle mie stanze.\n\nRaccolgo i miei appunti in una pila sulla mia scrivania; Dovrei tenere un discorso sulle recenti realizzazioni culturali del regno, di fronte a emissari e ambasciatoris.\n\nIl mio [my_chaplain.GetCouncilTitle] mi ferma prima di entrare nel corridoio:\n"Tutti loro sanno #EMP of#! you, of course — but how would you like me to introduce you?""
  lifestyle_nicknames.0010.a:0 "Chi sono io ma "$nick_the_sage$?""
  lifestyle_nicknames.0010.b:0 "Hm. Che ne dici "$nick_the_scholar$?""
  lifestyle_nicknames.0010.c:0 "Suppongo di essere una specie di storico..."
@@ -81,7 +81,7 @@
  lifestyle_nicknames.0010.tt:0 "Entri nella stanza senza un nuovo [nickname|E]."
  
  lifestyle_nicknames.0011.t:0 "Risultato"
- lifestyle_nicknames.0011.desc:0 "Non importa dove vado, non posso sfuggire allo sguardo di disapprovazione di nobili e comuni. Nonostante le mie migliori intenzioni, sembra che il nome che ho scelto sia stato accolto con più disprezzo di quanto mi aspettassi. \n\nMi ritiro nelle mie stanze e rifletto su cosa dovrei fare..."
+ lifestyle_nicknames.0011.desc:0 "Non importa dove vado, non posso sfuggire allo sguardo di disapprovazione di nobili e comuni. Nonostante le mie migliori intenzioni, sembra che il nome che ho scelto sia stato accolto con più disprezzo di quanto mi aspettassi.\n\nMi ritiro nelle mie stanze e rifletto su cosa dovrei fare..."
  lifestyle_nicknames.0011.a:0 "Forse non mi rispettano, ma mi obbediscono!"
  lifestyle_nicknames.0011.a.tt:0 "Fai sapere a tutti che hai intenzione di tenere il [cognomen|E] scelto, e non ce ne sarà nessun altro."
  lifestyle_nicknames.0011.b:0 "Hanno ragione. A cosa stavo pensando?"

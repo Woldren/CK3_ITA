@@ -267,7 +267,7 @@ ep3_governor_yearly.3070.landed: "capitale sono piuttosto remoti… ma nondimeno
 ep3_governor_yearly.3070.unlanded: "tenuta di famiglia sono piuttosto remoti… ma nondimeno l’imprudente [racer.GetName] ora"
 ep3_governor_yearly.3070.chariot: "corre con il suo caratteristico carro attraverso [root_capital.GetName]."
 ep3_governor_yearly.3070.horse: "sprona con forza attraverso [root_capital.GetName]."
-ep3_governor_yearly.3070.desc: "\n\n\"Abitate proprio quassù #EMP voi?!?#" deride [racer.GetFirstName]. \"Non c’è da stupirsi se [liege.GetTitleAsNameNoTooltip] non ricorda il vostro nome… anzi, è un miracolo che qualsiasi parola, qualsiasi viaggiatore, da [liege.GetCapitalLocation.GetTitle.GetNameNoTier] sopravviva al viaggio!""
+ep3_governor_yearly.3070.desc: "\n\n"Abitate proprio quassù #EMP voi?!?#" deride [racer.GetFirstName]. "Non c’è da stupirsi se [liege.GetTitleAsNameNoTooltip] non ricorda il vostro nome… anzi, è un miracolo che qualsiasi parola, qualsiasi viaggiatore, da [liege.GetCapitalLocation.GetTitle.GetNameNoTier] sopravviva al viaggio!""
 ep3_governor_yearly.3070.a: "Qui abbondano le prospettive! Non andremo da nessuna parte."
 ep3_governor_yearly.3070.b: "Preparatevi, parenti: ci trasferiamo nella capitale."
 ep3_governor_yearly.3070.c: ""Capite il mio problema… ora aiutatemi.""

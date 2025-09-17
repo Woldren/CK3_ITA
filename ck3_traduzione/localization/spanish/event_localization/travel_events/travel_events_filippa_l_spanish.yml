@@ -234,7 +234,7 @@
 
 #Visit a peat quarry - Try not to fall asleep
  travel_events.2015.t:0 "Torba, dimmi di più..."
- travel_events.2015.desc:0 "[quarry_guide.GetTitledFirstName|U] si agita con gioia infantile mentre mi conduce in visita alla cava di torba di [ROOT.Char.GetCurrentLocation.GetName]. Per qualche motivo incomprensibile, sembra pensare che questo posto sia il gioiello della sua collezione di erbe.\n\nGuardo la campagna devastata, tutta marrone e grigio-verde.\nUltimamente il sonno mi sfugge... Si chiudono lentamente... \n\n Mi sveglio di soprassalto, con la mano di [quarry_guide.GetFirstNamePossessiveNoTooltip] sulla manica.\n"... Ti sto #EMP annoiando#!?""
+ travel_events.2015.desc:0 "[quarry_guide.GetTitledFirstName|U] si agita con gioia infantile mentre mi conduce in visita alla cava di torba di [ROOT.Char.GetCurrentLocation.GetName]. Per qualche motivo incomprensibile, sembra pensare che questo posto sia il gioiello della sua collezione di erbe.\n\nGuardo la campagna devastata, tutta marrone e grigio-verde.\nUltimamente il sonno mi sfugge... Si chiudono lentamente...\n\n Mi sveglio di soprassalto, con la mano di [quarry_guide.GetFirstNamePossessiveNoTooltip] sulla manica.\n"... Ti sto #EMP annoiando#!?""
  travel_events.2015.a:0 "Sto semplicemente assimilando tutto!"
  travel_events.2015.a_convinced_tt:0 "Convint[quarry_guide.Custom('DE_END_PRO_S_N')]"
  travel_events.2015.a_convinced_desc:0 "Riesco a convincere [quarry_guide.GetShortUIName]"
@@ -312,7 +312,7 @@
  travel_events.2021.desc_famed:0 "\n\nGuardo intorno alla stanza e non posso fare a meno di notare un [new_trinket.GetName] magistralmente realizzato. È posto in cima a quello che sembra essere un piedistallo, esigendo la mia attenzione.\n\nQuesta opera, esposta così in pieno giorno, è un facile bersaglio per i ladri. Mi avvicino con cautela"
  travel_events.2021.desc_masterwork:0 "\n\nSeduto in mezzo alla stanza su un piedistallo c'è il [new_trinket.GetName]. Mi avvicino con cautela.\n\nDa chi può essere stato posseduto? È in condizioni straordinariamente buone, considerando il luogo in cui è conservato"
  travel_events.2021.desc_common:0 "\n\nQuando i miei occhi si sono abituati al nuovo ambiente, noto un oggetto interessante appoggiato su un tavolo accanto alla finestra.\n\nTale [new_trinket.GetName] potrebbe non sembrare granché, ma riconosco la maestria con cui è stato realizzato. È un lavoro serio."
- travel_events.2021.desc_bad:0 "\n\nEsamino la stanza con attenzione, ringraziando per la luce supplementare fornita dalla finestra. Mentre sto per uscire, noto qualcosa in un mucchio di detriti nell'angolo. \n\n È... #EMP una cosa?#! Qual'è il suo scopo? Esito per un attimo."
+ travel_events.2021.desc_bad:0 "\n\nEsamino la stanza con attenzione, ringraziando per la luce supplementare fornita dalla finestra. Mentre sto per uscire, noto qualcosa in un mucchio di detriti nell'angolo.\n\n È... #EMP una cosa?#! Qual'è il suo scopo? Esito per un attimo."
  travel_events.2021.a:0 "Un'eccellente aggiunta alla mia collezione."
  travel_events.2021.a_bad:0 "... devo proprio??"
  travel_events.2021.b:0 "Meglio di no."
@@ -598,7 +598,7 @@
 
 #Target Ruler: Wait a minute, didn't I see Visiting Ruler??
  travel_events.2102.t:1 "$travel_danger_prefix$ $travel_events_life_or_death.t$, Tradito"
- travel_events.2102.desc:0 "La battaglia infuria per ore, ma in realtà dura solo pochi minuti. Gli assassini vengono respinti e noi sopravviviamo indenni. \n\nTorno sul campo di battaglia e trovo le prove del complotto contro di me su uno dei cadaveri. Nel mio stato di maggiore consapevolezza noto anche un vessillo prima che sparisca dalla vista. [visiting_ruler.GetTitledFirstName]?"
+ travel_events.2102.desc:0 "La battaglia infuria per ore, ma in realtà dura solo pochi minuti. Gli assassini vengono respinti e noi sopravviviamo indenni.\n\nTorno sul campo di battaglia e trovo le prove del complotto contro di me su uno dei cadaveri. Nel mio stato di maggiore consapevolezza noto anche un vessillo prima che sparisca dalla vista. [visiting_ruler.GetTitledFirstName]?"
  travel_events.2102.desc_negative:0 "\n\nSarebbe assurdo da parte mia aspettarmi supporto da qualcuno come [visiting_ruler.GetFirstNameNoTooltip] e dalla sua razza. Che tu sia maledett[visiting_ruler.Custom('DE_END_PRO_S_N')]."
  travel_events.2102.desc_positive:0 "\n\nCome ha potuto...? Mi... aspettavo di più da [visiting_ruler.GetSheHe]. I miei occhi sono socchiusi mentre il bruciore di questo tradimento mi ferisce più di quanto potrebbe fare una lama."
  travel_events.2102.desc_default:0 "\n\n[visiting_ruler.GetSheHe|U] ha assistito agli eventi in corso senza aiutarmi nel momento del bisogno? Questa presa di posizione e questo mancato coinvolgimento dimostra effettivamente di chi ci si può fidare e chi di no."

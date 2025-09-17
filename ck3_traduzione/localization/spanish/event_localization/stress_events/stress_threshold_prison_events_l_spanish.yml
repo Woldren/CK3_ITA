@@ -13,7 +13,7 @@
  stress_threshold_prison.1001.depressed.gain:0 "Come vale la pena vivere una vita come questa?"
  stress_threshold_prison.1001.depressed.effect:0 "Non c'è dolore. Sono già morto dentro."
  stress_threshold_prison.1011.t:2 "Crollo Mentale: morsi della fame"
- stress_threshold_prison.1011.desc:0 "Sono passati giorni dall'ultima volta che riuscivo a trattenere qualcosa. La mia mente ansiosa rifiuta di prestare al mio corpo la forza di mangiare la pappa secca che mi portano le guardie. \n\nMi sento sempre più debole, ma cosa può fare un [ROOT.Char.GetWomanMan] contro [ROOT.Char. GetHerHis] proprio corpo?"
+ stress_threshold_prison.1011.desc:0 "Sono passati giorni dall'ultima volta che riuscivo a trattenere qualcosa. La mia mente ansiosa rifiuta di prestare al mio corpo la forza di mangiare la pappa secca che mi portano le guardie.\n\nMi sento sempre più debole, ma cosa può fare un [ROOT.Char.GetWomanMan] contro [ROOT.Char. GetHerHis] proprio corpo?"
  stress_threshold_prison.1011.a:0 "La fame è meglio di questa sbandata."
  stress_threshold_prison.1011.b:1 "Ci #EMP are#! fonti alternative di cibo quaggiù..."
  stress_threshold_prison.1011.c:0 "[ROOT.Char.GetSheHe|U] può combatterlo, un cucchiaio alla volta!"

@@ -245,7 +245,7 @@
  befriend_ongoing.4094.b:0 "Sarei felice di mostrare quanto [target.GetHerHim] sia grezz[target.Custom('DE_END_PRO_S_N')]..."
 
  befriend_ongoing.4100.t:0 "Amicizia: Il Nemico del mio Nemico"
- befriend_ongoing.4100.desc:0 "La guerra porta terrore e opportunità di gloria. Un'altra cosa che porta con sé è il legame che si forma tra coloro che combattono insieme. \n\nSembra che io e [befriend_ongoing_4100_text_scope.Custom('DE_ART_DEF_P_A') [befriend_ongoing_4100_text_scope.GetTitledFirstName] abbiamo trovato un interesse comune nel corso degli scontri contro [befriend_ongoing_4100_enemy.Custom('DE_ART_DEF_P_A')] [befriend_ongoing_4100_enemy.GetTitledFirstName]."
+ befriend_ongoing.4100.desc:0 "La guerra porta terrore e opportunità di gloria. Un'altra cosa che porta con sé è il legame che si forma tra coloro che combattono insieme.\n\nSembra che io e [befriend_ongoing_4100_text_scope.Custom('DE_ART_DEF_P_A') [befriend_ongoing_4100_text_scope.GetTitledFirstName] abbiamo trovato un interesse comune nel corso degli scontri contro [befriend_ongoing_4100_enemy.Custom('DE_ART_DEF_P_A')] [befriend_ongoing_4100_enemy.GetTitledFirstName]."
  befriend_ongoing.4100.a:0 "La guerra farà nascere amicizie."
 
  befriend_ongoing.4110.t:0 "Obiettivi Comuni"
@@ -293,7 +293,7 @@
  befriend_ongoing.5003.b:0 "Se è lo spazio ciò di cui [target.GetSheHe] ha bisogno, allora spazio avrà."
  
  befriend_ongoing.5004.t:0 "Amicizia: Non Tra i Suoi Gusti"
- befriend_ongoing.5004.desc:0 "Niente mi tira su di morale come il [ROOT.Char.Custom('FavoriteTreat')], ho già l'acquolina in bocca. Quindi ho disposto al cuoco di prepararne un piatto [target.Custom('DE_END_ADJ_DEF_P_A')] [target.GetTitledFirstName] come prova delle mie buone intenzioni. \n\nTuttavia il gesto si è rivelato un disastro, poiché [target.GetSheHe] ha ordinato che un servo lo buttasse via senza nemmeno averlo prima assaggiato..."
+ befriend_ongoing.5004.desc:0 "Niente mi tira su di morale come il [ROOT.Char.Custom('FavoriteTreat')], ho già l'acquolina in bocca. Quindi ho disposto al cuoco di prepararne un piatto [target.Custom('DE_END_ADJ_DEF_P_A')] [target.GetTitledFirstName] come prova delle mie buone intenzioni.\n\nTuttavia il gesto si è rivelato un disastro, poiché [target.GetSheHe] ha ordinato che un servo lo buttasse via senza nemmeno averlo prima assaggiato..."
  befriend_ongoing.5004.a:0 "Mi scuserò per i miei eccessi."
  befriend_ongoing.5004.b:0 "Che ingrato [target.Custom('InsultNoun')]!"
  

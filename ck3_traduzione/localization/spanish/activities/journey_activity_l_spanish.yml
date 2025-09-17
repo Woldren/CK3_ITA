@@ -189,7 +189,7 @@ apa_ate_local_food_key: "[first.GetShortUIName] ha gustato una prelibatezza [loc
  lover_fell_in_love_with_prostitute_by_monument_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(Or(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'ti sei', 'si è')] innamorato/a di [CHARACTER.GetShortUIName] mentre [CHARACTER.GetShortUIName] stava 'lavorando' nei vicoli bui vicino al/alla [PROVINCE.GetHolding.GetSpecialBuildingType.GetName] a [PROVINCE.GetName]."
  
  miniature_monument: "Miniatura [location.GetHolding.GetSpecialBuildingType.GetNameNoTooltip]"
- miniature_monument.desc: "Questa miniatura in argilla, acquistata a [location.GetName], raffigura il/la [location.GetHolding.GetSpecialBuildingType.GetName]. \n\n[location.GetHolding.GetSpecialBuildingType.GetDescription]"
+ miniature_monument.desc: "Questa miniatura in argilla, acquistata a [location.GetName], raffigura il/la [location.GetHolding.GetSpecialBuildingType.GetName].\n\n[location.GetHolding.GetSpecialBuildingType.GetDescription]"
 
  bp3_journey.1000.t: "Architettura in Vendita"
  bp3_journey.1000.desc: ""Comprate qui la vostra miniatura del/della [location.GetHolding.GetSpecialBuildingType.GetNameNoTooltip]!" esclamano i venditori ambulanti con una voce che risuona forte nel mercato.\n\nAd un esame più attento, noto che i gingilli di argilla sono di #EMP notevole#! qualità. C'è tutto, fin nei minimi dettagli. Sono onestamente incredibilmente realistici.\n\n"Li ho fatti a mano, mio/a [ROOT.Char.GetLadyLord|U]! Desiderate acquistarne uno?""
@@ -212,7 +212,7 @@ apa_ate_local_food_key: "[first.GetShortUIName] ha gustato una prelibatezza [loc
  suggestive_alterations: "Commissioni qualcosa di più... suggestivo."
  
  suggestive_miniature_monument: "Miniatura Suggestiva del/della [location.GetHolding.GetSpecialBuildingType.GetNameNoTooltip]"
- suggestive_miniature_monument.desc: "Questa miniatura in argilla, acquistata a [location.GetName], raffigura il/la [location.GetHolding.GetSpecialBuildingType.GetName]. \n\n[location.GetHolding.GetSpecialBuildingType.GetDescription] Le torri dall'aspetto fallico e le persone in miniatura a torso nudo probabilmente non facevano parte della composizione originale."
+ suggestive_miniature_monument.desc: "Questa miniatura in argilla, acquistata a [location.GetName], raffigura il/la [location.GetHolding.GetSpecialBuildingType.GetName].\n\n[location.GetHolding.GetSpecialBuildingType.GetDescription] Le torri dall'aspetto fallico e le persone in miniatura a torso nudo probabilmente non facevano parte della composizione originale."
  
  bp3_journey.1100.t: "Un nome, Eterno"
  bp3_journey.1100.desc_intro: "Mentre passeggio, noto un segno particolare sul/sulla [location.Custom('GetSpecialBuildingSurface')].\n\n"

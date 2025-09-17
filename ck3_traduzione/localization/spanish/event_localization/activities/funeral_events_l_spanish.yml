@@ -211,7 +211,7 @@
  funeral.1090.d.failure: "Ti sei res[ROOT.Char.Custom('DE_END_PRO_S_N')] ridicol[ROOT.Char.Custom('DE_END_PRO_S_N')]"
  funeral.1090.e: "Parla delle sue virtù."
  funeral.1100.t: "Un[deceased.Custom('DE_END_PRO_S_N')] dei Grandi"
- funeral.1100.desc: "Davanti a me si stende una tavola colma di ogni sorta di cibi e bevande, come se [deceased.GetName] avesse voluto offrirci un ultimo gesto di generosità prima del congedo.\n\n[other_mourner.GetName|U], che finora si è rifiutat[other_mourner.Custom('DE_END_PRO_S_N')] di prendere parte al banchetto, continua soltanto a far roteare il suo calice in una malinconica solitudine. Il suo sguardo, velato e stanco, alla fine si posa su di me e, con un cenno muto, solleva il calice verso l’alto.\n\n\"A [deceased.GetNameNoTooltip], davvero un[deceased.Custom('DE_END_PRO_S_N')] tra i grandi.\""
+ funeral.1100.desc: "Davanti a me si stende una tavola colma di ogni sorta di cibi e bevande, come se [deceased.GetName] avesse voluto offrirci un ultimo gesto di generosità prima del congedo.\n\n[other_mourner.GetName|U], che finora si è rifiutat[other_mourner.Custom('DE_END_PRO_S_N')] di prendere parte al banchetto, continua soltanto a far roteare il suo calice in una malinconica solitudine. Il suo sguardo, velato e stanco, alla fine si posa su di me e, con un cenno muto, solleva il calice verso l’alto.\n\n"A [deceased.GetNameNoTooltip], davvero un[deceased.Custom('DE_END_PRO_S_N')] tra i grandi.""
  funeral.1100.a: ""Grande davvero, e io lo sarò ancora di più.""
  funeral.1100.a.success: "La folla è commossa"
  funeral.1100.a.failure: "Il tuo commento è considerato un grande insulto"

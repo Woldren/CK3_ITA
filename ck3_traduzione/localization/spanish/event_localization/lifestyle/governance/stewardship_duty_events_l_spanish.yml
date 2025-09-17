@@ -154,7 +154,7 @@
 
  stewardship_duty.4040.contractchange:0 "Modifico il contratto di [my_vassal.GetTitledFirstName] a mio favore."
 
- stewardship_duty.4041.desc:0 "Nel tentativo di convincere [my_vassal.Custom('DE_ART_DEF_P_A')] [my_vassal.GetTitledFirstName] ad accettare un contratto più restrittivo, mi sono seduto con [my_vassal.GetHerHim] e [my_vassal.Custom('DE_PRO_DEM')] ho spiegato tutti i motivi per cui dovevamo aggiornarlo. \n\n[my_vassal.GetSheHe|U] all'inizio era riluttante, ma dopo molte discussioni ha accettato il fatto che sarebbe stato ragionevole apportare una modifica al suo contratto."
+ stewardship_duty.4041.desc:0 "Nel tentativo di convincere [my_vassal.Custom('DE_ART_DEF_P_A')] [my_vassal.GetTitledFirstName] ad accettare un contratto più restrittivo, mi sono seduto con [my_vassal.GetHerHim] e [my_vassal.Custom('DE_PRO_DEM')] ho spiegato tutti i motivi per cui dovevamo aggiornarlo.\n\n[my_vassal.GetSheHe|U] all'inizio era riluttante, ma dopo molte discussioni ha accettato il fatto che sarebbe stato ragionevole apportare una modifica al suo contratto."
  stewardship_duty.4041.a:0 "So esattamente come convincerl[my_vassal.Custom('DE_END_PRO_S_N')]!"
 
  stewardship_duty.4042.desc:0 "Fin dall'inizio della nostra conversazione posso dire di aver avuto difficoltà a convincere [my_vassal.Custom('DE_ART_DEF_P_A')] [my_vassal.GetTitledFirstName] a rinunciare ai privilegi a cui ha diritto in base al suo contratto.\n\nNonostante tutti i miei sforzi e le mie suppliche, [my_vassal.GetSheHe] è rimast[my_vassal.Custom('DE_END_PRO_S_N')] irremovibile, affermando che se non posso accontentarmi di ciò che attualmente mi dà, è colpa mia, non sua."

@@ -430,7 +430,7 @@ ach_coronation_low_feast_modifier_desc: "The insultingly meager celebrations sur
 
  coronation_events.0200.t: "The Prelude"
  coronation_events.0200.desc.host: "Guests have come. From near, from far, out of loyalty, or curiosity. The crowd swells with faces marked by expectation, calculation, and in some cases, the faintest warmth.\n\nI raise my voice just enough to settle the attendees and welcome them to my coronation."
- coronation_events.0200.desc.guest: "The gathering is as grand as expected. Faces familiar and foreign mingle, and I hear greetings just warm enough to be polite. When the host speaks, the room quiets out of instinct.\n\n\"My friends, my vassals, my kin, your presence honors me more than any crown could. Until the ceremony begins, eat, drink, speak freely... and know that I see each of you, and will not forget who stood here with me today.\"\n\nA kind promise, or a quiet warning, depending on how one chooses to hear it."
+ coronation_events.0200.desc.guest: "The gathering is as grand as expected. Faces familiar and foreign mingle, and I hear greetings just warm enough to be polite. When the host speaks, the room quiets out of instinct.\n\n"My friends, my vassals, my kin, your presence honors me more than any crown could. Until the ceremony begins, eat, drink, speak freely... and know that I see each of you, and will not forget who stood here with me today.\"\n\nA kind promise, or a quiet warning, depending on how one chooses to hear it."
  coronation_events.0200.a: "Welcome, one and all!"
  coronation_events.0200.b: "Now then, who else is here?"
 
@@ -472,8 +472,8 @@ ach_coronation_low_feast_modifier_desc: "The insultingly meager celebrations sur
  coronation_events.0205.f.toast: "[host.GetShortUIName] Delievered a Rousing Speech"
  
  coronation_events.0210.t: "The Feast"
- coronation_events.0210.desc.host: "The ceremony has passed, the crown rests where it was meant to. I rise once more, not to command, but to offer what comes next.\n\n\"My friends, the rites are complete. Let the tables be filled, let the cups be raised, and let this hall remember joy as well as duty.\"\n\nIt earns a murmur of approval, maybe even something close to warmth. For now, at least, everyone has something in front of them other than me."
- coronation_events.0210.desc.guest: "The formalities have ended, and with them, the stillness that held the gathering in place. A few murmurs rise as the host stands again, this time to mark the end of ceremony and the start of something more relaxed.\n\nThey raise their voice just enough to carry: \"My friends, the rites are complete. Let the tables be filled, let the cups be raised, and let this hall remember joy as well as duty.\"\n\nThe words are well received, and for the first time all day, the gathering starts to feel like a celebration."
+ coronation_events.0210.desc.host: "The ceremony has passed, the crown rests where it was meant to. I rise once more, not to command, but to offer what comes next.\n\n"My friends, the rites are complete. Let the tables be filled, let the cups be raised, and let this hall remember joy as well as duty."\n\nIt earns a murmur of approval, maybe even something close to warmth. For now, at least, everyone has something in front of them other than me."
+ coronation_events.0210.desc.guest: "The formalities have ended, and with them, the stillness that held the gathering in place. A few murmurs rise as the host stands again, this time to mark the end of ceremony and the start of something more relaxed.\n\nThey raise their voice just enough to carry: "My friends, the rites are complete. Let the tables be filled, let the cups be raised, and let this hall remember joy as well as duty."\n\nThe words are well received, and for the first time all day, the gathering starts to feel like a celebration."
  coronation_events.0210.a: "With that aside, it is time to celebrate!"
  coronation_events.0210.b: "Finally, the ceremony is over with."
 

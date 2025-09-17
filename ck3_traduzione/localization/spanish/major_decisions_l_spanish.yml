@@ -1,8 +1,8 @@
 ﻿l_spanish:
  major_decisions.1001.t:0 "Carne divina"
  major_decisions.1001.desc:0 ""Siamo stati messi su questa terra per servire i nostri simili" la voce del [court_chaplain.GetCouncilTitle] [court_chaplain.GetName] risuona nella sala da pranzo. "Accettando il dono della carne accetti anche il suo amore."\n\nI servi - quelli che sono ancora con noi - hanno fatto un lavoro meraviglioso; banchettiamo fino a tarda notte, ubriacandoci di [ROOT.Char.Custom('RegionalDrink')] e del gusto della divinità umana."
- major_decisions.1001.desc_landless: "\"Servire i nostri simili; cosa significa davvero?\" domando retoricamente, mentre il mio sguardo tagliente scorre sui volti dei miei seguaci attorno alla tavola colma. \"Non è forse amare e prendersi cura di ogni aspetto dell’essere umano?\""
- major_decisions.1001.desc_outro: "\n\n\"Accettando il dono della carne, accettate anche l’amore di [ROOT.Char.GetFaith.HighGodHerHis|U].\"\n\nI servi — quelli che sono ancora con noi — hanno fatto un lavoro meraviglioso; banchettiamo fino a notte fonda, ubriachi di [ROOT.Char.Custom('RegionalDrink')] e del sapore della divinità umana."  
+ major_decisions.1001.desc_landless: ""Servire i nostri simili; cosa significa davvero?" domando retoricamente, mentre il mio sguardo tagliente scorre sui volti dei miei seguaci attorno alla tavola colma. "Non è forse amare e prendersi cura di ogni aspetto dell’essere umano?""
+ major_decisions.1001.desc_outro: "\n\n"Accettando il dono della carne, accettate anche l’amore di [ROOT.Char.GetFaith.HighGodHerHis|U]."\n\nI servi — quelli che sono ancora con noi — hanno fatto un lavoro meraviglioso; banchettiamo fino a notte fonda, ubriachi di [ROOT.Char.Custom('RegionalDrink')] e del sapore della divinità umana."  
  major_decisions.1001.a:0 "Dammi una mano e passami ancora [ROOT.Char.Custom('RegionalDrink')]!"
  
  

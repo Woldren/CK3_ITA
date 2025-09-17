@@ -78,7 +78,7 @@
 
  # # Special Treatment
  hold_court.8040.t:0 "Trattamento Speciale"
- hold_court.8040.desc:0 "L'impenitente [infidel_vassal.GetTitledFirstName] ti onora della sua presenza. \n\nCon esitazione, [infidel_vassal.Custom('DE_ART_IND_A')] inizia a parlare: "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], [ROOT.Char.GetTitleTierName], sono un suddito fedele e disponibile, lasciami praticare la mia fede in pace." \n\n"
+ hold_court.8040.desc:0 "L'impenitente [infidel_vassal.GetTitledFirstName] ti onora della sua presenza.\n\nCon esitazione, [infidel_vassal.Custom('DE_ART_IND_A')] inizia a parlare: "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], [ROOT.Char.GetTitleTierName], sono un suddito fedele e disponibile, lasciami praticare la mia fede in pace." \n\n"
  hold_court.8040.desc.intro_same_religion:0 ""Noi [infidel_vassal.GetFaith.GetAdherentNamePlural] veneriamo [infidel_vassal.GetFaith.CreatorName] proprio come i fedeli [ROOT.Char.GetFaith.GetAdherentNamePlural]. Lasciate che ogni vostro/a [ROOT.Char.Custom('SisterBrother')] di fede [ROOT.Char.GetFaith.GetReligion.GetAdjective] possa pregare come vuole, uniti invece contro i malvagi [ROOT.Char.Custom('GetUnbelieverNamePlural')] che seguono falsi demoni e permettono a [infidel_vassal.GetFaith.DevilName] di corrompere i loro cuori.""
  hold_court.8040.desc.intro_fallback:0 ""Perché una persona di fede [ROOT.Char.GetFaith.GetReligion.GetAdjective] e una di fede [infidel_vassal.GetFaith.GetReligion.GetAdjective] non possono vivere in armonia, separati dagli insegnamenti di [ROOT.Char.GetFaith.HighGodName] e di [infidel_vassal.GetFaith.HighGodName] ma uniti nella pietà? Lasciateci seguire i nostri testi sacri, l'uno accanto all'altro."
  hold_court.8040.a:0 "Il giudizio è riservato a [ROOT.Char.GetFaith.HighGodName] soltanto."
@@ -91,7 +91,7 @@
  demand_conversion_tt:0 "[recipient.GetTitledFirstName] e i suoi parenti stretti si convertiranno alla tua religione"
  # # Royal Service
  hold_court.8050.t:0 "Servizio Reale"
- hold_court.8050.desc:0 "([vassal.Custom('DE_ART_DEF_P_D')]) [vassal.Custom2('MyCharacterIntroduction', ROOT.Char)], si avvicina al trono con un[knight.Custom('DE_PRO_POS_P_2P')] [knight.GetWomanMan] [knight.Custom('GetYoungMiddleAgedOld')] al seguito. \n\n"([vassal.Custom2('DE_ART_DEF_P_D')]) Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [vassal.Custom2('RelationToMeShort', ROOT.Char)] e [ROOT.Char.GetTitleAsNameNoTooltip]!" si vanta [vassal.GetSheHe], "Il mio [vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))], [knight.GetFullName], vi chiede l'onore di unirsi al vostro seguito di [ROOT.Char.Custom('MountedWarriorTermPlural')] — date[knight.Custom('DE_PRO_DEM')] l'opportunità di dar prova delle sue qualità!" \n\n"
+ hold_court.8050.desc:0 "([vassal.Custom('DE_ART_DEF_P_D')]) [vassal.Custom2('MyCharacterIntroduction', ROOT.Char)], si avvicina al trono con un[knight.Custom('DE_PRO_POS_P_2P')] [knight.GetWomanMan] [knight.Custom('GetYoungMiddleAgedOld')] al seguito.\n\n"([vassal.Custom2('DE_ART_DEF_P_D')]) Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [vassal.Custom2('RelationToMeShort', ROOT.Char)] e [ROOT.Char.GetTitleAsNameNoTooltip]!" si vanta [vassal.GetSheHe], "Il mio [vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))], [knight.GetFullName], vi chiede l'onore di unirsi al vostro seguito di [ROOT.Char.Custom('MountedWarriorTermPlural')] — date[knight.Custom('DE_PRO_DEM')] l'opportunità di dar prova delle sue qualità!" \n\n"
  hold_court.8050.desc_talented:0 ""[knight.Custom('DE_ART_IND_D')] è già un[knight.Custom('DE_PRO_POS_P_2P')] dei duellanti più celebri di [vassal.GetTitleAsNamePossessive] e vi porterà molta gloria sul campo di battaglia!". È vero, avete sentito parlare delle sue abilità..."
  hold_court.8050.desc_suitable:0 ""[knight.Custom('DE_ART_IND_D')] sa come maneggiare [knight.Custom('signature_weapon')] e non vi deluderà quando sarà il momento!""
  hold_court.8050.desc_passing:0 "[knight.GetFirstNameNoTooltip] sorride poco convint[knight.Custom('DE_END_PRO_S_N')]. "Benché io sia solo un[knight.Custom('DE_PRO_POS_P_2P')] mediocre spadaccin[knight.Custom('DE_END_PRO_S_N')], spero di imparare tanto stando al vostro servizio.""
@@ -110,14 +110,14 @@
  hold_court.8050.e.unsuitable:0 "Un mulo corazzato sarebbe più utile..."
  # # A Knight Spurned
  hold_court.8051.t:0 "$hold_court.8050.t$: Un [ROOT.Char.Custom('MountedWarriorTerm')|U] Respinto"
- hold_court.8051.desc:0 "Sembra che al[vassal.Custom('DE_END_ADJ_NUL_S_N')] [vassal.GetTitledFirstName] sia giunta finalmente la voce che il suo [vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))] non gode più di un posto tra i miei [ROOT.Char.Custom('MountedWarriorTermPlural')]. \n\nContenendo attentamente la sua ira, [vassal.Custom('DE_ART_IND_A')] richiede che io mantenga la mia promessa e reintegri [knight.GetFirstName] alla sua posizione!"
+ hold_court.8051.desc:0 "Sembra che al[vassal.Custom('DE_END_ADJ_NUL_S_N')] [vassal.GetTitledFirstName] sia giunta finalmente la voce che il suo [vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))] non gode più di un posto tra i miei [ROOT.Char.Custom('MountedWarriorTermPlural')].\n\nContenendo attentamente la sua ira, [vassal.Custom('DE_ART_IND_A')] richiede che io mantenga la mia promessa e reintegri [knight.GetFirstName] alla sua posizione!"
  hold_court.8051.a:0 "Calma, l[knight.Custom('DE_END_PRO_S_N')] reintegrerò a [vassal.GetFirstNameNoTooltip]!"
  hold_court.8051.a.tt_knight:1 "[knight.GetFirstName] diventerà nuovamente un [knight|E]"
  hold_court.8051.b:0 "[knight.GetSheHe|U] non è una gran perdita."
  hold_court.8051.b.tt_return:0 "[knight.GetFirstNameNoTooltip] farà ritorno alla corte di [vassal.GetTitledFirstNamePossessiveNoTooltip]"
  # # The Last Straw
  hold_court.8052.t:0 "$hold_court.8050.t$: La goccia che fa traboccare il vaso"
- hold_court.8052.desc.intro:0 "[vassal.GetTitledFirstName] non appena apprende che [knight.GetFirstName] è stato rimosso dal mio seguito di [ROOT.Char.Custom('MountedWarriorAdjective')] non perde tempo e richiede un'udienza. \n\n"
+ hold_court.8052.desc.intro:0 "[vassal.GetTitledFirstName] non appena apprende che [knight.GetFirstName] è stato rimosso dal mio seguito di [ROOT.Char.Custom('MountedWarriorAdjective')] non perde tempo e richiede un'udienza.\n\n"
  hold_court.8052.desc.wrath:0 "Apoplettic[vassal.Custom('DE_END_PRO_S_N')] di rabbia, [vassal.GetSheHe] esplode, "[knight.Custom('DE_ART_DEF_P_D')] mi[knight.Custom('DE_END_PRO_S_N')] [vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))] è stat[knight.Custom('DE_END_PRO_S_N')] grossolanamente maltrattat[knight.Custom('DE_END_PRO_S_N')] e la mia fiducia nelle vostre promesse è stata distrutta!" prima di uscire come una furia."
  hold_court.8052.desc.fallback:0 "[vassal.Custom('DE_ART_IND_D')] rende chiar[vassal.Custom('DE_ART_DEF_P_A')] il suo disappunto, chiaramente irritato dall'imbarazzo che le mie azioni [vassal.Custom('DE_PRO_DEM')] hanno causato..."
  hold_court.8052.a:0 "Oh, un tale dramma!"
@@ -190,7 +190,7 @@
  hold_court_8070_built_modifier:0 "Città Fondata"
  # # The Republic of X
  hold_court.8080.t:0 "La Repubblica di [mayor.GetPrimaryTitle.GetDeJureLiege.GetNameNoTierNoTooltip]"
- hold_court.8080.desc.intro:0 "[mayor.GetTitledFirstName] si fa avanti, procedendo con molta cautela. \n\n"Vostra grazia, il/la mio/a [mayor.GetPrimaryTitle.GetTierAsNameNoTooltip] di [mayor.GetPrimaryTitle.GetNameNoTier] si arricchisce grazie ai rapporti dei nostri borghesi con"
+ hold_court.8080.desc.intro:0 "[mayor.GetTitledFirstName] si fa avanti, procedendo con molta cautela.\n\n"Vostra grazia, il/la mio/a [mayor.GetPrimaryTitle.GetTierAsNameNoTooltip] di [mayor.GetPrimaryTitle.GetNameNoTier] si arricchisce grazie ai rapporti dei nostri borghesi con"
  hold_court.8080.desc.body_sea:0 "le navi commerciali che solcano i porti lungo la costa di [ROOT.Char.GetPrimaryTitle.GetNameNoTierPossessiveNoTooltip].""
  hold_court.8080.desc.body_fallback:0 "i commercianti e i viaggiatori che passano ogni giorno da [target_county.GetDeJureLiege.GetNameNoTier] e dai nostri cancelli.""
  hold_court.8080.desc.body:0 "\n\n"Abbiamo reso la nostra città, e voi, prosperi e meritiamo una maggiore influenza su [target_county.GetNameNoTier].""
@@ -208,8 +208,8 @@
  hold_court_8080_prison_modifier:0 "Sindaco Maltrattato"
  # # A Place at Court
  hold_court.8090.t:0 "Un Posto a Corte"
- hold_court.8090.desc.intro:2 "[vassal.Custom('DE_ART_DEF_P_D')] mi[vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName] si volta per dirmi qualcosa nell'orecchio prima che la corte si riunisca. \n\n"Glorios[ROOT.Char.Custom('DE_END_PRO_S_N')] [vassal.Custom2('RelationToMeShort', ROOT.Char)], concedetemi l'onore di"
- hold_court.8090.desc.intro_advocate:2 "[vassal_advocate.Custom('DE_ART_DEF_P_D')] mi[vassal_advocate.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('vassal_advocate'))], [vassal_advocate.GetTitledFirstName], conduce da me un[vassal_advocate.Custom('DE_PRO_POS_P_2P')] [vassal.GetWomanMan] [vassal.Custom('GetYoungMiddleAgedOld')] prima che la corte si riunisca. \n\n"Glorios[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], concedete al[vassal_advocate.Custom('DE_END_ADJ_NUL_S_N')] mi[vassal_advocate.Custom('DE_END_PRO_S_N')] [vassal_advocate.Custom('ComplimentAdjective')] [vassal_advocate.Custom2('RelationToMeShort', SCOPE.sC('vassal'))], [vassal.GetTitledFirstName], l'onore di [vassal.Custom('GetTargetCourtPositionDesc')]"
+ hold_court.8090.desc.intro:2 "[vassal.Custom('DE_ART_DEF_P_D')] mi[vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName] si volta per dirmi qualcosa nell'orecchio prima che la corte si riunisca.\n\n"Glorios[ROOT.Char.Custom('DE_END_PRO_S_N')] [vassal.Custom2('RelationToMeShort', ROOT.Char)], concedetemi l'onore di"
+ hold_court.8090.desc.intro_advocate:2 "[vassal_advocate.Custom('DE_ART_DEF_P_D')] mi[vassal_advocate.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('vassal_advocate'))], [vassal_advocate.GetTitledFirstName], conduce da me un[vassal_advocate.Custom('DE_PRO_POS_P_2P')] [vassal.GetWomanMan] [vassal.Custom('GetYoungMiddleAgedOld')] prima che la corte si riunisca.\n\n"Glorios[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], concedete al[vassal_advocate.Custom('DE_END_ADJ_NUL_S_N')] mi[vassal_advocate.Custom('DE_END_PRO_S_N')] [vassal_advocate.Custom('ComplimentAdjective')] [vassal_advocate.Custom2('RelationToMeShort', SCOPE.sC('vassal'))], [vassal.GetTitledFirstName], l'onore di [vassal.Custom('GetTargetCourtPositionDesc')]"
  hold_court.8090.desc.rival:2 "— e lasciate perdere [old_holder.Custom('DE_ART_DEF_P_A')] [old_holder.GetTitledFirstName], quel[old_holder.Custom('DE_END_ADJ_NUL_S_N')] [old_holder.Custom('InsultAdjective')], quel[old_holder.Custom('DE_END_ADJ_NUL_S_N')] [old_holder.Custom('InsultNoun')]"
  hold_court.8090.desc.arrogant:2 "— un ruolo che si addica alla mia posizione"
  hold_court.8090.desc.ambitious:2 " — una responsabilità degna dei miei talenti"
@@ -312,7 +312,7 @@
  hold_court_8090_favorites_modifier:0 "Avere Preferenze"
  # # A Child of the Court
  hold_court.8100.t:0 "Un Bambino della Corte"
- hold_court.8100.desc.intro:1 "Mi trovo di fronte gli occhi tristi di [ward.GetFullNameNicknamedPossessive], che diventano sempre più grandi man mano che su[ward.Custom('DE_END_PRO_S_N')] [ward.Custom2('RelationToMeShort', SCOPE.sC('advocate'))] [advocate.GetTitledFirstName] delicatamente l[ward.Custom('DE_END_PRO_S_N')] fa avanzare verso il mio trono. \n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip]", dice [advocate.GetSheHe] con un lamento, "[ward.Custom('DE_ART_DEF_P_A')|U] [ward.Custom('GirlBoy')] è stat[ward.Custom('DE_END_PRO_S_N')] alla"
+ hold_court.8100.desc.intro:1 "Mi trovo di fronte gli occhi tristi di [ward.GetFullNameNicknamedPossessive], che diventano sempre più grandi man mano che su[ward.Custom('DE_END_PRO_S_N')] [ward.Custom2('RelationToMeShort', SCOPE.sC('advocate'))] [advocate.GetTitledFirstName] delicatamente l[ward.Custom('DE_END_PRO_S_N')] fa avanzare verso il mio trono.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip]", dice [advocate.GetSheHe] con un lamento, "[ward.Custom('DE_ART_DEF_P_A')|U] [ward.Custom('GirlBoy')] è stat[ward.Custom('DE_END_PRO_S_N')] alla"
  hold_court.8100.desc.vassal:0 "corte di [ward.GetLiege.GetFirstNamePossessive]"
  hold_court.8100.desc.court:0 "tua corte"
  hold_court.8100.desc.body:0 "senza che nessuno vegliasse su di [ward.GetSheHe] fin dalla [ward.Custom('get_hold_court_8100_situation')] [Select_CString(ward.IsFemale,'della sua cara','del suo caro')] [ward.GetMotherFather]. Vi prego, occupatevi del suo futuro." \n\n"
@@ -386,7 +386,7 @@
  hold_court_8120_refused_modifier_desc:0 "La popolazione locale si risente del rifiuto della loro richiesta di tolleranza."
  # # Cultural Pride
  hold_court.8130.t:0 "Orgoglio Culturale"
- hold_court.8130.desc:0 "Si inchina davanti a me un contadino di extrazione [peasant.GetCulture.GetName], contorcendosi le mani. \n\n"Maestos[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], nella bellissima terra natia di [conversion_target.GetNameNoTier] veniamo incoraggiati ad abbandonare i nostri costumi e ad adottare i modi della cultura [ROOT.Char.GetCulture.GetName]." \n\n"
+ hold_court.8130.desc:0 "Si inchina davanti a me un contadino di extrazione [peasant.GetCulture.GetName], contorcendosi le mani.\n\n"Maestos[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], nella bellissima terra natia di [conversion_target.GetNameNoTier] veniamo incoraggiati ad abbandonare i nostri costumi e ad adottare i modi della cultura [ROOT.Char.GetCulture.GetName]." \n\n"
  hold_court.8130.desc.same_language:1 ""La nostra gente condivide già la bellissima lingua madre [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip], lasciateci preservare le nostre pratiche locali e rimanere fedeli ai nostri antenati.""
  hold_court.8130.desc.same_heritage:1 ""La nostra gente condivide già molto della tradizione [ROOT.Char.GetCulture.GetHeritage.GetNameNoTooltip], ma le nostre pratiche locali ci sono care. Vi prego, lasciateci rimanere fedeli ai nostri antenati.""
  hold_court.8130.desc.same_ethos:1 ""I nostri popoli sono già vicini; anche noi siamo gente [ROOT.Char.GetCulture.GetEthos.GetNameNoTooltip|l]. Lasciateci mantenere le nostre tradizioni e vivere fianco a fianco in pace.""
@@ -406,19 +406,19 @@
  hold_court_8130_service_modifier:0 "Vincolo Culturale"
  # # Puppy Patronage
  hold_court.8140.t:0 "Patrocinio dei cuccioli"
- hold_court.8140.desc:1 "Il mio maestro della caccia [huntmaster.GetTitledFirstName] si avvicina con cautela, cullando un fagotto di lana. \n\nCon un ghigno, [huntmaster.GetSheHe] scopre il fagotto, rivelando un paio di occhi strabici sopra una lingua che si muove, un cucciolo! [huntmaster.GetSheHe|U] riesce a malapena a tenere l'eccitabile palla di pelo tra le sue braccia. \n\n"Un dono dalla più bella cucciolata di [ROOT.Char.Custom('get_region_dog_type')] che io abbia mai visto!" dice [huntmaster.GetSheHe] tra una leccata in faccia e l'altra, "Dovete approfittarne ed espandere il vostro canile mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!""
+ hold_court.8140.desc:1 "Il mio maestro della caccia [huntmaster.GetTitledFirstName] si avvicina con cautela, cullando un fagotto di lana.\n\nCon un ghigno, [huntmaster.GetSheHe] scopre il fagotto, rivelando un paio di occhi strabici sopra una lingua che si muove, un cucciolo! [huntmaster.GetSheHe|U] riesce a malapena a tenere l'eccitabile palla di pelo tra le sue braccia.\n\n"Un dono dalla più bella cucciolata di [ROOT.Char.Custom('get_region_dog_type')] che io abbia mai visto!" dice [huntmaster.GetSheHe] tra una leccata in faccia e l'altra, "Dovete approfittarne ed espandere il vostro canile mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!""
  hold_court.8140.a:0 "I nostri canili non avranno competizione!"
  hold_court.8140.a.tt:0 "Tutti i membri potranno compiere la [decision|E] Adotta un Cucciolo"
  hold_court.8140.b:0 "Chi è un bravo cucciolo? Tu lo sei!"
  hold_court.8140.c:0 "I gatti sono compagni superiori."
  hold_court.8140.d:0 "State ritardando l'udienza con gli altri postulanti, [huntmaster.GetFirstNameNoTooltip]."
  # Puppy Patronage ping
- hold_court.8141.desc:0 "Il mio [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('pup_house_ruler'))] [pup_house_ruler.GetTitledFirstNameRegnal] ha ingrandito i suoi canili reale sotto la direzione del suo maestro della caccia, [huntmaster.GetTitledFirstNameRegnal]. \n\n[pup_house_ruler.Custom('DE_ART_IND_D')] ha invitato tutti i suoi parenti a condividere i frutti di questo sforzo!"
+ hold_court.8141.desc:0 "Il mio [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('pup_house_ruler'))] [pup_house_ruler.GetTitledFirstNameRegnal] ha ingrandito i suoi canili reale sotto la direzione del suo maestro della caccia, [huntmaster.GetTitledFirstNameRegnal].\n\n[pup_house_ruler.Custom('DE_ART_IND_D')] ha invitato tutti i suoi parenti a condividere i frutti di questo sforzo!"
  hold_court.8141.a:0 "Cuccioli eh?"
  # Puppy Patronage decision event
  hold_court.8142.t:0 "$hold_court.8140.t$: Nuovo Compagno"
- hold_court.8142.desc:0 "I miei servitori mi portano un cucciolo appena nato di [ROOT.Char.Custom('get_region_dog_type')], dai rinomati canili di [ROOT.Char.GetHouse.GetNameNoTooltip] stabiliti dal mio [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('pup_house_ruler'))] [pup_house_ruler.GetTitledFirstNameRegnal]. \n\nDalle coperte fa capolino dalle un nasino che annusa, curioso degli odori della sua nuova casa!"
- hold_court.8142.desc_alternative: "I miei servitori mi portano un cucciolo appena nato di [ROOT.Char.Custom('get_region_dog_type')], fresco dai miei stessi canili. \n\nDalle coperte fa capolino un nasino curioso degli odori della sua nuova casa!"
+ hold_court.8142.desc:0 "I miei servitori mi portano un cucciolo appena nato di [ROOT.Char.Custom('get_region_dog_type')], dai rinomati canili di [ROOT.Char.GetHouse.GetNameNoTooltip] stabiliti dal mio [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('pup_house_ruler'))] [pup_house_ruler.GetTitledFirstNameRegnal].\n\nDalle coperte fa capolino dalle un nasino che annusa, curioso degli odori della sua nuova casa!"
+ hold_court.8142.desc_alternative: "I miei servitori mi portano un cucciolo appena nato di [ROOT.Char.Custom('get_region_dog_type')], fresco dai miei stessi canili.\n\nDalle coperte fa capolino un nasino curioso degli odori della sua nuova casa!"
  hold_court.8142.a:0 "Mi servirai bene piccoletto!"
  hold_court.8142.b:0 "Ho cambiato idea."
  # Modifiers
@@ -460,9 +460,9 @@
  hold_court.8150.e:0 "Stai giocando ad un gioco pericoloso, [target_faction.GetLeader.GetTitleAsNameNoTooltip]."
  # # Public Accusation
  hold_court.8160.t:0 "Accusa Pubblica"
- hold_court.8160.desc.intro_child:0 "([concerned.Custom('DE_ART_DEF_P_D')]) mi[concerned.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('concerned'))] [concerned.GetTitledFirstName] ha condotto il giovane [victim.GetTitledFirstNameRegnal] al mio fianco, chiaramente consumato dall'ansia. \n\n"
- hold_court.8160.desc.intro_spouse:0 "[concerned.Custom('IT_NAM_COL3')][concerned.GetTitledFirstNameRegnal] e su[victim.Custom('DE_END_PRO_S_N')] [concerned.Custom2('RelationToMeShort', SCOPE.sC('victim'))] si avvicinano con cautela, diffidando della corte ivi riunita. \n\n"
- hold_court.8160.desc.intro_alone:0 "([victim.Custom('DE_ART_DEF_P_D')]) mi[victim.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('victim'))] [victim.GetTitledFirstNameRegnal] si precipita al mio fianco, con gli occhi iniettati di sangue che scrutano la corte riunita. \n\n"
+ hold_court.8160.desc.intro_child:0 "([concerned.Custom('DE_ART_DEF_P_D')]) mi[concerned.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('concerned'))] [concerned.GetTitledFirstName] ha condotto il giovane [victim.GetTitledFirstNameRegnal] al mio fianco, chiaramente consumato dall'ansia.\n\n"
+ hold_court.8160.desc.intro_spouse:0 "[concerned.Custom('IT_NAM_COL3')][concerned.GetTitledFirstNameRegnal] e su[victim.Custom('DE_END_PRO_S_N')] [concerned.Custom2('RelationToMeShort', SCOPE.sC('victim'))] si avvicinano con cautela, diffidando della corte ivi riunita.\n\n"
+ hold_court.8160.desc.intro_alone:0 "([victim.Custom('DE_ART_DEF_P_D')]) mi[victim.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('victim'))] [victim.GetTitledFirstNameRegnal] si precipita al mio fianco, con gli occhi iniettati di sangue che scrutano la corte riunita.\n\n"
  hold_court.8160.desc.intro_me:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], ho la certezza che qualcuno nel [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] stia cercando di prendermi!"
  hold_court.8160.desc.intro_other:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], ho la certezza che qualcuno nel [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] stia cercando di fare del male a mi[victim.Custom('DE_END_PRO_S_N')] [concerned.Custom2('RelationToMeShort', SCOPE.sC('victim'))]!"
  hold_court.8160.desc.exposed:0 "Guardate qui, ho la prova che si tratti di [accused.GetTitledFirstName]"
@@ -492,7 +492,7 @@
  get_victim:0 "[ROOT.Char.GetTitledFirstNamePossessive]"
  # # Personal Matter DA QUI
  hold_court.8161.t:0 "Questione Personale"
- hold_court.8161.desc.intro:0 "Mi[victim.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('victim'))] [victim.GetTitledFirstName] si fa avanti, scortat[victim.Custom('DE_END_PRO_S_N')] apprensivamente dal suo coniuge [victim.GetPrimarySpouse.GetFirstName] che sembra di cattivo umore. \n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], [accused.GetFirstName] sta cercando di sedurre mi[victim.Custom('DE_END_PRO_S_N')] [victim.GetWifeHusband], un affronto a [victim.GetPrimarySpouse.GetFaith.HighGodName]!"
+ hold_court.8161.desc.intro:0 "Mi[victim.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('victim'))] [victim.GetTitledFirstName] si fa avanti, scortat[victim.Custom('DE_END_PRO_S_N')] apprensivamente dal suo coniuge [victim.GetPrimarySpouse.GetFirstName] che sembra di cattivo umore.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], [accused.GetFirstName] sta cercando di sedurre mi[victim.Custom('DE_END_PRO_S_N')] [victim.GetWifeHusband], un affronto a [victim.GetPrimarySpouse.GetFaith.HighGodName]!"
  hold_court.8161.desc.nemesis:0 "Quel[ROOT.Char.Custom('DE_END_ADJ_NUL_S_N')] [accused.Custom('InsultAdjective')] e [accused.Custom('InsultNoun')] non si fermerà davanti a niente pur di rovinarmi la vita!""
  hold_court.8161.desc.rival:0 "Quell'odios[accused.Custom('DE_END_PRO_S_N')] e [accused.Custom('InsultNoun')] desidera mettermi in imbarazzo!""
  hold_court.8161.desc.quarry:0 "[accused.GetSheHe|U] chiaramente brama [victim.Custom('DE_ART_DEF_P_A')] mi[victim.Custom('DE_END_PRO_S_N')] bellissim[victim.Custom('DE_END_PRO_S_N')] spos[victim.Custom('DE_END_PRO_S_N')] e non può contenersi!""
@@ -509,7 +509,7 @@
  hold_court.8161.d.fallback:0 "Non c'è alcuna prova?"
  # # Noble Privileges
  hold_court.8180.t:0 "Privilegi Nobiliari"
- hold_court.8180.desc.intro:0 "[contract_lord.GetTitledFirstName], ([contract_lord.Custom('DE_ART_DEF_P_D')]) mi[contract_lord.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('contract_lord'))], si fa avanti, chiaramente desideros[contract_lord.Custom('DE_END_PRO_S_N')] di sentire la mia risposta alla sua richiesta. \n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [contract_lord.Custom2('RelationToMeShort', ROOT.Char)],"
+ hold_court.8180.desc.intro:0 "[contract_lord.GetTitledFirstName], ([contract_lord.Custom('DE_ART_DEF_P_D')]) mi[contract_lord.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('contract_lord'))], si fa avanti, chiaramente desideros[contract_lord.Custom('DE_END_PRO_S_N')] di sentire la mia risposta alla sua richiesta.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [contract_lord.Custom2('RelationToMeShort', ROOT.Char)],"
  hold_court.8180.desc.religious:0 "non c'è bisogno di mettere in dubbio la lealtà della Casata [contract_lord.GetHouse.GetBaseName], ma le nostre relazioni sarebbero più forti senza la minaccia della persecuzione dei nostri credi.""
  hold_court.8180.desc.fortification:0 "se la Casata [contract_lord.GetHouse.GetBaseName] deve difendere se stessa e [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], [contract_lord.GetPrimaryTitle.GetNameNoTier] chiede il permesso e il supporto di rafforzare i suoi avamposti.""
  hold_court.8180.desc.coinage:0 "Il commercio a [contract_lord.GetPrimaryTitle.GetAdjective] è soffocato dalla mancanza di valuta, lasciate che la Casata [contract_lord.GetHouse.GetBaseName] stabilisca una sua zecca con l'approvazione reale, per il bene del/della [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].""
@@ -582,7 +582,7 @@
  hold_court_8190_communal:0 "non un briciolo di iniziativa o di fiducia in se stessi!"
  # # Servant of God
  hold_court.8200.t:0 "Servo di [ROOT.Char.GetFaith.HighGodName]"
- hold_court.8200.desc.intro:1 "Sembra che [aggressor_vassal.Custom('DE_ART_DEF_P_A')] mi[aggressor_vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('aggressor_vassal'))], [aggressor_vassal.GetTitledFirstName], ha avuto un caratteraccio mentre era in attesa di ricevere udienza. \n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')],"
+ hold_court.8200.desc.intro:1 "Sembra che [aggressor_vassal.Custom('DE_ART_DEF_P_A')] mi[aggressor_vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('aggressor_vassal'))], [aggressor_vassal.GetTitledFirstName], ha avuto un caratteraccio mentre era in attesa di ricevere udienza.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')],"
  hold_court.8200.desc.vassal:0 "Non posso sopportare la vostra tolleranza degli [ROOT.Char.Custom2('GetUnbelieverTerm', SCOPE.sC('infidel_vassal'))] come [infidel_vassal.GetTitledFirstName] nel reame – persino tra la nobilità!""
  hold_court.8200.desc.pope:0 "I [ROOT.Char.Custom2('GetUnbelieverTerm', SCOPE.sC('infidel_vassal'))] si radunano attorno al falso [ROOT.Char.GetFaith.BishopNeuter] [infidel_vassal.GetTitledFirstName], e tutti sono sotto la tua protezione!""
  hold_court.8200.desc.body:1 "\n\n"[ROOT.Char.GetFaith.HighGodName] ha reso chiare le sue richieste – [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTier] dovrebbe essere una terra della fede! Spariscano questi cani di fede '[infidel_vassal.GetFaith.GetAdjective]'!""
@@ -601,7 +601,7 @@
  hold_court_8200_vassal_modifier:0 "Fede Indesiderata"
  # # Rightful Lord
  hold_court.8210.t:0 "Terre Legittime"
- hold_court.8210.desc.intro:0 "Un[aggressor_vassal.Custom('DE_PRO_POS_P_2P')] [aggressor_vassal.GetTitledFirstName] marcatamente scontent[aggressor_vassal.Custom('DE_END_PRO_S_N')] si precipita al tuo trono... \n\n"[aggressor_vassal.Custom2('RelationToMeShort', ROOT.Char)|U], "
+ hold_court.8210.desc.intro:0 "Un[aggressor_vassal.Custom('DE_PRO_POS_P_2P')] [aggressor_vassal.GetTitledFirstName] marcatamente scontent[aggressor_vassal.Custom('DE_END_PRO_S_N')] si precipita al tuo trono...\n\n"[aggressor_vassal.Custom2('RelationToMeShort', ROOT.Char)|U], "
  hold_court.8210.desc.de_jure:0 "i miei diritti legali sulla [vassal_claim.GetName] sono ben attestati; quegli appezzamenti sono stati a lungo considerati parte integrante del mio [vassal_claim.GetDeJureLiege.GetName].""
  hold_court.8210.desc.strong:0 "il mio legittimo diritto sulla [vassal_claim.GetName] è fuor d'ogni dubbio; riconosciuto sia dai vostri araldi che dai [ROOT.Char.GetFaith.AltPriestTermPlural] di fede [ROOT.Char.GetFaith.GetAdjectiveNoTooltip].""
  hold_court.8210.desc.weak:0 "Io ho diritto alla [vassal_claim.GetName], non importa cosa possano dire gli altri!"
@@ -621,7 +621,7 @@
  hold_court.8210.duel_tt:0 "Vi sarà un duello tra [defender_vassal.GetNameOrMeNoTooltip|U] e [aggressor_vassal.GetTitledFirstName] per il titolo [vassal_claim.GetName]"
  # # The King's Peace
  hold_court.8260.t:0 "La Pace [ROOT.Char.Custom('DE_PRO_PER_P_3P_A')] [ROOT.Char.GetTitleAsNamePossessiveNoTooltip]"
- hold_court.8260.desc.intro:1 "[vassal_faction_target.GetFullName] si avvicina con la faccia acida, impaziente di consegnare il suo appello. \n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], il mio [vassal_faction_target.Custom2('RelationToMeShort', SCOPE.sC('vassal_faction_leader'))], [vassal_faction_leader.GetTitledFirstName], cerca di sfidare la mia legittima posizione,"
+ hold_court.8260.desc.intro:1 "[vassal_faction_target.GetFullName] si avvicina con la faccia acida, impaziente di consegnare il suo appello.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], il mio [vassal_faction_target.Custom2('RelationToMeShort', SCOPE.sC('vassal_faction_leader'))], [vassal_faction_leader.GetTitledFirstName], cerca di sfidare la mia legittima posizione,"
  hold_court.8220.desc.claimant:0 "ed insediare ([vassal_claimant.Custom('DE_ART_DEF_P_A')]) mi[vassal_claimant.Custom('DE_END_PRO_S_N')] [vassal_faction_target.Custom2('RelationToMeShort', SCOPE.sC('vassal_claimant'))], [vassal_claimant.GetTitledFirstName], come usurpa[vassal_claimant.Custom('DE_END_NOU_S_GS_N')] a [vassal_faction.GetSpecialTitle.GetNameNoTier]!""
  hold_court.8220.desc.claimant_self:1 "ed insediare se stess[vassal_faction.GetSpecialCharacter.Custom('DE_END_PRO_S_N')] come Signor[vassal_faction.GetSpecialCharacter.Custom('DE_END_ADJ_IND_S_A')] di [vassal_faction.GetSpecialTitle.GetNameNoTier]!""
  hold_court.8220.desc.liberty:0 "soffocando il mio potere e contraddicendo le mie legittime decisioni come su[vassal_faction_target.Custom('DE_END_PRO_S_N')] [vassal_faction_target.GetTitleAsNameNoTooltip]!""
@@ -635,7 +635,7 @@
  hold_court.8260.e:0 "Oh io #EMP devo#!, vero?"
  # # Oath of Fealty
  hold_court.8270.t:0 "Giuramento di Fedeltà"
- hold_court.8270.desc:1 "I miei araldi annunciano l'arrivo di un piccolo sovrano confinante; [neighbor.GetTitledFirstName] di [neighbor.GetPrimaryTitle.GetNameNoTier]. \n\n[neighbor.Custom('DE_ART_IND_D')] entra nelle tue sale con dignità, e si inchina profondamente, "Vostra grazia, sono giunt[neighbor.Custom('DE_END_PRO_S_N')] qui per giurarvi fedeltà, qualora accettaste i miei termini." \n\n"Vi servirò in veste di fedele vassallo di [ROOT.Char.GetPrimaryTitle.GetNameNoTier] in cambio della vostra protezione; possano le nostre due casate prosperare mediante questo accordo!""
+ hold_court.8270.desc:1 "I miei araldi annunciano l'arrivo di un piccolo sovrano confinante; [neighbor.GetTitledFirstName] di [neighbor.GetPrimaryTitle.GetNameNoTier].\n\n[neighbor.Custom('DE_ART_IND_D')] entra nelle tue sale con dignità, e si inchina profondamente, "Vostra grazia, sono giunt[neighbor.Custom('DE_END_PRO_S_N')] qui per giurarvi fedeltà, qualora accettaste i miei termini." \n\n"Vi servirò in veste di fedele vassallo di [ROOT.Char.GetPrimaryTitle.GetNameNoTier] in cambio della vostra protezione; possano le nostre due casate prosperare mediante questo accordo!""
  hold_court.8270.a:0 "Accetto, [neighbor.GetTitledFirstNameNoTooltip]."
  hold_court.8270.b:0 "Penso che questi termini siano un po' unilaterali..."
  hold_court.8270.b.accept:0 "[neighbor.GetTitledFirstNameNoTooltip] accetta le tue modifiche"

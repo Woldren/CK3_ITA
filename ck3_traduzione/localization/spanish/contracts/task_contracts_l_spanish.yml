@@ -399,7 +399,7 @@
  ep3_contract_event.0041.t_dead: "$treasure_map_prefix$: L'Eternità non Aspetta [Select_CString(task_contract_employer.IsFemale,'nessuna Donna','nessun Uomo')|U]"
  ep3_contract_event.0041.t_incapable: "$treasure_map_prefix$: Caduta Notturna"
  ep3_contract_event.0041.desc_intro: "La vigilanza interviene durante il mio cammino verso la tenda di [task_contract_employer.GetTitledFirstNamePossessive]: "[ROOT.Char.GetTitleAsNameNoTooltip|U], non... se n'è andat[ROOT.Char.Custom('DE_END_PRO_S_N')], [ROOT.Char.Custom('MistressMaster')].""
- ep3_contract_event.0041.desc_dead: "$ep3_contract_event.0041.desc_intro$\n\nEntro nella tenda e, per un attimo, [task_contract_employer.GetFirstNameNoTooltip] sembra che stia solo dormendo — finché non mi accorgo che il suo volto sta lentamente diventando pallido come la morte. \n\nAncora stordito,"
+ ep3_contract_event.0041.desc_dead: "$ep3_contract_event.0041.desc_intro$\n\nEntro nella tenda e, per un attimo, [task_contract_employer.GetFirstNameNoTooltip] sembra che stia solo dormendo — finché non mi accorgo che il suo volto sta lentamente diventando pallido come la morte.\n\nAncora stordito,"
  ep3_contract_event.0041.desc_incapable: "$ep3_contract_event.0041.desc_intro$\n\nEntro nella tenda e trovo [task_contract_employer.GetFirstNameNoTooltip] in un mucchio per terra, vivo ma... semplicemente... #EMP non qui#!.\n\nAncora sotto shock, [ROOT.Char.Custom('DE_PRO_DEM')] do una mano ad appoggiarsi allo schienale, poi"
  ep3_contract_event.0041.desc_outro: "Guardiamo intorno, cercando di individuare la mappa del tesoro, ma ci rendiamo subito conto che non è qui da nessuna parte.\n\nOra, non posso completare la ricerca del tesoro finale..."
  ep3_contract_event.0041.a: "Dovremmo tornare indietro."

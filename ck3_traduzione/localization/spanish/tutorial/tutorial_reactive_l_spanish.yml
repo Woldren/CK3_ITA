@@ -231,7 +231,7 @@
  ra_regency_liege_mandate_desc:0 "Puoi dare al tuo [regent|E] un [mandate|E], che concentrerà i suoi sforzi in quell'area.\n\nPuoi sempre cambiare questo mandato in un secondo momento, a seconda delle tue priorità."
 
  ra_regency_liege_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
- ra_regency_liege_ending_desc:0 "Se le condizioni che hanno dato il via alla [regency|E] sono cessate, puoi provare a porre finea alla reggenza.\n\nIl [regent|E] deve accettarlo, ma puoi offrirgli cose come l'[gold|E] oppure un [favor|E] per rendere più probabile l'accettazione. \n\nIn caso di rifiuto, può dichiararti [war|E]!"
+ ra_regency_liege_ending_desc:0 "Se le condizioni che hanno dato il via alla [regency|E] sono cessate, puoi provare a porre finea alla reggenza.\n\nIl [regent|E] deve accettarlo, ma puoi offrirgli cose come l'[gold|E] oppure un [favor|E] per rendere più probabile l'accettazione.\n\nIn caso di rifiuto, può dichiararti [war|E]!"
 
  ra_regency_liege_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
  ra_regency_liege_conclusion_desc:0 "Le reggenze sono per lo più un affare reattivo. Per ora, tieni d'occhio gli [scales_of_power|E].\n\nQuando il tuo [regent|E] usa uno dei suoi [diarch_powers|E] lo saprai e potrai decidere cosa fare al riguardo."

@@ -11,7 +11,7 @@
  witch.1002.b:0 "[child.GetFirstNameNoTooltip] è una causa persa."
 
  witch.1003.t:0 "Conoscenza Nascosta"
- witch.1003.desc:0 "Ci sono alcune cose che [guardian.Custom2('MyCharacterIntroduction', ROOT.Char)] mi ha detto di cui nessun altro parla mai. Non approfondiamo mai a lungo questi argomenti e so che è meglio non fare domande. \n\nTuttavia, questa sera, qualcosa sembra diverso tra noi. Mentre ci sediamo a leggere, mi chiede se c'è qualcosa che mi incuriosisce..."
+ witch.1003.desc:0 "Ci sono alcune cose che [guardian.Custom2('MyCharacterIntroduction', ROOT.Char)] mi ha detto di cui nessun altro parla mai. Non approfondiamo mai a lungo questi argomenti e so che è meglio non fare domande.\n\nTuttavia, questa sera, qualcosa sembra diverso tra noi. Mentre ci sediamo a leggere, mi chiede se c'è qualcosa che mi incuriosisce..."
  witch.1003.a:0 "Sì, dimmi tutto! Per favore!"
  witch.1003.b:0 "No, non credo proprio..."
  witch.1003.c:0 "Ma questa...è blasfemia!"

@@ -33,7 +33,7 @@
  befriend_ongoing_dislike.2002.b:0 "Farò in modo che lo senta da me. Tanto!"
   
  befriend_ongoing_dislike.5001.t:0 "Stringere una Nuova Amicizia: Un Cinico e uno Zelante"
- befriend_ongoing_dislike.5001.desc:0 "I miei sforzi per allentare la tensione tra [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] e me stesso, sono ostacolati dalla sua insensata ossessione per la mia mancanza di pietà. \n\nEppure, per tutte le sue lamentele, [target.GetTitledFirstName] non riesce ancora a spiegare perché valga la pena preoccuparsi di [ROOT.GetCharacter.GetFaith.HighGodName] più di quanto non faccia già, naturalmente."
+ befriend_ongoing_dislike.5001.desc:0 "I miei sforzi per allentare la tensione tra [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] e me stesso, sono ostacolati dalla sua insensata ossessione per la mia mancanza di pietà.\n\nEppure, per tutte le sue lamentele, [target.GetTitledFirstName] non riesce ancora a spiegare perché valga la pena preoccuparsi di [ROOT.GetCharacter.GetFaith.HighGodName] più di quanto non faccia già, naturalmente."
  befriend_ongoing_dislike.5001.a:0 "Suppongo che potrei visitare [ROOT.Char.GetFaith.HouseOfWorship2] più spesso."
  befriend_ongoing_dislike.5001.b:0 "Dovremo solo gestire."
  befriend_ongoing_dislike.5001.c:0 "Chi se ne frega dei dubbi che nutro comunque!"

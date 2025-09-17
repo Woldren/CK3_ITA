@@ -106,7 +106,7 @@
  gained_royal_court_toast:0 "Corte Reale ottenuta"
  gained_royal_court_toast_desc:0 "Adesso hai una [royal_court|E]"
  court_maintenance.0012.t:0 "Segno di Distinzione"
- court_maintenance.0012.desc:0 "Man mano che la fama della mia dinastia cresce, allo stesso modo si diffonde la familiarità con il glorioso sigillo della dinastia [ROOT.Char.GetDynasty.GetName]. \n\n"
+ court_maintenance.0012.desc:0 "Man mano che la fama della mia dinastia cresce, allo stesso modo si diffonde la familiarità con il glorioso sigillo della dinastia [ROOT.Char.GetDynasty.GetName].\n\n"
  court_maintenance.0012.desc_illustrious:0 "L'insegna della mia famiglia è ormai conosciuta in tutto il mondo, conosciuta dai cancellieri, insegnata ai bambini, e che delizia i mercanti in terre in cui non ha mai nemmeno messo piede [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]."
  court_maintenance.0012.desc_masterwork:0 "L'emblema della mia famiglia è ormai noto a tutti, elencato tra le grandi famiglie reali della regione e della più alta nobiltà della [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]."
  court_maintenance.0012.desc_famed:0 "Il simbolo della mia famiglia è ormai riconosciuto nei circoli regionali della nobiltà, annoverato tra le più importanti linee di sangue [ROOT.Char.GetCulture.GetNameNoTooltip]."

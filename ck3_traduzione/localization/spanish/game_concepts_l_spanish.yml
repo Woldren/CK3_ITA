@@ -1114,7 +1114,7 @@
  game_concept_county_development:0 "Sviluppo"
  game_concept_development_i:0 "@development_icon!"
  game_concept_development:0 "Sviluppo"
- game_concept_county_development_desc:0 "Lo $game_concept_county_development$ è una misura dell'infrastruttura locale e dell'avanzamento tecnologico in una [county|E]. \n\nUno $game_concept_county_development$ più alto aumenta le [levies|E], le [taxes|E], e il [supply_limit|E] ottenuto da una $game_concept_county$."
+ game_concept_county_development_desc:0 "Lo $game_concept_county_development$ è una misura dell'infrastruttura locale e dell'avanzamento tecnologico in una [county|E].\n\nUno $game_concept_county_development$ più alto aumenta le [levies|E], le [taxes|E], e il [supply_limit|E] ottenuto da una $game_concept_county$."
  game_concept_county_development_growth:0 "Avanzamento dello Sviluppo"
  game_concept_development_growth:0 "Avanzamento dello Sviluppo"
  game_concept_county_development_growth_desc:0 "L'$game_concept_county_development_growth$ misura quanto lontana è una [county|E] dall'incrementare il suo [development|E].\n\nQuando l'$game_concept_county_development_growth$ è pari a 100, lo $game_concept_county_development$ aumenta di 1."
@@ -1402,7 +1402,7 @@
  game_concept_religious_families:0 "Famiglie Religiose"
  game_concept_religious_family_desc:0 "Una $game_concept_religious_family$ è un gruppo di [religions|E]. La $game_concept_religious_family$ condiziona come le varie Religioni, e le [faiths|E] al suo interno, si vedono l'un l'altra.\n\nLa Famiglia [GetReligionFamily('rf_abrahamic').GetName] condona le [holy_wars|E] contro chiunque #weak (incluse le altre Abramitiche)#!. Le religioni sono suscettibili all'[heresy|E].\n\nLa Famiglia [GetReligionFamily('rf_eastern').GetName] condona solo le Guerre Sante contro altre Famiglie Religiose.\n\nLa Famiglia [GetReligionFamily('rf_pagan').GetName] condona le Guerre Sante contro chiunque, ma le Fedi all'interno delle Religioni devono essere riformate per averne accesso."
  game_concept_debt:0 "Debito"
- game_concept_debt_desc:2 "Il Debito è la condizione nella quale si ha un negativo ammontare di [gold_i][gold|E]. Ciò tipicamente succede quando un [ruler|E] in guerra assume [mercenaries|E] senza avere abbastanza Oro per coprirne l'intero costo, o quando essi sono in guerra per troppo tempo.\n\n Mentre sei in debito, non puoi dichiarare nuove [wars|E], i tuoi [men_at_arms|E] non si rafforzano, e i tuoi nemici avranno un [advantage|E] su di te in battaglia. Più il debito aumenterà, più penalità riceverai — meno [levies|E], una ridotta [county_opinion|E], e i tuoi [vassals|E] ti apprezzeranno di meno.\n\nIn aggiunta a questo, vari altri eventi destabilizanti minori potrebbero accadere, come un aumento di [Concept( 'county_corruption', 'corruzione' )|E] nelle [counties|E] del tuo [domain|E]. \n\n#help In genere è una buona idea colpire i tuoi nemici mentre sono in debito, in quanto combatteranno con un ridotto [advantage|E]!#!"
+ game_concept_debt_desc:2 "Il Debito è la condizione nella quale si ha un negativo ammontare di [gold_i][gold|E]. Ciò tipicamente succede quando un [ruler|E] in guerra assume [mercenaries|E] senza avere abbastanza Oro per coprirne l'intero costo, o quando essi sono in guerra per troppo tempo.\n\n Mentre sei in debito, non puoi dichiarare nuove [wars|E], i tuoi [men_at_arms|E] non si rafforzano, e i tuoi nemici avranno un [advantage|E] su di te in battaglia. Più il debito aumenterà, più penalità riceverai — meno [levies|E], una ridotta [county_opinion|E], e i tuoi [vassals|E] ti apprezzeranno di meno.\n\nIn aggiunta a questo, vari altri eventi destabilizanti minori potrebbero accadere, come un aumento di [Concept( 'county_corruption', 'corruzione' )|E] nelle [counties|E] del tuo [domain|E].\n\n#help In genere è una buona idea colpire i tuoi nemici mentre sono in debito, in quanto combatteranno con un ridotto [advantage|E]!#!"
  game_concept_beneficiary:0 "Beneficiario"
  game_concept_beneficiaries:0 "Beneficiari"
  game_concept_beneficiary_desc:1 "Tutti i partecipanti in una [great_holy_war|E] possono selezionare un $game_concept_beneficiary$ dalla propria [dynasty|E]. Alla vittoria, il $game_concept_beneficiary$ riceverà terre nel reame bersaglio proporzionali al [war_contribution|E] del loro governante mecenate.\n\nIl maggior contribuente può costringere il proprio Beneficiario a ricevere il titolo principale per il quale si è lottato."
@@ -1807,7 +1807,7 @@
 
  game_concept_pilgrimage:0 "Pellegrinaggio"
  game_concept_pilgrimages:0 "Pellegrinaggi"
- game_concept_pilgrimage_desc:2 "I Personaggi della maggior parte delle [faiths|E] possono scegliere di intraprendere un'[activity|E] per andare in $game_concept_pilgrimage$ ad un [holy_site|E]. Ogni [holy_site|E] ha un periodo di grazia individuale prima poter essere rivisitato. \n\nQuesto viaggio può essere pieno di opportunità e di pericoli, ma una volta raggiunta la destinazione i personaggi guadagneranno [piety|E] e potrebbero ricevere altre ricompense."
+ game_concept_pilgrimage_desc:2 "I Personaggi della maggior parte delle [faiths|E] possono scegliere di intraprendere un'[activity|E] per andare in $game_concept_pilgrimage$ ad un [holy_site|E]. Ogni [holy_site|E] ha un periodo di grazia individuale prima poter essere rivisitato.\n\nQuesto viaggio può essere pieno di opportunità e di pericoli, ma una volta raggiunta la destinazione i personaggi guadagneranno [piety|E] e potrebbero ricevere altre ricompense."
 
  game_concept_hajj:0 "Hajj"
  game_concept_hajjes:0 "Hajj"
@@ -1985,7 +1985,7 @@
 
  game_concept_reform:0 "Riforma"
  game_concept_reformation:0 "Riforma"
- game_concept_reformation_desc:0 "Il [culture_head|E] è in grado di cambiare alcune parti della propria [culture|E] mediante la $game_concept_reformation$. Questo è un processo che richiede molto tempo e non può essere fermato una volta iniziato. \n\nLe parti riformabili sono:\n$BULLET_WITH_TAB$Le [traditions|E]\n$BULLET_WITH_TAB$L'[ethos|E]\n$BULLET_WITH_TAB$[martial_custom|E]"
+ game_concept_reformation_desc:0 "Il [culture_head|E] è in grado di cambiare alcune parti della propria [culture|E] mediante la $game_concept_reformation$. Questo è un processo che richiede molto tempo e non può essere fermato una volta iniziato.\n\nLe parti riformabili sono:\n$BULLET_WITH_TAB$Le [traditions|E]\n$BULLET_WITH_TAB$L'[ethos|E]\n$BULLET_WITH_TAB$[martial_custom|E]"
 
  game_concept_buy_artifact_claim:0 "$buy_artifact_claim_interaction$"
  game_concept_buy_artifact_claim_interaction:0 "Interazione $buy_artifact_claim_interaction$"
@@ -2362,7 +2362,7 @@
 
  game_concept_accolade_type:0 "Attributo dell'Encomio"
  game_concept_accolade_types:0 "Attributi dell'Encomio"
- game_concept_accolade_type_desc:1 "Un [accolade|E] ha un attributo primario e un attributo secondario, che forniscono dei vantaggi con l'accrescimento del [accolade_rank|E].\n\nOgni potenziale [acclaimed_knight|E] è idoneo solo a determinati attributi, per lo più basati sui propri [traits|E]. Alla [accolade_succession|E], il nuovo Cavaliere deve soddisfare l'attributo primario, mentre quello secondario può essere cambiato, spendendo [glory|E]. Inoltre, se un attributo dà accesso al [retinue_maa|E], continerà a farlo solo se è l'attributo primario. \n\nOgni Acclamato deve avere due attributi unici. Un Signore #high non#! può duplicare gli attributi tra gli accoliti."
+ game_concept_accolade_type_desc:1 "Un [accolade|E] ha un attributo primario e un attributo secondario, che forniscono dei vantaggi con l'accrescimento del [accolade_rank|E].\n\nOgni potenziale [acclaimed_knight|E] è idoneo solo a determinati attributi, per lo più basati sui propri [traits|E]. Alla [accolade_succession|E], il nuovo Cavaliere deve soddisfare l'attributo primario, mentre quello secondario può essere cambiato, spendendo [glory|E]. Inoltre, se un attributo dà accesso al [retinue_maa|E], continerà a farlo solo se è l'attributo primario.\n\nOgni Acclamato deve avere due attributi unici. Un Signore #high non#! può duplicare gli attributi tra gli accoliti."
 
  game_concept_accolade_succession:0 "Successione dell'Encomio"
  game_concept_accolade_succession_desc:1 "La Successione dell'Encomio avviene quando un [acclaimed_knight|e] muore o diventa non idoneo al ruolo.\n\nIl Cavaliere Acclamato viene sostituito dal suo Successore, che deve essere idoneo al [accolade_type|E] primario. L'attributo secondario può essere modificato, spendendo [glory|E].\n\nSe non ci fossero degni successori a corte, può essere utilizzata la decisione #high $call_for_acclaimed_knight_candidates_decision$#! per invitare dei candidati idonei."
