@@ -409,7 +409,7 @@
  nick_the_divine:0 "[CHARACTER.Custom('DE_ART_DEF_P_A')] Divin[CHARACTER.Custom('DE_END_PRO_S_N')]"
  nick_the_divine_desc:1 "Pochi udendo [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetShortUINameNoTooltipNoFormat] potrebbero pensare ad altro - sicuramente [CharYouSheHe(CHARACTER)] è almeno toccato dal divino?"
  nick_the_anointed:0 "l'Unt[CHARACTER.Custom('DE_END_PRO_S_N')]"
- nick_the_anointed_desc:1 "I contadini sussurrano che [CHARACTER.GetFaith.GetHighGodName] ha scelto [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetShortUINameNoTooltipNoFormat] per fare il suo lavoro nel mondo mortale."
+ nick_the_anointed_desc:1 "I contadini sussurrano che [CHARACTER.GetFaith.HighGodName] ha scelto [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetShortUINameNoTooltipNoFormat] per fare il suo lavoro nel mondo mortale."
  nick_the_stupor_mundi:0 "Stupor Mundi"
  nick_the_stupor_mundi_desc:1 "Forse è un po' arrogante, ma... cos'altro è [CharYouSheHe(CHARACTER)], se non la Meraviglia del Mondo?"
  nick_the_glass:0 "l[CHARACTER.Custom('DE_PRO_PER_S_3P_N')][CHARACTER.GetWomanMan|U] di vetro"

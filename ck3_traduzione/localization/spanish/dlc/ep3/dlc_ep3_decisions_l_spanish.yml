@@ -1099,6 +1099,7 @@ ep3_mass_arrests_house_power_malus: "Recentemente Imprigionata dal [liege|E]"
  ep3_separatist_uprising: "Rivolta Separatista"
  ep3_separatist_uprising_desc: "Questo personaggio ha dedicato tutti i suoi sforzi per garantire terre alla propria cultura."
  separatist_uprising_culture_county_tt: "Hai la stessa [culture|E] di [GetPlayer.GetCurrentLocation.GetCounty.GetTitle.GetName] #weak ([GetPlayer.GetCurrentLocation.GetCounty.GetCulture.GetName])#!"
+ separatist_uprising_culture_duchy_check_tt: "Il [duchy|E] [de_jure|E] della tua attuale località esiste."
  separatist_uprising_capital_county_tt: "Il tuo [camp|E] non si trova nella [capital|E] della [county|E]"
  culture_separatists: "Separatisti della cultura [ROOT.Char.GetCulture.GetNameNoTooltip]"
  

@@ -634,8 +634,8 @@
  MOD_OWNED_SCHEME_SECRECY_ADD:0 "[secrecy|E] del [scheme|E]"
  MOD_ENEMY_SCHEME_SECRECY_ADD: "[secrecy|E] del [scheme|E] Nemico"
  MOD_PER_SCHEME_PHASE_POSTFIX: " per [scheme_phase_phase|E]"
- MOD_DAYS_PER_SCHEME_PHASE_SUFFIX_POSITIVE: " #weak days slower per [scheme_phase|E]#!"
- MOD_DAYS_PER_SCHEME_PHASE_SUFFIX_NEGATIVE: " #weak days faster per [scheme_phase|E]#!" 
+ MOD_DAYS_PER_SCHEME_PHASE_SUFFIX_POSITIVE: " #weak giorni più lento slower per [scheme_phase|E]#!"
+ MOD_DAYS_PER_SCHEME_PHASE_SUFFIX_NEGATIVE: " #weak giorni più veloce per [scheme_phase|E]#!" 
  # Scheme modifiers
  murder_trusted_advice_modifier:0 "Agente Consigliere di fiducia"
  murder_trusted_by_target_modifier:0 "Il bersaglio si fida di lui"

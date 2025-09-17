@@ -13,8 +13,8 @@
  camp_domicile_type_possessive: "Campo"
  estate_domicile_type_possessive: "Tenuta"
 
- camp_move_desc: "Sposta il tuo [camp|E] è un buon modo per ottenere più [task_contracts|E].\n\n#weak Se ci si sposta di molto, si esce dal raggio d'azione del proprio [contact_list_contacts|E], quindi utilizza i favori rimasti prima di spostarsi.#!\n\n#P Fare clic per spostare il Campo#!"
- estate_move_desc: "#T Sposta la Tenuta#!\nMuovI LA TUA [estate|E] in un'altra [barony|E] all'interno del [realm|E].\n@alert_icon! #alert_trial Non sarà possibile spostarla di nuovo per [EmptyScope.ScriptValue('estate_move_cooldown_value')|V0] giorni#!\n\n#S Costo:\n#![GetCostString( DOMICILE_TYPE.GetMoveCost( Character.Self ) )]\n\n#P Fare clic per spostare la Tenuta#!"
+ camp_move_desc: "Sposta il tuo [camp|E] è un buon modo per ottenere più [task_contracts|E].\n\n#weak Se ci si sposta di molto, si uscirà dal raggio d'azione dei propri [contact_list_contacts|E], quindi assicurati di utilizzare i favori rimasti prima di spostarti.#!\n\n#P Clicca per spostare il Campo#!"
+ estate_move_desc: "#T Sposta la Tenuta#!\nMuovI LA TUA [estate|E] in un'altra [barony|E] all'interno del [realm|E].\n@alert_icon! #alert_trial Non sarà possibile spostarla di nuovo per [EmptyScope.ScriptValue('estate_move_cooldown_value')|V0] giorni#!\n\n#S Costo:\n#![GetCostString( DOMICILE_TYPE.GetMoveCost( Character.Self ) )]\n\n#P Clicca per spostare la Tenuta#!"
 
  DOMICILE_MOVE_COOLDOWN_DESC: "@warning_icon! #X Non è possibile spostare il proprio [domicile|E] per $TIME|V$#!"
 

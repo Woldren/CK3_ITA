@@ -15,9 +15,9 @@
  game_concept_coronation_supporters: "Sostenitori"
  game_concept_coronation_supporter_desc: "I Sostenitori sono [activity_guests_short|E] presenti all’[activity|E] di [coronation|E] che appoggiano l’[Concept( 'host', 'organizzatore' )|E] nella sua ascesa al trono. Avranno opportunità speciali per aiutare il [ruler|E] a consolidare la propria [legitimacy|E].\n\nSono direttamente opposti ai [coronation_detractors|E], ospiti che tentano di ostacolare l’ospitante."
 
- game_concept_coronation_detractor: "Oppositore"
- game_concept_coronation_detractors: "Oppositori"
- game_concept_coronation_detractor_desc: "Gli Oppositori sono [activity_guests_short|E] presenti all’[activity|E] di [coronation|E] che si oppongono all’[Concept( 'host', 'organizzatore' )|E] nella sua ascesa al trono. Cercheranno di ostacolare il [ruler|E] e minarne la [legitimacy|E].\n\nSono direttamente opposti ai [coronation_supporters|E], ospiti che cercano di aiutare l’ospitante."
+ game_concept_coronation_detractor: "Detrattore"
+ game_concept_coronation_detractors: "Detrattori"
+ game_concept_coronation_detractor_desc: "I Detrattori sono [activity_guests_short|E] presenti all’[activity|E] di [coronation|E] che si oppongono all’[Concept( 'host', 'organizzatore' )|E] nella sua ascesa al trono. Cercheranno di ostacolare il [ruler|E] e minarne la [legitimacy|E].\n\nSono direttamente opposti ai [coronation_supporters|E], ospiti che cercano di aiutare l’ospitante."
 
  game_concept_coronation_anointment: "Unzione"
  game_concept_anointment: "$game_concept_coronation_anointment$"

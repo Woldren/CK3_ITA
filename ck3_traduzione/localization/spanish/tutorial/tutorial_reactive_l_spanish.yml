@@ -641,7 +641,7 @@
  ra_domicile_camp_task: "Vai alla finestra del Campo"
 
  ra_laamp_contract_move_2: "Spostare il tuo Campo"
- ra_laamp_contract_move_2_desc: "Ecco un esempio di destinazione a una buona distanza dalla posizione attuale del tuo [camp|E].\n\nPuoi pianificare il [Concept( 'travel', 'viaggio' )|E] direttamente dalla scheda della [county|E], verso qualsiasi [barony|E] selezionata nella Contea.\n\n#weak Nota: puoi anche avviare il Viaggio del Campo dalla finestra del Campo, usando il pulsante Sposta Domicilio in basso.#!"
+ ra_laamp_contract_move_2_desc: "Ecco un esempio di destinazione a una buona distanza dalla posizione attuale del tuo [camp|E].\n\nPuoi pianificare il [Concept( 'travel', 'viaggio' )|E] direttamente dalla scheda della [county|E], verso qualsiasi [barony|E] selezionata nella Contea.\n\n#weak Nota: puoi anche avviare il "Viaggio del Campo" dalla finestra del Campo, usando il pulsante Sposta Domicilio in basso.#!"
  ra_domicile_travel_task: "Vai alla scheda $relocate_camp_to_interaction$"
 
  ra_laamp_contract_move_3: "Viaggiare con il tuo Campo"
