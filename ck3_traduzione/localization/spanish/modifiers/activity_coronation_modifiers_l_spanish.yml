@@ -63,10 +63,12 @@
  ach_coronation_little_birds_modifier: "Uccellini"
  ach_coronation_little_birds_modifier_desc: "Questo personaggio è sostenuto dalla rete di spie di uno dei suoi vassalli — un grande sollievo!"
 
+ ach_coronation_expended_resources_modifier: "Risorse Impiegate"
+ ach_coronation_expended_resources_modifier_desc: "Questo personaggio ha recentemente impiegato molte risorse per sostenere un altro governante."
  ach_coronation_expended_resources_martial_modifier: "$ach_coronation_expended_resources_modifier$"
- ach_coronation_expended_resources_martial_modifier_desc: "$ach_coronation_expended_resources_modifier_desc$ Persino i suoi stessi eserciti sono stati esausti."
+ ach_coronation_expended_resources_martial_modifier_desc: "$ach_coronation_expended_resources_modifier_desc$ Persino i loro stessi eserciti si stanno logorando."
  ach_coronation_expended_resources_martial_nomad_modifier: "$ach_coronation_expended_resources_modifier$"
- ach_coronation_expended_resources_martial_nomad_modifier_desc: "$ach_coronation_expended_resources_modifier_desc$ Persino i suoi stessi eserciti sono stati esausti."
+ ach_coronation_expended_resources_martial_nomad_modifier_desc: "$ach_coronation_expended_resources_modifier_desc$ Persino i loro stessi eserciti si stanno logorando."
 
  ach_coronation_expended_resources_intrigue_modifier: "$ach_coronation_expended_resources_modifier$"
  ach_coronation_expended_resources_intrigue_modifier_desc: "$ach_coronation_expended_resources_modifier_desc$ La sua stessa rete di spie, di conseguenza, è piuttosto sovraccarica."

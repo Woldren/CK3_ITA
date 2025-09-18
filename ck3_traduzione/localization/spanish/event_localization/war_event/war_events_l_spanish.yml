@@ -60,7 +60,7 @@
  war_event.3003.2.b:0 "Forse dovrei solo porre fine alla nostra alleanza...?"
 
  war_event.neighbor_war.both_neighbors.t:0 "Guerra dei Vicini Risolta"
- war_event.neighbor_war.both_neighbors.desc:1 "Il tuo vicino, [winner.Custom('IT_NAM_COL3')][winner.GetTitledFirstName], ha vinto la guerra contro [loser.Custom('IT_NAM_COL3')][loser.GetTitledFirstName], nella [war.GetName]!"
+ war_event.neighbor_war.both_neighbors.desc:1 "Il tuo vicino, [winner.Custom('IT_NAM_COL3')][winner.GetTitledFirstName], ha vinto contro [loser.Custom('IT_NAM_COL3')][loser.GetTitledFirstName], nella [war.GetName]!"
 
  war_event.neighbor_war.only_winner.t:0 "Il Sovrano Confinante ha Vinto la Guerra"
  war_event.neighbor_war.only_winner.desc:3 "Il tuo vicino, [winner.Custom('IT_NAM_COL3')][winner.GetTitledFirstName], ha vinto contro [loser.Custom2('YourCharacterIntroductionNoComma', this_player)], nella [war.GetName]!"

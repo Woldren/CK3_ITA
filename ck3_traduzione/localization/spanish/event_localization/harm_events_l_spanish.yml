@@ -282,7 +282,7 @@
  harm.0611.c.tt.failure:0 "$harm.0000.tt.incapable.failure$"
 
  harm.0612.t:0 "$harm.0611.t.prefix$: Una corsa"
- harm.0612.desc:0 "Questa è l'ultima. Centouno lettere, o almeno così mi è sembrato, da parte dei vari funzionari che tengono in piedi il/la mio/a [ROOT.Char.Custom('GetRealmOrDomicile')|l], per non parlare di un'intera serata persa a rispondere a ciascuno di loro.\n\nOra, credo, farò un piccolo pasto prima di andare a letto.\n\nSpingendo via la sedia, mi alzo di scatto e... e... sono così... intontit[ROOT.Char.Custom('DE_END_PRO_S_N')]. Il sangue mi pulsa nelle vene. \n\nConcentarti.\n\n#EMP nConcentarti#!.\n\nUggh, che cos'è stato?"
+ harm.0612.desc:0 "Questa è l'ultima. Centouno lettere, o almeno così mi è sembrato, da parte dei vari funzionari che tengono in piedi il/la mio/a [ROOT.Char.Custom('GetRealmOrDomicile')|l], per non parlare di un'intera serata persa a rispondere a ciascuno di loro.\n\nOra, credo, farò un piccolo pasto prima di andare a letto.\n\nSpingendo via la sedia, mi alzo di scatto e... e... sono così... intontit[ROOT.Char.Custom('DE_END_PRO_S_N')]. Il sangue mi pulsa nelle vene.\n\nConcentarti.\n\n#EMP nConcentarti#!.\n\nUggh, che cos'è stato?"
  harm.0612.a:0 "Ho ancora le vertigini."
  harm.0612.a.tt:0 "#WEAK Il tuo corpo è davvero così debole?#!"
 

@@ -8,7 +8,7 @@
 
  jason_race_events.1.desc.host_local_anger:0 "\n\n"[ROOT.Char.GetTitledFirstName]!" viene urlato, accompagnato da termini come #EMP [host.Custom('GetCrime')|U]!#! Chi si agita di più sono i locali: in [ROOT.Char.GetCurrentLocation.GetName], io mi trovo fra gente che mi odia.\n\nOsservando la folla, noto che molti hanno in mano pietre, coltelli e armi da guerra."
 
- jason_race_events.1.desc.rowdy_fans:0 "\n\nL'emozione delle corse attira sempre i peggiori ceffi del reame, in gran numero, e li eccita con promesse di baldoria e gioco d'azzardo. \n\nA volte, nei giorni più sfortunati, i soliti piaceri non bastano e solo il sangue può soddisfarli."
+ jason_race_events.1.desc.rowdy_fans:0 "\n\nL'emozione delle corse attira sempre i peggiori ceffi del reame, in gran numero, e li eccita con promesse di baldoria e gioco d'azzardo.\n\nA volte, nei giorni più sfortunati, i soliti piaceri non bastano e solo il sangue può soddisfarli."
 
  jason_race_events.1.desc.end:0 "\n\nSta per scoppiare una rissa."
 

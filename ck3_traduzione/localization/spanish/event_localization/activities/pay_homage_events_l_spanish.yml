@@ -4,7 +4,7 @@
 
  # Activity Start: Liege decides whether or not to hear petition
  pay_homage.0001.opening:0 "[homage_vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
- pay_homage.0001.desc:0 "Sono arrivato a [homage_liege.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] per rendervi omaggio, glorios[homage_liege.Custom('DE_END_PRO_S_N')] [homage_liege.GetTitleAsNameNoTooltip], come dimostrazione della mia lealtà. \n\n"
+ pay_homage.0001.desc:0 "Sono arrivato a [homage_liege.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] per rendervi omaggio, glorios[homage_liege.Custom('DE_END_PRO_S_N')] [homage_liege.GetTitleAsNameNoTooltip], come dimostrazione della mia lealtà.\n\n"
  pay_homage.0001.desc.submission:0 "Spero che il mio giuramento di sottomissione sia una prova sufficiente del mio onore."
  pay_homage.0001.desc.gold:0 "Vi porto ricchi doni degni della vostra maestà, come segno della mia buona volontà e servitù."
  pay_homage.0001.desc.hook:0 "Avete la mia parola che farò tutto ciò che desiderate da me, mi[homage_liege.Custom('DE_END_PRO_S_N')] Signor[homage_liege.Custom('DE_END_ADJ_IND_S_A')]."
@@ -25,7 +25,7 @@
  pay_homage.0101.t.clumsy:0 "$pay_homage_header$ Mortificato"
  pay_homage.0101.t.infatuation:0 "$pay_homage_header$ Oggettivato"
  pay_homage.0101.t.delivery:0 "$pay_homage_header$ Ammutolito"
- pay_homage.0101.desc:0 "Aspetto pazientemente sul mio trono l'arrivo [homage_vassal.Custom('IT_NAM_COL2')][homage_vassal.GetTitledFirstName], che ben presto viene annunciat[homage_vassal.Custom('DE_END_PRO_S_N')] e condott[homage_vassal.Custom('DE_END_PRO_S_N')] al mio cospetto. \n\n"
+ pay_homage.0101.desc:0 "Aspetto pazientemente sul mio trono l'arrivo [homage_vassal.Custom('IT_NAM_COL2')][homage_vassal.GetTitledFirstName], che ben presto viene annunciat[homage_vassal.Custom('DE_END_PRO_S_N')] e condott[homage_vassal.Custom('DE_END_PRO_S_N')] al mio cospetto.\n\n"
  pay_homage.0101.desc.submission:0 "[homage_vassal.GetSheHe|U] si inginocchia in segno di deferenza, non offrendo altro che il suo giuramento di servire fedelmente come vassallo [homage_liege.GetPrimaryTitle.Custom('IT_COU_COL8')][homage_liege.GetPrimaryTitle.GetTierAsNameNoTooltip].\n\n"
  pay_homage.0101.desc.gold:0 "[homage_vassal.GetSheHe|U] si inginocchia in segno di deferenza, mentre gli assistenti portano i suoi doni, monete e oggetti preziosi. Il giuramento viene prestato e gli scrivani registrano le sue promesse di servire [homage_liege.GetPrimaryTitle.Custom('IT_COU_COL4')][homage_liege.GetPrimaryTitle.GetNameNoTooltip].\n\n"
  pay_homage.0101.desc.hook:0 "[homage_vassal.GetSheHe|U] si inginocchia in segno di deferenza, e oltre al suo giuramento di servire [homage_liege.GetPrimaryTitle.Custom('IT_COU_COL4')][homage_liege.GetPrimaryTitle.GetNameNoTooltip], si mette a mia disposizione e in debito con me.\n\n"
@@ -88,8 +88,8 @@
  pay_homage.0601.desc.court:0 "Con la mia incoronazione a [ROOT.Char.GetTitleAsNameNoTooltip], i preparativi per rendere omaggio non sono più necessari..."
  pay_homage.0601.desc.imprisoned_me:0 "$pay_homage.0601_shared_intro$ [homage_liege.Custom('IT_NAM_COL3')][ROOT.Char.GetImprisonedBy.GetTitledFirstName] mi ha buttato in prigione."
  pay_homage.0601.desc.imprisoned:0 "$pay_homage.0601_shared_intro$ sono stato catturato [ROOT.Char.GetImprisonedBy.Custom('IT_NAM_COL5')][ROOT.Char.GetImprisonedBy.GetTitledFirstName]."
- pay_homage.0601.desc.liege_dead_me:0 "$pay_homage.0601_shared_intro$ ho ucciso [homage_liege.Custom('IT_NAM_COL3')][homage_liege.GetTitledFirstName]... \n\n"
- pay_homage.0601.desc.liege_dead:0 "$pay_homage.0601_shared_intro$ [homage_liege.Custom('IT_NAM_COL3')][homage_liege.GetTitledFirstName] [homage_liege.GetDeathReasonHideKiller]... \n\n"
+ pay_homage.0601.desc.liege_dead_me:0 "$pay_homage.0601_shared_intro$ ho ucciso [homage_liege.Custom('IT_NAM_COL3')][homage_liege.GetTitledFirstName]...\n\n"
+ pay_homage.0601.desc.liege_dead:0 "$pay_homage.0601_shared_intro$ [homage_liege.Custom('IT_NAM_COL3')][homage_liege.GetTitledFirstName] [homage_liege.GetDeathReasonHideKiller]...\n\n"
  pay_homage.0601.desc.liege_imprisoned_me:0 "$pay_homage.0601_shared_intro$ ho catturato [homage_liege.Custom('IT_NAM_COL3')][homage_liege.GetTitledFirstName]!"
  pay_homage.0601.desc.liege_imprisoned:0 "$pay_homage.0601_shared_intro$ [homage_liege.GetTitledFirstName] è stato catturato [homage_liege.Custom('IT_NAM_COL5')][homage_liege.GetImprisonedBy.GetTitledFirstName]."
  pay_homage.0601.desc.new_liege:0 "Se devo fare un giuramento, deve essere fatto al mio signore, [ROOT.Char.GetLiege.Custom('IT_NAM_COL3')][ROOT.Char.GetLiege.GetTitledFirstNameRegnal]."

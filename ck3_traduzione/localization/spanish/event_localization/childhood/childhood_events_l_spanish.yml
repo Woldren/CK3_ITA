@@ -107,7 +107,7 @@
  childhood.0999.a:1 "Sono felice di aver fatto la sua conoscenza."
 
  childhood.1000.t:0 "Amicizia Profonda"
- childhood.1000.desc:0 "[friend_to_crush.GetTitledFirstName] è davvero un[friend_to_crush.Custom('DE_END_PRO_S_N')] buon[friend_to_crush.Custom('DE_END_PRO_S_N')] amic[friend_to_crush.Custom('DE_END_PRO_S_N')]! \n\nQuando siamo insieme mi sento bene, e [friend_to_crush.GetSheHe] mi comprende come nessun altro. \n\nAnche se siamo grandi amici, talvolta mi chiedo se io non voglia qualcosa di più dal nostro rapporto..."
+ childhood.1000.desc:0 "[friend_to_crush.GetTitledFirstName] è davvero un[friend_to_crush.Custom('DE_END_PRO_S_N')] buon[friend_to_crush.Custom('DE_END_PRO_S_N')] amic[friend_to_crush.Custom('DE_END_PRO_S_N')]! \n\nQuando siamo insieme mi sento bene, e [friend_to_crush.GetSheHe] mi comprende come nessun altro.\n\nAnche se siamo grandi amici, talvolta mi chiedo se io non voglia qualcosa di più dal nostro rapporto..."
  childhood.1000.a:0 "Credo mi piaccia più che come un[friend_to_crush.Custom('DE_END_PRO_S_N')] semplice amic[friend_to_crush.Custom('DE_END_PRO_S_N')]!"
  childhood.1000.c:1 "[friend_to_crush.GetSheHe|U] è un[friend_to_crush.Custom('DE_PRO_PER_P_3P_G')]amic[friend_to_crush.Custom('DE_END_PRO_S_N')] , nient'altro!"
  childhood.1000.b:0 "Ti ho portato [friend_to_crush.Custom('FavoriteTreatDemand')]... volete tenervi per mano?"
@@ -131,7 +131,7 @@
  childhood.1002.desc1:0 "Ahia! Mentre giocavo in giardino con [friend.GetTitledFirstName], sono caduto e mi sono sbucciato un ginocchio. Mi[guardian_parent.Custom('DE_END_PRO_S_N')] [guardian_parent.Custom('MotherFather')] era dall'altra parte del cortile, intentent[guardian_parent.Custom('DE_END_PRO_S_N')] a godersi il bel tempo e [friend.GetTitledFirstName] mi ha esortato ad andare da [guardian_parent.GetHerHim]."
  childhood.1002.desc2:0 "Ahia! Mentre giocavo con la mia [ROOT.Char.Custom('child_favorite_toy')], sono caduto e mi sono sbucciato un ginocchio. Appena mi sono rialzato, [guardian_parent.Custom('MotherFather')] avvicinandosi mi ha chiesto se fosse tutto apposto."
  childhood.1002.desc2_add:0 "\n\n"Sii coraggios[ROOT.Char.Custom('DE_END_PRO_S_N')], [ROOT.Char.Custom('GetDaughterSon')]." Mi dice. "Andrà tutto bene, sono qui per aiutarti. Ascolta ciò che ho da dirti e imparerai come evitare che accada di nuovo.""
- childhood.1002.desc3:0 "Mentre ero profondamente preso dallo studio di un libro, mi sono accorto che avevo difficoltà ad afferrare le sfumature più sottili degli argomenti. \n\nPresto dovrò consegnare la mia ricerca a mi[guardian_parent.Custom('DE_END_PRO_S_N')] [guardian_parent.Custom('MotherFather')], ma continuando da sol[ROOT.Char.Custom('DE_END_PRO_S_N')], potrei restare inchiodat[ROOT.Char.Custom('DE_END_PRO_S_N')] su questo libro tutta la notte."
+ childhood.1002.desc3:0 "Mentre ero profondamente preso dallo studio di un libro, mi sono accorto che avevo difficoltà ad afferrare le sfumature più sottili degli argomenti.\n\nPresto dovrò consegnare la mia ricerca a mi[guardian_parent.Custom('DE_END_PRO_S_N')] [guardian_parent.Custom('MotherFather')], ma continuando da sol[ROOT.Char.Custom('DE_END_PRO_S_N')], potrei restare inchiodat[ROOT.Char.Custom('DE_END_PRO_S_N')] su questo libro tutta la notte."
  childhood.1002.a:0 "[guardian_parent.Custom('MotherFather')|U], per favore aiutami!"
  childhood.1002.b:0 "Posso cavarmela da sol[ROOT.Char.Custom('DE_END_PRO_S_N')]."
  childhood.1002.b_1:0 "Non va bene"

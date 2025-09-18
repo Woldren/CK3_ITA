@@ -161,7 +161,7 @@
 
 
  lover.1001.t:0 "Voci e Speculazioni"
- lover.1001.desc:0 "Mi[snoopy_lover.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('snoopy_lover') )], [snoopy_lover.GetTitledFirstName] riesce a sentire molte cose durante il suo andare e venire dalla mia [ROOT.Char.Custom('GetCourt')]. \n\nUltimamente [snoopy_lover.GetSheHe] ha sentito alcune storie molto interessanti su ciò che [secret_holder.GetTitledFirstName] ([ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('secret_holder') )]) fa nell'ombra..."
+ lover.1001.desc:0 "Mi[snoopy_lover.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('snoopy_lover') )], [snoopy_lover.GetTitledFirstName] riesce a sentire molte cose durante il suo andare e venire dalla mia [ROOT.Char.Custom('GetCourt')].\n\nUltimamente [snoopy_lover.GetSheHe] ha sentito alcune storie molto interessanti su ciò che [secret_holder.GetTitledFirstName] ([ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('secret_holder') )]) fa nell'ombra..."
  lover.1001.a:0 "Questa cosa è molto utile da sapere, [ROOT.GetCharacter.Custom('LoverPetName')]."
 
  lover.1002.t:0 "Tirare le Corde"

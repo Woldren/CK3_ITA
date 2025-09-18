@@ -31,6 +31,5 @@
  blood_brother_hook: "Fratello di Sangue"
  blood_sister_hook: "Sorella di Sangue"
  
- oath_claimant_hook: "Pretendente Indebitato"
- oath_claimant_heir_hook: "Erede di un Pretendente Indebitato"
- 
+ oath_claimant: "Pretendente Indebitato"
+ oath_claimant_heir: "Erede di un Pretendente Indebitato"

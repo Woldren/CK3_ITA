@@ -35,7 +35,7 @@
  COURT_POSITION_REVOKE:0 "#T Licenzia [Character.Custom('IT_NAM_COL3')][Character.GetShortUINameNoTooltip]#!"
  COURT_POSITION_POWERFUL_AGENT:0 "@alert_icon! #alert_trial [agent|E] Potente nei [hostile_schemes|E] contro di te#!"
  COURT_POSITION_OPINION_BONUS:0 "Bonus [opinion|e]: [CourtPosition.GetOpinionBonus|=+]"
- COURT_POSITION_TOGGLE_AUTOMATION: "#T Attiva/Disattiva Automazione #!\n$COURT_POSITION_AUTOMATION_CURRENT$\n#I Fare clic per attivare le opzioni di automazione#!"
+ COURT_POSITION_TOGGLE_AUTOMATION: "#T Attiva/Disattiva Automazione #!\n$COURT_POSITION_AUTOMATION_CURRENT$\n#I Clicca per attivare le opzioni di automazione#!"
  COURT_POSITION_AUTOMATION_DISABLE_TOOLTIP: "#T Automazione Corrente#!\n$COURT_POSITION_AUTOMATION_CURRENT$\n#I Clicca per disabilitare l'automazione#!"
  COURT_POSITION_AUTOMATION_CURRENT: "Quando è vacante:\n[Select_CString( CourtPositionType.HasAutomationNone( GetPlayer.Self ), '@check_icon!', '@small_dot!')] Nessun automazione\n[Select_CString( CourtPositionType.HasAutomationShowEvent( GetPlayer.Self ), '@check_icon!', '@small_dot!' )] Suggerisci i migliori candidati nell'evento\n#indent_newline:5 [Select_CString( CourtPositionType.HasAutomationAssignBest( GetPlayer.Self ), '@check_icon!', '@small_dot!')] Assegna automaticamente il cadidato con l'[aptitude|e] più alta, se disponibile#!\n#indent_newline:5 [Select_CString( CourtPositionType.HasAutomationAssignBestOrEvent( GetPlayer.Self ), '@check_icon!', '@small_dot!')] Assegna automaticamente il candidato con l'[aptitude|e] più alta, o notificalo con un evento#!"
 

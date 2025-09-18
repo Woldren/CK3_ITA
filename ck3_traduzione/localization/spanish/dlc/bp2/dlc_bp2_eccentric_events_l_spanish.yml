@@ -89,7 +89,7 @@
  bp2_yearly.8022.b: ""Guardie!""
  bp2_yearly.8022.c: ""Sì, dovremmo rifarlo!""
  bp2_yearly.8030.t: "Una Bambola Sola"
- bp2_yearly.8030.desc: "Fiamme e urla mi circondano a [ROOT.Char.GetCurrentLocation.GetName] mentre il mio esercito saccheggia beni preziosi e prigionieri. L'acre puzza di carne bruciata riempie l'aria.\n\nTra i resti, una piccola bambola giace gettata via. I suoi piccoli occhi a bottone e il suo sorriso cucito a mano mi ricordano l'innocenza che mi aspettava a casa. \n\nAnche se ricoperta di fango, i suoi capelli morbidi sono così delicati al tocco. Non posso fare a meno di pensare che sarebbe un dono perfetto per uno dei bambini a corte." 
+ bp2_yearly.8030.desc: "Fiamme e urla mi circondano a [ROOT.Char.GetCurrentLocation.GetName] mentre il mio esercito saccheggia beni preziosi e prigionieri. L'acre puzza di carne bruciata riempie l'aria.\n\nTra i resti, una piccola bambola giace gettata via. I suoi piccoli occhi a bottone e il suo sorriso cucito a mano mi ricordano l'innocenza che mi aspettava a casa.\n\nAnche se ricoperta di fango, i suoi capelli morbidi sono così delicati al tocco. Non posso fare a meno di pensare che sarebbe un dono perfetto per uno dei bambini a corte." 
  bp2_yearly.8030.a: "A [child_1.GetFirstNameNoTooltip] piacerebbe molto!"
  bp2_yearly.8030.b: "Questa bambola mi ricorda molto [child_2.GetFirstNameNoTooltip]."
  bp2_yearly.8020.a.win: "Hai vinto!"

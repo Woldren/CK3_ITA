@@ -50,7 +50,7 @@
 
  # A Battle of Ideas
  diplomacy_majesty.4030.t:0 "Una Battaglia di Idee"
- diplomacy_majesty.4030.desc:0 "Trascorrendo più tempo a praticare l'arte dello stato e la diplomazia mi ritrovo a pensare alle somiglianze tra la vita nella [ROOT.Char.Custom('GetCourt')] e la guerra. Leggere il tuo avversario... mossa e contromossa... \n\nTenere questi pensieri per me potrebbe darmi un'arma segreta per assicurarmi che le cose vadano a modo mio. In alternativa, potrei condividere questa idea con [event_target.GetTitledFirstName] per guadagnare la sua benevolenza..."
+ diplomacy_majesty.4030.desc:0 "Trascorrendo più tempo a praticare l'arte dello stato e la diplomazia mi ritrovo a pensare alle somiglianze tra la vita nella [ROOT.Char.Custom('GetCourt')] e la guerra. Leggere il tuo avversario... mossa e contromossa...\n\nTenere questi pensieri per me potrebbe darmi un'arma segreta per assicurarmi che le cose vadano a modo mio. In alternativa, potrei condividere questa idea con [event_target.GetTitledFirstName] per guadagnare la sua benevolenza..."
  diplomacy_majesty.4030.a:0 "Devo approfondire questa teoria!"
  diplomacy_majesty.4030.a.success:0 "Le mie nuove tattiche funzionano eccezionalmente bene"
  diplomacy_majesty.4030.a.failure:0 "Fallisco nello sviluppare tattiche utili"

@@ -6,7 +6,7 @@
  british_isles.0001.custom:0 "Tutte le [counties|E] di Britannia"
  british_isles.0001.a:0 "Siano lodati gli antenati!"
 
- british_isles.0002.desc:0 "Il [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('reclaimer'))] [reclaimer.GetName] ha annunciato ufficialmente la rinascita di una Britannia Celtica. \n\nDopo secoli di dominazione straniera, le Isole sono tornate sotto il controllo dei loro proprietari originali."
+ british_isles.0002.desc:0 "Il [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('reclaimer'))] [reclaimer.GetName] ha annunciato ufficialmente la rinascita di una Britannia Celtica.\n\nDopo secoli di dominazione straniera, le Isole sono tornate sotto il controllo dei loro proprietari originali."
  british_isles.0002.a:0 "Una piaga [reclaimer.GetCulture.GetNameNoTooltip] sulle nostre terre..."
  british_isles.0002.b:0 "La Britannia è di nuovo nostra!"
 
@@ -33,7 +33,7 @@
 
 # Request Laudabiliter, by Flavio Verna
  british_isles.3001.t:0 "Con la presente dichiariamo,"
- british_isles.3001.desc:0 "Che il vostro desiderio di estendere il sacro dominio della Chiesa universale alle tribù barbare d'Irlanda è una causa pia e giusta. In quanto tale, la Santa Romana Chiesa comanda che voi prendiate possesso di quest'isola e in essa facciate la Volontà di Dio. \n\nQualora doveste perire per qualche disgrazia prima della fine di questa campagna, estendiamo tale sacro mandato ai vostri legittimi successori. Possa la Casata [scoped_ruler.GetHouse.GetNameNoTooltip] portare avanti questa sacra causa per sempre fino a quando la volontà divina non sarà stata compiuta e l'Irlanda non sarà stata riunita sotto il dominio della cultura [scoped_ruler.GetCulture.GetNameNoTooltip]."
+ british_isles.3001.desc:0 "Che il vostro desiderio di estendere il sacro dominio della Chiesa universale alle tribù barbare d'Irlanda è una causa pia e giusta. In quanto tale, la Santa Romana Chiesa comanda che voi prendiate possesso di quest'isola e in essa facciate la Volontà di Dio.\n\nQualora doveste perire per qualche disgrazia prima della fine di questa campagna, estendiamo tale sacro mandato ai vostri legittimi successori. Possa la Casata [scoped_ruler.GetHouse.GetNameNoTooltip] portare avanti questa sacra causa per sempre fino a quando la volontà divina non sarà stata compiuta e l'Irlanda non sarà stata riunita sotto il dominio della cultura [scoped_ruler.GetCulture.GetNameNoTooltip]."
  british_isles.3001.a:0 "Preparate la nostra flotta!"
  british_isles.3002.t:0 "La rivendicazione sull'Irlanda"
  british_isles.3002.desc.irish:0 "Per grazia di sua Santità [scoped_pope.GetFirstName], Vicario di Cristo ed erede al trono di San Pietro, a [scoped_ruler.GetFullName] è stato concesso il diritto di dominio divino sull'Eire e su tutte le tribù al suo interno.\n\nQualsiasi signore irlandese disobbedirà all'atto papale e rifiuterà di sottomettersi dovrà affrontare l'ira del[scoped_ruler.Custom('DE_END_ADJ_NUL_S_N')] [scoped_ruler.GetTitledFirstName], dei suoi eserciti (di cultura) [scoped_ruler.GetCulture.GetName] e di Dio Onnipotente."

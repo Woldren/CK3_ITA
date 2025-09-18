@@ -108,7 +108,7 @@
  artifact.4001.t:0 "Voci Maledette: Sacro Intervento"
  artifact.4001.desc.antiquarian_intro:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]," il mio [ROOT.Char.Custom('GetAntiquarianOrArmorer')] [antiquarian.GetFirstName] richiama la mia attenzione,"
  artifact.4001.desc.servant_intro:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]," un servitore frettoloso si avvicina a me, accompagnato da un personaggio dall'aspetto solenne,"
- artifact.4001.desc:0 ""come da voi richiesto, è stat[holy_man.Custom('DE_END_PRO_S_N')] trovat[holy_man.Custom('DE_END_PRO_S_N')] un[holy_man.Custom('DE_PRO_POS_P_2P')] sant[holy_man.Custom('DE_END_PRO_S_N')] che benedica il/la vostro/a [this_artifact.GetName]. \n\n"Permettetemi di presentarvi [holy_man.GetFirstName]. Sono sicuro che il suo intervento annullerà la maledizione e metterà a proprio agio le menti dei tuoi cortigiani.""
+ artifact.4001.desc:0 ""come da voi richiesto, è stat[holy_man.Custom('DE_END_PRO_S_N')] trovat[holy_man.Custom('DE_END_PRO_S_N')] un[holy_man.Custom('DE_PRO_POS_P_2P')] sant[holy_man.Custom('DE_END_PRO_S_N')] che benedica il/la vostro/a [this_artifact.GetName].\n\n"Permettetemi di presentarvi [holy_man.GetFirstName]. Sono sicuro che il suo intervento annullerà la maledizione e metterà a proprio agio le menti dei tuoi cortigiani.""
  artifact.4001.a:0 "Fai del tuo meglio, [holy_man.GetFirstNameNoTooltip]..."
  artifact.4001.a.success:0 "Maledizione Annullata"
  artifact.4001.a.failure:0 "La Maledizione Rimane"
