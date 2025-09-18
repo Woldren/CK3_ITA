@@ -38,7 +38,6 @@
  ach_coronation.0001.a.good: "Oggi comincia un nuovo capitolo."
  ach_coronation.0001.tt.hof_visit.title: "Visita santa"
  ach_coronation.0001.tt.hof_visit: "[hof.GetCurrentLocation.GetBaronyNameExplicitly] ottiene [GetModifier('ach_hof_visit_modifier').GetNameWithTooltip] per l’arrivo [hof.Custom('IT_NAM_COL2')][hof.GetTitledFirstName|l]"
- 
  ach_coronation.0010.t: "Arriva [hof.Custom('IT_NAM_COL3')][hof.GetTitledFirstNameNoTooltip|l]"
  ach_coronation.0010.desc.desc_opening: "Rintoccano le campane di ogni \[coronation\_site.GetCounty.GetFaith.HouseOfWorship], e da ogni strada e finestra di \[coronation\_site.GetHolding.GetName] si leva l’acclamazione del popolo, mentre all’orizzonte compaiono gli stendardi \[hof.Custom('IT\_NAM\_COL2')]\[hof.GetTitledFirstName|l]."
  # Greeting
@@ -87,7 +86,6 @@
  ach_coronation_0010_hof_desc_guest.tt: "La benedizione [hof.Custom('IT_NAM_COL2')][hof.GetTitledFirstName|l] accrescerà la [legitimacy|E] [host.Custom('IT_NAM_COL2')][host.GetTitledFirstName|l] e il [fervor|E] della [faith|E] [hof.GetFaith.GetAdjective], ma è probabile che [hof.GetSheHe] esiga qualcosa."
  activity_hof_arrival_log: "[TARGET_CHARACTER.GetUIName|U] e il seguito [TARGET_CHARACTER.GetPrimaryTitle.GetAdjective] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete arrivati', 'sono arrivati' )] all’incoronazione [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetTitledFirstName|l], suscitando grande giubilo tra il popolo."
  activity_hof_arrival_log_title: "$ep2_wedding.1170.t$"
- 
  ach_coronation.0011.t: "Ombre davanti al trono"
  ach_coronation.0011.desc: "Tra le ombre del palazzo in [ROOT.Char.GetCurrentLocation.Custom('GetCoronationSite')], strisciano le serpi. Tra i servitori e i cortigiani che preparano [ROOT.Char.GetCurrentLocation.Custom('GetCoronationSiteShort')], [plotter.Custom('IT_NAM_COL3')][plotter.GetTitledFirstName|l] confabula con un gruppetto di invitati appena giunti.\n\nTacciono all’istante quando mi avvicino, prima che [plotter.GetFirstNameNoTooltip] si inchini profondamente.\n\n«Mio [plotter.Custom2('RelationToMeShort', SCOPE.sC('host') )]», inizia, «chiedo scusa; stavamo solo parlando di… questioni di natura personale»."
  ach_coronation.0011.a: "La verità, la tirerò fuori…"
@@ -101,13 +99,12 @@
  ach_coronation.0011.c.paranoid: "¡#EMP LO SO#!! Arrestateli, traditori!"
  ach_coronation.0011.c.wrathful: "Come osate?! Credete che sia un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] idiota?! Guardie!"
  ach_coronation.0011.d: "Non lo perderò di vista…"
- ach_coronation.0011.scheme.plotter.toast: "Si scopre il coinvolgimento [plotter.Custom('IT_NAM_COL2')][plotter.GetTitledFirstName|l] in un [scheme|E] di [hostile_scheme.GetSchemeType.GetTypeNameNoTooltip] contro [hostile_scheme.GetTargetCharacter.GetFirstName]!"
- ach_coronation.0011.scheme.coward.toast: "Si scopre il coinvolgimento [coward.Custom('IT_NAM_COL2')][coward.GetTitledFirstName|l] in un [scheme|E] di [coward_scheme.GetSchemeType.GetTypeNameNoTooltip] contro [coward_scheme.GetTargetCharacter.GetFirstName]!"
+ ach_coronation.0011.scheme.plotter.toast: "Si scopre il coinvolgimento [plotter.Custom('IT_NAM_COL2')][plotter.GetTitledFirstName|l] in una [scheme|E] di [hostile_scheme.GetSchemeType.GetTypeNameNoTooltip] contro [hostile_scheme.GetTargetCharacter.GetFirstName]!"
+ ach_coronation.0011.scheme.coward.toast: "Si scopre il coinvolgimento [coward.Custom('IT_NAM_COL2')][coward.GetTitledFirstName|l] in una [scheme|E] di [coward_scheme.GetSchemeType.GetTypeNameNoTooltip] contro [coward_scheme.GetTargetCharacter.GetFirstName]!"
  ach_coronation.0011.secret.coward.toast: "Scopri il [secret|E] [coward.Custom('IT_NAM_COL2')][coward.GetTitledFirstName|l]"
  ach_coronation.0011.coward.success: "[coward.GetFirstNameNoTooltip] crolla in pochi secondi"
  ach_coronation.0011.hook.toast: "[coward.Custom('IT_NAM_COL3')|U][coward.GetTitledFirstName|l] inizia a piangere e balbettare, e ti assicura che farà qualunque cosa per dimostrarti la sua lealtà"
  ach_coronation.0011.false.toast: "Stava preparando un gradito omaggio"
- 
  ach_coronation.0012.t: "Questioni di rito e diritto"
  ach_coronation.0012.desc: "Mentre si prepara l’incoronazione, un servitore dall’aria preoccupata annuncia [first.Custom('IT_NAM_COL3')][first.GetTitledFirstName|l] e [second.Custom('IT_NAM_COL3')][second.GetTitledFirstName|l] pochi istanti prima che irrompano nella stanza. Per qualche errore, pare che a [Select_CString(And(first.IsFemale, second.IsFemale), 'entrambe', 'entrambi')] sia stato promesso il prestigioso ruolo di sostenere il/la mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('GetRandomCoronationObject')] durante la cerimonia.\n\nLa rivalità tra [Select_CString(And(first.IsFemale, second.IsFemale), 'entrambe', 'entrambi')] è ben nota, e [Select_CString(And(first.IsFemale, second.IsFemale), 'colei', 'colui')] che cedesse il ruolo [Select_CString(And(first.IsFemale, second.IsFemale), 'all’altra', 'all’altro')] si considererebbe [Select_CString(And(first.IsFemale, second.IsFemale), 'umiliata', 'umiliato')] per la propria casata… per quanto insignificante sia il ruolo in sé."
  ach_coronation.0012.a: "[first.Custom('IT_NAM_COL3')|U][first.GetTitledFirstNameNoTooltip|l] avrà l’onore."
@@ -129,7 +126,6 @@
  buddy_leaves_detractors_tt.guest: "[Select_CString(host.IsLocalPlayer,'',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'Smetti di essere', 'smette di essere' )] [coronation_detractor|E] della [Select_CString( host.IsLocalPlayer, 'sua', 'tua' )] [coronation|lE]"
  hater_becomes_detractor_tt: "Diventa [coronation_detractor|E] della tua [coronation|lE]"
  hater_becomes_detractor_tt.guest: "[Select_CString(host.IsLocalPlayer,'',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'Diventi', 'diventa' )] [coronation_detractor|E] della [Select_CString( host.IsLocalPlayer, 'sua', 'tua' )] [coronation|lE]"
-
  ach_coronation.0013.t: "[ROOT.Char.GetTitleAsNameNoTooltip] e la plebe"
  ach_coronation.0013.intro: "Trascorro la giornata sbrigando faccende nella relativa quiete di [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitly]. È lì che,"
  ach_coronation.0013.desc_opening.rainy_day: "cercando riparo dalla pioggia"
@@ -169,7 +165,6 @@
  two_detractors_get_negative_rumors_tt: "Due [coronation_detractors|E] otterranno il [modifier|E] #N [GetModifier('ach_negative_rumors_modifier').GetNameWithTooltip]#!"
  because_you_have_overseer_tt: "#P La tua esperienza come [GetTrait('overseer').GetName( GetNullCharacter )|l] ti aiuterà a evitare le conseguenze negative della tua [coronation_magnificence|lE]#!"
  violated_city_rights_opinion: "Diritti cittadini violati"
- 
  ach_coronation.0014.t: "Sul precipizio del caos"
  ach_coronation.0014.desc: "In fondo alla folla, vedo la delegazione [first.Custom('IT_NAM_COL2')][first.GetTitleAsName] di [first.GetPrimaryTitle.GetNameNoTier] giungere per l’incoronazione [host.Custom('IT_NAM_COL2')][host.GetTitledFirstName|l]."
  ach_coronation.0014.desc.weather.rain: "Oggi è molto piovuto e"
@@ -200,7 +195,6 @@
  ach_coronation.0014.c: "Sarò io [Select_CString(ROOT.Char.IsFemale,'la prima','il primo')] a porgere i miei omaggi."
  if_host_calms_crowd_desc: "Se [TARGET_CHARACTER.GetShortUIName] ristabilisce l’ordine:"
  if_crush_happens_desc: "#X Altrimenti:#!"
- 
  ach_coronation.0015.t: "La grande calca del [GetCurrentDate.GetYear]"
  ach_coronation.0015.desc: "Che disastro! La folla che osservava il seguito appena giunto [first.Custom('IT_NAM_COL2')][first.GetTitledFirstName|l], per motivi a me ignoti, è sprofondata nel caos. Sono arrivat[ROOT.Char.Custom('DE_END_PRO_S_N')] appena in tempo per vedere una turba di locali correre di qua e di là e le guardie [first.Custom('IT_NAM_COL2')][first.GetTitleAsNameNoTooltip|l] colpire i plebei caduti o venire trascinate e calpestate insieme a loro.\n\nLe guardie a stento sono riuscite a contenere la folla e la violenza non ha fatto altro che aumentare il panico. Presto ci sarà una calca infernale!"
  ach_coronation.0015.has_happened: "È il risultato delle azioni di un [coronation_detractor|E] traditore!"
@@ -238,7 +232,6 @@
  many_guests_may_be_wounded_or_killed: "@death_icon! #N Molti invitati potrebbero rimanere feriti o morire#!"
  every_guest_in_crowd_scope_tt: "Ogni invitato nella folla"
  every_wounded_guest_in_crowd_scope_tt: "Ogni invitato ferito nella folla"
- 
  ach_coronation.0016.t: "Un dono degno di un[host.Custom('DE_PRO_POS_P_2P')] [host.GetTitleAsNameNoTooltip|l]"
  ach_coronation.0016.desc: "Gli invitati all’incoronazione ([host.Custom('DE_PRO_PER_P_3P_A')]) mi[host.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('host') )], [host.Custom('IT_NAM_COL3')][host.GetTitledFirstNameRegnal|l], fanno il loro ingresso, tutti porgendo giuramenti minori, ringraziando per l’invito e promettendo lealtà o appoggio. Presto toccherà a me.\n\nDevo distinguermi dalla folla e sfruttare la breve udienza per convincere [host.Custom('IT_NAM_COL3')][host.GetTitleAsNameNoTooltip] del mio valore?"
  ach_coronation.0016.a.martial: "Donerò un contingente di soldati!"
@@ -258,7 +251,6 @@
  ach_coronation.0016.d: "Le cortesie di rito saranno sufficienti."
  ach_coronation.0016.d.hate: "Darò spettacolo ignorando quella specie di [host.Custom('InsultNoun')]!"
  ach_coronation.0016.reward.tt: "Il tuo signore sceglierà la sua ricompensa in base al tuo [intent|E] di [THIS.Char.GetInvolvedActivityIntent.GetName]."
- 
  ach_coronation.0017.t: "Un diritto divino non meritato"
  ach_coronation.0017.desc: "Mentre pregavo al mattino nel palazzo in [ROOT.Char.GetCurrentLocation.Custom('GetCoronationSite')], [guest.Custom2('MyCharacterIntroduction', ROOT.Char)] mi dà di gomito per indicarmi dove [host.Custom2('MyCharacterIntroduction', ROOT.Char)] si inginocchierà per la cerimonia.\n\n«Non vi infastidisce che [host.GetSheHe] non abbia mai combattuto per la fede "
  ach_coronation.0017.ending.crusader: "come abbiamo fatto voi ed io, eppure proclami la sua virtù?»."
@@ -271,7 +263,6 @@
  ach_coronation.0017.d.cynical: "Cosa? A chi importano queste cose?"
  crusader_endorsement_opinion: "Appoggio di guerriero sacro"
  crusader_sellout_opinion: "Servizi religiosi svalutati"
- 
  ach_coronation.0018.t: "Doveri dinastici"
  ach_coronation.0018.desc: "I preparativi per l’incoronazione [host.Custom('IT_NAM_COL2')][host.GetTitledFirstName|l] sono piombati nel caos!"
  ach_coronation.0018.desc.seneschal: "Svolgendo il ruolo di [GetCourtPositionType('seneschal_court_position').GetName|l], dirigere i servitori #EMP dovrebbe#! essere compito di [servant_boss.Custom2('MyCharacterIntroduction', ROOT.Char)]."
@@ -299,7 +290,6 @@
  ach_coronation.0018.a.vassal: "[host.Custom('IT_NAM_COL3')|U][host.GetTitledFirstNameNoTooltip|l] ti offre un [title|lE]!"
  ach_coronation.0018.a.tt.vassal: "Ti verrà offerto un titolo a scelta [host.Custom('IT_NAM_COL2')][host.GetTitledFirstName|l]"
  ach_can_refuse_reward: "Ti sarà permesso rifiutare la seguente ricompensa di [host.MakeScope.ScriptValue('minor_gold_value')|0V] [gold|E] [gold_i] o relazioni migliorate con [host.GetShortUIName]:"
- 
  ach_coronation.0019.opening: "[host.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
  ach_coronation.0019.desc: "Il tuo aiuto qui nell’edificio di [host.GetCurrentLocation.Custom('GetCoronationSite')] non è passato inosservato."
  ach_coronation.0019.desc.title: "Ho bisogno di vassalli di cui fidarmi e credo che [grantable_title.GetName] necessiti di un nuovo governante. Che ne dite?"
@@ -309,14 +299,12 @@
  ach_coronation.0019.b: "Speravo in qualcosa di più… monetario."
  ach_coronation.0019.c: "L’amicizia [host.Custom('DE_PRO_PER_P_3P_A')] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('host'))] è sufficiente!"
  your_title_cannot_be_revoked_10_tt: "Il tuo titolo non potrà essere revocato per 10 anni."
- 
  ach_coronation.0020.t: "([helpful_family.Custom('DE_ART_DEF_P_D')]) mi[helpful_familyo.Custom('DE_END_PRO_S_N')] [host.Custom2('RelationToMeShort', SCOPE.sC('helpful_family'))] incoronat[helpful_family.Custom('DE_END_PRO_S_N')]"
  ach_coronation.0020.desc: "Mentre ero sommers[host.Custom('DE_END_PRO_S_N')] nei preparativi della mia incoronazione, [helpful_family.Custom2('MyCharacterIntroduction', ROOT.Char)] si è occupat[helpful_family.Custom('DE_END_PRO_S_N')] di tutto! Da giorni nessun servitore mi tormenta con sciocchezze e finalmente riesco a concentrarmi sulla cerimonia imminente."
  ach_coronation.0020.a: "Sì, [helpful_family.GetFirstNameNoTooltip] potrebbe essere un[helpful_family.Custom('DE_PRO_POS_P_2P')] vassall[helpful_family.Custom('DE_END_PRO_S_N')] di cui potrei fidarmi!"
  ach_coronation.0020.b: "È #EMP così#! che funziona la dinastia [host.GetDynastyNameNoTooltip]!"
  ach_coronation.0020.c: "[helpful_family.GetFirstNameNoTooltip] è davvero un[helpful_family.Custom('DE_PRO_POS_P_2P')] grande [host.Custom2('RelationToMeShort', SCOPE.sC('helpful_family'))]."
  ach_coronation.0020.d: "[helpful_family.GetSheHe|U] è un esempio per tutti i miei sudditi."
- 
  ach_coronation.0022.t: "Una corona con tosse"
  ach_coronation.0022.desc: "Da un po’ di tempo, non si parla d’altro che della temibile epidemia di [epidemic_scope.GetName|l], e nessuno ne parla più dei [zealot.GetFaith.AltPriestTermPlural] di [host.GetPrimaryTitle.GetTierAsName]. «Perché [zealot.GetFaith.GoodGodNames] punisce così [host.GetPrimaryTitle.GetTierAsNameNoTooltip]?», si chiedono alcuni."
  ach_coronation.0022.desc.whisper.byzantine: "«Come può [host.Custom('IT_NAM_COL3')][host.GetTitledFirstNameNoTooltip|l] affermare di essere [Glossary( 'pistos en Christôi Basileus', 'PISTOS_EN_CHRISTOI_BASILEUS_GLOSS' )] quando [host.GetFaith.HighGodName] [host.Custom('DE_PRO_POS_P_3P')] punisce così?»,"
@@ -341,7 +329,6 @@
  ach_coronation.0022.c.success: "La fazione [GetVassalStance( 'zealot' ).GetName|l] [GetVassalStance( 'zealot' ).GetTextIcon] si schiera contro [host.Custom('IT_NAM_COL3')][host.GetTitledFirstNameNoTooltip|l]"
  ach_coronation.0022.d: "Prendere le distanze pare… prudente"
  ach_coronation.0022.d.flavor: "In tempi di malattia, conviene tenere lontani i nemici e ancor più lontani gli amici"
- 
  ach_coronation.0023.t: "[foreign_warrior.Custom('IT_NAM_COL3')|U][foreign_warrior.Custom('KnightCultureNoTooltip')] di [ROOT.Char.GetTitleAsNameNoTooltip]"
  ach_coronation.0023.desc: "Sto salutando una serie di nuovi arrivati quando [Select_CString(foreign_warrior.IsFemale,'una forestiera','un forestiero')], con al fianco una spada esotica, compare dinanzi a me. Si inginocchia immediatamente e offre la lama con una floritura.\n\n«Oh, grande [ROOT.Char.GetTitleAsNameNoTooltip|l]! Ho passato molto tempo sulla via, lontano da [foreign_ruler.GetCapitalLocation.GetName], e ho sentito che cercate servitori leali. Potente sovran[ROOT.Char.Custom('DE_END_PRO_S_N')], lasciatemi trovare gloria mentre servo [foreign_warrior.GetFaith.HighGodName]!»."
  ach_coronation.0023.desc.clergy.angry: "\n\n[clergy.Custom2('MyCharacterIntroduction', ROOT.Char)|U] mi guarda con disprezzo alla menzione del dio [ROOT.Char.Custom2('GetUnbelieverTermAdjective', foreign_warrior)]."
@@ -351,7 +338,6 @@
  ach_coronation.0023.c: "Benvenut[foreign_warrior.Custom('DE_END_PRO_S_N')] alla mia corte!"
  ach_coronation.0023.d: "Cacciate subito questa specie di [ROOT.Char.Custom2('GetUnbelieverTermAdjective', foreign_warrior)] [foreign_warrior.Custom('InsultAdjective')]!"
  cultural_acceptance_gain_accepted_foreign_warrior: "Guerriero straniero accettato"
- 
  ach_coronation.0025.t: "Bere e gozzovigliare"
  ach_coronation.0025.desc: "Esco dalla sala del banchetto: respiro finalmente aria fresca e lascio correre lo sguardo su [feast_location.GetBaronyNameExplicitly]. Dalla siepe lì accanto arrivano sospiri soffocati di amanti nascosti, mentre un [ROOT.Char.Custom('KnightCultureNoTooltip')|l] del posto vomita fin troppo vicino a loro. Sopra ogni cosa, nell’aria aleggia il brusio dei festeggiamenti di [feast_location.GetTitle.Custom('BaronyTownType')].\n\nEd ecco che mi balena un’idea!"
  ach_coronation.0025.desc.host: "Con un paio di notti di bevute offerte, tutta [feast_location.GetBaronyNameExplicitlyNoTooltip] alzerebbe i calici in mio onore. Devo solo trovare un mercante abbastanza audace da vendere a quest’ora…"
@@ -365,7 +351,6 @@
  ach_coronation.0025.c: "Meglio di no… più per me!"
  ach_coronation.0025.c.temperate: "Non c’è bisogno di bere per divertirsi!"
  ach_coronation.0025.c.flavor: "Ci si può divertire di più all’interno"
- 
  ach_coronation.0026.t: "Cattivi presagi"
  ach_coronation.0026.desc: "Il banchetto langue. Ogni rullo di tamburo mi scivola gelido lungo la schiena, e il solo pensiero di altra [ROOT.Char.Custom('GetExpensiveDrink')] mi rivolta lo stomaco. Sono cert[ROOT.Char.Custom('DE_END_PRO_S_N')] che gli altri signori vi leggerebbero cattivi presagi, se mi sentissi male proprio ora!\n\nQuasi per chiamata del destino, [vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] si avvicina con un piatto colmo e una coppa di qualcosa di ripugnante."
  ach_coronation.0026.a: "Devo essere forte!"
@@ -378,7 +363,6 @@
  ach_coronation.0026.b.tt: "[vassal.Custom('IT_NAM_COL3')|U][vassal.GetTitledFirstName|l] passerà il resto del banchetto ad aiutarti a celare il tuo malessere"
  ach_coronation.0026.c: "Basta! Devo andarmene a riposare."
  ach_coronation.0026.c.flavor: "Lasciare il tuo stesso banchetto farà una pessima impressione"
- 
  ach_coronation.0027.t: "Una leccornia deliziosa"
  ach_coronation.0027.desc: "«[ROOT.Char.Custom2('RelationToMeAddress', partaker)|U]!» comincia [partaker.Custom2('MyCharacterIntroduction', ROOT.Char)] — un odore peculiare [partaker.Custom('DE_PRO_POS_P_3P')] segue fino al mio tavolo —. «Dovete conoscere quest[stoner.Custom('DE_PRO_PER_S_3P_N')] [stoner.GetWomanMan] così interessante; a quanto pare ha portato"
  ach_coronation.0027.desc.char.crusader: "deliziosi e squisiti dolci saraceni dalle sue avventure in crociata!»."
@@ -391,7 +375,6 @@
  ach_coronation.0027.d: "«Divertitevi senza di me, [partaker.GetFirstNameNoTooltip]»."
  ach_coronation.0027.d.host: "[Select_CString(ROOT_Char.IsFemale,'Una buona anfitriona','Un buon anfitrione')] lascia abbondanza per i suoi invitati!"
  purchased_hashish_opinion: "Ha comprato hashish"
- 
  ach_coronation.0028.t: "Sbronze legittime"
  ach_coronation.0028.desc: "«[ROOT.Char.GetFirstName]!», urla [drinker.Custom2('MyCharacterIntroduction', ROOT.Char)] dall’altro lato della sala, abbastanza forte da sovrastare il frastuono dei festeggiamenti dell’incoronazione. «Credete che una nuova corona vi renda forte? Allora bevete, per [drinker.GetFaith.HighGodName]! Dimostrate di essere un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip] degn[ROOT.Char.Custom('DE_END_PRO_S_N')]!».\n\nMolti sguardi carichi d’aspettativa si posano su di me, nell'attesa spasmodica di una mia risposta."
  ach_coronation.0028.a: "[drinker.Custom('IT_NAM_COL3')|U][drinker.GetTitledFirstNameNoTooltip|l] ha trovato pane per i suoi denti!"
@@ -401,7 +384,6 @@
  ach_coronation.0028.b.lose: "Si scopre il tuo sotterfugio!"
  ach_coronation.0028.b: "Se potessi far scivolare qualcosa nel suo calice…"
  ach_coronation.0028.c: "No, grazie."
-
  ach_coronation.0029.t: "La caccia [ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetTitleAsNameNoTooltip]"
  ach_coronation.0029.desc: "L’arrosto di [ROOT.Char.Custom('GetFoodBird')] con [ROOT.Char.Custom('FunFoodPrefix')] è delizioso, ma le storie che raccontiamo lo sono ancor di più! ([first.Custom('DE_ART_DEF_P_D')]) [first.Custom2('MyCharacterIntroduction', ROOT.Char)|U], ([second.Custom('DE_ART_DEF_P_A')]) mi[second.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('second') )] [second.GetFirstName] ed io passiamo ore a scambiarci i resoconti delle nostre migliori cacce.\n\n«Basta!» grida [first.Custom('IT_NAM_COL3')][first.GetTitledFirstNameNoTooltip|l]. «Ora siete incoronat[ROOT.Char.Custom('DE_END_PRO_S_N')], dunque potete bandire una caccia dopo il banchetto. La renderemo speciale per [Select_CString(ROOT_Char.IsFemale,'la nostra nuova','il nostro nuovo')] [ROOT.Char.GetTitleAsNameNoTooltip]!».\n\n«Sia!» [second.GetFirstNameNoTooltip] annuisce con entusiasmo. «Una caccia per un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip]… La caccia [ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetTitleAsNameNoTooltip]!»."
  ach_coronation.0029.a: "Sì! La caccia [ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetTitleAsNameNoTooltip]!"
@@ -419,17 +401,14 @@
  ach_coronation.0029.c.virtuous.tt: "Questa opzione è disponibile perché la tua [faith|E] [THIS.Char.GetFaith.GetAdjective|l] considera [virtuous|E] il [trait|E] [GetTrait('temperate').GetName( GetNullCharacter )]"
  hunt_kings_hunt_header: "La caccia [ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetTitleAsNameNoTooltip]"
  hunt_default_header: "Caccia"
- 
  every_non_disloyal_vassal_attendee_tt: "[vassals|E] che non hanno il tratto [GetTrait('disloyal').GetName( GetNullCharacter )|l] [host.Custom('IT_NAM_COL2')][host.GetTitledFirstName|l] presenti all’incoronazione"
  every_detractor_tt: "Ogni [coronation_detractor|E] alla [coronation|lE]"
  every_non_detractor_tt: "Ogni [guest|E] alla [coronation|E] che non sia [coronation_detractor|lE]"
  every_zealot_vassal_guest_tt: "Ogni [vassal|El] [GetVassalStance( 'zealot' ).GetName|l] [GetVassalStance( 'zealot' ).GetTextIcon] in questa [activity|lE]"
  every_faith_warrior_guest_tt: "Ogni [GetTrait('faith_warrior').GetName( GetNullCharacter )|l] o [GetTrait('crusader_king').GetName( GetNullCharacter )|l] in questa [activity|lE]"
- 
  available_because_host_intent_tt: "Opzione disponibile grazie all’[intent|E] di tipo [host.GetInvolvedActivityIntent.GetName] [host.Custom('IT_NAM_COL2')] [host.GetTitledFirstName|l]"
  available_because_skill_learning_tt: "Opzione disponibile grazie alla tua grande [skill|E] in [learning|lE]"
  available_because_piety_vs_host_tt: "Opzione disponibile perché la tua [piety_level|E] è superiore a quella [host.Custom('IT_NAM_COL2')][host.GetTitledFirstName|l]"
  available_because_of_shared_religion_tt: "Opzione disponibile perché appartenete al credo [THIS.Char.GetFaith.GetReligion.GetAdherentName]"
- 
  because_you_have_diligent_tt: "#P Poiché sei [GetTrait('diligent').GetName( GetNullCharacter )|l], non diventerai [GetModifier('ach_negative_rumors_modifier').GetNameWithTooltip|l]#!"
 

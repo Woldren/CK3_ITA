@@ -429,9 +429,9 @@
  repent_oath_tooltip: "Faccio un [oath|E] di #V pentimento#!:\n\t$EFFECT_LIST_BULLET$Bisogna completare almeno #V 4#! [pilgrimages|E] e possedere [GetModifier( 'piety_level_3' ).GetNameWithTooltip|L]\n\t$EFFECT_LIST_BULLET$Deve essere compiuto entro #V 10 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i], [GetModifier('oath_of_repent').GetNameWithTooltip] ed elimina ogni [trait|E] [sinful|lE], sostituendolo con [Concept('traits', 'altri')|E] [Concept('virtuous', 'virtuosi')|E]."
  
  coronation_events.0200.t: "Il preludio"
- coronation_events.0200.desc.host: "Gli invitati sono arrivati. Da ogni luogo, per lealtà o per curiosità. La folla cresce, con volti carichi di aspettativa, calcoli e, in alcuni casi, un briciolo di calore.\n\nAlzo la voce quel tanto che basta per rivolgermi agli astanti e dar loro il benvenuto alla mia incoronazione."
- coronation_events.0200.desc.guest: "La riunione è grande quanto mi aspettavo. Volti familiari e forestieri si confondono e odo saluti tanto cordiali da risultare educati. Quando l’ospite parla, la sala cala nel silenzio per istinto.\n\n«Amici miei, vassalli miei, famiglia mia; la vostra presenza mi onora più di qualunque corona. Mangiate, bevete, conversate liberamente fino all’inizio della cerimonia… e sappiate che vi vedo tutti, e non dimenticherò chi oggi era qui al mio fianco».\n\nUna promessa gentile o un monito velato, dipende da come la si voglia intendere."
- coronation_events.0200.a: "Benvenuti, tutti e ciascuno!"
+ coronation_events.0200.desc.host: "Gli invitati sono giunti — da ogni contrada, per lealtà o per mera curiosità. La folla s’infittisce: volti tesi d’aspettativa, sguardi che calcolano, e qua e là un barlume di calore.\n\nAlzo appena la voce, quel tanto che basta a farmi sentire dagli astanti, e do loro il benvenuto alla mia incoronazione."
+ coronation_events.0200.desc.guest: "Il raduno è vasto quanto immaginavo. Volti familiari e forestieri si mescolano; mi raggiungono saluti tanto cordiali da restare mera cortesia. Quando l’ospite prende parola, la sala sprofonda nel silenzio, d’istinto.\n\n«Amici miei, vassalli miei, famiglia mia; la vostra presenza mi onora più di qualunque corona. Mangiate, bevete, conversate liberamente fino all’inizio della cerimonia… e sappiate che vi vedo tutti, e non dimenticherò chi oggi era qui al mio fianco».\n\nParole che suonano come promessa gentile — o come un monito velato: dipende da come le si ascolta."
+ coronation_events.0200.a: "Benvenuti a tutti!"
  coronation_events.0200.b: "Vediamo un po’, chi altro è qui?"
  coronation_events.0205.t: "La cerimonia"
  
@@ -450,7 +450,7 @@
  coronation_events.0205.desc.host: "la mia processione fende la calca che gremisce la [ROOT.Char.Custom('SettlementCity')|l]; i miei migliori [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')] cavalcano al mio fianco, mentre la mia famiglia, dal cuore [ROOT.Char.Custom('GetTitleTierAdjective')], segue alle mie spalle."
  coronation_events.0205.desc.guest: "la processione [host.Custom('IT_NAM_COL2')][host.GetTitledFirstName|l] fende la folla, e il mio seguito mi conduce al nostro posto d’onore."
  coronation_events.0205.desc.low_magnificence: "Alcuni [host.Custom('GetLocalCommonerTermPlural')] ci osservano perplessi, altri mormorano con disprezzo. Qualcuno grida #EMP «[Select_CString( host.IsFemale, 'La falsa', 'Il falso' )] [host.GetTitleAsName|l]!»#! e la folla ribolle, a stento trattenuta dai pochi [host.Custom('GetFighterTermPlural')] schierati lungo il cammino."
- coronation_events.0205.desc.medium_magnificence: "[host.Custom('GetLocalCommonerTermPlural')|U] si accalcano per intravedere chi presto sarà [host.Custom('IT_NAM_COL3')][host.GetTitleAsNameNoTooltip]. Sulle spalle dei genitori, tra la folla, i bambini [location.GetCulture.GetName] sorridono."
+ coronation_events.0205.desc.medium_magnificence: "[host.Custom('GetLocalCommonerTermPlural')|U] si accalcano per intravedere chi presto sarà [host.Custom('IT_NAM_COL3')][host.GetTitleAsNameNoTooltip]. Sulle spalle dei genitori, tra la folla, i bambini di cultura [location.GetCulture.GetName] sorridono."
  coronation_events.0205.desc.high_magnificence: "Risuonano i corni! Gli stendardi avanzano, con i vividi colori dello stemma della casata imperiale [host.GetPrimaryTitle.GetAdjective]! I [host.Custom('GetLocalCommonerTermPlural')] inneggiano [host.Custom('IT_NAM_COL3')][host.GetTitleAsNameNoTooltip], e le donne piangono estasiate davanti a questo corteo glorioso."
  coronation_events.0205.a_low_magnificence: "[ROOT.Char.GetFaith.HighGodName], guidami tra questa plebaglia…"
  coronation_events.0205.a_high_magnificence: "E la mia incoronazione #EMP è appena cominciata!#!"
@@ -633,9 +633,9 @@
  greatest_hunter_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('greatest_hunter_oath_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('greatest_hunter_oath')]"
  greatest_hunter_oath_decision_tooltip: "Conduci con successo una caccia leggendarie"
  greatest_hunter_oath_decision_confirm: "Sono [Select_CString(ROOT.Char.IsFemale, 'una cacciatrice', 'un cacciatore' )] senza pari"
- greatest_hunter_decision_l3_trigger: "Conduci una [GetActivityType('activity_hunt').GetName|l] [GetActivityType('activity_hunt').GetTextIcon] #V leggendaria#! con successo #V 3#! volte ([THIS.Char.MakeScope.Var('greatest_hunter_oath_l_counter').GetValue|0]/3)"
- greatest_hunter_decision_l1_trigger: "Conduci una [GetActivityType('activity_hunt').GetName|l] [GetActivityType('activity_hunt').GetTextIcon] #V leggendaria#! con successo #V una#! volta ([THIS.Char.MakeScope.Var('greatest_hunter_oath_l_counter').GetValue|0]/1)"
- greatest_hunter_decision_r10_trigger: "Conduci una [GetActivityType('activity_hunt').GetName|l] [GetActivityType('activity_hunt').GetTextIcon] con successo #V 10#! volte ([THIS.Char.MakeScope.Var('greatest_hunter_oath_l_counter').GetValue|0]/10)"
+ greatest_hunter_decision_l3_trigger: "Conduci una [GetActivityType('activity_hunt').GetName|l|U] [GetActivityType('activity_hunt').GetTextIcon] #V leggendaria#! con successo #V 3#! volte ([THIS.Char.MakeScope.Var('greatest_hunter_oath_l_counter').GetValue|0]/3)"
+ greatest_hunter_decision_l1_trigger: "Conduci una [GetActivityType('activity_hunt').GetName|l|U] [GetActivityType('activity_hunt').GetTextIcon] #V leggendaria#! con successo #V una#! volta ([THIS.Char.MakeScope.Var('greatest_hunter_oath_l_counter').GetValue|0]/1)"
+ greatest_hunter_decision_r10_trigger: "Conduci una [GetActivityType('activity_hunt').GetName|l|U] [GetActivityType('activity_hunt').GetTextIcon] con successo #V 10#! volte ([THIS.Char.MakeScope.Var('greatest_hunter_oath_l_counter').GetValue|0]/10)"
  greatest_hunter_decision_trigger_2: "Possiedi un [artifact|E] di tipo #V arco#!"
  greatest_hunter_decision_no_artifact_xp_effect: "Il tuo [artifact|E] di tipo #V Arco#! ottiene #V #P +20%#! $trait_track_hunter_xp_gain_mult$#!"
  greatest_hunter_decision_no_artifact_stress_effect: "Il tuo [artifact|E] di tipo #V Arco#! ottiene #V #P -15%#! di aumento dello [stress|E]#!"
@@ -712,22 +712,22 @@
  coronation_vassal_support_log: "[CHARACTER.Custom('IT_NAM_COL3')|U][CHARACTER.GetTitledFirstName|U] ha usato la sua influenza personale per rafforzare la [legitimacy|E] [TARGET_CHARACTER.Custom('IT_NAM_COL2')][TARGET_CHARACTER.GetTitledFirstName|l]"
  
  # Coronation Splendor Progression
- coronation_tt_positive_massive: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l] #P aumenta enormemente#!"
- coronation_tt_positive_major: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l] #P aumenta in grande misura#!"
- coronation_tt_positive_medium: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l] #P aumenta notevolmente#!"
- coronation_tt_positive_tiny: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l] #P aumenta leggermente#!"
- coronation_tt_positive_miniscule: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l] #P aumenta di poco#!"
- coronation_tt_negative_tiny: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l] si #N riduce leggermente#!"
- coronation_tt_negative: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l] si #N riduce#!"
- coronation_tt_negative_major: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l] si #N riduce notevolmente#!"
- coronation_tt_negative_huge: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l] si #N riduce enormemente#!"
+ coronation_tt_positive_massive: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] #P aumenta enormemente#!"
+ coronation_tt_positive_major: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] #P aumenta in grande misura#!"
+ coronation_tt_positive_medium: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] #P aumenta notevolmente#!"
+ coronation_tt_positive_tiny: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] #P aumenta leggermente#!"
+ coronation_tt_positive_miniscule: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] #P aumenta di poco#!"
+ coronation_tt_negative_tiny: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] si #N riduce leggermente#!"
+ coronation_tt_negative: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] si #N riduce#!"
+ coronation_tt_negative_major: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] si #N riduce notevolmente#!"
+ coronation_tt_negative_huge: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] si #N riduce enormemente#!"
  
- coronation_tt_positive_massive_log_title: "Le azioni [char.Custom('IT_NAM_COL2')][char.GetTitledFirstNameNoTooltip|l] hanno aumentato la magnificenza"
+ coronation_tt_positive_massive_log_title: "Le azioni [char.Custom('IT_NAM_COL2')][char.GetTitledFirstNameNoTooltip|l|U] hanno aumentato la magnificenza"
  coronation_tt_positive_major_log_title: "$coronation_tt_positive_massive_log_title$"
  coronation_tt_positive_medium_log_title: "$coronation_tt_positive_massive_log_title$"
  coronation_tt_positive_tiny_log_title: "$coronation_tt_positive_massive_log_title$"
  coronation_tt_positive_miniscule_log_title: "$coronation_tt_positive_massive_log_title$"
- coronation_tt_negative_tiny_log_title: "Le azioni [char.Custom('IT_NAM_COL2')][char.GetTitledFirstNameNoTooltip|l] hanno ridotto la magnificenza"
+ coronation_tt_negative_tiny_log_title: "Le azioni [char.Custom('IT_NAM_COL2')][char.GetTitledFirstNameNoTooltip|l|U] hanno ridotto la magnificenza"
  coronation_tt_negative_log_title: "$coronation_tt_negative_tiny_log_title$"
  coronation_tt_negative_major_log_title: "$coronation_tt_negative_tiny_log_title$"
  
@@ -748,16 +748,16 @@
  coronation_reward_25: "Guadagno di [prestige|E] [prestige_i] e [legitimacy|E] [legitimacy_i] per i ([THIS.ScriptValue('number_of_vassal_supporters')|V0]) [vassals|E] #V sostenitori#! presenti all’[coronation|lE]: #P 25 %#!"
  intent_coronation_opinion_gain: "Per la tua intenzione #V [THIS.Char.GetInvolvedActivityIntent.GetName]#!"
  coronation_completed_log_entry_effect_title: "[GetActivityType('activity_coronation').GetName] completata."
- coronation_completed_log_entry_effect: "La [GetActivityType('activity_coronation').GetName|l] è terminata."
+ coronation_completed_log_entry_effect: "La [GetActivityType('activity_coronation').GetName|l|U] è terminata."
  coronation_completed_log_oath_tt: "Giuramento fatto: [THIS.Char.Custom('GetOath')|V]"
  
  
  # Artifacts
  
  ach_spawned_crown_name: "Corona di [crown_title.GetDefinitiveNameNoTooltip]"
- ach_spawned_crown_desc: "Un [SCOPE.Custom('ArtifactArticleWealth')|l] esempio di corona di fattura [SCOPE.Custom('ArtifactQuality')]. La corona è stata forgiata in [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )]. [CHARACTER.Custom('IT_NAM_COL3')|U][title_founder.GetTitledFirstName|l] fu [Select_CString( title_founder.IsFemale, 'la prima', 'il primo' )] a indossarla come simbolo del suo regno [title_founder.Custom('trait_greedy_adjective')]. Ogni [title_founder.GetTitleAsNameNoTooltip] di [crown_title.GetNameNoTier] l’ha indossata da allora."
+ ach_spawned_crown_desc: "Un [SCOPE.Custom('ArtifactArticleWealth')|l] esempio di corona di fattura [SCOPE.Custom('ArtifactQuality')]. La corona è stata forgiata in [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )]. [CHARACTER.Custom('IT_NAM_COL3')|U][title_founder.GetTitledFirstName|l|U] fu [Select_CString( title_founder.IsFemale, 'la prima', 'il primo' )] a indossarla come simbolo del suo regno [title_founder.Custom('trait_greedy_adjective')]. Ogni [title_founder.GetTitleAsNameNoTooltip] di [crown_title.GetNameNoTier] l’ha indossata da allora."
  ach_spawned_regalia_name: "Vesti regali di [crown_title.GetDefinitiveNameNoTooltip]"
- ach_spawned_regalia_desc: "Un [SCOPE.Custom('ArtifactArticleWealth')|l] esempio di vesti regali di fattura [SCOPE.Custom('ArtifactQuality')]. [CHARACTER.Custom('IT_NAM_COL3')|U][title_founder.GetTitledFirstName|l] fu [Select_CString( title_founder.IsFemale, 'la prima', 'il primo' )] a indossarle come simbolo del suo regno [title_founder.Custom('trait_greedy_adjective')]. Ogni [title_founder.GetTitleAsNameNoTooltip] di [crown_title.GetNameNoTier] le ha indossate da allora."
+ ach_spawned_regalia_desc: "Un [SCOPE.Custom('ArtifactArticleWealth')|l] esempio di vesti regali di fattura [SCOPE.Custom('ArtifactQuality')]. [CHARACTER.Custom('IT_NAM_COL3')|U][title_founder.GetTitledFirstName|l|U] fu [Select_CString( title_founder.IsFemale, 'la prima', 'il primo' )] a indossarle come simbolo del suo regno [title_founder.Custom('trait_greedy_adjective')]. Ogni [title_founder.GetTitleAsNameNoTooltip] di [crown_title.GetNameNoTier] le ha indossate da allora."
  
  
  # Host activity rewards
@@ -900,7 +900,7 @@
  ach_maintenance_events.0002.opinion_reward: "[opinion|E] guadagnata con il [culture_head|lE]"
  ### Character Interaction
  coronation_anointment_request: "$game_concept_anointment_request$"
- coronation_anointment_request_desc: "Ottieni il sostegno [recipient.Custom('IT_NAM_COL2')][recipient.GetTitledFirstName|l] per svolgere un’[anointment|lE]"
+ coronation_anointment_request_desc: "Ottieni il sostegno [recipient.Custom('IT_NAM_COL2')][recipient.GetTitledFirstName|l|U] per svolgere un’[anointment|lE]"
  coronation_anointment_request_extra_icon: "$hook_extra_icon$"
  anoinment_request_accepted_tt: "[recipient.GetShortUIName] accetterà un invito alla tua [anointment|E] [coronation_i] se disponibile"
  already_using_hook: "È già in uso un [hook|E] [hook_i]"
@@ -908,7 +908,7 @@
  TRADE_LAND_FOR_BETTER_AI_ACCEPTANCE: "Restituire [land|E] [de_jure|E] [title_i]"
  TRADE_LAND_ACCEPTANCE_SEND_OPTION: "Restituire [land|E] [de_jure|lE]: $VALUE|=+0$"
  CORONATION_ANOINTMENT_REQUEST_INTERACTION_NOTIFICATION: "Con la massima venerazione, cerco la vostra benedizione e il vostro appoggio per la mia giusta e propizia ascesa al trono."
- anointment_request_already_supported: "[recipient.Custom('IT_NAM_COL3')][recipient.GetTitledFirstName|l] ha già accettato di sostenere la tua [anointment|lE]"
+ anointment_request_already_supported: "[recipient.Custom('IT_NAM_COL3')][recipient.GetTitledFirstName|l|U] ha già accettato di sostenere la tua [anointment|lE]"
  coronation_realm_size_desc: "$CB_REALM_SIZE_COST$"
  coronation_empire_req: "[empire|E] [title_tier|E]"
  coronation_tribal_reg: "[GetGovernment('tribal_government').GetName]"

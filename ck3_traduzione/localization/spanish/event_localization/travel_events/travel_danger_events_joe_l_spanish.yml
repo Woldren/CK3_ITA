@@ -131,7 +131,7 @@
  travel_danger_events.6020.a:0 "ArghghghGHHghghh!"
 
  travel_danger_events.6030.t:0 "$travel_danger_prefix$ Cibo andato a Male"
- travel_danger_events.6030.leader:0 "[travel_leader.GetFirstName] è il responsabile delle nostre scorte di cibo, e ci ha rivelato con vergogna che le nostre provviste sono quasi del tutto inutili, essendo state conservate male..."
+ travel_danger_events.6030.leader:0 "[travel_leader.GetFirstName] è [Select_CString(travel_leader.IsFemale,'la','il')] responsabile delle nostre scorte di cibo, e ci ha rivelato con vergogna che le nostre provviste sono quasi del tutto inutili, essendo state conservate male..."
  travel_danger_events.6030.fallback:0 "Non riesco a crederci, ma le nostre scorte di cibo per il viaggio sono pressoché inutili, essendo state conservate male..."
  travel_danger_events.6030.desc:1 "\n\nChiazze di muffa ricoprono il pane e i prodotti e abbiamo esaurito rapidamente il cibo secco rimasto. Il gruppo è sempre più affamato, mentre inizia a calare il crepuscolo."
  travel_danger_events.6030.a:0 "È solo un po' di muffa!"
