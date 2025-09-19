@@ -236,7 +236,7 @@
  feast_default.2006.d:0 "Ti prego, lasciami in pace!"
 
  feast_default.2007.t:1 "Relazione Smascherata!"
- feast_default.2007.desc:0 "Un forte tonfo risuona nella grande sala quando una delle porte dei quartieri di servizio si rompe.\n\nIn un groviglio senza vestiti, [Select_CString(lover_guest_1.IsFemale,'la','il')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1'))], [lover_guest_1.Custom('IT_NAM_COL3')][lover_guest_1.GetTitledFirstName], e [Select_CString(lover_guest_2.IsFemale,'la','il')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2'))], [lover_guest_2.Custom('IT_NAM_COL3')][lover_guest_2.GetTitledFirstName], cadono a terra davanti a tutti."
+ feast_default.2007.desc:0 "Un tonfo sordo rimbalza nella grande sala quando una delle porte dei quartieri di servizio cede di schianto.\n\nIn un groviglio di corpi senza vestiti, ([Select_CString(lover_guest_1.IsFemale,'la','il')]) mi[lover_guest_1.Custom('DE_END_PRO_S_N')]  [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1'))], [lover_guest_1.Custom('IT_NAM_COL3')][lover_guest_1.GetTitledFirstName], e ([Select_CString(lover_guest_2.IsFemale,'la','il')]) mi[lover_guest_2.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2'))], [lover_guest_2.Custom('IT_NAM_COL3')][lover_guest_2.GetTitledFirstName], rotolano fuori e precipitano a terra davanti a tutti."
  feast_default.2007.a_chaste:0 "Non riesco a guardare!"
  feast_default.2007.a_lustful:0 "Basta #EMP immaginare#! cosa stessero facendo..."
  feast_default.2007.a_sadistic:0 "Ahahah! Tutto ciò è uno spasso!"
