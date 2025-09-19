@@ -558,7 +558,7 @@
  # Peace
  stewardship_oath_1_decision: "$GetPeaceOathText$ [CoronationTimer('stewardship_oath_1_decision','stewardship_oath_1_decision_timer')]"
  stewardship_oath_1_decision_timer: "\t#weak ([RemainingTime('stewardship_oath_1_timer')])#!"
- stewardship_oath_1_decision_desc: "È tempo di deporre le armi e assaporare un’era di pace. Il popolo [ROOT.Char.GetPrimaryTitle.GetAdjective] ha visto troppi anni di guerra. $stewardship_oath_1_decision_desc_extra$"
+ stewardship_oath_1_decision_desc: "È tempo di deporre le armi e assaporare un’era di pace. La popolazione [ROOT.Char.GetPrimaryTitle.GetAdjective] ha assistito a troppi anni di guerra. $stewardship_oath_1_decision_desc_extra$"
  stewardship_oath_1_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('stewardship_oath_1_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('stewardship_oath_1')]"
  stewardship_oath_1_decision_tooltip: "Ho giurato di donare al mio popolo un’era di pace."
  stewardship_oath_1_decision_confirm: "Un’età dell’oro per [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
