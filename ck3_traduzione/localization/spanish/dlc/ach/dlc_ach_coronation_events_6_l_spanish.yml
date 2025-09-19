@@ -215,7 +215,7 @@ coronation_events.6101.desc_words_generic: "Mentre stringo tra le mani la lamina
  coronation_events.6110.a: "#EMP Oh, [crowning_artifact.GetNameNoTooltip]. Oh, gloria delle glorie!#!"
  coronation_events.6110.b: "Dedicare il vero artefatto [ROOT.Char.Custom('GetTitleTierAdjective')] di [crowning_artifact_2.GetNameNoTooltip]."
  coronation_events.6110.c: "Assegnare un così nobile [crowning_artifact_3.GetNameNoTooltip]."
- coronation_events.6110.d: "[crowning_artifact_4.GetNameNoTooltip] [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.GetTitleAsNameNoTooltip]."
+ coronation_events.6110.d: "[crowning_artifact_4.GetNameNoTooltip] [ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetTitleAsNameNoTooltip]."
  coronation_events.6110.e: "Per il dominio: [crowning_artifact_5.GetNameNoTooltip]."
  coronation_events.6110.f: "[crowning_artifact.GetNameNoTooltip] appartiene alla mia casata."
  coronation_events.6110.f_plural: "Questi tesori appartengono alla mia casata."
