@@ -26,7 +26,7 @@
  prelude_events.0010.e: "[regent.GetFirstNameNoTooltip] può dire ciò che preferisce."
  
  prelude_events.0020.t: "Cospiratori a corte"
- prelude_events.0020.desc.intro: "«…via via che il suo governo si indebolisce, quella testa resterà senza corona.» [faction_member.Custom('IT_NAM_COL3')][faction_member.GetTitledFirstName] si china verso [faction_member_2.Custom('IT_NAM_COL3')][faction_member_2.GetTitledFirstName], la voce bassa e tagliente. «Questa incoronazione è il luogo perfetto per scovare nobili degni che la pensino come noi.»\n\nNaturalmente, sono ben consapevole delle intenzioni della"
+ prelude_events.0020.desc.intro: "«…via via che il suo governo si indebolisce, quella testa resterà senza corona.» [faction_member.Custom('IT_NAM_COL3')][faction_member.GetTitledFirstName] si china verso [faction_member_2.Custom('IT_NAM_COL3')][faction_member_2.GetTitledFirstName], la voce bassa e tagliente. «Questa incoronazione è il luogo perfetto per scovare nobili degni che la pensino come noi.»\n\nNaturalmente, sono ben consapevole delle intenzioni della fazione"
  prelude_events.0020.desc.faction_member: "[faction.GetName], guidata [faction_member.Custom('IT_NAM_COL5')][faction_member.GetTitledFirstNameNoTooltip] in persona."
  prelude_events.0020.desc.faction_member_2: "[faction.GetName], guidata [faction_member_2.Custom('IT_NAM_COL5')][faction_member_2.GetTitledFirstNameNoTooltip] in persona."
  prelude_events.0020.desc.no_leader: "[faction.GetName]."
@@ -109,7 +109,7 @@
  bp4_lazy_realm_focus_modifier_desc: "Questo personaggio ha rifiutato un'offerta per diventare consigliere per concentrarsi sul proprio reame… o almeno così dice."
  
  prelude_events.0080.t: "Prendete il meglio"
- prelude_events.0080.desc.intro: "«Buon[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip|l]», mi volto e mi imbatto in [host.GetShortUIName], ovvero [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l], al cui fianco vi si trova un[courtier.Custom('DE_PRO_POS_P_2P')] [courtier.GetWomanMan] particolarmente nervos[courtier.Custom('DE_END_PRO_S_N')]. «Sapete che vi stimo e sarebbe per me una grande gioia potervi aiutare».\n\n«Ecco: vi offro [courtier.Custom('DE_ART_DEF_P_A')] migliore e più brillante [Select_CString(courtier.IsFemale,'delle mie donne','dei miei uomini')], [courtier.GetFirstName], [Select_CString(courtier.IsFemale,'la mia più abile','il mio più abilee')] [guest.Custom2('RelationToMe', SCOPE.sC('courtier'))]. Che questo possa essere"
+ prelude_events.0080.desc.intro: "«Buon[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip|l]», mi volto e mi imbatto in [guest.GetShortUIName], ovvero [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l], al cui fianco vi si trova un[courtier.Custom('DE_PRO_POS_P_2P')] [courtier.GetWomanMan] particolarmente nervos[courtier.Custom('DE_END_PRO_S_N')]. «Sapete che vi stimo e sarebbe per me una grande gioia potervi aiutare».\n\n«Ecco: vi offro [courtier.Custom('DE_ART_DEF_P_A')] migliore e più brillante [Select_CString(courtier.IsFemale,'delle mie donne','dei miei uomini')], [courtier.GetFirstName], [Select_CString(courtier.IsFemale,'la mia più abile','il mio più abilee')] [guest.Custom2('RelationToMe', SCOPE.sC('courtier'))]. Che questo possa essere"
  prelude_events.0080.desc.same_house: "un segno di amicizia nella nostra casata»."
  prelude_events.0080.desc.fallback: "l'inizio di un'amicizia tra le nostre casate»."
  prelude_events.0080.desc.friend: "un segno della nostra amicizia»."

@@ -3,8 +3,8 @@
  HAS_DYNASTY_PRESTIGE_TRIGGER:1 "La [dynasty|E] [DYNASTY.GetBaseName] ha [dynasty_prestige_i]$NUM|V0$ [dynasty_prestige|E]"
  NOT_HAS_DYNASTY_PRESTIGE_TRIGGER:1 "La [dynasty|E] [DYNASTY.GetBaseName] non ha [dynasty_prestige_i]$NUM|V0$ [dynasty_prestige|E]"
 
- HAS_DYNASTY_PRESTIGE_LEVEL_TRIGGER:1 "La [dynasty|E] [DYNASTY.GetBaseName] ha un [dynasty_prestige_level|E] $COMPARATOR$ [GetDynastyPrestigeLevelName( '(int32)$NUM|q$' )] ($NUM|V0$)"
- NOT_HAS_DYNASTY_PRESTIGE_LEVEL_TRIGGER:1 "La [dynasty|E] [DYNASTY.GetBaseName] #bold non#! ha un [dynasty_prestige_level|E] $COMPARATOR$ [GetDynastyPrestigeLevelName( '(int32)$NUM|q$' )] ($NUM|V0$)"
+ HAS_DYNASTY_PRESTIGE_LEVEL_TRIGGER:1 "La [dynasty|E] [DYNASTY.GetBaseName] ha una [dynasty_prestige_level|E] $COMPARATOR$ [GetDynastyPrestigeLevelName( '(int32)$NUM|q$' )] ($NUM|V0$)"
+ NOT_HAS_DYNASTY_PRESTIGE_LEVEL_TRIGGER:1 "La [dynasty|E] [DYNASTY.GetBaseName] #bold non#! ha una [dynasty_prestige_level|E] $COMPARATOR$ [GetDynastyPrestigeLevelName( '(int32)$NUM|q$' )] ($NUM|V0$)"
 
  HAS_DYNASTY_MODIFIER:1 "La [dynasty|E] [DYNASTY.GetBaseName] ha il modificatore $MODIFIER|V$"
 

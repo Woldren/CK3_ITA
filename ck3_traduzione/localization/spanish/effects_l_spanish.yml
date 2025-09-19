@@ -1530,11 +1530,11 @@
 
  I_CREATE_CADET_BRANCH:1 "Crei un [cadet_branch|E] della tua attuale [house|E]"
  CREATE_CADET_BRANCH: "Crea un [cadet_branch|E] della Casata attuale"
- DYNASTY_NO_NAME_GAINS_PRESTIGE_LEVEL_EFFECT:0 "Incrementa il proprio [dynasty_prestige_level|E] di $VALUE|+0$"
- DYNASTY_NO_NAME_LOSES_PRESTIGE_LEVEL_EFFECT:0 "Diminuisce il proprio [dynasty_prestige_level|E] di $VALUE|-0$"
+ DYNASTY_NO_NAME_GAINS_PRESTIGE_LEVEL_EFFECT:0 "Incrementa la propria [dynasty_prestige_level|E] di $VALUE|+0$"
+ DYNASTY_NO_NAME_LOSES_PRESTIGE_LEVEL_EFFECT:0 "Diminuisce la propria [dynasty_prestige_level|E] di $VALUE|-0$"
 
- DYNASTY_GAINS_PRESTIGE_LEVEL_EFFECT:1 "La [dynasty|E] [DYNASTY.GetBaseName] incrementa il proprio [dynasty_prestige_level|E] di $VALUE|+0$"
- DYNASTY_LOSES_PRESTIGE_LEVEL_EFFECT:1 "La [dynasty|E] [DYNASTY.GetBaseName] diminuisce il proprio [dynasty_prestige_level|E] di $VALUE|-0$"
+ DYNASTY_GAINS_PRESTIGE_LEVEL_EFFECT:1 "La [dynasty|E] [DYNASTY.GetBaseName] incrementa la propria [dynasty_prestige_level|E] di $VALUE|+0$"
+ DYNASTY_LOSES_PRESTIGE_LEVEL_EFFECT:1 "La [dynasty|E] [DYNASTY.GetBaseName] diminuisce la propria [dynasty_prestige_level|E] di $VALUE|-0$"
  DYNASTY_GAINS_PRESTIGE_EFFECT:1 "La [dynasty|E] [DYNASTY.GetBaseName] guadagna [dynasty_prestige_i]$VALUE|+0$ [dynasty_prestige|E]"
  DYNASTY_LOSES_PRESTIGE_EFFECT:1 "La [dynasty|E] [DYNASTY.GetBaseName] perde [dynasty_prestige_i]$VALUE|-0$ [dynasty_prestige|E]"
  DYNAST_GAINED_PRESTIGE_EFFECT:1 "La [dynasty|E] [DYNASTY.GetBaseName] ha guadagnato [dynasty_prestige_i]$VALUE|+0$ [dynasty_prestige|E]"
