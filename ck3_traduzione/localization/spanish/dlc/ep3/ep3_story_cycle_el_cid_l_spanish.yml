@@ -17,7 +17,7 @@
  cid.0001.a.flavor: "#EMP Stava per spirare il termine fissato per lasciare il regno.#!"
  cid.0001.b: "E così sia. Coloro che mi amano mi seguiranno."
  cid.0001.b.flavor: "#EMP Ora si convinse il Cid che dal[liege.Custom('DE_END_ADJ_NUL_S_N')] [liege.GetTitleAsNameNoTooltip] [liege.GetFirstNameNoTooltip] non poteva più sperare grazia.#!"
- story_el_cid_tt: "#EMP Il Cantare del Cid#! inizia"
+ story_el_cid_tt: "#EMP Il Canto del Cid#! ha inizio"
  
  cid_exile_title: "L'Esilio:"
  cid.1000.t: "$cid_exile_title$ Porte Chiuse"

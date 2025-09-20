@@ -9,7 +9,7 @@
   has_enough_contracts_tt: "Hai completato con successo #V [contract_tally]/50#! [task_contracts|E] non [criminals|E]"
   legacy_adventurer_legitimacy_on_landing: "Se un [adventurer|e] della [house|e] [GetPlayer.GetHouse.GetBaseName] diventa un [ruler|E]:\n$BULLET$ otterrà [GetPlayer.MakeScope.ScriptValue('massive_legitimacy_gain')|+0] in [legitimacy|e][legitimacy_i]\n$BULLET$ Per ogni [follower|e] che ha, otterrà #P 25#! [levies|e][soldier_i]"
   criminal_contracts_blocked_tt: "@warning_icon! #warning Non potrai più accettare [task_contracts|e] [criminal|e]#!"
-  task_successful_noncrim_contract_count_effect_tt: "Stai facendo progressi nella [decision|e] $enact_legacy_of_adventurer_decision$"
+  task_successful_noncrim_contract_count_effect_tt: "Stai facendo progressi nella [decision|e]: $enact_legacy_of_adventurer_decision$"
   remnants_adventurer_army: "Resti di [prev_title.GetNameNoTooltip]"
 
   legacy_adventurer_house_modifier: "Stirpe di Avventurieri"

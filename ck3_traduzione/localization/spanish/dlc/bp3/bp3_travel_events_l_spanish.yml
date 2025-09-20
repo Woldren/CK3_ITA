@@ -17,9 +17,9 @@
  travel_events_bp3.5.t: "Colti di Sorpresa"
  travel_events_bp3.5.desc.snow: "Proprio quando stiamo per partire, inizia a nevicare. Non posso fare a meno di maledire la mia sfortuna, ma era da un po' che avevo visto le nuvole arrivare. E non sembra che smetterà presto di nevicare.\n\nSe vogliamo arrivare in tempo dobbiamo metterci in viaggio, ma attraversare una tempesta di neve è a dir poco rischioso."
  travel_events_bp3.5.desc.rain: "Proprio mentre stiamo per partire, inizia a piovere a dirotto. Pioggia a perdita d'occhio. Non posso fare a meno di maledire la mia scarsa fortuna, ma avevo visto le nuvole scure arrivare da un po'.\n\nSe vogliamo arrivare in tempo dobbiamo partire, ma è un viaggio rischioso con il tempo che fa."
- travel_events_bp3.5.a: "Un'opportunità di riposo, direi."
+ travel_events_bp3.5.a: "Un'opportunità per riposare, direi."
  travel_events_bp3.5.b.snow: "Un po' di neve non fa male a nessuno."
- travel_events_bp3.5.b.rain: "Un po' di pioggia non fa male a nessuno."
+ travel_events_bp3.5.b.rain: "Un po' di pioggia non farà male a nessuno."
  travel_events_bp3.5.b.tt: "I membri del [entourage|E] possono ottenere il [trait|E] #color_white [GetTrait('ill').GetName(GetNullCharacter)]#!"
 
  travel_events_bp3.10.t: "I Pellegrini di [holy_location.GetNameNoTooltip]"
@@ -123,7 +123,7 @@
  travel_events_bp3.45.c: "Non ho tempo per questo vagabondo."
 
  travel_events_bp3.50.t: "Una banda di due"
- travel_events_bp3.50.desc: "Attraversando un vicolo appartato di [ROOT.Char.GetCurrentLocation.GetName], scorgo [Select_CString(child_character.IsFemale,'una bambina sola','un bambino solo')] accovacciat[Select_CString(child_character.IsFemale,'a','o')] accanto al proprio cane, riparato dietro un basso muro. "Ecco a te, Valor." mormora, offrendogli con dolcezza un pezzo di pane e trattenendo nulla per sé.\n\nOsservandoli, è evidente come l’animale sia stato nutrito e curato meglio [Select_CString(child_character.IsFemale,'dalla bambina','dal bambino')], che sembra riversare in lui ogni briciola trovata, come se la sua stessa sopravvivenza fosse meno importante della fedeltà del compagno."
+ travel_events_bp3.50.desc: "Attraversando un vicolo appartato di [ROOT.Char.GetCurrentLocation.GetName], scorgo [Select_CString(child_character.IsFemale,'una bambina sola','un bambino solo')] accovacciat[Select_CString(child_character.IsFemale,'a','o')] accanto al proprio cane, riparato dietro un muretto. "Ecco a te, Valor." mormora, offrendogli con dolcezza un pezzo di pane e tenendo nulla per sé.\n\nOsservandoli, è evidente come l’animale sia stato nutrito e curato meglio [Select_CString(child_character.IsFemale,'dalla bambina','dal bambino')], che sembra riversare in lui ogni briciola trovata, come se la sua stessa sopravvivenza fosse meno importante della fedeltà del compagno."
  travel_events_bp3.50.a: ""Eccoti del cibo, [Select_CString(child_character.IsFemale,'bambina','bambino')].""
  travel_events_bp3.50.b: ""Vieni, mi prenderò cura di te.""
  travel_events_bp3.50.c: ""Il tuo cane? Intendi il #bold MIO#! cane.""

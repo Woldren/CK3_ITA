@@ -1,5 +1,5 @@
 ﻿l_spanish:
- interrogate_interaction: "Interrogate"
+ interrogate_interaction: "Interroga"
  interrogate_interaction_desc: "Chiedi a [recipient.GetShortUIName|U] cosa sa della lettera misteriosa"
  interrogate_interaction_tt: "Potresti scoprire delle informazioni sulla lettera misteriosa"
  interrogate_interaction_recipient_tt: "Dovrà offrire una spiegazione"

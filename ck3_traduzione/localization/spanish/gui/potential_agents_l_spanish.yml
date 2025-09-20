@@ -18,10 +18,10 @@
  AGENT_WILL_ACCEPT_DESC:0 "#T Si unirà al complotto #!"
  AGENT_MAY_ACCEPT_DESC:0 "#T Può essere convinto ad unirsi usando doni e [hooks|E] #!"
  SCHEME_PROGRESS_EQUAL:0 "La velocità e la Resistenza sono uguali, l'avanzamento non cambierà."
- SCHEME_PROGRESS_INCREASE:0 "C'è una probabilità del #P $CHANCE$%#! guadagnare $PROGRESS|0P$ progresso ogni mese."
+ SCHEME_PROGRESS_INCREASE:0 "C'è una probabilità del #P $CHANCE$%#! di guadagnare $PROGRESS|0P$ progresso ogni mese."
  SCHEME_PROGRESS_DECREASE:0 "C'è una probabilità del #N $CHANCE$%#! di perdere $PROGRESS|0N$ progresso ogni mese. Il progresso non può scendere sotto lo #V 0#!."
  SCHEME_WITH_GIFT:0 "Ottengo [gold_i][gold|E]: $VALUE|=+0$"
- SCHEME_WITH_HOOK:0 "Sto usando un [hook]: $VALUE|=+0$"
+ SCHEME_WITH_HOOK:0 "Sto usando un [hook|E]: $VALUE|=+0$"
  SCHEME_AGAINST_RIVAL:0 "Complottando contro il mio [rival|e]: $VALUE|=+0$"
  SCHEME_AGAINST_NEMESIS: "Complottando contro la mia [nemesis|E]: $VALUE|=+0$"
  SCHEME_AGAINST_FRIEND:0 "Complottando contro il mio [friend|E]: $VALUE|=+0$"
@@ -43,7 +43,7 @@
  BEFRIEND_WOULD_MAKE_BAD_FRIEND:0 "Tiene al bersaglio: $VALUE|=+0$"
  BEFRIEND_WANTS_PEOPLE_TO_GET_ALONG:0 "Vuole che le persone vadano d'accordo: $VALUE|=+0$"
  SEDUCE_IS_SPOUSE:0 ""Il nostro matrimonio è sacro!": $VALUE|=+0$"
- SEDUCE_IS_LOVER:0 "Non vuole che io abbia altri/e amanti!: $VALUE|=+0$"
+ SEDUCE_IS_LOVER:0 "Non vuole che io abbia altre relazioni amorose!: $VALUE|=+0$"
  NO_POTENTIAL_MEMBERS:0 "#weak Non ci sono Agenti da invitare#!"
  SCHEME_MURDER_COUPLE:0 "Ho sempre amato la tua sete di sangue: $VALUE|=+0$"
  SCHEME_MURDER_DISINTERESTED:0 "Non voglio prenderne parte: $VALUE|=+0$"
@@ -58,7 +58,7 @@
  SCHEME_TAUGHT_TO_SCHEME: "Mi hai insegnato a complottare per te: $VALUE|=+0$"
  IS_PART_OF_STRUGGLE: "Parte di [target.GetShortUINameNoTooltip] nella [struggle|E]: $VALUE|=+0$"
  INTRIGUE_EDUCATION_5_BONUS: "[GetTrait('education_intrigue_5').GetName( GetNullCharacter )]: $VALUE|=+0$"
- SCHEME_DUTIOUS_FAMILY: "Sei severo nei confronti del dovere familiare: $VALUE|=+0$"
+ SCHEME_DUTIOUS_FAMILY: "Affronti il dovere familiare con austerità: $VALUE|=+0$"
  SCHEME_AGENT_SPOUSE_STRIFE_LIKELIHOOD: "Il [spouse|E] di [target.GetShortUINameNoTooltip] ha causato una ingiustificata [strife|E]: $VALUE|=+0$"
  ai_opinion.reason.trait_is_sinful.lustful: "[GetTrait('lustful').GetName( GetNullCharacter )] è un [sin|E]: $VALUE|=+0$"
  ai_opinion.reason.trait_is_virtuous.lustful: "[GetTrait('lustful').GetName( GetNullCharacter )] è una [virtue|E]: $VALUE|=+0$"
@@ -68,18 +68,18 @@
  ai_opinion.reason.faith.adultery_criminal.owner: "Sarebbe peccaminoso per il tuo genere: $VALUE|=+0$"
  ai_opinion.reason.faith.adultery_shunned.target: "Sarebbe vergognoso per il genere di [target.GetFirstNameNoTooltip]: $VALUE|=+0$"
  ai_opinion.reason.faith.adultery_criminal.target: "Sarebbe peccaminoso per il genere di [target.GetFirstNameNoTooltip]: $VALUE|=+0$"
- ai_opinion.reason.ai_values.energy.flavour: "Etica del Lavoro della [personality|E]: $VALUE|=+0$"
- ai_opinion.reason.ai_values.energy: "[personality|E] $player_facing_ai_energy$: $VALUE|=+0$"
- ai_opinion.reason.ai_values.honour.compelled_to_serve: "[personality|E] $player_facing_ai_honor$ dovrebbe servire: $VALUE|=+0$"
- ai_opinion.reason.ai_values.boldness.dislikes_you: "[personality|E] $player_facing_ai_boldness$ e ti disprezza: $VALUE|=+0$"
- ai_opinion.reason.ai_values.vengefulness.dislikes_you: "[personality|E] $player_facing_ai_vengefulness$ e ti disprezza: $VALUE|=+0$"
- ai_opinion.reason.ai_values.dishonour: "[personality|E] manca di $player_facing_ai_honor$: $VALUE|=+0$"
- ai_opinion.reason.ai_values.vengefulness.dislikes_target: "[personality|E] $player_facing_ai_vengefulness$ e disprezza [target.GetFirstNameNoTooltip]: $VALUE|=+0$"
- ai_opinion.reason.courtier.followers_must_work: "Ordinando al [follower|E] di lavorare: $VALUE|=+0$"
+ ai_opinion.reason.ai_values.energy.flavour: "ha [personality|E] 'Etica del Lavoro': $VALUE|=+0$"
+ ai_opinion.reason.ai_values.energy: "ha [personality|E] '$player_facing_ai_energy$': $VALUE|=+0$"
+ ai_opinion.reason.ai_values.honour.compelled_to_serve: "la [personality|E] '$player_facing_ai_honor$' dovrebbe servire: $VALUE|=+0$"
+ ai_opinion.reason.ai_values.boldness.dislikes_you: "ha [personality|E] '$player_facing_ai_boldness$' e ti disprezza: $VALUE|=+0$"
+ ai_opinion.reason.ai_values.vengefulness.dislikes_you: "ha [personality|E] '$player_facing_ai_vengefulness$' e ti disprezza: $VALUE|=+0$"
+ ai_opinion.reason.ai_values.dishonour: "la [personality|E] manca di '$player_facing_ai_honor$': $VALUE|=+0$"
+ ai_opinion.reason.ai_values.vengefulness.dislikes_target: "ha [personality|E] '$player_facing_ai_vengefulness$' e disprezza [target.GetFirstNameNoTooltip]: $VALUE|=+0$"
+ ai_opinion.reason.courtier.followers_must_work: "sta ordinando al [follower|E] di lavorare: $VALUE|=+0$"
  ai_opinion.reason.relation.nemesis: "Sei la mia [nemesis|E]: $VALUE|=+0$"
  ai_opinion.reason.relation.rival: "Se il mio [rival|E]: $VALUE|=+0$"
  ai_opinion.reason.court_position.stooge: "Sono il tuo [GetCourtPositionType('stooge_camp_officer').GetNameNoTooltip]: $VALUE|=+0$"
- ai_opinion.reason.laamp_nemesis: "#XB "Fallo tu, furvante!"#!: $VALUE|=+0$"
+ ai_opinion.reason.laamp_nemesis: "#XB "Fallo tu, furfante!"#!: $VALUE|=+0$"
  ai_opinion.reason.laamp_rival: "#N "Non ti obbedirò":#! $VALUE|=+0$"
  ai_opinion.reason.laamp_stooge: ""Neanche per sogno": $VALUE|=+0$"
  invite_agent_to_scheme_interaction.tt.no_stooges: "[recipient.GetShortUIName] non è [recipient.Custom('DE_ART_DEF_P_A')] tu[recipient.Custom('DE_END_PRO_S_N')] [GetCourtPositionType('stooge_camp_officer').GetNameNoTooltip]"
@@ -139,8 +139,8 @@
  scheme_agent_aptitude.trait.mystic: "[GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]"
  scheme_agent_aptitude.trait.physician: "[GetTrait('lifestyle_physician').GetName( GetNullCharacter )]"
  scheme_agent_aptitude.trait.witch: "[GetTrait('witch').GetName( GetNullCharacter )]"
- scheme_agent_aptitude.disloyal.depose_scheme: "[GetTrait('disloyal').GetName( GetNullCharacter )] in un [scheme|E] per [GetScheme('depose').GetTypeName]" #controllare se va aggiunto 'per' deporre
- scheme_agent_aptitude.loyal.depose_scheme: "[GetTrait('loyal').GetName( GetNullCharacter )] in un [scheme|E] per [GetScheme('depose').GetTypeName]"
+ scheme_agent_aptitude.disloyal.depose_scheme: "[GetTrait('disloyal').GetName( GetNullCharacter )] in un [scheme|E] '[GetScheme('depose').GetTypeName]'" #controllare se va aggiunto 'per' deporre
+ scheme_agent_aptitude.loyal.depose_scheme: "[GetTrait('loyal').GetName( GetNullCharacter )] in un [scheme|E] '[GetScheme('depose').GetTypeName]'"
  scheme_agent_aptitude.trait.diplomat: "[GetTrait('diplomat').GetName( GetNullCharacter )]"
  scheme_agent_aptitude.trait.family_first: "[GetTrait('family_first').GetName( GetNullCharacter )]"
  scheme_agent_aptitude.trait.august: "[GetTrait('august').GetName( GetNullCharacter )]"
@@ -209,108 +209,108 @@
 
  agent_assassin: "Assassino"
  agent_assassin_i: "[success_chance_max_i]"
- agent_assassin_desc: "#WEAK Coltello, veleno o forcone da contadino: finché non respirano all'alba, per me è lo stesso.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [prowess_i] [prowess|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('sadistic').GetName( GetNullCharacter )] e [GetTrait('patient').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('compassionate').GetName( GetNullCharacter )] e [GetTrait('impatient').GetName( GetNullCharacter )]"
+ agent_assassin_desc: "#WEAK Coltello, veleno o forcone da contadino: finché all'alba non respirano più, per me fa lo stesso.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [prowess_i] [prowess|E] e [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('sadistic').GetName( GetNullCharacter )] e [GetTrait('patient').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('compassionate').GetName( GetNullCharacter )] e [GetTrait('impatient').GetName( GetNullCharacter )]"
 
  agent_thug: "Delinquente"
  agent_thug_i: "[success_chance_max_i]"
- agent_thug_desc: "#WEAK Spaccagli il cranio e prepara la botte; sarà sicuramente rapido, ma non deve per forza essere rumoroso.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [prowess_i] [prowess|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('wrathful').GetName( GetNullCharacter )] e [GetTrait('callous').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('calm').GetName( GetNullCharacter )] e [GetTrait('compassionate').GetName( GetNullCharacter )]"
+ agent_thug_desc: "#WEAK Spaccagli il cranio e prepara la botte; sarà sicuramente rapido, ma non deve per forza essere rumoroso.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [prowess_i] [prowess|E] e [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('wrathful').GetName( GetNullCharacter )] e [GetTrait('callous').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('calm').GetName( GetNullCharacter )] e [GetTrait('compassionate').GetName( GetNullCharacter )]"
 
  agent_comrade_in_arms: "Compagno d'Armi"
  agent_comrade_in_arms_i: "[success_chance_max_i]"
- agent_comrade_in_arms_desc: "#WEAK Dopo qualche minuto, "mi ricorderò" di aver lasciato cadere il mio medaglione e mi allontanerò, lasciando voi due a... parlare in privato.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('deceitful').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('honest').GetName( GetNullCharacter )]"
+ agent_comrade_in_arms_desc: "#WEAK Dopo qualche minuto, "mi ricorderò" di aver lasciato cadere il mio medaglione e mi allontanerò, lasciando voi due a... parlare in privato.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] e [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('deceitful').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('honest').GetName( GetNullCharacter )]"
 
  agent_musician: "Musicista"
  agent_musician_i: "[success_chance_max_i]"
- agent_musician_desc: "#WEAK È davvero vita se è priva di musica? Non credo, e poi a me la musica non manca mai.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] & [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('eccentric').GetName( GetNullCharacter )] e [GetTrait('stubborn').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('fickle').GetName( GetNullCharacter )] e [GetTrait('impatient').GetName( GetNullCharacter )]"
+ agent_musician_desc: "#WEAK È davvero vita se è priva di musica? Non credo, e poi a me la musica non manca mai.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] e [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('eccentric').GetName( GetNullCharacter )] e [GetTrait('stubborn').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('fickle').GetName( GetNullCharacter )] e [GetTrait('impatient').GetName( GetNullCharacter )]"
 
  agent_tumbler: "Acrobata"
  agent_tumbler_i: "[success_chance_max_i]"
- agent_tumbler_desc: "#WEAK Danzare, saltellare, contorcersi e scorrazzare! Finestra o muro, cado come un gatto e rimbalzo come un passero.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [prowess_i] [prowess|E] & [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('brave').GetName( GetNullCharacter )] e [GetTrait('temperate').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('craven').GetName( GetNullCharacter )] e [GetTrait('gluttonous').GetName( GetNullCharacter )]"
+ agent_tumbler_desc: "#WEAK Danzare, saltellare, contorcersi e scorrazzare! Finestra o muro, cado come un gatto e rimbalzo come un passero.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [prowess_i] [prowess|E] e [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('brave').GetName( GetNullCharacter )] e [GetTrait('temperate').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('craven').GetName( GetNullCharacter )] e [GetTrait('gluttonous').GetName( GetNullCharacter )]"
 
  agent_poet: "Poeta"
  agent_poet_i: "[success_chance_max_i]"
- agent_poet_desc: "#WEAK Qualsiasi signorotto istruito può padroneggiare le parole, ma serve un talento vero, assoluto, per padroneggiare il verso.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E], [intrigue_i] [intrigue|E], & [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]"
+ agent_poet_desc: "#WEAK Qualsiasi signorotto istruito può padroneggiare le parole, ma serve un talento vero, assoluto, per padroneggiare i versi.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E], [intrigue_i] [intrigue|E], e [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]"
 
  agent_shill: "Complice"
  agent_shill_i: "[success_chance_max_i]"
- agent_shill_desc: "#WEAK La voce amichevole di uno sconosciuto perfetto può fare molta strada tra la folla — e in fondo, chi può dire chi conosce chi?#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] & [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('arbitrary').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('just').GetName( GetNullCharacter )]"
+ agent_shill_desc: "#WEAK La voce amichevole di un perfetto sconosciuto può fare molta strada tra la folla — e in fondo, chi può dire chi conosce chi?#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] e [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('arbitrary').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('just').GetName( GetNullCharacter )]"
 
  agent_diplomat: "Diplomatico"
  agent_diplomat_i: "[success_chance_max_i]"
- agent_diplomat_desc: "#WEAK Alcune situazioni richiedono un tocco delicato, e non c'è nulla di più sottile di parole sussurrate in privato.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('deceitful').GetName( GetNullCharacter )] e [GetTrait('gregarious').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('honest').GetName( GetNullCharacter )] e [GetTrait('shy').GetName( GetNullCharacter )]"
+ agent_diplomat_desc: "#WEAK Alcune situazioni richiedono un tocco delicato, e non c'è nulla di più sottile di parole sussurrate in privato.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] e [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('deceitful').GetName( GetNullCharacter )] e [GetTrait('gregarious').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('honest').GetName( GetNullCharacter )] e [GetTrait('shy').GetName( GetNullCharacter )]"
 
  agent_scribe: "Scriba"
  agent_scribe_i: "[success_chance_max_i]"
- agent_scribe_desc: "#WEAK Ho sempre detto che i servitori migliori sono sicuri nella scrittura ma umili nell'eseguire le istruzioni.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] & [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('humble').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('arrogant').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
+ agent_scribe_desc: "#WEAK Ho sempre detto che i servitori migliori sono sicuri nella scrittura ma umili nell'eseguire le istruzioni.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] e [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('humble').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('arrogant').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
 
  agent_wolf_hunter: "Cacciatore di lupi"
  agent_wolf_hunter_i: "[success_chance_max_i]"
- agent_wolf_hunter_desc: "#WEAK Il romanticismo senza pericolo è senza passione, e quale miglior segno di pericolo della pelliccia di un lupo?#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [prowess_i] [prowess|E] & [martial_i] [martial|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('brave').GetName( GetNullCharacter )] e [GetTrait('compassionate').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('craven').GetName( GetNullCharacter )] e [GetTrait('sadistic').GetName( GetNullCharacter )]"
+ agent_wolf_hunter_desc: "#WEAK Il romanticismo senza pericolo è senza passione, e quale miglior segno di pericolo della pelliccia di un lupo?#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [prowess_i] [prowess|E] e [martial_i] [martial|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('brave').GetName( GetNullCharacter )] e [GetTrait('compassionate').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('craven').GetName( GetNullCharacter )] e [GetTrait('sadistic').GetName( GetNullCharacter )]"
 
  agent_thief: "Ladro"
  agent_thief_i: "[success_chance_max_i]"
- agent_thief_desc: "#WEAK La violenza, dicono, è il marchio dei dilettanti.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] & [prowess_i] [prowess|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('patient').GetName( GetNullCharacter )] e [GetTrait('deceitful').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('impatient').GetName( GetNullCharacter )] e [GetTrait('honest').GetName( GetNullCharacter )]"
+ agent_thief_desc: "#WEAK La violenza, dicono, è il marchio dei dilettanti.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] e [prowess_i] [prowess|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('patient').GetName( GetNullCharacter )] e [GetTrait('deceitful').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('impatient').GetName( GetNullCharacter )] e [GetTrait('honest').GetName( GetNullCharacter )]"
 
  agent_tutor: "Tutore"
  agent_tutor_i: "[success_chance_max_i]"
- agent_tutor_desc: "#WEAK Un buon insegnante si adatta tanto all'allievo quanto alla materia.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] & [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('diligent').GetName( GetNullCharacter )] e [GetTrait('humble').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('sadistic').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
+ agent_tutor_desc: "#WEAK Un buon insegnante si adatta tanto all'allievo quanto alla materia.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] e [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('diligent').GetName( GetNullCharacter )] e [GetTrait('humble').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('sadistic').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
 
  agent_poisoner: "Avvelenatore"
  agent_poisoner_i: "[success_chance_max_i]"
- agent_poisoner_desc: "#WEAK Anche l'uomo più forte è a un solo sorso della giusta combinazione di erbe da una tomba prematura.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )] e [GetTrait('callous').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('honest').GetName( GetNullCharacter )] e [GetTrait('compassionate').GetName( GetNullCharacter )]"
+ agent_poisoner_desc: "#WEAK Anche l'uomo più forte è ad un solo sorso della giusta combinazione di erbe da una tomba prematura.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] e [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )] e [GetTrait('callous').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('honest').GetName( GetNullCharacter )] e [GetTrait('compassionate').GetName( GetNullCharacter )]"
 
  agent_eunuch: "Eunuco"
  agent_eunuch_i: "[success_chance_max_i]"
- agent_eunuch_desc: "#WEAK Silenzioso come il passaggio della luna, si muove tra le sale marmoree, custode di segreti in una terra dove le parole sono moneta. All'ombra degli imperatori, sussurra, plasmando il destino dell'impero con nient'altro che il più tenue mormorio.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] & [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('deceitful').GetName( GetNullCharacter )] e [GetTrait('patient').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('compassionate').GetName( GetNullCharacter )] e [GetTrait('honest').GetName( GetNullCharacter )]"
+ agent_eunuch_desc: "#WEAK Silenzioso come il passaggio della luna, si muove tra le sale marmoree, custode di segreti in una terra dove le parole sono moneta. All'ombra degli imperatori, sussurra, plasmando il destino dell'impero con nient'altro che il più tenue mormorio.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] e [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('deceitful').GetName( GetNullCharacter )] e [GetTrait('patient').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('compassionate').GetName( GetNullCharacter )] e [GetTrait('honest').GetName( GetNullCharacter )]"
 
  agent_muscle: "Muscolo"
  agent_muscle_i: "[success_chance_max_i]"
  agent_muscle_desc: "#WEAK A volte servono più pugni che cervello.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [prowess_i] [prowess|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('strong').GetName( GetNullCharacter )] e [GetTrait('athletic').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('weak').GetName( GetNullCharacter )] e [GetTrait('craven').GetName( GetNullCharacter )]"
 
- agent_physic: "Fisico"
+ agent_physic: "Fisiologo"
  agent_physic_i: "[success_chance_max_i]"
  agent_physic_desc: "#WEAK La competenza nell'anatomia umana è scontata, ma ci vuole uno stomaco forte per applicarla nella pratica.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_physician').GetName( GetNullCharacter )] e [GetTrait('whole_of_body').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('impatient').GetName( GetNullCharacter )] e [GetTrait('wrathful').GetName( GetNullCharacter )]"
 
  agent_smith: "Fabbro"
  agent_smith_i: "[success_chance_max_i]"
- agent_smith_desc: "#WEAK Non tutta l'arte è dipinta — una parte è #EMP forgiata.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [stewardship_i] [stewardship|E] & [prowess_i] [prowess|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('ambitious').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('lazy').GetName( GetNullCharacter )] e [GetTrait('fickle').GetName( GetNullCharacter )]"
+ agent_smith_desc: "#WEAK Non tutta l'arte è dipinta — una parte è #EMP forgiata.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [stewardship_i] [stewardship|E] e [prowess_i] [prowess|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('ambitious').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('lazy').GetName( GetNullCharacter )] e [GetTrait('fickle').GetName( GetNullCharacter )]"
 
  agent_ambusher: "Assalitore"
  agent_ambusher_i: "[success_chance_max_i]"
- agent_ambusher_desc: "#WEAK Colpisci per primo, colpisci forte, colpisci a sorpresa e, se tutto va bene, non dovrai colpire due volte.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] & [martial_i] [martial|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] e [GetTrait('schemer').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('compassionate').GetName( GetNullCharacter )] e [GetTrait('just').GetName( GetNullCharacter )]"
+ agent_ambusher_desc: "#WEAK Colpisci per primo, colpisci forte, colpisci a sorpresa e, se tutto va bene, non dovrai colpire due volte.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] e [martial_i] [martial|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] e [GetTrait('schemer').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('compassionate').GetName( GetNullCharacter )] e [GetTrait('just').GetName( GetNullCharacter )]"
 
  agent_bodyguard: "Guardia del Corpo"
  agent_bodyguard_i: "[success_chance_max_i]"
- agent_bodyguard_desc: "#WEAK Una buona spada a portata di mano è molto più efficace se c'è già un braccio che la impugna.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [prowess_i] [prowess|E] & [martial_i] [martial|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('strong').GetName( GetNullCharacter )] e [GetTrait('physique_good_3').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('craven').GetName( GetNullCharacter )] e [GetTrait('weak').GetName( GetNullCharacter )]"
+ agent_bodyguard_desc: "#WEAK Una buona spada a portata di mano è molto più efficace se c'è già un braccio che la impugna.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [prowess_i] [prowess|E] e [martial_i] [martial|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('strong').GetName( GetNullCharacter )] e [GetTrait('physique_good_3').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('craven').GetName( GetNullCharacter )] e [GetTrait('weak').GetName( GetNullCharacter )]"
 
  agent_scout: "Esploratore"
  agent_scout_i: "[success_chance_max_i]"
- agent_scout_desc: "#WEAK Se non sai cosa ti attende, difficilmente potrai reagire in tempo.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] & [martial_i] [martial|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] e [GetTrait('forder').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('craven').GetName( GetNullCharacter )] e [GetTrait('fickle').GetName( GetNullCharacter )]"
+ agent_scout_desc: "#WEAK Se non sai cosa ti attende, difficilmente potrai reagire in tempo.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] e [martial_i] [martial|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] e [GetTrait('forder').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('craven').GetName( GetNullCharacter )] e [GetTrait('fickle').GetName( GetNullCharacter )]"
 
  agent_outrider: "Avanguardia"
  agent_outrider_i: "[success_chance_max_i]"
- agent_outrider_desc: "#WEAK La mobilità è la chiave di molte cose — un uomo nel posto giusto al momento giusto può muovere le montagne, e un buon cavallo muove l'uomo.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [martial_i] [martial|E] & [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] e [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('craven').GetName( GetNullCharacter )] e [GetTrait('fickle').GetName( GetNullCharacter )]"
+ agent_outrider_desc: "#WEAK La mobilità è la chiave di molte cose — un uomo nel posto giusto al momento giusto può muovere le montagne, e un buon cavallo muove l'uomo.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [martial_i] [martial|E] e [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] e [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('craven').GetName( GetNullCharacter )] e [GetTrait('fickle').GetName( GetNullCharacter )]"
 
  agent_bookkeeper: "Contabile"
  agent_bookkeeper_i: "[success_chance_max_i]"
- agent_bookkeeper_desc: "#WEAK Oh, i conti? Sì, tornano. Certo, certo...#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] & [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('scholar').GetName( GetNullCharacter )] e [GetTrait('theologian').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('arbitrary').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
+ agent_bookkeeper_desc: "#WEAK Oh, i conti? Sì, tornano. Certo, certo...#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] e [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('scholar').GetName( GetNullCharacter )] e [GetTrait('theologian').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('arbitrary').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
 
  agent_bailiff: "Balivo"
  agent_bailiff_i: "[success_chance_max_i]"
- agent_bailiff_desc: "#WEAK A noi non spetta valutare ciò che è giusto — solo far rispettare ciò che è scritto.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] & [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('just').GetName( GetNullCharacter )] e [GetTrait('overseer').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('content').GetName( GetNullCharacter )] e [GetTrait('shy').GetName( GetNullCharacter )]"
+ agent_bailiff_desc: "#WEAK A noi non spetta valutare ciò che è giusto — solo far rispettare ciò che è scritto.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] e [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('just').GetName( GetNullCharacter )] e [GetTrait('overseer').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('content').GetName( GetNullCharacter )] e [GetTrait('shy').GetName( GetNullCharacter )]"
 
  agent_draughtsman: "Disegnatore"
  agent_draughtsman_i: "[success_chance_max_i]"
- agent_draughtsman_desc: "#WEAK Un architetto di macchine, un ingegnere straordinario capace di trasformare qualsiasi tua idea in realtà... almeno, sulla carta.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] & [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('architect').GetName( GetNullCharacter )] e [GetTrait('journaller').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('content').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
+ agent_draughtsman_desc: "#WEAK Un architetto di macchine, un ingegnere straordinario capace di trasformare qualsiasi tua idea in realtà... almeno, sulla carta.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] e [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('architect').GetName( GetNullCharacter )] e [GetTrait('journaller').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('content').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
 
  agent_outcast: "Emarginato"
  agent_outcast_i: "[success_chance_max_i]"
- agent_outcast_desc: "#WEAK Un emarginato può essere un ottimo infiltrato; dopotutto, chi si chiede perché uno sventurato langue nelle ombre, o come un mendicante scelga sotto quale finestra attendere?#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] & [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('humble').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('ambitious').GetName( GetNullCharacter )]"
+ agent_outcast_desc: "#WEAK Un emarginato può essere un ottimo infiltrato; dopotutto, chi si chiede perché uno sventurato rimane a languire nelle ombre, o in che modo un mendicante sceglie sotto quale finestra elemosinare?#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] e [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('humble').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('ambitious').GetName( GetNullCharacter )]"
 
  agent_wrangler: "Pastore"
  agent_wrangler_i: "[success_chance_max_i]"
  agent_wrangler_desc.flavour: "#WEAK C'è un'arte nel calmare e intimorire un animale, piegandolo alla tua volontà — preferibilmente prima che sia lui a spezzarti il corpo.#!"
- agent_wrangler_desc.requirements: "$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('diplomat').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('forgiving').GetName( GetNullCharacter )]"
+ agent_wrangler_desc.requirements: "$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] e [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('diplomat').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('forgiving').GetName( GetNullCharacter )]"
  agent_wrangler_desc: "$agent_wrangler_desc.flavour$\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$agent_wrangler_desc.requirements$"
  agent_wrangler_speed: "$agent_wrangler$"
  agent_wrangler_speed_i: "[scheme_speed_i]"
@@ -318,7 +318,7 @@
 
  agent_devotee: "Devoto"
  agent_devotee_i: "[success_chance_max_i]"
- agent_devotee_desc: "#WEAK Hai sentito parlare del mio capo, del mio prode e giusto signore? Del mio benevolo dominatore? Dovunque vada, lo seguirò.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] & [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('eccentric').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('callous').GetName( GetNullCharacter )]"
+ agent_devotee_desc: "#WEAK Hai sentito parlare del mio capo, del mio prode e giusto signore? Del mio benevolo dominatore? Dovunque vada, lo seguirò.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] e [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('eccentric').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('callous').GetName( GetNullCharacter )]"
 
  agent_alchemist: "Alchimista"
  agent_alchemist_i: "[success_chance_max_i]"
@@ -328,8 +328,8 @@
 
  agent_lookout: "Vedetta"
  agent_lookout_i: "[secrecy_i]"
- agent_lookout_desc.flavour: "#WEAK Un paio di mani che fanno il lavoro sporco non servono a nulla senza un paio di occhi che le osservino.#!"
- agent_lookout_desc.requirements: "$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] & [martial_i] [martial|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('patient').GetName( GetNullCharacter )] e [GetTrait('paranoid').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('impatient').GetName( GetNullCharacter )] e [GetTrait('trusting').GetName( GetNullCharacter )]"
+ agent_lookout_desc.flavour: "#WEAK Un paio di mani che fanno il lavoro sporco non servono a nulla senza un paio di occhi che le tengono sott'occhio.#!"
+ agent_lookout_desc.requirements: "$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] e [martial_i] [martial|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('patient').GetName( GetNullCharacter )] e [GetTrait('paranoid').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('impatient').GetName( GetNullCharacter )] e [GetTrait('trusting').GetName( GetNullCharacter )]"
  agent_lookout_desc: "$agent_lookout_desc.flavour$\n$EFFECT_LIST_BULLET$ Fornisce [secrecy_i] [secrecy|E]\n$agent_lookout_desc.requirements$"
  agent_lookout_success: "$agent_lookout$"
  agent_lookout_success_i: "[success_chance_max_i]"
@@ -340,12 +340,12 @@
 
  agent_alibi: "Alibi"
  agent_alibi_i: "[secrecy_i]"
- agent_alibi_desc: "#WEAK Assurdo! Sono stato con loro per tutta la sera, lo giuro. Sai che la mia parola vale.#!\n$EFFECT_LIST_BULLET$ Fornisce [secrecy_i] [secrecy|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] & [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('honest').GetName( GetNullCharacter )] e [GetTrait('loyal').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('deceitful').GetName( GetNullCharacter )] e [GetTrait('disloyal').GetName( GetNullCharacter )]"
+ agent_alibi_desc: "#WEAK Assurdo! Sono stato con loro per tutta la sera, lo giuro. Sai che la mia parola vale.#!\n$EFFECT_LIST_BULLET$ Fornisce [secrecy_i] [secrecy|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] e [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('honest').GetName( GetNullCharacter )] e [GetTrait('loyal').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('deceitful').GetName( GetNullCharacter )] e [GetTrait('disloyal').GetName( GetNullCharacter )]"
 
  agent_justiciar: "Giustiziere"
  agent_justiciar_i: "[secrecy_i]"
  agent_justiciar_desc.flavour: "#WEAK La conoscenza della legge e la reputazione di applicarla con equità sono una qualità ammirevole, seppur arida.#!"
- agent_justiciar_desc.requirements: "$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] & [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('just').GetName( GetNullCharacter )] e [GetTrait('honest').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('arbitrary').GetName( GetNullCharacter )] e [GetTrait('deceitful').GetName( GetNullCharacter )]"
+ agent_justiciar_desc.requirements: "$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] e [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('just').GetName( GetNullCharacter )] e [GetTrait('honest').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('arbitrary').GetName( GetNullCharacter )] e [GetTrait('deceitful').GetName( GetNullCharacter )]"
  agent_justiciar_desc: "#WEAK $agent_justiciar_desc.flavour$#!\n$EFFECT_LIST_BULLET$ Fornisce [secrecy_i] [secrecy|E]\n$agent_justiciar_desc.requirements$"
  agent_justiciar_speed: "$agent_justiciar$"
  agent_justiciar_speed_i: "[scheme_speed_i]"
@@ -353,27 +353,27 @@
  
  agent_decoy: "Esca"
  agent_decoy_i: "[secrecy_i]"
- agent_decoy_desc: "#WEAK Un calice rovesciato, uno scherzo al momento giusto, una sfida sfacciata a duello. Tutti gli occhi sono puntati altrove, nessuno sospetta il vero gioco che si sta svolgendo nell'ombra.#!\n$EFFECT_LIST_BULLET$ Fornisce [secrecy_i] [secrecy|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue|E] & [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('eccentric').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('lazy').GetName( GetNullCharacter )] e [GetTrait('content').GetName( GetNullCharacter )]"
+ agent_decoy_desc: "#WEAK Un calice rovesciato, uno scherzo al momento giusto, una sfida sfacciata a duello. Tutti gli occhi sono puntati altrove, nessuno sospetta il vero gioco che si sta svolgendo nell'ombra.#!\n$EFFECT_LIST_BULLET$ Fornisce [secrecy_i] [secrecy|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue|E] e [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('eccentric').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('lazy').GetName( GetNullCharacter )] e [GetTrait('content').GetName( GetNullCharacter )]"
 
  #################################################
  # Speed Agents
 
  agent_infiltrator: "Infiltrato"
  agent_infiltrator_i: "[scheme_speed_i]"
- agent_infiltrator_desc: "#WEAK Una serratura lasciata aperta, una guardia troppo ubriaca per pattugliare, una mappa disegnata a mano fatta cadere fuori dalle mura, grazie a un amico all’interno.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] & [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('deceitful').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('honest').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
+ agent_infiltrator_desc: "#WEAK Una serratura lasciata aperta, una guardia troppo ubriaca per pattugliare, una mappa disegnata a mano fatta cadere fuori dalle mura, grazie a un amico all’interno.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] e [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('deceitful').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('honest').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
 
  agent_footpad: "Brigante"
  agent_footpad_i: "[scheme_speed_i]"
- agent_footpad_desc: "#WEAK Una borsa, una gola, un inguine — ci sono molte cose a cui si può rivolgere un coltello in un vicolo buio, se scegli il momento giusto.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] & [prowess_i] [prowess|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('deceitful').GetName( GetNullCharacter )] e [GetTrait('calm').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('honest').GetName( GetNullCharacter )] e [GetTrait('wrathful').GetName( GetNullCharacter )]"
+ agent_footpad_desc: "#WEAK Una borsa, una gola, un inguine — ci sono molte cose a cui si può rivolgere un coltello in un vicolo buio, se scegli il momento giusto.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] e [prowess_i] [prowess|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('deceitful').GetName( GetNullCharacter )] e [GetTrait('calm').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('honest').GetName( GetNullCharacter )] e [GetTrait('wrathful').GetName( GetNullCharacter )]"
 
  agent_socialite: "Mondano"
  agent_socialite_i: "[scheme_speed_i]"
- agent_socialite_desc: "#WEAK Un brindisi, miei signori e mie dame, a un mio buon amico di cui vorrei che aveste tutti la stessa stima che ho io!#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E], [intrigue_i] [intrigue|E], & [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('arrogant').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('humble').GetName( GetNullCharacter )]"
+ agent_socialite_desc: "#WEAK Un brindisi, miei signori e mie dame, a un mio buon amico di cui vorrei che aveste tutti la stessa stima che ho io!#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E], [intrigue_i] [intrigue|E], e [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('arrogant').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('humble').GetName( GetNullCharacter )]"
  
  agent_gabbler: "Chiacchierone"
  agent_gabbler_i: "[scheme_speed_i]"
  agent_gabbler_desc.flavour: "#WEAK C’è un’arte nel parlare per un’ora senza dire nulla.#!"
- agent_gabbler_desc.requirements: "$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('fickle').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('humble').GetName( GetNullCharacter )]"
+ agent_gabbler_desc.requirements: "$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] e [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('gregarious').GetName( GetNullCharacter )] e [GetTrait('fickle').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('humble').GetName( GetNullCharacter )]"
  agent_gabbler_desc: "$agent_gabbler_desc.flavour$\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$agent_gabbler_desc.requirements$"
  agent_gabbler_secrecy: "$agent_gabbler$"
  agent_gabbler_secrecy_i: "[secrecy_i]"
@@ -382,7 +382,7 @@
  agent_cleric: "Chierico"
  agent_cleric_i: "[scheme_speed_i]"
  agent_cleric_desc.flavour: "#WEAK La fede richiede fuoco come la terra ha sete di pioggia. Possono esistere separati, ma l’una è più povera senza l’altra.#!"
- agent_cleric_desc.requirements: "$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] & [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('zealous').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('cynical').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
+ agent_cleric_desc.requirements: "$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] e [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('zealous').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('cynical').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
  agent_cleric_desc: "$agent_cleric_desc.flavour$\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$agent_cleric_desc.requirements$"
  agent_cleric_success: "$agent_cleric$"
  agent_cleric_success_i: "[success_chance_max_i]"
@@ -391,7 +391,7 @@
  agent_theologian: "Teologo"
  agent_theologian_i: "[scheme_speed_i]"
  agent_theologian_desc.flavour: "#WEAK La religione non è fatta solo di fervore: retorica, fermezza e pensiero innovativo sono il cuore e il respiro della sapienza.#!"
- agent_theologian_desc.requirements: "$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] & [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('just').GetName( GetNullCharacter )] e [GetTrait('stubborn').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('arbitrary').GetName( GetNullCharacter )] e [GetTrait('fickle').GetName( GetNullCharacter )]"
+ agent_theologian_desc.requirements: "$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] e [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('just').GetName( GetNullCharacter )] e [GetTrait('stubborn').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('arbitrary').GetName( GetNullCharacter )] e [GetTrait('fickle').GetName( GetNullCharacter )]"
  agent_theologian_desc: "$agent_theologian_desc.flavour$\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$agent_theologian_desc.requirements$"
  agent_theologian_success: "$agent_theologian$"
  agent_theologian_success_i: "[success_chance_max_i]"
@@ -399,23 +399,23 @@
 
  agent_herald: "Araldo"
  agent_herald_i: "[scheme_speed_i]"
- agent_herald_desc: "#WEAK Un buon araldo dev’essere forte di voce, enfatico e spavaldo fino all’eccesso.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] & [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('arrogant').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('humble').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
+ agent_herald_desc: "#WEAK Un buon araldo dev’essere forte di voce, enfatico e spavaldo fino all’eccesso.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] e [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('arrogant').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('humble').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
 
  agent_drillmaster: "Istruttore"
  agent_drillmaster_i: "[scheme_speed_i]"
- agent_drillmaster_desc: "#WEAK Ricorda: ci addestriamo al meglio per poter combattere al peggio.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [martial_i] [martial|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('diligent').GetName( GetNullCharacter )] e [GetTrait('patient').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('content').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
+ agent_drillmaster_desc: "#WEAK Ricorda: ci addestriamo al meglio per poter combattere nelle peggiori condizioni.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [martial_i] [martial|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('diligent').GetName( GetNullCharacter )] e [GetTrait('patient').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('content').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
 
  agent_tracker: "Segugio"
  agent_tracker_i: "[scheme_speed_i]"
- agent_tracker_desc: "#WEAK Il fango è ancora umido dove lo stolto ha messo piede; avanti, non può avere più di un’ora di vantaggio!#!\n$EFFECT_LIST_BULLET$ Fornisce [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [martial_i] [martial|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] e [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('impatient').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
+ agent_tracker_desc: "#WEAK Il fango è ancora umido dove lo stolto ha messo piede; avanti, non può avere più di un’ora di vantaggio!#!\n$EFFECT_LIST_BULLET$ Fornisce [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [martial_i] [martial|E] e [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] e [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('impatient').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
 
  agent_planner: "Stratega"
  agent_planner_i: "[scheme_speed_i]"
- agent_planner_desc: "#WEAK Non è la forza cieca che decide le sorti, ma il calcolo e l’astuzia.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [martial_i] [martial|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] e [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('impatient').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
+ agent_planner_desc: "#WEAK Non è la forza cieca che decide le sorti, ma il calcolo e l’astuzia.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [martial_i] [martial|E] e [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] e [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('impatient').GetName( GetNullCharacter )] e [GetTrait('lazy').GetName( GetNullCharacter )]"
 
  agent_supplier: "Rifornitore"
  agent_supplier_i: "[scheme_speed_i]"
- agent_supplier_desc: "#WEAK Servono legami, tempismo e astuzia per eccellere nel commercio. La logistica le racchiude tutte.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [stewardship_i] [stewardship|E] & [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('avaricious').GetName( GetNullCharacter )] e [GetTrait('overseer').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('stubborn').GetName( GetNullCharacter )]"
+ agent_supplier_desc: "#WEAK Servono legami, tempismo e astuzia per eccellere nel commercio. La logistica le racchiude tutte.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [stewardship_i] [stewardship|E] e [diplomacy_i] [diplomacy|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('avaricious').GetName( GetNullCharacter )] e [GetTrait('overseer').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('shy').GetName( GetNullCharacter )] e [GetTrait('stubborn').GetName( GetNullCharacter )]"
 
  # Political Scheme Agents
  scheme_agent_aptitude.scaled_house_power_score: "Scala con il [powerful_family_rating|E]"
@@ -426,11 +426,11 @@
 
  agent_proponent: "Sostenitore"
  agent_proponent_i: "[success_chance_max_i]"
- agent_proponent_desc: "#WEAK Qualcuno che annunci ad alta voce e con orgoglio i tuoi successi, che siano veri o meno, fa miracoli per la reputazione.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('deceitful').GetName( GetNullCharacter )] e [GetTrait('gregarious').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('honest').GetName( GetNullCharacter )] e [GetTrait('shy').GetName( GetNullCharacter )]"
+ agent_proponent_desc: "#WEAK Qualcuno che annunci ad alta voce e con orgoglio i tuoi successi, che siano veri o meno, fa miracoli per la reputazione.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] e [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('deceitful').GetName( GetNullCharacter )] e [GetTrait('gregarious').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('honest').GetName( GetNullCharacter )] e [GetTrait('shy').GetName( GetNullCharacter )]"
 
  agent_sycophant: "Adulatore"
  agent_sycophant_i: "[success_chance_max_i]"
- agent_sycophant_desc: "#WEAK Un complimento non guasta mai con i potenti. Piacevolezze ben costruite e ossequiosa adulazione tattica, ancora meno.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('stubborn').GetName( GetNullCharacter )] e [GetTrait('deceitful').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('honest').GetName( GetNullCharacter )] e [GetTrait('humble').GetName( GetNullCharacter )]"
+ agent_sycophant_desc: "#WEAK Un complimento non guasta mai con i potenti. Piacevolezze ben costruite e ossequiosa adulazione tattica, ancora meno.#!\n$EFFECT_LIST_BULLET$ Fornisce [success_chance_max_i] [scheme_potential|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] e [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('stubborn').GetName( GetNullCharacter )] e [GetTrait('deceitful').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('honest').GetName( GetNullCharacter )] e [GetTrait('humble').GetName( GetNullCharacter )]"
 
  agent_political_socialite: "Mondano"
  agent_political_socialite_i: "[scheme_speed_i]"
@@ -438,19 +438,19 @@
 
  agent_bureaucrat: "Burocrate"
  agent_bureaucrat_i: "[scheme_speed_i]"
- agent_bureaucrat_desc: "#WEAK La conoscenza delle corrette procedure e dell’archiviazione adeguata offre innumerevoli opportunità di disonestà costruttiva.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] & [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('architect').GetName( GetNullCharacter )] e [GetTrait('paranoid').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('lazy').GetName( GetNullCharacter )] e [GetTrait('impatient').GetName( GetNullCharacter )]"
+ agent_bureaucrat_desc: "#WEAK La conoscenza delle corrette procedure e dell’archiviazione adeguata offre innumerevoli opportunità di disonestà costruttiva.#!\n$EFFECT_LIST_BULLET$ Riduce la [scheme_speed_i] [scheme_speed|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] e [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('architect').GetName( GetNullCharacter )] e [GetTrait('paranoid').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('lazy').GetName( GetNullCharacter )] e [GetTrait('impatient').GetName( GetNullCharacter )]"
  agent_bureaucrat_title: "$agent_bureaucrat$"
  agent_bureaucrat_title_i: "$agent_bureaucrat_i$"
  agent_bureaucrat_title_desc: "$agent_bureaucrat_desc$"
 
  agent_courtesan: "Cortigiano"
  agent_courtesan_i: "[secrecy_i]"
- agent_courtesan_desc: "#WEAK Si potrebbe pensare che i Grandi e i Buoni abbiano ormai imparato a stare attenti a chi confidano i segreti. Non l’hanno fatto.#!\n$EFFECT_LIST_BULLET$ Fornisce [secrecy_i] [secrecy|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] & [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('beauty_good_3').GetName( GetNullCharacter )] e [GetTrait('lustful').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('beauty_bad_3').GetName( GetNullCharacter )] e [GetTrait('chaste').GetName( GetNullCharacter )]"
+ agent_courtesan_desc: "#WEAK Si potrebbe pensare che i Grandi e i Buoni abbiano ormai imparato a stare attenti a chi vadano a confidare i propri segreti. Ma semplicemente non l’hanno fatto.#!\n$EFFECT_LIST_BULLET$ Fornisce [secrecy_i] [secrecy|E]\n$EFFECT_LIST_BULLET$ Richiede [diplomacy_i] [diplomacy|E] e [intrigue_i] [intrigue|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('beauty_good_3').GetName( GetNullCharacter )] e [GetTrait('lustful').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('beauty_bad_3').GetName( GetNullCharacter )] e [GetTrait('chaste').GetName( GetNullCharacter )]"
 
  agent_amanuensis: "Amanuense"
  agent_amanuensis_i: "[secrecy_i]"
- agent_amanuensis_desc: "#WEAK Un segretario è sempre lì, sempre ignorato, sempre intento a scribacchiare qualcosa in un angolo...#!\n$EFFECT_LIST_BULLET$ Fornisce [secrecy_i] [secrecy|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] & [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('paranoid').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('lazy').GetName( GetNullCharacter )] e [GetTrait('profligate').GetName( GetNullCharacter )]"
+ agent_amanuensis_desc: "#WEAK Un segretario è sempre lì, sempre ignorato, sempre intento a scribacchiare qualcosa in un angolo...#!\n$EFFECT_LIST_BULLET$ Fornisce [secrecy_i] [secrecy|E]\n$EFFECT_LIST_BULLET$ Richiede [learning_i] [learning|E] e [stewardship_i] [stewardship|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('paranoid').GetName( GetNullCharacter )] e [GetTrait('diligent').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('lazy').GetName( GetNullCharacter )] e [GetTrait('profligate').GetName( GetNullCharacter )]"
 
  agent_eunuch_speed: "Eunuco"
  agent_eunuch_speed_i: "[secrecy_i]"
- agent_eunuch_speed_desc: "#WEAK Silenzioso come il passaggio della luna, si muove tra le sale marmoree, custode di segreti in una terra dove le parole sono moneta. All’ombra degli_
+ agent_eunuch_speed_desc: "#WEAK Silenzioso come il passaggio della luna, si muove attraverso le sale di marmo, custode di segreti in una terra dove le parole sono moneta corrente. All'ombra degli imperatori, sussurra, plasmando il destino dell'impero con nient'altro che un leggero mormorio.#!\n$EFFECT_LIST_BULLET$ Fornisce [secrecy_i] [secrecy|E]\n$EFFECT_LIST_BULLET$ Richiede [intrigue_i] [intrigue|E] e [learning_i] [learning|E]\n$EFFECT_LIST_BULLET$ Trae #P Vantaggio#! dai [traits|E] come [GetTrait('deceitful').GetName( GetNullCharacter )] e [GetTrait('patient').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Trae #N Svantaggio#! dai [traits|E] come [GetTrait('compassionate').GetName( GetNullCharacter )] e [GetTrait('honest').GetName( GetNullCharacter )]"

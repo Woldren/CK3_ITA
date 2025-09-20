@@ -521,7 +521,7 @@
  
  refill_maa_interaction: "Rinforza la Milizia"
  refill_maa_interaction_desc: "Gli [adventurers|E] non dispongono di fonti affidabili di manodopera come i [rulers|E] [landed|E], e devono [reinforce_soldiers|E] per completare i [regiments|E] di [men_at_arms|E] e rimpiazzare le perdite."
- reinforce_soldiers_interaction: "Setaccia il Fondo"
+ reinforce_soldiers_interaction: "Raschia il Fondo"
  reinforce_soldiers_interaction_desc: "A volte semplicemente non si hanno abbastanza [provisions|E] o [gold|E] da destinare al [reinforce_soldiers|E] dei propri [regiments|E] di [men_at_arms|E]."
  reinforce_soldiers_option_provisions: "[provisions_i]Arruola con Provviste"
  reinforce_soldiers_option_provisions_desc: "Fornisci a reietti e cercatori di gloria abiti, armi, armatura, razioni e una tenda in cambio del loro servizio nei tuoi ranghi."
