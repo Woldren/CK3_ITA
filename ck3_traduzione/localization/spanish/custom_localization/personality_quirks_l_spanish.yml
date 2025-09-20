@@ -80,7 +80,7 @@
  diligent_neg_quirk:0 "stringe i pugni nella sua [ROOT.GetCharacter.Custom('GetClothingArticle')]"
  lazy_neg_quirk:0 "sbadiglia"
  wrathful_neg_quirk:0 "stringe i pugni"
- calm_neg_quirk:0 "focalizza la sua attenzione sul [ROOT.GetCharacter.Custom('GetIncidentalDetail')]"
+ calm_neg_quirk:0 "focalizza la sua attenzione su [ROOT.GetCharacter.Custom('GetIncidentalDetail')]"
  humble_neg_quirk:0 "guarda in basso"
  deceitful_neg_quirk:0 "socchiude gli occhi"
  honest_neg_quirk:0 "fa una smorfia"

@@ -774,7 +774,7 @@
  clan_government_cost_tooltip:0 "La tua forma di [government|E] è [GetGovernment('clan_government').GetName]" 
  character_modifiers_law_cost_tooltip:0 "Modificatori del Personaggio"
  SCRIPTED_COST_HEADER:0 "#S $TEXT$#!"
- SCRIPTED_COST_NO_DYNAST:1 "Solo il [dynast|E] può spendere il [dynasty_prestige|E]"
+ SCRIPTED_COST_NO_DYNAST:1 "Solo il [dynast|E] può spendere la [dynasty_prestige|E]"
  GAME_DATE_STRING:0 "$DAY$ $MONTH$, $YEAR$"
  GAME_DATE_STRING_SHORT:0 "$DAY$ $MONTH_SHORT$ $YEAR$"
  GAME_DATE_STRING_SHORT_NO_YEAR:0 "$DAY$ $MONTH_SHORT$"

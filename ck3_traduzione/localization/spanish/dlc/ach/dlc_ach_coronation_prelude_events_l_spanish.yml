@@ -26,7 +26,7 @@
  prelude_events.0010.e: "[regent.GetFirstNameNoTooltip] può dire ciò che preferisce."
  
  prelude_events.0020.t: "Cospiratori a corte"
- prelude_events.0020.desc.intro: "«…via via che il suo governo si indebolisce, quella testa resterà senza corona.» [faction_member.Custom('IT_NAM_COL3')][faction_member.GetTitledFirstName] si china verso [faction_member_2.Custom('IT_NAM_COL3')][faction_member_2.GetTitledFirstName], la voce bassa e tagliente. «Questa incoronazione è il luogo perfetto per scovare nobili degni che la pensino come noi.»\n\nNaturalmente, sono ben consapevole delle intenzioni della"
+ prelude_events.0020.desc.intro: "«…via via che il suo governo si indebolisce, quella testa resterà senza corona.» [faction_member.Custom('IT_NAM_COL3')][faction_member.GetTitledFirstName] si china verso [faction_member_2.Custom('IT_NAM_COL3')][faction_member_2.GetTitledFirstName], la voce bassa e tagliente. «Questa incoronazione è il luogo perfetto per scovare nobili degni che la pensino come noi.»\n\nNaturalmente, sono ben consapevole delle intenzioni della fazione"
  prelude_events.0020.desc.faction_member: "[faction.GetName], guidata [faction_member.Custom('IT_NAM_COL5')][faction_member.GetTitledFirstNameNoTooltip] in persona."
  prelude_events.0020.desc.faction_member_2: "[faction.GetName], guidata [faction_member_2.Custom('IT_NAM_COL5')][faction_member_2.GetTitledFirstNameNoTooltip] in persona."
  prelude_events.0020.desc.no_leader: "[faction.GetName]."
@@ -45,7 +45,7 @@
  not_invited_coronation_opinion: "Non invitato all'incoronazione"
  
  prelude_events.0030.t: "Che bello vederti"
- prelude_events.0030.desc.intro: "Il cortile di [activity.GetCurrentPhase.GetLocation.GetName] è immerso in un bagliore dorato; una brezza scuote le foglie mentre gli ospiti sfilano sotto.\n\n«\[ROOT.Char.GetFirstNameNoTooltip]!» Mi volto: ([guest.Custom('DE_ART_DEF_P_A')]) mi\[guest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))] [guest.GetFirstName] mi chiama per nome."
+ prelude_events.0030.desc.intro: "Il cortile di [activity.GetCurrentPhase.GetLocation.GetName] si accende di un bagliore dorato; una brezza mette in danza le foglie mentre gli ospiti vi sfilano sotto.\n\n«\[ROOT.Char.GetFirstNameNoTooltip]!» Mi volto: ([guest.Custom('DE_ART_DEF_P_A')]) mi\[guest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))] [guest.GetFirstName] mi chiama per nome."
  prelude_events.0030.desc.lover: "Bell[guest.Custom('DE_END_PRO_S_N')] come sempre, si fa largo tra la folla e si dirige verso di me. «Speravo di trovarti qui», sorride [guest.GetSheHe], invitante."
  prelude_events.0030.desc.friend: "Con un sorriso smagliante, [guest.GetSheHe] praticamente mi trotta incontro. «Amic[ROOT.Char.Custom('DE_END_PRO_S_N')]!» mi urla, «Che bello vederti!»"
  prelude_events.0030.a: ""Ho sentito dire che le scuderie sono eccezionalmente romantiche.""
@@ -58,7 +58,7 @@
  every_party_character: "Ogni ospite con i tratti [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )], [GetTrait('gregarious').GetName( GetNullCharacter )] o [GetTrait('drunkard').GetName( GetNullCharacter )]"
  
  prelude_events.0040.t: "Tu no"
- prelude_events.0040.desc: "La giornata era fin troppo piacevole; e, naturalmente, doveva rovinarsi alla sola vista [guest.Custom('IT_NAM_COL2')][guest.Custom('InsultAdjective')] [guest.GetTitledFirstName], [guest.Custom('DE_ART_DEF_P_A')] mi[guest.Custom('DE_END_PRO_S_N')] odiatissim[guest.Custom('DE_END_PRO_S_N')] rivale.\n\n«Oh, [ROOT.Char.GetLadyLord] [ROOT.Char.GetFirstNameNoTooltip]», fa finta di non vedermi finché non [guesst.Custom('DE_END_PRO_S_N')] sono abbastanza vicin[ROOT.Char.Custom('DE_END_PRO_S_N')]. «Ci intratterrai durante la cena? O sono questi gli abiti che un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip] porta ad un'incoronazione?»"
+ prelude_events.0040.desc: "La giornata era fin troppo piacevole; e, naturalmente, doveva rovinarsi alla sola vista [guest.Custom('IT_NAM_COL2')][guest.Custom('InsultAdjective')] [guest.GetTitledFirstName], [guest.Custom('DE_ART_DEF_P_A')] mi[guest.Custom('DE_END_PRO_S_N')] odiatissim[guest.Custom('DE_END_PRO_S_N')] rivale.\n\n«Oh, [ROOT.Char.GetLadyLord] [ROOT.Char.GetFirstNameNoTooltip]», fa finta di non vedermi finché non [guest.Custom('DE_END_PRO_S_N')] sono abbastanza vicin[ROOT.Char.Custom('DE_END_PRO_S_N')]. «Ci intratterrai durante la cena? O questi sono proprio gli abiti che un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip] porta ad un'incoronazione?»"
  prelude_events.0040.a: "[guest.GetSheHe|U] non parlerà così tanto quando avrò finito."
  prelude_events.0040.b: ""Ho preso ispirazione da tua madre.""
  prelude_events.0040.c: "Ascolterò tutto ciò che [guest.GetTitledFirstNameNoTooltip] dirà ai suoi amici stanotte."
@@ -67,7 +67,7 @@
  every_callous_vengeful_wrathful_guest: "Ogni ospite con i tratti [GetTrait('callous').GetName( GetNullCharacter )], [GetTrait('vengeful').GetName( GetNullCharacter )] o [GetTrait('wrathful').GetName( GetNullCharacter )]"
  
  prelude_events.0050.t: "Un volto familiare"
- prelude_events.0050.desc.intro: "Il cortile è lussureggiante di fiori, gli ospiti ridono impazienti, [ROOT.Char.Custom('GetIncidentalDetail')].\n\n«[guest.Custom2('RelationToMe', SCOPE.sC('root_scope'))|U]!» ([guest.Custom('DE_ART_DEF_P_D')]) mi[guest.Custom('DE_END_PRO_S_N')]"
+ prelude_events.0050.desc.intro: "Il cortile è lussureggiante di fiori, gli ospiti ridono impazienti, e [ROOT.Char.Custom('GetIncidentalDetail')].\n\n«[guest.Custom2('RelationToMe', SCOPE.sC('root_scope'))|U]!» ([guest.Custom('DE_ART_DEF_P_D')]) mi[guest.Custom('DE_END_PRO_S_N')]"
  prelude_events.0050.desc.callous: "fastidios[guest.Custom('DE_END_PRO_S_N')]"
  prelude_events.0050.desc.normal: "car[guest.Custom('DE_END_PRO_S_N')]"
  prelude_events.0050.desc.outro: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))] [guest.GetFirstName] mi chiama. «Qui sono tutti o a complottare o ubriachi» [guest.GetSheHe] sussurra, «Mi sei mancat[ROOT.Char.Custom('DE_END_PRO_S_N')].»"
@@ -93,7 +93,7 @@
  bp4_advocate_domain_construction_county_modifier_desc: "Il proprietario di questa contea ha sacrificato un po' d'onore in cambio dell'aiuto edilizio di un monarca appena incoronato."
  
  prelude_events.0070.t: "Un'offerta di corte"
- prelude_events.0070.desc.intro: "Un piccolo [ROOT.Char.Custom('GetRandomRegionalWildDaytimeBird')] si infila tra i piedi degli invitati e strappa risate a tutti, perfino [Select_CString(host.IsFemale,'alla mia Signora','al mio Signore')]. E' proprio [host.GetSheHe] la ragione per il quale siamo qui riuniti: [host.Custom('IT_NAM_COL3')][host.GetTitledFirstName|l].\n\n«[ROOT.Char.GetLadyLord|U] [ROOT.Char.GetFirstNameNoTooltip]», mi chiama per nome, sorridendo."
+ prelude_events.0070.desc.intro: "Un piccolo [ROOT.Char.Custom('GetRandomRegionalWildDaytimeBird')] si infila tra i piedi degli invitati e strappa risate a tutti, perfino [Select_CString(host.IsFemale,'alla mia Signora','al mio Signore')]. E' proprio [host.GetSheHe] la ragione per il quale siamo qui riuniti: [host.Custom('IT_NAM_COL3')][host.GetTitledFirstName|l|U].\n\n«[ROOT.Char.GetLadyLord|U] [ROOT.Char.GetFirstNameNoTooltip]», mi chiama per nome, sorridendo."
  prelude_events.0070.desc.friend: "«Sai che la nostra amicizia mi è cara e che desidero null'altro che ascoltare i tuoi consigli. Ti prego, siedi al mio fianco."
  prelude_events.0070.desc.diplomacy: "«Ho sentito che le tue abilità nell'arte della diplomazia sono senza pari."
  prelude_events.0070.desc.stewardship: "«Ho notato che governi il tuo reame con grande efficienza; l'inconfondibile mano di [Select_CString(ROOT.Char.IsFemale,'una buona amministratrice','un buon amministratore')]."
@@ -109,7 +109,7 @@
  bp4_lazy_realm_focus_modifier_desc: "Questo personaggio ha rifiutato un'offerta per diventare consigliere per concentrarsi sul proprio reame… o almeno così dice."
  
  prelude_events.0080.t: "Prendete il meglio"
- prelude_events.0080.desc.intro: "«Buon[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip|l]», mi volto e mi imbatto in [host.GetShortUIName], ovvero [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l], al cui fianco vi si trova un[courtier.Custom('DE_PRO_POS_P_2P')] [courtier.GetWomanMan] particolarmente nervos[courtier.Custom('DE_END_PRO_S_N')]. «Sapete che vi stimo e sarebbe per me una grande gioia potervi aiutare».\n\n«Ecco: vi offro [courtier.Custom('DE_ART_DEF_P_A')] migliore e più brillante [Select_CString(courtier.IsFemale,'delle mie donne','dei miei uomini')], [courtier.GetFirstName], [Select_CString(courtier.IsFemale,'la mia più abile','il mio più abilee')] [guest.Custom2('RelationToMe', SCOPE.sC('courtier'))]. Che questo possa essere"
+ prelude_events.0080.desc.intro: "«Buon[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip|l]», mi volto e mi imbatto in [guest.GetShortUIName], ovvero [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l|U], al cui fianco vi si trova un[courtier.Custom('DE_PRO_POS_P_2P')] [courtier.GetWomanMan] particolarmente nervos[courtier.Custom('DE_END_PRO_S_N')]. «Sapete che vi stimo e sarebbe per me una grande gioia potervi aiutare».\n\n«Ecco: vi offro [courtier.Custom('DE_ART_DEF_P_A')] migliore e più brillante [Select_CString(courtier.IsFemale,'delle mie donne','dei miei uomini')], [courtier.GetFirstName], [Select_CString(courtier.IsFemale,'la mia più abile','il mio più abilee')] [guest.Custom2('RelationToMe', SCOPE.sC('courtier'))]. Che questo possa essere"
  prelude_events.0080.desc.same_house: "un segno di amicizia nella nostra casata»."
  prelude_events.0080.desc.fallback: "l'inizio di un'amicizia tra le nostre casate»."
  prelude_events.0080.desc.friend: "un segno della nostra amicizia»."
@@ -125,10 +125,10 @@
  bp4_paranoid_measures_modifier_desc: "Dopo che [CHARACTER.GetShortUIName|U] è stat[CHARACTER.Custom('DE_END_PRO_S_N')] offert[CHARACTER.Custom('DE_END_PRO_S_N')] [Select_CString(courtier.IsFemale,'una cortigiana sospetta','un cortigiano sospetto')], questo personaggio ha aumentato la propria vigilanza."
  
  prelude_events.0090.t: "Degno di un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip]"
- prelude_events.0090.desc.intro: "«Piano!» sento la voce di un[guest.Custom('DE_PRO_POS_P_2P')] [guest.GetWomanMan] e mi volto per trovare [CHARACTER.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l] che dà lievi colpetti al fianco del suo cavallo.\n\n"
+ prelude_events.0090.desc.intro: "«Piano!» sento la voce di un[guest.Custom('DE_PRO_POS_P_2P')] [guest.GetWomanMan] e mi volto per trovare [CHARACTER.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l|U] che dà lievi colpetti al fianco del suo cavallo.\n\n"
  prelude_events.0090.desc.blood_brother: "Un[personaggio.Custom('DE_PRO_PER_P_3P_G')][Select_CString( guest.IsFemale, 'amica', 'amico' )] come nessun[guest.Custom('DE_PRO_POS_P_2P')] altr[guest.Custom('DE_END_PRO_S_N')]; fatico a trattenere un sorriso quando apre le braccia."
  prelude_events.0090.desc.bad_opinion: "Quest[guest.Custom('DE_END_PRO_S_N')] [guest.Custom('InsultNoun')] [guest.Custom('InsultAdjective')] è riuscit[guest.Custom('DE_END_PRO_S_N')] chissà come ad arrivare all’incoronazione. A stento riesco a trattenere una smorfia quando si avvicina."
- prelude_events.0090.desc.fallback: "([guest.Custom('DE_ART_DEF_P_A')]|U) [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))] [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l] si avvicina a me con un ampio sorriso."
+ prelude_events.0090.desc.fallback: "([guest.Custom('DE_ART_DEF_P_A')]|U) [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))] [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l|U] si avvicina a me con un ampio sorriso."
  prelude_events.0090.desc.outro: "\n\n«Che ne dite?» indicando un gruppo di pecore alle proprie spalle. «Un dono sufficientemente degno?»."
  prelude_events.0090.aa: "«[guest.Custom('SisterBrother')|U] mi[guest.Custom('DE_END_PRO_S_N')]! Festeggiamo [Select_CString(And(ROOT.Char.IsFemale, guest.IsFemale), 'insieme', 'insieme')]!»."
  prelude_events.0090.a: "«Potete riportarle a [guest.GetCapitalLocation.GetNameNoTooltip].»"
@@ -138,7 +138,7 @@
  friend_nomadic_guest_coronation_herd_corresponding: "[Select_CString(CHARACTER.IsLocalPlayer,'',CHARACTER.GetShortUIName)] [Select_CString( CHARACTER.IsLocalPlayer, 'Hai offerto', 'ha offerto' )] alcune pecore a [TARGET_CHARACTER.GetShortUIName|U] durante la sua incoronazione"
  
  prelude_events.0100.t: "Edifici promessi"
- prelude_events.0100.desc: "«Che genere di [ROOT.Char.GetTitleAsNameNoTooltip] lascia che i domini dei suoi vassalli si inaridiscano e marciscano? La gente mormora, mi[ROOT.Char.Custom('DE_ART_DEF_P_A')] [ROOT.Char.GetLadyLord]», mi ammonisce severamente [vassal.Custom('DE_ART_DEF_P_A')] mi[vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))], [vassal.Custom('IT_NAM_COL3')][vassal.GetTitledFirstName|l], [vassal.Custom('quirk_pos_pp')].\n\n«Vi esorto a guardare dentro di voi e a ricordare che la fama di un dominio è la fama del suo Signore»."
+ prelude_events.0100.desc: "«Che genere di [ROOT.Char.GetTitleAsNameNoTooltip] lascia che i domini dei suoi vassalli si inaridiscano e marciscano? La gente mormora, mi[ROOT.Char.Custom('DE_ART_DEF_P_A')] [ROOT.Char.GetLadyLord]», mi ammonisce severamente [vassal.Custom('DE_ART_DEF_P_A')] mi[vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))], [vassal.Custom('IT_NAM_COL3')][vassal.GetTitledFirstName|l|U], [vassal.Custom('quirk_pos_pp')].\n\n«Vi esorto a guardare dentro di voi e a ricordare che la fama di un dominio è la fama del suo Signore»."
  prelude_events.0100.a: "«Prometto che non lo dimenticherò»."
  prelude_events.0100.b: "«Fate fiorire il vostro dominio, [vassal.GetTitledFirstNameNoTooltip|l]»."
  prelude_events.0100.c: "«Forse dovrei concentrarmi nello studiare le tecniche…»."
@@ -149,7 +149,7 @@
  friend_coronation_paid_for_building_corresponding: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Hai', 'ha' )] contribuito con dell'oro agli sforzi edilizi di [CHARACTER.GetShortUIName]."
  
  prelude_events.0110.t: "Inaudito"
- prelude_events.0110.desc: "Mi accorgo che [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l] lancia sguardi furtivi nella mia direzione. [guest.Custom('quirk_pos_present')], e infine si avvicina a me. Con un rispettoso inchino, comincia:\n\n«Carissim[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], noi [guest_culture.GetCollectiveNounNoTooltip] desideriamo sostenervi ora e nei giorni a venire. La corona presto sarà sul vostro capo, ma le nostre usanze sono nel vostro cuore?»."
+ prelude_events.0110.desc: "Mi accorgo che [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l|U] lancia sguardi furtivi nella mia direzione. [guest.Custom('quirk_pos_present')], e infine si avvicina a me. Con un rispettoso inchino, comincia:\n\n«Carissim[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], noi [guest_culture.GetCollectiveNounNoTooltip] desideriamo sostenervi ora e nei giorni a venire. La corona presto sarà sul vostro capo, ma le nostre usanze sono nel vostro cuore?»."
  prelude_events.0110.a: "«Parlerò la lingua del vostro cuore»."
  prelude_events.0110.b: "Tutti devono conoscere il mio amore per i [guest_culture.GetCollectiveNounNoTooltip]."
  prelude_events.0110.c: "L’incoronazione richiede un approccio diverso."
@@ -158,7 +158,7 @@
  friend_coronation_learn_language_corresponding: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Hai', 'ha' )] manifestato interesse a imparare la lingua di [CHARACTER.GetShortUIName] alla sua incoronazione."
  
  prelude_events.0120.t: "Ricordare gli amici"
- prelude_events.0120.desc: "«Non dev’essere facile», dice [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l], [guest.Custom('quirk_pos_pp')]. «Posso solo immaginare il peso della corona che presto avrete sul capo».\n\n«Ma non temete. I vostri vassalli leali saranno al vostro fianco, ora e sempre. Prendete questo». Fa un cenno a uno dei suoi servi, che si inchina e mi presenta un dono splendidamente incartato. «[guest_artifact.GetName]», spiega [guest.GetFirstNameNoTooltip]. «Mi è stato di grande utilità»."
+ prelude_events.0120.desc: "«Non dev’essere facile», dice [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l|U], [guest.Custom('quirk_pos_pp')]. «Posso solo immaginare il peso della corona che presto avrete sul capo».\n\n«Ma non temete. I vostri vassalli leali saranno al vostro fianco, ora e sempre. Prendete questo». Fa un cenno a uno dei suoi servi, che si inchina e mi presenta un dono splendidamente incartato. «[guest_artifact.GetName]», spiega [guest.GetFirstNameNoTooltip]. «Mi è stato di grande utilità»."
  prelude_events.0120.aa: "«Ricambierò il gesto»."
  prelude_events.0120.a: "«Vale così poco il mio amore?»."
  prelude_events.0120.b: "«Grazie per la vostra generosità, [guest.GetTitleAsNameNoTooltip|l]»."
@@ -169,24 +169,24 @@
  friend_coronation_gift_exchange_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] e [CHARACTER.GetShortUIName] hanno partecipato a uno scambio di doni all'incoronazione di [TARGET_CHARACTER.GetShortUIName]."
  
  prelude_events.0130.t: "La grazia sulle vostre proprietà"
- prelude_events.0130.desc: "«Che [coronator.GetFaith.HighGodName] vi colmi di benedizioni in questo giorno così fausto, [ROOT.Char.GetTitledFirstNameNoTooltip|l]». [coronator.Custom('ES_ElLa')|U] [coronator.GetTitledFirstName|l] china il capo, [coronator.Custom('quirk_pos_pp')].\n\n«Vorrei commemorare l’occasione con una benedizione sull’artefatto che tanto apprezzate: [my_artifact.GetName]»."
+ prelude_events.0130.desc: "«Che [coronator.GetFaith.HighGodName] vi colmi di benedizioni in questo giorno così fausto, [ROOT.Char.GetTitledFirstNameNoTooltip|l]». [coronator.Custom('ES_ElLa')|U] [coronator.GetTitledFirstName|l|U] china il capo, [coronator.Custom('quirk_pos_pp')].\n\n«Vorrei commemorare l’occasione con una benedizione sull’artefatto che tanto apprezzate: [my_artifact.GetName]»."
  prelude_events.0130.a: "Che [coronator.GetFaith.HighGodName] gli offra la sua protezione."
  prelude_events.0130.a.tt: "[my_artifact.GetName]:\n$BULLET_WITH_TAB$Ottiene #positive_value +10 %#! al mese di [piety|E] [piety_i]\n$BULLET_WITH_TAB$Ottiene #positive_value +10#! di [opinion|E] da parte del [clergy|lE]"
  prelude_events.0130.b: "Che serva come ricordo dell’incoronazione."
  prelude_events.0130.b.tt: "[my_artifact.GetName]:\n$BULLET_WITH_TAB$Ottiene #positive_value +8 %#! al mese di [prestige|E] [prestige_i]"
  prelude_events.0130.c: "«Ai miei ospiti piacerebbe molto vedere una cosa simile»."
  prelude_events_0130_cynical_tt: "Grazie al tuo #high [trait|E] [GetTrait('cynical').GetName( GetNullCharacter )]#!, la [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l] #P aumenta considerevolmente#!"
- coronation_blessed_artifact_desc: "[my_artifact.GetDesc]\n\nSembra emanare una luce tremolante. Un ricordo della benedizione ricevuta durante l’incoronazione [artifact_owner.Custom('ES_DelDela')] [artifact_owner.GetTitledFirstName|l]."
+ coronation_blessed_artifact_desc: "[my_artifact.GetDesc]\n\nSembra emanare una luce tremolante. Un ricordo della benedizione ricevuta durante l’incoronazione [artifact_owner.Custom('ES_DelDela')] [artifact_owner.GetTitledFirstName|l|U]."
  
  prelude_events.0140.t: "Nella vostra luce gloriosa"
- prelude_events.0140.desc: "[host.Custom('IT_NAM_COL3')|U][host.GetTitledFirstName|l] si prende un momento per osservare la folla, [host.Custom('quirk_pos_pp')]. Le voci dei cortigiani sono state incessanti come il cinguettio degli uccelli, e non ho dubbi che [host.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l] intenda unirsi a loro.\n\n«O nobile [ROOT.Char.GetTitleAsNameNoTooltip|l]!», dice avvicinandosi a me. «Posso osare chiedere cosa pensate della celebrazione? Non ho dubbi che il regno [host.Custom('IT_NAM_COL2')][host.GetTitledFirstNameNoTooltip|l] sarà fondato sull’amore e sulla giustizia»."
+ prelude_events.0140.desc: "[host.Custom('IT_NAM_COL3')|U][host.GetTitledFirstName|l|U] si prende un momento per osservare la folla, [host.Custom('quirk_pos_pp')]. Le voci dei cortigiani sono state incessanti come il cinguettio degli uccelli, e non ho dubbi che [host.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l|U] intenda unirsi a loro.\n\n«O nobile [ROOT.Char.GetTitleAsNameNoTooltip|l]!», dice avvicinandosi a me. «Posso osare chiedere cosa pensate della celebrazione? Non ho dubbi che il regno [host.Custom('IT_NAM_COL2')][host.GetTitledFirstNameNoTooltip|l] sarà fondato sull’amore e sulla giustizia»."
  prelude_events.0140.a: "#EMP Non dire nulla.#!"
  prelude_events.0140.b: "«Invidieranno la nostra fortuna per essere stati qui!»."
  prelude_events.0140.b.offer_support_tt: "Grazie al tuo [intent|E] #high $coronation_offer_support$#!, la [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l] #P aumenta notevolmente#!"
  prelude_events.0140.c: "«Che regni a lungo!»."
  
  prelude_events.0150.t: "Che sapete di [guest.GetSheHe]?"
- prelude_events.0150.desc: "«[ROOT.Char.GetTitledFirstNameNoTooltip]», [host.Custom('IT_NAM_COL3')][host.GetTitledFirstName|l] mi chiama con un grande sorriso. Accanto a [host.GetSheHe] c’è un[guest.Custom('DE_PRO_PER_P_3P_G')]altr[guest.Custom('DE_END_PRO_S_N')] invitat[guest.Custom('DE_END_PRO_S_N')], un[guest.Custom('DE_PRO_POS_P_2P')] [guest.GetTitleAsNameNoTooltip] che non conosco.\n\n«Ecco a voi [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l]», [host.Custom('IT_NAM_COL3')][host.GetTitledFirstNameNoTooltip|l] me [guest.Custom('DE_PRO_POS_P_3P')] presenta. «Credo che abbiate molto in comune, forse [guest.Custom('MatchingConversationSubject_alone')]»."
+ prelude_events.0150.desc: "«[ROOT.Char.GetTitledFirstNameNoTooltip]», [host.Custom('IT_NAM_COL3')][host.GetTitledFirstName|l|U] mi chiama con un grande sorriso. Accanto a [host.GetSheHe] c’è un[guest.Custom('DE_PRO_PER_P_3P_G')]altr[guest.Custom('DE_END_PRO_S_N')] invitat[guest.Custom('DE_END_PRO_S_N')], un[guest.Custom('DE_PRO_POS_P_2P')] [guest.GetTitleAsNameNoTooltip] che non conosco.\n\n«Ecco a voi [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l|U]», [host.Custom('IT_NAM_COL3')][host.GetTitledFirstNameNoTooltip|l] me [guest.Custom('DE_PRO_POS_P_3P')] presenta. «Credo che abbiate molto in comune, forse [guest.Custom('MatchingConversationSubject_alone')]»."
  prelude_events.0150.aa: "«Sarei lieto di mostrar[guest.Custom('DE_END_PRO_S_N')] il posto»."
  prelude_events.0150.a: "[guest.GetSheHe|U] sembra piuttosto educat[guest.Custom('DE_END_PRO_S_N')]."
  prelude_events.0150.b: "Mi interesserebbe di più parlare con [host.Custom('IT_NAM_COL3')][host.GetTitledFirstNameNoTooltip|l]."
@@ -197,7 +197,7 @@
  friend_coronation_introduction_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] e [CHARACTER.GetShortUIName] sono diventati amici dopo essere stati presentati ad un'incoronazione."
  
  prelude_events.0160.t: "La Casata [ROOT.Char.GetDynasty.GetNameNoTooltip] tra gli invitati"
- prelude_events.0160.desc: "«[guest.GetHouse.GetMotto]», dice una voce familiare. Mi volto e incontro ([guest.Custom('DE_ART_DEF_P_A')]) mi[guest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))], [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l], che cerca la mia attenzione.\n\n«[ROOT.Char.GetFirstNameNoTooltip]», mi saluta [guest.Custom('quirk_pos_pp')]. «È un piacere immenso incontrare un[ROOT.Char.Custom('DE_PRO_PER_P_3P_G')] altr[ROOT.Char.Custom('DE_END_PRO_S_N')] componente della dinastia [ROOT.Char.GetDynasty.GetName] in un’occasione simile. Mi sembra sia passata una vita dall’ultima riunione»."
+ prelude_events.0160.desc: "«[guest.GetHouse.GetMotto]», dice una voce familiare. Mi volto e incontro ([guest.Custom('DE_ART_DEF_P_A')]) mi[guest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))], [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l|U], che cerca la mia attenzione.\n\n«[ROOT.Char.GetFirstNameNoTooltip]», mi saluta [guest.Custom('quirk_pos_pp')]. «È un piacere immenso incontrare un[ROOT.Char.Custom('DE_PRO_PER_P_3P_G')] altr[ROOT.Char.Custom('DE_END_PRO_S_N')] componente della dinastia [ROOT.Char.GetDynasty.GetName] in un’occasione simile. Mi sembra sia passata una vita dall’ultima riunione»."
  prelude_events.0160.aa: "«La Casata [ROOT.Char.GetDynasty.GetNameNoTooltip] prevarrà!»."
  prelude_events.0160.a: "«Un tale piacere non si può ricambiare»."
  prelude_events.0160.b: "«Che il mondo sappia che siamo qui!»."
@@ -208,7 +208,7 @@
  coronation_famed_dynasty_modifier_desc: "L'alto livello di fama di un membro di questa dinastia è stato riconosciuto da tutti gli ospiti di un'incoronazione."
  
  prelude_events.0170.t: "La voce del [guest.GetFaith.GetNameNoTooltip|l]"
- prelude_events.0170.desc: "Quando la luce del giorno inizia a calare, noto [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l] che guarda verso di me. Con un cenno del capo di riconoscimento, sorride e si avvicina.\n\n«È stato un giorno splendido, non trovate, [ROOT.Char.GetFirstNameNoTooltip]? Senza dubbio dobbiamo queste benedizioni a [guest.GetFaith.HighGodName]. Noi, i [guest.GetFaith.GetAdherentNamePluralNoTooltip], veneriamo i Suoi insegnamenti», dichiara con orgoglio, prendendo fiato prima di proseguire nella sua dissertazione teologica."
+ prelude_events.0170.desc: "Quando la luce del giorno inizia a calare, noto [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName|l|U] che guarda verso di me. Con un cenno del capo di riconoscimento, sorride e si avvicina.\n\n«È stato un giorno splendido, non trovate, [ROOT.Char.GetFirstNameNoTooltip]? Senza dubbio dobbiamo queste benedizioni a [guest.GetFaith.HighGodName]. Noi, i [guest.GetFaith.GetAdherentNamePluralNoTooltip], veneriamo i Suoi insegnamenti», dichiara con orgoglio, prendendo fiato prima di proseguire nella sua dissertazione teologica."
  prelude_events.0170.aa: "«Sciocchezze! Ascoltate ora di [ROOT.Char.GetFaith.HighGodName]!»."
  prelude_events.0170.aa.success: "[guest.GetShortUIName] comprende la gloria di [ROOT.Char.GetFaith.HighGodName]"
  prelude_events.0170.aa.failure: "[guest.GetShortUIName] si sente insultat[guest.Custom('ES_OA')]"

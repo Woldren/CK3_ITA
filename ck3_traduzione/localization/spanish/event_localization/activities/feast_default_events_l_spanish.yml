@@ -87,7 +87,7 @@
  feast_default.1013.d:0 ""Ho agito in difesa di [guest_to_save.GetFirstNameNoTooltip], lo avete visto tutti.""
 
  feast_default.1014.t:1 "Il Testimone"
- feast_default.1014.desc:0 "[guest_to_murder.Custom('DE_ART_DEF_P_A')] mi[guest_to_murder.Custom('DE_END_PRO_S_N')] [guest_to_murder.Custom('InsultAdjective')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_murder'))] [guest_to_murder.GetTitledFirstName] sogghigna mentre mi trascino fuori per liberarmi la vescica. La rabbia che mi sta già ribollendo nelle vene acquista uno slancio devastante mentre [guest_to_murder.GetSheHe] mi viene incontro. "Guarda chi c'è! Il [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNoun')] [ROOT.Char.GetFirstNameNoTooltip]! Scommetto che—"\n\nProprio mentre affondo la mia spada nella sua faccia infuriata sento un leggero rantolo dietro di me."
+ feast_default.1014.desc:0 "([guest_to_murder.Custom('DE_ART_DEF_P_A')]) mi[guest_to_murder.Custom('DE_END_PRO_S_N')] [guest_to_murder.Custom('InsultAdjective')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_murder'))] [guest_to_murder.GetTitledFirstName] sogghigna mentre mi trascino fuori per svuotarmi la vescica. La rabbia che mi sta già ribollendo nelle vene acquista uno slancio devastante mentre [guest_to_murder.GetSheHe] mi viene incontro. "Guarda chi c'è! Il [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNoun')] [ROOT.Char.GetFirstNameNoTooltip]! Scommetto che—"\n\nProprio mentre affondo la mia spada nella sua faccia infuriata sento un leggero rantolo dietro di me."
  feast_default.1014.a:0 "Per favore, [witness.GetTitledFirstNameNoTooltip], non dirlo a nessuno!"
  feast_default.1014.a_2:0 "Non dirai a nessuno ciò che hai visto."
  feast_default.1014.b:0 "Quando si parla di essere nel posto sbagliato al momento sbagliato!"
@@ -236,7 +236,7 @@
  feast_default.2006.d:0 "Ti prego, lasciami in pace!"
 
  feast_default.2007.t:1 "Relazione Smascherata!"
- feast_default.2007.desc:0 "Un forte tonfo risuona nella grande sala quando una delle porte dei quartieri di servizio si rompe.\n\nIn un groviglio senza vestiti, [Select_CString(lover_guest_1.IsFemale,'la','il')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1'))], [lover_guest_1.Custom('IT_NAM_COL3')][lover_guest_1.GetTitledFirstName], e [Select_CString(lover_guest_2.IsFemale,'la','il')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2'))], [lover_guest_2.Custom('IT_NAM_COL3')][lover_guest_2.GetTitledFirstName], cadono a terra davanti a tutti."
+ feast_default.2007.desc:0 "Un tonfo sordo rimbalza nella grande sala quando una delle porte dei quartieri di servizio cede di schianto.\n\nIn un groviglio di corpi senza vestiti, ([Select_CString(lover_guest_1.IsFemale,'la','il')]) mi[lover_guest_1.Custom('DE_END_PRO_S_N')]  [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1'))], [lover_guest_1.Custom('IT_NAM_COL3')][lover_guest_1.GetTitledFirstName], e ([Select_CString(lover_guest_2.IsFemale,'la','il')]) mi[lover_guest_2.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2'))], [lover_guest_2.Custom('IT_NAM_COL3')][lover_guest_2.GetTitledFirstName], rotolano fuori e precipitano a terra davanti a tutti."
  feast_default.2007.a_chaste:0 "Non riesco a guardare!"
  feast_default.2007.a_lustful:0 "Basta #EMP immaginare#! cosa stessero facendo..."
  feast_default.2007.a_sadistic:0 "Ahahah! Tutto ciò è uno spasso!"
@@ -261,7 +261,7 @@
  feast_default.2011.b:0 ""Ahahah, [favor_character.Custom('IT_NAM_COL3')][favor_character.GetTitledFirstNameNoTooltip] è troppo ubriaco per sapere di cosa stia parlando!""
 
  feast_default.2012.t:1 "Il Testimone"
- feast_default.2012.desc:0 "Mentre mi trascino fuori per liberarmi la vescica sento gridare dietro l'angolo. Appena mi volto vedo [murderer.Custom('DE_ART_DEF_P_A')] mi[murderer.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('murderer'))] [murderer.GetTitledFirstName] sghignazzare mentre affonda la sua lama nel volto di [murdered_guest.GetTitledFirstName].\n\nQualsiasi suono io abbia emesso deve essere stato sufficiente, poiché [murderer.GetFirstName] si è voltato verso di me, con la sorpresa sul viso."
+ feast_default.2012.desc:0 "Mentre mi trascino fuori per svuotarmi la vescica, sento gridare dietro l'angolo. Appena mi volto vedo ([murderer.Custom('DE_ART_DEF_P_A')]) mi[murderer.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('murderer'))] [murderer.GetTitledFirstName] sghignazzare mentre affonda la sua lama nel volto [murdered_guest.Custom('IT_NAM_COL2')][murdered_guest.GetTitledFirstName].\n\nQualsiasi sia stat il rumore che io abbia emesso, deve essere stato sufficiente, poiché [murderer.GetFirstName] si è voltato verso di me, con un'aria sorpresa a segnar[murderer.Custom('DE_END_PRO_S_N')] il viso."
  feast_default.2012.a:0 "Che cosa avete #EMP fatto#!?!"
  feast_default.2012.b:0 "Tutti sapranno del vostro crimine!"
  feast_default.2012.c:0 "Il mio silenzio ha un prezzo."
