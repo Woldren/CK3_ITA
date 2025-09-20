@@ -733,8 +733,8 @@
  
  magnificence_badly_reduced_by_factions_tt: "@warning_icon! #X La [coronation_magnificence|E] ha subito gravi danni a causa delle [factions|E] che ti si oppongono#!"
  magnificence_badly_reduced_by_faction_tt: "@warning_icon! #X La [coronation_magnificence|E] ha subito gravi danni a causa di una [faction|E] che ti si oppone#!"
- magnificence_reduced_by_factions_tt: "La [coronation_magnificence|E] è #N danneggiata#! dalle [factions|E] che ti si oppongono"
- magnificence_reduced_by_faction_tt: "La [coronation_magnificence|E] è #N danneggiata#! da una [faction|E] che ti si oppone"
+ magnificence_reduced_by_factions_tt: "La [coronation_magnificence|E] è stata #N danneggiata#! dalle [factions|E] che ti si oppongono"
+ magnificence_reduced_by_faction_tt: "La [coronation_magnificence|E] è stata #N danneggiata#! da una [faction|E] che ti si oppone"
  
  
  # Rewards
