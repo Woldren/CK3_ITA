@@ -405,7 +405,7 @@
  nick_the_defender_of_highgod:0 "il Difensore di [CHARACTER.GetFaith.HighGodName]"
  nick_the_defender_of_highgod_desc:1 "[CHARACTER.GetFaith.GetName] ha pochi guardiani nel mondo mortale come [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetShortUINameNoTooltipNoFormat]."
  nick_the_blood_motherfather:0 "[CHARACTER.Custom('DE_ART_DEF_P_A')] [CHARACTER.GetMotherFather|U]-Sanguinari[CHARACTER.Custom('DE_END_PRO_S_N')]"
- nick_the_blood_motherfather_desc:1 "La gente sussurra il suo soprannome [CharYourHerHis(CHARACTER)] con timore e soggezione - ci vuole un certo tipo di [CHARACTER.Custom('MatriarchPatriarch')] per trattare la propria famiglia come fa [CharYouSheHe(CHARACTER)]."
+ nick_the_blood_motherfather_desc:1 "La gente sussurra il suo soprannome con timore e soggezione - ci vuole senz'altro una forte tendenza [Select_CString(CHARACTER.IsFemale,'matriarcale','patriarcale')] per trattare la propria famiglia come fa questo personaggio."
  nick_the_divine:0 "[CHARACTER.Custom('DE_ART_DEF_P_A')] Divin[CHARACTER.Custom('DE_END_PRO_S_N')]"
  nick_the_divine_desc:1 "Pochi udendo [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetShortUINameNoTooltipNoFormat] potrebbero pensare ad altro - sicuramente [CharYouSheHe(CHARACTER)] è almeno toccato dal divino?"
  nick_the_anointed:0 "l'Unt[CHARACTER.Custom('DE_END_PRO_S_N')]"

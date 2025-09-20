@@ -472,7 +472,7 @@
  
  coronation_events.0210.t: "Il banchetto"
  coronation_events.0210.desc.host: "La cerimonia è compiuta: la corona riposa dove doveva. Mi rialzo — non per impartire ordini, ma per dare seguito alla festa.\n\n«Amici miei, i riti sono conclusi. Che le tavole si colmino, i calici si levino e che questa sala ricordi la gioia oltre al dovere».\n\nUn mormorio corre tra i presenti, tiepido e compiaciuto. Almeno per ora, tutti hanno davanti a sé qualcosa che non sono io."
- coronation_events.0210.desc.guest: "Le formalità si chiudono e, con esse, la quiete che teneva insieme la cerimonia. Un brusio attraversa la sala quando l’ospite si alza di nuovo, a segnare la fine della cerimonia e l’inizio di qualcosa di più disteso.\n\nAlza appena la voce, quel tanto che basta: «Amici miei, i riti sono terminati. Che le tavole si riempiano, i calici si levino e che questa sala ricordi la gioia oltre al dovere».\n\nLe parole vengono accolte con favore e, per la prima volta in tutta la giornata, questo raduno comincia davvero a somigliare ad una festa."
+ coronation_events.0210.desc.guest: "Le formalità si chiudono e, con esse, la quiete che teneva insieme la cerimonia. Un brusio attraversa la sala quando l’ospite si alza di nuovo, a segnare la fine della cerimonia e l’inizio di qualcosa di più disteso.\n\nAlza appena la voce, quel tanto che basta: «Amici miei, i riti sono terminati. Che le tavole si riempiano, i calici si levino e che questa sala ricordi la gioia oltre al dovere».\n\nLe parole vengono accolte con favore e, per la prima volta in tutta la giornata, questo raduno, così vario, comincia davvero a somigliare ad una festa."
  coronation_events.0210.a: "Fatto ciò, è tempo di festeggiare!"
  coronation_events.0210.b: "Finalmente, la cerimonia è finita."
  
