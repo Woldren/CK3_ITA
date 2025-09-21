@@ -18,7 +18,7 @@
  feast_default.1003.b:0 "Non avevo realizzato che [other_guest.GetSheHe] la pensasse così!"
 
  feast_default.1004.t:1 "Delizie Celestiali"
- feast_default.1004.desc_exotic:0 "Ah, che razza di cibo è questo, così saporito? Mai prima d'ora ho visto o assaggiato una tale incredibile delizia esotica! Oh, e questi dolci meravigliosamente strani e sontuosi!\n\nQuesto banchetto ha alcuni piatti incredibili che non ho mai visto prima e dubito che lo farò ancora! Devo chiederne la provenienza!"
+ feast_default.1004.desc_exotic:0 "Ah, che cibo straordinario è questo, così ricco di sapore! Mai, prima d'ora, avevo visto o assaggiato una simile delizia esotica! E quei dolci, così insoliti e al tempo stesso sontuosi!\n\nQuesto banchetto offre piatti meravigliosi che non mi era mai capitato di incontrare, e dubito che accadrà di nuovo! Devo assolutamente chiedere da dove provengano!"
  feast_default.1004.desc_lavish:0 "Che vasta e infinita gamma di cibi e dolci! È questo il tipo di pasti che posso aspettarmi in [ROOT.Char.GetFaith.PositiveAfterLife]? Oh, e che vasta scelta di dolci!\n\nQuesta deve essere la più grande quantità di cibo che io abbia mai visto in un solo posto!"
  feast_default.1004.desc_meager:0 "Che cos'è questo? C'è della carne su quest'osso? Gli uomini di solito mangiano verdure così piccole? È questo il tipo di pasti che posso aspettarmi all'[ROOT.GetFaith.NegativeAfterLife]? Oh, e dove sono i dolci?\n\nQuesto deve essere il modo in cui mangiano i contadini!"
  feast_default.1004.desc:0 "Ah, che tipo di carne è mai questa, così saporita? Cosa sono queste verdure, quasi dolci? Oh, e quei meravigliosi piccoli dessert!\n\nQuesto banchetto ha alcuni dei migliori cibi che io abbia mai assaggiato!"

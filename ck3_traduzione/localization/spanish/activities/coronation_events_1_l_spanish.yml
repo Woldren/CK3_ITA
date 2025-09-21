@@ -6,11 +6,13 @@
  coronation_events.1000.rival.desc: "Nel pieno della baldoria, scorgo ([rival.Custom('DE_ART_DEF_P_A')]) mi[rival.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival'))], [rival.GetName], che passa monete a un giullare. Pochi istanti dopo, l'artista proclama:\n\n"Questa composizione è un dono di [rival.GetNameNoTooltip] per [Select_CString(ROOT.Char.IsFemale,'la sua cara amica','il suo caro amico')] [ROOT.Char.GetName]! S'intitola \"[ROOT.Char.GetFirstNameNoTooltip], specie di [ROOT.Char.Custom('InsultNoun')]!\"".\n\nTra il pubblico riesco ad individuare [rival.GetFirstNameNoTooltip], il volto illuminato da una gioia [rival.Custom('InsultAdjective')]. La canzone, purtroppo, è piuttosto vivace."
  coronation_events.1000.tyrant.desc: "Un giullare, con il viso arrossato in segno di sfida, fa un passo avanti e intona una ballata:\n\n"Contemplate [ROOT.Char.GetName], il Pugno di Ferro!".\n\nOgni strofa è condita da lodi pungenti che risuonano per tutta la sala. Stringo i denti mentre la melodia beffarda cresce e descrive il mio regno come nient'altro che una misera tirannia."
  coronation_events.1000.desc_fallback: "Il giullare conclude una melodia travolgente con una fioritura e poi proclama:\n\n"Questa canzone è dedicata a [ROOT.Char.GetName], s'intitola \"[ROOT.Char.GetFirstNameNoTooltip], specie di [ROOT.Char.Custom('InsultNoun')]!\"".\n\nCala il silenzio; lo seguono risate che si diffondono tra il pubblico. La melodia è sorprendentemente brillante."
+
  coronation_events.1000.bribe: "Meglio pagare per una canzone che mi lodi."
  coronation_events.1000.epic_rap_battle: "Il mio ingegno sarà il mio abito!"
  coronation_events.1000.epic_rap_battle.tt.success: "Riesci a conquistare il pubblico"
  coronation_events.1000.epic_rap_battle.tt.failure: "Fai una figuraccia tentando di conquistare la corona"
  coronation_events.1000.guards: "Guardie, arrestate questo [bard.Custom('InsultNoun')|l]!"
+
  coronation_events.1002.t: "Dov'è?"
  coronation_events.1002.desc: "Per quanto rinomata, la mia casa non è celebre per la sua organizzazione. L'anticamera ribolle di scuse sussurrate mentre i servitori corrono con vesti e preparativi dell'ultimo minuto. Superfluo. Sono certo che gli oggetti più preziosi e importanti siano al sicuro, come la mia corona. Fermo.\n\nDov'è la mia corona?!"
  coronation_events.1002.rival.desc: "Pochi istanti prima dell'incoronazione cerco la mia corona… ed è sparita! Il panico mi assale quando vedo ([rival.Custom('DE_ART_DEF_P_A')]) mi[rival.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival'))] [rival.GetName] in piedi in un angolo; il suo sguardo indugia sul posto vuoto. Con un sorrisetto, quel verme [rival.Custom('InsultAdjective')] mi sfida ad accusar[rival.Custom('DE_PRO_POS_P_3P')].\n\nAl mio fianco, ([helper.Custom('DE_ART_DEF_P_A')]) mi[helper.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('helper'))] [helper.GetName] fa un passo avanti notando la situazione allarmante. Non c'è tempo per i dubbi: devo agire!"
@@ -20,6 +22,7 @@
  coronation_events.1002.accuse: "Ora l'hai fatta grossa, specie di [rival.Custom('InsultNoun')|l] [rival.Custom('InsultAdjective')]!"
  coronation_events.1002.accuse.flavor: "Beccati questo!"
  coronation_events.1002.friend: "Per fortuna ho [helper.GetFirstNameNoTooltip] dalla mia parte."
+
  coronation_events.1004.t: "Sussurri durante il banchetto"
  coronation_events.1004.desc: "A bassa voce, ([confidant.Custom('DE_ART_DEF_P_A')]) mi[confidant.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('confidant'))], [confidant.GetName], mi rivela un segreto che portava con sé. Mentre processo la notizia sconvolgente, vedo un[SPY.Custom('DE_PRO_POS_P_2P')] [spy.GetWomanMan] misterios[spy.Custom('DE_END_PRO_S_N')] chinat[spy.Custom('DE_END_PRO_S_N')] verso di noi nel tentativo di carpire ogni parola.\n\nChissà quale malizia persegue. Non deve venire a sapere che [confidant.GetFirstNameNoTooltip] [secret_to_reveal.Custom('SecretDescriptionThirdPerson')]. Una simile rivelazione sarebbe intollerabile."
  coronation_events.1004.bribe: ""Quanto in cambio del vostro silenzio?"."
@@ -29,6 +32,7 @@
  coronation_events.1004.intimidation.tt.failure: "Le tue minacce non intimidiscono [spy.Custom('IT_NAM_COL3')][spy.GetTitledFirstNameNoTooltip|l]"
  coronation_events.1004.guards: ""Portate questa specie di [spy.Custom('InsultNoun')|l] nelle segrete!"."
  coronation_events.1004.opt-out: ""Non è affar mio"."
+
  coronation_events.1007.t: "Una questione di precedenza"
  coronation_events.1007.desc: "Quando la processione sta per iniziare, sento ([first_guest.Custom('DE_ART_DEF_P_A')]) mi[first_guest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('first_guest'))], [first_guest.GetFirstName], e ([second_guest.Custom('DE_ART_DEF_P_A')]) mi[second_guest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('second_guest'))] [second_guest.GetFirstName] discutere su chi guiderà l'ingresso alla cerimonia.\n\nLa loro lite risuona per tutta l'anticamera; un[first_guest.Custom('DE_END_PRO_S_N')] insiste che, essendo la persona più [first_guest.Custom('ComplimentAdjective')], lo merita di più; mentre [Select_CString( second_guest.IsFemale, 'l'altra', 'l'altro' )] afferma che debba spettare alla figura dal carattere più [second_guest.Custom('ComplimentAdjective')].\n\nÈ, senza dubbio, un complimento."
  coronation_events.1007.guest.desc: "Mi trovo sulla soglia, sul punto di guidare la processione di incoronazione, quando [second_guest.GetFirstName] si fa avanti e sbotta:\n\n"I miei servigi alla corona esigono che io abbia la precedenza!".\n\nLa sua sfrontatezza altera la sacralità dei nostri preparativi."
@@ -38,6 +42,7 @@
  coronation_events.1007.first_guest: "([first_guest.Custom('DE_ART_DEF_P_A')|U]) mi[first_guest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('first_guest'))] entrerà per prim[first_guest'.Custom('DE_END_PRO_S_N')]!"
  coronation_events.1007.second_guest: "[second_guest.GetFirstNameNoTooltip], vi siete guadagnato questo diritto."
  coronation_events.1007.opt_out: "Perché dovrei immischiarmi?"
+
  coronation_events.1011.t: "Pesante è la corona"
  coronation_events.1011.desc: "Nel silenzio che precede la mia incoronazione, i funzionari svelano il manufatto di [ancestor_artifact.GetName]! Il suo lucore canta i trionfi dei miei predecessori.\n\nRicordo ([previous_holder.Custom('DE_ART_DEF_P_A')]) mi[previous_holder.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('previous_holder'))], [previous_holder.Custom('IT_NAM_COL3')][previous_holder.GetTitledFirstNameRegnal|l], la cui maestria in [previous_holder.Custom('education_focus')] plasmò il suo regno benedetto. Così sarà anche per il mio, segnato da imprese in [ROOT.Char.Custom('education_focus')]. A loro volta, le mie gesta infonderanno il mio [ancestor_artifact.GetName] e allora esso canterà nuove canzoni su una melodia di fiducia."
  coronation_events.1011.refit: "Sarò io a scolpire la mia reputazione."
@@ -64,6 +69,7 @@
  artifact_monthly_learning_lifestyle_xp_2_modifier: "Esperienza mensile nello stile di vita erudizione"
  artifact_monthly_learning_lifestyle_xp_3_modifier: "Esperienza mensile nello stile di vita erudizione"
  artifact_monthly_learning_lifestyle_xp_4_modifier: "Esperienza mensile nello stile di vita erudizione"
+
  coronation_events.1012.t: "Una porzione cruda"
  coronation_events.1012.guest.desc: "Arriva il piatto forte: la crema e la panna lo ricorderanno!\n\nQuando [Select_CString(host.IsFemale, 'la nostra anfitriona', 'il nostro anfitrione' )] incide la carne, la fame mi si fa cenere in bocca: l'arrosto riversa sangue su tutta la tavola. Il banchetto diventa un campo di battaglia. Trattengo i conati mentre attorno a me serpeggiano sussurri di disgusto."
  coronation_events.1012.host.desc: "Arriva il piatto forte: la crema e la panna lo ricorderanno!\nC\nQuando taglio una porzione di [guest.Custom('GetExpensiveMeal')], la fame mi si fa cenere in bocca: l'arrosto riversa sangue su tutta la tavola. Il banchetto diventa un campo di battaglia. Trattengo i conati mentre attorno a me mormorii di disgusto si fanno sentire.\n\nMentre mi chiedo se avrei dovuto spendere di più per il cibo, noto [guest.GetName], che scosta il piatto inorridit[GUEST.Custom('DE_END_PRO_S_N')]. Bisogna agire in fretta!"
@@ -72,6 +78,7 @@
  coronation_events.1012.trend: "Di cosa parlate? È l'ultima moda!"
  coronation_events.1012.complain: "[host.GetTitledFirstNameNoTooltip], si tratta di uno scherzo?"
  coronation_events.1012.munch: "A me sembra perfetto!"
+
  coronation_events.1013.t: "Una serata ardente"
  coronation_events.1013.guest.desc: "La baldoria degli invitati mi strappa un sorriso; trattengo una risata quando, tra spinte e brindisi, li vedo rovinare a terra uno dopo l'altro.\n\nPoi un gesto maldestro: una torcia allentata viene urtata e precipita sui tendaggi.\n\nLe fiamme si arrampicano sulle pareti; le urla si moltiplicano, la folla si scompone e fugge. Mi getto al riparo, il cuore impazzito, mentre la sala si riempie in fretta di fumo e di panico."
  coronation_events.1013.host.desc: "Trattengo una risata quando la baldoria dei miei invitati li fa rovinare a terra uno dopo l'altro.\n\nMa un gesto scomposto urta una torcia allentata: cade sui tendaggi e, in un attimo, le fiamme si arrampicano sulle pareti; tra urla e spintoni, gli invitati si disperdono.\n\nDistratt[guest.Custom('DE_END_PRO_S_N')] dal/la suo/sua [guest.Custom('GetExpensiveDrink_Singular')], ([guest.Custom('DE_ART_DEF_P_A')]) mi[guest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))] [guest.GetName] non si è accort[guest.Custom('DE_END_PRO_S_N')] dell'incendio. Devo agire subito!"
@@ -80,18 +87,21 @@
  coronation_events.1013.hero: "Terrò a bada il fuoco! Da questa parte!"
  coronation_events.1013.snuff_out: "Basta tagliare l'afflusso d'aria…"
  coronation_events.1013.douse: "Versate una botte di [ROOT.Char.Custom('RegionalDrink')] per spegnere il fuoco!"
+
  coronation_events.1014.t: "Alimentare il panico"
  coronation_events.1014.guest.desc: "Mentre mi avvento sul mio succulento piatto di [guest.Custom('GetExpensiveMeal')], alzo il capo alle grida d'indignazione.\n\nPare che [Select_CString(host.IsFemale, 'la nostra anfitriona', 'il nostro anfitrione' )] non abbia calcolato cibo a sufficienza per tutti gli invitati. I nobili brandiscono piatti vuoti, l'orgoglio ferito alimenta parole brusche e gomitate ancor più brusche. Schivo una pioggia d'insulti mentre i dignitari offesi si contendono gli avanzi.\n\n[guest.GetName] resta intrappolat[guest.Custom('DE_END_PRO_S_N')] nel pieno della rissa."
  coronation_events.1014.host.desc: "Mentre mi avvento sul mio succulento piatto di [guest.Custom('GetExpensiveMeal')], alzo il capo alle grida d'indignazione.\n\nPare che abbia sbagliato a calcolare cibo a sufficienza per tutti gli invitati. I nobili brandiscono piatti vuoti, l'orgoglio ferito alimenta parole brusche e gomitate ancor più brusche. Schivo una pioggia d'insulti mentre i dignitari offesi si contendono gli avanzi.\n\n[guest.GetName] resta intrappolat[guest.Custom('DE_END_PRO_S_N')] nel pieno della rissa."
  coronation_events.1014.join: "Giù le mani! L'ultima porzione è mia!"
  coronation_events.1014.calm: "Calmate questi sciocchi!"
  coronation_events.1014.run: "Ne ho abbastanza di questa farsa!"
+
  coronation_events.1015.t: "Un brindisi benedetto"
  coronation_events.1015.desc: "Cala un silenzio riverente quando il canto del coro termina; un'aura di santità avvolge la sala. La mia reputazione di [GetPietyLevelName(ROOT.Char.GetPietyLevel)|Ll] sembra richiamare ([guest.Custom('DE_ART_DEF_P_A')]) mi[guest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))], [guest.GetName], che si alza e proclama con sincero zelo:\n\n"Che la luce di [ROOT.Char.GetFaith.DivineRealm] illumini il vostro regno e che [ROOT.Char.GetFaith.HighGodName] guidi il vostro cammino! Che [ROOT.Char.GetFaith.CreatorName] vi conceda saggezza e che [ROOT.Char.GetFaith.DevilName] non oscuri mai la vostra soglia!""
  coronation_events.1015.divine: "Lodiamo [ROOT.Char.GetFaith.HighGodName]!"
  custom.every_zealous_attending_character: "Ogni partecipante con [GetTrait('zealous').GetName( GetNullCharacter )]"
  coronation_events.1015.cherish: "Siete molto gentile, [guest.GetFirstNameNoTooltip]!"
  coronation_events.1015.hush: "Concordo. Ora, silenzio."
+
  coronation_events.1016.t: "Alziamo i calici"
  coronation_events.1016.desc: "La sala tace. I miei invitati trattengono il fiato in attesa che parli. Sollevo la coppa e il mio sguardo va ([guest.Custom('DE_END_ADJ_DEF_P_A')]) mi[guest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))], [guest.GetFirstName], creatura così [guest.Custom('InsultAdjective')], e ([guest2.Custom('DE_END_ADJ_DEF_P_A')])  mi[guest2.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_2'))], [guest_2.GetFirstName], altrettanto [guest_2.Custom('InsultAdjective')].\n\nMi spenderò in lodi melliflue che accarezzino il loro orgoglio, o proporrò un brindisi tanto avvelenato da ricordare chi detiene qui il potere?"
  coronation_events.1016.great: ""Ascoltate le mie parole, poiché sono veritiere!"."
@@ -99,6 +109,7 @@
  coronation_events.1016.great.tt.failure: "Non riesci a conquistar[Select_CString(And(guest.IsFemale, guest_2.IsFemale),'le','li')]"
  coronation_events.1016.embarrass: ""[guest.GetFirstNameNoTooltip] e [guest_2.GetFirstNameNoTooltip], devo ricordarvi…"."
  coronation_events.1016.nah: "… o potrei bere altro [guest.Custom('GetExpensiveDrink_Singular')]."
+
  coronation_events.1017.t: "Un'opportunità nella libagione"
  coronation_events.1017.desc: "Per tutta la sala, i nobili traggono recipienti con le migliori libagioni dei loro domini. ([supporter.Custom('DE_ART_DEF_P_A')|U]) mi[supporter.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('supporter'))] [supporter.GetFirstName], d'animo [supporter.Custom('ComplimentAdjective')], offre un sorso di [supporter.Custom('RegionalDrink')], dal profumo mielato.\n\nDall'altro lato, quella specie di [detractor.Custom('InsultAdjective')] che è ([detractor.Custom('DE_ART_DEF_P_A')|U]) mi[detractor.Custom('DE_END_PRO_S_N')]  [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('detractor'))] [detractor.GetFirstName] presenta una coppa di [detractor.Custom('RegionalDrink')] di qualità; il suo bouquet forte promette un retrogusto amaro, senza dubbio.\n\nLe sole fragranze mi esaltano i sensi. Tutti attendono il mio giudizio."
  coronation_events.1017.diplo: "Che il mio regno sia degno di tanta abbondanza e arte!"
@@ -106,6 +117,7 @@
  coronation_events.1017.empower: "Vi prego, mandatemene ancora, [supporter.GetFirstName]!"
  coronation_events.1017.nah: "I miei invitati possono bere per primi, io dopo."
  bp4_coronation_good_harvest_modifier: "Abbondanza di bevande straniere"
+
  coronation_events.1018.t: "Il gioco delle sedie"
  coronation_events.1018.desc: "Mentre osservo il banchetto, odo ([supporter.Custom('DE_ART_DEF_P_A')]) mi[supporter.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('supporter'))] [supporter.GetFirstName], col suo animo [supporter.Custom('ComplimentAdjective')], chiamarmi dall'altro capo del tavolo: "Vostra Eccellenza, di certo [detractor.GetFirstName] non dovrebbe sedere così vicino!". Abbasso lo sguardo su quell'essere [detractor.Custom('InsultAdjective')] qual è ([detractor.Custom('DE_ART_DEF_P_A')|U]) mi[detractor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('detractor'))] [detractor.GetFirstName], piazzat[detractor.Custom('DE_END_PRO_S_N')] alla mia sinistra."
  coronation_events.1018.desc.wrathful: "\n\nIl decoro trattiene la mia mano, ma il modo migliore d'agire è chiaramente spedire [detractor.GetFirstName] e la sua sedia lontano da me."
@@ -113,6 +125,7 @@
  coronation_events.1018.deal: "Tieni gli amici vicini…"
  coronation_events.1018.switch: "Tenete quella specie di [detractor.Custom('InsultNoun')] lontano da me."
  bp4_shielded_reign_modifier: "Schivando i dissidenti"
+
  coronation_events.1019.t: "Segni di lealtà"
  coronation_events.1019.desc: "Volgo lo sguardo [Select_CString(And(supporter.IsFemale, supporter_2.IsFemale), 'alle mie alleate', 'ai miei alleati')] più fedeli: ([supporter.Custom('DE_ART_DEF_P_A')] mi[supporter.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('supporter'))] [supporter.GetFirstName], così [supporter.Custom('ComplimentAdjective')], il cui valore quando [supporter_memory.GetDescription] fu innegabile, e ([supporter_2.Custom('DE_ART_DEF_P_A')] mi[supporter_2.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('supporter_2'))] [supporter_2.GetFirstName], così [supporter_2.Custom('ComplimentAdjective')], che restò al mio fianco quando [supporter_2_memory.GetDescription]. I loro volti brillano d'aspettativa: sanno che la loro lealtà mi ha condotto fin qui.\n\nCome godere di tale fedeltà senza cogliere ogni occasione per ricambiarla…?"
  coronation_events.1019.both: "[Select_CString(And(supporter.IsFemale, supporter_2.IsFemale), 'Entrambe', 'Entrambi')] la meritano allo stesso modo."
@@ -120,6 +133,7 @@
  coronation_events.1019.supporter: ""[supporter.GetFirstNameNoTooltip], ho qualcosa per voi"."
  coronation_events.1019.supporter_2: ""[supporter_2.GetFirstNameNoTooltip], accettate questo, vi prego"."
  coronation_events.1019.nah: "Dovranno bastare le parole."
+
  coronation_events.1020.t: "Preoccupazioni tra i clan"
  coronation_events.1020.desc: "Quando il banchetto d'incoronazione si spegne, voci alte attraversano la sala. "La casa [ROOT.Char.GetDynastyName] è la forza del dominio", insiste [dynasty_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)]. "La nostra famiglia deve guidare, come vuole la tradizione".\n\nDall'altro lato del tavolo, [not_dynasty_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] ribatte: "E gli altri? Dobbiamo pagare i vostri cugini e morderci la lingua?"."
  coronation_events.1020.embrace_supporters: "Favorirò chi mi è leale."
@@ -135,6 +149,7 @@
  coronation_events.1020.d: "Il mio dovere viene prima verso la mia famiglia."
  clan_unity_coronation_increased: "ha scelto di favorire la [house|E] rispetto agli estranei durante l'Incoronazione"
  clan_unity_coronation_decreased: "ha scelto di favorire gli estranei rispetto alla [house|E] durante l'Incoronazione"
+
  coronation_events.1021.t: "L'oro prima della corona"
  coronation_events.1021.desc: "Ancor prima che la corona onori la mia fronte, il peso del regno già si fa sentire. ([taxman.Custom('DE_ART_DEF_P_A')|U]) mi[taxman.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('taxman'))], [taxman.GetFirstName], avanza a grandi passi e dichiara: "Vostra Eccellenza; o riscuoto l'intera decima che mi è dovuta —senza l'ingerenza dei magistrati della vostra corte—, oppure mi ritiro dai miei doveri fiscali".\n\nAccanto a [taxman.GetSheHe], ([supporter.Custom('DE_ART_DEF_P_A')] mi[supporter.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('supporter'))], [supporter.GetName], osserva attent[supporter.Custom('DE_END_PRO_S_N')]. I suoi occhi chiedono: è una prova di lealtà o ambizione mascherata da servizio?"
  coronation_events.1021.embrace_supporters: ""Sto con [supporter.GetFirstNameNoTooltip], poiché fu con me"."
@@ -148,7 +163,6 @@
  coronation_thriving_collector_modifier: "Esattore fiscale prospero"
  coronation_thriving_collector_modifier_desc: "Il personaggio è efficiente nel riscuotere le tasse, con disappunto dei suoi pari."
  coronation_events.1021.impress_attendees: "«Onora il mio popolo con la tua giustizia»."
- coronation_events.1021.impress_attendees: ""Onoriamo il dominio con giustizia e grazia"."
  coronation_events.1021.impress_attendees.flavor: "Onoriamo le tradizioni del nostro clan, ringraziamo ogni invitato e che nessuno sappia con certezza quale sia la mia posizione."
  coronation_events.1021.a: "[taxman.Custom('IT_NAM_COL3')|U][taxman.GetTitledFirstNameNoTooltip] presume decisamente troppo."
  coronation_events.1021.a.flavor: "Non mi inchinerò alla moneta finché non porterò la corona. Vedremo chi comanda su chi."
@@ -159,11 +173,13 @@
  coronation_events.1021.c.flavor: "Se l’oro lastrica davvero la strada verso il potere, allora che sia accumulato il più possibile. Concedo a [taxman.GetFirstNameNoTooltip] piena libertà."
  clan_unity_coronation_nepotism.desc: "ha sostenuto il nepotismo favorendo la propria [house|lE] durante l'incoronazione."
  bp4_empowered_tax_collectors_modifier: "Esattori delle tasse potenziati"
+
  coronation_events.1022.t: "Un'offerta di seta"
  coronation_events.1022.desc: "([supporter.Custom('DE_ART_DEF_P_A')|U]) mi[supporter.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('supporter'))], [supporter.GetName], s'inginocchia dinanzi a me e solleva uno scrigno di vesti ricamate dicendo:\n\n"Vostra Eccellenza, ricordo chiaramente quando [supporter_memory.GetName|l]. In ricordo di momenti tanto preziosi, sarebbe per me il massimo onore che accettaste queste vesti di seta, sufficienti a vestire l'intera vostra corte. Vi chiedo soltanto di vestire sempre i [ROOT.Char.Custom('KnightCulturePluralNoTooltip')] del vostro seguito con abiti senza eguali"."
  coronation_events.1022.a: "Un dono pieno di grazia e un ottimo consiglio!"
  coronation_events.1022.b: ""Aumentate l'offerta e vi sarò in debito!"."
  coronation_events.1022.c: "Ci faremo un bel profitto con queste!"
+
  coronation_events.1023.t: "Salve, [ROOT.Char.GetTitleAsNameNoTooltip|l]"
  coronation_events.1023.desc: "([detractor.Custom('DE_ART_DEF_P_A')|U]) mi[detractor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('detractor'))], [detractor.GetName], si alza levando una coppa al cielo. Con tono [detractor.Custom('InsultAdjective')], proclama:\n\n"Vostra Eccellenza, sotto una corona tanto splendente, vedo un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip] così [ROOT.Char.Custom('ComplimentAdjective')]; pochi sovrani possono vantare sudditi così #EMP devoti#!, sebbene alcuni oserebbero mettere in dubbio la saggezza delle vostre decisioni. Sì, dove saremmo senza un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip] tanto [ROOT.Char.Custom('ComplimentAdjectiveArticle')] a cui sorridere come sciocchi e adulare?".\n\nLe sue parole, prive di cortesia, fanno correre un brivido per tutta la sala."
  coronation_events.1023.supporter.desc: "Sento tutti gli sguardi puntati su di me; in particolare quelli [supporter.Custom('DE_PRO_PER_P_3P_A')] mi[supporter.Custom('DE_END_PRO_S_N')] inorridit[supporter.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('supporter'))], [supporter.GetName]."
@@ -172,6 +188,7 @@
  coronation_events.1023.c: ""Guardie! Arrestate questa specie di [detractor.Custom('InsultNoun')] [detractor.Custom('InsultAdjective')]!"."
  coronation_events.1023.d: ""[detractor.GetFirstNameNoTooltip], qui siete di troppo!"."
  coronation_events.1023.e: "Accolgo le sue parole con un educato inchino… e null'altro."
+
  coronation_events.1024.t: "Amici ovunque"
  coronation_events.1024.intro_diff_faith: "Con garbata deferenza, [foreign.Custom('IT_NAM_COL3')][foreign.GetTitleAsNameNoTooltip] del credo [foreign.GetFaith.GetAdherentName] di [foreign.GetPrimaryTitle.GetNameNoTier] si presenta dinanzi a me."
  coronation_events.1024.intro_diff_culture: "Con qualche svolazzo cerimoniale, [foreign.Custom('IT_NAM_COL3')][foreign.GetTitleAsNameNoTooltip] della comunità [foreign.GetCulture.GetName] di [foreign.GetPrimaryTitle.GetNameNoTier] mi fa cenno di conceder[foreign.Custom('DE_PRO_DEM')] un istante del mio tempo."
@@ -185,6 +202,7 @@
  coronation_events.1024.exalt_crown: ""Dunque… diverrete tributari[guest.Custom('DE_END_PRO_S_N')] della corona, non è così?"."
  coronation_events.1024.a: ""#EMP Bah!#! Non ho bisogno di gingilli"."
  coronation_events.1024.b: ""Accetto con gentilezza segno della mia buona volontà"."
+
  coronation_events.1025.t: "Sguardi gelidi"
  coronation_events.1025.desc.intro: "La tensione è palpabile tra [supporter.GetName] e ([detractor.Custom('DE_ART_DEF_P_A')]) mi[detractor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('detractor'))], [detractor.GetName]. Siedono separati, si fissano e gesticolano con veemenza in direzioni opposte. Odo gli echi di rancori che solo la mia corona potrà placare.\n\n"
  coronation_events.1025.desc.supporter: "Ma persino mentre sparla, [supporter.Custom('IT_NAM_COL3')][supporter.GetTitledFirstNameNoTooltip|l] continua a sorridere con lealtà quando nota che [supporter.Custom('DE_PRO_POS_P_3P')] guardo."
@@ -195,6 +213,7 @@
  coronation_events.1025.d: "Dò tutta la colpa a [detractor.GetFirstNameNoTooltip]."
  coronation_events.1025.e: ""Vi prego, pensate al nostro futuro!"."
  coronation_events.1025.f: "In realtà, [detractor.GetFirstNameNoTooltip] ha ragione."
+
  coronation_events.1026.t: "Una torta da ricordare"
  coronation_events.1026.desc: "Finalmente arriva la torta; imponente, gloriosa, il gioiello della corona del banchetto. Cuochi esausti ma orgogliosi hanno passato la notte sovrapponendo strati di [ROOT.Char.Custom('FavoriteTreatDemand')] e [ROOT.Char.Custom('GetFoodDetail')]; ogni livello profuma di [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')]. E da qualche parte al suo interno si cela una minuscola tessera che ho nascosto personalmente!"
  coronation_events.1026.supporter_desc: "\n\n[token_finder.GetNameNoTooltip] estrae trionfante la tessera tra i generosi strati della torta; la gioia è tale che quasi mi dà una pacca sulla schiena [ROOT.Char.Custom('GetTitleTierAdjective')]. La sala esplode in applausi; [Select_CString( token_finder.IsFemale, 'una sostenitrice', 'un sostenitore' )] leale, favorit[token_finder.Custom('DE_END_PRO_S_N')]  dalla sorte, ha anche il favore della corona."
@@ -208,6 +227,7 @@
  coronation_events.1026.d: "Che questo momento resti per sempre nel nome di [ROOT.Char.GetDynastyNameNoTooltip]!"
  coronation_events.1026.e: "Non vedo l'ora di assaggiare quella torta!"
  coronation_events.1026.f: "La mia porzione andrà ai miei contadini!"
+
  coronation_events.1027.t: "Il momento [highlighted_guest.Custom('IT_NAM_COL2')] [highlighted_guest.GetTitledFirstNameNoTooltip|l]"
  coronation_events.1027.desc: "La nobiltà avvia un'interpretazione accuratamente coreografata del [ROOT.Char.Custom('GetMedievalDance')]. Con oggetti simbolici, rappresentano scene dell'ascesa della mia dinastia, trionfi e aspirazioni. Tutti gli sguardi si volgono verso la figura centrale dello spettacolo…"
  coronation_events.1027.special_desc: "\n\nE mi accorgo, con un istante di sorpresa, che sono io a essere ritratto/a come [Select_CString( ROOT.Char.IsFemale, 'l'eroina', 'l'eroe' )] di [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]; davvero glorios[ROOT.Char.Custom('DE_END_PRO_S_N')], un baluardo della casata [ROOT.Char.GetDynastyName]. Si apre un varco al centro della coreografia. Mi chiamano ad unirmi alla danza. Gli invitati esplodono in ovazioni; la loro ammirazione è inebriante quanto il vino."
@@ -221,6 +241,7 @@
  coronation_events.1027.d: "Tengo un discorso sulla tradizione della casata [ROOT.Char.GetDynastyNameNoTooltip]."
  coronation_events.1027.e: "Sorrido con calore e partecipo al momento di gioia."
  coronation_events.1027.f: "Svanisco sullo sfondo e lascio che il momento passi."
+
  coronation_events.1028.t: "Una benedizione di [clergy_representative.GetFaith.HighGodName]"
  coronation_events.1028.supporter.desc: "([clergy_representative.Custom('DE_ART_DEF_P_D')]) mi[clergy_representative.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('clergy_representative'))] [clergy_representative.GetFirstName], un'anima devota di fede [clergy_representative.GetFaith.GetAdjective], avanza con un'espressione solenne e serena.\n\n"[clergy_representative.GetFaith.HouseholdGodName] sorride all'unità tra i governanti", proclama. "Permettetemi di offrirvi una benedizione in nome di [clergy_representative.GetFaith.CreatorName], come gesto di armonia".\n\n[guest.GetFirstName], [Select_CString( guest.IsFemale, 'una delle mie sostenitrici', 'dei miei sostenitori' )] più leali, osserva con attenzione, intrigat[guest.Custom('DE_END_PRO_S_N')] dal gesto."
  coronation_events.1028.detractor.desc: "([clergy_representative.Custom('DE_ART_DEF_P_D')]) mi[clergy_representative.Custom('DE_END_PRO_S_N')] [clergy_representative.GetFirstName], un'anima fervente di fede [clergy_representative.GetFaith.GetAdjective], si avvicina con lenta venerazione.\n\n"[clergy_representative.GetFaith.HouseholdGodName] chiama alla pace tra confini e credi", dice. "Posso offrirvi la benedizione di [clergy_representative.GetFaith.CreatorName] durante la vostra incoronazione?".\n\nTra il pubblico, [guest.GetFirstName], [Select_CString( guest.IsFemale, 'famosa', 'famoso' )] detrattore del mio governo, socchiude gli occhi in segno di chiara disapprovazione."
@@ -236,6 +257,7 @@
  coronation_events.1028.a.tt3: "Ogni partecipante della [faith|lE] di [clergy_representative.GetShortUIName]"
  coronation_events.1028.b.tt: "Ogni partecipante della stessa [faith|lE] con il tratto [GetTrait('zealous').GetName( GetNullCharacter )|l]"
  coronation_events.1028.c.tt: "Ogni partecipante della stessa [faith|lE] con il tratto [GetTrait('zealous').GetName( GetNullCharacter )|l]"
+
  coronation_events.1029.t: "Il giuramento dimenticato"
  coronation_events.1029.desc: "Ascolto nitidamente lo svolgersi di una lunga pergamena. "[Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')]", dice ([priest.Custom('DE_ART_DEF_P_A')]) mi[priest.Custom('DE_END_PRO_S_N')]) [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('priest'))] [priest.GetFirstName] chinandosi lievemente. "Ho trovato questo tra i registri più antichi di [primary_title.GetName]. Parla di un giuramento prestato da [ROOT.GetCharacter.Custom('GetMythicalFounder')], che concedeva ai futuri sovrani diritti e privilegi dimenticati col tempo".\n\n[guest.GetFirstName], ([guest.Custom('DE_ART_DEF_P_A')] mi[guest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))], si china con notevole curiosità. "Una promessa dimenticata? Potrebbe essere… interessante", mormora."
  coronation_events.1029.supporter.desc: "L'odore di pergamena consunta mi punge le narici. "[Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')]", dichiara ([priest.Custom('DE_ART_DEF_P_A')]) mi[priest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('priest'))] [priest.GetFirstName], "questo è un giuramento prestato da [ROOT.GetCharacter.Custom('GetMythicalFounder')], che lega sovrano e sudditi leali in reciproci rapporti di obblighi e ricompense, tratto dai nostri registri più antichi. Con ogni probabilità pensato per occasioni come questa".\n\n[guest.GetFirstName], ([guest.Custom('DE_ART_DEF_P_A')] mi[guest.Custom('DE_END_PRO_S_N')]) [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))] e leale [Select_CString(guest.IsFemale,'sostenitrice','sostenitore')], sorride largamente. "Un momento perfetto per rinnovare antiche promesse"."
@@ -245,6 +267,7 @@
  coronation_events.1029.c: "Che parli della lealtà di [guest.GetFirstNameNoTooltip] verso di me."
  coronation_events.1029.d: "Che tutti conoscano questo testo!"
  coronation_events.1029.e: "Lasciamo che il passato resti sepolto."
+
  coronation_events.1030.t: "Catturato per i posteri"
  coronation_events.1030.exalt.desc: "[CHARACTER.Custom('IT_NAM_COL3')|U][scholar.GetTitledFirstName|l], ([scholar.Custom('DE_ART_DEF_P_A')]) mi[scholar.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('scholar'))], si avvicina con un sorriso trepidante.\n\n"Vostra Maestà", dice, "la magnificenza della vostra incoronazione merita di essere consegnata agli annali. Permettete che uno dei miei scribi ne registri lo splendore delle vostre vesti, l'autorità di [ROOT.Char.GetPrimaryTitle.GetNameNoTier] e l'ammirazione che avete suscitato qui?"."
  coronation_events.1030.impress.desc: "[CHARACTER.Custom('IT_NAM_COL3')|U][scholar.GetTitledFirstName|l], ([scholar.Custom('DE_ART_DEF_P_A')]) mi[scholar.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('scholar'))], indica la sala con ampi gesti.\n\n"Che pubblico devoto!", esclama. "Se me lo consentite, chiederò a uno dei miei scribi di annotare la reazione dei vostri invitati: gli evviva, i sussulti e persino le lacrime. Nessuno dovrà dimenticare come la vostra incoronazione ci abbia commossi"."
@@ -259,6 +282,7 @@
  coronation_events.1030.tt.failure: "La [scholar.Custom('GetChronicleSaga')] riceve scherni"
  bp4_chronicled_coronation_modifier: "Incoronazione registrata"
  legend_chapter_great_coronation: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip] celebrò la più grande incoronazione conosciuta dall'uomo, con la benedizione diretta di [ROOT.Legend.GetProtagonist.GetFaith.HighGodName] in ogni momento della gloriosa cerimonia. Ogni angolo del mondo conosciuto contemplò [ROOT.Legend.GetProtagonist.Custom('IT_NAM_COL3')][ROOT.Legend.GetProtagonist.GetTitleAsNameNoTooltip] con ammirazione."
+
  coronation_events.1031.t: "Il coro si leva"
  coronation_events.1031.exalt.desc: "Mentre la grande sala risuona del trambusto dei preparativi, [priest.GetFirstName], ([priest.Custom('DE_ART_DEF_P_A')]) mi[priest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('priest'))], mi si accosta con un fascio di pergamente consunte sotto il braccio.\n\n"Vostra Maestà", dice con orgoglio sommesso, "il coro attende un vostro cenno. Dovranno levarsi le loro voci a proclamare il vostro diritto divino e lo splendore di [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]?".\n\nMi figuro la cerimonia a venire; agli occhi del pubblico ogni nota eleverà il dominio."
  coronation_events.1031.impress.desc: "Mentre i servitori sistemano gli addobbi e gli scudieri provano le entrate, [priest.GetFirstName], ([priest.Custom('DE_ART_DEF_P_A')]) mi[priest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('priest'))], mi ferma nel cuore dei preparativi.\n\n«Il dominio ascolterà attento», sorride complice. «Lasciate che il coro intoni un inno capace di toccare i cuori e di sovrastare i vostri sciocchi oppositori».\n\nL'idea mi alletta: la sala piena di suono e ogni voce a farsi parte della mia rappresentazione."
@@ -272,6 +296,7 @@
  every_attending_vassal: "Ogni vassallo presente"
  every_attending_detractor_or_compassionate: "Ogni detrattore presente e invitato compassionevole"
  every_poet_scholar: "Ogni partecipante con i tratti [GetTrait('poet').GetName( GetNullCharacter )] e [GetTrait('scholar').GetName( GetNullCharacter )]"
+
  coronation_events.1032.t: "Un gesto coraggioso"
  coronation_events.1032.desc: "L'occasione, pur maestosa e dignitosa, pare… incompleta. È soltanto un raduno, un banchetto casuale? O un momento di grande azione politica, di svolta storica? ([supporter.Custom('DE_ART_DEF_P_A')|U]) mi[supporter.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('supporter'))], [supporter.Custom('IT_NAM_COL3')][supporter.GetTitledFirstName|l], mi sussurra all'orecchio.\n\n"I sovrani non si forgiano con le parole… ma con le opere", mi incalza. "Opere! Opere che scuotano il/la [ROOT.Char.GetPrimaryTitle.GetTierAsName|l] fin dalle fondamenta!".\n\n([detractor.Custom('DE_ART_DEF_P_A')|U]) mi[detractor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('detractor'))] [detractor.GetFirstName], cui la circostanza importa poco, osserva con disdegno."
  coronation_events.1032.b: ""[supporter.GetFirstNameNoTooltip]: dichiariamo la nostra fedeltà eterna"."
@@ -288,6 +313,7 @@
  every_attending_compassionate_just: "Ogni partecipante con il tratto [GetTrait('compassionate').GetName( GetNullCharacter )|l] o [GetTrait('just').GetName( GetNullCharacter )|l]"
  create_alliance_supporter_tt: "[supporter.GetShortUIName] e tu formate un'[alliance|lE]"
  coronation_events.1032.e: "Voglio solo che finisca…"
+
  coronation_events.1033.t: "Una voce dissenziente"
  coronation_events.1033.desc: ""Questa farsa #EMP compiuta#! sbeffeggia [ROOT.Char.GetPrimaryTitle.GetNameNoTier], diffama il suo popolo e oltraggia le tombe di chi ci ha preceduto!", tuona [rival.GetFirstName], il/la mio/a [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival'))].\n\nL'odore pungente di [ROOT.Char.Custom('RegionalDrink')] nel suo alito: [Select_CString( rival.IsFemale, 'quella ubriacona', 'quell'ubriacone' )] è già arrivat[rival.Custom('DE_END_PRO_S_N')] brill[rival.Custom('DE_END_PRO_S_N')]! Il suo sguardo scorre su nobili, [ROOT.Char.GetFaith.PriestNeuterPlural] e inviati stranieri allo stesso modo, sfidandoli a mettere in discussione questo grossolano spettacolo. "Con quale diritto [ROOT.Char.GetFirstName] reclama questa corona? #EMP Eh?!#! Con quale diritto?!".\n\nSussulti soffocati serpeggiano tra i presenti."
  coronation_events.1033.a: ""Per diritto divino"."
@@ -300,6 +326,7 @@
  custom.every_compassionate_trusting_supporter: "Ogni partecipante con il tratto [GetTrait('compassionate').GetName( GetNullCharacter )|l], [GetTrait('trusting').GetName( GetNullCharacter )|l] e sostenitore"
  custom.every_compassionate_craven_supporter: "Ogni partecipante con il tratto [GetTrait('compassionate').GetName( GetNullCharacter )|l], [GetTrait('craven').GetName( GetNullCharacter )|l] e sostenitore"
  custom.every_cynical_detractor: "Ogni partecipante con il tratto [GetTrait('cynical').GetName( GetNullCharacter )|l] e detrattore"
+
  bp4_exalted_coronation: "Incoronazione esaltata"
  bp4_exalted_coronation_alt: "Incoronazione esaltata"
  bp4_supported_coronation: "Incoronazione sostenuta"
@@ -308,6 +335,7 @@
  bp4_asserting_coronation_alt: "Incoronazione convincente"
  bp4_impressive_coronation: "Incoronazione impressionante"
  bp4_impressive_coronation_alt: "Incoronazione impressionante"
+
  weaken_detractors_opinion: "$EFFECT_LIST_BULLET$Per la tua intenzione #V [GetPlayer.GetInvolvedActivityIntent.GetName]#!:\n$BULLET_WITH_TAB$Ogni [vassal|lE] non [coronation_detractor|lE] con posizione [GetVassalStance( 'belligerent' ).GetName|l] [GetVassalStance( 'belligerent' ).GetTextIcon]"
  exalt_crown_opinion: "$EFFECT_LIST_BULLET$Per la tua intenzione #V [GetPlayer.GetInvolvedActivityIntent.GetName]#!:\n$BULLET_WITH_TAB$Ogni [vassal|lE] con posizione [GetVassalStance( 'parochial' ).GetName|l] [GetVassalStance( 'parochial' ).GetTextIcon]"
  embrace_supporters_opinion: "$EFFECT_LIST_BULLET$Per la tua intenzione #V [GetPlayer.GetInvolvedActivityIntent.GetName]#!:\n$BULLET_WITH_TAB$Ogni [vassal|lE] con posizione [GetVassalStance( 'glory_hound' ).GetName|l] [GetVassalStance( 'glory_hound' ).GetTextIcon] e [GetVassalStance( 'zealot' ).GetName|l] [GetVassalStance( 'zealot' ).GetTextIcon]"

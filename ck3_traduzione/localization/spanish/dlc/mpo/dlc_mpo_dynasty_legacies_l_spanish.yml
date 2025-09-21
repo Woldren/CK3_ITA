@@ -1,7 +1,7 @@
 ﻿l_spanish:
 
  mpo_nomad_legacy_track_name: "Nomadica"
- mpo_nomad_legacy_track_desc: "Perché il mondo intero ci appartiene"
+ mpo_nomad_legacy_track_desc: "Poiché il mondo intero ci appartiene"
 
  mpo_nomad_legacy_1_name: "Signori delle Steppe"
  
@@ -12,7 +12,7 @@
  mpo_nomad_legacy_3_effect_peace_acceptance_global: "Accettazione della [peace|E]: #positive_value 10#!"
  
  mpo_nomad_legacy_4_name: "Il Castigo di Dio"
- mpo_nomad_legacy_4_effect_kheshig_maa_global: "Sblocca i [men_at_arms|E] [GetMaA('kheshig').GetName]"
+ mpo_nomad_legacy_4_effect_kheshig_maa_global: "Sblocca gli [men_at_arms|E] [GetMaA('kheshig').GetName]"
  
  mpo_nomad_legacy_5_name: "La pace del Gran Khan"
  mpo_nomad_legacy_5_effect_pax_mongolica_global: "Sblocca la [decision|E] [GetDecisionWithKey('mpo_pax_mongolica_decision').GetName]"

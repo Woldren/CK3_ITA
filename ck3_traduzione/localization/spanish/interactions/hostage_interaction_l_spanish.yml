@@ -164,7 +164,7 @@
  HOSTAGE_MINIMUM_STAY_REASON:0 "Tenuto in [hostage|E] per for meno di un anno: $VALUE|=+0$"
  HOSTAGE_HAS_MINE_REASON:0 "Ha il mio [hostage|E]: $VALUE|=+0$"
  HOSTAGE_LIEGE_OF_WARDEN:0 "[liege|E] del [warden|E]: $VALUE|=+0$"
- HOSTAGE_DYNASTY_PRESTIGE_LEVEL_DIFFERENCES:0 "Differenze nella [dynasty_prestige_level|E]: $VALUE|=+0$"
+ HOSTAGE_DYNASTY_PRESTIGE_LEVEL_DIFFERENCES:0 "Differenze nel [dynasty_prestige_level|E]: $VALUE|=+0$"
  HOSTAGE_RECIPIENT_SEX_REASON:0 "Il sesso dell'[hostage|E] per la [succession|E]: $VALUE|=+0$"
  HOSTAGE_RETAINED_ADULTHOOD_REASON:0 "Non ha restituito un [hostage|E] alla maggiore età: $VALUE|=+0$"
  # EVENTS

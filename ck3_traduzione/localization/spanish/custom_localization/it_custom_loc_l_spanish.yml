@@ -975,10 +975,10 @@
  # NUOVO CODICE         [Select_CString(personaggio.IsFemale,'La','Il')]
 
  ###################################################################################################################
- # MASCHILE / FEMMINILE o/a                                                 [Select_CString(CHARACTER.IsFemale,'a','o')]                [Select_CString(TARGET_CHARACTER.IsFemale,'a','o')] 
- # Il codice per noi è ROOT.Char quindi sarà:                        [ROOT.Char.Custom('DE_END_PRO_S_N')] o/a             [Select_CString(ROOT.Char.IsFemale,'a','o')]
- # Il codice per un personaggio qualsiasi -->                           [CHARACTER.Custom('DE_END_PRO_S_N')] o/a           [Select_CString(personaggio.IsFemale,'a','o')]
- #                                                                                                                                                                                                        [Select_CString(personaggio.IsFemale,'mia','mio')]
+ # MASCHILE / FEMMINILE o/a                                  [Select_CString(CHARACTER.IsFemale,'a','o')]                [Select_CString(TARGET_CHARACTER.IsFemale,'a','o')] 
+ # Il codice per noi è ROOT.Char quindi sarà:             [ROOT.Char.Custom('DE_END_PRO_S_N')] o/a             [Select_CString(ROOT.Char.IsFemale,'a','o')]
+ # Il codice per un personaggio qualsiasi -->              [CHARACTER.Custom('DE_END_PRO_S_N')] o/a           [Select_CString(personaggio.IsFemale,'a','o')]
+ #                                                                                                                                                                                               [Select_CString(personaggio.IsFemale,'mia','mio')]
  ####################################################################################################################
  #                «         » 
  

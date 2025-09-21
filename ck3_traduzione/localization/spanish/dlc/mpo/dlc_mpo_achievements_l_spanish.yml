@@ -1,21 +1,21 @@
 ﻿l_spanish:
- ACHIEVEMENT_mpo_the_stallion_that_mounts_the_world_achievement: "The Stallone che Monta il Mondo"
+ ACHIEVEMENT_mpo_the_stallion_that_mounts_the_world_achievement: "Lo Stallone che Cavalca il Mondo"
  ACHIEVEMENT_DESC_mpo_the_stallion_that_mounts_the_world_achievement: "Impersonando Temüjin, conquista il mondo."
- ACHIEVEMENT_mpo_nobodys_business_achievement: "Non sono affari di nessuno"
+ ACHIEVEMENT_mpo_nobodys_business_achievement: "Affari di nessuno"
  ACHIEVEMENT_DESC_mpo_nobodys_business_achievement: "Usa il [casus_belli|E] $MPO_NOMAD_INVASION_CB_NAME$ per insediare il tuo popolo al di fuori delle [the_great_steppe|E]."
- ACHIEVEMENT_mpo_tribute_band_achievement: "Banda Tributo" # da rivedere
+ ACHIEVEMENT_mpo_tribute_band_achievement: "Banda di Tributari" # da rivedere
  ACHIEVEMENT_DESC_mpo_tribute_band_achievement: "Hai 30 [tributaries|E]."
- ACHIEVEMENT_mpo_this_chinggis_everything_achievement: "Questo Chinggis Tutto" # gioco di parole inglese non riproducibile in italiano
- ACHIEVEMENT_DESC_mpo_this_chinggis_everything_achievement: "Diventa il Più Grande dei Khans."
- ACHIEVEMENT_mpo_steppe_by_steppe_achievement: "Dalle Steppe alle Steppe"
+ ACHIEVEMENT_mpo_this_chinggis_everything_achievement: "Il più grande di tutti" # gioco di parole inglese non riproducibile in italiano
+ ACHIEVEMENT_DESC_mpo_this_chinggis_everything_achievement: "Diventa il Più Grande dei Khan."
+ ACHIEVEMENT_mpo_steppe_by_steppe_achievement: "Passo dopo Passo"
  ACHIEVEMENT_DESC_mpo_steppe_by_steppe_achievement: "Impersonando un governante nomade della regione delle Steppe Orientali delle [the_great_steppe|E], migra nelle Steppe Occidentali."
  ACHIEVEMENT_mpo_in_xanadu_achievement: "In Xanadu"
  ACHIEVEMENT_DESC_mpo_in_xanadu_achievement: "Costruisci una Cupola del Piacere."
- ACHIEVEMENT_mpo_settling_in_achievement: "Sedentario" # Insediarsi | Insediamento 
+ ACHIEVEMENT_mpo_settling_in_achievement: "Mettere radici" # Insediarsi | Insediamento 
  ACHIEVEMENT_DESC_mpo_settling_in_achievement: "Diventare un [ruler|E] sedentario nelle [the_great_steppe|E]"
  ACHIEVEMENT_mpo_blood_of_my_blood_achievement: "Sangue del mio Sangue"
  ACHIEVEMENT_DESC_mpo_blood_of_my_blood_achievement: "Consegui la [Concept('blood_brothers', 'fratellanza di sangue' )|E]"
  ACHIEVEMENT_mpo_confedup_achievement: "Confederazione" # gioco di parole inglese non riproducibile in italiano
  ACHIEVEMENT_DESC_mpo_confedup_achievement: "Forma una [confederation|E]"
- ACHIEVEMENT_mpo_shut_up_nerge_achievement: "Una Caccia e-Nerge-tica" # adattamento
+ ACHIEVEMENT_mpo_shut_up_nerge_achievement: "Zitto, Nerge" # adattamento
  ACHIEVEMENT_DESC_mpo_shut_up_nerge_achievement: "Organizza una eccellente [GetActivityType( 'activity_hunt').GetName] di tipo Nerge"

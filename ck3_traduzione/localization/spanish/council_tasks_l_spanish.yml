@@ -516,20 +516,20 @@
  liege_converted_county_title: "Il Signore Ha Convertito [county.GetNameNoTierNoTooltip|V]"
  liege_converted_county_desc: "Il [councillor.GetCouncilTitle] di [councillor_liege.GetShortUIName] ha [Concept( 'converted', 'convertito' )|E] [county.GetName] alla fede [councillor_liege.GetFaith.GetName] #weak ([old_faith.GetAdjective])#!"
  
-  # Kurultai
- task_kurultai_default_1: "Support Herders"
+ # Kurultai
+ task_kurultai_default_1: "Sostenere i pastori"
  task_kurultai_default_2: "$task_kurultai_default_1$"
  task_kurultai_default_3: "$task_kurultai_default_1$"
  task_kurultai_default_4: "$task_kurultai_default_1$"
- task_kurultai_default_modifier: "$task_kurultai_default_1$ #weak (Kurultai Councillor Task)#!"
- task_kurultai_default_effect_desc: "#weak Increased by [kurultai|E] Member's [diplomacy_i][diplomacy|E] (#color_white [councillor.MakeScope.ScriptValue('kurultai_manage_herd_skill_tooltip')]#!)#!\n"
- task_kurultai_default_herd_gain_desc: "[herd|E] Gain and Capacity: #P [herd_i]+[SCOPE.ScriptValue('kurultai_manage_herd_final_value')|1]%#!\n$TAB$Base: #P [herd_i]+[SCOPE.ScriptValue('kurultai_manage_herd_base_value')|1]%#!\n$TAB$[councillor.Custom('GetCouncillorKurultaiMemberPossessive')] [diplomacy_i][diplomacy_skill|E]: #P [herd_i]+[SCOPE.ScriptValue('kurultai_manage_herd_skill_value')|1]%#!"
- task_kurultai_default_gain_herd: "\n$EFFECT_LIST_BULLET$#P Increase Herd Size#!"
- task_kurultai_default_bonus_army: "\n$EFFECT_LIST_BULLET$#P Gain Horde Rider Army#!"
- task_kurultai_default_lose_herd: "\n$EFFECT_LIST_BULLET$#N Decrease Herd Size#!"
- task_kurultai_default_lose_control: "\n$EFFECT_LIST_BULLET$#N Loss of Control#!"
-
- task_kurultai_fertility_1: "Manage Fertility"
+ task_kurultai_default_modifier: "$task_kurultai_default_1$ #weak (incarico del consigliere del kurultai)#!"
+ task_kurultai_default_effect_desc: "#weak Aumenta in base alla [diplomacy|lE] [diplomacy_i] del membro del [kurultai|lE] (#color_white [councillor.MakeScope.ScriptValue('kurultai_manage_herd_skill_tooltip')]#!)#!\n"
+ task_kurultai_default_herd_gain_desc: "Guadagno e capacità dell'[herd|lE]: #P +[SCOPE.ScriptValue('kurultai_manage_herd_final_value')|1] % [herd_i]#!\n$TAB$Base: #P +[SCOPE.ScriptValue('kurultai_manage_herd_base_value')|1] % [herd_i]#!\n$TAB$[diplomacy_skill|E] [diplomacy_i] del [councillor.Custom('GetCouncillorKurultaiMember')|l]: #P +[SCOPE.ScriptValue('kurultai_manage_herd_skill_value')|1] % [herd_i]#!"
+ task_kurultai_default_gain_herd: "\n$EFFECT_LIST_BULLET$#P Aumenta la dimensione della mandria#!"
+ task_kurultai_default_bonus_army: "\n$EFFECT_LIST_BULLET$#P Ottieni un esercito di cavalieri dell’orda#!"
+ task_kurultai_default_lose_herd: "\n$EFFECT_LIST_BULLET$#N Diminuisce la dimensione della mandria#!"
+ task_kurultai_default_lose_control: "\n$EFFECT_LIST_BULLET$#N Perdita di controllo#!"
+ 
+ task_kurultai_fertility_1: "Gestire la fertilità"
  task_kurultai_fertility_2: "$task_kurultai_fertility_1$"
  task_kurultai_fertility_3: "$task_kurultai_fertility_1$"
  task_kurultai_fertility_4: "$task_kurultai_fertility_1$"
@@ -537,18 +537,18 @@
  task_kurultai_fertility_2_VALUE_NAME: "$task_kurultai_fertility_1_VALUE_NAME$"
  task_kurultai_fertility_3_VALUE_NAME: "$task_kurultai_fertility_1_VALUE_NAME$"
  task_kurultai_fertility_4_VALUE_NAME: "$task_kurultai_fertility_1_VALUE_NAME$"
- task_kurultai_use_fertility: "This [county|E] does not have [fertility|E]"
- task_kurultai_fertility_only_one_target: "Another [kurultai|E] member is already managing the [fertility|E] of this [county|E]"
- task_kurultai_exploited_only_one_target: "Another [kurultai|E] member is already exploiting this [county|E]"
- task_kurultai_fertility_modifier: "$task_kurultai_fertility_1$ #weak (Kurultai Councillor Task)#!"
- task_kurultai_fertility_effect_desc: "#weak Increased by [kurultai|E] Member's [stewardship_i][stewardship|E] (#color_white [councillor.MakeScope.ScriptValue('kurultai_increased_fertility_skill_tooltip')]#!)#!\n"
- task_kurultai_fertility_gain_desc: "[county_fertility|E] Growth: #P [county_fertility_i|E]+[SCOPE.ScriptValue('kurultai_increased_fertility_final_value')|1]%#!\n$TAB$Base: #P [county_fertility_i|E]+[SCOPE.ScriptValue('kurultai_increased_fertility_base_value')|1]%#!\n$TAB$[councillor.Custom('GetCouncillorKurultaiMemberPossessive')] [stewardship_i][stewardship_skill|E]: #P [county_fertility_i|E]+[SCOPE.ScriptValue('kurultai_increased_fertility_skill_value')|1]%#!"
- task_kurultai_fertility_increase_fertility: "\n$EFFECT_LIST_BULLET$#P Increase Fertility#!"
- task_kurultai_fertility_county_opinion: "\n$EFFECT_LIST_BULLET$#P Increase County Opinion#!"
- task_kurultai_fertility_reduce_fertility: "\n$EFFECT_LIST_BULLET$#N Reduce Fertility#!"
- task_kurultai_fertility_lose_prestige: "\n$EFFECT_LIST_BULLET$#N Prestige Loss#!"
-
- task_kurultai_control_1: "Increase Control"
+ task_kurultai_use_fertility: "Questa [county|lE] non ha [fertility|lE]"
+ task_kurultai_fertility_only_one_target: "Un altro membro del [kurultai|lE] gestisce già la [fertility|lE] di questa [county|lE]"
+ task_kurultai_exploited_only_one_target: "Un altro membro del [kurultai|lE] sfrutta già questa [county|lE]"
+ task_kurultai_fertility_modifier: "$task_kurultai_fertility_1$ #weak (incarico del consigliere del kurultai)#!"
+ task_kurultai_fertility_effect_desc: "#weak Aumenta in base alla [stewardship|lE] [stewardship_i] del membro del [kurultai|lE] (#color_white [councillor.MakeScope.ScriptValue('kurultai_increased_fertility_skill_tooltip')]#!)#!\n"
+ task_kurultai_fertility_gain_desc: "Crescita di [county_fertility|lE]: #P +[SCOPE.ScriptValue('kurultai_increased_fertility_final_value')|1] % [county_fertility_i|E]#!\n$TAB$Base: #P +[SCOPE.ScriptValue('kurultai_increased_fertility_base_value')|1] % [county_fertility_i|E]#!\n$TAB$[stewardship_skill|E] [stewardship_i] del [councillor.Custom('GetCouncillorKurultaiMember')|l]: #P +[SCOPE.ScriptValue('kurultai_increased_fertility_skill_value')|1] % [county_fertility_i|E] [county_fertility_i|E]#!"
+ task_kurultai_fertility_increase_fertility: "\n$EFFECT_LIST_BULLET$#P Aumento della fertilità#!"
+ task_kurultai_fertility_county_opinion: "\n$EFFECT_LIST_BULLET$#P Aumento dell’opinione della contea#!"
+ task_kurultai_fertility_reduce_fertility: "\n$EFFECT_LIST_BULLET$#N Riduzione della fertilità#!"
+ task_kurultai_fertility_lose_prestige: "\n$EFFECT_LIST_BULLET$#N Perdita di prestigio#!"
+ 
+ task_kurultai_control_1: "Aumentare il controllo"
  task_kurultai_control_2: "$task_kurultai_control_1$"
  task_kurultai_control_3: "$task_kurultai_control_1$"
  task_kurultai_control_4: "$task_kurultai_control_1$"
@@ -556,171 +556,171 @@
  task_kurultai_control_2_VALUE_NAME: "$task_kurultai_control_1_VALUE_NAME$"
  task_kurultai_control_3_VALUE_NAME: "$task_kurultai_control_1_VALUE_NAME$"
  task_kurultai_control_4_VALUE_NAME: "$task_kurultai_control_1_VALUE_NAME$"
- potential_county_control_task_only_one_target: "Another [kurultai|E] member is already increasing the [county_control|E] of this [county|E]"
-
- task_kurultai_control_effect_desc: "#weak Increased by [kurultai|E] Member's [martial_i][martial|E] (#color_white [councillor.MakeScope.ScriptValue('kurultai_increase_control_skill_tooltip')]#!)#!\n"
- task_kurultai_increase_control_effect_desc: "Chance of removing County Corruption: [SCOPE.ScriptValue('marshal_remove_county_corruption_chance')|P]#P %#!/month\n$TAB$[councillor.Custom('GetCouncillorKurultaiMemberPossessive')] [martial_i][martial_skill|E]: #P +#![SCOPE.ScriptValue('marshal_councillor_county_corruption_value')|P]\n$TAB$County Control: #P +#![SCOPE.ScriptValue('marshal_county_county_corruption_value')|P]\n\nWhile Control is being increased, the County will not acquire Corruption"
-
- task_kurultai_court_astrologer_1: "Aid $court_astrologer_court_position$"
+ potential_county_control_task_only_one_target: "Un altro membro del [kurultai|lE] sta già aumentando il [Concept('county_control', 'controllo')|E] su questa [county|lE]"
+ 
+ task_kurultai_control_effect_desc: "#weak Aumenta in base alla [Concept('martial', 'marzialità')|E] [martial_i] del membro del [kurultai|lE] (#color_white [councillor.MakeScope.ScriptValue('kurultai_increase_control_skill_tooltip')]#!)#!\n"
+ task_kurultai_increase_control_effect_desc: "Probabilità di eliminare la corruzione della contea: [SCOPE.ScriptValue('marshal_remove_county_corruption_chance')|P]#P  %#!/mese\n$TAB$[martial_skill|E] [martial_i] del [councillor.Custom('GetCouncillorKurultaiMember')|l]: #P +#![SCOPE.ScriptValue('marshal_councillor_county_corruption_value')|P]\n$TAB$Controllo della contea: #P +#![SCOPE.ScriptValue('marshal_county_county_corruption_value')|P]\n\nFinché il controllo aumenta, la contea non otterrà corruzione"
+ 
+ task_kurultai_court_astrologer_1: "Assistere il $court_astrologer_court_position$"
  task_kurultai_court_astrologer_2: "$task_kurultai_court_astrologer_1$"
  task_kurultai_court_astrologer_3: "$task_kurultai_court_astrologer_1$"
  task_kurultai_court_astrologer_4: "$task_kurultai_court_astrologer_1$"
-
+ 
  task_kurultai_court_astrologer_zealous_proselytizer_bonus_desc: "\n$TAB$[GetPerk('zealous_proselytizer_perk').GetName(GetPlayer)]: #P +[SCOPE.ScriptValue('kurultai_court_astrologer_piety_final_value')|2]#!"
- task_kurultai_court_astrologer_effect_desc: "#weak Increased by [kurultai|E] Member's [learning_i][learning|E] (#color_white [councillor.MakeScope.ScriptValue('kurultai_court_astrologer_skill_tooltip')]#!)#!\n"
- task_kurultai_court_astrologer_piety_desc: "Monthly [piety|E] Gain: #P [piety_i]+[SCOPE.ScriptValue('kurultai_court_astrologer_piety_final_value')|1]%#!\n$TAB$Base: #P [piety_i]+[SCOPE.ScriptValue('kurultai_court_astrologer_piety_base_value')|1]%#!\n$TAB$[councillor.Custom('GetCouncillorKurultaiMemberPossessive')] [learning_i][learning_skill|E]: #P [piety_i]+[SCOPE.ScriptValue('kurultai_court_astrologer_piety_skill_value')|1]%#!\n"
- task_kurultai_court_astrologer_aptitude_desc: "[GetCourtPositionType('court_astrologer_court_position').GetName()] [aptitude|E]: #P [aptitude_i]+[SCOPE.ScriptValue('kurultai_court_astrologer_aptitude_final_value')|1]#!\n$TAB$Base: #P [aptitude_i]+[SCOPE.ScriptValue('kurultai_court_astrologer_aptitude_base_value')|1]#!\n$TAB$[councillor.Custom('GetCouncillorKurultaiMemberPossessive')] [learning_i][learning_skill|E]: #P [aptitude_i]+[SCOPE.ScriptValue('kurultai_court_astrologer_aptitude_skill_value')|1]#!"
-
- task_kurultai_astrologer_increase_piety: "\n$EFFECT_LIST_BULLET$#P Gain Piety#!"
- task_kurultai_astrologer_increase_opinion: "\n$EFFECT_LIST_BULLET$#P Gain $court_astrologer_court_position$ Opinion#!"
- task_kurultai_astrologer_reduce_piety: "\n$EFFECT_LIST_BULLET$#N Lose Piety#!"
- task_kurultai_astrologer_reduce_opinion: "\n$EFFECT_LIST_BULLET$#N Lose $court_astrologer_court_position$ Opinion#!"
-
- task_kurultai_court_astrologer_modifier: "$task_kurultai_court_astrologer_1$ #weak (Kurultai Councillor Task)#!"
-
- task_kurultai_domestic_affairs_1: "Domestic Affairs"
+ task_kurultai_court_astrologer_effect_desc: "#weak Aumenta in base alla [learning|lE] [learning_i] del membro del [kurultai|lE] (#color_white [councillor.MakeScope.ScriptValue('kurultai_court_astrologer_skill_tooltip')]#!)#!\n"
+ task_kurultai_court_astrologer_piety_desc: "Guadagno mensile di [piety|lE]: #P +[SCOPE.ScriptValue('kurultai_court_astrologer_piety_final_value')|1] % [piety_i]#!\n$TAB$Base: #P +[SCOPE.ScriptValue('kurultai_court_astrologer_piety_base_value')|1] [piety_i]%#!\n$TAB$[learning|E] [learning_i] del [councillor.Custom('GetCouncillorKurultaiMember')|l]: #P +[SCOPE.ScriptValue('kurultai_court_astrologer_piety_skill_value')|1] % [piety_i]#!\n"
+ task_kurultai_court_astrologer_aptitude_desc: "[aptitude|E] di [GetCourtPositionType('court_astrologer_court_position').GetName()|l]: #P +[SCOPE.ScriptValue('kurultai_court_astrologer_aptitude_final_value')|1] [aptitude_i]#!\n$TAB$Base: #P +[SCOPE.ScriptValue('kurultai_court_astrologer_aptitude_base_value')|1] [aptitude_i]#!\n$TAB$[learning|lE] [learning_i] del [councillor.Custom('GetCouncillorKurultaiMember')|l]: #P +[SCOPE.ScriptValue('kurultai_court_astrologer_aptitude_skill_value')|1] [aptitude_i]#!"
+ 
+ task_kurultai_astrologer_increase_piety: "\n$EFFECT_LIST_BULLET$#P Guadagno di pietà#!"
+ task_kurultai_astrologer_increase_opinion: "\n$EFFECT_LIST_BULLET$#P Aumento dell’opinione del $court_astrologer_court_position$#!"
+ task_kurultai_astrologer_reduce_piety: "\n$EFFECT_LIST_BULLET$#N Perdita di pietà#!"
+ task_kurultai_astrologer_reduce_opinion: "\n$EFFECT_LIST_BULLET$#N Perdita di opinione del $court_astrologer_court_position$#!"
+ 
+ task_kurultai_court_astrologer_modifier: "$task_kurultai_court_astrologer_1$ #weak (incarico del consigliere del kurultai)#!"
+ 
+ task_kurultai_domestic_affairs_1: "Affari domestici"
  task_kurultai_domestic_affairs_2: "$task_kurultai_domestic_affairs_1$"
  task_kurultai_domestic_affairs_3: "$task_kurultai_domestic_affairs_1$"
  task_kurultai_domestic_affairs_4: "$task_kurultai_domestic_affairs_1$"
-
+ 
  task_kurultai_domestic_affairs_effect_desc: "$task_kurultai_default_effect_desc$"
- task_kurultai_domestic_affairs_only_one_target: "Can only have one [kurultai|E] member perform the #color_white $task_kurultai_domestic_affairs_1$#! task at once"
-
- task_kurultai_exploit_area_1: "Exploit Lands"
+ task_kurultai_domestic_affairs_only_one_target: "Si può avere un solo membro del [kurultai|lE] alla volta impegnato nell’incarico #color_white $task_kurultai_domestic_affairs_1$#!"
+ 
+ task_kurultai_exploit_area_1: "Sfruttare le terre"
  task_kurultai_exploit_area_2: "$task_kurultai_exploit_area_1$"
  task_kurultai_exploit_area_3: "$task_kurultai_exploit_area_1$"
  task_kurultai_exploit_area_4: "$task_kurultai_exploit_area_1$"
-
+ 
  task_kurultai_exploit_area_1_VALUE_NAME: "[county_fertility|E]"
  task_kurultai_exploit_area_2_VALUE_NAME: "$task_kurultai_exploit_area_1_VALUE_NAME$"
  task_kurultai_exploit_area_3_VALUE_NAME: "$task_kurultai_exploit_area_1_VALUE_NAME$"
  task_kurultai_exploit_area_4_VALUE_NAME: "$task_kurultai_exploit_area_1_VALUE_NAME$"
 
- task_kurultai_exploit_modifier: "$task_kurultai_exploit_area_1$ #weak (Kurultai Councillor Task)#!"
+ task_kurultai_exploit_modifier: "$task_kurultai_exploit_area_1$ #weak (Incarico del Consigliere del Kurultai)#!"
  task_kurultai_exploit_effect_desc: "$task_kurultai_fertility_effect_desc$"
- task_kurultai_exploit_fertility_desc: "[county_fertility|E]: #N [county_fertility_i]-[SCOPE.ScriptValue('kurultai_exploit_area_fertility_final_value')|1]#!\n$TAB$Base: #N [county_fertility_i]-[SCOPE.ScriptValue('kurultai_exploit_area_fertility_base_value')|1]#!\n$TAB$[councillor.Custom('GetCouncillorKurultaiMemberPossessive')] [stewardship_i][stewardship_skill|E]: #P [county_fertility_i]+[SCOPE.ScriptValue('kurultai_exploit_area_fertility_skill_value')|1]#!"
- task_kurultai_exploit_income_desc: "\n[herd|E] [income|E]: #P [gold_i]+[SCOPE.ScriptValue('kurultai_exploit_area_income_final_value')|2]%#!\n$TAB$Base: #P [gold_i]+[SCOPE.ScriptValue('kurultai_exploit_area_income_base_value')|2]%#!\n$TAB$[councillor.Custom('GetCouncillorKurultaiMemberPossessive')] [stewardship_i][stewardship_skill|E]: #P [gold_i]+[SCOPE.ScriptValue('kurultai_exploit_area_income_skill_value')|2]%#!"
+ task_kurultai_exploit_fertility_desc: "[county_fertility|E]: #N [county_fertility_i]-[SCOPE.ScriptValue('kurultai_exploit_area_fertility_final_value')|1]#!\n$TAB$Base: #N [county_fertility_i]-[SCOPE.ScriptValue('kurultai_exploit_area_fertility_base_value')|1]#!\n$TAB$[stewardship_i][stewardship_skill|E] di [councillor.Custom('GetCouncillorKurultaiMember')]: #P [county_fertility_i]+[SCOPE.ScriptValue('kurultai_exploit_area_fertility_skill_value')|1]#!"
+ task_kurultai_exploit_income_desc: "\n[herd|E] [income|E]: #P [gold_i]+[SCOPE.ScriptValue('kurultai_exploit_area_income_final_value')|2]%#!\n$TAB$Base: #P [gold_i]+[SCOPE.ScriptValue('kurultai_exploit_area_income_base_value')|2]%#!\n$TAB$[stewardship_i][stewardship_skill|E] di [councillor.Custom('GetCouncillorKurultaiMember')]: #P [gold_i]+[SCOPE.ScriptValue('kurultai_exploit_area_income_skill_value')|2]%#!"
 
- task_kurultai_exploit_gain_gold: "\n$EFFECT_LIST_BULLET$#P Gain Gold#!"
- task_kurultai_exploit_gain_dread: "\n$EFFECT_LIST_BULLET$#P Gain Dread#!"
- task_kurultai_exploit_reduce_fertility: "\n$EFFECT_LIST_BULLET$#N Reduce Fertility#!"
- task_kurultai_exploit_lose_county_opinion: "\n$EFFECT_LIST_BULLET$#N Lose County Opinion#!"
+ task_kurultai_exploit_gain_gold: "\n$EFFECT_LIST_BULLET$#P Guadagni Oro#!"
+ task_kurultai_exploit_gain_dread: "\n$EFFECT_LIST_BULLET$#P Guadagni Timore#!"
+ task_kurultai_exploit_reduce_fertility: "\n$EFFECT_LIST_BULLET$#N Riduci Fertilità#!"
+ task_kurultai_exploit_lose_county_opinion: "\n$EFFECT_LIST_BULLET$#N Perdi Opinione Contea#!"
 
- task_kurultai_raider_1: "Organize Raiders"
+ task_kurultai_raider_1: "Organizza Predoni"
  task_kurultai_raider_2: "$task_kurultai_raider_1$"
  task_kurultai_raider_3: "$task_kurultai_raider_1$"
  task_kurultai_raider_4: "$task_kurultai_raider_1$"
- task_kurultai_raider_modifier: "$task_kurultai_raider_1$ #weak (Kurultai Councillor Task)#!"
+ task_kurultai_raider_modifier: "$task_kurultai_raider_1$ #weak (Incarico del Consigliere del Kurultai)#!"
 
- task_kurultai_raiders_only_one_target: "Can only have one [kurultai|E] member perform the #color_white $task_kurultai_raider_1$#! task at once"
+ task_kurultai_raiders_only_one_target: "Solo un membro del [kurultai|E] alla volta può svolgere l'incarico #color_white $task_kurultai_raider_1$#!"
 
- task_kurultai_raider_loot_desc: "Max [raid_loot|E]: #P [raid_loot_i]+[SCOPE.ScriptValue('kurultai_organize_raiders_loot_final_value')|1]%#!\n$TAB$Base: #P [raid_loot_i]+[SCOPE.ScriptValue('kurultai_organize_raiders_loot_base_value')|1]%#!\n$TAB$[councillor.Custom('GetCouncillorKurultaiMemberPossessive')] [martial_i][martial_skill|E]: #P [raid_loot_i]+[SCOPE.ScriptValue('kurultai_organize_raiders_loot_skill_value')|1]%#!"
- task_kurultai_raider_attrition_desc: "\nHostile County [attrition|E] while [raiding|E]: #P [attrition_i]-[SCOPE.ScriptValue('kurultai_organize_raiders_loot_final_value')|1]%#!\n$TAB$Base: #P [attrition_i]-[SCOPE.ScriptValue('kurultai_organize_raiders_loot_base_value')|1]%#!\n$TAB$[councillor.Custom('GetCouncillorKurultaiMemberPossessive')] [martial_i][martial_skill|E]: #P [attrition_i]-[SCOPE.ScriptValue('kurultai_organize_raiders_loot_skill_value')|1]%#!"
- task_kurultai_raider_raiding_desc: "\n[raid|E] Speed & Movement Speed while Raiding: #P [raid_i]-[SCOPE.ScriptValue('kurultai_organize_raiders_raid_final_value')|1]%#!\n$TAB$Base: #P [raid_i]-[SCOPE.ScriptValue('kurultai_organize_raiders_raid_base_value')|1]%#!\n$TAB$[councillor.Custom('GetCouncillorKurultaiMemberPossessive')] [martial_i][martial_skill|E]: #P [raid_i]-[SCOPE.ScriptValue('kurultai_organize_raiders_raid_skill_value')|1]%#!"
+ task_kurultai_raider_loot_desc: "[raid_loot|E] Massimo: #P [raid_loot_i]+[SCOPE.ScriptValue('kurultai_organize_raiders_loot_final_value')|1]%#!\n$TAB$Base: #P [raid_loot_i]+[SCOPE.ScriptValue('kurultai_organize_raiders_loot_base_value')|1]%#!\n$TAB$[martial_i][martial_skill|E] di [councillor.Custom('GetCouncillorKurultaiMember')]: #P [raid_loot_i]+[SCOPE.ScriptValue('kurultai_organize_raiders_loot_skill_value')|1]%#!"
+ task_kurultai_raider_attrition_desc: "\nHostile County [attrition|E] della Contea Ostile durante l'[raid|E]: #P [attrition_i]-[SCOPE.ScriptValue('kurultai_organize_raiders_loot_final_value')|1]%#!\n$TAB$Base: #P [attrition_i]-[SCOPE.ScriptValue('kurultai_organize_raiders_loot_base_value')|1]%#!\n$TAB$[martial_i][martial_skill|E] di [councillor.Custom('GetCouncillorKurultaiMember')]: #P [attrition_i]-[SCOPE.ScriptValue('kurultai_organize_raiders_loot_skill_value')|1]%#!"
+ task_kurultai_raider_raiding_desc: "\nVelocità dell'[raid|E] & Velocità di Movimento durante l'Incursione: #P [raid_i]-[SCOPE.ScriptValue('kurultai_organize_raiders_raid_final_value')|1]%#!\n$TAB$Base: #P [raid_i]-[SCOPE.ScriptValue('kurultai_organize_raiders_raid_base_value')|1]%#!\n$TAB$[martial_i][martial_skill|E] di [councillor.Custom('GetCouncillorKurultaiMember')]: #P [raid_i]-[SCOPE.ScriptValue('kurultai_organize_raiders_raid_skill_value')|1]%#!"
 
- task_kurultai_raiders_gain_prestige: "\n$EFFECT_LIST_BULLET$#P Gain Prestige#!"
- task_kurultai_raiders_gain_dread: "\n$EFFECT_LIST_BULLET$#P Gain Dread#!"
- task_kurultai_raiders_lose_prestige: "\n$EFFECT_LIST_BULLET$#N Lose Prestige#!"
- task_kurultai_raiders_lose_dread: "\n$EFFECT_LIST_BULLET$#N Lose Dread#!"
+ task_kurultai_raiders_gain_prestige: "\n$EFFECT_LIST_BULLET$#P Ottieni Prestigio#!"
+ task_kurultai_raiders_gain_dread: "\n$EFFECT_LIST_BULLET$#P Ottieni Paura#!"
+ task_kurultai_raiders_lose_prestige: "\n$EFFECT_LIST_BULLET$#N Perdi Prestigio#!"
+ task_kurultai_raiders_lose_dread: "\n$EFFECT_LIST_BULLET$#N Perdi Paura#!"
 
- task_kurultai_culture_1: "Explore Cultures"
+ task_kurultai_culture_1: "Esplora le CultureCultures"
  task_kurultai_culture_2: "$task_kurultai_culture_1$"
  task_kurultai_culture_3: "$task_kurultai_culture_1$"
  task_kurultai_culture_4: "$task_kurultai_culture_1$"
- task_kurultai_culture_only_one_target: "Can only have one [kurultai|E] member perform the #color_white $task_kurultai_culture_1$#! task at once"
- task_kurultai_culture_cooldown_effect_desc:0 "[culture|E] [reformation|E] Cooldown & Cost: #P [culture_i]-[SCOPE.ScriptValue('kurultai_culture_final_value')|2]%#!\n(Increases by #P -[SCOPE.ScriptValue('kurultai_culture_monthly_increase')|2]%#!/month up to #P -[SCOPE.ScriptValue('kurultai_culture_max_value')|0]%#!)\n$TAB$Base: #P [culture_i]-[SCOPE.ScriptValue('kurultai_culture_base_monthly_increase')|2]%#!\n$TAB$[councillor.Custom('GetCouncillorKurultaiMemberPossessive')] [learning_i][learning_skill|E]: #P [culture_i]-[SCOPE.ScriptValue('kurultai_culture_skill_monthly_increase')|2]%#!"
- task_kurultai_culture_hybridization_effect_desc:0 "\n[culture|E] [hybridizing|E] Threshold: #P [cultural_acceptance_i]-[SCOPE.ScriptValue('kurultai_culture_final_value')|2]%#!\n(Increases by #P -[SCOPE.ScriptValue('kurultai_culture_monthly_increase')|2]%#!/month up to #P -[SCOPE.ScriptValue('kurultai_culture_max_value')|0]%#!)\n$TAB$Base: #P [cultural_acceptance_i]-[SCOPE.ScriptValue('kurultai_culture_base_monthly_increase')|2]%#!\n$TAB$[councillor.Custom('GetCouncillorKurultaiMemberPossessive')] [learning_i][learning_skill|E]: #P [cultural_acceptance_i]-[SCOPE.ScriptValue('kurultai_culture_skill_monthly_increase')|2]%#!"
+ task_kurultai_culture_only_one_target: "Solo un membro del [kurultai|E] alla volta può svolgere l'incarico #color_white $task_kurultai_culture_1$#!"
+ task_kurultai_culture_cooldown_effect_desc:0 "Tempo di recupero e costo della [reformation|E] della [culture|E]: #P [culture_i]-[SCOPE.ScriptValue('kurultai_culture_final_value')|2]%#!\n(Aumenta di #P -[SCOPE.ScriptValue('kurultai_culture_monthly_increase')|2]%#!/mese fino a un massimo di #P -[SCOPE.ScriptValue('kurultai_culture_max_value')|0]%#!)\n$TAB$Base: #P [culture_i]-[SCOPE.ScriptValue('kurultai_culture_base_monthly_increase')|2]%#!\n$TAB$[learning_i][learning_skill|E] di [councillor.Custom('GetCouncillorKurultaiMember')]: #P [culture_i]-[SCOPE.ScriptValue('kurultai_culture_skill_monthly_increase')|2]%#!"
+ task_kurultai_culture_hybridization_effect_desc:0 "\nSoglia di [hybridizing|E] [culture|E]: #P [cultural_acceptance_i]-[SCOPE.ScriptValue('kurultai_culture_final_value')|2]%#!\n(Aumenta di #P -[SCOPE.ScriptValue('kurultai_culture_monthly_increase')|2]%#!/mese fino a un massimo di #P -[SCOPE.ScriptValue('kurultai_culture_max_value')|0]%#!)\n$TAB$Base: #P [cultural_acceptance_i]-[SCOPE.ScriptValue('kurultai_culture_base_monthly_increase')|2]%#!\n$TAB$[learning_i][learning_skill|E] di [councillor.Custom('GetCouncillorKurultaiMember')]: #P [cultural_acceptance_i]-[SCOPE.ScriptValue('kurultai_culture_skill_monthly_increase')|2]%#!"
 
- task_kurultai_cultures_increase_acceptance: "\n$EFFECT_LIST_BULLET$#P Gain Cultural Acceptance#!"
- task_kurultai_cultures_increase_opinion: "\n$EFFECT_LIST_BULLET$#P Gain Different Culture Opinion#!"
- task_kurultai_cultures_decrease_acceptance: "\n$EFFECT_LIST_BULLET$#N Lose Cultural Acceptance#!"
- task_kurultai_cultures_decrease_opinion: "\n$EFFECT_LIST_BULLET$#N Lose Different Culture Opinion#!"
+ task_kurultai_cultures_increase_acceptance: "\n$EFFECT_LIST_BULLET$#P Guadagni Accettazione Culturale#!"
+ task_kurultai_cultures_increase_opinion: "\n$EFFECT_LIST_BULLET$#P Guadagni Opinione dalla Cultura Differente#!"
+ task_kurultai_cultures_decrease_acceptance: "\n$EFFECT_LIST_BULLET$#N Perdi Accettazione Culturale#!"
+ task_kurultai_cultures_decrease_opinion: "\n$EFFECT_LIST_BULLET$#N Perdi Opinione dalla Cultura Differente#!"
 
  # Kurultai Task Tooltips
- kurultai_task.1001.notification: "Thriving Herds"
- kurultai_task.1001.desc: "Thanks to the hard work of [councillor.GetShortUIName], our herds are thriving."
-
- kurultai_task.1006.notification: "Recruiting Horde"
- kurultai_task.1006.desc: "A small group of herders who have been driven out of their lands have pledged their loyalty to our tribe."
- kurultai_herder_army: "Herder Horde"
-
- kurultai_task.1051.notification: "Declining Herds"
- kurultai_task.1051.desc: "Despite [councillor.GetShortUINamePossessive] hard work, we have seen a decline among our herds."
-
- kurultai_task.1056.notification: "Declining Control"
- kurultai_task.1056.desc: "[councillor.GetShortUINamePossessive] attempts at improving our herds have caused disruptions and conflict among our people."
-
- kurultai_task.1101.notification: "Flourishing Fertility"
- kurultai_task.1101.desc: "[county.GetDefinitiveName] is flourishing thanks to [councillor.GetShortUIName]."
-
- kurultai_task.1106.notification: "Popular Rule"
- kurultai_task.1106.desc: "[councillor.GetShortUINamePossessive] work in [county.GetDefinitiveName] have had an unexpected windfall."
-
- kurultai_task.1151.notification: "Declining Fertility"
- kurultai_task.1151.desc: "[councillor.GetShortUIName] have managed to mishandle our herds in [county.GetDefinitiveName], causing the fertility to wane in the area."
-
- kurultai_task.1156.notification: "Unpopular Rule"
- kurultai_task.1156.desc: "[councillor.GetShortUINamePossessive] handling of [county.GetNameNoTier] has proven incredibly unpopular, and it reflects on my rule as [ROOT.Char.GetTitleAsNameNoTooltip]."
-
- kurultai_task.1201.notification: "Faithful Rule"
- kurultai_task.1201.desc: "My people have been impressed by the work [astrologer.GetShortUIName] and [councillor.GetShortUIName] are doing on my behalf."
-
- kurultai_task.1206.notification: "Friendly $court_astrologer_court_position$"
- kurultai_task.1206.desc: "My [kurultai|E] [councillor.GetShortUIName] has been building a closer bond with [astrologer.GetShortUIName] on my behalf."
-
- kurultai_task.1251.notification: "Shameful Rule"
- kurultai_task.1251.desc: "My people are calling out [astrologer.GetShortUIName] and [councillor.GetShortUIName] for their abuse of their positions."
-
- kurultai_task.1256.notification: "Furious $court_astrologer_court_position$"
- kurultai_task.1256.desc: "My [kurultai|E] [councillor.GetShortUIName] is constantly at odds with my $court_astrologer_court_position$ [astrologer.GetShortUIName]."
-
- kurultai_task.1301.notification: "Unexpected Findings"
- kurultai_task.1301.desc: "[councillor.GetShortUIName] has managed to gather more gold than expected in [county.GetNameNoTier]."
-
- kurultai_task.1306.notification: "Building a Reputation"
- kurultai_task.1306.desc: "I have gained a reputation as a dreadful ruler after assigning [councillor.GetShortUIName] to exploit [county.GetNameNoTier]."
-
- kurultai_task.1351.notification: "Exploited Lands"
- kurultai_task.1351.desc: "[councillor.GetShortUINamePossessive] attempts at making the most out of [county.GetNameNoTier] have had unexpected, but not unsurprising side-effects."
-
- kurultai_task.1356.notification: "Exploited People"
- kurultai_task.1356.desc: "[councillor.GetShortUIName] work has had disastrous effects on the local tribes living in [county.GetNameNoTier]."
-
- kurultai_task.1401.notification: "Impressive Raiders"
- kurultai_task.1401.desc: "Our raiders are feared far and wide thanks to [councillor.GetShortUIName] drilling them."
-
- kurultai_task.1406.notification: "Dreadful Raiders"
- kurultai_task.1406.desc: "Our raiders strike fear into the heart of enemies far and wide, both inside and outside our borders."
-
- kurultai_task.1451.notification: "Unimpressive Raiders"
- kurultai_task.1451.desc: "Somehow, my raiders seem even less impressive now than when [councillor.GetShortUIName] started working with them."
-
- kurultai_task.1456.notification: "Pitiful Raiders"
- kurultai_task.1456.desc: "Beggars, drunkards, and weaklings. [councillor.GetShortUIName], give me back my raiders!"
-
- kurultai_task.1501.notification: "Building Cultural Relations"
+ kurultai_task.1001.notification: "Greggi prosperi"
+ kurultai_task.1001.desc: "Le nostre greggi prosperano grazie al duro lavoro di [councillor.GetShortUIName]."
+ 
+ kurultai_task.1006.notification: "Orda reclutata"
+ kurultai_task.1006.desc: "Un piccolo gruppo di pastori cacciati dalle loro terre ha giurato fedeltà alla nostra tribù."
+ kurultai_herder_army: "Orda di pastori"
+ 
+ kurultai_task.1051.notification: "Greggi in declino"
+ kurultai_task.1051.desc: "Nonostante il duro lavoro di [councillor.GetShortUIName], assistiamo al declino delle nostre greggi."
+ 
+ kurultai_task.1056.notification: "Diminuzione del controllo"
+ kurultai_task.1056.desc: "I tentativi di [councillor.GetShortUIName] di migliorare le nostre greggi hanno causato disordini e conflitti tra la nostra gente."
+ 
+ kurultai_task.1101.notification: "Fertilità fiorente"
+ kurultai_task.1101.desc: "[county.GetDefinitiveName] fiorisce grazie a [councillor.GetShortUIName]."
+ 
+ kurultai_task.1106.notification: "Governo popolare"
+ kurultai_task.1106.desc: "Il lavoro di [councillor.GetShortUIName] in [county.GetDefinitiveName] ha portato benefici imprevisti."
+ 
+ kurultai_task.1151.notification: "Fertilità in declino"
+ kurultai_task.1151.desc: "[councillor.GetShortUIName] non ha gestito bene le nostre greggi in [county.GetDefinitiveName] e ha fatto sì che la fertilità della zona calasse."
+ 
+ kurultai_task.1156.notification: "Governo impopolare"
+ kurultai_task.1156.desc: "La gestione di [councillor.GetShortUIName] in [county.GetNameNoTier] si è rivelata incredibilmente impopolare e ciò si riflette sul mio governo come [ROOT.Char.GetTitleAsNameNoTooltip|l]."
+ 
+ kurultai_task.1201.notification: "Governo fedele"
+ kurultai_task.1201.desc: "La mia gente è rimasta colpita dal lavoro che [astrologer.GetShortUIName] e [councillor.GetShortUIName] stanno svolgendo in mio nome."
+ 
+ kurultai_task.1206.notification: "$court_astrologer_court_position$ amichevole"
+ kurultai_task.1206.desc: "[councillor.GetShortUIName] del mio [kurultai|lE] ha stretto un forte legame con [astrologer.GetShortUIName] in mio nome."
+ 
+ kurultai_task.1251.notification: "Governo vergognoso"
+ kurultai_task.1251.desc: "La mia gente ha puntato il dito contro [astrologer.GetShortUIName] e [councillor.GetShortUIName] per aver abusato delle loro cariche."
+ 
+ kurultai_task.1256.notification: "$court_astrologer_court_position$ furioso"
+ kurultai_task.1256.desc: "[councillor.GetShortUIName] del mio [kurultai|lE] continua ad essere in conflitto con [astrologer.GetShortUIName], che ricopre il ruolo di $court_astrologer_court_position$."
+ 
+ kurultai_task.1301.notification: "Ritrovamenti inattesi"
+ kurultai_task.1301.desc: "[councillor.GetShortUIName] è riuscito a raccogliere più oro del previsto in [county.GetNameNoTier]."
+ 
+ kurultai_task.1306.notification: "Forgiarsi una reputazione"
+ kurultai_task.1306.desc: "Mi sono guadagnato la reputazione di essere un[ROOT.Char.Custom('DE_END_PRO_S_N')] sovran[ROOT.Char.Custom('DE_END_PRO_S_N')] temibile dopo aver incaricato [councillor.GetShortUIName] di sfruttare [county.GetNameNoTier]."
+ 
+ kurultai_task.1351.notification: "Terre sfruttate"
+ kurultai_task.1351.desc: "I tentativi di [councillor.GetShortUIName] di ottenere il massimo da [county.GetNameNoTier] hanno avuto effetti collaterali imprevisti, ma poco sorprendenti."
+ 
+ kurultai_task.1356.notification: "Genti sfruttate"
+ kurultai_task.1356.desc: "Il lavoro di [councillor.GetShortUIName] ha avuto effetti disastrosi sulle tribù locali che vivono in [county.GetNameNoTier]."
+ 
+ kurultai_task.1401.notification: "Razziatori impressionanti"
+ kurultai_task.1401.desc: "I nostri razziatori sono temuti ovunque grazie all’addestramento di [councillor.GetShortUIName]."
+ 
+ kurultai_task.1406.notification: "Razziatori temibili"
+ kurultai_task.1406.desc: "I nostri razziatori incutono timore nel cuore di tutti i nemici, qualunque sia la loro provenienza, sia dentro che fuori dai nostri confini."
+ 
+ kurultai_task.1451.notification: "Razziatori mediocri"
+ kurultai_task.1451.desc: "Non so come, ma i miei razziatori impressionano molto meno da quando [councillor.GetShortUIName] ha iniziato a lavorare con loro."
+ 
+ kurultai_task.1456.notification: "Razziatori pietosi"
+ kurultai_task.1456.desc: "Accattoni, ubriachi e rachitici. [councillor.GetShortUIName], ridammi i miei razziatori!"
+ 
+ kurultai_task.1501.notification: "Creazione di relazioni culturali"
  kurultai_task.1501.desc: "$task_accept_culture_acceptance_gain$"
-
- kurultai_task.1506.notification: "Cultural Bonds"
- kurultai_task.1506.desc: "Due to the endeavors of [councillor.GetShortUIName], foreigners are feeling welcome at court."
-
- kurultai_task.1551.notification: "Wanining Cultural Relations"
- kurultai_task.1551.desc: "[councillor.GetShortUINamePossessive] efforts have only managed to worsen cultural bonds."
-
- kurultai_task.1556.notification: "Broken Bonds"
- kurultai_task.1556.desc: "Despite the endeavors of [councillor.GetShortUIName], foreigners are feeling unwelcome at court."
-
- # Kurultai Modifiers
- kurultai_task_increase_county_opinion_modifier: "Popular Rule"
- kurultai_task_increase_county_opinion_modifier_desc: "The people have been appeased and are happy with their liege, for now."
-
- kurultai_task_decrease_county_opinion_modifier: "Exploited People"
- kurultai_task_decrease_county_opinion_modifier_desc: "The people in this area have been exploited by and lost faith in their liege."
-
- kurultai_task_increase_culture_opinion_modifier: "Cultural Bonds"
- kurultai_task_increase_culture_opinion_modifier_desc: "Foreigners are feeling welcome at this character's court."
-
- kurultai_task_decrease_culture_opinion_modifier: "Broken Bonds"
- kurultai_task_decrease_culture_opinion_modifier_desc: "Foreigners are feeling unwelcome at this character's court."
+ 
+ kurultai_task.1506.notification: "Legami culturali"
+ kurultai_task.1506.desc: "Grazie all’impegno di [councillor.GetShortUIName], gli stranieri si sentono benvenuti a corte."
+ 
+ kurultai_task.1551.notification: "Relazioni culturali in calo"
+ kurultai_task.1551.desc: "Gli sforzi di [councillor.GetShortUIName] non ha fatto altro che peggiorare i legami culturali."
+ 
+ kurultai_task.1556.notification: "Legami spezzati"
+ kurultai_task.1556.desc: "Malgrado l’impegno di [councillor.GetShortUIName], gli stranieri non si sentono affatto a loro agio a corte."
+ 
+ #Kurultai Modifiers
+ kurultai_task_increase_county_opinion_modifier: "Governo popolare"
+ kurultai_task_increase_county_opinion_modifier_desc: "Il popolo è stato placato e al momento è soddisfatto del suo signore."
+ 
+ kurultai_task_decrease_county_opinion_modifier: "Genti sfruttate"
+ kurultai_task_decrease_county_opinion_modifier_desc: "Le genti di questa zona sono state sfruttate e hanno perso fiducia nel loro signore."
+ 
+ kurultai_task_increase_culture_opinion_modifier: "Legami culturali"
+ kurultai_task_increase_culture_opinion_modifier_desc: "Gli stranieri si sentono benvenuti alla corte di questo personaggio."
+ 
+ kurultai_task_decrease_culture_opinion_modifier: "Legami spezzati"
+ kurultai_task_decrease_culture_opinion_modifier_desc: "Gli stranieri non si sentono a loro agio alla corte di questo personaggio."
  
  steward_promote_culture_beth_nahrain: "$task_promote_culture$ di Beth Nahrain"

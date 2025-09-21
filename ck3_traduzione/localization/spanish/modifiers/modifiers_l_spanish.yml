@@ -975,7 +975,7 @@
  drylands_holding_construction_prestige_cost:0 "$drylands_holding_construction_gold_cost$"
  MOD_HOLDING_CONSTRUCTION_PIETY_COST:1 "Costo di Costruzione dell'[holding|E]"
  MOD_HOLDING_CONSTRUCTION_PRESTIGE_COST:1 "Costo di Costruzione dell'[holding|E]"
- MOD_TAX_MULT:1 "[taxes|E] dall'[holding|E]"
+ MOD_TAX_MULT:1 "[taxes|E] dal [holding|E]"
  MOD_MEN_AT_ARMS_RECRUITMENT_COST:0 "Costo di Reclutamento degli [men_at_arms|E]"
  MOD_MEN_AT_ARMS_MAINTENANCE:0 "Costo di Mantenimento degli [men_at_arms|E]"
  MOD_MEN_AT_ARMS_MAINTENANCE_PER_DREAD_MULT:0 "Mantenimento [men_at_arms|E] a causa della [dread|E]"
