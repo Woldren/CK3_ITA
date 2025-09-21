@@ -53,8 +53,8 @@
  MY_REALM_WINDOW_SUCCESSION:0 "Successione"
  MY_REALM_WINDOW_CURRENT_SUCCESSION:0 "[succession_law|E] del Reame"
  MY_REALM_WINDOW_VASSAL_OBLIGATION:1 "$SUBJECT_CONTRACT_OBLIGATIONS_TITLE$: [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]\n$SUBJECT_CONTRACT_OBLIGATIONS_TITLE_LEVIES$: [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_levies' )]"
- MY_REALM_WINDOW_VASSAL_FEUDAL_TAX:0 "@gold_icon! $NON_FEUDAL_VASSAL_CONTRACT_OBLIGATIONS_TITLE$: [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]"
- MY_REALM_WINDOW_VASSAL_FEUDAL_LEVIES:0 "@soldier_icon! $NON_FEUDAL_VASSAL_CONTRACT_OBLIGATIONS_TITLE_LEVIES$: [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_levies' )]"
+ MY_REALM_WINDOW_VASSAL_FEUDAL_TAX:0 "@gold_icon! $NON_FEUDAL_VASSAL_CONTRACT_OBLIGATIONS_TITLE$:\n       [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]"
+ MY_REALM_WINDOW_VASSAL_FEUDAL_LEVIES:0 "@soldier_icon! $NON_FEUDAL_VASSAL_CONTRACT_OBLIGATIONS_TITLE_LEVIES$:\n       [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_levies' )]"
  MY_REALM_WINDOW_VASSALS_TT:0 "Mostra i Vassalli del Reame"
  MY_REALM_WINDOW_SUCCESSION_TT:0 "Mostra la Successione del Reame"
  MY_REALM_WINDOW_CHANGE_SUCCESSION_TT:0 "Seleziona una nuova legge di successione"
@@ -235,8 +235,8 @@
  MY_REALM_WINDOW_ABSOLUTE_COUNTY_CONTROL: "[control|E]: [absolute_control_short|E]"
 
  VASSAL_CONTRACT:0 "Contratto del Vassallo"
- NON_FEUDAL_SUBJECT_CONTRACT_OBLIGATIONS_TITLE:0 "Livello delle Tasse"
- NON_FEUDAL_SUBJECT_CONTRACT_OBLIGATIONS_TITLE_LEVIES:0 "Livello delle Leve"
+ NON_FEUDAL_VASSAL_CONTRACT_OBLIGATIONS_TITLE:0 "Liv. Tasse" #TWR - STRINGA MODIFICATA rispetto all'orginale NON_FEUDAL_SUBJECT_CONTRACT_OBLIGATIONS_TITLE
+ NON_FEUDAL_VASSAL_CONTRACT_OBLIGATIONS_TITLE_LEVIES:0 "Liv. Leve" #TWR - STRINGA MODIFICATA rispetto all'orginale NON_FEUDAL_SUBJECT_CONTRACT_OBLIGATIONS_TITLE_LEVIES
  NON_FEUDAL_VASSAL_CONTRACT_OBLIGATION_ONLY_ONCE:0 "#weak Puoi cambiare il [vassal_contract|E] solo una volta per ogni Personaggio#!"
  MY_REALM_WINDOW_FUTURE_DIARCH:3 "[CHARACTER.GetDiarchTitle]-Presunto: [TARGET_CHARACTER.GetShortUINameNoTooltip|U], [TARGET_CHARACTER.GetDiarchLoyaltyLabel]"
  MY_REALM_WINDOW_DESIGNATED_DIARCH:3 "Assunto [CHARACTER.GetDiarchTitle]: [TARGET_CHARACTER.GetShortUINameNoTooltip|U], [TARGET_CHARACTER.GetDiarchLoyaltyLabel]"

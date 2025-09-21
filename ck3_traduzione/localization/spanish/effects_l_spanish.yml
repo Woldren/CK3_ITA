@@ -1161,7 +1161,7 @@
  THEIR_PREGNANCY_HAS_ENDED:0 "La gravidanza di [CHARACTER.GetShortUIName] è finita"
 
  FORCE_ADD_TO_SCHEME_THIRD:0 "$ADD_TO_SCHEME_THIRD$, e #EMP non può#! lasciare volontariamente fino al $DURATION$"
- ADD_TO_SCHEME_THIRD:0 "[CHARACTER.GetShortUIName|U] riempie lo slot di questo [agent|E] [AgentSlot.GetName|V] nel [scheme|E] [AgentSlot.GetScheme.GetName] contro [AgentSlot.GetScheme.GetTargetCharacter.GetTitledFirstName]"
+ ADD_TO_SCHEME_THIRD:0 "[CHARACTER.GetShortUIName|U] riempie lo slot di questo [agent|E] [AgentSlot.GetName|V] nel [scheme|E] per [AgentSlot.GetScheme.GetName] [AgentSlot.GetScheme.GetTargetCharacter.GetTitledFirstName]"
 
  ADD_AGENT_SLOT: "Aggiungi slot [agent|E] $CONTRIBUTION_ICON$ $AGENT_SLOT$"
 
