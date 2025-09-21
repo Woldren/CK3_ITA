@@ -26,7 +26,7 @@
  hold_court.6030.d.tt:0 "Tutti i tuoi vassalli di cultura [6030_monk.GetCulture.GetName]"
  #A Lost Treasure
  hold_court.6040.t:0 "Un Tesoro Perduto"
- hold_court.6040.desc:1 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], io rappresento la comunità religiosa di [6040_church.GetNameNoTooltip].\n\n"Rovistando nel nostro modesto archivio, ci siamo imbattuti in un libro molto particolare. La copertina era polverosa, la rilegatura fragile e le pagine erano ingiallite dal tempo, ma conteneva i disegni più insoliti e la scrittura stessa era sconosciuta a tutti noi.\n\n"Siamo certi che è unico al mondo, un patrimonio di conoscenza perduto da tempo, un vero tesoro! Ecco perché ve lo offriamo. Forse è la copia originale del testamento di [6040_monk.GetFaith.HighGodName], oppure è un ricordo della creazione del mondo!""
+ hold_court.6040.desc:1 ""[Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')], io rappresento la comunità religiosa di [6040_church.GetNameNoTooltip].\n\n"Rovistando nel nostro modesto archivio, ci siamo imbattuti in un libro molto particolare. La copertina era polverosa, la rilegatura fragile e le pagine erano ingiallite dal tempo, ma conteneva i disegni più insoliti e la scrittura stessa era sconosciuta a tutti noi.\n\n"Siamo certi che è unico al mondo, un patrimonio di conoscenza perduto da tempo, un vero tesoro! Ecco perché ve lo offriamo. Forse è la copia originale del testamento di [6040_monk.GetFaith.HighGodName], oppure è un ricordo della creazione del mondo!""
  hold_court.6040.a:0 "Grazie, lo aggiungerò alla mia collezione."
  hold_court.6040.b:0 "#EMP Affascinante!#! Chiamate il mio antiquario!"
  hold_court.6040.b.tt:0 "Il tuo antiquario non ci capisce niente"

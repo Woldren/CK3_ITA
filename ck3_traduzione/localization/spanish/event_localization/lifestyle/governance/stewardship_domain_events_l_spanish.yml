@@ -55,7 +55,7 @@
 
  # Reduce revolt risk by being diligent, by Linnéa Thimrén
  stewardship_domain.5031.t:0 "Una Contea in Difficoltà"
- stewardship_domain.5031.desc:0 "Questi sono tempi tumultuosi per il/la [county.GetName]. Arrivano continui rapporti che descrivono in dettaglio le terribili condizioni della zona e i contadini hanno iniziato a mormorare riguardo una soluzione #EMP alternativa#!..."
+ stewardship_domain.5031.desc:0 "Questi sono tempi tumultuosi per [county.Custom('IT_COU_COL4')][county.GetName]. Arrivano continui rapporti che descrivono in dettaglio le terribili condizioni della zona e i contadini hanno iniziato a mormorare riguardo una soluzione #EMP alternativa#!..."
  stewardship_domain.5031.a:0 "Risolvi il problema personalmente."
  stewardship_domain.5031.b:0 "Aumenta le tasse come punizione."
 

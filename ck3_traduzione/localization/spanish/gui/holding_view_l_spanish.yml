@@ -184,7 +184,7 @@
  HOLDING_VIEW_ENEMY_OR_HOSTILE_UNITS:0 "@warning_icon! #X Ci sono nemici o eserciti ostili nel Possedimento.#!"
  HOLDING_VIEW_UNDER_SIEGE:0 "@warning_icon! #X Possedimento Sotto [siege|E]#!"
  HOLDING_VIEW_NOMAD_HERDER_GOVERNMENT: "@warning_icon! #X I Personaggi [CHARACTER.GetGovernment.GetName] non possono costruire nuovi [holdings|E] o [buildings|E].#!"
- CONSTRUCTING_BUILDING_TITLE:2 "#T #high Constructing:#! [BUILDING.GetNameNoTooltip]#! #weak ([BUILDING.GetTypeName])#!\n\n"
+ CONSTRUCTING_BUILDING_TITLE:2 "#T #high In Costruzione:#! [BUILDING.GetNameNoTooltip]#! #weak ([BUILDING.GetTypeName])#!\n\n"
  HOLDING_LEVY_SIZE:1 "@soldier_icon! [Holding.GetMaxLevySize|0]"
  HOLDING_VIEW_NEXT:0 "Possedimento successivo"
  HOLDING_VIEW_PREVIOUS:0 "Possedimento precedente"
