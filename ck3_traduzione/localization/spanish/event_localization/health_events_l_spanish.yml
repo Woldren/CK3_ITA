@@ -119,7 +119,7 @@
 
  # Recover from diseases, by Mathilda Bjarnehed
  health.1101.t:1 "[SCOPE.Custom('EventTitleDisease')]: Il Vecchio Me"
- health.1101.desc:1 "Quando mi sono svegliat[ROOT.Char.Custom('DE_END_PRO_S_N')] questa mattina e ho osservato i primi raggi del sole filtrare attraverso la mia finestra, mi ci è voluto un momento per rendermi conto di aver dormito profondamente per la prima volta da settimane. Mi sono svegliat[ROOT.Char.Custom('DE_END_PRO_S_N')] senza tossire una sola volta!"\n\nÈ stata una lunga strada per tornare verso la salute, ma mi ritrovo di nuovo nel suo caldo abbraccio."
+ health.1101.desc:1 "Quando mi sono svegliat[ROOT.Char.Custom('DE_END_PRO_S_N')] questa mattina e ho osservato i primi raggi del sole filtrare attraverso la mia finestra, mi ci è voluto un momento per rendermi conto di aver dormito profondamente per la prima volta da settimane. Mi sono svegliat[ROOT.Char.Custom('DE_END_PRO_S_N')] senza tossire una sola volta!"\n\nIl percorso per rimettermi totalmente in salute è stato lungo ma, ora, finalmente, mi ritrovo di nuovo nel suo caldo abbraccio."
  health.1101.a:0 "Sono content[ROOT.Char.Custom('DE_END_PRO_S_N')] di stare di nuovo bene."
 
  health.1102.t:1 "[SCOPE.Custom('EventTitleDisease')]: Le Forze stanno Tornando"
@@ -237,7 +237,7 @@
  health.2201.leprosy.desc:1 "\n\nNonostante la possibilità di vivere a lungo, la sua deformità causerà diffidenza e sfiducia. Nemmeno io riesco a sopprimere il mio disgusto al pensiero delle lesioni che crescono su tutta la sua pelle..."
  health.2201.lethal_disease.desc:0 "\n\nL'afflizione uccide senza pietà, abbattendo giovani e vecchi, poveri e ricchi, uomini e donne. Temo che questa sia la fine. Solo un miracolo può salvar[sick_character.Custom('DE_END_PRO_S_N')]."
  health.2201.major_disease.desc:1 "\n\nIl futuro è incerto. La morte si sofferma vicino al suo letto, ma forse non tutto è perduto. [sick_character.GetFirstNameNoTooltip] potrebbe sopravvivere, dovesse la fortuna essere dalla sua.\n\nSolo [ROOT.Char.GetFaith.FateGodName] conosce il suo fato."
- health.2201.court_physician.desc:0 "\n\nIl medico vuole sapere come mi[sick_character.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))] dovrebbe essere trattat[sick_character.Custom('DE_END_PRO_S_N')]."
+ health.2201.court_physician.desc:0 "\n\nIl mio medico vuole sapere come dovrebbe essere trattat[sick_character.Custom('DE_END_PRO_S_N')] mi[sick_character.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))]."
  health.2201.court_physician.desc_sick_physician:0 "\n\n[sick_character.GetSheHe|U] può anche essere il mio medico, ma tuttavia si rivolge a me in cerca di una guida."
  health.2201.a:0 "È un nemico da cui non posso difenderl[sick_character.Custom('DE_END_PRO_S_N')]."
 

@@ -91,7 +91,7 @@
  demand_conversion_tt:0 "[recipient.GetTitledFirstName] e i suoi parenti stretti si convertiranno alla tua religione"
  # # Royal Service
  hold_court.8050.t:0 "Servizio Reale"
- hold_court.8050.desc:0 "([vassal.Custom('DE_ART_DEF_P_D')]) [vassal.Custom2('MyCharacterIntroduction', ROOT.Char)], si avvicina al trono con un[knight.Custom('DE_PRO_POS_P_2P')] [knight.GetWomanMan] [knight.Custom('GetYoungMiddleAgedOld')] al seguito.\n\n"([vassal.Custom2('DE_ART_DEF_P_D')]) Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [vassal.Custom2('RelationToMeShort', ROOT.Char)] e [ROOT.Char.GetTitleAsNameNoTooltip]!" si vanta [vassal.GetSheHe], "Il mio [vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))], [knight.GetFullName], vi chiede l'onore di unirsi al vostro seguito di [ROOT.Char.Custom('MountedWarriorTermPlural')] — date[knight.Custom('DE_PRO_DEM')] l'opportunità di dar prova delle sue qualità!" \n\n"
+ hold_court.8050.desc:0 "([vassal.Custom('DE_ART_DEF_P_D')]) [vassal.Custom2('MyCharacterIntroduction', ROOT.Char)], si avvicina al trono con un[knight.Custom('DE_PRO_POS_P_2P')] [knight.GetWomanMan] [knight.Custom('GetYoungMiddleAgedOld')] al seguito.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [vassal.Custom2('RelationToMeShort', ROOT.Char)] e [ROOT.Char.GetTitleAsNameNoTooltip]!" si vanta [vassal.GetSheHe], "Il mio [vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))], [knight.GetFullName], vi chiede l'onore di unirsi al vostro seguito di [ROOT.Char.Custom('MountedWarriorTermPlural')] — date[knight.Custom('DE_PRO_DEM')] l'opportunità di dar prova delle sue qualità!" \n\n"
  hold_court.8050.desc_talented:0 ""[knight.Custom('DE_ART_IND_D')] è già un[knight.Custom('DE_PRO_POS_P_2P')] dei duellanti più celebri di [vassal.GetTitleAsNamePossessive] e vi porterà molta gloria sul campo di battaglia!". È vero, avete sentito parlare delle sue abilità..."
  hold_court.8050.desc_suitable:0 ""[knight.Custom('DE_ART_IND_D')] sa come maneggiare [knight.Custom('signature_weapon')] e non vi deluderà quando sarà il momento!""
  hold_court.8050.desc_passing:0 "[knight.GetFirstNameNoTooltip] sorride poco convint[knight.Custom('DE_END_PRO_S_N')]. "Benché io sia solo un[knight.Custom('DE_PRO_POS_P_2P')] mediocre spadaccin[knight.Custom('DE_END_PRO_S_N')], spero di imparare tanto stando al vostro servizio.""
@@ -601,7 +601,7 @@
  hold_court_8200_vassal_modifier:0 "Fede Indesiderata"
  # # Rightful Lord
  hold_court.8210.t:0 "Terre Legittime"
- hold_court.8210.desc.intro:0 "Un[aggressor_vassal.Custom('DE_PRO_POS_P_2P')] [aggressor_vassal.GetTitledFirstName] marcatamente scontent[aggressor_vassal.Custom('DE_END_PRO_S_N')] si precipita al tuo trono...\n\n"[aggressor_vassal.Custom2('RelationToMeShort', ROOT.Char)|U], "
+ hold_court.8210.desc.intro:0 "[aggressor_vassal.Custom('IT_NAM_COL3')|U][aggressor_vassal.GetTitledFirstName] marcatamente scontent[aggressor_vassal.Custom('DE_END_PRO_S_N')] si precipita al tuo trono...\n\n"[aggressor_vassal.Custom2('RelationToMeShort', ROOT.Char)|U] mi[ROOT.Char.Custom('DE_END_PRO_S_N')], "
  hold_court.8210.desc.de_jure:0 "i miei diritti legali sulla [vassal_claim.GetName] sono ben attestati; quegli appezzamenti sono stati a lungo considerati parte integrante del mio [vassal_claim.GetDeJureLiege.GetName].""
  hold_court.8210.desc.strong:0 "il mio legittimo diritto sulla [vassal_claim.GetName] è fuor d'ogni dubbio; riconosciuto sia dai vostri araldi che dai [ROOT.Char.GetFaith.AltPriestTermPlural] di fede [ROOT.Char.GetFaith.GetAdjectiveNoTooltip].""
  hold_court.8210.desc.weak:0 "Io ho diritto alla [vassal_claim.GetName], non importa cosa possano dire gli altri!"
@@ -609,7 +609,7 @@
  hold_court.8210.desc.self:0 "\n\n"Rinuncerete a ciò che non vi appartiene, a sostegno della mia richiesta?""
  hold_court.8210.a:0 "Questa ingiustizia finisce ora."
  hold_court.8210.b:0 "Tali questioni sono tradizionalmente risolte dalla forza."
- hold_court.8210.b.tt_aggressor:0 "[aggressor_vassal.GetTitledFirstNameNoTooltip] vince il duello"
+ hold_court.8210.b.tt_aggressor:0 "[aggressor_vassal.Custom('IT_NAM_COL3')|U][aggressor_vassal.GetTitledFirstNameNoTooltip] vince il duello"
  hold_court.8210.b.tt_defender:1 "Il titolo rimane al[defender_vassal.Custom('DE_END_ADJ_NUL_S_N')] [defender_vassal.GetNameOrMeNoTooltip]"
  hold_court.8210.c.none:0 "Non hai una rivendicazione, [aggressor_vassal.Custom('InsultNoun')]."
  hold_court.8210.c.other:0 "La rivendicazione di [defender_vassal.GetFirstNamePossessiveNoTooltip] è la più vera."

@@ -161,7 +161,7 @@
  bp2_yearly.1035.b.tt_matching:0 "Ciò accrescerà notevolmente il [education_focus|E] sull'[learning|E] di [rock_child.GetFirstNameNoTooltip]"
  #Parent/Guardian: Your child/ward has a text about martial arts
  bp2_yearly.1040.t:0 "Una Penna Potente"
- bp2_yearly.1040.desc: "Prendendo in mano le spade imbottite per un incontro di allenamento con [sparring_child.IsFemale,'mia','mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sparring_child'))] [sparring_child.GetFirstName], noto un diario a brandelli gettato da una parte.\n\nDalla copertina, sembra che contenga esercizi e buone pratiche relative alle arti marziali.\n\n[sparring_child.GetFirstNameNoTooltip] guarda nella mia direzione: "Oh. Quello, per lo più la leggo per le illustrazioni. Posso prestartelo.""
+ bp2_yearly.1040.desc: "Prendendo in mano le spade imbottite per un incontro di allenamento con mi[sparring_child.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sparring_child'))] [sparring_child.GetFirstName], noto un diario a brandelli gettato da una parte.\n\nDalla copertina, sembra che contenga esercizi e buone pratiche relative alle arti marziali.\n\n[sparring_child.GetFirstNameNoTooltip] guarda nella mia direzione: "Oh. Quello, per lo più lo leggo per le illustrazioni. Posso prestartelo.""
  bp2_yearly.1040.a:0 "Intrigante."
  bp2_yearly.1040.a.flavor:0 ""Afferra l'elsa, non l'estremità appuntita." Hm."
  bp2_yearly.1040.b:0 "Dovremmo provare!"
