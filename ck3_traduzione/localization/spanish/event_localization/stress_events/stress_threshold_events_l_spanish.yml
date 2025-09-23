@@ -204,7 +204,7 @@
  stress_threshold.3101.lunatic.tt:0 "#F Portatemi una torcia!#!"
 
  stress_threshold.3201.t:0 "Crollo Mentale: Sovraccarico"
- stress_threshold.3201.desc:0 "È tutto troppo, perché ci sto addirittura provando?\n\nSiamo nel bel mezzo di una cena quando tutto... crolla. Devo tenere d'occhio le finanze della [ROOT.Char.Custom('GetCourt')|l], devo risolvere una dozzina di piccole controversie, devo...\n\n"Vi sentite bene, [Select_CString(ROOT.Char.IsFemale,'mia','mio')] [ROOT.Char.GetTitleAsNameNoTooltip]?" [Select_CString(vassal.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))], [vassal.GetTitledFirstName], da cautamente voce alle sue preoccupazioni."
+ stress_threshold.3201.desc:0 "È tutto troppo, perché ci sto addirittura provando?\n\nSiamo nel bel mezzo di una cena quando tutto... crolla. Devo tenere d'occhio le finanze della [ROOT.Char.Custom('GetCourt')|l], devo risolvere una dozzina di piccole controversie, devo...\n\n"Vi sentite bene, [Select_CString(ROOT.Char.IsFemale,'mia','mio')] [ROOT.Char.GetTitleAsNameNoTooltip]?" [vassal.Custom('DE_ART_DEF_P_A')|U] mi[vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))], [vassal.GetTitledFirstName], da cautamente voce alle sue preoccupazioni."
  stress_threshold.3201.depressed.gain:0 "Che importanza ha? Mi arrendo."
  stress_threshold.3201.depressed.effect:0 "È tutto inutile comunque..."
  stress_threshold.3201.help:0 ""[vassal.GetFirstNameNoTooltip]... Aiutami ti prego.""

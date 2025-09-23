@@ -135,9 +135,9 @@
  wanderer_internal_affairs_focus_effect: ""
  wanderer_internal_affairs_focus_modifier: "$wanderer_internal_affairs_focus$"
 
- wayfarer_name: "Wayfarer"
- voyager_name: "Voyager"
- surveyor_name: "Inspector"
+ wayfarer_name: "Viandante"
+ voyager_name: "Viaggiatore"
+ surveyor_name: "Ispettore"
 
  #Adventurers
  diplomacy_adventurer_focus: "Araldo"

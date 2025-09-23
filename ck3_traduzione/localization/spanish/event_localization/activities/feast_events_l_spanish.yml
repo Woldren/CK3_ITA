@@ -203,7 +203,7 @@
  feast.0800.tt:0 "L'evento [GetActivityType('activity_feast').GetName] organizzato da [host.GetShortUINameNoTooltip] è stato annullato"
  
  feast_events_flavor.0001.t: "Ho Sentito Parlare di Te"
- feast_events_flavor.0001.desc.intro: "«[ROOT.Char.GetTitledFirstName]!» [Select_CString(guest.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('guest'))] [guest.GetTitledFirstName|U] chiama il mio nome.\n\n"
+ feast_events_flavor.0001.desc.intro: "«[ROOT.Char.GetTitledFirstName]!» [guest.Custom('DE_ART_DEF_P_A')] mi[guest.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('guest'))] [guest.GetTitledFirstName|U] chiama il mio nome.\n\n"
  feast_events_flavor.0001.desc.good: "«[Select_CString(relation_target.IsFemale,'Mia cara','Mio caro')] [guest.Custom2('RelationToMeShort', SCOPE.sC('relation_target'))] [relation_target.GetFirstName] parla di te con affetto.» dice [guest.GetSheHe] con orgoglio, sorseggiando il [guest.Custom('RegionalDrink')]. «Non vedevo l’ora di banchettare con te.»"
  feast_events_flavor.0001.desc.bad: "«[Select_CString(relation_target.IsFemale,'Mia cara','Mio caro')] [guest.Custom2('RelationToMeShort', SCOPE.sC('relation_target'))] [relation_target.GetFirstName] mi ha raccontato che siete #EMP [Select_CString(ROOT.Char.IsFemale,'una donna','un uomo')] [ROOT.Char.Custom('InsultAdjective')]#!. Spero davvero che siano solo voci infondate e un semplice malinteso.»"
  feast_events_flavor.0001.aa: "«Che le famiglie [ROOT.Char.GetDynasty.GetBaseNameNoTooltip] e [guest.GetDynasty.GetBaseNameNoTooltip] si uniscano!»"
@@ -215,7 +215,7 @@
  feast_events_flavor.0001.e: "«Non sono qui per parlare di [relation_target.GetSheHe]!»"
 
  feast_events_flavor.0002.t: "Perdonare è Divino"
- feast_events_flavor.0002.desc: "[Select_CString(former_rival.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('former_rival'))] e [Concept('rival','ex-rivale')|E], [CHARACTER.Custom('IT_NAM_COL3')][former_rival.GetTitledFirstName] si avvicina al mio tavolo con due coppe in mano, [former_rival.Custom('quirk_pos_pp')] prima di lasciarsi cadere [former_rival.Custom('quirk_pos_adverb')] su una sedia vuota accanto a me. In breve siamo entrambi immersi in conversazione, rievocando le nostre passate rivalità."
+ feast_events_flavor.0002.desc: "[former_rival.Custom('DE_ART_DEF_P_A')|U] mi[former_rival.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('former_rival'))] e [Concept('rival','ex-rivale')|E], [CHARACTER.Custom('IT_NAM_COL3')][former_rival.GetTitledFirstName] si avvicina al mio tavolo con due coppe in mano, [former_rival.Custom('quirk_pos_pp')] prima di lasciarsi cadere [former_rival.Custom('quirk_pos_adverb')] su una sedia vuota accanto a me. In breve siamo entrambi immersi in conversazione, rievocando le nostre passate rivalità."
  feast_events_flavor.0002.a: "«Non è che mi manchi così tanto il tuo pungolarmi, car[Select_CString(former_rival.IsFemale,'a','o')] [former_rival.GetTitledFirstName]...»"
  feast_events_flavor.0002.b: "«Un tempo nemici, ora più vicini che mai!»"
  feast_events_flavor.0002.c: "«Grazie per avermelo ricordato – vattene, [former_rival.Custom('InsultAdjective')] [former_rival.Custom('InsultNoun')]!»"

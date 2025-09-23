@@ -47,8 +47,8 @@
  #ADD_learning_SKILL_EFFECT:0 "" delete this
  ADD_COURTIER_EFFECT:1 "$COURTIER$ diventa un [courtier|E] alla corte di $EMPLOYER$"
  SET_EMPLOYER_EFFECT:1 "$COURTIER$ diventa un [courtier|E] alla corte di $EMPLOYER$"
- REMOVE_COURT_CHARACTER_EFFECT:1 "[TARGET_CHARACTER.GetUIName] lascia la [CHARACTER.LocalPlayerString( 'tua ', '' )][CHARACTER.Custom('GetCourt')|l][CHARACTER.LocalPlayerString( '', 'Loc_FR_du2_GetName' )]"
- REMOVED_COURT_CHARACTER_EFFECT:0 "[TARGET_CHARACTER.GetUIName] ha lasciato la [CHARACTER.LocalPlayerString( 'tua ', '' )][CHARACTER.Custom('GetCourt')|l][CHARACTER.LocalPlayerString( '', 'Loc_FR_du2_GetName' )]"
+ REMOVE_COURT_CHARACTER_EFFECT:1 "[TARGET_CHARACTER.GetUIName] lascia la [CHARACTER.Custom('GetCourt')|l] [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetTitledFirstName]"
+ REMOVED_COURT_CHARACTER_EFFECT:0 "[TARGET_CHARACTER.GetUIName] ha lasciato la [CHARACTER.Custom('GetCourt')|l] [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetTitledFirstName]"
  GAIN_HOOK_EFFECT:0 "Ottiene un [weak_hook|E] #weak ($TYPE$)#! [TARGET_CHARACTER.LocalPlayerString( 'su di te', 'Loc_FR_du1_GetName' )]"
  GAINED_HOOK_EFFECT:0 "Ha ottenuto un [weak_hook|E] #weak ($TYPE$)#! [TARGET_CHARACTER.LocalPlayerString( 'su di te', 'Loc_FR_du1_GetName' )]"
  I_GAIN_HOOK_EFFECT:1 "Ottieni un [weak_hook|E] #weak ($TYPE$)#! su [TARGET_CHARACTER.GetShortUIName]"
@@ -1730,10 +1730,17 @@
  leave_faction_with_cooldown_effect_first.tt:2 "Non potrai unirti ad un'altra [faction|E] per #V $VALUE|0$ anni#!"
  leave_faction_with_cooldown_effect_global.tt:0 "Non può unirsi ad un'altra [faction|E] per #V $VALUE|0$ anni#!" 
  
+<<<<<<< Updated upstream
  CHARACTER_LEAVES_COURT:1 "[CHARACTER.GetShortUIName|U] lascia la [CHARACTER.GetLiege.Custom('GetCourtConcept')] di [CHARACTER.GetLiege.GetShortUINamePossessive]"
  LEFT_COURT:0 "Ha lasciato la [CHARACTER.GetLiege.Custom('GetCourtConcept')] di [CHARACTER.GetLiege.GetShortUINamePossessive]"
  LEAVES_COURT:1 "Lascia la [CHARACTER.GetLiege.Custom('GetCourtConcept')] di [CHARACTER.GetLiege.GetShortUINamePossessive]"
  CHARACTER_LEFT_COURT:0 "[CHARACTER.GetShortUIName|U] ha lasciato la [CHARACTER.GetLiege.Custom('GetCourtConcept')] di [CHARACTER.GetLiege.GetShortUINamePossessive]"
+=======
+ CHARACTER_LEAVES_COURT:1 "[CHARACTER.GetShortUIName|U] lascia la [CHARACTER.GetLiege.Custom('GetCourtConcept')] [CHARACTER.GetLiege.Custom('IT_NAM_COL2')][CHARACTER.GetLiege.GetTitledFirstName]"
+ LEFT_COURT:0 "Ha lasciato la [CHARACTER.GetLiege.Custom('GetCourtConcept')] [CHARACTER.GetLiege.Custom('IT_NAM_COL2')][CHARACTER.GetLiege.GetTitledFirstName]"
+ LEAVES_COURT:1 "Lascia la [CHARACTER.GetLiege.Custom('GetCourtConcept')] [CHARACTER.GetLiege.Custom('IT_NAM_COL2')][CHARACTER.GetLiege.GetTitledFirstName]"
+ CHARACTER_LEFT_COURT:0 "[CHARACTER.GetShortUIName|U] ha lasciato la [CHARACTER.GetLiege.Custom('GetCourtConcept')] [CHARACTER.GetLiege.Custom('IT_NAM_COL2')][CHARACTER.GetLiege.GetTitledFirstName]"
+>>>>>>> Stashed changes
 
  RECRUIT_COURTIER_EFFECT:1 "Recluta [TARGET_CHARACTER.GetShortUIName] a [CHARACTER.Custom('GetCourtConcept')]"
  RECRUITED_COURTIER_EFFECT:0 "Ha reclutato [TARGET_CHARACTER.GetShortUIName] a [CHARACTER.Custom('GetCourtConcept')]"
@@ -2951,7 +2958,7 @@ force_step_down_landed_titles_first: "Ti dimetti e perdi tutti i titoli con terr
  local_arbitration_explorers_purpose: "$local_arbitration_purpose_short$ #weak (Esploratori)#!:$local_arbitration_bullet$La tua [diplomacy|E] incrementa di #P [diplomacy_i]2#!$local_arbitration_bullet$Il tuo [intrigue|E] incrementa di #P [intrigue_i]2#!"
  local_arbitration_brigands_purpose: "$local_arbitration_purpose_short$ #weak (Filibustieri)#!:$local_arbitration_bullet$La tua [prowess|E] incrementa di #P [prowess_i]2#!$local_arbitration_bullet$Il tuo [intrigue|E] incrementa di #P [intrigue_i]2#!"
  local_arbitration_legitimists_purpose: "$local_arbitration_purpose_short$ #weak (Legittimisti)#!:$local_arbitration_bullet$La tua [diplomacy|E] incrementa di #P [diplomacy_i]2#!$local_arbitration_bullet$La tua [martial|E] incrementa di #P [martial_i]2#!"
- power_at_home_perk_effect: "[swing_scales_of_power|E] has increased efficiency during [travel|E]\nI [diarchs|E] sono più leali quando il loro [liege|E] sta [traveling|E]"
+ power_at_home_perk_effect: "[swing_scales_of_power|E] has increased efficiency during [travel|E]\nI [diarchs|E] sono più leali quando il loro [liege|E] sta [Concept( 'traveling', 'viaggiando' )|E]"
  first_power_at_home_perk_effect: "Gli [swing_scales_of_power|E] hanno una efficacia aumentata, e i [diarchs|E] sono più leali, mentre stai [Concept( 'traveling', 'viaggiando' )|E]"
  journey_planner_perk_effect: "[activity_options|E] Costo: @gold_icon!#P -20%#!"
  #TWR

@@ -65,7 +65,7 @@
  conqueror_feed_angry_vassal: "Vassallo Furioso Rimasto Colpito"
  conqueror_feed_angry_vassal_desc: "[Select_CString(angry_vassal.IsFemale,'La tua vassalla','Il tuo vassallo')] [angry_vassal.GetFullName] è rimasto colpito dalle tue conquiste."
  conqueror_feed_generous_courtier: "[generous_courtier.GetFirstName] Dona dell'Oro"
- conqueror_feed_generous_courtier_desc: "[Select_CString(generous_courtier.IsFemale,'La tua','Il tuo')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('generous_courtier'))] [generous_courtier.GetFullName] dona dell'oro per la tua causa!"
+ conqueror_feed_generous_courtier_desc: "[generous_courtier.Custom('DE_ART_DEF_P_D')] tu[generous_courtier.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('generous_courtier'))] [generous_courtier.GetFullName] dona dell'oro per la tua causa!"
  conqueror_feed_siege_engineer: "Ingegnere d'Assedio si Unisce"
  conqueror_feed_siege_engineer_desc: "L'[GetTrait('military_engineer').GetName( GetNullCharacter )] [new_commander.GetFullName] si unisce ai tuoi ranghi!"
  

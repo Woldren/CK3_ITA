@@ -29,9 +29,9 @@
  combat_event.1002.pow_message.desc.end:0 "dopo aver vinto la Battaglia di [combat_location.GetName]!"
 
  combat_event.1003.pow_message.t:0 "Combattenti Alleati Catturati"
- combat_event.1003.pow_message.desc.single:1 "[primary_prisoner.Custom('REL_TO_ME')|U][primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] è stat[primary_prisoner.Custom('DE_END_PRO_S_N')] fatt[primary_prisoner.Custom('DE_END_PRO_S_N')] prigionier[primary_prisoner.Custom('DE_END_PRO_S_N')][Concept( 'prisoner_of_war', 'di guerra' )|E]"
- combat_event.1003.pow_message.desc.double:1 "[primary_prisoner.Custom('REL_TO_ME')|U][primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] e [primary_prisoner.Custom('REL_TO_ME')][secondary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] sono stati fatti prigionieri [Concept( 'prisoner_of_war', 'di guerra' )|E]"
- combat_event.1003.pow_message.desc.multiple:1 "[primary_prisoner.Custom('REL_TO_ME')|U][primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] e [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] ed altri, sono stati fatti prigionieri [Concept( 'prisoner_of_war', 'di guerra' )|E]"
+ combat_event.1003.pow_message.desc.single:1 "[primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] è stat[primary_prisoner.Custom('DE_END_PRO_S_N')] fatt[primary_prisoner.Custom('DE_END_PRO_S_N')] prigionier[primary_prisoner.Custom('DE_END_PRO_S_N')][Concept( 'prisoner_of_war', 'di guerra' )|E]"
+ combat_event.1003.pow_message.desc.double:1 "[primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] e [secondary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] sono stati fatti prigionieri [Concept( 'prisoner_of_war', 'di guerra' )|E]"
+ combat_event.1003.pow_message.desc.multiple:1 "[primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] e [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] ed altri, sono stati fatti prigionieri [Concept( 'prisoner_of_war', 'di guerra' )|E]"
  combat_event.1003.pow_message.desc.end:1 "dal[combat_winner.Custom('DE_END_ADJ_NUL_S_N')] tu[combat_winner.Custom('DE_END_PRO_S_N')] nemic[combat_winner.Custom('DE_END_PRO_S_N')], [combat_winner.Custom('IT_NAM_COL3')][combat_winner.GetTitledFirstName] dopo la [battle|E] di [combat_location.GetName]!"
 
  combat_event.1004.pow_message.t:0 "[ROOT.Char.Custom2('RelationToMeShort', primary_prisoner)|U] Fatt[primary_prisoner.Custom('DE_END_PRO_S_N')] Prigionier[primary_prisoner.Custom('DE_END_PRO_S_N')]"

@@ -165,7 +165,7 @@
  funeral.1040.b.failure: "La tua difesa è ignorata"
  funeral.1040.c: "Lo stesso accadrà a me, senza dubbio."
  funeral.1050.t: "Il Nostro Momento nel Tempo"
- funeral.1050.desc: "Tra tutte le figure venerate o temute, nessuna è stata rimpianta quanto [Select_CString(deceased.IsFemale,'la nostra defunta','il nostro defunto')] [deceased.GetName]. Ora che la folla di piangenti e di curiosi ha trovato altrove oggetti a cui rivolgere il proprio sguardo, mi resta finalmente un momento di quiete insieme a [Select_CString(deceased.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', deceased)]."
+ funeral.1050.desc: "Tra tutte le figure venerate o temute, nessuna è stata rimpianta quanto [Select_CString(deceased.IsFemale,'la nostra defunta','il nostro defunto')] [deceased.GetName]. Ora che la folla di piangenti e di curiosi ha trovato altrove oggetti a cui rivolgere il proprio sguardo, mi resta finalmente un momento di quiete insieme al[deceased.Custom('DE_END_ADJ_DEF_P_A')] mi[deceased.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', deceased)]."
  funeral.1050.witch: "Prenderò una ciocca dei suoi capelli."
  funeral.1050.a: "È il momento di una preghiera silenziosa."
  funeral.1050.b: "Mi concedo un momento di dolore."

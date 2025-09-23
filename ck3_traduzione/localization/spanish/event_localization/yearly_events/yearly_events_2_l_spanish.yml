@@ -284,8 +284,13 @@
  yearly.1080.c.lunatic: "[suspicious.GetFirstNameNoTooltip] placa i tuoi timori"
 
  # Paranoid investigation: discovery
+<<<<<<< Updated upstream
  yearly.1081.investigator_start.desc: "[investigator.Custom('IT_NAM_COL3')|U][investigator.GetTitledFirstName] ha trovato prove schiaccianti della colpevolezza [suspicious.Custom('IT_NAM_COL2')][suspicious.GetTitledFirstName|l]."
  yearly.1081.you_start.desc: "Durante la mia indagine ho scoperto prove schiaccianti della colpevolezza [suspicious.Custom('IT_NAM_COL2')][suspicious.GetTitledFirstName|l]."
+=======
+ yearly.1081.investigator_start.desc: "[investigator.Custom('IT_NAM_COL3')|U][investigator.GetTitledFirstName] ha trovato prove schiaccianti della colpevolezza [suspicious.Custom('IT_NAM_COL2')][suspicious.GetTitledFirstName]."
+ yearly.1081.you_start.desc: "Durante la mia indagine ho scoperto prove schiaccianti della colpevolezza [suspicious.Custom('IT_NAM_COL2')][suspicious.GetTitledFirstName]."
+>>>>>>> Stashed changes
  yearly.1081.murder.desc: "Si è scoperto che [suspicious.GetSheHe|U] stava tramando di assassinare"
  yearly.1081.abduct.desc: "Si è scoperto che [suspicious.GetSheHe|U] stava tramando di rapire"
  yearly.1081.seduce.desc: "Si è scoperto che [suspicious.GetSheHe|U] stava tramando di sedurre"

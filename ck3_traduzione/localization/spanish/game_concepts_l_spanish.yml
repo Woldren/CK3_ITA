@@ -2259,7 +2259,7 @@
  game_concept_travel_safety:0 "Sicurezza"
  game_concept_travel_safety_desc:0 "Un elevato valore della sicurezza ti aiuterà a evitare i [travel_danger|E] durante i tuoi [travels|E]. La tua sicurezza è influenzata dalle tue [skills|E] così come da quelle del tuo [GetCourtPositionType('travel_leader_court_position').GetName()].\n\n$min_travel_contribution$"
  game_concept_travel_speed:0 "Velocità"
- game_concept_travel_speed_desc:0 "Avere una velocità elevata [traveling|E] ti consentirà di raggiungere più velocemente la tua destinazione. La tua velocità è influenzata dalle tue [skills|E] così come da quelle del tuo [GetCourtPositionType('travel_leader_court_position').GetName()].\n\n$min_travel_contribution$"
+ game_concept_travel_speed_desc:0 "Avere una velocità elevata [Concept( 'traveling', 'di viaggio' )|E] ti consentirà di raggiungere più velocemente la tua destinazione. La tua velocità è influenzata dalle tue [skills|E] così come da quelle del tuo [GetCourtPositionType('travel_leader_court_position').GetName()].\n\n$min_travel_contribution$"
  game_concept_entourage:0 "Seguito"
  game_concept_entourage_desc:0 "È pericoloso andare da soli, quindi è bene portare con sé alcuni compagni nel proprio seguito. Tutti coloro che  viaggiano con te fanno parte del tuo entourage e condividono con te le sfide che potreste affrontare durante il tuo viaggio.\n\nIl tuo [GetCourtPositionType('travel_leader_court_position').GetName()] è il capo dell'entourage e gestisce i tuoi piani di viaggio.\n\nAlcuni [characters|E] vengono aggiunti per impostazione predefinita all'entourage quando si pianifica un viaggio. Le [travel_options|E] e le [activity_options|E] offrono ulteriori possibilità di aggiungere altri personaggi."
  min_travel_contribution: "Il contributo di un [character|lE] non può mai essere inferiore a #HIGH 0#!."
@@ -2550,7 +2550,7 @@
 
  game_concept_destination: "Destinazione"
  game_concept_travel_destination: "Destinazione del Viaggio"
- game_concept_destination_desc: "La Destinazione è l'obiettivo mentre si [traveling|E], o uno di diversi obiettivi. Per quanto riguarda il [pilgrimage|E] l'obiettivo è il [holy_site|E] verso il quale si è Viaggiato, mentre in caso di [tour|E], ogni singolo [vassal|E] al quale si fa visita viene considerato una Destinazione."
+ game_concept_destination_desc: "La Destinazione è l'obiettivo mentre si [Concept( 'traveling', 'viaggia' )|E], o uno di diversi obiettivi. Per quanto riguarda il [pilgrimage|E] l'obiettivo è il [holy_site|E] verso il quale si è Viaggiato, mentre in caso di [tour|E], ogni singolo [vassal|E] al quale si fa visita viene considerato una Destinazione."
 
  game_concept_roaming_longer_length_travel: "Escursione Lunga"
  game_concept_roaming_longer_length_travel_desc: "L'Escursione Lunga è un [activity_option|E] per l'[activity|E] [GetActivityType('activity_roaming').GetName]. Il personaggio trascorrerà un tempo significativamente più lungo con l'attività e gli verranno offerte più opportunità."

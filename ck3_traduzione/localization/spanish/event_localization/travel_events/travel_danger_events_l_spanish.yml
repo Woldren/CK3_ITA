@@ -60,7 +60,7 @@
  travel_danger_events.1007.desc:0 "Il nostro viaggio verso [destination.GetName] purtroppo ci ha portato direttamente nelle terre incolte di [current_location.GetName]. Non eravamo preparati ad affrontare questo lungo tratto senza una sola fonte d'acqua e molti dei miei compagni hanno cominciato ad avere un aspetto simile ai/alle [ROOT.Char.Custom('RegionalRootVegetablePlural')] secchi/e.\n\nDevo fare qualcosa... al più presto!"
  travel_danger_events.1007.a:0 "Conosco un'oasi nelle vicinanze che potrebbe essere la nostra salvezza."
  travel_danger_events.1007.a.tt:0 "Il vostro piano di viaggio sarà reindirizzato verso l'oasi."
- travel_danger_events.1007.b:0 "[Select_CString(water_hider.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('water_hider'))] [water_hider.GetFirstNameNoTooltip] beve come un #EMP cavallo#!, ora basta!"
+ travel_danger_events.1007.b:0 "[water_hider.Custom('DE_ART_DEF_P_A')|U] mi[water_hider.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('water_hider'))] [water_hider.GetFirstNameNoTooltip] beve come un #EMP cavallo#!, ora basta!"
  travel_danger_events.1007.b.success:0 "Compagni ispirati"
  travel_danger_events.1007.b.success.desc:0 "[water_hider.GetFirstName] muore di sete"
  travel_danger_events.1007.b.failure:0 "Fallimento nell'ispirare i compagni"

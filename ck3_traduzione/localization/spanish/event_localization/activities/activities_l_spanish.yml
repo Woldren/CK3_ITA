@@ -152,7 +152,7 @@
  murder_feast_liege_kill_tt:0 "[ROOT.Char.GetShortUIName] è riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] ad uccidere il suo signore"
  murder_feast_hof_kill_tt_title:0 "$murder_feast_liege_kill_tt_title$"
  murder_feast_hof_kill_tt:0 "[ROOT.Char.GetShortUIName] è riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] ad uccidere il suo capo della fede"
- activity_window_character_honorary_guest_traveling_murder:0 "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\n[Character.GetShortUINameNoTooltip|U]\n Sta [traveling|E] a [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]"
+ activity_window_character_honorary_guest_traveling_murder:0 "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\n[Character.GetShortUINameNoTooltip|U]\n Sta [Concept( 'traveling', 'viaggiando' )|E] verso [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]"
  activity_window_character_honorary_guest_murder:0 "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\n[Character.GetShortUINameNoTooltip|U]"
  activity_feast_province_desc:0 "Hai tenuto un Banchetto in [ROOT.Province.GetName]\nLe province con edifici adatti concedono uno sconto in [gold_i][gold|E]\n"
  

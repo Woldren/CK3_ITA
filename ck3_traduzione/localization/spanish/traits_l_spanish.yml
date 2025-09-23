@@ -32,7 +32,7 @@
  trait_education_intrigue_4:0 "Ombra Elusiva"
  trait_education_intrigue_4_desc:0 "L'Ombra Elusiva eccelle come maestro di intrighi, e il velo di segretezza che la circonda non è secondo a nessuno."
  trait_education_intrigue_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] eccelle come maestro di intrighi, e il velo di segretezza che ha intorno non è secondo a nessuno."
- trait_education_intrigue_5:0 "Conniving Puppetmaster"
+ trait_education_intrigue_5:0 "Burattinaio Connivente"
  trait_education_intrigue_5_desc:0 "Il Burattinaio Connivente è un sussurro nel vento, un'ombra sul muro. Il loro coltello serve dove le parole non servirebbero."
  trait_education_intrigue_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è un sussurro nel vento, un'ombra sul muro. Il suo coltello serve dove le parole non servirebbero."
  trait_education_diplomacy_1:0 "Conciliatore Inesperto"

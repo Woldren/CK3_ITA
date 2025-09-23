@@ -86,9 +86,9 @@
  adventurers_encourage_relationships_option: "Incoraggia le Relazioni"
  adventurers_encourage_relationships_option_desc: "I legami duraturi e autentici non possono essere forzati; emergono dalle difficoltà condivise. La strada può essere una padrona crudele, ma per ogni sfida superata si può forgiare un nuovo rapporto."
  adventurers_encourage_relationships_option.tt: "I tuoi [followers|E] possono creare spontaneamente [friendships|E], diventare [lovers|E], o [Concept( 'marry', 'sposarsi' )|E] — tra di loro o con i [wanderers|E] mentre [Concept( 'travel', 'viaggi' )|E] tra le [baronies|E]. Ogni relazione creata in questo modo ti farà guadagnare [prestige_i][prestige|E].\n#weak (I tuoi [children|E], [spouses|E], o altre persone a te care, non si [Concept( 'marry', 'sposeranno' )|E] o prenderanno [lovers|E]. Questo farà sì che i [followers|E] non ricevano il tratto [GetTrait('adulterer').GetName( GetNullCharacter )].)#!"
- ep3_travel_option_events.0002.title: "[Select_CString(courtier_to_marry.IsFemale,'La tua','Il tuo')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('courtier_to_marry'))|U] [courtier_to_marry.GetFirstName] ha sposato [marriage_material.GetFirstName]"
- ep3_travel_option_events.0003.title: "[Select_CString(courtier_to_befriend.IsFemale,'La tua','Il tuo')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('courtier_to_befriend'))|U] [courtier_to_befriend.GetFirstName] ha fatto amicizia con [friend_target.GetFirstName]"
- ep3_travel_option_events.0004.title: "[Select_CString(courtier_to_love.IsFemale,'La tua','Il tuo')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('courtier_to_love'))|U] [courtier_to_love.GetFirstName] e [pls_love_me.GetFirstName] sono diventati amanti"
+ ep3_travel_option_events.0002.title: "[courtier_to_marry.Custom('DE_ART_DEF_P_A')|U] tu[courtier_to_marry.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('courtier_to_marry'))|U] [courtier_to_marry.GetFirstName] ha sposato [marriage_material.GetFirstName]"
+ ep3_travel_option_events.0003.title: "[courtier_to_befriend.Custom('DE_ART_DEF_P_A')|U] tu[courtier_to_befriend.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('courtier_to_befriend'))|U] [courtier_to_befriend.GetFirstName] ha fatto amicizia con [friend_target.GetFirstName]"
+ ep3_travel_option_events.0004.title: "[courtier_to_love.Custom('DE_ART_DEF_P_A')|U] tu[courtier_to_love.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('courtier_to_love'))|U] [courtier_to_love.GetFirstName] e [pls_love_me.GetFirstName] sono diventati amanti"
  
  adventurers_search_for_secrets_option: "Ricerca dei Segreti"
  adventurers_search_for_secrets_option_desc: "Le voci sono riguardo ad una mappa per un tesoro di segreti — ma ci vuole una mente scaltra per seguirle, la X segna il punto!"
@@ -103,7 +103,7 @@
  adventurers_gather_inspiration_option: "Raccogliere l'Ispirazione"
  adventurers_gather_inspiration_option_desc: "C'è molta ispirazione da trovare sulla strada — paesaggi meravigliosi, luoghi d'interesse impressionanti e persone straordinarie da incontrare. È un'esperienza che stimola davvero la mente!"
  adventurers_gather_inspiration_option.tt: "Quando attraversi una [barony|E], un [follower|E] a caso ha l'opportunità di diventare [inspired|E]\n#weak (Probabilità % equivalente ad un sesto della tua [stewardship_i])#!"
- adventurers_gather_inspiration_option.title: "[Select_CString(inspired_follower.IsFemale,'La tua','Il tuo')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('inspired_follower'))|U] [inspired_follower.GetFirstName] diventa Ispirato!"
+ adventurers_gather_inspiration_option.title: "[inspired_follower.Custom('DE_ART_DEF_P_A')|U] tu[inspired_follower.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('inspired_follower'))|U] [inspired_follower.GetFirstName] diventa Ispirato!"
  adventurers_gather_inspiration_option.effect: "[inspired_follower.GetUIName] ha ottenuto [inspired_follower.GetCurrentInspiration.GetName] - [inspired_follower.Custom('InspirationTypeDescriptionFuturePresent')].\n\n[inspired_follower.Custom('InspiredPersonQuality')]"
  
  adventurers_make_local_deals_option: "Baratto ad Alto Rischio"

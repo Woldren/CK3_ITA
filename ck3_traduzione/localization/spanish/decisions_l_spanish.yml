@@ -826,7 +826,7 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  invite_claimants_decision.tt:0 "La probabilità che dei [claimants|E], con le relative [claims|E], arrivino come [guests|E] a Corte, è notevolmente aumentata per #V 5#! Anni"
  invite_claimants_decision_confirm:0 "Invia l'araldo"
  minor_decisions.0002.t:0 "Il Pretendente è arrivato"
- minor_decisions.0002.desc:0 "[claimant.Custom('REL_TO_ME')|U][claimant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha ascoltat[claimant.Custom('DE_END_PRO_S_N')] la mia convocazione ed è arrivato a corte come mio ospite"
+ minor_decisions.0002.desc:0 "[claimant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha ascoltat[claimant.Custom('DE_END_PRO_S_N')] la mia convocazione ed è arrivato a corte come mio ospite"
  invite_claimants_decision_tooltip:1 "I [claimants|E] sono chiamati a visitare la tua corte"
 
  

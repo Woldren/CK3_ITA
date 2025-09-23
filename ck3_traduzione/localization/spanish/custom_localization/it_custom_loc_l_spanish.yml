@@ -949,11 +949,11 @@
  # [host.Custom('IT_NAM_COL2')][host.GetTitleAsNameNoTooltip]
 
  # Notate come non c'è spazio tra ] e Conte, va scritto tutto attaccato
- # [CHARACTER.Custom('IT_NAM_COL')]    sul conte
- # [CHARACTER.Custom('IT_NAM_COL2')]  del conte
- # [CHARACTER.Custom('IT_NAM_COL3')]  il conte        [CHARACTER.Custom('IT_NAM_COL3')|U]   all'inizio delle frasi per far comparire "Il" in maiuscolo anziché "il"
- # [CHARACTER.Custom('IT_NAM_COL4')]  al conte
- # [CHARACTER.Custom('IT_NAM_COL5')]  dal conte
+ # [personaggio.Custom('IT_NAM_COL')]    sul conte
+ # [personaggio.Custom('IT_NAM_COL2')]  del conte
+ # [personaggio.Custom('IT_NAM_COL3')]  il conte        [personaggio.Custom('IT_NAM_COL3')|U]   all'inizio delle frasi per far comparire "Il" in maiuscolo anziché "il"
+ # [personaggio.Custom('IT_NAM_COL4')]  al conte
+ # [personaggio.Custom('IT_NAM_COL5')]  dal conte
 
 #------------------------------------------------------------------------------
  
@@ -970,14 +970,14 @@
  # Essendoci questo nuovo condice per il maschile e femminile, i vecchi codici astrusi come DE_ART_DEF_P_D sono ormai inutili. Li lasciamo in questo file in caso di necessità.
 
  # ARTICOLI DETERMINATIVI - Frase dell'esempio "Il mio/La mia"          [ROOT.Char.Custom('DE_ART_DEF_P_A')]
- # Il/La    Maiuscolo         [personaggio.Custom('DE_ART_DEF_P_D')] mi[personaggio.Custom('DE_END_PRO_S_N')] ---> Il mio       
- # il/la                               [personaggio.Custom('DE_ART_DEF_P_A')] mi[personaggio.Custom('DE_END_PRO_S_N')]  il mio
+ # Il/La    Maiuscolo         [personaggio.Custom('DE_ART_DEF_P_A')|U] mi[personaggio.Custom('DE_END_PRO_S_N')] ---> Il mio       
+ # il/la                                 [personaggio.Custom('DE_ART_DEF_P_A')] mi[personaggio.Custom('DE_END_PRO_S_N')]  il mio
  # NUOVO CODICE         [Select_CString(personaggio.IsFemale,'La','Il')]
 
  ###################################################################################################################
- # MASCHILE / FEMMINILE o/a                                  [Select_CString(CHARACTER.IsFemale,'a','o')]                [Select_CString(TARGET_CHARACTER.IsFemale,'a','o')] 
+ # MASCHILE / FEMMINILE o/a                                  [Select_CString(personaggio.IsFemale,'a','o')]                
  # Il codice per noi è ROOT.Char quindi sarà:             [ROOT.Char.Custom('DE_END_PRO_S_N')] o/a             [Select_CString(ROOT.Char.IsFemale,'a','o')]
- # Il codice per un personaggio qualsiasi -->              [CHARACTER.Custom('DE_END_PRO_S_N')] o/a           [Select_CString(personaggio.IsFemale,'a','o')]
+ # Il codice per un personaggio qualsiasi -->              [personaggio.Custom('DE_END_PRO_S_N')] o/a           [Select_CString(personaggio.IsFemale,'a','o')]
  #                                                                                                                                                                                               [Select_CString(personaggio.IsFemale,'mia','mio')]
  ####################################################################################################################
  #                «         » 
@@ -1005,11 +1005,11 @@
  # la |E] indica che la prima lettera apparirà in maiuscolo, quindi in gioco vedrete scritto "Italiano", se invece c'è la |e] vuol dire che gli sviluppatori vogliono che appaia in minuscolo.
  
  #Vi presento il conte Jon -> "[CHARACTER.Custom('IT_NAM_COL3')]Conte" non c'è spazio tra ] e Conte, va scritto tutto attaccato
- #          [CHARACTER.Custom('IT_NAM_COL')]    sul conte
- #          [CHARACTER.Custom('IT_NAM_COL2')]  del conte
- #          [CHARACTER.Custom('IT_NAM_COL3')]  il conte        [CHARACTER.Custom('IT_NAM_COL3')|U]   all'inizio delle frasi per far comparire "Il" in maiuscolo anziché "il"
- #          [CHARACTER.Custom('IT_NAM_COL4')]  al conte
- #          [CHARACTER.Custom('IT_NAM_COL5')]  dal conte
+ #          [personaggio.Custom('IT_NAM_COL')]    sul conte
+ #          [personaggio.Custom('IT_NAM_COL2')]  del conte
+ #          [personaggio.Custom('IT_NAM_COL3')]  il conte        [personaggio.Custom('IT_NAM_COL3')|U]   all'inizio delle frasi per far comparire "Il" in maiuscolo anziché "il"
+ #          [personaggio.Custom('IT_NAM_COL4')]  al conte
+ #          [personaggio.Custom('IT_NAM_COL5')]  dal conte
 
 #------------------------------------------------------------------------------
  
@@ -1037,8 +1037,8 @@
  # UN UOMO / DONNA 
  # un/una, un[personaggio.Custom('DE_PRO_POS_P_2P')] [personaggio.GetWomanMan] uomo   [/a]       [un] uomo          --> qui tra ] e "uomo" va uno spazio, a differenza di quanto avviene per [un/un']amica
  
- # un/un', un[personaggio.Custom('DE_PRO_PER_P_3P_G')]amica    tutto attaccato
- # la donna, l'uomo  l[ROOT.Char.Custom('DE_PRO_PER_S_3P_N')][ROOT.Char.GetWomanMan] ['/a ] tutto attaccato
+ # un/un', un[personaggio.Custom('DE_PRO_PER_P_3P_G')]amica    tutto attaccato         oppure [Select_CString(personaggio.IsFemale,'un’','un ')] facendo attenzione che l'apostrofo sia ’ e non '
+ # la donna, l'uomo  l[personaggio.Custom('DE_PRO_PER_S_3P_N')][personaggio.GetWomanMan] ['/a ] tutto attaccato
  # quest'uomo    quest[personaggio.Custom('DE_PRO_PER_S_3P_N')]   ['/a ] tutto attaccato
  
 
@@ -1048,8 +1048,8 @@
  # Titolo al posto del nome [ROOT.Char.GetTitleAsNameNoTooltip] esempio "Oh possente Duca!"   [owner.GetTitleAsNameNoTooltip] 
  
  #CULTURA ITALIANA/gli ITALIANI 
- #cultura italiana [ROOT.Char.GetCulture.GetNameNoTooltip]
- #gli italiani     [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]
+ #cultura italiana [personaggio.GetCulture.GetNameNoTooltip]
+ #gli italiani     [personaggio.GetCulture.GetCollectiveNounNoTooltip]
  
  
  #RICHIAMO DEL NOME DEL PERSONAGGIO CON E SENZA TOOLTIP
@@ -1102,7 +1102,7 @@
 
 # NUOVO CODICE
 
-#              [Select_CString(Or(first.IsLocalPlayer, second.IsLocalPlayer),'avete', 'hanno')] mangiato bene
+#              [Select_CString(Or(primopersonaggio.IsLocalPlayer, secondopersonaggio.IsLocalPlayer),'avete', 'hanno')] mangiato bene
 
-# Codice Nome e Cognome = [ROOT.Char.GetFirstNameNoTooltip] [ROOT.Char.GetHouse.GetNameNoTooltip] (ossia nome e casata)
+# Codice Nome e Cognome = [personaggio.GetFirstNameNoTooltip] [personaggio.GetHouse.GetNameNoTooltip] (ossia nome e casata)
 # Si possono usare gli operatori logici Or(condizione1, condizione2) e And(condizione1, condizione2) 
