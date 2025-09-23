@@ -65,7 +65,7 @@
  major_decisions.2002.a:1 "Che la conoscenza vada a beneficio di tutti!"
 
  major_decisions.2011.t:0 "Il Saggio"
- major_decisions.2011.desc:0 "[new_courtier.GetName], [new_courtier.GetWomanMan] sia saggio che [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('new_courtier') )], mi saluta gentilmente.\n\n"Ho sentito parlare della vostra nuova Università! Un[ROOT.Char.Custom('DE_PRO_POS_P_2P')]  [ROOT.Char.GetTitleAsNameNoTooltip] che favorisce la conoscenza a tal punto... sarebbe un onore per me servirvi.""
+ major_decisions.2011.desc:0 "[new_courtier.GetName], un[new_courtier.Custom('DE_PRO_POS_P_2P')] [new_courtier.GetWomanMan] sia saggi[new_courtier.Custom('DE_END_PRO_S_N')] che [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('new_courtier') )], mi saluta gentilmente.\n\n"Ho sentito parlare della vostra nuova Università! Un[ROOT.Char.Custom('DE_PRO_POS_P_2P')]  [ROOT.Char.GetTitleAsNameNoTooltip] che favorisce la conoscenza a tal punto... Oh sarebbe un onore per me servirvi.""
  major_decisions.2011.a:0 "Certamente!"
  major_decisions.2011.b:0 "Non c'è posto per te qui."
 

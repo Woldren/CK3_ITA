@@ -147,7 +147,7 @@
  scheme_critical_moments.0011.a: "Agirò quando lo riterrò opportuno, non prima!"
  scheme_critical_moments.0011.a.tt: "@warning_icon! #X Non riceverai più avvisi quando questo [scheme|E] avrà raggiunto il numero massimo di [scheme_opportunity_opportunities|E]#!"
  scheme_critical_moments.0011.b: "È utile restare al corrente di tali cose."
- scheme_critical_moments.0011.b.tt: "Se tra un anno questo [scheme|E] raggiunge di nuovo il numero massimo di [scheme_opportunity_opportunities|E], verrai nuovamente avvisat[Select_CString(ROOT.Char.IsFemale,'a','o')]."
+ scheme_critical_moments.0011.b.tt: "Se tra un anno questo [scheme|E] raggiunge di nuovo il numero massimo di [scheme_opportunity_opportunities|E], verrà nuovamente notificato."
  scheme_critical_moments.0011.c: "Lo eseguirò immediatamente."
 
  title_test: "Test Complotto per i Titoli"

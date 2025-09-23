@@ -221,7 +221,7 @@
  hold_court.6150.d:0 "Toglietemi dalla vista quest[6150_preacher.Custom('DE_END_PRO_S_N')] folle."
  #Empty Coffers
  hold_court.6160.t:0 "Forzieri Vuoti"
- hold_court.6160.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]" inizia [6160_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)], con un aspetto molto contrito "l'ultimo periodo è stato davvero duro per il mio dominio, sono state richieste spese ulteriori su ogni fronte, e le mie casse sono tristemente vuote...\n\n"Mi duole, ma ho deciso di fare appello alla vostra munificenza per aiutarmi a pagare i miei debiti.""
+ hold_court.6160.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]" inizia così a parlare [6160_vassal.Custom('DE_ART_DEF_P_A')] [6160_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)], con un aspetto molto contrito. "L'ultimo periodo è stato davvero duro per il mio dominio, sono state richieste spese ulteriori su ogni fronte, e le mie casse sono tristemente vuote...\n\n"Mi duole, ma ho deciso di fare appello alla vostra munificenza per aiutarmi a pagare i miei debiti.""
  hold_court.6160.desc_friend:0 "\n\n"In nome dei legami che ci uniscono, per favore, aiutami!"
  hold_court.6160.desc_hook:0 "\n\n"Se lo farete, considererò ripagato il favore che mi dovete."
  hold_court.6160.desc_fallback:0 "\n\n"Non dimenticherò la vostra generosità nel momento del bisogno!""

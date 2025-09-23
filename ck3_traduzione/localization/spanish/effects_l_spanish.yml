@@ -1183,7 +1183,7 @@
  MY_CLAIM_BECOMES_WEAK:1 "La tua Rivendicazione [TARGET_TITLE.Custom('IT_COU_COL3')][TARGET_TITLE.GetName] diventa debole"
  THEIR_CLAIM_BECOMES_WEAK:0 "La rivendicazione di [CHARACTER.GetUIName] [TARGET_TITLE.Custom('IT_COU_COL3')][TARGET_TITLE.GetName] diventa debole"
  
- FORBID_FROM_SCHEME_EFFECT_THIRD:0 "[CHARACTER.GetShortUIName|U] non farà più parte del [SCHEME.GetName] contro [SCHEME.GetTarget.GetName]"
+ FORBID_FROM_SCHEME_EFFECT_THIRD:0 "[CHARACTER.GetShortUIName|U] non farà più parte del complotto [SCHEME.GetName] contro [SCHEME.GetTarget.GetName]"
  
  BECOMES_INDEPENDENT:1 "Diventa [independent|E]"
  I_BECOME_INDEPENDENT:2 "Diventi [independent|E]"
@@ -1730,17 +1730,17 @@
  leave_faction_with_cooldown_effect_first.tt:2 "Non potrai unirti ad un'altra [faction|E] per #V $VALUE|0$ anni#!"
  leave_faction_with_cooldown_effect_global.tt:0 "Non può unirsi ad un'altra [faction|E] per #V $VALUE|0$ anni#!" 
  
- CHARACTER_LEAVES_COURT:1 "[CHARACTER.GetShortUIName|U] leaves [CHARACTER.GetLiege.GetShortUINamePossessive] [CHARACTER.GetLiege.Custom('GetCourtConcept')]"
- LEFT_COURT:0 "Left [CHARACTER.GetLiege.GetShortUINamePossessive] [CHARACTER.GetLiege.Custom('GetCourtConcept')]"
- LEAVES_COURT:1 "Leaves [CHARACTER.GetLiege.GetShortUINamePossessive] [CHARACTER.GetLiege.Custom('GetCourtConcept')]"
- CHARACTER_LEFT_COURT:0 "[CHARACTER.GetShortUIName|U] left [CHARACTER.GetLiege.GetShortUINamePossessive] [CHARACTER.GetLiege.Custom('GetCourtConcept')]"
+ CHARACTER_LEAVES_COURT:1 "[CHARACTER.GetShortUIName|U] lascia [CHARACTER.GetLiege.GetShortUINamePossessive] [CHARACTER.GetLiege.Custom('GetCourtConcept')]"
+ LEFT_COURT:0 "Ha lasciato [CHARACTER.GetLiege.GetShortUINamePossessive] [CHARACTER.GetLiege.Custom('GetCourtConcept')]"
+ LEAVES_COURT:1 "Lascia [CHARACTER.GetLiege.GetShortUINamePossessive] [CHARACTER.GetLiege.Custom('GetCourtConcept')]"
+ CHARACTER_LEFT_COURT:0 "[CHARACTER.GetShortUIName|U] ha lasciato [CHARACTER.GetLiege.GetShortUINamePossessive] [CHARACTER.GetLiege.Custom('GetCourtConcept')]"
 
- RECRUIT_COURTIER_EFFECT:1 "Recruits [TARGET_CHARACTER.GetShortUIName] to [CHARACTER.Custom('GetCourtConcept')]"
- RECRUITED_COURTIER_EFFECT:0 "Recruited [TARGET_CHARACTER.GetShortUIName] to [CHARACTER.Custom('GetCourtConcept')]"
- THEY_RECRUIT_COURTIER_EFFECT:0 "[CHARACTER.GetShortUIName|U] recruits [TARGET_CHARACTER.GetShortUIName] to [CHARACTER.GetHerHis] [CHARACTER.Custom('GetCourtConcept')]"
- THEY_RECRUITED_COURTIER_EFFECT:0 "[CHARACTER.GetShortUIName|U] recruited [TARGET_CHARACTER.GetShortUIName] to [CHARACTER.GetHerHis] [CHARACTER.Custom('GetCourtConcept')]"
- I_RECRUIT_COURTIER_EFFECT:1 "You recruit [TARGET_CHARACTER.GetShortUIName] to your [CHARACTER.Custom('GetCourtConcept')]"
- I_RECRUITED_COURTIER_EFFECT:0 "You recruited [TARGET_CHARACTER.GetShortUIName] to your [CHARACTER.Custom('GetCourtConcept')]"
+ RECRUIT_COURTIER_EFFECT:1 "Recluta [TARGET_CHARACTER.GetShortUIName] a [CHARACTER.Custom('GetCourtConcept')]"
+ RECRUITED_COURTIER_EFFECT:0 "Ha reclutato [TARGET_CHARACTER.GetShortUIName] a [CHARACTER.Custom('GetCourtConcept')]"
+ THEY_RECRUIT_COURTIER_EFFECT:0 "[CHARACTER.GetShortUIName|U] recluta [TARGET_CHARACTER.GetShortUIName] nella sua [CHARACTER.Custom('GetCourtConcept')]"
+ THEY_RECRUITED_COURTIER_EFFECT:0 "[CHARACTER.GetShortUIName|U] ha reclutato [TARGET_CHARACTER.GetShortUIName] nella sua [CHARACTER.Custom('GetCourtConcept')]"
+ I_RECRUIT_COURTIER_EFFECT:1 "Recluti [TARGET_CHARACTER.GetShortUIName] nella tua [CHARACTER.Custom('GetCourtConcept')]"
+ I_RECRUITED_COURTIER_EFFECT:0 "Hai reclutato [TARGET_CHARACTER.GetShortUIName] nella tua [CHARACTER.Custom('GetCourtConcept')]"
 
  VASSAL_CONTRACT_INCREASE_OBLIGATIONS_GLOBAL:2 "Le [Concept( 'obligations', '$NAME|q$' )|E] che deve a [CHARACTER.GetLiege.GetShortUIName] sono aumentate"
  VASSAL_CONTRACT_INCREASE_OBLIGATIONS_THIRD:1 "Le [Concept( 'obligations', '$NAME|q$' )|E] che [CHARACTER.GetShortUIName] [CHARACTER.GetLiege.LocalPlayerString( 'ti ', '' )]deve[CHARACTER.GetLiege.LocalPlayerString( '', ' a ' )][CHARACTER.GetLiege.LocalPlayerString( '', 'Loc_FR_du_GetName' )] sono aumentate"
