@@ -149,8 +149,8 @@
  hunt.skull_tt:3 "Riceveranno un teschio di [activity.Custom('GetAnimalType')] come [court_artifact|E]"
  hunt.trinket_tt:1 "Riceveranno un ninnolo di [activity.Custom('GetAnimalType')] come [artifact|E]"
  hunt_location_no_game_tt:0 "Non c'è una selvaggina adatta in questa contea"
- activity_every_attendee_tt:2 "Tutti I partecipanti all'attività [activity.GetShortName]"
- hunt_every_hunter_attendee_tt:0 "Tutti I partecipanti [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]" #da controllare
+ activity_every_attendee_tt:2 "Ogni partecipante presente all'attività [activity.GetShortName]"
+ hunt_every_hunter_attendee_tt:0 "Ogni partecipante presente [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]" #da controllare
  every_other_attendee_tt:0 "Ogni altro [activity_guest|E]"
  hunt_ends_tt:2 "La [GetActivityType('activity_hunt').GetName] termina"
  hunt_success_tt:1 "La [activity.GetShortName] #positive_value ha successo#!"

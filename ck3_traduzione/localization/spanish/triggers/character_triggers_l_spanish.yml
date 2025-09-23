@@ -566,7 +566,7 @@
  LEARNING_IS_NOT_LESS_THAN:1 "Ha l'[learning|E] superiore a [learning_i]$NUM|V0$"
  MY_LEARNING_IS_NOT_LESS_THAN:2 "La tua [learning|E] è [learning_i]$NUM|V0$ o superiore"
  THEIR_LEARNING_IS_NOT_LESS_THAN:1 "La sua [learning|E] è [learning_i]$NUM|V0$ o superiore"
- NONE_LEARNING_IS_AT_LEAST: "Their [learning|E] is [learning_i]$NUM|V0$ o superiore"
+ NONE_LEARNING_IS_AT_LEAST: "La loro [learning|E] è [learning_i]$NUM|V0$ o superiore"
 
  PROWESS_IS_AT_LEAST:0 "La [prowess|E] è [prowess_i]$NUM|V0$ o superiore"
  MY_PROWESS_IS_AT_LEAST:0 "La tua [prowess|E] è [prowess_i]$NUM|V0$ o superiore"
