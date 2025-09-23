@@ -1,6 +1,6 @@
 ﻿l_spanish:
  rivalry.0001.t:0 "Seppellire l'Ascia di Guerra"
- rivalry.0001.desc:2 ""[ROOT.Char.GetTitledFirstNameNoTooltip], abbiamo avuto le nostre divergenze in passato, ma non sei d'accordo sul fatto che è ora di lasciare che il passato divenga il passato?"\n\n[rival.Custom2('MyCharacterIntroduction', ROOT.Char)|U] fa un gesto da me a [rival.GetSheHe], "Qualunque cosa ci sia tra noi... ricominciamo da capo!""
+ rivalry.0001.desc:2 "«[ROOT.Char.GetTitledFirstNameNoTooltip], abbiamo avuto le nostre divergenze tempo fa, ma non siete d’accordo che sia giunto il momento di lasciare che il passato resti passato?»\n\n([rival.Custom('DE_ART_DEF_P_A')|U])[rival.Custom2('MyCharacterIntroduction', ROOT.Char)|U] fa un gesto di apertura verso di me. «Qualunque cosa ci sia tra noi… ricominciamo da capo!»"
  rivalry.0001.a:1 "Sì, facciamolo."
  rivalry.0001.b:0 "Ti stai umiliando davanti a me?! [ROOT.Char.GetFaith.HighGodName] è buono!"
  

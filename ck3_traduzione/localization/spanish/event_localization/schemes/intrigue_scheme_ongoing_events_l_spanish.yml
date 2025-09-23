@@ -231,9 +231,9 @@
  intrigue_scheme_ongoing.5018.msg.t:0 "Rifornimenti bruciati in un incidente"
 
  intrigue_scheme_ongoing.5019.t:0 "Tunnel Segreto"
- intrigue_scheme_ongoing.5019.desc:1 "Il mio agente [agent.GetTitledFirstName] mi si avvicina con un mucchio di pergamene strette tra le mani.\n\n"ho trovato vecchi schizzi architettonici del [target.GetTitleAsNamePossessive] [target.Custom('ResidenceBuilding')]! Potrebbero essere un po' superati, ma guardate qui...""
+ intrigue_scheme_ongoing.5019.desc:1 "Il mio agente [agent.GetTitledFirstName] mi si avvicina con un mucchio di pergamene strette tra le mani.\n\n"Ho trovato vecchi schizzi architettonici del [target.Custom('ResidenceBuilding')] [target.Custom('IT_NAM_COL2')][target.GetTitleAsName]! Potrebbero essere un po' datati, ma guardate qui...""
  intrigue_scheme_ongoing.5019.a:0 "Sembra un tunnel che possiamo usare!"
- intrigue_scheme_ongoing.5019.b:0 "Se solo avessi così tanti posti nascosti... Chiamate il mio architetto."
+ intrigue_scheme_ongoing.5019.b:0 "Se solo avessi così tanti nascondigli... Chiamate il mio architetto."
  intrigue_scheme_ongoing.5019.b.tt:0 "Il tuo [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('architect'))|U] [architect.GetFirstNameNoTooltip] supervisionerà i lavori di costruzione."
 
  intrigue_scheme_ongoing.5021.t:0 "Preoccupazioni Precarie"

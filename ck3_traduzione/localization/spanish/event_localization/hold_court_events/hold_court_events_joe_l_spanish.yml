@@ -609,7 +609,7 @@
  hold_court.8210.desc.self:0 "\n\n"Rinuncerete a ciò che non vi appartiene, a sostegno della mia richiesta?""
  hold_court.8210.a:0 "Questa ingiustizia finisce ora."
  hold_court.8210.b:0 "Tali questioni sono tradizionalmente risolte dalla forza."
- hold_court.8210.b.tt_aggressor:0 "[aggressor_vassal.GetTitledFirstNameNoTooltip] vince il duello"
+ hold_court.8210.b.tt_aggressor:0 "[aggressor_vassal.Custom('IT_NAM_COL3')|U][aggressor_vassal.GetTitledFirstNameNoTooltip] vince il duello"
  hold_court.8210.b.tt_defender:1 "Il titolo rimane al[defender_vassal.Custom('DE_END_ADJ_NUL_S_N')] [defender_vassal.GetNameOrMeNoTooltip]"
  hold_court.8210.c.none:0 "Non hai una rivendicazione, [aggressor_vassal.Custom('InsultNoun')]."
  hold_court.8210.c.other:0 "La rivendicazione di [defender_vassal.GetFirstNamePossessiveNoTooltip] è la più vera."

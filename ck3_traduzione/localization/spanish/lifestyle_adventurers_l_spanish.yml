@@ -33,7 +33,7 @@
  adventurer_fear_tax_perk_effect: "[adventurer_i] Permette il metodo d'[execution|e] #V Trasforma in Cibo#!, permettendoti di trasformare dei [prisoners|e] in [provisions|e][provisions_i]\n#weak (in base al peso)#!"
  adventurer_digging_for_dirt_perk_effect: "[adventurer_i] Permette l'[travel_option|e] [GetTravelOption('adventurers_search_for_secrets_option').GetName]"
  adventurer_court_of_shadows_perk_effect: "[adventurer_i] Rivelare dei [secrets|e] conferisce [prestige|e][prestige_i] sulla base del [rank|e] dell'obiettivo"
- court_of_shadows_perk_effect.increased_grace: "I [schemes|e] che utilizzano il [secrecy_grace|E] iniziano con [EmptyScope.ScriptValue('court_of_shadows_extra_secrecy_grace_value')|0] mesi supplementari"
+ court_of_shadows_perk_effect.increased_grace: "I [schemes|e] che utilizzano la [secrecy_grace|E] iniziano con [EmptyScope.ScriptValue('court_of_shadows_extra_secrecy_grace_value')|0] mesi supplementari"
  adventurer_large_levies_perk_effect: "[adventurer_i] Costo per il reclutamento di [officers|e] attraverso [GetTravelOption('adventurers_scout_for_talent_option').GetName]: #P -50%#!"
  adventurer_scientific_perk_effect: "[adventurer_i] I [modifiers|e] bonus per il [camp_temperament|E] #P $DOMICILE_WINDOW_BOOKMARK_FOLLOWERS_TEMPERAMENT_POSITIVE$#! sono ora basati anche sul numero di [followers|e] aventi almeno #V 15#! di [learning|e][learning_i] #weak (1 per ogni seguace)#!"
  adventurer_honored_to_serve_perk_effect: "[adventurer_i] I [modifiers|e] bonus per il [camp_temperament|E] #P $DOMICILE_WINDOW_BOOKMARK_FOLLOWERS_TEMPERAMENT_POSITIVE$#! sono ora basati anche sul numero di [followers|e] #weak (1 ogni 5 seguaci)#!"

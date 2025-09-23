@@ -186,19 +186,11 @@
  signature_weapon_killed_guts_me:0 "mi sventra"
 
  # Groin-centric deaths
-<<<<<<< Updated upstream
- signature_weapon_killed_pulverise_my_waist:0 "ha polverizzato i miei fianchi"
- signature_weapon_killed_unseam_me_groin_to_neck:0 "mi ha aperto dall'inguine al collo"
- signature_weapon_killed_split_my_groin_in_two:0 "spaccare il mio inguine in due"
- signature_weapon_killed_stab_me_repeatedly_in_the_groin:0 "mi ha pugnalato ripetutamente all'inguine"
- signature_weapon_killed_pulverise_herhis_waist:0 "ha polverizzato i suoi fianchi"
-=======
  signature_weapon_killed_pulverise_my_waist:0 "ha fatto a pezzi i miei fianchi"
  signature_weapon_killed_unseam_me_groin_to_neck:0 "mi ha aperto dall'inguine al collo"
  signature_weapon_killed_split_my_groin_in_two:0 "spaccare il mio inguine in due"
  signature_weapon_killed_stab_me_repeatedly_in_the_groin:0 "mi ha pugnalato ripetutamente all'inguine"
  signature_weapon_killed_pulverise_herhis_waist:0 "ha fatto a pezzi i suoi fianchi"
->>>>>>> Stashed changes
  signature_weapon_killed_unseam_herhim_groin_to_neck:0 "l[second.Custom('DE_END_PRO_S_N')] apre dall'inguine al collo"
  signature_weapon_killed_split_herhis_groin_in_two:0 "ha spaccato il suo inguine in due"
  signature_weapon_killed_stab_herhim_repeatedly_in_the_groin:0 "L[second.Custom('DE_END_PRO_S_N')] ha pugnalato ripetutamente all'inguine"

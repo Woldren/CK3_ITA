@@ -53,7 +53,7 @@
 
  feast.2001.t:0 "Un Allegro Incontro"
  feast.2001.t_murder:0 "Un vile incontro"
- feast.2001.desc_intro:0 "Gli ospiti, signori e dame provenienti da ogni angolo del regno, sono riuniti nella sala grande."
+ feast.2001.desc_intro:0 "Gli ospiti, i signori e le dame provenienti da ogni angolo del regno, sono riuniti nella sala grande."
  feast.2001.desc_fallback:0 "$feast.2001.desc_intro$$feast.2001.desc_outro$"
  feast.2001.desc_gregarious:0 "$feast.2001.desc_intro$ Avevo proprio #EMP bisogno#! di un'occasione come questa.$feast.2001.desc_outro$"
  feast.2001.desc_shy:0 "$feast.2001.desc_intro$ Mi sistemo i vestiti. Questa non è #EMP esattamente#! la mia idea di una serata ideale, ma dovrà andare bene.$feast.2001.desc_outro$"
@@ -138,10 +138,10 @@
  feast.7002.a.bad:0 "Non vedo l'ora di tornare a casa."
  
  feast.7101.t:0 "La Fine di una Festa"
- feast.7101.desc:0 "Poche candele sopravvivono dopo che l'ultimo degli ospiti se n'è andato. Riesco a sentire un paio di servitori tirare un sospiro di sollievo alla chiusura delle porte. Il cibo è ancora caldo sui piatti di ceramica.\n\nPresto la voce raggiungerà ogni angolo del regno e ogni nobile degno di nota saprà che la mia grandezza non ha eguali."
+ feast.7101.desc:0 "Poche candele restano accese quando l'ultimo ospite se n'è andato. Alla chiusura delle porte, colgo il sospiro di sollievo di due servitori. Il cibo fuma ancora sui piatti di ceramica.\n\nFra poco la voce correrà in ogni angolo del regno, e ogni nobile di qualche nome saprà che la mia grandezza non conosce pari."
  feast.7101.a:0 "E con questo, è tutto finito."
  
- feast.7110.t:0 "Un Lieto Fine"
+ feast.7110.t:0 "Un Lietofine"
  feast.7110.desc.entourage:2 "La luce delle candele fa sembrare il sangue un arazzo di velluto, steso sul pavimento. Respiro nuovamente quando vedo l'ultim[my_knight.Custom('DE_END_PRO_S_N')] $knight_culture_player_plural_no_tooltip$ pulirsi la spada — [my_knight.GetSheHe] mi annuisce in silenzio.\n\nFaccio segno [my_knight.Custom('DE_PRO_POS_P_1P')] mi[my_knight.Custom('DE_ART_IND_G')] [my_knight.GetWomenMen] di chiudere le porte. Mi congedo dai miei ospiti, "È un vero peccato...""
  feast.7110.a:0 "Un lavoro ben fatto."
  feast.7110.a.failure:0 "La prossima volta non mi sfuggirà..."

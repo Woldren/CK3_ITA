@@ -1,27 +1,13 @@
 ﻿l_spanish:
  # Befriend
  chariot_race_ongoing_jp.0100.t: "Spettacolo Condiviso"
-<<<<<<< Updated upstream
- chariot_race_ongoing_jp.0100.desc.intro: "Mentre la folla ruggisce impaziente, i miei occhi sono fissi su [ROOT.Char.Custom2('RelationToMeShort', intent_target)], [intent_target.Custom('IT_NAM_COL3')][intent_target.GetTitledFirstName],"
-=======
  chariot_race_ongoing_jp.0100.desc.intro: "Mentre la folla ruggisce impaziente, i miei occhi sono fissi [Select_CString(intent_target.IsFemale,'sulla mia','sul mio')] [ROOT.Char.Custom2('RelationToMeShort', intent_target)], [intent_target.Custom('IT_NAM_COL3')][intent_target.GetTitledFirstName],"
->>>>>>> Stashed changes
  chariot_race_ongoing_jp.0100.desc.courtier: "sedut[Select_CString(intent_target.IsFemale,'a','o')] su una misera tribuna nella sezione della corte."
  chariot_race_ongoing_jp.0100.desc.count: "sedut[Select_CString(intent_target.IsFemale,'a','o')] su una modesta tribuna punteggiata dai suoi servitori."
  chariot_race_ongoing_jp.0100.desc.duke: "sedut[Select_CString(intent_target.IsFemale,'a','o')] in mezzo al suo seguito in una delle tribune migliori."
  chariot_race_ongoing_jp.0100.desc.king: "circondat[Select_CString(intent_target.IsFemale,'a','o')] dal suo seguito, che si estende su diverse delle tribune migliori."
  chariot_race_ongoing_jp.0100.desc.important: "sedut[Select_CString(intent_target.IsFemale,'a','o')] con aria rilassata nel palco grandioso [ROOT.Char.GetTopLiege.Custom('IT_NAM_COL2')][ROOT.Char.GetTopLiege.GetTitledFirstName]."
  chariot_race_ongoing_jp.0100.desc.important_liege: "che siede di lato nel mio palco grandioso."
-<<<<<<< Updated upstream
- chariot_race_ongoing_jp.0100.desc.liege: "affiancat[Select_CString(intent_target.IsFemale,'a','o')] da confidenti nel suo palco grandioso."
- chariot_race_ongoing_jp.0100.desc.target_personality.fan: "L[intent_target.Custom('DE_PRO_PER_S_3P_N')][intent_target.GetWomanMan] è appollaiat[Select_CString(intent_target.IsFemale,'a','o')] proprio sul bordo del suo sedile, attendendo la corsa con rapita attenzione."
- chariot_race_ongoing_jp.0100.desc.target_personality.wager: "Prima, ho sentito dire che ha puntato una grossa scommessa sulla [intent_target.Custom('GetWinPlaceShow')] di [intent_target.MakeScope.Var('wager_target').Char.GetFirstName] dei [intent_target.Custom('GetChariotTeamColorPlural')]." #controllare
- chariot_race_ongoing_jp.0100.desc.target_personality.bored: "L[intent_target.Custom('DE_PRO_PER_S_3P_N')][intent_target.GetWomanMan] si sventola languidamente, guardandosi intorno nell’Ippodromo con scarso interesse per la corsa."
- chariot_race_ongoing_jp.0100.desc.target_personality.fallback: "L[intent_target.Custom('DE_PRO_PER_S_3P_N')][intent_target.GetWomanMan] sta chiacchierando con gli spettatori vicini mentre discutono delle prospettive del suo corridore."
- chariot_race_ongoing_jp.0100.desc: "\n\nMentre le [Glossary( 'téthrippa', 'QUADRIGA_GLOSS')] sfilano davanti alle nostre tribune, la sua testa si gira verso di me per seguirle."
- chariot_race_ongoing_jp.0100.b.fan: "«Onora i tuoi patroni! Saluta! Ma cosa #EMP stai#! facendo?!»"
- chariot_race_ongoing_jp.0100.b.wager: "«Avanti, #EMP [intent_target.MakeScope.Var('wager_target').Char.GetFirstNameNoTooltip]#! [intent_target.Custom('GetChariotTeamColorPlural')]! [intent_target.Custom('GetChariotTeamColorPlural')]!»"
-=======
  chariot_race_ongoing_jp.0100.desc.liege: "affiancat[Select_CString(intent_target.IsFemale,'a','o')] dai suoi confidenti nel suo palco grandioso."
  chariot_race_ongoing_jp.0100.desc.target_personality.fan: "L[intent_target.Custom('DE_PRO_PER_S_3P_N')][intent_target.GetWomanMan] è appollaiat[Select_CString(intent_target.IsFemale,'a','o')] proprio sul bordo del suo sedile, in attesa della corsa con rapita attenzione."
  chariot_race_ongoing_jp.0100.desc.target_personality.wager: "Prima, ho sentito dire che ha scommesso parecchi soldi su [intent_target.MakeScope.Var('wager_target').Char.GetFirstName] dei [intent_target.Custom('GetChariotTeamColorPlural')] che si sarebbe piazzato [intent_target.Custom('GetWinPlaceShow')]." #GetWinPlaceShow => 'primo', 'primo o secondo', 'sul podio'
@@ -30,7 +16,6 @@
  chariot_race_ongoing_jp.0100.desc: "\n\nMentre le [Glossary( 'téthrippa', 'QUADRIGA_GLOSS')] sfilano davanti alle nostre tribune, la sua testa si gira verso di me per seguirle."
  chariot_race_ongoing_jp.0100.b.fan: ""Onora i tuoi patroni! Saluta! Ma cosa #EMP stai#! facendo?!""
  chariot_race_ongoing_jp.0100.b.wager: ""Avanti, #EMP [intent_target.MakeScope.Var('wager_target').Char.GetFirstNameNoTooltip]#! [intent_target.Custom('GetChariotTeamColorPlural')]! [intent_target.Custom('GetChariotTeamColorPlural')]!""
->>>>>>> Stashed changes
  chariot_race_ongoing_jp.0100.b.bored: "Uno sbadiglio ben calcolato e un occhiolino al cielo."
  chariot_race_ongoing_jp.0100.b: "Manda[intent_target.Custom('DE_PRO_DEM')] un biglietto."
  chariot_race_ongoing_jp.0100.b.tt.success: "[intent_target.GetFirstNameNoTooltip] apprezza il tuo stile"
@@ -48,33 +33,6 @@
  chariot_race_ongoing_jp.0100.e.host: "Un cenno di riconoscimento può fare molto."
 
  chariot_race_ongoing_jp.0200.t: "Miscellanea Imperiale"
-<<<<<<< Updated upstream
- chariot_race_ongoing_jp.0200.desc.intro: "Tra le tribune si mescola una moltitudine di vassalli imperiali, funzionari e cortigiani, tutti apparentemente qui per godersi la corsa. In verità, questo è uno dei luoghi migliori dell’impero per stringere accordi, ampliare la propria influenza e forse scalare il viscido palo del potere.\n\n([Select_CString(other.IsFemale,'La','Il')]) [Select_CString(other.IsFemale,'mia','mio')] [ROOT.Char.Custom2('RelationToMeShort', other)], [other.GetFirstName],"
- chariot_race_ongoing_jp.0200.desc.same_rank_ruler: "[Select_CString(other.IsFemale,'una','un')] [other.GetTitleAsName] anch’egli al servizio [other.GetTopLiege.Custom('IT_NAM_COL2')][other.GetTopLiege.GetTitledFirstNameNoTooltip], $chariot_race_ongoing_jp.0200.desc.party_intro$ offrendo l’occasione di discutere delle #EMP questioni urgenti#! che affrontano [ROOT.Char.GetPrimaryTitle.GetNameNoTier] e [other.GetPrimaryTitle.GetNameNoTier]."
- chariot_race_ongoing_jp.0200.desc.same_rank_courtier: "un altro arrampicatore sociale in attesa della sua occasione, siede lì vicino — forse possiamo esserci utili a vicenda..."
- chariot_race_ongoing_jp.0200.desc.higher_rank: "$chariot_race_ongoing_jp.0200.desc.landed_intro$ $chariot_race_ongoing_jp.0200.desc.party_intro$ e, sebbene non sia un[Select_CString(other.IsFemale,'a grande donna',' grande uomo')] del regno, [other.GetPrimaryTitle.GetNameNoTier] può comunque offrire #EMP qualcosa#! di utile a [ROOT.Char.GetPrimaryTitle.GetNameNoTier]..."
- chariot_race_ongoing_jp.0200.desc.lower_rank: "$chariot_race_ongoing_jp.0200.desc.landed_intro$ $chariot_race_ongoing_jp.0200.desc.party_intro$ offrendo una rara occasione di mescolarsi con i potenti — [other.GetPrimaryTitle.GetNameNoTierPossessive] ha #EMP molta#! più influenza nell’impero di [ROOT.Char.GetPrimaryTitle.GetNameNoTier]."
- chariot_race_ongoing_jp.0200.desc.lower_rank_courtier: "un semplice arrampicatore sociale in attesa della sua occasione, siede lì vicino — sebbene anche la più umile delle bestie sia nota per avere la sua utilità..."
- chariot_race_ongoing_jp.0200.desc.landed_intro: "[Select_CString(other.IsFemale,'una','un')] [other.GetTitleAsName] al servizio di [other.GetTopLiege.GetTitleAsNamePossessiveNoTooltip],"
- chariot_race_ongoing_jp.0200.desc.party_intro: "ha reclamato una tribuna vicina per il suo seguito,"
- chariot_race_ongoing_jp.0200.a: "Sono certo che possiamo imparare molto l’uno dall’altro."
- chariot_race_ongoing_jp.0200.b: "Non potevo chiedere un vicino migliore!"
- chariot_race_ongoing_jp.0200.b.success: "[other.GetFirstNameNoTooltip] è affascinat[Select_CString(other.IsFemale,'a','o')]"
- chariot_race_ongoing_jp.0200.b.partial_success: "[other.GetFirstNameNoTooltip] è soddisfat[Select_CString(other.IsFemale,'a','o')]"
- chariot_race_ongoing_jp.0200.b.failure: "[other.GetFirstNameNoTooltip] resta indifferente"
- chariot_race_ongoing_jp.0200.c: "Sono fortunat[Select_CString(ROOT.Char.IsFemale,'a','o')] ad avere un vicino così avvenente."
- chariot_race_ongoing_jp.0200.c.success: "[other.GetFirstNameNoTooltip] è affascinat[Select_CString(other.IsFemale,'a','o')]"
- chariot_race_ongoing_jp.0200.c.partial_success: "[other.GetFirstNameNoTooltip] è soddisfat[Select_CString(other.IsFemale,'a','o')]"
- chariot_race_ongoing_jp.0200.c.failure: "[other.GetFirstNameNoTooltip] resta indifferente"
- chariot_race_ongoing_jp.0200.d: "Linee di credito sono sempre apprezzate."
- chariot_race_ongoing_jp.0200.d.tt: "Il tuo [rank|E] deve essere diverso da quello di [other.GetTitledFirstNamePossessive]"
- chariot_race_ongoing_jp.0200.e: "Il debito apre molte porte, se gestito correttamente."
- chariot_race_ongoing_jp.0200.f: "Un buon luogo per commerciare in segreti."
- chariot_race_ongoing_jp.0200.f.available_tt: "Questa opzione è disponibile grazie alla tua conoscenza del [secret|E] [given_secret.GetName] di [given_secret.GetOwner.GetTitledFirstNamePossessive]"
- chariot_race_ongoing_jp.0200.f.tt: "[other.GetTitledFirstName] potrebbe rivelarti un [secret|E] in cambio"
- chariot_race_ongoing_jp.0200.f.success: "[other.GetTitledFirstName] scambia un segreto"
- chariot_race_ongoing_jp.0200.f.failure: "[other.GetTitledFirstName] non rivela nulla"
-=======
  chariot_race_ongoing_jp.0200.desc.intro: "Tra le tribune si mescola una moltitudine di vassalli imperiali, funzionari e cortigiani, tutti apparentemente qui a godersi la corsa. In verità, questo è uno dei luoghi migliori dell’impero per stringere accordi, ampliare la propria influenza e forse scalare il viscido palo del potere.\n\n([Select_CString(other.IsFemale,'La','Il')]) [Select_CString(other.IsFemale,'mia','mio')] [ROOT.Char.Custom2('RelationToMeShort', other)], [other.GetFirstName],"
  chariot_race_ongoing_jp.0200.desc.same_rank_ruler: "[Select_CString(other.IsFemale,'una','un')] [other.GetTitleAsName] anch’[Select_CString(other.IsFemale,'ella','egli')] al servizio [other.GetTopLiege.Custom('IT_NAM_COL2')][other.GetTopLiege.GetTitledFirstNameNoTooltip], $chariot_race_ongoing_jp.0200.desc.party_intro$ offrendo l’occasione di discutere delle #EMP questioni urgenti#! che affrontano [ROOT.Char.GetPrimaryTitle.GetNameNoTier] e [other.GetPrimaryTitle.GetNameNoTier]."
  chariot_race_ongoing_jp.0200.desc.same_rank_courtier: "[Select_CString(other.IsFemale,'un’altra arrampicatrice','un altro arrampicatore')] sociale in attesa della sua occasione, siede lì vicino — forse possiamo esserci utili a vicenda..."
@@ -100,21 +58,14 @@
  chariot_race_ongoing_jp.0200.f.tt: "[other.Custom('IT_NAM_COL3')][other.GetTitledFirstName] potrebbe rivelarti un [secret|E] in cambio"
  chariot_race_ongoing_jp.0200.f.success: "[other.Custom('IT_NAM_COL3')][other.GetTitledFirstName] scambia un segreto"
  chariot_race_ongoing_jp.0200.f.failure: "[other.Custom('IT_NAM_COL3')][other.GetTitledFirstName] non rivela nulla"
->>>>>>> Stashed changes
  chariot_race_ongoing_jp.0200.g: "Il mio servizio potrebbe aprir[other.Custom('DE_PRO_DEM')] le porte."
  chariot_race_ongoing_jp.0200.h: "Preferisco semplicemente guardare la corsa."
 
  chariot_race_ongoing_jp.0201.t: "Società Selezionata"
  chariot_race_ongoing_jp.0201.desc.intro: "Mentre le masse affollano le tribune, e la nobiltà serpeggia tra le loro sezioni privilegiate, qui nel [Glossary( 'Kathisma', 'KATHISMA_GLOSS')] possiamo per fortuna godere di un po’ di calma. Servitori carichi di ogni genere di rinfresco attendono i nostri capricci, mentre i carri svolgono il loro mestiere insidioso là sotto.\n\n"
-<<<<<<< Updated upstream
- chariot_race_ongoing_jp.0201.desc.emperor: "Tra coloro che oggi condividono il mio palco c’è ([Select_CString(other.IsFemale,'la','il')]) mi[Select_CString(other.IsFemale,'a','o')] [ROOT.Char.Custom2('RelationToMeShort', other)], [other.GetTitledFirstName], che si crogiola chiaramente nel suo accesso privilegiato a me e in ciò che questo comunica."
- chariot_race_ongoing_jp.0201.desc.other_emperor: "Ho la fortuna di avere un mio posto nel palco [ROOT.Char.GetTopLiege.Custom('IT_NAM_COL2')][ROOT.Char.GetTopLiege.GetTitledFirstNameNoTooltip] — un’opportunità ambita per ingraziarmi ([Select_CString(other.IsFemale,'la','il')]) mi[Select_CString(other.IsFemale,'a','o')] [ROOT.Char.Custom2('RelationToMeShort', other)]."
- chariot_race_ongoing_jp.0201.desc.other: "Tra gli altri che godono dell’accesso c’è ([Select_CString(other.IsFemale,'la','il')]) mi[Select_CString(other.IsFemale,'a','o')] [ROOT.Char.Custom2('RelationToMeShort', other)], [other.GetTitledFirstName], che siede poco distante e si gode chiaramente l’esclusività."
-=======
  chariot_race_ongoing_jp.0201.desc.emperor: "Tra coloro che oggi condividono il mio palco c’è ([Select_CString(other.IsFemale,'la','il')]) mi[Select_CString(other.IsFemale,'a','o')] [ROOT.Char.Custom2('RelationToMeShort', other)], [other.Custom('IT_NAM_COL3')][other.GetTitledFirstName], che chiaramente si crogiola con me del suo accesso privilegiato e su ciò che questo comunica."
  chariot_race_ongoing_jp.0201.desc.other_emperor: "Ho la fortuna di avere un mio posto nel palco [ROOT.Char.GetTopLiege.Custom('IT_NAM_COL2')][ROOT.Char.GetTopLiege.GetTitledFirstNameNoTooltip] — un’opportunità ambita per ingraziarmi ([Select_CString(other.IsFemale,'la','il')]) mi[Select_CString(other.IsFemale,'a','o')] [ROOT.Char.Custom2('RelationToMeShort', other)]."
  chariot_race_ongoing_jp.0201.desc.other: "Tra gli altri che godono dell’accesso c’è ([Select_CString(other.IsFemale,'la','il')]) mi[Select_CString(other.IsFemale,'a','o')] [ROOT.Char.Custom2('RelationToMeShort', other)], [other.Custom('IT_NAM_COL3')][other.GetTitledFirstName], che siede poco distante e si gode chiaramente l’esclusività."
->>>>>>> Stashed changes
  chariot_race_ongoing_jp.0201.desc: "Forse gradirebbe fare due chiacchiere..."
  chariot_race_ongoing_jp.0201.a: "Questa è la miglior gente con cui stare."
  chariot_race_ongoing_jp.0201.b: "Vieni [other.GetFirstNameNoTooltip], siediti accanto a me."
@@ -126,11 +77,7 @@
  chariot_race_ongoing_jp.0201.h: "Sei radios[Select_CString(other.IsFemale,'a','o')] oggi, [other.GetFirstNameNoTooltip]."
 
  chariot_race_ongoing_jp.0300.t: "Ottenere Accesso"
-<<<<<<< Updated upstream
- chariot_race_ongoing_jp.0300.desc.intro: "Benché noi nobili abbiamo i posti migliori dell’Ippodromo, essi non sono nulla in confronto ai seggi dominanti del [Glossary( 'Kathisma', 'KATHISMA_GLOSS')] e a tutto ciò che esso rappresenta.\n\nInsieme alla sua famiglia più stretta, [host.Custom('IT_NAM_COL3')][host.GetTitledFirstNameNoTooltip] è noto per concedere l’accesso a chi gode del suo favore, o a chi riesce in altro modo a forzargli la mano..."
-=======
  chariot_race_ongoing_jp.0300.desc.intro: "Benché noi nobili abbiamo i posti migliori dell’Ippodromo, essi non sono nulla in confronto ai seggi dominanti del [Glossary( 'Kathisma', 'KATHISMA_GLOSS')] e a tutto ciò che esso rappresenta.\n\nInsieme alla sua famiglia più stretta, [host.Custom('IT_NAM_COL3')][host.GetTitledFirstNameNoTooltip] è not[host.Custom('DE_END_PRO_S_N')] per concedere l’accesso a chi gode del suo favore, o a chi riesce in altro modo a forzar[host.Custom('DE_PRO_DEM')] la mano..."
->>>>>>> Stashed changes
  chariot_race_ongoing_jp.0300.a: "Semplicemente #EMP chiederò#!."
  chariot_race_ongoing_jp.0300.a.tt: "[THIS.Char.GetShortUIName|U] entrerà nel Kathisma"
  chariot_race_ongoing_jp.0300.a.success: "[host.Custom('IT_NAM_COL3')][host.GetFirstNameNoTooltip] ti concede l’accesso"
@@ -155,38 +102,22 @@
  chariot_race_ongoing_jp.0301.d: "Non credo proprio."
 
  chariot_race_ongoing_jp.0400.t: "Un Altro Giro"
-<<<<<<< Updated upstream
- chariot_race_ongoing_jp.0400.intro: "Gli attendenti fanno cadere il marcatore del delfino [ROOT.Char.Custom('GetChariotMiddlingLapCount')] mentre [first_place_charioteer.GetFirstName] dei [first_place_charioteer.Custom('GetChariotTeamColorPlural')]"
- chariot_race_ongoing_jp.0400.intro_flavor1: "sfreccia oltre le scintillanti statue degli aurighi d’un tempo, alzando brevemente il braccio della frusta in un trionfo prematuro."
- chariot_race_ongoing_jp.0400.intro_flavor2: "sbandando intorno alla barriera, a malapena restando in piedi, e porta il frenetico ululato delle masse a nuove vette."
-=======
  chariot_race_ongoing_jp.0400.intro: "Gli attendenti fanno cadere il [ROOT.Char.Custom('GetChariotMiddlingLapCount')] segnale a forma di delfino mentre [first_place_charioteer.GetFirstName] dei [first_place_charioteer.Custom('GetChariotTeamColorPlural')]"
  chariot_race_ongoing_jp.0400.intro_flavor1: "sfreccia oltre le scintillanti statue degli aurighi d’un tempo, alzando brevemente il braccio della frusta in un trionfo prematuro."
  chariot_race_ongoing_jp.0400.intro_flavor2: "sbandando intorno alla barriera, a malapena restando in piedi, porta il frenetico ululato delle masse a nuove vette."
->>>>>>> Stashed changes
  chariot_race_ongoing_jp.0400.intro_flavor3: "spinge implacabilmente avanti la sua squadra di cavalli digrignanti, la frusta che guizza come uno strumento di [ROOT.Char.GetFaith.HighGodName]."
  chariot_race_ongoing_jp.0400.intro_flavor4: "sfreccia oltre di loro, lanciando uno sguardo sopra la spalla, a metà tra lo scherno e la preoccupazione."
  chariot_race_ongoing_jp.0400.intro_flavor5: "sgomma alla curva. Le sezioni non sommerse dalla grande nuvola di polvere sollevata da [first_place_charioteer.GetSheHe] esplodono di gioia."
  chariot_race_ongoing_jp.0400.second1: "\n\n[second_place_charioteer.GetFirstName] segue da vicino i suoi talloni."
-<<<<<<< Updated upstream
- chariot_race_ongoing_jp.0400.second2: "\n\nA pochi metri dietro seguono i cavalli di [second_place_charioteer.GetFirstNamePossessive], calpestando la stessa sabbia,"
- chariot_race_ongoing_jp.0400.second3: "\n\n[second_place_charioteer.GetFirstName] è solo leggermente indietro e potrebbe ancora colmare il divario,"
- chariot_race_ongoing_jp.0400.second4: "\n\nQuasi direttamente dietro [first_place_charioteer.GetHerHim], seguono gli stalloni mordenti di [second_place_charioteer.GetFirstNamePossessive],"
-=======
  chariot_race_ongoing_jp.0400.second2: "\n\nA pochi metri dietro seguono i cavalli di [second_place_charioteer.GetFirstName], che calpestano la stessa sabbia,"
  chariot_race_ongoing_jp.0400.second3: "\n\n[second_place_charioteer.GetFirstName] è solo leggermente indietro e potrebbe ancora colmare il divario,"
  chariot_race_ongoing_jp.0400.second4: "\n\nQuasi direttamente dietro di [first_place_charioteer.GetHerHim], seguono gli stalloni mordenti di [second_place_charioteer.GetFirstName],"
->>>>>>> Stashed changes
  chariot_race_ongoing_jp.0400.second5: "\n\n[second_place_charioteer.GetFirstName] è un po’ indietro, ma non in modo irreparabile,"
  chariot_race_ongoing_jp.0400.third1: "[Select_CString(second_place_charioteer.IsFemale,'lei stessa','egli stesso')] inseguit[Select_CString(second_place_charioteer.IsFemale,'a','o')] da un determinatissim[Select_CString(third_place_charioteer.IsFemale,'a','o')] [third_place_charioteer.GetFirstName]."
  chariot_race_ongoing_jp.0400.third2: "mentre [third_place_charioteer.GetFirstName] sfreccia dietro, cercando un’opportunità."
  chariot_race_ongoing_jp.0400.third3: "mentre [third_place_charioteer.GetFirstName] è appena dietro, i cavalli sembrano a distanza di morso."
  chariot_race_ongoing_jp.0400.third4: "mentre [third_place_charioteer.GetFirstName] incalza impaziente, premendo per un sorpasso."
-<<<<<<< Updated upstream
- chariot_race_ongoing_jp.0400.third5: "mentre [third_place_charioteer.GetFirstName] si avvicina lentamente, disperato di superare."
-=======
  chariot_race_ongoing_jp.0400.third5: "mentre [third_place_charioteer.GetFirstName] si avvicina lentamente, disperat[Select_CString(third_place_charioteer.IsFemale,'a','o')] di superare."
->>>>>>> Stashed changes
  chariot_race_ongoing_jp.0400.winning_place: "\n\nGrande [ROOT.Char.GetFaith.FateGodName]! Se [wager_target.GetFirstNameNoTooltip] riuscisse solo a mantenere la sua posizione!"
  chariot_race_ongoing_jp.0400.losing_place: "\n\nGrande [ROOT.Char.GetFaith.FateGodName]! Che cosa stai facendo in #EMP [wager_target.Custom('GetChariotRacePlacement')]#! posizione, [wager_target.GetFirstNameNoTooltip]?!"
  chariot_race_ongoing_jp.0400.out: "\n\nPosso solo rimuginare cupamente sulla mia scommessa infelice su [wager_target.GetFirstName]..."
@@ -196,11 +127,7 @@
  chariot_race_ongoing_jp.0400.d: "#EMP Vai! VAI [wager_target.GetWomanMan]!#!"
 
  chariot_race_ongoing_jp.0500.t: "Darsi Arie"
-<<<<<<< Updated upstream
- chariot_race_ongoing_jp.0500.intro: "Tutti gli occhi sono sul carro di [first_place_charioteer.GetFirstNamePossessive], e sul vantaggio costante che [first_place_charioteer.GetSheHe] scava,"
-=======
  chariot_race_ongoing_jp.0500.intro: "Tutti gli occhi sono sul carro di [first_place_charioteer.GetFirstName], e sul vantaggio costante che [first_place_charioteer.GetSheHe] accumula,"
->>>>>>> Stashed changes
  chariot_race_ongoing_jp.0500.first: "e l[evil_knievel.Custom('DE_PRO_PER_S_3P_N')][evil_knievel.GetWomanMan] lo sa bene, infatti [evil_knievel.GetSheHe]"
  chariot_race_ongoing_jp.0500.last: "quando [evil_knievel.GetFirstName], molto indietro in ultima posizione,"
  chariot_race_ongoing_jp.0500.high: "quando [evil_knievel.GetFirstName], non molto dietro,"
@@ -217,21 +144,6 @@
  chariot_race_ongoing_jp.0500.dead: "Gli applausi raggiungono il culmine, quando [evil_knievel.GetFirstName] perde improvvisamente l’equilibrio! Un groviglio nitrito di legno, carne equina e polvere rotola sulla sabbia e si schianta contro le barriere..."
  chariot_race_ongoing_jp.0500.alive: "[evil_knievel.GetFirstName] ritorna con grazia alla solita posizione dell’auriga, sorridendo come un re mentre l’Ippodromo si scioglie in visibilio."
  chariot_race_ongoing_jp.0500.alive_overtaken: "[evil_knievel.GetFirstName] torna in fretta alla sua posizione, agitando il pugno contro chi lo ha sorpassato."
-<<<<<<< Updated upstream
- chariot_race_ongoing_jp.0500.loss_dead: "\n\nMi copro il volto con le mani... «Sciocc[Select_CString(evil_knievel.IsFemale,'a','o')], [evil_knievel.GetFirstNameNoTooltip]... !»"
- chariot_race_ongoing_jp.0500.loss: "\n\nGuardo incredul[Select_CString(ROOT.Char.IsFemale,'a','o')]. «Sciocc[Select_CString(evil_knievel.IsFemale,'a','o')] #EMP vero#!, [evil_knievel.GetFirstNameNoTooltip]! »"
- chariot_race_ongoing_jp.0500.gain: "\n\nAh! Questo insegnerà a [evil_knievel.GetHerHim] a fare lo sciocc[Select_CString(evil_knievel.IsFemale,'a','o')]."
- chariot_race_ongoing_jp.0500.a: "Che bravura!"
- chariot_race_ongoing_jp.0500.b: "Oh #EMP [ROOT.Char.GetFaith.HighGodName]#!!"
- chariot_race_ongoing_jp.0500.c: "Ah! Occhi sul premio, [overtaking_charioteer.GetFirstNameNoTooltip]!"
- chariot_race_ongoing_jp.0500.d: "Dannat[Select_CString(evil_knievel.IsFemale,'a','o')] #EMP sciocc[Select_CString(evil_knievel.IsFemale,'a','o')]#!, [evil_knievel.GetFirstNameNoTooltip]!"
-
- chariot_race_ongoing_jp.0600.t: "Tasche Vuote"
- chariot_race_ongoing_jp.0600.intro: "Appena l’allibratore, [bookmaker.GetTitledFirstName], se n’è andato con la borsa alla cintura che tintinnava allegra delle mie monete guadagnate a fatica, sento il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('castigator'))], [castigator.GetTitledFirstNamePossessive], urlare incredulo:\n\n«#EMP Oh...!#! Per l’amor di #EMP Dio#! [castigator.Custom2('RelationToMeShort', ROOT.Char)]!»"
- chariot_race_ongoing_jp.0600.kathisma: "Un silenzio cala sul [Glossary( 'kathisma', 'KATHISMA_GLOSS')] mentre i calici cadono e le teste si voltano."
- chariot_race_ongoing_jp.0600.stands: "Un silenzio cala sulle tribune circostanti mentre tutti si girano a fissare questa esplosione."
- chariot_race_ongoing_jp.0600.desc: "\n\n«Non dirmelo! Stai scommettendo via #EMP tutti#! i tuoi soldi?» continua [castigator.GetSheHe], [castigator.Custom('quirk_neg_adverb')]. «Non ti resterà nulla! E le #EMP emergenze?!#!» L’allibratore sparisce dalla vista, ritirandosi davanti allo sguardo penetrante di [castigator.GetFirstNamePossessiveNoTooltip]."
-=======
  chariot_race_ongoing_jp.0500.loss_dead: "\n\nMi copro il volto con le mani... "Sei un[Select_CString(evil_knievel.IsFemale,'a','o')] sciocc[Select_CString(evil_knievel.IsFemale,'a','o')], [evil_knievel.GetFirstNameNoTooltip]... !""
  chariot_race_ongoing_jp.0500.loss: "\n\nGuardo incredul[Select_CString(ROOT.Char.IsFemale,'a','o')]. "Sei un[Select_CString(evil_knievel.IsFemale,'a','')] #EMP ver[Select_CString(evil_knievel.IsFemale,'a','o')]#! sciocc[Select_CString(evil_knievel.IsFemale,'a','o')], [evil_knievel.GetFirstNameNoTooltip]! ""
  chariot_race_ongoing_jp.0500.gain: "\n\nAh! Questo [evil_knievel.Custom('DE_PRO_DEM')] insegnerà a fare l[Select_CString(evil_knievel.IsFemale,'a','o')] sciocc[Select_CString(evil_knievel.IsFemale,'a','o')]."
@@ -245,7 +157,6 @@
  chariot_race_ongoing_jp.0600.kathisma: "Un silenzio cala sul [Glossary( 'kathisma', 'KATHISMA_GLOSS')] mentre i calici cadono e le teste si voltano."
  chariot_race_ongoing_jp.0600.stands: "Un silenzio cala sulle tribune circostanti mentre tutti si girano a fissare questa esplosione."
  chariot_race_ongoing_jp.0600.desc: "\n\n"Non dirmelo! Hai scommesso #EMP tutti#! i tuoi soldi?" continua [castigator.GetSheHe], [castigator.Custom('quirk_neg_adverb')]. "Non ti resterà nulla! E le #EMP emergenze?!#!" L’allibratore sparisce dalla vista, ritirandosi davanti allo sguardo penetrante di [castigator.GetFirstNameNoTooltip]."
->>>>>>> Stashed changes
  chariot_race_ongoing_jp.0600.a: "Oh, piantala [castigator.GetFirstNameNoTooltip]! Sto cercando di guardare la corsa!"
  chariot_race_ongoing_jp.0600.b: "Suppongo di poter ridurre la mia puntata..."
  halve_wager_effect_tt: "La tua puntata viene #M dimezzata#!"

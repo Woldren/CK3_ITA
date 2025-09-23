@@ -8,7 +8,7 @@
  target_responds:0 "[target.GetTitledFirstName] risponde alla tua lettera"
  
  learn_language_outcome.1001.opening:0 "[owner.Custom2('AppropriateGreetingPositive', target)]"
- learn_language_outcome.1001.desc:5 "Ho studiato la lingua [target.GetCulture.GetLanguage.GetName] per molte lune. Ho scritto personalmente questa missiva in lingua [target.GetCulture.GetLanguage.GetNameNoTooltip], una lettera di amicizia da parte di una persona che parla la lingua [owner.GetCulture.GetLanguage.GetName]!\n\nMi auguro che i nostri futuri rapporti diplomatici siano di grande beneficio per entrambi!"
+ learn_language_outcome.1001.desc:5 "Ho studiato la lingua [target.GetCulture.GetLanguage.GetName] per molte lune. Ora, con orgoglio, vi annuncio che ho scritto personalmente, di mio pugno, questa missiva nella lingua [target.GetCulture.GetLanguage.GetNameNoTooltip]: una lettera d’amicizia inviata da chi parla una lingua diversa, differente, ovvero quella [owner.GetCulture.GetLanguage.GetName]!\n\nPossa questo essere l’inizio di rapporti diplomatici fecondi e di grande beneficio per [Select_CString(And(target.IsFemale, owner.IsFemale), 'entrambe', 'entrambi')]."
  learn_language_outcome.1001.a:4 "Ha imparato la lingua [target.GetCulture.GetLanguage.GetNameNoTooltip]? Notevole, manda i miei saluti!"
  learn_language_outcome.1001.b:0 "Hah! Il suo vano tentativo di ottenere gloria è ridicolo!"
  

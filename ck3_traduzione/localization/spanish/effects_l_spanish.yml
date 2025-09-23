@@ -1730,17 +1730,10 @@
  leave_faction_with_cooldown_effect_first.tt:2 "Non potrai unirti ad un'altra [faction|E] per #V $VALUE|0$ anni#!"
  leave_faction_with_cooldown_effect_global.tt:0 "Non può unirsi ad un'altra [faction|E] per #V $VALUE|0$ anni#!" 
  
-<<<<<<< Updated upstream
- CHARACTER_LEAVES_COURT:1 "[CHARACTER.GetShortUIName|U] lascia la [CHARACTER.GetLiege.Custom('GetCourtConcept')] di [CHARACTER.GetLiege.GetShortUINamePossessive]"
- LEFT_COURT:0 "Ha lasciato la [CHARACTER.GetLiege.Custom('GetCourtConcept')] di [CHARACTER.GetLiege.GetShortUINamePossessive]"
- LEAVES_COURT:1 "Lascia la [CHARACTER.GetLiege.Custom('GetCourtConcept')] di [CHARACTER.GetLiege.GetShortUINamePossessive]"
- CHARACTER_LEFT_COURT:0 "[CHARACTER.GetShortUIName|U] ha lasciato la [CHARACTER.GetLiege.Custom('GetCourtConcept')] di [CHARACTER.GetLiege.GetShortUINamePossessive]"
-=======
  CHARACTER_LEAVES_COURT:1 "[CHARACTER.GetShortUIName|U] lascia la [CHARACTER.GetLiege.Custom('GetCourtConcept')] [CHARACTER.GetLiege.Custom('IT_NAM_COL2')][CHARACTER.GetLiege.GetTitledFirstName]"
  LEFT_COURT:0 "Ha lasciato la [CHARACTER.GetLiege.Custom('GetCourtConcept')] [CHARACTER.GetLiege.Custom('IT_NAM_COL2')][CHARACTER.GetLiege.GetTitledFirstName]"
  LEAVES_COURT:1 "Lascia la [CHARACTER.GetLiege.Custom('GetCourtConcept')] [CHARACTER.GetLiege.Custom('IT_NAM_COL2')][CHARACTER.GetLiege.GetTitledFirstName]"
  CHARACTER_LEFT_COURT:0 "[CHARACTER.GetShortUIName|U] ha lasciato la [CHARACTER.GetLiege.Custom('GetCourtConcept')] [CHARACTER.GetLiege.Custom('IT_NAM_COL2')][CHARACTER.GetLiege.GetTitledFirstName]"
->>>>>>> Stashed changes
 
  RECRUIT_COURTIER_EFFECT:1 "Recluta [TARGET_CHARACTER.GetShortUIName] a [CHARACTER.Custom('GetCourtConcept')]"
  RECRUITED_COURTIER_EFFECT:0 "Ha reclutato [TARGET_CHARACTER.GetShortUIName] a [CHARACTER.Custom('GetCourtConcept')]"
