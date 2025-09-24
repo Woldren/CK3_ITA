@@ -22,7 +22,7 @@
  chancellor_task.1102.a:0 "Un lavoro fantastico, [councillor.GetFirstNameNoTooltip]!"
 
  chancellor_task.1103.opening:0 "[neighbor.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
- chancellor_task.1103.desc:0: "Stavo avendo una corrispondenza scritta con il vostro [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], e devo ammettere che ora vi osservo sotto una luce nuova. Forse un giorno potrò vantare con orgoglio la vostra amicizia."
+ chancellor_task.1103.desc:0 "Stavo avendo una corrispondenza scritta con il vostro [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], e devo ammettere che adesso vi vedo sotto una nuova luce. Magari un giorno potrò vantare con orgoglio la vostra amicizia."
  chancellor_task.1103.a:0 "Oggi la vostra lingua d'argento sta splendendo, [councillor.GetFirstNameNoTooltip]!"
 
  chancellor_task.1103.message:0 "[councillor.GetCouncilTitle] stupisce [neighbor.GetTitledFirstName]"

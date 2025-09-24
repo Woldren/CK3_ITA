@@ -402,7 +402,7 @@
  fp3_struggle.8001.a: "Dovrete passare sul mio corpo!"
  fp3_struggle.8002.desc: "Finalmente, [Select_CString(defender.IsFemale,'quella traditrice','quel traditore')] [defender.Custom('IT_COU_COL')][defender.GetTitledFirstName] è stat[defender.Custom('DE_END_PRO_S_N')] sconfitt[defender.Custom('DE_END_PRO_S_N')] e [defender.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] è ancora una volta nelle mani di qualcuno che offre il suo pieno supporto al califfo.\n\nPossa il vostro regno prosperare e durare a lungo!"
  fp3_struggle.8002.a: "Urrà!"
- fp3_struggle.8002.alliance_tt: "[attacker.Custom('IT_COU_COL3')|U][attacker.GetTitledFirstName] è ora un[attacker.Custom('DE_END_PRO_S_N')] dei tuoi [allies|El]"
+ fp3_struggle.8002.alliance_tt: "[attacker.Custom('IT_NAM_COL3')|U][attacker.GetTitledFirstName] è ora un[attacker.Custom('DE_END_PRO_S_N')] dei tuoi [allies|El]"
  install_loyalist_puppet_declared_puppet: "Guerra per Insediare il Lealista"
  install_loyalist_puppet_declared_defender: "$install_loyalist_puppet_declared_puppet$"
  install_loyalist_puppet_won_puppet: "$install_loyalist_puppet_declared_puppet$"

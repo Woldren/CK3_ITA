@@ -31,4 +31,4 @@
  MAP_ICON_DETAILED_RAID_TT: "#T [DetailedRaidIcon.GetProvince.GetNameNoTooltip]#!\nBottino: [raid_loot_i] [DetailedRaidIcon.GetLoot|0]"
  MAP_ICON_DETAILED_RAID_LOOT_POTENTIAL_TT: "#T Razzia Potenziale#!\n[raid_loot|E] Risultante: [raid_loot_i][DetailedRaidIcon.GetLoot|0]\n\n$MAP_ICON_DETAILED_RAID_LOOT_HOLD_ALT_TT$"
  MAP_ICON_DETAILED_RAID_LOOT_ONGOING_TT: "#T Razzia in corso#!\nTempo stimato al completamento: [DetailedRaidIcon.GetRaid.GetEta.GetString].\n[raid_loot|E] Risultante: [raid_loot_i][DetailedRaidIcon.GetProvince.GetProvinceLoot|0V].\n\n#I Clicca per visualizzare la [raid|e].#!\n$MAP_ICON_DETAILED_RAID_LOOT_HOLD_ALT_TT$"
- MAP_ICON_DETAILED_RAID_LOOT_HOLD_ALT_TT: "#I Tieni premuto Alt per visualizzare tutti gli insediamenti con bottino che puoi [Concept(' raid', 'razziare' )|e].#!"
+ MAP_ICON_DETAILED_RAID_LOOT_HOLD_ALT_TT: "#I Tieni premuto Alt per visualizzare tutti gli insediamenti con bottino che puoi [Concept( 'raid', 'razziare' )|e].#!"

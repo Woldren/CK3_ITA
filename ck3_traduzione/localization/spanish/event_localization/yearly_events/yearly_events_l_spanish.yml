@@ -72,14 +72,14 @@
  yearly.0011.vengeful:0 "Hah, qualcuno avrà quello che gli spetta!"
  yearly.0011.forgiving:0 "[ROOT.GetCharacter.GetFaith.HighGodName] misericordioso, perdona i nostri peccati!"
 
- #Abandoned inn
+#Abandoned inn
  yearly.0025.t.chain_title: "Affari di taverna"
  yearly.0025.t: "$yearly.0025.t.chain_title$: antica e dimenticata"
  yearly.0025.desc: "Mentre percorro con il mio seguito un viottolo solitario di [county.GetBaseNameNoTier], in lontananza compare una sagoma scura che aumenta di dimensione ad ogni passo.\n\nAvvicinandomi, la scena si fa chiara: è una vecchia taverna, abbandonata e dimenticata. Con un po’ di lavori alla facciata malandata, potrebbe tornare a essere un locale accogliente.\n\nFatico a capire come questo posto sia potuto cadere in un simile degrado. La posizione è vicina a diversi borghi ed è centro di uno snodo che potrebbe essere molto interessante. Queste caratteristiche potrebbero fruttarle un bel gruzzolo di monete.\n\nCon la persona giusta a guidarla."
  yearly.0025.a: "Farò prosperare questo posto!"
  yearly.0025.a.tt.progress: "Investi risorse per restaurare la locanda: l’esito può essere #N cattivo#!, #M normale#! o #P buono#!, con relative ricompense."
  yearly.0025.b: "Andiamo oltre, rischio eccessivo"
- 
+
  #Refurbishment
  yearly.0026.t: "$yearly.0025.t.chain_title$: lavori"
  yearly.0026.desc: "Appena varco il guscio dell’edificio, capisco perché sia rimasto decadente e dimenticato per così tanto tempo.\n\nUn odore indefinibile aleggia nell’aria; dal tetto, gocce lente tamburellano sulla palude di fango che qui funge da pavimento.\n\nRimettere in sesto un relitto simile non sarebbe #EMP troppo#! difficile, ma sarebbe comunque una fatica frustrante e costosa. Eppure la gente di [county.GetNameNoTier] affluirebbe in massa: un’attività nuova, patrocinata [ROOT.Char.Custom('IT_NAM_COL5')][ROOT.Char.GetTitleAsNameNoTooltip|l], non passerebbe inosservata."
@@ -88,11 +88,12 @@
  yearly.0026.a.tt.failure: "Non trovo una buona soluzione"
  yearly.0026.b: "Si può sistemare qualcosa, ma va rispettata la scadenza"
  yearly.0026.c: "Rifacciamo #EMP tutto#!"
+
  yearly.0026.tt.bad: "La locanda è #N appena#! migliore."
  yearly.0026.tt.average: "La locanda è #M un po’#! migliore."
  yearly.0026.tt.good: "La locanda è #P molto#! migliore."
- 
- #Edibles
+
+#Edibles
  yearly.0027.t: "$yearly.0025.t.chain_title$: divertirsi come un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.Custom('GetQueenKing')]"
  yearly.0027.desc: "Mi assopisco pensando al potenziale del locale e a tutti i possibili ricordi che potra custodire.\n\nCerto, poche cose migliorano una bella serata quanto del buon cibo, e nulla scaccia le pene più in fretta di un'eccellente e fredda birra. Una fetta di carne grassa, un ubriaco svenuto su una panca, nuove amicizie dai volti sfocati: tutti gli ingredienti per divertirsi!\n\nLa vera domanda è a cosa dovrebbero darsi gli avventori: birra, vino, liquori…"
  yearly.0027.a: "A chi importa la #EMP bevanda#! se ci sarò io?"
@@ -102,6 +103,7 @@
  yearly.0027.tt.bad: "$yearly.0026.tt.bad$"
  yearly.0027.b: "Rape sotto sale per tutti"
  yearly.0027.c: "Farò sentire questi contadini come re e regine"
+
  innkeeper_bad_edibles_char_modifier: "Ospite frugale"
  innkeeper_bad_edibles_char_modifier_desc: "La selezione di cibo offerta nella taverna di questo personaggio ha più muffa che carne."
  innkeeper_neutral_edibles_char_modifier: "Dieta equilibrata"
@@ -120,7 +122,7 @@
  yearly.0028.c.gain.jester: "C’è la possibilità di #P ottenere#! un giullare a corte."
  yearly.0028.tt.minor_xp_gain: "Le tue doti di mercanteggio tornano discretamente utili"
  yearly.0028.tt.major_xp_gain: "Le tue doti di mercanteggio tornano molto utili"
- 
+
  #Conclusion
  yearly.0029.t: "$yearly.0025.t.chain_title$: serata d’esordio"
  yearly.0029.conclusion_intro: "È stata lunga e sfiancante una notte per l'inaugurazione della taverna. Piena di alti e bassi. C’era da aspettarselo, ma è davvero estenuante."
@@ -153,5 +155,4 @@
  yearly.0029.entertainment_jester_good: "[Select_CString(entertainer.IsFemale,'La giullara','Il giullare')] balza sul palco con un grido e una capriola. La taverna esplode in urla e applausi mentre [entertainer.GetSheHe] ruota agile in aria saltando sopra tavoli, sgabelli e avventori. Ogni prodezza è accompagnata da una trovata arguta, da grandi sforzi fisici, tanto da ritrovarsi sfinit[entertainer.Custom('DE_END_PRO_S_N')] a fine serata. È stata una nottata che ha lasciato tutti senza fiato.\n\n"
  yearly.0029.conclusion_outro: "Ho compiuto il mio dovere."
  yearly.0029.a: "Che notte!"
-
  

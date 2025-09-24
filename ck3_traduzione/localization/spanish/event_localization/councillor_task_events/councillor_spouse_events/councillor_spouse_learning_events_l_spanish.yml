@@ -76,7 +76,7 @@
 
 
  councillor_spouse_learning.2603.t:1 "Coniuge: All'Altezza del Compito"
- councillor_spouse_learning.2603.desc:0 "Alcuni dei miei consiglieri credono che il lavoro sia loro per diritto di sangue o semplicemente causa della loro influenza. Quanto si sbagliano! Mi aspetto risultati, ma spesso rimango delus[ROOT.Char.Custom('DE_END_PRO_S_N')].\n\nDopo una lunga giornata, me ne lamento con [councillor.GetFirstName] finché [councillor.GetSheHe] non mi interrompe. "Fammi fare qualcosa a riguardo, [ROOT.Char.GetWifeHusband]. Alcune lezioni potrebbero affinare il loro ingegno.""
+ councillor_spouse_learning.2603.desc:0 "Alcuni dei miei consiglieri credono che il lavoro gli sia dovuto per diritto di sangue o semplicemente per via della loro influenza. Quanto si sbagliano! Mi aspetto risultati, ma spesso rimango delus[ROOT.Char.Custom('DE_END_PRO_S_N')].\n\nDopo una lunga giornata, me ne lamento con [councillor.GetFirstName] finché [councillor.GetSheHe] non mi interrompe. "Fammi fare qualcosa a riguardo, [ROOT.Char.GetWifeHusband]. Alcune lezioni potrebbero affinare il loro ingegno.""
  councillor_spouse_learning.2603.a:0 "Al [chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip] farebbe comodo un insegnante privato."
  councillor_spouse_learning.2603.b:0 "Il [marshal.GetCouncilTitle|U] [marshal.GetFirstNameNoTooltip] trarrebbe vantaggio dal tuo aiuto."
  councillor_spouse_learning.2603.c:0 "Dai qualche lezione al mio [steward.GetCouncilTitle], [steward.GetFirstNameNoTooltip]."

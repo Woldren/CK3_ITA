@@ -9,8 +9,8 @@
 
  msg_marriage:1 "Matrimonio: Tu[LEFT_CHARACTER.Custom('DE_END_PRO_S_N')] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! e #high [RIGHT_CHARACTER.GetFirstNameNoTooltip]#!"
  msg_marriage_desc:1 "Tu[LEFT_CHARACTER.Custom('DE_END_PRO_S_N')] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetShortUINameNotMe] ha sposato [RIGHT_CHARACTER.GetUINameNotMe]"
- msg_building_done:1 "#high [BUILDING.GetNameNoTooltip]#! Costruito"
- msg_building_done_desc:1 "[BUILDING.GetName] [building|E] costruito a [PROVINCE.GetBaronyNameExplicitly]"
+ msg_building_done:1 "#high L'[building|E] [BUILDING.GetNameNoTooltip]#! Costruito"
+ msg_building_done_desc:1 "L'[building|E] [BUILDING.GetName] è stato costruito a [PROVINCE.GetBaronyNameExplicitly]"
  msg_new_heir:0 "Nuovo Erede"
  msg_new_heir_desc:2 "Tu[LEFT_CHARACTER.Custom('DE_END_PRO_S_N')] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )], [LEFT_CHARACTER.GetShortUIName], è [Select_CString(LEFT_CHARACTER.IsFemale,'la tua nuova','il tuo nuovo')] [player_heir|E]"
  msg_new_heir_newborn:0 "Nuovo Erede"

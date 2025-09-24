@@ -12,7 +12,7 @@
  DOMICILE_WINDOW_REMOVE_BUILDING_REFUND: "Demolisci [DOMICILE_BUILDING_TYPE.GetName], verrai rimborsato: [DOMICILE_BUILDING_TYPE.GetRefundDesc]\n#I Clicca per rimuovere l'edificio dal tuo Domicilio#!"
  DOMICILE_WINDOW_PREVIEW: "Anteprima"
  DOMICILE_WINDOW_DOMICILE_LOCATION: "#T Località#!\n[CHARACTER.GetDomicile.GetType.GetName] [CHARACTER.GetDynastyHouseNameNoTooltip] situato/a in [CHARACTER.GetDomicile.GetLocation.GetBaronyNameExplicitly]\n\n#I $GO_TO_CLICK$#!"
- DOMICILE_WINDOW_YOUR_DOMICILE: "Il tuo/La tua [DOMICILE.GetType.GetNameNoTooltip]" #controllare se è al femminile o maschile
+ DOMICILE_WINDOW_YOUR_DOMICILE: "Il tuo [DOMICILE.GetType.GetNameNoTooltip]" #controllare se è al femminile o maschile
  DOMICILE_WINDOW_MAP_PIN: "#T [AddLocalizationIf( ObjectsEqual( CHARACTER.Self, DOMICILE.GetOwner.Self ), DOMICILE.GetYourDomicileText )][AddLocalizationIf( Not( ObjectsEqual( CHARACTER.Self, DOMICILE.GetOwner.Self ) ), DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner.Self ) )]#!\nSituato/a in [DOMICILE.GetLocation.GetBaronyNameExplicitly]\n\n#I Clicca per vedere [DOMICILE.GetType.GetName]#!"
  DOMICILE_WINDOW_INTERNAL_SLOT_LOCKED_TT: "Slot [domicile_building_upgrade|E] bloccato\nMigliora [DOMICILE_BUILDING_TYPE.GetName] per sbloccare"
  DOMICILE_WINDOW_INTERNAL_SLOT_UNLOCKED_TT: "Costruisci nuovo/a [domicile_building_upgrade|E]"

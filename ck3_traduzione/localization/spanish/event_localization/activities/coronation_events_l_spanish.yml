@@ -404,7 +404,7 @@
  every_non_disloyal_vassal_attendee_tt: "Ogni [vassal|E] [host.Custom('IT_NAM_COL2')][host.GetTitledFirstName|l] presente all’incoronazione che non ha il tratto [GetTrait('disloyal').GetName( GetNullCharacter )|l]"
  every_detractor_tt: "Ogni [coronation_detractor|E] presente all'[coronation|lE]"
  every_non_detractor_tt: "Ogni [guest|E] presente all'[coronation|E] che non sia [coronation_detractor|lE]"
- every_zealot_vassal_guest_tt: "Tutti i [vassals|El] [GetVassalStance( 'zealot' ).GetName|l] [GetVassalStance( 'zealot' ).GetTextIcon] coinvolti in questa [activity|lE]"
+ every_zealot_vassal_guest_tt: "Ogni [vassal|El] [GetVassalStance( 'zealot' ).GetName|l] [GetVassalStance( 'zealot' ).GetTextIcon] coinvolto in questa [activity|lE]"
  every_faith_warrior_guest_tt: "Ogni [GetTrait('faith_warrior').GetName( GetNullCharacter )|l] o [GetTrait('crusader_king').GetName( GetNullCharacter )|l] coinvolti in questa [activity|lE]"
  available_because_host_intent_tt: "Opzione disponibile grazie all’[intent|E] di tipo [host.GetInvolvedActivityIntent.GetName] [host.Custom('IT_NAM_COL2')][host.GetTitledFirstName|l]"
  available_because_skill_learning_tt: "Opzione disponibile grazie alla tua grande [skill|E] in [learning|lE]"

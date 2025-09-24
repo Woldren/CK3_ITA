@@ -237,14 +237,14 @@
 
  # Rumors about a relative, by Luke Bean
  intrigue_dread.2101.t:0 "Pettegolezzi su [family_member.GetFirstNameNoTooltip]"
- intrigue_dread.2101.desc.intro:0 ""Sono riuscit[spymaster.Custom('DE_END_PRO_S_N')] a risalire alla fonte di quelle disgustose voci riguardo vostro [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))] nonchè [family_member.Custom2('MyCharacterIntroduction', ROOT.Char)]." Mentre dice ciò,  [spymaster.Custom('DE_ART_DEF_P_D')] [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] accarezza un mazzo di lettere.\n\nQuelle lettere dimostrano che [hater.GetName] ha cercato di trascinare nel fango il nome di [family_member.GetFirstName]. "
+ intrigue_dread.2101.desc.intro:0 ""Sono riuscit[spymaster.Custom('DE_END_PRO_S_N')] a risalire alla fonte di quelle disgustose voci riguardo il vostro [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))] [family_member.Custom2('MyCharacterIntroduction', ROOT.Char)]." Mentre dice ciò,  [spymaster.Custom('DE_ART_DEF_P_D')] [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] accarezza un mazzo di lettere.\n\nQuelle lettere dimostrano che [hater.GetName] ha cercato di trascinare nel fango il nome di [family_member.GetFirstName]. "
  intrigue_dread.2101.desc.failed_assassination:0 "[hater.GetSheHe|U] accusa [family_member.GetFirstName] perfino di aver cercato di uccider[hater.Custom('DE_PRO_POS_P_3P')]!"
  intrigue_dread.2101.desc.committed_adultery:0 "[hater.GetSheHe|U] sostiene che [family_member.GetFirstName] è stat[family_member.Custom('DE_END_PRO_S_N')] un[family_member.Custom('DE_PRO_POS_P_2P')] [family_member.GetWifeHusband] infedele e racconta storie abiette su di [family_member.GetSheHe]!"
  intrigue_dread.2101.desc.bullied_me:0 "[hater.GetSheHe|U] sostiene che [family_member.GetFirstName] porta in sé il seme del male sin dall'infanzia, quando [hater.Custom('DE_PRO_POS_P_3P')] malmenava brutalmente."
  intrigue_dread.2101.desc.bad_friend:0 "[hater.GetSheHe|U] sostiene che [family_member.GetFirstName] non sia stat[family_member.Custom('DE_END_PRO_S_N')] un[family_member.Custom('DE_PRO_PER_P_3P_G')]amic[family_member.Custom('DE_END_PRO_S_N')] leale e che gli ha fatto tanto male quando ha rotto la loro amicizia."
  intrigue_dread.2101.desc.sinner:0 "[hater.GetSheHe|U] prende in giro [family_member.GetFirstName] per il suo carattere, accusandolo di avere spesso comportamenti scioccanti e peccaminosi."
- intrigue_dread.2101.desc.outro:0 "\n\nLa gente pensa seriamente di poter parlare di mi[family_member.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))] in questo modo?"
- intrigue_dread.2101.a:0 "Diffonderò voci ancora peggiori su [family_member.GetFirstName], cosicché tutti abbiano paura di noi."
+ intrigue_dread.2101.desc.outro:0 "\n\nLa gente pensa seriamente di poter parlare [family_member.Custom('DE_PRO_PER_P_3P_A')] mi[family_member.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))] in questo modo?"
+ intrigue_dread.2101.a:0 "Diffonderò voci ancora peggiori su [family_member.GetFirstName], così che tutti abbiano paura di noi."
  intrigue_dread.2101.a.tt.success:0 "La gente crede che [family_member.GetFirstName] sia capace di tutto"
  tooltip.intrigue_dread.2101.a.duel_success:0 "Ci credono... e tremano"
  intrigue_dread.2101.a.tt.failure:0 "Nessuno crede alle tue assurde storie"

@@ -311,7 +311,7 @@
  tour_grounds_events.1003.c:0 "Non mi prenderanno senza lottare!"
 
  tour_grounds_events.1004.title:0 "Un Momento Nella Natura"
- tour_grounds_events.1004.desc.intro:0 "Nei territori di caccia di [touring_grounds_scope.GetNameNoTooltip], per un momento mi ritrovo da sol[ROOT.Char.Custom('DE_END_PRO_S_N')] con [visiting_liege.Custom('REL_TO_ME')][visiting_liege.Custom2('MyCharacterIntroduction', ROOT.Char)]. Un momento così speciale mi permetterebbe di perseguire la passione che nutro per [visiting_liege.GetSheHe]."
+ tour_grounds_events.1004.desc.intro:0 "Nei territori di caccia di [touring_grounds_scope.GetNameNoTooltip], per un momento mi ritrovo da sol[ROOT.Char.Custom('DE_END_PRO_S_N')] con [visiting_liege.Custom2('MyCharacterIntroduction', ROOT.Char)]. Un momento così speciale mi permetterebbe di perseguire la passione che nutro per [visiting_liege.GetSheHe]."
  tour_grounds_events.1004.desc.already_shagging:0 "\n\nSebbene i nostri cuori, e i nostri fianchi, appartengano già l'un[ROOT.Char.Custom('DE_END_PRO_S_N')] all'altr[visiting_liege.Custom('DE_END_PRO_S_N')], l'essere governanti ci dà poco tempo per coltivare la nostra passione, ma ora nulla ci impedisce di assecondare la nostra natura animale."
  tour_grounds_events.1004.desc.trying_to_shag:0 "\n\nForse questa è finalmente la mia occasione per far[visiting_liege.Custom('DE_PRO_DEM')] conoscere i miei sentimenti. E se [visiting_liege.GetSheHe] sentisse lo stesso, potremmo finalmente essere più di semplici '[visiting_liege.GetTitleAsNameNoTooltip]' e '[ROOT.Char.GetTitleAsNameNoTooltip]', ma aggirare il protocollo e abbandonarci alla passione carnale."
  tour_grounds_events.1004.desc.outro:0 "\n\nÈ un'opportunità rara. Come agire coi sentimenti che sento?"

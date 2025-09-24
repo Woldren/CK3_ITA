@@ -116,7 +116,7 @@
  activity_window_character_guest:1 "[activity_guest_short|E]\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_player:0 "[SelectLocalization( IsActivityHost( Activity, Character ), 'activity_window_character_host', 'activity_window_character_guest' )]"
 
- activity_window_character_travel_noble_student: "Studente Nobile\n[Character.GetShortUINameNoTooltip|U]\n[traveling|E] a [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]"
+ activity_window_character_travel_noble_student: "Studente Nobile\n[Character.GetShortUINameNoTooltip|U]\n[Concept( 'traveling', 'In viaggio' )|E] verso [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]"
  activity_window_character_noble_student: "Studente Nobile\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_student: "Studente\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_teacher: "Insegnante\n[Character.GetShortUINameNoTooltip|U]"

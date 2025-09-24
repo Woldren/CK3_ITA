@@ -47,7 +47,7 @@
  feast_default.1007.b:0 "Scommetto che riesco mangiare più di [other_glutton.GetSheHe]."
 
  feast_default.1008.t:1 "Giudizio Macchiato"
- feast_default.1008.desc:0 "Mentre gli occhi di [secret_recipient.GetTitledFirstName] si spalancano alle mie parole, mi rendo conto di ciò che ho appena ammesso. Mi sforzo di spingere via il mio boccale.\n\n"Ne ho avuto abbastanza." Cerco di alzarmi, oscillando un po'. "Non credete ad una sola parola di ciò che dico!""
+ feast_default.1008.desc:0 "Mi rendo conto di ciò che ho appena ammesso quando gli occhi di [secret_recipient.GetTitledFirstName] si spalancano di sorpresa alle mie parole. Mi sforzo di spingere via il mio boccale.\n\n"Ne ho avuto abbastanza." Cerco di alzarmi, oscillando un po'. "Non credete ad una sola parola di ciò che dico!""
  feast_default.1008.a:0 "Che cosa ho fatto..."
  feast_default.1008.a.flavor:0 "#F [secret_recipient.GetSheHe|U] non crede alle mie scuse...#!"
 
@@ -261,7 +261,7 @@
  feast_default.2011.b:0 ""Ahahah, [favor_character.Custom('IT_NAM_COL3')][favor_character.GetTitledFirstNameNoTooltip] è troppo ubriaco per sapere di cosa stia parlando!""
 
  feast_default.2012.t:1 "Il Testimone"
- feast_default.2012.desc:0 "Mentre mi trascino fuori per svuotarmi la vescica, sento gridare dietro l'angolo. Appena mi volto vedo ([murderer.Custom('DE_ART_DEF_P_A')]) mi[murderer.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('murderer'))] [murderer.GetTitledFirstName] sghignazzare mentre affonda la sua lama nel volto [murdered_guest.Custom('IT_NAM_COL2')][murdered_guest.GetTitledFirstName].\n\nQualsiasi sia stat il rumore che io abbia emesso, deve essere stato sufficiente, poiché [murderer.GetFirstName] si è voltato verso di me, con un'aria sorpresa a segnar[murderer.Custom('DE_END_PRO_S_N')] il viso."
+ feast_default.2012.desc:0 "Mentre mi trascino fuori per svuotarmi la vescica, sento gridare dietro l'angolo. Appena mi volto vedo ([murderer.Custom('DE_ART_DEF_P_A')]) mi[murderer.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('murderer'))] [murderer.GetTitledFirstName] sghignazzare mentre affonda la sua lama nel volto [murdered_guest.Custom('IT_NAM_COL2')][murdered_guest.GetTitledFirstName].\n\nQualsiasi rumore io abbia emesso, deve essere stato comunque sufficiente, poiché [murderer.GetFirstName] si è voltat[murderer.Custom('DE_END_PRO_S_N')] verso di me, con un'aria sorpresa a segnar[murderer.Custom('DE_PRO_DEM')] il viso."
  feast_default.2012.a:0 "Che cosa avete #EMP fatto#!?!"
  feast_default.2012.b:0 "Tutti sapranno del vostro crimine!"
  feast_default.2012.c:0 "Il mio silenzio ha un prezzo."

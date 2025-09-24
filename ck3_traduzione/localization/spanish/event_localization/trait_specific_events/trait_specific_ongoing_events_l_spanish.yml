@@ -277,7 +277,7 @@
  trait_specific_ongoing.5005.b:0 "L[courtier.Custom('DE_END_PRO_S_N')] sveglierò – [courtier.GetSheHe] non può stare qui fuori a rilassarsi."
 
  trait_specific_ongoing.6001.t:0 "Beccato con i miei Pantaloni Abbassati"
- trait_specific_ongoing.6001.desc:0 "Per eccitarmi prima dell'incontro con [lover.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover') )] [lover.GetTitledFirstName] tiro fuori il/la [ROOT.Char.Custom('DeviantObjectArticle')] – #EMP oh...!#!\n\nSono così preso da esplorare ogni dettaglio che non sento qualcuno entrare nella [ROOT.Char.Custom('GetRoom')]. Ciò che sento è il forte sussulto di [lover.GetFirstNameNoTooltip] quando realizza cosa sto facendo."
+ trait_specific_ongoing.6001.desc:0 "Per eccitarmi prima dell'incontro con [lover.Custom('DE_ART_DEF_P_A')] mi[lover.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover') )] [lover.GetTitledFirstName] tiro fuori il/la [ROOT.Char.Custom('DeviantObjectArticle')] – #EMP oh...!#!\n\nSono così preso da esplorare ogni dettaglio che non sento qualcuno entrare nella [ROOT.Char.Custom('GetRoom')]. Ciò che sento è il forte sussulto di [lover.GetFirstNameNoTooltip] quando realizza cosa sto facendo."
  trait_specific_ongoing.6001.a:0 "Ne ho un altro... Vuoi unirti a me?"
  trait_specific_ongoing.6001.a.success:0 "A [lover.GetSheHe] la cosa piace"
  trait_specific_ongoing.6001.a.failure:0 "[lover.GetSheHe|U] non condivide i tuoi... gusti"

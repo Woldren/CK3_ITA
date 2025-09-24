@@ -47,8 +47,8 @@
  #ADD_learning_SKILL_EFFECT:0 "" delete this
  ADD_COURTIER_EFFECT:1 "$COURTIER$ diventa un [courtier|E] alla corte di $EMPLOYER$"
  SET_EMPLOYER_EFFECT:1 "$COURTIER$ diventa un [courtier|E] alla corte di $EMPLOYER$"
- REMOVE_COURT_CHARACTER_EFFECT:1 "[TARGET_CHARACTER.GetUIName] lascia la [CHARACTER.LocalPlayerString( 'tua ', '' )][CHARACTER.Custom('GetCourt')|l][CHARACTER.LocalPlayerString( '', 'Loc_FR_du2_GetName' )]"
- REMOVED_COURT_CHARACTER_EFFECT:0 "[TARGET_CHARACTER.GetUIName] ha lasciato la [CHARACTER.LocalPlayerString( 'tua ', '' )][CHARACTER.Custom('GetCourt')|l][CHARACTER.LocalPlayerString( '', 'Loc_FR_du2_GetName' )]"
+ REMOVE_COURT_CHARACTER_EFFECT:1 "[TARGET_CHARACTER.GetUIName] lascia la [CHARACTER.Custom('GetCourt')|l] [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetTitledFirstName]"
+ REMOVED_COURT_CHARACTER_EFFECT:0 "[TARGET_CHARACTER.GetUIName] ha lasciato la [CHARACTER.Custom('GetCourt')|l] [CHARACTER.Custom('IT_NAM_COL2')][CHARACTER.GetTitledFirstName]"
  GAIN_HOOK_EFFECT:0 "Ottiene un [weak_hook|E] #weak ($TYPE$)#! [TARGET_CHARACTER.LocalPlayerString( 'su di te', 'Loc_FR_du1_GetName' )]"
  GAINED_HOOK_EFFECT:0 "Ha ottenuto un [weak_hook|E] #weak ($TYPE$)#! [TARGET_CHARACTER.LocalPlayerString( 'su di te', 'Loc_FR_du1_GetName' )]"
  I_GAIN_HOOK_EFFECT:1 "Ottieni un [weak_hook|E] #weak ($TYPE$)#! su [TARGET_CHARACTER.GetShortUIName]"
@@ -410,11 +410,11 @@
  RANDOM_LIST_EFFECT_ENTRY_CHANCE:0 "$CHANCE|0$%:"
  RANDOM_LIST_EFFECT_ENTRY_DESC:0 "$DESC|F$:"
  RANDOM_LIST_EFFECT_ENTRY_DESC_CHANCE:0 "$CHANCE|0$% #F – $DESC$:#!"
- PAYS_GOLD_EFFECT:0 "[TARGET_CHARACTER.LocalPlayerString( 'Ti paga', 'Paga' )] [gold_i]$VALUE|0V$[TARGET_CHARACTER.LocalPlayerString( '', ' a ' )][TARGET_CHARACTER.LocalPlayerString( '', 'Loc_FR_du4_GetName' )]"
+ PAYS_GOLD_EFFECT:0 "[TARGET_CHARACTER.LocalPlayerString( 'Ti paga', 'Paga' )] [gold_i]$VALUE|0V$[TARGET_CHARACTER.LocalPlayerString( '', ' ' )][TARGET_CHARACTER.LocalPlayerString( '', 'Loc_FR_du4_GetName' )]"
  PAYS_GOLD_EFFECT_NEG:0 "Riceve un pagamento di [gold_i]$VALUE|0V$ [TARGET_CHARACTER.Custom('IT_NAM_COL5')][TARGET_CHARACTER.GetShortUIName]"
- PAID_GOLD_EFFECT:0 "[TARGET_CHARACTER.LocalPlayerString( 'Ti ha', 'Ha' )] pagato[TARGET_CHARACTER.LocalPlayerString( '', ' a ' )][TARGET_CHARACTER.LocalPlayerString( '', 'Loc_FR_du4_GetName' )] [gold_i]$VALUE|0V$"
+ PAID_GOLD_EFFECT:0 "[TARGET_CHARACTER.LocalPlayerString( 'Ti ha', 'Ha' )] pagato[TARGET_CHARACTER.LocalPlayerString( '', ' ' )][TARGET_CHARACTER.LocalPlayerString( '', 'Loc_FR_du4_GetName' )] [gold_i]$VALUE|0V$"
  WERE_PAID_GOLD_EFFECT:0 "Ha ricevuto un pagamento di [gold_i]$VALUE|0V$ [TARGET_CHARACTER.Custom('IT_NAM_COL5')][TARGET_CHARACTER.GetShortUIName]"
- THEY_PAID_GOLD_EFFECT:0 "[CHARACTER.Custom('IT_NAM_COL3')|U][CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'ti ', '' )]ha pagato [gold_i]$VALUE|0V$[TARGET_CHARACTER.LocalPlayerString( '', ' a ' )][TARGET_CHARACTER.LocalPlayerString( '', 'Loc_FR_du4_GetName' )]"
+ THEY_PAID_GOLD_EFFECT:0 "[CHARACTER.Custom('IT_NAM_COL3')|U][CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'ti ', '' )]ha pagato [gold_i]$VALUE|0V$[TARGET_CHARACTER.LocalPlayerString( '', ' ' )][TARGET_CHARACTER.LocalPlayerString( '', 'Loc_FR_du4_GetName' )]"
  THEY_WERE_PAID_GOLD_EFFECT:0 "[CHARACTER.Custom('IT_NAM_COL3')|U][CHARACTER.GetShortUIName|U] ha ricevuto un pagamento di [gold_i]$VALUE|0V$ [TARGET_CHARACTER.Custom('IT_NAM_COL5')][TARGET_CHARACTER.GetShortUIName]"
  I_PAY_GOLD_EFFECT:1 "Paghi [gold_i]$VALUE|0-$ [TARGET_CHARACTER.Custom('IT_NAM_COL4')][TARGET_CHARACTER.GetShortUIName]"
  I_AM_PAID_GOLD_EFFECT:1 "Ricevi un pagamento di [gold_i]$VALUE|0+$ [TARGET_CHARACTER.Custom('IT_NAM_COL5')][TARGET_CHARACTER.GetShortUIName]"
@@ -1161,7 +1161,7 @@
  THEIR_PREGNANCY_HAS_ENDED:0 "La gravidanza di [CHARACTER.GetShortUIName] è finita"
 
  FORCE_ADD_TO_SCHEME_THIRD:0 "$ADD_TO_SCHEME_THIRD$, e #EMP non può#! lasciare volontariamente fino al $DURATION$"
- ADD_TO_SCHEME_THIRD:0 "[CHARACTER.GetShortUIName|U] riempie lo slot di questo [agent|E] [AgentSlot.GetName|V] nel [scheme|E] [AgentSlot.GetScheme.GetName] contro [AgentSlot.GetScheme.GetTargetCharacter.GetTitledFirstName]"
+ ADD_TO_SCHEME_THIRD:0 "[CHARACTER.GetShortUIName|U] riempie lo slot di questo [agent|E] [AgentSlot.GetName|V] nel [scheme|E] per [AgentSlot.GetScheme.GetName] [AgentSlot.GetScheme.GetTargetCharacter.GetTitledFirstName]"
 
  ADD_AGENT_SLOT: "Aggiungi slot [agent|E] $CONTRIBUTION_ICON$ $AGENT_SLOT$"
 
@@ -1183,7 +1183,7 @@
  MY_CLAIM_BECOMES_WEAK:1 "La tua Rivendicazione [TARGET_TITLE.Custom('IT_COU_COL3')][TARGET_TITLE.GetName] diventa debole"
  THEIR_CLAIM_BECOMES_WEAK:0 "La rivendicazione di [CHARACTER.GetUIName] [TARGET_TITLE.Custom('IT_COU_COL3')][TARGET_TITLE.GetName] diventa debole"
  
- FORBID_FROM_SCHEME_EFFECT_THIRD:0 "[CHARACTER.GetShortUIName|U] non farà più parte del complotto [SCHEME.GetName] contro [SCHEME.GetTarget.GetName]"
+ FORBID_FROM_SCHEME_EFFECT_THIRD:0 "[CHARACTER.GetShortUIName|U] non farà più parte del [SCHEME.GetName] contro [SCHEME.GetTarget.GetName]"
  
  BECOMES_INDEPENDENT:1 "Diventa [independent|E]"
  I_BECOME_INDEPENDENT:2 "Diventi [independent|E]"
@@ -1730,17 +1730,17 @@
  leave_faction_with_cooldown_effect_first.tt:2 "Non potrai unirti ad un'altra [faction|E] per #V $VALUE|0$ anni#!"
  leave_faction_with_cooldown_effect_global.tt:0 "Non può unirsi ad un'altra [faction|E] per #V $VALUE|0$ anni#!" 
  
- CHARACTER_LEAVES_COURT:1 "[CHARACTER.GetShortUIName|U] lascia [CHARACTER.GetLiege.GetShortUINamePossessive] [CHARACTER.GetLiege.Custom('GetCourtConcept')]"
- LEFT_COURT:0 "Ha lasciato [CHARACTER.GetLiege.GetShortUINamePossessive] [CHARACTER.GetLiege.Custom('GetCourtConcept')]"
- LEAVES_COURT:1 "Lascia [CHARACTER.GetLiege.GetShortUINamePossessive] [CHARACTER.GetLiege.Custom('GetCourtConcept')]"
- CHARACTER_LEFT_COURT:0 "[CHARACTER.GetShortUIName|U] ha lasciato [CHARACTER.GetLiege.GetShortUINamePossessive] [CHARACTER.GetLiege.Custom('GetCourtConcept')]"
+ CHARACTER_LEAVES_COURT:1 "[CHARACTER.GetShortUIName|U] lascia la [CHARACTER.GetLiege.Custom('GetCourtConcept')] [CHARACTER.GetLiege.Custom('IT_NAM_COL2')][CHARACTER.GetLiege.GetTitledFirstName]"
+ LEFT_COURT:0 "Ha lasciato la [CHARACTER.GetLiege.Custom('GetCourtConcept')] [CHARACTER.GetLiege.Custom('IT_NAM_COL2')][CHARACTER.GetLiege.GetTitledFirstName]"
+ LEAVES_COURT:1 "Lascia la [CHARACTER.GetLiege.Custom('GetCourtConcept')] [CHARACTER.GetLiege.Custom('IT_NAM_COL2')][CHARACTER.GetLiege.GetTitledFirstName]"
+ CHARACTER_LEFT_COURT:0 "[CHARACTER.GetShortUIName|U] ha lasciato la [CHARACTER.GetLiege.Custom('GetCourtConcept')] [CHARACTER.GetLiege.Custom('IT_NAM_COL2')][CHARACTER.GetLiege.GetTitledFirstName]"
 
  RECRUIT_COURTIER_EFFECT:1 "Recluta [TARGET_CHARACTER.GetShortUIName] a [CHARACTER.Custom('GetCourtConcept')]"
  RECRUITED_COURTIER_EFFECT:0 "Ha reclutato [TARGET_CHARACTER.GetShortUIName] a [CHARACTER.Custom('GetCourtConcept')]"
- THEY_RECRUIT_COURTIER_EFFECT:0 "[CHARACTER.GetShortUIName|U] recluta [TARGET_CHARACTER.GetShortUIName] nella sua [CHARACTER.Custom('GetCourtConcept')]"
- THEY_RECRUITED_COURTIER_EFFECT:0 "[CHARACTER.GetShortUIName|U] ha reclutato [TARGET_CHARACTER.GetShortUIName] nella sua [CHARACTER.Custom('GetCourtConcept')]"
- I_RECRUIT_COURTIER_EFFECT:1 "Recluti [TARGET_CHARACTER.GetShortUIName] nella tua [CHARACTER.Custom('GetCourtConcept')]"
- I_RECRUITED_COURTIER_EFFECT:0 "Hai reclutato [TARGET_CHARACTER.GetShortUIName] nella tua [CHARACTER.Custom('GetCourtConcept')]"
+ THEY_RECRUIT_COURTIER_EFFECT:0 "[CHARACTER.GetShortUIName|U] recluta [TARGET_CHARACTER.GetShortUIName] alla sua [CHARACTER.Custom('GetCourtConcept')]"
+ THEY_RECRUITED_COURTIER_EFFECT:0 "[CHARACTER.GetShortUIName|U] ha reclutato [TARGET_CHARACTER.GetShortUIName] alla sua [CHARACTER.Custom('GetCourtConcept')]"
+ I_RECRUIT_COURTIER_EFFECT:1 "Recluti [TARGET_CHARACTER.GetShortUIName] alla tua [CHARACTER.Custom('GetCourtConcept')]"
+ I_RECRUITED_COURTIER_EFFECT:0 "Hai reclutato [TARGET_CHARACTER.GetShortUIName] alla tua [CHARACTER.Custom('GetCourtConcept')]"
 
  VASSAL_CONTRACT_INCREASE_OBLIGATIONS_GLOBAL:2 "Le [Concept( 'obligations', '$NAME|q$' )|E] che deve a [CHARACTER.GetLiege.GetShortUIName] sono aumentate"
  VASSAL_CONTRACT_INCREASE_OBLIGATIONS_THIRD:1 "Le [Concept( 'obligations', '$NAME|q$' )|E] che [CHARACTER.GetShortUIName] [CHARACTER.GetLiege.LocalPlayerString( 'ti ', '' )]deve[CHARACTER.GetLiege.LocalPlayerString( '', ' a ' )][CHARACTER.GetLiege.LocalPlayerString( '', 'Loc_FR_du_GetName' )] sono aumentate"
@@ -2951,7 +2951,7 @@ force_step_down_landed_titles_first: "Ti dimetti e perdi tutti i titoli con terr
  local_arbitration_explorers_purpose: "$local_arbitration_purpose_short$ #weak (Esploratori)#!:$local_arbitration_bullet$La tua [diplomacy|E] incrementa di #P [diplomacy_i]2#!$local_arbitration_bullet$Il tuo [intrigue|E] incrementa di #P [intrigue_i]2#!"
  local_arbitration_brigands_purpose: "$local_arbitration_purpose_short$ #weak (Filibustieri)#!:$local_arbitration_bullet$La tua [prowess|E] incrementa di #P [prowess_i]2#!$local_arbitration_bullet$Il tuo [intrigue|E] incrementa di #P [intrigue_i]2#!"
  local_arbitration_legitimists_purpose: "$local_arbitration_purpose_short$ #weak (Legittimisti)#!:$local_arbitration_bullet$La tua [diplomacy|E] incrementa di #P [diplomacy_i]2#!$local_arbitration_bullet$La tua [martial|E] incrementa di #P [martial_i]2#!"
- power_at_home_perk_effect: "[swing_scales_of_power|E] has increased efficiency during [travel|E]\nI [diarchs|E] sono più leali quando il loro [liege|E] sta [traveling|E]"
+ power_at_home_perk_effect: "[swing_scales_of_power|E] has increased efficiency during [travel|E]\nI [diarchs|E] sono più leali quando il loro [liege|E] sta [Concept( 'traveling', 'viaggiando' )|E]"
  first_power_at_home_perk_effect: "Gli [swing_scales_of_power|E] hanno una efficacia aumentata, e i [diarchs|E] sono più leali, mentre stai [Concept( 'traveling', 'viaggiando' )|E]"
  journey_planner_perk_effect: "[activity_options|E] Costo: @gold_icon!#P -20%#!"
  #TWR
