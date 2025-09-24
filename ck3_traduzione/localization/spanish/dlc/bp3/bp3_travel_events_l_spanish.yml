@@ -62,15 +62,15 @@
 
  travel_events_bp3.25.t: "Le Pene della Guerra"
  travel_events_bp3.25.desc: "Mentre camminiamo per le strade di [ROOT.Char.GetCurrentLocation.GetName], un corteo di soldati emerge da una strada secondaria. La maggior parte di loro è ferita e viene aiutata da civili indigenti.\n\nUn araldo si alza con orgoglio di fronte alla folla di persone che si riunisce nella piazza del mercato e dichiara a gran voce: "Abbiamo schiacciato ancora una volta quei cani di cultura [opponent.GetPrimaryTitle.GetAdjective]! È solo questione di tempo prima che la vittoria sia nostra!"\n\n"
- travel_events_bp3.25.desc.outro: "Eppure le parole celebrative impallidiscono di fronte ai soldati feriti e i loro parenti in lutto."
+ travel_events_bp3.25.desc.outro: "Eppure tutta questa retorica pare impallidire di fronte alle notizie dei soldati feriti, di quelli morti e dei loro familiari in lutto."
  travel_events_bp3.25.desc.outro.sadistic: "Eppure non posso fare a meno di sorridere, quando guardo quegli sciocchi che si sono rovinati la vita."
  travel_events_bp3.25.a: "Donerò qualche moneta a questi poveri disgraziati."
- travel_events_bp3.25.b: "Forse hanno hanno da condividere un po' di saggezza proveniente dalle loro battaglie?"
+ travel_events_bp3.25.b: "Forse possono condividere un po' di conoscenze provenienti dalle loro battaglie?"
  travel_events_bp3.25.b.insulted: "Insulti i sopravvissuti"
  travel_events_bp3.25.b.stories: "Ascolti storie di battaglie"
  travel_events_bp3.25.b.martial: "Senti parlare di errori strategici dell'esercito [liege.GetPrimaryTitle.GetAdjectiveNoTooltip]"
  travel_events_bp3.25.b.prowess: "Senti parlare di come si sia battuto l'esercito [liege.GetPrimaryTitle.GetAdjectiveNoTooltip]"
- travel_events_bp3.25.c: "Beh... Basta con questo sconforto, abbiamo altri posti dove andare."
+ travel_events_bp3.25.c: "Beh... basta con questo sconforto, abbiamo altri posti dove poter andare."
 
  travel_events_bp3.30.t: "I Mercenari di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]"
  travel_events_bp3.30.desc: "Ci sediamo in una tranquilla taverna di [ROOT.Char.GetCurrentLocation.GetName] quando una rumorosa banda di soldati dall'aspetto cencioso irrompe nella sala comune. Il loro capo, un bruto sicuro di sé, sposta una delle mie guardie e ha l'ardire di sedersi al mio tavolo.\n\n"Nobil[Select_CString(ROOT.Char.IsFemale,'donna','uomo')], o dovrei dire [Select_CString(ROOT.Char.IsFemale,'mia Signora','mio Signore')]? Sareste [Select_CString(ROOT.Char.IsFemale,'interessata','interessato')] ai servizi della migliore banda di mercenari di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]? Uomini più fedeli non ne troverete mai! Almeno finché ci pagate adeguatamente...""

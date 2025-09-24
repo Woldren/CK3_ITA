@@ -121,9 +121,9 @@
  yearly.1023.a: "Poteva andare meglio…"
 
  yearly.1030.t: "Si salvi chi può"
- yearly.1030.nervous.desc: "Quando apro la porta dei miei [ROOT.Char.Custom('GetChamber')], trovo [hooked.Custom('IT_NAM_COL3')][hooked.GetTitledFirstName|l], che giocherella nervosamente con la manica. Cosa ci fa qui a quest’ora?\n\n«Mi dispiace tanto, ma devo parlarvi in privato. Ho scoperto qualcosa di #emp molto#! interessante»."
+ yearly.1030.nervous.desc: "Quando apro la porta della mia [ROOT.Char.Custom('GetChamber')], trovo [hooked.Custom('IT_NAM_COL3')][hooked.GetTitledFirstName|l|U], che giocherella nervosamente con la manica. Cosa ci fa qui a quest’ora?\n\n«Mi dispiace tanto, ma devo parlarvi in privato. Ho scoperto qualcosa di #emp molto#! interessante»."
  yearly.1030.confident.desc: "L’annuncio della guardia scaccia ogni sonnolenza. Chi mai può disturbarmi a quest’ora?\n\n[Select_CString(hooked.IsFemale,'La mia','Il mio')] [Select_CString(hooked.IsFemale,'visitatrice','visitatore')] notturn[hooked.Custom('DE_END_PRO_S_N')] è nientemeno che [hooked.Custom('IT_NAM_COL3')][hooked.GetTitledFirstName|l]. «Devo parlarvi in privato, lontano da orecchie indiscrete. Ho scoperto qualcosa di #EMP molto#! interessante»."
- yearly.1030.end.desc: "\n\n[hooked.Custom('IT_NAM_COL3')|U][hooked.GetTitledFirstNameNoTooltip|l] ha scoperto un segreto [secret_character.Custom('IT_NAM_COL2')][secret_character.GetTitledFirstName|l] che è dispost[hooked.Custom('DE_END_PRO_S_N')] a condividere se [hooked.Custom('DE_PRO_POS_P_3P')] lascio andar via."
+ yearly.1030.end.desc: "\n\n[hooked.Custom('IT_NAM_COL3')|U][hooked.GetTitledFirstNameNoTooltip|l|U] ha scoperto un segreto [secret_character.Custom('IT_NAM_COL2')][secret_character.GetTitledFirstName|l|U] che è dispost[hooked.Custom('DE_END_PRO_S_N')] a condividere se [hooked.Custom('DE_PRO_POS_P_3P')] lascio andar via."
  yearly.1030.a: "Dopo questo, non saremo più in debito, lo giuro."
  yearly.1030.a.tt: "[hooked.Custom('IT_NAM_COL3')|U][hooked.GetTitledFirstName] mi rivelerà un [secret|lE] [secret_character.Custom('IT_NAM_COL')][secret_character.GetTitledFirstName|l]"
  yearly.1030.b: "Credi di poter fare pretese? È meglio che tu parli!"

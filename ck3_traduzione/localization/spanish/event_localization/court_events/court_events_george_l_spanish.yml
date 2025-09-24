@@ -129,7 +129,7 @@
  court.7640.d:0 "Frustate quest[avian_abuser.Custom('DE_END_PRO_S_N')] #EMP bastard[avian_abuser.Custom('DE_END_PRO_S_N')]!#!"
 ## Spymaster has a reverse carrier pigeon
  court.7700.t:0 "Improvvisando"
- court.7700.desc:1 "Oggi, sulla spalla di [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] è appollaiato un corvo dall'aria curiosa. Sfruttando il frastuono della sala del trono per schermare la nostra conversazione da orecchie indiscrete, [spymaster.GetFirstNameNoTooltip] mi esalta le straordinarie qualità dell'uccello.\n\n"È un'abile ladra, mio signore. Non ruba oro o gioielli, ma biglietti, chiavi e lettere: tutte quelle piccole cose che portano verità scomode che i loro proprietari vogliono nascondere.""
+ court.7700.desc:1 "Oggi, sulla spalla [spymaster.Custom('DE_PRO_PER_P_3P_A')] [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)], si è appollaiata una gazza dall'aria curiosa. Sfruttando il frastuono della sala del trono per schermare la nostra conversazione da orecchie indiscrete, [spymaster.GetFirstNameNoTooltip] mi esalta le straordinarie qualità dell'uccello.\n\n"È un'abile ladra, [Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')]. Non ruba, come di consueto, oro o gioielli, ma biglietti, chiavi e lettere: tutte quelle piccole cose che portano verità scomode e che i loro proprietari vogliono nascondere.""
  court.7700.a:0 "Ladro! Guardie, prendete questo furfante!"
  court.7700.b:0 "Potresti scoprire maggiori informazioni su [scheme.GetTargetCharacter.GetTitledFirstNameNoTooltip]?"
  court.7700.b.tt:0 "Fanne uso perché il tuo [scheme.GetName] in corso."

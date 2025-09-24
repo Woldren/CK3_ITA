@@ -8,7 +8,7 @@
 
  #Social Manipulation (Put a vassal in their place by manipulating them), by Mathilda Bjarnehed
  diplomacy_generic.0012.t:0 "Manipolazione Sociale"
- diplomacy_generic.0012.start.desc:0 "La prima volta che è successo, non ci ho dato molto peso, ma [disobedient_subject.Custom('REL_TO_ME')][disobedient_subject.Custom2('MyCharacterIntroduction', ROOT.Char)], è diventat[disobedient_subject.Custom('DE_END_PRO_S_N')] più audace. Le sue sfide non passano più inosservate"
+ diplomacy_generic.0012.start.desc:0 "La prima volta che è successo, non ci ho dato molto peso, ma ([disobedient_subject.Custom('DE_ART_DEF_P_A')]) [disobedient_subject.Custom2('MyCharacterIntroduction', ROOT.Char)], è diventat[disobedient_subject.Custom('DE_END_PRO_S_N')] più audace. Le sue sfide non passano più inosservate"
  diplomacy_generic.0012.council.desc:0 "al tavolo del consiglio."
  diplomacy_generic.0012.vassal.desc:0 "tra i miei vassalli."
  diplomacy_generic.0012.end.desc:0 "\n\nSta mettendo alla prova i miei limiti. Gli altri [disobedient_subject.Custom('DE_PRO_POS_P_3P')] imiteranno sicuramente, a meno che non [disobedient_subject.Custom('DE_PRO_DEM')] faccia assaggiare un po' della sua stessa medicina..."

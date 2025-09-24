@@ -379,7 +379,7 @@
  coronation_events.150.custom_list_tooltip: "Ogni [vassal|lE], [courtier|E] o [guest|lE]"
  
  coronation_events.0175.t: "Giuramento compiuto: [SCOPE.Custom('GetOathSpecific')|V]"
- coronation_events.0175.desc: "Ho compiuto l’opera, come promesso. Ho udito le beffe dei miei detrattori, certi che sarei caduto dopo il giuramento.\n\nMa ho dimostrato che si sbagliavano. Le voci dei dubbiosi sono cambiate, e ora mi tributano l’onore che credevano fuori dalla mia portata.\n\nSorge un nuovo giorno…"
+ coronation_events.0175.desc: "Ho compiuto l’opera, come promesso. Ho ascoltato le beffe dei miei detrattori, convinti che sarei crollato dopo il giuramento.\n\nMa ho dimostrato il contrario. Le voci dei dubbiosi si sono trasformate, e ora mi tributano l’onore che credevano irraggiungibile per me.\n\nSorge un nuovo giorno…"
  coronation_events.0175.a: "E il mio [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], più forte che mai, è pronto ad accoglierlo!"
  
  ## Diplomacy

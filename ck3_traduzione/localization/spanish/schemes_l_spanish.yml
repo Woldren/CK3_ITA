@@ -154,7 +154,7 @@
  title_test_action: "Armeggiare"
  title_test_desc: "Cerchiamo di vedere se riusciamo a fare schemi contro titoli come [SCHEME.GetTargetTitle.GetName]"
  
- murder:0 "Uccidere"
+ murder:0 "Omicidio"
  murder_action:0 "Uccidere"
  murder_desc:0 "È tempo per [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] di affrontare il giudizio di [SCHEME.GetOwner.GetFaith.HighGodName]!"
  murder_desc_general:1 "L'$murder$ è un [hostile_scheme|E] che mira a uccidere il suo obiettivo. È un [secret_scheme|E] basato sull'[intrigue|E], che può reclutare [agents|E].\n\nUn $murder$ di successo porterà alla [character_death_death|E] del [scheme_target|E]. Un omicidio che rimane segreto con successo darà all'[scheme_owner|E] un [secret|E] Omicidio.\n\nEssere scoperti mentre si tenta o si riesce a uccidere qualcuno è un [crime|E] grave."
