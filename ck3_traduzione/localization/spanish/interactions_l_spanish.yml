@@ -798,7 +798,7 @@
  is_head_of_religion:0 "[CHARACTER.GetShortUIName|U] non si convertirà in quanto [CHARACTER.GetSheHe] è il capo religioso della sua [faith|E]."
  request_culture_conversion_interaction:0 "$ask_for_conversion_interaction$"
  convert_to_religion_adventurer_interaction: "$convert_to_religion_interaction$"
- open_faith_conversion_view_tt: "Opens the [faith|E] Conversion View, allowing you to preview how much [piety|E] it would cost to convert to [recipient.GetFaith.GetName]"
+ open_faith_conversion_view_tt: "Apre la schermata di conversione della [faith|E], consentendoti di vedere in anteprima quanta [piety|E] costerebbe convertirti a [recipient.GetFaith.GetName]"
 
  # Dummy interaction Descs
  TEST_INTERACTION_NOT_IMPLEMENTED:0 "Interazione Test — Non implementata (N/A)"
@@ -819,7 +819,7 @@
  offer_vassalization_interaction_aibehavior_allied_tt:0 "Siete [allies|E]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_encircled_tt:0 "Circondato dal tuo [realm|E]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_not_rightfulliegetitleholder_tt:0 "Tu non sei il suo [rightful_liege|E]: $VALUE|=+0$"
-  offer_vassalization_interaction_aibehavior_unconnectedrealm_tt: "Il suo regno non confina col tuo: $VALUE|=+0$" 
+ offer_vassalization_interaction_aibehavior_unconnectedrealm_tt: "Il suo regno non confina col tuo: $VALUE|=+0$" 
  offer_vassalization_interaction_aibehavior_distantrealm_tt:0 "Il suo regno è lontano dal tuo: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_remoterealm_tt:0 "Il suo regno è molto distante dal tuo: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_power_tt:1 "Differenza della tua Forza Militare: $VALUE|=+0$ #weak (massimo +20)#!"
@@ -900,7 +900,7 @@
  call_ally.0001.a:0 "Alla Guerra!"
 
  call_ally.0100.opening:0 "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]"
- call_ally.0100.desc:0 "Of course I shall join you in this war! Our foes shall learn to fear the [recipient.Custom('WomenMenPeople_GenderPreference')] of [recipient.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ call_ally.0100.desc:0 "Certo che vi accompagnerò in questa guerra! I nostri nemici impareranno a temere [recipient.Custom('DE_PRO_DEM')] [recipient.Custom('WomenMenPeople_GenderPreference')] di [recipient.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
 
  call_ally.0101.desc:0 "Purtroppo, non sono nella posizione di rimanere invischiato nelle tue guerre."
  call_ally.0101.a:0 "Che [recipient.Custom('InsultAdjective')] [recipient.Custom('InsultNoun')]!"
@@ -1410,7 +1410,7 @@
  char_interaction.0236.a:0 "Preoccupante..."
 
  SCHEME_PREDICTION_NAME:0 "[InteractionSchemeInfo.GetScheme.GetActionName] [InteractionSchemeInfo.GetTarget.GetTitledFirstNameNoTooltip]"
- INTERACTION_START_SCHEME:0 "Inzia [scheme|U]"
+ INTERACTION_START_SCHEME:0 "Inizia [scheme|U]"
  SCHEME_PREDICTION_AGENTS:1 "Agenti Previsti: #high [InteractionSchemeInfo.GetNumberOfPotentialAgents]#!"
  SCHEME_PREDICTION_AGENTS_TT:0 "#T [agents|E] previsti che aderiranno:\n#![InteractionSchemeInfo.BuildPotentialAgents]"
  SCHEME_PREDICTION_NO_AGENTS:0 "#weak Nessuno#!"

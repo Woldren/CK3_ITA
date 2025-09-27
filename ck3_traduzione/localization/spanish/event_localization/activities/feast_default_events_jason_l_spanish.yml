@@ -1,7 +1,7 @@
 ﻿l_spanish:
 
  feast_default_jason.100.t: "Baldoria in tempo di guerra"
- feast_default_jason.100.desc: "«Dobbiamo preoccuparci,» chiede il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('soldier'))], [soldier.GetFirstName], «per la causa [ROOT.Char.GetPrimaryTitle.GetAdjective] nella [war.GetName]...? Vedo volti cupi attorno a questo tavolo — cupi come se gli eserciti [foe.GetPrimaryTitle.GetAdjective] di [foe.GetTitledFirstNamePossessive] fossero alle porte!»\n\n«Non pensare troppo alle tue forze nelle terre di [army_location.GetName], nobile [ROOT.Char.GetTitleAsName]," sorride [other_ruler.GetFirstName], [other_ruler.GetTitleAsNameNoTooltip] di [other_ruler.GetPrimaryTitle.GetNameNoTier]. «La buona sorte sarà sicuramente dalla loro parte.»"
+ feast_default_jason.100.desc: "«Dobbiamo preoccuparci» chiede ([soldier.Custom('DE_ART_DEF_P_A')]) mi[soldier.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('soldier'))], [soldier.GetFirstName], «per la causa [ROOT.Char.GetPrimaryTitle.GetAdjective] nella guerra [war.GetName]...? Vedo volti cupi attorno a questo tavolo — cupi come se l'armata [foe.GetPrimaryTitle.GetAdjective] di [foe.GetTitledFirstNamePossessive] fosse alle porte!»\n\n«Non pensare troppo alle tue forze nelle terre di [army_location.GetName], nobile [ROOT.Char.GetTitleAsName]," sorride [other_ruler.GetFirstName], [other_ruler.GetTitleAsNameNoTooltip] di [other_ruler.GetPrimaryTitle.GetNameNoTier]. «La buona sorte sarà sicuramente dalla loro parte.»"
  feast_default_jason.100.a: "Quale fortuna migliore... della tua alleanza?"
  feast_default_jason.100.b: "Ricorda queste parole: la mia vittoria è certa!"
  feast_default_jason.100.c: "Beviamo finché il mondo non svanirà..."

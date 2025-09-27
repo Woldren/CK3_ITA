@@ -353,7 +353,7 @@
  seduce_ongoing.4002.a:0 "[owner.GetTitledFirstNameNoTooltip] ha davvero superat[owner.Custom('DE_END_PRO_S_N')] se stess[owner.Custom('DE_END_PRO_S_N')]."
 
  seduce_ongoing.4003.desc:1 "\n\nQuando il [ROOT.Char.Custom('MusicalPerformer')] inizia un'altra strofa, esco dalla sala grande in imbarazzo. Ogni canzone è una dedica a me da parte di [owner.GetFirstName]!"
- seduce_ongoing.4003.desc.court_musician:0 "\n\nQuando il [ROOT.Char.Custom('MusicalPerformer')] insieme al [GetCourtPositionType('court_physician_court_position').GetName()] [court_musician.GetName] di [owner.GetTitledFirstNamePossessive] inzia una nuova strofa, esco dalla sala grande in imbarazzo. [owner.GetFirstNameNoTooltip] ha inviato il suo $court_musician_court_position$ solo per pavoneggiarsi!?"
+ seduce_ongoing.4003.desc.court_musician:0 "\n\nQuando il [ROOT.Char.Custom('MusicalPerformer')] insieme al [GetCourtPositionType('court_physician_court_position').GetName()] [court_musician.GetName] di [owner.GetTitledFirstNamePossessive] inizia una nuova strofa, esco dalla sala grande in imbarazzo. [owner.GetFirstNameNoTooltip] ha inviato il suo $court_musician_court_position$ solo per pavoneggiarsi!?"
  seduce_ongoing.4003.a:0 "Che faccia tosta!"
 
  seduce_ongoing.4004.desc:1 "Grazie per il dono musicale. L'esibizione di [target.Custom('MusicalPerformerPossessive')] è stata molto apprezzata! Ho sempre saputo che voi siete un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetWomanMan] dal gusto impeccabile."

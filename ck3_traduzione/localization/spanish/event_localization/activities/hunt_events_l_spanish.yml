@@ -126,7 +126,7 @@
  hunt.1001.desc:2 "\n\nIl [activity.Custom('GetAnimalAdjective')] esemplare [activity.Custom('GetAnimalMale')] è difficile da distinguere, ma non v'è dubbio che sia lì, ad osservarci attraverso la vegetazione caratterizzata da [host.GetCurrentLocation.Custom('GetProvinceFoliageDesc')].\n\n"
  hunt.1001.closing_chase:0 "[host.GetTitledFirstName] si lancia all'inseguimento della bestia, gridando: "Venite, sta scappando!""
  hunt.1001.closing_ambush:0 "[host.GetTitledFirstName]pensa un attimo, prima di fare un gesto a sinistra: "Venite, gli tagliamo la strada!""
- hunt.1001.closing_herd:1 "Ci appostiamo esattamente tra l'esemplare di [activity.Custom('GetAnimalType')] solitario/a e il/la [activity.Custom('GetAnimalGroup')] in fuga. Inzia ora il vero inseguimento!"
+ hunt.1001.closing_herd:1 "Ci appostiamo esattamente tra l'esemplare di [activity.Custom('GetAnimalType')] solitario/a e il/la [activity.Custom('GetAnimalGroup')] in fuga. Inizia ora il vero inseguimento!"
  hunt.1001.closing:1 "Mi fissa negli occhi e, quasi come se percepisse le mie intenzioni, scatta via, come fosse saettato un lampo di colore [activity.Custom('GetAnimalColor')]!"
  hunt.1001.desc_opening_courtier_dangerous:0 "[hunt_participant.Custom('DE_ART_DEF_P_D')] mi[hunt_participant.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)], [hunt_participant.GetTitledFirstName], individua il/la [activity.Custom('GetAnimalType')] che ci sta fissando da lontano, il corpo teso, pronto a correre."
  hunt.1001.desc_opening_dangerous:0 "Sorvegliando il/la [host.GetCurrentLocation.Custom('GetTerrainType')], all'improvviso il/la vedo, come se fosse sempre stato lì: il/la [activity.Custom('GetAnimalType')]!"

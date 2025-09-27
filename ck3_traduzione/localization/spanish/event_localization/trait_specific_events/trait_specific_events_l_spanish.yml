@@ -10,7 +10,7 @@
  trait_specific.1010.a:0 "Si aggrappano come roditori... Sciò, via di qui!"
 
  trait_specific.2001.t:0 "L'Esordio"
- trait_specific.2001.desc:0 "Una sensazione di disagio mi pervade. Cerco di tornare alla mia [ROOT.Char.Custom('GetChamber')], ma la sua porta si restringe sempre più davanti ai miei occhi| Cos... cosa sta succedendo?\n\nAll'improvviso sento un odore... un odore che ho già sentito, ma... #EMP dove#!? Qualcuno mi chiede se sto bene, ma non riesco a rispondere, non riesco a fare nulla..."
+ trait_specific.2001.desc:0 "Una sensazione di disagio mi pervade. Cerco di tornare alla mia [ROOT.Char.Custom('GetChamber')], ma la sua porta si restringe sempre più davanti ai miei occhi. Cos... cosa sta succedendo?\n\nAll'improvviso sento un odore... un odore che ho già sentito, ma... #EMP dove#!? Qualcuno mi chiede se sto bene, ma non riesco a rispondere, non riesco a fare nulla..."
  trait_specific.2001.a:0 "Io... Quanto tempo sono stato via?"
 
  trait_specific.2002.desc:0 "Ultimamente ho sperimentato alcuni... episodi. Qualcosa mi afferra, si appropria del mio corpo, e in seguito mi lascia stanco e confuso.\n\nHo cercato di tenere questa cosa nascosta alla gente, ho cercato di nasconderlo, ma è difficile controllare qualcosa che va e viene a suo piacimento."
