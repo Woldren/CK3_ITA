@@ -42,7 +42,7 @@
  msg_scheme_opportunity_threshold_3_desc: "Il tuo [scheme|E] [scheme.GetName|V] ha [scheme_opportunity_i|E][EmptyScope.ScriptValue('multi_ending_scheme_charge_to_advance_threshold_t3_value')|P0] [scheme_opportunities|E]"
  msg_scheme_opportunity_threshold_4_desc: "Il tuo [scheme|E] [scheme.GetName|V] ha [scheme_opportunity_i|E][EmptyScope.ScriptValue('multi_ending_scheme_charge_to_advance_threshold_t4_value')|P0] [scheme_opportunities|E]" 
  msg_scheme_abandoned:0 "Complotto Abbandonato"
- msg_scheme_abandoned_desc:0 "$SCHEME_NAME|V$ nei confronti di [CHARACTER.GetUINameNoTooltip] è stato abbandonato"
+ msg_scheme_abandoned_desc:0 "Il Complotto $SCHEME_NAME|V$ contro [Select_CString(CHARACTER.IsLocalPlayer,'di te',CHARACTER.GetShortUIName)] è stato abbandonato"
  msg_agent_joined_my_scheme:1 "Agente si è Unito al Complotto: [LEFT_CHARACTER.GetShortUINameNoTooltip]"
  msg_agent_joined_my_scheme_desc:1 "[LEFT_CHARACTER.GetUINameNoTooltip] si è unito come [agent|E] nel tuo [scheme|E] per [SCHEME.GetFullActionName]"
  msg_agent_removed_my_scheme:0 "Agente Rimosso dal Complotto"

@@ -41,7 +41,7 @@
  # Base Diplo Scheme Loc
 
  laamp_base_0001_contract_scheme: "Corte Regale"
- laamp_base_0001_contract_scheme_action: "Intrattenere la Corte di"
+ laamp_base_0001_contract_scheme_action: "Intrattienere la Corte di"
  laamp_base_0001_contract_scheme_desc: "In questo [scheme|E], la [court|E] del [contractor|E] si prosciuga di pettegolezzi e di conseguenza si fa irrequieta. Per portare notizie fresche, vengono offerti doni e alloggi ai viandanti di sufficiente fama, allettandoli a restare per un po’. $laamp_contract_scheme_desc_general_boilerplate$"
  laamp_base_0001_contract_scheme_desc_general: "$laamp_base_0001_contract_scheme_desc$"
  laamp_base_0001_contract_scheme_desc_success: "$laamp_contract_scheme_desc_success_boilerplate$"
@@ -108,8 +108,8 @@
  #laamp_base_1021_desc: "A tutti i veterani e [TaskContract.GetEmployer.Custom('MountedWarriorTermPlural')]: [TaskContract.GetEmployer.Custom('IT_NAM_COL3')|U][TaskContract.GetEmployer.GetTitleAsNameNoTooltip] [TaskContract.GetEmployer.Custom('IT_COU_COL')][TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier] cerca capitani e istruttori per la guarnigione. Razioni e pagamento forniti."
 
  #laamp_base_1031_contract_scheme: "Servizio di Guarnigione"
- #laamp_base_1031_contract_scheme_action: "Fare la Guardia per"
- #laamp_base_1031_contract_scheme_desc: "Non tutti i [contractor|E] hanno abbastanza uomini liberi da garantire la sicurezza di tutto ciò che è sotto la sua responsabilità. Che manchino del tutto di spade disponibili o abbiano semplicemente bisogno di muscoli aggiuntivi a breve termine, molti mettono a gara guarnigioni temporanee.$laamp_contract_scheme_desc_general_boilerplate$"
+ #laamp_base_1031_contract_scheme_action: "Fai la Guardia per"
+ #laamp_base_1031_contract_scheme_desc: "Non ogni [contractor|E] ha abbastanza uomini liberi da garantire la sicurezza di tutto ciò che è sotto la sua responsabilità. Che manchino del tutto di spade disponibili o abbiano semplicemente bisogno di muscoli aggiuntivi a breve termine, molti mettono a gara guarnigioni temporanee.$laamp_contract_scheme_desc_general_boilerplate$"
  #laamp_base_1031_contract_scheme_desc_general: "$laamp_base_1031_contract_scheme_desc$"
  #laamp_base_1031_contract_scheme_desc_success: "$laamp_contract_scheme_desc_success_boilerplate$"
  #laamp_base_1031_desc_title: "Viandanti robusti e dallo sguardo vigile,"
@@ -145,7 +145,7 @@
  laamp_base_2011_desc: "I registri [TaskContract.GetEmployer.Custom('IT_NAM_COL2')][TaskContract.GetEmployer.GetTitleAsNameNoTooltip] [TaskContract.GetEmployer.Custom('IT_COU_COL')][TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier] mostrano gravi lacune. Cercasino viaggiatori istruiti, di buon intelletto e corpo robusto, per condurre un censimento. Saranno ripagati con i proventi del censimento."
 
  laamp_base_2021_contract_scheme: "Erezione di un Edificio"
- laamp_base_2021_contract_scheme_action: "Erigere di un Edificio per"
+ laamp_base_2021_contract_scheme_action: "Erezione di un Edificio per"
  laamp_base_2021_contract_scheme_desc: "Molti [contractors|E] scoprono che la loro ambizione architettonica supera le loro capacità — mettere i lavori di costruzione a bando è un modo semplice per compensare simili... eccessi.$laamp_contract_scheme_desc_general_boilerplate$"
  laamp_base_2021_contract_scheme_desc_general: "$laamp_base_2021_contract_scheme_desc$"
  laamp_base_2021_contract_scheme_desc_success: "$laamp_contract_scheme_desc_success_boilerplate$"

@@ -505,7 +505,7 @@ bp2_yearly.6200.war_very_positive: "#P [home_court.GetShortUIName] è più prope
 bp2_yearly.6200.c.tt: "Un accompagnatore fidato... e qualcuno che garantisca che [hostage.GetFirstNameNoTooltip] non dimentichi i miei interessi."
 bp2_yearly.6200.hostage_positive: "#P [hostage.GetShortUIName] è più propens[Select_CString(hostage.IsFemale,'a','o')] a tornare nella tua [court|E]#!"
 bp2_yearly.6200.hostage_travel_knight: "[hostage.GetShortUIName] e [target_knight.GetShortUIName] viaggeranno verso [home_court.GetCapitalLocation.GetTitle.GetName]"
-bp2_yearly.6200.imprison_warning: "@alert_icon! #alert_trial [target_knight.GetShortUIName] potrebbe venire imprigionat [target_knight.Custom('DE_END_PRO_S_N')] da [home_court.GetShortUIName]#!"
+bp2_yearly.6200.imprison_warning: "@alert_icon! #alert_trial [target_knight.GetShortUIName] potrebbe venire imprigionat[target_knight.Custom('DE_END_PRO_S_N')] da [home_court.GetShortUIName]#!"
 bp2_yearly.6200.d: "No, non posso permettere che un ostaggio se ne vada."
 bp2_yearly.6200.d.tt: "Non c’è alcuna garanzia che tu ritorni! Nessuna garanzia che [home_court.GetTitledFirstNameNoTooltip] non preferisca confortare i miei nemici."
 

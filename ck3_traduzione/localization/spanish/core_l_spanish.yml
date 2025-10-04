@@ -623,7 +623,7 @@
  TRAIT_FLAG_DESC_can_not_marry:0 "@warning_icon! #X Non può sposarsi#!"
  TRAIT_FLAG_DESC_can_murder_own_children:0 "Può usare i [hostile_schemes|E] contro i suoi stessi figli"
  TRAIT_FLAG_DESC_agent_acceptance_25:0 "Accettazione dell'[agent|E]: #P +25#!"
- TRAIT_FLAG_DESC_scheme_start_progress:0 "Avanzamento Inziale del [scheme|E]: #P +3#!"
+ TRAIT_FLAG_DESC_scheme_start_progress:0 "Avanzamento Iniziale del [scheme|E]: #P +3#!"
  TRAIT_FLAG_DESC_offer_vassalisation_25:0 "Accettazione dell'[Concept( 'offer_vassalization', 'Offerta di Vassallizzazione' )|E]: #P +25#!"
  TRAIT_FLAG_DESC_better_war_hostages:0 "[war_score|E] derivante dall'offrire [hostages|E]: #P +5#!\n[war_score|E] massimo derivante dall'offrire [hostages|E]: #P +10#!" 
  TRAIT_FLAG_DESC_extra_scheme_success_chance_vs_rivals:1 "[success_chance|E] dello [hostile_scheme|E] vs. Rivali: #P +[EmptyScope.ScriptValue('vengeful_scheme_success_chance_modifier')|0]#!"

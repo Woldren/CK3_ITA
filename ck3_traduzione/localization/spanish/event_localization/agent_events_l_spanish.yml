@@ -17,7 +17,7 @@
  agent_events.0001.c: "Per favore, concentratevi sul compito a portata di mano."
  agent_events.0001.d: "Buon per loro."
  
- agent_events.0011.t: "Condizioni di Lavoro Strette"
+ agent_events.0011.t: "Strette Condizioni di Lavoro"
  agent_events.0011.desc: "[char_1.GetTitledFirstName] e [char_2.GetTitledFirstName] sembrano divertirsi un po’ #EMP troppo#! per il modesto ruolo che ricoprono nei miei piani.\n\nIl terreno comune nel nostro piccolo piano per [scheme.GetName] ha lasciato spazio al rispetto reciproco, che a sua volta sta chiaramente diventando un saldo legame.\n\nPer quanto improbabile ne sia l’origine."
  agent_events.0011.a: "Un’amicizia forgiata a mio favore!"
  agent_events.0011.b: "[char_1.GetFirstNameNoTooltip] #EMP è#! divertente..."

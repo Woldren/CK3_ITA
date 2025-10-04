@@ -17,7 +17,7 @@
  travel_events.1201.a.tt:1 "Riduzione del costo per la creazione della tradizione [GetCultureTradition('tradition_chivalry').GetName] da #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] a [prestige|E][prestige_i]"
 
  travel_events.1202.t:0 "Buoni Lavoratori"
- travel_events.1202.desc:2 "Viaggiando verso [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], noto che tutti lavorano intensamente e pacificamente, cosa che non accade nel mio paese.\n\nInterrompo uno dei lavoratori per chiedergli cosa sta succedendo e [random_peasant.GetSheHe] condivide con me la sua saggezza:\n\n"Beh, vedi, quello che devi fare è lavorare e non fermarti finché il lavoro non è stato fatto bene""
+ travel_events.1202.desc:2 "Viaggiando verso [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], noto che tutti lavorano intensamente e pacificamente, cosa che non accade nelle mie terre.\n\nInterrompo uno dei lavoratori per chiedergli cosa stia succedendo e [random_peasant.GetSheHe] condivide con me la sua saggezza:\n\n"Beh, vedi, tutto quello che devi fare è lavorare e non fermarti mai finché il lavoro non è stato fatto bene""
  travel_events.1202.a:0 "Devo parlare con loro per saperne di più."
  travel_events.1202.b:0 "Forse posso applicare alcuni di questi principi nella mia terra."
 

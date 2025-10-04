@@ -36,7 +36,7 @@
  hostile_scheme_discovery.2001.depose: "qualcuno sta tramando per deporre" 
  hostile_scheme_discovery.2001.target_other:0 "([target.Custom('DE_ART_DEF_P_A')]) mi[target.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.GetTitledFirstName]!"
  hostile_scheme_discovery.2001.target_spymaster:0 "[target.GetSheHe]!\n\n"Loro non sanno con chi hanno a che fare, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Pensano di poter uccidere #EMP me#!? Gliela farò federe. Oh sì se lo farò.""
- hostile_scheme_discovery.2001.target_me:0 "me!"
+ hostile_scheme_discovery.2001.target_me:0 "me"
  hostile_scheme_discovery.2001.a:0 "Dobbiamo fermare i criminali dietro tutto ciò!"
 
  hostile_scheme_discovery.3001.t:0 "Agente Scoperto!"

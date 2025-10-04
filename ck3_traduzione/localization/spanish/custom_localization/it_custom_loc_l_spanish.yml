@@ -948,22 +948,22 @@
  # In questo caso bisogna usare il codice custom IT_NAM_COL. Ecco come
  # [host.Custom('IT_NAM_COL2')][host.GetTitleAsNameNoTooltip]
 
- # Notate come non c'è spazio tra ] e Conte, va scritto tutto attaccato
+ # Notate come non c'è spazio tra ] e Conte, va scritto tutto attaccato. Si usa ogni volta che il codice che lo segue presenta la parola Titled
  # [personaggio.Custom('IT_NAM_COL')]    sul conte
  # [personaggio.Custom('IT_NAM_COL2')]  del conte
- # [personaggio.Custom('IT_NAM_COL3')]  il conte        [personaggio.Custom('IT_NAM_COL3')|U]   all'inizio delle frasi per far comparire "Il" in maiuscolo anziché "il"
+ # [personaggio.Custom('IT_NAM_COL3')]  il conte        [personaggio.Custom('IT_NAM_COL3')|U][personaggio.GetTitledFirstName]   all'inizio delle frasi per far comparire "Il" in maiuscolo anziché "il"
  # [personaggio.Custom('IT_NAM_COL4')]  al conte
  # [personaggio.Custom('IT_NAM_COL5')]  dal conte
 
 #------------------------------------------------------------------------------
  
- # Codici da mettere davanti ai titoli
- # [titolo.Custom('IT_COU_COL4')]     il titolo                 #      esempio: "Conquista La Contea di Cosenza, l'Earldom del Wessex" 
- # [titolo.Custom('IT_COU_COL')]       del titolo              #   2ndo esempio: "Jon possiede una rivendicazione sulla Contea di Cosenza            [exceptional_guest.GetShortUIName|U] possiede una [claim|E] [guest_claim.Custom('IT_COU_COL3')][guest_claim.GetName]"
- # [titolo.Custom('IT_COU_COL2')]     nel titolo
- # [titolo.Custom('IT_COU_COL3')]     sul titolo
- # [titolo.Custom('IT_COU_COL5')]     dal titolo
- # [titolo.Custom('IT_COU_COL7')]     al titolo 
+ # Codici da mettere davanti alle contee, i ducati ecc
+ # [Cosenza.Custom('IT_COU_COL4')]     la contea                 #      esempio: "Conquista La Contea di Cosenza, l'Earldom del Wessex" 
+ # [Cosenza.Custom('IT_COU_COL')]       della contea              #   2ndo esempio: "Jon possiede una rivendicazione sulla Contea di Cosenza            [exceptional_guest.GetShortUIName|U] possiede una [claim|E] [guest_claim.Custom('IT_COU_COL3')][guest_claim.GetName]"
+ # [Cosenza.Custom('IT_COU_COL2')]     nella contea
+ # [Cosenza.Custom('IT_COU_COL3')]     sulla contea
+ # [Cosenza.Custom('IT_COU_COL5')]     dalla contea
+ # [Cosenza.Custom('IT_COU_COL7')]     alla contea 
 
  # ---------------------- ELENCO DEI CODICI ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  # --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -986,9 +986,10 @@
  # egli/lei                  [personaggio.Custom('DE_ART_IND_A')]
  # oppure Egli          [personaggio.Custom('DE_ART_IND_A')|U]
  
- # SIGNORE / SIGNORA
+ # SIGNORE / SIGNORA   DE_END_ADJ_IND_S_A
  # [Select_CString(ROOT.Char.IsFemale,'mia Signora','mio Signore')]
  # [Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')]
+# Signor[ROOT.Char.Custom('DE_ART_IND_A')]
 
  # TUTORE E TUTRICE, Lavoratore e Lavoratrice ecc.
  # tore/trice    [Select_CString(personaggio.IsFemale,'tutrice','tutore')]
@@ -1004,7 +1005,7 @@
  # [Concept( 'english', 'italiano' )|E]
  # la |E] indica che la prima lettera apparirà in maiuscolo, quindi in gioco vedrete scritto "Italiano", se invece c'è la |e] vuol dire che gli sviluppatori vogliono che appaia in minuscolo.
  
- #Vi presento il conte Jon -> "[CHARACTER.Custom('IT_NAM_COL3')]Conte" non c'è spazio tra ] e Conte, va scritto tutto attaccato
+ #Vi presento il conte Jon -> "[CHARACTER.Custom('IT_NAM_COL3')]Conte" non c'è spazio tra ] e Conte, va scritto tutto attaccato        Si usa ogni volta che il codice che lo segue presenta la parola Titled
  #          [personaggio.Custom('IT_NAM_COL')]    sul conte
  #          [personaggio.Custom('IT_NAM_COL2')]  del conte
  #          [personaggio.Custom('IT_NAM_COL3')]  il conte        [personaggio.Custom('IT_NAM_COL3')|U]   all'inizio delle frasi per far comparire "Il" in maiuscolo anziché "il"
@@ -1014,12 +1015,12 @@
 #------------------------------------------------------------------------------
  
  # Codici da mettere davanti ai titoli
- # [titolo.Custom('IT_COU_COL4')]     il titolo                 #      esempio: "Conquista La Contea di Cosenza, l'Earldom del Wessex" 
- # [titolo.Custom('IT_COU_COL')]       del titolo              #   2ndo esempio: "Jon possiede una rivendicazione sulla Contea di Cosenza            [exceptional_guest.GetShortUIName|U] possiede una [claim|E] [guest_claim.Custom('IT_COU_COL3')][guest_claim.GetName]"
- # [titolo.Custom('IT_COU_COL2')]     nel titolo
- # [titolo.Custom('IT_COU_COL3')]     sul titolo
- # [titolo.Custom('IT_COU_COL5')]     dal titolo
- # [titolo.Custom('IT_COU_COL7')]     al titolo 
+ # [Cosenza.Custom('IT_COU_COL4')]     il titolo                 #      esempio: "Conquista La Contea di Cosenza, l'Earldom del Wessex" 
+ # [Cosenza.Custom('IT_COU_COL')]       del titolo              #   2ndo esempio: "Jon possiede una rivendicazione sulla Contea di Cosenza            [exceptional_guest.GetShortUIName|U] possiede una [claim|E] [guest_claim.Custom('IT_COU_COL3')][guest_claim.GetName]"
+ # [Cosenza.Custom('IT_COU_COL2')]     nel titolo
+ # [Cosenza.Custom('IT_COU_COL3')]     sul titolo
+ # [Cosenza.Custom('IT_COU_COL5')]     dal titolo
+ # [Cosenza.Custom('IT_COU_COL7')]     al titolo 
  
 
   # PREPOSIZIONI (Ricorda di mettere )|U] alla fine del codice se la preposizione è all'inizio del rigo. Esempio [ROOT.Char.Custom('DE_END_ADJ_DEF_P_A')|U]
