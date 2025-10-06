@@ -18,7 +18,7 @@
  SITUATION_PHASE_PARTICIPANT_GROUP_EFFECTS: "#indent_newline:2 #S Effetti sul [SituationParticipantGroup.GetName]:#!"
  SITUATION_PHASE_CULTURE_DOCTRINE_EFFECTS: "#indent_newline:2 $CHARACTERS_OF_CULTURE_DOCTRINE_MODIFIER$"
 
- SITUATION_START_EVENT_DESC: "#high Fai parte del gruppo [Situation.GetParticipantGroupByCharacter( Character.Self ).GetNameNoTooltip] nella [the_great_steppe|E].#!"
+ SITUATION_START_EVENT_DESC: "#high Fai parte del gruppo [Situation.GetParticipantGroupByCharacter( Character.Self ).GetNameNoTooltip] nella [Concept('the_great_steppe', 'Grande Steppa')|E].#!"
  SITUATION_START_EVENT_DETAIL_TITLE: "Ispeziona ogni icona per visualizzare i dettagli della [situation|E]."
 
  SITUATION_INFO_WIDGET_DEBUG: ""

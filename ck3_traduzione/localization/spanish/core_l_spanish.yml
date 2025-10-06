@@ -641,7 +641,7 @@
  TRAIT_FLAG_DESC_can_recruit_open_specialist_trait: "$culture_parameter_can_recruit_open_specialist$"
  TRAIT_FLAG_DESC_unlock_voluntary_laampdom_trait: "$culture_parameter_unlock_voluntary_laampdom$"
  TRAIT_FLAG_DESC_no_demand_conversion_trait: "Non si può Richiedere la Conversione a meno che non abbia il [trait|E] [GetTrait('zealous').GetName( GetNullCharacter )]"
- TRAIT_FLAG_DESC_nomadic_philosophy_inheritance_trait: "Se un [character|E] [GetGovernment( 'nomad_government' ).GetName] si stabilisce al di fuori della [the_great_steppe|E], solo i suoi [children|E] erediteranno questo [trait|E]."
+ TRAIT_FLAG_DESC_nomadic_philosophy_inheritance_trait: "Se un [character|E] [GetGovernment( 'nomad_government' ).GetName] si stabilisce al di fuori della [Concept('the_great_steppe', 'Grande Steppa')|E], solo i suoi [children|E] erediteranno questo [trait|E]."
  TRAIT_FLAG_DESC_nomadic_philosophy_cheaper_culture_convert: "[SelectLocalization( IsNomad( GetPlayer ), 'blank_line', 'nomadic_philosophy_cheaper_culture_convert_desc' )]"
  TRAIT_FLAG_DESC_nomadic_philosophy_cheaper_to_hybridize: "[SelectLocalization( IsNomad( GetPlayer ), 'blank_line', 'nomadic_philosophy_cheaper_to_hybridize_desc' )]"
  TRAIT_FLAG_DESC_nomadic_philosophy_easier_to_hybridize: "[SelectLocalization( IsNomad( GetPlayer ), 'blank_line', 'nomadic_philosophy_easier_to_hybridize' )]"
