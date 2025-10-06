@@ -2,17 +2,17 @@
  ACHIEVEMENT_mpo_the_stallion_that_mounts_the_world_achievement: "Lo Stallone che Cavalca il Mondo"
  ACHIEVEMENT_DESC_mpo_the_stallion_that_mounts_the_world_achievement: "Impersonando Temüjin, conquista il mondo."
  ACHIEVEMENT_mpo_nobodys_business_achievement: "Affari di nessuno"
- ACHIEVEMENT_DESC_mpo_nobodys_business_achievement: "Usa il [casus_belli|E] $MPO_NOMAD_INVASION_CB_NAME$ per insediare il tuo popolo al di fuori delle [the_great_steppe|E]."
+ ACHIEVEMENT_DESC_mpo_nobodys_business_achievement: "Usa il [casus_belli|E] $MPO_NOMAD_INVASION_CB_NAME$ per insediare il tuo popolo al di fuori della [Concept('the_great_steppe', 'Grande Steppa')|E]."
  ACHIEVEMENT_mpo_tribute_band_achievement: "Banda di Tributari" # da rivedere
  ACHIEVEMENT_DESC_mpo_tribute_band_achievement: "Hai 30 [tributaries|E]."
  ACHIEVEMENT_mpo_this_chinggis_everything_achievement: "Il più grande di tutti" # gioco di parole inglese non riproducibile in italiano
  ACHIEVEMENT_DESC_mpo_this_chinggis_everything_achievement: "Diventa il Più Grande dei Khan."
  ACHIEVEMENT_mpo_steppe_by_steppe_achievement: "Passo dopo Passo"
- ACHIEVEMENT_DESC_mpo_steppe_by_steppe_achievement: "Impersonando un governante nomade della regione delle Steppe Orientali delle [the_great_steppe|E], migra nelle Steppe Occidentali."
+ ACHIEVEMENT_DESC_mpo_steppe_by_steppe_achievement: "Impersonando un governante nomade della regione delle Steppe Orientali della [Concept('the_great_steppe', 'Grande Steppa')|E], migra nelle Steppe Occidentali."
  ACHIEVEMENT_mpo_in_xanadu_achievement: "In Xanadu"
  ACHIEVEMENT_DESC_mpo_in_xanadu_achievement: "Costruisci una Cupola del Piacere."
  ACHIEVEMENT_mpo_settling_in_achievement: "Mettere radici" # Insediarsi | Insediamento 
- ACHIEVEMENT_DESC_mpo_settling_in_achievement: "Diventare un [ruler|E] sedentario nelle [the_great_steppe|E]"
+ ACHIEVEMENT_DESC_mpo_settling_in_achievement: "Diventare un [ruler|E] sedentario nella [Concept('the_great_steppe', 'Grande Steppa')|E]"
  ACHIEVEMENT_mpo_blood_of_my_blood_achievement: "Sangue del mio Sangue"
  ACHIEVEMENT_DESC_mpo_blood_of_my_blood_achievement: "Consegui la [Concept('blood_brothers', 'fratellanza di sangue' )|E]"
  ACHIEVEMENT_mpo_confedup_achievement: "Confederazione" # gioco di parole inglese non riproducibile in italiano
