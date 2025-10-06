@@ -76,6 +76,6 @@ gok_threatening_powers_tt: "@warning_icon! #X Will threaten [rulers|E] with dest
  mongol_invasion.2112.desc:0 "credi davvero di essere migliore di me? Non sei nemmeno un mio pari! È chiaro che l'amicizia che ti ho generalmente offerto altro non è stata che perle ai porci."
  mongol_invasion.2112.a:0 "Oh, ti pentirai di tutto questo..."
 
- temujin_horde_gathers_tt: "@alert_icon! #alert_trial Nomadic warriors will continue gathering behind you, the Khan chosen by Heaven, granting more @herd_icon![herd|E], @prestige_icon![prestige|E], and @gold_icon![gold|E] — if your [dominance|E] remains above [GetLaw('nomadic_authority_3').GetName]#!"
- mpo_greatest_of_khans.1010_title: "Lesser Clans Join the Horde"
- mpo_greatest_of_khans.1010_desc: "Masterless riders swear their loyalty! Eager warriors offer their bows! Countless families flock to your great camp!"
+ temujin_horde_gathers_tt: "@alert_icon! #alert_trial I guerrieri Nomadi continueranno a radunarsi al tuo seguito, il Khan scelto dal Cielo, il che garantisce più @herd_icon![herd|E], @prestige_icon![prestige|E], e @gold_icon![gold|E] — se la tua [dominance|E] resta superiore a [GetLaw('nomadic_authority_3').GetName]#!"
+ mpo_greatest_of_khans.1010_title: "Clan Minori si Uniscono all'Orda"
+ mpo_greatest_of_khans.1010_desc: "I cavalieri senza padrone giurano fedeltà! I guerrieri desiderosi offrono i loro archi! Innumerevoli famiglie affluiscono al tuo grande accampamento!"
