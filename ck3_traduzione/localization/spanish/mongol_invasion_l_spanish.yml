@@ -42,10 +42,10 @@ gok_threatening_powers_tt: "@warning_icon! #X Will threaten [rulers|E] with dest
  mongol_invasion.1004.a:0 "L'impero sorgerà ancora, un giorno..."
  mongol_invasion.1004.b: "[ROOT.Char.GetFaith.HighGodNamePossessive] mercy is seen at last..."
 
- mongol_invasion.1005.t: "The Khan is Dead"
- mongol_invasion.1005.desc: "With the passing of the [new_khan.GetPrimaryTitle.GetAdjective] throne from [old_khan.GetTitledFirstName] to [new_khan.GetTitledFirstName], my advisors cackle with glee, sigh with relief... for [new_khan.GetFirstNameNoTooltip] does not dare style [new_khan.GetHerselfHimself] "the ruler of the universe".\n\nOnce, the nomads of the steppe had threatened all the world, had gathered vast hordes. Now, they finally acknowledge their aims lie beyond their grasp."
- mongol_invasion.1005.a: "An era of fear is at an end."
- mongol_invasion.1005.a.tt: "[GetTitleByKey('e_mongol_empire').GetName] loses its principal methods of conquest, and will become less aggressive"
+ mongol_invasion.1005.t: "Il Khan è Morto"
+ mongol_invasion.1005.desc: "Con il passaggio del trono [new_khan.GetPrimaryTitle.GetAdjective] [old_khan.Custom('IT_NAM_COL5')][old_khan.GetTitledFirstName] [new_khan.Custom('IT_NAM_COL4')][new_khan.GetTitledFirstName], i miei consiglieri ridono di gioia, sospirano di sollievo... dal momento che [new_khan.GetFirstNameNoTooltip] non osa etichettare [new_khan.GetHerselfHimself] "il signore dell'universo".\n\nUn tempo, i nomadi della steppa avevano minacciato il mondo intero, radunando vaste orde. Ora, finalmente, riconoscono che i loro obiettivi sono irraggiungibili."
+ mongol_invasion.1005.a: "L'era della paura è giunta al termine."
+ mongol_invasion.1005.a.tt: "[GetTitleByKey('e_mongol_empire').GetName] perde i suoi principali metodi di conquista e svilupperà minore aggressività"
 
  mongol_invasion.2001.opening:0 "Mio servo,"
  mongol_invasion.2001.desc:0 "In qualità di Sovrano dell'Universo, è inevitabile che tu ti inchini a me. Fa che sia con un atto di fedeltà, piuttosto che con una lama attraverso la tua gola."
