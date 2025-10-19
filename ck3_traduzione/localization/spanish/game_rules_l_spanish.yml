@@ -952,7 +952,7 @@
  setting_situation_the_great_steppe_toggle_on: "Abilitata"
  setting_situation_the_great_steppe_toggle_on_desc: "I [GetGovernment( 'nomad_government' ).GetName] della Grande Steppa saranno coinvolti in una [situation|E] con propri [steppe_seasons|E] e nella lotta per divenire il [gurkhan|E]."
  setting_situation_the_great_steppe_toggle_off: "#high Disabilitata#!"
- setting_situation_the_great_steppe_toggle_off_desc: "La [situation|E] di [the_great_steppe|E] non è abilitata all’inizio della partita, per cui la Steppa si comporta come qualunque altra parte della mappa."
+ setting_situation_the_great_steppe_toggle_off_desc: "La [situation|E] della [Concept('the_great_steppe', 'Grande Steppa')|E] non è abilitata all’inizio della partita, per cui la Steppa si comporta come qualunque altra parte della mappa."
 
  rule_sami_nomad_region: "Regione Nomade Extra: Sápmi e Carelia"
  setting_sami_nomad_region_off: "Predefinito"

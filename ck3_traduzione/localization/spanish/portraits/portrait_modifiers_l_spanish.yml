@@ -1821,49 +1821,49 @@
  ###################################
 
  ### Clothes ###
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_mpo_mongol_com_01: "@khansofthesteppe_icon! Steppe Nomad's Deel"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_mpo_mongol_nob_01_lo: "@khansofthesteppe_icon! Cross-Over Coat with Fur Lining"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_mpo_mongol_nob_01_hi: "@khansofthesteppe_icon! Fine Cross-Over Coat with Fur Lining"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_mpo_mongol_roy_01: "@khansofthesteppe_icon! Khan's Embroidered Robe"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_mpo_mongol_imp_01: "@khansofthesteppe_icon! Khagan's Deel with Fur Coat"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_mpo_mongol_com_01: "@khansofthesteppe_icon! Il Deel dei Nomadi della Steppa"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_mpo_mongol_nob_01_lo: "@khansofthesteppe_icon! Cappotto Incrociato con Fodera in Pelliccia"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_mpo_mongol_nob_01_hi: "@khansofthesteppe_icon! Cappotto Incrociato Raffinato con Fodera in Pelliccia"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_mpo_mongol_roy_01: "@khansofthesteppe_icon! Abito Ricamato del Khan"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_mpo_mongol_imp_01: "@khansofthesteppe_icon! Deel di Khagan con Cappotto in Pelliccia"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_mpo_mongol_war_01: "@khansofthesteppe_icon! Khatangu Degel"
 
- PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_mpo_mongol_com_01: "@khansofthesteppe_icon! Steppe Woman's Deel"
- PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_mpo_mongol_nob_01_lo: "@khansofthesteppe_icon! Nomad Woman's Robe"
- PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_mpo_mongol_nob_01_hi: "@khansofthesteppe_icon! Nomad Woman's Fine Robe"
- PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_mpo_mongol_roy_01: "@khansofthesteppe_icon! Khanum's Coat with Embroidery"
- PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_mpo_mongol_imp_01: "@khansofthesteppe_icon! Khatun's Splendid Robes"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_mpo_mongol_com_01: "@khansofthesteppe_icon! Il Deel delle Donne della Steppa"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_mpo_mongol_nob_01_lo: "@khansofthesteppe_icon! Abito da Donna Nomade"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_mpo_mongol_nob_01_hi: "@khansofthesteppe_icon! Abito Raffinato da Donna Nomade"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_mpo_mongol_roy_01: "@khansofthesteppe_icon! Cappotto Ricamato di Khanum"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_mpo_mongol_imp_01: "@khansofthesteppe_icon! Splendide Vesti di Khanum"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_mpo_mongol_war_01: "$PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_mpo_mongol_war_01$"
 
  ### Headgear ###
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_mpo_mongol_com_01: "@khansofthesteppe_icon! Fur-Brimmed Shepherd Hat"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_mpo_mongol_nob_01: "@khansofthesteppe_icon! Feathered Hat of the Steppe"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_mpo_mongol_war_nob_01: "@khansofthesteppe_icon! Yuan-Style Helmet"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_mpo_mongol_roy_01: "@khansofthesteppe_icon! Golden Flower Crown"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_mpo_mongol_imp_01: "@khansofthesteppe_icon! Decorated Jonon Hat"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_mpo_mongol_com_01: "@khansofthesteppe_icon! Cappello da Pastore con Tesa in Pelliccia"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_mpo_mongol_nob_01: "@khansofthesteppe_icon! Cappello Piumato della Steppa"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_mpo_mongol_war_nob_01: "@khansofthesteppe_icon! Elmo in Stile Yuan"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_mpo_mongol_roy_01: "@khansofthesteppe_icon! Corona di Fiori Dorati"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_mpo_mongol_imp_01: "@khansofthesteppe_icon! Cappello Jonon Decorato"
 
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_mpo_mongol_com_01: "$PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_mpo_mongol_com_01$"
- PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_mpo_mongol_nob_01: "@khansofthesteppe_icon! Nomadic Pearl Headband"
- PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_mpo_mongol_nob_02: "@khansofthesteppe_icon! Khalkha Headdress with Pearl Bands"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_mpo_mongol_nob_01: "@khansofthesteppe_icon! Cerchietto di Perle del Nomade"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_mpo_mongol_nob_02: "@khansofthesteppe_icon! Copricapo Khalkha con Fasce di Perle"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_mpo_mongol_war_nob_01: "$PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_mpo_mongol_war_nob_01$"
- PORTRAIT_MODIFIER_custom_headgear_f_headgear_steppe_roy_01: "@khansofthesteppe_icon! Khanum's Embellished Gugu Hat"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_steppe_roy_01: "@khansofthesteppe_icon! Cappello Gugu Decorato di Khanum"
 
  ### Hairstyles ###
- PORTRAIT_MODIFIER_custom_hair_m_hair_mpo_mongol_01: "@khansofthesteppe_icon! Khitan Warrior Style"
- PORTRAIT_MODIFIER_custom_hair_m_hair_mpo_mongol_02: "@khansofthesteppe_icon! Behind the Ear Braids"
- PORTRAIT_MODIFIER_custom_hair_m_hair_mpo_mongol_03: "@khansofthesteppe_icon! Steppe Rider's Fine Braids"
+ PORTRAIT_MODIFIER_custom_hair_m_hair_mpo_mongol_01: "@khansofthesteppe_icon! Stile Guerriero Khitan"
+ PORTRAIT_MODIFIER_custom_hair_m_hair_mpo_mongol_02: "@khansofthesteppe_icon! Trecce Dietro le Orecchie"
+ PORTRAIT_MODIFIER_custom_hair_m_hair_mpo_mongol_03: "@khansofthesteppe_icon! Trecce Raffinate del Cavaliere della Steppa"
 
- PORTRAIT_MODIFIER_custom_hair_f_hair_mpo_mongol_01: "@khansofthesteppe_icon! Turkic Kirk Belik Braids"
- PORTRAIT_MODIFIER_custom_hair_f_hair_mpo_mongol_02: "@khansofthesteppe_icon! Steppe Style with Cloth Covers"
- PORTRAIT_MODIFIER_custom_hair_f_hair_mpo_mongol_03: "@khansofthesteppe_icon! Center-Parted with Decorated Covers"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_mpo_mongol_01: "@khansofthesteppe_icon! Trecce alla Turca Kirk Belik"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_mpo_mongol_02: "@khansofthesteppe_icon! Stile della Steppa con Coperture in Tessuto"
+ PORTRAIT_MODIFIER_custom_hair_f_hair_mpo_mongol_03: "@khansofthesteppe_icon! Riga al Centro con Rivestimenti Decorati"
 
  ### Beards ###
- PORTRAIT_MODIFIER_custom_beards_m_beard_mpo_mongol_01: "@khansofthesteppe_icon! Mongol Style Mustache and Soul Patch"
- PORTRAIT_MODIFIER_custom_beards_m_beard_mpo_mongol_02: "@khansofthesteppe_icon! Nomadic Warrior's Beard"
- PORTRAIT_MODIFIER_custom_beards_m_beard_mpo_mongol_03: "@khansofthesteppe_icon! Nomad's Goatee"
- PORTRAIT_MODIFIER_custom_beards_m_beard_mpo_mongol_04: "@khansofthesteppe_icon! Mongol Style Mustache"
- PORTRAIT_MODIFIER_custom_beards_m_beard_mpo_mongol_05: "@khansofthesteppe_icon! Nomadic Warrior's Mustache"
- PORTRAIT_MODIFIER_custom_beards_m_beard_mpo_mongol_06: "@khansofthesteppe_icon! Nomad's Mustache"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_mpo_mongol_01: "@khansofthesteppe_icon! Baffi e Pizzetto in Stile Mongolo"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_mpo_mongol_02: "@khansofthesteppe_icon! Barba del Guerriero Nomade"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_mpo_mongol_03: "@khansofthesteppe_icon! Pizzetto del Nomade"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_mpo_mongol_04: "@khansofthesteppe_icon! Baffi in Stile Mongolo"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_mpo_mongol_05: "@khansofthesteppe_icon! Baffi del Guerriero Nomade"
+ PORTRAIT_MODIFIER_custom_beards_m_beard_mpo_mongol_06: "@khansofthesteppe_icon! Baffi del Nomade"
 
 
 #############
