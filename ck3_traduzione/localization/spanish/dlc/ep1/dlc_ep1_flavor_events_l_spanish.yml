@@ -353,5 +353,5 @@
  promise_of_feasts_modifier_desc: "Questo personaggio vuole viziare i propri cortigiani con banchetti ed è amato per questo. I banchetti costano di meno."
  more_work_less_fun_modifier: "Più Lavoro Meno Divertimento"
  feasts_more_expensive_tt: "L'[gold|E] @gold_icon! del [GetActivityType('activity_feast').GetName] è aumentato#!"
- feasts_more_expensive_modifier_tt: "Incremento del costo [gold|E] @gold_icon! del [GetActivityType('activity_feast').GetName]#!"
+ feasts_more_expensive_modifier_tt: "Incremento del costo in [gold|E] @gold_icon! del [GetActivityType('activity_feast').GetName]#!"
 

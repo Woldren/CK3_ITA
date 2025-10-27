@@ -576,7 +576,7 @@
  can_start_war_with_raised_troops: "Può iniziare [wars|E] con [armies|E] già schierati"
  movement_speed_from_government: "$MOD_MOVEMENT_SPEED$: #P +10%#!"
  land_raiding_movement_speed_from_government: "$MOD_MOVEMENT_SPEED_LAND_RAIDING$: #P +10%#!"
- no_hostile_attrition_in_steppe: "#indent_newline:3 Nessun [attrition|E] con la #V Contea Ostile#! durante le [Concept( 'raiding', 'razzie' )|E] nella [the_great_steppe|E]#!"
+ no_hostile_attrition_in_steppe: "#indent_newline:3 Nessun [attrition|E] con la #V Contea Ostile#! durante le [Concept( 'raiding', 'razzie' )|E] nella [Concept('the_great_steppe', 'Grande Steppa')|E]#!"
  can_raze_holdings: "Può Radere al Suolo i [holdings|E] per [gold|E]"
 
  nomad_government_herd: "[herd|U] Decime"

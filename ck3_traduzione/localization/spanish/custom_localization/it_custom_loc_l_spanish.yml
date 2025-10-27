@@ -986,9 +986,10 @@
  # egli/lei                  [personaggio.Custom('DE_ART_IND_A')]
  # oppure Egli          [personaggio.Custom('DE_ART_IND_A')|U]
  
- # SIGNORE / SIGNORA
+ # SIGNORE / SIGNORA   DE_END_ADJ_IND_S_A
  # [Select_CString(ROOT.Char.IsFemale,'mia Signora','mio Signore')]
  # [Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')]
+# Signor[ROOT.Char.Custom('DE_ART_IND_A')]
 
  # TUTORE E TUTRICE, Lavoratore e Lavoratrice ecc.
  # tore/trice    [Select_CString(personaggio.IsFemale,'tutrice','tutore')]

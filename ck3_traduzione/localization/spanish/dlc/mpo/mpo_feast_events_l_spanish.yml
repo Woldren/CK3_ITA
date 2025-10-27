@@ -94,8 +94,8 @@
  feast_tsagaan_sar_events.0101.c.duel: "Cerchi di rubare il cavallo durante il giro"
  feast_tsagaan_sar_events.0101.c.success: "Cavalchi fuori dalla vista di [horse_haver.GetFirstNameNoTooltip]"
  feast_tsagaan_sar_events.0101.c.failure: "[horse_haver.GetFirstNameNoTooltip] ti raggiunge"
- rival_stole_my_horse: "[Select_CString(CHARACTER.IsLocalCharacter, 'Tu', CHARACTER.GetShortUIName)|U] [Select_CString(CHARACTER.IsLocalCharacter, 'hai', 'ha')] rubato il [Select_CString(TARGET_CHARACTER.IsLocalCharacter, 'tuo ', '')]cavallo amato[Select_CString(TARGET_CHARACTER.IsLocalCharacter, '', ' di ')][Select_CString(TARGET_CHARACTER.IsLocalCharacter, '', TARGET_CHARACTER.GetShortUIName)]."
- rival_stole_my_horse_corresponding: "[Select_CString(TARGET_CHARACTER.IsLocalCharacter, 'Tu', TARGET_CHARACTER.GetShortUIName)|U] [Select_CString(TARGET_CHARACTER.IsLocalCharacter, 'hai', 'ha')] rubato il [Select_CString(CHARACTER.IsLocalCharacter, 'tuo ', '')]cavallo amato[Select_CString(CHARACTER.IsLocalCharacter, '', ' di ')][Select_CString(CHARACTER.IsLocalCharacter, '', CHARACTER.GetShortUIName)]."
+ rival_stole_my_horse: "[Select_CString(CHARACTER.IsLocalPlayer, 'Tu', CHARACTER.GetShortUIName)|U] [Select_CString(CHARACTER.IsLocalPlayer, 'hai', 'ha')] rubato il [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'tuo ', '')]cavallo amato[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', ' di ')][Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName)]."
+ rival_stole_my_horse_corresponding: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Tu', TARGET_CHARACTER.GetShortUIName)|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'hai', 'ha')] rubato il [Select_CString(CHARACTER.IsLocalPlayer, 'tuo ', '')]cavallo amato[Select_CString(CHARACTER.IsLocalPlayer, '', ' di ')][Select_CString(CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName)]."
 
  feast_tsagaan_sar_events.0200.t: "Una Partita di Shagai"
  feast_tsagaan_sar_events.0200.desc: ""Saluti, [ROOT.Char.GetFirstNameNoTooltip]!" esclama [gambler.GetName]. "Vedo che hai un momento libero. Vuoi unirti a me per una partita di [Glossary( 'Shagai', 'SHAGAI_GLOSS' )]?" chiede [gambler.GetSheHe], versando alcune ossa di caviglia nella mano.\n\n[gambler.GetSheHe|U] si siede a gambe incrociate a terra, invitandomi a fare lo stesso. [gambler.GetFirstNameNoTooltip] mi ricorda le regole, e ci alterniamo nel lancio delle ossa."
@@ -110,8 +110,8 @@
  feast_tsagaan_sar_events.0200.d: "No, ma grazie."
  feast_tsagaan_sar_events.0200_lose: "Perdi la partita"
  feast_tsagaan_sar_events.0200_win: "Vinci la partita"
- friend_played_party_games: "[Select_CString(CHARACTER.IsLocalCharacter, 'Tu', CHARACTER.GetShortUIName)|U] [Select_CString(CHARACTER.IsLocalCharacter, 'hai', 'ha')] legato con [TARGET_CHARACTER.GetShortUIName] giocando d’azzardo."
- friend_played_party_games_corresponding: "[Select_CString(TARGET_CHARACTER.IsLocalCharacter, 'Tu', TARGET_CHARACTER.GetShortUIName)|U] [Select_CString(TARGET_CHARACTER.IsLocalCharacter, 'hai', 'ha')] legato con [CHARACTER.GetShortUIName] giocando d’azzardo."
+ friend_played_party_games: "[Select_CString(CHARACTER.IsLocalPlayer, 'Tu', CHARACTER.GetShortUIName)|U] [Select_CString(CHARACTER.IsLocalPlayer, 'hai', 'ha')] legato con [TARGET_CHARACTER.GetShortUIName] giocando d’azzardo."
+ friend_played_party_games_corresponding: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Tu', TARGET_CHARACTER.GetShortUIName)|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'hai', 'ha')] legato con [CHARACTER.GetShortUIName] giocando d’azzardo."
  SHAGAI_GLOSS: "#bold Shagai#! è un gioco divinatorio giocato con ossa di caviglia di pecora o capra. Le ossa vengono lanciate come dadi, e cadono su uno dei quattro lati: cavallo, pecora, cammello o capra. Il cavallo e il cammello sono considerati fortunati, mentre la pecora e la capra no."
 
  feast_tsagaan_sar_events.0210.t: "Saggezza del Pastore"
@@ -132,7 +132,7 @@
  feast_tsagaan_sar_events.0220.d_vengeful: "Non finché sarai in vita!"
  feast_tsagaan_sar_events.0220.d: "No, non credo proprio."
 
- friend_feast_rivalry: "[Select_CString(CHARACTER.IsLocalCharacter, 'Tu', CHARACTER.GetShortUIName)|U] e [TARGET_CHARACTER.GetShortUIName] [Select_CString(Or(CHARACTER.IsLocalCharacter, TARGET_CHARACTER.IsLocalCharacter), 'siete', 'sono')] diventati amici dopo aver messo da parte la [Select_CString(Or(CHARACTER.IsLocalCharacter, TARGET_CHARACTER.IsLocalCharacter), 'vostra', 'loro')] rivalità durante un banchetto."
+ friend_feast_rivalry: "[Select_CString(CHARACTER.IsLocalPlayer, 'Tu', CHARACTER.GetShortUIName)|U] e [TARGET_CHARACTER.GetShortUIName] [Select_CString(Or(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'siete', 'sono')] diventati amici dopo aver messo da parte la [Select_CString(Or(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'vostra', 'loro')] rivalità durante un banchetto."
 
  feast_tsagaan_sar_events.0230.t: "Voce della Luna"
  feast_tsagaan_sar_events.0230.desc_intro: "Un gruppo di ospiti si raduna attorno a una yurta in lontananza, parlando di uno spettacolo. Seguo il trambusto e vedo tutti gli occhi rivolti a [throat_singer.GetName]. [throat_singer.GetSheHe|U] esplode in un canto, cantando [throat_singer.Custom('GetRandomThroatSingingTheme')].\n\nIl suono ricorda"
@@ -169,9 +169,9 @@
  HOOMEI_GLOSS: "Lo stile più popolare di canto gutturale, #bold Hoomei#! o #bold Khoomei#!, può essere descritto come un suono ronzante, spesso cantato nel registro medio del cantante."
  KARGYRAA_GLOSS: "Lo stile profondo e quasi gutturale del canto gutturale è noto come #bold Kargyraa#!. Usando le false corde vocali del cantante, è stato paragonato al ringhio di un animale o al rombo del tuono."
 
- friend_throat_singing: "[Select_CString(CHARACTER.IsLocalCharacter, 'Tu', CHARACTER.GetShortUIName)|U] e [TARGET_CHARACTER.GetShortUIName] [Select_CString(Or(CHARACTER.IsLocalCharacter, TARGET_CHARACTER.IsLocalCharacter), 'avete', 'hanno')] legato grazie ad uno spettacolo di canto gutturale."
- rival_throat_singing: "[Select_CString(CHARACTER.IsLocalCharacter, 'Tu', CHARACTER.GetShortUIName)|U] [Select_CString(CHARACTER.IsLocalCharacter, 'hai', 'ha')] insultato il [Select_CString(TARGET_CHARACTER.IsLocalCharacter, 'tuo ', '')]canto gutturale[Select_CString(TARGET_CHARACTER.IsLocalCharacter, '', ' di ')][Select_CString(TARGET_CHARACTER.IsLocalCharacter, '', TARGET_CHARACTER.GetShortUIName)]."
- rival_throat_singing_corresponding: "[Select_CString(TARGET_CHARACTER.IsLocalCharacter, 'Tu', TARGET_CHARACTER.GetShortUIName)|U] [Select_CString(TARGET_CHARACTER.IsLocalCharacter, 'hai', 'ha')] insultato il [Select_CString(CHARACTER.IsLocalCharacter, 'tuo ', '')]canto gutturale[Select_CString(CHARACTER.IsLocalCharacter, '', ' di ')][Select_CString(CHARACTER.IsLocalCharacter, '', CHARACTER.GetShortUIName)]."
+ friend_throat_singing: "[Select_CString(CHARACTER.IsLocalPlayer, 'Tu', CHARACTER.GetShortUIName)|U] e [TARGET_CHARACTER.GetShortUIName] [Select_CString(Or(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'avete', 'hanno')] legato grazie ad uno spettacolo di canto gutturale."
+ rival_throat_singing: "[Select_CString(CHARACTER.IsLocalPlayer, 'Tu', CHARACTER.GetShortUIName)|U] [Select_CString(CHARACTER.IsLocalPlayer, 'hai', 'ha')] insultato il [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'tuo ', '')]canto gutturale[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', ' di ')][Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName)]."
+ rival_throat_singing_corresponding: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Tu', TARGET_CHARACTER.GetShortUIName)|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'hai', 'ha')] insultato il [Select_CString(CHARACTER.IsLocalPlayer, 'tuo ', '')]canto gutturale[Select_CString(CHARACTER.IsLocalPlayer, '', ' di ')][Select_CString(CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName)]."
 
  feast_tsagaan_sar_events.0250.t: "I Cavalieri di [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]"
  feast_tsagaan_sar_events.0250.desc: "Un pastore porta un gruppo di cavalli, i loro manti brillano al chiaro di luna. Gli ospiti si radunano attorno, ammirando gli animali. [horse_rider_1.GetName] si precipita con entusiasmo a montare un cavallo, seguit[horse_rider_1.Custom('DE_END_PRO_S_N')] da [horse_rider_2.GetName].\n\n"È me contro di te, [horse_rider_1.GetFirstNameNoTooltip]!" esclama [horse_rider_2.GetFirstNameNoTooltip]. [horse_rider_1.GetFirstNameNoTooltip] ride in risposta. "Non affrettiamoci, [horse_rider_2.GetFirstNameNoTooltip]. Dobbiamo conservare le energie per la corsa!"\n\n[horse_rider_2.GetFirstNameNoTooltip] annuisce. "Qualcun altro vuole unirsi? O magari scommettere?" chiede [horse_rider_2.GetSheHe]."
@@ -204,8 +204,8 @@
  feast_tsagaan_sar_events.0251.after_tt: "La corsa continua..."
  feast_tsagaan_sar_events.0251.d_title: "Qualcuno è fuori dalla corsa!"
 
- rival_cheated_horse_race: "[Select_CString(CHARACTER.IsLocalCharacter, 'Tu', CHARACTER.GetShortUIName)|U] [Select_CString(CHARACTER.IsLocalCharacter, 'hai', 'ha')] barato in una corsa contro di [TARGET_CHARACTER.GetShortUIName]."
- rival_cheated_horse_race_corresponding: "[Select_CString(TARGET_CHARACTER.IsLocalCharacter, 'Tu', TARGET_CHARACTER.GetShortUIName)|U] [Select_CString(TARGET_CHARACTER.IsLocalCharacter, 'hai', 'ha')] barato in una corsa contro di [CHARACTER.GetShortUIName]."
+ rival_cheated_horse_race: "[Select_CString(CHARACTER.IsLocalPlayer, 'Tu', CHARACTER.GetShortUIName)|U] [Select_CString(CHARACTER.IsLocalPlayer, 'hai', 'ha')] barato in una corsa contro di [TARGET_CHARACTER.GetShortUIName]."
+ rival_cheated_horse_race_corresponding: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Tu', TARGET_CHARACTER.GetShortUIName)|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'hai', 'ha')] barato in una corsa contro di [CHARACTER.GetShortUIName]."
 
  feast_tsagaan_sar_events.0252.desc_knocked: "Guardo le due cavalcature superarmi, e non posso fare a meno di provare un po’ d’invidia. Avrei dovuto essere io a vincere, ma non sono riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] a tenere il loro passo."
  feast_tsagaan_sar_events.0252.desc_knocked_1: "Guardo indietro mentre [horse_rider_1.GetFirstNameNoTooltip] cade a terra, e resta solo [horse_rider_2.GetFirstNameNoTooltip]. Siamo testa a testa, e gli ospiti esultano con entusiasmo."
@@ -235,7 +235,7 @@
  feast_tsagaan_sar_events.0260.b_shy: "Ti allontani con imbarazzo."
  feast_tsagaan_sar_events.0260.b: "Ti congedi."
 
- friend_tsagaan_sar_compliment: "[Select_CString(CHARACTER.IsLocalCharacter, 'Tu', CHARACTER.GetShortUIName)|U] e [TARGET_CHARACTER.GetShortUIName] [Select_CString(Or(CHARACTER.IsLocalCharacter, TARGET_CHARACTER.IsLocalCharacter), 'siete', 'sono')] diventati amici dopo che [Select_CString(CHARACTER.IsLocalCharacter, 'Tu', CHARACTER.GetShortUIName)] [Select_CString(CHARACTER.IsLocalCharacter, 'hai', 'ha')] fatto un complimento [Select_CString(TARGET_CHARACTER.IsLocalCharacter, 'al tuo abbigliamento', 'all’abbigliamento di ')][Select_CString(TARGET_CHARACTER.IsLocalCharacter, '', TARGET_CHARACTER.GetShortUIName)]."
+ friend_tsagaan_sar_compliment: "[Select_CString(CHARACTER.IsLocalPlayer, 'Tu', CHARACTER.GetShortUIName)|U] e [TARGET_CHARACTER.GetShortUIName] [Select_CString(Or(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'siete', 'sono')] diventati amici dopo che [Select_CString(CHARACTER.IsLocalPlayer, 'Tu', CHARACTER.GetShortUIName)] [Select_CString(CHARACTER.IsLocalPlayer, 'hai', 'ha')] fatto un complimento [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'al tuo abbigliamento', 'all’abbigliamento di ')][Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName)]."
 
  feast_tsagaan_sar_events.0270.t: "Sfida del Calice"
  feast_tsagaan_sar_events.0270.desc: "[drinker.GetName] si avvicina barcollando, con una coppa di [Glossary( 'airag', 'AIRAG_GLOSS' )] in mano. [drinker.GetSheHe|U] sorride, e alza la coppa in un brindisi. "A te, [ROOT.Char.GetFirstNameNoTooltip]!" esclama [drinker.GetFirstNameNoTooltip].\n\nPrendo la coppa e la porto alle labbra. L’airag è forte, e ne sento gli effetti quasi subito. "Scommetto che posso bere più di te," sfida [drinker.GetFirstNameNoTooltip]."
