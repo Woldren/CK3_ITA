@@ -669,7 +669,7 @@ action_reactive_advice_migration_desc: "Come Nomade nella Grande Steppa puoi Mig
 action_reactive_advice_migration_click: "$click_to_open_lesson$"
 
  ra_migration_1: "Migrazione"
- ra_migration_1_desc: "Quando giochi come [nomad|E] nella [the_great_steppe|E] hai la possibilità di [migrate|E].\nLa migrazione è importante per i Nomadi, poiché rappresenta un ottimo modo per trovare nuove terre dove il tuo [herd|E] possa pascolare e crescere.\n\nLa mandria rappresenta il tuo popolo e il suo bestiame, e ha bisogno di terre con buona [county_fertility|E] per nutrirsi. Diamo un’occhiata a come trovare i luoghi migliori nella steppa, dove la fertilità possa giovare a te e al tuo [realm|E]."
+ ra_migration_1_desc: "Quando giochi come [nomad|E] nella [Concept('the_great_steppe', 'Grande Steppa')|E] hai la possibilità di [migrate|E].\nLa migrazione è importante per i Nomadi, poiché rappresenta un ottimo modo per trovare nuove terre dove il tuo [herd|E] possa pascolare e crescere.\n\nLa mandria rappresenta il tuo popolo e il suo bestiame, e ha bisogno di terre con buona [county_fertility|E] per nutrirsi. Diamo un’occhiata a come trovare i luoghi migliori nella steppa, dove la fertilità possa giovare a te e al tuo [realm|E]."
  ra_migration_1_prompt: "Clicca sul pulsante Migrazione (evidenziato)"
 
  ra_migration_1b: "$ra_migration_1$"
